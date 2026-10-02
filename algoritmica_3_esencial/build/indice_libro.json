@@ -1,0 +1,277 @@
+{
+ "entradas": [
+  [
+   1,
+   "Prueba diagnóstica — ¿Qué sabés ya?"
+  ],
+  [
+   1,
+   "UNIDAD 1 — Lenguajes de programación"
+  ],
+  [
+   2,
+   "Clase 1 — ¿Qué es un lenguaje de programación?"
+  ],
+  [
+   2,
+   "Práctica 1 — El cobro de un pedido para llevar, en órdenes precisas y en PSeInt"
+  ],
+  [
+   2,
+   "Clase 2 — Niveles de lenguaje: de la máquina al alto nivel"
+  ],
+  [
+   2,
+   "Práctica 2 — Traductores y errores en acción"
+  ],
+  [
+   2,
+   "Clase 3 — Los cuatro paradigmas de programación"
+  ],
+  [
+   2,
+   "Práctica 3 — Paradigmas en la biblioteca y un acumulador en PSeInt"
+  ],
+  [
+   2,
+   "Clase 4 — Elegir el lenguaje adecuado"
+  ],
+  [
+   2,
+   "Práctica 4 — Elegir la tecnología para la biblioteca escolar"
+  ],
+  [
+   2,
+   "Evaluación de la Unidad 1"
+  ],
+  [
+   1,
+   "UNIDAD 2 — Bases de datos y modelo relacional"
+  ],
+  [
+   2,
+   "Clase 5 — ¿Qué es una base de datos?"
+  ],
+  [
+   2,
+   "Práctica 5 — Del cuaderno de préstamos a datos estructurados"
+  ],
+  [
+   2,
+   "Clase 6 — Tipos y aplicaciones de bases de datos"
+  ],
+  [
+   2,
+   "Práctica 6 — El catálogo de la biblioteca como tabla relacional"
+  ],
+  [
+   2,
+   "Clase 7 — El SGBD y los problemas que resuelve"
+  ],
+  [
+   2,
+   "Práctica 7 — La cantina del colegio: problemas que resuelve un SGBD"
+  ],
+  [
+   2,
+   "Clase 8 — Tablas, campos y registros. Clave principal y foránea"
+  ],
+  [
+   2,
+   "Práctica 8 — Claves de la biblioteca"
+  ],
+  [
+   2,
+   "Clase 9 — Integridad referencial"
+  ],
+  [
+   2,
+   "Práctica 9 — La integridad referencial pone orden en la biblioteca"
+  ],
+  [
+   2,
+   "Clase 10 — La base por dentro: abstracción, usuarios y lenguajes"
+  ],
+  [
+   2,
+   "Práctica 10 — Lenguajes, usuarios y vistas de la biblioteca"
+  ],
+  [
+   2,
+   "Evaluación de la Unidad 2"
+  ],
+  [
+   2,
+   "Evaluación integradora de la 1.ª etapa"
+  ],
+  [
+   1,
+   "UNIDAD 3 — Diseño: Entidad-Relación y normalización"
+  ],
+  [
+   2,
+   "Clase 11 — Modelos de datos: el plano antes de construir"
+  ],
+  [
+   2,
+   "Práctica 11 — El mini-mundo del club deportivo"
+  ],
+  [
+   2,
+   "Clase 12 — Entidades y atributos"
+  ],
+  [
+   2,
+   "Práctica 12 — Las entidades del club: socios y disciplinas"
+  ],
+  [
+   2,
+   "Clase 13 — Relaciones y cardinalidad"
+  ],
+  [
+   2,
+   "Práctica 13 — Cardinalidades del club, leídas en los datos"
+  ],
+  [
+   2,
+   "Clase 14 — El diagrama Entidad-Relación"
+  ],
+  [
+   2,
+   "Práctica 14 — El DER de los talleres del colegio"
+  ],
+  [
+   2,
+   "Clase 15 — Del diagrama a las tablas"
+  ],
+  [
+   2,
+   "Práctica 15 — Del DER de los talleres a las tablas"
+  ],
+  [
+   2,
+   "Clase 16 — Por qué normalizar: anomalías y dependencia funcional"
+  ],
+  [
+   2,
+   "Práctica 16 — Anomalías y dependencias en la planilla de talleres"
+  ],
+  [
+   2,
+   "Clase 17 — Formas normales: 1FN, 2FN y 3FN"
+  ],
+  [
+   2,
+   "Práctica 17 — Normalizar los pedidos de la librería Arasa'i"
+  ],
+  [
+   2,
+   "Evaluación de la Unidad 3"
+  ],
+  [
+   1,
+   "UNIDAD 4 — La base en acción: Access y consultas"
+  ],
+  [
+   2,
+   "Clase 18 — Crear la base en Access: tablas y relaciones"
+  ],
+  [
+   2,
+   "Práctica 18 — La base de la segunda semana, creada en Access"
+  ],
+  [
+   2,
+   "Clase 19 — Filtros y consultas de selección"
+  ],
+  [
+   2,
+   "Práctica 19 — Filtros y consultas sobre la segunda semana"
+  ],
+  [
+   2,
+   "Clase 20 — Consultas paramétricas y con criterios"
+  ],
+  [
+   2,
+   "Práctica 20 — Consultas que preguntan, sobre la segunda semana"
+  ],
+  [
+   2,
+   "Clase 21 — Totales, campos calculados y referencias cruzadas"
+  ],
+  [
+   2,
+   "Práctica 21 — Totales, cálculos y cruces de la segunda semana"
+  ],
+  [
+   2,
+   "Evaluación de la Unidad 4"
+  ],
+  [
+   2,
+   "Evaluación integradora de la 2.ª etapa"
+  ],
+  [
+   1,
+   "Proyecto Final Integrador — La solución digital completa"
+  ]
+ ],
+ "paginas": [
+  5,
+  6,
+  6,
+  10,
+  12,
+  18,
+  20,
+  24,
+  26,
+  30,
+  32,
+  34,
+  34,
+  39,
+  41,
+  45,
+  47,
+  51,
+  53,
+  59,
+  61,
+  66,
+  68,
+  72,
+  74,
+  76,
+  78,
+  78,
+  82,
+  83,
+  87,
+  88,
+  93,
+  94,
+  99,
+  101,
+  106,
+  107,
+  112,
+  114,
+  119,
+  120,
+  122,
+  122,
+  127,
+  130,
+  135,
+  137,
+  141,
+  142,
+  147,
+  149,
+  151,
+  153
+ ],
+ "total": 155
+}

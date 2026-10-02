@@ -1,0 +1,1734 @@
+[
+ {
+  "n": 1,
+  "titulo": "¿Qué es un lenguaje de programación?",
+  "info": {
+   "Docente": "______________________________",
+   "Disciplina": "Algorítmica",
+   "Curso": "3.er Curso — Bachillerato Técnico en Servicios, Informática",
+   "Tiempo": "4 horas cátedra (160 min)",
+   "Unidad": "Unidad 1 — Lenguajes de programación",
+   "Sección": "____________",
+   "Material": "Cuadernillo del estudiante · Clase 1  ·  Cuaderno de Prácticas · Práctica 1",
+   "Fecha": "____ / ____ / 2026",
+   "Tema": "El lenguaje de programación: definición, elementos y campos de aplicación."
+  },
+  "capacidad": "Reconoce qué es un lenguaje de programación y sus campos de aplicación.",
+  "indicadores": [
+   "Define lenguaje de programación con sus propias palabras.",
+   "Distingue entre lenguaje natural y lenguaje de programación.",
+   "Menciona al menos tres campos de aplicación del software."
+  ],
+  "momentos": {
+   "Inicio": [
+    "Aplicación de la prueba diagnóstica de saberes previos que abre el cuadernillo, en hoja propia y sin nota.",
+    "Lluvia de ideas a partir de un pedido dicho en voz alta al modo del mostrador («serviles algo dulce»): registro en la pizarra de las distintas interpretaciones posibles."
+   ],
+   "Desarrollo": [
+    "Lectura guiada de «De la idea a las instrucciones» y «Lenguaje natural y lenguaje de programación», contrastada con la caja «Ejemplo — una orden ambigua y una orden precisa».",
+    "Trabajo con la tabla de campos de aplicación (campo · ejemplo cotidiano · lenguajes frecuentes): cada equipo agrega un ejemplo propio del barrio o del colegio.",
+    "Lectura de la figura 1.3, el ciclo del desarrollo, y del ejemplo resuelto «la primera orden del Copetín»; se marca la vuelta al algoritmo cuando el resultado no es el esperado.",
+    "Resolución escrita de las actividades 1 a 6 del bloque «Ejercitá» y «Resolvé», con atención al error frecuente de confundir sintaxis con semántica (caja «escribir bien no es lo mismo que resolver bien»).",
+    "Resolución de la Práctica 1 «Órdenes precisas» del Cuaderno: secuencia numerada para cobrar 2 chipas y 1 gaseosa."
+   ],
+   "Cierre": [
+    "Verificación colectiva del punto de control de la Práctica 1: el total debe dar G. 14.000 con pasos numerados y sin ambigüedad.",
+    "Puesta en común de las afirmaciones 7 y 8 del bloque «Pensá y decidí», con justificación oral de cada postura.",
+    "Síntesis en la pizarra de la definición de lenguaje de programación construida entre todos y anuncio del recorrido por los niveles de lenguaje."
+   ]
+  },
+  "tiempos": {
+   "Inicio": "40 min",
+   "Desarrollo": "90 min",
+   "Cierre": "30 min"
+  },
+  "recursos": "Cuadernillo de Algorítmica 3.er Curso, Clase 1: tabla de campos de aplicación, figura 1.3 del ciclo del desarrollo, cajas «Ejemplo — una orden ambigua y una orden precisa» y «Concepto clave — escribir bien no es lo mismo que resolver bien», actividades 1 a 8 · Cuaderno de Prácticas, Práctica 1 · prueba diagnóstica del cuadernillo · pizarra y marcadores.",
+  "proc": "Prueba diagnóstica de saberes previos. Lluvia de ideas sobre órdenes precisas; redacción de instrucciones sin ambigüedad.",
+  "inst": "Prueba diagnóstica. Redacción de instrucciones precisas; lista de cotejo de claridad.",
+  "criterios": [
+   "Define lenguaje de programación en sus propios términos, sin repetir la definición del texto.",
+   "Distingue una orden ambigua de una orden precisa y corrige la primera.",
+   "Menciona tres campos de aplicación del software con un ejemplo válido para cada uno."
+  ]
+ },
+ {
+  "n": 2,
+  "titulo": "Niveles de lenguaje y traductores",
+  "info": {
+   "Docente": "______________________________",
+   "Disciplina": "Algorítmica",
+   "Curso": "3.er Curso — Bachillerato Técnico en Servicios, Informática",
+   "Tiempo": "4 horas cátedra (160 min)",
+   "Unidad": "Unidad 1 — Lenguajes de programación",
+   "Sección": "____________",
+   "Material": "Cuadernillo del estudiante · Clase 2  ·  Cuaderno de Prácticas · Práctica 2",
+   "Fecha": "____ / ____ / 2026",
+   "Tema": "Lenguaje de máquina, ensamblador y alto nivel. Compilador e intérprete."
+  },
+  "capacidad": "Establece diferencias entre los niveles de lenguaje y los traductores.",
+  "indicadores": [
+   "Ordena los niveles de lenguaje del más cercano a la máquina al más cercano a la persona.",
+   "Explica la función de un traductor (compilador o intérprete).",
+   "Distingue compilador de intérprete con un ejemplo."
+  ],
+  "momentos": {
+   "Inicio": [
+    "Recuperación de la secuencia numerada de la clase anterior y pregunta disparadora sobre qué entiende la máquina de esa secuencia escrita en castellano.",
+    "Presentación en la pizarra de tres fragmentos —binario, ensamblador y alto nivel— para que el curso los ordene antes de leer el texto."
+   ],
+   "Desarrollo": [
+    "Lectura de «Tres niveles de cercanía a la máquina» con la tabla nivel · cómo se ve · quién lo entiende directo, y confrontación con el orden propuesto en el inicio.",
+    "Análisis de las figuras 1.1 y 1.2: los tres niveles con su camino de traducción y las dos formas de llevar el código fuente a la máquina.",
+    "Lectura comparada de «El traductor: compilador o intérprete» como modelos introductorios y de la caja «Ejemplo — compilar vs. interpretar, con una receta»; se aclara que los entornos modernos pueden combinar compilación previa, bytecode, máquinas virtuales o JIT.",
+    "Lectura de «El proceso de traducción por dentro» con la figura 1.4, la cadena de compilación del código fuente al ejecutable, y resolución de las actividades 1 a 7, incluida la consigna del caso: por qué «total = 2 * 3000» no se ejecuta tal cual.",
+    "Resolución de la Práctica 2 «Niveles de lenguaje» del Cuaderno con los tres fragmentos del modelo."
+   ],
+   "Cierre": [
+    "Contraste del punto de control de la Práctica 2: máquina → ensamblador → alto nivel; la máquina ejecuta código máquina directamente, el ensamblador requiere un programa ensamblador y el alto nivel usa la cadena de traducción/ejecución correspondiente.",
+    "Discusión breve de la afirmación 9, «Un intérprete traduce todo el programa antes de correrlo», aclarando que es falsa como regla general y que pueden coexistir compilación previa, bytecode/VM, JIT e interpretación/runtime."
+   ]
+  },
+  "tiempos": {
+   "Inicio": "40 min",
+   "Desarrollo": "90 min",
+   "Cierre": "30 min"
+  },
+  "recursos": "Cuadernillo de Algorítmica 3.er Curso, Clase 2: figuras 1.1, 1.2 y 1.4, tabla comparativa compilado/interpretado, caja «En Paraguay — PSeInt en el aula», actividades 1 a 9 · Cuaderno de Prácticas, Práctica 2 · pizarra.",
+  "proc": "Comparación guiada de niveles de lenguaje; esquema de compilador vs. intérprete.",
+  "inst": "Ejercicio de ordenamiento de niveles; pregunta de aplicación sobre traductores.",
+  "criterios": [
+   "Ordena correctamente los tres niveles de lenguaje y justifica el orden.",
+   "Explica la función del traductor y distingue compilador de intérprete con un ejemplo.",
+   "Reconoce que el lenguaje de máquina no requiere traducción."
+  ]
+ },
+ {
+  "n": 3,
+  "titulo": "Los cuatro paradigmas de programación",
+  "info": {
+   "Docente": "______________________________",
+   "Disciplina": "Algorítmica",
+   "Curso": "3.er Curso — Bachillerato Técnico en Servicios, Informática",
+   "Tiempo": "4 horas cátedra (160 min)",
+   "Unidad": "Unidad 1 — Lenguajes de programación",
+   "Sección": "____________",
+   "Material": "Cuadernillo del estudiante · Clase 3  ·  Cuaderno de Prácticas · Práctica 3",
+   "Fecha": "____ / ____ / 2026",
+   "Tema": "Paradigmas imperativo, funcional, lógico y orientado a objetos: propiedades."
+  },
+  "capacidad": "Establece diferencias entre los distintos paradigmas de programación.",
+  "indicadores": [
+   "Describe la idea central de cada paradigma.",
+   "Asocia un lenguaje de ejemplo a cada paradigma.",
+   "Distingue el enfoque imperativo del orientado a objetos."
+  ],
+  "momentos": {
+   "Inicio": [
+    "Presentación de dos resoluciones del mismo cálculo de recaudación, una paso a paso y otra por objetos, sin nombrar todavía los paradigmas.",
+    "Registro de las diferencias observadas por el curso entre ambas soluciones."
+   ],
+   "Desarrollo": [
+    "Lectura de «Qué es un paradigma» y de «Los cuatro paradigmas clásicos» con la tabla paradigma · idea central · propiedad clave · lenguaje ejemplo.",
+    "Estudio de la figura 1.5, las tres estructuras del paradigma estructurado, con ejemplos de secuencia, decisión y repetición tomados de la caja del Copetín.",
+    "Lectura de la caja «Concepto clave — paradigma no es lo mismo que lenguaje» para desarmar el error frecuente de identificar un lenguaje con un solo paradigma.",
+    "Elaboración del cuadro comparativo de los cuatro paradigmas y resolución de las actividades 1 a 6, con el ejemplo resuelto «reconocer el paradigma en cinco situaciones» como modelo.",
+    "Resolución de la Práctica 3 «Reconocer paradigmas» del Cuaderno."
+   ],
+   "Cierre": [
+    "Corrección del punto de control de la Práctica 3: Prolog → lógico, Java → orientado a objetos, C → imperativo, Haskell → funcional; el pseudocódigo trabajado en PSeInt se reconoce como estilo imperativo/estructurado.",
+    "Puesta en común del cuadro comparativo y acuerdo del curso sobre la idea central de cada paradigma."
+   ]
+  },
+  "tiempos": {
+   "Inicio": "40 min",
+   "Desarrollo": "90 min",
+   "Cierre": "30 min"
+  },
+  "recursos": "Cuadernillo de Algorítmica 3.er Curso, Clase 3: figura 1.5, tablas de los cuatro paradigmas, cajas «Ejemplo — el mismo problema, dos estilos» y «En Paraguay — qué se enseña acá», actividades 1 a 9 · Cuaderno de Prácticas, Práctica 3 · pizarra.",
+  "proc": "Cuadro comparativo de paradigmas; identificación de estilos en fragmentos dados.",
+  "inst": "Cuadro comparativo de paradigmas evaluado con rúbrica breve.",
+  "criterios": [
+   "Describe la idea central de cada uno de los cuatro paradigmas.",
+   "Asocia cada lenguaje propuesto con su paradigma típico.",
+   "Distingue el enfoque imperativo del orientado a objetos con un ejemplo del caso."
+  ]
+ },
+ {
+  "n": 4,
+  "titulo": "Elegir el lenguaje adecuado",
+  "info": {
+   "Docente": "______________________________",
+   "Disciplina": "Algorítmica",
+   "Curso": "3.er Curso — Bachillerato Técnico en Servicios, Informática",
+   "Tiempo": "4 horas cátedra (160 min)",
+   "Unidad": "Unidad 1 — Lenguajes de programación",
+   "Sección": "____________",
+   "Material": "Cuadernillo del estudiante · Clase 4  ·  Cuaderno de Prácticas · Práctica 4",
+   "Fecha": "____ / ____ / 2026",
+   "Tema": "Criterios para seleccionar un lenguaje de programación."
+  },
+  "capacidad": "Reconoce la importancia de elegir el lenguaje según el problema.",
+  "indicadores": [
+   "Enuncia al menos tres criterios para elegir un lenguaje.",
+   "Justifica una elección de lenguaje para un caso dado.",
+   "Reconoce que no existe un lenguaje «mejor» para todo."
+  ],
+  "momentos": {
+   "Inicio": [
+    "Planteo del encargo del dueño del Copetín —un sistema de gestión de ventas fácil de mantener— y relevamiento de las primeras propuestas del curso, con su justificación.",
+    "Anotación en la pizarra de los criterios implícitos en esas propuestas, para confrontarlos después con los del texto."
+   ],
+   "Desarrollo": [
+    "Lectura de «No hay un lenguaje mejor» y de la tabla criterio · pregunta que responde.",
+    "Análisis del ejemplo resuelto «la matriz de decisión del Copetín» junto con la figura 1.6, que muestra el puntaje ponderado de cada lenguaje.",
+    "Lectura de las cajas «En Paraguay — el mercado local» y «Concepto clave — decidir es documentar»; se advierte el error frecuente de elegir por moda y no por contexto.",
+    "Elaboración individual de la ficha de decisión de lenguaje del caso con justificación por dos criterios (actividades 5 y 6) y resolución de las actividades 1 a 4 y 7 a 8.",
+    "Resolución de la Práctica 4 «Elegir el lenguaje» del Cuaderno."
+   ],
+   "Cierre": [
+    "Síntesis de los aprendizajes y verificación de los indicadores de la Clase 4.\n• Preparación de la continuación práctica: Práctica 4 del Cuaderno de Prácticas.\n• La evaluación de la Unidad 1 se aplicará al cierre de la continuación práctica."
+   ]
+  },
+  "tiempos": {
+   "Inicio": "40 min",
+   "Desarrollo": "90 min",
+   "Cierre": "30 min"
+  },
+  "recursos": "Cuadernillo de Algorítmica 3.er Curso, Clase 4: figura 1.6, tabla de criterios de selección, tabla de lenguajes y territorio típico, ejemplo resuelto de la matriz de decisión, actividades 1 a 9 y evaluación de la Unidad 1 · Cuaderno de Prácticas, Práctica 4 · pizarra.",
+  "proc": "Análisis de casos: elegir lenguaje según criterios con justificación escrita.",
+  "inst": "Ficha de decisión de lenguaje con justificación (dos criterios). Evaluación de la unidad (fotocopiable).",
+  "criterios": [
+   "Enuncia al menos tres criterios de selección de un lenguaje.",
+   "Justifica una elección concreta para el caso con dos criterios explícitos.",
+   "Reconoce que la adecuación depende del contexto y no de la novedad del lenguaje."
+  ]
+ },
+ {
+  "n": 5,
+  "titulo": "Continuación práctica de la Clase 4: Elegir el lenguaje",
+  "info": {
+   "Docente": "______________________________",
+   "Disciplina": "Algorítmica",
+   "Curso": "3.er Curso — Bachillerato Técnico en Servicios, Informática",
+   "Tiempo": "4 horas cátedra (160 min)",
+   "Unidad": "Unidad 1 — Lenguajes de programación",
+   "Sección": "____________",
+   "Material": "Cuaderno de Prácticas · Práctica 4",
+   "Fecha": "____ / ____ / 2026",
+   "Tema": "Práctica 4 · Elegir el lenguaje"
+  },
+  "capacidad": "Reconoce la importancia de elegir el lenguaje según el problema.",
+  "indicadores": [
+   "Enuncia al menos tres criterios para elegir un lenguaje.",
+   "Justifica una elección de lenguaje para un caso dado.",
+   "Reconoce que no existe un lenguaje «mejor» para todo."
+  ],
+  "momentos": {
+   "Inicio": [
+    "Organización del puesto de trabajo y recuperación de las consignas de la Clase 4.\n• Presentación del objetivo de la Práctica 4 y de su punto de control."
+   ],
+   "Desarrollo": [
+    "Desarrollo de la Práctica 4: Elegir el lenguaje.\n• Ejecución ordenada de los pasos del Cuaderno de Prácticas y verificación del resultado esperado.\n• Corrección de errores, repetición de pruebas y resolución del desafío final cuando el tiempo lo permita."
+   ],
+   "Cierre": [
+    "Presentación del producto y comprobación de los puntos de control.\n• Registro breve de dificultades, correcciones realizadas y aprendizaje logrado.\n• Aplicación de la Evaluación de la Unidad 1."
+   ]
+  },
+  "tiempos": {
+   "Inicio": "20 min",
+   "Desarrollo": "100 min",
+   "Cierre": "40 min"
+  },
+  "recursos": "Cuaderno de Prácticas · Práctica 4 · Computadora del laboratorio · archivos y datos del caso Copetín Karumbé",
+  "proc": "Ejecución guiada de la Práctica 4: Elegir el lenguaje; comprobación de puntos de control y corrección de errores.",
+  "inst": "Punto de control: Elección justificada con dos criterios (p. ej. facilidad y soporte de base de datos). · Evaluación de la Unidad 1 fotocopiable.",
+  "criterios": [
+   "Enuncia al menos tres criterios de selección de un lenguaje.",
+   "Justifica una elección concreta para el caso con dos criterios explícitos.",
+   "Reconoce que la adecuación depende del contexto y no de la novedad del lenguaje."
+  ]
+ },
+ {
+  "n": 6,
+  "titulo": "¿Qué es una base de datos?",
+  "info": {
+   "Docente": "______________________________",
+   "Disciplina": "Algorítmica",
+   "Curso": "3.er Curso — Bachillerato Técnico en Servicios, Informática",
+   "Tiempo": "4 horas cátedra (160 min)",
+   "Unidad": "Unidad 2 — Bases de datos y modelo relacional",
+   "Sección": "____________",
+   "Material": "Cuadernillo del estudiante · Clase 5  ·  Cuaderno de Prácticas · Práctica 5",
+   "Fecha": "____ / ____ / 2026",
+   "Tema": "Base de datos: concepto y características. Del archivo suelto a la información organizada."
+  },
+  "capacidad": "Reconoce el concepto, las características y la aplicación de una base de datos.",
+  "indicadores": [
+   "Define base de datos con sus propias palabras.",
+   "Menciona tres características de una base de datos bien organizada.",
+   "Distingue un conjunto de datos sueltos de una base de datos."
+  ],
+  "momentos": {
+   "Inicio": [
+    "Exhibición del cuaderno de ventas del Copetín, con el precio de la gaseosa repetido en cada renglón, y pregunta por lo que ocurre el día que ese precio cambia.",
+    "Registro de las respuestas del curso como hipótesis a verificar durante la clase."
+   ],
+   "Desarrollo": [
+    "Lectura de «Del cuaderno de ventas a la base de datos» y de la tabla característica · qué significa.",
+    "Estudio de la figura 2.3 —dato, información y conocimiento— y del ejemplo resuelto «del renglón del cuaderno al dato estructurado».",
+    "Lectura de la caja «Concepto clave — base de datos» y de «En Paraguay — bases de datos que usás sin darte cuenta», con identificación de registros públicos conocidos por el curso.",
+    "Listado escrito de las características de una base de datos y resolución de las actividades 1 a 8, con foco en el error frecuente de llamar base de datos a cualquier conjunto de datos guardados juntos.",
+    "Resolución de la Práctica 5 «Del cuaderno a la base» del Cuaderno."
+   ],
+   "Cierre": [
+    "Síntesis de los aprendizajes y verificación de los indicadores de la Clase 5.\n• Preparación de la continuación práctica: Práctica 5 del Cuaderno de Prácticas."
+   ]
+  },
+  "tiempos": {
+   "Inicio": "40 min",
+   "Desarrollo": "90 min",
+   "Cierre": "30 min"
+  },
+  "recursos": "Cuadernillo de Algorítmica 3.er Curso, Clase 5: figura 2.3, tabla de características, tabla archivos tradicionales / base de datos, cajas «Concepto clave — base de datos» y «En Paraguay — del cuaderno a la pantalla», actividades 1 a 9 · Cuaderno de Prácticas, Práctica 5 · cuaderno de ventas de muestra · pizarra.",
+  "proc": "Contraste cuaderno de ventas vs. base de datos; listado de características.",
+  "inst": "Listado de características de una base de datos; pregunta abierta.",
+  "criterios": [
+   "Define base de datos con sus propios términos.",
+   "Menciona tres características de una base de datos bien organizada.",
+   "Distingue un conjunto de datos sueltos de una base de datos y fundamenta la diferencia."
+  ]
+ },
+ {
+  "n": 7,
+  "titulo": "Continuación práctica de la Clase 5: Del cuaderno a la base",
+  "info": {
+   "Docente": "______________________________",
+   "Disciplina": "Algorítmica",
+   "Curso": "3.er Curso — Bachillerato Técnico en Servicios, Informática",
+   "Tiempo": "4 horas cátedra (160 min)",
+   "Unidad": "Unidad 2 — Bases de datos y modelo relacional",
+   "Sección": "____________",
+   "Material": "Cuaderno de Prácticas · Práctica 5",
+   "Fecha": "____ / ____ / 2026",
+   "Tema": "Práctica 5 · Del cuaderno a la base"
+  },
+  "capacidad": "Reconoce el concepto, las características y la aplicación de una base de datos.",
+  "indicadores": [
+   "Define base de datos con sus propias palabras.",
+   "Menciona tres características de una base de datos bien organizada.",
+   "Distingue un conjunto de datos sueltos de una base de datos."
+  ],
+  "momentos": {
+   "Inicio": [
+    "Organización del puesto de trabajo y recuperación de las consignas de la Clase 5.\n• Presentación del objetivo de la Práctica 5 y de su punto de control."
+   ],
+   "Desarrollo": [
+    "Desarrollo de la Práctica 5: Del cuaderno a la base.\n• Ejecución ordenada de los pasos del Cuaderno de Prácticas y verificación del resultado esperado.\n• Corrección de errores, repetición de pruebas y resolución del desafío final cuando el tiempo lo permita."
+   ],
+   "Cierre": [
+    "Presentación del producto y comprobación de los puntos de control.\n• Registro breve de dificultades, correcciones realizadas y aprendizaje logrado."
+   ]
+  },
+  "tiempos": {
+   "Inicio": "20 min",
+   "Desarrollo": "120 min",
+   "Cierre": "20 min"
+  },
+  "recursos": "Cuaderno de Prácticas · Práctica 5 · Computadora del laboratorio · archivos y datos del caso Copetín Karumbé",
+  "proc": "Ejecución guiada de la Práctica 5: Del cuaderno a la base; comprobación de puntos de control y corrección de errores.",
+  "inst": "Punto de control: Identificás la redundancia y proponés guardar el precio una vez en Productos.",
+  "criterios": [
+   "Define base de datos con sus propios términos.",
+   "Menciona tres características de una base de datos bien organizada.",
+   "Distingue un conjunto de datos sueltos de una base de datos y fundamenta la diferencia."
+  ]
+ },
+ {
+  "n": 8,
+  "titulo": "Tipos y aplicaciones. Modelo relacional",
+  "info": {
+   "Docente": "______________________________",
+   "Disciplina": "Algorítmica",
+   "Curso": "3.er Curso — Bachillerato Técnico en Servicios, Informática",
+   "Tiempo": "4 horas cátedra (160 min)",
+   "Unidad": "Unidad 2 — Bases de datos y modelo relacional",
+   "Sección": "____________",
+   "Material": "Cuadernillo del estudiante · Clase 6  ·  Cuaderno de Prácticas · Práctica 6",
+   "Fecha": "____ / ____ / 2026",
+   "Tema": "Tipos de bases de datos. El modelo relacional. Aplicaciones."
+  },
+  "capacidad": "Reconoce los tipos de bases de datos y sus campos de aplicación.",
+  "indicadores": [
+   "Menciona tipos de bases de datos según su modelo.",
+   "Explica qué organiza el modelo relacional.",
+   "Asocia una base de datos a un campo de aplicación."
+  ],
+  "momentos": {
+   "Inicio": [
+    "Recuperación de la conclusión de la clase anterior sobre guardar cada dato una sola vez y planteo de la pregunta sobre dónde se guarda entonces cada cosa.",
+    "Presentación de los seis productos del Copetín en desorden, para que el curso proponga cómo organizarlos."
+   ],
+   "Desarrollo": [
+    "Lectura de «El modelo relacional: todo en tablas» y armado de la tabla Productos del caso con sus columnas código, nombre, categoría y precio.",
+    "Identificación de fila y columna sobre la tabla construida, con la caja «Ejemplo — una tabla es una relación» como referencia.",
+    "Lectura de «Otros modelos: jerárquico, en red y no relacional» y análisis de la figura 2.4, que compara el árbol jerárquico con las tablas del modelo relacional.",
+    "Resolución de las actividades 1 a 8, con atención al error frecuente de llamar registro a la columna.",
+    "Resolución de la Práctica 6 «La tabla Productos» del Cuaderno."
+   ],
+   "Cierre": [
+    "Síntesis de los aprendizajes y verificación de los indicadores de la Clase 6.\n• Preparación de la continuación práctica: Práctica 6 del Cuaderno de Prácticas."
+   ]
+  },
+  "tiempos": {
+   "Inicio": "40 min",
+   "Desarrollo": "90 min",
+   "Cierre": "30 min"
+  },
+  "recursos": "Cuadernillo de Algorítmica 3.er Curso, Clase 6: figura 2.4, tabla Productos del Copetín, tabla de modelos de datos, cajas «Concepto clave — modelo relacional» y «En Paraguay — Access en el laboratorio», actividades 1 a 9 · Cuaderno de Prácticas, Práctica 6 · pizarra.",
+  "proc": "Reconocimiento del modelo relacional; armado de la tabla Productos del caso.",
+  "inst": "Construcción de la tabla Productos; identificación de filas y columnas.",
+  "criterios": [
+   "Menciona tipos de bases de datos según su modelo.",
+   "Explica qué organiza el modelo relacional y lo aplica al caso.",
+   "Construye la tabla Productos con sus campos y distingue fila de columna."
+  ]
+ },
+ {
+  "n": 9,
+  "titulo": "Continuación práctica de la Clase 6: La tabla Productos",
+  "info": {
+   "Docente": "______________________________",
+   "Disciplina": "Algorítmica",
+   "Curso": "3.er Curso — Bachillerato Técnico en Servicios, Informática",
+   "Tiempo": "4 horas cátedra (160 min)",
+   "Unidad": "Unidad 2 — Bases de datos y modelo relacional",
+   "Sección": "____________",
+   "Material": "Cuaderno de Prácticas · Práctica 6",
+   "Fecha": "____ / ____ / 2026",
+   "Tema": "Práctica 6 · La tabla Productos"
+  },
+  "capacidad": "Reconoce los tipos de bases de datos y sus campos de aplicación.",
+  "indicadores": [
+   "Menciona tipos de bases de datos según su modelo.",
+   "Explica qué organiza el modelo relacional.",
+   "Asocia una base de datos a un campo de aplicación."
+  ],
+  "momentos": {
+   "Inicio": [
+    "Organización del puesto de trabajo y recuperación de las consignas de la Clase 6.\n• Presentación del objetivo de la Práctica 6 y de su punto de control."
+   ],
+   "Desarrollo": [
+    "Desarrollo de la Práctica 6: La tabla Productos.\n• Ejecución ordenada de los pasos del Cuaderno de Prácticas y verificación del resultado esperado.\n• Corrección de errores, repetición de pruebas y resolución del desafío final cuando el tiempo lo permita."
+   ],
+   "Cierre": [
+    "Presentación del producto y comprobación de los puntos de control.\n• Registro breve de dificultades, correcciones realizadas y aprendizaje logrado."
+   ]
+  },
+  "tiempos": {
+   "Inicio": "20 min",
+   "Desarrollo": "120 min",
+   "Cierre": "20 min"
+  },
+  "recursos": "Cuaderno de Prácticas · Práctica 6 · Computadora del laboratorio · archivos y datos del caso Copetín Karumbé",
+  "proc": "Ejecución guiada de la Práctica 6: La tabla Productos; comprobación de puntos de control y corrección de errores.",
+  "inst": "Punto de control: Tabla Productos con 6 registros; identificás correctamente fila y columna.",
+  "criterios": [
+   "Menciona tipos de bases de datos según su modelo.",
+   "Explica qué organiza el modelo relacional y lo aplica al caso.",
+   "Construye la tabla Productos con sus campos y distingue fila de columna."
+  ]
+ },
+ {
+  "n": 10,
+  "titulo": "El SGBD y los problemas que resuelve",
+  "info": {
+   "Docente": "______________________________",
+   "Disciplina": "Algorítmica",
+   "Curso": "3.er Curso — Bachillerato Técnico en Servicios, Informática",
+   "Tiempo": "4 horas cátedra (160 min)",
+   "Unidad": "Unidad 2 — Bases de datos y modelo relacional",
+   "Sección": "____________",
+   "Material": "Cuadernillo del estudiante · Clase 7  ·  Cuaderno de Prácticas · Práctica 7",
+   "Fecha": "____ / ____ / 2026",
+   "Tema": "El SGBD. Redundancia, inconsistencia, integridad, concurrencia y seguridad."
+  },
+  "capacidad": "Utiliza conceptos de sistema de gestión de base de datos y sus propósitos.",
+  "indicadores": [
+   "Explica qué es un SGBD.",
+   "Menciona tres problemas del manejo desordenado de datos.",
+   "Asocia un problema con la solución que aporta un SGBD."
+  ],
+  "momentos": {
+   "Inicio": [
+    "Planteo de una situación de mostrador: dos personas registran ventas al mismo tiempo y el precio de la gaseosa figura distinto en dos lugares.",
+    "Clasificación oral de los problemas que el curso reconoce en esa situación."
+   ],
+   "Desarrollo": [
+    "Lectura de «Qué es un SGBD» y de la tabla problema · qué es · cómo ayuda el SGBD.",
+    "Análisis de la figura 2.5, el SGBD como intermediario, con la lectura de los permisos de cada tipo de usuario.",
+    "Trabajo con la caja «Ejemplo — redundancia e inconsistencia en el Copetín» y con «Concepto clave — un solo portero», para separar los dos conceptos que suelen confundirse.",
+    "Asociación escrita problema–solución y resolución de las actividades 1 a 8, incluida la consigna sobre permisos diferenciados para el dueño y el empleado.",
+    "Resolución de la Práctica 7 «Problemas que resuelve el SGBD» del Cuaderno."
+   ],
+   "Cierre": [
+    "Síntesis de los aprendizajes y verificación de los indicadores de la Clase 7.\n• Preparación de la continuación práctica: Práctica 7 del Cuaderno de Prácticas."
+   ]
+  },
+  "tiempos": {
+   "Inicio": "40 min",
+   "Desarrollo": "90 min",
+   "Cierre": "30 min"
+  },
+  "recursos": "Cuadernillo de Algorítmica 3.er Curso, Clase 7: figura 2.5, tabla de problemas que resuelve el SGBD, tabla de funciones definir/manipular/controlar, cajas «Concepto clave — SGBD» y «En Paraguay — la copia de seguridad no es opcional», actividades 1 a 9 · Cuaderno de Prácticas, Práctica 7 · pizarra.",
+  "proc": "Identificación de problemas del dato desordenado; asociación problema-solución del SGBD.",
+  "inst": "Asociación problema-solución; explicación de redundancia e inconsistencia.",
+  "criterios": [
+   "Explica qué es un SGBD y lo distingue de la base de datos.",
+   "Menciona tres problemas del manejo desordenado de datos.",
+   "Asocia cada problema con la solución concreta que aporta el SGBD."
+  ]
+ },
+ {
+  "n": 11,
+  "titulo": "Continuación práctica de la Clase 7: Problemas que resuelve el SGBD",
+  "info": {
+   "Docente": "______________________________",
+   "Disciplina": "Algorítmica",
+   "Curso": "3.er Curso — Bachillerato Técnico en Servicios, Informática",
+   "Tiempo": "4 horas cátedra (160 min)",
+   "Unidad": "Unidad 2 — Bases de datos y modelo relacional",
+   "Sección": "____________",
+   "Material": "Cuaderno de Prácticas · Práctica 7",
+   "Fecha": "____ / ____ / 2026",
+   "Tema": "Práctica 7 · Problemas que resuelve el SGBD"
+  },
+  "capacidad": "Utiliza conceptos de sistema de gestión de base de datos y sus propósitos.",
+  "indicadores": [
+   "Explica qué es un SGBD.",
+   "Menciona tres problemas del manejo desordenado de datos.",
+   "Asocia un problema con la solución que aporta un SGBD."
+  ],
+  "momentos": {
+   "Inicio": [
+    "Organización del puesto de trabajo y recuperación de las consignas de la Clase 7.\n• Presentación del objetivo de la Práctica 7 y de su punto de control."
+   ],
+   "Desarrollo": [
+    "Desarrollo de la Práctica 7: Problemas que resuelve el SGBD.\n• Ejecución ordenada de los pasos del Cuaderno de Prácticas y verificación del resultado esperado.\n• Corrección de errores, repetición de pruebas y resolución del desafío final cuando el tiempo lo permita."
+   ],
+   "Cierre": [
+    "Presentación del producto y comprobación de los puntos de control.\n• Registro breve de dificultades, correcciones realizadas y aprendizaje logrado."
+   ]
+  },
+  "tiempos": {
+   "Inicio": "20 min",
+   "Desarrollo": "120 min",
+   "Cierre": "20 min"
+  },
+  "recursos": "Cuaderno de Prácticas · Práctica 7 · Computadora del laboratorio · archivos y datos del caso Copetín Karumbé",
+  "proc": "Ejecución guiada de la Práctica 7: Problemas que resuelve el SGBD; comprobación de puntos de control y corrección de errores.",
+  "inst": "Punto de control: Emparejamiento correcto y ejemplo válido (precio repetido → no redundancia).",
+  "criterios": [
+   "Explica qué es un SGBD y lo distingue de la base de datos.",
+   "Menciona tres problemas del manejo desordenado de datos.",
+   "Asocia cada problema con la solución concreta que aporta el SGBD."
+  ]
+ },
+ {
+  "n": 12,
+  "titulo": "Tablas, campos, registros y claves",
+  "info": {
+   "Docente": "______________________________",
+   "Disciplina": "Algorítmica",
+   "Curso": "3.er Curso — Bachillerato Técnico en Servicios, Informática",
+   "Tiempo": "4 horas cátedra (160 min)",
+   "Unidad": "Unidad 2 — Bases de datos y modelo relacional",
+   "Sección": "____________",
+   "Material": "Cuadernillo del estudiante · Clase 8  ·  Cuaderno de Prácticas · Práctica 8",
+   "Fecha": "____ / ____ / 2026",
+   "Tema": "Tablas, campos y registros. Clave principal y clave foránea (FK). Nota curricular: el programa MEC utiliza también la expresión «clave secundaria»; aquí se usa «foránea» para la clave que referencia otra tabla."
+  },
+  "capacidad": "Analiza la composición de una base de datos: tablas, claves y relaciones.",
+  "indicadores": [
+   "Identifica campos y registros en una tabla.",
+   "Reconoce la clave principal de una tabla.",
+   "Explica para qué sirve una clave foránea."
+  ],
+  "momentos": {
+   "Inicio": [
+    "Lectura del renglón de la venta V3 del caso, que registra el cliente C01, y pregunta por el modo de averiguar de quién se trata.",
+    "Anotación de la pregunta pendiente en la pizarra, para retomarla al final del desarrollo."
+   ],
+   "Desarrollo": [
+    "Lectura de «Las piezas: tabla, campo y registro» y marcado de campos y registros sobre la tabla Productos del caso.",
+    "Estudio de las figuras 2.1 y 2.6: el campo cliente de Ventas apuntando al código de Clientes, y la tabla Ventas con su clave principal y su clave foránea.",
+    "Análisis de la tabla candidata a clave · ¿sirve? · por qué, con la caja «Concepto clave — la clave artificial» para el error frecuente de elegir el nombre como clave.",
+    "Resolución de las actividades 1 a 9, con seguimiento explícito de la clave foránea de la venta V3 hasta la tabla Clientes.",
+    "Resolución de la Práctica 8 «Claves principal y foránea» del Cuaderno."
+   ],
+   "Cierre": [
+    "Síntesis de los aprendizajes y verificación de los indicadores de la Clase 8.\n• Preparación de la continuación práctica: Práctica 8 del Cuaderno de Prácticas."
+   ]
+  },
+  "tiempos": {
+   "Inicio": "40 min",
+   "Desarrollo": "90 min",
+   "Cierre": "30 min"
+  },
+  "recursos": "Cuadernillo de Algorítmica 3.er Curso, Clase 8: figuras 2.1 y 2.6, tablas Productos y Ventas del Copetín, tabla de tipos de datos, cajas «Concepto clave — clave principal y clave foránea» y «En Paraguay — una clave principal de todos los días», actividades 1 a 10 · Cuaderno de Prácticas, Práctica 8 · pizarra.",
+  "proc": "Marcado de campos, registros y claves sobre las tablas del caso.",
+  "inst": "Identificación de clave principal y foránea en las tablas del caso.",
+  "criterios": [
+   "Identifica campos y registros en una tabla del caso.",
+   "Reconoce la clave principal y fundamenta por qué sirve.",
+   "Explica la función de la clave foránea y la sigue hasta la tabla destino."
+  ]
+ },
+ {
+  "n": 13,
+  "titulo": "Continuación práctica de la Clase 8: Claves principal y foránea",
+  "info": {
+   "Docente": "______________________________",
+   "Disciplina": "Algorítmica",
+   "Curso": "3.er Curso — Bachillerato Técnico en Servicios, Informática",
+   "Tiempo": "4 horas cátedra (160 min)",
+   "Unidad": "Unidad 2 — Bases de datos y modelo relacional",
+   "Sección": "____________",
+   "Material": "Cuaderno de Prácticas · Práctica 8",
+   "Fecha": "____ / ____ / 2026",
+   "Tema": "Práctica 8 · Claves principal y foránea"
+  },
+  "capacidad": "Analiza la composición de una base de datos: tablas, claves y relaciones.",
+  "indicadores": [
+   "Identifica campos y registros en una tabla.",
+   "Reconoce la clave principal de una tabla.",
+   "Explica para qué sirve una clave foránea."
+  ],
+  "momentos": {
+   "Inicio": [
+    "Organización del puesto de trabajo y recuperación de las consignas de la Clase 8.\n• Presentación del objetivo de la Práctica 8 y de su punto de control."
+   ],
+   "Desarrollo": [
+    "Desarrollo de la Práctica 8: Claves principal y foránea.\n• Ejecución ordenada de los pasos del Cuaderno de Prácticas y verificación del resultado esperado.\n• Corrección de errores, repetición de pruebas y resolución del desafío final cuando el tiempo lo permita."
+   ],
+   "Cierre": [
+    "Presentación del producto y comprobación de los puntos de control.\n• Registro breve de dificultades, correcciones realizadas y aprendizaje logrado."
+   ]
+  },
+  "tiempos": {
+   "Inicio": "20 min",
+   "Desarrollo": "120 min",
+   "Cierre": "20 min"
+  },
+  "recursos": "Cuaderno de Prácticas · Práctica 8 · Computadora del laboratorio · archivos y datos del caso Copetín Karumbé",
+  "proc": "Ejecución guiada de la Práctica 8: Claves principal y foránea; comprobación de puntos de control y corrección de errores.",
+  "inst": "Punto de control: Clave principal = código; foránea = cliente → Clientes; C01 = Rosa Duarte.",
+  "criterios": [
+   "Identifica campos y registros en una tabla del caso.",
+   "Reconoce la clave principal y fundamenta por qué sirve.",
+   "Explica la función de la clave foránea y la sigue hasta la tabla destino."
+  ]
+ },
+ {
+  "n": 14,
+  "titulo": "Integridad referencial",
+  "info": {
+   "Docente": "______________________________",
+   "Disciplina": "Algorítmica",
+   "Curso": "3.er Curso — Bachillerato Técnico en Servicios, Informática",
+   "Tiempo": "4 horas cátedra (160 min)",
+   "Unidad": "Unidad 2 — Bases de datos y modelo relacional",
+   "Sección": "____________",
+   "Material": "Cuadernillo del estudiante · Clase 9  ·  Cuaderno de Prácticas · Práctica 9",
+   "Fecha": "____ / ____ / 2026",
+   "Tema": "Integridad referencial: reglas que protegen la coherencia entre tablas."
+  },
+  "capacidad": "Reconoce la integridad referencial en las relaciones entre tablas.",
+  "indicadores": [
+   "Explica qué es la integridad referencial.",
+   "Reconoce una operación que la viola.",
+   "Justifica por qué protege la coherencia de los datos."
+  ],
+  "momentos": {
+   "Inicio": [
+    "Intento simulado de registrar una venta con el cliente C09, que no existe en la tabla Clientes, y pregunta por lo que debería hacer el sistema.",
+    "Registro de las dos posturas del curso —aceptar o rechazar— como punto de partida."
+   ],
+   "Desarrollo": [
+    "Lectura de «No se puede apuntar a lo que no existe» y de «Las dos reglas básicas», con la tabla operación · ¿la permite el SGBD? · por qué.",
+    "Análisis de las figuras 2.2 y 2.7: qué acepta y qué rechaza el SGBD, y el razonamiento previo a la orden de borrar un cliente.",
+    "Trabajo con la caja «Ejemplo — una venta huérfana» y con «Concepto clave — borrar no es actualizar», para diferenciar el riesgo de las dos cascadas.",
+    "Resolución de casos permitido/prohibido de las actividades 1 a 8, incluido el intento de borrar a Rosa (C01) con las ventas V1 y V3 registradas.",
+    "Resolución de la Práctica 9 «Integridad referencial» del Cuaderno."
+   ],
+   "Cierre": [
+    "Síntesis de los aprendizajes y verificación de los indicadores de la Clase 9.\n• Preparación de la continuación práctica: Práctica 9 del Cuaderno de Prácticas."
+   ]
+  },
+  "tiempos": {
+   "Inicio": "40 min",
+   "Desarrollo": "90 min",
+   "Cierre": "30 min"
+  },
+  "recursos": "Cuadernillo de Algorítmica 3.er Curso, Clase 9: figuras 2.2 y 2.7, tabla de operaciones permitidas y prohibidas, tabla restringir/propagar/anular, cajas «Concepto clave — integridad referencial» y «Aplicación profesional — trazabilidad e integridad», actividades 1 a 9 · Cuaderno de Prácticas, Práctica 9 · pizarra.",
+  "proc": "Análisis de operaciones permitidas y prohibidas por la integridad referencial.",
+  "inst": "Resolución de casos de integridad referencial (permitido/prohibido).",
+  "criterios": [
+   "Explica qué es la integridad referencial en sus propios términos.",
+   "Reconoce una operación que la viola y la fundamenta con los datos del caso.",
+   "Justifica de qué manera protege la coherencia de los datos."
+  ]
+ },
+ {
+  "n": 15,
+  "titulo": "Continuación práctica de la Clase 9: Integridad referencial",
+  "info": {
+   "Docente": "______________________________",
+   "Disciplina": "Algorítmica",
+   "Curso": "3.er Curso — Bachillerato Técnico en Servicios, Informática",
+   "Tiempo": "4 horas cátedra (160 min)",
+   "Unidad": "Unidad 2 — Bases de datos y modelo relacional",
+   "Sección": "____________",
+   "Material": "Cuaderno de Prácticas · Práctica 9",
+   "Fecha": "____ / ____ / 2026",
+   "Tema": "Práctica 9 · Integridad referencial"
+  },
+  "capacidad": "Reconoce la integridad referencial en las relaciones entre tablas.",
+  "indicadores": [
+   "Explica qué es la integridad referencial.",
+   "Reconoce una operación que la viola.",
+   "Justifica por qué protege la coherencia de los datos."
+  ],
+  "momentos": {
+   "Inicio": [
+    "Organización del puesto de trabajo y recuperación de las consignas de la Clase 9.\n• Presentación del objetivo de la Práctica 9 y de su punto de control."
+   ],
+   "Desarrollo": [
+    "Desarrollo de la Práctica 9: Integridad referencial.\n• Ejecución ordenada de los pasos del Cuaderno de Prácticas y verificación del resultado esperado.\n• Corrección de errores, repetición de pruebas y resolución del desafío final cuando el tiempo lo permita."
+   ],
+   "Cierre": [
+    "Presentación del producto y comprobación de los puntos de control.\n• Registro breve de dificultades, correcciones realizadas y aprendizaje logrado."
+   ]
+  },
+  "tiempos": {
+   "Inicio": "20 min",
+   "Desarrollo": "120 min",
+   "Cierre": "20 min"
+  },
+  "recursos": "Cuaderno de Prácticas · Práctica 9 · Computadora del laboratorio · archivos y datos del caso Copetín Karumbé",
+  "proc": "Ejecución guiada de la Práctica 9: Integridad referencial; comprobación de puntos de control y corrección de errores.",
+  "inst": "Punto de control: Permitidas: venta C01 y borrar cliente sin ventas; prohibidas: venta C09 y borrar C01.",
+  "criterios": [
+   "Explica qué es la integridad referencial en sus propios términos.",
+   "Reconoce una operación que la viola y la fundamenta con los datos del caso.",
+   "Justifica de qué manera protege la coherencia de los datos."
+  ]
+ },
+ {
+  "n": 16,
+  "titulo": "Abstracción, usuarios y lenguajes (DDL/DML)",
+  "info": {
+   "Docente": "______________________________",
+   "Disciplina": "Algorítmica",
+   "Curso": "3.er Curso — Bachillerato Técnico en Servicios, Informática",
+   "Tiempo": "4 horas cátedra (160 min)",
+   "Unidad": "Unidad 2 — Bases de datos y modelo relacional",
+   "Sección": "____________",
+   "Material": "Cuadernillo del estudiante · Clase 10  ·  Cuaderno de Prácticas · Práctica 10",
+   "Fecha": "____ / ____ / 2026",
+   "Tema": "Niveles de abstracción (físico, lógico, vistas). Tipos de usuario. DDL y DML."
+  },
+  "capacidad": "Identifica los niveles de abstracción, los tipos de usuario y los lenguajes de datos.",
+  "indicadores": [
+   "Nombra los tres niveles de abstracción de datos.",
+   "Distingue tipos de usuario de una base de datos.",
+   "Diferencia un lenguaje de definición de uno de manipulación de datos."
+  ],
+  "momentos": {
+   "Inicio": [
+    "Comparación de dos pantallas descritas oralmente: la del empleado de la caja y la del dueño del Copetín, con la pregunta de por qué no muestran lo mismo.",
+    "Listado de los datos que cada uno necesita ver, según el criterio del curso."
+   ],
+   "Desarrollo": [
+    "Lectura de «Tres niveles de abstracción» con la tabla nivel · qué describe · quién lo usa.",
+    "Lectura de «Tipos de usuario» y de la caja «Ejemplo — una vista para el Copetín», con la propuesta escrita de dos vistas distintas del caso.",
+    "Clasificación de tareas en DDL y DML con la tabla lenguaje · órdenes típicas · sobre qué actúan, atendiendo al error frecuente de ubicar «agregar un campo» entre las tareas de manipulación.",
+    "Resolución de las actividades 1 a 9, incluida la clasificación de las cuatro tareas del caso.",
+    "Resolución de la Práctica 10 «DDL, DML y vistas» del Cuaderno."
+   ],
+   "Cierre": [
+    "Síntesis de los aprendizajes y verificación de los indicadores de la Clase 10.\n• Preparación de la continuación práctica: Práctica 10 del Cuaderno de Prácticas.\n• La evaluación de la Unidad 2 se aplicará al cierre de la continuación práctica."
+   ]
+  },
+  "tiempos": {
+   "Inicio": "40 min",
+   "Desarrollo": "90 min",
+   "Cierre": "30 min"
+  },
+  "recursos": "Cuadernillo de Algorítmica 3.er Curso, Clase 10: tabla de niveles de abstracción, tabla DDL/DML, tabla de cambios e independencia de datos, cajas «Concepto clave — DDL y DML» y «En Paraguay — lo que verás en Access», actividades 1 a 9 y evaluación de la Unidad 2 · Cuaderno de Prácticas, Práctica 10 · pizarra.",
+  "proc": "Clasificación de tareas en DDL/DML; descripción de vistas para distintos usuarios.",
+  "inst": "Clasificación DDL/DML; propuesta de dos vistas del caso. Evaluación de la unidad (fotocopiable).",
+  "criterios": [
+   "Nombra los tres niveles de abstracción de datos y los describe.",
+   "Distingue los tipos de usuario según lo que cada uno necesita ver.",
+   "Clasifica correctamente tareas de definición y de manipulación de datos."
+  ]
+ },
+ {
+  "n": 17,
+  "titulo": "Continuación práctica de la Clase 10: DDL, DML y vistas",
+  "info": {
+   "Docente": "______________________________",
+   "Disciplina": "Algorítmica",
+   "Curso": "3.er Curso — Bachillerato Técnico en Servicios, Informática",
+   "Tiempo": "4 horas cátedra (160 min)",
+   "Unidad": "Unidad 2 — Bases de datos y modelo relacional",
+   "Sección": "____________",
+   "Material": "Cuaderno de Prácticas · Práctica 10",
+   "Fecha": "____ / ____ / 2026",
+   "Tema": "Práctica 10 · DDL, DML y vistas"
+  },
+  "capacidad": "Identifica los niveles de abstracción, los tipos de usuario y los lenguajes de datos.",
+  "indicadores": [
+   "Nombra los tres niveles de abstracción de datos.",
+   "Distingue tipos de usuario de una base de datos.",
+   "Diferencia un lenguaje de definición de uno de manipulación de datos."
+  ],
+  "momentos": {
+   "Inicio": [
+    "Organización del puesto de trabajo y recuperación de las consignas de la Clase 10.\n• Presentación del objetivo de la Práctica 10 y de su punto de control."
+   ],
+   "Desarrollo": [
+    "Desarrollo de la Práctica 10: DDL, DML y vistas.\n• Ejecución ordenada de los pasos del Cuaderno de Prácticas y verificación del resultado esperado.\n• Corrección de errores, repetición de pruebas y resolución del desafío final cuando el tiempo lo permita."
+   ],
+   "Cierre": [
+    "Presentación del producto y comprobación de los puntos de control.\n• Registro breve de dificultades, correcciones realizadas y aprendizaje logrado.\n• Aplicación de la Evaluación de la Unidad 2."
+   ]
+  },
+  "tiempos": {
+   "Inicio": "20 min",
+   "Desarrollo": "100 min",
+   "Cierre": "40 min"
+  },
+  "recursos": "Cuaderno de Prácticas · Práctica 10 · Computadora del laboratorio · archivos y datos del caso Copetín Karumbé",
+  "proc": "Ejecución guiada de la Práctica 10: DDL, DML y vistas; comprobación de puntos de control y corrección de errores.",
+  "inst": "Punto de control: DDL: crear tabla y agregar campo; DML: registrar y consultar; vistas coherentes. · Evaluación de la Unidad 2 fotocopiable.",
+  "criterios": [
+   "Nombra los tres niveles de abstracción de datos y los describe.",
+   "Distingue los tipos de usuario según lo que cada uno necesita ver.",
+   "Clasifica correctamente tareas de definición y de manipulación de datos."
+  ]
+ },
+ {
+  "n": 18,
+  "titulo": "Evaluación integradora de la 1.ª etapa",
+  "info": {
+   "Docente": "______________________________",
+   "Disciplina": "Algorítmica",
+   "Curso": "3.er Curso — Bachillerato Técnico en Servicios, Informática",
+   "Tiempo": "4 horas cátedra (160 min)",
+   "Unidad": "Cierre de la 1.ª etapa — Unidades 1 y 2",
+   "Sección": "____________",
+   "Material": "Cuadernillo del estudiante · prueba integradora fotocopiable en hoja propia",
+   "Fecha": "____ / ____ / 2026",
+   "Tema": "Evaluación integradora de la 1.ª etapa (Unidades 1 y 2)"
+  },
+  "capacidad": "Reconoce tipos, niveles y paradigmas de lenguajes de programación y criterios para elegirlos. Reconoce el concepto de base de datos, el SGBD, las tablas, las claves, la integridad referencial y los lenguajes de datos.",
+  "indicadores": [
+   "Ordena los niveles de lenguaje y explica la función del traductor.",
+   "Justifica la elección de un lenguaje para el caso con al menos dos criterios.",
+   "Diseña una tabla con su clave principal y explica la integridad referencial con un ejemplo."
+  ],
+  "momentos": {
+   "Inicio": [
+    "Lectura en voz alta de la consigna general y de las dos partes de la prueba, con aclaración de dudas de comprensión y sin adelantar respuestas.",
+    "Recordatorio de las condiciones: resolución individual, escrita, sin uso de la máquina."
+   ],
+   "Desarrollo": [
+    "Resolución individual de la Parte A, de diagnóstico rápido: tres consignas de opción múltiple sobre paradigmas, modelo relacional y redundancia.",
+    "Resolución individual de la Parte B, de resolución y aplicación: orden de los niveles de lenguaje y función del traductor, elección justificada de lenguaje para el caso, diseño de la tabla Productos con su clave principal, integridad referencial con un ejemplo de violación y cálculo paso a paso del total de una venta.",
+    "Acompañamiento del docente por las filas, con lectura de consigna a quien lo requiera y control del tiempo restante anunciado a la mitad y a los diez minutos del final."
+   ],
+   "Cierre": [
+    "Entrega de las hojas y registro de la nómina de entrega.",
+    "Comentario general oral sobre las dos consignas que concentraron más consultas, sin resolverlas, y anuncio de la devolución escrita para la semana siguiente."
+   ]
+  },
+  "tiempos": {
+   "Inicio": "40 min",
+   "Desarrollo": "90 min",
+   "Cierre": "30 min"
+  },
+  "recursos": "Prueba integradora de la 1.ª etapa, fotocopiable, del Cuadernillo de Algorítmica 3.er Curso (hoja propia, al cierre de la Unidad 2) · hojas de resolución · pizarra para el registro del tiempo. No se utiliza la máquina en esta sesión.",
+  "proc": "Resolución individual de la prueba integradora.",
+  "inst": "Prueba escrita integradora fotocopiable (diagnóstico + resolución).",
+  "criterios": [
+   "Resuelve de forma individual, sin consulta de material, y dentro del tiempo previsto.",
+   "Fundamenta cada elección con criterios explícitos y no con preferencias personales.",
+   "Emplea con precisión el vocabulario técnico de la etapa: campo, registro, clave, redundancia.",
+   "Presenta el cálculo del total con las órdenes numeradas y el resultado verificable."
+  ]
+ },
+ {
+  "n": 19,
+  "titulo": "Modelos de datos: el plano previo",
+  "info": {
+   "Docente": "______________________________",
+   "Disciplina": "Algorítmica",
+   "Curso": "3.er Curso — Bachillerato Técnico en Servicios, Informática",
+   "Tiempo": "4 horas cátedra (160 min)",
+   "Unidad": "Unidad 3 — Diseño: Entidad-Relación y normalización",
+   "Sección": "____________",
+   "Material": "Cuadernillo del estudiante · Clase 11  ·  Cuaderno de Prácticas · Práctica 11",
+   "Fecha": "____ / ____ / 2026",
+   "Tema": "Modelos de datos. El diseño como plano previo a la base."
+  },
+  "capacidad": "Analiza los diferentes modelos de datos.",
+  "indicadores": [
+   "Explica qué es un modelo de datos.",
+   "Menciona al menos dos modelos de datos.",
+   "Justifica por qué conviene diseñar antes de crear las tablas."
+  ],
+  "momentos": {
+   "Inicio": [
+    "Planteo de la orden de abrir el gestor y crear tablas de inmediato, y discusión sobre qué haría falta decidir antes de esa apertura.",
+    "Analogía con el plano de una casa, propuesta por el curso y anotada en la pizarra."
+   ],
+   "Desarrollo": [
+    "Lectura de «Diseñar antes de crear» y de la tabla modelo de datos · idea central.",
+    "Estudio de la figura 3.5, las tres fases del diseño, del DER en papel a la base creada en el gestor.",
+    "Elaboración en papel del modelo de datos del caso a partir del ejemplo resuelto «delimitar el mini-mundo del Copetín», con la caja «Concepto clave — el modelo responde preguntas» como control.",
+    "Trabajo con la tabla técnica · qué revela · en el Copetín y con el ejemplo resuelto de la entrevista al dueño, para practicar el relevamiento de requisitos.",
+    "Resolución de las actividades 1 a 8 y de la Práctica 11 «El modelo de datos» del Cuaderno."
+   ],
+   "Cierre": [
+    "Verificación del punto de control de la Práctica 11: el modelo nombra productos, clientes y ventas, y explicita que cada venta es de un cliente y puede tener varios productos.",
+    "Puesta en común de la frase que describe el modelo de datos del caso, redactada por cada equipo."
+   ]
+  },
+  "tiempos": {
+   "Inicio": "40 min",
+   "Desarrollo": "90 min",
+   "Cierre": "30 min"
+  },
+  "recursos": "Cuadernillo de Algorítmica 3.er Curso, Clase 11: figura 3.5, tabla de modelos de datos, tabla de fases del diseño, tabla de técnicas de relevamiento, cajas «Concepto clave — modelo de datos» y «En Paraguay — diseñar ahorra trabajo», actividades 1 a 9 · Cuaderno de Prácticas, Práctica 11 · hojas lisas y pizarra.",
+  "proc": "Elaboración del modelo de datos del caso en papel; comparación de modelos.",
+  "inst": "Descripción del modelo de datos del caso en una frase; comparación de modelos.",
+  "criterios": [
+   "Explica qué es un modelo de datos y para qué se elabora.",
+   "Menciona al menos dos modelos de datos.",
+   "Justifica la conveniencia de diseñar antes de crear las tablas."
+  ]
+ },
+ {
+  "n": 20,
+  "titulo": "Entidades y atributos",
+  "info": {
+   "Docente": "______________________________",
+   "Disciplina": "Algorítmica",
+   "Curso": "3.er Curso — Bachillerato Técnico en Servicios, Informática",
+   "Tiempo": "4 horas cátedra (160 min)",
+   "Unidad": "Unidad 3 — Diseño: Entidad-Relación y normalización",
+   "Sección": "____________",
+   "Material": "Cuadernillo del estudiante · Clase 12  ·  Cuaderno de Prácticas · Práctica 12",
+   "Fecha": "____ / ____ / 2026",
+   "Tema": "Entidades, atributos y tipos de atributos."
+  },
+  "capacidad": "Aplica los conceptos fundamentales en la construcción de entidades.",
+  "indicadores": [
+   "Identifica entidades y sus atributos en un caso.",
+   "Clasifica atributos (simple/compuesto, univalorado/multivalorado, derivado).",
+   "Reconoce el atributo que sirve como clave."
+  ],
+  "momentos": {
+   "Inicio": [
+    "Lectura del modelo de datos redactado en la clase anterior y subrayado de los sustantivos que nombran cosas sobre las que el caso guarda información.",
+    "Distinción oral entre esas cosas y los datos que las describen."
+   ],
+   "Desarrollo": [
+    "Lectura de «Entidades y atributos» y de la tabla tipo de atributo · ejemplo.",
+    "Clasificación de los atributos del caso —precio, teléfonos, subtotal— en simples, multivalorados y derivados, con la caja «Ejemplo — el subtotal que no se guarda».",
+    "Trabajo con la tabla atributo · dominio · ejemplo válido · ejemplo inválido, para fijar qué valores acepta cada atributo.",
+    "Lectura del ejemplo resuelto «la ficha de la entidad PRODUCTO» y de la caja «Concepto clave — el subrayado es una promesa», que advierte sobre el error frecuente de subrayar un atributo que se repite.",
+    "Resolución de las actividades 1 a 9 y de la Práctica 12 «Entidades y atributos» del Cuaderno."
+   ],
+   "Cierre": [
+    "Verificación del punto de control de la Práctica 12: entidades correctas, precio como atributo simple, teléfonos como multivalorado y un derivado válido.",
+    "Registro en la carpeta de la ficha de las tres entidades del caso con dos atributos cada una."
+   ]
+  },
+  "tiempos": {
+   "Inicio": "40 min",
+   "Desarrollo": "90 min",
+   "Cierre": "30 min"
+  },
+  "recursos": "Cuadernillo de Algorítmica 3.er Curso, Clase 12: tabla de tipos de atributos, tabla de dominios, tabla de atributos multivaluados, cajas «Concepto clave — entidad y atributo» y «Aplicación profesional — dominios sujetos a reglas externas», actividades 1 a 9 · Cuaderno de Prácticas, Práctica 12 · pizarra.",
+  "proc": "Identificación de entidades y clasificación de atributos por tipo.",
+  "inst": "Identificación de entidades y clasificación de atributos.",
+  "criterios": [
+   "Identifica las entidades del caso y sus atributos.",
+   "Clasifica atributos como simple o compuesto, univalorado o multivalorado, y derivado.",
+   "Reconoce el atributo que puede funcionar como clave y fundamenta la elección."
+  ]
+ },
+ {
+  "n": 21,
+  "titulo": "Relaciones y cardinalidad",
+  "info": {
+   "Docente": "______________________________",
+   "Disciplina": "Algorítmica",
+   "Curso": "3.er Curso — Bachillerato Técnico en Servicios, Informática",
+   "Tiempo": "4 horas cátedra (160 min)",
+   "Unidad": "Unidad 3 — Diseño: Entidad-Relación y normalización",
+   "Sección": "____________",
+   "Material": "Cuadernillo del estudiante · Clase 13  ·  Cuaderno de Prácticas · Práctica 13",
+   "Fecha": "____ / ____ / 2026",
+   "Tema": "Relaciones entre entidades. Cardinalidad: 1:1, 1:N, N:M."
+  },
+  "capacidad": "Trabaja con las relaciones y sus ligaduras de correspondencia.",
+  "indicadores": [
+   "Identifica la relación entre dos entidades.",
+   "Determina la cardinalidad de una relación.",
+   "Reconoce una relación de muchos a muchos."
+  ],
+  "momentos": {
+   "Inicio": [
+    "Lectura de la venta V5 del caso, con tres productos distintos, y de la lista de ventas de Rosa Duarte, para preguntar cuántos se relacionan con cuántos en cada situación.",
+    "Anticipación oral, sin nomenclatura todavía, de las dos formas de relación observadas."
+   ],
+   "Desarrollo": [
+    "Lectura de «Cardinalidad: cuántos con cuántos» con la tabla cardinalidad · ejemplo en el Copetín.",
+    "Análisis de la figura 3.1, las tres cardinalidades registro por registro, y de la figura 3.6, la participación opcional del cliente y obligatoria de la venta.",
+    "Aplicación de la caja «Concepto clave — leé la relación en las dos direcciones» a las dos relaciones del caso, con la tabla lectura · ¿se cumple en los datos? · evidencia.",
+    "Trabajo con la tabla atributo dudoso · ¿de quién es? · dónde se dibuja, para resolver dónde vive la cantidad, error frecuente de esta clase.",
+    "Resolución de las actividades 1 a 9 y de la Práctica 13 «Cardinalidad» del Cuaderno."
+   ],
+   "Cierre": [
+    "Verificación del punto de control de la Práctica 13: Cliente–Venta es 1:N y Venta–Producto es N:M, justificada con la venta V5 y la gaseosa.",
+    "Puesta en común de la lectura en voz alta de cada relación en sus dos direcciones."
+   ]
+  },
+  "tiempos": {
+   "Inicio": "40 min",
+   "Desarrollo": "90 min",
+   "Cierre": "30 min"
+  },
+  "recursos": "Cuadernillo de Algorítmica 3.er Curso, Clase 13: figuras 3.1 y 3.6, tabla de cardinalidades, tabla de lectura contra los datos, tabla de atributos de relación, cajas «Concepto clave — cardinalidad» y «En Paraguay — las N:M piden atención», actividades 1 a 9 · Cuaderno de Prácticas, Práctica 13 · pizarra.",
+  "proc": "Determinación de cardinalidad en relaciones del caso con ejemplos.",
+  "inst": "Ejercicio de cardinalidad con justificación por ejemplo.",
+  "criterios": [
+   "Identifica la relación existente entre dos entidades del caso.",
+   "Determina la cardinalidad de cada relación con evidencia en los datos.",
+   "Reconoce la relación de muchos a muchos y explica por qué lo es."
+  ]
+ },
+ {
+  "n": 22,
+  "titulo": "El diagrama Entidad-Relación",
+  "info": {
+   "Docente": "______________________________",
+   "Disciplina": "Algorítmica",
+   "Curso": "3.er Curso — Bachillerato Técnico en Servicios, Informática",
+   "Tiempo": "4 horas cátedra (160 min)",
+   "Unidad": "Unidad 3 — Diseño: Entidad-Relación y normalización",
+   "Sección": "____________",
+   "Material": "Cuadernillo del estudiante · Clase 14  ·  Cuaderno de Prácticas · Práctica 14",
+   "Fecha": "____ / ____ / 2026",
+   "Tema": "El diagrama Entidad-Relación (DER): entidades, atributos y relaciones."
+  },
+  "capacidad": "Trabaja con el modelo Entidad-Relación en la representación de los datos.",
+  "indicadores": [
+   "Reconoce los símbolos del diagrama entidad-relación.",
+   "Interpreta un DER sencillo.",
+   "Dibuja un DER a partir de un caso."
+  ],
+  "momentos": {
+   "Inicio": [
+    "Descripción oral del modelo del caso por parte de un estudiante mientras el resto intenta dibujarlo, para hacer visible la necesidad de una notación común.",
+    "Comparación de dos o tres dibujos distintos producidos a partir de la misma descripción."
+   ],
+   "Desarrollo": [
+    "Lectura de «Un dibujo del diseño» y de la tabla símbolo · representa · ejemplo del Copetín.",
+    "Lectura de la figura 3.2, el diagrama entidad-relación del Copetín Karumbé, con identificación del atributo subrayado como clave.",
+    "Trazado del diagrama completo por equipos, siguiendo el ejemplo resuelto «construir el DER paso a paso».",
+    "Contraste con la figura 3.7, un mismo fragmento dibujado mal y dibujado bien, y con la caja «Concepto clave — el atributo que pide ser entidad», que nombra el error frecuente de la clase.",
+    "Resolución de las actividades 1 a 9 y de la Práctica 14 «Dibujar el DER» del Cuaderno."
+   ],
+   "Cierre": [
+    "Verificación del punto de control de la Práctica 14: tres entidades, dos relaciones y cardinalidades correctas.",
+    "Aplicación de la lista de control del diagrama del ejemplo resuelto sobre el trabajo de otro equipo, en revisión cruzada."
+   ]
+  },
+  "tiempos": {
+   "Inicio": "40 min",
+   "Desarrollo": "90 min",
+   "Cierre": "30 min"
+  },
+  "recursos": "Cuadernillo de Algorítmica 3.er Curso, Clase 14: figuras 3.2 y 3.7, tabla de entidades y sus relaciones, tabla de símbolos, tabla de notaciones, cajas «Concepto clave — diagrama entidad-relación» y «En Paraguay — leerle el diagrama al cliente», actividades 1 a 9 · Cuaderno de Prácticas, Práctica 14 · hojas lisas, regla y pizarra.",
+  "proc": "Lectura y trazado del diagrama entidad-relación del Copetín.",
+  "inst": "Diagrama entidad-relación del caso trazado por el estudiante.",
+  "criterios": [
+   "Reconoce los símbolos del diagrama entidad-relación.",
+   "Interpreta un diagrama sencillo y lo lee en palabras.",
+   "Dibuja el diagrama del caso con entidades, atributos, relaciones y cardinalidades."
+  ]
+ },
+ {
+  "n": 23,
+  "titulo": "Del diagrama a las tablas",
+  "info": {
+   "Docente": "______________________________",
+   "Disciplina": "Algorítmica",
+   "Curso": "3.er Curso — Bachillerato Técnico en Servicios, Informática",
+   "Tiempo": "4 horas cátedra (160 min)",
+   "Unidad": "Unidad 3 — Diseño: Entidad-Relación y normalización",
+   "Sección": "____________",
+   "Material": "Cuadernillo del estudiante · Clase 15  ·  Cuaderno de Prácticas · Práctica 15",
+   "Fecha": "____ / ____ / 2026",
+   "Tema": "Traducción del DER a tablas. Resolución de relaciones N:M."
+  },
+  "capacidad": "Ejecuta técnicas y procedimientos para pasar del DER a las tablas.",
+  "indicadores": [
+   "Convierte una entidad en tabla con su clave principal.",
+   "Traduce una relación 1:N con clave foránea.",
+   "Resuelve una relación N:M con una tabla intermedia."
+  ],
+  "momentos": {
+   "Inicio": [
+    "Presentación del diagrama de la clase anterior junto a la pregunta de qué tabla guardaría la relación de muchos a muchos, sin agregar todavía ninguna tabla nueva.",
+    "Ensayo fallido, hecho en la pizarra, de guardar tres productos en un solo renglón de Ventas."
+   ],
+   "Desarrollo": [
+    "Lectura de «Cada entidad, una tabla» y de «Las relaciones 1:N», con ubicación de la clave foránea en el lado «muchos».\n• Análisis de la figura 3.3, de la relación N:M del diagrama a la tabla intermedia DetalleVenta, y de la tabla de reglas de transformación.\n• Escritura de las filas de DetalleVenta venta por venta, siguiendo el ejemplo resuelto y la tabla venta · producto · cantidad · precio_unitario · subtotal.\n• Lectura de la figura 3.8, el esquema relacional completo con sus cuatro tablas y tres claves foráneas, y de la caja «Concepto clave — la clave compuesta de DetalleVenta».\n• Resolución de las actividades 1 a 9 y de la Práctica 15 «Del DER a las tablas» del Cuaderno."
+   ],
+   "Cierre": [
+    "Verificación del punto de control de la Práctica 15: cuatro tablas con sus claves y DetalleVenta de V1 con las filas (V1, Chipa, 2, 3.000) y (V1, Gaseosa, 1, 8.000).\n• Aplicación del control final del esquema del ejemplo resuelto, que verifica que toda relación del diagrama esté representada."
+   ]
+  },
+  "tiempos": {
+   "Inicio": "40 min",
+   "Desarrollo": "90 min",
+   "Cierre": "30 min"
+  },
+  "recursos": "Cuadernillo de Algorítmica 3.er Curso, Clase 15: figuras 3.3 y 3.8, tabla DetalleVenta, tabla de reglas de transformación, tabla de relaciones 1:1, cajas «Concepto clave — la tabla intermedia» y «En Paraguay — el esquema final del Copetín», actividades 1 a 9 · Cuaderno de Prácticas, Práctica 15 · pizarra.",
+  "proc": "Traducción del DER a tablas; resolución de la relación N:M con tabla intermedia.",
+  "inst": "Traducción del DER a tablas con claves; escritura de filas de DetalleVenta.",
+  "criterios": [
+   "Convierte cada entidad en tabla con su clave principal.",
+   "Traduce la relación 1:N ubicando correctamente la clave foránea.",
+   "Resuelve la relación N:M con una tabla intermedia y escribe sus filas."
+  ]
+ },
+ {
+  "n": 24,
+  "titulo": "Anomalías y dependencia funcional",
+  "info": {
+   "Docente": "______________________________",
+   "Disciplina": "Algorítmica",
+   "Curso": "3.er Curso — Bachillerato Técnico en Servicios, Informática",
+   "Tiempo": "4 horas cátedra (160 min)",
+   "Unidad": "Unidad 3 — Diseño: Entidad-Relación y normalización",
+   "Sección": "____________",
+   "Material": "Cuadernillo del estudiante · Clase 16  ·  Cuaderno de Prácticas · Práctica 16",
+   "Fecha": "____ / ____ / 2026",
+   "Tema": "Anomalías de una tabla mal diseñada. Dependencia funcional."
+  },
+  "capacidad": "Reconoce la importancia de normalizar para evitar anomalías.",
+  "indicadores": [
+   "Reconoce las anomalías de inserción, actualización y borrado.",
+   "Explica qué es una dependencia funcional.",
+   "Justifica por qué conviene normalizar."
+  ],
+  "momentos": {
+   "Inicio": [
+    "Presentación de la tabla única del caso, que junta cliente, teléfono, producto, categoría y precio en cada renglón, y pedido de tres motivos para desconfiar de ella.",
+    "Registro de los motivos como hipótesis que la clase confirmará o descartará."
+   ],
+   "Desarrollo": [
+    "Lectura de «Una tabla que junta todo» y de la tabla anomalía · qué pasa en la tabla única del Copetín · consecuencia.",
+    "Ensayo de operaciones sobre la tabla única con la tabla operación ensayada · qué se rompe · anomalía delatada.",
+    "Lectura de «Dependencia funcional» y escritura de las dependencias del caso, siguiendo el ejemplo resuelto de detección sobre la tabla única.",
+    "Trabajo con la caja «Concepto clave — la anomalía es el síntoma, la dependencia es la causa», que corrige el error frecuente de memorizar las anomalías sin identificar su origen.",
+    "Resolución de las actividades 1 a 9 y de la Práctica 16 «Anomalías y dependencias» del Cuaderno."
+   ],
+   "Cierre": [
+    "Verificación del punto de control de la Práctica 16: tres anomalías señaladas y las dependencias código → precio y cliente → teléfono escritas correctamente.",
+    "Confrontación de las hipótesis del inicio con las anomalías efectivamente demostradas."
+   ]
+  },
+  "tiempos": {
+   "Inicio": "40 min",
+   "Desarrollo": "90 min",
+   "Cierre": "30 min"
+  },
+  "recursos": "Cuadernillo de Algorítmica 3.er Curso, Clase 16: tabla de las tres anomalías, tabla de operaciones ensayadas, cajas «Ejemplo — la anomalía de actualización, con números» y «Concepto clave — la pregunta de la parcialidad», actividades 1 a 9 · Cuaderno de Prácticas, Práctica 16 · pizarra.",
+  "proc": "Detección de anomalías en una tabla mal diseñada; escritura de dependencias funcionales.",
+  "inst": "Señalamiento de anomalías; escritura de dependencias funcionales del caso.",
+  "criterios": [
+   "Reconoce las anomalías de inserción, actualización y borrado en la tabla del caso.",
+   "Explica qué es una dependencia funcional y escribe dos del caso.",
+   "Justifica la conveniencia de normalizar a partir de las anomalías demostradas."
+  ]
+ },
+ {
+  "n": 25,
+  "titulo": "Formas normales: 1FN, 2FN y 3FN",
+  "info": {
+   "Docente": "______________________________",
+   "Disciplina": "Algorítmica",
+   "Curso": "3.er Curso — Bachillerato Técnico en Servicios, Informática",
+   "Tiempo": "4 horas cátedra (160 min)",
+   "Unidad": "Unidad 3 — Diseño: Entidad-Relación y normalización",
+   "Sección": "____________",
+   "Material": "Cuadernillo del estudiante · Clase 17  ·  Cuaderno de Prácticas · Práctica 17",
+   "Fecha": "____ / ____ / 2026",
+   "Tema": "Primera, segunda y tercera forma normal."
+  },
+  "capacidad": "Utiliza las reglas de normalización (1FN, 2FN, 3FN).",
+  "indicadores": [
+   "Aplica la 1FN (atomicidad, sin grupos repetidos).",
+   "Aplica la 2FN (sin dependencias parciales).",
+   "Aplica la 3FN (sin dependencias transitivas)."
+  ],
+  "momentos": {
+   "Inicio": [
+    "Lectura del campo que guarda «2 chipas, 1 gaseosa» en un solo casillero y pregunta por lo que ocurre al intentar sumar cantidades sobre ese campo.",
+    "Acuerdo del curso sobre la primera corrección necesaria, antes de nombrar la 1FN."
+   ],
+   "Desarrollo": [
+    "Lectura de «Primera forma normal», «Segunda forma normal» y «Tercera forma normal», con la tabla forma normal · regla · qué se hizo en el Copetín.",
+    "Aplicación paso a paso de las tres formas normales sobre la tabla única, siguiendo el ejemplo resuelto y la figura 3.4.",
+    "Lectura de «Dependencias transitivas: el corazón de la 3FN» y de la caja «Ejemplo — la cadena que la 3FN corta», con el caso del barrio de la clienta.",
+    "Discusión de «¿Hasta dónde normalizar?» y de la caja «Concepto clave — primero normalizar, después optimizar», que ordena el criterio profesional.",
+    "Resolución de las actividades 1 a 9 y de la Práctica 17 «Normalizar hasta 3FN» del Cuaderno."
+   ],
+   "Cierre": [
+    "Verificación del punto de control de la Práctica 17: del proceso resultan las tablas Productos, Clientes, Ventas y DetalleVenta.",
+    "Aplicación de la evaluación de la Unidad 3, fotocopiable, en su hoja propia del cuadernillo."
+   ]
+  },
+  "tiempos": {
+   "Inicio": "40 min",
+   "Desarrollo": "90 min",
+   "Cierre": "30 min"
+  },
+  "recursos": "Cuadernillo de Algorítmica 3.er Curso, Clase 17: figura 3.4, tabla de las tres formas normales, tabla de decisiones de desnormalización, cajas «Concepto clave — las tres formas normales» y «En Paraguay — hasta dónde normalizar», actividades 1 a 9 y evaluación de la Unidad 3 · Cuaderno de Prácticas, Práctica 17 · pizarra.",
+  "proc": "Aplicación paso a paso de 1FN, 2FN y 3FN sobre la tabla del caso.",
+  "inst": "Normalización de la tabla del caso hasta 3FN con tablas resultantes. Evaluación de la unidad (fotocopiable).",
+  "criterios": [
+   "Aplica la 1FN llevando los valores a su forma atómica.",
+   "Aplica la 2FN eliminando la dependencia parcial del precio de catálogo y distingue luego ese dato del precio_unitario histórico de una transacción.",
+   "Aplica la 3FN eliminando la dependencia transitiva y presenta las tablas resultantes."
+  ]
+ },
+ {
+  "n": 26,
+  "titulo": "Crear la base en Access",
+  "info": {
+   "Docente": "______________________________",
+   "Disciplina": "Algorítmica",
+   "Curso": "3.er Curso — Bachillerato Técnico en Servicios, Informática",
+   "Tiempo": "4 horas cátedra (160 min)",
+   "Unidad": "Unidad 4 — La base en acción: Access y consultas",
+   "Sección": "____________",
+   "Material": "Cuadernillo del estudiante · Clase 18  ·  Cuaderno de Prácticas · Práctica 18",
+   "Fecha": "____ / ____ / 2026",
+   "Tema": "Crear tablas, claves y relaciones en Microsoft Access."
+  },
+  "capacidad": "Ejecuta técnicas y procedimientos para crear una base de datos.",
+  "indicadores": [
+   "Crea una tabla con sus campos y clave principal en Access.",
+   "Define una relación entre tablas con clave foránea.",
+   "Activa la integridad referencial."
+  ],
+  "momentos": {
+   "Inicio": [
+    "Exhibición del esquema de cuatro tablas obtenido al normalizar y planteo del paso siguiente: construirlo en el gestor tal como fue diseñado.",
+    "Acuerdo previo sobre el orden de creación que exige la integridad referencial, antes de tocar la máquina."
+   ],
+   "Desarrollo": [
+    "Lectura de «Del esquema a Access» y de la tabla campo del Copetín · tipo de dato en Access · por qué.",
+    "Creación de las cuatro tablas con sus campos y claves principales en la vista Diseño, incluida la PK compuesta venta+producto de DetalleVenta y el campo precio_unitario que conserva el precio cobrado en cada renglón.",
+    "Definición de las relaciones en la ventana Relaciones y activación de la integridad referencial, con la figura 4.1 como modelo del resultado esperado.",
+    "Carga de los datos del caso en el orden que impone la figura 4.4, primero las tablas apuntadas, con la caja «Concepto clave — diseñar es trabajo DDL» como marco.",
+    "Resolución de las actividades 1 a 9, con atención al error frecuente de cargar DetalleVenta antes que Productos."
+   ],
+   "Cierre": [
+    "Síntesis de los aprendizajes y verificación de los indicadores de la Clase 18.\n• Preparación de la continuación práctica: Práctica 18 del Cuaderno de Prácticas."
+   ]
+  },
+  "tiempos": {
+   "Inicio": "40 min",
+   "Desarrollo": "90 min",
+   "Cierre": "30 min"
+  },
+  "recursos": "Cuadernillo de Algorítmica 3.er Curso, Clase 18: figuras 4.1 y 4.4, tabla de tipos de dato en Access, tabla de claves por tabla, tabla de propiedades de campo, cajas «Concepto clave — molde a la izquierda, datos a la derecha» y «En Paraguay — guardá seguido», actividades 1 a 9 · Cuaderno de Prácticas, Práctica 18 · laboratorio con Microsoft Windows y Microsoft Access, una máquina cada dos estudiantes. Si el laboratorio no está disponible, la actividad se resuelve en papel sobre la cuadrícula de diseño impresa y se ejecuta en la máquina cuando haya turno.",
+  "proc": "Práctica en Access: creación de tablas, claves y relaciones con integridad referencial.",
+  "inst": "Base creada en Access con tablas, claves y relaciones (punto de control).",
+  "criterios": [
+   "Crea una tabla con sus campos y su clave principal en el gestor.",
+   "Define la relación entre dos tablas mediante la clave foránea.",
+   "Activa la integridad referencial y verifica su efecto sobre una carga fuera de orden."
+  ]
+ },
+ {
+  "n": 27,
+  "titulo": "Continuación práctica de la Clase 18: Crear la base en Access",
+  "info": {
+   "Docente": "______________________________",
+   "Disciplina": "Algorítmica",
+   "Curso": "3.er Curso — Bachillerato Técnico en Servicios, Informática",
+   "Tiempo": "4 horas cátedra (160 min)",
+   "Unidad": "Unidad 4 — La base en acción: Access y consultas",
+   "Sección": "____________",
+   "Material": "Cuaderno de Prácticas · Práctica 18",
+   "Fecha": "____ / ____ / 2026",
+   "Tema": "Práctica 18 · Crear la base en Access"
+  },
+  "capacidad": "Ejecuta técnicas y procedimientos para crear una base de datos.",
+  "indicadores": [
+   "Crea una tabla con sus campos y clave principal en Access.",
+   "Define una relación entre tablas con clave foránea.",
+   "Activa la integridad referencial."
+  ],
+  "momentos": {
+   "Inicio": [
+    "Organización del puesto de trabajo y recuperación de las consignas de la Clase 18.\n• Presentación del objetivo de la Práctica 18 y de su punto de control."
+   ],
+   "Desarrollo": [
+    "Desarrollo de la Práctica 18: Crear la base en Access.\n• Ejecución ordenada de los pasos del Cuaderno de Prácticas y verificación del resultado esperado.\n• Corrección de errores, repetición de pruebas y resolución del desafío final cuando el tiempo lo permita."
+   ],
+   "Cierre": [
+    "Presentación del producto y comprobación de los puntos de control.\n• Registro breve de dificultades, correcciones realizadas y aprendizaje logrado."
+   ]
+  },
+  "tiempos": {
+   "Inicio": "20 min",
+   "Desarrollo": "120 min",
+   "Cierre": "20 min"
+  },
+  "recursos": "Cuaderno de Prácticas · Práctica 18 · Computadora del laboratorio · archivos y datos del caso Copetín Karumbé",
+  "proc": "Ejecución guiada de la Práctica 18: Crear la base en Access; comprobación de puntos de control y corrección de errores.",
+  "inst": "Punto de control: Cuatro tablas creadas y tres relaciones con integridad referencial activada.",
+  "criterios": [
+   "Crea una tabla con sus campos y su clave principal en el gestor.",
+   "Define la relación entre dos tablas mediante la clave foránea.",
+   "Activa la integridad referencial y verifica su efecto sobre una carga fuera de orden."
+  ]
+ },
+ {
+  "n": 28,
+  "titulo": "Filtros y consultas de selección",
+  "info": {
+   "Docente": "______________________________",
+   "Disciplina": "Algorítmica",
+   "Curso": "3.er Curso — Bachillerato Técnico en Servicios, Informática",
+   "Tiempo": "4 horas cátedra (160 min)",
+   "Unidad": "Unidad 4 — La base en acción: Access y consultas",
+   "Sección": "____________",
+   "Material": "Cuadernillo del estudiante · Clase 19  ·  Cuaderno de Prácticas · Práctica 19",
+   "Fecha": "____ / ____ / 2026",
+   "Tema": "Filtros. La consulta de selección con criterios."
+  },
+  "capacidad": "Utiliza filtros y consultas de selección para obtener información.",
+  "indicadores": [
+   "Aplica un filtro para ver un grupo de registros.",
+   "Crea una consulta de selección con criterio.",
+   "Interpreta el resultado de una consulta."
+  ],
+  "momentos": {
+   "Inicio": [
+    "Formulación de una pregunta concreta del negocio —qué ventas se registraron el 03/03/2026— y anticipación por escrito del resultado esperado (V1 y V2) antes de ejecutar nada.",
+    "Distinción previa entre mirar la tabla completa y pedirle al gestor un subconjunto."
+   ],
+   "Desarrollo": [
+    "Lectura de «Filtrar: ver un grupo rápido» y de «La consulta de selección», con la caja «Concepto clave — filtro y consulta» para separar lo temporal de lo que se guarda.",
+    "Construcción de la consulta en la cuadrícula de diseño siguiendo los pasos 1 a 4 de la Práctica 19, con la figura 4.2 como modelo de la cuadrícula y su resultado.",
+    "Trabajo con la tabla operador · significa · ejemplo de criterio y con la figura 4.5, que muestra tres criterios y lo que devuelve cada uno sobre los datos del caso.",
+    "Consultas sobre fechas con la tabla criterio de fecha · qué devuelve en el Copetín y aplicación del control del complemento descrito en la caja correspondiente.",
+    "Resolución de las actividades 1 a 9, con la anticipación escrita contrastada contra el resultado obtenido."
+   ],
+   "Cierre": [
+    "Síntesis de los aprendizajes y verificación de los indicadores de la Clase 19.\n• Preparación de la continuación práctica: Práctica 19 del Cuaderno de Prácticas."
+   ]
+  },
+  "tiempos": {
+   "Inicio": "40 min",
+   "Desarrollo": "90 min",
+   "Cierre": "30 min"
+  },
+  "recursos": "Cuadernillo de Algorítmica 3.er Curso, Clase 19: figuras 4.2 y 4.5, tabla de operadores y comodines, tabla de criterios de fecha, cajas «Concepto clave — anticipá antes de ejecutar» y «Concepto clave — el complemento como control», actividades 1 a 9 · Cuaderno de Prácticas, Práctica 19 · laboratorio con Microsoft Access y la base del caso creada en la clase anterior. Si el laboratorio no está disponible, la actividad se resuelve en papel sobre la cuadrícula de diseño impresa y se ejecuta en la máquina cuando haya turno.",
+  "proc": "Práctica en Access: filtros y consultas de selección con criterio.",
+  "inst": "Consulta de selección con criterio ejecutada y verificada.",
+  "criterios": [
+   "Aplica un filtro para ver un grupo de registros y explica su carácter temporal.",
+   "Crea una consulta de selección con criterio y la guarda con un nombre significativo.",
+   "Interpreta el resultado y lo contrasta con la anticipación escrita."
+  ]
+ },
+ {
+  "n": 29,
+  "titulo": "Continuación práctica de la Clase 19: Filtros y consultas de selección",
+  "info": {
+   "Docente": "______________________________",
+   "Disciplina": "Algorítmica",
+   "Curso": "3.er Curso — Bachillerato Técnico en Servicios, Informática",
+   "Tiempo": "4 horas cátedra (160 min)",
+   "Unidad": "Unidad 4 — La base en acción: Access y consultas",
+   "Sección": "____________",
+   "Material": "Cuaderno de Prácticas · Práctica 19",
+   "Fecha": "____ / ____ / 2026",
+   "Tema": "Práctica 19 · Filtros y consultas de selección"
+  },
+  "capacidad": "Utiliza filtros y consultas de selección para obtener información.",
+  "indicadores": [
+   "Aplica un filtro para ver un grupo de registros.",
+   "Crea una consulta de selección con criterio.",
+   "Interpreta el resultado de una consulta."
+  ],
+  "momentos": {
+   "Inicio": [
+    "Organización del puesto de trabajo y recuperación de las consignas de la Clase 19.\n• Presentación del objetivo de la Práctica 19 y de su punto de control."
+   ],
+   "Desarrollo": [
+    "Desarrollo de la Práctica 19: Filtros y consultas de selección.\n• Ejecución ordenada de los pasos del Cuaderno de Prácticas y verificación del resultado esperado.\n• Corrección de errores, repetición de pruebas y resolución del desafío final cuando el tiempo lo permita."
+   ],
+   "Cierre": [
+    "Presentación del producto y comprobación de los puntos de control.\n• Registro breve de dificultades, correcciones realizadas y aprendizaje logrado."
+   ]
+  },
+  "tiempos": {
+   "Inicio": "20 min",
+   "Desarrollo": "120 min",
+   "Cierre": "20 min"
+  },
+  "recursos": "Cuaderno de Prácticas · Práctica 19 · Computadora del laboratorio · archivos y datos del caso Copetín Karumbé",
+  "proc": "Ejecución guiada de la Práctica 19: Filtros y consultas de selección; comprobación de puntos de control y corrección de errores.",
+  "inst": "Punto de control: El resultado son V3 (34.000) y V5 (50.000).",
+  "criterios": [
+   "Aplica un filtro para ver un grupo de registros y explica su carácter temporal.",
+   "Crea una consulta de selección con criterio y la guarda con un nombre significativo.",
+   "Interpreta el resultado y lo contrasta con la anticipación escrita."
+  ]
+ },
+ {
+  "n": 30,
+  "titulo": "Consultas paramétricas",
+  "info": {
+   "Docente": "______________________________",
+   "Disciplina": "Algorítmica",
+   "Curso": "3.er Curso — Bachillerato Técnico en Servicios, Informática",
+   "Tiempo": "4 horas cátedra (160 min)",
+   "Unidad": "Unidad 4 — La base en acción: Access y consultas",
+   "Sección": "____________",
+   "Material": "Cuadernillo del estudiante · Clase 20  ·  Cuaderno de Prácticas · Práctica 20",
+   "Fecha": "____ / ____ / 2026",
+   "Tema": "La consulta paramétrica. Criterios que se piden al usuario."
+  },
+  "capacidad": "Utiliza consultas paramétricas para responder según un dato ingresado.",
+  "indicadores": [
+   "Explica qué es una consulta paramétrica.",
+   "Escribe un parámetro entre corchetes en el criterio.",
+   "Interpreta el resultado según el valor ingresado."
+  ],
+  "momentos": {
+   "Inicio": [
+    "Planteo del problema de mantener una consulta distinta por cada cliente del caso y estimación en voz alta de cuántas consultas harían falta.",
+    "Formulación del requisito: una sola consulta que pregunte por el cliente al ejecutarse."
+   ],
+   "Desarrollo": [
+    "Lectura de «Una consulta que pregunta» y de «El parámetro entre corchetes», con la tabla criterio paramétrico · qué exige · ejemplo de uso.",
+    "Escritura del parámetro en la fila Criterios y ejecución con dos valores distintos, según los pasos 1 a 4 de la Práctica 20.",
+    "Trabajo con «Combinar criterios: Y y O» y con la figura 4.6, que muestra la misma pareja de criterios en la misma fila y en filas distintas, error frecuente de la clase.",
+    "Lectura del ejemplo resuelto «la consulta multi-tabla del Copetín, paso a paso» y de la caja «Concepto clave — la cuadrícula enseña SQL sin decirlo», con la vista SQL de la consulta construida.",
+    "Resolución de las actividades 1 a 9, incluida la consulta paramétrica por fecha."
+   ],
+   "Cierre": [
+    "Verificación del punto de control de la Práctica 20: con C01 aparecen V1 y V3; con C04 aparece V5.",
+    "Registro comparado de las dos ejecuciones para mostrar que la consulta es una sola y el resultado cambia con el parámetro."
+   ]
+  },
+  "tiempos": {
+   "Inicio": "40 min",
+   "Desarrollo": "90 min",
+   "Cierre": "30 min"
+  },
+  "recursos": "Cuadernillo de Algorítmica 3.er Curso, Clase 20: figura 4.6, tabla de la consulta paramétrica del caso, tabla de combinaciones Y y O, cajas «Concepto clave — consulta paramétrica» y «Aplicación profesional — búsquedas flexibles», actividades 1 a 9 · Cuaderno de Prácticas, Práctica 20 · laboratorio con Microsoft Access y la base del caso. Si el laboratorio no está disponible, la actividad se resuelve en papel sobre la cuadrícula de diseño impresa y se ejecuta en la máquina cuando haya turno.",
+  "proc": "Práctica en Access: consultas paramétricas con parámetro entre corchetes.",
+  "inst": "Consulta paramétrica ejecutada; verificación con dos valores.",
+  "criterios": [
+   "Explica qué es una consulta paramétrica y qué ventaja aporta.",
+   "Escribe correctamente el parámetro entre corchetes en la fila de criterios.",
+   "Interpreta el resultado según el valor ingresado y lo verifica con dos ejecuciones."
+  ]
+ },
+ {
+  "n": 31,
+  "titulo": "Totales, campos calculados y cruces",
+  "info": {
+   "Docente": "______________________________",
+   "Disciplina": "Algorítmica",
+   "Curso": "3.er Curso — Bachillerato Técnico en Servicios, Informática",
+   "Tiempo": "4 horas cátedra (160 min)",
+   "Unidad": "Unidad 4 — La base en acción: Access y consultas",
+   "Sección": "____________",
+   "Material": "Cuadernillo del estudiante · Clase 21  ·  Cuaderno de Prácticas · Práctica 21",
+   "Fecha": "____ / ____ / 2026",
+   "Tema": "Consultas de totales: Suma, Promedio y Cuenta en Access (Sum/Avg/Count en SQL), campos calculados y referencias cruzadas."
+  },
+  "capacidad": "Aplica consultas de totales, campos calculados y referencias cruzadas.",
+  "indicadores": [
+   "Calcula totales agrupando registros.",
+   "Crea un campo calculado en una consulta.",
+   "Interpreta una tabla de referencias cruzadas."
+  ],
+  "momentos": {
+   "Inicio": [
+    "Formulación de las tres preguntas de cierre del negocio: cuánto recaudó el Copetín, cuánto compró cada cliente y qué categoría rinde más.",
+    "Acuerdo sobre el control que se aplicará al final: los tres caminos deben dar la misma recaudación."
+   ],
+   "Desarrollo": [
+    "Lectura de «Consultas de totales» y construcción de la consulta agrupada por cliente, con la tabla total recaudado por cliente como referencia de verificación.",
+    "Creación de una consulta base con las cuatro tablas y del campo calculado Subtotal: cantidad×precio_unitario; a partir de ella, construcción de los totales por cliente y por categoría, según la Práctica 21 «Totales, cálculos y cruces».",
+    "Construcción de la consulta de referencias cruzadas con la figura 4.7 como modelo: clientes en filas, categorías en columnas y Suma(Subtotal) como valor.",
+    "Lectura de «Consultas de acción» y de la caja «Concepto clave — leer es libre, escribir es protocolo» antes del ejemplo resuelto del aumento simulado.",
+    "Presentación por equipos del avance del Proyecto Final Integrador para la Feria de Informática: diagrama, esquema normalizado, base creada y consultas que responden las preguntas del negocio."
+   ],
+   "Cierre": [
+    "Síntesis de los aprendizajes y verificación de los indicadores de la Clase 21.\n• Preparación de la continuación práctica: Práctica 21 del Cuaderno de Prácticas.\n• La evaluación de la Unidad 4 se aplicará al cierre de la continuación práctica."
+   ]
+  },
+  "tiempos": {
+   "Inicio": "40 min",
+   "Desarrollo": "90 min",
+   "Cierre": "30 min"
+  },
+  "recursos": "Cuadernillo de Algorítmica 3.er Curso, Clase 21: figuras 4.3 y 4.7, tabla de totales por cliente, tabla de importes por categoría, tabla de consultas de acción, cajas «Concepto clave — totales, cálculos y cruces» y «En Paraguay — del dato a la decisión», actividades 1 a 9 y evaluación de la Unidad 4 · Cuaderno de Prácticas, Práctica 21 y Proyecto Final Integrador · laboratorio con Microsoft Access y la base del caso. Si el laboratorio no está disponible, la actividad se resuelve en papel sobre la cuadrícula de diseño impresa y se ejecuta en la máquina cuando haya turno.",
+  "proc": "Práctica en Access: consultas de totales, campos calculados y referencias cruzadas.",
+  "inst": "Consultas de totales y cruce por categoría; verificación de la recaudación total. Evaluación de la unidad (fotocopiable).",
+  "criterios": [
+   "Calcula totales agrupando registros y verifica la suma contra la recaudación total.",
+   "Crea un campo calculado y explica por qué no se guarda en la tabla.",
+   "Interpreta la tabla de referencias cruzadas y fundamenta qué categoría rinde más."
+  ]
+ },
+ {
+  "n": 32,
+  "titulo": "Continuación práctica de la Clase 21: Totales, cálculos y cruces",
+  "info": {
+   "Docente": "______________________________",
+   "Disciplina": "Algorítmica",
+   "Curso": "3.er Curso — Bachillerato Técnico en Servicios, Informática",
+   "Tiempo": "4 horas cátedra (160 min)",
+   "Unidad": "Unidad 4 — La base en acción: Access y consultas",
+   "Sección": "____________",
+   "Material": "Cuaderno de Prácticas · Práctica 21",
+   "Fecha": "____ / ____ / 2026",
+   "Tema": "Práctica 21 · Totales, cálculos y cruces"
+  },
+  "capacidad": "Aplica consultas de totales, campos calculados y referencias cruzadas.",
+  "indicadores": [
+   "Calcula totales agrupando registros.",
+   "Crea un campo calculado en una consulta.",
+   "Interpreta una tabla de referencias cruzadas."
+  ],
+  "momentos": {
+   "Inicio": [
+    "Organización del puesto de trabajo y recuperación de las consignas de la Clase 21.\n• Presentación del objetivo de la Práctica 21 y de su punto de control."
+   ],
+   "Desarrollo": [
+    "Desarrollo de la Práctica 21: Totales, cálculos y cruces.\n• Ejecución ordenada de los pasos del Cuaderno de Prácticas y verificación del resultado esperado.\n• Corrección de errores, repetición de pruebas y resolución del desafío final cuando el tiempo lo permita."
+   ],
+   "Cierre": [
+    "Presentación del producto y comprobación de los puntos de control.\n• Registro breve de dificultades, correcciones realizadas y aprendizaje logrado.\n• Aplicación de la Evaluación de la Unidad 4."
+   ]
+  },
+  "tiempos": {
+   "Inicio": "20 min",
+   "Desarrollo": "100 min",
+   "Cierre": "40 min"
+  },
+  "recursos": "Cuaderno de Prácticas · Práctica 21 · Computadora del laboratorio · archivos y datos del caso Copetín Karumbé",
+  "proc": "Ejecución guiada de la Práctica 21: Totales, cálculos y cruces; comprobación de puntos de control y corrección de errores.",
+  "inst": "Punto de control: Los tres caminos dan G. 134.000; promedio por venta G. 26.800. · Evaluación de la Unidad 4 fotocopiable.",
+  "criterios": [
+   "Calcula totales agrupando registros y verifica la suma contra la recaudación total.",
+   "Crea un campo calculado y explica por qué no se guarda en la tabla.",
+   "Interpreta la tabla de referencias cruzadas y fundamenta qué categoría rinde más."
+  ]
+ },
+ {
+  "n": 33,
+  "titulo": "Proyecto Final Integrador · Taller 1: definición y diseño de la solución",
+  "info": {
+   "Docente": "______________________________",
+   "Disciplina": "Algorítmica",
+   "Curso": "3.er Curso — Bachillerato Técnico en Servicios, Informática",
+   "Tiempo": "4 horas cátedra (160 min)",
+   "Unidad": "PROYECTO FINAL INTEGRADOR · Feria de Informática",
+   "Sección": "____________",
+   "Material": "Cuaderno de Prácticas · Proyecto Final Integrador · Solucionario docente (rúbrica)",
+   "Fecha": "____ / ____ / 2026",
+   "Tema": "definición y diseño de la solución"
+  },
+  "capacidad": "Integra el diseño, la creación y la consulta de una base de datos en una solución digital que responde a las necesidades de gestión de un emprendimiento.",
+  "indicadores": [
+   "Define el emprendimiento y las preguntas que el sistema debe responder.\n• Diseña el DER y traduce el modelo a un esquema de tablas normalizado hasta 3FN.\n• Distribuye roles y organiza los datos que utilizará el equipo."
+  ],
+  "momentos": {
+   "Inicio": [
+    "Presentación de la meta del Proyecto Final Integrador y lectura de la rúbrica.\n• Organización de equipos de 3 o 4 integrantes y asignación inicial de roles."
+   ],
+   "Desarrollo": [
+    "Definición del emprendimiento y de las preguntas reales que la solución debe responder.\n• Diseño del DER, definición de entidades, atributos, claves y cardinalidades.\n• Traducción del DER a tablas y revisión de la normalización hasta 3FN.\n• Selección y organización de los datos con los que se construirá la base."
+   ],
+   "Cierre": [
+    "Socialización del diseño de cada equipo y retroalimentación cruzada.\n• Entrega de la ficha de definición, DER y esquema normalizado."
+   ]
+  },
+  "tiempos": {
+   "Inicio": "20 min",
+   "Desarrollo": "120 min",
+   "Cierre": "20 min"
+  },
+  "recursos": "Cuaderno de Prácticas · Proyecto Final Integrador · laboratorio con Microsoft Access · archivos del equipo · aportes interdisciplinarios · rúbrica del Solucionario",
+  "proc": "Definición del problema; diseño del DER y del esquema normalizado; organización del equipo.",
+  "inst": "Ficha de definición · DER · esquema de tablas normalizado · rúbrica del Proyecto Final Integrador.",
+  "criterios": [
+   "Formula preguntas reales del negocio.\n• Representa correctamente entidades, atributos y relaciones.\n• Traduce el modelo a tablas coherentes y normalizadas hasta 3FN."
+  ]
+ },
+ {
+  "n": 34,
+  "titulo": "Proyecto Final Integrador · Taller 2: construcción e integración",
+  "info": {
+   "Docente": "______________________________",
+   "Disciplina": "Algorítmica",
+   "Curso": "3.er Curso — Bachillerato Técnico en Servicios, Informática",
+   "Tiempo": "4 horas cátedra (160 min)",
+   "Unidad": "PROYECTO FINAL INTEGRADOR · Feria de Informática",
+   "Sección": "____________",
+   "Material": "Cuaderno de Prácticas · Proyecto Final Integrador · Solucionario docente (rúbrica)",
+   "Fecha": "____ / ____ / 2026",
+   "Tema": "construcción e integración"
+  },
+  "capacidad": "Integra el diseño, la creación y la consulta de una base de datos en una solución digital que responde a las necesidades de gestión de un emprendimiento.",
+  "indicadores": [
+   "Crea la base de datos en Access con claves y relaciones con integridad referencial.\n• Carga datos consistentes y construye consultas que responden preguntas del negocio.\n• Integra los aportes de las demás materias alrededor de la misma base."
+  ],
+  "momentos": {
+   "Inicio": [
+    "Revisión del diseño aprobado y preparación del entorno de trabajo en Access."
+   ],
+   "Desarrollo": [
+    "Creación de tablas, claves y relaciones con integridad referencial.\n• Carga de los datos del emprendimiento y verificación de consistencia.\n• Construcción de filtros y consultas: selección, paramétrica, totales/campos calculados y referencias cruzadas.\n• Incorporación de los aportes de Matemática Aplicada, Gabinete de Software, Gabinete de Laboratorio y Dibujo Técnico alrededor de la misma solución."
+   ],
+   "Cierre": [
+    "Demostración interna del sistema y registro de errores pendientes de corrección."
+   ]
+  },
+  "tiempos": {
+   "Inicio": "20 min",
+   "Desarrollo": "120 min",
+   "Cierre": "20 min"
+  },
+  "recursos": "Cuaderno de Prácticas · Proyecto Final Integrador · laboratorio con Microsoft Access · archivos del equipo · aportes interdisciplinarios · rúbrica del Solucionario",
+  "proc": "Construcción funcional de la base y de las consultas; integración de la solución digital.",
+  "inst": "Base de datos en Access · lista de comprobación funcional · rúbrica del Proyecto Final Integrador.",
+  "criterios": [
+   "La base funciona con claves y relaciones correctas.\n• Las consultas responden preguntas reales del emprendimiento.\n• La solución integra de manera coherente los aportes de las demás materias."
+  ]
+ },
+ {
+  "n": 35,
+  "titulo": "Proyecto Final Integrador · Taller 3: verificación, demostración y cierre",
+  "info": {
+   "Docente": "______________________________",
+   "Disciplina": "Algorítmica",
+   "Curso": "3.er Curso — Bachillerato Técnico en Servicios, Informática",
+   "Tiempo": "4 horas cátedra (160 min)",
+   "Unidad": "PROYECTO FINAL INTEGRADOR · Feria de Informática",
+   "Sección": "____________",
+   "Material": "Cuaderno de Prácticas · Proyecto Final Integrador · Solucionario docente (rúbrica)",
+   "Fecha": "____ / ____ / 2026",
+   "Tema": "verificación, demostración y cierre"
+  },
+  "capacidad": "Integra el diseño, la creación y la consulta de una base de datos en una solución digital que responde a las necesidades de gestión de un emprendimiento.",
+  "indicadores": [
+   "Verifica el funcionamiento de la base y la coherencia de los resultados de las consultas.\n• Prepara una explicación breve, clara y honesta de la solución.\n• Participa en la demostración del sistema y explica qué información aporta al negocio."
+  ],
+  "momentos": {
+   "Inicio": [
+    "Revisión de pendientes del taller anterior y distribución de responsabilidades para la demostración."
+   ],
+   "Desarrollo": [
+    "Prueba final de tablas, relaciones, filtros y consultas con los datos del emprendimiento.\n• Corrección de errores y verificación de que los resultados respondan las preguntas definidas.\n• Preparación del afiche/presentación y del recorrido de la demostración.\n• Ensayo de la explicación de cada integrante para la Feria de Informática."
+   ],
+   "Cierre": [
+    "Presentación final del proyecto ante el grupo.\n• Aplicación de la rúbrica del Proyecto Final Integrador y registro de mejoras para la feria."
+   ]
+  },
+  "tiempos": {
+   "Inicio": "20 min",
+   "Desarrollo": "100 min",
+   "Cierre": "40 min"
+  },
+  "recursos": "Cuaderno de Prácticas · Proyecto Final Integrador · laboratorio con Microsoft Access · archivos del equipo · aportes interdisciplinarios · rúbrica del Solucionario",
+  "proc": "Verificación funcional, demostración y explicación técnica de la solución digital.",
+  "inst": "Rúbrica del Proyecto Final Integrador · lista de comprobación funcional · presentación/demostración.",
+  "criterios": [
+   "El sistema funciona y produce resultados coherentes.\n• La explicación relaciona el diseño, la base y las consultas.\n• El equipo presenta con claridad y cada integrante explica su aporte."
+  ]
+ },
+ {
+  "n": 36,
+  "titulo": "Evaluación integradora de la 2.ª etapa",
+  "info": {
+   "Docente": "______________________________",
+   "Disciplina": "Algorítmica",
+   "Curso": "3.er Curso — Bachillerato Técnico en Servicios, Informática",
+   "Tiempo": "4 horas cátedra (160 min)",
+   "Unidad": "Cierre de la 2.ª etapa — Unidades 3 y 4",
+   "Sección": "____________",
+   "Material": "Cuadernillo del estudiante · prueba integradora fotocopiable en hoja propia",
+   "Fecha": "____ / ____ / 2026",
+   "Tema": "Evaluación integradora de la 2.ª etapa (Unidades 3 y 4)"
+  },
+  "capacidad": "Diseña el modelo de datos, construye el diagrama entidad-relación, lo traduce a tablas y normaliza hasta la 3FN. Crea la base en Access y obtiene información mediante filtros, consultas de selección, paramétricas y de totales.",
+  "indicadores": [
+   "Identifica entidades, atributos y cardinalidades del caso propuesto.",
+   "Traza el diagrama entidad-relación, lo traduce a tablas y normaliza hasta la 3FN.",
+   "Escribe criterios de selección y paramétricos e interpreta una consulta de totales."
+  ],
+  "momentos": {
+   "Inicio": [
+    "Entrega de la prueba y lectura pausada de las consignas de diseño, normalización y consultas, con aclaración de la notación admitida para el diagrama.",
+    "Recordatorio de las condiciones de resolución individual y escrita, y del carácter separado de la evaluación del Proyecto Final Integrador."
+   ],
+   "Desarrollo": [
+    "Resolución individual de la parte de diseño: identificación de entidades y atributos, determinación de cardinalidades y trazado del diagrama entidad-relación del caso propuesto.",
+    "Resolución individual de la parte de normalización: aplicación de 1FN, 2FN y 3FN sobre una tabla que junta todo, con presentación de las tablas resultantes y sus claves.",
+    "Resolución individual de la parte de consultas: escritura de criterios de selección y de un criterio paramétrico, e interpretación del resultado de una consulta de totales sobre los datos dados.",
+    "Acompañamiento del docente con lectura de consigna a quien lo requiera y control del tiempo anunciado a la mitad y a los diez minutos del final."
+   ],
+   "Cierre": [
+    "Entrega de las hojas y registro de la nómina de entrega.",
+    "Recordatorio del calendario de presentación del Proyecto Final Integrador en la Feria de Informática, que se evalúa con su propia pauta.",
+    "Anuncio de la devolución escrita y del espacio de consulta de la semana siguiente."
+   ]
+  },
+  "tiempos": {
+   "Inicio": "40 min",
+   "Desarrollo": "90 min",
+   "Cierre": "30 min"
+  },
+  "recursos": "Prueba integradora de la 2.ª etapa, fotocopiable, del Cuadernillo de Algorítmica 3.er Curso (hoja propia, al cierre de la Unidad 4) · hojas de resolución y hojas lisas para el diagrama · regla · pizarra para el registro del tiempo. No se utiliza la máquina en esta sesión.",
+  "proc": "Resolución individual de la prueba integradora.",
+  "inst": "Prueba escrita integradora fotocopiable (diseño, normalización y consultas).",
+  "criterios": [
+   "Emplea la notación del diagrama de forma consistente y legible.",
+   "Justifica cada paso de la normalización nombrando la dependencia que elimina.",
+   "Escribe criterios sintácticamente correctos y anticipa el resultado esperado.",
+   "Presenta las tablas resultantes con sus claves principales y foráneas identificadas."
+  ]
+ }
+]
