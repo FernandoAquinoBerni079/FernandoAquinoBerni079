@@ -56,4 +56,6 @@ chk('Figuras 5.2 y 5.2' not in P and 'Figuras 8.2 y 8.2' not in P,'figuras dupli
 pdf=B+'LIBRO_ESENCIAL_COMERCIAL_2026.pdf'
 info=subprocess.run(['pdfinfo',pdf],capture_output=True,text=True).stdout
 chk('612 x 936' in info,'Libro no está en oficio')
+info2=subprocess.run(['pdfinfo',B+'SOLUCIONARIO_DOCENTE_ESENCIAL_COMERCIAL_2026.pdf'],capture_output=True,text=True).stdout
+chk('612 x 936' in info2,'Solucionario no está en oficio')
 print(f'controles OK: {ok} · fallos: {len(fallos)}'); [print(' -',f) for f in fallos]

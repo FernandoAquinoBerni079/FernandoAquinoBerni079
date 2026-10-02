@@ -46,9 +46,9 @@ par('Gabinete de Informática – Software · 1.er Curso BTI · Edición Esencia
 tabla(['Campo','Valor'],[
  ['Paquete','Gabinete_Informatica_Software_1er_Curso (Edición Esencial)'],
  ['Versión auditada','PDF de Drive de 02/10/2026: Libro de 113 págs. (oficio), Solucionario de 22, Planes de 61 y Plan anual'],
- ['Versión corregida (v1)','Libro: 107 págs., oficio y márgenes estrechos · Solucionario: 22 · Planes de clase: 61 · Plan anual: 12 · Muestra: 14'],
+ ['Versión corregida (v1)','Libro: 107 págs. y Solucionario: 17 págs., los dos en oficio con márgenes estrechos · Planes de clase: 61 · Plan anual: 12 · Muestra: 14'],
  ['Resultado','14 de 14 hallazgos atendidos: 12 aplicados tal cual o con datos propios y 2 aplicados con otra forma, explicada abajo (H2 y H14). Además, 7 correcciones que no estaban en la auditoría (sección 3).'],
- ['Control técnico','Auditoría automática auditoria_v1.py: 116 controles, 0 fallos. Índices del Libro, del Solucionario y de los Planes verificados contra el PDF (0 diferencias).'],
+ ['Control técnico','Auditoría automática auditoria_v1.py: 117 controles, 0 fallos. Índices del Libro, del Solucionario y de los Planes verificados contra el PDF (0 diferencias).'],
  ['Pedido','Como hubo hallazgos críticos, el paquete vuelve a ChatGPT para una nueva auditoría (paso 4) sobre esta versión.'],
 ],[4.5,14.5])
 
@@ -76,7 +76,7 @@ for t in ['El estándar para los tomos es oficio (21,59 × 33,02 cm), con márge
  'La portada y la contraportada son imágenes compuestas en proporción A4. Para no deformarlas ni recortar su texto, se agregaron filas del mismo verde en las franjas lisas y se llevaron a la proporción de oficio. La foto de Gemini no se tocó.',
  'Páginas: los saltos de página estaban en párrafos vacíos propios, y cuando la hoja anterior quedaba llena generaban una página en blanco. Se pasaron a «salto de página antes» del título siguiente. Los subtítulos de las actividades llevan «mantener con el siguiente». En 7 bloques que dejaban una hoja casi vacía se redujo el espacio entre párrafos, solo en ese bloque. La Figura 15.2 pasó de 16 a 13 cm de ancho: la imagen no se modificó, solo su tamaño en la página.',
  'Se respetaron las opciones en 2 y 4 columnas que Fer armó en Word (Clases 5, 7 y 8).',
- 'El Solucionario, los Planes y el Plan anual siguen en A4, porque la indicación habla de los tomos. Si el Solucionario tiene que ir en oficio, se convierte con el mismo script.',
+ 'El Solucionario también pasó a oficio (decisión de Fer, 02/10/2026): 17 páginas, ninguna casi vacía, índice verificado. En dos bloques (Evaluaciones y Prácticas) se bajó el interlineado a 0,95 para que el final de la parte no se pasara a otra hoja. Los Planes de clase y el Plan anual siguen en A4.',
  'El PDF se generó con LibreOffice 24.2, con fuentes métricamente compatibles con Calibri y Cambria. Si al abrirlo en Word cambia algún número, se actualiza con F9 sobre el índice.']:
     par('• '+t)
 
@@ -106,14 +106,13 @@ tabla(['Control','Resultado'],[
  ['Aritmética de las 9 operaciones nuevas y su transcripción en el Solucionario','OK'],
  ['Ley 7593/2025, Windows no genuino, grooming, erratas y figuras','OK'],
  ['Índice del Libro, del Solucionario y de los Planes contra el PDF','0 diferencias'],
- ['Páginas interiores ocupadas en menos del 25 % (Libro)','0'],
+ ['Páginas interiores ocupadas en menos del 25 % (Libro y Solucionario)','0'],
  ['Tamaño del DOCX del Libro (límite 25 MB)','23,3 MB'],
 ],[13,6])
 
 h('6. Pendiente de Fer')
 for t in ['Subir a la carpeta del paquete los archivos de esta versión y pasar a SUPERSEDIDOS los anteriores, incluidos los dos .docx del Libro que hay hoy en Drive (…_2026.docx y …_2026_1.docx). El conector no permite subir el .docx del Libro (23 MB).',
  'Actualizar en 03_NOTAS el número de páginas a 107 (hallazgo 14).',
- 'Decidir si el Solucionario también va en oficio.',
  'Volver a pasar el paquete a ChatGPT para la auditoría v2.']:
     par('• '+t)
 d.core_properties.author='Equipo editorial'; d.core_properties.title='05_RESPUESTA_CLAUDE_SOFTWARE_1_ESENCIAL_v1'
