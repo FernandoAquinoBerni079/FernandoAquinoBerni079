@@ -32,14 +32,19 @@ QUÉ HAY EN CADA CARPETA Y DE DÓNDE SALIÓ (Drive)
   Tomo en oficio (75 págs., índice poblado) · Solucionario en oficio (20 págs., índice
   poblado) · Plan Anual · Planes de Clase.
 
-05_HyG_1er_Curso  (fuente: versión v1.1 AUDITADA del 03-oct)
-  Tomo en oficio (105 págs., índice poblado de 43 entradas) · Plan Anual · Planes de Clase.
-  FALTA EL SOLUCIONARIO de la arquitectura v1.1 (28 clases): el registro de versiones lo
-  marca como pendiente y no está en el Drive. El solucionario viejo (julio) no corresponde.
+05_HyG_1er_Curso  (fuente: paquete v1.2 AUDITADO que mandó Fer el 03-oct)
+  Tomo en oficio (111 págs., 20 figuras, índice poblado de 43 entradas) · Solucionario
+  Docente en oficio (29 págs.) · Plan Anual · Planes de Clase · Especificaciones gráficas.
+  Control tomo ↔ solucionario: las 162 opciones múltiples coinciden letra por letra y texto
+  por texto (y coinciden con las claves de las Unidades I y II resueltas aquí por separado).
+  Correcciones: errata «pocos familias» → «pocas familias» (Evaluación de la Unidad II,
+  ítem 1 d); la portadilla «Segunda parte» del solucionario ya no queda sola en una hoja.
+  El Plan Anual y los Planes de Clase v1.2 son idénticos a los v1.1.
 
 06_HyG_2do_Curso  (fuente: HyG_2do_Curso_PAQUETE_COMPLETO, 02-oct)
   Tomo en oficio (119 págs., era 146 en A4) · Solucionario en oficio (29 págs.) ·
   Plan Anual · Planes de Clase · Especificaciones gráficas (7 mapas aún pendientes de diseño).
+  La portada del solucionario dice «Documento exclusivo para el docente», como en 1.º.
   Portada corregida como en 1.º: sin el lema heredado de Castellano
   («Escuchar · Hablar · Leer · Escribir» → «Tiempo · Espacio · Sociedad»), sin «Plan Común»
   duplicado y con «Edición 2026» en vez de «Programa 2026».
