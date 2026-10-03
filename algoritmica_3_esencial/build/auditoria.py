@@ -8,8 +8,8 @@ import datos, actividades, practicas, evaluaciones, planes_data
 from estructura import cargar
 import ediciones
 
-O = '/home/claude/alg3/salida/'; B = '/home/claude/alg3/build/'
-F = {k: O + 'Algoritmica_3er_Curso_%s.%s' % (k, 'docx') for k in
+O = '/home/claude/alg3/salida_v2/'; B = '/home/claude/alg3/build/'
+F = {k: O + 'Algoritmica_3er_Curso_%s_v2.%s' % (k, 'docx') for k in
      ('LIBRO_ESENCIAL_COMERCIAL_2026', 'SOLUCIONARIO_DOCENTE_ESENCIAL_COMERCIAL_2026', 'PLANES_DE_CLASE_ESENCIAL_COMERCIAL_2026', 'PLAN_ANUAL_ESENCIAL_COMERCIAL_2026')}
 LIB, SOL, PLA, ANU = list(F.values())
 RES = []
@@ -55,7 +55,7 @@ chk('A', 'Correspondencia Clase N → Práctica N (orden intercalado)', seq == e
 for n in range(1, 22):
     chk('A', 'Título de la Clase %d coincide con la fuente' % n, ('Clase %d — %s' % (n, C[n]['titulo'])) in clases)
     chk('A', 'Título de la Práctica %d coincide con la fuente' % n, ('Práctica %d — %s' % (n, practicas.PR[n]['titulo'])) in prs)
-fichas = sum(1 for t in dL.tables if t.rows[0].cells[0].text.strip() == 'Capacidad')
+fichas = sum(1 for t in dL.tables if t.rows[0].cells[0].text.strip() in ('Capacidad', 'Capacidades'))
 chk('A', 'Una ficha por clase (21)', fichas == 21, fichas)
 for e in evaluaciones.EV:
     chk('A', 'Evaluación presente: ' + e['titulo'], e['titulo'] in TL)
@@ -276,14 +276,76 @@ PROG = {'tipos y campos de aplicación de lenguajes': 'campos de aplicación', '
 for k, v in PROG.items():
     chk('H', 'Cobertura del programa: ' + k, v.lower() in TL.lower())
 
+# ---------------- I. Ronda de correcciones v2 (auditoría ChatGPT + decisiones de Fer) ----------------
+import ediciones_v2 as V2, preliminares as PRE
+MECS = set(V2.MEC.values())
+fich = [t for t in dL.tables if t.rows[0].cells[0].text.strip() in ('Capacidad', 'Capacidades')]
+for n, t in enumerate(fich, 1):
+    caps_doc = [x.text.strip().lstrip('• ').strip() for x in t.rows[0].cells[1].paragraphs if x.text.strip()]
+    chk('I', 'Clase %d: capacidad textual del programa MEC' % n, caps_doc == V2.caps(V2.CAP_CLASE[n]), caps_doc)
+chk('I', 'Clase 10: tres capacidades oficiales (abstracción, usuarios, lenguajes)', len(V2.CAP_CLASE[10]) == 3 and set(V2.CAP_CLASE[10]) == {'C7', 'C8', 'C9'})
+chk('I', 'Todas las capacidades MEC de las unidades aparecen en alguna ficha', set(c for v in V2.CAP_CLASE.values() for c in v) == set(V2.MEC) - {'C15'})
+chk('I', 'Plan Anual: nota sobre capacidades textuales e indicadores', V2.MEC['C15'] in TA and 'Las capacidades se reproducen textualmente del programa MEC vigente. Los indicadores de logro de este plan son operativizaciones observables elaboradas para organizar la enseñanza y la evaluación de cada encuentro.' in TA)
+chk('I', 'Plan Anual: capacidad transversal (práctica Conductual)', 'Capacidad transversal del programa' in TA and V2.MEC['C15'] in TA)
+for u, cods in V2.CAP_UNIDAD.items():
+    chk('I', 'Plan Anual: capacidades textuales de la Unidad %d' % u, all(V2.MEC[c] in TA for c in cods))
+cap_planes = [x for x in PLs for x in (x['capacidad'] if isinstance(x['capacidad'], list) else [x['capacidad']])]
+chk('I', 'Planes de Clase: toda capacidad es textual del programa MEC', set(cap_planes) <= MECS, sorted(set(cap_planes) - MECS)[:3])
+chk('I', 'Planes de Clase: las capacidades figuran en el documento', all(c in TP for c in set(cap_planes)))
+chk('I', 'Clave secundaria: texto acordado presente', 'El programa oficial emplea el término «clave secundaria» sin definirlo en este apartado. En este libro usaremos el término clave foránea para el campo que referencia la clave principal de otra tabla. En otros textos, «clave secundaria» también puede referirse a una clave alternativa o a un índice secundario.' in TL)
+chk('I', 'Clave secundaria: sin la equivalencia anterior', 'la clave secundaria es la clave foránea' not in TL and 'secundaria, en la terminología del programa' not in TS)
+chk('I', 'Entidad débil: sin «exactamente la misma tabla»', 'exactamente la misma tabla' not in TL)
+chk('I', 'Entidad débil: idea de Fer sobre el discriminante', 'RENGLÓN necesita un discriminante propio, por ejemplo nro_renglón, y ambos modelos ya no producen exactamente la misma clave.' in TL)
+for x in ('Entidad fuerte', 'dependencia de existencia', 'Discriminante (identificador parcial)', 'Relación identificadora', 'entidad asociativa', '(venta, nro_renglón)', '(venta, producto)'):
+    chk('I', 'Entidad débil: «%s»' % x, x in TL)
+chk('I', 'Histórico de precios: texto nuevo', 'El precio de catálogo actual vive en Productos; queda fuera del mini-mundo un historial independiente de cambios del catálogo. Cada renglón de venta sí conserva en precio_unitario el importe realmente cobrado en esa operación.' in TL and 'el histórico de precios queda fuera del mini-mundo' not in TL)
+chk('I', 'PSeInt: perfil Flexible indicado', 'perfil Flexible' in TL)
+chk('I', 'PSeInt: Práctica 3 define i como Entero', 'Definí total, importe e i como Entero y promedio como Real; inicializá total en 0.' in TL)
+chk('I', 'PSeInt: Práctica 2 sin texto exacto del error en el libro', 'Al intentar dividir por cero, el problema aparece durante la ejecución. Registrá el mensaje exacto mostrado por la versión de PSeInt instalada.' in TL and 'Division por cero' not in TL)
+chk('I', 'PSeInt: solucionario documenta versión y resultados', 'PSeInt 20250314' in TS)
+chk('I', 'Access 2016: referencia una sola vez en el libro', TL.count(V2.ACCESS_REF) == 1)
+for x in ('versión actual', 'la más utilizada', 'más usada en Paraguay', 'marcada con estrella', 'dos llaves', 'Nuevo origen de datos', 'utonumérico'):
+    chk('I', 'Access: sin «%s»' % x, x not in TL and x not in TS)
+chk('I', 'Access: icono/indicador de clave', 'la clave principal identificada con el icono/indicador de clave' in TL)
+chk('I', 'Fechas: respuesta de la Evaluación de la Unidad 4', 'En la cuadrícula de Diseño con configuración regional d/m/a: #05/03/2026# → V5. En la vista SQL: #3/5/2026#.' in TS)
+ctrl_lib = [a['control'] for n in range(1, 22) for a in practicas.PR[n]['acts']]
+for x in ('Cargaste 33', 'G. 8.000 aunque', '2 de las 6', '13 renglones', 'seis paradigmas distintos', 'tres problemas (redundancia', 'Usaste las tres integridades', 'cuatro tipos de usuario', 'tres grados, uno por', 'Toda flecha sale de Préstamos', 'Solo uno no necesita', 'un solo renglón', 'termina exactamente igual', 'menos préstamos que renglones', 'al menos un enunciado de cada nivel', 'por más de un punto', 'Con C04'):
+    chk('I', 'Puntos de control sin revelar: «%s»' % x, not any(x in c for c in ctrl_lib) and x not in TL)
+for n, txt in ((18, 'El total de registros coincide con la suma de los registros indicados en las cuatro tablas de datos.'), (19, 'El filtro muestra solamente las ventas de la fecha elegida'),
+               (20, 'La consulta produce una respuesta coherente tanto para clientes con ventas como para un cliente que no tenga registros coincidentes.'), (21, 'ConsDetalle contiene un renglón por cada registro de DetalleVenta y ningún Subtotal queda vacío.'),
+               (3, 'Clasificaste los seis fragmentos, justificaste cada elección con una evidencia del enunciado y no asignaste dos categorías por simple intuición.')):
+    chk('I', 'Punto de control acordado en la Práctica %d' % n, txt in TL)
+for n in (5, 6, 8, 9, 10):
+    tr = practicas.PR[n]['transfer']
+    chk('I', 'Práctica %d: transferencia y revisión entre pares en el libro' % n, ('Modelo — Mini-caso: ' + tr['caso'][0]) in TL and all(x in TL for x in tr['caso'][1]))
+    chk('I', 'Práctica %d: solución de la transferencia en el solucionario' % n, tr['sol'] in TS)
+    chk('I', 'Plan de continuación de la Práctica %d: incluye la transferencia' % n, any(p['tipo'] == 'P' and p['n'] == n and any('Transferencia y revisión entre pares' in x for x in p['momentos']['Desarrollo']) for p in PLs))
+chk('I', 'Transferencia solo donde hace falta (5 de 10 continuaciones)', sum(1 for n in planes_data.CONT if practicas.PR[n].get('transfer')) == 5)
+cajas_py = [t for s_, t in PL if t.startswith('En Paraguay')]
+chk('I', 'Recuadros «En Paraguay»: solo los de contenido paraguayo verificable (3)', len(cajas_py) == 3, cajas_py)
+chk('I', 'Recuadros «Aplicación profesional»/«Ejemplo cotidiano» no aparecen en todas las clases', sum(1 for n in range(1, 22) if any(b['t'] == 'caja' and b['title'].startswith(('Aplicación profesional', 'Ejemplo cotidiano')) for b in C[n]['cuerpo'])) < 21)
+chk('I', 'PFI: extensión recomendada con el texto acordado', PRE.PFI_EXTENSION in TL and 'formulario de carga y un informe (recomendados)' not in TL)
+chk('I', 'Rúbrica analítica: 5 criterios con pesos 25/25/20/15/15', [p for _, p, _ in PRE.RUBRICA_ANALITICA] == [25, 25, 20, 15, 15])
+chk('I', 'Rúbrica analítica: 4 descriptores por criterio en el solucionario', all(all(dsc in TS for dsc in desc) and len(desc) == 4 for _, _, desc in PRE.RUBRICA_ANALITICA))
+for nombre, path in (('libro', LIB), ('solucionario', SOL), ('planes', PLA), ('plan anual', ANU)):
+    texto = '\n'.join(pg.get_text() for pg in pdf(path))
+    chk('I', 'Sin símbolos ✓ ✗ ✔ ✅ en el %s' % nombre, not re.search('[\u2705\u2714\u2713\u2717]', texto))
+    fuentes = {f_[3] for pg in pdf(path) for f_ in pg.get_fonts()}
+    chk('I', 'Sin fuente de emoji en el PDF del %s' % nombre, not any('Emoji' in f_ for f_ in fuentes), sorted(fuentes))
+    chk('I', 'Sin cuadros de glifo faltante (U+FFFD/U+25A1) en el %s' % nombre, not re.search('[\ufffd\u25a1]', texto))
+    docx_txt = '\n'.join(t for _, t in textos_doc(path)[1])
+    for pat, desc in ((r'\{FIG|image\d+\.(?:jpg|png)', 'marcadores de figura'), (r'«\s*»|(?<!\w)\(\s*\)', 'comillas o paréntesis vacíos (fuera de funciones como Fecha())'), (r'[^.]\.\.(?!\.)', 'punto doble'), (r' [,;:]| \.(?![\w\d])', 'espacio antes de puntuación'), (r'\b(\w{3,}) \1\b', 'palabra repetida')):
+        hits = re.findall(pat, docx_txt)
+        chk('I', 'Residuos de conversión en el %s: %s' % (nombre, desc), not hits, hits[:3])
+
 # ---------------- salida ----------------
 fallos = [r for r in RES if not r[2]]
 por = collections.Counter(r[0] for r in RES)
 with open(B + 'auditoria_resultado.txt', 'w') as f:
-    f.write('AUDITORÍA AUTOMÁTICA — Algorítmica 3.º · Edición Esencial Comercial 2026\n')
+    f.write('AUDITORÍA AUTOMÁTICA — Algorítmica 3.º · Edición Esencial Comercial 2026 · versión v2 (correcciones)\n')
     f.write('Controles: %d · Fallos: %d\n' % (len(RES), len(fallos)))
     nombres = {'A': 'Estructura y correspondencia', 'B': 'Paginación, índice, saltos y encabezados', 'C': 'Coherencia aritmética', 'D': 'Libro ↔ solucionario',
-               'E': 'Duplicados', 'F': 'Figuras', 'G': 'Plan Anual y Planes de Clase', 'H': 'Lengua, residuos y cobertura curricular'}
+               'E': 'Duplicados', 'F': 'Figuras', 'G': 'Plan Anual y Planes de Clase', 'H': 'Lengua, residuos y cobertura curricular', 'I': 'Correcciones v2 (auditoría y decisiones de Fer)'}
     for b in sorted(por):
         f.write('  %s. %-45s %4d controles · %d fallos\n' % (b, nombres[b], por[b], sum(1 for r in fallos if r[0] == b)))
     for r in fallos:

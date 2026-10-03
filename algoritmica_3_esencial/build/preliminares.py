@@ -9,9 +9,9 @@ PRESENTACION = [
 ]
 
 COMO_USAR = [
- ('Clase N', 'Ficha de capacidad · desarrollo con ejemplos resueltos · Concepto clave · En Paraguay · actividades de aplicación.'),
- ('Práctica N', 'Empieza en página propia y se puede fotocopiar suelta: competencia, lo que necesitás saber, actividades con objetivo, modelo, pasos y punto de control, y un desafío final.'),
- ('Punto de control ✅', 'Te dice cómo comprobar tu trabajo, sin darte la respuesta: si no se cumple, revisá tus pasos antes de seguir.'),
+ ('Clase N', 'Ficha con la capacidad del programa oficial e indicadores · desarrollo con ejemplos resueltos · recuadros Concepto clave, Ejemplo, Errores frecuentes y, cuando corresponde, En Paraguay o Aplicación profesional · actividades de aplicación.'),
+ ('Práctica N', 'Empieza en página propia y se puede fotocopiar suelta: competencia, lo que necesitás saber, actividades con objetivo, modelo, pasos y punto de control, y un desafío final. Algunas suman una transferencia con revisión entre pares.'),
+ ('Punto de control', 'Te dice cómo comprobar tu trabajo, sin darte la respuesta: si no se cumple, revisá tus pasos antes de seguir.'),
  ('Evaluaciones', 'Al cierre de cada unidad (banda ámbar) y de cada etapa (banda azul), en páginas propias.'),
 ]
 
@@ -45,8 +45,9 @@ PFI_REQUISITOS = [
  ('Normalización', 'Esquema en 3FN, con las dependencias funcionales principales escritas y justificadas.'),
  ('Base en Access', 'Al menos cuatro tablas con tipos y propiedades · claves principales (una compuesta) · relaciones con integridad referencial · datos de prueba propios (no los del libro).'),
  ('Consultas', 'Al menos cinco: una de selección con criterio, una paramétrica, una de totales, una con campo calculado y una de referencias cruzadas.'),
- ('Presentación', 'Un formulario de carga y un informe (recomendados) · guion de demostración de cinco minutos.'),
+ ('Presentación', 'Guion de demostración de cinco minutos.'),
 ]
+PFI_EXTENSION = 'Extensión recomendada: agregá al menos un formulario de carga y un informe. No son requisitos mínimos para aprobar el proyecto, pero mejoran la usabilidad y la presentación profesional de la solución.'
 PFI_ETAPAS = [
  ('Taller 1 — Definición y diseño', 'Elegís el emprendimiento, relevás sus preguntas, dibujás el DER y lo llevás a tablas normalizadas.'),
  ('Taller 2 — Construcción', 'Creás la base en Access, definís las relaciones, cargás datos de prueba y formulás las consultas.'),
@@ -60,7 +61,7 @@ PFI_INTERDISCIPLINA = [
  ('Dibujo Técnico', 'Identidad visual: logo, afiche y plano del stand a escala.'),
 ]
 PFI_ENTREGABLES = ['Carpeta del proyecto con el documento de diseño (mini-mundo, preguntas, DER, esquema y normalización).',
-                   'Archivo de la base (.accdb) con tablas, relaciones, consultas y, si corresponde, formulario e informe.',
+                   'Archivo de la base (.accdb) con tablas, relaciones y consultas; el formulario y el informe, si se hicieron como extensión recomendada.',
                    'Guion de la demostración y reparto de roles del equipo.']
 PFI_PAUTAS = ['Trabajen en equipos de 3 o 4 integrantes, con roles claros (diseño, base, consultas, presentación).',
               'Usen el mismo emprendimiento en todas las materias.',
@@ -78,3 +79,34 @@ ORIENTACIONES_PFI = ['Lanzar el proyecto al inicio de la Unidad 4, cuando el dis
                      'Coordinar con las otras materias del curso para que todas trabajen sobre el mismo emprendimiento.',
                      'Pedir datos de prueba propios del equipo: no se aceptan las tablas del Copetín copiadas del libro.',
                      'Exigir un control cruzado por consulta (por ejemplo, total por cliente = total por categoría).']
+
+# v2 · rúbrica analítica: mismos cinco criterios y pesos; el nivel asigna 100 %, 60 %, 30 % o 0 % del peso.
+NIVELES = [('Logrado', 1.0), ('En proceso', 0.6), ('Inicial', 0.3), ('No presentado', 0.0)]
+RUBRICA_ANALITICA = [
+ ('Funcionamiento de la base y las consultas en Access', 25, [
+   'La base abre sin errores; las tablas tienen tipos y claves correctos, todas las relaciones exigen integridad referencial y las cinco consultas mínimas se ejecutan con resultados verificados por un control cruzado.',
+   'La base abre y las relaciones están definidas, pero alguna no exige integridad referencial, o una o dos consultas dan error o un resultado que no se verificó.',
+   'Hay tablas con datos, pero faltan relaciones o la integridad está incompleta, y funcionan menos de tres de las cinco consultas mínimas.',
+   'No se entrega el archivo de la base o el archivo no abre.']),
+ ('Aplicación de los contenidos del año (DER, normalización, consultas)', 25, [
+   'El DER tiene cardinalidad en ambos extremos y al menos una relación N:M resuelta con tabla puente; el esquema está en 3FN con las dependencias funcionales escritas y justificadas; cada consulta responde una pregunta del negocio.',
+   'DER y esquema completos, con uno o dos errores (una cardinalidad mal leída, una dependencia transitiva sin resolver) o con dependencias funcionales sin justificar.',
+   'Hay DER o esquema, pero no se corresponden entre sí o tienen errores que impiden reconstruir los datos (listas en una celda, clave foránea del lado equivocado).',
+   'No se presenta el documento de diseño.']),
+ ('Integración interdisciplinaria (mismo emprendimiento en todas las materias)', 20, [
+   'El mismo emprendimiento aparece en los aportes de todas las materias participantes y la presentación muestra cómo se conectan con la base de datos.',
+   'El emprendimiento es el mismo, pero falta el aporte de una materia o no se lo vincula con la base.',
+   'Los aportes de las otras materias se presentan por separado, sin relación con el sistema.',
+   'No hay aportes de otras materias.']),
+ ('Presentación en la feria (claridad y utilidad para el negocio)', 15, [
+   'La demostración dura unos cinco minutos, sigue el guion, muestra al menos dos consultas en vivo y explica qué problema del negocio resuelve, con lenguaje claro para el público.',
+   'La demostración funciona, pero excede el tiempo, se aparta del guion o explica la parte técnica sin decir para qué le sirve al negocio.',
+   'La demostración se interrumpe por errores o se limita a leer diapositivas sin mostrar la base funcionando.',
+   'El equipo no presenta.']),
+ ('Trabajo en equipo', 15, [
+   'Cada integrante cumple su rol y puede explicar cualquier parte del proyecto; la carpeta registra la distribución de tareas y los avances de los tres talleres.',
+   'Los roles se cumplen de forma despareja o algún integrante solo puede explicar su propia parte.',
+   'Uno o dos integrantes concentran el trabajo y no hay registro de la distribución de tareas.',
+   'No hay evidencia de trabajo compartido.']),
+]
+assert [(c, p) for c, p, _ in RUBRICA_ANALITICA] == [(c, int(p.split()[0])) for c, p in RUBRICA]

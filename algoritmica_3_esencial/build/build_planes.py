@@ -15,8 +15,8 @@ import maqueta as M
 import planes_data
 from build_libro import a_pdf
 
-B = '/home/claude/alg3/build/'; OUT = '/home/claude/alg3/salida/'
-NOMBRE = 'Algoritmica_3er_Curso_PLANES_DE_CLASE_ESENCIAL_COMERCIAL_2026'
+B = '/home/claude/alg3/build/'; OUT = '/home/claude/alg3/salida_v2/'
+NOMBRE = 'Algoritmica_3er_Curso_PLANES_DE_CLASE_ESENCIAL_COMERCIAL_2026_v2'
 DARK, MED, LIGHT, GRIS = '1B5E20', '2E7D32', 'E8F5E9', 'BFBFBF'
 W = 17.0
 MIN_HC, HC = 40, 4
@@ -124,7 +124,7 @@ def plan(d, p, total):
     celda(fr.cells[1].merge(fr.cells[3]), p['tema'])
     esp(d)
     t = tabla(d, 2, 2, [3.4, 13.6])
-    M.shd(t.rows[0].cells[0], MED); celda(t.rows[0].cells[0], 'Capacidad', bold=True, blanco=True); celda(t.rows[0].cells[1], p['capacidad'])
+    M.shd(t.rows[0].cells[0], MED); capv = p['capacidad'] if isinstance(p['capacidad'], list) else [p['capacidad']]; celda(t.rows[0].cells[0], 'Capacidad' if len(capv) == 1 else 'Capacidades', bold=True, blanco=True); celda(t.rows[0].cells[1], capv, vinetas=len(capv) > 1)
     M.shd(t.rows[1].cells[0], MED); celda(t.rows[1].cells[0], ['Indicadores', 'de logro'], bold=True, blanco=True); celda(t.rows[1].cells[1], p['indicadores'], vinetas=True)
     esp(d)
     t = tabla(d, 4, 3, [2.2, 12.7, 2.1])

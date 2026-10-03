@@ -5,7 +5,7 @@ Reglas: el material es «el libro»; figuras renumeradas por clase; puntos de co
 según la edición nueva; continuaciones reescritas a partir de las Actividades 2 y 3 de cada práctica."""
 import json, re
 from estructura import cargar
-import ediciones, actividades, practicas, evaluaciones
+import ediciones, ediciones_v2, actividades, practicas, evaluaciones
 
 P_OLD = {p['n']: p for p in json.load(open('/home/claude/alg3/build/planes_old.json'))}
 _pre, C, _ev, U = cargar()
@@ -59,6 +59,18 @@ def transformar(t, n=None):
     t = t.replace('del Cuaderno de Prácticas', 'del libro').replace('Cuaderno de Prácticas, ', '').replace('Cuaderno de Prácticas ·', '')
     t = re.sub(r'(figuras?) (\d+\.\d+)((?:,? (?:y )?\d+\.\d+)*)',
                lambda m: m.group(1) + ' ' + re.sub(r'\d+\.\d+', lambda q: FIGMAP.get(q.group(0), q.group(0)), m.group(2) + m.group(3)), t)
+    for (cn, tit), acc in ediciones_v2.RECUADROS.items():
+        if acc == 'keep' or tit not in t:
+            continue
+        if isinstance(acc, tuple):
+            t = t.replace('«%s»' % tit, '«%s»' % acc[1])
+        else:
+            q = re.escape(tit)
+            t = re.sub(r'cajas «([^»]+)» y «%s»' % q, r'caja «\1»', t)
+            t = re.sub(r'las cajas «%s» y «([^»]+)»' % q, r'la caja «\1»', t)
+            t = re.sub(r',? y de «%s»' % q, '', t)
+            t = re.sub(r',? caja «%s»' % q, '', t)
+        assert tit not in t, (tit, t)
     if n:
         er, pd, de, tot = _fam(n)
         t = re.sub(r'actividades 1 a \d+(?! y)', 'actividades 1 a %d' % er[-1], t)
@@ -175,8 +187,10 @@ def plan_continuacion(idx, n):
     des = []
     for k, a in enumerate(acts, 2):
         des.append('Actividad %d, «%s»: %s Acompañamiento docente en los pasos con más dificultad: %s' % (k, a['titulo'], a['objetivo'], a['pasos'][0][0].lower() + a['pasos'][0][1:]))
+    if p.get('transfer'):
+        des.append('Transferencia y revisión entre pares (30 a 40 minutos): mini-caso «%s» con datos diferentes; intercambio con otro equipo, detección de al menos un error, corrección y justificación escrita de la versión final.' % p['transfer']['caso'][0])
     des.append('Desafío final para quienes terminan antes: %s' % p['desafio'])
-    cie = ['Verificación de los puntos de control: %s.' % '; '.join('Actividad %d, «%s»' % (k, a['control']) for k, a in enumerate(acts, 2)),
+    cie = ['Verificación de los puntos de control: %s.' % '; '.join(['Actividad %d, «%s»' % (k, a['control']) for k, a in enumerate(acts, 2)] + (['transferencia entre pares, «%s»' % p['transfer']['control']] if p.get('transfer') else [])),
            'Registro breve de dificultades y corrección colectiva de los errores frecuentes de la práctica.']
     tiempos = (20, 120, 20)
     if ev:
@@ -222,7 +236,7 @@ PFI_DES = {
      'Formulación de las cinco consultas mínimas: selección con criterio, paramétrica, totales, campo calculado y referencias cruzadas.',
      'Integración con las otras materias: logo, planilla de cálculos, presentación y resguardo de los archivos.'],
  3: ['Control cruzado de cada consulta (por ejemplo, total por cliente igual a total por categoría) y corrección de errores.',
-     'Creación (recomendada) de un formulario de carga y de un informe, y exportación del informe a PDF.',
+     'Extensión recomendada (no es requisito para aprobar): formulario de carga e informe, con exportación del informe a PDF.',
      'Ensayo de la demostración de cinco minutos con reparto de roles y guion.',
      'Coevaluación entre equipos con la rúbrica del Proyecto Final Integrador.'],
 }
@@ -235,12 +249,14 @@ def plan_taller(idx, k):
     p['recursos'] = ('Libro del estudiante, Proyecto Final Integrador (requisitos mínimos, etapas, aportes de cada materia y Figura PFI.1) · computadoras con Microsoft Access · '
                      'carpeta del proyecto · rúbrica del Solucionario docente.' + ALT_PAPEL)
     p['tipo'] = 'T'; p['n'] = k
+    p['capacidad'] = ediciones_v2.caps(ediciones_v2.CAP_TALLER)
     return p
 
 
 def plan_eval(idx, eid):
     p = plan_viejo(idx)
     p['tipo'] = 'E'; p['n'] = eid
+    p['capacidad'] = ediciones_v2.caps(ediciones_v2.CAP_EVAL[eid])
     if eid == 'E1':
         p['momentos']['Desarrollo'][0] = 'Resolución individual de la Parte A, de diagnóstico rápido: tres consignas de opción múltiple sobre el paradigma dirigido por eventos, el modelo relacional y la redundancia.'
         p['momentos']['Desarrollo'][1] = 'Resolución individual de la Parte B, de resolución y aplicación: necesidad del traductor y estrategias de ejecución, elección justificada de lenguaje para la secretaría de un club, diseño de la tabla Socios con su clave principal, integridad referencial en la tabla Pagos y cálculo paso a paso del total de una venta.'

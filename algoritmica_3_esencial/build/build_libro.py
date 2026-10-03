@@ -7,9 +7,9 @@ from estructura import cargar
 import ediciones, actividades, practicas, evaluaciones, preliminares as PRE
 
 B = '/home/claude/alg3/build/'
-OUT = '/home/claude/alg3/salida/'
+OUT = '/home/claude/alg3/salida_v2/'
 os.makedirs(OUT, exist_ok=True)
-NOMBRE = 'Algoritmica_3er_Curso_LIBRO_ESENCIAL_COMERCIAL_2026'
+NOMBRE = 'Algoritmica_3er_Curso_LIBRO_ESENCIAL_COMERCIAL_2026_v2'
 FIG_SRC = B + 'figs_src/'; FIG_NEW = B + 'figs_new/'
 PFI_FIG = '/home/claude/alg3/cua_x/word/media/image2.png'
 
@@ -94,7 +94,23 @@ def practica(d, n):
         M.bordes(t, 'A5D6A7', '6'); M.margenes_celda(t, 70, 110)
         c = t.rows[0].cells[0]; M.shd(c, 'EEF7EE')
         q = c.paragraphs[0]; q.paragraph_format.space_after = M.Pt(0)
-        M.run(q, '✅ Punto de control: ', True, size=10, color=M.DARK); M.run(q, a['control'], size=10)
+        M.run(q, 'Punto de control: ', True, size=10, color=M.DARK); M.run(q, a['control'], size=10)
+        M.ancho_fijo(t, [M.ANCHO]); M.cant_split(t)
+        M.separador(d, 4)
+    if p.get('transfer'):
+        tr = p['transfer']
+        M.par(d, 'Transferencia y revisión entre pares (30 a 40 minutos)', 11, True, color=M.DARK, keep=True, antes=6, despues=2)
+        pp = M.par(d, '', 10, keep=True)
+        M.run(pp, 'Objetivo: ', True, size=10); M.run(pp, 'aplicar lo mismo a un segundo caso, con datos diferentes, y mejorar el trabajo con la revisión de otro equipo.', italic=True, size=10)
+        M.caja(d, 'Modelo — Mini-caso: ' + tr['caso'][0], tr['caso'][1])
+        M.par(d, 'Pasos:', 10, True, keep=True, despues=1)
+        for i, s in enumerate(tr['pasos'], 1):
+            M.par(d, '%d. %s' % (i, s), 10, indent=0.4, despues=2)
+        t = d.add_table(rows=1, cols=1)
+        M.bordes(t, 'A5D6A7', '6'); M.margenes_celda(t, 70, 110)
+        c = t.rows[0].cells[0]; M.shd(c, 'EEF7EE')
+        q = c.paragraphs[0]; q.paragraph_format.space_after = M.Pt(0)
+        M.run(q, 'Punto de control: ', True, size=10, color=M.DARK); M.run(q, tr['control'], size=10)
         M.ancho_fijo(t, [M.ANCHO]); M.cant_split(t)
         M.separador(d, 4)
     M.par(d, 'Desafío final (para quienes terminan antes)', 10.5, True, color=M.MED, keep=True, antes=4, despues=2)
@@ -135,9 +151,12 @@ def pfi(d):
     for t in PRE.PFI_APORTES:
         M.par(d, '• ' + t, indent=0.3, despues=2)
     M.imagen(d, PFI_FIG, 'Figura PFI.1 — Mapa de la solución digital completa: del diseño a la Feria de Informática.', 12.0,
-             lead='El mapa de la figura muestra cómo se arma la solución: el diseño alimenta la base de datos, la base responde con consultas, formularios e informes, y todo desemboca en la presentación de la feria junto con los aportes de las demás materias.')
+             lead='El mapa de la figura muestra cómo se arma la solución: el diseño alimenta la base de datos, la base responde con consultas (y, como extensión recomendada, con formularios e informes), y todo desemboca en la presentación de la feria junto con los aportes de las demás materias.')
     M.heading(d, 'Requisitos mínimos de la solución', 3)
     M.tabla(d, ['Componente', 'Qué debe tener'], [list(x) for x in PRE.PFI_REQUISITOS], anchos=[3.6, 13.0])
+    pp = M.par(d, '', 10.5)
+    ext, resto = PRE.PFI_EXTENSION.split(': ', 1)
+    M.run(pp, ext + ': ', True, color=M.DARK); M.run(pp, resto)
     M.heading(d, 'Etapas del proyecto', 3)
     M.tabla(d, ['Taller', 'Qué hacés'], [list(x) for x in PRE.PFI_ETAPAS], anchos=[5.2, 11.4])
     M.heading(d, 'Trabajo interdisciplinario: qué aporta cada materia', 3)

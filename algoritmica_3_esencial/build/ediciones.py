@@ -311,6 +311,8 @@ def aplicar(C):
             if 'rows' in b:
                 b['rows'] = [[re.sub(r'\b(tomo|cuadernillo)\b', 'libro', x) for x in r] for r in b['rows']]
     LOG.append((0, 'G-1', 'Libro único: %d menciones de «tomo» o «cuadernillo» pasan a «libro».' % cambios))
+    import ediciones_v2
+    ediciones_v2.aplicar(C, LOG, sub, ins, borrar, reemplazar, idx, H2, P, CAJA, TABLA)
     return C
 
 

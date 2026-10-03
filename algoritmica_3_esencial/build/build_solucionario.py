@@ -7,8 +7,8 @@ from estructura import cargar
 import ediciones, actividades, practicas, evaluaciones, preliminares as PRE
 from build_libro import a_pdf
 
-B = '/home/claude/alg3/build/'; OUT = '/home/claude/alg3/salida/'
-NOMBRE = 'Algoritmica_3er_Curso_SOLUCIONARIO_DOCENTE_ESENCIAL_COMERCIAL_2026'
+B = '/home/claude/alg3/build/'; OUT = '/home/claude/alg3/salida_v2/'
+NOMBRE = 'Algoritmica_3er_Curso_SOLUCIONARIO_DOCENTE_ESENCIAL_COMERCIAL_2026_v2'
 pre, C, _, U = cargar()
 ediciones.aplicar(C)
 
@@ -35,6 +35,7 @@ def construir(pags=None):
     M.heading(d, 'Presentación', 1, estilo='Título preliminar')
     for t in ['Este solucionario es material exclusivo del docente. Contiene, con la misma numeración del libro del estudiante, las respuestas de todas las actividades de aplicación de las 21 clases, las orientaciones para corregir la prueba diagnóstica y las claves de las cuatro evaluaciones de unidad y de las dos integradoras de etapa, con el desarrollo de los cálculos.',
               'Incluye además, para cada una de las 21 prácticas del libro, el resultado esperado y los errores frecuentes que conviene vigilar durante la sesión, y las orientaciones y la rúbrica del Proyecto Final Integrador. El libro del estudiante no contiene respuestas: los puntos de control de las prácticas permiten verificar el trabajo sin revelar el resultado.',
+              'Las capacidades de cada ficha se reproducen textualmente del programa MEC vigente; los indicadores de logro son operativizaciones observables. Los algoritmos de las Prácticas 1 a 3 se ejecutaron en PSeInt 20250314 con el perfil Flexible, que es el perfil de referencia del libro. Los procedimientos de Access toman como referencia Access 2016 en castellano y no se ejecutaron en el programa: los resultados de las consultas se verificaron con un script sobre los mismos datos.',
               'Los números del caso Copetín Karumbé cierran en una recaudación de G. 134.000 (semana del 3 al 5 de marzo, usada en las clases) y de G. 135.000 (semana del 9 al 11 de marzo, usada en las prácticas de Access 18 a 21). Todas las cifras de este solucionario se verificaron con un script antes de la edición.']:
         M.par(d, t)
     M.heading(d, 'Índice', 1, salto=True, estilo='Título preliminar')
@@ -67,7 +68,9 @@ def construir(pags=None):
         M.heading(d, 'Práctica %d — %s' % (n, p['titulo']), 2)
         q = M.par(d, '', 9.5, despues=2); M.run(q, 'Entorno: ', True, size=9.5); M.run(q, p['entorno'] + ' · ' + str(len(p['acts'])) + ' actividades.', size=9.5)
         q = M.par(d, '', 9.5, despues=2); M.run(q, 'Resultado esperado: ', True, size=9.5, color=M.DARK); M.run(q, p['sol']['resultado'], size=9.5)
-        q = M.par(d, '', 9.5, despues=4); M.run(q, 'Errores frecuentes: ', True, size=9.5, color='A04000'); M.run(q, p['sol']['errores'], size=9.5)
+        q = M.par(d, '', 9.5, despues=2 if p.get('transfer') else 4); M.run(q, 'Errores frecuentes: ', True, size=9.5, color='A04000'); M.run(q, p['sol']['errores'], size=9.5)
+        if p.get('transfer'):
+            q = M.par(d, '', 9.5, despues=4); M.run(q, 'Transferencia y revisión entre pares: ', True, size=9.5, color=M.DARK); M.run(q, p['transfer']['sol'], size=9.5)
     # tercera parte
     M.heading(d, E[45][1], 1, salto=True)
     M.par(d, 'Puntaje sugerido para cada evaluación: Parte A, 1 punto por ítem (3 puntos); Parte B, 3 puntos por ítem (15 puntos); total 18 puntos. En las preguntas abiertas se acepta cualquier respuesta equivalente que cumpla el criterio indicado.', 10, italic=True)
@@ -87,9 +90,16 @@ def construir(pags=None):
     M.par(d, 'Orientaciones docentes', 10.5, True, color=M.DARK, keep=True)
     for t in PRE.ORIENTACIONES_PFI:
         M.par(d, '• ' + t, 10, indent=0.3, despues=2)
-    M.par(d, 'Rúbrica de evaluación (los pesos suman 100 %)', 10.5, True, color=M.DARK, keep=True, antes=6)
-    M.tabla(d, ['Criterio', 'Peso'], [list(x) for x in PRE.RUBRICA] + [['TOTAL', '100 %']], anchos=[13.6, 3.0])
-    M.par(d, 'Niveles de logro para cada criterio: Logrado (100 % del peso) · En proceso (60 %) · Inicial (30 %) · No presentado (0 %).', 9.5, italic=True)
+    M.par(d, 'Rúbrica analítica de evaluación (los pesos suman 100 %)', 10.5, True, color=M.DARK, keep=True, antes=6)
+    M.par(d, 'Cada criterio se califica en uno de cuatro niveles. El nivel asigna una parte fija del peso del criterio: Logrado, el 100 %; En proceso, el 60 %; Inicial, el 30 %; No presentado, el 0 %. Cada descriptor dice qué evidencia observable corresponde al nivel. El formulario y el informe son una extensión recomendada: no suman puntaje obligatorio.', 9.5, italic=True)
+
+    def pts(x):
+        return ('%g' % x).replace('.', ',')
+    filas = []
+    for crit, peso, desc in PRE.RUBRICA_ANALITICA:
+        filas.append(['%s\n(peso %d %%)' % (crit, peso)] + ['%s pts. %s' % (pts(peso * f), dsc) for (_, f), dsc in zip(PRE.NIVELES, desc)])
+    M.tabla(d, ['Criterio'] + ['%s (%d %%)' % (n, round(f * 100)) for n, f in PRE.NIVELES], filas, anchos=[2.9, 3.6, 3.5, 3.5, 3.1], size=8)
+    M.par(d, 'Puntaje total: suma de los cinco criterios (máximo 100 puntos).', 9.5, italic=True)
     M.pie_paginas(d, cuerpo)
     M.no_actualizar_campos(d)
     M.purgar_relaciones(d)

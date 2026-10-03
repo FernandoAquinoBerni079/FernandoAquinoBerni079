@@ -175,7 +175,9 @@ def separador(d, pts=2):
 def ficha(d, cap, tema, inds):
     t = d.add_table(rows=3, cols=2); t.alignment = WD_TABLE_ALIGNMENT.CENTER
     bordes(t, 'A5D6A7', '6'); margenes_celda(t, 70, 110)
-    for row, (k, v) in zip(t.rows, (('Capacidad', [cap]), ('Tema', [tema]), ('Indicadores de logro', ['• ' + i for i in inds]))):
+    caps = cap if isinstance(cap, list) else [cap]
+    caps_txt = caps if len(caps) == 1 else ['• ' + x for x in caps]
+    for row, (k, v) in zip(t.rows, (('Capacidad' if len(caps) == 1 else 'Capacidades', caps_txt), ('Tema', [tema]), ('Indicadores de logro', ['• ' + i for i in inds]))):
         shd(row.cells[0], DARK); shd(row.cells[1], FICHA)
         run(row.cells[0].paragraphs[0], k, True, size=9, color='FFFFFF')
         for j, v1 in enumerate(v):

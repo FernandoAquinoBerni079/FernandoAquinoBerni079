@@ -9,19 +9,18 @@ from docx.oxml.ns import qn
 from docx.oxml import OxmlElement
 import maqueta as M
 import planes_data
+import ediciones_v2
 from build_libro import a_pdf
 
-B = '/home/claude/alg3/build/'; OUT = '/home/claude/alg3/salida/'
-NOMBRE = 'Algoritmica_3er_Curso_PLAN_ANUAL_ESENCIAL_COMERCIAL_2026'
+B = '/home/claude/alg3/build/'; OUT = '/home/claude/alg3/salida_v2/'
+NOMBRE = 'Algoritmica_3er_Curso_PLAN_ANUAL_ESENCIAL_COMERCIAL_2026_v2'
 ANCHOS = [1.0, 5.0, 6.8, 1.5, 5.3, 4.2, 2.8]
 COLS = ['N.º', 'TEMAS', 'INDICADORES DE LOGRO', 'TIEMPO', 'PROCEDIMIENTOS', 'INSTRUMENTOS DE EVALUACIÓN', 'OBSERVACIÓN']
 DARK, MED, LIGHT, AZUL, AZUL_CLARO = '1B5E20', '2E7D32', 'E8F5E9', '1B4F72', 'EAF0F6'
-CAP_UNIDAD = {
- 1: 'Reconoce los diferentes tipos de lenguajes de programación, establece diferencias entre ellos y reconoce su importancia.',
- 2: 'Reconoce los conceptos de base de datos, analiza su composición, utiliza los conceptos de SGBD, identifica los niveles de abstracción y analiza tipos de usuario y lenguajes.',
- 3: 'Analiza los modelos de datos, construye entidades, trabaja con el modelo Entidad-Relación y utiliza las reglas de normalización (1FN-2FN-3FN).',
- 4: 'Ejecuta técnicas y procedimientos en el desarrollo de entidades normalizadas, utilizando un gerenciador de base de datos.',
-}
+CAP_UNIDAD = {u: ediciones_v2.caps(c) for u, c in ediciones_v2.CAP_UNIDAD.items()}
+NOTA_CAP = ('Las capacidades se reproducen textualmente del programa MEC vigente. Los indicadores de logro de este plan son operativizaciones '
+            'observables elaboradas para organizar la enseñanza y la evaluación de cada encuentro.')
+CAP_TRANSVERSAL = ediciones_v2.MEC['C15']
 assert sum(ANCHOS) == 26.6
 
 
@@ -86,6 +85,9 @@ def construir():
     M.par(d, 'Disciplina: Algorítmica  ·  Curso: 3.er Curso  ·  Bachillerato Técnico en Servicios · Especialidad Informática  ·  4 horas cátedra semanales', 9.5, align='c', despues=1)
     M.par(d, 'República del Paraguay · 2026', 9, italic=True, align='c', despues=1)
     M.par(d, 'Institución educativa: ______________________________     Docente: ______________________________', 9, align='c', despues=4)
+    pp = M.par(d, '', 8.5, despues=2); M.run(pp, 'Nota sobre capacidades e indicadores. ', True, size=8.5, color=DARK); M.run(pp, NOTA_CAP, size=8.5)
+    pp = M.par(d, '', 8.5, despues=4); M.run(pp, 'Capacidad transversal del programa: ', True, size=8.5, color=DARK)
+    M.run(pp, '«%s» Se trabaja de manera transversal durante todo el año, mediante las prácticas, el trabajo colaborativo en parejas y equipos, la responsabilidad sobre los datos (respaldos, permisos y cuidado de los datos personales) y el Proyecto Final Integrador.' % CAP_TRANSVERSAL, size=8.5)
     M.par(d, 'Distribución anual: 36 encuentros de 4 horas cátedra (144 HC), 18 en cada etapa. Cada fila es un encuentro y tiene su Plan de Clase con el mismo número. Diez clases continúan en un encuentro propio (Actividades 2 y 3 de su práctica); el Proyecto Final Integrador ocupa tres talleres y cada evaluación integradora de etapa, un encuentro. Material de referencia: el libro del estudiante, que reúne cada Clase con su Práctica.', 8.5, despues=4)
     rows = filas_plan()
     t = d.add_table(rows=1, cols=7)
@@ -112,10 +114,10 @@ def construir():
         if r_['tipo'] in ('C', 'P') and r_['unidad'] != u_prev:
             u_prev = r_['unidad']
             un = int(re.search(r'UNIDAD (\d)', u_prev).group(1))
-            banda('%s · Capacidades: %s' % (u_prev, CAP_UNIDAD[un]), MED, 8.5)
+            banda('%s · Capacidades del programa MEC: %s' % (u_prev, ' · '.join(CAP_UNIDAD[un])), MED, 8.5)
         if r_['tipo'] == 'T' and u_prev != 'PFI':
             u_prev = 'PFI'
-            banda('PROYECTO FINAL INTEGRADOR — La solución digital completa · Feria de Informática', MED, 8.5)
+            banda('PROYECTO FINAL INTEGRADOR — La solución digital completa · Feria de Informática · Capacidades del programa MEC: %s' % ' · '.join(ediciones_v2.caps(ediciones_v2.CAP_TALLER)), MED, 8.5)
         rr = fila()
         vals = [str(r_['n']), r_['tema'], ['• ' + i for i in r_['indicadores']], r_['tiempo'], r_['proc'], r_['inst'], r_['obs']]
         for j, v in enumerate(vals):
