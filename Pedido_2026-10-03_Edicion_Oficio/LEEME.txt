@@ -69,5 +69,7 @@ ajustando sólo el espaciado de las clases afectadas, e índices repoblados hast
 cambian los números de página, la leyenda F9 y la «e» suelta de 7.º).
 OJO: las copias _OFICIO que ChatGPT subió al Drive son la versión ANTERIOR a este ajuste;
 las buenas son las de este paquete.
-Observación: 8.º y 9.º no tienen portada (empiezan directamente con la Presentación).
+Portadas de 7.º, 8.º y 9.º: son ilustraciones (sin texto editable). Estaban a 15,5 cm de
+ancho, con proporción A4; se agrandaron proporcionalmente al ancho útil del oficio (19,05 cm)
+para que ocupen la hoja, sin deformar ni recortar.
 La macro _MACRO_TOMOS_GRANDES/PasarAOficio.bas queda para futuros tomos de más de 10 MB.
