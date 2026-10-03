@@ -1,0 +1,69 @@
+PEDIDO 03-10-2026 — EDICIÓN OFICIO
+Economía 2.º Curso · Historia y Geografía 7.º, 8.º, 9.º · 1.º, 2.º, 3.º Curso · EMJA Niveles I a IV
+
+NORMA APLICADA (skill cuadernillos-mec, Fer 02-oct-2026)
+- Tomo y Solucionario: papel OFICIO 21,59 × 33,02 cm, márgenes de 1,27 cm, tablas
+  ajustadas a la ventana (100 % del ancho útil, 19,05 cm). El PDF tiene el mismo papel
+  que el DOCX (612 × 936 pt).
+- Índice POBLADO con la página real (ya no trae la leyenda «Ctrl+E y luego F9»).
+- Ninguna página interior con menos del 25 % ocupado (salvo las presentaciones, que se
+  revisaron a ojo: «Cómo usar este solucionario» en 7.º y Economía).
+- Plan Anual: A4 horizontal. Planes de Clase: A4. No se modificaron, sólo se les sacó el PDF.
+- Cada documento va en .docx + .pdf.
+
+QUÉ HAY EN CADA CARPETA Y DE DÓNDE SALIÓ (Drive)
+
+01_Economia_2do_Curso
+  Solucionario en oficio (11 págs., índice poblado) · Plan Anual.
+  FALTA EL TOMO (ver «Tomos grandes»). No hay Planes de Clase de Economía 2.º en el Drive
+  (sólo los del Proyecto de Economía Ambiental, que es otro producto).
+
+02_HyG_7mo_Grado  (fuente: carpeta EEB_7_Historia_y_Geografia, versión PROPIO del 31-ago)
+  Solucionario en oficio (14 págs.) · Plan Anual · Planes de Clase.  FALTA EL TOMO.
+
+03_HyG_8vo_Grado  (fuente: carpeta del 13-sep)
+  Solucionario en oficio (11 págs.: las claves de evaluación y el anexo de profundizaciones
+  siguen a continuación, sin hoja propia) · Plan Anual · Planes de Clase.  FALTA EL TOMO.
+
+04_HyG_9no_Grado  (fuente: carpeta EEB_9_Historia_y_Geografia, versión PROPIO del 21-ago)
+  Solucionario en oficio (20 págs., índice poblado) · Plan Anual · Planes de Clase.
+  FALTA EL TOMO.
+
+05_HyG_1er_Curso  (fuente: versión v1.1 AUDITADA del 03-oct)
+  Tomo en oficio (105 págs., índice poblado de 43 entradas) · Plan Anual · Planes de Clase.
+  FALTA EL SOLUCIONARIO de la arquitectura v1.1 (28 clases): el registro de versiones lo
+  marca como pendiente y no está en el Drive. El solucionario viejo (julio) no corresponde.
+
+06_HyG_2do_Curso  (fuente: HyG_2do_Curso_PAQUETE_COMPLETO, 02-oct)
+  Tomo en oficio (119 págs., era 146 en A4) · Solucionario en oficio (29 págs.) ·
+  Plan Anual · Planes de Clase · Especificaciones gráficas (7 mapas aún pendientes de diseño).
+  Portada corregida como en 1.º: sin el lema heredado de Castellano
+  («Escuchar · Hablar · Leer · Escribir» → «Tiempo · Espacio · Sociedad»), sin «Plan Común»
+  duplicado y con «Edición 2026» en vez de «Programa 2026».
+
+07_HyG_3er_Curso  (fuente del tomo: TOMO_COMPLETO_AMPLIADO del 03-oct)
+  Tomo en oficio (85 págs., índice poblado de 45 entradas) · Solucionario en oficio
+  (11 págs.) · Plan Anual · Planes de Clase. Portada corregida igual que en 2.º.
+  Las aperturas de unidad ya no quedan solas en una hoja: la primera clase arranca debajo.
+  OJO: el Plan Anual, los Planes y el Solucionario son de agosto y el tomo es la versión
+  AMPLIADA; conviene confirmar que las 28 fichas coinciden.
+
+08_HyG_EMJA_Niveles_I-IV  (fuente: Cuad_HyG_EMJA_Nivel_I..IV del 20-jun)
+  Los cuatro cuadernillos en oficio (43 · 39 · 36 · 39 págs.).
+  No existen Plan Anual ni Solucionario EMJA en el Drive.
+
+TOMOS GRANDES (7.º, 8.º, 9.º y Economía 2.º) — PENDIENTE EN TU EQUIPO
+Pesan entre 14 y 27 MB y el conector de Drive no baja archivos de más de 10 MB.
+Se pasan a oficio con la macro _MACRO_TOMOS_GRANDES/PasarAOficio.bas, que hace la misma
+migración (papel, márgenes, tablas a la ventana, índice actualizado y sin leyenda F9):
+  1. Abrí el tomo en Word.
+  2. Alt+F11 → Archivo → Importar archivo → PasarAOficio.bas → cerrá el editor.
+  3. Alt+F8 → PasarAOficio → Ejecutar. Guarda «..._OFICIO.docx» al lado del original.
+  4. Recorré el documento buscando hojas casi vacías y exportá el PDF (Archivo → Exportar).
+Archivos de origen en Drive:
+  7.º  PROPIO_Historia_y_Geografia_7mo_TOMO_COMPLETO_VF.docx   (EEB_7_Historia_y_Geografia)
+  8.º  Historia_y_Geografia_8_TOMO_COMPLETO.docx                (versión del 13-sep)
+  9.º  PROPIO_Historia_y_Geografia_9no_TOMO_COMPLETO.docx        (EEB_9_Historia_y_Geografia)
+  Eco  Economia_2do_Curso_TOMO_COMPLETO.docx                     (carpeta Economia_2do_Curso)
+Observaciones de esos tomos: el de 7.º arranca con una letra «e» suelta antes de la
+Presentación; 8.º y 9.º no tienen portada (empiezan con «… — Edición visual mejorada»).
