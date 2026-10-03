@@ -14,20 +14,23 @@ NORMA APLICADA (skill cuadernillos-mec, Fer 02-oct-2026)
 QUÉ HAY EN CADA CARPETA Y DE DÓNDE SALIÓ (Drive)
 
 01_Economia_2do_Curso
-  Solucionario en oficio (11 págs., índice poblado) · Plan Anual.
-  FALTA EL TOMO (ver «Tomos grandes»). No hay Planes de Clase de Economía 2.º en el Drive
+  Tomo en oficio (72 págs., índice poblado de 34 entradas) · Solucionario en oficio
+  (11 págs., índice poblado) · Plan Anual. No hay Planes de Clase de Economía 2.º en el Drive
   (sólo los del Proyecto de Economía Ambiental, que es otro producto).
 
 02_HyG_7mo_Grado  (fuente: carpeta EEB_7_Historia_y_Geografia, versión PROPIO del 31-ago)
-  Solucionario en oficio (14 págs.) · Plan Anual · Planes de Clase.  FALTA EL TOMO.
+  Tomo en oficio (72 págs., índice poblado de 110 entradas; se borró la «e» suelta del
+  comienzo) · Solucionario en oficio (14 págs.) · Plan Anual · Planes de Clase.
 
 03_HyG_8vo_Grado  (fuente: carpeta del 13-sep)
   Solucionario en oficio (11 págs.: las claves de evaluación y el anexo de profundizaciones
-  siguen a continuación, sin hoja propia) · Plan Anual · Planes de Clase.  FALTA EL TOMO.
+  siguen a continuación, sin hoja propia) · Plan Anual · Planes de Clase.
+  Tomo en oficio (75 págs., índice poblado de 132 entradas). La Clase 10 arranca en la
+  misma hoja que el final de la Clase 9 (sin figura para achicar y ya al máximo de ajuste).
 
 04_HyG_9no_Grado  (fuente: carpeta EEB_9_Historia_y_Geografia, versión PROPIO del 21-ago)
-  Solucionario en oficio (20 págs., índice poblado) · Plan Anual · Planes de Clase.
-  FALTA EL TOMO.
+  Tomo en oficio (75 págs., índice poblado) · Solucionario en oficio (20 págs., índice
+  poblado) · Plan Anual · Planes de Clase.
 
 05_HyG_1er_Curso  (fuente: versión v1.1 AUDITADA del 03-oct)
   Tomo en oficio (105 págs., índice poblado de 43 entradas) · Plan Anual · Planes de Clase.
@@ -52,18 +55,14 @@ QUÉ HAY EN CADA CARPETA Y DE DÓNDE SALIÓ (Drive)
   Los cuatro cuadernillos en oficio (43 · 39 · 36 · 39 págs.).
   No existen Plan Anual ni Solucionario EMJA en el Drive.
 
-TOMOS GRANDES (7.º, 8.º, 9.º y Economía 2.º) — PENDIENTE EN TU EQUIPO
-Pesan entre 14 y 27 MB y el conector de Drive no baja archivos de más de 10 MB.
-Se pasan a oficio con la macro _MACRO_TOMOS_GRANDES/PasarAOficio.bas, que hace la misma
-migración (papel, márgenes, tablas a la ventana, índice actualizado y sin leyenda F9):
-  1. Abrí el tomo en Word.
-  2. Alt+F11 → Archivo → Importar archivo → PasarAOficio.bas → cerrá el editor.
-  3. Alt+F8 → PasarAOficio → Ejecutar. Guarda «..._OFICIO.docx» al lado del original.
-  4. Recorré el documento buscando hojas casi vacías y exportá el PDF (Archivo → Exportar).
-Archivos de origen en Drive:
-  7.º  PROPIO_Historia_y_Geografia_7mo_TOMO_COMPLETO_VF.docx   (EEB_7_Historia_y_Geografia)
-  8.º  Historia_y_Geografia_8_TOMO_COMPLETO.docx                (versión del 13-sep)
-  9.º  PROPIO_Historia_y_Geografia_9no_TOMO_COMPLETO.docx        (EEB_9_Historia_y_Geografia)
-  Eco  Economia_2do_Curso_TOMO_COMPLETO.docx                     (carpeta Economia_2do_Curso)
-Observaciones de esos tomos: el de 7.º arranca con una letra «e» suelta antes de la
-Presentación; 8.º y 9.º no tienen portada (empiezan con «… — Edición visual mejorada»).
+TOMOS GRANDES (7.º, 8.º, 9.º y Economía 2.º)
+Pesan entre 14 y 27 MB y el conector de Drive no los baja: los pasó a oficio ChatGPT
+(03-oct) y acá se terminaron con los scripts de la skill. Cambios sobre la versión de
+ChatGPT: páginas casi vacías corregidas (7.º 83→72, 8.º 84→75, 9.º 79→75, Economía 80→72)
+ajustando sólo el espaciado de las clases afectadas, e índices repoblados hasta
+«cambiadas 0». El texto es idéntico al de ChatGPT, y éste al original del Drive (sólo
+cambian los números de página, la leyenda F9 y la «e» suelta de 7.º).
+OJO: las copias _OFICIO que ChatGPT subió al Drive son la versión ANTERIOR a este ajuste;
+las buenas son las de este paquete.
+Observación: 8.º y 9.º no tienen portada (empiezan directamente con la Presentación).
+La macro _MACRO_TOMOS_GRANDES/PasarAOficio.bas queda para futuros tomos de más de 10 MB.
