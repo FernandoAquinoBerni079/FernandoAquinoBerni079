@@ -1,0 +1,1556 @@
+{
+"1": [
+[
+"Ejercitá",
+1,
+"Clasificá el tipo de dato de: 42 ; 3,14 ; \"chipa\" ; Verdadero ; \"K\".",
+"42 entero ; 3,14 real ; \"chipa\" cadena ; Verdadero lógico ; \"K\" carácter."
+],
+[
+"Ejercitá",
+2,
+"Traducí a pseudocódigo: \"guardar 8000 en la variable precio\".",
+"precio <- 8000"
+],
+[
+"Ejercitá",
+3,
+"Escribí la instrucción de salida que muestre el texto Total a pagar: seguido del valor de importe.",
+"Escribir \"Total a pagar: \", importe"
+],
+[
+"Ejercitá",
+4,
+"Indicá qué estructura de control (secuencial, condicional o repetitiva) se necesita para \"repetir el cobro hasta que no queden clientes\".",
+"Repetitiva."
+],
+[
+"Ejercitá",
+5,
+"Ordená estos pasos para calcular un importe: (a) Leer cantidad, (b) importe <- precio*cantidad, (c) Escribir importe, (d) precio <- 5000.",
+"d, a, b, c (precio <- 5000 ; Leer cantidad ; importe <- precio*cantidad ; Escribir importe)."
+],
+[
+"Resolvé",
+6,
+"Escribí en pseudocódigo un algoritmo que lea la cantidad de empanadas vendidas (precio 5.000) y muestre el importe total.",
+"Algoritmo Empanadas / Definir precio, cantidad, importe Como Entero / precio <- 5000 / Escribir \"Cantidad:\" / Leer cantidad / importe <- precio*cantidad / Escribir \"Total: \", importe / FinAlgoritmo."
+],
+[
+"Resolvé",
+7,
+"Para la venta de 4 sándwiches mixtos a 12.000 cada uno, calculá el importe y decidí qué tipo de dato conviene para la variable importe.",
+"importe = 12000*4 = 48.000. Conviene Entero (guaraníes sin decimales)."
+],
+[
+"Resolvé",
+8,
+"Dibujá con símbolos (en palabras) el diagrama de flujo del algoritmo de la venta de empanadas: indicá qué va en cada símbolo (óvalo, romboide, rectángulo).",
+"Óvalo: Inicio. Romboide (entrada): Leer cantidad. Rectángulo: importe <- 5000*cantidad. Romboide (salida): Escribir importe. Óvalo: Fin."
+],
+[
+"Pensá y decidí",
+9,
+"V o F: un algoritmo puede tener pasos infinitos. Justificá.",
+"Falso: un algoritmo siempre es finito, debe terminar."
+],
+[
+"Pensá y decidí",
+10,
+"Elegí el tipo correcto: la cantidad de coquitos vendidos se guarda como (entero / real) porque…",
+"Entero: se cuentan unidades completas, no admite decimales."
+],
+[
+"Pensá y decidí",
+11,
+"V o F: el diagrama de flujo y el pseudocódigo pueden expresar el mismo algoritmo. Justificá.",
+"Verdadero: son dos representaciones distintas del mismo conjunto de pasos."
+],
+[
+"Desafío",
+12,
+"Redactá en pseudocódigo un algoritmo que lea el precio y la cantidad de un producto cualquiera del copetín y muestre el importe. Probalo mentalmente con 6 cocidos a 6.000 y anotá el resultado.",
+"Algoritmo Importe / Definir precio, cantidad, importe Como Entero / Leer precio, cantidad / importe <- precio*cantidad / Escribir importe / FinAlgoritmo. Con 6 cocidos a 6.000: importe = 36.000."
+]
+],
+"2": [
+[
+"Ejercitá",
+1,
+"Escribí la condición: \"la venta es de al menos 50.000\".",
+"monto >= 50000"
+],
+[
+"Ejercitá",
+2,
+"Evaluá monto >= 50000 para monto = 50.000 (¿V o F?).",
+"Verdadero (50.000 es igual al umbral, y >= incluye la igualdad)."
+],
+[
+"Ejercitá",
+3,
+"Completá: Si stock ___ 5 Entonces Escribir \"Reponer\" (para avisar cuando queden menos de 5).",
+"Si stock < 5 Entonces…"
+],
+[
+"Ejercitá",
+4,
+"Indicá qué imprime el ejemplo si monto = 36.000.",
+"Solo imprime \"Total: 36000\" (la condición es falsa, no descuenta)."
+],
+[
+"Ejercitá",
+5,
+"Escribí un Si que muestre \"Venta grande\" cuando importe sea mayor que 100.000.",
+"Si importe > 100000 Entonces Escribir \"Venta grande\" FinSi"
+],
+[
+"Resolvé",
+6,
+"Escribí un algoritmo que lea el monto de una venta y, si llega a 50.000, le aplique el 10 % de descuento y muestre el total.",
+"Leer monto / Si monto >= 50000 Entonces monto <- monto - monto*0.10 FinSi / Escribir monto."
+],
+[
+"Resolvé",
+7,
+"El copetín avisa \"Reponer coquitos\" cuando el stock baja de 20. Escribí el Si correspondiente y probalo con stock = 12.",
+"Si stock < 20 Entonces Escribir \"Reponer coquitos\" FinSi. Con stock=12: imprime el aviso (12<20 V)."
+],
+[
+"Resolvé",
+8,
+"Para una venta de 8 empanadas a 5.000, calculá el monto, indicá si cumple la condición del descuento y mostrá el total final.",
+"monto = 8*5000 = 40.000. No cumple (40.000 < 50.000). Total final: 40.000, sin descuento."
+],
+[
+"Pensá y decidí",
+9,
+"V o F: si la condición de un Si simple es falsa, el algoritmo se detiene. Justificá.",
+"Falso: no se detiene; solo saltea el bloque y continúa con lo que sigue."
+],
+[
+"Pensá y decidí",
+10,
+"Elegí: para \"reponer cuando queden menos de 5\" la condición correcta es (stock < 5 / stock <= 5). Justificá.",
+"stock < 5: \"menos de 5\" no incluye al 5 (con <= incluiría al 5, que todavía no falta reponer)."
+],
+[
+"Pensá y decidí",
+11,
+"V o F: monto >= 50000 y monto > 49999 dan el mismo resultado para montos enteros. Justificá.",
+"Verdadero: para enteros, >=50000 y >49999 abarcan exactamente los mismos valores."
+],
+[
+"Desafío",
+12,
+"Escribí un algoritmo que lea el importe de una venta y muestre \"Con descuento\" si llega a 50.000. Probalo con las ventas de 36.000 y de 60.000 y anotá qué imprime en cada caso.",
+"Leer importe / Si importe >= 50000 Entonces Escribir \"Con descuento\" FinSi. Con 36.000: no imprime nada (F). Con 60.000: imprime \"Con descuento\" (V)."
+]
+],
+"3": [
+[
+"Ejercitá",
+1,
+"Escribí un Si… Sino que muestre \"Mayoría\" si edad >= 18 y \"Minoría\" en caso contrario.",
+"Si edad >= 18 Entonces Escribir \"Mayoría\" Sino Escribir \"Minoría\" FinSi"
+],
+[
+"Ejercitá",
+2,
+"Indicá qué camino toma el ejemplo con monto = 50.000.",
+"Entonces (50.000 >= 50.000 es Verdadero): total = 45.000."
+],
+[
+"Ejercitá",
+3,
+"Completá el Sino que falta: Si nota >= 60 Entonces Escribir \"Aprobado\" Sino Escribir ___.",
+"\"Reprobado\""
+],
+[
+"Ejercitá",
+4,
+"Calculá total para monto = 80.000 con la lógica del ejemplo.",
+"total = 80.000 - 8.000 = 72.000."
+],
+[
+"Ejercitá",
+5,
+"¿Cuántos bloques se ejecutan en un Si… Sino? ¿Cuántos como máximo?",
+"Se ejecuta exactamente uno; como máximo uno (nunca los dos, nunca ninguno)."
+],
+[
+"Resolvé",
+6,
+"Escribí un algoritmo que lea el monto de una venta y muestre el total con descuento si llega a 50.000, o el total pleno si no.",
+"Leer monto / Si monto>=50000 Entonces total<-monto-monto*0.10 Sino total<-monto FinSi / Escribir total."
+],
+[
+"Resolvé",
+7,
+"El copetín marca \"Pedido grande\" cuando se venden 10 o más unidades y \"Pedido chico\" en caso contrario. Escribí el Si… Sino y probalo con 7 unidades.",
+"Si unidades >= 10 Entonces Escribir \"Pedido grande\" Sino Escribir \"Pedido chico\" FinSi. Con 7: \"Pedido chico\"."
+],
+[
+"Resolvé",
+8,
+"Para una venta de 5 sopas paraguayas a 10.000, indicá el monto, el camino que toma y el total final.",
+"monto = 50.000. Camino Entonces (50.000>=50.000 V). Total = 50.000 - 5.000 = 45.000."
+],
+[
+"Pensá y decidí",
+9,
+"V o F: en un Si… Sino siempre se ejecuta uno de los dos bloques. Justificá.",
+"Verdadero: la condición es V o F, y en cada caso hay un bloque; siempre se ejecuta uno."
+],
+[
+"Pensá y decidí",
+10,
+"Elegí: si la condición es Verdadera se ejecuta el bloque del (Entonces / Sino).",
+"Entonces."
+],
+[
+"Pensá y decidí",
+11,
+"V o F: el Si… Sino sirve para elegir entre tres o más caminos. Justificá.",
+"Falso: elige entre dos; para tres o más se anidan estructuras o se usa Segun."
+],
+[
+"Desafío",
+12,
+"Escribí un algoritmo de caja que lea el monto y, con un Si… Sino, muestre el total final y el mensaje correspondiente. Probalo con las cuatro filas de la tabla del ejemplo y verificá que coincidan los totales.",
+"Leer monto / Si monto>=50000 Entonces total<-monto-monto*0.10 ; msj<-\"Aplicó descuento\" Sino total<-monto ; msj<-\"Sin descuento\" FinSi / Escribir total, msj. Totales: 36000→36000, 50000→45000, 60000→54000, 48000→48000."
+]
+],
+"4": [
+[
+"Ejercitá",
+1,
+"Evaluá: (Verdadero Y Falso).",
+"Falso."
+],
+[
+"Ejercitá",
+2,
+"Evaluá: (Falso O Verdadero).",
+"Verdadero."
+],
+[
+"Ejercitá",
+3,
+"Evaluá: NO (Verdadero).",
+"Falso."
+],
+[
+"Ejercitá",
+4,
+"Evaluá para monto=60000, enBarrio=Falso: (monto>=50000) Y (enBarrio=Verdadero).",
+"Falso (V Y F = F)."
+],
+[
+"Ejercitá",
+5,
+"Escribí la condición: \"la venta llega a 50.000 O el cliente es socio\".",
+"(monto >= 50000) O (socio = Verdadero)"
+],
+[
+"Resolvé",
+6,
+"Escribí un algoritmo que dé \"Envío gratis\" solo si el monto llega a 50.000 y el cliente está en el barrio; en otro caso, \"Envío con costo\".",
+"Si (monto>=50000) Y (enBarrio=Verdadero) Entonces Escribir \"Envío gratis\" Sino Escribir \"Envío con costo\" FinSi."
+],
+[
+"Resolvé",
+7,
+"El copetín aplica precio especial si el producto es \"salado\" O \"bebida\". Escribí la condición compuesta y evaluala para categoria = \"dulce\".",
+"(categoria=\"salado\") O (categoria=\"bebida\"). Para \"dulce\": F O F = F, no hay precio especial."
+],
+[
+"Resolvé",
+8,
+"Un combo se arma si hay chipa Y cocido en stock. Con stockChipa=10 y stockCocido=0, indicá si el combo se puede armar y por qué.",
+"No se puede: V Y F = F (falta cocido, stockCocido=0)."
+],
+[
+"Pensá y decidí",
+9,
+"V o F: (V O F) es Verdadero. Justificá con la tabla.",
+"Verdadero: en O basta con que una sea V; V O F = V."
+],
+[
+"Pensá y decidí",
+10,
+"Elegí el operador para \"aprobás si tenés más de 60 en teoría Y más de 60 en práctica\": (Y / O).",
+"Y: se exigen las dos condiciones a la vez."
+],
+[
+"Pensá y decidí",
+11,
+"V o F: NO invierte el valor de una condición. Justificá.",
+"Verdadero: NO V = F y NO F = V."
+],
+[
+"Desafío",
+12,
+"Construí la tabla de verdad completa de la condición (monto>=50000) Y (enBarrio=Verdadero) para las cuatro combinaciones posibles, e indicá en cuántos casos hay envío gratis.",
+"V-V→V ; V-F→F ; F-V→F ; F-F→F. Hay envío gratis en 1 de los 4 casos (solo cuando ambas son verdaderas)."
+]
+],
+"5": [
+[
+"Ejercitá",
+1,
+"Indicá el resultado del ejemplo para monto = 15.000.",
+"Venta chica (15.000 < 20.000 es V)."
+],
+[
+"Ejercitá",
+2,
+"Indicá el resultado del ejemplo para monto = 60.000.",
+"Venta grande (F y F → cae en el último Sino)."
+],
+[
+"Ejercitá",
+3,
+"Completá: para clasificar la opción 1, 2 o 3 del menú conviene la estructura ___.",
+"Segun."
+],
+[
+"Ejercitá",
+4,
+"Escribí el caso De Otro Modo de un Segun que reciba opciones 1, 2 y 3.",
+"De Otro Modo: Escribir \"Opción inválida\"."
+],
+[
+"Ejercitá",
+5,
+"¿Cuántos mensajes imprime el ejemplo para un mismo monto?",
+"Uno solo (toma el primer camino verdadero)."
+],
+[
+"Resolvé",
+6,
+"Escribí con Si anidados un algoritmo que clasifique el monto de una venta en \"chica\" (<20.000), \"mediana\" (<50.000) o \"grande\" (>=50.000).",
+"Si monto<20000 Entonces \"chica\" Sino Si monto<50000 Entonces \"mediana\" Sino \"grande\" FinSi FinSi."
+],
+[
+"Resolvé",
+7,
+"Escribí con Segun un menú que reciba 1=Chipa, 2=Empanada, 3=Mixto y muestre el precio (3.000 / 5.000 / 12.000), con De Otro Modo \"Opción inválida\".",
+"Segun opcion Hacer 1: precio<-3000 ; 2: precio<-5000 ; 3: precio<-12000 De Otro Modo Escribir \"Opción inválida\" FinSegun."
+],
+[
+"Resolvé",
+8,
+"Para monto = 20.000, seguí la traza del ejemplo paso a paso e indicá el resultado.",
+"monto=20000: <20000 es F → entra al Sino; 20000<50000 es V → \"Venta mediana\"."
+],
+[
+"Pensá y decidí",
+9,
+"V o F: en un anidamiento se pueden ejecutar dos caminos a la vez. Justificá.",
+"Falso: se toma un solo camino, el primero cuya condición sea verdadera."
+],
+[
+"Pensá y decidí",
+10,
+"Elegí: para comparar una variable con los valores 1, 2 y 3 conviene (Segun / Si anidado múltiple).",
+"Segun: compara una variable con valores fijos, más legible."
+],
+[
+"Pensá y decidí",
+11,
+"V o F: el orden de las condiciones en un anidamiento no afecta el resultado. Justificá.",
+"Falso: si las condiciones se superponen, el orden decide qué camino se toma."
+],
+[
+"Desafío",
+12,
+"Escribí un algoritmo con Segun para el número de mesa (1 a 4) que muestre a qué mozo le toca atender. Agregá De Otro Modo para mesas inexistentes y probalo con la mesa 3 y la mesa 9.",
+"Segun mesa Hacer 1: Escribir \"Mozo A\" ; 2: \"Mozo A\" ; 3: \"Mozo B\" ; 4: \"Mozo B\" De Otro Modo Escribir \"Mesa inexistente\" FinSegun. Mesa 3 → \"Mozo B\". Mesa 9 → \"Mesa inexistente\"."
+]
+],
+"6": [
+[
+"Ejercitá",
+1,
+"Indicá cuántas veces como mínimo se ejecuta un ciclo Repetir… Hasta Que.",
+"Una vez (evalúa al final)."
+],
+[
+"Ejercitá",
+2,
+"Indicá cuántas veces como mínimo se ejecuta un Mientras.",
+"Cero veces (evalúa al inicio; si arranca falsa, no entra)."
+],
+[
+"Ejercitá",
+3,
+"Escribí la instrucción que incrementa un contador en uno.",
+"contador <- contador + 1"
+],
+[
+"Ejercitá",
+4,
+"Completá el arranque de un contador antes de un ciclo: contador <- ___.",
+"contador <- 0"
+],
+[
+"Ejercitá",
+5,
+"Indicá qué imprime el ejemplo con las ventas de la semana.",
+"Días que alcanzaron el promedio: 2."
+],
+[
+"Resolvé",
+6,
+"Escribí un algoritmo con Mientras que lea las 7 ventas de la semana y cuente cuántas alcanzaron el promedio de 600.000.",
+"promedio<-600000 ; contador<-0 ; i<-1 ; Mientras i<=7 Hacer Leer venta ; Si venta>=promedio Entonces contador<-contador+1 FinSi ; i<-i+1 FinMientras ; Escribir contador."
+],
+[
+"Resolvé",
+7,
+"Escribí un Repetir… Hasta Que que pida un monto y no salga hasta que el monto ingresado sea mayor que cero.",
+"Repetir Leer monto Hasta Que monto > 0. (Vuelve a pedir mientras ingresen 0 o negativos.)"
+],
+[
+"Resolvé",
+8,
+"Con las ventas 420k, 500k, 450k, 580k, 850k, 1.100k y 300k, contá manualmente cuántas superan 600.000 y verificá que el contador dé 2.",
+"≥600.000: 850k y 1.100k → 2 días. Coincide con el contador."
+],
+[
+"Pensá y decidí",
+9,
+"V o F: un Mientras con condición inicial falsa no ejecuta su bloque ninguna vez. Justificá.",
+"Verdadero: evalúa antes; si arranca falsa, el bloque no se ejecuta."
+],
+[
+"Pensá y decidí",
+10,
+"Elegí: para pedir un dato hasta que sea válido conviene (Mientras / Repetir… Hasta Que). Justificá.",
+"Repetir… Hasta Que: el dato debe pedirse al menos una vez."
+],
+[
+"Pensá y decidí",
+11,
+"V o F: si dentro del ciclo no cambia nada que afecte la condición, el ciclo puede volverse infinito. Justificá.",
+"Verdadero: si la condición nunca se vuelve falsa (o verdadera, según el ciclo), no hay corte."
+],
+[
+"Desafío",
+12,
+"Escribí un algoritmo que recorra las 7 ventas de la semana con un Mientras, acumule un contador de días con venta menor a 500.000 y muestre el resultado. Verificá el conteo a mano.",
+"contador<-0 ; i<-1 ; Mientras i<=7 Hacer Leer venta ; Si venta<500000 Entonces contador<-contador+1 FinSi ; i<-i+1 FinMientras ; Escribir contador. Menores a 500.000: 420k, 450k, 300k → 3 días."
+]
+],
+"7": [
+[
+"Ejercitá",
+1,
+"Escribí el encabezado de un Para que repita 7 veces (de 1 a 7).",
+"Para i <- 1 Hasta 7 Con Paso 1 Hacer"
+],
+[
+"Ejercitá",
+2,
+"Escribí la instrucción que acumula ventaDia en total.",
+"total <- total + ventaDia"
+],
+[
+"Ejercitá",
+3,
+"Indicá el valor inicial de una bandera.",
+"Falso."
+],
+[
+"Ejercitá",
+4,
+"Completá: se corta la carga cuando el dato leído es igual al ___.",
+"centinela."
+],
+[
+"Ejercitá",
+5,
+"Con el ejemplo, indicá el total y el promedio de la semana.",
+"Total: 4.200.000 ; Promedio: 600.000."
+],
+[
+"Resolvé",
+6,
+"Escribí un algoritmo con Para que lea las 7 ventas de la semana, las acumule en total y muestre el promedio.",
+"total<-0 ; Para i<-1 Hasta 7 Hacer Leer venta ; total<-total+venta FinPara ; Escribir total/7. (Promedio 600.000.)"
+],
+[
+"Resolvé",
+7,
+"Escribí un algoritmo con centinela que cargue ventas hasta que se ingrese 0, y muestre cuántas ventas se cargaron (contador) y el total (acumulador).",
+"total<-0 ; cont<-0 ; Leer venta ; Mientras venta<>0 Hacer total<-total+venta ; cont<-cont+1 ; Leer venta FinMientras ; Escribir cont, total."
+],
+[
+"Resolvé",
+8,
+"Usá una bandera para detectar si en la semana hubo algún día con venta menor a 400.000. Con las ventas de la semana, indicá el valor final de la bandera.",
+"bandera<-Falso ; recorrer ; Si venta<400000 Entonces bandera<-Verdadero. Con la semana: 300.000<400.000 → bandera = Verdadero."
+],
+[
+"Pensá y decidí",
+9,
+"V o F: el ciclo Para conviene cuando NO se sabe cuántas veces repetir. Justificá.",
+"Falso: el Para conviene cuando SÍ se conoce la cantidad de repeticiones."
+],
+[
+"Pensá y decidí",
+10,
+"Elegí: para sumar las ventas de la semana se usa un (contador / acumulador). Justificá.",
+"Acumulador: suma los valores; el contador solo cuenta ocurrencias."
+],
+[
+"Pensá y decidí",
+11,
+"V o F: una bandera guarda un número. Justificá.",
+"Falso: una bandera es lógica, guarda Verdadero o Falso."
+],
+[
+"Desafío",
+12,
+"Escribí un algoritmo que recorra las 7 ventas con un Para, acumule el total, cuente con un contador los días que alcanzaron el promedio y active una bandera si algún día vendió más de 1.000.000. Con las ventas de la semana, anotá total, contador y bandera.",
+"total=4.200.000 ; contador=2 (viernes y sábado alcanzan 600.000) ; bandera=Verdadero (el sábado vendió 1.100.000 > 1.000.000)."
+]
+],
+"8": [
+[
+"Ejercitá",
+1,
+"Declará un vector llamado precios que guarde 5 valores.",
+"Dimension precios[5]"
+],
+[
+"Ejercitá",
+2,
+"Indicá qué posición ocupa la venta del jueves en el vector ventas.",
+"Posición 4 (Jueves)."
+],
+[
+"Ejercitá",
+3,
+"Escribí la instrucción que guarda 460000 en la posición 3 del vector ventas.",
+"ventas[3] <- 460000"
+],
+[
+"Ejercitá",
+4,
+"Indicá el valor de ventas[6] según la tabla.",
+"1.100.000."
+],
+[
+"Ejercitá",
+5,
+"Escribí el encabezado del ciclo Para que recorre un vector de 7 elementos.",
+"Para i <- 1 Hasta 7 Con Paso 1 Hacer"
+],
+[
+"Resolvé",
+6,
+"Escribí un algoritmo que declare el vector ventas[7], cargue las 7 ventas de la semana y muestre la venta del sábado.",
+"Dimension ventas[7] / Para i<-1 Hasta 7 Hacer Leer ventas[i] FinPara / Escribir ventas[6]. (Muestra 1.100.000.)"
+],
+[
+"Resolvé",
+7,
+"Escribí un algoritmo que cargue un vector precios[5] con los precios 3.000, 5.000, 12.000, 500 y 8.000 y muestre el tercer precio.",
+"Dimension precios[5] / cargar 3000,5000,12000,500,8000 / Escribir precios[3]. (Muestra 12.000.)"
+],
+[
+"Resolvé",
+8,
+"Con el vector de ventas cargado, escribí la instrucción que muestra juntas la venta del lunes y la del domingo.",
+"Escribir ventas[1], ventas[7]. (Muestra 420.000 y 300.000.)"
+],
+[
+"Pensá y decidí",
+9,
+"V o F: en un vector, el índice y el valor guardado son lo mismo. Justificá.",
+"Falso: el índice es la posición; el valor es el contenido de esa posición."
+],
+[
+"Pensá y decidí",
+10,
+"Elegí: para recorrer un vector de tamaño conocido conviene un ciclo (Para / Repetir). Justificá.",
+"Para: la cantidad de repeticiones (el tamaño) se conoce de antemano."
+],
+[
+"Pensá y decidí",
+11,
+"V o F: Dimension ventas[7] reserva 7 casilleros. Justificá.",
+"Verdadero: la dimensión entre corchetes indica cuántos casilleros se reservan."
+],
+[
+"Desafío",
+12,
+"Escribí un algoritmo que cargue el vector ventas[7] de la semana y muestre, uno por uno, cada día con su venta (usando la tabla de días). Verificá que ventas[6] sea 1.100.000.",
+"Dimension ventas[7] ; dias es un vector de textos con los 7 nombres ; cargar ventas ; Para i<-1 Hasta 7 Hacer Escribir dias[i], \": \", ventas[i] FinPara. ventas[6] = 1.100.000 (Sábado)."
+]
+],
+"9": [
+[
+"Ejercitá",
+1,
+"Escribí la instrucción que acumula ventas[i] en suma.",
+"suma <- suma + ventas[i]"
+],
+[
+"Ejercitá",
+2,
+"Indicá el promedio si la suma es 4.200.000 y hay 7 elementos.",
+"600.000 (4.200.000 / 7)."
+],
+[
+"Ejercitá",
+3,
+"Indicá la posición del máximo en el vector de la semana.",
+"Posición 6 (sábado)."
+],
+[
+"Ejercitá",
+4,
+"Indicá el valor del mínimo del vector de la semana.",
+"300.000 (domingo)."
+],
+[
+"Ejercitá",
+5,
+"¿Con qué valor conviene iniciar la variable mayor antes de recorrer?",
+"Con el primer elemento del vector, ventas[1]."
+],
+[
+"Resolvé",
+6,
+"Escribí un algoritmo que recorra ventas[7], acumule el total y muestre el promedio.",
+"suma<-0 ; Para i<-1 Hasta 7 Hacer suma<-suma+ventas[i] FinPara ; Escribir suma/7. (600.000.)"
+],
+[
+"Resolvé",
+7,
+"Escribí un algoritmo que encuentre el mayor elemento de ventas[7] y la posición donde está.",
+"mayor<-ventas[1] ; pos<-1 ; Para i<-2 Hasta 7 Hacer Si ventas[i]>mayor Entonces mayor<-ventas[i] ; pos<-i FinSi FinPara ; Escribir mayor, pos. (1.100.000, pos 6.)"
+],
+[
+"Resolvé",
+8,
+"Escribí un algoritmo con bandera que indique si en la semana hubo algún día con venta de exactamente 850.000.",
+"band<-Falso ; Para i<-1 Hasta 7 Hacer Si ventas[i]=850000 Entonces band<-Verdadero FinSi FinPara ; Escribir band. (Verdadero: pos 5.)"
+],
+[
+"Pensá y decidí",
+9,
+"V o F: para hallar el máximo conviene iniciar mayor en cero. Justificá.",
+"Falso: conviene iniciar mayor con ventas[1]; si se inicia en cero puede fallar con datos negativos y es menos claro."
+],
+[
+"Pensá y decidí",
+10,
+"Elegí: el promedio se calcula (suma/cantidad / suma*cantidad). Justificá.",
+"suma/cantidad: el promedio reparte el total entre la cantidad de elementos."
+],
+[
+"Pensá y decidí",
+11,
+"V o F: buscar un valor en un vector siempre exige recorrerlo. Justificá.",
+"Verdadero: no hay atajo; hay que revisar los elementos hasta hallarlo o agotar el vector."
+],
+[
+"Desafío",
+12,
+"Escribí un algoritmo que recorra ventas[7] y muestre en un solo recorrido: el total, el promedio, el mejor día (posición y valor) y el peor día. Verificá con los datos de la semana.",
+"Un solo Para de 1 a 7 con: acumulador (suma), y control de mayor/menor con sus posiciones. Resultados: total 4.200.000, promedio 600.000, mejor pos 6 (1.100.000), peor pos 7 (300.000)."
+]
+],
+"10": [
+[
+"Ejercitá",
+1,
+"Declará una matriz stock de 3 filas y 4 columnas.",
+"Dimension stock[3,4]"
+],
+[
+"Ejercitá",
+2,
+"Indicá el valor de ventas[3,2] según la tabla.",
+"8 (fila Mixto, columna Ma)."
+],
+[
+"Ejercitá",
+3,
+"Indicá el total de la fila de la Chipa.",
+"123."
+],
+[
+"Ejercitá",
+4,
+"Indicá el total de la columna del jueves.",
+"77."
+],
+[
+"Ejercitá",
+5,
+"Escribí el encabezado de los dos ciclos anidados para recorrer una matriz de 3×4.",
+"Para f<-1 Hasta 3 Hacer … Para c<-1 Hasta 4 Hacer … FinPara FinPara"
+],
+[
+"Resolvé",
+6,
+"Escribí un algoritmo que recorra la matriz ventas[3,4] y muestre el total vendido por cada producto (por fila).",
+"Dos Para anidados; por cada fila f, acumular ventas[f,c] en totalFila y mostrarlo. Resultados: 123, 75, 45."
+],
+[
+"Resolvé",
+7,
+"Escribí un algoritmo que calcule el total por cada día (por columna) de la matriz ventas[3,4].",
+"Para cada columna c, recorrer las filas f y acumular. Resultados: 55, 53, 58, 77."
+],
+[
+"Resolvé",
+8,
+"Calculá a mano el total general de la matriz sumando primero por filas y verificá que coincida con la suma por columnas.",
+"Por filas: 123+75+45 = 243. Por columnas: 55+53+58+77 = 243. Coinciden."
+],
+[
+"Pensá y decidí",
+9,
+"V o F: en ventas[2,3] el primer índice es la columna. Justificá.",
+"Falso: el primer índice es la fila; el segundo, la columna."
+],
+[
+"Pensá y decidí",
+10,
+"Elegí: para recorrer una matriz completa se usan (uno / dos) ciclos anidados. Justificá.",
+"Dos: uno para las filas y otro, anidado, para las columnas."
+],
+[
+"Pensá y decidí",
+11,
+"V o F: la suma de los totales de fila es igual a la suma de los totales de columna. Justificá.",
+"Verdadero: ambas sumas cuentan los mismos casilleros, solo que en distinto orden."
+],
+[
+"Desafío",
+12,
+"Escribí un algoritmo que recorra la matriz ventas[3,4], muestre el total por producto, el total por día y el total general, y verificá que el total general dé 243.",
+"Un recorrido para totales de fila (123,75,45), otro para totales de columna (55,53,58,77) y un acumulador general. Total general = 243, igual por filas y por columnas."
+]
+],
+"11": [
+[
+"Ejercitá",
+1,
+"Ordená de mayor a menor: [45, 200, 90].",
+"[200, 90, 45]."
+],
+[
+"Ejercitá",
+2,
+"Escribí las tres instrucciones del intercambio de a y b con auxiliar.",
+"aux <- a ; a <- b ; b <- aux."
+],
+[
+"Ejercitá",
+3,
+"Indicá qué producto queda 1.º en el ranking descendente del ejemplo.",
+"Coquito (200 unidades)."
+],
+[
+"Ejercitá",
+4,
+"Indicá el operador de comparación para ordenar de menor a mayor con la burbuja.",
+"El operador > (si unid[j] > unid[j+1], intercambia)."
+],
+[
+"Ejercitá",
+5,
+"¿Qué optimización corta la burbuja antes de tiempo?",
+"Si en una pasada completa no hubo ningún intercambio, el vector ya está ordenado y se corta."
+],
+[
+"Resolvé",
+6,
+"Escribí un algoritmo que ordene de mayor a menor el vector unid = [123, 75, 45, 200, 90, 60] con el método de la burbuja.",
+"Burbuja con Si unid[j] < unid[j+1] (para descendente) e intercambio con auxiliar. Resultado: [200,123,90,75,60,45]."
+],
+[
+"Resolvé",
+7,
+"Escribí un algoritmo que ordene el mismo vector de menor a mayor con el método de selección e indicá el resultado.",
+"Selección buscando el menor del tramo y ubicándolo al frente. Resultado ascendente: [45,60,75,90,123,200]."
+],
+[
+"Resolvé",
+8,
+"Con el vector ordenado descendente, escribí las instrucciones que muestran el ranking (posición y unidades) de los tres primeros.",
+"Escribir \"1.º \", unid[1] ; \"2.º \", unid[2] ; \"3.º \", unid[3]. Da 200, 123, 90."
+],
+[
+"Pensá y decidí",
+9,
+"V o F: para intercambiar dos elementos no hace falta una variable auxiliar. Justificá.",
+"Falso: sin auxiliar, al copiar b en a se pierde el valor original de a."
+],
+[
+"Pensá y decidí",
+10,
+"Elegí: para un ranking de más vendido a menos vendido se ordena de forma (ascendente / descendente).",
+"Descendente: primero el más vendido."
+],
+[
+"Pensá y decidí",
+11,
+"V o F: la burbuja optimizada puede terminar antes si el vector ya está ordenado. Justificá.",
+"Verdadero: con la optimización de la bandera de intercambio corta al detectar una pasada sin cambios."
+],
+[
+"Desafío",
+12,
+"Ordená a mano el vector [123, 75, 45, 200, 90, 60] de mayor a menor mostrando el resultado después de cada pasada de la burbuja, hasta llegar a [200, 123, 90, 75, 60, 45].",
+"Partiendo de [123,75,45,200,90,60], tras las pasadas los mayores se ubican al frente hasta [200,123,90,75,60,45]. (Se acepta cualquier traza correcta que llegue a ese resultado.)"
+]
+],
+"12": [
+[
+"Ejercitá",
+1,
+"Escribí la instrucción que sortea un número entre 1 y 4.",
+"mesa <- Azar(4)+1"
+],
+[
+"Ejercitá",
+2,
+"Indicá el rango posible de Azar(50) + 1 y explicá por qué incluye 50.",
+"Un entero entre 1 y 50 inclusive."
+],
+[
+"Ejercitá",
+3,
+"Decidí si \"calcular el total de ventas\" necesita azar (sí/no).",
+"No: el total sale de sumar datos reales, no del azar."
+],
+[
+"Ejercitá",
+4,
+"Escribí la instrucción que simula una venta entre 300.000 y 1.200.000.",
+"venta <- Azar(900001)+300000"
+],
+[
+"Ejercitá",
+5,
+"¿Dos corridas de Azar(50) + 1 dan siempre el mismo número?",
+"No necesariamente: cada corrida puede dar un número distinto."
+],
+[
+"Resolvé",
+6,
+"Escribí un algoritmo que pida la cantidad de tickets del día y sortee el ticket ganador.",
+"Leer cantidad ; ganador <- Azar(cantidad)+1 ; Escribir ganador."
+],
+[
+"Resolvé",
+7,
+"Escribí un algoritmo que genere 7 ventas aleatorias entre 300.000 y 1.200.000, las guarde en un vector y muestre el total.",
+"Dimension v[7] ; total<-0 ; Para i<-1 Hasta 7 Hacer v[i]<-Azar(900001)+300000 ; total<-total+v[i] FinPara ; Escribir total."
+],
+[
+"Resolvé",
+8,
+"Escribí un algoritmo que asigne al azar una mesa (1 a 4) a cada uno de 3 clientes.",
+"Para i<-1 Hasta 3 Hacer Escribir \"Cliente \", i, \" → mesa \", Azar(4)+1 FinPara."
+],
+[
+"Pensá y decidí",
+9,
+"V o F: el azar sirve para calcular un total exacto de ventas. Justificá.",
+"Falso: un total debe ser exacto y reproducible; el azar es imprevisible."
+],
+[
+"Pensá y decidí",
+10,
+"Elegí: Azar(4) + 1 puede devolver (0 / 3). Justificá indicando su rango completo.",
+"3: el rango 1 a 4 incluye 1, 2, 3 y 4; nunca 0."
+],
+[
+"Pensá y decidí",
+11,
+"V o F: dos corridas de un sorteo aleatorio pueden dar resultados distintos. Justificá.",
+"Verdadero: por definición el resultado es imprevisible y puede variar entre corridas."
+],
+[
+"Desafío",
+12,
+"Escribí un algoritmo que simule un día del copetín: genere ventas aleatorias por hora (de 8 a 12, cinco horas) entre 50.000 y 300.000, las acumule y muestre el total simulado del día.",
+"total<-0 ; Para h<-8 Hasta 12 Hacer venta<-Azar(250001)+50000 ; total<-total+venta FinPara ; Escribir total. (El total varía en cada corrida.)"
+]
+],
+"13": [
+[
+"Ejercitá",
+1,
+"Indicá si \"imprimir un ticket\" es procedimiento o función.",
+"Procedimiento (produce una salida, no devuelve valor)."
+],
+[
+"Ejercitá",
+2,
+"Indicá si \"calcular el importe de una venta\" es procedimiento o función.",
+"Función (devuelve el importe para usarlo después)."
+],
+[
+"Ejercitá",
+3,
+"Escribí la invocación de CalcularTotal para 5 mixtos a 12.000.",
+"CalcularTotal(12000, 5)"
+],
+[
+"Ejercitá",
+4,
+"Indicá el resultado de CalcularTotal(5000, 8).",
+"40.000."
+],
+[
+"Ejercitá",
+5,
+"Definí en una frase qué es una variable local.",
+"Es una variable que existe solo dentro del subprograma donde se declara."
+],
+[
+"Resolvé",
+6,
+"Definí una función CalcularTotal(precio, cantidad) que devuelva el importe y usala para calcular 3 sándwiches a 12.000.",
+"Funcion tot<-CalcularTotal(precio,cantidad) tot<-precio*cantidad FinFuncion ; importe<-CalcularTotal(12000,3). (36.000.)"
+],
+[
+"Resolvé",
+7,
+"Definí un procedimiento ImprimirTicket(producto, importe) que muestre el detalle de una venta e invocalo con \"Mixto\" y 36.000.",
+"SubProceso ImprimirTicket(producto,importe) Escribir producto, \" → \", importe FinSubProceso ; ImprimirTicket(\"Mixto\",36000)."
+],
+[
+"Resolvé",
+8,
+"Definí una función que reciba un monto y devuelva el total con 10 % de descuento si llega a 50.000; probala con 60.000.",
+"Funcion t<-Desc(monto) Si monto>=50000 Entonces t<-monto-monto*0.10 Sino t<-monto FinSi FinFuncion ; Desc(60000)=54.000."
+],
+[
+"Pensá y decidí",
+9,
+"V o F: una función siempre devuelve un valor. Justificá.",
+"Verdadero: por definición una función retorna un valor; si no, es un procedimiento."
+],
+[
+"Pensá y decidí",
+10,
+"Elegí: una variable declarada dentro de un módulo es (local / global). Justificá.",
+"Local: su alcance se limita al módulo donde se declara."
+],
+[
+"Pensá y decidí",
+11,
+"V o F: modularizar obliga a repetir el mismo código varias veces. Justificá.",
+"Falso: al revés, modularizar evita repetir código: se define una vez y se invoca las veces que haga falta."
+],
+[
+"Desafío",
+12,
+"Escribí un mini-sistema con una función CalcularTotal, una función AplicarDescuento y un procedimiento ImprimirTicket, y usalos para cobrar 5 sándwiches mixtos a 12.000. Indicá el total final.",
+"importe<-CalcularTotal(12000,5)=60000 ; total<-AplicarDescuento(60000)=54000 ; ImprimirTicket(\"Mixto\",54000). Total final: 54.000."
+]
+],
+"14": [
+[
+"Ejercitá",
+1,
+"Indicá el resultado de Longitud(\"María\").",
+"5."
+],
+[
+"Ejercitá",
+2,
+"Indicá el resultado de Mayusculas(\"chipa\").",
+"\"CHIPA\"."
+],
+[
+"Ejercitá",
+3,
+"Indicá el resultado de Subcadena(\"MIX-01\", 1, 3).",
+"\"MIX\"."
+],
+[
+"Ejercitá",
+4,
+"Indicá los parámetros formales de CalcularTotal(precio, cantidad).",
+"precio y cantidad."
+],
+[
+"Ejercitá",
+5,
+"Indicá qué tipo de pasaje NO modifica la variable original.",
+"El pasaje por valor (trabaja sobre una copia)."
+],
+[
+"Resolvé",
+6,
+"Escribí un algoritmo que lea el código de un producto (formato XXX-NN) y muestre por separado la categoría y el número usando Subcadena.",
+"Leer codigo ; cat<-Subcadena(codigo,1,3) ; num<-Subcadena(codigo,5,6) ; Escribir cat, num. (Para \"MIX-01\" → \"MIX\" y \"01\".)"
+],
+[
+"Resolvé",
+7,
+"Escribí un algoritmo que lea el nombre de un cliente y muestre su longitud y su versión en mayúsculas.",
+"Leer nombre ; Escribir Longitud(nombre), Mayusculas(nombre). (Para \"María\" → 5 y \"MARÍA\".)"
+],
+[
+"Resolvé",
+8,
+"Explicá, con el ejemplo de un módulo que aplica un descuento, cuándo conviene pasar el monto por referencia y cuándo por valor.",
+"Por referencia si el módulo debe dejar el monto ya con descuento en la variable original; por valor si solo necesita el dato para calcular sin alterarlo."
+],
+[
+"Pensá y decidí",
+9,
+"V o F: en el pasaje por valor los cambios del módulo se reflejan en la variable original. Justificá.",
+"Falso: por valor se trabaja sobre una copia; el original no cambia."
+],
+[
+"Pensá y decidí",
+10,
+"Elegí: para extraer un tramo de una cadena se usa (Longitud / Subcadena).",
+"Subcadena: extrae un tramo entre dos posiciones."
+],
+[
+"Pensá y decidí",
+11,
+"V o F: a cada carácter de una cadena se accede por su posición. Justificá.",
+"Verdadero: la cadena es una secuencia indexada, como un vector de caracteres."
+],
+[
+"Desafío",
+12,
+"Escribí un algoritmo que lea el código \"MIX-01\", extraiga la categoría (\"MIX\") y el número (\"01\") con Subcadena, muestre la longitud del código y arme un mensaje concatenando \"Producto de categoría \" con la categoría.",
+"codigo<-\"MIX-01\" ; cat<-Subcadena(codigo,1,3) ; num<-Subcadena(codigo,5,6) ; Escribir Longitud(codigo) (=6) ; Escribir Concatenar(\"Producto de categoría \", cat). Resultado: \"Producto de categoría MIX\"."
+]
+],
+"15": [
+[
+"Ejercitá",
+1,
+"Indicá la extensión del archivo ventas_semana.txt y qué tipo de contenido tiene.",
+"Extensión .txt; contenido de texto."
+],
+[
+"Ejercitá",
+2,
+"Clasificá por permanencia: RAM y disco.",
+"RAM: volátil. Disco: permanente."
+],
+[
+"Ejercitá",
+3,
+"Indicá qué tipo de organización (secuencial o directa) obliga a leer en orden.",
+"Secuencial."
+],
+[
+"Ejercitá",
+4,
+"Nombrá dos características de un archivo además del nombre.",
+"Extensión, tamaño y ubicación (bastan dos)."
+],
+[
+"Ejercitá",
+5,
+"Decidí dónde se guarda un dato que debe sobrevivir al apagado: (RAM / memoria secundaria).",
+"Memoria secundaria."
+],
+[
+"Resolvé",
+6,
+"El copetín necesita conservar el total de cada día. Explicá por qué no alcanza con guardarlo en una variable y qué hay que usar en su lugar.",
+"Una variable vive en la RAM y se borra al cerrar el programa; hay que escribir el dato en un archivo de la memoria secundaria para conservarlo."
+],
+[
+"Resolvé",
+7,
+"Describí el contenido que tendría el archivo ventas_semana.txt con las 7 ventas de la semana (una línea por día, formato Día;monto).",
+"Lunes;420000 / Martes;500000 / Miércoles;450000 / Jueves;580000 / Viernes;850000 / Sábado;1100000 / Domingo;300000."
+],
+[
+"Resolvé",
+8,
+"Indicá, para el archivo del copetín, su nombre, su extensión, su tipo de contenido y su tipo de organización.",
+"Nombre: ventas_semana ; extensión: .txt ; contenido: texto ; organización: secuencial."
+],
+[
+"Pensá y decidí",
+9,
+"V o F: los datos guardados en la RAM sobreviven al apagado. Justificá.",
+"Falso: la RAM es volátil; su contenido se pierde al apagar."
+],
+[
+"Pensá y decidí",
+10,
+"Elegí: para leer el último registro de un archivo secuencial hay que (recorrer los anteriores / saltar directo). Justificá.",
+"Recorrer los anteriores: en el acceso secuencial no se puede saltar."
+],
+[
+"Pensá y decidí",
+11,
+"V o F: la memoria secundaria es más rápida que la RAM. Justificá.",
+"Falso: la RAM es mucho más rápida; la secundaria es más lenta pero permanente."
+],
+[
+"Desafío",
+12,
+"Diseñá en papel el archivo que usaría el copetín para guardar, además de las ventas, el nombre del producto más vendido de cada día. Indicá nombre, extensión, tipo y una línea de ejemplo.",
+"Nombre: mas_vendido ; extensión: .txt ; tipo: texto, secuencial ; línea de ejemplo: Sábado;Coquito;200. (Se aceptan variantes coherentes.)"
+]
+],
+"16": [
+[
+"Ejercitá",
+1,
+"Ordená las operaciones para guardar datos: leer, cerrar, abrir, escribir.",
+"Abrir, escribir, cerrar, leer (para grabar y luego consultar: abrir→escribir→cerrar)."
+],
+[
+"Ejercitá",
+2,
+"Indicá en qué modo se abre un archivo para grabar datos.",
+"En modo escritura."
+],
+[
+"Ejercitá",
+3,
+"Indicá qué operación asegura que lo escrito quede guardado.",
+"Cerrar."
+],
+[
+"Ejercitá",
+4,
+"Nombrá dos operaciones de administración que ofrece el sistema operativo.",
+"Renombrar, copiar, mover o eliminar (bastan dos)."
+],
+[
+"Ejercitá",
+5,
+"¿Quién administra la ubicación y el tamaño de los archivos?",
+"El sistema operativo."
+],
+[
+"Resolvé",
+6,
+"Escribí el pseudocódigo que abre ventas_semana.txt en escritura, graba las 7 ventas de la semana y cierra el archivo.",
+"Abrir \"ventas_semana.txt\" Para Escritura ; Para i<-1 Hasta 7 Hacer Escribir En Archivo dias[i],\";\",ventas[i] FinPara ; Cerrar."
+],
+[
+"Resolvé",
+7,
+"Escribí el pseudocódigo que abre ventas_semana.txt en lectura y muestra las 7 ventas guardadas.",
+"Abrir \"ventas_semana.txt\" Para Lectura ; Mientras no fin de archivo Leer linea ; Escribir linea FinMientras ; Cerrar."
+],
+[
+"Resolvé",
+8,
+"Explicá qué puede pasar si el programa graba datos pero nunca cierra el archivo.",
+"Parte de lo escrito puede quedar en el buffer y perderse; el archivo puede quedar incompleto o dañado."
+],
+[
+"Pensá y decidí",
+9,
+"V o F: se puede leer un archivo sin abrirlo primero. Justificá.",
+"Falso: primero hay que abrirlo (en modo lectura) para poder leerlo."
+],
+[
+"Pensá y decidí",
+10,
+"Elegí: para conservar lo escrito, al final hay que (cerrar / renombrar) el archivo. Justificá.",
+"Cerrar: asegura que todo lo escrito se grabe y libera el archivo."
+],
+[
+"Pensá y decidí",
+11,
+"V o F: el programa escribe en el disco sin intervención del sistema operativo. Justificá.",
+"Falso: el programa se lo pide al sistema operativo, que administra el acceso al disco."
+],
+[
+"Desafío",
+12,
+"Escribí el ciclo completo del copetín: crear el archivo del día, escribir las ventas por producto, cerrarlo, y luego volver a abrirlo en lectura para mostrar lo guardado. Indicá el orden de las operaciones.",
+"Crear/Abrir en escritura → Escribir las ventas por producto con un ciclo → Cerrar → Abrir en lectura → Leer y mostrar → Cerrar."
+]
+],
+"17": [
+[
+"Ejercitá",
+1,
+"Indicá qué atributo puede ayudar a evitar que un archivo se sobrescriba por accidente.",
+"El atributo de solo lectura (ayuda a reducir sobrescrituras accidentales; no sustituye permisos)."
+],
+[
+"Ejercitá",
+2,
+"Indicá qué mecanismo permite recuperar datos si el original se daña.",
+"El respaldo (backup)."
+],
+[
+"Ejercitá",
+3,
+"Distinguí en una línea acceso secuencial de acceso directo.",
+"Secuencial: lee en orden; directo: salta a un registro por su posición."
+],
+[
+"Ejercitá",
+4,
+"Indicá para qué sirve un buffer.",
+"Para acelerar la lectura/escritura juntando operaciones en una memoria intermedia."
+],
+[
+"Ejercitá",
+5,
+"Nombrá dos mecanismos de seguridad de archivos.",
+"Permisos, atributo de solo lectura, control de acceso/cifrado o respaldo (bastan dos)."
+],
+[
+"Resolvé",
+6,
+"Proponé tres medidas concretas para proteger el archivo de ventas del copetín y explicá qué evita cada una.",
+"Atributo de solo lectura (reduce sobrescrituras accidentales en aplicaciones que lo respetan); permisos de acceso sobre la carpeta (restringen quién puede modificar); respaldo semanal (permite recuperar ante fallas)."
+],
+[
+"Resolvé",
+7,
+"El copetín tiene un archivo con 500 cierres diarios y necesita leer solo el número 480. Indicá qué tipo de acceso conviene y por qué.",
+"Acceso directo: salta al registro 480 sin leer los 479 anteriores; es mucho más rápido."
+],
+[
+"Resolvé",
+8,
+"Explicá con el ejemplo del copetín por qué conviene cerrar el archivo después de escribir (relacionalo con el buffer).",
+"Al escribir, los datos pasan primero por el buffer; cerrar el archivo vacía el buffer y asegura que todo quede guardado en disco."
+],
+[
+"Pensá y decidí",
+9,
+"V o F: el respaldo sirve para recuperar información si el original se pierde. Justificá.",
+"Verdadero: el respaldo es una copia que permite restaurar los datos."
+],
+[
+"Pensá y decidí",
+10,
+"Elegí: para llegar rápido a un registro puntual conviene el acceso (secuencial / directo). Justificá.",
+"Directo: no recorre los registros anteriores."
+],
+[
+"Pensá y decidí",
+11,
+"V o F: el buffer hace más lenta la escritura en disco. Justificá.",
+"Falso: el buffer la acelera, agrupando operaciones para el disco lento."
+],
+[
+"Desafío",
+12,
+"Diseñá un plan de protección para los archivos del copetín: qué permisos, qué archivos marcar como solo lectura, cada cuánto respaldar y dónde. Justificá cada decisión en una línea.",
+"Ejemplo: permisos de escritura solo para el encargado; ventas_semana.txt en solo lectura una vez cerrada la semana como barrera adicional; respaldo cada viernes en un soporte externo y otra ubicación; control de acceso/cifrado cuando corresponda. (Se acepta todo plan coherente y justificado.)"
+]
+],
+"18": [
+[
+"Ejercitá",
+1,
+"Indicá qué representa C: en la estructura visible.",
+"Una unidad (el disco principal)."
+],
+[
+"Ejercitá",
+2,
+"Escribí la ruta de un archivo cierre.txt dentro de C:\\Copetin\\Ventas.",
+"C:\\Copetin\\Ventas\\cierre.txt"
+],
+[
+"Ejercitá",
+3,
+"Distinguí carpeta de subcarpeta con un ejemplo.",
+"Carpeta: Ventas; subcarpeta: 2026 (dentro de Ventas)."
+],
+[
+"Ejercitá",
+4,
+"Nombrá la herramienta de Windows que muestra la estructura de archivos.",
+"El Explorador de archivos."
+],
+[
+"Ejercitá",
+5,
+"Indicá un problema que causa la mala organización de archivos.",
+"Archivos duplicados, perdidos o sobrescritos (basta uno)."
+],
+[
+"Resolvé",
+6,
+"Diseñá el árbol de carpetas que usaría el copetín para guardar las ventas de todo el año 2026, organizado por mes.",
+"Copetin\\Ventas\\2026\\ con una subcarpeta por mes (Enero, Febrero, …, Diciembre)."
+],
+[
+"Resolvé",
+7,
+"Escribí la ruta completa del archivo de ventas de marzo dentro de esa estructura.",
+"C:\\Copetin\\Ventas\\2026\\Marzo\\ventas_semana.txt."
+],
+[
+"Resolvé",
+8,
+"Explicá dos ventajas concretas de organizar bien los archivos del copetín.",
+"Se encuentra cualquier cierre en segundos y se evita sobrescribir o perder archivos."
+],
+[
+"Pensá y decidí",
+9,
+"V o F: una carpeta puede contener subcarpetas. Justificá.",
+"Verdadero: las carpetas pueden anidarse formando un árbol."
+],
+[
+"Pensá y decidí",
+10,
+"Elegí: la dirección completa de un archivo es su (ruta / extensión). Justificá.",
+"Ruta: es la dirección completa (unidad + carpetas + nombre)."
+],
+[
+"Pensá y decidí",
+11,
+"V o F: la organización de archivos no afecta el trabajo profesional. Justificá.",
+"Falso: una mala organización hace perder tiempo y datos; es parte del trabajo profesional."
+],
+[
+"Desafío",
+12,
+"Diseñá la estructura de carpetas completa del copetín para 2026 (ventas, compras, respaldos), con al menos dos niveles de subcarpetas, y escribí la ruta de un archivo de ejemplo dentro de ella.",
+"Copetin\\{Ventas, Compras, Respaldos}\\2026\\{mes}\\... Ejemplo de ruta: C:\\Copetin\\Compras\\2026\\Abril\\compras.txt. (Se acepta toda estructura coherente con dos niveles.)"
+]
+],
+"19": [
+[
+"Ejercitá",
+1,
+"Indicá cuántos campos tiene la tabla Productos.",
+"5 campos (código, nombre, precio, categoría, stock)."
+],
+[
+"Ejercitá",
+2,
+"Indicá cuántos registros tiene la tabla Productos.",
+"7 registros."
+],
+[
+"Ejercitá",
+3,
+"Escribí la condición del filtro \"productos con stock menor a 10\".",
+"stock < 10"
+],
+[
+"Ejercitá",
+4,
+"Indicá qué productos quedan visibles con el filtro stock < 10.",
+"Sándwich mixto (8) y Sopa paraguaya (6)."
+],
+[
+"Ejercitá",
+5,
+"V o F: un filtro borra los registros que no cumplen la condición.",
+"Falso: solo los oculta; no los borra."
+],
+[
+"Resolvé",
+6,
+"Aplicá a la tabla Productos el filtro categoria = \"salado\" e indicá qué registros quedan visibles.",
+"Quedan: Chipa, Empanada, Sándwich mixto y Sopa paraguaya (4 registros salados)."
+],
+[
+"Resolvé",
+7,
+"El copetín quiere ver los productos que cuestan más de 5.000. Escribí la condición del filtro e indicá el resultado.",
+"precio > 5000 → Sándwich mixto (12.000), Gaseosa (8.000), Cocido (6.000), Sopa paraguaya (10.000). (4 registros.)"
+],
+[
+"Resolvé",
+8,
+"Explicá la diferencia entre filtrar los productos sin stock y borrarlos de la tabla.",
+"Filtrar solo los oculta y se pueden volver a ver; borrar los elimina de la tabla de forma permanente."
+],
+[
+"Pensá y decidí",
+9,
+"V o F: al quitar un filtro se pierden los registros ocultados. Justificá.",
+"Falso: el filtro solo oculta; al quitarlo se ven todos otra vez."
+],
+[
+"Pensá y decidí",
+10,
+"Elegí: en la tabla Productos, \"precio\" es un (campo / registro). Justificá.",
+"Campo: es una columna (una característica de todos los productos)."
+],
+[
+"Pensá y decidí",
+11,
+"V o F: un filtro puede usar los operadores relacionales (>, <, =). Justificá.",
+"Verdadero: la condición del filtro se arma con operadores relacionales."
+],
+[
+"Desafío",
+12,
+"Diseñá tres filtros útiles para el copetín (uno por cada campo distinto), escribí su condición y anticipá cuántos registros mostraría cada uno con la tabla dada.",
+"Ejemplos: stock < 10 → 2 ; categoria=\"salado\" → 4 ; precio >= 8000 → 3 (Mixto, Gaseosa, Sopa). (Se aceptan filtros coherentes con la tabla.)"
+]
+],
+"20": [
+[
+"Ejercitá",
+1,
+"Escribí el criterio de una consulta de selección de productos de categoría \"bebida\".",
+"categoria = \"bebida\"."
+],
+[
+"Ejercitá",
+2,
+"Indicá qué distingue una consulta paramétrica de una de selección fija.",
+"La paramétrica pide el criterio al ejecutarse; la de selección lo tiene fijo."
+],
+[
+"Ejercitá",
+3,
+"Contá cuántos productos hay por categoría en la tabla.",
+"salado 4, dulce 1, bebida 2."
+],
+[
+"Ejercitá",
+4,
+"Calculá el stock total sumando el campo stock.",
+"40+30+8+200+25+12+6 = 321."
+],
+[
+"Ejercitá",
+5,
+"Definí el campo calculado valorStock para la Gaseosa (precio 8.000, stock 25).",
+"valorStock = 8.000 × 25 = 200.000."
+],
+[
+"Resolvé",
+6,
+"Formulá una consulta de selección que muestre nombre y precio de los productos de categoría \"salado\".",
+"Mostrar nombre, precio Donde categoria=\"salado\" → Chipa 3.000 ; Empanada 5.000 ; Sándwich mixto 12.000 ; Sopa 10.000."
+],
+[
+"Resolvé",
+7,
+"Formulá una consulta de totales que cuente cuántos productos hay por cada categoría e indicá el resultado.",
+"Contar registros Agrupado por categoria → salado 4, dulce 1, bebida 2."
+],
+[
+"Resolvé",
+8,
+"Definí el campo calculado valorStock = precio × stock y calculalo para la Chipa y el Coquito.",
+"valorStock = precio × stock. Chipa: 3.000×40 = 120.000 ; Coquito: 500×200 = 100.000."
+],
+[
+"Pensá y decidí",
+9,
+"V o F: una consulta paramétrica fija el criterio de antemano. Justificá.",
+"Falso: la paramétrica pide el criterio al ejecutarse; la que lo fija es la de selección."
+],
+[
+"Pensá y decidí",
+10,
+"Elegí: para saber cuántos productos hay por categoría se usa una consulta de (selección / totales). Justificá.",
+"Totales: cuenta registros agrupando por categoría."
+],
+[
+"Pensá y decidí",
+11,
+"V o F: un campo calculado guarda un dato escrito a mano. Justificá.",
+"Falso: se calcula automáticamente operando otros campos, no se escribe a mano."
+],
+[
+"Desafío",
+12,
+"Formulá cuatro consultas para el copetín: una de selección, una paramétrica, una de totales y una con campo calculado. Indicá el resultado de cada una con la tabla dada.",
+"Selección categoria=\"bebida\" → Gaseosa, Cocido ; paramétrica ¿categoría? ; totales stock=321 ; valorStock Coquito = 500×200 = 100.000. (Se aceptan consultas coherentes.)"
+]
+],
+"21": [
+[
+"Ejercitá",
+1,
+"Indicá qué coloca una consulta de referencias cruzadas en el cruce de fila y columna.",
+"Un total (por ejemplo, la cantidad de registros de ese cruce)."
+],
+[
+"Ejercitá",
+2,
+"En la tabla del ejemplo, indicá cuántos productos salados cuestan más de 5.000.",
+"2 productos salados cuestan más de 5.000 (Sándwich mixto y Sopa)."
+],
+[
+"Ejercitá",
+3,
+"Indicá el total de productos de más de 5.000.",
+"4 productos."
+],
+[
+"Ejercitá",
+4,
+"Nombrá dos buenas prácticas al consultar una base de datos.",
+"Criterios claros, filtrar sin borrar, revisar el resultado o nombrar la consulta (bastan dos)."
+],
+[
+"Ejercitá",
+5,
+"V o F: para \"ver mejor\" conviene borrar los registros que molestan.",
+"Falso: filtrar oculta sin borrar; nunca se eliminan datos para ver mejor."
+],
+[
+"Resolvé",
+6,
+"Interpretá la tabla de referencias cruzadas del ejemplo: ¿cuántos productos hay en total y cómo se reparten por categoría?",
+"Total 7 productos: 4 salados, 1 dulce, 2 bebidas."
+],
+[
+"Resolvé",
+7,
+"Proponé una consulta de referencias cruzadas distinta para el copetín (elegí qué va en filas y qué en columnas) y explicá qué mostraría.",
+"Ejemplo: filas = categoría, columnas = disponibilidad de stock; mostraría cuántos productos de cada categoría tienen poco o suficiente stock."
+],
+[
+"Resolvé",
+8,
+"Señalá dos errores posibles al formular una consulta y cómo los detectarías revisando el resultado.",
+"Errores: criterio mal escrito (categoria=\"Salado\" con mayúscula que no coincide) o campo equivocado; se detectan si el resultado trae registros que no deberían aparecer o falta alguno."
+],
+[
+"Pensá y decidí",
+9,
+"V o F: una consulta de referencias cruzadas resume datos en filas y columnas. Justificá.",
+"Verdadero: agrupa por un campo en filas y otro en columnas, con un total en el cruce."
+],
+[
+"Pensá y decidí",
+10,
+"Elegí: si una consulta de productos salados devuelve un dulce, el problema está en (el criterio / la impresora). Justificá.",
+"El criterio: la impresora no influye en qué registros devuelve la consulta."
+],
+[
+"Pensá y decidí",
+11,
+"V o F: nombrar y guardar una consulta permite reutilizarla. Justificá.",
+"Verdadero: guardada con un nombre, la consulta se vuelve a ejecutar cuando haga falta."
+],
+[
+"Desafío",
+12,
+"Diseñá una consulta de referencias cruzadas para el copetín que cruce categoría (filas) con disponibilidad de stock (columnas: \"poco\" si stock < 10, \"suficiente\" si no), y completá la grilla con los datos de la tabla Productos.",
+"Filas categoría, columnas \"poco\"(<10)/\"suficiente\". Con stock<10 solo Mixto(8) y Sopa(6), ambos salados. salado: poco 2, suficiente 2 (Chipa, Empanada) ; dulce: poco 0, suficiente 1 ; bebida: poco 0, suficiente 2. Totales: poco 2, suficiente 5, general 7."
+]
+]
+}

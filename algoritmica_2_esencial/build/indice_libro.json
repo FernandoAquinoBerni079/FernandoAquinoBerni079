@@ -1,0 +1,277 @@
+{
+ "entradas": [
+  [
+   1,
+   "Prueba diagnóstica — ¿Qué sabés ya?"
+  ],
+  [
+   1,
+   "UNIDAD 1 — Del problema al programa: estructuras de control"
+  ],
+  [
+   2,
+   "Clase 1 — Del problema al algoritmo: diagrama de flujo, pseudocódigo y tipos de datos"
+  ],
+  [
+   2,
+   "Práctica 1 — La compra de útiles: del algoritmo en papel al programa en PSeInt"
+  ],
+  [
+   2,
+   "Clase 2 — La decisión simple: la estructura Si… Entonces"
+  ],
+  [
+   2,
+   "Práctica 2 — Descuentos y avisos con Si simple"
+  ],
+  [
+   2,
+   "Clase 3 — Dos caminos: la estructura Si… Entonces… Sino"
+  ],
+  [
+   2,
+   "Práctica 3 — Envíos y pagos con Si… Sino"
+  ],
+  [
+   2,
+   "Clase 4 — Condiciones combinadas: los operadores lógicos Y, O, NO"
+  ],
+  [
+   2,
+   "Práctica 4 — Condiciones compuestas: descuento estudiantil y medios de pago"
+  ],
+  [
+   2,
+   "Clase 5 — Decisiones dentro de decisiones: anidamiento y selección múltiple (Segun)"
+  ],
+  [
+   2,
+   "Práctica 5 — Clasificar pedidos y armar el menú de la librería"
+  ],
+  [
+   2,
+   "Clase 6 — Repetir con condición: Mientras, Repetir… Hasta Que y el contador"
+  ],
+  [
+   2,
+   "Práctica 6 — Validar datos y llegar a la meta con ciclos"
+  ],
+  [
+   2,
+   "Clase 7 — Repetir una cantidad conocida: Para, acumulador, bandera y centinela"
+  ],
+  [
+   2,
+   "Práctica 7 — La semana de la librería: Para, acumulador, centinela y bandera"
+  ],
+  [
+   2,
+   "Evaluación de la Unidad 1"
+  ],
+  [
+   1,
+   "UNIDAD 2 — Estructuras de datos y modularización"
+  ],
+  [
+   2,
+   "Clase 8 — Vectores: concepto, declaración, carga y recorrido"
+  ],
+  [
+   2,
+   "Práctica 8 — El vector de precios y la consulta por número"
+  ],
+  [
+   2,
+   "Clase 9 — Operaciones con vectores: suma, promedio, máximo, mínimo y búsqueda"
+  ],
+  [
+   2,
+   "Práctica 9 — Recorrer el vector de unidades vendidas"
+  ],
+  [
+   2,
+   "Clase 10 — Matrices: arreglos bidimensionales, recorrido y totales por fila y columna"
+  ],
+  [
+   2,
+   "Práctica 10 — La matriz de ventas de la librería"
+  ],
+  [
+   2,
+   "Clase 11 — Ordenación de vectores: método burbuja optimizada y método de selección"
+  ],
+  [
+   2,
+   "Práctica 11 — El ranking de la librería: burbuja y selección"
+  ],
+  [
+   2,
+   "Clase 12 — Generación de números aleatorios y su uso"
+  ],
+  [
+   2,
+   "Práctica 12 — Sorteos y simulaciones con Azar"
+  ],
+  [
+   2,
+   "Clase 13 — Modularización: subprogramas, procedimientos y funciones; variables locales y globales"
+  ],
+  [
+   2,
+   "Práctica 13 — La caja de la librería en módulos"
+  ],
+  [
+   2,
+   "Clase 14 — Parámetros por valor y por referencia; datos de tipo cadena"
+  ],
+  [
+   2,
+   "Práctica 14 — Parámetros por referencia y códigos de artículos"
+  ],
+  [
+   2,
+   "Evaluación de la Unidad 2"
+  ],
+  [
+   2,
+   "Evaluación integradora de la 1.ª etapa"
+  ],
+  [
+   1,
+   "UNIDAD 3 — Sistema de archivos"
+  ],
+  [
+   2,
+   "Clase 15 — Archivos: concepto, características y tipos; memoria principal y secundaria"
+  ],
+  [
+   2,
+   "Práctica 15 — Los archivos de la librería: tipos, propiedades y formato"
+  ],
+  [
+   2,
+   "Clase 16 — Administración de archivos: operaciones básicas y relación con el sistema operativo"
+  ],
+  [
+   2,
+   "Práctica 16 — Escribir, leer y agregar: operaciones con archivos"
+  ],
+  [
+   2,
+   "Clase 17 — Seguridad y protección de archivos; organización, acceso y buffers"
+  ],
+  [
+   2,
+   "Práctica 17 — Proteger y respaldar los archivos de la librería"
+  ],
+  [
+   2,
+   "Clase 18 — El sistema de archivos en la estructura visible del sistema operativo"
+  ],
+  [
+   2,
+   "Práctica 18 — El árbol de carpetas de la librería"
+  ],
+  [
+   2,
+   "Evaluación de la Unidad 3"
+  ],
+  [
+   1,
+   "UNIDAD 4 — Consultas a bases de datos"
+  ],
+  [
+   2,
+   "Clase 19 — Bases de datos y filtros: mostrar solo lo que cumple una condición"
+  ],
+  [
+   2,
+   "Práctica 19 — La tabla Artículos en Access: diseño, carga y filtros"
+  ],
+  [
+   2,
+   "Clase 20 — Consultas: selección, paramétrica, cálculo de totales y campos calculados"
+  ],
+  [
+   2,
+   "Práctica 20 — Consultas de la librería: selección, parámetro, totales y campo calculado"
+  ],
+  [
+   2,
+   "Clase 21 — Consultas de referencias cruzadas y buenas prácticas"
+  ],
+  [
+   2,
+   "Práctica 21 — La referencia cruzada de la librería y el informe de reposición"
+  ],
+  [
+   2,
+   "Evaluación de la Unidad 4"
+  ],
+  [
+   2,
+   "Evaluación integradora de la 2.ª etapa"
+  ],
+  [
+   1,
+   "Proyecto Final Integrador — El sistema de gestión de un emprendimiento"
+  ]
+ ],
+ "paginas": [
+  5,
+  6,
+  6,
+  11,
+  13,
+  19,
+  21,
+  25,
+  27,
+  31,
+  33,
+  37,
+  39,
+  44,
+  46,
+  50,
+  52,
+  54,
+  54,
+  58,
+  60,
+  65,
+  67,
+  71,
+  73,
+  78,
+  80,
+  84,
+  86,
+  90,
+  92,
+  97,
+  99,
+  101,
+  103,
+  103,
+  107,
+  109,
+  113,
+  115,
+  119,
+  121,
+  125,
+  127,
+  129,
+  129,
+  134,
+  136,
+  140,
+  142,
+  146,
+  148,
+  150,
+  152
+ ],
+ "total": 156
+}

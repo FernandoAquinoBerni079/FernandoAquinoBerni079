@@ -1,0 +1,187 @@
+{
+ "entradas": [
+  [
+   1,
+   "Plan de Clase N.º 1 — Del problema al algoritmo: diagrama de flujo, pseudocódigo y tipos de datos"
+  ],
+  [
+   1,
+   "Plan de Clase N.º 2 — La decisión simple: la estructura Si… Entonces"
+  ],
+  [
+   1,
+   "Plan de Clase N.º 3 — Dos caminos: la estructura Si… Entonces… Sino"
+  ],
+  [
+   1,
+   "Plan de Clase N.º 4 — Condiciones combinadas: los operadores lógicos Y, O, NO"
+  ],
+  [
+   1,
+   "Plan de Clase N.º 5 — Decisiones dentro de decisiones: anidamiento y selección múltiple (Segun)"
+  ],
+  [
+   1,
+   "Plan de Clase N.º 6 — Repetir con condición: Mientras, Repetir… Hasta Que y el contador"
+  ],
+  [
+   1,
+   "Plan de Clase N.º 7 — Repetir una cantidad conocida: Para, acumulador, bandera y centinela"
+  ],
+  [
+   1,
+   "Plan de Clase N.º 8 — Continuación práctica de la Clase 7: La semana de la librería: Para, acumulador, centinela y bandera"
+  ],
+  [
+   1,
+   "Plan de Clase N.º 9 — Vectores: concepto, declaración, carga y recorrido"
+  ],
+  [
+   1,
+   "Plan de Clase N.º 10 — Operaciones con vectores: suma, promedio, máximo, mínimo y búsqueda"
+  ],
+  [
+   1,
+   "Plan de Clase N.º 11 — Matrices: arreglos bidimensionales, recorrido y totales por fila y columna"
+  ],
+  [
+   1,
+   "Plan de Clase N.º 12 — Continuación práctica de la Clase 10: La matriz de ventas de la librería"
+  ],
+  [
+   1,
+   "Plan de Clase N.º 13 — Ordenación de vectores: método burbuja optimizada y método de selección"
+  ],
+  [
+   1,
+   "Plan de Clase N.º 14 — Generación de números aleatorios y su uso"
+  ],
+  [
+   1,
+   "Plan de Clase N.º 15 — Modularización: subprogramas, procedimientos y funciones; variables locales y globales"
+  ],
+  [
+   1,
+   "Plan de Clase N.º 16 — Parámetros por valor y por referencia; datos de tipo cadena"
+  ],
+  [
+   1,
+   "Plan de Clase N.º 17 — Continuación práctica de la Clase 14: Parámetros por referencia y códigos de artículos"
+  ],
+  [
+   1,
+   "Plan de Clase N.º 18 — Evaluación integradora de la 1.ª etapa (Unidades 1 y 2)"
+  ],
+  [
+   1,
+   "Plan de Clase N.º 19 — Archivos: concepto, características y tipos; memoria principal y secundaria"
+  ],
+  [
+   1,
+   "Plan de Clase N.º 20 — Continuación práctica de la Clase 15: Los archivos de la librería: tipos, propiedades y formato"
+  ],
+  [
+   1,
+   "Plan de Clase N.º 21 — Administración de archivos: operaciones básicas y relación con el sistema operativo"
+  ],
+  [
+   1,
+   "Plan de Clase N.º 22 — Continuación práctica de la Clase 16: Escribir, leer y agregar: operaciones con archivos"
+  ],
+  [
+   1,
+   "Plan de Clase N.º 23 — Seguridad y protección de archivos; organización, acceso y buffers"
+  ],
+  [
+   1,
+   "Plan de Clase N.º 24 — Continuación práctica de la Clase 17: Proteger y respaldar los archivos de la librería"
+  ],
+  [
+   1,
+   "Plan de Clase N.º 25 — El sistema de archivos en la estructura visible del sistema operativo"
+  ],
+  [
+   1,
+   "Plan de Clase N.º 26 — Continuación práctica de la Clase 18: El árbol de carpetas de la librería"
+  ],
+  [
+   1,
+   "Plan de Clase N.º 27 — Bases de datos y filtros: mostrar solo lo que cumple una condición"
+  ],
+  [
+   1,
+   "Plan de Clase N.º 28 — Continuación práctica de la Clase 19: La tabla Artículos en Access: diseño, carga y filtros"
+  ],
+  [
+   1,
+   "Plan de Clase N.º 29 — Consultas: selección, paramétrica, cálculo de totales y campos calculados"
+  ],
+  [
+   1,
+   "Plan de Clase N.º 30 — Continuación práctica de la Clase 20: Consultas de la librería: selección, parámetro, totales y campo calculado"
+  ],
+  [
+   1,
+   "Plan de Clase N.º 31 — Consultas de referencias cruzadas y buenas prácticas"
+  ],
+  [
+   1,
+   "Plan de Clase N.º 32 — Continuación práctica de la Clase 21: La referencia cruzada de la librería y el informe de reposición"
+  ],
+  [
+   1,
+   "Plan de Clase N.º 33 — Proyecto Final Integrador · Taller 1: definición del emprendimiento"
+  ],
+  [
+   1,
+   "Plan de Clase N.º 34 — Proyecto Final Integrador · Taller 2: construcción del sistema"
+  ],
+  [
+   1,
+   "Plan de Clase N.º 35 — Proyecto Final Integrador · Taller 3: integración y ensayo para la feria"
+  ],
+  [
+   1,
+   "Plan de Clase N.º 36 — Evaluación integradora de la 2.ª etapa (Unidades 1 a 4)"
+  ]
+ ],
+ "paginas": [
+  4,
+  6,
+  8,
+  10,
+  12,
+  14,
+  16,
+  18,
+  20,
+  22,
+  24,
+  26,
+  28,
+  30,
+  32,
+  34,
+  36,
+  38,
+  40,
+  42,
+  44,
+  46,
+  48,
+  50,
+  52,
+  54,
+  56,
+  58,
+  60,
+  62,
+  64,
+  66,
+  68,
+  70,
+  72,
+  74
+ ],
+ "total": 75
+}
