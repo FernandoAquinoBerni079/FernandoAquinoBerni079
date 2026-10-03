@@ -12,8 +12,8 @@ import planes_data
 import ediciones_v2
 from build_libro import a_pdf
 
-B = '/home/claude/alg3/build/'; OUT = '/home/claude/alg3/salida_v2/'
-NOMBRE = 'Algoritmica_3er_Curso_PLAN_ANUAL_ESENCIAL_COMERCIAL_2026_v2'
+B = '/home/claude/alg3/build/'; OUT = '/home/claude/alg3/salida_v2_1/'
+NOMBRE = 'Algoritmica_3er_Curso_PLAN_ANUAL_ESENCIAL_COMERCIAL_2026_v2_1'
 ANCHOS = [1.0, 5.0, 6.8, 1.5, 5.3, 4.2, 2.8]
 COLS = ['N.º', 'TEMAS', 'INDICADORES DE LOGRO', 'TIEMPO', 'PROCEDIMIENTOS', 'INSTRUMENTOS DE EVALUACIÓN', 'OBSERVACIÓN']
 DARK, MED, LIGHT, AZUL, AZUL_CLARO = '1B5E20', '2E7D32', 'E8F5E9', '1B4F72', 'EAF0F6'

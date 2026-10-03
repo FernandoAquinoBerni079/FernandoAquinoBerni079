@@ -62,7 +62,7 @@ def transformar(t, n=None):
     for (cn, tit), acc in ediciones_v2.RECUADROS.items():
         if acc == 'keep' or tit not in t:
             continue
-        if isinstance(acc, tuple):
+        if isinstance(acc, tuple) and acc[0] == 'ret':
             t = t.replace('«%s»' % tit, '«%s»' % acc[1])
         else:
             q = re.escape(tit)

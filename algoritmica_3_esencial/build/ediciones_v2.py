@@ -25,11 +25,11 @@ MEC = {
 }
 # clase → capacidades del programa que desarrolla (una capacidad puede repetirse en varias clases)
 CAP_CLASE = {1: ['C1'], 2: ['C1'], 3: ['C2'], 4: ['C3'], 5: ['C4'], 6: ['C4'], 7: ['C6'], 8: ['C5'], 9: ['C5'],
-             10: ['C7', 'C8', 'C9'], 11: ['C10'], 12: ['C11'], 13: ['C12'], 14: ['C12'], 15: ['C14'], 16: ['C13'],
+             10: ['C7', 'C8', 'C9'], 11: ['C10'], 12: ['C11'], 13: ['C12'], 14: ['C12'], 15: ['C12'], 16: ['C13'],
              17: ['C13'], 18: ['C14'], 19: ['C4'], 20: ['C4'], 21: ['C4']}
 CAP_TALLER = ['C14', 'C4', 'C15']
 CAP_EVAL = {'E1': ['C1', 'C2', 'C3', 'C4', 'C5', 'C6', 'C7', 'C8', 'C9'], 'E2': ['C10', 'C11', 'C12', 'C13', 'C14', 'C4']}
-CAP_UNIDAD = {1: ['C1', 'C2', 'C3'], 2: ['C4', 'C5', 'C6', 'C7', 'C8', 'C9'], 3: ['C10', 'C11', 'C12', 'C13', 'C14'], 4: ['C14', 'C4']}
+CAP_UNIDAD = {1: ['C1', 'C2', 'C3'], 2: ['C4', 'C5', 'C6', 'C7', 'C8', 'C9'], 3: ['C10', 'C11', 'C12', 'C13'], 4: ['C14', 'C4']}
 
 
 def caps(codigos):
@@ -43,7 +43,7 @@ ACCESS_REF = ('Los procedimientos de este libro toman como referencia Access 201
 # 'keep' = contenido paraguayo concreto y verificable · ('ret', título nuevo[, cuerpo nuevo]) · 'del' = repite el desarrollo
 # 'p' = se integra al cuerpo como párrafo común (aporta una idea, pero no es un recuadro de contexto)
 RECUADROS = {
- (1, 'En Paraguay — software hecho en Paraguay'): ('ret', 'Aplicación profesional — programar como oficio',
+ (1, 'En Paraguay — software hecho en Paraguay'): ('p', None,
      ['Empresas y emprendimientos desarrollan software para comercio, servicios, educación y administración. Saber programar abre oportunidades laborales y de emprendimiento, siempre según las tecnologías y necesidades de cada organización.']),
  (1, 'En Paraguay — aprender a programar hoy'): 'del',
  (2, 'En Paraguay — PSeInt en el aula'): ('ret', 'Ejemplo cotidiano — PSeInt en el aula', None),
@@ -63,11 +63,11 @@ RECUADROS = {
  (7, 'En Paraguay — auditar empieza por el diccionario'): 'p',
  (8, 'En Paraguay — una clave principal de todos los días'): 'del',
  (8, 'En Paraguay — códigos que identifican'): 'keep',
- (9, 'En Paraguay — por qué importa'): 'keep',
+ (9, 'En Paraguay — por qué importa'): ('ret', 'En Paraguay — integridad y facturación', ['En la facturación electrónica paraguaya, las reglas sobre identificación del receptor dependen del tipo de operación. En operaciones B2B y B2G la identificación del receptor es obligatoria; en operaciones B2C existen casos de consumidor final. Por eso una base de datos debe representar correctamente las reglas del negocio y las exigencias vigentes para cada tipo de comprobante. La integridad referencial protege aquellas relaciones que el modelo define como obligatorias.']),
  (9, 'Aplicación profesional — trazabilidad e integridad'): 'del',
  (9, 'En Paraguay — validar en la entrada, no en el juicio'): 'del',
  (10, 'En Paraguay — lo que verás en Access'): ('ret', 'Ejemplo cotidiano — DDL y DML en Access', None),
- (10, 'En Paraguay — un oficio con demanda'): ('ret', 'Aplicación profesional — un oficio con demanda', None),
+ (10, 'En Paraguay — un oficio con demanda'): 'p',
  (11, 'En Paraguay — diseñar ahorra trabajo'): 'del',
  (11, 'En Paraguay — modelar lo que el negocio necesita'): ('ret', 'Aplicación profesional — sistemas empaquetados y mini-mundos',
      ['Los sistemas comerciales que se venden listos (facturación, inventario, clientes) son mini-mundos empaquetados: alguien decidió qué entidades incluir para el comercio típico. Cuando un negocio tiene necesidades distintas, ese recorte deja de servir, y ahí empieza el trabajo del diseñador de bases de datos.']),
@@ -175,7 +175,7 @@ def aplicar(C, LOG, sub, ins, borrar, reemplazar, idx, H2, P, CAJA, TABLA):
     sub(c, 'Criterio Clave natural Clave artificial', 'P01, V1, autonumérico', 'P01, V1, Autonumeración', 'V2-06h', 'Clase 8: tipo Autonumeración.')
     c = C[21]
     sub(c, '2. Convertirla en referencia cruzada:', 'Convertirla en referencia cruzada:',
-        'Convertirla en referencia cruzada (con el Asistente para consultas de la pestaña Crear o, en la vista Diseño, cambiando el tipo de consulta a referencias cruzadas):',
+        'Convertirla en referencia cruzada (con Crear → Asistente para consultas → Asistente para consultas de referencias cruzadas o, en la vista Diseño, con Tipo de consulta → Tabla de referencias cruzadas):',
         'V2-06i', 'Clase 21: se indica dónde se elige la consulta de referencias cruzadas.')
     sub(c, 'El destino final de muchas consultas está fuera de Access', 'a PDF (para compartir sin que se modifique)',
         'a PDF (botón PDF o XPS, para compartir sin que se modifique)', 'V2-06j', 'Clase 21: botón PDF o XPS de Datos externos.')
@@ -196,8 +196,8 @@ def aplicar(C, LOG, sub, ins, borrar, reemplazar, idx, H2, P, CAJA, TABLA):
         if acc == 'del':
             del c['cuerpo'][i]
             LOG.append((n, 'V2-11', 'Recuadro «%s» eliminado: repetía el desarrollo o no era específico de Paraguay.' % tit))
-        elif acc == 'p':
-            c['cuerpo'][i] = P(' '.join(b['body']))
+        elif acc == 'p' or acc[0] == 'p':
+            c['cuerpo'][i] = P(' '.join(acc[2] if isinstance(acc, tuple) else b['body']))
             LOG.append((n, 'V2-11', 'Recuadro «%s»: su contenido no es específico de Paraguay; se integra al texto como párrafo.' % tit))
         else:
             _, nuevo, cuerpo = acc
@@ -206,7 +206,8 @@ def aplicar(C, LOG, sub, ins, borrar, reemplazar, idx, H2, P, CAJA, TABLA):
                 b['body'] = cuerpo
             LOG.append((n, 'V2-11', 'Recuadro «%s» → «%s» (contenido universal).' % (tit, nuevo)))
     restantes = [(n, b['title']) for n, c in C.items() for b in c['cuerpo'] if b['t'] == 'caja' and b['title'].startswith('En Paraguay')]
-    assert all((n, t) in RECUADROS and RECUADROS[(n, t)] == 'keep' for n, t in restantes), restantes
+    validos = {(n, t) for (n, t), a in RECUADROS.items() if a == 'keep'} | {(n, a[1]) for (n, t), a in RECUADROS.items() if isinstance(a, tuple) and a[0] == 'ret' and a[1].startswith('En Paraguay')}
+    assert set(restantes) <= validos, restantes
 
     # 14 · Símbolos ✔ / ✓ del tomo (dependen de una fuente de emoji): se reemplazan por texto
     k = 0

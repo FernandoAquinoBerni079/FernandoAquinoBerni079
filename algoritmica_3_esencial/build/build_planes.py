@@ -15,8 +15,8 @@ import maqueta as M
 import planes_data
 from build_libro import a_pdf
 
-B = '/home/claude/alg3/build/'; OUT = '/home/claude/alg3/salida_v2/'
-NOMBRE = 'Algoritmica_3er_Curso_PLANES_DE_CLASE_ESENCIAL_COMERCIAL_2026_v2'
+B = '/home/claude/alg3/build/'; OUT = '/home/claude/alg3/salida_v2_1/'
+NOMBRE = 'Algoritmica_3er_Curso_PLANES_DE_CLASE_ESENCIAL_COMERCIAL_2026_v2_1'
 DARK, MED, LIGHT, GRIS = '1B5E20', '2E7D32', 'E8F5E9', 'BFBFBF'
 W = 17.0
 MIN_HC, HC = 40, 4

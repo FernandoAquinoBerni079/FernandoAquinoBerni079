@@ -8,8 +8,8 @@ import datos, actividades, practicas, evaluaciones, planes_data
 from estructura import cargar
 import ediciones
 
-O = '/home/claude/alg3/salida_v2/'; B = '/home/claude/alg3/build/'
-F = {k: O + 'Algoritmica_3er_Curso_%s_v2.%s' % (k, 'docx') for k in
+O = '/home/claude/alg3/salida_v2_1/'; B = '/home/claude/alg3/build/'
+F = {k: O + 'Algoritmica_3er_Curso_%s_v2_1.%s' % (k, 'docx') for k in
      ('LIBRO_ESENCIAL_COMERCIAL_2026', 'SOLUCIONARIO_DOCENTE_ESENCIAL_COMERCIAL_2026', 'PLANES_DE_CLASE_ESENCIAL_COMERCIAL_2026', 'PLAN_ANUAL_ESENCIAL_COMERCIAL_2026')}
 LIB, SOL, PLA, ANU = list(F.values())
 RES = []
@@ -338,14 +338,29 @@ for nombre, path in (('libro', LIB), ('solucionario', SOL), ('planes', PLA), ('p
         hits = re.findall(pat, docx_txt)
         chk('I', 'Residuos de conversión en el %s: %s' % (nombre, desc), not hits, hits[:3])
 
+# ---------------- J. Corrección de cierre v2.1 ----------------
+chk('J', 'Clase 15: capacidad «Trabaja con el modelo Entidad Relación…»', V2.CAP_CLASE[15] == ['C12'] and C[15]['ficha']['capacidad'] == [V2.MEC['C12']])
+chk('J', 'Clase 15: indicadores sin cambios en el Plan Anual', all(('• ' + i) in TA for i in C[15]['ficha']['indicadores']))
+chk('J', 'Planes: el plan de la Clase 15 lleva la capacidad nueva', any(p['tipo'] == 'C' and p['n'] == 15 and p['capacidad'] == [V2.MEC['C12']] for p in PLs))
+chk('J', 'Plan Anual: la Unidad 3 lista solo capacidades de sus clases', V2.CAP_UNIDAD[3] == ['C10', 'C11', 'C12', 'C13'])
+chk('J', 'Clase 9: recuadro «En Paraguay — integridad y facturación» con el texto acordado', 'En Paraguay — integridad y facturación' in TL and 'En operaciones B2B y B2G la identificación del receptor es obligatoria; en operaciones B2C existen casos de consumidor final.' in TL and 'La integridad referencial protege aquellas relaciones que el modelo define como obligatorias.' in TL)
+chk('J', 'Clase 9: sin el recuadro anterior', 'En Paraguay — por qué importa' not in TL and 'problemas ante la DNIT' not in TL)
+chk('J', 'Práctica 6: sin la dicotomía gestor/aplicación', 'pertenecen al gestor' not in TL and 'las guarda el gestor' not in TS)
+chk('J', 'Práctica 6: paso 2 y solución acordados', 'Recordá que Access integra ambas funciones en una misma herramienta.' in TL and 'En Access las cuatro familias son objetos de la misma aplicación y trabajan integradas.' in TS)
+chk('J', 'Práctica 19: punto de control acordado de la Actividad 2', 'Los registros devueltos y los no devueltos, juntos y sin superposición, reconstruyen el conjunto completo de Ventas.' in TL and 'son exactamente las del 11/03/2026' not in TL)
+chk('J', 'Clases 1 y 10: sin recuadros de oficio', 'programar como oficio' not in TL and 'un oficio con demanda' not in TL)
+chk('J', 'Clases 1 y 10: contenido integrado como texto común', 'Saber programar abre oportunidades laborales' in TL and 'La administración de bases de datos es un área profesional importante' in TL)
+chk('J', 'Clase 21: rutas oficiales de referencias cruzadas', 'Crear → Asistente para consultas → Asistente para consultas de referencias cruzadas' in TL and 'Tipo de consulta → Tabla de referencias cruzadas' in TL)
+chk('J', 'Clase 18: ruta oficial de importación', 'Datos externos → grupo Importar y vincular → Excel' in TL)
+
 # ---------------- salida ----------------
 fallos = [r for r in RES if not r[2]]
 por = collections.Counter(r[0] for r in RES)
 with open(B + 'auditoria_resultado.txt', 'w') as f:
-    f.write('AUDITORÍA AUTOMÁTICA — Algorítmica 3.º · Edición Esencial Comercial 2026 · versión v2 (correcciones)\n')
+    f.write('AUDITORÍA AUTOMÁTICA — Algorítmica 3.º · Edición Esencial Comercial 2026 · versión v2.1 (corrección de cierre)\n')
     f.write('Controles: %d · Fallos: %d\n' % (len(RES), len(fallos)))
     nombres = {'A': 'Estructura y correspondencia', 'B': 'Paginación, índice, saltos y encabezados', 'C': 'Coherencia aritmética', 'D': 'Libro ↔ solucionario',
-               'E': 'Duplicados', 'F': 'Figuras', 'G': 'Plan Anual y Planes de Clase', 'H': 'Lengua, residuos y cobertura curricular', 'I': 'Correcciones v2 (auditoría y decisiones de Fer)'}
+               'E': 'Duplicados', 'F': 'Figuras', 'G': 'Plan Anual y Planes de Clase', 'H': 'Lengua, residuos y cobertura curricular', 'I': 'Correcciones v2 (auditoría y decisiones de Fer)', 'J': 'Corrección de cierre v2.1'}
     for b in sorted(por):
         f.write('  %s. %-45s %4d controles · %d fallos\n' % (b, nombres[b], por[b], sum(1 for r in fallos if r[0] == b)))
     for r in fallos:

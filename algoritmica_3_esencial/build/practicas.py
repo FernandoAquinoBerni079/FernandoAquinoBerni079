@@ -141,11 +141,11 @@ PR[6] = dict(
        control='Cada decisión está justificada con una característica (usuarios simultáneos, red, tipo de datos), no con «porque sí».'),
   dict(titulo='El archivo de la base, por dentro', objetivo='Planificar qué objetos tendría el archivo Biblioteca.accdb.',
        modelo=('Familias de objetos', ['tablas · consultas · formularios · informes']),
-       pasos=['Proponé dos objetos de cada familia para la biblioteca.', 'Marcá cuáles pertenecen al gestor y cuáles a la aplicación.'],
+       pasos=['Proponé dos objetos de cada familia para la biblioteca.', 'Clasificá los objetos según su función principal: datos y consulta (tablas y consultas) o interfaz y presentación (formularios e informes). Recordá que Access integra ambas funciones en una misma herramienta.'],
        control='Tenés ocho objetos y cada uno tiene un nombre que dice qué hace.'),
  ],
  desafio='Proponé una segunda tabla, Socios, y explicá con qué tabla tendría que unirse para saber quién tiene cada libro.',
- sol=dict(resultado='Act. 1: Libros(L01 Hijo de hombre, Roa Bastos, 1960, novela; L02 El trueno entre las hojas, Roa Bastos, 1953, cuentos; L03 La babosa, Casaccia, 1952, novela; L04 Yo el Supremo, Roa Bastos, 1974, novela; L05 Don Quijote de la Mancha, Cervantes, 1605, novela). Clave: código; el título puede repetirse (ediciones, homónimos) y puede corregirse. Act. 2: (a) relacional, local; (b) relacional, servidor; (c) NoSQL, servidor; (d) jerárquico; (e) relacional, servidor. Act. 3: p. ej. tablas Libros y Socios; consultas «Libros prestados» y «Préstamos por curso»; formularios «Registrar préstamo» y «Alta de socio»; informes «Libros más pedidos» y «Préstamos vencidos». Las tablas las guarda el gestor; formularios e informes son la aplicación. Desafío: Socios se une a Libros a través de una tabla Préstamos.',
+ sol=dict(resultado='Act. 1: Libros(L01 Hijo de hombre, Roa Bastos, 1960, novela; L02 El trueno entre las hojas, Roa Bastos, 1953, cuentos; L03 La babosa, Casaccia, 1952, novela; L04 Yo el Supremo, Roa Bastos, 1974, novela; L05 Don Quijote de la Mancha, Cervantes, 1605, novela). Clave: código; el título puede repetirse (ediciones, homónimos) y puede corregirse. Act. 2: (a) relacional, local; (b) relacional, servidor; (c) NoSQL, servidor; (d) jerárquico; (e) relacional, servidor. Act. 3: p. ej. tablas Libros y Socios; consultas «Libros prestados» y «Préstamos por curso»; formularios «Registrar préstamo» y «Alta de socio»; informes «Libros más pedidos» y «Préstamos vencidos». Tablas y consultas pertenecen principalmente a la capa de datos/consulta; formularios e informes, a la capa de interfaz/presentación. En Access las cuatro familias son objetos de la misma aplicación y trabajan integradas. Desafío: Socios se une a Libros a través de una tabla Préstamos.',
           errores='Poner autor y año en la misma celda; elegir el título como clave; decidir «servidor» para la biblioteca de una sola PC.'))
 
 PR[7] = dict(
@@ -431,7 +431,7 @@ PR[19] = dict(
   dict(titulo='Cuatro consultas con criterio', objetivo='Diseñar, anticipar, ejecutar y guardar cuatro consultas.',
        modelo=('Consultas pedidas', ['ConsProductosCaros: nombre y precio de los productos de más de G. 6.000, del más caro al más barato.', 'ConsBebidasEconomicas: bebidas de menos de G. 8.000 (dos criterios en la misma fila).', 'ConsClientesSinTelefono: clientes con el teléfono vacío.', 'ConsVentas9y10: ventas entre el 09/03/2026 y el 10/03/2026, incluidos los bordes.']),
        pasos=['Crear → Diseño de consulta; agregá la tabla y bajá los campos.', 'Escribí el criterio de cada consulta y, si corresponde, el orden.', 'Ejecutá y compará con lo que anticipaste.', 'Guardá cada consulta con su nombre.'],
-       control='Cada resultado coincide con lo anticipado. Las ventas que ConsVentas9y10 NO devolvió son exactamente las del 11/03/2026.'),
+       control='Cada resultado coincide con lo anticipado. Los registros devueltos y los no devueltos, juntos y sin superposición, reconstruyen el conjunto completo de Ventas.'),
   dict(titulo='La fecha por dentro', objetivo='Comprobar en la vista SQL cómo guarda Access las fechas del criterio.',
        modelo=('Qué mirar', ['Inicio → Ver → Vista SQL de ConsVentas9y10']),
        pasos=['Abrí la vista SQL y copiá la línea WHERE.', 'Explicá por qué el 10/03 aparece escrito como 3/10.', 'Escribí qué fecha entendería Access si en la vista SQL alguien escribiera #10/03/2026#.'],
