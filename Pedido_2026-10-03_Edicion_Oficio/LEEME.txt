@@ -65,7 +65,18 @@ QUÉ HAY EN CADA CARPETA Y DE DÓNDE SALIÓ (Drive)
 
 08_HyG_EMJA_Niveles_I-IV  (fuente: Cuad_HyG_EMJA_Nivel_I..IV del 20-jun)
   Los cuatro cuadernillos en oficio (43 · 39 · 36 · 39 págs.).
-  No existen Plan Anual ni Solucionario EMJA en el Drive.
+  Solucionario_HyG_EMJA_Nivel_I..IV (NUEVOS, 05-oct, oficio, 8 págs. c/u): claves de las
+  6 actividades de los 12 temas y de las 2 pruebas parciales, con puntajes (A 5 · B 5 ·
+  C 4 · D 6 y A 4 · B 4 · C 4 · D 4 · E 4 = 20). Se escribieron desde los cuadernillos
+  ACTUALES: la «Clave_Docente_Pruebas_EPJA» del 19-jun del Drive ya no coincide con las
+  pruebas (otra escala, opción múltiple) y no se usó.
+  ERRATAS DE LOS CUADERNILLOS (anotadas también en el solucionario):
+  - Nivel I, Tema 7, Actividad 5: «Egipto» y «Egipcios» admiten dos combinaciones; se
+    aceptan ambas. Conviene cambiar uno de los dos renglones en la próxima edición.
+  - Nivel II, Prueba parcial N.º 2, Parte B c): dice «La ____ comercial» y la respuesta es
+    «monopolio»: debería decir «El ____ comercial».
+  FALTA el Plan Anual EMJA: no está en el Drive y el programa oficial (mec.gov.py) está
+  bloqueado desde este entorno. Hace falta el programa EMJA del MEC con su carga horaria.
 
 TOMOS GRANDES (7.º, 8.º, 9.º y Economía 2.º)
 Pesan entre 14 y 27 MB y el conector de Drive no los baja: los pasó a oficio ChatGPT
