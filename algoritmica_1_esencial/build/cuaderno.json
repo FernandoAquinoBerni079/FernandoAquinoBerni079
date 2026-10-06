@@ -1,0 +1,1425 @@
+{
+ "PR": {
+  "1": {
+   "n": 1,
+   "titulo": "Escribir conjuntos con precisión",
+   "competencia": [
+    [
+     "Competencia",
+     "Determinar conjuntos por extensión y por comprensión, usar la notación de pertenencia y calcular cardinales."
+    ]
+   ],
+   "saber": [
+    "Un conjunto se escribe entre llaves, con cada elemento una sola vez y sin que importe el orden. x ∈ A significa que x es elemento de A; x ∉ A, que no lo es.",
+    "Por extensión se listan todos los elementos; por comprensión se escribe {x / x cumple la propiedad}. El cardinal n(A) es la cantidad de elementos."
+   ],
+   "acts": [
+    {
+     "titulo": "Del mostrador a las llaves",
+     "objetivo": "escribir por extensión conjuntos tomados de una situación real.",
+     "modelo": [
+      "Menú del martes en el Copetín Karumbé",
+      [
+       "Hoy Ña Rosa ofrece: tortilla, croqueta, chipa so'o y jugo. Además acepta tres medios de pago: efectivo, QR y tarjeta."
+      ]
+     ],
+     "pasos": [
+      "Escribí por extensión el conjunto T de los productos del martes.",
+      "Escribí por extensión el conjunto P de los medios de pago.",
+      "Calculá n(T) y n(P).",
+      "Escribí dos afirmaciones verdaderas: una con ∈ y una con ∉ (por ejemplo, sobre la empanada, que hoy no está en el menú)."
+     ],
+     "control": "n(T) = 4 y n(P) = 3. Si te dio otra cosa, revisá si repetiste o te salteaste un elemento."
+    },
+    {
+     "titulo": "De la propiedad a la lista",
+     "objetivo": "traducir conjuntos por comprensión a su forma por extensión.",
+     "modelo": null,
+     "pasos": [
+      "Escribí por extensión: A = {x / x es día del fin de semana}.",
+      "Escribí por extensión: B = {x / x es impar y 1 ≤ x ≤ 9}.",
+      "Escribí por extensión: C = {x / x es vocal de la palabra «tereré»}.",
+      "Calculá n(A), n(B) y n(C). Recordá: en C, los elementos no se repiten."
+     ],
+     "control": "n(A) = 2, n(B) = 5 y n(C) = 1: la única vocal de «tereré» es la e (se escribe una sola vez aunque aparezca tres veces)."
+    },
+    {
+     "titulo": "De la lista a la propiedad",
+     "objetivo": "escribir por comprensión conjuntos dados por extensión.",
+     "modelo": null,
+     "pasos": [
+      "Escribí por comprensión: D = {enero, febrero, marzo, ..., diciembre}.",
+      "Escribí por comprensión: E = {2, 4, 6, 8, 10}.",
+      "Compará con tu pareja de banco: ¿escribieron la misma propiedad? ¿Las dos describen exactamente los mismos elementos y ninguno más?"
+     ],
+     "control": "Una propiedad está bien elegida si al leerla cualquiera reconstruye la lista exacta: ni un elemento de más, ni uno de menos."
+    }
+   ],
+   "desafio": "Escribí por extensión el conjunto K de las letras distintas de la palabra «Karumbé» y calculá n(K). Después inventá una palabra cuyo conjunto de letras tenga cardinal 4.",
+   "extra": []
+  },
+  "2": {
+   "n": 2,
+   "titulo": "Clasificar conjuntos y generar subconjuntos",
+   "competencia": [
+    [
+     "Competencia",
+     "Clasificar conjuntos en finitos, infinitos, unitarios o vacíos, y generar todos los subconjuntos de un conjunto pequeño."
+    ]
+   ],
+   "saber": [
+    "Finito: se termina de contar. Infinito: no se termina. Unitario: un solo elemento. Vacío (∅): ninguno. Universal (U): el conjunto de referencia.",
+    "A ⊆ B cuando todo elemento de A está en B. Un conjunto de n elementos tiene 2ⁿ subconjuntos, contando ∅ y el conjunto entero."
+   ],
+   "acts": [
+    {
+     "titulo": "Clasificar sin dudar",
+     "objetivo": "asignar a cada conjunto su tipo con justificación.",
+     "modelo": null,
+     "pasos": [
+      "Clasificá (finito, infinito, unitario o vacío) y justificá en una línea: a) los números naturales mayores que 100; b) las capitales del Paraguay; c) los productos del menú que cuestan G. 0; d) las letras del achegety; e) los clientes que pagaron hoy con cheque de 1811.",
+      "Marcá cuáles de los cinco podrían usarse como conjunto universal en un problema sobre el copetín, y por qué."
+     ],
+     "control": "Debés tener 1 infinito, 1 unitario, 2 vacíos y 1 finito. Si no, revisá c) y e)."
+    },
+    {
+     "titulo": "La fábrica de subconjuntos",
+     "objetivo": "generar en forma ordenada los 2ⁿ subconjuntos.",
+     "modelo": [
+      "Método ordenado",
+      [
+       "Para no olvidar ninguno: primero ∅, después los de 1 elemento, después los de 2, y así hasta el conjunto entero."
+      ]
+     ],
+     "pasos": [
+      "Escribí todos los subconjuntos de B = {jugo, agua}.",
+      "Escribí todos los subconjuntos de F = {tortilla, croqueta, chipa so'o}, agrupados por cantidad de elementos (0, 1, 2, 3).",
+      "Contá cuántos obtuviste en cada caso y verificá con la fórmula 2ⁿ.",
+      "Subrayá, en cada caso, los dos subconjuntos impropios."
+     ],
+     "control": "B tiene 2² = 4 subconjuntos y F tiene 2³ = 8. En F deben ser: 1 de cero elementos, 3 de uno, 3 de dos y 1 de tres (1+3+3+1 = 8)."
+    },
+    {
+     "titulo": "¿Pertenece o está incluido?",
+     "objetivo": "distinguir ∈ (elemento) de ⊆ (conjunto).",
+     "modelo": null,
+     "pasos": [
+      "Con M = {tortilla, croqueta, chipa so'o, jugo} y F = {tortilla, croqueta}, marcá V o F: a) tortilla ∈ M ; b) F ∈ M ; c) F ⊆ M ; d) jugo ⊆ M ; e) ∅ ⊆ F ; f) F ⊂ F.",
+      "Corregí por escrito las falsas, cambiando el símbolo por el correcto."
+     ],
+     "control": "Deben darte exactamente 3 verdaderas (a, c, e) y 3 falsas. La regla: ∈ une elemento con conjunto; ⊆ une conjunto con conjunto."
+    }
+   ],
+   "desafio": "Ña Rosa quiere armar combos con 4 productos distintos. ¿Cuántos combos posibles hay (incluyendo el combo vacío y el de los 4 productos)? ¿Y si suma un quinto producto? Escribí la cuenta, no la lista.",
+   "extra": []
+  },
+  "3": {
+   "n": 3,
+   "titulo": "Dibujar y leer diagramas de Venn",
+   "competencia": [
+    [
+     "Competencia",
+     "Representar conjuntos con diagramas de Venn y traducir entre el gráfico y el lenguaje simbólico."
+    ]
+   ],
+   "saber": [
+    "El rectángulo es U; cada óvalo, un conjunto. Dos óvalos cruzados generan cuatro regiones: solo A, A y B, solo B, ni A ni B.",
+    "Cada elemento del universo se ubica en exactamente una región; por eso los cardinales de las regiones suman n(U).",
+    "Modelo de referencia — así tiene que quedar tu diagrama terminado: cada producto en su región y ninguna región olvidada.",
+    "Modelo — Diagrama de Venn de dos conjuntos con las cuatro regiones (Figura 1.1 del tomo)."
+   ],
+   "acts": [
+    {
+     "titulo": "Ubicar cada elemento en su región",
+     "objetivo": "distribuir un universo completo en las cuatro regiones.",
+     "modelo": [
+      "Datos",
+      [
+       "U = {1, 2, 3, 4, 5, 6, 7, 8, 9, 10} · A = {2, 4, 6, 8, 10} (pares) · B = {3, 4, 8, 9}."
+      ]
+     ],
+     "pasos": [
+      "Dibujá el rectángulo U con los óvalos A y B cruzados.",
+      "Ubicá primero los elementos de A ∩ B en la zona central.",
+      "Completá «solo A», «solo B» y «ni A ni B».",
+      "Contá los elementos de cada región y sumá los cuatro cardinales."
+     ],
+     "control": "La zona central debe tener 2 elementos y la suma de las cuatro regiones debe dar exactamente 10 = n(U)."
+    },
+    {
+     "titulo": "Del diagrama al símbolo",
+     "objetivo": "leer relaciones de un diagrama dado.",
+     "modelo": [
+      "Situación",
+      [
+       "En un diagrama, el óvalo F (fritos) está dibujado completamente adentro del óvalo M (menú), y el óvalo B (bebidas) está separado de F, dentro de M."
+      ]
+     ],
+     "pasos": [
+      "Escribí con símbolos la relación entre F y M, y entre B y M.",
+      "Escribí con símbolos la relación entre F y B (pensá en su intersección).",
+      "Redactá en una oración qué significa el dibujo en el mostrador del copetín."
+     ],
+     "control": "Tenés que haber usado ⊂ dos veces y ∅ una vez (F ∩ B = ∅: ningún frito es bebida)."
+    },
+    {
+     "titulo": "Del enunciado al diagrama",
+     "objetivo": "elegir el dibujo correcto para cada relación.",
+     "modelo": null,
+     "pasos": [
+      "Dibujá el diagrama que corresponde a cada caso: a) A ⊂ B ; b) A ∩ B = ∅ ; c) A y B con elementos comunes y propios cada uno.",
+      "Rotulá cada dibujo con su caso y marcá con una cruz una región vacía en a) y en b)."
+     ],
+     "control": "a) óvalo adentro de óvalo; b) óvalos separados; c) óvalos cruzados. Si dibujaste los tres iguales, releé el enunciado."
+    }
+   ],
+   "desafio": "Inventá un universo de 8 elementos del copetín y dos conjuntos A y B tales que «solo A» tenga 3 elementos, la intersección 1, «solo B» 2 y «ni A ni B» 2. Verificá: 3 + 1 + 2 + 2 = 8.",
+   "extra": [
+    [
+     "img",
+     ""
+    ]
+   ]
+  },
+  "4": {
+   "n": 4,
+   "titulo": "Unir e intersecar conjuntos",
+   "competencia": [
+    [
+     "Competencia",
+     "Calcular uniones e intersecciones y verificar sus propiedades con ejemplos concretos."
+    ]
+   ],
+   "saber": [
+    "A ∪ B junta todo (los repetidos, una sola vez). A ∩ B guarda solo lo común. Si A ∩ B = ∅, los conjuntos son disjuntos.",
+    "Vale n(A ∪ B) = n(A) + n(B) − n(A ∩ B): al sumar cardinales, lo común se contó dos veces y hay que restarlo una."
+   ],
+   "acts": [
+    {
+     "titulo": "Los pedidos del miércoles",
+     "objetivo": "calcular unión e intersección sobre datos reales.",
+     "modelo": [
+      "Datos",
+      [
+       "Pedidos del turno mañana: A = {empanada, jugo, chipa so'o, coquito}. Pedidos del turno siesta: B = {jugo, tortilla, coquito}."
+      ]
+     ],
+     "pasos": [
+      "Calculá A ∪ B (todo lo pedido en el día).",
+      "Calculá A ∩ B (lo pedido en los dos turnos).",
+      "Calculá n(A), n(B), n(A ∩ B) y n(A ∪ B).",
+      "Verificá la fórmula: n(A ∪ B) = n(A) + n(B) − n(A ∩ B)."
+     ],
+     "control": "n(A ∪ B) = 5 y la fórmula debe cerrar: 4 + 3 − 2 = 5. Si te dio 6, contaste dos veces algún repetido."
+    },
+    {
+     "titulo": "Con números",
+     "objetivo": "operar con conjuntos numéricos y detectar disjuntos.",
+     "modelo": null,
+     "pasos": [
+      "Con P = {1, 3, 5, 7}, Q = {5, 7, 9} y R = {2, 4}: calculá P ∪ Q, P ∩ Q, P ∩ R y Q ∪ R.",
+      "Indicá cuál de los pares de conjuntos es disjunto y por qué.",
+      "Calculá (P ∩ Q) ∪ R y P ∩ (Q ∪ R): ¿dan lo mismo?"
+     ],
+     "control": "P ∩ R = ∅ (disjuntos). Los dos resultados del paso 3 deben ser distintos: uno tiene 4 elementos y el otro 2."
+    },
+    {
+     "titulo": "Propiedades a prueba",
+     "objetivo": "verificar conmutativa, idempotente y las reglas con ∅ y U.",
+     "modelo": null,
+     "pasos": [
+      "Con A y B de la Actividad 1, escribí B ∪ A y compará con A ∪ B.",
+      "Calculá A ∪ A y A ∩ A. ¿Qué propiedad verificaste?",
+      "Con U = {todos los productos y bebidas del día}, escribí sin calcular: A ∪ ∅, A ∩ ∅, A ∩ U."
+     ],
+     "control": "B ∪ A = A ∪ B (conmutativa); A ∪ A = A ∩ A = A (idempotente); A ∪ ∅ = A, A ∩ ∅ = ∅, A ∩ U = A."
+    }
+   ],
+   "desafio": "Buscá dos conjuntos A y B tales que A ∪ B = A. ¿Qué relación hay entre ellos? Escribila con el símbolo correcto y explicá por qué siempre pasa.",
+   "extra": []
+  },
+  "5": {
+   "n": 5,
+   "titulo": "Diferencia, complemento y problemas de conteo",
+   "competencia": [
+    [
+     "Competencia",
+     "Calcular diferencias y complementos, y resolver problemas de conteo con el diagrama de Venn y el control del universo."
+    ]
+   ],
+   "saber": [
+    "A − B: lo de A que no está en B (no es conmutativa). A′ = U − A: todo lo del universo fuera de A. De Morgan: (A ∪ B)′ = A′ ∩ B′ y (A ∩ B)′ = A′ ∪ B′.",
+    "Método de conteo: 1.º la intersección en el centro; 2.º «solo A» y «solo B» restando; 3.º «ninguno» para completar n(U). Verificá siempre la suma."
+   ],
+   "acts": [
+    {
+     "titulo": "Restar y complementar",
+     "objetivo": "calcular diferencias y complementos con precisión.",
+     "modelo": [
+      "Datos",
+      [
+       "U = {1, 2, 3, 4, 5, 6, 7, 8} · A = {1, 2, 3, 6} · B = {2, 3, 5, 7}."
+      ]
+     ],
+     "pasos": [
+      "Calculá A − B y B − A. ¿Dieron lo mismo?",
+      "Calculá A′ y B′.",
+      "Calculá (A ∪ B)′ y A′ ∩ B′, y compará los resultados.",
+      "Escribí en una línea qué ley acabás de verificar."
+     ],
+     "control": "A − B y B − A deben tener 2 elementos cada uno pero distintos; (A ∪ B)′ = A′ ∩ B′ = {4, 8}: De Morgan verificada."
+    },
+    {
+     "titulo": "La encuesta del tereré",
+     "objetivo": "resolver un problema completo de dos conjuntos.",
+     "modelo": [
+      "Situación",
+      [
+       "Ña Rosa preguntó a 45 clientes: 28 toman tereré, 21 toman cocido y 12 toman ambos."
+      ]
+     ],
+     "pasos": [
+      "Dibujá el diagrama y anotá 12 en la intersección.",
+      "Calculá «solo tereré» y «solo cocido» restando.",
+      "Calculá cuántos toman al menos una de las dos bebidas.",
+      "Calculá cuántos no toman ninguna y verificá el control del universo."
+     ],
+     "control": "Las cuatro regiones deben sumar 45. Si te dio 44 o 46, revisá las restas del paso 2."
+    },
+    {
+     "titulo": "Leer al revés",
+     "objetivo": "reconstruir los datos a partir de las regiones.",
+     "modelo": [
+      "Situación",
+      [
+       "En otra encuesta, el diagrama terminado muestra: solo chipa 15, ambos 9, solo empanada 8, ninguno 6."
+      ]
+     ],
+     "pasos": [
+      "Calculá cuántos clientes fueron encuestados en total.",
+      "Calculá cuántos compran chipa (en total) y cuántos compran empanada (en total).",
+      "Explicá por qué «compran chipa» no es lo mismo que «solo chipa»."
+     ],
+     "control": "Total encuestados: 38. Compran chipa: 24. Compran empanada: 17. Pista de verificación: 24 + 17 − 9 = 32 = al menos una; 32 + 6 = 38."
+    }
+   ],
+   "desafio": "De 50 estudiantes, 30 usan el laboratorio y 25 usan su celular para practicar; 5 no usan ninguno. ¿Cuántos usan ambos? (Pista: primero calculá cuántos usan al menos uno, después aplicá la fórmula de la unión.) UNIDAD 2 — LÓGICA SIMBÓLICA · PRÁCTICAS 6 A 12",
+   "extra": []
+  },
+  "6": {
+   "n": 6,
+   "titulo": "Cazar proposiciones",
+   "competencia": [
+    [
+     "Competencia",
+     "Distinguir proposiciones de otras expresiones y clasificarlas en abiertas, atómicas y moleculares."
+    ]
+   ],
+   "saber": [
+    "Proposición: oración declarativa con un único valor de verdad (V o F). Preguntas, órdenes, exclamaciones y opiniones sin criterio no lo son.",
+    "Abierta: contiene variable (sin valor hasta reemplazarla). Atómica: afirma una sola cosa. Molecular: combina atómicas con conectivos (la negación cuenta)."
+   ],
+   "acts": [
+    {
+     "titulo": "¿Es o no es?",
+     "objetivo": "decidir con criterio cuáles expresiones son proposiciones.",
+     "modelo": null,
+     "pasos": [
+      "Marcá P (proposición) o N (no lo es) y justificá en una línea: a) El río Paraguay atraviesa el país. b) ¡Salió la chipa del horno! c) 12 − 5 = 7. d) ¿Aceptan tarjeta? e) x − 4 = 9. f) La croqueta es lo más rico del mundo. g) Hoy no hay tortilla. h) Cerrá la heladera.",
+      "Contá cuántas P obtuviste y compará con tu pareja de banco."
+     ],
+     "control": "Deben quedar exactamente 3 proposiciones cerradas: a, c y g. La e) es una expresión proposicional abierta: recién tendrá valor V/F cuando x reciba un valor."
+    },
+    {
+     "titulo": "Atómica o molecular",
+     "objetivo": "clasificar proposiciones según tengan o no conectivos.",
+     "modelo": [
+      "Recordá",
+      [
+       "«y», «o», «si... entonces», «si y solo si» y el «no» son conectivos. «Pero» funciona como «y»."
+      ]
+     ],
+     "pasos": [
+      "Clasificá en atómica (A) o molecular (M): a) Hay jugo. b) Hay jugo y hay agua. c) No hay croqueta. d) Si llueve, entonces hay más ventas de cocido. e) El copetín abre a las 6:00. f) O llevás tortilla o llevás empanada.",
+      "En las moleculares, subrayá el conectivo y escribí las atómicas que la componen."
+     ],
+     "control": "Deben darte 2 atómicas (a, e) y 4 moleculares. En c) el conectivo es la negación, aunque la oración parezca simple."
+    },
+    {
+     "titulo": "Letras y valores",
+     "objetivo": "pasar del idioma a la notación p, q, r con valores de verdad.",
+     "modelo": null,
+     "pasos": [
+      "Asigná p, q y r a tres proposiciones atómicas sobre tu aula (dos verdaderas y una falsa) y anotá sus valores.",
+      "Escribí en palabras: ¬r, p ∧ q y q ∨ r, e indicá el valor de verdad de cada una según tus valores.",
+      "Intercambiá con tu pareja de banco y verificá los valores del otro."
+     ],
+     "control": "Con p = V, q = V, r = F debe darte: ¬r = V, p ∧ q = V, q ∨ r = V. Si elegiste otros valores, recalculá con las tablas."
+    }
+   ],
+   "desafio": "Escribí una oración que parezca proposición pero no lo sea, y otra que parezca simple pero sea molecular. Explicá la trampa de cada una.",
+   "extra": []
+  },
+  "7": {
+   "n": 7,
+   "titulo": "Simbolizar y evaluar con conectivos",
+   "competencia": [
+    [
+     "Competencia",
+     "Traducir reglas del lenguaje común a símbolos lógicos y calcular el valor de verdad de proposiciones compuestas."
+    ]
+   ],
+   "saber": [
+    "¬ no · ∧ y · ∨ o (inclusiva) · ⊻ o exclusiva · → si... entonces · ↔ si y solo si. El condicional solo es F en el caso V → F.",
+    "Para evaluar: reemplazá valores, resolvé paréntesis y negaciones primero, y el conectivo principal al final."
+   ],
+   "acts": [
+    {
+     "titulo": "Traducir reglas del copetín",
+     "objetivo": "simbolizar oraciones con letras, conectivos y paréntesis.",
+     "modelo": [
+      "Diccionario",
+      [
+       "p: hay harina · q: hay queso · r: hay chipa so'o · s: es sábado."
+      ]
+     ],
+     "pasos": [
+      "Simbolizá: a) Hay harina y hay queso. b) No hay chipa so'o. c) Si es sábado, entonces hay chipa so'o. d) Si hay harina y hay queso, entonces hay chipa so'o. e) O hay queso o hay chipa so'o (una sola cosa). f) Hay chipa so'o si y solo si es sábado.",
+      "Marcá con un círculo el conectivo principal de d)."
+     ],
+     "control": "d) debe llevar paréntesis: (p ∧ q) → r, y su conectivo principal es la →. Si escribiste p ∧ q → r sin paréntesis, agregalos."
+    },
+    {
+     "titulo": "Calcular paso a paso",
+     "objetivo": "evaluar compuestas con valores dados, de adentro hacia afuera.",
+     "modelo": [
+      "Valores del día",
+      [
+       "p = V · q = F · r = V · s = F."
+      ]
+     ],
+     "pasos": [
+      "Calculá mostrando cada paso: a) p ∧ q ; b) p ∨ q ; c) q → r ; d) ¬p ⊻ r.",
+      "Calculá: e) (p ∧ q) → r ; f) (p ∨ s) ↔ (q ∨ r) ; g) ¬(p ∧ r).",
+      "Rodeá los resultados F y explicá en una línea por qué dieron F."
+     ],
+     "control": "Deben darte exactamente 2 resultados F entre los siete: a) y g). Si d) te dio F, recordá que la ⊻ es V con valores distintos (F ⊻ V = V)."
+    },
+    {
+     "titulo": "El condicional bajo la lupa",
+     "objetivo": "dominar la fila V–F, la única que hace falso al condicional.",
+     "modelo": null,
+     "pasos": [
+      "Ña Rosa promete: «si comprás tres tortillas, te regalo un jugo». Escribí los cuatro escenarios posibles (comprás/no comprás × regala/no regala).",
+      "Indicá en cuál escenario la promesa se rompe y qué valores de p y q tiene.",
+      "Explicá por qué la promesa no se rompe cuando el cliente no compra las tres tortillas."
+     ],
+     "control": "La promesa se rompe solo en un escenario: p = V (compró) y q = F (no regaló). Los otros tres dan V."
+    }
+   ],
+   "desafio": "Inventá una regla del copetín que se simbolice con tres letras y dos conectivos distintos, con paréntesis. Dale valores a las letras y calculá su valor de verdad.",
+   "extra": []
+  },
+  "8": {
+   "n": 8,
+   "titulo": "Construir tablas de verdad (dos variables)",
+   "competencia": [
+    [
+     "Competencia",
+     "Construir tablas de verdad completas de fórmulas con dos variables, evaluando por columnas en el orden correcto."
+    ]
+   ],
+   "saber": [
+    "Con 2 variables: 4 filas en orden estándar (p: V V F F · q: V F V F). Una columna por cada paso intermedio; el conectivo principal, al final.",
+    "La columna final dice en qué combinaciones la fórmula es verdadera."
+   ],
+   "acts": [
+    {
+     "titulo": "Armar el esqueleto",
+     "objetivo": "construir la tabla con filas y columnas bien ordenadas.",
+     "modelo": [
+      "Fórmula",
+      [
+       "p ∧ ¬q"
+      ]
+     ],
+     "pasos": [
+      "Armá la tabla con columnas p, q, ¬q y p ∧ ¬q, y las 4 filas estándar.",
+      "Completá primero la columna ¬q, fila por fila.",
+      "Completá la columna final combinando p con ¬q mediante ∧.",
+      "Respondé: ¿en qué única combinación la fórmula es V?"
+     ],
+     "control": "Tu columna final debe tener exactamente una V, en la fila p = V, q = F."
+    },
+    {
+     "titulo": "Dos fórmulas, misma tabla",
+     "objetivo": "evaluar dos fórmulas en paralelo y compararlas.",
+     "modelo": [
+      "Fórmulas",
+      [
+       "¬(p ∨ q)  y  (p → q) ∧ p"
+      ]
+     ],
+     "pasos": [
+      "Construí la tabla de ¬(p ∨ q) (columnas: p, q, p ∨ q, ¬(p ∨ q)).",
+      "Construí la tabla de (p → q) ∧ p (columnas: p, q, p → q, final).",
+      "Anotá cuántas V tiene cada columna final.",
+      "Escribí en una línea qué significa la única V de cada fórmula."
+     ],
+     "control": "¬(p ∨ q) tiene una sola V (fila F–F) y (p → q) ∧ p también una sola V (fila V–V). Si te dieron dos, revisá la fila V–F del condicional."
+    },
+    {
+     "titulo": "Leer la tabla como una regla",
+     "objetivo": "usar la columna final para responder preguntas del negocio.",
+     "modelo": [
+      "Situación",
+      [
+       "El cartel dice: «hay promo si pagás con QR o traés tu vaso» (promo = q ∨ v)."
+      ]
+     ],
+     "pasos": [
+      "Construí la tabla de q ∨ v.",
+      "Marcá las filas donde hay promo.",
+      "Respondé: ¿en qué único caso el cliente se queda sin promo? Escribilo en palabras y con símbolos (usá De Morgan si te animás)."
+     ],
+     "control": "Sin promo únicamente cuando q = F y v = F: ni QR ni vaso (¬q ∧ ¬v). Tres filas de la tabla deben tener V."
+    }
+   ],
+   "desafio": "Construí la tabla de ¬p ↔ q y encontrá otra fórmula ya vista en esta práctica o en el cuadernillo cuya columna final sea exactamente la opuesta.",
+   "extra": []
+  },
+  "9": {
+   "n": 9,
+   "titulo": "Tres variables y clasificación de fórmulas",
+   "competencia": [
+    [
+     "Competencia",
+     "Construir tablas de 8 filas y clasificar fórmulas en tautología, contradicción o indeterminación."
+    ]
+   ],
+   "saber": [
+    "Con 3 variables: 8 filas (p de a cuatro, q de a dos, r de a una). Tautología: todas V. Contradicción: todas F. Indeterminación: mezcla.",
+    "Una regla que es tautología no filtra nada; una que es contradicción nunca podrá cumplirse: las dos son señales de error de diseño."
+   ],
+   "acts": [
+    {
+     "titulo": "Las 8 filas sin perder ninguna",
+     "objetivo": "dominar el orden estándar con tres variables.",
+     "modelo": [
+      "Fórmula",
+      [
+       "p → (q ∨ r)"
+      ]
+     ],
+     "pasos": [
+      "Escribí las 8 combinaciones en orden estándar.",
+      "Completá la columna q ∨ r.",
+      "Completá la columna final p → (q ∨ r).",
+      "Contá las F de la columna final y anotá en qué filas están."
+     ],
+     "control": "Debe haber exactamente 1 F, en la fila p = V, q = F, r = F. Si tenés otra cantidad, buscá la fila duplicada o faltante."
+    },
+    {
+     "titulo": "Clasificar tres fórmulas",
+     "objetivo": "decidir la clase de cada fórmula con su tabla de 4 filas.",
+     "modelo": [
+      "Fórmulas",
+      [
+       "a) (p ∧ q) → q   b) p ↔ ¬p   c) p ⊻ q"
+      ]
+     ],
+     "pasos": [
+      "Construí la tabla de cada fórmula.",
+      "Clasificá cada una: tautología, contradicción o indeterminación.",
+      "Para la contradicción, explicá en una línea por qué nunca puede ser V."
+     ],
+     "control": "Debés obtener exactamente una de cada clase: a) tautología, b) contradicción, c) indeterminación."
+    },
+    {
+     "titulo": "Detectar reglas rotas",
+     "objetivo": "usar la clasificación para revisar reglas de negocio.",
+     "modelo": [
+      "Situación",
+      [
+       "Un sistema mal configurado tiene dos reglas: R1: «el pedido es para llevar y no es para llevar» y R2: «el pedido es para llevar o no es para llevar»."
+      ]
+     ],
+     "pasos": [
+      "Simbolizá R1 y R2 con la letra p.",
+      "Clasificá cada una con su tabla de 2 filas.",
+      "Escribí qué le dirías al que configuró el sistema sobre cada regla."
+     ],
+     "control": "R1 = p ∧ ¬p: contradicción — jamás se activa. R2 = p ∨ ¬p: tautología — se activa siempre y no filtra nada."
+    }
+   ],
+   "desafio": "Construí la tabla de 8 filas de (p ∧ q) ∧ r y respondé: ¿cuántas V tiene? ¿Qué tendría que pasar en el copetín para que una regla con tres condiciones en «y» se cumpla?",
+   "extra": []
+  },
+  "10": {
+   "n": 10,
+   "titulo": "Aplicar equivalencias y leyes lógicas",
+   "competencia": [
+    [
+     "Competencia",
+     "Verificar equivalencias con tablas y negar proposiciones compuestas con las leyes de De Morgan."
+    ]
+   ],
+   "saber": [
+    "Dos fórmulas son equivalentes (≡) si sus columnas finales coinciden. Doble negación: ¬(¬p) ≡ p.",
+    "De Morgan: ¬(p ∧ q) ≡ ¬p ∨ ¬q y ¬(p ∨ q) ≡ ¬p ∧ ¬q. Adjunción: de p y q, p ∧ q. Simplificación: de p ∧ q, cada parte."
+   ],
+   "acts": [
+    {
+     "titulo": "Verificar con tablas",
+     "objetivo": "demostrar una equivalencia comparando columnas.",
+     "modelo": [
+      "Equivalencia a verificar",
+      [
+       "¬(p ∧ q) ≡ ¬p ∨ ¬q"
+      ]
+     ],
+     "pasos": [
+      "Construí la tabla de ¬(p ∧ q).",
+      "Construí, al lado, la tabla de ¬p ∨ ¬q.",
+      "Compará las columnas finales fila por fila.",
+      "Escribí la conclusión con el símbolo ≡."
+     ],
+     "control": "Las dos columnas deben ser F V V V. Una sola fila distinta y la equivalencia se cae."
+    },
+    {
+     "titulo": "Negar carteles sin equivocarse",
+     "objetivo": "aplicar De Morgan a frases del negocio.",
+     "modelo": null,
+     "pasos": [
+      "Negá correctamente (símbolos y palabras): a) «hay tortilla y hay jugo»; b) «acepto QR o acepto tarjeta»; c) «no hay croqueta» (doble negación).",
+      "Para a) y b), escribí también la negación incorrecta típica y explicá por qué está mal."
+     ],
+     "control": "a) debe llevar «o» en la negación; b) debe llevar «y». Si tus negaciones repiten el conectivo original, De Morgan no se aplicó."
+    },
+    {
+     "titulo": "Deducciones mínimas",
+     "objetivo": "usar adjunción y simplificación citando la regla.",
+     "modelo": [
+      "Premisas del día",
+      [
+       "1) Hay harina. 2) Hay queso. 3) Hay jugo y hay agua."
+      ]
+     ],
+     "pasos": [
+      "A partir de 1) y 2), obtené una conjunción nueva e indicá la regla.",
+      "A partir de 3), obtené «hay agua» e indicá la regla.",
+      "Combiná lo obtenido para afirmar «hay harina, hay queso y hay agua», citando cada paso."
+     ],
+     "control": "Debés citar adjunción una vez y simplificación una vez (y adjunción de nuevo en el paso 3)."
+    }
+   ],
+   "desafio": "El sistema rechaza pedidos cuando NO se cumple «hay stock y la caja está abierta». Escribí la condición de rechazo aplicando De Morgan y decidí: ¿se rechaza un pedido con stock pero con caja cerrada?",
+   "extra": []
+  },
+  "11": {
+   "n": 11,
+   "titulo": "Cuantificar y buscar contraejemplos",
+   "competencia": [
+    [
+     "Competencia",
+     "Evaluar y negar proposiciones con cuantificadores sobre conjuntos concretos."
+    ]
+   ],
+   "saber": [
+    "∀x: p(x) es V si todos los elementos cumplen; un contraejemplo la vuelve F. ∃x: p(x) es V si al menos uno cumple; un ejemplo alcanza para probarla.",
+    "Negaciones: ¬(∀x: p(x)) ≡ ∃x: ¬p(x) y ¬(∃x: p(x)) ≡ ∀x: ¬p(x)."
+   ],
+   "acts": [
+    {
+     "titulo": "Veredicto sobre D",
+     "objetivo": "decidir el valor de proposiciones cuantificadas con justificación.",
+     "modelo": [
+      "Conjunto de referencia",
+      [
+       "D = {1, 2, 3, 4, 5, 6}."
+      ]
+     ],
+     "pasos": [
+      "Determiná V o F y justificá con ejemplo o contraejemplo: a) ∀x: x < 7 ; b) ∃x: x > 5 ; c) ∀x: x es par ; d) ∃x: x² = 10 ; e) ∀x: x + x = 2x.",
+      "Para cada F, escribí el contraejemplo con nombre y apellido (el número exacto que la derriba)."
+     ],
+     "control": "Deben ser 3 V (a, b, e) y 2 F. El contraejemplo de c) es cualquier impar de D; para d) hay que revisar los seis elementos."
+    },
+    {
+     "titulo": "Con datos del copetín",
+     "objetivo": "cuantificar sobre una tabla de precios real.",
+     "modelo": [
+      "Precios del día",
+      [
+       "tortilla G. 3.000 · croqueta G. 2.500 · chipa so'o G. 5.000 · jugo G. 4.000."
+      ]
+     ],
+     "pasos": [
+      "Evaluá: a) ∀x: «x cuesta menos de G. 6.000» ; b) ∃x: «x cuesta G. 2.500» ; c) ∀x: «x cuesta más de G. 2.500» ; d) ∃x: «x cuesta G. 10.000».",
+      "Justificá cada respuesta con el producto que sirve de ejemplo o contraejemplo."
+     ],
+     "control": "a) V, b) V, c) F (la croqueta no cuesta MÁS de 2.500: cuesta exactamente eso), d) F. El caso c) es la trampa de la frontera."
+    },
+    {
+     "titulo": "Negar cuantificadores",
+     "objetivo": "intercambiar ∀ y ∃ al negar.",
+     "modelo": null,
+     "pasos": [
+      "Negá en símbolos y en palabras: a) «todos los pedidos salieron a tiempo»; b) «existe un producto agotado»; c) «todos los clientes pagaron».",
+      "Para a), explicá cuántos pedidos atrasados bastan para que la negación sea verdadera."
+     ],
+     "control": "Tus negaciones deben cambiar de cuantificador las tres veces (∀→∃, ∃→∀, ∀→∃). Con un solo pedido atrasado, la negación de a) ya es V."
+    }
+   ],
+   "desafio": "Escribí una proposición con ∀ sobre tu sección que sea falsa, y convertila en verdadera cambiando solamente el cuantificador. ¿Siempre se puede hacer ese arreglo? Pensá un caso donde ni ∀ ni ∃ la salven.",
+   "extra": []
+  },
+  "12": {
+   "n": 12,
+   "titulo": "Deducir con reglas de inferencia",
+   "competencia": [
+    [
+     "Competencia",
+     "Identificar y aplicar MPP, MTT, MTP y los silogismos en razonamientos simbolizados."
+    ]
+   ],
+   "saber": [
+    "MPP: p → q, p ⊢ q. MTT: p → q, ¬q ⊢ ¬p. MTP: p ∨ q, ¬p ⊢ q. Silogismo hipotético: p → q, q → r ⊢ p → r.",
+    "Falacia de afirmación del consecuente: de p → q y q NO se concluye p. Detectarla vale tanto como aplicar bien las reglas."
+   ],
+   "acts": [
+    {
+     "titulo": "Nombrar la regla",
+     "objetivo": "reconocer qué regla sostiene cada razonamiento.",
+     "modelo": null,
+     "pasos": [
+      "Simbolizá y nombrá la regla: a) «Si hay masa, hay tortilla. Hay masa. Luego, hay tortilla.» b) «Si el horno anda, hay chipa so'o. No hay chipa so'o. Luego, el horno no anda.» c) «El pedido es para llevar o para la mesa. No es para la mesa. Luego, es para llevar.» d) «Si llueve, hay más cocido; si hay más cocido, falta azúcar. Luego, si llueve, falta azúcar.»",
+      "Subrayá en cada caso la premisa que «dispara» la conclusión."
+     ],
+     "control": "Las cuatro reglas deben aparecer una vez cada una: MPP, MTT, MTP y silogismo hipotético, en ese orden."
+    },
+    {
+     "titulo": "Completar la conclusión",
+     "objetivo": "producir la conclusión válida a partir de premisas dadas.",
+     "modelo": [
+      "Premisas",
+      [
+       "1) Si el cliente tiene vaso propio, hay descuento (v → d). 2) v. 3) d → s (si hay descuento, sonríe). 4) t ∨ m ; ¬t."
+      ]
+     ],
+     "pasos": [
+      "De 1) y 2), concluí e indicá la regla.",
+      "Con lo obtenido y 3), concluí de nuevo e indicá la regla.",
+      "De 4), concluí e indicá la regla.",
+      "Escribí la cadena completa en una línea: premisas ⊢ conclusiones."
+     ],
+     "control": "Tus conclusiones deben ser d, después s, y m. Dos MPP y un MTP."
+    },
+    {
+     "titulo": "Cazar la falacia",
+     "objetivo": "distinguir deducciones válidas de falacias.",
+     "modelo": null,
+     "pasos": [
+      "Analizá: «Si es sábado, hay chipa so'o. Hay chipa so'o. Luego, es sábado.» ¿Es válido? Justificá con la tabla del condicional o con un contraejemplo del copetín.",
+      "Analizá: «Probé dos jugos y estaban fríos; todos los jugos del copetín están fríos.» ¿Qué tipo de razonamiento es y qué garantiza su conclusión?"
+     ],
+     "control": "El primero es la falacia de afirmación del consecuente (Ña Rosa puede hacer chipa so'o cualquier día); el segundo es inductivo: conclusión probable, no segura."
+    }
+   ],
+   "desafio": "Construí una deducción de tres pasos con premisas propias del copetín que use, en algún orden, MPP, MTT y adjunción. Indicá la regla en cada paso. UNIDAD 3 — INTRODUCCIÓN A LA ALGORITMIA · PRÁCTICAS 13 A 21",
+   "extra": []
+  },
+  "13": {
+   "n": 13,
+   "titulo": "Reconocer y reparar algoritmos",
+   "competencia": [
+    [
+     "Competencia",
+     "Identificar las características de un algoritmo, clasificarlo y detectar defectos de precisión, finitud o definición."
+    ]
+   ],
+   "saber": [
+    "Todo algoritmo debe ser preciso (sin ambigüedad), finito (termina) y definido (misma entrada, mismo resultado).",
+    "Cualitativo: pasos sin cálculo. Cuantitativo: opera con números. Etapas de resolución: análisis → diseño → prueba."
+   ],
+   "acts": [
+    {
+     "titulo": "Ordenar el caos",
+     "objetivo": "reconstruir la secuencia correcta de un algoritmo cualitativo.",
+     "modelo": [
+      "Pasos desordenados de «preparar el mostrador antes de abrir»",
+      [
+       "· Abrir la atención · Colocar servilletas · Limpiar la superficie · Revisar la lista de precios · Acomodar los utensilios · Verificar que la caja esté lista"
+      ]
+     ],
+     "pasos": [
+      "Numerá los seis pasos en el orden correcto.",
+      "Verificá con tu pareja de banco: ¿alguien podría seguir tu orden sin conocer la receta?",
+      "Indicá cuál sería el dato de «entrada» y cuál el «resultado» de este algoritmo."
+     ],
+     "control": "La preparación debe terminar antes de «abrir la atención». Limpiá y verificá primero; después acomodá los elementos y recién al final abrí el servicio."
+    },
+    {
+     "titulo": "Cualitativo o cuantitativo",
+     "objetivo": "clasificar algoritmos del entorno.",
+     "modelo": null,
+     "pasos": [
+      "Clasificá (CL o CT): a) calcular el vuelto de una compra; b) armar la mesa para los clientes; c) promediar las notas de la etapa; d) doblar servilletas; e) sumar la recaudación del día; f) encender la computadora del laboratorio.",
+      "Elegí un CT y anotá qué números entran y qué número sale."
+     ],
+     "control": "Deben darte 3 y 3. Los CT son exactamente los que mencionan calcular, promediar o sumar."
+    },
+    {
+     "titulo": "El detector de defectos",
+     "objetivo": "diagnosticar qué característica viola cada algoritmo defectuoso.",
+     "modelo": [
+      "Tres algoritmos con problemas",
+      [
+       "1) «Cobrá un precio razonable al cliente.» 2) «Mientras haya clientes, repetí: atendé al siguiente» — en un copetín que nunca cierra la fila. 3) «Elegí al azar si aplicás o no el descuento.»"
+      ]
+     ],
+     "pasos": [
+      "Indicá para cada uno la característica violada: precisión, finitud o definición.",
+      "Reescribí el 1) para que sea preciso (inventá el precio exacto).",
+      "Proponé para el 2) una condición de corte que lo haga finito."
+     ],
+     "control": "Debe darte una violación de cada tipo (1-precisión, 2-finitud, 3-definición). Tu versión del 1) tiene que poder cobrarla cualquier cajero sin preguntar nada."
+    }
+   ],
+   "desafio": "Escribí un algoritmo cualitativo de 5 pasos para «cargar crédito al celular» y marcá al costado de cada paso una P (preciso) si cualquiera podría ejecutarlo sin dudar. Corregí los que no la lleven.",
+   "extra": []
+  },
+  "14": {
+   "n": 14,
+   "titulo": "Escribir pseudocódigo y dibujar diagramas",
+   "competencia": [
+    [
+     "Competencia",
+     "Escribir algoritmos secuenciales en pseudocódigo y traducirlos al diagrama de flujo con los símbolos normalizados."
+    ]
+   ],
+   "saber": [
+    "Pseudocódigo: Inicio, Leer, asignación (←), Escribir, Fin. Diagrama: óvalo (terminal), paralelogramo (E/S), rectángulo (proceso), rombo (decisión), flechas de flujo.",
+    "Método: entradas → Leer; fórmula → asignación; resultado → Escribir. Después, prueba de escritorio.",
+    "Modelo de referencia — tené esta tabla de símbolos a la vista mientras dibujás: cada figura tiene una función fija y usarla bien forma parte de la evaluación.",
+    "Modelo — Simbología normalizada del diagrama de flujo (Figura 3.2 del tomo)."
+   ],
+   "acts": [
+    {
+     "titulo": "Del enunciado al pseudocódigo",
+     "objetivo": "traducir un problema de fórmula directa.",
+     "modelo": [
+      "Problema",
+      [
+       "Ña Rosa quiere saber el doble de la cantidad de tortillas que vendió, porque mañana es feria y espera vender el doble."
+      ]
+     ],
+     "pasos": [
+      "Identificá la entrada, el proceso y la salida.",
+      "Escribí el pseudocódigo completo entre Inicio y Fin.",
+      "Hacé la prueba de escritorio con cantidad = 35.",
+      "Anotá qué línea cambiarías si mañana esperara vender el triple."
+     ],
+     "control": "Con 35 de entrada, tu algoritmo debe escribir 70. Si escribió otra cosa, revisá la asignación."
+    },
+    {
+     "titulo": "Emparejar símbolos",
+     "objetivo": "asignar a cada acción su figura del diagrama.",
+     "modelo": null,
+     "pasos": [
+      "Uní cada acción con su símbolo: a) Leer base — b) area ← base * altura — c) ¿area > 40? — d) Escribir area — e) Inicio — f) Fin.",
+      "Indicá cuántos paralelogramos, rectángulos, rombos y óvalos usaste en total."
+     ],
+     "control": "Deben darte 2 óvalos, 2 paralelogramos, 1 rectángulo y 1 rombo."
+    },
+    {
+     "titulo": "Del pseudocódigo al diagrama",
+     "objetivo": "dibujar el diagrama de flujo completo de un algoritmo dado.",
+     "modelo": [
+      "Algoritmo",
+      [
+       "Inicio / Leer base / Leer altura / area ← base * altura / Escribir area / Fin"
+      ]
+     ],
+     "pasos": [
+      "Dibujá el diagrama completo, de arriba hacia abajo, con las flechas.",
+      "Verificá que cada línea del pseudocódigo tenga su figura y que las figuras sean las correctas.",
+      "Hacé la prueba de escritorio con base = 8 y altura = 5, siguiendo el diagrama con el dedo."
+     ],
+     "control": "Tu diagrama debe tener 6 figuras (2 óvalos, 3 paralelogramos, 1 rectángulo) y la prueba debe escribir 40."
+    }
+   ],
+   "desafio": "Escribí el pseudocódigo y dibujá el diagrama de un algoritmo que lea el precio de 1 kg de harina y escriba el costo de 3,5 kg. Probalo con G. 6.000 el kilo.",
+   "extra": [
+    [
+     "img",
+     ""
+    ]
+   ]
+  },
+  "15": {
+   "n": 15,
+   "titulo": "Evaluar expresiones como la computadora",
+   "competencia": [
+    [
+     "Competencia",
+     "Evaluar expresiones aritméticas, relacionales y lógicas respetando la jerarquía de operadores."
+    ]
+   ],
+   "saber": [
+    "Jerarquía: 1.º paréntesis · 2.º * y / · 3.º + y − · 4.º relacionales (>, <, >=, <=, =, <>) · 5.º NO, Y, O.",
+    "Las relacionales devuelven V o F; las lógicas combinan esos V/F con las tablas de la Unidad 2."
+   ],
+   "acts": [
+    {
+     "titulo": "Aritmética con jerarquía",
+     "objetivo": "evaluar paso a paso, mostrando el orden.",
+     "modelo": null,
+     "pasos": [
+      "Evaluá mostrando cada paso: a) 7 + 2 * 3 ; b) (7 + 2) * 3 ; c) 18 − 6 / 2 ; d) 4 * 5 − 3 * 2 ; e) 100 − (20 + 5) * 2.",
+      "Marcá con un círculo, en cada caso, la operación que se hace primero."
+     ],
+     "control": "Los cinco resultados deben sumar entre todos 119 (13 + 27 + 15 + 14 + 50). Si tu suma no da, buscá cuál falló."
+    },
+    {
+     "titulo": "Relacionales: veredicto V o F",
+     "objetivo": "evaluar comparaciones, incluida la frontera.",
+     "modelo": [
+      "Valores",
+      [
+       "a = 12 · b = 12 · c = 5."
+      ]
+     ],
+     "pasos": [
+      "Evaluá: a) a > b ; b) a >= b ; c) c <> 5 ; d) a − b = 0 ; e) c * 3 <= a + b.",
+      "Explicá en una línea la diferencia entre a) y b) con estos valores."
+     ],
+     "control": "Deben darte 3 V y 2 F. La pareja a)/b) muestra que la frontera (iguales) separa > de >=."
+    },
+    {
+     "titulo": "Condiciones compuestas del mostrador",
+     "objetivo": "evaluar expresiones lógicas con datos de una venta.",
+     "modelo": [
+      "Venta en curso",
+      [
+       "total = 48.000 · cantidad = 6 · medioPago = «QR»."
+      ]
+     ],
+     "pasos": [
+      "Evaluá: a) (total >= 50.000) Y (medioPago = «QR») ; b) (total >= 50.000) O (cantidad >= 5) ; c) NO (medioPago = «efectivo») ; d) (total > 40.000) Y (cantidad < 10) Y (medioPago = «QR»).",
+      "Para cada F, señalá exactamente qué comparación la produjo."
+     ],
+     "control": "Debe darte una sola F: la a) — y el culpable es total, que no llega a 50.000."
+    }
+   ],
+   "desafio": "Escribí una condición compuesta que sea V para la venta del modelo pero que se vuelva F si el cliente cambia el pago a efectivo. Verificala en los dos escenarios.",
+   "extra": []
+  },
+  "16": {
+   "n": 16,
+   "titulo": "Algoritmos secuenciales y prueba de escritorio",
+   "competencia": [
+    [
+     "Competencia",
+     "Escribir algoritmos secuenciales completos y validarlos con pruebas de escritorio en tabla."
+    ]
+   ],
+   "saber": [
+    "Leer trae datos; la asignación (←) calcula y guarda; Escribir muestra; Fin termina. Toda variable recibe valor antes de usarse.",
+    "Prueba de escritorio: una columna por variable, una fila por enunciado; se anota el valor de cada variable después de cada paso."
+   ],
+   "acts": [
+    {
+     "titulo": "Completar el algoritmo",
+     "objetivo": "rellenar las líneas que faltan en un algoritmo con huecos.",
+     "modelo": [
+      "Algoritmo incompleto (calcula el total y el vuelto)",
+      [
+       "Inicio / Leer precio / Leer cantidad / Leer pago / total ← ______ / vuelto ← ______ / Escribir ______ / Fin"
+      ]
+     ],
+     "pasos": [
+      "Completá las tres líneas con las expresiones correctas.",
+      "Hacé la prueba de escritorio con precio = 3.500, cantidad = 4 y pago = 20.000.",
+      "Anotá el total y el vuelto finales."
+     ],
+     "control": "total = 14.000 y vuelto = 6.000. Si el vuelto te dio negativo, invertiste la resta."
+    },
+    {
+     "titulo": "La tabla que no miente",
+     "objetivo": "rastrear asignaciones encadenadas sin perder ningún valor.",
+     "modelo": [
+      "Algoritmo",
+      [
+       "Inicio / a ← 7 / b ← 3 / a ← a + b / b ← a − b / a ← a − b / Escribir a, b / Fin"
+      ]
+     ],
+     "pasos": [
+      "Armá la tabla con columnas a y b, y una fila por asignación.",
+      "Completala paso a paso, con calma: cada línea usa los valores de la fila anterior.",
+      "Anotá qué se escribe al final y respondé: ¿qué hizo este algoritmo con los valores iniciales de a y b?"
+     ],
+     "control": "Se escribe a = 3 y b = 7: ¡el algoritmo intercambió los valores sin variable auxiliar! Si te dio otra cosa, la fila del medio (b ← a − b) es la que suele fallar."
+    },
+    {
+     "titulo": "Diseñar desde cero",
+     "objetivo": "producir un algoritmo secuencial propio y probarlo.",
+     "modelo": [
+      "Problema",
+      [
+       "El cliente lleva tres productos de precios distintos. Ña Rosa quiere el total y el promedio por producto."
+      ]
+     ],
+     "pasos": [
+      "Escribí el algoritmo (tres lecturas, dos asignaciones, dos escrituras).",
+      "Hacé la prueba de escritorio con 2.000, 4.500 y 3.500.",
+      "Verificá tu promedio multiplicándolo por 3: debe devolverte el total."
+     ],
+     "control": "total = 10.000 y promedio ≈ 3.333 (10.000 / 3). La verificación 3.333 × 3 ≈ 10.000 confirma la cuenta."
+    }
+   ],
+   "desafio": "Escribí un algoritmo que lea un precio y escriba el precio con 10 % de recargo por delivery (sin usar decisión). Probalo con G. 18.000 y verificá que el recargo agregado sea exactamente la décima parte.",
+   "extra": []
+  },
+  "17": {
+   "n": 17,
+   "titulo": "Decidir con Si–Entonces–Sino",
+   "competencia": [
+    [
+     "Competencia",
+     "Diseñar y probar algoritmos con decisiones simples, con atención al caso frontera."
+    ]
+   ],
+   "saber": [
+    "Si condición Entonces bloque-V Sino bloque-F FinSi: se ejecuta exactamente un bloque. La condición es una expresión lógica.",
+    "Toda decisión se prueba al menos con un caso V, un caso F y —si existe— el caso frontera del operador (>= vs >)."
+   ],
+   "acts": [
+    {
+     "titulo": "El envío del pedido",
+     "objetivo": "completar y probar una decisión con frontera.",
+     "modelo": [
+      "Regla del copetín",
+      [
+       "Pedidos de G. 60.000 o más: envío gratis. Los demás pagan envío de G. 8.000.",
+       "Inicio / Leer pedido / Si pedido ______ 60.000 Entonces envio ← ______ Sino envio ← ______ FinSi / Escribir pedido + envio / Fin"
+      ]
+     ],
+     "pasos": [
+      "Completá el operador y las dos asignaciones.",
+      "Probá con pedido = 75.000, 60.000 y 45.000, y anotá qué se escribe en cada caso.",
+      "Explicá por qué elegiste >= y no >."
+     ],
+     "control": "Debe escribirse 75.000, 60.000 y 53.000 respectivamente. Si el caso 60.000 pagó envío, el operador quedó en > y la regla dice «o más»."
+    },
+    {
+     "titulo": "Par o impar",
+     "objetivo": "usar el operador mod en una condición.",
+     "modelo": [
+      "Recordá",
+      [
+       "n mod 2 es el resto de dividir n entre 2: vale 0 si n es par y 1 si es impar."
+      ]
+     ],
+     "pasos": [
+      "Escribí un algoritmo que lea un número de boleta y escriba «par» o «impar» usando n mod 2.",
+      "Probalo con 128 y con 45.",
+      "Respondé: ¿qué escribe con 0? ¿Tu condición lo trata bien?"
+     ],
+     "control": "128 → «par», 45 → «impar», 0 → «par» (0 mod 2 = 0). Si tu algoritmo dudó con el 0, la condición debe comparar con 0, no «adivinar»."
+    },
+    {
+     "titulo": "Diseñar la decisión completa",
+     "objetivo": "producir una decisión propia desde el enunciado.",
+     "modelo": [
+      "Problema",
+      [
+       "Si el cliente compra 10 croquetas o más, paga G. 2.000 por unidad; si compra menos, paga G. 2.500 por unidad. Escribir el total."
+      ]
+     ],
+     "pasos": [
+      "Escribí el algoritmo con Leer cantidad, la decisión y el cálculo del total.",
+      "Probalo con cantidad = 12, 10 y 6.",
+      "Marcá cuál de tus tres pruebas fue la frontera y por qué era obligatoria."
+     ],
+     "control": "12 → 24.000; 10 → 20.000 (frontera con precio mayorista); 6 → 15.000."
+    }
+   ],
+   "desafio": "Modificá el algoritmo del envío para que, además, escriba «¡Envío gratis!» solo cuando corresponda, sin duplicar la decisión (todo dentro del mismo Si). Probalo con los tres casos anteriores.",
+   "extra": []
+  },
+  "18": {
+   "n": 18,
+   "titulo": "Clasificar con decisiones anidadas",
+   "competencia": [
+    [
+     "Competencia",
+     "Construir decisiones anidadas que clasifican en tres o más categorías completas y disjuntas."
+    ]
+   ],
+   "saber": [
+    "Un Si dentro del Sino de otro Si clasifica en más de dos categorías; cada dato recorre exactamente una rama.",
+    "Preguntá de la categoría más exigente a la menos exigente. Cada rama Sino hereda la negación de las condiciones anteriores."
+   ],
+   "acts": [
+    {
+     "titulo": "Los tres tamaños del jugo",
+     "objetivo": "completar una clasificación anidada de tres categorías.",
+     "modelo": [
+      "Regla",
+      [
+       "Vasos: 500 ml o más → «grande» (G. 6.000); de 300 a menos de 500 → «mediano» (G. 4.500); menos de 300 → «chico» (G. 3.000).",
+       "Inicio / Leer ml / Si ml >= 500 Entonces ... Sino Si ml >= ______ Entonces ... Sino ... FinSi FinSi / Fin"
+      ]
+     ],
+     "pasos": [
+      "Completá la condición interna y las tres ramas (categoría y precio).",
+      "Probá con ml = 500, 499, 300 y 250, anotando categoría y precio.",
+      "Explicá qué habría pasado con ml = 499 si la primera pregunta hubiera sido ml >= 300."
+     ],
+     "control": "500 → grande 6.000; 499 → mediano 4.500; 300 → mediano 4.500 (frontera); 250 → chico 3.000. Con el orden invertido, 499 habría caído en «mediano» igual, ¡pero 500 también! — el orden protege a la categoría superior."
+    },
+    {
+     "titulo": "Condición compuesta + decisión",
+     "objetivo": "combinar Y/O dentro de un Si.",
+     "modelo": [
+      "Regla de la promo",
+      [
+       "Hay promo si el pedido es de G. 30.000 o más Y el pago es con QR."
+      ]
+     ],
+     "pasos": [
+      "Escribí la decisión que muestra «promo» o «sin promo».",
+      "Probá los cuatro escenarios: (30.000, QR), (30.000, efectivo), (20.000, QR), (50.000, QR).",
+      "Relacioná tus cuatro pruebas con la tabla de verdad de la conjunción."
+     ],
+     "control": "Solo dos escenarios dan promo: (30.000, QR) y (50.000, QR) — la conjunción exige las dos condiciones, y 30.000 entra por el >=."
+    },
+    {
+     "titulo": "Reparar la cadena rota",
+     "objetivo": "detectar y corregir el error de orden en una cadena anidada.",
+     "modelo": [
+      "Cadena defectuosa",
+      [
+       "Si total >= 40.000 Entonces Escribir «frecuente» Sino Si total >= 80.000 Entonces Escribir «mayorista» Sino Escribir «ocasional» FinSi FinSi"
+      ]
+     ],
+     "pasos": [
+      "Probá la cadena tal como está con total = 95.000 y anotá qué escribe.",
+      "Explicá por qué el resultado es incorrecto aunque la sintaxis sea válida.",
+      "Reescribí la cadena en el orden correcto y volvé a probar con 95.000, 60.000 y 20.000."
+     ],
+     "control": "La cadena rota escribe «frecuente» para 95.000 (¡debería ser mayorista!). Corregida: 95.000 → mayorista, 60.000 → frecuente, 20.000 → ocasional."
+    }
+   ],
+   "desafio": "Diseñá una clasificación de CUATRO categorías para el tiempo de espera de un pedido (por ejemplo: hasta 5 min, hasta 15, hasta 30, más de 30) y probala con un valor de cada categoría más una frontera.",
+   "extra": []
+  },
+  "19": {
+   "n": 19,
+   "titulo": "Repetir con ciclos y contadores",
+   "competencia": [
+    [
+     "Competencia",
+     "Diseñar y rastrear ciclos Mientras y Para con contadores bien inicializados y actualizados."
+    ]
+   ],
+   "saber": [
+    "Mientras evalúa la condición ANTES de cada vuelta; algo del bloque debe acercarla a F. Para inicializa, compara e incrementa solo.",
+    "Contador: se inicializa fuera del ciclo (c ← 0 o c ← 1) y se actualiza dentro (c ← c + 1). Sin actualización: ciclo infinito."
+   ],
+   "acts": [
+    {
+     "titulo": "Rastrear vuelta por vuelta",
+     "objetivo": "seguir un ciclo con la tabla de escritorio.",
+     "modelo": [
+      "Algoritmo",
+      [
+       "Inicio / c ← 2 / Mientras c <= 12 Hacer / Escribir c / c ← c + 3 / FinMientras / Escribir «fin» / Fin"
+      ]
+     ],
+     "pasos": [
+      "Armá la tabla: vuelta, c al entrar, ¿c <= 12?, escribe, c al salir.",
+      "Completala hasta que la condición dé F.",
+      "Anotá cuántas vueltas dio y con qué valor de c salió del ciclo."
+     ],
+     "control": "Debe escribir 2, 5, 8, 11 (4 vueltas) y salir con c = 14. Si escribiste el 14, la condición se evaluó de más."
+    },
+    {
+     "titulo": "El Para cuenta solo",
+     "objetivo": "usar el ciclo Para cuando las vueltas se conocen.",
+     "modelo": [
+      "Situación",
+      [
+       "Ña Rosa numera las 9 bandejas de chipa so'o que hornea cada sábado."
+      ]
+     ],
+     "pasos": [
+      "Escribí con Para un algoritmo que escriba «Bandeja n lista» para n de 1 a 9.",
+      "Indicá cuántas vueltas da sin hacer la tabla (justificá).",
+      "Reescribí el mismo algoritmo con Mientras y compará: ¿qué tres cosas hace solo el Para que en el Mientras escribiste vos?"
+     ],
+     "control": "9 vueltas exactas. En la versión Mientras deben aparecer, escritas por vos: la inicialización, la comparación y el incremento."
+    },
+    {
+     "titulo": "Cazar el ciclo infinito",
+     "objetivo": "diagnosticar y reparar errores clásicos de ciclos.",
+     "modelo": [
+      "Dos ciclos con problemas",
+      [
+       "1) c ← 1 / Mientras c <= 5 Hacer / Escribir c / FinMientras. 2) Mientras c <= 5 Hacer / Escribir c / c ← c + 1 / FinMientras."
+      ]
+     ],
+     "pasos": [
+      "Indicá qué le falta a cada uno y qué pasaría al ejecutarlo.",
+      "Reescribí los dos corregidos.",
+      "Verificá con una tabla corta que tus versiones escriben 1 a 5 y terminan."
+     ],
+     "control": "1) no incrementa: ciclo infinito escribiendo 1. 2) no inicializa c: no tiene un valor de partida definido y el algoritmo no es verificable. Corregidos, ambos escriben 1, 2, 3, 4, 5 y salen con c = 6."
+    }
+   ],
+   "desafio": "Escribí un ciclo que haga la cuenta regresiva del cierre: escriba 10, 9, 8, ..., 1 y al final «¡Cerrado!». Pista: el contador también puede restar.",
+   "extra": []
+  },
+  "20": {
+   "n": 20,
+   "titulo": "Acumular totales y promedios",
+   "competencia": [
+    [
+     "Competencia",
+     "Calcular totales y promedios con acumulador, contador y centinela, protegiendo la división por cero."
+    ]
+   ],
+   "saber": [
+    "Acumulador: s ← 0 fuera del ciclo; s ← s + valor adentro. Con el contador forman el promedio: promedio ← s / c, solo si c > 0.",
+    "Centinela: valor que significa «terminé» (por ejemplo 0). Se lee antes de entrar y al final de cada vuelta; se compara pero nunca se acumula."
+   ],
+   "acts": [
+    {
+     "titulo": "La caja de la tarde",
+     "objetivo": "rastrear un ciclo con acumulador, contador y centinela.",
+     "modelo": [
+      "Algoritmo",
+      [
+       "Inicio / s ← 0 / c ← 0 / Leer venta / Mientras venta <> 0 Hacer / s ← s + venta / c ← c + 1 / Leer venta / FinMientras / Si c > 0 Entonces Escribir s, s / c Sino Escribir «sin ventas» FinSi / Fin"
+      ]
+     ],
+     "pasos": [
+      "Hacé la tabla de escritorio con las ventas 7.000, 12.000, 5.000 y el centinela 0.",
+      "Anotá s, c y el promedio finales.",
+      "Repetí la prueba ingresando 0 como primer dato: ¿qué se escribe y por qué no falla?"
+     ],
+     "control": "s = 24.000, c = 3, promedio = 8.000 exacto. Con 0 de entrada escribe «sin ventas»: la guarda c > 0 evitó dividir por cero."
+    },
+    {
+     "titulo": "Contar con condición",
+     "objetivo": "combinar acumulador con un contador condicionado.",
+     "modelo": [
+      "Problema",
+      [
+       "Además del total, Ña Rosa quiere saber cuántas ventas de la tarde fueron de G. 10.000 o más."
+      ]
+     ],
+     "pasos": [
+      "Agregá al algoritmo de la Actividad 1 un contador cg que solo cuente las ventas >= 10.000 (¿dónde va su Si?).",
+      "Probá con las mismas ventas (7.000, 12.000, 5.000, 0).",
+      "Respondé: ¿cg se inicializa igual que c? ¿Se incrementa en las mismas vueltas?"
+     ],
+     "control": "cg = 1 (solo la de 12.000). cg se inicializa en 0 como todo contador, pero se incrementa únicamente cuando su condición es V."
+    },
+    {
+     "titulo": "Diseñar la totalización completa",
+     "objetivo": "producir desde cero un ciclo con centinela y doble salida.",
+     "modelo": [
+      "Problema",
+      [
+       "Registrar los kilos de harina que llegan en varias bolsas (fin de carga: 0) y escribir el total de kilos y el promedio por bolsa."
+      ]
+     ],
+     "pasos": [
+      "Escribí el algoritmo completo, con la guarda de división por cero.",
+      "Probalo con las bolsas de 25, 25 y 10 kilos.",
+      "Verificá: promedio × cantidad de bolsas = total."
+     ],
+     "control": "Total 60 kilos, 3 bolsas, promedio 20. Verificación: 20 × 3 = 60. ✓"
+    }
+   ],
+   "desafio": "Ampliá el algoritmo de la Actividad 3 para que también escriba la bolsa más pesada. Pista: mayor ← 0 antes del ciclo y una decisión adentro. ¿Qué valor inicial usarías si pudieran existir bolsas de peso negativo?",
+   "extra": []
+  },
+  "21": {
+   "n": 21,
+   "titulo": "Proyecto: construir el sistema de caja completo",
+   "competencia": [
+    [
+     "Competencia",
+     "Integrar análisis, diseño, decisión, ciclo, contador y acumulador en un algoritmo completo validado con prueba de escritorio."
+    ]
+   ],
+   "saber": [
+    "Método integral: análisis (entradas, proceso, salidas) → diseño (pseudocódigo) → prueba (tabla) → control cruzado.",
+    "El sistema de caja combina: ciclo con centinela, decisión por el descuento, acumulador de lo cobrado y contadores de ventas y de descuentos."
+   ],
+   "acts": [
+    {
+     "titulo": "Análisis del encargo",
+     "objetivo": "definir variables antes de escribir una sola línea.",
+     "modelo": [
+      "El encargo de Ña Rosa",
+      [
+       "«Cargá mis ventas del cierre una por una y terminá con 0. Las de G. 50.000 o más llevan 10 % de descuento. Al final quiero: lo recaudado, cuántas ventas hubo, cuántas con descuento y el promedio por venta.»"
+      ]
+     ],
+     "pasos": [
+      "Listá las entradas, el proceso y las salidas del sistema.",
+      "Definí el nombre y el valor inicial de cada variable (incluida la del monto a cobrar por venta).",
+      "Indicá cuál es el centinela y por qué no debe procesarse."
+     ],
+     "control": "Deben aparecer al menos cinco variables: venta, cobrar, suma (← 0), c (← 0) y cd (← 0). El centinela es el 0 y corta antes de acumular."
+    },
+    {
+     "titulo": "Diseño y prueba con el cierre del jueves",
+     "objetivo": "escribir el algoritmo completo y validarlo con datos reales.",
+     "modelo": [
+      "Ventas del jueves",
+      [
+       "80.000 · 30.000 · 70.000 · 0 (fin)."
+      ]
+     ],
+     "pasos": [
+      "Escribí el pseudocódigo completo (ciclo con centinela, decisión del descuento, acumulador y los dos contadores, guarda de división por cero).",
+      "Hacé la prueba de escritorio completa con las ventas del jueves: una fila por vuelta, columnas venta, ¿≥ 50.000?, cobrar, suma, c, cd.",
+      "Anotá los cuatro resultados finales (recaudación, ventas, con descuento, promedio)."
+     ],
+     "control": "suma = 165.000, c = 3, cd = 2, promedio = 55.000 exacto. Las ventas con descuento cobraron 72.000 y 63.000."
+    },
+    {
+     "titulo": "Control cruzado y mejora",
+     "objetivo": "verificar por un camino independiente y extender el sistema.",
+     "modelo": null,
+     "pasos": [
+      "Control cruzado: sumá las ventas SIN descuento, calculá el descuento total otorgado y verificá: suma sin descuentos − descuentos = tu recaudación.",
+      "Agregá al sistema la venta más alta del día (variable mayor) y anotá qué valor da con las ventas del jueves.",
+      "Escribí en dos líneas qué otra estadística útil podría pedirte Ña Rosa y qué bloques reutilizarías para calcularla."
+     ],
+     "control": "180.000 − (8.000 + 7.000) = 165.000: cierra con la recaudación. ✓ La venta más alta es 80.000 (sobre el monto original)."
+    }
+   ],
+   "desafio": "Corré tu sistema completo con un día inventado por vos de cinco ventas (al menos dos con descuento y una frontera de exactamente G. 50.000). Entregá la tabla de escritorio y el control cruzado: si el control no cierra al guaraní, el error está en la tabla, no en la suerte.",
+   "extra": []
+  }
+ },
+ "PFI": [
+  [
+   "Heading 2",
+   "Presentamos nuestro emprendimiento"
+  ],
+  [
+   "Normal",
+   "Proyecto final integrador para la Feria de Informática"
+  ],
+  [
+   "Normal",
+   "Durante el año conociste el Copetín Karumbé y aprendiste a describir y clasificar información con conjuntos y con lógica, y a dar los primeros pasos en la construcción de algoritmos. Ahora, en equipo, vas a presentar un emprendimiento —el copetín u otro que elija tu grupo— en la Feria de Informática de fin de año."
+  ],
+  [
+   "Normal",
+   "Es un proyecto interdisciplinario: se arma junto con las demás materias prácticas de Informática, y cada una aporta su parte para un mismo emprendimiento."
+  ],
+  [
+   "caja",
+   [
+    "Concepto clave — Competencia integradora",
+    "Presentar en equipo un emprendimiento y un primer sistema de caja, aplicando lo aprendido en Algorítmica y en las demás materias prácticas del año."
+   ]
+  ],
+  [
+   "Heading 3",
+   "Lo que aportás en esta materia"
+  ],
+  [
+   "Normal",
+   "• Algoritmo de caja básico en PSeInt: Un programa que lea los productos y las cantidades de una venta, calcule el importe total y aplique un descuento simple cuando la venta llegue a cierto monto. Usá lo que trabajaste en la unidad de introducción a la algoritmia: lectura de datos, cálculo y una decisión."
+  ],
+  [
+   "Normal",
+   "• Clasificación de los productos con conjuntos y lógica: Agrupá los productos del emprendimiento en conjuntos según su tipo (por ejemplo, salados y dulces) y escribí reglas del negocio con lógica proposicional (por ejemplo, «es salado Y cuesta menos de 10.000»)."
+  ],
+  [
+   "Heading 3",
+   "Etapas del proyecto"
+  ],
+  [
+   "Normal",
+   "1. Definición — Elegí el emprendimiento en equipo, listá sus productos y precios, y agrupalos en conjuntos por tipo."
+  ],
+  [
+   "Normal",
+   "2. Construcción — Programá el algoritmo de caja básico en PSeInt y escribí las reglas del negocio con lógica proposicional."
+  ],
+  [
+   "Normal",
+   "3. Integración — Sumá los aportes de las otras materias: los cálculos, el material de difusión, el equipo y el diseño."
+  ],
+  [
+   "Normal",
+   "4. Presentación — Armá el stand y preparen la demostración para la feria; cada integrante explica su parte."
+  ],
+  [
+   "Heading 3",
+   "Trabajo interdisciplinario: qué aporta cada materia"
+  ],
+  [
+   "Normal",
+   "• Algorítmica: El algoritmo de caja básico y la clasificación de los productos con conjuntos y lógica."
+  ],
+  [
+   "Normal",
+   "• Matemática Aplicada a la Informática: Los precios, los porcentajes (descuentos, IVA) y el presupuesto del emprendimiento."
+  ],
+  [
+   "Normal",
+   "• Gabinete de Software: El folleto o afiche en Word, la planilla de precios en Excel y la presentación para el stand."
+  ],
+  [
+   "Normal",
+   "• Gabinete de Laboratorio: La preparación de la PC, la estructura de carpetas y el guardado de los archivos del proyecto."
+  ],
+  [
+   "Normal",
+   "• Dibujo Técnico: El logo del emprendimiento, el afiche y el plano del stand a escala."
+  ],
+  [
+   "Heading 3",
+   "Producto para la feria"
+  ],
+  [
+   "Normal",
+   "• El emprendimiento presentado, con su nombre, sus productos y sus precios."
+  ],
+  [
+   "Normal",
+   "• El algoritmo de caja básico funcionando en PSeInt."
+  ],
+  [
+   "Normal",
+   "• El material de difusión (afiche o folleto) y una demostración en vivo en el stand."
+  ],
+  [
+   "Heading 3",
+   "Qué se espera de tu proyecto"
+  ],
+  [
+   "Normal",
+   "• Que el algoritmo funcione y calcule bien el total y el descuento."
+  ],
+  [
+   "Normal",
+   "• Que todo el equipo participe y cada uno sepa explicar su parte."
+  ],
+  [
+   "Normal",
+   "• Que la presentación sea clara, ordenada y honesta sobre lo que se logró."
+  ]
+ ]
+}

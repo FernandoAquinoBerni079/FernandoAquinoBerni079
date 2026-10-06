@@ -1,0 +1,192 @@
+{
+ "entradas": [
+  [
+   1,
+   "Plan de Clase N.º 1 — El conjunto: definición y determinación"
+  ],
+  [
+   1,
+   "Plan de Clase N.º 2 — Clasificación de conjuntos y subconjuntos"
+  ],
+  [
+   1,
+   "Plan de Clase N.º 3 — Continuación de la Clase 2: Clasificar conjuntos y generar subconjuntos"
+  ],
+  [
+   1,
+   "Plan de Clase N.º 4 — Representación de conjuntos: el diagrama de Venn"
+  ],
+  [
+   1,
+   "Plan de Clase N.º 5 — Operaciones con conjuntos I: unión e intersección"
+  ],
+  [
+   1,
+   "Plan de Clase N.º 6 — Continuación de la Clase 4: Unir e intersecar conjuntos"
+  ],
+  [
+   1,
+   "Plan de Clase N.º 7 — Operaciones con conjuntos II: diferencia, complemento y problemas"
+  ],
+  [
+   1,
+   "Plan de Clase N.º 8 — Continuación de la Clase 5: Diferencia, complemento y problemas de conteo"
+  ],
+  [
+   1,
+   "Plan de Clase N.º 9 — La proposición: definición y clasificación"
+  ],
+  [
+   1,
+   "Plan de Clase N.º 10 — Conectivos lógicos, simbolización y signos de agrupación"
+  ],
+  [
+   1,
+   "Plan de Clase N.º 11 — Continuación de la Clase 7: Simbolizar y evaluar con conectivos"
+  ],
+  [
+   1,
+   "Plan de Clase N.º 12 — Tablas de verdad I: construcción y evaluación"
+  ],
+  [
+   1,
+   "Plan de Clase N.º 13 — Continuación de la Clase 8: Construir tablas de verdad (dos variables)"
+  ],
+  [
+   1,
+   "Plan de Clase N.º 14 — Tablas de verdad II: tres variables, tautología, contradicción e indeterminación"
+  ],
+  [
+   1,
+   "Plan de Clase N.º 15 — Continuación de la Clase 9: Tres variables y clasificación de fórmulas"
+  ],
+  [
+   1,
+   "Plan de Clase N.º 16 — Equivalencias y leyes lógicas"
+  ],
+  [
+   1,
+   "Plan de Clase N.º 17 — Funciones proposicionales y cuantificadores"
+  ],
+  [
+   1,
+   "Plan de Clase N.º 18 — Razonamientos y demostraciones"
+  ],
+  [
+   1,
+   "Plan de Clase N.º 19 — Continuación de la Clase 12: Deducir con reglas de inferencia"
+  ],
+  [
+   1,
+   "Plan de Clase N.º 20 — Evaluación integradora de la 1.ª etapa (Unidades 1 y 2)"
+  ],
+  [
+   1,
+   "Plan de Clase N.º 21 — El algoritmo: concepto, características y tipos"
+  ],
+  [
+   1,
+   "Plan de Clase N.º 22 — Pseudocódigo y diagrama de flujo"
+  ],
+  [
+   1,
+   "Plan de Clase N.º 23 — Continuación de la Clase 14: Escribir pseudocódigo y dibujar diagramas"
+  ],
+  [
+   1,
+   "Plan de Clase N.º 24 — Variables y expresiones aritmético-relacionales"
+  ],
+  [
+   1,
+   "Plan de Clase N.º 25 — Enunciados de lectura, asignación, escritura y terminación"
+  ],
+  [
+   1,
+   "Plan de Clase N.º 26 — Continuación de la Clase 16: Algoritmos secuenciales y prueba de escritorio"
+  ],
+  [
+   1,
+   "Plan de Clase N.º 27 — El enunciado de decisión I: decisiones simples"
+  ],
+  [
+   1,
+   "Plan de Clase N.º 28 — Continuación de la Clase 17: Decidir con Si–Entonces–Sino"
+  ],
+  [
+   1,
+   "Plan de Clase N.º 29 — El enunciado de decisión II: condiciones compuestas y decisiones anidadas"
+  ],
+  [
+   1,
+   "Plan de Clase N.º 30 — Continuación de la Clase 18: Clasificar con decisiones anidadas"
+  ],
+  [
+   1,
+   "Plan de Clase N.º 31 — El enunciado de repetición I: ciclos y contadores"
+  ],
+  [
+   1,
+   "Plan de Clase N.º 32 — Continuación de la Clase 19: Repetir con ciclos y contadores"
+  ],
+  [
+   1,
+   "Plan de Clase N.º 33 — El enunciado de repetición II: acumuladores"
+  ],
+  [
+   1,
+   "Plan de Clase N.º 34 — Continuación de la Clase 20: Acumular totales y promedios"
+  ],
+  [
+   1,
+   "Plan de Clase N.º 35 — Proyecto integrador: el sistema de caja del Copetín Karumbé"
+  ],
+  [
+   1,
+   "Plan de Clase N.º 36 — Continuación de la Clase 21: Proyecto: construir el sistema de caja completo"
+  ],
+  [
+   1,
+   "Plan de Clase N.º 37 — Evaluación integradora de la 2.ª etapa (Unidades 1 a 3)"
+  ]
+ ],
+ "paginas": [
+  4,
+  6,
+  8,
+  10,
+  12,
+  14,
+  16,
+  18,
+  20,
+  22,
+  24,
+  26,
+  28,
+  30,
+  32,
+  34,
+  36,
+  38,
+  40,
+  42,
+  44,
+  46,
+  48,
+  50,
+  52,
+  54,
+  56,
+  58,
+  60,
+  62,
+  64,
+  66,
+  68,
+  70,
+  72,
+  74,
+  76
+ ],
+ "total": 77
+}

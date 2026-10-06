@@ -1,0 +1,267 @@
+{
+ "entradas": [
+  [
+   1,
+   "Prueba diagnóstica — ¿Qué sabés ya?"
+  ],
+  [
+   1,
+   "UNIDAD 1 — Teoría de Conjuntos"
+  ],
+  [
+   2,
+   "Clase 1 — El conjunto: definición y determinación"
+  ],
+  [
+   2,
+   "Práctica 1 — Escribir conjuntos con precisión"
+  ],
+  [
+   2,
+   "Clase 2 — Clasificación de conjuntos y subconjuntos"
+  ],
+  [
+   2,
+   "Práctica 2 — Clasificar conjuntos y generar subconjuntos"
+  ],
+  [
+   2,
+   "Clase 3 — Representación de conjuntos: el diagrama de Venn"
+  ],
+  [
+   2,
+   "Práctica 3 — Dibujar y leer diagramas de Venn"
+  ],
+  [
+   2,
+   "Clase 4 — Operaciones con conjuntos I: unión e intersección"
+  ],
+  [
+   2,
+   "Práctica 4 — Unir e intersecar conjuntos"
+  ],
+  [
+   2,
+   "Clase 5 — Operaciones con conjuntos II: diferencia, complemento y problemas"
+  ],
+  [
+   2,
+   "Práctica 5 — Diferencia, complemento y problemas de conteo"
+  ],
+  [
+   2,
+   "Evaluación de la Unidad 1"
+  ],
+  [
+   1,
+   "UNIDAD 2 — Lógica Simbólica"
+  ],
+  [
+   2,
+   "Clase 6 — La proposición: definición y clasificación"
+  ],
+  [
+   2,
+   "Práctica 6 — Cazar proposiciones"
+  ],
+  [
+   2,
+   "Clase 7 — Conectivos lógicos, simbolización y signos de agrupación"
+  ],
+  [
+   2,
+   "Práctica 7 — Simbolizar y evaluar con conectivos"
+  ],
+  [
+   2,
+   "Clase 8 — Tablas de verdad I: construcción y evaluación"
+  ],
+  [
+   2,
+   "Práctica 8 — Construir tablas de verdad (dos variables)"
+  ],
+  [
+   2,
+   "Clase 9 — Tablas de verdad II: tres variables, tautología, contradicción e indeterminación"
+  ],
+  [
+   2,
+   "Práctica 9 — Tres variables y clasificación de fórmulas"
+  ],
+  [
+   2,
+   "Clase 10 — Equivalencias y leyes lógicas"
+  ],
+  [
+   2,
+   "Práctica 10 — Aplicar equivalencias y leyes lógicas"
+  ],
+  [
+   2,
+   "Clase 11 — Funciones proposicionales y cuantificadores"
+  ],
+  [
+   2,
+   "Práctica 11 — Cuantificar y buscar contraejemplos"
+  ],
+  [
+   2,
+   "Clase 12 — Razonamientos y demostraciones"
+  ],
+  [
+   2,
+   "Práctica 12 — Deducir con reglas de inferencia"
+  ],
+  [
+   2,
+   "Evaluación de la Unidad 2"
+  ],
+  [
+   2,
+   "Evaluación integradora de la 1.ª etapa"
+  ],
+  [
+   1,
+   "UNIDAD 3 — Introducción a la Algoritmia"
+  ],
+  [
+   2,
+   "Clase 13 — El algoritmo: concepto, características y tipos"
+  ],
+  [
+   2,
+   "Práctica 13 — Reconocer y reparar algoritmos"
+  ],
+  [
+   2,
+   "Clase 14 — Pseudocódigo y diagrama de flujo"
+  ],
+  [
+   2,
+   "Práctica 14 — Escribir pseudocódigo y dibujar diagramas"
+  ],
+  [
+   2,
+   "Clase 15 — Variables y expresiones aritmético-relacionales"
+  ],
+  [
+   2,
+   "Práctica 15 — Evaluar expresiones como la computadora"
+  ],
+  [
+   2,
+   "Clase 16 — Enunciados de lectura, asignación, escritura y terminación"
+  ],
+  [
+   2,
+   "Práctica 16 — Algoritmos secuenciales y prueba de escritorio"
+  ],
+  [
+   2,
+   "Clase 17 — El enunciado de decisión I: decisiones simples"
+  ],
+  [
+   2,
+   "Práctica 17 — Decidir con Si–Entonces–Sino"
+  ],
+  [
+   2,
+   "Clase 18 — El enunciado de decisión II: condiciones compuestas y decisiones anidadas"
+  ],
+  [
+   2,
+   "Práctica 18 — Clasificar con decisiones anidadas"
+  ],
+  [
+   2,
+   "Clase 19 — El enunciado de repetición I: ciclos y contadores"
+  ],
+  [
+   2,
+   "Práctica 19 — Repetir con ciclos y contadores"
+  ],
+  [
+   2,
+   "Clase 20 — El enunciado de repetición II: acumuladores"
+  ],
+  [
+   2,
+   "Práctica 20 — Acumular totales y promedios"
+  ],
+  [
+   2,
+   "Clase 21 — Proyecto integrador: el sistema de caja del Copetín Karumbé"
+  ],
+  [
+   2,
+   "Práctica 21 — Proyecto: construir el sistema de caja completo"
+  ],
+  [
+   2,
+   "Evaluación de la Unidad 3"
+  ],
+  [
+   2,
+   "Evaluación integradora de la 2.ª etapa"
+  ],
+  [
+   1,
+   "Proyecto Final Integrador — Presentamos nuestro emprendimiento"
+  ]
+ ],
+ "paginas": [
+  5,
+  6,
+  6,
+  9,
+  11,
+  14,
+  16,
+  19,
+  21,
+  24,
+  26,
+  29,
+  31,
+  33,
+  33,
+  36,
+  38,
+  41,
+  43,
+  46,
+  48,
+  51,
+  53,
+  56,
+  58,
+  61,
+  63,
+  66,
+  68,
+  70,
+  72,
+  72,
+  75,
+  77,
+  81,
+  83,
+  86,
+  88,
+  91,
+  93,
+  97,
+  99,
+  103,
+  105,
+  108,
+  110,
+  114,
+  116,
+  120,
+  122,
+  124,
+  126
+ ],
+ "total": 129
+}

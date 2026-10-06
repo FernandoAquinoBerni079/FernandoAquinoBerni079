@@ -1,0 +1,267 @@
+{
+ "entradas": [
+  [
+   1,
+   "Prueba diagnóstica — Orientaciones de corrección"
+  ],
+  [
+   1,
+   "Primera parte — Actividades de aplicación"
+  ],
+  [
+   2,
+   "Clase 1 — El conjunto: definición y determinación"
+  ],
+  [
+   2,
+   "Clase 2 — Clasificación de conjuntos y subconjuntos"
+  ],
+  [
+   2,
+   "Clase 3 — Representación de conjuntos: el diagrama de Venn"
+  ],
+  [
+   2,
+   "Clase 4 — Operaciones con conjuntos I: unión e intersección"
+  ],
+  [
+   2,
+   "Clase 5 — Operaciones con conjuntos II: diferencia, complemento y problemas"
+  ],
+  [
+   2,
+   "Clase 6 — La proposición: definición y clasificación"
+  ],
+  [
+   2,
+   "Clase 7 — Conectivos lógicos, simbolización y signos de agrupación"
+  ],
+  [
+   2,
+   "Clase 8 — Tablas de verdad I: construcción y evaluación"
+  ],
+  [
+   2,
+   "Clase 9 — Tablas de verdad II: tres variables, tautología, contradicción e indeterminación"
+  ],
+  [
+   2,
+   "Clase 10 — Equivalencias y leyes lógicas"
+  ],
+  [
+   2,
+   "Clase 11 — Funciones proposicionales y cuantificadores"
+  ],
+  [
+   2,
+   "Clase 12 — Razonamientos y demostraciones"
+  ],
+  [
+   2,
+   "Clase 13 — El algoritmo: concepto, características y tipos"
+  ],
+  [
+   2,
+   "Clase 14 — Pseudocódigo y diagrama de flujo"
+  ],
+  [
+   2,
+   "Clase 15 — Variables y expresiones aritmético-relacionales"
+  ],
+  [
+   2,
+   "Clase 16 — Enunciados de lectura, asignación, escritura y terminación"
+  ],
+  [
+   2,
+   "Clase 17 — El enunciado de decisión I: decisiones simples"
+  ],
+  [
+   2,
+   "Clase 18 — El enunciado de decisión II: condiciones compuestas y decisiones anidadas"
+  ],
+  [
+   2,
+   "Clase 19 — El enunciado de repetición I: ciclos y contadores"
+  ],
+  [
+   2,
+   "Clase 20 — El enunciado de repetición II: acumuladores"
+  ],
+  [
+   2,
+   "Clase 21 — Proyecto integrador: el sistema de caja del Copetín Karumbé"
+  ],
+  [
+   1,
+   "Segunda parte — Prácticas: resultado esperado y errores frecuentes"
+  ],
+  [
+   2,
+   "Práctica 1 — Escribir conjuntos con precisión"
+  ],
+  [
+   2,
+   "Práctica 2 — Clasificar conjuntos y generar subconjuntos"
+  ],
+  [
+   2,
+   "Práctica 3 — Dibujar y leer diagramas de Venn"
+  ],
+  [
+   2,
+   "Práctica 4 — Unir e intersecar conjuntos"
+  ],
+  [
+   2,
+   "Práctica 5 — Diferencia, complemento y problemas de conteo"
+  ],
+  [
+   2,
+   "Práctica 6 — Cazar proposiciones"
+  ],
+  [
+   2,
+   "Práctica 7 — Simbolizar y evaluar con conectivos"
+  ],
+  [
+   2,
+   "Práctica 8 — Construir tablas de verdad (dos variables)"
+  ],
+  [
+   2,
+   "Práctica 9 — Tres variables y clasificación de fórmulas"
+  ],
+  [
+   2,
+   "Práctica 10 — Aplicar equivalencias y leyes lógicas"
+  ],
+  [
+   2,
+   "Práctica 11 — Cuantificar y buscar contraejemplos"
+  ],
+  [
+   2,
+   "Práctica 12 — Deducir con reglas de inferencia"
+  ],
+  [
+   2,
+   "Práctica 13 — Reconocer y reparar algoritmos"
+  ],
+  [
+   2,
+   "Práctica 14 — Escribir pseudocódigo y dibujar diagramas"
+  ],
+  [
+   2,
+   "Práctica 15 — Evaluar expresiones como la computadora"
+  ],
+  [
+   2,
+   "Práctica 16 — Algoritmos secuenciales y prueba de escritorio"
+  ],
+  [
+   2,
+   "Práctica 17 — Decidir con Si–Entonces–Sino"
+  ],
+  [
+   2,
+   "Práctica 18 — Clasificar con decisiones anidadas"
+  ],
+  [
+   2,
+   "Práctica 19 — Repetir con ciclos y contadores"
+  ],
+  [
+   2,
+   "Práctica 20 — Acumular totales y promedios"
+  ],
+  [
+   2,
+   "Práctica 21 — Proyecto: construir el sistema de caja completo"
+  ],
+  [
+   1,
+   "Tercera parte — Evaluaciones: claves y criterios"
+  ],
+  [
+   2,
+   "Clave — Evaluación de la Unidad 1"
+  ],
+  [
+   2,
+   "Clave — Evaluación de la Unidad 2"
+  ],
+  [
+   2,
+   "Clave — Evaluación integradora de la 1.ª etapa"
+  ],
+  [
+   2,
+   "Clave — Evaluación de la Unidad 3"
+  ],
+  [
+   2,
+   "Clave — Evaluación integradora de la 2.ª etapa"
+  ],
+  [
+   1,
+   "Proyecto Final Integrador — Orientaciones y rúbrica"
+  ]
+ ],
+ "paginas": [
+  5,
+  6,
+  6,
+  6,
+  6,
+  7,
+  7,
+  8,
+  8,
+  9,
+  9,
+  10,
+  10,
+  11,
+  11,
+  12,
+  12,
+  13,
+  13,
+  14,
+  14,
+  15,
+  15,
+  16,
+  16,
+  16,
+  16,
+  16,
+  17,
+  17,
+  17,
+  17,
+  17,
+  18,
+  18,
+  18,
+  18,
+  19,
+  19,
+  19,
+  19,
+  19,
+  20,
+  20,
+  20,
+  21,
+  21,
+  21,
+  21,
+  22,
+  22,
+  23
+ ],
+ "total": 24
+}

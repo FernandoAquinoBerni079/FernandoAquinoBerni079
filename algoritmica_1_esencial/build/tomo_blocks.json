@@ -1,0 +1,4519 @@
+[
+ {
+  "t": "caja",
+  "title": "ALGORÍTMICA",
+  "body": [
+   "1.er Curso"
+  ]
+ },
+ {
+  "t": "p",
+  "text": "Bachillerato Técnico en Servicios · Especialidad Informática"
+ },
+ {
+  "t": "p",
+  "text": "Plan Específico · Programa del Ministerio de Educación y Ciencias"
+ },
+ {
+  "t": "p",
+  "text": "Cuadernillo de trabajo del estudiante"
+ },
+ {
+  "t": "p",
+  "text": "Enfoque constructivista «Aprender Haciendo»"
+ },
+ {
+  "t": "p",
+  "text": "Caso integrador: Copetín Karumbé"
+ },
+ {
+  "t": "p",
+  "text": "Conjuntos · Lógica Simbólica · Introducción a la Algoritmia"
+ },
+ {
+  "t": "p",
+  "text": "República del Paraguay · 2026"
+ },
+ {
+  "t": "h1",
+  "text": "Presentación",
+  "raw": "Presentación"
+ },
+ {
+  "t": "p",
+  "text": "Este cuadernillo desarrolla el programa oficial de Algorítmica para el Primer Curso del Bachillerato Técnico en Servicios, Especialidad Informática, conforme al Diseño Curricular de Informática del Ministerio de Educación y Ciencias. Sus tres unidades —Teoría de Conjuntos, Lógica Simbólica e Introducción a la Algoritmia— construyen, en ese orden, el pensamiento que sostiene toda la programación de computadoras: agrupar con precisión, razonar sin ambigüedad y ordenar soluciones en pasos exactos."
+ },
+ {
+  "t": "p",
+  "text": "El enfoque es el de «Aprender Haciendo»: cada clase abre con una ficha que declara la capacidad, el tema y los indicadores de logro; desarrolla los contenidos con ejemplos resueltos, tablas y recuadros de conceptos clave; y cierra con actividades de aplicación de dificultad graduada. Las evaluaciones de unidad y de etapa, en páginas fotocopiables, acompañan el calendario escolar paraguayo."
+ },
+ {
+  "t": "p",
+  "text": "Como hilo conductor te va a acompañar el Copetín Karumbé, el emprendimiento unipersonal de Ña Rosa: su menú aporta los conjuntos, sus promociones aportan las proposiciones y su caja diaria aporta los algoritmos. Al final del año vas a haber diseñado, con lápiz y papel, la versión 1.0 de su sistema de caja: un modelo didáctico de la lógica que usan muchos sistemas de punto de venta."
+ },
+ {
+  "t": "p",
+  "text": "Trabajá cada clase en orden, resolvé todas las actividades y verificá tus algoritmos con pruebas de escritorio: en algorítmica, comprobar es parte de resolver."
+ },
+ {
+  "t": "h1",
+  "text": "Índice",
+  "raw": "Índice"
+ },
+ {
+  "t": "p",
+  "text": "Índice — presioná Ctrl+E y luego F9 para actualizar."
+ },
+ {
+  "t": "diag",
+  "lines": [
+   "PRUEBA DIAGNÓSTICA — ¿Qué sabés ya?",
+   "Esta actividad no lleva nota: sirve para que vos y tu docente sepan de dónde partís."
+  ]
+ },
+ {
+  "t": "p",
+  "text": "Nombre y Apellido: _______________________________  Curso: ______  Fecha: ____ / ____ / ____"
+ },
+ {
+  "t": "p",
+  "text": "Antes de arrancar con los conjuntos, la lógica y los algoritmos, resolvé estas consignas con lo que ya sabés. No hay que estudiar nada: es una foto de tu punto de partida."
+ },
+ {
+  "t": "p",
+  "text": "1. Escribí entre llaves { } el conjunto formado por las vocales de la palabra «computadora»."
+ },
+ {
+  "t": "p",
+  "text": "____________________________________________________________________________________"
+ },
+ {
+  "t": "p",
+  "text": "2. Estos pasos para preparar tereré están desordenados. Numeralos del 1 al 4:"
+ },
+ {
+  "t": "p",
+  "text": "(....) Cargar la guampa con yerba ·"
+ },
+ {
+  "t": "p",
+  "text": "(....) Conseguir agua bien fría y hielo ·"
+ },
+ {
+  "t": "p",
+  "text": "(....) Tomar y volver a cargar ·"
+ },
+ {
+  "t": "p",
+  "text": "(....) Verter el agua sobre la yerba."
+ },
+ {
+  "t": "p",
+  "text": "3. Leé: «Si llueve, el partido se suspende. Hoy llueve.» ¿Qué podés concluir con seguridad? Escribilo en una línea."
+ },
+ {
+  "t": "p",
+  "text": "____________________________________________________________________________________"
+ },
+ {
+  "t": "p",
+  "text": "4. Clasificá estas seis palabras en dos grupos y poné un nombre a cada grupo: mouse, mango, teclado, guayaba, monitor, piña."
+ },
+ {
+  "t": "p",
+  "text": "____________________________________________________________________________________"
+ },
+ {
+  "t": "p",
+  "text": "____________________________________________________________________________________"
+ },
+ {
+  "t": "p",
+  "text": "5. Calculá: 3 × (8 − 5) + 4 ="
+ },
+ {
+  "t": "p",
+  "text": "____________________________________________________________________________________"
+ },
+ {
+  "t": "p",
+  "text": "6. ¿Qué es para vos un «algoritmo»? Escribí tu idea en una línea, aunque no estés seguro/a."
+ },
+ {
+  "t": "p",
+  "text": "____________________________________________________________________________________"
+ },
+ {
+  "t": "h1",
+  "text": "Unidad 1 — Teoría de conjuntos",
+  "raw": "UNIDAD 1 — TEORÍA DE CONJUNTOS"
+ },
+ {
+  "t": "p",
+  "text": "En esta unidad vas a aprender a definir, clasificar, representar y operar con conjuntos. Puede parecer pura matemática, pero es la base del pensamiento que usa toda computadora: agrupar cosas con precisión, sin ambigüedad. Vas a trabajar con los datos del Copetín Karumbé, el negocio unipersonal de Ña Rosa, que nos va a acompañar durante todo el año."
+ },
+ {
+  "t": "h1",
+  "text": "Clase 1 — El conjunto: definición y determinación"
+ },
+ {
+  "t": "ficha",
+  "capacidad": "Analiza las características principales de la Teoría de Conjuntos.",
+  "tema": "El conjunto: definición, pertenencia y determinación por extensión y por comprensión.",
+  "indicadores": [
+   "Define conjunto, elemento y pertenencia con notación correcta.",
+   "Determina conjuntos por extensión y por comprensión a partir de situaciones reales.",
+   "Calcula el cardinal de un conjunto finito dado."
+  ]
+ },
+ {
+  "t": "h2",
+  "text": "¿Qué es un conjunto?"
+ },
+ {
+  "t": "p",
+  "text": "Un conjunto es una colección bien definida de objetos distintos, llamados elementos. «Bien definida» significa que, ante cualquier objeto, podés decidir sin dudas si pertenece o no al conjunto. «Los productos del menú de hoy» es un conjunto; «las comidas ricas» no lo es, porque lo rico depende del gusto de cada uno."
+ },
+ {
+  "t": "p",
+  "text": "Los conjuntos se nombran con letras mayúsculas (A, B, M) y sus elementos se escriben entre llaves, separados por comas. Cada elemento se escribe una sola vez y el orden no importa."
+ },
+ {
+  "t": "caja",
+  "title": "Ejemplo — El menú del Copetín Karumbé",
+  "body": [
+   "Ña Rosa abre su copetín y arma el menú del día. El conjunto de productos es M = {chipa, mixta, empanada, coquito, gaseosa}. Tiene 5 elementos. La chipa pertenece al menú: chipa ∈ M. La pizza no está en el menú: pizza ∉ M."
+  ]
+ },
+ {
+  "t": "h2",
+  "text": "La pertenencia: ∈ y ∉"
+ },
+ {
+  "t": "p",
+  "text": "La relación entre un elemento y un conjunto se llama pertenencia y se escribe con el símbolo ∈ («pertenece a»). Su negación es ∉ («no pertenece a»). La pertenencia relaciona siempre un elemento con un conjunto, nunca dos conjuntos entre sí."
+ },
+ {
+  "t": "caja",
+  "title": "Concepto clave — Pertenencia",
+  "body": [
+   "x ∈ A se lee «x pertenece al conjunto A»: x es uno de los elementos de A. Si x no figura entre los elementos de A, escribimos x ∉ A."
+  ]
+ },
+ {
+  "t": "h2",
+  "text": "Determinación por extensión y por comprensión"
+ },
+ {
+  "t": "p",
+  "text": "Determinar un conjunto es indicar con precisión cuáles son sus elementos. Hay dos formas: por extensión, listando uno por uno todos los elementos; y por comprensión, enunciando la propiedad que cumplen todos sus elementos y solo ellos."
+ },
+ {
+  "t": "tabla",
+  "hdr": [
+   "Forma",
+   "Cómo se escribe",
+   "Ejemplo"
+  ],
+  "rows": [
+   [
+    "Por extensión",
+    "Se listan todos los elementos entre llaves.",
+    "V = {a, e, i, o, u}"
+   ],
+   [
+    "Por comprensión",
+    "Se enuncia la propiedad común: {x / x cumple ...}.",
+    "V = {x / x es vocal del alfabeto castellano}"
+   ],
+   [
+    "Por extensión",
+    "D = {2, 4, 6, 8}",
+    "Los pares menores que 10"
+   ],
+   [
+    "Por comprensión",
+    "D = {x / x es par y 0 < x < 10}",
+    "El mismo conjunto D"
+   ]
+  ]
+ },
+ {
+  "t": "p",
+  "text": "La barra «/» se lee «tal que». Un mismo conjunto puede escribirse de las dos formas; elegimos la más práctica. Si el conjunto es infinito o muy grande, la comprensión es la única opción razonable."
+ },
+ {
+  "t": "h2",
+  "text": "El cardinal de un conjunto"
+ },
+ {
+  "t": "p",
+  "text": "El cardinal de un conjunto finito A es la cantidad de elementos que tiene, y se escribe n(A). Para el menú del copetín, n(M) = 5. Contar bien el cardinal parece trivial, pero es la operación que está detrás de todo inventario y de toda base de datos."
+ },
+ {
+  "t": "caja",
+  "title": "En Paraguay — Conjuntos por todos lados",
+  "body": [
+   "El Paraguay se divide en 17 departamentos más Asunción como capital: el conjunto de los departamentos es finito y tiene cardinal 17. El achegety (alfabeto guaraní) es otro conjunto finito: tiene 33 letras."
+  ]
+ },
+ {
+  "t": "h3",
+  "text": "Actividades de aplicación"
+ },
+ {
+  "t": "p",
+  "text": "Ejercitá — resolvé estas operaciones directas:"
+ },
+ {
+  "t": "p",
+  "text": "1. Escribí por extensión: V = {x / x es vocal de la palabra «karumbé»}. Indicá n(V)."
+ },
+ {
+  "t": "p",
+  "text": "2. Escribí por extensión: D = {x / x es dígito distinto del número 2026}. Indicá n(D)."
+ },
+ {
+  "t": "p",
+  "text": "3. Con M = {chipa, mixta, empanada, coquito, gaseosa}, completá con ∈ o ∉: chipa __ M ; pizza __ M ; coquito __ M ; jugo __ M."
+ },
+ {
+  "t": "p",
+  "text": "4. Calculá el cardinal de: a) A = {a, l, g, o, r, i, t, m} ; b) B = {2, 4, 6, 8, 10} ; c) C = {x / x es día de la semana}."
+ },
+ {
+  "t": "p",
+  "text": "5. Escribí por comprensión el conjunto P = {2, 4, 6, 8}."
+ },
+ {
+  "t": "p",
+  "text": "6. Decidí si cada colección es un conjunto bien definido (sí/no): a) los productos del menú de hoy ; b) las chipas más ricas ; c) las letras de «chipa» ; d) los números grandes."
+ },
+ {
+  "t": "p",
+  "text": "Resolvé — problemas del Copetín Karumbé:"
+ },
+ {
+  "t": "p",
+  "text": "7. Ña Rosa arma el menú del día: chipa, mixta, empanada, coquito y gaseosa. Definí el conjunto M por extensión, calculá n(M) y escribí dos afirmaciones de pertenencia verdaderas (una con ∈ y otra con ∉)."
+ },
+ {
+  "t": "p",
+  "text": "8. Los medios de pago que acepta el copetín son efectivo, QR y tarjeta. Definí el conjunto P por extensión y por comprensión, e indicá n(P)."
+ },
+ {
+  "t": "p",
+  "text": "9. Ña Rosa separa las bebidas del menú (gaseosa) del resto. Escribí el conjunto B de bebidas y el conjunto S de salados (chipa, mixta, empanada) por extensión, e indicá n(B) y n(S)."
+ },
+ {
+  "t": "p",
+  "text": "Pensá y decidí — elegí o marcá V/F, y justificá siempre:"
+ },
+ {
+  "t": "p",
+  "text": "10. V o F: «El conjunto {coquito, coquito, chipa} tiene cardinal 3.»"
+ },
+ {
+  "t": "p",
+  "text": "11. Elegí y justificá: {x / x es par y 0 < x < 10} está determinado por a) comprensión. b) extensión."
+ },
+ {
+  "t": "p",
+  "text": "12. V o F: «Los clientes simpáticos del copetín» forman un conjunto bien definido."
+ },
+ {
+  "t": "p",
+  "text": "Desafío — integrá lo aprendido:"
+ },
+ {
+  "t": "p",
+  "text": "13. Ña Rosa piensa ampliar el menú a 8 productos. Escribí el nuevo conjunto M' por extensión (agregá 3 productos a los 5 actuales), calculá n(M') y escribí una pertenencia verdadera y una falsa sobre M'."
+ },
+ {
+  "t": "h1",
+  "text": "Clase 2 — Clasificación de conjuntos y subconjuntos"
+ },
+ {
+  "t": "ficha",
+  "capacidad": "Identifica los diferentes tipos de subconjuntos.",
+  "tema": "Clasificación de conjuntos (finito, infinito, unitario, vacío, universal) y subconjuntos.",
+  "indicadores": [
+   "Clasifica conjuntos dados en finitos, infinitos, unitarios, vacíos o universales.",
+   "Distingue subconjunto (⊆) de pertenencia (∈) en ejemplos concretos.",
+   "Determina todos los subconjuntos de un conjunto pequeño aplicando la regla 2ⁿ."
+  ]
+ },
+ {
+  "t": "h2",
+  "text": "Conjuntos finitos e infinitos"
+ },
+ {
+  "t": "p",
+  "text": "Un conjunto es finito cuando tiene una cantidad limitada de elementos; su cardinal es un entero no negativo. Es infinito cuando el conteo no termina nunca, como el conjunto de los números naturales N = {1, 2, 3, ...}. En informática es frecuente trabajar con colecciones finitas, aunque algunos modelos y procesos también representan conjuntos o secuencias potencialmente infinitas."
+ },
+ {
+  "t": "h2",
+  "text": "Unitario, vacío y universal"
+ },
+ {
+  "t": "p",
+  "text": "El conjunto unitario tiene exactamente un elemento. El conjunto vacío no tiene ninguno y se escribe ∅ o { }. El conjunto universal (U) es el conjunto de referencia que contiene a todos los elementos de los que se habla en un problema: fija el «universo» de la conversación."
+ },
+ {
+  "t": "tabla",
+  "hdr": [
+   "Tipo",
+   "Definición",
+   "Ejemplo en el Copetín Karumbé"
+  ],
+  "rows": [
+   [
+    "Finito",
+    "Se puede terminar de contar.",
+    "Los 5 productos del menú."
+   ],
+   [
+    "Infinito",
+    "El conteo no termina.",
+    "Los números naturales que podrían numerar boletas."
+   ],
+   [
+    "Unitario",
+    "Tiene un solo elemento.",
+    "{coquito}: el único producto que hoy cuesta G. 500."
+   ],
+   [
+    "Vacío ∅",
+    "No tiene elementos.",
+    "Los productos del menú que cuestan G. 0."
+   ],
+   [
+    "Universal U",
+    "Contiene todo lo considerado.",
+    "Todos los productos que Ña Rosa sabe preparar."
+   ]
+  ]
+ },
+ {
+  "t": "caja",
+  "title": "Concepto clave — El vacío no es «nada»",
+  "body": [
+   "∅ es un conjunto, con cardinal n(∅) = 0. No confundas ∅ con {∅}: el segundo es un conjunto unitario cuyo único elemento es el conjunto vacío."
+  ]
+ },
+ {
+  "t": "h2",
+  "text": "Subconjuntos: la relación ⊆"
+ },
+ {
+  "t": "p",
+  "text": "A es subconjunto de B (A ⊆ B) cuando todo elemento de A pertenece también a B. Si además B tiene al menos un elemento que no está en A, decimos que A es subconjunto propio de B y escribimos A ⊂ B. Dos conjuntos son iguales cuando tienen exactamente los mismos elementos, es decir, cuando A ⊆ B y B ⊆ A a la vez."
+ },
+ {
+  "t": "p",
+  "text": "Dos reglas siempre valen: el conjunto vacío es subconjunto de cualquier conjunto (∅ ⊆ A), y todo conjunto es subconjunto de sí mismo (A ⊆ A). Estos dos son los subconjuntos impropios; todos los demás son propios."
+ },
+ {
+  "t": "caja",
+  "title": "Ejemplo — Los fritos del menú",
+  "body": [
+   "Del menú M = {chipa, mixta, empanada, coquito, gaseosa}, Ña Rosa separa lo que se fríe: F = {empanada, coquito}. Todo elemento de F está en M, así que F ⊆ M; y como M tiene elementos que no están en F, la relación es propia: F ⊂ M. Ojo: empanada ∈ M (pertenencia de un elemento), pero F ⊆ M (inclusión de un conjunto)."
+  ]
+ },
+ {
+  "t": "h2",
+  "text": "¿Cuántos subconjuntos tiene un conjunto?"
+ },
+ {
+  "t": "p",
+  "text": "Un conjunto con n elementos tiene exactamente 2ⁿ subconjuntos (contando ∅ y el propio conjunto). Por ejemplo, A = {1, 2} tiene 2² = 4 subconjuntos: ∅, {1}, {2} y {1, 2}. Con 3 elementos ya son 2³ = 8. Esta regla, que parece un truco, es la base del sistema binario que vas a ver en programación."
+ },
+ {
+  "t": "caja",
+  "title": "En Paraguay — Combos posibles",
+  "body": [
+   "Si un copetín ofrece 3 productos, los combos que puede armar (incluyendo «no llevar nada» y «llevar todo») son 2³ = 8. En software, las combinaciones posibles de opciones pueden modelarse con la misma idea de subconjuntos; cuando n crece, 2ⁿ muestra por qué las combinaciones aumentan tan rápido."
+  ]
+ },
+ {
+  "t": "h3",
+  "text": "Actividades de aplicación"
+ },
+ {
+  "t": "p",
+  "text": "Ejercitá — resolvé estas operaciones directas:"
+ },
+ {
+  "t": "p",
+  "text": "1. Clasificá en finito o infinito: a) N = {1, 2, 3, ...} ; b) los productos del menú ; c) {x / x es número par} ; d) las letras del achegety (33)."
+ },
+ {
+  "t": "p",
+  "text": "2. Clasificá en unitario, vacío o universal: a) {coquito} ; b) {x / x es producto del menú con precio G. 0} ; c) U = todos los productos que Ña Rosa sabe preparar."
+ },
+ {
+  "t": "p",
+  "text": "3. Escribí todos los subconjuntos de A = {chipa, mixta}."
+ },
+ {
+  "t": "p",
+  "text": "4. Calculá cuántos subconjuntos tiene: a) un conjunto de 3 elementos ; b) uno de 4 ; c) uno de 5."
+ },
+ {
+  "t": "p",
+  "text": "5. Con M (5 productos) y F = {empanada, coquito}, completá con ∈, ∉, ⊆ o ⊂: empanada __ M ; F __ M ; {gaseosa} __ M ; chipa __ F."
+ },
+ {
+  "t": "p",
+  "text": "6. Indicá si es subconjunto propio o impropio: a) ∅ ⊆ M ; b) M ⊆ M ; c) F ⊂ M."
+ },
+ {
+  "t": "p",
+  "text": "Resolvé — problemas del Copetín Karumbé:"
+ },
+ {
+  "t": "p",
+  "text": "7. Del menú M, Ña Rosa separa los fritos F = {empanada, coquito}. Mostrá que F ⊂ M (justificá con la definición) y escribí todos los subconjuntos de F."
+ },
+ {
+  "t": "p",
+  "text": "8. El copetín ofrece 3 bebidas: gaseosa, jugo y agua. ¿Cuántos combos de bebidas puede armar (contando «ninguna» y «todas»)? Listá al menos 4 de esos subconjuntos."
+ },
+ {
+  "t": "p",
+  "text": "9. Proponé un conjunto universal razonable para «las bebidas del copetín» y un subconjunto propio de él; justificá con ⊂."
+ },
+ {
+  "t": "p",
+  "text": "Pensá y decidí — elegí o marcá V/F, y justificá siempre:"
+ },
+ {
+  "t": "p",
+  "text": "10. V o F: «El conjunto vacío es subconjunto de cualquier conjunto.»"
+ },
+ {
+  "t": "p",
+  "text": "11. V o F: «Si A ⊂ B, entonces A y B tienen exactamente los mismos elementos.»"
+ },
+ {
+  "t": "p",
+  "text": "12. Elegí y justificá: un conjunto de 4 elementos tiene a) 8 b) 32 subconjuntos. c) 16."
+ },
+ {
+  "t": "p",
+  "text": "Desafío — integrá lo aprendido:"
+ },
+ {
+  "t": "p",
+  "text": "13. El menú crece a 6 productos. Calculá cuántos subconjuntos tendría el nuevo menú y explicá con la regla 2ⁿ por qué agregar un solo producto duplica la cantidad de combos posibles."
+ },
+ {
+  "t": "h1",
+  "text": "Clase 3 — Representación de conjuntos: el diagrama de Venn"
+ },
+ {
+  "t": "ficha",
+  "capacidad": "Resuelve problemas sobre operaciones con conjuntos.",
+  "tema": "Representación gráfica (diagrama de Venn) y simbólica de conjuntos.",
+  "indicadores": [
+   "Representa conjuntos y sus relaciones mediante diagramas de Venn.",
+   "Identifica las regiones que determina un diagrama de dos conjuntos.",
+   "Traduce información de un diagrama de Venn a lenguaje simbólico y viceversa."
+  ]
+ },
+ {
+  "t": "h2",
+  "text": "Tres formas de mostrar un mismo conjunto"
+ },
+ {
+  "t": "p",
+  "text": "Un conjunto puede representarse por extensión, por comprensión (formas simbólicas que ya conocés) o en forma gráfica con un diagrama de Venn: una curva cerrada —en general un óvalo— dentro de un rectángulo que representa al conjunto universal U. Los elementos se marcan como puntos dentro o fuera del óvalo."
+ },
+ {
+  "t": "h2",
+  "text": "Leer un diagrama de un solo conjunto"
+ },
+ {
+  "t": "p",
+  "text": "Dentro del óvalo A están los elementos que pertenecen a A; en el rectángulo pero fuera del óvalo, los que están en U pero no en A. Con un vistazo se responde cualquier pregunta de pertenencia: por eso el diagrama de Venn es la herramienta favorita para razonar antes de calcular."
+ },
+ {
+  "t": "caja",
+  "title": "Ejemplo — El mostrador como diagrama",
+  "body": [
+   "U = {chipa, mixta, empanada, coquito, gaseosa, jugo}. Dibujamos el óvalo C = «comestibles» = {chipa, mixta, empanada, coquito}. La gaseosa y el jugo quedan dentro del rectángulo U pero fuera del óvalo C: pertenecen al universo, no al conjunto."
+  ]
+ },
+ {
+  "t": "h2",
+  "text": "Dos conjuntos: las cuatro regiones"
+ },
+ {
+  "t": "p",
+  "text": "Cuando dibujamos dos óvalos A y B que se cruzan, el universo queda dividido en cuatro regiones. Saber nombrarlas es la clave para resolver los problemas de conteo de la Clase 5."
+ },
+ {
+  "t": "p",
+  "text": "Mirá la Figura 1.1 y recorrela región por región: los productos de la mañana llenan el óvalo A, los de la siesta el óvalo B, la mixta —que se vende en los dos turnos— queda en la zona central, y el jugo, que no se vende en ninguno, queda dentro del rectángulo pero fuera de los dos óvalos."
+ },
+ {
+  "t": "img",
+  "file": "src_01.png",
+  "ancho_cm": 12.46,
+  "epigrafe": "Figura 1.1 — Las cuatro regiones del diagrama de Venn con los productos del Copetín Karumbé: solo A, A ∩ B, solo B y «ni A ni B».",
+  "num_viejo": "1.1"
+ },
+ {
+  "t": "tabla",
+  "hdr": [
+   "Región",
+   "Descripción",
+   "Se lee"
+  ],
+  "rows": [
+   [
+    "1",
+    "Dentro de A y fuera de B",
+    "solo A"
+   ],
+   [
+    "2",
+    "Dentro de A y dentro de B",
+    "A y B a la vez (zona central)"
+   ],
+   [
+    "3",
+    "Dentro de B y fuera de A",
+    "solo B"
+   ],
+   [
+    "4",
+    "Fuera de ambos óvalos",
+    "ni A ni B"
+   ]
+  ]
+ },
+ {
+  "t": "caja",
+  "title": "Concepto clave — Regiones",
+  "body": [
+   "Todo elemento del universo cae en exactamente una de las cuatro regiones. Por eso los cardinales de las cuatro regiones siempre suman n(U)."
+  ]
+ },
+ {
+  "t": "h2",
+  "text": "Del diagrama al símbolo y del símbolo al diagrama"
+ },
+ {
+  "t": "p",
+  "text": "Si A ⊆ B, el óvalo de A se dibuja completamente adentro del de B. Si A y B no comparten ningún elemento, se dibujan separados. Traducir en los dos sentidos —del gráfico al símbolo y del símbolo al gráfico— es lo que se evalúa siempre."
+ },
+ {
+  "t": "caja",
+  "title": "En Paraguay — Venn en las aulas y en los censos",
+  "body": [
+   "El INE (Instituto Nacional de Estadística) publica resultados que cruzan categorías —por ejemplo, hogares con acceso a internet y con computadora—. Cada cruce de dos categorías es, en el fondo, un diagrama de Venn de cuatro regiones."
+  ]
+ },
+ {
+  "t": "h3",
+  "text": "Actividades de aplicación"
+ },
+ {
+  "t": "p",
+  "text": "Ejercitá — resolvé estas operaciones directas:"
+ },
+ {
+  "t": "p",
+  "text": "1. Con U = {1,2,3,4,5,6,7,8}, A = {1,2,3,4} y B = {3,4,5,6}, indicá qué elementos van en cada región: solo A, A∩B, solo B, ni A ni B."
+ },
+ {
+  "t": "p",
+  "text": "2. Con U = {chipa, mixta, empanada, coquito, gaseosa, jugo} y C = {chipa, mixta, empanada, coquito}, indicá qué queda dentro del óvalo C y qué queda fuera pero dentro de U."
+ },
+ {
+  "t": "p",
+  "text": "3. Nombrá la región (solo A / central / solo B / fuera) donde cae cada elemento del ítem 1."
+ },
+ {
+  "t": "p",
+  "text": "4. Traducí a símbolo: a) el óvalo de A está dentro del de B ; b) A y B no se tocan ; c) hay elementos en la zona central."
+ },
+ {
+  "t": "p",
+  "text": "5. Si las 4 regiones de un diagrama tienen 10, 8, 7 y 5 elementos, calculá n(U)."
+ },
+ {
+  "t": "p",
+  "text": "6. Indicá en qué región va cada elemento con A = {1,2,3} y B = {3,4}: el 1, el 3, el 4."
+ },
+ {
+  "t": "p",
+  "text": "Resolvé — problemas del Copetín Karumbé:"
+ },
+ {
+  "t": "p",
+  "text": "7. En el mostrador, U = {chipa, mixta, empanada, coquito, gaseosa, jugo}. Describí el diagrama con C = comestibles = {chipa, mixta, empanada, coquito} e indicá qué elementos quedan fuera del óvalo."
+ },
+ {
+  "t": "p",
+  "text": "8. Con A = {chipa, mixta, coquito} (mañana) y B = {mixta, empanada, gaseosa} (siesta), ubicá cada producto en su región del diagrama de dos óvalos."
+ },
+ {
+  "t": "p",
+  "text": "9. Dibujá (o describí) el diagrama de Venn de F = {empanada, coquito} y M = {chipa, mixta, empanada, coquito, gaseosa}, sabiendo que F ⊂ M."
+ },
+ {
+  "t": "p",
+  "text": "Pensá y decidí — elegí o marcá V/F, y justificá siempre:"
+ },
+ {
+  "t": "p",
+  "text": "10. V o F: «Un elemento del universo puede quedar fuera de las cuatro regiones del diagrama.»"
+ },
+ {
+  "t": "p",
+  "text": "11. Elegí y justificá: dos óvalos que se cruzan dividen al universo en a) 2 b) 4 regiones. c) 3."
+ },
+ {
+  "t": "p",
+  "text": "12. V o F: «Si A ⊆ B, el óvalo de A se dibuja separado del de B.»"
+ },
+ {
+  "t": "p",
+  "text": "Desafío — integrá lo aprendido:"
+ },
+ {
+  "t": "p",
+  "text": "13. Con U = {1, ..., 8}, A = {1,2,3,4} y B = {3,4,5,6}: armá el diagrama, escribí A∩B y A∪B leyéndolos del diagrama, y verificá que las cuatro regiones suman n(U) = 8."
+ },
+ {
+  "t": "h1",
+  "text": "Clase 4 — Operaciones con conjuntos I: unión e intersección"
+ },
+ {
+  "t": "ficha",
+  "capacidad": "Resuelve problemas sobre operaciones con conjuntos.",
+  "tema": "Unión e intersección de conjuntos: definición, cálculo y propiedades.",
+  "indicadores": [
+   "Calcula la unión y la intersección de conjuntos dados por extensión.",
+   "Reconoce conjuntos disjuntos a partir de su intersección vacía.",
+   "Aplica las propiedades conmutativa y asociativa de la unión y la intersección."
+  ]
+ },
+ {
+  "t": "h2",
+  "text": "La unión: juntar todo"
+ },
+ {
+  "t": "p",
+  "text": "La unión de A y B, escrita A ∪ B, es el conjunto de los elementos que pertenecen a A, a B o a ambos. En el diagrama de Venn, la unión es toda la superficie cubierta por los dos óvalos. Los elementos repetidos se escriben una sola vez: A ∪ B = {x / x ∈ A ∨ x ∈ B}."
+ },
+ {
+  "t": "h2",
+  "text": "La intersección: lo que tienen en común"
+ },
+ {
+  "t": "p",
+  "text": "La intersección A ∩ B es el conjunto de los elementos que pertenecen a A y a B a la vez: la zona central del diagrama. Simbólicamente, A ∩ B = {x / x ∈ A ∧ x ∈ B}. Cuando A ∩ B = ∅, los conjuntos se llaman disjuntos: no comparten ningún elemento."
+ },
+ {
+  "t": "caja",
+  "title": "Ejemplo — Pedidos de la mañana",
+  "body": [
+   "El lunes, los productos pedidos en el turno mañana fueron A = {chipa, mixta, coquito} y en el turno siesta B = {mixta, empanada, gaseosa}. A ∪ B = {chipa, mixta, coquito, empanada, gaseosa}: todo lo que se vendió en el día. A ∩ B = {mixta}: lo único que se pidió en los dos turnos."
+  ]
+ },
+ {
+  "t": "h2",
+  "text": "Propiedades de la unión y la intersección"
+ },
+ {
+  "t": "p",
+  "text": "Las dos operaciones se comportan de forma muy regular; estas propiedades permiten reordenar cálculos sin cambiar el resultado, igual que la suma y la multiplicación en aritmética."
+ },
+ {
+  "t": "tabla",
+  "hdr": [
+   "Propiedad",
+   "Unión",
+   "Intersección"
+  ],
+  "rows": [
+   [
+    "Conmutativa",
+    "A ∪ B = B ∪ A",
+    "A ∩ B = B ∩ A"
+   ],
+   [
+    "Asociativa",
+    "(A ∪ B) ∪ C = A ∪ (B ∪ C)",
+    "(A ∩ B) ∩ C = A ∩ (B ∩ C)"
+   ],
+   [
+    "Idempotente",
+    "A ∪ A = A",
+    "A ∩ A = A"
+   ],
+   [
+    "Con el vacío",
+    "A ∪ ∅ = A",
+    "A ∩ ∅ = ∅"
+   ],
+   [
+    "Con el universal",
+    "A ∪ U = U",
+    "A ∩ U = A"
+   ]
+  ]
+ },
+ {
+  "t": "caja",
+  "title": "Concepto clave — ∪ junta, ∩ filtra",
+  "body": [
+   "La unión nunca puede tener menos elementos que el mayor de los dos conjuntos; la intersección nunca puede tener más elementos que el menor de los dos."
+  ]
+ },
+ {
+  "t": "h2",
+  "text": "Unión, intersección y cardinales"
+ },
+ {
+  "t": "p",
+  "text": "Si sumás n(A) + n(B), los elementos de la intersección quedan contados dos veces. Por eso vale la fórmula n(A ∪ B) = n(A) + n(B) − n(A ∩ B), que vas a usar a fondo en la Clase 5 para resolver problemas de encuestas y clientes."
+ },
+ {
+  "t": "caja",
+  "title": "En Paraguay — Filtros que usás todos los días",
+  "body": [
+   "Cuando en una tienda virtual paraguaya filtrás «envío a mi ciudad» y «pago con QR», el sitio calcula la intersección de dos conjuntos de productos. Si elegís «uno u otro», calcula la unión. Las operaciones de esta clase corren millones de veces por día en los servidores."
+  ]
+ },
+ {
+  "t": "h3",
+  "text": "Actividades de aplicación"
+ },
+ {
+  "t": "p",
+  "text": "Ejercitá — resolvé estas operaciones directas:"
+ },
+ {
+  "t": "p",
+  "text": "1. Con A = {1,2,3} y B = {3,4}: calculá A∪B y A∩B."
+ },
+ {
+  "t": "p",
+  "text": "2. Con A = {chipa, mixta, coquito} y B = {mixta, empanada, gaseosa}: calculá A∪B y A∩B."
+ },
+ {
+  "t": "p",
+  "text": "3. Calculá n(A∪B) con n(A) = 3, n(B) = 3 y n(A∩B) = 1."
+ },
+ {
+  "t": "p",
+  "text": "4. Indicá qué propiedad se aplica: a) A∪B = B∪A ; b) A∩A = A ; c) A∪∅ = A ; d) A∩U = A."
+ },
+ {
+  "t": "p",
+  "text": "5. Con A = {1,2,3,4,5} y B = {4,5,6,7}: calculá A∪B, A∩B y verificá n(A∪B) = n(A) + n(B) − n(A∩B)."
+ },
+ {
+  "t": "p",
+  "text": "6. Decidí si son disjuntos (sí/no): a) {1,2} y {3,4} ; b) {chipa} y {chipa, mixta}."
+ },
+ {
+  "t": "p",
+  "text": "Resolvé — problemas del Copetín Karumbé:"
+ },
+ {
+  "t": "p",
+  "text": "7. Los pedidos del lunes: turno mañana A = {chipa, mixta, coquito}, turno siesta B = {mixta, empanada, gaseosa}. Calculá todo lo vendido en el día (A∪B) y lo pedido en ambos turnos (A∩B)."
+ },
+ {
+  "t": "p",
+  "text": "8. Con A y B del ítem anterior y C = {coquito, gaseosa}: calculá (A∩B)∪C y A∩(B∪C)."
+ },
+ {
+  "t": "p",
+  "text": "9. Verificá con los conjuntos A y B del turno (mañana/siesta) la fórmula n(A∪B) = n(A) + n(B) − n(A∩B) contando los elementos."
+ },
+ {
+  "t": "p",
+  "text": "Pensá y decidí — elegí o marcá V/F, y justificá siempre:"
+ },
+ {
+  "t": "p",
+  "text": "10. V o F: «La intersección de dos conjuntos puede tener más elementos que cada uno de ellos.»"
+ },
+ {
+  "t": "p",
+  "text": "11. Elegí y justificá: la propiedad A∪B = B∪A se llama a) idempotente. b) asociativa c) conmutativa."
+ },
+ {
+  "t": "p",
+  "text": "12. V o F: «Si A ⊆ B, entonces A∩B = A.»"
+ },
+ {
+  "t": "p",
+  "text": "Desafío — integrá lo aprendido:"
+ },
+ {
+  "t": "p",
+  "text": "13. En una encuesta rápida, 18 clientes piden chipa y 15 piden gaseosa; 8 piden ambas. Usando n(A∪B) = n(A) + n(B) − n(A∩B), calculá cuántos piden al menos una de las dos."
+ },
+ {
+  "t": "h1",
+  "text": "Clase 5 — Operaciones con conjuntos II: diferencia, complemento y problemas"
+ },
+ {
+  "t": "ficha",
+  "capacidad": "Resuelve problemas sobre operaciones con conjuntos.",
+  "tema": "Diferencia y complemento de conjuntos; resolución de problemas con diagramas de Venn.",
+  "indicadores": [
+   "Calcula la diferencia y el complemento de conjuntos dados.",
+   "Resuelve problemas de conteo con dos conjuntos usando el diagrama de Venn.",
+   "Verifica soluciones comprobando que las regiones suman el total del universo."
+  ]
+ },
+ {
+  "t": "h2",
+  "text": "La diferencia: lo de uno sin lo del otro"
+ },
+ {
+  "t": "p",
+  "text": "La diferencia A − B es el conjunto de los elementos que pertenecen a A pero no a B: A − B = {x / x ∈ A ∧ x ∉ B}. A diferencia de la unión y la intersección, no es conmutativa: en general A − B ≠ B − A."
+ },
+ {
+  "t": "h2",
+  "text": "El complemento: todo lo que falta"
+ },
+ {
+  "t": "p",
+  "text": "El complemento de A, escrito A′, es el conjunto de los elementos del universal que no pertenecen a A: A′ = U − A. En el diagrama, es todo lo que queda fuera del óvalo. Valen dos leyes elegantes, llamadas leyes de De Morgan: (A ∪ B)′ = A′ ∩ B′ y (A ∩ B)′ = A′ ∪ B′."
+ },
+ {
+  "t": "caja",
+  "title": "Ejemplo — Diferencia y complemento en el mostrador",
+  "body": [
+   "Con A = {chipa, mixta, coquito} (turno mañana) y B = {mixta, empanada, gaseosa} (turno siesta): A − B = {chipa, coquito} (se pidió solo a la mañana) y B − A = {empanada, gaseosa}. Si U es el menú de 5 productos, A′ = {empanada, gaseosa}: lo que no se pidió a la mañana."
+  ]
+ },
+ {
+  "t": "h2",
+  "text": "Problemas de conteo con el diagrama de Venn"
+ },
+ {
+  "t": "p",
+  "text": "El método es siempre el mismo: primero se coloca el cardinal de la intersección en la zona central; después se completan las zonas de «solo A» y «solo B» restando; por último se calcula «ni A ni B» para que todo sume n(U)."
+ },
+ {
+  "t": "p",
+  "text": "La Figura 1.2 muestra el método completo aplicado a una mañana del copetín: de 30 clientes, 18 compraron chipa, 15 compraron cocido y 8 compraron ambos. Seguí el orden de los colores: primero el 8 de la zona central, después las restas 18 − 8 y 15 − 8, y al final el control de que las cuatro regiones suman 30."
+ },
+ {
+  "t": "img",
+  "file": "src_02.png",
+  "ancho_cm": 10.87,
+  "epigrafe": "Figura 1.2 — Problema de conteo resuelto sobre el diagrama: la intersección se coloca primero, las regiones «solo» se completan restando y el universo cierra la verificación.",
+  "num_viejo": "1.2"
+ },
+ {
+  "t": "caja",
+  "title": "Ejemplo — La encuesta de Ña Rosa",
+  "body": [
+   "Ña Rosa encuestó a 30 clientes: 18 compran chipa, 15 compran gaseosa y 8 compran ambas. Centro: 8. Solo chipa: 18 − 8 = 10. Solo gaseosa: 15 − 8 = 7. Compran al menos una: 10 + 8 + 7 = 25. Ninguna de las dos: 30 − 25 = 5. Control: 10 + 8 + 7 + 5 = 30 = n(U). ✓"
+  ]
+ },
+ {
+  "t": "h2",
+  "text": "Verificar siempre: el control del universo"
+ },
+ {
+  "t": "p",
+  "text": "Un problema de Venn bien resuelto se autoverifica: las cuatro regiones deben sumar exactamente el total del universo. Si no suman, hay un error de resta en alguna región. Este hábito de control es el mismo que vas a aplicar en la prueba de escritorio de los algoritmos de la Unidad 3."
+ },
+ {
+  "t": "caja",
+  "title": "En Paraguay — Conteos que deciden políticas",
+  "body": [
+   "Los cruces de datos de encuestas nacionales —por ejemplo, jóvenes que estudian y trabajan— se calculan con esta misma técnica de regiones. Un error de doble conteo en la intersección distorsiona el resultado de todo el estudio."
+  ]
+ },
+ {
+  "t": "h3",
+  "text": "Actividades de aplicación"
+ },
+ {
+  "t": "p",
+  "text": "Ejercitá — resolvé estas operaciones directas:"
+ },
+ {
+  "t": "p",
+  "text": "1. Con A = {1,2,3,4} y B = {3,4,5}: calculá A−B y B−A."
+ },
+ {
+  "t": "p",
+  "text": "2. Con U = {1,2,3,4,5,6} y A = {2,4,6}: calculá A′."
+ },
+ {
+  "t": "p",
+  "text": "3. Con A = {chipa, mixta, coquito} y B = {mixta, empanada, gaseosa}: calculá A−B y B−A."
+ },
+ {
+  "t": "p",
+  "text": "4. Con U = {chipa, mixta, empanada, coquito, gaseosa} y A = {chipa, mixta, coquito}: calculá A′."
+ },
+ {
+  "t": "p",
+  "text": "5. Escribí, aplicando De Morgan, (A∪B)′ y (A∩B)′ en función de A′ y B′."
+ },
+ {
+  "t": "p",
+  "text": "6. Encuesta: 30 clientes, 18 chipa, 15 gaseosa, 8 ambas. Calculá solo chipa, solo gaseosa y ninguna, y verificá que sumen 30."
+ },
+ {
+  "t": "p",
+  "text": "Resolvé — problemas del Copetín Karumbé:"
+ },
+ {
+  "t": "p",
+  "text": "7. De 40 clientes del copetín, 22 pagan en efectivo, 25 con QR y 12 usan ambos medios. Calculá solo efectivo, solo QR y ninguno; verificá con el control del universo."
+ },
+ {
+  "t": "p",
+  "text": "8. Con U = {1, ..., 10}, A = {1,2,3,4,5} y B = {4,5,6,7}: comprobá con estos conjuntos que (A∩B)′ = A′∪B′."
+ },
+ {
+  "t": "p",
+  "text": "9. En una sección de 25 estudiantes, 12 juegan fútbol, 10 vóley y 4 ambos. Con un diagrama, calculá cuántos no practican ninguno."
+ },
+ {
+  "t": "p",
+  "text": "Pensá y decidí — elegí o marcá V/F, y justificá siempre:"
+ },
+ {
+  "t": "p",
+  "text": "10. V o F: «La diferencia de conjuntos es conmutativa.»"
+ },
+ {
+  "t": "p",
+  "text": "11. V o F: «A∪A′ = U para cualquier conjunto A.»"
+ },
+ {
+  "t": "p",
+  "text": "12. Elegí y justificá: en un problema de Venn conviene completar primero a) solo A b) la intersección c) ni A ni B."
+ },
+ {
+  "t": "p",
+  "text": "Desafío — integrá lo aprendido:"
+ },
+ {
+  "t": "p",
+  "text": "13. De 50 clientes: 30 compran chipa, 25 compran cocido y 10 no compran ninguno de los dos. Calculá cuántos compran ambos (pista: los que compran al menos uno son 40) y armá el diagrama con las cuatro regiones."
+ },
+ {
+  "t": "banda",
+  "text": "EVALUACIÓN DE LA UNIDAD 1 / Teoría de Conjuntos",
+  "lines": [
+   "EVALUACIÓN DE LA UNIDAD 1",
+   "Teoría de Conjuntos"
+  ]
+ },
+ {
+  "t": "p",
+  "text": "Nombre y Apellido: _______________________________  Curso: ______  Fecha: ____ / ____ / ____"
+ },
+ {
+  "t": "p",
+  "text": "Parte A — Diagnóstico rápido (marcá la opción correcta):"
+ },
+ {
+  "t": "p",
+  "text": "1. n({a, l, g, o, r, i, t, m}) vale:"
+ },
+ {
+  "t": "p",
+  "text": "a) 8"
+ },
+ {
+  "t": "p",
+  "text": "b) 7"
+ },
+ {
+  "t": "p",
+  "text": "c) 9"
+ },
+ {
+  "t": "p",
+  "text": "2. Con U = {1, ..., 6} y A = {2, 4, 6}, el complemento A′ es:"
+ },
+ {
+  "t": "p",
+  "text": "a) ∅"
+ },
+ {
+  "t": "p",
+  "text": "b) {1, 3, 5}"
+ },
+ {
+  "t": "p",
+  "text": "c) {2, 4, 6}"
+ },
+ {
+  "t": "p",
+  "text": "3. Un conjunto de 4 elementos tiene una cantidad de subconjuntos igual a:"
+ },
+ {
+  "t": "p",
+  "text": "a) 8"
+ },
+ {
+  "t": "p",
+  "text": "b) 32"
+ },
+ {
+  "t": "p",
+  "text": "c) 16"
+ },
+ {
+  "t": "p",
+  "text": "Parte B — Ejercicios y problemas de resolución:"
+ },
+ {
+  "t": "p",
+  "text": "4. Determiná por extensión: A = {x / x es vocal de la palabra «copetín»} y B = {x / x es par y 2 ≤ x ≤ 10}. Indicá n(A) y n(B)."
+ },
+ {
+  "t": "p",
+  "text": "5. Clasificá cada conjunto (finito, infinito, unitario o vacío): a) los números naturales ; b) {x / x es capital del Paraguay} ; c) los productos del menú con precio G. 0 ; d) los días de la semana."
+ },
+ {
+  "t": "p",
+  "text": "6. Con M = {chipa, mixta, empanada, coquito, gaseosa} y F = {empanada, coquito}: escribí una relación de pertenencia verdadera, una de inclusión verdadera y todos los subconjuntos de F."
+ },
+ {
+  "t": "p",
+  "text": "7. Con U = {1, ..., 10}, A = {1, 2, 3, 4, 5} y B = {4, 5, 6, 7}: calculá A ∪ B, A ∩ B, A − B, B − A y A′."
+ },
+ {
+  "t": "p",
+  "text": "8. De 35 clientes encuestados, 20 compran chipa, 14 compran cocido y 6 compran ambos. Con un diagrama de Venn, calculá cuántos compran solo chipa, solo cocido y ninguno de los dos. Verificá con el control del universo."
+ },
+ {
+  "t": "h1",
+  "text": "Unidad 2 — Lógica simbólica",
+  "raw": "UNIDAD 2 — LÓGICA SIMBÓLICA"
+ },
+ {
+  "t": "p",
+  "text": "La lógica simbólica es el idioma exacto del razonamiento. En esta unidad vas a aprender a reconocer proposiciones, combinarlas con conectivos, calcular su valor de verdad con tablas y encadenar razonamientos válidos. Todo lo que una computadora «decide» —desde un descuento en la caja del Copetín Karumbé hasta el semáforo de una app— se reduce a las reglas de esta unidad."
+ },
+ {
+  "t": "h1",
+  "text": "Clase 6 — La proposición: definición y clasificación"
+ },
+ {
+  "t": "ficha",
+  "capacidad": "Identifica los elementos del pensamiento lógico.",
+  "tema": "La proposición: definición, expresiones que no son proposiciones y clasificación (abiertas, atómicas y moleculares).",
+  "indicadores": [
+   "Distingue proposiciones de expresiones que no lo son, justificando el criterio.",
+   "Clasifica proposiciones dadas en abiertas, atómicas o moleculares.",
+   "Asigna letras proposicionales y valores de verdad a enunciados simples."
+  ]
+ },
+ {
+  "t": "h2",
+  "text": "¿Qué es una proposición?"
+ },
+ {
+  "t": "p",
+  "text": "Una proposición es una oración declarativa de la que se puede afirmar, sin ambigüedad, que es verdadera (V) o falsa (F), pero no ambas cosas a la vez. «Asunción es la capital del Paraguay» es una proposición verdadera; «8 es un número impar» es una proposición falsa. Lo importante no es que sepamos el valor, sino que exista uno solo."
+ },
+ {
+  "t": "h2",
+  "text": "Lo que no es proposición"
+ },
+ {
+  "t": "p",
+  "text": "Las preguntas («¿hay chipa?»), las órdenes («traé el vuelto»), las exclamaciones («¡qué calor!») y los deseos no afirman nada: no son verdaderas ni falsas, así que no son proposiciones. Tampoco lo son las opiniones sin criterio objetivo, como «la mixta es lo más rico del menú»."
+ },
+ {
+  "t": "tabla",
+  "hdr": [
+   "Expresión",
+   "¿Es proposición?",
+   "Motivo"
+  ],
+  "rows": [
+   [
+    "El coquito cuesta G. 500.",
+    "Sí",
+    "Se puede verificar: V o F."
+   ],
+   [
+    "¿Aceptás pago con QR?",
+    "No",
+    "Es una pregunta: no afirma nada."
+   ],
+   [
+    "¡Apurate que cierro!",
+    "No",
+    "Es una orden/exclamación."
+   ],
+   [
+    "x + 3 = 10",
+    "No (abierta)",
+    "Depende del valor de x."
+   ],
+   [
+    "7 + 3 = 10",
+    "Sí",
+    "Afirmación verificable (V)."
+   ]
+  ]
+ },
+ {
+  "t": "h2",
+  "text": "Proposiciones abiertas, atómicas y moleculares"
+ },
+ {
+  "t": "p",
+  "text": "Una proposición abierta contiene una o más variables: no tiene valor de verdad hasta que la variable se reemplaza («x + 3 = 10» es V solo si x = 7). Una proposición atómica (o simple) afirma una sola cosa y no contiene conectivos. Una molecular (o compuesta) combina proposiciones atómicas mediante conectivos como «y», «o», «si... entonces», o la negación «no»."
+ },
+ {
+  "t": "caja",
+  "title": "Ejemplo — En la pizarra del copetín",
+  "body": [
+   "«Hay chipa» es atómica. «Hay chipa y hay cocido» es molecular (une dos atómicas con «y»). «Hoy no hay empanada» es molecular: la negación también cuenta como conectivo. «El producto x está agotado» es abierta: depende de qué producto sea x."
+  ]
+ },
+ {
+  "t": "h2",
+  "text": "Notación: letras y valores de verdad"
+ },
+ {
+  "t": "p",
+  "text": "Las proposiciones atómicas se representan con letras minúsculas: p, q, r, s. A cada una le corresponde un valor de verdad, V o F. Esta notación compacta es la que permite operar con proposiciones como si fueran números: es el primer paso hacia la programación."
+ },
+ {
+  "t": "caja",
+  "title": "Concepto clave — Proposición",
+  "body": [
+   "Oración declarativa con un único valor de verdad posible: V o F. Si no se puede decidir V/F —pregunta, orden, deseo, variable libre—, no es proposición."
+  ]
+ },
+ {
+  "t": "caja",
+  "title": "En Paraguay — El lema del razonamiento exacto",
+  "body": [
+   "Los formularios oficiales en línea del Estado paraguayo validan cada campo con proposiciones: «el RUC ingresado existe», «la fecha es válida». Si la afirmación no pudiera decidirse V o F, el sistema no sabría si aceptar o rechazar el formulario."
+  ]
+ },
+ {
+  "t": "h3",
+  "text": "Actividades de aplicación"
+ },
+ {
+  "t": "p",
+  "text": "Ejercitá — resolvé estas operaciones directas:"
+ },
+ {
+  "t": "p",
+  "text": "1. Decidí si cada expresión es proposición (sí/no): a) «Asunción es la capital del Paraguay» ; b) «¿hay chipa?» ; c) «¡qué calor!» ; d) «7 + 3 = 10» ; e) «x + 3 = 10»."
+ },
+ {
+  "t": "p",
+  "text": "2. Clasificá las que sean proposición en atómica o molecular: a) «Hay chipa» ; b) «Hay chipa y hay cocido» ; c) «Hoy no hay empanada»."
+ },
+ {
+  "t": "p",
+  "text": "3. Indicá el valor de verdad (V/F): a) «8 es impar» ; b) «El coquito cuesta G. 500» ; c) «5 > 2»."
+ },
+ {
+  "t": "p",
+  "text": "4. Asigná una letra (p, q, r) a cada atómica: «hay chipa», «hay cocido», «hay gaseosa»."
+ },
+ {
+  "t": "p",
+  "text": "5. Identificá cuáles son proposiciones abiertas: a) «x es par» ; b) «hoy es lunes» ; c) «el producto x está agotado»."
+ },
+ {
+  "t": "p",
+  "text": "6. Reescribí como proposición (que se pueda decidir V o F): a) «¿está abierto el copetín?» ; b) «¡apurate!»."
+ },
+ {
+  "t": "p",
+  "text": "Resolvé — problemas del Copetín Karumbé:"
+ },
+ {
+  "t": "p",
+  "text": "7. Escribí dos proposiciones atómicas sobre el Copetín Karumbé (una V y una F), asignales las letras p y q e indicá sus valores de verdad."
+ },
+ {
+  "t": "p",
+  "text": "8. Elegí tres carteles del copetín y clasificá cada uno en atómico o molecular, señalando el conectivo cuando lo haya."
+ },
+ {
+  "t": "p",
+  "text": "9. Convertí la pregunta «¿aceptan QR?» en una proposición y decidí su valor de verdad."
+ },
+ {
+  "t": "p",
+  "text": "Pensá y decidí — elegí o marcá V/F, y justificá siempre:"
+ },
+ {
+  "t": "p",
+  "text": "10. V o F: «Toda oración del idioma es una proposición.»"
+ },
+ {
+  "t": "p",
+  "text": "11. V o F: «La negación de una proposición atómica es una proposición molecular.»"
+ },
+ {
+  "t": "p",
+  "text": "12. Elegí y justificá: «x es un número par» es a) abierta. b) molecular c) atómica."
+ },
+ {
+  "t": "p",
+  "text": "Desafío — integrá lo aprendido:"
+ },
+ {
+  "t": "p",
+  "text": "13. Escribí un cartel del copetín que sea una proposición molecular con dos conectivos, identificá las proposiciones atómicas que lo componen y asignales letras."
+ },
+ {
+  "t": "h1",
+  "text": "Clase 7 — Conectivos lógicos, simbolización y signos de agrupación"
+ },
+ {
+  "t": "ficha",
+  "capacidad": "Identifica los elementos del pensamiento lógico.",
+  "tema": "La negación y los conectivos lógicos (conjunción, disyunciones, condicional, bicondicional); simbolización y signos de agrupación.",
+  "indicadores": [
+   "Identifica el conectivo presente en proposiciones moleculares dadas.",
+   "Simboliza proposiciones del lenguaje común usando letras, conectivos y paréntesis.",
+   "Calcula el valor de verdad de proposiciones compuestas con valores dados."
+  ]
+ },
+ {
+  "t": "h2",
+  "text": "La negación y la conjunción"
+ },
+ {
+  "t": "p",
+  "text": "La negación ¬p («no p») invierte el valor de verdad de p. La conjunción p ∧ q («p y q») es verdadera únicamente cuando las dos proposiciones son verdaderas: basta una falsa para que todo el «y» sea falso."
+ },
+ {
+  "t": "h2",
+  "text": "Las dos disyunciones"
+ },
+ {
+  "t": "p",
+  "text": "La disyunción inclusiva p ∨ q («p o q») es verdadera cuando al menos una es verdadera —incluso las dos—, y solo es falsa cuando ambas son falsas. La disyunción exclusiva p ⊻ q («o p o q, pero no ambas») es verdadera únicamente cuando los valores son distintos. En el idioma, el «o» suele ser inclusivo; el contexto indica cuándo es exclusivo («el combo trae gaseosa o jugo: elegí uno»)."
+ },
+ {
+  "t": "h2",
+  "text": "Condicional y bicondicional"
+ },
+ {
+  "t": "p",
+  "text": "El condicional p → q («si p entonces q») solo es falso cuando p es V y q es F: una promesa se rompe únicamente si se cumple la condición y no se cumple lo prometido. El bicondicional p ↔ q («p si y solo si q») es verdadero cuando ambas tienen el mismo valor de verdad."
+ },
+ {
+  "t": "tabla",
+  "hdr": [
+   "p",
+   "q",
+   "¬p",
+   "p ∧ q",
+   "p ∨ q",
+   "p ⊻ q",
+   "p → q",
+   "p ↔ q"
+  ],
+  "rows": [
+   [
+    "V",
+    "V",
+    "F",
+    "V",
+    "V",
+    "F",
+    "V",
+    "V"
+   ],
+   [
+    "V",
+    "F",
+    "F",
+    "F",
+    "V",
+    "V",
+    "F",
+    "F"
+   ],
+   [
+    "F",
+    "V",
+    "V",
+    "F",
+    "V",
+    "V",
+    "V",
+    "F"
+   ],
+   [
+    "F",
+    "F",
+    "V",
+    "F",
+    "F",
+    "F",
+    "V",
+    "V"
+   ]
+  ]
+ },
+ {
+  "t": "caja",
+  "title": "Ejemplo — La promesa de Ña Rosa",
+  "body": [
+   "p = «comprás dos chipas», q = «te regalo un cocido». La promesa p → q solo se rompe (F) si comprás dos chipas y no te regala el cocido. Si no comprás dos chipas, la promesa sigue en pie (V), te regale o no el cocido: no prometió nada para ese caso."
+  ]
+ },
+ {
+  "t": "h2",
+  "text": "Simbolizar y agrupar"
+ },
+ {
+  "t": "p",
+  "text": "Simbolizar es traducir una oración a letras y conectivos: en «si hay harina y hay queso, entonces hay chipa», con p = hay harina, q = hay queso, r = hay chipa, la simbolización es (p ∧ q) → r. Los paréntesis cumplen el mismo papel que en aritmética: indican qué se resuelve primero y eliminan toda ambigüedad. Conocidos los valores de las atómicas, la compuesta se evalúa de adentro hacia afuera: con p = V, q = F, r = V, (p ∧ q) → r = (V ∧ F) → V = F → V = V."
+ },
+ {
+  "t": "caja",
+  "title": "Concepto clave — El condicional no es «causa»",
+  "body": [
+   "p → q no dice que p provoque q: solo describe en qué casos la afirmación completa es falsa. Memorizá su tabla por la fila V–F: es la única que da F."
+  ]
+ },
+ {
+  "t": "caja",
+  "title": "En Paraguay — Los conectivos en las promos",
+  "body": [
+   "«Descuento si pagás con QR y comprás antes de las 9» es (p ∧ q) → r. Los sistemas de caja de los comercios paraguayos evalúan reglas así en cada ticket: la lógica de esta clase es exactamente la que corre en la máquina."
+  ]
+ },
+ {
+  "t": "h3",
+  "text": "Actividades de aplicación"
+ },
+ {
+  "t": "p",
+  "text": "Ejercitá — resolvé estas operaciones directas:"
+ },
+ {
+  "t": "p",
+  "text": "1. Con p = V y q = F, calculá: ¬p, p∧q, p∨q, p⊻q, p→q, p↔q."
+ },
+ {
+  "t": "p",
+  "text": "2. Simbolizá: a) «no hay chipa pero hay cocido» (p, q) ; b) «hay chipa o hay mixta» ; c) «si hay harina y hay queso, hay chipa» (p, q, r)."
+ },
+ {
+  "t": "p",
+  "text": "3. Con p = V, q = F, r = V, evaluá paso a paso: (p∧q) → r."
+ },
+ {
+  "t": "p",
+  "text": "4. Indicá el conectivo principal de: a) ¬p∧q ; b) (p∨q)→r ; c) ¬(p∧q)."
+ },
+ {
+  "t": "p",
+  "text": "5. Con p = V, q = V, r = F, evaluá: a) (p∨q)∧r ; b) ¬p→q."
+ },
+ {
+  "t": "p",
+  "text": "6. Traducí a palabras: p→q con p = «pagás» y q = «te entrego el pedido»."
+ },
+ {
+  "t": "p",
+  "text": "Resolvé — problemas del Copetín Karumbé:"
+ },
+ {
+  "t": "p",
+  "text": "7. Con p = V, q = F y r = V, calculá paso a paso: a) (p∨q)∧r ; b) ¬p→q ; c) (p∧r)↔q."
+ },
+ {
+  "t": "p",
+  "text": "8. Simbolizá con letras y conectivos tres reglas del Copetín Karumbé; al menos una debe usar paréntesis (ej.: «si es viernes y hay harina, hay chipa»)."
+ },
+ {
+  "t": "p",
+  "text": "9. La promesa de Ña Rosa: p = «comprás dos chipas», q = «te regalo un cocido». Escribí p→q y explicá en qué único caso la promesa se rompe (es F)."
+ },
+ {
+  "t": "p",
+  "text": "Pensá y decidí — elegí o marcá V/F, y justificá siempre:"
+ },
+ {
+  "t": "p",
+  "text": "10. V o F: «La conjunción p∧q es verdadera si al menos una de las dos es verdadera.»"
+ },
+ {
+  "t": "p",
+  "text": "11. V o F: «Con p = F, el condicional p→q es verdadero sin importar q.»"
+ },
+ {
+  "t": "p",
+  "text": "12. Elegí y justificá: el único caso en que p→q es F es cuando a) p=V, q=V b) p=V, q=F c) p=F, q=V."
+ },
+ {
+  "t": "p",
+  "text": "Desafío — integrá lo aprendido:"
+ },
+ {
+  "t": "p",
+  "text": "13. Simbolizá la regla «hay descuento si pagás con QR y comprás antes de las 9» como (p∧q)→r, y evaluala con p=V, q=V, r=V y con p=V, q=F, r=F. Indicá en qué caso la promesa NO se cumple."
+ },
+ {
+  "t": "h1",
+  "text": "Clase 8 — Tablas de verdad I: construcción y evaluación"
+ },
+ {
+  "t": "ficha",
+  "capacidad": "Emplea la lógica proposicional en la valoración de las proposiciones.",
+  "tema": "Construcción de tablas de verdad con dos variables: negación, conjunción y disyunciones.",
+  "indicadores": [
+   "Construye la tabla de verdad de una fórmula con dos variables sin omitir filas.",
+   "Evalúa fórmulas compuestas columna por columna en el orden correcto.",
+   "Determina en qué casos una fórmula dada resulta verdadera."
+  ]
+ },
+ {
+  "t": "h2",
+  "text": "¿Cuántas filas tiene una tabla?"
+ },
+ {
+  "t": "p",
+  "text": "Una tabla de verdad recorre todas las combinaciones posibles de valores de las variables. Con n variables hay 2ⁿ combinaciones: 1 variable → 2 filas; 2 variables → 4 filas; 3 variables → 8 filas. ¿Te suena la fórmula? Es la misma 2ⁿ de los subconjuntos de la Unidad 1: cada fila es un subconjunto de variables verdaderas."
+ },
+ {
+  "t": "h2",
+  "text": "El orden estándar de las filas"
+ },
+ {
+  "t": "p",
+  "text": "Para no olvidar combinaciones, se usa siempre el mismo patrón: la primera variable alterna de a mitades (V V F F) y la segunda de a una (V F V F). Con ese orden, cualquier persona puede leer tu tabla y encontrar cada caso en el mismo lugar."
+ },
+ {
+  "t": "h2",
+  "text": "Evaluar una fórmula por columnas"
+ },
+ {
+  "t": "p",
+  "text": "Para una fórmula compuesta se agrega una columna por cada paso intermedio, de adentro hacia afuera: primero las negaciones, después lo que está entre paréntesis, al final el conectivo principal. Construyamos la tabla de ¬(p ∧ q):"
+ },
+ {
+  "t": "p",
+  "text": "La Figura 2.1 muestra ese método con colores: cada V va en verde y cada F en rojo, y la columna del conectivo principal —la última— queda resaltada. Leé la tabla fila por fila y verificá cada casillero con las definiciones de la Clase 7 antes de seguir."
+ },
+ {
+  "t": "img",
+  "file": "src_03.png",
+  "ancho_cm": 16.0,
+  "epigrafe": "Figura 2.1 — Evaluación por columnas de (p ∨ q) ∧ ¬p: las columnas auxiliares preparan el resultado y la columna final, resaltada, muestra que la fórmula solo es verdadera cuando p es F y q es V.",
+  "num_viejo": "2.1"
+ },
+ {
+  "t": "tabla",
+  "hdr": [
+   "p",
+   "q",
+   "p ∧ q",
+   "¬(p ∧ q)"
+  ],
+  "rows": [
+   [
+    "V",
+    "V",
+    "V",
+    "F"
+   ],
+   [
+    "V",
+    "F",
+    "F",
+    "V"
+   ],
+   [
+    "F",
+    "V",
+    "F",
+    "V"
+   ],
+   [
+    "F",
+    "F",
+    "F",
+    "V"
+   ]
+  ]
+ },
+ {
+  "t": "caja",
+  "title": "Ejemplo — Paso a paso con ¬p ∨ q",
+  "body": [
+   "Columnas: p, q, ¬p y al final ¬p ∨ q. Fila por fila: V V → F ∨ V = V; V F → F ∨ F = F; F V → V ∨ V = V; F F → V ∨ F = V. Resultado: V F V V — exactamente la misma columna que p → q. No es casualidad: lo vas a demostrar en la Clase 10."
+  ]
+ },
+ {
+  "t": "h2",
+  "text": "Leer conclusiones de la tabla"
+ },
+ {
+  "t": "p",
+  "text": "La columna final dice en qué casos la fórmula es verdadera. Eso responde preguntas del tipo «¿cuándo se activa el descuento?» o «¿en qué combinación la regla falla?» sin necesidad de probar caso por caso en la vida real: la tabla ya los probó todos."
+ },
+ {
+  "t": "caja",
+  "title": "Concepto clave — Tabla de verdad",
+  "body": [
+   "Procedimiento exhaustivo: recorre las 2ⁿ combinaciones posibles de valores y calcula el valor de la fórmula en cada una. Si una fila falta, la tabla no vale."
+  ]
+ },
+ {
+  "t": "caja",
+  "title": "En Paraguay — 2ⁿ crece rápido",
+  "body": [
+   "Un sistema con 20 opciones de configuración tiene 2²⁰ = más de un millón de combinaciones. Por eso los equipos de desarrollo de software prueban con tablas reducidas y casos límite: probar todo, a mano, es imposible."
+  ]
+ },
+ {
+  "t": "h3",
+  "text": "Actividades de aplicación"
+ },
+ {
+  "t": "p",
+  "text": "Ejercitá — resolvé estas operaciones directas:"
+ },
+ {
+  "t": "p",
+  "text": "1. Indicá cuántas filas tiene una tabla de: a) 1 variable ; b) 2 variables ; c) 3 variables."
+ },
+ {
+  "t": "p",
+  "text": "2. Escribí el orden estándar de las 4 filas de p y q."
+ },
+ {
+  "t": "p",
+  "text": "3. Construí la tabla de verdad de ¬(p∧q)."
+ },
+ {
+  "t": "p",
+  "text": "4. Construí la tabla de ¬p∨q e indicá con qué conectivo conocido coincide su columna final."
+ },
+ {
+  "t": "p",
+  "text": "5. Construí la tabla de p⊻q (disyunción exclusiva)."
+ },
+ {
+  "t": "p",
+  "text": "6. Para la fórmula (p∨q)∧¬p, indicá qué columnas intermedias hay que construir antes del resultado final."
+ },
+ {
+  "t": "p",
+  "text": "Resolvé — problemas del Copetín Karumbé:"
+ },
+ {
+  "t": "p",
+  "text": "7. Construí la tabla de verdad completa de (p∨q)∧¬p e indicá en qué casos es verdadera."
+ },
+ {
+  "t": "p",
+  "text": "8. Ña Rosa promete: «hay descuento si comprás chipa o comprás cocido». Construí la tabla de p∨q y explicá en qué única situación de compra el descuento no está prometido."
+ },
+ {
+  "t": "p",
+  "text": "9. Construí la tabla de p→q y compará su columna con la de ¬p∨q: ¿coinciden?"
+ },
+ {
+  "t": "p",
+  "text": "Pensá y decidí — elegí o marcá V/F, y justificá siempre:"
+ },
+ {
+  "t": "p",
+  "text": "10. V o F: «Una tabla de dos variables con tres filas puede estar bien construida.»"
+ },
+ {
+  "t": "p",
+  "text": "11. V o F: «La fórmula p∨¬q es falsa únicamente cuando p = F y q = V.»"
+ },
+ {
+  "t": "p",
+  "text": "12. Elegí y justificá: al evaluar una fórmula, lo primero que se resuelve es a) los paréntesis y las negaciones. b) el conectivo principal."
+ },
+ {
+  "t": "p",
+  "text": "Desafío — integrá lo aprendido:"
+ },
+ {
+  "t": "p",
+  "text": "13. Construí la tabla de (p→q)∧(q→p) e indicá con qué conectivo simple coincide su columna final. Justificá el nombre de ese conectivo."
+ },
+ {
+  "t": "h1",
+  "text": "Clase 9 — Tablas de verdad II: tres variables, tautología, contradicción e indeterminación"
+ },
+ {
+  "t": "ficha",
+  "capacidad": "Emplea la lógica proposicional en la valoración de las proposiciones.",
+  "tema": "Tablas con condicional y bicondicional; fórmulas con tres variables; tautologías, contradicciones e indeterminaciones.",
+  "indicadores": [
+   "Construye tablas de verdad de fórmulas con hasta tres variables (8 filas).",
+   "Clasifica fórmulas en tautología, contradicción o indeterminación según su tabla.",
+   "Justifica la clasificación señalando las filas decisivas de la tabla."
+  ]
+ },
+ {
+  "t": "h2",
+  "text": "Tablas con condicional y bicondicional"
+ },
+ {
+  "t": "p",
+  "text": "Las fórmulas con → y ↔ se evalúan igual que las demás: columnas intermedias y conectivo principal al final. El error típico es olvidar que p → q es V cuando p es F; tené la tabla de la Clase 7 a mano hasta que la memorices."
+ },
+ {
+  "t": "h2",
+  "text": "Tres variables: 8 filas"
+ },
+ {
+  "t": "p",
+  "text": "Con p, q y r la tabla tiene 2³ = 8 filas. El orden estándar: p alterna de a cuatro (V V V V F F F F), q de a dos (V V F F V V F F) y r de a una (V F V F V F V F). Así ninguna combinación se pierde ni se repite."
+ },
+ {
+  "t": "h2",
+  "text": "Tautología, contradicción e indeterminación"
+ },
+ {
+  "t": "p",
+  "text": "Según su columna final, toda fórmula cae en una de tres clases. La tautología es verdadera en todas las filas; la contradicción es falsa en todas; la indeterminación (o contingencia) mezcla valores V y F según el caso."
+ },
+ {
+  "t": "tabla",
+  "hdr": [
+   "Clase",
+   "Columna final",
+   "Ejemplo clásico"
+  ],
+  "rows": [
+   [
+    "Tautología",
+    "Todas V",
+    "p ∨ ¬p («hay chipa o no hay chipa»)"
+   ],
+   [
+    "Contradicción",
+    "Todas F",
+    "p ∧ ¬p («hay chipa y no hay chipa»)"
+   ],
+   [
+    "Indeterminación",
+    "Mezcla de V y F",
+    "p ∧ q, p → q, p ⊻ q ..."
+   ]
+  ]
+ },
+ {
+  "t": "caja",
+  "title": "Ejemplo — Clasificando (p ∧ q) → p",
+  "body": [
+   "Tabla: V V → V ∧ V = V, V → V = V; V F → F → V = V; F V → F → F = V; F F → F → F = V. Columna final: V V V V. Es una tautología: si las dos cosas pasan, en particular pasa la primera — verdad lógica pura, no depende del mundo."
+  ]
+ },
+ {
+  "t": "h2",
+  "text": "¿Para qué sirve clasificar?"
+ },
+ {
+  "t": "p",
+  "text": "Una regla de negocio que resulta tautología está de más (siempre se cumple, no filtra nada) y una que resulta contradicción es un error de diseño (nunca podrá cumplirse). Detectarlas con una tabla, antes de programar, ahorra horas de búsqueda de errores."
+ },
+ {
+  "t": "caja",
+  "title": "Concepto clave — Tautología",
+  "body": [
+   "Fórmula verdadera en todas las combinaciones posibles. Su verdad no depende de los hechos: depende solo de su estructura lógica."
+  ]
+ },
+ {
+  "t": "caja",
+  "title": "En Paraguay — Reglas que nunca se activan",
+  "body": [
+   "Un descuento configurado como «pago QR y pago en efectivo» (p ∧ ¬p sobre el mismo ticket) es una contradicción: jamás se aplicará. Errores así aparecen de verdad en los sistemas de facturación cuando nadie tabuló la condición."
+  ]
+ },
+ {
+  "t": "h3",
+  "text": "Actividades de aplicación"
+ },
+ {
+  "t": "p",
+  "text": "Ejercitá — resolvé estas operaciones directas:"
+ },
+ {
+  "t": "p",
+  "text": "1. Indicá cuántas filas tiene la tabla de 3 variables y escribí el orden estándar de p, q, r."
+ },
+ {
+  "t": "p",
+  "text": "2. Construí la tabla de (p∧q)→p e indicá su clase (tautología, contradicción o indeterminación)."
+ },
+ {
+  "t": "p",
+  "text": "3. Construí la tabla de p∨¬p e indicá su clase."
+ },
+ {
+  "t": "p",
+  "text": "4. Construí la tabla de p∧¬p e indicá su clase."
+ },
+ {
+  "t": "p",
+  "text": "5. Clasificá según la columna final dada: a) V,V,V,V ; b) F,F,F,F ; c) V,F,V,F."
+ },
+ {
+  "t": "p",
+  "text": "6. Construí la tabla de p→(p∨q) e indicá su clase."
+ },
+ {
+  "t": "p",
+  "text": "Resolvé — problemas del Copetín Karumbé:"
+ },
+ {
+  "t": "p",
+  "text": "7. Construí la tabla completa (8 filas) de (p∧q)→r e indicá las filas en que resulta falsa."
+ },
+ {
+  "t": "p",
+  "text": "8. Clasificá la fórmula (p→q)∨p construyendo su tabla, y explicá qué significa el resultado."
+ },
+ {
+  "t": "p",
+  "text": "9. Ña Rosa configura por error un descuento como «pago QR y pago en efectivo» sobre el mismo ticket (p∧¬p). Construí la tabla y explicá por qué ese descuento nunca se aplica."
+ },
+ {
+  "t": "p",
+  "text": "Pensá y decidí — elegí o marcá V/F, y justificá siempre:"
+ },
+ {
+  "t": "p",
+  "text": "10. V o F: «Una fórmula puede ser tautología y contradicción a la vez.»"
+ },
+ {
+  "t": "p",
+  "text": "11. V o F: «Para clasificar una fórmula alcanza con probar una sola fila.»"
+ },
+ {
+  "t": "p",
+  "text": "12. Elegí y justificá: si la columna final es F, F, F, F, la fórmula es a) tautología b) indeterminación. c) contradicción."
+ },
+ {
+  "t": "p",
+  "text": "Desafío — integrá lo aprendido:"
+ },
+ {
+  "t": "p",
+  "text": "13. Construí la tabla de 8 filas de (p→q)∧(q→r) e indicá si, en todas las filas donde las dos partes son verdaderas, también resulta verdadero p→r (silogismo hipotético)."
+ },
+ {
+  "t": "h1",
+  "text": "Clase 10 — Equivalencias y leyes lógicas"
+ },
+ {
+  "t": "ficha",
+  "capacidad": "Emplea la lógica proposicional en la valoración de las proposiciones.",
+  "tema": "Equivalencia lógica; doble negación, leyes de De Morgan, adjunción y simplificación.",
+  "indicadores": [
+   "Verifica equivalencias lógicas comparando tablas de verdad.",
+   "Aplica las leyes de De Morgan para negar conjunciones y disyunciones.",
+   "Utiliza las reglas de adjunción y simplificación en deducciones sencillas."
+  ]
+ },
+ {
+  "t": "h2",
+  "text": "¿Cuándo dos fórmulas son equivalentes?"
+ },
+ {
+  "t": "p",
+  "text": "Dos fórmulas son lógicamente equivalentes (se escribe ≡) cuando sus tablas de verdad tienen exactamente la misma columna final. Equivalen a decir lo mismo con otras palabras: una puede reemplazar a la otra en cualquier razonamiento. En la Clase 8 ya viste una: ¬p ∨ q ≡ p → q."
+ },
+ {
+  "t": "h2",
+  "text": "Doble negación"
+ },
+ {
+  "t": "p",
+  "text": "Negar dos veces devuelve la proposición original: ¬(¬p) ≡ p. «No es cierto que no hay chipa» es, simplemente, «hay chipa». En el habla se usa para dar énfasis; en lógica, las dos negaciones se cancelan."
+ },
+ {
+  "t": "h2",
+  "text": "Las leyes de De Morgan"
+ },
+ {
+  "t": "p",
+  "text": "Las mismas leyes que viste para conjuntos valen para proposiciones: la negación de una conjunción es la disyunción de las negaciones, y viceversa. Son la herramienta correcta para negar frases compuestas sin equivocarse."
+ },
+ {
+  "t": "p",
+  "text": "La Figura 2.2 demuestra la primera ley de De Morgan con una sola tabla: las dos columnas resaltadas —¬(p ∧ q) y ¬p ∨ ¬q— resultan idénticas fila por fila, y eso es exactamente lo que significa la equivalencia. Comprobá cada fila con tu propia cuenta."
+ },
+ {
+  "t": "img",
+  "file": "src_04.png",
+  "ancho_cm": 16.0,
+  "epigrafe": "Figura 2.2 — Tabla de verdad de la ley de De Morgan: ¬(p ∧ q) ≡ ¬p ∨ ¬q. Las columnas resaltadas coinciden en las cuatro filas: F, V, V, V.",
+  "num_viejo": "2.2"
+ },
+ {
+  "t": "tabla",
+  "hdr": [
+   "Ley",
+   "Fórmula",
+   "En palabras"
+  ],
+  "rows": [
+   [
+    "De Morgan (∧)",
+    "¬(p ∧ q) ≡ ¬p ∨ ¬q",
+    "No pasan las dos ⇔ falla al menos una."
+   ],
+   [
+    "De Morgan (∨)",
+    "¬(p ∨ q) ≡ ¬p ∧ ¬q",
+    "No pasa ninguna ⇔ fallan las dos."
+   ],
+   [
+    "Doble negación",
+    "¬(¬p) ≡ p",
+    "Negar dos veces es afirmar."
+   ],
+   [
+    "Adjunción",
+    "de p y q se concluye p ∧ q",
+    "Dos verdades separadas forman una conjunción verdadera."
+   ],
+   [
+    "Simplificación",
+    "de p ∧ q se concluye p (o q)",
+    "De una conjunción verdadera se extrae cada parte."
+   ]
+  ]
+ },
+ {
+  "t": "caja",
+  "title": "Ejemplo — Negar el cartel del copetín",
+  "body": [
+   "Cartel: «hay chipa y hay cocido» (p ∧ q). Si el cartel es falso, De Morgan dice que ¬p ∨ ¬q: falta la chipa o falta el cocido (al menos uno). Negarlo como «no hay chipa y no hay cocido» sería un error: eso es la negación de p ∨ q, no de p ∧ q."
+  ]
+ },
+ {
+  "t": "h2",
+  "text": "Adjunción y simplificación: las primeras reglas de deducción"
+ },
+ {
+  "t": "p",
+  "text": "Además de equivalencias hay reglas de inferencia: pasos válidos que producen conclusiones nuevas. La adjunción une dos proposiciones verdaderas en una conjunción; la simplificación extrae una parte de una conjunción verdadera. Son modestas, pero con ellas empieza el arte de demostrar que continúa en la Clase 12."
+ },
+ {
+  "t": "caja",
+  "title": "Concepto clave — Equivalencia lógica (≡)",
+  "body": [
+   "Misma columna final en la tabla de verdad ⇒ mismas condiciones de verdad ⇒ intercambiables en cualquier razonamiento."
+  ]
+ },
+ {
+  "t": "caja",
+  "title": "En Paraguay — De Morgan en los buscadores",
+  "body": [
+   "Cuando un sistema de stock busca los productos que NO están «disponibles y con precio cargado», aplica De Morgan: muestra los que no están disponibles o no tienen precio. Esta equivalencia lógica permite reescribir condiciones de búsqueda sin cambiar su significado."
+  ]
+ },
+ {
+  "t": "h3",
+  "text": "Actividades de aplicación"
+ },
+ {
+  "t": "p",
+  "text": "Ejercitá — resolvé estas operaciones directas:"
+ },
+ {
+  "t": "p",
+  "text": "1. Aplicá De Morgan: escribí la equivalente de ¬(p∧q) y de ¬(p∨q)."
+ },
+ {
+  "t": "p",
+  "text": "2. Simplificá aplicando doble negación: ¬(¬p)."
+ },
+ {
+  "t": "p",
+  "text": "3. Con las premisas p (V) y q (V), aplicá adjunción: escribí la conclusión."
+ },
+ {
+  "t": "p",
+  "text": "4. De p∧q (V) aplicá simplificación: escribí las dos conclusiones posibles."
+ },
+ {
+  "t": "p",
+  "text": "5. Verificá comparando columnas que ¬p∨q ≡ p→q."
+ },
+ {
+  "t": "p",
+  "text": "6. Negá con De Morgan: «hay chipa y hay cocido»."
+ },
+ {
+  "t": "p",
+  "text": "Resolvé — problemas del Copetín Karumbé:"
+ },
+ {
+  "t": "p",
+  "text": "7. Verificá con tablas de verdad que ¬(p∨q) ≡ ¬p∧¬q."
+ },
+ {
+  "t": "p",
+  "text": "8. El sistema del copetín rechaza un pedido cuando NO se cumple «hay stock y el pago fue aprobado». Escribí la condición de rechazo aplicando De Morgan y explicala en palabras."
+ },
+ {
+  "t": "p",
+  "text": "9. Negá correctamente el cartel «hay chipa y hay cocido» y explicá por qué «no hay chipa y no hay cocido» sería un error."
+ },
+ {
+  "t": "p",
+  "text": "Pensá y decidí — elegí o marcá V/F, y justificá siempre:"
+ },
+ {
+  "t": "p",
+  "text": "10. V o F: «¬(p∧q) es equivalente a ¬p∧¬q.»"
+ },
+ {
+  "t": "p",
+  "text": "11. V o F: «p→q es equivalente a ¬p∨q.»"
+ },
+ {
+  "t": "p",
+  "text": "12. Elegí y justificá: de p∧q se concluye q por a) simplificación b) adjunción c) De Morgan."
+ },
+ {
+  "t": "p",
+  "text": "Desafío — integrá lo aprendido:"
+ },
+ {
+  "t": "p",
+  "text": "13. Un buscador de stock debe mostrar los productos que NO están «disponibles y con precio cargado». Escribí la condición con De Morgan, verificala con una tabla y explicá qué productos mostrará el buscador."
+ },
+ {
+  "t": "h1",
+  "text": "Clase 11 — Funciones proposicionales y cuantificadores"
+ },
+ {
+  "t": "ficha",
+  "capacidad": "Construye proposiciones que contengan cuantificadores universales y existenciales.",
+  "tema": "Funciones proposicionales; cuantificador universal y existencial; negación de cuantificadores.",
+  "indicadores": [
+   "Convierte funciones proposicionales en proposiciones mediante cuantificadores.",
+   "Determina el valor de verdad de proposiciones cuantificadas sobre un conjunto dado.",
+   "Niega correctamente proposiciones con cuantificadores universal y existencial."
+  ]
+ },
+ {
+  "t": "h2",
+  "text": "De la proposición abierta a la función proposicional"
+ },
+ {
+  "t": "p",
+  "text": "Una función proposicional p(x) es una expresión con variable que se convierte en proposición cuando x toma un valor de un conjunto de referencia. Por ejemplo, sobre el menú M del copetín, p(x) = «x cuesta menos de G. 5.000»: p(chipa) puede ser V y p(gaseosa) F. La Unidad 1 (conjuntos) y esta unidad (lógica) se encuentran acá."
+ },
+ {
+  "t": "h2",
+  "text": "El cuantificador universal: ∀"
+ },
+ {
+  "t": "p",
+  "text": "∀x: p(x) se lee «para todo x, p(x)» y es verdadera cuando p(x) resulta verdadera para todos los elementos del conjunto de referencia. Basta un solo contraejemplo para que la proposición universal sea falsa."
+ },
+ {
+  "t": "h2",
+  "text": "El cuantificador existencial: ∃"
+ },
+ {
+  "t": "p",
+  "text": "∃x: p(x) se lee «existe al menos un x tal que p(x)» y es verdadera cuando hay por lo menos un elemento que cumple la propiedad. Para demostrarla alcanza con exhibir un ejemplo; para refutarla hay que revisar todos los elementos."
+ },
+ {
+  "t": "caja",
+  "title": "Ejemplo — Cuantificando el menú",
+  "body": [
+   "Sobre M = {chipa, mixta, empanada, coquito, gaseosa} con los precios del día: ∀x: «x cuesta menos de G. 20.000» es V si todos los precios están por debajo; ∃x: «x cuesta G. 500» es V porque el coquito cuesta eso. En cambio ∀x: «x es frito» es F: la gaseosa es el contraejemplo."
+  ]
+ },
+ {
+  "t": "h2",
+  "text": "Negar cuantificadores"
+ },
+ {
+  "t": "p",
+  "text": "La negación intercambia los cuantificadores: no es cierto que todos cumplen ⇔ existe alguno que no cumple; y no existe ninguno que cumpla ⇔ todos no cumplen. Son las leyes de De Morgan generalizadas."
+ },
+ {
+  "t": "tabla",
+  "hdr": [
+   "Proposición",
+   "Negación",
+   "En palabras"
+  ],
+  "rows": [
+   [
+    "∀x: p(x)",
+    "∃x: ¬p(x)",
+    "«Todos cumplen» se niega con «alguno no cumple»."
+   ],
+   [
+    "∃x: p(x)",
+    "∀x: ¬p(x)",
+    "«Alguno cumple» se niega con «ninguno cumple»."
+   ]
+  ]
+ },
+ {
+  "t": "caja",
+  "title": "Concepto clave — Contraejemplo",
+  "body": [
+   "Un solo elemento que no cumple la propiedad basta para derribar un «para todo». Buscar contraejemplos es la forma más barata de poner a prueba una afirmación."
+  ]
+ },
+ {
+  "t": "caja",
+  "title": "En Paraguay — «Todos» y «alguno» en las normas",
+  "body": [
+   "Las normas se escriben con cuantificadores: «todo comercio debe emitir comprobante», «existe un régimen especial para pequeños contribuyentes». Leer con precisión ∀ y ∃ evita interpretar de más o de menos lo que una regla realmente exige."
+  ]
+ },
+ {
+  "t": "h3",
+  "text": "Actividades de aplicación"
+ },
+ {
+  "t": "p",
+  "text": "Ejercitá — resolvé estas operaciones directas:"
+ },
+ {
+  "t": "p",
+  "text": "1. Sobre A = {2, 4, 6, 8}, decidí el valor de: a) ∀x: x es par ; b) ∃x: x > 7 ; c) ∀x: x > 3."
+ },
+ {
+  "t": "p",
+  "text": "2. Sobre el menú M con los precios del día, decidí el valor de ∃x: «x cuesta G. 500»."
+ },
+ {
+  "t": "p",
+  "text": "3. Negá: a) ∀x: p(x) ; b) ∃x: p(x)."
+ },
+ {
+  "t": "p",
+  "text": "4. Sobre D = {1, 2, 3, 4, 5}, evaluá: a) ∀x: x + 1 ≤ 6 ; b) ∃x: x² = 9 ; c) ∀x: x es par."
+ },
+ {
+  "t": "p",
+  "text": "5. Escribí con ∀ o ∃: a) «todos los productos tienen precio» ; b) «existe un producto de G. 500»."
+ },
+ {
+  "t": "p",
+  "text": "6. Dado el «para todo» falso ∀x ∈ {2, 4, 5, 6}: x es par, indicá el contraejemplo."
+ },
+ {
+  "t": "p",
+  "text": "Resolvé — problemas del Copetín Karumbé:"
+ },
+ {
+  "t": "p",
+  "text": "7. Sobre M = {chipa, mixta, empanada, coquito, gaseosa}: evaluá ∀x: «x es frito» y dá el contraejemplo si resulta falsa."
+ },
+ {
+  "t": "p",
+  "text": "8. Escribí con símbolos y negá correctamente: «todos los productos del menú tienen precio cargado»."
+ },
+ {
+  "t": "p",
+  "text": "9. Ña Rosa afirma: «existe al menos un producto que cuesta menos de G. 1.000». Sobre el menú con el coquito a G. 500, decidí el valor y justificá exhibiendo el ejemplo."
+ },
+ {
+  "t": "p",
+  "text": "Pensá y decidí — elegí o marcá V/F, y justificá siempre:"
+ },
+ {
+  "t": "p",
+  "text": "10. V o F: «Una proposición universal falsa puede tener un solo contraejemplo.»"
+ },
+ {
+  "t": "p",
+  "text": "11. V o F: «∃x: p(x) es falsa cuando ningún elemento del conjunto cumple p(x).»"
+ },
+ {
+  "t": "p",
+  "text": "12. Elegí y justificá: para demostrar que ∃x: p(x) es verdadera alcanza con a) revisar todos los elementos b) exhibir un ejemplo que cumpla c) hallar un contraejemplo."
+ },
+ {
+  "t": "p",
+  "text": "Desafío — integrá lo aprendido:"
+ },
+ {
+  "t": "p",
+  "text": "13. Sobre el menú, escribí una proposición universal verdadera, una universal falsa (con su contraejemplo) y una existencial verdadera, todas sobre precios. Después negá la universal verdadera y decidí el valor de la negación."
+ },
+ {
+  "t": "h1",
+  "text": "Clase 12 — Razonamientos y demostraciones"
+ },
+ {
+  "t": "ficha",
+  "capacidad": "Construye proposiciones que contengan cuantificadores universales y existenciales.",
+  "tema": "Razonamiento deductivo e inductivo; Modus Ponendo Ponens, Modus Tollendo Tollens, Modus Tollendo Ponens; silogismos hipotético y disyuntivo.",
+  "indicadores": [
+   "Distingue razonamientos deductivos de inductivos en ejemplos dados.",
+   "Identifica la regla de inferencia aplicada en un razonamiento simbolizado.",
+   "Construye conclusiones válidas a partir de premisas usando las reglas estudiadas."
+  ]
+ },
+ {
+  "t": "h2",
+  "text": "Premisas, conclusión y validez"
+ },
+ {
+  "t": "p",
+  "text": "Un razonamiento parte de proposiciones aceptadas como verdaderas —las premisas— y obtiene otra proposición: la conclusión. Es deductivo cuando la conclusión se sigue necesariamente de las premisas (si ellas son V, la conclusión es V sí o sí) e inductivo cuando generaliza a partir de casos observados: sus conclusiones son probables, no seguras."
+ },
+ {
+  "t": "h2",
+  "text": "Modus Ponendo Ponens (MPP)"
+ },
+ {
+  "t": "p",
+  "text": "Es la regla estrella: de un condicional verdadero y de su antecedente verdadero se concluye el consecuente. Premisas: p → q y p. Conclusión: q. «Si pagás, te entrego el pedido. Pagaste. Entonces te entrego el pedido.»"
+ },
+ {
+  "t": "h2",
+  "text": "Modus Tollendo Tollens (MTT) y Modus Tollendo Ponens (MTP)"
+ },
+ {
+  "t": "p",
+  "text": "El MTT razona hacia atrás: de p → q y ¬q se concluye ¬p («si hubiera pagado, tendría el pedido; no lo tiene: no pagó»). El MTP trabaja con la disyunción: de p ∨ q y ¬p se concluye q («era chipa o mixta; no era chipa: era mixta»). El «tollendo» significa negando: en ambos casos una premisa niega algo."
+ },
+ {
+  "t": "tabla",
+  "hdr": [
+   "Regla",
+   "Premisas",
+   "Conclusión",
+   "Recordatorio"
+  ],
+  "rows": [
+   [
+    "MPP",
+    "p → q ;  p",
+    "q",
+    "Afirma el antecedente."
+   ],
+   [
+    "MTT",
+    "p → q ;  ¬q",
+    "¬p",
+    "Niega el consecuente."
+   ],
+   [
+    "MTP",
+    "p ∨ q ;  ¬p",
+    "q",
+    "Descarta una opción de la disyunción."
+   ],
+   [
+    "Silogismo hipotético",
+    "p → q ;  q → r",
+    "p → r",
+    "Encadena condicionales."
+   ],
+   [
+    "Silogismo disyuntivo",
+    "p ∨ q ;  p → r ;  q → s",
+    "r ∨ s",
+    "Disyunción de consecuentes."
+   ]
+  ]
+ },
+ {
+  "t": "caja",
+  "title": "Ejemplo — Deduciendo en el copetín",
+  "body": [
+   "Premisa 1: «si es viernes, hay chipa» (p → q). Premisa 2: «hoy no hay chipa» (¬q). Por MTT: «hoy no es viernes» (¬p). Ojo con el error clásico: de p → q y q NO se concluye p — que haya chipa no prueba que sea viernes: Ña Rosa también hornea otros días."
+  ]
+ },
+ {
+  "t": "h2",
+  "text": "Los silogismos: encadenar razones"
+ },
+ {
+  "t": "p",
+  "text": "El silogismo hipotético encadena condicionales: de p → q y q → r se concluye p → r. El disyuntivo combina una disyunción con dos condicionales: de p ∨ q, p → r y q → s se concluye r ∨ s. Con estas cinco reglas ya podés construir demostraciones de varios pasos, citando en cada paso la regla usada."
+ },
+ {
+  "t": "caja",
+  "title": "Concepto clave — Validez",
+  "body": [
+   "Un razonamiento es válido cuando la verdad de las premisas garantiza la de la conclusión. La validez depende de la forma, no del tema del que se habla."
+  ]
+ },
+ {
+  "t": "caja",
+  "title": "En Paraguay — La máquina también deduce",
+  "body": [
+   "Los sistemas de validación —de un formulario del MEC a la app de tu banco— encadenan reglas MPP a toda velocidad: «si el campo está vacío, entonces rechazar; el campo está vacío; rechazar». Programar bien empieza por deducir bien."
+  ]
+ },
+ {
+  "t": "h3",
+  "text": "Actividades de aplicación"
+ },
+ {
+  "t": "p",
+  "text": "Ejercitá — resolvé estas operaciones directas:"
+ },
+ {
+  "t": "p",
+  "text": "1. Identificá la regla: de p→q y p se concluye ______."
+ },
+ {
+  "t": "p",
+  "text": "2. Identificá la regla: de p→q y ¬q se concluye ______."
+ },
+ {
+  "t": "p",
+  "text": "3. Identificá la regla: de p∨q y ¬p se concluye ______."
+ },
+ {
+  "t": "p",
+  "text": "4. Concluí e indicá la regla: de p→q y q→r se concluye ______."
+ },
+ {
+  "t": "p",
+  "text": "5. Clasificá en deductivo o inductivo: «probé tres chipas de Ña Rosa y estaban ricas; todas sus chipas son ricas»."
+ },
+ {
+  "t": "p",
+  "text": "6. Simbolizá y concluí: «si pagás, te entrego el pedido; pagaste»."
+ },
+ {
+  "t": "p",
+  "text": "Resolvé — problemas del Copetín Karumbé:"
+ },
+ {
+  "t": "p",
+  "text": "7. Simbolizá y resolvé indicando la regla: «Si el cliente paga con QR, el sistema emite el comprobante. El sistema no emitió el comprobante. ¿Qué se concluye?»"
+ },
+ {
+  "t": "p",
+  "text": "8. Construí una deducción de dos pasos con las premisas: 1) p→q ; 2) q→r ; 3) p. Indicá la regla usada en cada paso y la conclusión final."
+ },
+ {
+  "t": "p",
+  "text": "9. «Si es viernes, hay chipa. Hoy no hay chipa.» Simbolizá, concluí e indicá la regla; explicá por qué de p→q y q NO se concluye p."
+ },
+ {
+  "t": "p",
+  "text": "Pensá y decidí — elegí o marcá V/F, y justificá siempre:"
+ },
+ {
+  "t": "p",
+  "text": "10. V o F: «De p→q y q se concluye válidamente p.»"
+ },
+ {
+  "t": "p",
+  "text": "11. V o F: «El MTP (Modus Tollendo Ponens) necesita una disyunción entre sus premisas.»"
+ },
+ {
+  "t": "p",
+  "text": "12. Elegí y justificá: de «si llueve, la clase es virtual» y «llueve» se concluye «la clase es virtual» por a) MTT b) MTP. c) MPP."
+ },
+ {
+  "t": "p",
+  "text": "Desafío — integrá lo aprendido:"
+ },
+ {
+  "t": "p",
+  "text": "13. Encadená un razonamiento con tres premisas del copetín usando silogismo hipotético y MPP, simbolizá cada paso e indicá la conclusión final y las reglas aplicadas."
+ },
+ {
+  "t": "banda",
+  "text": "EVALUACIÓN DE LA UNIDAD 2 / Lógica Simbólica",
+  "lines": [
+   "EVALUACIÓN DE LA UNIDAD 2",
+   "Lógica Simbólica"
+  ]
+ },
+ {
+  "t": "p",
+  "text": "Nombre y Apellido: _______________________________  Curso: ______  Fecha: ____ / ____ / ____"
+ },
+ {
+  "t": "p",
+  "text": "Parte A — Diagnóstico rápido (marcá la opción correcta):"
+ },
+ {
+  "t": "p",
+  "text": "1. De p → q y ¬q se concluye:"
+ },
+ {
+  "t": "p",
+  "text": "a) p"
+ },
+ {
+  "t": "p",
+  "text": "b) ¬p"
+ },
+ {
+  "t": "p",
+  "text": "c) q"
+ },
+ {
+  "t": "p",
+  "text": "2. La fórmula p ∨ ¬p es:"
+ },
+ {
+  "t": "p",
+  "text": "a) contradicción"
+ },
+ {
+  "t": "p",
+  "text": "b) indeterminación"
+ },
+ {
+  "t": "p",
+  "text": "c) tautología"
+ },
+ {
+  "t": "p",
+  "text": "3. ¬(p ∨ q) es equivalente a:"
+ },
+ {
+  "t": "p",
+  "text": "a) ¬p ∧ ¬q"
+ },
+ {
+  "t": "p",
+  "text": "b) ¬p ∨ ¬q"
+ },
+ {
+  "t": "p",
+  "text": "c) p ∧ q"
+ },
+ {
+  "t": "p",
+  "text": "Parte B — Ejercicios y problemas de resolución:"
+ },
+ {
+  "t": "p",
+  "text": "4. Indicá cuáles de las siguientes expresiones son proposiciones y clasificá las que lo sean en atómicas o moleculares: a) «El guaraní es idioma oficial del Paraguay» ; b) «¿Hay cocido?» ; c) «Hay chipa y no hay gaseosa» ; d) «x > 10»."
+ },
+ {
+  "t": "p",
+  "text": "5. Con p = V, q = F y r = V, calculá paso a paso: a) (p ∧ q) → r ; b) ¬p ∨ (q ↔ r) ; c) (p ⊻ q) ∧ ¬r."
+ },
+ {
+  "t": "p",
+  "text": "6. Construí la tabla de verdad completa de (p → q) ∧ ¬q y clasificá la fórmula (tautología, contradicción o indeterminación)."
+ },
+ {
+  "t": "p",
+  "text": "7. Aplicá De Morgan para negar: «el pago fue aprobado y hay stock». Escribí la negación en símbolos y en palabras."
+ },
+ {
+  "t": "p",
+  "text": "8. Simbolizá y concluí indicando la regla de inferencia: «Si el horno está encendido, hay chipa caliente. No hay chipa caliente.»"
+ },
+ {
+  "t": "banda",
+  "text": "EVALUACIÓN INTEGRADORA · 1.ª ETAPA / Unidades 1 y 2 · Cierre de la 1.ª etapa (junio)",
+  "lines": [
+   "EVALUACIÓN INTEGRADORA · 1.ª ETAPA",
+   "Unidades 1 y 2 · Cierre de la 1.ª etapa (junio)"
+  ]
+ },
+ {
+  "t": "p",
+  "text": "Nombre y Apellido: _______________________________  Curso: ______  Fecha: ____ / ____ / ____"
+ },
+ {
+  "t": "p",
+  "text": "Parte A — Diagnóstico rápido (marcá la opción correcta):"
+ },
+ {
+  "t": "p",
+  "text": "1. n({x / x es par y x ≤ 12}) vale (contando desde 2):"
+ },
+ {
+  "t": "p",
+  "text": "a) 7"
+ },
+ {
+  "t": "p",
+  "text": "b) 5"
+ },
+ {
+  "t": "p",
+  "text": "c) 6"
+ },
+ {
+  "t": "p",
+  "text": "2. Con p = V, q = V, r = F, el valor de (p ∧ q) → r es:"
+ },
+ {
+  "t": "p",
+  "text": "a) F"
+ },
+ {
+  "t": "p",
+  "text": "b) no se puede saber"
+ },
+ {
+  "t": "p",
+  "text": "c) V"
+ },
+ {
+  "t": "p",
+  "text": "3. La negación de «todos los pedidos fueron entregados» es:"
+ },
+ {
+  "t": "p",
+  "text": "a) ningún pedido fue entregado"
+ },
+ {
+  "t": "p",
+  "text": "b) algún pedido no fue entregado"
+ },
+ {
+  "t": "p",
+  "text": "c) todos los pedidos llegaron"
+ },
+ {
+  "t": "p",
+  "text": "Parte B — Ejercicios y problemas de resolución:"
+ },
+ {
+  "t": "p",
+  "text": "4. Con U = {1, ..., 12}, A = {x / x es par y x ≤ 12} y B = {3, 6, 9, 12}: escribí A por extensión y calculá A ∩ B, A ∪ B y (A ∪ B)′."
+ },
+ {
+  "t": "p",
+  "text": "5. En una sección de 30 estudiantes, 17 usan la computadora del laboratorio, 12 usan la propia y 5 usan ambas. Calculá con Venn: solo laboratorio, solo propia y ninguna. Verificá el control del universo."
+ },
+ {
+  "t": "p",
+  "text": "6. Simbolizá con p, q, r y paréntesis: «si hay harina y hay queso, entonces hay chipa». Con p = V, q = V, r = F, calculá su valor de verdad e interpretá el resultado."
+ },
+ {
+  "t": "p",
+  "text": "7. Construí la tabla de verdad de ¬p → q y decidí si es equivalente a p ∨ q comparando columnas."
+ },
+ {
+  "t": "p",
+  "text": "8. Negá con cuantificadores: «todos los productos del menú tienen precio cargado». Escribí la negación en símbolos y en palabras."
+ },
+ {
+  "t": "p",
+  "text": "9. «O el pedido es para llevar o es para la mesa. No es para llevar.» Simbolizá, concluí e indicá la regla de inferencia aplicada."
+ },
+ {
+  "t": "h1",
+  "text": "Unidad 3 — Introducción a la algoritmia",
+  "raw": "UNIDAD 3 — INTRODUCCIÓN A LA ALGORITMIA"
+ },
+ {
+  "t": "p",
+  "text": "Llegó la hora de programar con lápiz y papel. En esta unidad vas a aprender a diseñar algoritmos: recetas exactas que una computadora —o cualquier persona— puede seguir sin pensar. Todo lo anterior se pone en juego: los conjuntos definen los datos, la lógica define las condiciones. El proyecto del año es construir, paso a paso, el sistema de caja del Copetín Karumbé."
+ },
+ {
+  "t": "h1",
+  "text": "Clase 13 — El algoritmo: concepto, características y tipos"
+ },
+ {
+  "t": "ficha",
+  "capacidad": "Identifica las diferentes especificaciones de los algoritmos.",
+  "tema": "El algoritmo: concepto, generalidades, características y tipos (cualitativos y cuantitativos).",
+  "indicadores": [
+   "Define algoritmo y reconoce sus características esenciales en ejemplos dados.",
+   "Clasifica algoritmos en cualitativos y cuantitativos con justificación.",
+   "Identifica las etapas de resolución de un problema computacional."
+  ]
+ },
+ {
+  "t": "h2",
+  "text": "¿Qué es un algoritmo?"
+ },
+ {
+  "t": "p",
+  "text": "Un algoritmo es una secuencia finita y ordenada de pasos precisos que resuelve un problema. Una receta de chipa, las instrucciones para armar un mueble o el procedimiento para calcular un vuelto son algoritmos: parten de datos de entrada, procesan y producen un resultado de salida."
+ },
+ {
+  "t": "h2",
+  "text": "Las características que no pueden faltar"
+ },
+ {
+  "t": "p",
+  "text": "Para que una secuencia de pasos sea un algoritmo debe ser precisa (cada paso indica exactamente qué hacer, sin ambigüedad), finita (termina después de una cantidad limitada de pasos) y definida (con los mismos datos de entrada produce siempre el mismo resultado). «Agregá sal a gusto» es aceptable en la cocina, pero no en un algoritmo."
+ },
+ {
+  "t": "tabla",
+  "hdr": [
+   "Característica",
+   "Significa que...",
+   "Contraejemplo (lo que NO vale)"
+  ],
+  "rows": [
+   [
+    "Preciso",
+    "Cada paso es claro y sin ambigüedad.",
+    "«Cobrá más o menos G. 5.000.»"
+   ],
+   [
+    "Finito",
+    "Termina en una cantidad limitada de pasos.",
+    "«Repetí para siempre.»"
+   ],
+   [
+    "Definido",
+    "Misma entrada ⇒ mismo resultado.",
+    "«Elegí un descuento al azar.»"
+   ]
+  ]
+ },
+ {
+  "t": "h2",
+  "text": "Algoritmos cualitativos y cuantitativos"
+ },
+ {
+  "t": "p",
+  "text": "Los algoritmos cualitativos describen pasos sin cálculos numéricos: organizar el mostrador o clasificar productos. Los cuantitativos operan con números: calcular un vuelto, promediar las ventas de la semana o aplicar un descuento. Una computadora puede ejecutar algoritmos cuantitativos y también algoritmos que manipulan texto, categorías o estados. En esta unidad vas a practicar sobre todo algoritmos con cálculos numéricos porque permiten verificar cada paso con facilidad."
+ },
+ {
+  "t": "caja",
+  "title": "Ejemplo — Dos algoritmos de la misma mañana",
+  "body": [
+   "Cualitativo — «Preparar el mostrador»: 1) limpiar y despejar la superficie; 2) colocar servilletas y utensilios; 3) ordenar los carteles del día; 4) verificar que la caja esté lista. Cuantitativo — «Calcular el vuelto»: 1) leer el total de la compra; 2) leer el monto pagado; 3) restar total al pago; 4) informar el resultado."
+  ]
+ },
+ {
+  "t": "h2",
+  "text": "Las etapas de resolución de un problema"
+ },
+ {
+  "t": "p",
+  "text": "Antes de escribir pasos conviene ordenar el trabajo en tres etapas: análisis (¿qué datos entran?, ¿qué resultado se espera?), diseño (escribir el algoritmo en pseudocódigo o diagrama de flujo) y prueba (ejecutarlo a mano con datos concretos — la prueba de escritorio que vas a dominar en esta unidad)."
+ },
+ {
+  "t": "p",
+  "text": "La Figura 3.1 resume el esquema que vas a usar en todos los algoritmos del tomo, con un ejemplo real del copetín: un cliente lleva 3 chipas de G. 4.000. Identificá siempre estas tres partes antes de escribir un solo paso."
+ },
+ {
+  "t": "img",
+  "file": "src_05.png",
+  "ancho_cm": 16.0,
+  "epigrafe": "Figura 3.1 — Esquema entrada → proceso → salida: los datos (3 y G. 4.000) entran, el proceso multiplica y la salida informa el total de G. 12.000.",
+  "num_viejo": "3.1"
+ },
+ {
+  "t": "caja",
+  "title": "Concepto clave — Algoritmo",
+  "body": [
+   "Secuencia finita, precisa y definida de pasos que transforma datos de entrada en resultados de salida. Si un paso es ambiguo, todavía no es un algoritmo."
+  ]
+ },
+ {
+  "t": "caja",
+  "title": "En Paraguay — Al-Juarismi y la caja del súper",
+  "body": [
+   "La palabra «algoritmo» viene del matemático persa Al-Juarismi (siglo IX). Hoy, cada vez que una caja registradora paraguaya calcula el IVA de un ticket, ejecuta un algoritmo cuantitativo idéntico en espíritu a los que vas a diseñar en papel."
+  ]
+ },
+ {
+  "t": "h3",
+  "text": "Actividades de aplicación"
+ },
+ {
+  "t": "p",
+  "text": "Ejercitá — resolvé estas operaciones directas:"
+ },
+ {
+  "t": "p",
+  "text": "1. Clasificá en cualitativo o cuantitativo: a) la receta de la chipa ; b) calcular el vuelto ; c) abrir el local ; d) promediar las ventas de la semana."
+ },
+ {
+  "t": "p",
+  "text": "2. Indicá qué característica viola: a) «cobrá más o menos G. 5.000» ; b) «repetí para siempre» ; c) «elegí un descuento al azar»."
+ },
+ {
+  "t": "p",
+  "text": "3. Para «calcular el vuelto», identificá entrada, proceso y salida."
+ },
+ {
+  "t": "p",
+  "text": "4. Ordená las tres etapas de resolución de un problema: prueba, análisis, diseño."
+ },
+ {
+  "t": "p",
+  "text": "5. Decidí si es algoritmo (sí/no) y por qué: «agregá sal a gusto y serví»."
+ },
+ {
+  "t": "p",
+  "text": "6. Escribí los pasos (3 a 4) de un algoritmo cualitativo para «preparar el mostrador del copetín antes de abrir»."
+ },
+ {
+  "t": "p",
+  "text": "Resolvé — problemas del Copetín Karumbé:"
+ },
+ {
+  "t": "p",
+  "text": "7. Escribí un algoritmo cualitativo de 4 a 6 pasos para «cerrar el copetín al final del día»; verificá que cada paso sea preciso."
+ },
+ {
+  "t": "p",
+  "text": "8. Para el problema «calcular cuánto gastó un cliente que lleva 3 chipas de G. 4.000 cada una», identificá datos de entrada, proceso y salida, y dá el resultado."
+ },
+ {
+  "t": "p",
+  "text": "9. Escribí un algoritmo cuantitativo (pasos numerados) para «calcular el total de una compra de dos productos» e indicá su tipo."
+ },
+ {
+  "t": "p",
+  "text": "Pensá y decidí — elegí o marcá V/F, y justificá siempre:"
+ },
+ {
+  "t": "p",
+  "text": "10. V o F: «Un algoritmo puede no terminar nunca.»"
+ },
+ {
+  "t": "p",
+  "text": "11. V o F: «Con la misma entrada, un algoritmo definido puede dar resultados distintos.»"
+ },
+ {
+  "t": "p",
+  "text": "12. Elegí y justificá: «calcular el promedio de las ventas de la semana» es un algoritmo a) cualitativo b) cuantitativo."
+ },
+ {
+  "t": "p",
+  "text": "Desafío — integrá lo aprendido:"
+ },
+ {
+  "t": "p",
+  "text": "13. Escribí dos algoritmos de la misma mañana del copetín: uno cualitativo y uno cuantitativo, con pasos numerados, y justificá por qué cada uno pertenece a su tipo."
+ },
+ {
+  "t": "h1",
+  "text": "Clase 14 — Pseudocódigo y diagrama de flujo"
+ },
+ {
+  "t": "ficha",
+  "capacidad": "Identifica las diferentes especificaciones de los algoritmos.",
+  "tema": "El pseudocódigo y el diagrama de flujo de datos: concepto, características, símbolos y aplicaciones.",
+  "indicadores": [
+   "Escribe algoritmos sencillos en pseudocódigo con la estructura Inicio–Fin.",
+   "Identifica el símbolo del diagrama de flujo que corresponde a cada tipo de acción.",
+   "Traduce un algoritmo dado de pseudocódigo a diagrama de flujo y viceversa."
+  ]
+ },
+ {
+  "t": "h2",
+  "text": "El pseudocódigo: casi código, todavía castellano"
+ },
+ {
+  "t": "p",
+  "text": "El pseudocódigo es una forma de escribir algoritmos con palabras clave fijas —Inicio, Leer, Escribir, Si, Mientras, Fin— y estructura ordenada, pero sin la sintaxis estricta de un lenguaje de programación. Es el idioma puente: lo entiende cualquier persona y se traduce casi directo a cualquier lenguaje."
+ },
+ {
+  "t": "caja",
+  "title": "Ejemplo — El vuelto, en pseudocódigo",
+  "body": [
+   "§Inicio",
+   "§    Leer total",
+   "§    Leer pago",
+   "§    vuelto ← pago − total",
+   "§    Escribir vuelto",
+   "§Fin",
+   "Con total = 12.000 y pago = 20.000, el algoritmo escribe 8.000."
+  ]
+ },
+ {
+  "t": "h2",
+  "text": "El diagrama de flujo: el algoritmo en figuras"
+ },
+ {
+  "t": "p",
+  "text": "El diagrama de flujo de datos (DFD) representa el mismo algoritmo con símbolos gráficos unidos por flechas que marcan el orden de ejecución. Cada figura tiene un significado fijo — usarlas bien es parte de la evaluación."
+ },
+ {
+  "t": "p",
+  "text": "La Figura 3.2 reúne los cuatro símbolos normalizados que vas a usar en todos tus diagramas. Memorizá la pareja símbolo-función: en las evaluaciones, usar un rectángulo donde va un rombo es error de simbología, aunque el algoritmo sea correcto."
+ },
+ {
+  "t": "img",
+  "file": "src_06.png",
+  "ancho_cm": 16.0,
+  "epigrafe": "Figura 3.2 — Simbología normalizada del diagrama de flujo: óvalo (inicio/fin), paralelogramo (entrada/salida), rectángulo (proceso) y rombo (decisión).",
+  "num_viejo": "3.2"
+ },
+ {
+  "t": "tabla",
+  "hdr": [
+   "Símbolo",
+   "Figura",
+   "Se usa para..."
+  ],
+  "rows": [
+   [
+    "Terminal",
+    "Óvalo",
+    "Marcar el Inicio y el Fin del algoritmo."
+   ],
+   [
+    "Entrada / Salida",
+    "Paralelogramo",
+    "Leer datos o escribir resultados."
+   ],
+   [
+    "Proceso",
+    "Rectángulo",
+    "Cálculos y asignaciones."
+   ],
+   [
+    "Decisión",
+    "Rombo",
+    "Preguntas con dos salidas: Sí / No."
+   ],
+   [
+    "Flecha de flujo",
+    "Flecha",
+    "Indicar el orden de los pasos."
+   ]
+  ]
+ },
+ {
+  "t": "h2",
+  "text": "Del enunciado al pseudocódigo"
+ },
+ {
+  "t": "p",
+  "text": "El método de traducción es siempre el mismo: identificar los datos de entrada (van en Leer), la fórmula o proceso (va en asignaciones) y el resultado (va en Escribir). Después se encierra todo entre Inicio y Fin y se verifica con una prueba de escritorio."
+ },
+ {
+  "t": "h2",
+  "text": "Del pseudocódigo al diagrama"
+ },
+ {
+  "t": "p",
+  "text": "Cada línea del pseudocódigo se convierte en una figura: Inicio y Fin en óvalos, Leer y Escribir en paralelogramos, las asignaciones en rectángulos, y las flechas conectan todo de arriba hacia abajo. Un buen diagrama se lee sin explicaciones: el flujo es evidente."
+ },
+ {
+  "t": "p",
+  "text": "La Figura 3.3 muestra la traducción completa del algoritmo del vuelto: cada línea del pseudocódigo se volvió una figura, las flechas marcan el orden de arriba hacia abajo, y al costado corre la prueba con total = 12.000 y pago = 20.000. Tapá las anotaciones y ejecutalo vos: tenés que llegar al mismo 8.000."
+ },
+ {
+  "t": "img",
+  "file": "src_07.png",
+  "ancho_cm": 10.19,
+  "epigrafe": "Figura 3.3 — Diagrama de flujo del algoritmo del vuelto con su prueba: con total = 12.000 y pago = 20.000, el vuelto es G. 8.000.",
+  "num_viejo": "3.3"
+ },
+ {
+  "t": "caja",
+  "title": "Concepto clave — Pseudocódigo y DFD dicen lo mismo",
+  "body": [
+   "Son dos representaciones del mismo algoritmo. El pseudocódigo es más rápido de escribir; el diagrama muestra mejor las bifurcaciones. Elegí según el problema — y en la evaluación, manejá los dos."
+  ]
+ },
+ {
+  "t": "caja",
+  "title": "En Paraguay — Los diagramas en la industria",
+  "body": [
+   "Los manuales de procedimientos de bancos y cooperativas del país documentan sus procesos con diagramas de flujo: aprobar un crédito, habilitar una cuenta. El rombo de decisión que dibujás hoy es el mismo que usan los analistas profesionales."
+  ]
+ },
+ {
+  "t": "h3",
+  "text": "Actividades de aplicación"
+ },
+ {
+  "t": "p",
+  "text": "Ejercitá — resolvé estas operaciones directas:"
+ },
+ {
+  "t": "p",
+  "text": "1. Indicá la palabra clave de pseudocódigo para: ingresar un dato, mostrar un resultado, iniciar y terminar el algoritmo."
+ },
+ {
+  "t": "p",
+  "text": "2. Asigná el símbolo del diagrama (óvalo / paralelogramo / rectángulo / rombo) a: leer, calcular, decidir, iniciar."
+ },
+ {
+  "t": "p",
+  "text": "3. Escribí en pseudocódigo un algoritmo que lea un precio y lo muestre."
+ },
+ {
+  "t": "p",
+  "text": "4. Traducí a símbolos del diagrama cada línea del algoritmo del vuelto: Inicio, Leer total, Leer pago, vuelto ← pago − total, Escribir vuelto, Fin."
+ },
+ {
+  "t": "p",
+  "text": "5. Escribí en pseudocódigo un algoritmo que lea el precio de una docena y escriba el precio de una chipa (precio ÷ 12)."
+ },
+ {
+  "t": "p",
+  "text": "6. Corregí el error: un algoritmo que empieza con «Leer» sin «Inicio». Escribilo bien."
+ },
+ {
+  "t": "p",
+  "text": "Resolvé — problemas del Copetín Karumbé:"
+ },
+ {
+  "t": "p",
+  "text": "7. Escribí en pseudocódigo un algoritmo que lea el precio de una docena de chipas y escriba el precio de una sola (precio ÷ 12). Probalo con precio = 48.000."
+ },
+ {
+  "t": "p",
+  "text": "8. Indicá qué símbolo del diagrama corresponde a cada línea del algoritmo del vuelto (los seis pasos: Inicio, Leer total, Leer pago, asignación, Escribir vuelto, Fin)."
+ },
+ {
+  "t": "p",
+  "text": "9. Escribí el pseudocódigo del vuelto (Leer total, Leer pago, vuelto ← pago − total, Escribir vuelto) y probalo con total = 12.000 y pago = 20.000."
+ },
+ {
+  "t": "p",
+  "text": "Pensá y decidí — elegí o marcá V/F, y justificá siempre:"
+ },
+ {
+  "t": "p",
+  "text": "10. V o F: «El símbolo de decisión tiene una sola salida.»"
+ },
+ {
+  "t": "p",
+  "text": "11. V o F: «El pseudocódigo exige la sintaxis exacta de un lenguaje de programación.»"
+ },
+ {
+  "t": "p",
+  "text": "12. Elegí y justificá: los cálculos en el diagrama de flujo se representan con a) un óvalo b) un rombo c) un rectángulo."
+ },
+ {
+  "t": "p",
+  "text": "Desafío — integrá lo aprendido:"
+ },
+ {
+  "t": "p",
+  "text": "13. Escribí en pseudocódigo un algoritmo que lea dos precios y escriba el total; describí su diagrama de flujo completo con los símbolos correctos y probalo con 4.000 y 6.000."
+ },
+ {
+  "t": "h1",
+  "text": "Clase 15 — Variables y expresiones aritmético-relacionales"
+ },
+ {
+  "t": "ficha",
+  "capacidad": "Describe las Expresiones Aritmético-Relacionales utilizadas en los algoritmos.",
+  "tema": "Variables, constantes y tipos de datos; operadores aritméticos, relacionales y lógicos; jerarquía de operaciones.",
+  "indicadores": [
+   "Distingue variables de constantes y asigna tipos de datos adecuados.",
+   "Evalúa expresiones aritméticas respetando la jerarquía de los operadores.",
+   "Determina el valor de verdad de expresiones relacionales y lógicas."
+  ]
+ },
+ {
+  "t": "h2",
+  "text": "Variables, constantes y tipos de datos"
+ },
+ {
+  "t": "p",
+  "text": "Una variable es un espacio con nombre donde el algoritmo guarda un valor que puede cambiar: total, pago, vuelto. Una constante es un valor fijo: el 12 de la docena. Cada dato tiene un tipo: numérico (4.000), texto o cadena («chipa»), lógico (V o F). Elegir nombres claros —precioUnidad y no x— es media batalla ganada."
+ },
+ {
+  "t": "h2",
+  "text": "Operadores aritméticos y su jerarquía"
+ },
+ {
+  "t": "p",
+  "text": "Los operadores aritméticos son + (suma), − (resta), * (multiplicación), / (división) y a veces mod (resto de la división). No se evalúan de izquierda a derecha sin más: primero los paréntesis, después * y /, por último + y −. Por eso 5 + 3 * 2 = 11, pero (5 + 3) * 2 = 16."
+ },
+ {
+  "t": "h2",
+  "text": "Operadores relacionales: comparar valores"
+ },
+ {
+  "t": "p",
+  "text": "Los operadores relacionales comparan dos valores y devuelven un valor lógico: V o F. Son los que van a alimentar las decisiones de las próximas clases."
+ },
+ {
+  "t": "tabla",
+  "hdr": [
+   "Operador",
+   "Significado",
+   "Ejemplo",
+   "Resultado"
+  ],
+  "rows": [
+   [
+    ">",
+    "mayor que",
+    "5.000 > 3.000",
+    "V"
+   ],
+   [
+    "<",
+    "menor que",
+    "10 < 7",
+    "F"
+   ],
+   [
+    ">=",
+    "mayor o igual",
+    "8 >= 8",
+    "V"
+   ],
+   [
+    "<=",
+    "menor o igual",
+    "6 <= 5",
+    "F"
+   ],
+   [
+    "=",
+    "igual a",
+    "4 * 3 = 12",
+    "V"
+   ],
+   [
+    "<> (≠)",
+    "distinto de",
+    "9 <> 9",
+    "F"
+   ]
+  ]
+ },
+ {
+  "t": "h2",
+  "text": "Operadores lógicos: la Unidad 2 entra al algoritmo"
+ },
+ {
+  "t": "p",
+  "text": "Las condiciones compuestas se arman con Y (∧), O (∨) y NO (¬), con las mismas tablas de verdad que ya dominás. La expresión (total >= 50.000) Y (pago = «QR») es V únicamente cuando ambas comparaciones son V — conjunción pura."
+ },
+ {
+  "t": "caja",
+  "title": "Ejemplo — Evaluando paso a paso",
+  "body": [
+   "Con precio = 4.000 y cantidad = 3: total ← precio * cantidad + 2.000. Primero la multiplicación: 4.000 * 3 = 12.000; después la suma: 12.000 + 2.000 = 14.000. La expresión (total > 10.000) Y (cantidad < 5) queda (V) Y (V) = V."
+  ]
+ },
+ {
+  "t": "caja",
+  "title": "Concepto clave — Jerarquía de operadores",
+  "body": [
+   "1.º paréntesis · 2.º multiplicación y división · 3.º suma y resta · 4.º relacionales · 5.º NO · 6.º Y · 7.º O. Si mezclás operadores lógicos, usá paréntesis para dejar la intención explícita."
+  ]
+ },
+ {
+  "t": "caja",
+  "title": "En Paraguay — El error de jerarquía más caro",
+  "body": [
+   "Calcular «precio con IVA incluido» como base + base * 10 / 100 exige saber que la multiplicación y la división van primero. Un paréntesis mal puesto en la fórmula de un sistema de facturación cambia todos los tickets del día."
+  ]
+ },
+ {
+  "t": "h3",
+  "text": "Actividades de aplicación"
+ },
+ {
+  "t": "p",
+  "text": "Ejercitá — resolvé estas operaciones directas:"
+ },
+ {
+  "t": "p",
+  "text": "1. Evaluá con jerarquía: a) 2 + 3 * 4 ; b) (2 + 3) * 4 ; c) 5 + 3 * 2 ; d) (5 + 3) * 2."
+ },
+ {
+  "t": "p",
+  "text": "2. Evaluá las relacionales (V/F): a) 5.000 > 3.000 ; b) 10 < 7 ; c) 8 >= 8 ; d) 9 <> 9."
+ },
+ {
+  "t": "p",
+  "text": "3. Con precio = 4.000 y cantidad = 3, evaluá total ← precio * cantidad + 2.000."
+ },
+ {
+  "t": "p",
+  "text": "4. Con a = 10 y b = 4, evaluá (a > 5) Y (b > 5)."
+ },
+ {
+  "t": "p",
+  "text": "5. Evaluá la expresión lógica: (5 > 3) O (2 > 8)."
+ },
+ {
+  "t": "p",
+  "text": "6. Clasificá el tipo de dato: a) 4.000 ; b) «chipa» ; c) V."
+ },
+ {
+  "t": "p",
+  "text": "Resolvé — problemas del Copetín Karumbé:"
+ },
+ {
+  "t": "p",
+  "text": "7. Evaluá paso a paso, con precio = 5.000 y cantidad = 4: a) precio * cantidad − 3.000 ; b) precio * (cantidad − 3) ; c) (precio * cantidad > 15.000) Y (cantidad <= 4)."
+ },
+ {
+  "t": "p",
+  "text": "8. Escribí una expresión lógica que sea V cuando un cliente compra 2 o más chipas Y paga con QR, usando las variables cantidadChipas y medioPago."
+ },
+ {
+  "t": "p",
+  "text": "9. Con precio = 4.000 y cantidad = 3, calculá total ← precio * cantidad + 2.000 y evaluá (total > 10.000) Y (cantidad < 5)."
+ },
+ {
+  "t": "p",
+  "text": "Pensá y decidí — elegí o marcá V/F, y justificá siempre:"
+ },
+ {
+  "t": "p",
+  "text": "10. V o F: «Las expresiones se evalúan siempre de izquierda a derecha, sin excepciones.»"
+ },
+ {
+  "t": "p",
+  "text": "11. V o F: «La expresión (5 > 3) O (2 > 8) vale F.»"
+ },
+ {
+  "t": "p",
+  "text": "12. Elegí y justificá: 2 + 3 * 4 vale a) 14 b) 24. c) 20."
+ },
+ {
+  "t": "p",
+  "text": "Desafío — integrá lo aprendido:"
+ },
+ {
+  "t": "p",
+  "text": "13. Escribí la fórmula del «precio con IVA 10 % incluido» como base + base * 10 / 100, evaluala con base = 20.000 respetando la jerarquía, y mostrá con paréntesis cómo cambiaría el resultado si se sumara antes de multiplicar."
+ },
+ {
+  "t": "h1",
+  "text": "Clase 16 — Enunciados de lectura, asignación, escritura y terminación"
+ },
+ {
+  "t": "ficha",
+  "capacidad": "Aplica técnicas adecuadas en la interpretación, resolución y elaboración de enunciados para el desarrollo de algoritmos.",
+  "tema": "Estructura secuencial del algoritmo: enunciados de lectura, asignación, escritura y terminación; la prueba de escritorio.",
+  "indicadores": [
+   "Escribe algoritmos secuenciales completos con Leer, asignación (←) y Escribir.",
+   "Aplica correctamente el enunciado de asignación actualizando valores de variables.",
+   "Verifica algoritmos mediante pruebas de escritorio ordenadas en tabla."
+  ]
+ },
+ {
+  "t": "h2",
+  "text": "La estructura secuencial"
+ },
+ {
+  "t": "p",
+  "text": "Un algoritmo secuencial ejecuta sus enunciados uno tras otro, de arriba hacia abajo, sin saltos. Entre Inicio (y su cierre, el enunciado de terminación Fin) conviven cuatro enunciados básicos: lectura, asignación, escritura y terminación. Con solo eso ya se resuelven todos los problemas de fórmula directa."
+ },
+ {
+  "t": "h2",
+  "text": "Lectura y escritura: hablar con el usuario"
+ },
+ {
+  "t": "p",
+  "text": "Leer variable toma un dato del exterior (teclado) y lo guarda en la variable. Escribir expresión muestra un resultado. Regla de oro: toda variable debe recibir un valor —por lectura o por asignación— antes de usarse en un cálculo."
+ },
+ {
+  "t": "h2",
+  "text": "La asignación: la flecha que guarda"
+ },
+ {
+  "t": "p",
+  "text": "El enunciado variable ← expresión calcula primero la expresión de la derecha y guarda el resultado en la variable de la izquierda, reemplazando lo que hubiera antes. No es una igualdad matemática: total ← total + 1.000 es perfectamente válido y significa «el nuevo total es el viejo total más 1.000»."
+ },
+ {
+  "t": "p",
+  "text": "La Figura 3.4 muestra un algoritmo secuencial completo con los cuatro enunciados en acción, anotado línea por línea. Seguí cada flecha: te dice qué hace esa línea cuando el dato de entrada es 48.000, el precio de la docena de chipas."
+ },
+ {
+  "t": "img",
+  "file": "src_08.png",
+  "ancho_cm": 16.0,
+  "epigrafe": "Figura 3.4 — Pseudocódigo anotado del algoritmo del precio unitario: con precioDocena = 48.000, la asignación calcula 48.000 / 12 y Escribir muestra 4.000.",
+  "num_viejo": "3.4"
+ },
+ {
+  "t": "caja",
+  "title": "Ejemplo — La compra completa",
+  "body": [
+   "§Inicio",
+   "§    Leer precioChipa",
+   "§    Leer cantidad",
+   "§    Leer pago",
+   "§    total ← precioChipa * cantidad",
+   "§    vuelto ← pago − total",
+   "§    Escribir total",
+   "§    Escribir vuelto",
+   "§Fin",
+   "Con precioChipa = 4.000, cantidad = 3 y pago = 20.000: total = 12.000 y vuelto = 8.000."
+  ]
+ },
+ {
+  "t": "h2",
+  "text": "La prueba de escritorio"
+ },
+ {
+  "t": "p",
+  "text": "Probar un algoritmo a mano se hace con una tabla: una columna por variable y una fila por enunciado ejecutado. Se anota el valor de cada variable después de cada paso. Si la última fila coincide con el resultado esperado, el algoritmo pasa la prueba; si no, la tabla muestra exactamente dónde se rompió."
+ },
+ {
+  "t": "tabla",
+  "hdr": [
+   "Paso",
+   "precioChipa",
+   "cantidad",
+   "pago",
+   "total",
+   "vuelto"
+  ],
+  "rows": [
+   [
+    "Leer precioChipa",
+    "4.000",
+    "—",
+    "—",
+    "—",
+    "—"
+   ],
+   [
+    "Leer cantidad",
+    "4.000",
+    "3",
+    "—",
+    "—",
+    "—"
+   ],
+   [
+    "Leer pago",
+    "4.000",
+    "3",
+    "20.000",
+    "—",
+    "—"
+   ],
+   [
+    "total ← precio * cant.",
+    "4.000",
+    "3",
+    "20.000",
+    "12.000",
+    "—"
+   ],
+   [
+    "vuelto ← pago − total",
+    "4.000",
+    "3",
+    "20.000",
+    "12.000",
+    "8.000"
+   ]
+  ]
+ },
+ {
+  "t": "caja",
+  "title": "Concepto clave — La asignación no es igualdad",
+  "body": [
+   "x ← x + 1 no es una ecuación imposible: es una orden. «Tomá el valor actual de x, sumale 1 y guardá el resultado de nuevo en x.» Esta idea sostiene los contadores y acumuladores de las Clases 19 y 20."
+  ]
+ },
+ {
+  "t": "caja",
+  "title": "En Paraguay — La prueba de escritorio, hábito profesional",
+  "body": [
+   "Revisar valores y estados antes de ejecutar —o durante una depuración— cumple una función semejante a la prueba de escritorio: permite detectar inconsistencias antes de que afecten al usuario."
+  ]
+ },
+ {
+  "t": "h3",
+  "text": "Actividades de aplicación"
+ },
+ {
+  "t": "p",
+  "text": "Ejercitá — resolvé estas operaciones directas:"
+ },
+ {
+  "t": "p",
+  "text": "1. Ejecutá: x ← 5 ; x ← x + 2. ¿Cuánto vale x?"
+ },
+ {
+  "t": "p",
+  "text": "2. Ejecutá: a ← 10 ; b ← 4 ; a ← a − b. ¿Cuánto valen a y b?"
+ },
+ {
+  "t": "p",
+  "text": "3. Escribí en pseudocódigo un algoritmo que lea dos precios y escriba su suma."
+ },
+ {
+  "t": "p",
+  "text": "4. Indicá qué enunciado es cada uno: Leer total / total ← precio * cant / Escribir total / Fin."
+ },
+ {
+  "t": "p",
+  "text": "5. Ejecutá y decí qué se escribe: c ← 0 ; c ← c + 1 ; c ← c + 1 ; Escribir c."
+ },
+ {
+  "t": "p",
+  "text": "6. Hacé las dos primeras filas de la prueba de escritorio del vuelto (precioChipa = 4.000, cantidad = 3) con las columnas de cada variable."
+ },
+ {
+  "t": "p",
+  "text": "Resolvé — problemas del Copetín Karumbé:"
+ },
+ {
+  "t": "p",
+  "text": "7. Escribí un algoritmo que lea los precios de tres productos y escriba el total de la compra. Hacé la prueba de escritorio con 4.000, 6.000 y 2.500."
+ },
+ {
+  "t": "p",
+  "text": "8. Hacé la prueba de escritorio de: Inicio / a ← 10 / b ← 4 / a ← a − b / b ← a + b / Escribir a, b / Fin. ¿Qué valores se escriben?"
+ },
+ {
+  "t": "p",
+  "text": "9. Escribí el algoritmo de «la compra completa» (Leer precioChipa, cantidad, pago ; total ← precioChipa * cantidad ; vuelto ← pago − total ; Escribir total, vuelto) y probalo con 4.000, 3 y 20.000."
+ },
+ {
+  "t": "p",
+  "text": "Pensá y decidí — elegí o marcá V/F, y justificá siempre:"
+ },
+ {
+  "t": "p",
+  "text": "10. V o F: «total ← total + 500 es un enunciado de asignación válido.»"
+ },
+ {
+  "t": "p",
+  "text": "11. V o F: «El enunciado Escribir modifica el valor de las variables.»"
+ },
+ {
+  "t": "p",
+  "text": "12. Elegí y justificá: después de x ← 5 y luego x ← x + 2, la variable x vale a) 10. b) 5 c) 7."
+ },
+ {
+  "t": "p",
+  "text": "Desafío — integrá lo aprendido:"
+ },
+ {
+  "t": "p",
+  "text": "13. Escribí un algoritmo que intercambie los valores de dos variables a y b usando una variable auxiliar, y hacé la prueba de escritorio con a = 8 y b = 3 mostrando que quedan cambiados."
+ },
+ {
+  "t": "h1",
+  "text": "Clase 17 — El enunciado de decisión I: decisiones simples"
+ },
+ {
+  "t": "ficha",
+  "capacidad": "Emplea técnicas adecuadas en la resolución de problemas utilizando el enunciado de decisión, asignación, lectura y escritura.",
+  "tema": "El enunciado de decisión: estructuras Si–Entonces y Si–Entonces–Sino.",
+  "indicadores": [
+   "Escribe algoritmos con decisiones simples usando condiciones relacionales.",
+   "Distingue cuándo corresponde Si–Entonces y cuándo Si–Entonces–Sino.",
+   "Verifica algoritmos con decisión mediante pruebas de escritorio con casos distintos."
+  ]
+ },
+ {
+  "t": "h2",
+  "text": "Cuando el algoritmo debe elegir"
+ },
+ {
+  "t": "p",
+  "text": "Hasta ahora todos los pasos se ejecutaban siempre. El enunciado de decisión abre dos caminos: Si condición Entonces acciones FinSi. La condición es una expresión lógica (Clase 15); si vale V se ejecutan las acciones del bloque, y si vale F se saltan. Es el rombo del diagrama de flujo."
+ },
+ {
+  "t": "h2",
+  "text": "Si–Entonces–Sino: un camino para cada caso"
+ },
+ {
+  "t": "p",
+  "text": "Cuando hay que hacer algo distinto en cada caso se agrega el bloque Sino: Si condición Entonces acciones-V Sino acciones-F FinSi. Exactamente uno de los dos bloques se ejecuta — nunca los dos, nunca ninguno."
+ },
+ {
+  "t": "p",
+  "text": "La Figura 3.5 muestra el Si–Entonces–Sino en el diagrama de flujo: del rombo salen dos caminos rotulados V y F, cada uno con su propio rectángulo, y los dos se reúnen antes de seguir. Recorré el diagrama dos veces, una con venta = 60.000 y otra con venta = 20.000, y comprobá que cada recorrido pasa por un solo rectángulo."
+ },
+ {
+  "t": "img",
+  "file": "src_09.png",
+  "ancho_cm": 13.86,
+  "epigrafe": "Figura 3.5 — Diagrama de flujo de la decisión con descuento del Copetín Karumbé: el camino V cobra 54.000 sobre una venta de 60.000; el camino F cobra la venta sin cambios.",
+  "num_viejo": "3.5"
+ },
+ {
+  "t": "caja",
+  "title": "Ejemplo — El descuento del copetín",
+  "body": [
+   "Ña Rosa decide: compras de G. 50.000 o más tienen 10 % de descuento.",
+   "§Inicio",
+   "§    Leer total",
+   "§    Si total >= 50.000 Entonces",
+   "§        pagar ← total − total * 10 / 100",
+   "§    Sino",
+   "§        pagar ← total",
+   "§    FinSi",
+   "§    Escribir pagar",
+   "§Fin",
+   "Con total = 60.000: 60.000 − 6.000 = 54.000. Con total = 30.000: pagar = 30.000."
+  ]
+ },
+ {
+  "t": "h2",
+  "text": "Elegir bien la condición"
+ },
+ {
+  "t": "p",
+  "text": "El límite exacto importa: total >= 50.000 incluye la compra de exactamente G. 50.000; total > 50.000 la deja afuera. Antes de escribir la condición, preguntate qué pasa en el caso frontera — es el error más común en los sistemas reales y la pregunta favorita de las evaluaciones."
+ },
+ {
+  "t": "h2",
+  "text": "Prueba de escritorio con decisiones"
+ },
+ {
+  "t": "p",
+  "text": "Un algoritmo con decisión se prueba al menos dos veces: con un dato que haga V la condición y con otro que la haga F. Si hay caso frontera (el >= justo), se prueba también. Cada prueba recorre solo el camino que corresponde."
+ },
+ {
+  "t": "tabla",
+  "hdr": [
+   "Caso de prueba",
+   "total",
+   "Condición total >= 50.000",
+   "pagar"
+  ],
+  "rows": [
+   [
+    "Camino V",
+    "60.000",
+    "V",
+    "54.000"
+   ],
+   [
+    "Frontera",
+    "50.000",
+    "V",
+    "45.000"
+   ],
+   [
+    "Camino F",
+    "30.000",
+    "F",
+    "30.000"
+   ]
+  ]
+ },
+ {
+  "t": "caja",
+  "title": "Concepto clave — Decisión",
+  "body": [
+   "Si condición Entonces ... Sino ... FinSi: la condición se evalúa una vez y decide qué bloque se ejecuta. El FinSi marca dónde vuelven a unirse los caminos."
+  ]
+ },
+ {
+  "t": "caja",
+  "title": "En Paraguay — Decisiones en cada ticket",
+  "body": [
+   "«¿El cliente presentó RUC? ⇒ factura; si no ⇒ boleta.» Las cajas de los comercios paraguayos ejecutan una decisión así en cada venta. La estructura que aprendés hoy corre miles de veces por minuto en todo el país."
+  ]
+ },
+ {
+  "t": "h3",
+  "text": "Actividades de aplicación"
+ },
+ {
+  "t": "p",
+  "text": "Ejercitá — resolvé estas operaciones directas:"
+ },
+ {
+  "t": "p",
+  "text": "1. Con total = 60.000 y la regla «≥ 50.000 → 10 % de descuento», calculá cuánto se paga."
+ },
+ {
+  "t": "p",
+  "text": "2. Con total = 30.000 y la misma regla, calculá cuánto se paga."
+ },
+ {
+  "t": "p",
+  "text": "3. Con total = 50.000 (frontera) y la condición total >= 50.000, calculá cuánto se paga."
+ },
+ {
+  "t": "p",
+  "text": "4. Indicá qué bloque se ejecuta (Entonces / Sino) cuando la condición vale F."
+ },
+ {
+  "t": "p",
+  "text": "5. Escribí la condición de un Si para «la compra supera G. 40.000»."
+ },
+ {
+  "t": "p",
+  "text": "6. Decidí si total > 50.000 y total >= 50.000 dan el mismo resultado con total = 50.000."
+ },
+ {
+  "t": "p",
+  "text": "Resolvé — problemas del Copetín Karumbé:"
+ },
+ {
+  "t": "p",
+  "text": "7. Escribí un algoritmo que lea la edad de una persona y escriba «puede votar» si la edad es 18 o más, y «todavía no» en caso contrario. Probalo con 17, 18 y 45."
+ },
+ {
+  "t": "p",
+  "text": "8. Ña Rosa regala un cocido cuando la compra supera G. 40.000. Escribí el algoritmo (Leer total, decidir, Escribir el mensaje) y explicá qué pasa con una compra de exactamente G. 40.000 según la condición que elegiste."
+ },
+ {
+  "t": "p",
+  "text": "9. Escribí el algoritmo del descuento (≥ 50.000 → 10 %) con Si–Entonces–Sino y hacé la prueba de escritorio con 60.000, 50.000 y 30.000."
+ },
+ {
+  "t": "p",
+  "text": "Pensá y decidí — elegí o marcá V/F, y justificá siempre:"
+ },
+ {
+  "t": "p",
+  "text": "10. V o F: «total > 50.000 y total >= 50.000 son condiciones equivalentes.»"
+ },
+ {
+  "t": "p",
+  "text": "11. V o F: «En un Si–Entonces (sin Sino), cuando la condición es F no se ejecuta ninguna acción del bloque.»"
+ },
+ {
+  "t": "p",
+  "text": "12. Elegí y justificá: una decisión simple requiere como mínimo a) dos (camino V y F) b) cuatro pruebas de escritorio. c) una."
+ },
+ {
+  "t": "p",
+  "text": "Desafío — integrá lo aprendido:"
+ },
+ {
+  "t": "p",
+  "text": "13. Escribí un algoritmo que lea el total y el medio de pago y aplique 10 % de descuento solo si total >= 50.000 Y medioPago = «QR». Probalo con (60.000, QR), (60.000, efectivo) y (40.000, QR)."
+ },
+ {
+  "t": "h1",
+  "text": "Clase 18 — El enunciado de decisión II: condiciones compuestas y decisiones anidadas"
+ },
+ {
+  "t": "ficha",
+  "capacidad": "Emplea técnicas adecuadas en la resolución de problemas utilizando el enunciado de decisión, asignación, lectura y escritura.",
+  "tema": "Condiciones compuestas con Y / O / NO; decisiones anidadas y clasificación en múltiples categorías.",
+  "indicadores": [
+   "Construye condiciones compuestas correctas con los operadores Y, O y NO.",
+   "Escribe decisiones anidadas que clasifican un dato en tres o más categorías.",
+   "Verifica con pruebas de escritorio que cada categoría queda cubierta una sola vez."
+  ]
+ },
+ {
+  "t": "h2",
+  "text": "Condiciones compuestas: la lógica al mando"
+ },
+ {
+  "t": "p",
+  "text": "Las condiciones se combinan con Y, O y NO, con las tablas de verdad de la Unidad 2. Si (total >= 50.000) Y (medioPago = «QR») exige las dos cosas; con O basta una. De Morgan también aplica: negar «hay stock Y pago aprobado» da «no hay stock O pago no aprobado» — la Clase 10, ahora dentro de un algoritmo."
+ },
+ {
+  "t": "h2",
+  "text": "Decisiones anidadas"
+ },
+ {
+  "t": "p",
+  "text": "Un Si puede vivir dentro del bloque de otro Si. Es la forma natural de clasificar en más de dos categorías: la primera condición separa un caso, y dentro del Sino la siguiente condición separa el resto. Cada rama termina con su propio FinSi, y la sangría muestra qué está dentro de qué."
+ },
+ {
+  "t": "caja",
+  "title": "Ejemplo — Clasificar la compra",
+  "body": [
+   "Compras de G. 80.000 o más: cliente «mayorista»; de 40.000 a menos de 80.000: «frecuente»; menos de 40.000: «ocasional».",
+   "§Inicio",
+   "§    Leer total",
+   "§    Si total >= 80.000 Entonces",
+   "§        Escribir «mayorista»",
+   "§    Sino",
+   "§        Si total >= 40.000 Entonces",
+   "§            Escribir «frecuente»",
+   "§        Sino",
+   "§            Escribir «ocasional»",
+   "§        FinSi",
+   "§    FinSi",
+   "§Fin",
+   "Prueba: 95.000 → mayorista; 80.000 → mayorista; 55.000 → frecuente; 40.000 → frecuente; 12.000 → ocasional."
+  ]
+ },
+ {
+  "t": "h2",
+  "text": "Categorías completas y sin superposición"
+ },
+ {
+  "t": "p",
+  "text": "Una clasificación bien diseñada cumple dos propiedades —que ya conocés de los conjuntos—: las categorías cubren todos los casos posibles (su unión es el universo) y no se pisan entre sí (son disjuntas dos a dos). Las decisiones anidadas garantizan la segunda propiedad por construcción: cada dato entra por una sola rama."
+ },
+ {
+  "t": "h2",
+  "text": "El orden de las preguntas importa"
+ },
+ {
+  "t": "p",
+  "text": "En una cadena anidada conviene preguntar de la categoría más exigente a la menos exigente (o al revés, pero en orden). Si el ejemplo preguntara primero total >= 40.000, una compra de 95.000 respondería V ahí y se clasificaría «frecuente»: correcta sintaxis, lógica equivocada."
+ },
+ {
+  "t": "caja",
+  "title": "Concepto clave — Anidar es clasificar",
+  "body": [
+   "Cada Sino de una cadena anidada hereda la negación de todas las condiciones anteriores: al llegar a la última rama ya se sabe que ninguna condición previa se cumplió."
+  ]
+ },
+ {
+  "t": "caja",
+  "title": "En Paraguay — Tramos y escalas",
+  "body": [
+   "Las tarifas escalonadas —los tramos del impuesto a la renta personal, las escalas de las facturas de energía de la ANDE— se programan con decisiones anidadas: cada tramo es una rama. El orden de las preguntas define que cada monto caiga en el tramo correcto."
+  ]
+ },
+ {
+  "t": "h3",
+  "text": "Actividades de aplicación"
+ },
+ {
+  "t": "p",
+  "text": "Ejercitá — resolvé estas operaciones directas:"
+ },
+ {
+  "t": "p",
+  "text": "1. Evaluá (a > 5) O (b > 5) con a = 3 y b = 9."
+ },
+ {
+  "t": "p",
+  "text": "2. Negá con De Morgan: (hayStock Y pagoAprobado)."
+ },
+ {
+  "t": "p",
+  "text": "3. Clasificá con la regla (≥ 80.000 mayorista ; 40.000 a < 80.000 frecuente ; < 40.000 ocasional): 95.000, 80.000, 55.000, 40.000 y 12.000."
+ },
+ {
+  "t": "p",
+  "text": "4. Indicá cuántos Si (anidados) se necesitan como mínimo para clasificar en tres categorías."
+ },
+ {
+  "t": "p",
+  "text": "5. Con total = 80.000, decidí la categoría según la regla del ejercicio 3."
+ },
+ {
+  "t": "p",
+  "text": "6. Ordená las preguntas de la más exigente a la menos exigente para los tramos del ejercicio 3."
+ },
+ {
+  "t": "p",
+  "text": "Resolvé — problemas del Copetín Karumbé:"
+ },
+ {
+  "t": "p",
+  "text": "7. Escribí un algoritmo que lea una calificación de 1 a 5 y escriba: «excelente» si es 5, «aprobado» si es 2, 3 o 4, y «reprobado» si es 1. Probalo con 5, 3 y 1."
+ },
+ {
+  "t": "p",
+  "text": "8. Ña Rosa cobra el delivery así: pedidos de G. 100.000 o más, envío gratis ; de 50.000 a menos de 100.000, envío G. 5.000 ; menos de 50.000, envío G. 10.000. Escribí la decisión anidada y probala con 120.000, 100.000, 70.000 y 30.000."
+ },
+ {
+  "t": "p",
+  "text": "9. Clasificá la compra (mayorista / frecuente / ocasional) con una decisión anidada y hacé la prueba con 95.000 y 39.000."
+ },
+ {
+  "t": "p",
+  "text": "Pensá y decidí — elegí o marcá V/F, y justificá siempre:"
+ },
+ {
+  "t": "p",
+  "text": "10. V o F: «En una cadena anidada, un mismo dato puede caer en dos categorías a la vez.»"
+ },
+ {
+  "t": "p",
+  "text": "11. V o F: «El orden de las condiciones en una cadena anidada no afecta el resultado.»"
+ },
+ {
+  "t": "p",
+  "text": "12. Elegí y justificá: negar (hayStock Y pagoAprobado) equivale a a) ¬hayStock Y ¬pagoAprobado b) ¬hayStock O ¬pagoAprobado."
+ },
+ {
+  "t": "p",
+  "text": "Desafío — integrá lo aprendido:"
+ },
+ {
+  "t": "p",
+  "text": "13. Escribí un algoritmo que lea total y medioPago y clasifique en «mayorista con QR», «mayorista sin QR» o «no mayorista», combinando una condición compuesta con una decisión anidada. Probalo con (90.000, QR), (90.000, efectivo) y (30.000, QR)."
+ },
+ {
+  "t": "h1",
+  "text": "Clase 19 — El enunciado de repetición I: ciclos y contadores"
+ },
+ {
+  "t": "ficha",
+  "capacidad": "Aplica conocimientos de programación para la resolución de problemas mediante algoritmos utilizando ciclos repetitivos.",
+  "tema": "El ciclo Mientras y el ciclo Para; el contador como variable de control.",
+  "indicadores": [
+   "Escribe algoritmos con ciclos Mientras y Para correctamente delimitados.",
+   "Utiliza contadores inicializados y actualizados en el lugar correcto del ciclo.",
+   "Rastrea la ejecución de un ciclo con una prueba de escritorio vuelta por vuelta."
+  ]
+ },
+ {
+  "t": "h2",
+  "text": "¿Por qué repetir?"
+ },
+ {
+  "t": "p",
+  "text": "Registrar 50 ventas no debería exigir escribir 50 veces las mismas líneas. El enunciado de repetición (ciclo o bucle) ejecuta un bloque de acciones una y otra vez mientras una condición se mantenga verdadera. Con decisión y repetición ya se puede escribir, en teoría, cualquier programa del mundo."
+ },
+ {
+  "t": "h2",
+  "text": "El ciclo Mientras"
+ },
+ {
+  "t": "p",
+  "text": "Mientras condición Hacer acciones FinMientras evalúa la condición antes de cada vuelta: si es V, ejecuta el bloque y vuelve a preguntar; si es F, sigue después del FinMientras. Algo dentro del bloque debe acercar la condición a F — si no, el ciclo nunca termina y el algoritmo deja de ser finito."
+ },
+ {
+  "t": "p",
+  "text": "La Figura 3.6 muestra lo que distingue a un ciclo de una decisión: la flecha que vuelve. Después de escribir e incrementar, el flujo regresa al rombo a preguntar de nuevo; recién cuando la condición da F, el flujo escapa hacia Fin. Seguí la flecha de retorno con el dedo las cinco vueltas."
+ },
+ {
+  "t": "img",
+  "file": "src_10.png",
+  "ancho_cm": 13.18,
+  "epigrafe": "Figura 3.6 — Diagrama de flujo del ciclo Mientras que escribe del 1 al 5: la flecha de retorno cierra el ciclo y la salida F, con c = 6, lo termina.",
+  "num_viejo": "3.6"
+ },
+ {
+  "t": "h2",
+  "text": "El contador"
+ },
+ {
+  "t": "p",
+  "text": "Un contador es una variable que lleva la cuenta de las vueltas: se inicializa antes del ciclo (c ← 0 o c ← 1) y se incrementa adentro (c ← c + 1). Los dos errores clásicos: olvidar la inicialización y olvidar el incremento — el segundo produce el temido ciclo infinito."
+ },
+ {
+  "t": "caja",
+  "title": "Ejemplo — Cinco chipas, una por vuelta",
+  "body": [
+   "Escribir los números del 1 al 5:",
+   "§Inicio",
+   "§    c ← 1",
+   "§    Mientras c <= 5 Hacer",
+   "§        Escribir c",
+   "§        c ← c + 1",
+   "§    FinMientras",
+   "§Fin",
+   "Vueltas: escribe 1, 2, 3, 4, 5; cuando c llega a 6, la condición 6 <= 5 es F y el ciclo termina. Total: 5 vueltas."
+  ]
+ },
+ {
+  "t": "h2",
+  "text": "El ciclo Para: contar sin escribir el contador a mano"
+ },
+ {
+  "t": "p",
+  "text": "Cuando la cantidad de vueltas se conoce de antemano, el ciclo Para c ← 1 Hasta n Hacer ... FinPara inicializa, compara e incrementa el contador automáticamente. Es el mismo Mientras de siempre, empaquetado: elegí Para cuando sabés cuántas vueltas hay, y Mientras cuando depende de los datos."
+ },
+ {
+  "t": "tabla",
+  "hdr": [
+   "Vuelta",
+   "c al entrar",
+   "¿c <= 5?",
+   "Escribe",
+   "c al salir"
+  ],
+  "rows": [
+   [
+    "1",
+    "1",
+    "V",
+    "1",
+    "2"
+   ],
+   [
+    "2",
+    "2",
+    "V",
+    "2",
+    "3"
+   ],
+   [
+    "3",
+    "3",
+    "V",
+    "3",
+    "4"
+   ],
+   [
+    "4",
+    "4",
+    "V",
+    "4",
+    "5"
+   ],
+   [
+    "5",
+    "5",
+    "V",
+    "5",
+    "6"
+   ],
+   [
+    "—",
+    "6",
+    "F",
+    "(termina)",
+    "—"
+   ]
+  ]
+ },
+ {
+  "t": "caja",
+  "title": "Concepto clave — Contador",
+  "body": [
+   "Variable de control que se inicializa una vez, fuera del ciclo, y se actualiza en cada vuelta, dentro del ciclo. Sin incremento no hay final; sin inicialización no hay comienzo válido."
+  ]
+ },
+ {
+  "t": "caja",
+  "title": "En Paraguay — Ciclos que no deben colgarse",
+  "body": [
+   "Los sistemas de turnos —del Registro Civil a la fila electrónica de una cooperativa— corren un ciclo que atiende «mientras haya personas en la fila». Un contador mal actualizado congela la pantalla y la fila entera: el ciclo infinito no es un problema teórico."
+  ]
+ },
+ {
+  "t": "h3",
+  "text": "Actividades de aplicación"
+ },
+ {
+  "t": "p",
+  "text": "Ejercitá — resolvé estas operaciones directas:"
+ },
+ {
+  "t": "p",
+  "text": "1. ¿Cuántas vueltas da: c ← 1 ; Mientras c <= 5 Hacer Escribir c ; c ← c + 1 FinMientras?"
+ },
+ {
+  "t": "p",
+  "text": "2. ¿Cuántas vueltas da: c ← 1 ; Mientras c <= 4 Hacer c ← c + 1 FinMientras?"
+ },
+ {
+  "t": "p",
+  "text": "3. Escribí con Mientras un algoritmo que escriba los números del 1 al 5."
+ },
+ {
+  "t": "p",
+  "text": "4. Indicá el error y qué ocurre: un Mientras cuyo contador nunca se incrementa."
+ },
+ {
+  "t": "p",
+  "text": "5. Convertí a ciclo Para: escribir los números del 1 al 8."
+ },
+ {
+  "t": "p",
+  "text": "6. Inicializá e incrementá correctamente un contador c para que el ciclo dé exactamente 10 vueltas."
+ },
+ {
+  "t": "p",
+  "text": "Resolvé — problemas del Copetín Karumbé:"
+ },
+ {
+  "t": "p",
+  "text": "7. Escribí un algoritmo con Mientras que escriba los números pares del 2 al 10. Hacé la prueba de escritorio vuelta por vuelta."
+ },
+ {
+  "t": "p",
+  "text": "8. El copetín atiende 8 clientes por hora pico. Escribí con Para un algoritmo que escriba «Cliente n atendido» para n de 1 a 8, e indicá cuántas vueltas da."
+ },
+ {
+  "t": "p",
+  "text": "9. Escribí con Mientras un algoritmo que escriba del 1 al 5 y hacé la prueba de escritorio con las columnas c y «¿c <= 5?»."
+ },
+ {
+  "t": "p",
+  "text": "Pensá y decidí — elegí o marcá V/F, y justificá siempre:"
+ },
+ {
+  "t": "p",
+  "text": "10. V o F: «Un ciclo Mientras puede ejecutarse cero veces.»"
+ },
+ {
+  "t": "p",
+  "text": "11. V o F: «La condición del Mientras se escribe dentro del bloque de acciones.»"
+ },
+ {
+  "t": "p",
+  "text": "12. Elegí y justificá: si un contador dentro de un Mientras nunca se incrementa, el ciclo a) no termina nunca. b) termina enseguida."
+ },
+ {
+  "t": "p",
+  "text": "Desafío — integrá lo aprendido:"
+ },
+ {
+  "t": "p",
+  "text": "13. Escribí con Mientras un algoritmo que escriba la tabla del 3 (del 3 al 30) usando un contador y una multiplicación. Hacé la prueba de escritorio de las tres primeras vueltas."
+ },
+ {
+  "t": "h1",
+  "text": "Clase 20 — El enunciado de repetición II: acumuladores"
+ },
+ {
+  "t": "ficha",
+  "capacidad": "Aplica conocimientos de programación para la resolución de problemas mediante algoritmos utilizando ciclos repetitivos.",
+  "tema": "El acumulador; combinación de contador y acumulador; ciclos controlados por centinela; cálculo de totales y promedios.",
+  "indicadores": [
+   "Utiliza acumuladores inicializados en cero para calcular totales dentro de ciclos.",
+   "Combina contador y acumulador para calcular promedios.",
+   "Diseña ciclos controlados por un valor centinela que finaliza la carga de datos."
+  ]
+ },
+ {
+  "t": "h2",
+  "text": "El acumulador: sumar sobre la marcha"
+ },
+ {
+  "t": "p",
+  "text": "Un acumulador es una variable que junta valores a lo largo del ciclo: suma ← suma + venta. Se inicializa en 0 antes del ciclo, y en cada vuelta incorpora el nuevo dato. Es el hermano del contador: el contador suma siempre 1; el acumulador suma el valor que llega."
+ },
+ {
+  "t": "h2",
+  "text": "Contador + acumulador = promedio"
+ },
+ {
+  "t": "p",
+  "text": "El promedio necesita a los dos: el acumulador junta el total y el contador cuenta cuántos datos entraron. Al salir del ciclo, promedio ← suma / c. Regla de seguridad: dividir solo si c > 0 — un Si de la Clase 17 evita la división por cero cuando no se cargó ningún dato."
+ },
+ {
+  "t": "h2",
+  "text": "El centinela: «cargá hasta que digas basta»"
+ },
+ {
+  "t": "p",
+  "text": "Cuando no se sabe cuántos datos vendrán, se elige un valor centinela que significa «terminé» — por ejemplo, ingresar 0 como venta. El ciclo lee el primer dato antes de entrar, y Mientras venta <> 0 procesa y vuelve a leer. El centinela se compara, pero nunca se acumula."
+ },
+ {
+  "t": "caja",
+  "title": "Ejemplo — La caja del mediodía",
+  "body": [
+   "Ña Rosa carga sus ventas y termina con 0:",
+   "§Inicio",
+   "§    suma ← 0",
+   "§    c ← 0",
+   "§    Leer venta",
+   "§    Mientras venta <> 0 Hacer",
+   "§        suma ← suma + venta",
+   "§        c ← c + 1",
+   "§        Leer venta",
+   "§    FinMientras",
+   "§    Si c > 0 Entonces",
+   "§        promedio ← suma / c",
+   "§        Escribir suma, promedio",
+   "§    Sino",
+   "§        Escribir «sin ventas»",
+   "§    FinSi",
+   "§Fin",
+   "Con las ventas 12.000, 8.000, 15.000 y luego 0: suma = 35.000, c = 3, promedio = 35.000 / 3 ≈ 11.667 (redondeado al guaraní)."
+  ]
+ },
+ {
+  "t": "h2",
+  "text": "La prueba de escritorio del ciclo completo"
+ },
+ {
+  "t": "p",
+  "text": "La tabla de la prueba lleva una fila por vuelta y una columna por variable. Verificá tres cosas: que suma y c arranquen en 0, que el centinela corte sin acumularse y que la división ocurra una sola vez, fuera del ciclo."
+ },
+ {
+  "t": "p",
+  "text": "La Figura 3.7 muestra esa tabla dibujada para un ciclo con centinela: dos ventas reales, el 0 que corta y el promedio calculado afuera. Fijate en la fila resaltada: el centinela hace F la condición y no se acumula — ese es el casillero donde más errores aparecen."
+ },
+ {
+  "t": "img",
+  "file": "src_11.png",
+  "ancho_cm": 16.0,
+  "epigrafe": "Figura 3.7 — Prueba de escritorio dibujada del ciclo contador + acumulador: suma = 35.000, c = 2 y promedio = 17.500; el centinela 0 corta sin sumarse.",
+  "num_viejo": "3.7"
+ },
+ {
+  "t": "tabla",
+  "hdr": [
+   "Vuelta",
+   "venta leída",
+   "¿venta <> 0?",
+   "suma",
+   "c"
+  ],
+  "rows": [
+   [
+    "(inicio)",
+    "12.000",
+    "V",
+    "0",
+    "0"
+   ],
+   [
+    "1",
+    "8.000",
+    "V",
+    "12.000",
+    "1"
+   ],
+   [
+    "2",
+    "15.000",
+    "V",
+    "20.000",
+    "2"
+   ],
+   [
+    "3",
+    "0",
+    "F (corta)",
+    "35.000",
+    "3"
+   ]
+  ]
+ },
+ {
+  "t": "caja",
+  "title": "Concepto clave — Acumulador",
+  "body": [
+   "Variable que se inicializa en 0 (para sumas) y crece con cada dato: suma ← suma + valor. Si no se inicializa, el acumulador queda sin un valor de partida definido y el algoritmo no puede verificarse correctamente."
+  ]
+ },
+ {
+  "t": "caja",
+  "title": "En Paraguay — Totalizar es acumular",
+  "body": [
+   "El total de una factura, la recaudación diaria de un peaje, el consumo mensual que liquida la ANDE: todos son acumuladores recorriendo un ciclo de datos. La pareja contador–acumulador es probablemente el patrón más ejecutado de la historia de la computación."
+  ]
+ },
+ {
+  "t": "h3",
+  "text": "Actividades de aplicación"
+ },
+ {
+  "t": "p",
+  "text": "Ejercitá — resolvé estas operaciones directas:"
+ },
+ {
+  "t": "p",
+  "text": "1. ¿En cuánto se inicializa un acumulador que va a sumar? ¿Y un contador?"
+ },
+ {
+  "t": "p",
+  "text": "2. Con las ventas 5.000, 5.000 y 10.000 y luego el centinela 0, calculá suma y c."
+ },
+ {
+  "t": "p",
+  "text": "3. Calculá el promedio con suma = 35.000 y c = 3."
+ },
+ {
+  "t": "p",
+  "text": "4. Indicá el valor centinela del ejemplo de la caja del mediodía."
+ },
+ {
+  "t": "p",
+  "text": "5. Escribí la línea de pseudocódigo que acumula una venta en la variable suma."
+ },
+ {
+  "t": "p",
+  "text": "6. Con suma = 0, aplicá suma ← suma + 12.000 y luego suma ← suma + 8.000. ¿Cuánto vale suma?"
+ },
+ {
+  "t": "p",
+  "text": "Resolvé — problemas del Copetín Karumbé:"
+ },
+ {
+  "t": "p",
+  "text": "7. Escribí un algoritmo que lea las ventas del día hasta el centinela 0 y escriba solamente cuántas ventas superaron G. 10.000. Probalo con 12.000, 6.000, 25.000, 9.000 y 0."
+ },
+ {
+  "t": "p",
+  "text": "8. Hacé la prueba de escritorio completa del algoritmo de la caja con las ventas 20.000, 5.000, 5.000, 10.000 y el centinela 0. Indicá suma, c y promedio finales."
+ },
+ {
+  "t": "p",
+  "text": "9. Escribí un algoritmo con centinela 0 que acumule el total de ventas y cuente cuántas hubo; calculá el promedio protegiendo la división por cero."
+ },
+ {
+  "t": "p",
+  "text": "Pensá y decidí — elegí o marcá V/F, y justificá siempre:"
+ },
+ {
+  "t": "p",
+  "text": "10. V o F: «El valor centinela debe sumarse al acumulador antes de cortar.»"
+ },
+ {
+  "t": "p",
+  "text": "11. V o F: «Si no se carga ningún dato, el algoritmo del ejemplo escribe la leyenda sin ventas.»"
+ },
+ {
+  "t": "p",
+  "text": "12. Elegí y justificá: el promedio se calcula a) dentro del ciclo, en cada vuelta b) después del ciclo, una sola vez."
+ },
+ {
+  "t": "p",
+  "text": "Desafío — integrá lo aprendido:"
+ },
+ {
+  "t": "p",
+  "text": "13. Modificá el algoritmo de la caja para que, además de la suma y el promedio, informe la venta más alta del día (pista: mayor ← 0 y una decisión dentro del ciclo). Probalo con 12.000, 30.000, 8.000 y 0."
+ },
+ {
+  "t": "h1",
+  "text": "Clase 21 — Proyecto integrador: el sistema de caja del Copetín Karumbé"
+ },
+ {
+  "t": "ficha",
+  "capacidad": "Aplica conocimientos de programación para la resolución de problemas mediante algoritmos utilizando ciclos repetitivos.",
+  "tema": "Resolución integral de un problema: análisis, diseño con decisión y repetición, y prueba de escritorio del sistema de caja.",
+  "indicadores": [
+   "Analiza un problema completo identificando entradas, proceso y salidas.",
+   "Integra lectura, asignación, decisión, ciclo, contador y acumulador en un único algoritmo.",
+   "Valida el algoritmo completo con una prueba de escritorio y datos reales."
+  ]
+ },
+ {
+  "t": "h2",
+  "text": "El encargo de Ña Rosa"
+ },
+ {
+  "t": "p",
+  "text": "«Quiero un sistema que registre las ventas del día una por una hasta que cargue 0, que aplique 10 % de descuento a las ventas de G. 50.000 o más, y que al final me diga: cuánto recaudé, cuántas ventas hice, cuántas tuvieron descuento y el promedio por venta.» Todo lo que aprendiste este año entra en este único enunciado."
+ },
+ {
+  "t": "h2",
+  "text": "Análisis: entradas, proceso, salidas"
+ },
+ {
+  "t": "p",
+  "text": "Entradas: los montos de venta, uno por uno, con centinela 0. Proceso: decidir el descuento por venta, acumular lo cobrado, contar ventas y contar descuentos. Salidas: recaudación total, cantidad de ventas, cantidad con descuento y promedio. El análisis define las variables: venta, cobrar, suma, c, cd."
+ },
+ {
+  "t": "h2",
+  "text": "Diseño: el algoritmo completo"
+ },
+ {
+  "t": "caja",
+  "title": "Ejemplo — Sistema de caja Karumbé — versión 1.0",
+  "body": [
+   "§Inicio",
+   "§    suma ← 0",
+   "§    c ← 0",
+   "§    cd ← 0",
+   "§    Leer venta",
+   "§    Mientras venta <> 0 Hacer",
+   "§        Si venta >= 50.000 Entonces",
+   "§            cobrar ← venta − venta * 10 / 100",
+   "§            cd ← cd + 1",
+   "§        Sino",
+   "§            cobrar ← venta",
+   "§        FinSi",
+   "§        suma ← suma + cobrar",
+   "§        c ← c + 1",
+   "§        Leer venta",
+   "§    FinMientras",
+   "§    Si c > 0 Entonces",
+   "§        promedio ← suma / c",
+   "§        Escribir suma, c, cd, promedio",
+   "§    Sino",
+   "§        Escribir «sin ventas»",
+   "§    FinSi",
+   "§Fin"
+  ]
+ },
+ {
+  "t": "p",
+  "text": "La Figura 3.8 es el mismo algoritmo dibujado completo: el ciclo Mientras con su flecha de retorno, la decisión del descuento adentro con sus caminos V y F, y la decisión final que protege la división. Es el diagrama más grande del tomo y usa todo lo que aprendiste: recorrelo con el dedo antes de pasar a la prueba de escritorio."
+ },
+ {
+  "t": "img",
+  "file": "src_12.png",
+  "ancho_cm": 16.0,
+  "epigrafe": "Figura 3.8 — Diagrama de flujo completo del sistema de caja del Copetín Karumbé: ciclo con centinela, decisión de descuento anidada y división protegida por ¿c > 0?",
+  "num_viejo": "3.8"
+ },
+ {
+  "t": "h2",
+  "text": "Prueba de escritorio con el día real"
+ },
+ {
+  "t": "p",
+  "text": "Ventas del día: 20.000, 60.000, 15.000, 50.000 y el centinela 0. Las de 60.000 y 50.000 alcanzan el descuento (cobrar 54.000 y 45.000). Seguí la tabla y verificá cada casillero con tu propia cuenta: la prueba de escritorio es tuya, no del libro."
+ },
+ {
+  "t": "tabla",
+  "hdr": [
+   "Vuelta",
+   "venta",
+   "¿≥ 50.000?",
+   "cobrar",
+   "suma",
+   "c",
+   "cd"
+  ],
+  "rows": [
+   [
+    "1",
+    "20.000",
+    "F",
+    "20.000",
+    "20.000",
+    "1",
+    "0"
+   ],
+   [
+    "2",
+    "60.000",
+    "V",
+    "54.000",
+    "74.000",
+    "2",
+    "1"
+   ],
+   [
+    "3",
+    "15.000",
+    "F",
+    "15.000",
+    "89.000",
+    "3",
+    "1"
+   ],
+   [
+    "4",
+    "50.000",
+    "V",
+    "45.000",
+    "134.000",
+    "4",
+    "2"
+   ],
+   [
+    "—",
+    "0",
+    "(corta)",
+    "—",
+    "134.000",
+    "4",
+    "2"
+   ]
+  ]
+ },
+ {
+  "t": "p",
+  "text": "Resultados finales: recaudación G. 134.000, ventas 4, con descuento 2, promedio 134.000 / 4 = G. 33.500. Control cruzado: sin descuentos la suma habría sido 145.000; el descuento total fue 6.000 + 5.000 = 11.000, y 145.000 − 11.000 = 134.000. ✓"
+ },
+ {
+  "t": "h2",
+  "text": "Mejoras: el algoritmo nunca está terminado"
+ },
+ {
+  "t": "p",
+  "text": "Todo sistema real crece. ¿Y si Ña Rosa quiere saber la venta más alta del día? ¿O separar lo cobrado en efectivo y con QR? Cada mejora reutiliza los mismos bloques: una variable más, una decisión más, el mismo ciclo. Diseñar por bloques es la habilidad que te llevás de esta unidad — y la que distingue a quien programa de quien solo tipea."
+ },
+ {
+  "t": "caja",
+  "title": "Concepto clave — Integrar",
+  "body": [
+   "Un problema grande no se resuelve con herramientas nuevas sino combinando bien las conocidas: análisis → diseño → prueba, con decisión y repetición adentro."
+  ]
+ },
+ {
+  "t": "caja",
+  "title": "En Paraguay — Del papel al mostrador",
+  "body": [
+   "Muchos sistemas de punto de venta combinan decisiones, repeticiones y acumuladores para procesar ventas y cierres de caja. Tu versión 1.0 en papel modela esa lógica general antes de pasar al teclado."
+  ]
+ },
+ {
+  "t": "h1",
+  "text": "Puente a PSeInt — del pseudocódigo a la ejecución"
+ },
+ {
+  "t": "p",
+  "text": "Antes de desarrollar una versión propia, reproducí este modelo completo en PSeInt. La lógica ya la conocés: lectura, asignación, decisión y escritura; cambia solamente la sintaxis del entorno."
+ },
+ {
+  "t": "p",
+  "text": "Proceso CajaBasica\n    Definir precio, cantidad, total, cobrar Como Real\n    Escribir \"Precio unitario:\"\n    Leer precio\n    Escribir \"Cantidad:\"\n    Leer cantidad\n    total <- precio * cantidad\n    Si total >= 50000 Entonces\n        cobrar <- total - total * 10 / 100\n    Sino\n        cobrar <- total\n    FinSi\n    Escribir \"Total a cobrar: \", cobrar\nFinProceso"
+ },
+ {
+  "t": "p",
+  "text": "Probalo primero con precio = 20.000 y cantidad = 3: total = 60.000 y cobrar = G. 54.000. Después probá el caso frontera precio = 25.000 y cantidad = 2: total = 50.000 y cobrar = G. 45.000. Cuando ambos resultados coincidan, modificá una sola regla y volvé a comprobar."
+ },
+ {
+  "t": "h3",
+  "text": "Actividades de aplicación"
+ },
+ {
+  "t": "p",
+  "text": "Ejercitá — resolvé estas operaciones directas:"
+ },
+ {
+  "t": "p",
+  "text": "1. Indicá qué cuenta cada variable del sistema de caja: suma, c, cd y promedio."
+ },
+ {
+  "t": "p",
+  "text": "2. Con una venta de G. 60.000, calculá cuánto se cobra (10 % de descuento si es >= 50.000)."
+ },
+ {
+  "t": "p",
+  "text": "3. Con una venta de G. 50.000 (frontera), calculá cuánto se cobra."
+ },
+ {
+  "t": "p",
+  "text": "4. Con una venta de G. 20.000, calculá cuánto se cobra."
+ },
+ {
+  "t": "p",
+  "text": "5. Indicá las tres variables que se inicializan en 0 antes del ciclo."
+ },
+ {
+  "t": "p",
+  "text": "6. Calculá el promedio con suma = 134.000 y c = 4."
+ },
+ {
+  "t": "p",
+  "text": "Resolvé — problemas del Copetín Karumbé:"
+ },
+ {
+  "t": "p",
+  "text": "7. Hacé la prueba de escritorio completa del sistema de caja Karumbé con las ventas 45.000, 80.000, 10.000 y el centinela 0. Indicá suma, c, cd y promedio, y verificá con el control cruzado."
+ },
+ {
+  "t": "p",
+  "text": "8. Modificá el sistema para que también escriba la venta más alta del día (pista: mayor ← 0 y una decisión dentro del ciclo). Probalo con las ventas del día real (20.000, 60.000, 15.000, 50.000 y 0)."
+ },
+ {
+  "t": "p",
+  "text": "9. Hacé la prueba de escritorio del sistema con las ventas 30.000, 55.000, 90.000 y el centinela 0. Indicá suma, c, cd y promedio."
+ },
+ {
+  "t": "p",
+  "text": "Pensá y decidí — elegí o marcá V/F, y justificá siempre:"
+ },
+ {
+  "t": "p",
+  "text": "10. V o F: «En la prueba del día real, la recaudación final fue G. 145.000.»"
+ },
+ {
+  "t": "p",
+  "text": "11. V o F: «Agregar la venta más alta del día requiere rehacer el algoritmo desde cero.»"
+ },
+ {
+  "t": "p",
+  "text": "12. Elegí y justificá: una venta de exactamente G. 50.000 se cobra a) 50.000 b) 55.000. c) 45.000."
+ },
+ {
+  "t": "p",
+  "text": "Desafío — integrá lo aprendido:"
+ },
+ {
+  "t": "p",
+  "text": "13. Ampliá el sistema para separar lo cobrado en efectivo y con QR (dos acumuladores más y una decisión por medio de pago). Escribí el fragmento que agregás y explicá dónde va dentro del ciclo."
+ },
+ {
+  "t": "banda",
+  "text": "EVALUACIÓN DE LA UNIDAD 3 / Introducción a la Algoritmia",
+  "lines": [
+   "EVALUACIÓN DE LA UNIDAD 3",
+   "Introducción a la Algoritmia"
+  ]
+ },
+ {
+  "t": "p",
+  "text": "Nombre y Apellido: _______________________________  Curso: ______  Fecha: ____ / ____ / ____"
+ },
+ {
+  "t": "p",
+  "text": "Parte A — Diagnóstico rápido (marcá la opción correcta):"
+ },
+ {
+  "t": "p",
+  "text": "1. La instrucción «agregá azúcar a gusto» viola la característica de:"
+ },
+ {
+  "t": "p",
+  "text": "a) precisión"
+ },
+ {
+  "t": "p",
+  "text": "b) finitud"
+ },
+ {
+  "t": "p",
+  "text": "c) salida"
+ },
+ {
+  "t": "p",
+  "text": "2. En el diagrama de flujo, el rombo se usa para:"
+ },
+ {
+  "t": "p",
+  "text": "a) leer datos"
+ },
+ {
+  "t": "p",
+  "text": "b) calcular"
+ },
+ {
+  "t": "p",
+  "text": "c) tomar decisiones"
+ },
+ {
+  "t": "p",
+  "text": "3. Un acumulador que va a sumar valores se inicializa en:"
+ },
+ {
+  "t": "p",
+  "text": "a) 1"
+ },
+ {
+  "t": "p",
+  "text": "b) 0"
+ },
+ {
+  "t": "p",
+  "text": "c) el primer dato"
+ },
+ {
+  "t": "p",
+  "text": "Parte B — Ejercicios y problemas de resolución:"
+ },
+ {
+  "t": "p",
+  "text": "4. Definí algoritmo y explicá sus tres características esenciales con un ejemplo propio de cada una."
+ },
+ {
+  "t": "p",
+  "text": "5. Con precio = 6.000 y cantidad = 5, evaluá paso a paso: a) precio * cantidad − 5.000 ; b) (precio * cantidad > 25.000) Y (cantidad < 10)."
+ },
+ {
+  "t": "p",
+  "text": "6. Escribí en pseudocódigo un algoritmo que lea un monto y escriba «acepta QR» si el monto es de G. 10.000 o más, y «solo efectivo» en caso contrario. Probalo con 9.000 y 10.000."
+ },
+ {
+  "t": "p",
+  "text": "7. Hacé la prueba de escritorio de: s ← 0 / Para c ← 1 Hasta 4 Hacer s ← s + c * 1.000 FinPara / Escribir s. ¿Qué valor se escribe?"
+ },
+ {
+  "t": "p",
+  "text": "8. Escribí un algoritmo con centinela 0 que lea ventas, acumule el total y cuente cuántas fueron menores que G. 5.000. Probalo con 4.000, 8.000, 3.000 y 0."
+ },
+ {
+  "t": "p",
+  "text": "9. Hacé la prueba de escritorio del sistema de caja Karumbé (10 % de descuento para ventas ≥ G. 50.000, centinela 0) con las ventas 50.000, 20.000 y 0. Indicá suma, c, cd y promedio."
+ },
+ {
+  "t": "banda",
+  "text": "EVALUACIÓN INTEGRADORA · 2.ª ETAPA / Unidades 1 a 3 · Cierre de la 2.ª etapa (noviembre)",
+  "lines": [
+   "EVALUACIÓN INTEGRADORA · 2.ª ETAPA",
+   "Unidades 1 a 3 · Cierre de la 2.ª etapa (noviembre)"
+  ]
+ },
+ {
+  "t": "p",
+  "text": "Nombre y Apellido: _______________________________  Curso: ______  Fecha: ____ / ____ / ____"
+ },
+ {
+  "t": "p",
+  "text": "Parte A — Diagnóstico rápido (marcá la opción correcta):"
+ },
+ {
+  "t": "p",
+  "text": "1. Con A = {lunes, miércoles, viernes} y B = {viernes, sábado}, A ∩ B es:"
+ },
+ {
+  "t": "p",
+  "text": "a) ∅"
+ },
+ {
+  "t": "p",
+  "text": "b) {viernes}"
+ },
+ {
+  "t": "p",
+  "text": "c) {sábado}"
+ },
+ {
+  "t": "p",
+  "text": "2. ¬(p ∧ q) equivale, por De Morgan, a:"
+ },
+ {
+  "t": "p",
+  "text": "a) ¬p ∨ ¬q"
+ },
+ {
+  "t": "p",
+  "text": "b) p ∨ q"
+ },
+ {
+  "t": "p",
+  "text": "c) ¬p ∧ ¬q"
+ },
+ {
+  "t": "p",
+  "text": "3. Una venta de G. 50.000 con la regla «≥ 50.000 → 10 %» se cobra:"
+ },
+ {
+  "t": "p",
+  "text": "a) 50.000"
+ },
+ {
+  "t": "p",
+  "text": "b) 55.000"
+ },
+ {
+  "t": "p",
+  "text": "c) 45.000"
+ },
+ {
+  "t": "p",
+  "text": "Parte B — Ejercicios y problemas de resolución:"
+ },
+ {
+  "t": "p",
+  "text": "4. Con A = {lunes, miércoles, viernes} (días con chipa) y B = {viernes, sábado} (días con pastel mandi'o): calculá A ∪ B, A ∩ B y A − B, e interpretá cada resultado en palabras."
+ },
+ {
+  "t": "p",
+  "text": "5. Con p = V y q = F, calculá: a) ¬(p ∧ q) ; b) (p ∨ q) → q. Indicá además a qué es equivalente ¬(p ∧ q) según De Morgan."
+ },
+ {
+  "t": "p",
+  "text": "6. «Si la venta es de G. 50.000 o más, se aplica descuento. La venta de Marta no recibió descuento.» Simbolizá, concluí e indicá la regla."
+ },
+ {
+  "t": "p",
+  "text": "7. Evaluá con jerarquía de operadores: a) 4 + 6 * 2 ; b) (4 + 6) * 2 ; c) 20 − 8 / 4."
+ },
+ {
+  "t": "p",
+  "text": "8. Escribí un algoritmo que clasifique una compra: G. 80.000 o más → «mayorista» ; de 40.000 a menos de 80.000 → «frecuente» ; menos de 40.000 → «ocasional». Probalo con 80.000 y 39.000."
+ },
+ {
+  "t": "p",
+  "text": "9. Hacé la prueba de escritorio completa del sistema de caja Karumbé (10 % para ventas ≥ G. 50.000, centinela 0) con las ventas 30.000, 50.000, 70.000 y 0. Indicá suma, c, cd y promedio, y verificá con el control cruzado."
+ },
+ {
+  "t": "p",
+  "text": "10. Proponé una mejora al sistema de caja (qué variable nueva necesitarías, dónde iría en el algoritmo y para qué le serviría a Ña Rosa)."
+ }
+]
