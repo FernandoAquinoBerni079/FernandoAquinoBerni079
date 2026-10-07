@@ -1,7 +1,7 @@
 AUDITORÍA AUTOMÁTICA — Algorítmica 2.º · Edición Esencial Comercial 2026 · versión v1
-Controles: 844 · Fallos: 0
+Controles: 860 · Fallos: 0
   A. Estructura y correspondencia                   120 controles · 0 fallos
-  B. Paginación, índice, saltos y encabezados       126 controles · 0 fallos
+  B. Paginación, índice, saltos y encabezados       142 controles · 0 fallos
   C. Coherencia aritmética y ejecución en PSeInt     69 controles · 0 fallos
   D. Libro ↔ solucionario                            89 controles · 0 fallos
   E. Duplicados                                     131 controles · 0 fallos

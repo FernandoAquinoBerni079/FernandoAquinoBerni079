@@ -18,15 +18,13 @@ from build_libro import a_pdf
 B = '/home/claude/alg2/build/'; OUT = '/home/claude/alg2/salida/'
 NOMBRE = 'Algoritmica_2do_Curso_PLANES_DE_CLASE_ESENCIAL_COMERCIAL_2026'
 DARK, MED, LIGHT, GRIS = '1B5E20', '2E7D32', 'E8F5E9', 'BFBFBF'
-W = 17.0
+W = M.ANCHO
 MIN_HC, HC = 40, 4
 PL = planes_data.planes()
 
 
 def sec_setup(sec, primera=True):
-    sec.page_width, sec.page_height = Cm(21.0), Cm(29.7)
-    sec.top_margin = Cm(1.6); sec.bottom_margin = Cm(1.6)
-    sec.left_margin = sec.right_margin = Cm(2.0)
+    M.formato_oficio(sec)
     sec.different_first_page_header_footer = primera
 
 
@@ -198,7 +196,7 @@ def construir(pags=None):
     for q in ps_:
         q.style = d.styles['toc 2']; q.paragraph_format.left_indent = Cm(0)
         for r in q.runs: r.bold = False
-        q.paragraph_format.tab_stops.add_tab_stop(Cm(16.95), 2, 1)
+        q.paragraph_format.tab_stops.add_tab_stop(Cm(M.ANCHO - 0.05), 2, 1)
     pie(sec)
     for p in PL:
         s = d.add_section(WD_SECTION.NEW_PAGE); sec_setup(s, primera=True); pie(s); encabezado_cont(s)
