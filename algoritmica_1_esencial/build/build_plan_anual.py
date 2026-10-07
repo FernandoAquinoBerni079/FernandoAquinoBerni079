@@ -46,7 +46,7 @@ def filas_plan():
             if p['n'] in planes_data.CONT:
                 obs += ' Continúa en el encuentro siguiente (8 HC en total).'
         elif t == 'P':
-            tema = ['Continuación de la Clase %d · Práctica %d' % (p['n'], p['n']), planes_data.practicas.PR[p['n']]['titulo'] + '.']
+            tema = [p['tema']]
             obs = 'Actividades 2 y 3 de la Práctica %d.' % p['n']
             if p['n'] in planes_data.PFI_EN:
                 obs += ' Proyecto Final Integrador: %s.' % planes_data.PFI_EN[p['n']].split(':')[0]

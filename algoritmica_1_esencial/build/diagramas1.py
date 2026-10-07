@@ -194,7 +194,7 @@ def cuantif():
 
 def reglas():
     fig, ax = lienzo(12, 4.2, 12, 4.2)
-    R = [('MPP', 'p → q\np', 'q'), ('MTT', 'p → q\n¬q', '¬p'), ('MTP', 'p ∨ q\n¬p', 'q'), ('Silogismo\nhipotético', 'p → q\nq → r', 'p → r'), ('Silogismo\ndisyuntivo', 'p ∨ q\np → r\nq → s', 'r ∨ s')]
+    R = [('MPP', 'p → q\np', 'q'), ('MTT', 'p → q\n¬q', '¬p'), ('MTP', 'p ∨ q\n¬p', 'q'), ('Silogismo\nhipotético', 'p → q\nq → r', 'p → r'), ('Dilema\nconstructivo', 'p ∨ q\np → r\nq → s', 'r ∨ s')]
     for k, (n, pr, co) in enumerate(R):
         x = 0.2 + k * 2.38
         caja(ax, x, 3.3, 2.1, 0.75, n, fc=MED, ec=DARK, tc='white', fs=9.5)

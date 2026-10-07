@@ -305,6 +305,7 @@ for p in PLs:
             ns = [int(x) for x in re.findall(r'\d+', m.group(1))]
             chk('G', 'Plan %d: afirmaciones %s son del bloque «Pensá y decidí»' % (p['idx'], ns), ns == pd)
     chk('G', 'Plan %d: tiempos suman 160 min' % p['idx'], sum(p['tiempos']) == 160)
+chk('G', 'Planes de continuación: el Tema coincide con la fila del Plan Anual (auditoría independiente, hallazgo 4)', all(p['tema'] in TA and p['tema'] in TP for p in PLs if p['tipo'] == 'P'))
 chk('G', 'Planes: 37 títulos en el documento', all(('Plan de Clase N.º %d — %s' % (p['idx'], p['titulo'])) in TP for p in PLs))
 chk('G', 'Planes: alternativa en papel en los dos planes que usan PSeInt (Clase 21 y su continuación)', all('Alternativa sin equipamiento' in p['recursos'] for p in PLs if p['n'] == 21))
 chk('G', 'Planes: evaluación de unidad al cierre de las continuaciones 5, 12 y 21', all(any('evaluación de la Unidad' in x for x in p['momentos']['Cierre']) for p in PLs if p['tipo'] == 'P' and p['n'] in (5, 12, 21)))
@@ -379,6 +380,9 @@ for nombre, path in (('libro', LIB), ('solucionario', SOL), ('planes', PLA), ('p
 cod_libro = [l[1:] for n in C for b in C[n]['cuerpo'] if b['t'] == 'caja' for l in b['body'] if l.startswith('§')]
 cod_libro += [l[1:] for n in practicas.PR for a in practicas.PR[n]['acts'] if a.get('modelo') for l in a['modelo'][1] if l.startswith('§')]
 chk('J', 'T1: ningún número con punto de miles dentro del código (50.000 se lee 50 en PSeInt)', not [l for l in cod_libro if re.search(r'\d\.\d{3}\b', l)], [l for l in cod_libro if re.search(r'\d\.\d{3}\b', l)][:3])
+prosa_cod = [t for n in C for b in C[n]['cuerpo'] for t in [b.get('text', '')] + [x for x in b.get('body', []) if not x.startswith('§')] + [' | '.join(r) for r in b.get('rows', [])]
+             if re.search(r'←[^.;:«]*\d\.\d{3}|(?:[<>]=?|<>)\s*\d{1,3}\.\d{3}', t) and not t.startswith('Números sin separador') and 'vale 50' not in t and not t.startswith('vuelto ←')]
+chk('J', 'T1: tampoco hay expresiones de código con punto de miles escritas en el texto (salvo el ejemplo del error en la Clase 15)', not prosa_cod, [x[:80] for x in prosa_cod])
 chk('J', 'T1: la Clase 15 explica por qué 50.000 no es «cincuenta mil» dentro de una expresión', '50.000 vale 50' in TL)
 chk('J', 'T2: comillas rectas en el código (sin «» después de Escribir o en comparaciones)', not [l for l in cod_libro if '«' in l])
 chk('J', 'T3: sin «≈» en libro ni solucionario (promedios periódicos escritos con su desarrollo)', '≈' not in TL and '≈' not in TS)
@@ -388,7 +392,9 @@ elegi = [e for n in range(1, 22) for _, _, e, _, _ in actividades.items(n) if e.
 chk('J', 'T6: opciones de «Elegí y justificá» con una sola forma («a) X; b) Y; c) Z.»)', len(elegi) == 21 and all(re.search(r' a\) [^;]+; b\) [^;]+(?:; c\) [^;]+)?\.$', e) for e in elegi), [e for e in elegi if not re.search(r' a\) [^;]+; b\) [^;]+(?:; c\) [^;]+)?\.$', e)][:2])
 chk('J', 'T8: el solucionario trae las respuestas de las 21 prácticas', all(practicas.PR[n]['sol']['resultado'] in TS for n in range(1, 22)))
 chk('J', 'T9: hay Planes de Clase (37)', len(jp['paginas']) == 37)
-chk('J', 'Silogismo disyuntivo con la forma del programa (p ∨ q, p → r, q → s ⊢ r ∨ s)', 'r ∨ s' in TL)
+chk('J', 'Dilema constructivo (p ∨ q, p → r, q → s ⊢ r ∨ s) sin atribuir la nomenclatura al programa', 'r ∨ s' in TL and 'convención del programa' not in TL and 'Dilema constructivo' in TL)
+chk('J', 'Clase 14: aclaración diagrama de flujo del algoritmo / DFD', 'diagrama de flujo del algoritmo' in TL and 'Pseudocódigo y DFD' not in TL)
+chk('J', 'Sin «favorita», «el error más común» ni «la pregunta favorita»', not re.search(r'favorit|el error más común', TL))
 chk('J', 'Puente a PSeInt: comprobación 54.000 y frontera 45.000 en el libro', '54.000' in ' '.join(b.get('text', '') + ' '.join(b.get('body', [])) for b in C[21]['cuerpo']) and '45.000' in TL)
 chk('J', 'Recurso «tomo» y «cuadernillo» reemplazados por «libro» en las clases', not re.search(r'\btomo\b|cuadernillo', TL))
 
@@ -396,7 +402,7 @@ chk('J', 'Recurso «tomo» y «cuadernillo» reemplazados por «libro» en las c
 fallos = [r for r in RES if not r[2]]
 por = collections.Counter(r[0] for r in RES)
 with open(B + 'auditoria_resultado.txt', 'w') as f:
-    f.write('AUDITORÍA AUTOMÁTICA — Algorítmica 1.º · Edición Esencial Comercial 2026 · versión v1\n')
+    f.write('AUDITORÍA AUTOMÁTICA — Algorítmica 1.º · Edición Esencial Comercial 2026 · versión v1.1\n')
     f.write('Controles: %d · Fallos: %d\n' % (len(RES), len(fallos)))
     nombres = {'A': 'Estructura y correspondencia', 'B': 'Paginación, índice, saltos y encabezados', 'C': 'Coherencia aritmética y ejecución en PSeInt', 'D': 'Libro ↔ solucionario',
                'E': 'Duplicados', 'F': 'Figuras', 'G': 'Plan Anual y Planes de Clase', 'H': 'Lengua, residuos y cobertura curricular', 'I': 'Lecciones del piloto de 3.º (v2 y v2.1)', 'J': 'Correcciones técnicas de 1.º (T1–T9)'}

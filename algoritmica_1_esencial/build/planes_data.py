@@ -217,7 +217,7 @@ def plan_continuacion(idx, n):
         inst = inst.rstrip('.') + '. Evaluación de la Unidad %s (fotocopiable).' % ev[1]
     crit = ['Cumple el punto de control de cada actividad sin ayuda externa.', 'Justifica sus decisiones con los conceptos de la Clase %d.' % n,
             'Corrige sus errores a partir de la verificación y deja el trabajo documentado.']
-    return dict(idx=idx, tipo='P', n=n, titulo='Continuación de la Clase %d: %s' % (n, p['titulo']), tema=f['tema'], capacidad=f['capacidad'],
+    return dict(idx=idx, tipo='P', n=n, titulo='Continuación de la Clase %d: %s' % (n, p['titulo']), tema='Continuación de la Clase %d · Práctica %d: %s.' % (n, n, p['titulo']), capacidad=f['capacidad'],
                 indicadores=f['indicadores'], unidad='UNIDAD %d — %s' % (UNIDAD_DE[n], U[UNIDAD_DE[n]]), material='Libro del estudiante · Práctica %d' % n,
                 momentos={'Inicio': ini, 'Desarrollo': des, 'Cierre': cie}, tiempos=tiempos, recursos=rec, proc=proc, inst=inst, criterios=crit)
 

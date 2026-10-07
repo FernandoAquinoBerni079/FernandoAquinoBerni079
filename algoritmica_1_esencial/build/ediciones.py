@@ -497,6 +497,8 @@ def aplicar(C):
                 nb = [re.sub(r'\b(tomo|cuadernillo)\b', 'libro', x).replace(' ✓', '') for x in b['body']]
                 cambios += nb != b['body']; b['body'] = nb
     LOG.append((0, 'G-1', 'Libro único y sin el símbolo ✓: %d bloques ajustados.' % cambios))
+    import auditoria1_fix
+    auditoria1_fix.aplicar(C, LOG)
     return C
 
 
