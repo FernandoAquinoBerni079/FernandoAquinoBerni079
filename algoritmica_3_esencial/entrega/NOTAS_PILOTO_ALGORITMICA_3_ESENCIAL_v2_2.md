@@ -31,9 +31,12 @@ Los índices se rearmaron y se verificaron contra el PDF.
 
 ## 3. Auditoría automática
 
-**890 controles · 0 fallos.** A los 874 de la v2.1 se suman 16 controles de formato: tamaño de hoja y márgenes de todas las secciones, tablas al 100 % y PDF en oficio. Detalle en `build/auditoria_resultado.txt`.
+**891 controles · 0 fallos.** A los 874 de la v2.1 se suman 16 controles de formato y 1 del retoque de la Figura 9.1: tamaño de hoja y márgenes de todas las secciones, tablas al 100 % y PDF en oficio. Detalle en `build/auditoria_resultado.txt`.
 
-## 4. Pendiente para Fer
+## 4. Figura 9.1
 
-- **Figura 9.1 (imagen del tomo):** los rótulos «ACEPTA» y «RECHAZA» llevan íconos ✓ y ✗ dibujados en la imagen. Las auditorías anteriores no los marcaron porque son parte de una imagen, pero la política de la colección excluye esos símbolos. En 1.º se resolvió con un retoque mínimo sobre una copia de la imagen; si querés, hago lo mismo acá.
+Por pedido de Fer, la Figura 9.1 (imagen del tomo) se retocó como en 1.º: se quitaron el ✓ de «ACEPTA» y las ✗ de los dos «RECHAZA», en una copia (`build/figs_ret/image12.jpg`, script `build/retoques.py`). El original se conserva sin cambios y las otras 27 imágenes del tomo van byte a byte.
+
+## 5. Pendiente
+
 - Siguen vigentes las comprobaciones manuales de Access y PSeInt de la v2.1.

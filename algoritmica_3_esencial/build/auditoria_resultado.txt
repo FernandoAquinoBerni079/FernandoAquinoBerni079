@@ -1,11 +1,11 @@
 AUDITORÍA AUTOMÁTICA — Algorítmica 3.º · Edición Esencial Comercial 2026 · versión v2.2 (formato oficio)
-Controles: 890 · Fallos: 0
+Controles: 891 · Fallos: 0
   A. Estructura y correspondencia                   129 controles · 0 fallos
   B. Paginación, índice, saltos y encabezados       141 controles · 0 fallos
   C. Coherencia aritmética                           13 controles · 0 fallos
   D. Libro ↔ solucionario                            78 controles · 0 fallos
   E. Duplicados                                      46 controles · 0 fallos
-  F. Figuras                                          7 controles · 0 fallos
+  F. Figuras                                          8 controles · 0 fallos
   G. Plan Anual y Planes de Clase                   281 controles · 0 fallos
   H. Lengua, residuos y cobertura curricular         50 controles · 0 fallos
   I. Correcciones v2 (auditoría y decisiones de Fer)  132 controles · 0 fallos

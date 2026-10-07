@@ -10,7 +10,7 @@ B = '/home/claude/alg3/build/'
 OUT = '/home/claude/alg3/salida_v2_2/'
 os.makedirs(OUT, exist_ok=True)
 NOMBRE = 'Algoritmica_3er_Curso_LIBRO_ESENCIAL_COMERCIAL_2026_v2_2'
-FIG_SRC = B + 'figs_src/'; FIG_NEW = B + 'figs_new/'
+FIG_SRC = B + 'figs_src/'; FIG_NEW = B + 'figs_new/'; FIG_RET = B + 'figs_ret/'
 PFI_FIG = '/home/claude/alg3/cua_x/word/media/image2.png'
 
 pre, C, EV_OLD, U = cargar()
@@ -48,7 +48,7 @@ def bloque_cuerpo(d, b):
     elif t == 'tabla':
         M.tabla(d, b['hdr'], b['rows'])
     elif t == 'img':
-        ruta = (FIG_NEW if b.get('nueva') else FIG_SRC) + b['file']
+        ruta = (FIG_NEW if b.get('nueva') else (FIG_RET if os.path.exists(FIG_RET + b['file']) else FIG_SRC)) + b['file']
         M.imagen(d, ruta, b['epigrafe'], b.get('ancho_cm', 15.5), lead=b.get('lead'))
     else:
         raise ValueError(t)

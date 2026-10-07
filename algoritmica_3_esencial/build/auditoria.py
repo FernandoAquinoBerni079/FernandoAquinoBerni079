@@ -216,11 +216,13 @@ chk('F', 'Cada imagen del cuerpo tiene su epígrafe (%d imágenes)' % nimg, nimg
 chk('F', 'Sin rótulos «generada con IA»', not re.search(r'generad[ao] con (IA|inteligencia)', TL, re.I))
 hashes = {}
 import hashlib
+RET = set(os.listdir(B + 'figs_ret'))
 for f in sorted(os.listdir(B + 'figs_src')):
-    hashes[hashlib.sha256(open(B + 'figs_src/' + f, 'rb').read()).hexdigest()] = f
+    hashes[hashlib.sha256(open(B + ('figs_ret/' if f in RET else 'figs_src/') + f, 'rb').read()).hexdigest()] = f
 dpk = docx.Document(LIB).part
 blobs = {hashlib.sha256(r.target_part.blob).hexdigest() for r in dpk.rels.values() if r.reltype.endswith('/image')}
-chk('F', 'Las 28 imágenes originales se conservan byte a byte (sin recomprimir)', set(hashes) <= blobs, len(set(hashes) - blobs))
+chk('F', 'Las 28 imágenes del tomo se conservan byte a byte (sin recomprimir); la Figura 9.1 va en su versión retocada', set(hashes) <= blobs, len(set(hashes) - blobs))
+chk('F', 'Retoque mínimo solo en la Figura 9.1 (sin ✓ ni ✗ en «ACEPTA»/«RECHAZA»)', RET == {'image12.jpg'})
 sin_lead = []
 for n, c in C.items():
     for i, b in enumerate(c['cuerpo']):
