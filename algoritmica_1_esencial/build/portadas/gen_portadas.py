@@ -10,13 +10,13 @@ CSS = """
 @font-face{font-family:'Mont';font-weight:600;src:url('%(f)sJTUHjIg1_i6t8kCHKm4532VJOt5-QNFgpCu170w-.ttf');}
 @font-face{font-family:'Mont';font-weight:800;src:url('%(f)sJTUHjIg1_i6t8kCHKm4532VJOt5-QNFgpCvr70w-.ttf');}
 *{box-sizing:border-box;margin:0;padding:0}
-html,body{width:210mm;height:297mm}
+html,body{width:216mm;height:330mm}
 body{background:#1B5E20;color:#fff;font-family:'Mont',sans-serif;position:relative;overflow:hidden}
 .top{position:absolute;top:0;left:0;right:0;height:19mm;background:#123F16;display:flex;align-items:center;justify-content:center;
      font-weight:800;font-size:11.5pt;letter-spacing:.6pt}
-.bot{position:absolute;bottom:0;left:0;right:0;height:30mm;background:#123F16;text-align:center;padding-top:7mm}
+.bot{position:absolute;bottom:0;left:0;right:0;height:30mm;background:#123F16;text-align:center;padding-top:8mm}
 .bot .p{font-size:9.6pt;opacity:.9;font-weight:400}
-.bot .r{font-size:13pt;font-weight:800;margin-top:3.2mm}
+.bot .r{font-size:13pt;font-weight:800;margin-top:4mm}
 .ser{font-family:'Merri';font-weight:700;text-align:center}
 .big{font-family:'Mont';font-weight:800;color:#F2C14E;text-align:center;letter-spacing:1pt}
 .pill{display:inline-block;background:#fff;color:#1B5E20;font-weight:800;border-radius:9mm;padding:1.6mm 7mm;font-size:16pt}
@@ -25,7 +25,7 @@ body{background:#1B5E20;color:#fff;font-family:'Mont',sans-serif;position:relati
 .h{font-weight:800;color:#1B5E20}
 .lin{width:62%%;height:1px;background:#C8E6C9;margin:5mm auto}
 .lst{font-size:11.4pt;line-height:1.95;color:#444}
-.acc{color:#2E7D32;font-size:10.8pt;margin-top:8mm}
+.acc{color:#2E7D32;font-size:10.8pt;margin-top:9mm}
 """
 
 
@@ -69,7 +69,7 @@ def html(body, css_extra=''):
 
 TOP = '<div class="top">BACHILLERATO TÉCNICO EN SERVICIOS &nbsp;·&nbsp; ESPECIALIDAD INFORMÁTICA</div>'
 BOT = '<div class="bot"><div class="p">Programa de estudio del Ministerio de Educación y Ciencias · Diseño Curricular de Informática</div><div class="r">República del Paraguay · 2026</div></div>'
-TIT = '''<div style="position:absolute;top:33mm;left:0;right:0">
+TIT = '''<div style="position:absolute;top:37mm;left:0;right:0">
  <div class="ser" style="font-size:25pt">Conjuntos, lógica y algoritmos</div>
  <div class="big" style="font-size:58pt;margin-top:3mm">ALGORÍTMICA</div>
  <div style="text-align:center;margin-top:3mm"><span class="pill">1.er Curso</span></div></div>'''
@@ -77,19 +77,19 @@ TIT = '''<div style="position:absolute;top:33mm;left:0;right:0">
 
 def libro():
     body = TOP + TIT + '''
-<div style="position:absolute;top:104mm;left:24mm;right:24mm;height:110mm;border:3mm solid #fff;border-radius:5mm;background:#F4FBF5;overflow:hidden">%s</div>
-<div style="position:absolute;top:224mm;left:0;right:0;text-align:center">
+<div style="position:absolute;top:116mm;left:24mm;right:24mm;height:122mm;border:3mm solid #fff;border-radius:5mm;background:#F4FBF5;overflow:hidden">%s</div>
+<div style="position:absolute;top:249mm;left:0;right:0;text-align:center">
  <div style="font-weight:800;font-size:17pt">Libro del estudiante con prácticas</div>
  <div style="font-size:11.4pt;opacity:.92;margin-top:3mm">Enfoque «Aprender Haciendo» &nbsp;·&nbsp; Conjuntos, lógica y pseudocódigo</div>
- <div style="font-size:11.4pt;opacity:.92;margin-top:1.5mm">Caso integrador: Copetín Karumbé</div></div>''' % lamina_svg() + BOT
+ <div style="font-size:11.4pt;opacity:.92;margin-top:2mm">Caso integrador: Copetín Karumbé</div></div>''' % lamina_svg() + BOT
     return html(body)
 
 
 def docente(titulo, lineas, acompana='Acompaña al libro del estudiante con prácticas'):
     body = TOP + TIT + '''
-<div class="card" style="top:108mm;height:112mm;padding-top:13mm">
+<div class="card" style="top:120mm;height:112mm;padding-top:14mm">
  <div class="ltl">MATERIAL DEL DOCENTE</div>
- <div class="h" style="font-size:31pt;margin-top:5mm">%s</div>
+ <div class="h" style="font-size:31pt;margin-top:6mm">%s</div>
  <div class="lin"></div>
  <div class="lst">%s</div>
  <div class="acc">%s</div></div>''' % (titulo, '<br>'.join(lineas), acompana) + BOT
@@ -100,19 +100,19 @@ def contra():
     def li(t):
         return '<div style="display:flex;gap:4mm;align-items:flex-start;margin:2.4mm 0"><span style="color:#F2C14E;font-size:14pt;line-height:1">●</span><span>%s</span></div>' % t
     body = '''
-<div style="position:absolute;top:22mm;left:0;right:0;text-align:center">
+<div style="position:absolute;top:24mm;left:0;right:0;text-align:center">
  <div class="ser" style="font-size:22pt">Algorítmica · Conjuntos, lógica y algoritmos</div>
  <div style="font-size:11.5pt;opacity:.9;margin-top:3mm">1.er Curso · Bachillerato Técnico en Servicios · Especialidad Informática</div></div>
-<div style="position:absolute;top:58mm;left:22mm;right:22mm;font-size:12pt">
+<div style="position:absolute;top:64mm;left:22mm;right:22mm;font-size:12pt">
  <div style="color:#F2C14E;font-weight:800;font-size:17pt;margin-bottom:3mm">En este libro</div>
  %s
  <div style="color:#F2C14E;font-weight:800;font-size:17pt;margin:9mm 0 3mm">Para el docente</div>
  %s
 </div>
-<div style="position:absolute;top:214mm;left:30mm;right:30mm;height:30mm;background:#123F16;border-radius:5mm;text-align:center;padding-top:6mm">
+<div style="position:absolute;top:238mm;left:30mm;right:30mm;height:30mm;background:#123F16;border-radius:5mm;text-align:center;padding-top:7mm">
  <div style="color:#F2C14E;font-weight:800;font-size:13.5pt">Enfoque «Aprender Haciendo»</div>
  <div style="font-size:11pt;margin-top:2mm">Caso integrador: Copetín Karumbé</div></div>
-<div class="bot" style="padding-top:11mm"><div class="r" style="margin:0">República del Paraguay · 2026</div></div>''' % (
+<div class="bot" style="padding-top:12mm"><div class="r" style="margin:0">República del Paraguay · 2026</div></div>''' % (
         ''.join(li(t) for t in ['21 clases desarrolladas con ejemplos resueltos y diagramas', '21 prácticas paso a paso con puntos de control para verificar tu trabajo',
                                  'Teoría de conjuntos, lógica simbólica e introducción a la algoritmia', 'Prueba diagnóstica, 3 evaluaciones de unidad y 2 de etapa',
                                  'Proyecto Final Integrador para la Feria de Informática']),

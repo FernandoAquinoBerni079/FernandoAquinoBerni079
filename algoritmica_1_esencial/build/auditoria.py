@@ -83,13 +83,13 @@ for (niv, t), p in zip(ji['entradas'], ji['paginas']):
     chk('B', 'Índice del libro: «%s» en pág. %d' % (t[:50], p), re.sub(r'\s+', '', t) in re.sub(r'\s+', '', pags[p - 1]))
 chk('B', 'Índice poblado (sin «Ctrl+E/F9» ni marcadores 000)', 'Ctrl+E' not in TL and not re.search(r'\.{5,}\s*000\b', ''.join(pags[1:5])))
 for t in prs:
-    p = next(i for i, x in enumerate(pags) if re.sub(r'\s+', '', t) in re.sub(r'\s+', '', x) and i > 4)
+    p = next(i for i, x in enumerate(pags) if re.sub(r'\s+', '', t) in re.sub(r'\s+', '', x) and i > 0 and not re.search(r"\.{8,}", x))
     chk('B', 'Salto: «%s» abre página' % t[:40], re.sub(r'\s+', '', pags[p]).startswith(re.sub(r'\s+', '', t)[:30]))
 for e in evaluaciones.EV:
-    p = next(i for i, x in enumerate(pags) if e['titulo'] in x and i > 4)
+    p = next(i for i, x in enumerate(pags) if e['titulo'] in x and i > 0 and not re.search(r"\.{8,}", x))
     chk('B', 'Salto: «%s» abre página' % e['titulo'], pags[p].strip().startswith(e['titulo']))
 for t in clases:
-    p = next(i for i, x in enumerate(pags) if re.sub(r'\s+', '', t) in re.sub(r'\s+', '', x) and i > 4)
+    p = next(i for i, x in enumerate(pags) if re.sub(r'\s+', '', t) in re.sub(r'\s+', '', x) and i > 0 and not re.search(r"\.{8,}", x))
     top = re.sub(r'\s+', '', pags[p])
     chk('B', 'Salto: «%s» abre página (o sigue a la apertura de unidad)' % t[:40], top.startswith(re.sub(r'\s+', '', t)[:25]) or top.startswith('UNIDAD'))
 chk('B', 'Pie «Página X de Y» en todas las páginas salvo portada y contraportada',
@@ -121,6 +121,19 @@ def cantsplit(path):
     return ok, tot
 
 
+import maqueta as MQ
+for nombre, path, horiz in (('libro', LIB, False), ('solucionario', SOL, False), ('planes de clase', PLA, False), ('plan anual', ANU, True)):
+    d_ = docx.Document(path)
+    secs = d_.sections
+    tamano = all(abs(s_.page_width.cm - MQ.PAG_W) < 0.05 and abs(s_.page_height.cm - MQ.PAG_H) < 0.05 for s_ in (secs[:1] if horiz else secs))
+    if horiz:
+        tamano = tamano and all(abs(s_.page_width.cm - MQ.PAG_H) < 0.05 and abs(s_.page_height.cm - MQ.PAG_W) < 0.05 for s_ in secs[1:])
+    chk('B', 'Oficio 21,6 × 33 cm en todas las secciones del %s%s' % (nombre, ' (horizontal en el cuerpo)' if horiz else ''), tamano)
+    chk('B', 'Márgenes estrechos (1,27 cm) en todas las secciones del %s' % nombre, all(abs(m.cm - MQ.MARG) < 0.03 for s_ in secs for m in (s_.left_margin, s_.right_margin, s_.top_margin, s_.bottom_margin)))
+    tws = [t._tbl.tblPr.find(qn('w:tblW')) for t in d_.tables]
+    chk('B', 'Tablas y cajas ajustadas al ancho de la página (100 %%) en el %s (%d)' % (nombre, len(tws)), all(w is not None and w.get(qn('w:type')) == 'pct' and w.get(qn('w:w')) == '5000' for w in tws))
+    pdf_ = pdf(path)
+    chk('B', 'PDF del %s en oficio' % nombre, all(abs(sorted([pg.rect.width, pg.rect.height])[0] / 72 * 2.54 - MQ.PAG_W) < 0.05 and abs(sorted([pg.rect.width, pg.rect.height])[1] / 72 * 2.54 - MQ.PAG_H) < 0.05 for pg in pdf_))
 for nombre, path in (('libro', LIB), ('solucionario', SOL), ('plan anual', ANU)):
     ok, tot = cantsplit(path)
     chk('B', 'cantSplit en el 100 %% de las filas del %s (%d/%d)' % (nombre, ok, tot), ok == tot)
