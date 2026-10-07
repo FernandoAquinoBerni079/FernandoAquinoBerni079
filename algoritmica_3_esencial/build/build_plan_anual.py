@@ -12,8 +12,8 @@ import planes_data
 import ediciones_v2
 from build_libro import a_pdf
 
-B = '/home/claude/alg3/build/'; OUT = '/home/claude/alg3/salida_v2_1/'
-NOMBRE = 'Algoritmica_3er_Curso_PLAN_ANUAL_ESENCIAL_COMERCIAL_2026_v2_1'
+B = '/home/claude/alg3/build/'; OUT = '/home/claude/alg3/salida_v2_2/'
+NOMBRE = 'Algoritmica_3er_Curso_PLAN_ANUAL_ESENCIAL_COMERCIAL_2026_v2_2'
 ANCHOS = [1.0, 5.0, 6.8, 1.5, 5.3, 4.2, 2.8]
 COLS = ['N.º', 'TEMAS', 'INDICADORES DE LOGRO', 'TIEMPO', 'PROCEDIMIENTOS', 'INSTRUMENTOS DE EVALUACIÓN', 'OBSERVACIÓN']
 DARK, MED, LIGHT, AZUL, AZUL_CLARO = '1B5E20', '2E7D32', 'E8F5E9', '1B4F72', 'EAF0F6'
@@ -78,9 +78,8 @@ def construir():
             for el in list(p._p):
                 if el.tag != qn('w:pPr'):
                     p._p.remove(el)
-    sec.orientation = WD_ORIENT.LANDSCAPE
-    sec.page_width, sec.page_height = Cm(29.7), Cm(21.0)
-    sec.top_margin = sec.bottom_margin = Cm(1.2); sec.left_margin = sec.right_margin = Cm(1.5)
+    M.formato_oficio(sec, horizontal=True)
+    M.ANCHO = round(M.PAG_H - 2 * M.MARG, 2)   # 30,46 cm útiles en oficio horizontal
     M.par(d, 'PLAN ANUAL DETALLADO', 14, True, color=DARK, align='c', despues=2)
     M.par(d, 'Disciplina: Algorítmica  ·  Curso: 3.er Curso  ·  Bachillerato Técnico en Servicios · Especialidad Informática  ·  4 horas cátedra semanales', 9.5, align='c', despues=1)
     M.par(d, 'República del Paraguay · 2026', 9, italic=True, align='c', despues=1)
@@ -99,7 +98,7 @@ def construir():
     def fila():
         r = t.add_row()
         for j, c in enumerate(r.cells):
-            c.width = Cm(ANCHOS[j])
+            c.width = Cm(ANCHOS[j] * M.ANCHO / sum(ANCHOS))
         return r
 
     def banda(texto, fill, size=9):

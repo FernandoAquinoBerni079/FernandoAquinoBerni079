@@ -7,9 +7,9 @@ from estructura import cargar
 import ediciones, actividades, practicas, evaluaciones, preliminares as PRE
 
 B = '/home/claude/alg3/build/'
-OUT = '/home/claude/alg3/salida_v2_1/'
+OUT = '/home/claude/alg3/salida_v2_2/'
 os.makedirs(OUT, exist_ok=True)
-NOMBRE = 'Algoritmica_3er_Curso_LIBRO_ESENCIAL_COMERCIAL_2026_v2_1'
+NOMBRE = 'Algoritmica_3er_Curso_LIBRO_ESENCIAL_COMERCIAL_2026_v2_2'
 FIG_SRC = B + 'figs_src/'; FIG_NEW = B + 'figs_new/'
 PFI_FIG = '/home/claude/alg3/cua_x/word/media/image2.png'
 

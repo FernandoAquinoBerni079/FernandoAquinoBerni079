@@ -13,7 +13,18 @@ from docx.oxml import OxmlElement
 DARK, MED, LIGHT, FICHA = '1B5E20', '2E7D32', 'E8F5E9', 'F4FBF5'
 AMB, AZUL, CREMA, NARANJA = 'B8860B', '1B4F72', 'FFF8E1', 'FFF3E0'
 TEMPLATE = '/home/claude/alg3/src/Algoritmica_3er_Curso_TOMO_COMPLETO.docx'
-ANCHO = 16.6   # cm útiles
+# Formato de la colección desde oct-2026: oficio 21,6 × 33 cm, márgenes estrechos (1,27 cm),
+# tablas y cajas ajustadas al ancho de la página (100 %), por costo de impresión para docentes y estudiantes.
+PAG_W, PAG_H, MARG = 21.6, 33.0, 1.27
+ANCHO = round(PAG_W - 2 * MARG, 2)   # 19,06 cm útiles (en el Plan Anual horizontal se recalcula)
+
+
+def formato_oficio(sec, horizontal=False):
+    from docx.enum.section import WD_ORIENT
+    sec.orientation = WD_ORIENT.LANDSCAPE if horizontal else WD_ORIENT.PORTRAIT
+    sec.page_width, sec.page_height = (Cm(PAG_H), Cm(PAG_W)) if horizontal else (Cm(PAG_W), Cm(PAG_H))
+    sec.top_margin = sec.bottom_margin = sec.left_margin = sec.right_margin = Cm(MARG)
+    sec.header_distance = sec.footer_distance = Cm(0.6)
 
 
 def nuevo_doc(titulo, asunto, palabras):
@@ -22,6 +33,7 @@ def nuevo_doc(titulo, asunto, palabras):
     for el in list(body):
         if el.tag != qn('w:sectPr'):
             body.remove(el)
+    formato_oficio(d.sections[0])
     st = d.styles
     tam = {'Heading 1': (15.5, DARK, 18, 6), 'Heading 2': (13.5, DARK, 12, 4), 'Heading 3': (11.5, MED, 10, 3), 'Heading 4': (10.5, MED, 8, 2)}
     for n, (sz, col, b, a) in tam.items():
@@ -84,10 +96,13 @@ def bordes(t, color='BFBFBF', sz='4', internos=True):
 
 
 def ancho_fijo(t, cms):
+    # toda tabla ocupa el ancho útil completo: las columnas se escalan en proporción
+    k = ANCHO / sum(cms)
+    cms = [c * k for c in cms]
     t.autofit = False
     tblPr = t._tbl.tblPr
     lay = OxmlElement('w:tblLayout'); lay.set(qn('w:type'), 'fixed'); tblPr.append(lay)
-    w = OxmlElement('w:tblW'); w.set(qn('w:w'), str(int(sum(cms) * 567))); w.set(qn('w:type'), 'dxa')
+    w = OxmlElement('w:tblW'); w.set(qn('w:w'), '5000'); w.set(qn('w:type'), 'pct')
     for old in tblPr.findall(qn('w:tblW')):
         tblPr.remove(old)
     tblPr.append(w)
@@ -222,7 +237,8 @@ def caja(d, titulo, cuerpo, fill=None, color_tit=None, mono=False, borde='9E9E9E
     return t
 
 
-def _anchos(hdr, rows, total=ANCHO):
+def _anchos(hdr, rows, total=None):
+    total = total or ANCHO
     L = []
     for j in range(len(hdr)):
         col = [hdr[j]] + [r[j] for r in rows]
@@ -261,7 +277,7 @@ def imagen(d, ruta, epigrafe, ancho_cm=15.5, lead=None):
         par(d, lead, keep=True)
     p = d.add_paragraph(); p.alignment = WD_ALIGN_PARAGRAPH.CENTER
     p.paragraph_format.keep_with_next = True; p.paragraph_format.space_after = Pt(2); p.paragraph_format.space_before = Pt(4)
-    p.add_run().add_picture(ruta, width=Cm(min(ancho_cm, 15.8)))
+    p.add_run().add_picture(ruta, width=Cm(min(ancho_cm * 1.1, 17.5)))
     pe = par(d, epigrafe, 8.5, italic=True, color='595959', align='c', despues=6)
     return pe
 
@@ -311,7 +327,7 @@ def imagen_pagina_completa(d, ruta, nombre='Portada'):
     """Inserta la imagen anclada a la página entera (detrás del texto) y salta de página."""
     p = d.add_paragraph(); p.paragraph_format.space_after = Pt(0); p.paragraph_format.space_before = Pt(0)
     r = p.add_run()
-    r.add_picture(ruta, width=Cm(21.0), height=Cm(29.7))
+    r.add_picture(ruta, width=Cm(PAG_W), height=Cm(PAG_H))
     inline = r._r.find('.//' + qn('wp:inline'))
     extent = inline.find(qn('wp:extent')); docpr = inline.find(qn('wp:docPr')); graphic = inline.find(qn('a:graphic'))
     docpr.set('name', nombre); docpr.set('descr', nombre)

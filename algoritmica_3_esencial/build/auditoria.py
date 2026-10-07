@@ -8,8 +8,8 @@ import datos, actividades, practicas, evaluaciones, planes_data
 from estructura import cargar
 import ediciones
 
-O = '/home/claude/alg3/salida_v2_1/'; B = '/home/claude/alg3/build/'
-F = {k: O + 'Algoritmica_3er_Curso_%s_v2_1.%s' % (k, 'docx') for k in
+O = '/home/claude/alg3/salida_v2_2/'; B = '/home/claude/alg3/build/'
+F = {k: O + 'Algoritmica_3er_Curso_%s_v2_2.%s' % (k, 'docx') for k in
      ('LIBRO_ESENCIAL_COMERCIAL_2026', 'SOLUCIONARIO_DOCENTE_ESENCIAL_COMERCIAL_2026', 'PLANES_DE_CLASE_ESENCIAL_COMERCIAL_2026', 'PLAN_ANUAL_ESENCIAL_COMERCIAL_2026')}
 LIB, SOL, PLA, ANU = list(F.values())
 RES = []
@@ -80,13 +80,13 @@ for (niv, t), p in zip(ji['entradas'], ji['paginas']):
 idxtxt = ''.join(pags[1:5])
 chk('B', 'Índice poblado (sin «Ctrl+E/F9» ni marcadores 000)', 'Ctrl+E' not in TL and not re.search(r'\.{5,}\s*000\b', idxtxt))
 for t in prs:
-    p = next(i for i, x in enumerate(pags) if re.sub(r'\s+', '', t) in re.sub(r'\s+', '', x) and i > 4)
+    p = next(i for i, x in enumerate(pags) if re.sub(r'\s+', '', t) in re.sub(r'\s+', '', x) and i > 0 and not re.search(r"\.{8,}", x))
     chk('B', 'Salto: «%s» abre página' % t[:40], re.sub(r'\s+', '', pags[p]).startswith(re.sub(r'\s+', '', t)[:30]))
 for e in evaluaciones.EV:
-    p = next(i for i, x in enumerate(pags) if e['titulo'] in x and i > 4)
+    p = next(i for i, x in enumerate(pags) if e['titulo'] in x and i > 0 and not re.search(r"\.{8,}", x))
     chk('B', 'Salto: «%s» abre página' % e['titulo'], pags[p].strip().startswith(e['titulo']))
 for t in clases:
-    p = next(i for i, x in enumerate(pags) if re.sub(r'\s+', '', t) in re.sub(r'\s+', '', x) and i > 4)
+    p = next(i for i, x in enumerate(pags) if re.sub(r'\s+', '', t) in re.sub(r'\s+', '', x) and i > 0 and not re.search(r"\.{8,}", x))
     top = re.sub(r'\s+', '', pags[p])
     chk('B', 'Salto: «%s» abre página (o sigue a la apertura de unidad)' % t[:40], top.startswith(re.sub(r'\s+', '', t)[:25]) or top.startswith('UNIDAD'))
 chk('B', 'Pie «Página X de Y» en todas las páginas salvo portada y contraportada',
@@ -121,6 +121,19 @@ def cantsplit(path):
         for r in t.rows:
             tot += 1; ok += r._tr.trPr is not None and r._tr.trPr.find(qn('w:cantSplit')) is not None
     return ok, tot
+import maqueta as MQ
+for nombre, path, horiz in (('libro', LIB, False), ('solucionario', SOL, False), ('planes de clase', PLA, False), ('plan anual', ANU, True)):
+    d_ = docx.Document(path)
+    secs = d_.sections
+    tamano = all(abs(s_.page_width.cm - MQ.PAG_W) < 0.05 and abs(s_.page_height.cm - MQ.PAG_H) < 0.05 for s_ in (secs[:1] if horiz else secs))
+    if horiz:
+        tamano = tamano and all(abs(s_.page_width.cm - MQ.PAG_H) < 0.05 and abs(s_.page_height.cm - MQ.PAG_W) < 0.05 for s_ in secs[1:])
+    chk('B', 'Oficio 21,6 × 33 cm en todas las secciones del %s%s' % (nombre, ' (horizontal en el cuerpo)' if horiz else ''), tamano)
+    chk('B', 'Márgenes estrechos (1,27 cm) en todas las secciones del %s' % nombre, all(abs(m.cm - MQ.MARG) < 0.03 for s_ in secs for m in (s_.left_margin, s_.right_margin, s_.top_margin, s_.bottom_margin)))
+    tws = [t._tbl.tblPr.find(qn('w:tblW')) for t in d_.tables]
+    chk('B', 'Tablas y cajas ajustadas al ancho de la página (100 %%) en el %s (%d)' % (nombre, len(tws)), all(w is not None and w.get(qn('w:type')) == 'pct' and w.get(qn('w:w')) == '5000' for w in tws))
+    pdf_ = pdf(path)
+    chk('B', 'PDF del %s en oficio' % nombre, all(abs(sorted([pg.rect.width, pg.rect.height])[0] / 72 * 2.54 - MQ.PAG_W) < 0.05 and abs(sorted([pg.rect.width, pg.rect.height])[1] / 72 * 2.54 - MQ.PAG_H) < 0.05 for pg in pdf_))
 for nombre, path in (('libro', LIB), ('solucionario', SOL), ('plan anual', ANU)):
     ok, tot = cantsplit(path)
     chk('B', 'cantSplit en el 100 %% de las filas del %s (%d/%d)' % (nombre, ok, tot), ok == tot)
@@ -357,7 +370,7 @@ chk('J', 'Clase 18: ruta oficial de importación', 'Datos externos → grupo Imp
 fallos = [r for r in RES if not r[2]]
 por = collections.Counter(r[0] for r in RES)
 with open(B + 'auditoria_resultado.txt', 'w') as f:
-    f.write('AUDITORÍA AUTOMÁTICA — Algorítmica 3.º · Edición Esencial Comercial 2026 · versión v2.1 (corrección de cierre)\n')
+    f.write('AUDITORÍA AUTOMÁTICA — Algorítmica 3.º · Edición Esencial Comercial 2026 · versión v2.2 (formato oficio)\n')
     f.write('Controles: %d · Fallos: %d\n' % (len(RES), len(fallos)))
     nombres = {'A': 'Estructura y correspondencia', 'B': 'Paginación, índice, saltos y encabezados', 'C': 'Coherencia aritmética', 'D': 'Libro ↔ solucionario',
                'E': 'Duplicados', 'F': 'Figuras', 'G': 'Plan Anual y Planes de Clase', 'H': 'Lengua, residuos y cobertura curricular', 'I': 'Correcciones v2 (auditoría y decisiones de Fer)', 'J': 'Corrección de cierre v2.1'}

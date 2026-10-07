@@ -7,8 +7,8 @@ from estructura import cargar
 import ediciones, actividades, practicas, evaluaciones, preliminares as PRE
 from build_libro import a_pdf
 
-B = '/home/claude/alg3/build/'; OUT = '/home/claude/alg3/salida_v2_1/'
-NOMBRE = 'Algoritmica_3er_Curso_SOLUCIONARIO_DOCENTE_ESENCIAL_COMERCIAL_2026_v2_1'
+B = '/home/claude/alg3/build/'; OUT = '/home/claude/alg3/salida_v2_2/'
+NOMBRE = 'Algoritmica_3er_Curso_SOLUCIONARIO_DOCENTE_ESENCIAL_COMERCIAL_2026_v2_2'
 pre, C, _, U = cargar()
 ediciones.aplicar(C)
 
