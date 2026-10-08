@@ -125,3 +125,7 @@ if __name__ == '__main__':
     for k, v in PIEZAS.items():
         open(D + k + '.html', 'w').write(v)
     subprocess.run(['node', D + 'render.js'] + list(PIEZAS), check=True, cwd=D)
+
+    from PIL import Image
+    for k in PIEZAS:
+        Image.open(D + k + '.png').convert('RGB').save(D + k + '.jpg', quality=92)
