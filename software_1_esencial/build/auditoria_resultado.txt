@@ -1,0 +1,16 @@
+Controles técnicos sobre software_1_esencial/salida — 11/10/2026
+
+== Auditoría de contenido, índices, imágenes y muestra
+controles OK: 117 · fallos: 0
+entradas 61 cambiadas 0
+o_SOLUCIONARIO_DOCENTE_ESENCIAL_COMERCIAL_2026.docx índice termina p 4 entradas 65 difieren 0
+o_PLANES_DE_CLASE_COMERCIAL_2026.docx índice termina p 2 entradas 36 difieren 0
+Imágenes del Libro vs. original de Fer: 26 idénticas, 2 modificadas ['word/media/image27.jpg', 'word/media/image28.jpg'], 0 faltantes, 0 nuevas
+Muestra: 14/14 páginas idénticas a su documento de origen
+
+== Páginas, papel y sincronía DOCX↔PDF (re-render con LibreOffice 24.2)
+LIBRO 107 págs 612x936 (oficio) · re-render 107 · texto IDÉNTICO · <25%: 0
+SOLUCIONARIO 17 págs 612x936 · re-render 17 · texto IDÉNTICO · <25%: 0 (p. 2 = Presentación, excluida)
+PLAN_ANUAL 12 págs 612x936 (portada) / 936x612 (tabla) · re-render 12 · texto IDÉNTICO · <25%: 0
+PLANES_DE_CLASE 60 págs 612x936 · re-render 60 · texto ≈0,9997 (solo el largo de los puntos del índice) · <25%: 21 (páginas de continuación, diseño del generador)
+MUESTRA 14 págs 612x936 · 14/14 páginas idénticas a su origen
