@@ -1,0 +1,1480 @@
+[
+{
+"idx": 1,
+"unidad": "UNIDAD 1 — Componentes básicos de una computadora",
+"material": "Tomo del estudiante · Clase 1   ·   Cuaderno de Laboratorio · Práctica 1",
+"tema": "Clase 1 — El gabinete de la computadora: Gabinetes: función, tipos y características.",
+"capacidad": [
+"Reconoce las principales características de los gabinetes de computadoras."
+],
+"indicadores": [
+"Distingue los tipos de gabinete según su tamaño y formato.",
+"Identifica las características que se evalúan al elegir un gabinete.",
+"Relaciona el factor de forma del gabinete con la placa madre que admite."
+],
+"momentos": {
+"Inicio": [
+"Aplicación de la prueba diagnóstica del tomo, sin nota, para relevar el punto de partida del grupo y formar las parejas de trabajo del laboratorio.",
+"Presentación de la capacidad y de los indicadores de logro de la clase, y del caso integrador del año: el encargo del Instituto Ko'ẽju al Servicio Técnico Panambi."
+],
+"Desarrollo": [
+"Desarrollo de «¿Qué es el gabinete y para qué sirve?» y «Tipos de gabinete» con observación directa de los gabinetes del laboratorio, sin abrirlos.",
+"Lectura conjunta de la caja «Concepto clave — Factor de forma» y de la figura 1.1, con los tres formatos dibujados a escala: se contrasta el tamaño relativo de ATX, micro-ATX y mini-ITX.",
+"Trabajo con el cuadro «Tipo de gabinete / Tamaño típico / Uso más frecuente» y con la caja «Ejemplo — El pedido del Instituto Ko'ẽju», donde Panambi propone torres medias micro-ATX para el aula.",
+"Resolución de la Práctica 1 del Cuaderno: obtención de fabricante, modelo y memoria del equipo con msinfo32 y construcción de la ficha técnica en Word con la tabla de 2 × 6.",
+"Error frecuente que se anticipa: confundir el gabinete con la computadora entera y atribuirle funciones de procesamiento que corresponden a la placa y al microprocesador."
+],
+"Cierre": [
+"Resolución del bloque «Actividades de aplicación»: los ítems de opción múltiple y las consignas «Completá los espacios» sobre factor de forma y tipos de torre.",
+"Verificación del punto de control de la práctica: «La tabla tiene las 6 filas completas y el archivo quedó guardado con tu apellido en el nombre».",
+"Puesta en común de la caja «En Paraguay — Gabinete con fuente incluida» y registro de la conclusión: gabinete y fuente se cotizan por separado."
+]
+},
+"tiempos": [
+15,
+50,
+15
+],
+"recursos": "Tomo del estudiante, Clase 1 (figura 1.1 y cuadro de tipos de gabinete) · Cuaderno de Laboratorio, Práctica 1 · prueba diagnóstica fotocopiada · gabinetes del laboratorio para observación externa. Laboratorio de informática con equipos con Windows, Word, Excel y PowerPoint. Si el laboratorio no está disponible, la práctica se resuelve en papel con los modelos del Cuaderno y se ejecuta en la siguiente sesión de gabinete.",
+"proc": "Prueba diagnóstica de saberes previos. Observación guiada del equipo del laboratorio y clasificación de gabinetes con la tabla comparativa.",
+"inst": "Prueba diagnóstica. Ficha técnica del equipo elaborada en Word (Práctica 1).",
+"criterios": [
+"Distingue los tipos de gabinete y los relaciona con el uso al que se destinan.",
+"Registra en la ficha técnica datos verificados en el equipo, no supuestos.",
+"Justifica la compatibilidad entre gabinete y placa madre con el factor de forma."
+]
+},
+{
+"idx": 2,
+"unidad": "UNIDAD 1 — Componentes básicos de una computadora",
+"material": "Cuaderno de Laboratorio · Ficha A · Tomo del estudiante (clases relacionadas)",
+"tema": "Continuación A — Compatibilidad gabinete · placa madre · fuente",
+"capacidad": [
+"Verificar compatibilidad mecánica y eléctrica básica sin abrir ni energizar equipos."
+],
+"indicadores": [
+"Aplica contenidos ya enseñados en una situación técnica integrada.\n• Documenta decisiones con datos verificables.\n• Produce el resultado esperado de la Ficha A."
+],
+"momentos": {
+"Inicio": [
+"Recuperación de los conceptos previos necesarios para la Ficha A: compatibilidad gabinete · placa madre · fuente.\n• Presentación del producto y del punto de control que debe alcanzarse."
+],
+"Desarrollo": [
+"Lectura del marco mínimo de la Ficha A y análisis del modelo.\n• Ejecución guiada del procedimiento con los recursos disponibles.\n• Trabajo en parejas cuando sea necesario, sin modificar configuraciones del laboratorio fuera de lo indicado.\n• El docente verifica evidencia y corrige inferencias técnicas antes de avanzar."
+],
+"Cierre": [
+"Comprobación del punto de control de la Ficha A.\n• Puesta en común de dos decisiones técnicas y de la evidencia utilizada.\n• Desafío opcional para quienes terminan antes."
+]
+},
+"tiempos": [
+15,
+50,
+15
+],
+"recursos": "Cuaderno de Laboratorio, Ficha A · fichas técnicas/datos del caso · Windows y Microsoft Office según corresponda. Alternativa sin internet: dossier impreso preparado por el docente.",
+"proc": "Prueba diagnóstica de saberes previos. Observación guiada del equipo del laboratorio y clasificación de gabinetes con la tabla comparativa.",
+"inst": "Prueba diagnóstica. Ficha técnica del equipo elaborada en Word (Práctica 1).",
+"criterios": [
+"Distingue los tipos de gabinete y los relaciona con el uso al que se destinan.",
+"Registra en la ficha técnica datos verificados en el equipo, no supuestos.",
+"Justifica la compatibilidad entre gabinete y placa madre con el factor de forma."
+]
+},
+{
+"idx": 3,
+"unidad": "UNIDAD 1 — Componentes básicos de una computadora",
+"material": "Tomo del estudiante · Clase 2   ·   Cuaderno de Laboratorio · Práctica 2",
+"tema": "Clase 2 — La fuente de alimentación: Fuentes de alimentación: concepto, funciones, tipos, voltajes utilizados y voltaje real.",
+"capacidad": [
+"Analiza las principales funciones de una fuente de alimentación de computadora."
+],
+"indicadores": [
+"Explica la función de conversión de corriente que cumple la fuente.",
+"Identifica los voltajes de salida de una fuente ATX y sus usos.",
+"Interpreta la diferencia entre potencia declarada y potencia real."
+],
+"momentos": {
+"Inicio": [
+"Consigna en la pizarra: estimar cuántos voltios llegan al tomacorriente del aula y qué ocurre con esa corriente antes de alcanzar el procesador.",
+"Presentación de la capacidad y de los indicadores, y recuperación de la ficha técnica producida en la clase anterior."
+],
+"Desarrollo": [
+"Desarrollo de «Concepto y función» y «Tipos de fuente»: conversión de corriente alterna en continua y diferencias entre cableado fijo, semimodular y modular.",
+"Lectura de la figura 2.1, que sigue el recorrido desde los 220 V del tomacorriente hasta las cuatro líneas de voltaje, y del cuadro de rangos aceptados con la caja «Concepto clave — Tolerancia de voltaje».",
+"Análisis de la caja «Ejemplo — Nominal vs. real»: por qué Panambi descarta fuentes genéricas al presupuestar el equipo del Instituto Ko'ẽju.",
+"Resolución de la Práctica 2 en Excel: construcción de la tabla de tolerancias de una fuente ATX y decisión sobre mediciones dadas.",
+"Error frecuente que se anticipa: tomar la potencia impresa en la etiqueta como potencia real entregada."
+],
+"Cierre": [
+"Verificación del punto de control: «La fila de +12 V muestra 11,40 y 12,60; la de +3,3 V muestra 3,14 y 3,47 (con redondeo a dos decimales)».",
+"Resolución de las «Actividades de aplicación» del tomo, con foco en la consigna «Verdadero o falso (justificá las falsas)».",
+"Discusión de la caja «En Paraguay — 220 V, tormentas y picos de tensión» y su consecuencia práctica para la instalación."
+]
+},
+"tiempos": [
+15,
+50,
+15
+],
+"recursos": "Tomo del estudiante, Clase 2 (figura 2.1 y cuadro de líneas de voltaje) · Cuaderno de Laboratorio, Práctica 2 · planilla de cálculo. Laboratorio de informática con equipos con Windows, Word, Excel y PowerPoint. Si el laboratorio no está disponible, la práctica se resuelve en papel con los modelos del Cuaderno y se ejecuta en la siguiente sesión de gabinete.",
+"proc": "Análisis de la etiqueta de una fuente real o proyectada y cálculo de tolerancias con planilla electrónica.",
+"inst": "Planilla de tolerancias con casos evaluados (Práctica 2). Ejercicios de aplicación de la clase.",
+"criterios": [
+"Explica la función de conversión de la fuente y las líneas de voltaje que entrega.",
+"Calcula rangos de tolerancia con fórmulas y decide correctamente sobre mediciones dadas.",
+"Distingue el valor nominal declarado del valor real entregado."
+]
+},
+{
+"idx": 4,
+"unidad": "UNIDAD 1 — Componentes básicos de una computadora",
+"material": "Tomo del estudiante · Clase 3   ·   Cuaderno de Laboratorio · Práctica 3",
+"tema": "Clase 3 — La placa madre: Placa madre: concepto, clasificación, características y componentes.",
+"capacidad": [
+"Identifica los diferentes tipos de placa madre utilizados en las computadoras."
+],
+"indicadores": [
+"Describe la función integradora de la placa madre.",
+"Clasifica placas madre según su factor de forma.",
+"Ubica los componentes principales de una placa madre."
+],
+"momentos": {
+"Inicio": [
+"Pregunta de observación sobre una placa madre real o proyectada: reconocer a simple vista dónde se conectan el procesador, la memoria y las tarjetas.",
+"Presentación de la capacidad y de los indicadores de logro de la clase."
+],
+"Desarrollo": [
+"Desarrollo de «Concepto», «Clasificación» y «Características» de la placa madre, con la caja «Concepto clave — Chipset» como eje de la explicación.",
+"Lectura guiada de la figura 3.1, el mapa de una placa ATX con sus componentes principales, y del cuadro que compara factores de forma y ranuras típicas.",
+"Trabajo con la caja «Ejemplo — Elegir la placa para el aula»: criterios que aplica Panambi para el equipo del Instituto Ko'ẽju.",
+"Resolución de la Práctica 3: obtención del modelo de placa y versión de BIOS, exploración del Administrador de dispositivos y armado del mapa de componentes en Word.",
+"Error frecuente que se anticipa: suponer que cualquier procesador entra en cualquier placa, sin verificar el zócalo."
+],
+"Cierre": [
+"Puesta en común del mapa de componentes y verificación del punto de control: «El documento tiene las cinco categorías con un dispositivo real cada una más la línea de placa/BIOS».",
+"Resolución de las «Actividades de aplicación» y contraste con la caja «En Paraguay — Placas de generaciones anteriores»."
+]
+},
+"tiempos": [
+15,
+50,
+15
+],
+"recursos": "Tomo del estudiante, Clase 3 (figura 3.1 y cuadro de factores de forma) · Cuaderno de Laboratorio, Práctica 3 · placa madre de descarte para observación, si el laboratorio dispone de una. Laboratorio de informática con equipos con Windows, Word, Excel y PowerPoint. Si el laboratorio no está disponible, la práctica se resuelve en papel con los modelos del Cuaderno y se ejecuta en la siguiente sesión de gabinete.",
+"proc": "Exploración guiada del equipo con msinfo32 y el Administrador de dispositivos; esquema rotulado de la placa madre.",
+"inst": "Mapa de componentes documentado en Word (Práctica 3). Esquema rotulado de la placa.",
+"criterios": [
+"Identifica los componentes principales de la placa madre sobre el mapa y sobre el equipo.",
+"Relaciona el zócalo y el chipset con la familia de procesadores admitida.",
+"Documenta los datos obtenidos con las herramientas de Windows sin transcribir de memoria."
+]
+},
+{
+"idx": 5,
+"unidad": "UNIDAD 1 — Componentes básicos de una computadora",
+"material": "Tomo del estudiante · Clase 4   ·   Cuaderno de Laboratorio · Práctica 4",
+"tema": "Clase 4 — Slots de expansión: Slots de expansión: concepto, tipos, características y conexión.",
+"capacidad": [
+"Identifica las características principales de los slots de expansión de las placas madres."
+],
+"indicadores": [
+"Explica para qué sirven las ranuras de expansión.",
+"Distingue PCI Express por generación, carriles y formato físico.",
+"Describe cómo se conecta correctamente una tarjeta de expansión."
+],
+"momentos": {
+"Inicio": [
+"Recuperación del mapa de la placa de la clase anterior para localizar en él las ranuras de expansión y anticipar para qué sirve cada una.",
+"Presentación de la capacidad y de los indicadores de la clase."
+],
+"Desarrollo": [
+"Desarrollo de «Tipos de ranura» y «Características y generaciones», con la caja «Concepto clave — Carril (lane) PCIe».",
+"Lectura de la figura 4.1, con las ranuras PCIe dibujadas a escala y la velocidad por carril según la generación, y del cuadro de usos típicos.",
+"Análisis de la caja «Ejemplo — ¿Sirve esta placa para diseño?» como situación de decisión técnica.",
+"Resolución de la Práctica 4: relevamiento de las tarjetas que reconoce el equipo y cálculo en Excel de la velocidad teórica de cada ranura PCIe 4.0, con gráfico comparativo.",
+"Error frecuente que se anticipa: creer que una ranura más larga es siempre más rápida, sin atender a la cantidad de carriles ni a la generación."
+],
+"Cierre": [
+"Verificación del punto de control: «La columna Velocidad total muestra 2, 8, 16 y 32 GB/s y el gráfico compara las cuatro ranuras».",
+"Resolución de las «Actividades de aplicación» del tomo y comentario de la caja «En Paraguay — La tarjeta de red que salva el día»."
+]
+},
+"tiempos": [
+15,
+50,
+15
+],
+"recursos": "Tomo del estudiante, Clase 4 (figura 4.1 y cuadro de ranuras) · Cuaderno de Laboratorio, Práctica 4 · planilla de cálculo con gráfico de columnas. Laboratorio de informática con equipos con Windows, Word, Excel y PowerPoint. Si el laboratorio no está disponible, la práctica se resuelve en papel con los modelos del Cuaderno y se ejecuta en la siguiente sesión de gabinete.",
+"proc": "Identificación de ranuras en placa real o proyectada y cálculo comparativo de anchos de banda en planilla.",
+"inst": "Cuadro comparativo de ranuras con gráfico (Práctica 4). Ejercicios de la clase.",
+"criterios": [
+"Distingue los tipos de ranura de expansión por su uso y por su cantidad de carriles.",
+"Calcula la velocidad teórica de cada ranura con fórmulas verificables.",
+"Interpreta el gráfico construido para fundamentar una elección de ranura."
+]
+},
+{
+"idx": 6,
+"unidad": "UNIDAD 1 — Componentes básicos de una computadora",
+"material": "Cuaderno de Laboratorio · Ficha B · Tomo del estudiante (clases relacionadas)",
+"tema": "Continuación B — PCIe y M.2: formato, generación y carriles",
+"capacidad": [
+"Distinguir el tamaño físico de una ranura de su capacidad eléctrica y reconocer que M.2 no significa automáticamente NVMe."
+],
+"indicadores": [
+"Aplica contenidos ya enseñados en una situación técnica integrada.\n• Documenta decisiones con datos verificables.\n• Produce el resultado esperado de la Ficha B."
+],
+"momentos": {
+"Inicio": [
+"Recuperación de los conceptos previos necesarios para la Ficha B: pcie y m.2: formato, generación y carriles.\n• Presentación del producto y del punto de control que debe alcanzarse."
+],
+"Desarrollo": [
+"Lectura del marco mínimo de la Ficha B y análisis del modelo.\n• Ejecución guiada del procedimiento con los recursos disponibles.\n• Trabajo en parejas cuando sea necesario, sin modificar configuraciones del laboratorio fuera de lo indicado.\n• El docente verifica evidencia y corrige inferencias técnicas antes de avanzar."
+],
+"Cierre": [
+"Comprobación del punto de control de la Ficha B.\n• Puesta en común de dos decisiones técnicas y de la evidencia utilizada.\n• Desafío opcional para quienes terminan antes."
+]
+},
+"tiempos": [
+15,
+50,
+15
+],
+"recursos": "Cuaderno de Laboratorio, Ficha B · fichas técnicas/datos del caso · Windows y Microsoft Office según corresponda. Alternativa sin internet: dossier impreso preparado por el docente.",
+"proc": "Prueba diagnóstica de saberes previos. Observación guiada del equipo del laboratorio y clasificación de gabinetes con la tabla comparativa.",
+"inst": "Prueba diagnóstica. Ficha técnica del equipo elaborada en Word (Práctica 1).",
+"criterios": [
+"Distingue los tipos de gabinete y los relaciona con el uso al que se destinan.",
+"Registra en la ficha técnica datos verificados en el equipo, no supuestos.",
+"Justifica la compatibilidad entre gabinete y placa madre con el factor de forma."
+]
+},
+{
+"idx": 7,
+"unidad": "UNIDAD 1 — Componentes básicos de una computadora",
+"material": "Tomo del estudiante · Clase 5   ·   Cuaderno de Laboratorio · Práctica 5",
+"tema": "Clase 5 — Puertos de conexión: Puertos de conexión: concepto, tipos, características y conexión.",
+"capacidad": [
+"Identifica los diferentes puertos de conexión que existen en una computadora."
+],
+"indicadores": [
+"Reconoce los puertos externos de una computadora actual y su uso.",
+"Distingue el estándar de datos USB del tipo de conector físico.",
+"Selecciona el puerto de video adecuado para un monitor dado."
+],
+"momentos": {
+"Inicio": [
+"Relevamiento rápido a mano alzada: qué puertos reconoce el grupo en el panel trasero del equipo y cuáles no puede nombrar todavía.",
+"Presentación de la capacidad y de los indicadores de logro."
+],
+"Desarrollo": [
+"Desarrollo de «La familia USB», «Puertos de video» y «Red, audio y otros», con la caja «Concepto clave — Puerto» y el cuadro de detalles para reconocer cada uno.",
+"Lectura de la figura 5.1, el panel trasero de la placa con sus puertos rotulados, comparada con el panel real del equipo del laboratorio.",
+"Trabajo con la caja «Ejemplo — El proyector del aula» como problema de compatibilidad de video.",
+"Resolución de la Práctica 5: relevamiento de los puertos visibles y volcado del inventario a Excel con la fila TOTAL calculada por fórmula.",
+"Error frecuente que se anticipa: identificar los puertos por el color del conector y no por su forma y rotulación."
+],
+"Cierre": [
+"Verificación del punto de control: «La fila TOTAL calcula la suma con fórmula (al cambiar una cantidad, el total cambia solo)».",
+"Resolución de las «Actividades de aplicación» y lectura de la caja «En Paraguay — USB-C: un cargador para todo»."
+]
+},
+"tiempos": [
+15,
+50,
+15
+],
+"recursos": "Tomo del estudiante, Clase 5 (figura 5.1 y cuadro de puertos) · Cuaderno de Laboratorio, Práctica 5 · equipos del laboratorio para el relevamiento físico. Laboratorio de informática con equipos con Windows, Word, Excel y PowerPoint. Si el laboratorio no está disponible, la práctica se resuelve en papel con los modelos del Cuaderno y se ejecuta en la siguiente sesión de gabinete.",
+"proc": "Relevamiento físico de puertos del equipo y clasificación con la tabla de referencia.",
+"inst": "Inventario de puertos en planilla con totales (Práctica 5). Ejercicios de la clase.",
+"criterios": [
+"Reconoce los puertos del equipo por su forma y rotulación, no por el color.",
+"Clasifica los puertos relevados según su función en la planilla.",
+"Emplea fórmulas de suma para totalizar el inventario."
+]
+},
+{
+"idx": 8,
+"unidad": "UNIDAD 1 — Componentes básicos de una computadora",
+"material": "Cuaderno de Laboratorio · Ficha C · Tomo del estudiante (clases relacionadas)",
+"tema": "Continuación C — USB-C no es una velocidad",
+"capacidad": [
+"Interpretar correctamente puertos USB separando conector, estándar de datos y funciones adicionales."
+],
+"indicadores": [
+"Aplica contenidos ya enseñados en una situación técnica integrada.\n• Documenta decisiones con datos verificables.\n• Produce el resultado esperado de la Ficha C."
+],
+"momentos": {
+"Inicio": [
+"Recuperación de los conceptos previos necesarios para la Ficha C: usb-c no es una velocidad.\n• Presentación del producto y del punto de control que debe alcanzarse."
+],
+"Desarrollo": [
+"Lectura del marco mínimo de la Ficha C y análisis del modelo.\n• Ejecución guiada del procedimiento con los recursos disponibles.\n• Trabajo en parejas cuando sea necesario, sin modificar configuraciones del laboratorio fuera de lo indicado.\n• El docente verifica evidencia y corrige inferencias técnicas antes de avanzar."
+],
+"Cierre": [
+"Comprobación del punto de control de la Ficha C.\n• Puesta en común de dos decisiones técnicas y de la evidencia utilizada.\n• Desafío opcional para quienes terminan antes."
+]
+},
+"tiempos": [
+15,
+50,
+15
+],
+"recursos": "Cuaderno de Laboratorio, Ficha C · fichas técnicas/datos del caso · Windows y Microsoft Office según corresponda. Alternativa sin internet: dossier impreso preparado por el docente.",
+"proc": "Prueba diagnóstica de saberes previos. Observación guiada del equipo del laboratorio y clasificación de gabinetes con la tabla comparativa.",
+"inst": "Prueba diagnóstica. Ficha técnica del equipo elaborada en Word (Práctica 1).",
+"criterios": [
+"Distingue los tipos de gabinete y los relaciona con el uso al que se destinan.",
+"Registra en la ficha técnica datos verificados en el equipo, no supuestos.",
+"Justifica la compatibilidad entre gabinete y placa madre con el factor de forma."
+]
+},
+{
+"idx": 9,
+"unidad": "UNIDAD 1 — Componentes básicos de una computadora",
+"material": "Tomo del estudiante · Clase 6   ·   Cuaderno de Laboratorio · Práctica 6",
+"tema": "Clase 6 — El microprocesador: Microprocesador: concepto, evolución, tipos, características y conexión.",
+"capacidad": [
+"Reconoce las principales características de los microprocesadores de computadoras."
+],
+"indicadores": [
+"Explica la función del microprocesador como unidad central de proceso.",
+"Interpreta núcleos, hilos, frecuencia y caché al comparar procesadores.",
+"Describe los cuidados de la conexión del procesador al zócalo."
+],
+"momentos": {
+"Inicio": [
+"Dato disparador: comparación entre la velocidad de reloj de un procesador de hace veinte años y la de uno actual, para preguntar por qué esa cifra ya no alcanza para comparar.",
+"Presentación de la capacidad y de los indicadores de la clase."
+],
+"Desarrollo": [
+"Desarrollo de «Evolución» y «Tipos y características» del microprocesador, con la caja «Concepto clave — Núcleo e hilo» y el cuadro «Característica / Qué indica / Ejemplo de lectura».",
+"Lectura de la figura 6.1, que representa el ciclo de la CPU y la relación entre núcleos e hilos.",
+"Análisis de la caja «Ejemplo — Comparar sin marketing»: qué datos usa Panambi para decidir entre dos procesadores.",
+"Resolución de la Práctica 6: lectura del procesador en vivo en el Administrador de tareas y comparativa de mercado en Excel con el costo por núcleo en guaraníes.",
+"Error frecuente que se anticipa: comparar procesadores solo por los gigahertz, ignorando núcleos, hilos y generación."
+],
+"Cierre": [
+"Verificación del punto de control: «La fila Guaraníes por núcleo se calcula con fórmula y hay una recomendación escrita».",
+"Resolución de las «Actividades de aplicación» del tomo con la consigna «Respondé y fundamentá».",
+"Comentario de la caja «En Paraguay — Leer la publicación completa» sobre las especificaciones que omiten los avisos de venta."
+]
+},
+"tiempos": [
+15,
+50,
+15
+],
+"recursos": "Tomo del estudiante, Clase 6 (figura 6.1 y cuadro de características) · Cuaderno de Laboratorio, Práctica 6 · Administrador de tareas · planilla de cálculo. Laboratorio de informática con equipos con Windows, Word, Excel y PowerPoint. Si el laboratorio no está disponible, la práctica se resuelve en papel con los modelos del Cuaderno y se ejecuta en la siguiente sesión de gabinete.",
+"proc": "Monitoreo del procesador en vivo con el Administrador de tareas y análisis comparativo de ofertas reales.",
+"inst": "Comparativa de procesadores con recomendación fundamentada (Práctica 6).",
+"criterios": [
+"Interpreta los datos del procesador leídos en el Administrador de tareas.",
+"Compara procesadores con más de un criterio técnico y con su precio en guaraníes.",
+"Fundamenta por escrito la recomendación elegida."
+]
+},
+{
+"idx": 10,
+"unidad": "UNIDAD 1 — Componentes básicos de una computadora",
+"material": "Tomo del estudiante · Clase 7   ·   Cuaderno de Laboratorio · Práctica 7",
+"tema": "Clase 7 — Las memorias: Memorias: concepto, tipos, características y conexión.",
+"capacidad": [
+"Identifica los diferentes tipos de memorias utilizados en la computadora."
+],
+"indicadores": [
+"Diferencia memoria RAM, ROM y caché por su función.",
+"Interpreta capacidad, tipo y frecuencia de un módulo de RAM.",
+"Explica el montaje correcto de los módulos y el doble canal."
+],
+"momentos": {
+"Inicio": [
+"Consigna breve: explicar por qué un equipo se vuelve lento cuando se abren muchas pestañas, antes de introducir el concepto de memoria.",
+"Presentación de la capacidad y de los indicadores de logro."
+],
+"Desarrollo": [
+"Desarrollo de «Concepto y jerarquía» y «La memoria RAM», con la caja «Concepto clave — Volatilidad» y el cuadro que ordena memorias por velocidad y volatilidad.",
+"Lectura de la figura 7.1, con la jerarquía de memorias y el esquema del doble canal.",
+"Trabajo con la caja «Ejemplo — ¿8 o 16 GB para el aula?» como decisión de dimensionamiento del caso.",
+"Antes del presupuesto, demostración del criterio de compatibilidad: la velocidad observada no identifica por sí sola DDR3/DDR4/DDR5; se verifica fabricante/modelo del equipo o placa y su especificación de memoria. Resolución de la Práctica 7: diagnóstico del uso real de memoria y presupuesto de ampliación en Excel, con el TOTAL calculado por fórmula.",
+"Errores frecuentes que se anticipan: confundir memoria RAM con capacidad de almacenamiento del disco e inferir la generación DDR únicamente por la velocidad indicada por Windows."
+],
+"Cierre": [
+"Verificación del punto de control: «El TOTAL se calcula con fórmula y la mejora esperada está redactada en una oración».",
+"Resolución de las «Actividades de aplicación» y contraste con la caja «En Paraguay — La ampliación más pedida»."
+]
+},
+"tiempos": [
+15,
+50,
+15
+],
+"recursos": "Tomo del estudiante, Clase 7 (figura 7.1 y cuadro de jerarquía de memorias) · Cuaderno de Laboratorio, Práctica 7 · Administrador de tareas · planilla de cálculo. Laboratorio de informática con equipos con Windows, Word, Excel y PowerPoint. Si el laboratorio no está disponible, la práctica se resuelve en papel con los modelos del Cuaderno y se ejecuta en la siguiente sesión de gabinete.",
+"proc": "Diagnóstico del uso de memoria en vivo y elaboración de presupuesto de ampliación en planilla.",
+"inst": "Presupuesto de ampliación de RAM fundamentado (Práctica 7).",
+"criterios": [
+"Distingue memoria volátil de almacenamiento permanente.",
+"Lee el estado real de la memoria del equipo y lo registra con precisión.",
+"Fundamenta una ampliación de memoria con su presupuesto en guaraníes."
+]
+},
+{
+"idx": 11,
+"unidad": "UNIDAD 1 — Componentes básicos de una computadora",
+"material": "Cuaderno de Laboratorio · Ficha D · Tomo del estudiante (clases relacionadas)",
+"tema": "Continuación D — CPU, RAM y placa: cadena de compatibilidad",
+"capacidad": [
+"Documentar una propuesta de ampliación comprobando zócalo, chipset, tipo de memoria, capacidad y ranuras."
+],
+"indicadores": [
+"Aplica contenidos ya enseñados en una situación técnica integrada.\n• Documenta decisiones con datos verificables.\n• Produce el resultado esperado de la Ficha D."
+],
+"momentos": {
+"Inicio": [
+"Recuperación de los conceptos previos necesarios para la Ficha D: cpu, ram y placa: cadena de compatibilidad.\n• Presentación del producto y del punto de control que debe alcanzarse."
+],
+"Desarrollo": [
+"Lectura del marco mínimo de la Ficha D y análisis del modelo.\n• Ejecución guiada del procedimiento con los recursos disponibles.\n• Trabajo en parejas cuando sea necesario, sin modificar configuraciones del laboratorio fuera de lo indicado.\n• El docente verifica evidencia y corrige inferencias técnicas antes de avanzar."
+],
+"Cierre": [
+"Comprobación del punto de control de la Ficha D.\n• Puesta en común de dos decisiones técnicas y de la evidencia utilizada.\n• Desafío opcional para quienes terminan antes."
+]
+},
+"tiempos": [
+15,
+50,
+15
+],
+"recursos": "Cuaderno de Laboratorio, Ficha D · fichas técnicas/datos del caso · Windows y Microsoft Office según corresponda. Alternativa sin internet: dossier impreso preparado por el docente.",
+"proc": "Prueba diagnóstica de saberes previos. Observación guiada del equipo del laboratorio y clasificación de gabinetes con la tabla comparativa.",
+"inst": "Prueba diagnóstica. Ficha técnica del equipo elaborada en Word (Práctica 1).",
+"criterios": [
+"Distingue los tipos de gabinete y los relaciona con el uso al que se destinan.",
+"Registra en la ficha técnica datos verificados en el equipo, no supuestos.",
+"Justifica la compatibilidad entre gabinete y placa madre con el factor de forma."
+]
+},
+{
+"idx": 12,
+"unidad": "UNIDAD 1 — Componentes básicos de una computadora",
+"material": "Tomo del estudiante · Clase 8   ·   Cuaderno de Laboratorio · Práctica 8",
+"tema": "Clase 8 — Almacenamiento: discos duros y SSD: Discos duros y unidades SSD: concepto, componentes, tipos, características y conexión.",
+"capacidad": [
+"Reconoce las características de los dispositivos de almacenamiento secundario."
+],
+"indicadores": [
+"Describe los componentes internos de un disco duro mecánico.",
+"Compara HDD y SSD en velocidad, resistencia y costo por GB.",
+"Distingue SATA, formato M.2 y NVMe/PCIe según compatibilidad."
+],
+"momentos": {
+"Inicio": [
+"Comparación en voz alta de dos experiencias conocidas: el tiempo de arranque de un equipo con disco mecánico y el de uno con unidad de estado sólido.",
+"Presentación de la capacidad y de los indicadores de la clase."
+],
+"Desarrollo": [
+"Desarrollo de «El disco duro mecánico (HDD)» y «La unidad de estado sólido (SSD)», con la caja «Concepto clave — Almacenamiento secundario».",
+"Lectura de la figura 8.1, que contrasta el disco mecánico con la unidad de estado sólido, y del cuadro comparativo de HDD, SSD SATA y SSD M.2 NVMe.",
+"Análisis de la caja «Ejemplo — El arranque que convence» y de «Cómo se combinan en la práctica» para el equipo del caso.",
+"Resolución de la Práctica 8: registro de las unidades del equipo con su ocupación e identificación del tipo de unidad desde Windows.",
+"Error frecuente que se anticipa: suponer que toda unidad conectada por SATA es mecánica."
+],
+"Cierre": [
+"Verificación del punto de control: «La tabla identifica correctamente si cada unidad es HDD o SSD según Windows».",
+"Resolución de las «Actividades de aplicación» y comentario de la caja «En Paraguay — La migración a SSD»."
+]
+},
+"tiempos": [
+15,
+50,
+15
+],
+"recursos": "Tomo del estudiante, Clase 8 (figura 8.1 y cuadro comparativo de unidades) · Cuaderno de Laboratorio, Práctica 8 · herramientas de administración de discos de Windows. Laboratorio de informática con equipos con Windows, Word, Excel y PowerPoint. Si el laboratorio no está disponible, la práctica se resuelve en papel con los modelos del Cuaderno y se ejecuta en la siguiente sesión de gabinete.",
+"proc": "Relevamiento de unidades reales y verificación del tipo de medio con el Optimizador de Windows.",
+"inst": "Tabla de unidades con tipo y estado (Práctica 8). Ejercicios comparativos HDD/SSD.",
+"criterios": [
+"Distingue HDD y SSD por su tecnología, su velocidad y su conexión.",
+"Releva las unidades del equipo y registra su ocupación real.",
+"Fundamenta una combinación de unidades adecuada al uso previsto."
+]
+},
+{
+"idx": 13,
+"unidad": "UNIDAD 1 — Componentes básicos de una computadora",
+"material": "Cuaderno de Laboratorio · Ficha E · Tomo del estudiante (clases relacionadas)",
+"tema": "Continuación E — Almacenamiento y migración segura",
+"capacidad": [
+"Elegir almacenamiento y diseñar una migración con verificación y respaldo."
+],
+"indicadores": [
+"Aplica contenidos ya enseñados en una situación técnica integrada.\n• Documenta decisiones con datos verificables.\n• Produce el resultado esperado de la Ficha E."
+],
+"momentos": {
+"Inicio": [
+"Recuperación de los conceptos previos necesarios para la Ficha E: almacenamiento y migración segura.\n• Presentación del producto y del punto de control que debe alcanzarse."
+],
+"Desarrollo": [
+"Lectura del marco mínimo de la Ficha E y análisis del modelo.\n• Ejecución guiada del procedimiento con los recursos disponibles.\n• Trabajo en parejas cuando sea necesario, sin modificar configuraciones del laboratorio fuera de lo indicado.\n• El docente verifica evidencia y corrige inferencias técnicas antes de avanzar."
+],
+"Cierre": [
+"Comprobación del punto de control de la Ficha E.\n• Puesta en común de dos decisiones técnicas y de la evidencia utilizada.\n• Desafío opcional para quienes terminan antes."
+]
+},
+"tiempos": [
+15,
+50,
+15
+],
+"recursos": "Cuaderno de Laboratorio, Ficha E · fichas técnicas/datos del caso · Windows y Microsoft Office según corresponda. Alternativa sin internet: dossier impreso preparado por el docente.",
+"proc": "Prueba diagnóstica de saberes previos. Observación guiada del equipo del laboratorio y clasificación de gabinetes con la tabla comparativa.",
+"inst": "Prueba diagnóstica. Ficha técnica del equipo elaborada en Word (Práctica 1).",
+"criterios": [
+"Distingue los tipos de gabinete y los relaciona con el uso al que se destinan.",
+"Registra en la ficha técnica datos verificados en el equipo, no supuestos.",
+"Justifica la compatibilidad entre gabinete y placa madre con el factor de forma."
+]
+},
+{
+"idx": 14,
+"unidad": "UNIDAD 1 — Componentes básicos de una computadora",
+"material": "Tomo del estudiante · Clase 9   ·   Cuaderno de Laboratorio · Práctica 9",
+"tema": "Clase 9 — Lectoras de CD, DVD y Blu-ray: Lectoras y grabadoras ópticas: concepto, tipos, características y conexión.",
+"capacidad": [
+"Reconoce las características de los dispositivos de almacenamiento óptico."
+],
+"indicadores": [
+"Distingue CD, DVD y Blu-ray por su capacidad y su láser.",
+"Interpreta la velocidad 'x' de una unidad óptica.",
+"Evalúa cuándo tiene sentido incluir una unidad óptica hoy."
+],
+"momentos": {
+"Inicio": [
+"Pregunta sobre el archivo escolar: qué formatos ópticos conoce el grupo y cuánta información entra en cada uno.",
+"Presentación de la capacidad y de los indicadores de logro."
+],
+"Desarrollo": [
+"Desarrollo de «Tipos y capacidades» y «Características y velocidad», con la caja «Concepto clave — Velocidad 'x'» y el cuadro de capacidades por capa.",
+"Lectura de la figura 9.1, que compara la capacidad de CD, DVD y Blu-ray.",
+"Trabajo con la caja «Ejemplo — Los discos del archivo escolar» como situación de migración de soporte.",
+"Resolución de la Práctica 9: cálculo en Excel de la cantidad de discos y del tiempo de lectura, y armado de la diapositiva de propuesta en PowerPoint.",
+"Error frecuente que se anticipa: leer la velocidad «x» como una medida absoluta, igual para todos los formatos."
+],
+"Cierre": [
+"Verificación del punto de control: «CD ≈ 132 discos; DVD ≈ 20; Blu-ray ≈ 4. Las horas se calculan con fórmula».",
+"Exposición breve de dos diapositivas de propuesta y resolución de las «Actividades de aplicación».",
+"Comentario de la caja «En Paraguay — Del disco a la descarga» sobre la vigencia actual del formato."
+]
+},
+"tiempos": [
+15,
+50,
+15
+],
+"recursos": "Tomo del estudiante, Clase 9 (figura 9.1 y cuadro de formatos ópticos) · Cuaderno de Laboratorio, Práctica 9 · planilla de cálculo y programa de presentaciones. Laboratorio de informática con equipos con Windows, Word, Excel y PowerPoint. Si el laboratorio no está disponible, la práctica se resuelve en papel con los modelos del Cuaderno y se ejecuta en la siguiente sesión de gabinete.",
+"proc": "Resolución de cálculos de capacidad/velocidad óptica y comunicación de la propuesta en presentación.",
+"inst": "Planilla de cálculos ópticos y diapositiva de propuesta (Práctica 9).",
+"criterios": [
+"Relaciona cada formato óptico con su capacidad y su láser.",
+"Calcula cantidad de discos y tiempos de lectura con fórmulas.",
+"Presenta la propuesta de migración con datos visibles y legibles."
+]
+},
+{
+"idx": 15,
+"unidad": "UNIDAD 1 — Componentes básicos de una computadora",
+"material": "Tomo del estudiante · Clase 10   ·   Cuaderno de Laboratorio · Práctica 10",
+"tema": "Clase 10 — Impresoras: Impresoras: concepto, tipos, características, conexión e insumos.",
+"capacidad": [
+"Identifica los diferentes tipos de impresoras."
+],
+"indicadores": [
+"Clasifica las impresoras por su tecnología de impresión.",
+"Relaciona cada tipo de impresora con su uso y sus insumos.",
+"Calcula y compara el costo por página de distintas tecnologías."
+],
+"momentos": {
+"Inicio": [
+"Estimación colectiva del gasto mensual en impresión de una secretaría escolar, para introducir el costo por página como criterio de compra.",
+"Presentación de la capacidad y de los indicadores, y aviso del cierre de la Unidad 1 en esta sesión."
+],
+"Desarrollo": [
+"Desarrollo de «Concepto y tipos» e «Insumos y costo por página», con la caja «Concepto clave — Costo por página» y el cuadro de tecnologías de impresión.",
+"Lectura de la figura 10.1, con las cuatro tecnologías de impresión y el cálculo del costo por página.",
+"Resolución de la Práctica 10: administración de la cola de impresión de Windows y comparación de dos impresoras por costo por página en Excel.",
+"Resolución del bloque «Caso integrador — El presupuesto de Panambi»: costo de un equipo, costo de los diez equipos del aula y argumentación técnica sobre el cambio de módulos de memoria.",
+"Error frecuente que se anticipa: elegir la impresora por el precio del equipo sin considerar el rendimiento del insumo."
+],
+"Cierre": [
+"Verificación del punto de control: «Costo por página ≈ G. 686 (inyección) vs. G. 200 (láser); el mensual muestra la láser claramente conveniente».",
+"Repaso integrador de la Unidad 1 sobre las fichas de las diez clases, con la caja «En Paraguay — La matriz de punto no se jubila».",
+"Entrega de la evaluación de la Unidad 1 fotocopiable y acuerdo de la fecha de aplicación, que no se resuelve dentro de esta sesión."
+]
+},
+"tiempos": [
+15,
+50,
+15
+],
+"recursos": "Tomo del estudiante, Clase 10 (figura 10.1, cuadro de tecnologías y caso integrador) · Cuaderno de Laboratorio, Práctica 10 · evaluación de la Unidad 1 fotocopiada · planilla de cálculo · impresora o impresora virtual PDF del equipo. Laboratorio de informática con equipos con Windows, Word, Excel y PowerPoint. Si el laboratorio no está disponible, la práctica se resuelve en papel con los modelos del Cuaderno y se ejecuta en la siguiente sesión de gabinete.",
+"proc": "Gestión de la cola de impresión de Windows y análisis de costo por página con planilla.",
+"inst": "Comparativa de impresoras con recomendación (Práctica 10). Cierre y repaso de la unidad. Evaluación de la unidad (fotocopiable).",
+"criterios": [
+"Clasifica las impresoras por tecnología y por insumo.",
+"Calcula el costo por página y lo usa para fundamentar una compra.",
+"Integra los contenidos de la unidad en la resolución del presupuesto del caso."
+]
+},
+{
+"idx": 16,
+"unidad": "UNIDAD 1 — Componentes básicos de una computadora",
+"material": "Cuaderno de Laboratorio · Ficha F · Tomo del estudiante (clases relacionadas)",
+"tema": "Continuación F — Costo total de impresión",
+"capacidad": [
+"Comparar impresoras por costo real y no solo por precio de compra."
+],
+"indicadores": [
+"Aplica contenidos ya enseñados en una situación técnica integrada.\n• Documenta decisiones con datos verificables.\n• Produce el resultado esperado de la Ficha F."
+],
+"momentos": {
+"Inicio": [
+"Recuperación de los conceptos previos necesarios para la Ficha F: costo total de impresión.\n• Presentación del producto y del punto de control que debe alcanzarse."
+],
+"Desarrollo": [
+"Lectura del marco mínimo de la Ficha F y análisis del modelo.\n• Ejecución guiada del procedimiento con los recursos disponibles.\n• Trabajo en parejas cuando sea necesario, sin modificar configuraciones del laboratorio fuera de lo indicado.\n• El docente verifica evidencia y corrige inferencias técnicas antes de avanzar."
+],
+"Cierre": [
+"Comprobación del punto de control de la Ficha F.\n• Puesta en común de dos decisiones técnicas y de la evidencia utilizada.\n• Desafío opcional para quienes terminan antes."
+]
+},
+"tiempos": [
+15,
+50,
+15
+],
+"recursos": "Cuaderno de Laboratorio, Ficha F · fichas técnicas/datos del caso · Windows y Microsoft Office según corresponda. Alternativa sin internet: dossier impreso preparado por el docente.",
+"proc": "Prueba diagnóstica de saberes previos. Observación guiada del equipo del laboratorio y clasificación de gabinetes con la tabla comparativa.",
+"inst": "Prueba diagnóstica. Ficha técnica del equipo elaborada en Word (Práctica 1).",
+"criterios": [
+"Distingue los tipos de gabinete y los relaciona con el uso al que se destinan.",
+"Registra en la ficha técnica datos verificados en el equipo, no supuestos.",
+"Justifica la compatibilidad entre gabinete y placa madre con el factor de forma."
+]
+},
+{
+"idx": 17,
+"unidad": "UNIDAD 1 — Componentes básicos de una computadora",
+"material": "Evaluación de la Unidad 1 del tomo · hoja de respuestas",
+"tema": "Evaluación de la Unidad 1 — Componentes básicos de una computadora",
+"capacidad": [
+"Reconoce, analiza e identifica las características, tipos y conexiones de los componentes básicos de una computadora."
+],
+"indicadores": [
+"Integra componentes y compatibilidades.\n• Resuelve cálculos y casos de selección.\n• Fundamenta respuestas con criterios técnicos."
+],
+"momentos": {
+"Inicio": [
+"Encuadre de la evaluación: contenidos, tiempo, materiales permitidos y forma de entrega.\n• Recordatorio de que la prueba es individual."
+],
+"Desarrollo": [
+"Aplicación individual de la evaluación de Unidad 1.\n• El docente registra preguntas frecuentes sin dar respuestas durante la prueba.\n• Al terminar, revisión silenciosa de respuestas y entrega."
+],
+"Cierre": [
+"Recolección de evaluaciones.\n• Devolución general breve de los errores más frecuentes o reserva de la devolución para la siguiente sesión."
+]
+},
+"tiempos": [
+15,
+50,
+15
+],
+"recursos": "Evaluación de Unidad 1 fotocopiada · calculadora simple si la prueba la requiere.",
+"proc": "Resolución individual de la prueba integradora escrita sobre el caso de presupuesto del equipo.",
+"inst": "Prueba escrita integradora fotocopiable con caso de presupuesto.",
+"criterios": [
+"Resuelve los cálculos de tolerancia, capacidad y costo con el procedimiento visible.",
+"Fundamenta las decisiones de compra con criterios técnicos, no de precio solamente.",
+"Emplea con precisión la terminología de los componentes trabajada en la unidad."
+]
+},
+{
+"idx": 18,
+"unidad": "UNIDAD 1 — Componentes básicos de una computadora",
+"material": "Evaluación integradora fotocopiable del tomo · sin uso del laboratorio",
+"tema": "Evaluación integradora de la 1.ª etapa (Unidad 1)",
+"capacidad": [
+"Reconoce, analiza e identifica las características, tipos y conexiones de los componentes básicos de una computadora: gabinete, fuente de alimentación, placa madre, slots, puertos, microprocesador, memorias, almacenamiento e impresoras."
+],
+"indicadores": [
+"Relaciona entre sí los componentes básicos del equipo y verifica su compatibilidad.",
+"Resuelve cálculos técnicos de tolerancia, capacidad y costo con los datos del caso.",
+"Fundamenta decisiones de compra de un equipo con criterios técnicos y económicos."
+],
+"momentos": {
+"Inicio": [
+"Encuadre de la sesión de evaluación: alcance de la prueba (Unidad 1 completa), tiempo disponible, materiales permitidos y forma de entrega.",
+"Recordatorio de los criterios de corrección: en los ítems de cálculo se valora el procedimiento, y las respuestas de justificación se puntúan por el fundamento técnico."
+],
+"Desarrollo": [
+"Resolución individual de los ítems de opción múltiple sobre factor de forma, tolerancia de voltaje, doble canal y límite de la interfaz SATA.",
+"Resolución de los ítems de completamiento y de verdadero o falso con justificación de las falsas.",
+"Resolución del caso de presupuesto del equipo, con los cálculos desarrollados y la argumentación técnica de las decisiones de compra.",
+"Supervisión activa del docente: control del tiempo por bloque y aclaración de consignas sin adelantar respuestas."
+],
+"Cierre": [
+"Revisión individual de la prueba antes de la entrega, con verificación de que todos los ítems de justificación estén respondidos.",
+"Recolección de las pruebas y anuncio de la devolución con corrección comentada en la sesión siguiente."
+]
+},
+"tiempos": [
+15,
+50,
+15
+],
+"recursos": "Evaluación integradora de la 1.ª etapa, fotocopiada del tomo · calculadora simple · tomo del estudiante cerrado durante la aplicación. No requiere laboratorio.",
+"proc": "Resolución individual de la prueba integradora escrita sobre el caso de presupuesto del equipo.",
+"inst": "Prueba escrita integradora fotocopiable con caso de presupuesto.",
+"criterios": [
+"Resuelve los cálculos de tolerancia, capacidad y costo con el procedimiento visible.",
+"Fundamenta las decisiones de compra con criterios técnicos, no de precio solamente.",
+"Emplea con precisión la terminología de los componentes trabajada en la unidad."
+]
+},
+{
+"idx": 19,
+"unidad": "UNIDAD 2 — Redes de Computadoras",
+"material": "Tomo del estudiante · Clase 11   ·   Cuaderno de Laboratorio · Práctica 11",
+"tema": "Clase 11 — La red de computadoras: Red de computadoras: definición, ventajas, características, tipos, elementos y usos.",
+"capacidad": [
+"Reconoce las características principales de una red de comunicaciones."
+],
+"indicadores": [
+"Define qué es una red de computadoras y enumera sus ventajas.",
+"Identifica los elementos que participan en toda comunicación en red.",
+"Distingue redes cliente-servidor de redes entre pares."
+],
+"momentos": {
+"Inicio": [
+"Reconocimiento colectivo de los recursos que el grupo ya comparte en el laboratorio —archivos, impresora, acceso a internet— como punto de entrada a la idea de red.",
+"Presentación de la capacidad y de los indicadores, y lanzamiento del Proyecto Final Integrador de la feria: el sistema de gestión del Copetín Karumbé, con la conformación de los equipos de 3 a 4 integrantes."
+],
+"Desarrollo": [
+"Desarrollo de «Definición y ventajas» y «Elementos de la comunicación», con la caja «Concepto clave — Red de computadoras» y el cuadro «Elemento / Función en la comunicación / Ejemplo en el aula».",
+"Lectura de la figura 11.1, con los elementos de la comunicación y los dos modelos de red, y contraste entre red entre pares y cliente-servidor.",
+"Análisis de la caja «Ejemplo — El aula que trabaja en red» como descripción del escenario del caso.",
+"Resolución de la Práctica 11: lectura del estado de red del equipo y mapeo en Word de los elementos de la comunicación de la red del laboratorio.",
+"Error frecuente que se anticipa: identificar la red con el acceso a internet, cuando una red local funciona sin él."
+],
+"Cierre": [
+"Verificación del punto de control: «La tabla tiene los cinco elementos con ejemplos reales y el párrafo describe al menos un recurso compartido».",
+"Resolución de las «Actividades de aplicación» y lectura de la caja «En Paraguay — Conectar es política pública»."
+]
+},
+"tiempos": [
+15,
+50,
+15
+],
+"recursos": "Tomo del estudiante, Clase 11 (figura 11.1 y cuadro de elementos de la comunicación) · Cuaderno de Laboratorio, Práctica 11 y bloque del Proyecto Final Integrador · red del laboratorio en funcionamiento. Laboratorio de informática con equipos con Windows, Word, Excel y PowerPoint. Si el laboratorio no está disponible, la práctica se resuelve en papel con los modelos del Cuaderno y se ejecuta en la siguiente sesión de gabinete.",
+"proc": "Exploración del estado de red en Windows y mapeo de los elementos de la comunicación sobre la red real del laboratorio.",
+"inst": "Documento «Los elementos de nuestra red» (Práctica 11). Ejercicios de la clase.",
+"criterios": [
+"Define la red de computadoras y enumera sus ventajas con ejemplos del aula.",
+"Identifica los elementos de la comunicación sobre la red real del laboratorio.",
+"Distingue el modelo entre pares del modelo cliente-servidor."
+]
+},
+{
+"idx": 20,
+"unidad": "UNIDAD 2 — Redes de Computadoras",
+"material": "Tomo del estudiante · Clase 12   ·   Cuaderno de Laboratorio · Práctica 12",
+"tema": "Clase 12 — Protocolos y estándares: Protocolos y estándares: concepto, tipos, características y funciones.",
+"capacidad": [
+"Analiza los principios de las redes de comunicación."
+],
+"indicadores": [
+"Explica la función de los protocolos en la comunicación de datos.",
+"Reconoce los protocolos principales de la familia TCP/IP y su rol.",
+"Interpreta una dirección IP, su máscara y la puerta de enlace."
+],
+"momentos": {
+"Inicio": [
+"Situación planteada en la pizarra: dos equipos conectados al mismo switch que no se ven entre sí, para preguntar qué acuerdo previo hace falta para que se comuniquen.",
+"Presentación de la capacidad y de los indicadores de la clase."
+],
+"Desarrollo": [
+"Desarrollo de «Qué es un protocolo» y «La familia TCP/IP», con el cuadro «Protocolo / Función / Ejemplo de uso» y la caja «Concepto clave — Dirección IP privada».",
+"Lectura de la figura 12.1, con la anatomía de una dirección IP y la puerta de enlace, aplicada a la numeración del laboratorio.",
+"Trabajo con la caja «Ejemplo — El plan de direcciones del aula», que ordena las direcciones del caso del Instituto Ko'ẽju.",
+"Resolución de la Práctica 12: obtención de la configuración con ipconfig /all e interpretación de los cinco datos en una tabla de Word. Se demuestra que el atajo de «mismos tres primeros octetos» solo corresponde al caso /24 (255.255.255.0); con otra máscara no se concluye sin interpretar la subred.",
+"Error frecuente que se anticipa: tomar la dirección privada del equipo por la dirección pública con la que sale a internet."
+],
+"Cierre": [
+"Verificación del punto de control: «La tabla explica los cinco datos y comprobaste que tu IP y la de tu compañero pertenecen a la misma red».",
+"Resolución de las «Actividades de aplicación» y comentario de la caja «En Paraguay — El dominio .py»."
+]
+},
+"tiempos": [
+15,
+50,
+15
+],
+"recursos": "Tomo del estudiante, Clase 12 (figura 12.1 y cuadro de protocolos) · Cuaderno de Laboratorio, Práctica 12 · símbolo del sistema de Windows. Laboratorio de informática con equipos con Windows, Word, Excel y PowerPoint. Si el laboratorio no está disponible, la práctica se resuelve en papel con los modelos del Cuaderno y se ejecuta en la siguiente sesión de gabinete.",
+"proc": "Diagnóstico de la configuración TCP/IP real con ipconfig /all e interpretación guiada de cada parámetro.",
+"inst": "Tabla interpretada de configuración TCP/IP (Práctica 12).",
+"criterios": [
+"Explica la función de los protocolos principales de la familia TCP/IP.",
+"Interpreta la configuración IPv4 real del equipo con sus cinco datos.",
+"Verifica si dos equipos pertenecen a la misma red a partir de sus direcciones."
+]
+},
+{
+"idx": 21,
+"unidad": "UNIDAD 2 — Redes de Computadoras",
+"material": "Cuaderno de Laboratorio · Ficha G · Tomo del estudiante (clases relacionadas)",
+"tema": "Continuación G — Diagnóstico IP paso a paso",
+"capacidad": [
+"Interpretar una configuración TCP/IP y localizar fallas básicas sin modificar la red."
+],
+"indicadores": [
+"Aplica contenidos ya enseñados en una situación técnica integrada.\n• Documenta decisiones con datos verificables.\n• Produce el resultado esperado de la Ficha G."
+],
+"momentos": {
+"Inicio": [
+"Recuperación de los conceptos previos necesarios para la Ficha G: diagnóstico ip paso a paso.\n• Presentación del producto y del punto de control que debe alcanzarse."
+],
+"Desarrollo": [
+"Lectura del marco mínimo de la Ficha G y análisis del modelo.\n• Ejecución guiada del procedimiento con los recursos disponibles.\n• Trabajo en parejas cuando sea necesario, sin modificar configuraciones del laboratorio fuera de lo indicado.\n• El docente verifica evidencia y corrige inferencias técnicas antes de avanzar."
+],
+"Cierre": [
+"Comprobación del punto de control de la Ficha G.\n• Puesta en común de dos decisiones técnicas y de la evidencia utilizada.\n• Desafío opcional para quienes terminan antes."
+]
+},
+"tiempos": [
+15,
+50,
+15
+],
+"recursos": "Cuaderno de Laboratorio, Ficha G · fichas técnicas/datos del caso · Windows y Microsoft Office según corresponda. Alternativa sin internet: dossier impreso preparado por el docente.",
+"proc": "Prueba diagnóstica de saberes previos. Observación guiada del equipo del laboratorio y clasificación de gabinetes con la tabla comparativa.",
+"inst": "Prueba diagnóstica. Ficha técnica del equipo elaborada en Word (Práctica 1).",
+"criterios": [
+"Distingue los tipos de gabinete y los relaciona con el uso al que se destinan.",
+"Registra en la ficha técnica datos verificados en el equipo, no supuestos.",
+"Justifica la compatibilidad entre gabinete y placa madre con el factor de forma."
+]
+},
+{
+"idx": 22,
+"unidad": "UNIDAD 2 — Redes de Computadoras",
+"material": "Tomo del estudiante · Clase 13   ·   Cuaderno de Laboratorio · Práctica 13",
+"tema": "Clase 13 — Redes por alcance: LAN, MAN y WAN: Redes geográficamente distribuidas (LAN, MAN, WAN): definición, características, alcance y elementos.",
+"capacidad": [
+"Analiza los principios de las redes de comunicación."
+],
+"indicadores": [
+"Clasifica redes según su alcance geográfico.",
+"Describe los elementos característicos de LAN, MAN y WAN.",
+"Explica internet como interconexión de redes de distinto alcance."
+],
+"momentos": {
+"Inicio": [
+"Ordenamiento colectivo de cuatro escenarios conocidos —el celular con el auricular, el aula, la red de un municipio, internet— de menor a mayor alcance.",
+"Presentación de la capacidad y de los indicadores de logro."
+],
+"Desarrollo": [
+"Desarrollo de «LAN: la red local», «MAN: la red metropolitana» y «WAN: la red de área amplia», con el cuadro «Red / Alcance típico / Ejemplo / ¿Quién la administra?».",
+"Lectura de la figura 13.1, con la escala completa de PAN, LAN, MAN y WAN, y la caja «Concepto clave — Alcance».",
+"Análisis de la caja «Ejemplo — ¿Qué red es cuál?» como ejercicio de clasificación aplicada.",
+"Resolución de la Práctica 13: medición con ping de la demora hacia la propia red y hacia internet, y conteo de saltos con tracert volcado a Excel. Se modela cómo registrar «sin respuesta ICMP» y cómo interpretar * en tracert sin confundirlos con una caída segura del enlace.",
+"Errores frecuentes que se anticipan: clasificar las redes por cantidad de equipos y asumir que un destino remoto siempre tendrá más latencia o que un timeout de ICMP significa que el sitio está caído."
+],
+"Cierre": [
+"Verificación del punto de control: la puerta de enlace se reconoce como destino local y el trazado remoto queda documentado con sus saltos, demoras observadas y posibles * o bloqueos de ICMP.",
+"Resolución de las «Actividades de aplicación» y lectura de la caja «En Paraguay — La troncal que une al país»."
+]
+},
+"tiempos": [
+15,
+50,
+15
+],
+"recursos": "Tomo del estudiante, Clase 13 (figura 13.1 y cuadro de alcances) · Cuaderno de Laboratorio, Práctica 13 · símbolo del sistema con ping y tracert · conexión a internet; si no hay salida a internet, las mediciones se limitan a la red local y se comparan con los valores de referencia del Cuaderno. Laboratorio de informática con equipos con Windows, Word, Excel y PowerPoint. Si el laboratorio no está disponible, la práctica se resuelve en papel con los modelos del Cuaderno y se ejecuta en la siguiente sesión de gabinete.",
+"proc": "Medición comparativa de demoras y saltos con ping y tracert hacia destinos de distinto alcance.",
+"inst": "Tabla de alcances con mediciones reales (Práctica 13).",
+"criterios": [
+"Clasifica redes por su alcance geográfico y por su administración.",
+"Obtiene mediciones reales de demora y de saltos con las herramientas de Windows.",
+"Interpreta diferencias de demora y saltos considerando distancia, ruta, congestión y posibles bloqueos de ICMP."
+]
+},
+{
+"idx": 23,
+"unidad": "UNIDAD 2 — Redes de Computadoras",
+"material": "Tomo del estudiante · Clase 14   ·   Cuaderno de Laboratorio · Práctica 14",
+"tema": "Clase 14 — Topologías de red: Topología de red física y lógica: definición, tipos, ventajas y desventajas.",
+"capacidad": [
+"Analiza los principios de las redes de comunicación."
+],
+"indicadores": [
+"Diferencia topología física de topología lógica.",
+"Describe las topologías clásicas con sus ventajas y desventajas.",
+"Justifica el predominio actual de la estrella y la estrella extendida."
+],
+"momentos": {
+"Inicio": [
+"Trazado a mano alzada, en la pizarra, de cómo el grupo imagina conectados los equipos del laboratorio, antes de nombrar las topologías.",
+"Presentación de la capacidad y de los indicadores de la clase."
+],
+"Desarrollo": [
+"Desarrollo de «Topología física y lógica» y «Las topologías clásicas», con el cuadro de ventajas y desventajas y la caja «Concepto clave — Punto único de falla».",
+"Lectura de la figura 14.1, con las cinco topologías dibujadas, y discusión de «Por qué ganó la estrella».",
+"Trabajo con la caja «Ejemplo — El plano del aula», que fija la topología del caso del Instituto Ko'ẽju.",
+"Demostración breve en PowerPoint de Insertar → Formas → Líneas → Conector recto y de cómo anclar sus extremos a los puntos de conexión. Resolución de la Práctica 14: estrella del aula con switch central, diez PC, impresora, access point y router, y señalamiento del punto único de falla.",
+"Error frecuente que se anticipa: confundir la topología física con la lógica y suponer que el dibujo del cableado describe también el recorrido de los datos."
+],
+"Cierre": [
+"Verificación del punto de control: las 10 PC, la impresora, el access point y el router quedan unidos al switch mediante conectores anclados que siguen a las formas al moverlas.",
+"Resolución de las «Actividades de aplicación» y comentario de la caja «En Paraguay — Malla donde no puede fallar».",
+"Archivo del plano producido como pieza del Proyecto Final Integrador de la feria."
+]
+},
+"tiempos": [
+15,
+50,
+15
+],
+"recursos": "Tomo del estudiante, Clase 14 (figura 14.1 y cuadro de topologías) · Cuaderno de Laboratorio, Práctica 14 · programa de presentaciones con herramientas de formas y conectores. Laboratorio de informática con equipos con Windows, Word, Excel y PowerPoint. Si el laboratorio no está disponible, la práctica se resuelve en papel con los modelos del Cuaderno y se ejecuta en la siguiente sesión de gabinete.",
+"proc": "Construcción del diagrama de topología del aula con formas y conectores, identificando el punto único de falla.",
+"inst": "Plano de topología del aula en PowerPoint (Práctica 14).",
+"criterios": [
+"Distingue topología física de topología lógica.",
+"Representa la topología en estrella del aula con sus elementos completos.",
+"Identifica y justifica el punto único de falla de la topología representada."
+]
+},
+{
+"idx": 24,
+"unidad": "UNIDAD 2 — Redes de Computadoras",
+"material": "Cuaderno de Laboratorio · Ficha H · Tomo del estudiante (clases relacionadas)",
+"tema": "Continuación H — Topologías modernas y dominios de falla",
+"capacidad": [
+"Relacionar topología física, comportamiento de switches y puntos únicos de falla."
+],
+"indicadores": [
+"Aplica contenidos ya enseñados en una situación técnica integrada.\n• Documenta decisiones con datos verificables.\n• Produce el resultado esperado de la Ficha H."
+],
+"momentos": {
+"Inicio": [
+"Recuperación de los conceptos previos necesarios para la Ficha H: topologías modernas y dominios de falla.\n• Presentación del producto y del punto de control que debe alcanzarse."
+],
+"Desarrollo": [
+"Lectura del marco mínimo de la Ficha H y análisis del modelo.\n• Ejecución guiada del procedimiento con los recursos disponibles.\n• Trabajo en parejas cuando sea necesario, sin modificar configuraciones del laboratorio fuera de lo indicado.\n• El docente verifica evidencia y corrige inferencias técnicas antes de avanzar."
+],
+"Cierre": [
+"Comprobación del punto de control de la Ficha H.\n• Puesta en común de dos decisiones técnicas y de la evidencia utilizada.\n• Desafío opcional para quienes terminan antes."
+]
+},
+"tiempos": [
+15,
+50,
+15
+],
+"recursos": "Cuaderno de Laboratorio, Ficha H · fichas técnicas/datos del caso · Windows y Microsoft Office según corresponda. Alternativa sin internet: dossier impreso preparado por el docente.",
+"proc": "Prueba diagnóstica de saberes previos. Observación guiada del equipo del laboratorio y clasificación de gabinetes con la tabla comparativa.",
+"inst": "Prueba diagnóstica. Ficha técnica del equipo elaborada en Word (Práctica 1).",
+"criterios": [
+"Distingue los tipos de gabinete y los relaciona con el uso al que se destinan.",
+"Registra en la ficha técnica datos verificados en el equipo, no supuestos.",
+"Justifica la compatibilidad entre gabinete y placa madre con el factor de forma."
+]
+},
+{
+"idx": 25,
+"unidad": "UNIDAD 2 — Redes de Computadoras",
+"material": "Tomo del estudiante · Clase 15   ·   Cuaderno de Laboratorio · Práctica 15",
+"tema": "Clase 15 — Equipos de red: Equipos de red: concepto, características, tipos, aplicación y generalidades.",
+"capacidad": [
+"Identifica equipos y materiales para una red."
+],
+"indicadores": [
+"Describe la función de switch, router, access point y módem/ONT.",
+"Diferencia el switch del router por el problema que resuelve cada uno.",
+"Selecciona los equipos necesarios para una red local dada."
+],
+"momentos": {
+"Inicio": [
+"Identificación, sobre el rack o el mueble de red del laboratorio, de qué equipos hay instalados y cuál cumple cada función.",
+"Presentación de la capacidad y de los indicadores de logro."
+],
+"Desarrollo": [
+"Desarrollo de «El switch», «El router» y «Access point y módem/ONT», con el cuadro «Equipo / Problema que resuelve / Dato clave al elegirlo».",
+"Lectura de la figura 15.1, el esquema de una red local típica, con la caja «Concepto clave — Puerta de enlace».",
+"Análisis de la caja «Ejemplo — La lista de equipos del aula» y dimensionamiento explícito: 13 puertos ocupados (10 PC + impresora + access point + enlace al router) + al menos 2 libres de reserva; un switch de 16 puertos es el mínimo que cumple.",
+"Resolución de la Práctica 15: carga en Excel de la comparativa de tres switches con el cálculo de guaraníes por puerto y elección justificada.",
+"Error frecuente que se anticipa: dimensionar el switch por la cantidad exacta de equipos, sin prever bocas libres para crecer."
+],
+"Cierre": [
+"Verificación del punto de control: «La justificación descarta el de 8 puertos por insuficiente y fundamenta la elección entre los otros dos».",
+"Resolución de las «Actividades de aplicación» y lectura de la caja «En Paraguay — La caja del proveedor»."
+]
+},
+"tiempos": [
+15,
+50,
+15
+],
+"recursos": "Tomo del estudiante, Clase 15 (figura 15.1 y cuadro de equipos de red) · Cuaderno de Laboratorio, Práctica 15 · planilla de cálculo · datos de precios provistos por el docente o tomados de publicaciones impresas. Laboratorio de informática con equipos con Windows, Word, Excel y PowerPoint. Si el laboratorio no está disponible, la práctica se resuelve en papel con los modelos del Cuaderno y se ejecuta en la siguiente sesión de gabinete.",
+"proc": "Análisis comparativo de switches y dimensionamiento de bocas para la red del caso.",
+"inst": "Comparativa de switches con elección justificada (Práctica 15).",
+"criterios": [
+"Relaciona cada equipo de red con el problema que resuelve.",
+"Dimensiona la cantidad de bocas necesaria con margen de crecimiento.",
+"Justifica la elección del equipo con el precio por puerto y con criterios técnicos."
+]
+},
+{
+"idx": 26,
+"unidad": "UNIDAD 2 — Redes de Computadoras",
+"material": "Tomo del estudiante · Clase 16   ·   Cuaderno de Laboratorio · Práctica 16",
+"tema": "Clase 16 — Materiales de red: Materiales de red: concepto, características, tipos, aplicación y generalidades.",
+"capacidad": [
+"Identifica equipos y materiales para una red."
+],
+"indicadores": [
+"Identifica los materiales pasivos de una instalación de red.",
+"Explica la función del patch panel y de las rosetas en la instalación.",
+"Elabora la lista de materiales de una red local pequeña."
+],
+"momentos": {
+"Inicio": [
+"Recorrido visual por el aula siguiendo un cable desde una computadora hasta donde se pierde de vista, para nombrar los materiales que atraviesa.",
+"Presentación de la capacidad y de los indicadores de la clase."
+],
+"Desarrollo": [
+"Desarrollo de «Activos y pasivos» y «Cables y conectores», con el cuadro «Material / Función / Se cotiza por» y la caja «Concepto clave — Cableado fijo y cordones».",
+"Lectura de la figura 16.1, que sigue el recorrido de la señal por los materiales pasivos de la red, y desarrollo de «Rosetas, canaletas y patch panel».",
+"Trabajo con la caja «Ejemplo — La lista de materiales del aula», base de la planilla del caso: 12 puntos consumen 24 patch cords y el enlace switch↔router agrega uno más, para un total de 25.",
+"Resolución de la Práctica 16: elaboración en Excel de la planilla de materiales con subtotales por fórmula y verificación de la coherencia con el plano.",
+"Error frecuente que se anticipa: cotizar el cable por metro lineal sin prever los descartes y los cordones de conexión."
+],
+"Cierre": [
+"Verificación del punto de control: «Las tres verificaciones dan bien y la celda de verificación dice SÍ».",
+"Resolución de las «Actividades de aplicación» y comentario de la caja «En Paraguay — El calor también cuenta»."
+]
+},
+"tiempos": [
+15,
+50,
+15
+],
+"recursos": "Tomo del estudiante, Clase 16 (figura 16.1 y cuadro de materiales) · Cuaderno de Laboratorio, Práctica 16 · planilla de cálculo · plano de la red producido en la Práctica 14. Laboratorio de informática con equipos con Windows, Word, Excel y PowerPoint. Si el laboratorio no está disponible, la práctica se resuelve en papel con los modelos del Cuaderno y se ejecuta en la siguiente sesión de gabinete.",
+"proc": "Elaboración de la planilla de materiales del caso con verificación cruzada contra el plano de topología.",
+"inst": "Planilla de materiales verificada (Práctica 16).",
+"criterios": [
+"Distingue materiales activos de materiales pasivos.",
+"Elabora la planilla de materiales con subtotales calculados por fórmula.",
+"Verifica la coherencia entre las cantidades cotizadas y el plano del aula."
+]
+},
+{
+"idx": 27,
+"unidad": "UNIDAD 2 — Redes de Computadoras",
+"material": "Cuaderno de Laboratorio · Ficha I · Tomo del estudiante (clases relacionadas)",
+"tema": "Continuación I — Dimensionamiento y BOM de una red pequeña",
+"capacidad": [
+"Transformar un plano en una lista de materiales verificable."
+],
+"indicadores": [
+"Aplica contenidos ya enseñados en una situación técnica integrada.\n• Documenta decisiones con datos verificables.\n• Produce el resultado esperado de la Ficha I."
+],
+"momentos": {
+"Inicio": [
+"Recuperación de los conceptos previos necesarios para la Ficha I: dimensionamiento y bom de una red pequeña.\n• Presentación del producto y del punto de control que debe alcanzarse."
+],
+"Desarrollo": [
+"Lectura del marco mínimo de la Ficha I y análisis del modelo.\n• Ejecución guiada del procedimiento con los recursos disponibles.\n• Trabajo en parejas cuando sea necesario, sin modificar configuraciones del laboratorio fuera de lo indicado.\n• El docente verifica evidencia y corrige inferencias técnicas antes de avanzar."
+],
+"Cierre": [
+"Comprobación del punto de control de la Ficha I.\n• Puesta en común de dos decisiones técnicas y de la evidencia utilizada.\n• Desafío opcional para quienes terminan antes."
+]
+},
+"tiempos": [
+15,
+50,
+15
+],
+"recursos": "Cuaderno de Laboratorio, Ficha I · fichas técnicas/datos del caso · Windows y Microsoft Office según corresponda. Alternativa sin internet: dossier impreso preparado por el docente.",
+"proc": "Prueba diagnóstica de saberes previos. Observación guiada del equipo del laboratorio y clasificación de gabinetes con la tabla comparativa.",
+"inst": "Prueba diagnóstica. Ficha técnica del equipo elaborada en Word (Práctica 1).",
+"criterios": [
+"Distingue los tipos de gabinete y los relaciona con el uso al que se destinan.",
+"Registra en la ficha técnica datos verificados en el equipo, no supuestos.",
+"Justifica la compatibilidad entre gabinete y placa madre con el factor de forma."
+]
+},
+{
+"idx": 28,
+"unidad": "UNIDAD 2 — Redes de Computadoras",
+"material": "Tomo del estudiante · Clase 17   ·   Cuaderno de Laboratorio · Práctica 17",
+"tema": "Clase 17 — Medios de transmisión guiados: Medios guiados: concepto, tipos, normativas, características y aplicación.",
+"capacidad": [
+"Identifica las características principales de los medios de transmisión más utilizados."
+],
+"indicadores": [
+"Caracteriza el par trenzado, el coaxial y la fibra óptica.",
+"Interpreta las categorías del cable UTP y sus prestaciones.",
+"Selecciona el medio guiado adecuado para un escenario dado."
+],
+"momentos": {
+"Inicio": [
+"Pregunta sobre dos edificios separados por cuatrocientos metros: si el cable del aula sirve para unirlos, antes de introducir los límites de cada medio.",
+"Presentación de la capacidad y de los indicadores de logro."
+],
+"Desarrollo": [
+"Desarrollo de «El par trenzado», «El coaxial» y «La fibra óptica», con el cuadro «Medio / Velocidad práctica / Distancia por tramo / Aplicación típica».",
+"Lectura de la figura 17.1, con los cortes de los tres medios guiados, y la caja «Concepto clave — Categoría (UTP)».",
+"Análisis de la caja «Ejemplo — ¿Qué cable para el aula?» como decisión técnica del caso.",
+"Resolución de la Práctica 17: completamiento en Excel de la tabla de decisión de cuatro escenarios y verificación con la regla de los 100 metros.",
+"Error frecuente que se anticipa: elegir el medio por su velocidad máxima teórica sin verificar la distancia del tramo."
+],
+"Cierre": [
+"Verificación del punto de control: «La fórmula marca SÍ solo en el escenario de 400 m y ese escenario tiene fibra».",
+"Resolución de las «Actividades de aplicación» y lectura de la caja «En Paraguay — La fibra que cruza el país»."
+]
+},
+"tiempos": [
+15,
+50,
+15
+],
+"recursos": "Tomo del estudiante, Clase 17 (figura 17.1 y cuadro de medios guiados) · Cuaderno de Laboratorio, Práctica 17 · planilla de cálculo · muestras de cable UTP, coaxial y fibra si el laboratorio dispone de ellas. Laboratorio de informática con equipos con Windows, Word, Excel y PowerPoint. Si el laboratorio no está disponible, la práctica se resuelve en papel con los modelos del Cuaderno y se ejecuta en la siguiente sesión de gabinete.",
+"proc": "Resolución de escenarios de selección de medios con tabla de decisión y verificación por fórmula condicional.",
+"inst": "Tabla de decisión de medios guiados (Práctica 17).",
+"criterios": [
+"Compara los medios guiados por velocidad, distancia y aplicación.",
+"Selecciona el medio adecuado para cada escenario y lo justifica.",
+"Aplica la regla de los 100 metros como criterio de descarte."
+]
+},
+{
+"idx": 29,
+"unidad": "UNIDAD 2 — Redes de Computadoras",
+"material": "Cuaderno de Laboratorio · Ficha J · Tomo del estudiante (clases relacionadas)",
+"tema": "Continuación J — Cat 6, Cat 6A y T568: especificar sin simplificar",
+"capacidad": [
+"Elegir categoría y documentar el esquema de terminación sin confundir rendimiento con orden de colores."
+],
+"indicadores": [
+"Aplica contenidos ya enseñados en una situación técnica integrada.\n• Documenta decisiones con datos verificables.\n• Produce el resultado esperado de la Ficha J."
+],
+"momentos": {
+"Inicio": [
+"Recuperación de los conceptos previos necesarios para la Ficha J: cat 6, cat 6a y t568: especificar sin simplificar.\n• Presentación del producto y del punto de control que debe alcanzarse."
+],
+"Desarrollo": [
+"Lectura del marco mínimo de la Ficha J y análisis del modelo.\n• Ejecución guiada del procedimiento con los recursos disponibles.\n• Trabajo en parejas cuando sea necesario, sin modificar configuraciones del laboratorio fuera de lo indicado.\n• El docente verifica evidencia y corrige inferencias técnicas antes de avanzar."
+],
+"Cierre": [
+"Comprobación del punto de control de la Ficha J.\n• Puesta en común de dos decisiones técnicas y de la evidencia utilizada.\n• Desafío opcional para quienes terminan antes."
+]
+},
+"tiempos": [
+15,
+50,
+15
+],
+"recursos": "Cuaderno de Laboratorio, Ficha J · fichas técnicas/datos del caso · Windows y Microsoft Office según corresponda. Alternativa sin internet: dossier impreso preparado por el docente.",
+"proc": "Prueba diagnóstica de saberes previos. Observación guiada del equipo del laboratorio y clasificación de gabinetes con la tabla comparativa.",
+"inst": "Prueba diagnóstica. Ficha técnica del equipo elaborada en Word (Práctica 1).",
+"criterios": [
+"Distingue los tipos de gabinete y los relaciona con el uso al que se destinan.",
+"Registra en la ficha técnica datos verificados en el equipo, no supuestos.",
+"Justifica la compatibilidad entre gabinete y placa madre con el factor de forma."
+]
+},
+{
+"idx": 30,
+"unidad": "UNIDAD 2 — Redes de Computadoras",
+"material": "Tomo del estudiante · Clase 18   ·   Cuaderno de Laboratorio · Práctica 18",
+"tema": "Clase 18 — Medios de transmisión no guiados: Medios no guiados: concepto, tipos, normativas, características y aplicación.",
+"capacidad": [
+"Identifica las características principales de los medios de transmisión más utilizados."
+],
+"indicadores": [
+"Caracteriza las transmisiones por Wi-Fi, Bluetooth, radioenlaces y satélite.",
+"Analiza bandas Wi‑Fi considerando propagación, interferencia, estándar, ancho de canal y cliente.",
+"Reconoce el rol del Estado en la administración del espectro radioeléctrico."
+],
+"momentos": {
+"Inicio": [
+"Registro rápido de cuántas redes inalámbricas detecta un equipo del laboratorio, como entrada al problema de la saturación del espectro.",
+"Presentación de la capacidad y de los indicadores de la clase."
+],
+"Desarrollo": [
+"Desarrollo de «Transmitir por el aire» y «Wi-Fi», con la caja «Concepto clave — Espectro radioeléctrico» y el cuadro «Medio / Alcance típico / Fortaleza / Limitación».",
+"Lectura de la figura 18.1, que contrapone alcance y velocidad en las bandas de 2,4, 5 y 6 GHz, y desarrollo de «Bluetooth y radioenlaces» y «Satélite».",
+"Trabajo con la caja «Ejemplo — El Wi-Fi de los docentes» como criterio de ubicación del punto de acceso.",
+"Resolución de la Práctica 18: listado de redes visibles y análisis de canal, seguridad y banda cuando el sistema o el listado de referencia la informa. Se aclara que el número de canal, por sí solo, no basta para clasificar siempre 2,4/5/6 GHz.",
+"Error frecuente que se anticipa: suponer que la banda de 5 GHz es siempre mejor, sin considerar el alcance y los obstáculos."
+],
+"Cierre": [
+"Verificación del punto de control: canal y seguridad quedan registrados; la banda se consigna solo cuando puede verificarse y la recomendación de banda/canal está justificada.",
+"Resolución de las «Actividades de aplicación» y comentario de la caja «En Paraguay — 5G y Starlink: el aire paraguayo se mueve»."
+]
+},
+"tiempos": [
+15,
+50,
+15
+],
+"recursos": "Tomo del estudiante, Clase 18 (figura 18.1 y cuadro de medios no guiados) · Cuaderno de Laboratorio, Práctica 18 · adaptador inalámbrico del equipo; si los equipos no tienen Wi-Fi, el relevamiento se hace con un solo equipo o con el listado de referencia del Cuaderno. Laboratorio de informática con equipos con Windows, Word, Excel y PowerPoint. Si el laboratorio no está disponible, la práctica se resuelve en papel con los modelos del Cuaderno y se ejecuta en la siguiente sesión de gabinete.",
+"proc": "Relevamiento del espectro Wi-Fi del entorno con netsh y análisis de canales, bandas y seguridad.",
+"inst": "Análisis del relevamiento Wi-Fi (Práctica 18).",
+"criterios": [
+"Distingue los medios no guiados por alcance, fortaleza y limitación.",
+"Relaciona las bandas de 2,4, 5 y 6 GHz con alcance e interferencia sin inferir la banda únicamente por el número de canal.",
+"Fundamenta una recomendación de banda o de ubicación del punto de acceso."
+]
+},
+{
+"idx": 31,
+"unidad": "UNIDAD 2 — Redes de Computadoras",
+"material": "Cuaderno de Laboratorio · Ficha K · Tomo del estudiante (clases relacionadas)",
+"tema": "Continuación K — Wi-Fi: cobertura, rendimiento y seguridad",
+"capacidad": [
+"Diseñar una recomendación inalámbrica sin usar la regla simplista «más GHz = más velocidad»."
+],
+"indicadores": [
+"Aplica contenidos ya enseñados en una situación técnica integrada.\n• Documenta decisiones con datos verificables.\n• Produce el resultado esperado de la Ficha K."
+],
+"momentos": {
+"Inicio": [
+"Recuperación de los conceptos previos necesarios para la Ficha K: wi-fi: cobertura, rendimiento y seguridad.\n• Presentación del producto y del punto de control que debe alcanzarse."
+],
+"Desarrollo": [
+"Lectura del marco mínimo de la Ficha K y análisis del modelo.\n• Ejecución guiada del procedimiento con los recursos disponibles.\n• Trabajo en parejas cuando sea necesario, sin modificar configuraciones del laboratorio fuera de lo indicado.\n• El docente verifica evidencia y corrige inferencias técnicas antes de avanzar."
+],
+"Cierre": [
+"Comprobación del punto de control de la Ficha K.\n• Puesta en común de dos decisiones técnicas y de la evidencia utilizada.\n• Desafío opcional para quienes terminan antes."
+]
+},
+"tiempos": [
+15,
+50,
+15
+],
+"recursos": "Cuaderno de Laboratorio, Ficha K · fichas técnicas/datos del caso · Windows y Microsoft Office según corresponda. Alternativa sin internet: dossier impreso preparado por el docente.",
+"proc": "Prueba diagnóstica de saberes previos. Observación guiada del equipo del laboratorio y clasificación de gabinetes con la tabla comparativa.",
+"inst": "Prueba diagnóstica. Ficha técnica del equipo elaborada en Word (Práctica 1).",
+"criterios": [
+"Distingue los tipos de gabinete y los relaciona con el uso al que se destinan.",
+"Registra en la ficha técnica datos verificados en el equipo, no supuestos.",
+"Justifica la compatibilidad entre gabinete y placa madre con el factor de forma."
+]
+},
+{
+"idx": 32,
+"unidad": "UNIDAD 2 — Redes de Computadoras",
+"material": "Tomo del estudiante · Clase 19   ·   Cuaderno de Laboratorio · Práctica 19",
+"tema": "Clase 19 — Cableado estructurado: Normas de cableado estructurado: tipos, características, alcance y aplicación.",
+"capacidad": [
+"Analiza las normas de cableado estructurado utilizadas en la actualidad."
+],
+"indicadores": [
+"Explica el propósito del cableado estructurado y sus subsistemas.",
+"Aplica la regla de los 100 metros de canal en un plano.",
+"Reconoce los esquemas de conexión T568A y T568B y el rol de la certificación."
+],
+"momentos": {
+"Inicio": [
+"Medición estimada, con los pasos del aula, de la distancia entre el punto más lejano y el rack, como anticipo de la regla que organiza la clase.",
+"Presentación de la capacidad y de los indicadores de logro."
+],
+"Desarrollo": [
+"Desarrollo de «Qué es el cableado estructurado» y «Los subsistemas», con el cuadro «Subsistema / Qué abarca / Medio habitual» y la caja «Concepto clave — Canal».",
+"Lectura de la figura 19.1, que descompone la regla de los 100 metros del canal horizontal en sus tramos, y de la figura 19.2, con los esquemas de remate T568A y T568B.",
+"Análisis de la caja «Ejemplo — El punto más lejano del aula» y verificación del canal correspondiente.",
+"Resolución de la Práctica 19: armado de la planilla de canales del aula con formato condicional y declaración del esquema de conexión adoptado.",
+"Error frecuente que se anticipa: contar solo el tramo fijo y omitir los cordones de conexión al calcular el canal."
+],
+"Cierre": [
+"Verificación del punto de control: «Solo el punto ficticio de 98 + 4 = 102 m marca NO y queda en rojo».",
+"Resolución de las «Actividades de aplicación» y lectura de la caja «En Paraguay — La carpeta técnica que diferencia».",
+"Incorporación de la planilla verificada a la carpeta técnica del Proyecto Final Integrador."
+]
+},
+"tiempos": [
+15,
+50,
+15
+],
+"recursos": "Tomo del estudiante, Clase 19 (figuras 19.1 y 19.2, cuadro de subsistemas) · Cuaderno de Laboratorio, Práctica 19 · planilla de cálculo con formato condicional · cinta métrica o estimación por pasos. Laboratorio de informática con equipos con Windows, Word, Excel y PowerPoint. Si el laboratorio no está disponible, la práctica se resuelve en papel con los modelos del Cuaderno y se ejecuta en la siguiente sesión de gabinete.",
+"proc": "Verificación normativa de canales con planilla condicional y documentación del esquema de conexión.",
+"inst": "Planilla de verificación de canales (Práctica 19).",
+"criterios": [
+"Identifica los subsistemas del cableado estructurado.",
+"Verifica el cumplimiento de la regla de los 100 metros sumando tramo fijo y cordones.",
+"Declara y justifica el esquema de remate adoptado en la instalación."
+]
+},
+{
+"idx": 33,
+"unidad": "UNIDAD 2 — Redes de Computadoras",
+"material": "Tomo del estudiante · Clase 20   ·   Cuaderno de Laboratorio · Práctica 20",
+"tema": "Clase 20 — CONATEL y el marco regulatorio: CONATEL: naturaleza, misión, funciones y normativas. Cierre integrador del proyecto de red.",
+"capacidad": [
+"Reconoce los aspectos regulatorios del ente rector en telecomunicaciones en el país."
+],
+"indicadores": [
+"Identifica a CONATEL como ente regulador y su ley de creación.",
+"Enumera funciones de CONATEL que afectan el trabajo del técnico.",
+"Integra los contenidos de la unidad en el informe final del caso."
+],
+"momentos": {
+"Inicio": [
+"Planteo del cierre del encargo del año: qué le falta al informe de Panambi para poder entregarse al Instituto Ko'ẽju.",
+"Presentación de la capacidad y de los indicadores, y aviso del cierre de la Unidad 2 en esta sesión."
+],
+"Desarrollo": [
+"Desarrollo de «Qué es CONATEL» y «Funciones principales», con el cuadro «Función de CONATEL / Qué regula / Ejemplo concreto» y la caja «Concepto clave — Homologación».",
+"Lectura de la figura 20.1, con las funciones principales del organismo, y de «Por qué le importa al técnico».",
+"Resolución de la Práctica 20: elaboración de la ficha institucional de CONATEL desde su sitio oficial, con cita de la misión textual, fuente y fecha de consulta.",
+"Ensamblaje del informe final del proyecto de red del caso, que reúne los cinco productos del año, y resolución del bloque «Caso integrador — La red del Instituto Ko'ẽju».",
+"Error frecuente que se anticipa: presentar el informe como una suma de planillas sueltas, sin conclusión que responda al encargo."
+],
+"Cierre": [
+"Verificación del punto de control: «El informe reúne los cinco productos con la conclusión final; nada quedó como sección vacía».",
+"Repaso integrador de la Unidad 2 con la caja «En Paraguay — Tres décadas de la Ley 642/95» y revisión del estado de avance del Proyecto Final Integrador.",
+"Entrega de la evaluación de la Unidad 2 fotocopiable y acuerdo de la fecha de aplicación, que no se resuelve dentro de esta sesión."
+]
+},
+"tiempos": [
+15,
+50,
+15
+],
+"recursos": "Tomo del estudiante, Clase 20 (figura 20.1, cuadro de funciones y caso integrador) · Cuaderno de Laboratorio, Práctica 20 · evaluación de la Unidad 2 fotocopiada · sitio oficial de CONATEL; si no hay conexión disponible, se trabaja con la información del tomo y la consulta al sitio queda como tarea. Laboratorio de informática con equipos con Windows, Word, Excel y PowerPoint. Si el laboratorio no está disponible, la práctica se resuelve en papel con los modelos del Cuaderno y se ejecuta en la siguiente sesión de gabinete.",
+"proc": "Consulta de fuentes oficiales (CONATEL) y ensamblaje del informe técnico integrador del caso.",
+"inst": "Informe final del proyecto de red (Práctica 20). Cierre y repaso de la unidad. Evaluación de la unidad (fotocopiable).",
+"criterios": [
+"Identifica a CONATEL como ente regulador y cita su ley de creación.",
+"Relaciona las funciones del organismo con el trabajo concreto del técnico.",
+"Integra los productos del año en un informe con conclusión propia."
+]
+},
+{
+"idx": 34,
+"unidad": "UNIDAD 2 — Redes de Computadoras",
+"material": "Cuaderno de Laboratorio · Ficha L · Tomo del estudiante (clases relacionadas)",
+"tema": "Continuación L — CONATEL y expediente técnico verificable",
+"capacidad": [
+"Cerrar el proyecto con fuentes oficiales, fecha de consulta y evidencia regulatoria vigente."
+],
+"indicadores": [
+"Aplica contenidos ya enseñados en una situación técnica integrada.\n• Documenta decisiones con datos verificables.\n• Produce el resultado esperado de la Ficha L."
+],
+"momentos": {
+"Inicio": [
+"Recuperación de los conceptos previos necesarios para la Ficha L: conatel y expediente técnico verificable.\n• Presentación del producto y del punto de control que debe alcanzarse."
+],
+"Desarrollo": [
+"Lectura del marco mínimo de la Ficha L y análisis del modelo.\n• Ejecución guiada del procedimiento con los recursos disponibles.\n• Trabajo en parejas cuando sea necesario, sin modificar configuraciones del laboratorio fuera de lo indicado.\n• El docente verifica evidencia y corrige inferencias técnicas antes de avanzar."
+],
+"Cierre": [
+"Comprobación del punto de control de la Ficha L.\n• Puesta en común de dos decisiones técnicas y de la evidencia utilizada.\n• Desafío opcional para quienes terminan antes."
+]
+},
+"tiempos": [
+15,
+50,
+15
+],
+"recursos": "Cuaderno de Laboratorio, Ficha L · fichas técnicas/datos del caso · Windows y Microsoft Office según corresponda. Alternativa sin internet: dossier impreso preparado por el docente.",
+"proc": "Prueba diagnóstica de saberes previos. Observación guiada del equipo del laboratorio y clasificación de gabinetes con la tabla comparativa.",
+"inst": "Prueba diagnóstica. Ficha técnica del equipo elaborada en Word (Práctica 1).",
+"criterios": [
+"Distingue los tipos de gabinete y los relaciona con el uso al que se destinan.",
+"Registra en la ficha técnica datos verificados en el equipo, no supuestos.",
+"Justifica la compatibilidad entre gabinete y placa madre con el factor de forma."
+]
+},
+{
+"idx": 35,
+"unidad": "UNIDAD 2 — Redes de Computadoras",
+"material": "Evaluación de la Unidad 2 del tomo · hoja de respuestas",
+"tema": "Evaluación de la Unidad 2 — Redes de computadoras",
+"capacidad": [
+"Reconoce, analiza e identifica las características de las redes de computadoras y sus normas."
+],
+"indicadores": [
+"Integra direccionamiento, topologías, equipos, materiales y medios.\n• Resuelve un caso de diseño de red.\n• Aplica criterios de cableado y regulación verificables."
+],
+"momentos": {
+"Inicio": [
+"Encuadre de la evaluación y revisión de las condiciones de entrega.\n• Preparación individual de materiales permitidos."
+],
+"Desarrollo": [
+"Aplicación individual de la evaluación de Unidad 2.\n• Resolución de casos y cálculos sin modificar la red real.\n• Revisión final antes de entregar."
+],
+"Cierre": [
+"Recolección de evaluaciones.\n• Registro de contenidos que requieren refuerzo antes de la integradora."
+]
+},
+"tiempos": [
+15,
+50,
+15
+],
+"recursos": "Evaluación de Unidad 2 fotocopiada · calculadora simple si corresponde.",
+"proc": "Resolución individual de la prueba integradora escrita sobre el caso de presupuesto del equipo.",
+"inst": "Prueba escrita integradora fotocopiable con caso de presupuesto.",
+"criterios": [
+"Resuelve los cálculos de tolerancia, capacidad y costo con el procedimiento visible.",
+"Fundamenta las decisiones de compra con criterios técnicos, no de precio solamente.",
+"Emplea con precisión la terminología de los componentes trabajada en la unidad."
+]
+},
+{
+"idx": 36,
+"unidad": "UNIDAD 2 — Redes de Computadoras",
+"material": "Evaluación integradora fotocopiable del tomo · sin uso del laboratorio",
+"tema": "Evaluación integradora de la 2.ª etapa (Unidad 2)",
+"capacidad": [
+"Reconoce, analiza e identifica las características de las redes de computadoras: principios, protocolos y estándares, alcances, topologías, equipos, materiales, medios de transmisión, normas de cableado estructurado y el marco regulatorio nacional de las telecomunicaciones."
+],
+"indicadores": [
+"Relaciona los elementos de una red local: equipos, materiales, medios y direcciones.",
+"Resuelve un caso de diseño de red aplicando topología, alcance y regla de los 100 metros.",
+"Fundamenta la selección de medios y equipos con criterios técnicos y regulatorios."
+],
+"momentos": {
+"Inicio": [
+"Encuadre de la sesión: alcance de la prueba integradora (Unidad 2 completa), tiempo por bloque y condiciones de entrega.",
+"Aclaración del criterio de corrección del caso de diseño: se evalúa la coherencia entre topología, direcciones, materiales y verificación de canales."
+],
+"Desarrollo": [
+"Resolución individual de los ítems de opción múltiple sobre modelo cliente-servidor, puerta de enlace, topología en malla y elección del medio para un tramo de 400 metros.",
+"Resolución de los ítems de completamiento y de verdadero o falso con justificación de las falsas.",
+"Resolución del caso de diseño de la red, con el cálculo de bocas ocupadas y libres, la verificación del canal del punto más lejano y la consideración regulatoria del equipo inalámbrico.",
+"Supervisión activa del docente: control del tiempo y aclaración de consignas sin adelantar respuestas."
+],
+"Cierre": [
+"Revisión individual antes de la entrega, con verificación de que los cálculos del caso muestren su procedimiento.",
+"Recolección de las pruebas y acuerdo del cronograma final del Proyecto Final Integrador: entrega de la carpeta técnica y presentación en el stand de la feria."
+]
+},
+"tiempos": [
+15,
+50,
+15
+],
+"recursos": "Evaluación integradora de la 2.ª etapa, fotocopiada del tomo · calculadora simple · carpeta técnica del Proyecto Final Integrador para el acuerdo de cronograma. No requiere laboratorio durante la aplicación.",
+"proc": "Resolución individual de la prueba integradora escrita sobre el caso de diseño de la red del aula.",
+"inst": "Prueba escrita integradora fotocopiable con caso de diseño de red.",
+"criterios": [
+"Resuelve el caso de diseño con coherencia entre topología, direcciones y materiales.",
+"Aplica la regla de los 100 metros y la verificación de homologación donde corresponde.",
+"Emplea con precisión la terminología de redes trabajada en la unidad."
+]
+}
+]

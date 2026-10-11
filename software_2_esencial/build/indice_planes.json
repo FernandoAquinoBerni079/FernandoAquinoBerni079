@@ -1,0 +1,187 @@
+{
+ "entradas": [
+  [
+   1,
+   "Plan de Clase N.º 1 — El gabinete de la computadora"
+  ],
+  [
+   1,
+   "Plan de Clase N.º 2 — Ficha A — Compatibilidad gabinete · placa madre · fuente"
+  ],
+  [
+   1,
+   "Plan de Clase N.º 3 — La fuente de alimentación"
+  ],
+  [
+   1,
+   "Plan de Clase N.º 4 — La placa madre"
+  ],
+  [
+   1,
+   "Plan de Clase N.º 5 — Slots de expansión"
+  ],
+  [
+   1,
+   "Plan de Clase N.º 6 — Ficha B — PCIe y M.2: formato, generación y carriles"
+  ],
+  [
+   1,
+   "Plan de Clase N.º 7 — Puertos de conexión"
+  ],
+  [
+   1,
+   "Plan de Clase N.º 8 — Ficha C — USB-C no es una velocidad"
+  ],
+  [
+   1,
+   "Plan de Clase N.º 9 — El microprocesador"
+  ],
+  [
+   1,
+   "Plan de Clase N.º 10 — Las memorias"
+  ],
+  [
+   1,
+   "Plan de Clase N.º 11 — Ficha D — CPU, RAM y placa: cadena de compatibilidad"
+  ],
+  [
+   1,
+   "Plan de Clase N.º 12 — Almacenamiento: discos duros y SSD"
+  ],
+  [
+   1,
+   "Plan de Clase N.º 13 — Ficha E — Almacenamiento y migración segura"
+  ],
+  [
+   1,
+   "Plan de Clase N.º 14 — Lectoras de CD, DVD y Blu-ray"
+  ],
+  [
+   1,
+   "Plan de Clase N.º 15 — Impresoras"
+  ],
+  [
+   1,
+   "Plan de Clase N.º 16 — Ficha F — Costo total de impresión"
+  ],
+  [
+   1,
+   "Plan de Clase N.º 17 — Evaluación de la Unidad 1 — Componentes básicos de una computadora"
+  ],
+  [
+   1,
+   "Plan de Clase N.º 18 — Evaluación integradora de la 1.ª etapa (Unidad 1)"
+  ],
+  [
+   1,
+   "Plan de Clase N.º 19 — La red de computadoras"
+  ],
+  [
+   1,
+   "Plan de Clase N.º 20 — Protocolos y estándares"
+  ],
+  [
+   1,
+   "Plan de Clase N.º 21 — Ficha G — Diagnóstico IP paso a paso"
+  ],
+  [
+   1,
+   "Plan de Clase N.º 22 — Redes por alcance: LAN, MAN y WAN"
+  ],
+  [
+   1,
+   "Plan de Clase N.º 23 — Topologías de red"
+  ],
+  [
+   1,
+   "Plan de Clase N.º 24 — Ficha H — Topologías modernas y dominios de falla"
+  ],
+  [
+   1,
+   "Plan de Clase N.º 25 — Equipos de red"
+  ],
+  [
+   1,
+   "Plan de Clase N.º 26 — Materiales de red"
+  ],
+  [
+   1,
+   "Plan de Clase N.º 27 — Ficha I — Dimensionamiento y BOM de una red pequeña"
+  ],
+  [
+   1,
+   "Plan de Clase N.º 28 — Medios de transmisión guiados"
+  ],
+  [
+   1,
+   "Plan de Clase N.º 29 — Ficha J — Cat 6, Cat 6A y T568: especificar sin simplificar"
+  ],
+  [
+   1,
+   "Plan de Clase N.º 30 — Medios de transmisión no guiados"
+  ],
+  [
+   1,
+   "Plan de Clase N.º 31 — Ficha K — Wi-Fi: cobertura, rendimiento y seguridad"
+  ],
+  [
+   1,
+   "Plan de Clase N.º 32 — Cableado estructurado"
+  ],
+  [
+   1,
+   "Plan de Clase N.º 33 — CONATEL y el marco regulatorio"
+  ],
+  [
+   1,
+   "Plan de Clase N.º 34 — Ficha L — CONATEL y expediente técnico verificable"
+  ],
+  [
+   1,
+   "Plan de Clase N.º 35 — Evaluación de la Unidad 2 — Redes de computadoras"
+  ],
+  [
+   1,
+   "Plan de Clase N.º 36 — Evaluación integradora de la 2.ª etapa (Unidad 2)"
+  ]
+ ],
+ "paginas": [
+  3,
+  4,
+  5,
+  6,
+  7,
+  8,
+  9,
+  10,
+  11,
+  12,
+  13,
+  14,
+  15,
+  16,
+  17,
+  18,
+  19,
+  20,
+  21,
+  22,
+  23,
+  24,
+  25,
+  26,
+  27,
+  28,
+  29,
+  30,
+  31,
+  32,
+  33,
+  34,
+  35,
+  36,
+  37,
+  38
+ ],
+ "total": 38
+}
