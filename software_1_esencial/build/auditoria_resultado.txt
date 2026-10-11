@@ -14,3 +14,7 @@ SOLUCIONARIO 17 págs 612x936 · re-render 17 · texto IDÉNTICO · <25%: 0 (p. 
 PLAN_ANUAL 12 págs 612x936 (portada) / 936x612 (tabla) · re-render 12 · texto IDÉNTICO · <25%: 0
 PLANES_DE_CLASE 60 págs 612x936 · re-render 60 · texto ≈0,9997 (solo el largo de los puntos del índice) · <25%: 21 (páginas de continuación, diseño del generador)
 MUESTRA 14 págs 612x936 · 14/14 páginas idénticas a su origen
+
+== Controles v2 (11/10/2026, tras 02_AUDITORIA_CHATGPT_SOFTWARE_1_ESENCIAL_v2)
+Controles v2 (Planes de Clase, Plan Anual y Muestra): 94 OK · 0 fallos
+o_PLANES_DE_CLASE_COMERCIAL_2026.docx índice termina p 2 entradas 36 difieren 0

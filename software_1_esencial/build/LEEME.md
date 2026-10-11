@@ -12,6 +12,10 @@ Sirven para rastrear y repetir las correcciones. **No reconstruyen el libro desd
 | `indice.py`, `tocchk.py` | Índice poblado con las páginas del PDF y su verificación. |
 | `auditoria_v1.py` | Auditoría de contenido: 117 controles. Lee `out/` (hacer `ln -s ../salida out`). |
 | `respuesta.py` | Genera el informe 05_RESPUESTA (.docx). |
+| `fix_v2_maqueta.py` | Corrección v2 (V2-01, V2-02): márgenes de 1,27 cm, tablas al ancho útil y espaciado, para que cada plan entre en una hoja y el Plan Anual no deje la firma sola. No cambia texto. Uso: `python3 fix_v2_maqueta.py ENTRADA.docx SALIDA.docx [0 18]` (Planes con `0 18`; Plan Anual sin argumentos). |
+| `control_v2.py` | Controles de la v2 sobre `salida/` (94): páginas, una hoja por plan, firmas, márgenes, identidad textual con la v1 y muestra. |
 | `auditoria_resultado.txt` | Salida de los controles del 11/10/2026 sobre `salida/`. |
 
 Las versiones generalizadas de estos scripts están en la skill `cuadernillos-mec` (`skill/cuadernillos-mec.zip`): `paginacion.py`, `indice_pdf.py`, `formato_oficio.py`, `unicidad_datos.py`.
+
+PDF: se exportan con LibreOffice y la fuente **Carlito** (equivalente métrico de Calibri). Sin Carlito, LibreOffice usa DejaVu y la paginación cambia.
