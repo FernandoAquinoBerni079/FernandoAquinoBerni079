@@ -4,7 +4,9 @@
 
 **Estado: v4 — corregida según 02_AUDITORIA_CHATGPT_SOFTWARE_2_ESENCIAL_v3 (hallazgos 10, N11, N13 y N14, más la Figura 5.2; detalle en 03_RESPUESTA_CLAUDE_SOFTWARE_2_ESENCIAL_v3). La v3 atendió la reauditoría v2 (03_RESPUESTA_CLAUDE_SOFTWARE_2_ESENCIAL_v2), y la v2 corrigió los diez hallazgos de la auditoría v1 (03_RESPUESTA_CLAUDE_SOFTWARE_2_ESENCIAL_v1).**
 
-**Reauditoría v4 de ChatGPT (02_AUDITORIA_CHATGPT_SOFTWARE_2_ESENCIAL_v4, 11/10/2026): APTO.** Los hallazgos 10, N11, N13 y N14 y la corrección de la Figura 5.2 quedaron resueltos. Queda pendiente la aprobación de Fer para la venta. No se declara listo para la venta.
+**Reauditoría v4 de ChatGPT (02_AUDITORIA_CHATGPT_SOFTWARE_2_ESENCIAL_v4, 11/10/2026): APTO.** Los hallazgos 10, N11, N13 y N14 y la corrección de la Figura 5.2 quedaron resueltos. 
+
+**APROBADO POR FER PARA LA VENTA — 11/10/2026.** Versión canónica: v4 (commit a4d3ac0, carpeta `salida/`). Plan Anual y Planes de Clase se entregan a los docentes en .docx editable.
 
 Fecha: 11/10/2026.
 
@@ -127,7 +129,7 @@ El orden de las fichas coincide con las 36 secuencias del Plan Anual, que no se 
   - Se mantiene la de 40 minutos de los Planes originales: 2 HC = 80 min.
   - Va con la aclaración de que la institución reajusta si usa otra duración, igual que en Software 1.º.
 
-## 5. Pendiente de Fer
+## 5. Pendiente
 
-- Aprobación final para la venta.
+- Aprobación final para la venta: **otorgada por Fer el 11/10/2026.**
 - Subir los archivos al Drive y pasar las versiones anteriores a SUPERSEDIDOS.
