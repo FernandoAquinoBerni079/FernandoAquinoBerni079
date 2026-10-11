@@ -60,7 +60,7 @@ def construir(pags=None):
             p = M.par(d, '', despues=3)
             M.run(p, m.group(1) + ': ', True, size=10); M.run(p, m.group(2).strip(), size=10)
             i += 1; continue
-        M.par(d, s, size=10, despues=3, indent=0.3 if re.match(r'^(\d+\)|•)', s) else None)
+        M.par(d, s, size=10, despues=2, indent=0.3 if re.match(r'^(\d+\)|•)', s) else None)
         i += 1
     M.pie_paginas(d, sec)
     M.no_actualizar_campos(d)

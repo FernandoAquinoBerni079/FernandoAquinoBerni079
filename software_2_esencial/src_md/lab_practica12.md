@@ -15,7 +15,7 @@ Datos a registrar: dirección IPv4, máscara de subred, puerta de enlace predete
    2. Escribí ipconfig /all y presioná Enter.
    3. Ubicá el adaptador activo (Ethernet o Wi-Fi) y leé sus datos.
    4. Anotá los cinco datos del modelo tal como aparecen.
-Punto de control: Los cinco datos están anotados; la IPv4 del laboratorio está en uno de los rangos privados de la clase (10., 172.16 a 172.31 o 192.168).
+Punto de control: Registraste la dirección IPv4 realmente observada, su máscara y el estado del adaptador, y la clasificaste como privada, pública, de enlace local o ausente. Si aparece 169.254.x.x o no hay IPv4 utilizable, registrá la anomalía y consultá al docente sin cambiar la configuración.
 Actividad 2 — Objetivo: Interpretar la configuración en una tabla de Word.
 [[CAJA Ejemplo — Modelo a reproducir]]
 Tabla de 3 columnas: Dato / Valor en mi equipo / Qué significa. Cinco filas con los datos relevados y su interpretación en una línea cada una.

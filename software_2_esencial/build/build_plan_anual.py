@@ -77,7 +77,7 @@ def filas():
                     'Aplicación individual de la evaluación de la Unidad 2 del libro, con dimensionamiento de equipos para un local y regla de los 100 metros; devolución focalizada en el diseño de la red.')
         else:
             unidad = k
-            caps = None
+            caps = MEC[0:9] if k == 1 else MEC[9:16]
             temas = ['Evaluación integradora de la %s etapa (Unidad %d)' % ('1.ª' if k == 1 else '2.ª', k)]
             inds = [x.lstrip('• ').strip() for x in o[2].split('\n') if x.strip()]
             obs = 'Cierre de la %s etapa — %s.' % (('1.ª', 'junio') if k == 1 else ('2.ª', 'noviembre'))

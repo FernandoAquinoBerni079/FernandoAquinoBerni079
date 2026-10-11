@@ -1,4 +1,4 @@
-Auditoría Software 2.º Esencial — 378 controles · 0 fallos
+Auditoría Software 2.º Esencial — 402 controles · 0 fallos
 
 ok     PDF L en oficio en todas las páginas
 ok     DOCX L sección 1 oficio y márgenes 1,27
@@ -378,3 +378,27 @@ ok     Clase 16: cable de la biblioteca
 ok     Práctica 16: cable de la farmacia
 ok     Clase 19: canales del salón
 ok     Práctica 10: costo por página
+ok     Trazable Ficha E: 687,5 GB está en la clave
+ok     Trazable Práctica 2 · 12,7 V en +12: NO está en la clave
+ok     Trazable Práctica 2 · 4,9 V en +5: SÍ está en la clave
+ok     Trazable Práctica 2 · 3,1 V en +3,3: NO está en la clave
+ok     Trazable Práctica 4 · PCIe 3.0: 1 / 2 / 8 / 16 está en la clave
+ok     Trazable Práctica 4 · PCIe 5.0: 4 / 8 / 32 / 64 está en la clave
+ok     Trazable Práctica 9 · CD: 88 discos; 2,2 h está en la clave
+ok     Trazable Práctica 9 · DVD: 13 discos; 0,8 h está en la clave
+ok     Trazable Práctica 9 · Blu-ray: 3 discos; 0,5 h está en la clave
+ok     Trazable Práctica 10: G. 700 / G. 200; mensual G. 840.000 / G. 240.000 está en la clave
+ok     Trazable Clase 10 · uso A: G. 152.000 está en la clave
+ok     Trazable Clase 10 · uso B: G. 803.077 está en la clave
+ok     Trazable Clase 10 · año A: G. 1.252.000 está en la clave
+ok     Trazable Clase 10 · año B: G. 2.253.077 está en la clave
+ok     Trazable Clase 10 · caja A: G. 1.290.000 está en la clave
+ok     Trazable Clase 10 · caja B: G. 2.320.000 está en la clave
+ok     Trazable Práctica 16 · cable: 195 m; 214,5 m está en la clave
+ok     Trazable Práctica 16 · patch cords: 17 está en la clave
+ok     Trazable Práctica 15 · bocas: 9; 11 está en la clave
+ok     Trazable Práctica 19 · canales: 14, 17, 22, 25, 30, 36, 48, 60 está en la clave
+ok     Trazable Caso 1: G. 3.450.000; G. 34.500.000 está en la clave
+ok     Trazable Caso 2 · bocas: 17 está en la clave
+ok     Trazable Caso 2 · canal: 52 m; 48 m está en la clave
+ok     Sin bloques que compartan 3 o más datos no constantes

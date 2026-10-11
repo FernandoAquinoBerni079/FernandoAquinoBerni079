@@ -74,7 +74,7 @@ Marcá la opción correcta:
     d) Cable telefónico
 4. Sobre T568A y T568B es correcto afirmar que:
     a) Solo el A es legal
-    b) Debe usarse el mismo esquema en toda la instalación
+    b) Conviene usar y documentar un esquema uniforme; en cada enlace directo, los dos extremos se terminan igual
     c) Se combinan al azar
     d) El B duplica la velocidad
 Completá los espacios:

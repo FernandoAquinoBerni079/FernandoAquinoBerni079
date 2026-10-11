@@ -11,12 +11,12 @@ Actividad 1 — Objetivo: Calcular en Excel cuántos discos exige un archivo dad
 [[CAJA Ejemplo — Modelo a reproducir]]
 Datos: archivo institucional de 61 GB. Tabla: Formato | Capacidad por capa (GB) | Discos necesarios | Velocidad de lectura (MB/s) | Horas de lectura. Formatos: CD (0,7 GB; 7,8 MB/s), DVD (4,7 GB; 22,2 MB/s), Blu-ray (25 GB; 36 MB/s). Usá las capacidades en GB decimales (1 GB = 1.000 MB) en toda la planilla.
 [[/CAJA]]
-   1. Abrí Excel y cargá los encabezados y los tres formatos con sus datos.
-   2. En Discos necesarios usá =REDONDEAR.MAS(61/B2;0) y arrastrá.
-   3. En Horas de lectura usá =61*1000/D2/3600 y arrastrá.
+   1. Abrí Excel, cargá los encabezados y los tres formatos con sus datos; escribí «Archivo (GB)» en G1 y 61 en H1.
+   2. En Discos necesarios usá =REDONDEAR.MAS($H$1/B2;0) y arrastrá.
+   3. En Horas de lectura usá =$H$1*1000/D2/3600 y arrastrá.
    4. Dejá un decimal en las horas con el formato de número.
    5. Marcá con relleno verde el formato más razonable para leer el archivo.
-Punto de control: Los discos se redondean hacia arriba y las horas se recalculan solas si cambiás el tamaño del archivo en las fórmulas.
+Punto de control: Al modificar solo la celda H1, los discos y las horas de los tres formatos se recalculan sin editar ninguna fórmula.
 Actividad 2 — Objetivo: Armar una diapositiva de propuesta de migración en PowerPoint.
 [[CAJA Ejemplo — Modelo a reproducir]]
 Una diapositiva: título «Migración del archivo óptico», tres viñetas (leer y verificar · migrar con estructura de carpetas · respaldar y controlar) y la tabla de discos pegada desde Excel.

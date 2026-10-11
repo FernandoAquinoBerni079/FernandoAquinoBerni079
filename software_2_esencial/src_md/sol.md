@@ -72,7 +72,7 @@ Completar: 5) azul · 6) R · 7) 150
 V-F: 8) F — La 'x' no se compara entre formatos: DVD 16x ≈ 22,2 MB/s supera a CD 52x ≈ 7,8 MB/s. 9) V 10) F — Se registra como marcas físicas que un láser lee; lo magnético es el disco duro.
 11) Orientación: 1) Leerlos con unidad (externa USB) verificando cada disco; 2) migrar el contenido a almacenamiento moderno con estructura de carpetas y respaldo; 3) verificar la copia y recomendar política de respaldo futura.
 12) Orientación: Marcas más pequeñas y pistas más juntas caben en la misma superficie: más datos por disco (CD→DVD→Blu-ray).
-Práctica 9 — Resultado esperado (61 GB, unidades decimales): CD 88 discos y ≈ 2,2 h; DVD 13 discos y ≈ 0,8 h; Blu-ray 3 discos y ≈ 0,5 h, con REDONDEAR.MAS y fórmulas; diapositiva con la tabla pegada. Errores frecuentes: mezclar GB decimales con el factor 1.024; redondear discos hacia abajo.
+Práctica 9 — Resultado esperado (61 GB en H1, unidades decimales): CD 88 discos y ≈ 2,2 h; DVD 13 discos y ≈ 0,8 h; Blu-ray 3 discos y ≈ 0,5 h, con REDONDEAR.MAS y referencias absolutas a $H$1; al cambiar H1 todo se recalcula. Diapositiva con la tabla pegada. Errores frecuentes: escribir el tamaño dentro de cada fórmula en lugar de referenciar H1; mezclar GB decimales con el factor 1.024; redondear discos hacia abajo.
 ## Clase 10 — Impresoras
 Opción correcta: 1) c · 2) b · 3) b · 4) b
 Completar: 5) dpi · 6) multifunción · 7) térmica
@@ -93,7 +93,7 @@ Completar: 5) DHCP · 6) máscara · 7) cifrada
 V-F: 8) V 9) F — Son privadas: se usan dentro de redes locales y el router las traduce hacia afuera. 10) F — Para entrega completa y en orden corresponde TCP; UDP sirve donde la velocidad importa más que la garantía.
 11) Orientación: DNS traduce el nombre a IP; IP encamina los paquetes; TCP asegura la entrega; HTTP/HTTPS transporta el contenido (HTTPS cifrado). Secuencia coherente con tres o más protocolos.
 12) Orientación: Si la IP cambia, los equipos que la tienen configurada la 'pierden'; una dirección fija garantiza que siempre se la encuentre en el mismo lugar.
-Práctica 12 — Resultado esperado: cinco datos coherentes e interpretaciones correctas. La pertenencia a la misma red se justifica usando IP + máscara; solo con 255.255.255.0 (/24) es válido comprobar que coincidan los tres primeros octetos. Errores frecuentes: leer el adaptador inactivo o virtual; confundir DNS con puerta de enlace; aplicar el atajo de /24 a cualquier máscara. Desafío: nslookup usa DNS.
+Práctica 12 — Resultado esperado: cinco datos coherentes e interpretaciones correctas. La pertenencia a la misma red se justifica usando IP + máscara; solo con 255.255.255.0 (/24) es válido comprobar que coincidan los tres primeros octetos. Errores frecuentes: leer el adaptador inactivo o virtual; confundir DNS con puerta de enlace; aplicar el atajo de /24 a cualquier máscara. Desafío: nslookup usa DNS. Si el equipo muestra una dirección 169.254.x.x (enlace local) o no tiene IPv4, el resultado correcto es registrar la anomalía y avisar al docente, sin modificar la configuración.
 ## Clase 13 — Redes por alcance: LAN, MAN y WAN
 Opción correcta: 1) b · 2) c · 3) b · 4) b
 Completar: 5) local · 6) PAN · 7) telecomunicaciones
@@ -142,14 +142,14 @@ Completar: 5) canal · 6) 90 · 7) certificación
 V-F: 8) F — La norma garantiza prestaciones: superar los 100 m degrada la señal aunque haya enlace. 9) V 10) F — Une pisos el backbone o cableado vertical; el área de trabajo es la roseta y el cordón del usuario.
 11) Orientación: Explicar que el panel protege el tendido fijo, ordena, permite cambios sin tocar paredes y es requisito de una instalación normalizada; el 'ahorro' se paga en cada mantenimiento.
 12) Orientación: Al cliente le garantiza las prestaciones contratadas por enlace; al instalador le documenta que entregó según norma, deslindando fallas futuras ajenas a la instalación.
-Práctica 19 — Resultado esperado: canales de 12, 16, 19, 24, 28, 33, 46 y 57 m, todos SÍ; el punto de prueba (93 m fijos, 98 m de canal) marca NO porque supera los 90 m de tendido fijo, aunque el canal no llegue a 100 m. Desafío: el menor margen es el del punto de 52 m (100 − 57 = 43 m). Errores frecuentes: verificar solo el canal y olvidar el límite del tendido fijo; aplicar el formato condicional a toda la hoja.
+Práctica 19 — Resultado esperado: canales de 14, 17, 22, 25, 30, 36, 48 y 60 m, todos SÍ; el punto de prueba (93 m fijos, 98 m de canal) marca NO porque supera los 90 m de tendido fijo, aunque el canal no llegue a 100 m. Desafío: el menor margen es el del punto de 55 m (100 − 60 = 40 m). Errores frecuentes: verificar solo el canal y olvidar el límite del tendido fijo; aplicar el formato condicional a toda la hoja.
 ## Clase 20 — CONATEL y el marco regulatorio
 Opción correcta: 1) b · 2) a · 3) b · 4) b
 Completar: 5) Telecomunicaciones · 6) Frecuencias · 7) homologación
 V-F: 8) V 9) F — Son de uso libre regulado: tienen reglas de potencia y los equipos deben estar homologados. 10) F — Corresponde a CONATEL como ente regulador; los operadores son los fiscalizados.
 11) Orientación: Es un recurso limitado y compartido: sin ordenamiento, las transmisiones se interferirían entre sí (ejemplo: dos radios en la misma frecuencia, potencias excesivas en canales Wi-Fi); el Plan de Frecuencias y la fiscalización lo evitan.
 12) Orientación: Plano de topología, plan de direcciones IP, lista de equipos y materiales con presupuesto, verificación de canales (100 m) y consideraciones regulatorias (homologación/Wi-Fi); acepta orden libre.
-Práctica 20 — Resultado esperado: ficha con misión citada y fechada del sitio oficial, e informe que integra los productos de las prácticas 12 y 14-19 con conclusión. Errores frecuentes: parafrasear la misión sin comillas ni fuente; secciones enunciadas pero vacías; olvidar la fecha de consulta.
+Práctica 20 — Resultado esperado: ficha de CONATEL con la misión citada textual, fuente y fecha de consulta; informe técnico de la Farmacia Tajy con sus seis secciones (topología de la Práctica 14, switch de la 15, materiales de la 16, canales de la 19, plan de direcciones y marco regulatorio), resumen de riesgos y conclusión. El plan de direcciones es propio de la farmacia; por ejemplo, red 10.20.5.0/24, puerta de enlace 10.20.5.1, impresora fija 10.20.5.30 y DHCP de 10.20.5.100 a 10.20.5.199 (se acepta cualquier red privada coherente, con la impresora fuera del rango del DHCP). Errores frecuentes: pegar la configuración del equipo del laboratorio como si fuera la de la farmacia; mezclar datos del Instituto Ko'ẽju; parafrasear la misión sin comillas ni fuente.
 # Segunda parte — Evaluaciones
 ## Evaluación de la Unidad 1 — Componentes básicos de una computadora
 Opción correcta: 1) b · 2) b · 3) b · 4) c · 5) b · 6) c
@@ -171,7 +171,7 @@ V-F: 11) V 12) F — No existe una regla absoluta «5 GHz = más velocidad». En
 ## Evaluación integradora de la 2.ª etapa
 Opción correcta: 1) b · 2) b · 3) c · 4) b · 5) c
 Completar: 6) redes · 7) Wi-Fi · 8) backbone
-V-F: 9) V — Es uno de los tres rangos privados de la RFC 1918 (10.0.0.0/8, 172.16.0.0/12 y 192.168.0.0/16). 10) V 11) F — Debe usarse un único esquema en toda la instalación y documentarlo.
+V-F: 9) V — Es uno de los tres rangos privados de la RFC 1918 (10.0.0.0/8, 172.16.0.0/12 y 192.168.0.0/16). 10) V 11) F — No se mezclan al azar: en cada enlace directo los dos extremos se terminan con el mismo esquema, y conviene usar y documentar un esquema uniforme en toda la instalación.
 Desarrollo del caso: a) Con la ampliación: 13 PC + impresora + 2 access points + enlace al router = 17 bocas; el switch de 16 no alcanza. Soluciones válidas: reemplazarlo por uno de 24 puertos (recomendable, con reserva) o sumar un segundo switch unido al primero. b) Canal = 47 + 3 + 2 = 52 m: el tendido fijo (47 m) no supera 90 m y el canal no supera 100 m; cumple, con 48 m de margen. c) Actuó DHCP; con ipconfig se ve que los tres primeros números (192.168.10) coinciden con los de la impresora (192.168.10.20) bajo la máscara 255.255.255.0; se confirma con ping 192.168.10.20. d) Se elige el modelo homologado; se verifica en el sitio oficial de CONATEL con el modelo exacto y se registra en la carpeta técnica el modelo, la referencia consultada y la fecha de consulta.
 # Tercera parte — Fichas de profundización A–L
 Estas claves son orientativas pero técnicas: cuando una decisión depende de una ficha de fabricante, el estudiante debe citar la evidencia utilizada.
@@ -184,7 +184,7 @@ Respuesta esperada: USB-C solo identifica el conector reversible. La velocidad y
 ## Ficha D — CPU, RAM y placa: cadena de compatibilidad
 La propuesta debe citar zócalo/chipset/BIOS cuando corresponda, tipo DDR, capacidad máxima y ranuras. No aceptar inferencias del tipo «3200 = DDR4» sin identificación del modelo o especificación.
 ## Ficha E — Almacenamiento y migración segura
-55 % de 1 TB ≈ 550 GB usados. Para que quede al menos 20 % libre, el destino mínimo es 550 ÷ 0,8 ≈ 688 GB (aceptar 660 GB si se interpretó como 550 + 20 %); un destino de 1 TB cumple con margen. Debe existir respaldo, copia, verificación y conservación temporal del origen antes de borrar/reutilizar.
+1 TB al 55 % ≈ 550 GB de datos. Con al menos 20 % libre, el mínimo es 550 ÷ 0,80 = 687,5 GB (se acepta 688 GB o más); 660 GB no cumple (110 ÷ 660 ≈ 16,7 % libre). Los SSD de 1 TB cumplen; SATA o NVMe según la compatibilidad dada. Debe existir respaldo, copia, verificación y conservación temporal del origen antes de borrar/reutilizar.
 ## Ficha F — Costo total de impresión
 Costo/página = costo del insumo ÷ rendimiento. Costo anual aproximado = equipo + consumibles necesarios para el volumen anual (+ mantenimiento si el caso lo da). La recomendación debe usar costo total y volumen.
 ## Ficha G — Diagnóstico IP paso a paso
@@ -198,7 +198,7 @@ Aula 1 Gb/s: Cat 6 es suficiente (Cat 5e también puede cumplir, pero Cat 6 ofre
 ## Ficha K — Wi-Fi: cobertura, rendimiento y seguridad
 La respuesta debe considerar cobertura, interferencia, generación Wi‑Fi, ancho de canal, clientes y seguridad. WPA2/WPA3 según compatibilidad. No aceptar «6 GHz es siempre más rápido» sin condiciones.
 ## Ficha L — CONATEL y expediente técnico verificable
-Cada afirmación regulatoria debe incluir fuente oficial y fecha. Ejemplo verificable: CONATEL comunicó el lanzamiento oficial de 5G el 18/12/2025; sus registros posteriores deben consultarse por fecha antes de afirmar operadores o bandas vigentes. Paso 6 (resumen ejecutivo): una página con necesidad, solución, verificaciones, costo y riesgos; se evalúa que abstraiga lo esencial, que cada verificación remita a su anexo y que un directivo pueda decidir sin leer los cálculos.
+Cada afirmación regulatoria debe incluir fuente oficial y fecha. Ejemplo verificable: CONATEL comunicó el lanzamiento oficial de 5G el 18/12/2025; sus registros posteriores deben consultarse por fecha antes de afirmar operadores o bandas vigentes. Paso 6 (resumen ejecutivo): una página con necesidad, solución, verificaciones, costo y riesgos, que permita decidir sin leer los anexos.
 # Proyecto Final Integrador — Rúbrica analítica y orientaciones
 Rúbrica analítica de evaluación (los pesos suman 100 %). Cada criterio se califica en uno de cuatro niveles: Logrado, 100 % del peso; En proceso, 60 %; Inicial, 30 %; No presentado, 0 %. Cada descriptor dice qué evidencia observable corresponde al nivel.
 [[TABLA]]

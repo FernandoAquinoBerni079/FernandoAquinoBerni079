@@ -5,11 +5,11 @@ Para esta práctica, tené a mano las Figuras 19.1 y 19.2 de la Clase 19.
 ## Lo que necesitás saber
 • Canal = tendido fijo + patch cords. El tendido fijo no debe superar 90 m y el canal no debe superar 100 m: se verifican las dos condiciones.
 • La función SI combinada con Y marca automáticamente los cumplimientos.
-• Caso de esta práctica: los 8 puntos de la Farmacia Tajy (Práctica 16), con cordones de 2 m en el puesto y 3 m en el rack, y un punto de prueba que agrega tu docente.
+• Caso de esta práctica: la ampliación de la Farmacia Tajy en su nuevo local, con ocho puntos de 9, 12, 17, 20, 25, 31, 43 y 55 metros de tendido fijo, cordones de 2 m en el puesto y 3 m en el rack, y un punto de prueba que agrega tu docente.
 ## Actividades
 Actividad 1 — Objetivo: Armar la planilla de canales de la farmacia.
 [[CAJA Ejemplo — Modelo a reproducir]]
-Tabla: Punto | Tendido fijo (m) | Cordones (m) | Canal (m) | ¿Cumple? Ocho puntos con los tendidos de la Práctica 16 y un punto de prueba de 93 m de tendido fijo.
+Tabla: Punto | Tendido fijo (m) | Cordones (m) | Canal (m) | ¿Cumple? Ocho puntos con los tendidos del nuevo local y un punto de prueba de 93 m de tendido fijo.
 [[/CAJA]]
    1. Abrí Excel y cargá encabezados, los ocho puntos y el punto de prueba.
    2. Cargá 5 en la columna Cordones para todos los puntos (2 m + 3 m).
@@ -27,5 +27,5 @@ Debajo de la tabla: «Esquema adoptado: T568B en toda la instalación», una lí
    4. Guardá como Canales_farmacia_[apellido].xlsx.
 Punto de control: La planilla cierra con el esquema declarado y la explicación del punto de prueba nombra la condición que no se cumple.
 [[CAJA Desafío final (si terminás antes)]]
-Agregá una columna «Margen (m)» = 100 − canal y detectá qué punto real de la farmacia tiene el menor margen.
+Agregá una columna «Margen (m)» = 100 − canal y detectá qué punto real del nuevo local tiene el menor margen.
 [[/CAJA]]

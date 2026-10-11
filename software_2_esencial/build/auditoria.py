@@ -79,7 +79,7 @@ chk = [('T1', 'S', 'V-F: 8) F — No hay una regla absoluta'), ('T2', 'S', 'fuen
        ('T3', 'L', 'Resolución 1035/2025'), ('T4', 'L', 'Core Ultra 5, 7 y 9'), ('T5', 'L', 'el primer lanzamiento comercial fue el de Claro'),
        ('T6', 'L', '1,385 MB/s'), ('T7', 'L', '2.000–14.000 MB/s'), ('T8', 'L', 'ranuras PCIe y SSD M.2'), ('T9', 'L', 'USB 5 Gb/s (USB 3.2 Gen 1)'),
        ('T10', 'L', '172.16.0.0 a 172.31.255.255'), ('T11', 'L', 'si el centro es un hub'), ('T12', 'L', 'memoria flash no volátil'),
-       ('T13', 'S', 'En general sí, por las distancias cortas'), ('T14', 'S', '11 patch cords (5 × 2 + 1'), ('T15', 'S', '550 ÷ 0,8 ≈ 688 GB'),
+       ('T13', 'S', 'En general sí, por las distancias cortas'), ('T14', 'S', '11 patch cords (5 × 2 + 1'), ('T15', 'S', '550 ÷ 0,80 = 687,5 GB'),
        ('T16', 'L', 'la mayoría de las placas nuevas ya no traen VGA')]
 for t, k, s in chk:
     ok('Corrección %s aplicada' % t, s in T[k])
@@ -174,6 +174,19 @@ ok('Clase 16: cable de la biblioteca', 12 + 15 + 18 + 21 + 24 + 27 == 117)
 ok('Práctica 16: cable de la farmacia', 7 + 11 + 14 + 19 + 23 + 28 + 41 + 52 == 195)
 ok('Clase 19: canales del salón', (78 + 5, 86 + 5, 94 + 5) == (83, 91, 99))
 ok('Práctica 10: costo por página', round(210000 / 300) == 700 and round(540000 / 2700) == 200)
+
+# 15. Matriz trazable de respuestas numéricas (datos del enunciado → cálculo → clave)
+import verif_trazable as VT
+for item, datos, op, res, enc, b in VT.FILAS:
+    ok('Trazable %s: %s está en la clave' % (item, res), enc, str(b))
+lineas = ['| Ítem | Datos del enunciado | Operación | Resultado | En la clave |', '|---|---|---|---|---|']
+lineas += ['| %s | %s | %s | %s | %s |' % (i, d, o, r, 'Sí' if e else 'NO') for i, d, o, r, e, _ in VT.FILAS]
+open(B + 'verificacion_trazable.md', 'w').write('# Verificación trazable de respuestas numéricas\n\n' + '\n'.join(lineas) + '\n')
+# 16. Reutilización de datos entre bloques (clase, práctica, ficha, evaluación)
+import subprocess
+dup = subprocess.run(['python3', B + 'dups_md.py'], capture_output=True, text=True).stdout.strip().splitlines()
+graves = [l for l in dup if int(l.split(' |')[0]) >= 3]
+ok('Sin bloques que compartan 3 o más datos no constantes', not graves, '; '.join(graves))
 
 fallos = [r for r in RES if not r[0]]
 out = ['Auditoría Software 2.º Esencial — %d controles · %d fallos' % (len(RES), len(fallos)), '']
