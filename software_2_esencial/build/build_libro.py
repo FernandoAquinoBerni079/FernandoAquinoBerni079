@@ -150,12 +150,14 @@ def entradas():
 
 
 def unidad(d, u):
+    quitar_vacio_final(d)
     M.heading(d, 'UNIDAD %d — %s' % (u, UNIDADES[u]), 1, salto=True)
     L = leer('tomo_unidad%d' % u)
     render(d, L[1:])
 
 
 def evaluacion(d, nombre, titulo, extra=()):
+    quitar_vacio_final(d)
     M.heading(d, titulo, 2, salto=True)
     L = leer(nombre)
     # el título ya va como encabezado: se omite la banda original
@@ -170,6 +172,20 @@ def evaluacion(d, nombre, titulo, extra=()):
 
 
 COMP = {}
+
+
+def quitar_vacio_final(d):
+    """Quita los párrafos vacíos que quedaron al final de la unidad anterior: si la hoja se llenó justo,
+    pasarían solos a una hoja nueva y el salto de la sección siguiente la dejaría en blanco."""
+    from docx.oxml.ns import qn
+    body = d.element.body
+    while True:
+        el = body[-2] if body[-1].tag == qn('w:sectPr') else body[-1]
+        if el.tag != qn('w:p'):
+            return
+        if ''.join(t.text or '' for t in el.iter(qn('w:t'))).strip() or list(el.iter(qn('w:drawing'))) or list(el.iter(qn('w:br'))) or el.find('.//' + qn('w:sectPr')) is not None:
+            return
+        body.remove(el)
 
 
 def construir(paginas=None):
@@ -191,13 +207,16 @@ def construir(paginas=None):
         if n in (1, 11):
             unidad(d, 1 if n == 1 else 2)
         C = leer('tomo_clase%02d' % n)
+        quitar_vacio_final(d)
         M.heading(d, titulo_de(C), 2, salto=(n not in (1, 11)))
         render(d, C[1:], COMP.get(titulo_de(C), 0))
         P = leer('lab_practica%02d' % n)
+        quitar_vacio_final(d)
         M.heading(d, titulo_de(P), 2, salto=True)
         render(d, P[1:], COMP.get(titulo_de(P), 0), foto_cm=8.5)
         if n in FICHA_TRAS:
             F = leer('lab_ficha_' + FICHA_TRAS[n])
+            quitar_vacio_final(d)
             M.heading(d, titulo_de(F), 2, salto=True)
             render(d, F[1:], COMP.get(titulo_de(F), 0))
         if n == 10:
@@ -207,9 +226,11 @@ def construir(paginas=None):
             evaluacion(d, 'tomo_eval_u2', 'Evaluación de la Unidad 2')
             evaluacion(d, 'tomo_integ2', 'Evaluación integradora de la 2.ª etapa', extra=('tomo_caso2',))
     PF = leer('lab_pfi')
+    quitar_vacio_final(d)
     M.heading(d, titulo_de(PF), 1, salto=True)
     render(d, PF[1:], COMP.get(titulo_de(PF), 0))
     # contraportada
+    quitar_vacio_final(d)
     M.seccion_sin_pie(d)
     M.imagen_pagina_completa(d, POR + 'contraportada.jpg', 'Contraportada')
     M.no_actualizar_campos(d)
@@ -244,7 +265,7 @@ if __name__ == '__main__':
             bl = [b for b in pg.get_text('blocks') if not b[4].strip().startswith('Página')]
             ys = [b[3] for b in bl] + [r.y1 for im in pg.get_images(full=True) for r in pg.get_image_rects(im[0])]
             fr = max(ys) / pg.rect.height if ys else 0
-            if 0 < fr < 0.22 and 3 < i < len(doc) - 1:
+            if fr < 0.22 and 3 < i < len(doc) - 1:
                 out.append(i + 1)
         return out
     for ronda in range(3):

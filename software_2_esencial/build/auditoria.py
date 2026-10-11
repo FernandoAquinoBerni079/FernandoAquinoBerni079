@@ -135,7 +135,7 @@ for k in ('L', 'S'):
             continue
         bl = [b for b in pg.get_text('blocks') if not b[4].strip().startswith('Página')]
         ys = [b[3] for b in bl] + [r.y1 for im in pg.get_images(full=True) for r in pg.get_image_rects(im[0])]
-        if ys and max(ys) / pg.rect.height < 0.2:
+        if not ys or max(ys) / pg.rect.height < 0.2:
             malas.append(i + 1)
     ok('%s sin páginas casi vacías (<20 %%)' % k, not malas, str(malas))
 
@@ -151,6 +151,12 @@ ok('Planes: sin datos viejos de prácticas (132 discos, G. 686, 98 + 4)', not re
 
 dP = pymupdf.open(F['P'] + '.pdf')
 ok('Planes: cada plan en una sola hoja (sin páginas de continuación)', not [i for i, pg in enumerate(dP) if i > 1 and not re.search(r'Plan de Clase N\.º \d+ de 36', pg.get_text())])
+p33 = next(pg.get_text() for pg in dP if 'Plan de Clase N.º 33 de 36' in pg.get_text())
+p33n = re.sub(r'\s+', ' ', p33)
+ok('Plan 33: trabaja el informe de la Farmacia Tajy (Prácticas 14, 15, 16 y 19) y no ensambla el caso Ko\'ẽju', 'Farmacia Tajy' in p33n and 'seis secciones' in p33n and 'Práctica 19' in p33n and 'mismo local' in p33n
+   and not re.search(r'informe final del proyecto de red del caso|al informe de Panambi para poder entregarse', p33n))
+t20 = open(S + 'lab_practica20.md').read(); t19 = open(S + 'lab_practica19.md').read()
+ok('Prácticas 19 y 20: la 19 es la segunda sucursal y la 20 usa los tendidos del local de la 16', 'segunda sucursal' in t19 and 'mismo local' in t20 and 'Práctica 16' in t20)
 dA = pymupdf.open(F['A'] + '.pdf')
 ok('Plan Anual: tabla en oficio horizontal', all(round(pg.rect.width / 72 * 2.54, 1) == 33.0 for pg in list(dA)[1:]))
 # 12. Solucionario: cobertura
@@ -169,7 +175,7 @@ for n in range(1, 21):
 
 # 14. Aritmética de casos y ejemplos nuevos
 ok('Caso 1: total 3.450.000', 280000 + 390000 + 720000 + 1150000 + 480000 + 430000 == 3450000)
-ok('Clase 10: costos de primer año', 1100000 + 7200 * 21 == 1251200 and 1450000 + 7200 * 112 == 2256400)
+ok('Clase 10: costos de primer año sin redondeo previo', 1100000 + 7200 * 95000 // 4500 == 1252000 and round(1450000 + 7200 * 290000 / 2600) == 2253077)
 ok('Clase 16: cable de la biblioteca', 12 + 15 + 18 + 21 + 24 + 27 == 117)
 ok('Práctica 16: cable de la farmacia', 7 + 11 + 14 + 19 + 23 + 28 + 41 + 52 == 195)
 ok('Clase 19: canales del salón', (78 + 5, 86 + 5, 94 + 5) == (83, 91, 99))
@@ -185,8 +191,12 @@ open(B + 'verificacion_trazable.md', 'w').write('# Verificación trazable de res
 # 16. Reutilización de datos entre bloques (clase, práctica, ficha, evaluación)
 import subprocess
 dup = subprocess.run(['python3', B + 'dups_md.py'], capture_output=True, text=True).stdout.strip().splitlines()
-graves = [l for l in dup if int(l.split(' |')[0]) >= 3]
+graves = [l for l in dup if l[0].isdigit() and int(l.split(' |')[0]) >= 3]
 ok('Sin bloques que compartan 3 o más datos no constantes', not graves, '; '.join(graves))
+tup = [l for l in dup if l.startswith('TUPLA')]
+ok('Sin tuplas de datos idénticas en bloques distintos (listas de 3 o más valores)', not tup, '; '.join(tup))
+esc = [l for l in dup if l.startswith('ESCENARIO')]
+ok('Sin bloques del mismo escenario que compartan 1 o 2 datos con unidad', not esc, '; '.join(esc))
 
 fallos = [r for r in RES if not r[0]]
 out = ['Auditoría Software 2.º Esencial — %d controles · %d fallos' % (len(RES), len(fallos)), '']

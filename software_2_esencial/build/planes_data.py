@@ -82,6 +82,32 @@ ARREGLOS = {
 }
 
 
+# Plan 33: el cierre trabaja el informe de la Farmacia Tajy (Práctica 20); el caso
+# del Instituto Ko'ẽju queda en la evaluación integradora, no en este expediente.
+REESCRITOS = {
+ 33: dict(
+  momentos={
+   'Inicio': [
+    "Presentación del informe técnico de la Farmacia Tajy: sus seis apartados y la regla de que todos se refieran al mismo local.",
+    "Presentación de la capacidad y de los indicadores, y aviso del cierre de la Unidad 2 en esta sesión."],
+   'Desarrollo': [
+    "Desarrollo de «Qué es CONATEL» y «Funciones principales», con el cuadro «Función de CONATEL / Qué regula / Ejemplo concreto» y la caja «Concepto clave — Homologación».",
+    "Lectura de la figura 20.1, con las funciones principales del organismo, y de «Por qué le importa al técnico»; el informe de la clase se usa solo como modelo.",
+    "Práctica 20, Actividad 1: elaboración de la ficha institucional de CONATEL desde su sitio oficial, con cita de la misión textual, fuente y fecha de consulta.",
+    "Práctica 20, Actividad 2: informe de la Farmacia Tajy con topología (14), switch (15), materiales (16), canales del mismo local con el procedimiento de la Práctica 19, plan IP propio y marco regulatorio, más riesgos y conclusión.",
+    "Error frecuente: copiar datos de otra instalación (segunda sucursal, Instituto Ko'ẽju o equipo del laboratorio)."],
+   'Cierre': [
+    "Verificación del punto de control: (se completa con el de la Práctica 20).",
+    "Comprobación de las seis secciones de la Farmacia Tajy y de la trazabilidad de sus datos; repaso de la Unidad 2 con la caja «En Paraguay — Tres décadas de la Ley 642/95».",
+    "Entrega de la evaluación de la Unidad 2 y acuerdo de su fecha. El caso del Instituto Ko'ẽju se trabaja en la integradora, no en este informe."]},
+  recursos="Libro del estudiante, Clase 20 y Práctica 20 · productos de las Prácticas 14, 15, 16 y 19 · evaluación de la Unidad 2 fotocopiada · sitio de CONATEL (sin conexión, se usa el libro y la consulta queda como tarea) · laboratorio con Windows y Office; sin laboratorio, se resuelve en papel y se ejecuta en la siguiente sesión.",
+  criterios=[
+    "Identifica a CONATEL como ente regulador y cita su ley de creación.",
+    "Relaciona las funciones del organismo con el trabajo concreto del técnico.",
+    "Integra en el informe de la Farmacia Tajy los datos de un mismo local, con plan de direcciones propio y conclusión."]),
+}
+
+
 def planes(pa_rows):
     out = []
     for p0, r in zip(PL0, pa_rows):
@@ -102,6 +128,10 @@ def planes(pa_rows):
                     if a in x:
                         mom[k][i] = x.replace(a, b); hit = True
             assert hit, (p['idx'], a)
+        RW = REESCRITOS.get(p['idx'])
+        if RW:
+            mom = {k: list(v) for k, v in RW['momentos'].items()}
+            p['criterios'] = list(RW['criterios'])
         if r['tipo'] == 'C':
             n = int(re.match(r'Clase (\d+)', p['tema']).group(1))
             p['titulo'] = titulo_de(leer('tomo_clase%02d' % n)).split(' — ', 1)[1]
@@ -110,7 +140,7 @@ def planes(pa_rows):
             for i, x in enumerate(mom['Cierre']):
                 if 'punto de control' in x:
                     mom['Cierre'][i] = re.sub(r'(punto de control)( de la práctica)?:? .*$', r'\1: «%s»' % cp.replace('\\', '\\\\'), x)
-            p['recursos'] = limpiar(p0['recursos'])
+            p['recursos'] = RW['recursos'] if RW else limpiar(p0['recursos'])
         elif r['tipo'] == 'F':
             k = re.match(r'Ficha ([A-L])', p['tema']).group(1)
             p['titulo'] = titulo_de(leer('lab_ficha_' + k))

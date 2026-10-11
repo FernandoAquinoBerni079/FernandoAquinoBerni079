@@ -11,8 +11,21 @@ def dec(x, n=1):
 def num(t):
     return float(t.replace('.', '').replace(',', '.'))
 FILAS = []
+def seccion(titulo):
+    """Texto de la clave limitado a la sección «## titulo…» (hasta la siguiente sección ##)."""
+    m = re.search(r'^## ' + re.escape(titulo) + r'.*?(?=^## |\Z)', SOL, re.M | re.S)
+    assert m, titulo
+    return m.group(0)
+def sec_de(item):
+    if item.startswith('Ficha E'): return 'Ficha E'
+    m = re.match(r'Práctica (\d+)', item)
+    if m: return 'Clase %s ' % m.group(1)
+    if item.startswith('Caso 1'): return 'Evaluación integradora de la 1.ª etapa'
+    if item.startswith('Caso 2'): return 'Evaluación integradora de la 2.ª etapa'
+    raise KeyError(item)
 def fila(item, datos, op, res, buscar):
-    FILAS.append((item, datos, op, res, all(b in SOL for b in buscar), buscar))
+    zona = seccion(sec_de(item))
+    FILAS.append((item, datos, op, res, all(b in zona for b in buscar), buscar))
 
 # Ficha E
 t = leer('lab_ficha_E.md')
@@ -47,7 +60,8 @@ fila('Práctica 10', 'insumos y rendimientos', 'insumo ÷ rendimiento; × %s' % 
      ['G. %s (inyección)' % g(cA), 'G. %s (láser)' % g(cB), 'G. %s vs. G. %s' % (g(cA * pm), g(cB * pm)), dec((eqB - eqA) / (cA * pm - cB * pm))])
 # Clase 10 (ejemplo resuelto: se verifica contra el propio libro)
 t = leer('tomo_clase10.md')
-eA, bA, rdA = 1100000, 95000, 4500; eB, bB, rdB = 1450000, 290000, 2600; pa = 7200
+pa = num(re.search(r'\(([\d.]+) por año\)', t).group(1))
+(eA, bA, rdA), (eB, bB, rdB) = [[num(x) for x in re.search(r'Impresora ' + k + r',[^\n]*?equipo G\. ([\d.]+); [^\n]*?G\. ([\d.]+) que rinde ([\d.]+) páginas', t).groups()] for k in 'AB']
 for et, txt in (('uso A', g(pa * bA / rdA)), ('uso B', g(pa * bB / rdB)), ('año A', g(eA + pa * bA / rdA)), ('año B', g(eB + pa * bB / rdB)),
                 ('caja A', g(eA + math.ceil(pa / rdA) * bA)), ('caja B', g(eB + math.ceil(pa / rdB) * bB))):
     FILAS.append(('Clase 10 · ' + et, 'ejemplo de la biblioteca', 'sin redondeo previo', 'G. ' + txt, ('G. ' + txt) in t, ['(libro) G. ' + txt]))
@@ -62,6 +76,9 @@ t = leer('lab_practica19.md')
 t19 = [int(x) for x in re.search(r'ocho puntos de ([\d, y]+) metros', t).group(1).replace(' y ', ', ').split(', ')]
 can = [x + 5 for x in t19]
 fila('Práctica 19 · canales', str(t19), 'tendido + 5', ', '.join(map(str, can)), [', '.join(map(str, can[:-1])) + ' y %d m' % can[-1], '100 − %d = %d m' % (max(can), 100 - max(can))])
+can20 = [x + 5 for x in tend]
+fila('Práctica 20 · canales del local', 'tendidos de la Práctica 16: %s' % tend, 'tendido + 5 (procedimiento de la Práctica 19)', ', '.join(map(str, can20)),
+     [', '.join(map(str, can20[:-1])) + ' y %d m' % can20[-1], 'no se usa la tabla de la segunda sucursal'])
 # Caso 1 y Caso 2
 t = leer('tomo_caso1.md')
 pr = [num(x) for x in re.findall(r'G\. ([\d.]+)\)', t)]

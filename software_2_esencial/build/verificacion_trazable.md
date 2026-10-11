@@ -22,6 +22,7 @@
 | Práctica 16 · patch cords | 8 puntos | puntos × 2 + 1 | 17 | Sí |
 | Práctica 15 · bocas | 6 PC + impresora + AP + router | techo(bocas × 1,2) | 9; 11 | Sí |
 | Práctica 19 · canales | [9, 12, 17, 20, 25, 31, 43, 55] | tendido + 5 | 14, 17, 22, 25, 30, 36, 48, 60 | Sí |
+| Práctica 20 · canales del local | tendidos de la Práctica 16: [7, 11, 14, 19, 23, 28, 41, 52] | tendido + 5 (procedimiento de la Práctica 19) | 12, 16, 19, 24, 28, 33, 46, 57 | Sí |
 | Caso 1 | precios 6 | suma; × 10 | G. 3.450.000; G. 34.500.000 | Sí |
 | Caso 2 · bocas | 13 PC + impresora + 2 AP + router | suma | 17 | Sí |
 | Caso 2 · canal | 47 + 3 + 2 | suma; 100 − canal | 52 m; 48 m | Sí |

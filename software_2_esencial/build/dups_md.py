@@ -28,3 +28,31 @@ for a,b in itertools.combinations(sorted(N),2):
 import sys
 for r in sorted(res,reverse=True):
     print(r[0],'|',r[1],'<->',r[2],'|',r[3][:10])
+
+# Control estricto (v3): tuplas idénticas y mismo escenario con 1–2 datos compartidos.
+def grupo(k):
+    m = re.match(r'[CP](\d+)', k)
+    return 'n%s' % m.group(1) if m else k
+def tuplas(s):
+    s = re.sub(r'\[\[(IMG|CAJA)[^\]]*\]\]', '', s)
+    out = set()
+    for m in re.finditer(r'(?<![\w.,])\d+(?:,\d+)?(?:(?:, | y )\d+(?:,\d+)?){2,}', s):
+        t = tuple(re.split(r', | y ', m.group(0)))
+        if len(set(t)) >= 3 and not all(len(x) == 1 for x in t): out.add(t)
+    return out
+T = {k: tuplas(v) for k, v in B.items()}
+for a, b in itertools.combinations(sorted(T), 2):
+    if grupo(a) == grupo(b): continue
+    for t in T[a] & T[b]:
+        print('TUPLA | %s <-> %s | %s' % (a, b, ', '.join(t)))
+ESC = {'farmacia': r'Farmacia Tajy(?!.{0,40}segunda sucursal)', 'sucursal': r'segunda sucursal', 'koeju': r"Ko'ẽju"}
+# Valores de catálogo (capacidades y especificaciones comerciales estándar): no son datos de un problema.
+CATALOGO = {'65 W', '6 núcleos', '1 GB', '500 GB', '1 TB'}
+def unidades(s):
+    return {x for x in nums(s) if ' ' in x and x not in CATALOGO}
+for a, b in itertools.combinations(sorted(B), 2):
+    if grupo(a) == grupo(b): continue
+    comunes = {e for e, rx in ESC.items() if re.search(rx, B[a]) and re.search(rx, B[b])}
+    if not comunes: continue
+    c = unidades(B[a]) & unidades(B[b])
+    if c: print('ESCENARIO | %s <-> %s | %s | %s' % (a, b, '/'.join(sorted(comunes)), sorted(c)))

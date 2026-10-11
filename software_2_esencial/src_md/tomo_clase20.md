@@ -4,7 +4,7 @@ Capacidad: Reconoce los aspectos regulatorios del ente rector en telecomunicacio
 Tema: CONATEL: naturaleza, misión, funciones y normativas. Cierre integrador del proyecto de red.
 - Identifica a CONATEL como ente regulador y su ley de creación.
 - Enumera funciones de CONATEL que afectan el trabajo del técnico.
-- Integra los contenidos de la unidad en el informe final del caso.
+- Integra los contenidos de la unidad en el informe técnico de la red de la Farmacia Tajy.
 [[/FICHA]]
 [[IMG T_image40.jpg|12.8]]
 Figura 20.1 — Análisis educativo del espectro radioeléctrico. Ilustración didáctica: no representa una actividad oficial de CONATEL.
