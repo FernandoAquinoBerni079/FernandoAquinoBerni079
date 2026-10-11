@@ -2,7 +2,7 @@
 
 **Gabinete de Informática – Software · 2.º Curso BTI · Edición Esencial Comercial 2026**
 
-**Estado: v4 — corregida según 02_AUDITORIA_CHATGPT_SOFTWARE_2_ESENCIAL_v3 (hallazgos 10, N11, N13 y N14, más la Figura 5.2; detalle en 03_RESPUESTA_CLAUDE_SOFTWARE_2_ESENCIAL_v3). La v3 atendió la reauditoría v2 (03_RESPUESTA_CLAUDE_SOFTWARE_2_ESENCIAL_v2), y la v2 corrigió los diez hallazgos de la auditoría v1 (03_RESPUESTA_CLAUDE_SOFTWARE_2_ESENCIAL_v1). **
+**Estado: v4 — corregida según 02_AUDITORIA_CHATGPT_SOFTWARE_2_ESENCIAL_v3 (hallazgos 10, N11, N13 y N14, más la Figura 5.2; detalle en 03_RESPUESTA_CLAUDE_SOFTWARE_2_ESENCIAL_v3). La v3 atendió la reauditoría v2 (03_RESPUESTA_CLAUDE_SOFTWARE_2_ESENCIAL_v2), y la v2 corrigió los diez hallazgos de la auditoría v1 (03_RESPUESTA_CLAUDE_SOFTWARE_2_ESENCIAL_v1).**
 
 **Reauditoría v4 de ChatGPT (02_AUDITORIA_CHATGPT_SOFTWARE_2_ESENCIAL_v4, 11/10/2026): APTO.** Los hallazgos 10, N11, N13 y N14 y la corrección de la Figura 5.2 quedaron resueltos. Queda pendiente la aprobación de Fer para la venta. No se declara listo para la venta.
 
