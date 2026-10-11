@@ -276,6 +276,7 @@ ok     Índice S coincide con el PDF (41 entradas)
 ok     Índice P coincide con el PDF (36 entradas)
 ok     L sin páginas casi vacías (<20 %)
 ok     S sin páginas casi vacías (<20 %)
+ok     Libro: ninguna figura impresa con menos de 3 cm de ancho
 ok     Plan Anual: 36 secuencias de 2 h (72 HC)
 ok     Plan Anual: procedimientos únicos
 ok     Plan Anual: instrumentos únicos
@@ -320,6 +321,7 @@ ok     Planes: sin datos viejos de prácticas (132 discos, G. 686, 98 + 4)
 ok     Planes: cada plan en una sola hoja (sin páginas de continuación)
 ok     Plan 33: trabaja el informe de la Farmacia Tajy (Prácticas 14, 15, 16 y 19) y no ensambla el caso Ko'ẽju
 ok     Prácticas 19 y 20: la 19 es la segunda sucursal y la 20 usa los tendidos del local de la 16
+ok     Planes: cada figura citada existe y coincide con su epígrafe
 ok     Plan Anual: tabla en oficio horizontal
 ok     Solucionario: Clase 1 y Práctica 1
 ok     Solucionario: Clase 2 y Práctica 2
@@ -374,12 +376,6 @@ ok     Práctica 17: puntos de control sin resultados («≈», «Resultados:»)
 ok     Práctica 18: puntos de control sin resultados («≈», «Resultados:»)
 ok     Práctica 19: puntos de control sin resultados («≈», «Resultados:»)
 ok     Práctica 20: puntos de control sin resultados («≈», «Resultados:»)
-ok     Caso 1: total 3.450.000
-ok     Clase 10: costos de primer año sin redondeo previo
-ok     Clase 16: cable de la biblioteca
-ok     Práctica 16: cable de la farmacia
-ok     Clase 19: canales del salón
-ok     Práctica 10: costo por página
 ok     Trazable Ficha E: 687,5 GB está en la clave
 ok     Trazable Práctica 2 · 12,7 V en +12: NO está en la clave
 ok     Trazable Práctica 2 · 4,9 V en +5: SÍ está en la clave
@@ -396,6 +392,10 @@ ok     Trazable Clase 10 · año A: G. 1.252.000 está en la clave
 ok     Trazable Clase 10 · año B: G. 2.253.077 está en la clave
 ok     Trazable Clase 10 · caja A: G. 1.290.000 está en la clave
 ok     Trazable Clase 10 · caja B: G. 2.320.000 está en la clave
+ok     Trazable Clase 16 · cable: 117 m; ≈ 129 m está en la clave
+ok     Trazable Clase 19 · punto 1: 83 m; cumple está en la clave
+ok     Trazable Clase 19 · punto 2: 91 m; cumple está en la clave
+ok     Trazable Clase 19 · punto 3: 99 m; no cumple está en la clave
 ok     Trazable Práctica 16 · cable: 195 m; 214,5 m está en la clave
 ok     Trazable Práctica 16 · patch cords: 17 está en la clave
 ok     Trazable Práctica 15 · bocas: 9; 11 está en la clave

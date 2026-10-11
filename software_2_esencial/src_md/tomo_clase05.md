@@ -32,7 +32,7 @@ RJ-45 | Red cableada | Como ficha telefónica, más ancha
 ## Red, audio y otros
 El puerto RJ-45 conecta el cable de red y es la vía más estable para internet. Los jacks de 3,5 mm (verde: salida; rosa: micrófono) manejan el audio analógico. Completan el panel el lector de tarjetas SD en muchos equipos y, en placas recientes, el botón o puerto para actualizar el firmware.
 Identificá cada puerto del panel trasero por su forma y su color: la familia USB, los de video (HDMI, DisplayPort, VGA), el RJ-45 de red y los jacks de audio.
-[[IMG T_image10.png|0.8]]
+[[IMG T_image10.png|16.0]]
 Figura 5.2 — Panel trasero de la placa con sus puertos rotulados.
 [[CAJA En Paraguay — USB-C: un cargador para todo]]
 Con la masificación de celulares con USB-C, en el país se volvió común cargar y transferir datos con un mismo cable. Para el técnico es una ventaja concreta: menos adaptadores en el taller y un solo tipo de repuesto para recomendar al cliente.

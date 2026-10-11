@@ -139,6 +139,12 @@ for k in ('L', 'S'):
             malas.append(i + 1)
     ok('%s sin páginas casi vacías (<20 %%)' % k, not malas, str(malas))
 
+# Figuras del libro: ninguna se imprime con menos de 3 cm de ancho (control agregado tras la revisión visual de la v4)
+dL_ = pymupdf.open(F['L'] + '.pdf')
+chicas = ['p%d: %.1f cm' % (i + 1, r.width / 72 * 2.54) for i, pg in enumerate(dL_) if 0 < i < len(dL_) - 1
+          for im in pg.get_images(full=True) for r in pg.get_image_rects(im[0]) if r.width / 72 * 2.54 < 3]
+ok('Libro: ninguna figura impresa con menos de 3 cm de ancho', not chicas, '; '.join(chicas))
+
 # 11. Plan Anual y Planes
 pa = json.load(open(B + 'pa_rows.json'))
 ok('Plan Anual: 36 secuencias de 2 h (72 HC)', len(pa) == 36 and all(r['tiempo'] == '2 h' for r in pa))
@@ -154,9 +160,21 @@ ok('Planes: cada plan en una sola hoja (sin páginas de continuación)', not [i 
 p33 = next(pg.get_text() for pg in dP if 'Plan de Clase N.º 33 de 36' in pg.get_text())
 p33n = re.sub(r'\s+', ' ', p33)
 ok('Plan 33: trabaja el informe de la Farmacia Tajy (Prácticas 14, 15, 16 y 19) y no ensambla el caso Ko\'ẽju', 'Farmacia Tajy' in p33n and 'seis secciones' in p33n and 'Práctica 19' in p33n and 'mismo local' in p33n
-   and not re.search(r'informe final del proyecto de red del caso|al informe de Panambi para poder entregarse', p33n))
+   and not re.search(r'informe final del proyecto de red del caso|al informe de Panambi para poder entregarse|Prácticas 14, 15, 16 y 19|figura 20\.1', p33n))
 t20 = open(S + 'lab_practica20.md').read(); t19 = open(S + 'lab_practica19.md').read()
 ok('Prácticas 19 y 20: la 19 es la segunda sucursal y la 20 usa los tendidos del local de la 16', 'segunda sucursal' in t19 and 'mismo local' in t20 and 'Práctica 16' in t20)
+# Remisiones a figuras en los Planes: la figura existe y su epígrafe comparte una palabra clave con lo que el plan dice de ella
+import glob as _g
+EPI = {}
+for _f in _g.glob(S + '*.md'):
+    for _m in re.finditer(r'^Figura (\d+\.\d+) — (.*)$', open(_f).read(), re.M): EPI[_m.group(1)] = _m.group(2)
+_raiz = lambda w: w.lower()[:6]
+_malas = []
+for _m in re.finditer(r'[Ff]igura (\d+\.\d+)(, (?:con|que|el|la) [^.;]{0,90})', re.sub(r'\s+', ' ', T['P'])):
+    _e = EPI.get(_m.group(1))
+    _pal = {_raiz(w) for w in re.findall(r'\w{6,}', _m.group(2))} - {'princip', 'figura', 'docent'}
+    if not _e or not (_pal & {_raiz(w) for w in re.findall(r'\w{6,}', _e)}): _malas.append(_m.group(0)[:70])
+ok('Planes: cada figura citada existe y coincide con su epígrafe', not _malas, '; '.join(_malas))
 dA = pymupdf.open(F['A'] + '.pdf')
 ok('Plan Anual: tabla en oficio horizontal', all(round(pg.rect.width / 72 * 2.54, 1) == 33.0 for pg in list(dA)[1:]))
 # 12. Solucionario: cobertura
@@ -173,20 +191,14 @@ for n in range(1, 21):
     pcs = re.findall(r'^Punto de control: (.*)$', t, re.M)
     ok('Práctica %d: puntos de control sin resultados («≈», «Resultados:»)' % n, pcs and not any(re.search(r'≈|Resultados:|muestra \d', p) for p in pcs))
 
-# 14. Aritmética de casos y ejemplos nuevos
-ok('Caso 1: total 3.450.000', 280000 + 390000 + 720000 + 1150000 + 480000 + 430000 == 3450000)
-ok('Clase 10: costos de primer año sin redondeo previo', 1100000 + 7200 * 95000 // 4500 == 1252000 and round(1450000 + 7200 * 290000 / 2600) == 2253077)
-ok('Clase 16: cable de la biblioteca', 12 + 15 + 18 + 21 + 24 + 27 == 117)
-ok('Práctica 16: cable de la farmacia', 7 + 11 + 14 + 19 + 23 + 28 + 41 + 52 == 195)
-ok('Clase 19: canales del salón', (78 + 5, 86 + 5, 94 + 5) == (83, 91, 99))
-ok('Práctica 10: costo por página', round(210000 / 300) == 700 and round(540000 / 2700) == 200)
+# 14. Aritmética: se lee del enunciado en la matriz trazable (sección 15); ya no hay cuentas con literales.
 
 # 15. Matriz trazable de respuestas numéricas (datos del enunciado → cálculo → clave)
 import verif_trazable as VT
-for item, datos, op, res, enc, b in VT.FILAS:
+for item, datos, op, res, enc, b, _ in VT.FILAS:
     ok('Trazable %s: %s está en la clave' % (item, res), enc, str(b))
-lineas = ['| Ítem | Datos del enunciado | Operación | Resultado | En la clave |', '|---|---|---|---|---|']
-lineas += ['| %s | %s | %s | %s | %s |' % (i, d, o, r, 'Sí' if e else 'NO') for i, d, o, r, e, _ in VT.FILAS]
+lineas = ['| Ítem | Datos leídos del enunciado | Operación | Resultado | Respuesta de la clave consultada | Coincide |', '|---|---|---|---|---|---|']
+lineas += ['| %s | %s | %s | %s | %s | %s |' % (i, d, o, r, z, 'Sí' if e else 'NO') for i, d, o, r, e, _, z in VT.FILAS]
 open(B + 'verificacion_trazable.md', 'w').write('# Verificación trazable de respuestas numéricas\n\n' + '\n'.join(lineas) + '\n')
 # 16. Reutilización de datos entre bloques (clase, práctica, ficha, evaluación)
 import subprocess
