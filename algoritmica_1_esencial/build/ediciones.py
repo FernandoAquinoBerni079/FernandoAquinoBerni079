@@ -32,6 +32,31 @@ CAP_UNIDAD = {1: ['B1', 'B2', 'B3'], 2: ['B5', 'B6', 'B7'], 3: ['B9', 'B10', 'B1
 CAP_EVAL = {'E1': ['B1', 'B3', 'B5', 'B6', 'B7'], 'E2': ['B3', 'B6', 'B7', 'B11', 'B13', 'B14']}
 
 
+# Capacidades transversales (actitudinales) del programa MEC: una por unidad. Se trabajan en la transferencia entre
+# pares de una práctica de la unidad (P5, P9, P20) con un indicador observable y una actividad evaluable (paso 4).
+TRANSV = {
+ 1: dict(cod='B4', practica=5, ficha='la ficha de equipo',
+         indicador='Explica por qué el trabajo en equipo mejora la resolución del problema: reparte las tareas, revisa el diagrama de otro equipo y registra qué cambió gracias a esa revisión.',
+         paso='Completá la ficha de equipo: quién hizo cada parte (restas, diagrama, control del universo), qué error o mejora aportó la revisión del otro equipo y, en una oración, qué habría pasado si el problema se hubiera resuelto sin ese intercambio.',
+         control='La ficha de equipo nombra el aporte de cada integrante y el cambio que produjo la revisión.',
+         sol='Indicador de la capacidad transversal: la ficha reparte las tareas entre todos los integrantes, cita al menos un cambio concreto surgido de la revisión (por ejemplo, restar la intersección antes de escribir una región «solo») y explica en una oración el valor del intercambio. Si la revisión no produjo cambios, la ficha dice qué se comprobó.'),
+ 2: dict(cod='B8', practica=9, ficha='la ficha de fuentes',
+         indicador='Reúne información de fuentes diversas (el enunciado de las reglas, su propia tabla y la tabla de otro equipo), la procesa fila por fila y la analiza para decidir qué regla conviene dejar.',
+         paso='Completá la ficha de fuentes: qué información tomaste de cada fuente (enunciado, tabla propia, tabla del otro equipo), cómo la procesaste (fila por fila, comparando columnas) y qué conclusión sacaste de cada una.',
+         control='La ficha de fuentes registra, para cada regla, de qué fuente salió cada dato y cómo se contrastaron las fuentes.',
+         sol='Indicador de la capacidad transversal: la ficha distingue las tres fuentes, muestra el procesamiento (columnas comparadas fila por fila) y concluye con una recomendación apoyada en esa información (por ejemplo, R3 se conserva porque su columna final mezcla V y F). Una conclusión sin fuente citada no alcanza el indicador.'),
+ 3: dict(cod='B15', practica=20, ficha='la nota del equipo',
+         indicador='Mantiene la confianza ante el error que le señala otro equipo y cambia de estrategia con flexibilidad: prueba otro camino de resolución y acuerda con su equipo la versión final.',
+         paso='Con tu equipo, anotá qué error o mejora les señaló el otro equipo, qué otra forma de resolverlo probaron (por ejemplo, cambiar > por >= o mover la lectura del dato) y cómo acordaron la versión final.',
+         control='La nota del equipo registra el error señalado, la alternativa probada y el acuerdo sobre la versión final.',
+         sol='Indicador de la capacidad transversal: la nota del equipo menciona un error o una mejora concretos (por ejemplo, acumular el centinela o usar >= en lugar de >), la alternativa que se probó y quién acordó qué en la versión final. Se valora que el equipo cambie de estrategia sin desanimarse; no se exige que el cambio sea correcto en el primer intento.'),
+}
+TRANSV_ENC = 'Capacidad transversal MEC'
+TRANSV_DE_PRACTICA = {t['practica']: u for u, t in TRANSV.items()}
+for _u, _t in TRANSV.items():
+    assert _t['cod'] == ACTITUDINAL[_u]
+
+
 def caps(cods):
     return [MEC[c] for c in cods]
 

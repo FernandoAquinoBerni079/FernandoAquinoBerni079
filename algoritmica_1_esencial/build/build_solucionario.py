@@ -7,7 +7,7 @@ from estructura import cargar
 import ediciones, actividades, practicas, evaluaciones, preliminares as PRE
 from build_libro import a_pdf
 
-B = '/home/claude/alg1/build/'; OUT = '/home/claude/alg1/salida/'
+B = '/home/claude/alg1/build/'; OUT = '/home/claude/alg1/salida_v1_3/'
 NOMBRE = 'Algoritmica_1er_Curso_SOLUCIONARIO_DOCENTE_ESENCIAL_COMERCIAL_2026'
 pre, C, _, U = cargar()
 U = {1: 'Teoría de Conjuntos', 2: 'Lógica Simbólica', 3: 'Introducción a la Algoritmia'}
@@ -72,7 +72,7 @@ def construir(pags=None):
         q = M.par(d, '', 9.5, despues=2); M.run(q, 'Resultado esperado: ', True, size=9.5, color=M.DARK); M.run(q, p['sol']['resultado'], size=9.5)
         q = M.par(d, '', 9.5, despues=2 if p.get('transfer') else 4); M.run(q, 'Errores frecuentes: ', True, size=9.5, color='A04000'); M.run(q, p['sol']['errores'], size=9.5)
         if p.get('transfer'):
-            q = M.par(d, '', 9.5, despues=4); M.run(q, 'Transferencia y revisión entre pares: ', True, size=9.5, color=M.DARK); M.run(q, p['transfer']['sol'], size=9.5)
+            q = M.par(d, '', 9.5, despues=4); M.run(q, 'Transferencia y revisión entre pares: ', True, size=9.5, color=M.DARK); M.run(q, p['transfer']['sol'] + (' ' + ediciones.TRANSV[ediciones.TRANSV_DE_PRACTICA[n]]['sol'] if n in ediciones.TRANSV_DE_PRACTICA else ''), size=9.5)
     # tercera parte
     M.heading(d, E[45][1], 1, salto=True)
     M.par(d, 'Puntaje sugerido para cada evaluación: Parte A, 1 punto por ítem (3 puntos); Parte B, 3 puntos por ítem. Totales: Unidad 1 y Unidad 2, 18 puntos; integradora de la 1.ª etapa y Unidad 3, 21 puntos; integradora de la 2.ª etapa, 24 puntos. En las preguntas abiertas se acepta cualquier respuesta equivalente que cumpla el criterio indicado.', 10, italic=True)

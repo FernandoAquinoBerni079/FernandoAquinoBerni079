@@ -12,7 +12,7 @@ from docx.oxml import OxmlElement
 
 DARK, MED, LIGHT, FICHA = '1B5E20', '2E7D32', 'E8F5E9', 'F4FBF5'
 AMB, AZUL, CREMA, NARANJA = 'B8860B', '1B4F72', 'FFF8E1', 'FFF3E0'
-TEMPLATE = '/home/claude/alg3/src/Algoritmica_3er_Curso_TOMO_COMPLETO.docx'
+TEMPLATE = '/home/claude/alg1/build/plantilla_estilos_v1_2.docx'  # estilos del libro v1.2 (el docx fuente de 3.º no está en el repo)
 # Formato de la colección desde oct-2026: oficio 21,6 × 33 cm, márgenes estrechos (1,27 cm),
 # tablas y cajas ajustadas al ancho de la página (100 %), por costo de impresión para docentes y estudiantes.
 PAG_W, PAG_H, MARG = 21.6, 33.0, 1.27
@@ -304,7 +304,7 @@ def linea_nombre(d):
     return par(d, 'Nombre y Apellido: _______________________________  Curso: ______  Fecha: ____ / ____ / ____', 9.5, antes=2, despues=6)
 
 
-def renglones(d, n=2):
+def renglones(d, n=2, alto=400, sep=True):
     t = d.add_table(rows=n, cols=1); t.alignment = WD_TABLE_ALIGNMENT.CENTER
     tblPr = t._tbl.tblPr
     for old in tblPr.findall(qn('w:tblBorders')):
@@ -317,10 +317,11 @@ def renglones(d, n=2):
     tblPr.append(b)
     for row in t.rows:
         trPr = row._tr.get_or_add_trPr()
-        h = OxmlElement('w:trHeight'); h.set(qn('w:val'), '400'); h.set(qn('w:hRule'), 'exact'); trPr.append(h)
+        h = OxmlElement('w:trHeight'); h.set(qn('w:val'), str(alto)); h.set(qn('w:hRule'), 'exact'); trPr.append(h)
         p = row.cells[0].paragraphs[0]; p.paragraph_format.space_after = Pt(0)
     ancho_fijo(t, [ANCHO]); cant_split(t); keep_rows(t)
-    separador(d, 2)
+    if sep:
+        separador(d, 2)
     return t
 
 

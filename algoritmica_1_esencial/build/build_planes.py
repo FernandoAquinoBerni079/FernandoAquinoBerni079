@@ -15,8 +15,8 @@ import maqueta as M
 import planes_data
 from build_libro import a_pdf
 
-B = '/home/claude/alg1/build/'; OUT = '/home/claude/alg1/salida/'
-NOMBRE = 'Algoritmica_1er_Curso_PLANES_DE_CLASE_ESENCIAL_COMERCIAL_2026'
+B = '/home/claude/alg1/build/'; OUT = '/home/claude/alg1/salida_v1_3/'
+NOMBRE = 'Algoritmica_1er_Curso_PLANES_DE_CLASE_COMERCIAL_2026'
 DARK, MED, LIGHT, GRIS = '1B5E20', '2E7D32', 'E8F5E9', 'BFBFBF'
 W = M.ANCHO
 MIN_HC, HC = 40, 4
@@ -71,21 +71,28 @@ def encabezado_cont(sec):
 
 def tabla(d, filas, cols, anchos, proteger=True):
     t = d.add_table(rows=filas, cols=cols); t.alignment = WD_TABLE_ALIGNMENT.CENTER
-    M.bordes(t, GRIS, '4'); M.margenes_celda(t, 40, 90)
+    M.bordes(t, GRIS, '4'); M.margenes_celda(t, _TAM[_CUR[0]][1], 90)
     M.ancho_fijo(t, anchos)
     if proteger:
         M.cant_split(t)
     return t
 
 
-def celda(cell, val, bold=False, blanco=False, size=9.5, center=False, vinetas=False):
+# nivel de compactación por plan (0 = normal): se sube solo cuando un plan desborda a una segunda hoja
+NIVEL = {}
+_TAM = {0: (9.5, 40, 2), 1: (9.0, 30, 1.5), 2: (9.0, 15, 1)}   # nunca por debajo de 9 pt
+_CUR = [0]
+
+
+def celda(cell, val, bold=False, blanco=False, size=None, center=False, vinetas=False):
+    size = size or _TAM[_CUR[0]][0]
     par = cell.paragraphs[0]
     if center: par.alignment = WD_ALIGN_PARAGRAPH.CENTER
     items = val if isinstance(val, list) else [val]
     for i, linea in enumerate(items):
         if i:
             par = cell.add_paragraph()
-        par.paragraph_format.space_after = Pt(2)
+        par.paragraph_format.space_after = Pt(_TAM[_CUR[0]][2])
         r = par.add_run(('• ' if vinetas else '') + linea)
         r.bold = bold; r.font.size = Pt(size)
         if blanco: r.font.color.rgb = RGBColor.from_string('FFFFFF')
@@ -98,12 +105,13 @@ def desproteger(row):
 
 
 def esp(d, pts=2):
+    pts = min(pts, _TAM[_CUR[0]][2])
     p = d.add_paragraph(); p.paragraph_format.space_after = Pt(pts); p.paragraph_format.space_before = Pt(0)
     r = p.add_run(); r.font.size = Pt(3)
 
 
 def plan(d, p, total):
-    idx = p['idx']
+    idx = p['idx']; _CUR[0] = NIVEL.get(idx, 0)
     tp = d.add_paragraph(style='Plan de Clase'); tp.add_run('Plan de Clase N.º %d — %s' % (idx, p['titulo']))
     t = tabla(d, 1, 1, [W]); M.shd(t.rows[0].cells[0], DARK)
     celda(t.rows[0].cells[0], 'Institución: ______________________________     ·     Plan de Clase N.º %d de %d · 2026' % (idx, total), bold=True, blanco=True, center=True)
@@ -121,7 +129,11 @@ def plan(d, p, total):
     M.shd(fr.cells[0], MED); celda(fr.cells[0], 'Tema', bold=True, blanco=True)
     celda(fr.cells[1].merge(fr.cells[3]), p['tema'])
     esp(d)
-    t = tabla(d, 2, 2, [3.4, 13.6])
+    tv = p.get('transversal')
+    t = tabla(d, 3 if tv else 2, 2, [3.4, 13.6])
+    if tv:
+        M.shd(t.rows[2].cells[0], MED); celda(t.rows[2].cells[0], ['Capacidad', 'transversal MEC'], bold=True, blanco=True)
+        celda(t.rows[2].cells[1], [tv[0], 'Indicador de logro: ' + tv[1]])
     M.shd(t.rows[0].cells[0], MED); capv = p['capacidad'] if isinstance(p['capacidad'], list) else [p['capacidad']]; celda(t.rows[0].cells[0], 'Capacidad' if len(capv) == 1 else 'Capacidades', bold=True, blanco=True); celda(t.rows[0].cells[1], capv, vinetas=len(capv) > 1)
     M.shd(t.rows[1].cells[0], MED); celda(t.rows[1].cells[0], ['Indicadores', 'de logro'], bold=True, blanco=True); celda(t.rows[1].cells[1], p['indicadores'], vinetas=True)
     esp(d)
@@ -208,17 +220,31 @@ def construir(pags=None):
 
 if __name__ == '__main__':
     tmp = B + 'tmp/'
-    d, E = construir(None)
-    p1 = tmp + NOMBRE + '.docx'; d.save(p1); pdf1 = a_pdf(p1, tmp)
     import pymupdf
-    doc = pymupdf.open(pdf1)
-    idx_last = max(i for i, pg in enumerate(doc) if re.search(r'\.{5,}\s*000', pg.get_text())) + 1
-    pags, total = M.paginas_de(pdf1, [t for _, t in E], desde=idx_last + 1)
+    ronda = 0
+    while True:
+        ronda += 1
+        d, E = construir(None)
+        p1 = tmp + NOMBRE + '.docx'; d.save(p1); pdf1 = a_pdf(p1, tmp)
+        doc = pymupdf.open(pdf1)
+        idx_last = max(i for i, pg in enumerate(doc) if re.search(r'\.{5,}\s*000', pg.get_text())) + 1
+        pags, total = M.paginas_de(pdf1, [t for _, t in E], desde=idx_last + 1)
+        fin = pags[1:] + [total + 1]
+        largos = [i + 1 for i, (a, z) in enumerate(zip(pags, fin)) if z - a > 1]
+        if not largos or ronda > 6:
+            break
+        for i in largos:
+            if NIVEL.get(i, 0) < 2:
+                NIVEL[i] = NIVEL.get(i, 0) + 1
+            else:
+                planes_data.BREVE.add(i)
+        PL[:] = planes_data.planes()
+        print('ronda', ronda, 'planes de más de una hoja:', largos, '-> nivel', {i: NIVEL.get(i, 0) for i in largos}, 'breves', sorted(planes_data.BREVE))
     for it in range(3):
         d, E = construir(pags)
         out = OUT + NOMBRE + '.docx'; d.save(out); pdf = a_pdf(out, OUT)
         pags2, total = M.paginas_de(pdf, [t for _, t in E], desde=idx_last + 1)
         if pags2 == pags: break
         pags = pags2
-    json.dump({'entradas': E, 'paginas': pags, 'total': total}, open(B + 'indice_planes.json', 'w'), ensure_ascii=False, indent=1)
-    print('Planes: páginas', total, 'índice verificado =', pags2 == pags)
+    json.dump({'entradas': E, 'paginas': pags, 'total': total, 'compactacion': NIVEL, 'breves': sorted(planes_data.BREVE)}, open(B + 'indice_planes.json', 'w'), ensure_ascii=False, indent=1)
+    print('Planes: páginas', total, 'índice verificado =', pags2 == pags, 'compactación', NIVEL)

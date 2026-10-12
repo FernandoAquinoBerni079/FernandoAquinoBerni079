@@ -70,7 +70,7 @@ EV = [
  dict(id='E2', tras=21, titulo='Evaluación integradora de la 2.ª etapa', sub='Unidades 1 a 3 · Cierre de la 2.ª etapa (noviembre)', etapa=True,
   mc=[('Con A = {lunes, miércoles, viernes} y B = {viernes, sábado}, A ∩ B es:', ['∅', '{viernes}', '{sábado}'], 'b'),
       ('¬(p ∧ q) equivale, por De Morgan, a:', ['¬p ∨ ¬q', 'p ∨ q', '¬p ∧ ¬q'], 'a'),
-      ('Con la regla «ventas de G. 50.000 o más: 10 % de descuento», una venta de G. 60.000 se cobra:', ['66.000', '60.000', '54.000'], 'c')],
+      ('Con la regla «ventas de G. 50.000 o más: 10 % de descuento», una venta de G. 86.000 se cobra:', ['86.000', '94.600', '77.400'], 'c')],
   ab=[("Con A = {lunes, miércoles, viernes} (días con chipa) y B = {viernes, sábado} (días con pastel mandi'o): calculá A ∪ B, A ∩ B y A − B, e interpretá cada resultado en palabras.",
        'A ∪ B = {lunes, miércoles, viernes, sábado} (días con chipa o con pastel) ; A ∩ B = {viernes} (días con los dos) ; A − B = {lunes, miércoles} (días solo con chipa).'),
       ('Con p = V y q = F, calculá: a) ¬(p ∧ q) ; b) (p ∨ q) → q. Indicá además a qué es equivalente ¬(p ∧ q) según De Morgan.',

@@ -7,7 +7,7 @@ from estructura import cargar
 import ediciones, actividades, practicas, evaluaciones, preliminares as PRE
 
 B = '/home/claude/alg1/build/'
-OUT = '/home/claude/alg1/salida/'
+OUT = '/home/claude/alg1/salida_v1_3/'
 os.makedirs(OUT, exist_ok=True)
 NOMBRE = 'Algoritmica_1er_Curso_LIBRO_ESENCIAL_COMERCIAL_2026'
 FIG_SRC = B + 'figs_src/'; FIG_NEW = B + 'figs_new/'; FIG_RET = B + 'figs_ret/'
@@ -20,6 +20,12 @@ ediciones.aplicar(C)
 FIGMAP = ediciones.fig_refs(C)
 TIT_CLASE = {n: C[n]['titulo'] for n in C}
 EVS = evaluaciones.EV
+
+
+UN_PATH = B + 'uniones_libro.json'
+UN = json.load(open(UN_PATH)) if os.path.exists(UN_PATH) else {'cp': [], 'pc': [], 'ev': [], 'evsplit': [], 'pb': []}
+# cp: la Práctica n sigue a la Clase n sin salto de página · pc: la Clase n+1 sigue a la Práctica n sin salto ·
+# ev: evaluaciones con renglones de menor altura (siguen siendo 3 renglones por consigna)
 
 
 def toc_entries():
@@ -76,7 +82,7 @@ def clase(d, n, salto=True):
 
 def practica(d, n):
     p = practicas.PR[n]
-    M.heading(d, 'Práctica %d — %s' % (n, p['titulo']), 2, salto=True)
+    M.heading(d, 'Práctica %d — %s' % (n, p['titulo']), 2, salto=n not in UN['cp'])
     M.linea_nombre(d)
     M.caja(d, 'Competencia de la práctica', [p['competencia'], 'Entorno de trabajo: %s.' % p['entorno']])
     M.par(d, 'Lo que necesitás saber', 10.5, True, color=M.MED, keep=True, antes=2, despues=2)
@@ -84,7 +90,9 @@ def practica(d, n):
         M.par(d, s, 10)
     M.par(d, p['antes'], 10, italic=True, color=M.MED, despues=6)
     for k, a in enumerate(p['acts'], 1):
-        M.par(d, 'Actividad %d — %s' % (k, a['titulo']), 11, True, color=M.DARK, keep=True, antes=6, despues=2)
+        pa = M.par(d, 'Actividad %d — %s' % (k, a['titulo']), 11, True, color=M.DARK, keep=True, antes=6, despues=2)
+        if [n, k] in UN['pb']:
+            pa.paragraph_format.page_break_before = True
         pp = M.par(d, '', 10, keep=True)
         M.run(pp, 'Objetivo: ', True, size=10); M.run(pp, a['objetivo'], italic=True, size=10)
         if a.get('modelo'):
@@ -107,14 +115,19 @@ def practica(d, n):
         pp = M.par(d, '', 10, keep=True)
         M.run(pp, 'Objetivo: ', True, size=10); M.run(pp, 'aplicar lo mismo a un segundo caso, con datos diferentes, y mejorar el trabajo con la revisión de otro equipo.', italic=True, size=10)
         M.caja(d, 'Modelo — Mini-caso: ' + tr['caso'][0], tr['caso'][1])
+        tv = ediciones.TRANSV[ediciones.TRANSV_DE_PRACTICA[n]] if n in ediciones.TRANSV_DE_PRACTICA else None
+        pasos, control = list(tr['pasos']), tr['control']
+        if tv:
+            M.caja(d, ediciones.TRANSV_ENC, [ediciones.MEC[tv['cod']], 'Indicador de logro: ' + tv['indicador']], fill='E3F2FD', color_tit=M.AZUL)
+            pasos.append(tv['paso']); control = control + ' ' + tv['control']
         M.par(d, 'Pasos:', 10, True, keep=True, despues=1)
-        for i, s in enumerate(tr['pasos'], 1):
+        for i, s in enumerate(pasos, 1):
             M.par(d, '%d. %s' % (i, s), 10, indent=0.4, despues=2)
         t = d.add_table(rows=1, cols=1)
         M.bordes(t, 'A5D6A7', '6'); M.margenes_celda(t, 70, 110)
         c = t.rows[0].cells[0]; M.shd(c, 'EEF7EE')
         q = c.paragraphs[0]; q.paragraph_format.space_after = M.Pt(0)
-        M.run(q, 'Punto de control: ', True, size=10, color=M.DARK); M.run(q, tr['control'], size=10)
+        M.run(q, 'Punto de control: ', True, size=10, color=M.DARK); M.run(q, control, size=10)
         M.ancho_fijo(t, [M.ANCHO]); M.cant_split(t)
         M.separador(d, 4)
     M.par(d, 'Desafío final (para quienes terminan antes)', 10.5, True, color=M.MED, keep=True, antes=4, despues=2)
@@ -126,6 +139,8 @@ def practica(d, n):
 
 
 def evaluacion(d, e):
+    split = e['id'] in UN['evsplit']
+    alto = 330 if (e['id'] in UN['ev'] and not split) else 400
     M.salto(d)
     M.banda(d, e['titulo'], e['sub'], M.AZUL if e['etapa'] else M.AMB)
     if e.get('base'):
@@ -138,11 +153,13 @@ def evaluacion(d, e):
         for j, o in enumerate(ops):
             M.par(d, '%s) %s' % ('abcd'[j], o), 10, indent=0.8, despues=1, keep=(j < len(ops) - 1))
         M.separador(d, 2)
-    M.par(d, 'Parte B — Resolución y aplicación:', 10.5, True, color=M.DARK, keep=True, antes=4)
-    for enun, _ in e['ab']:
+    pb_ = M.par(d, 'Parte B — Resolución y aplicación:', 10.5, True, color=M.DARK, keep=True, antes=4)
+    if split:
+        pb_.paragraph_format.page_break_before = True
+    for i_, (enun, _) in enumerate(e['ab']):
         k += 1
         M.par(d, '%d. %s' % (k, enun), 10, keep=True, despues=2)
-        M.renglones(d, 3)
+        M.renglones(d, 3, alto=alto, sep=i_ < len(e['ab']) - 1)
 
 
 def pfi(d):
@@ -198,7 +215,11 @@ def construir(paginas=None):
         if primera:
             M.heading(d, 'UNIDAD %d — %s' % (u, U[u]), 1, salto=True)
             M.par(d, PRE.UNIDADES[u], 10.5, italic=True, despues=6)
-        clase(d, n, salto=not primera)
+            tv = ediciones.TRANSV[u]
+            M.caja(d, ediciones.TRANSV_ENC, [ediciones.MEC[tv['cod']],
+                   'Indicador de logro: ' + tv['indicador'],
+                   'Dónde se trabaja: en la Práctica %d, en la transferencia y revisión entre pares.' % tv['practica']], fill='E3F2FD', color_tit=M.AZUL)
+        clase(d, n, salto=not primera and (n - 1) not in UN['pc'])
         practica(d, n)
         for e in EVS:
             if e['tras'] == n:

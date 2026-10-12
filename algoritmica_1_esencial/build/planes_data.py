@@ -184,6 +184,9 @@ CONT_EVAL = {
 assert set(CONT_EVAL) == CONT
 
 
+BREVE = set()
+
+
 def plan_continuacion(idx, n):
     p = practicas.PR[n]
     acts = p['acts'][1:]
@@ -195,11 +198,18 @@ def plan_continuacion(idx, n):
         des.append('Actividad %d, «%s»: %s Acompañamiento docente en el paso que suele traer más dificultad: %s' % (k, a['titulo'], a['objetivo'], a['pasos'][0][0].lower() + a['pasos'][0][1:]))
     if p.get('transfer'):
         des.append('Transferencia y revisión entre pares (30 a 40 minutos): mini-caso «%s» con datos diferentes; intercambio con otro equipo, detección de al menos un error o mejora, corrección y justificación escrita de la versión final.' % p['transfer']['caso'][0])
+    tv = ediciones.TRANSV[ediciones.TRANSV_DE_PRACTICA[n]] if n in ediciones.TRANSV_DE_PRACTICA else None
+    if tv:
+        des.append('Capacidad transversal MEC: en la transferencia entre pares, cada equipo completa %s y el docente observa el indicador «%s».' % (tv['ficha'], tv['indicador'].rstrip('.')))
     if n in PFI_EN:
         des.append('Proyecto Final Integrador, %s.' % PFI_EN[n])
     else:
         des.append('Desafío final para quienes terminan antes: %s' % p['desafio'])
-    cie = ['Verificación de los puntos de control: %s.' % '; '.join(['Actividad %d, «%s»' % (k, a['control']) for k, a in enumerate(acts, 2)] + (['transferencia entre pares, «%s»' % p['transfer']['control']] if p.get('transfer') else [])),
+    if idx in BREVE:   # el plan no entra en una hoja: los puntos de control se remiten al libro en vez de citarse completos
+        ctl = 'Verificación de los puntos de control de las Actividades %s%s de la Práctica %d del libro.' % (_y(list(range(2, len(p['acts']) + 1))), ' y de la transferencia entre pares' if p.get('transfer') else '', n)
+    else:
+        ctl = 'Verificación de los puntos de control: %s.' % '; '.join(['Actividad %d, «%s»' % (k, a['control']) for k, a in enumerate(acts, 2)] + (['transferencia entre pares, «%s»' % p['transfer']['control']] if p.get('transfer') else []))
+    cie = [ctl,
            'Registro breve de dificultades y corrección colectiva de los errores frecuentes de la práctica.']
     tiempos = (20, 120, 20)
     if ev:
@@ -217,7 +227,9 @@ def plan_continuacion(idx, n):
         inst = inst.rstrip('.') + '. Evaluación de la Unidad %s (fotocopiable).' % ev[1]
     crit = ['Cumple el punto de control de cada actividad sin ayuda externa.', 'Justifica sus decisiones con los conceptos de la Clase %d.' % n,
             'Corrige sus errores a partir de la verificación y deja el trabajo documentado.']
-    return dict(idx=idx, tipo='P', n=n, titulo='Continuación de la Clase %d: %s' % (n, p['titulo']), tema='Continuación de la Clase %d · Práctica %d: %s.' % (n, n, p['titulo']), capacidad=f['capacidad'],
+    if tv:
+        crit = crit + ['Capacidad transversal: ' + tv['control'][0].lower() + tv['control'][1:]]
+    return dict(idx=idx, tipo='P', n=n, transversal=(ediciones.MEC[tv['cod']], tv['indicador']) if tv else None, titulo='Continuación de la Clase %d: %s' % (n, p['titulo']), tema='Continuación de la Clase %d · Práctica %d: %s.' % (n, n, p['titulo']), capacidad=f['capacidad'],
                 indicadores=f['indicadores'], unidad='UNIDAD %d — %s' % (UNIDAD_DE[n], U[UNIDAD_DE[n]]), material='Libro del estudiante · Práctica %d' % n,
                 momentos={'Inicio': ini, 'Desarrollo': des, 'Cierre': cie}, tiempos=tiempos, recursos=rec, proc=proc, inst=inst, criterios=crit)
 

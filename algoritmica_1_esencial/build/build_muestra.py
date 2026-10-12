@@ -2,10 +2,10 @@
 """Muestra comercial: portada, presentación, índice, prueba diagnóstica, Unidad 1 · Clase 1 y Práctica 1,
 contraportada del libro; portada del solucionario; portada y primera página del Plan Anual; portada y Plan N.º 1."""
 import pymupdf, json, os
-O = '/home/claude/alg1/salida/'; B = '/home/claude/alg1/build/'
-N = 'Algoritmica_1er_Curso_%s_ESENCIAL_COMERCIAL_2026.pdf'
-L = pymupdf.open(O + N % 'LIBRO'); S = pymupdf.open(O + N % 'SOLUCIONARIO_DOCENTE')
-P = pymupdf.open(O + N % 'PLANES_DE_CLASE'); A = pymupdf.open(O + N % 'PLAN_ANUAL')
+O = '/home/claude/alg1/salida_v1_3/'; B = '/home/claude/alg1/build/'
+N = 'Algoritmica_1er_Curso_%s_2026.pdf'
+L = pymupdf.open(O + N % 'LIBRO_ESENCIAL_COMERCIAL'); S = pymupdf.open(O + N % 'SOLUCIONARIO_DOCENTE_ESENCIAL_COMERCIAL')
+P = pymupdf.open(O + N % 'PLANES_DE_CLASE_COMERCIAL'); A = pymupdf.open(O + N % 'PLAN_ANUAL_COMERCIAL')
 ji = json.load(open(B + 'indice_libro.json')); pg = {t: p for (n, t), p in zip(ji['entradas'], ji['paginas'])}
 c2 = [p for t, p in pg.items() if t.startswith('Clase 2 —')][0]
 jp = json.load(open(B + 'indice_planes.json')); p1, p2 = jp['paginas'][0], jp['paginas'][1]
