@@ -1,0 +1,682 @@
+[
+{
+"n": 1,
+"tipo": "C",
+"unidad": 1,
+"tema": [
+"Clase 1 — El gabinete de la computadora: Gabinetes: función, tipos y características.",
+"Capacidad MEC: «Reconoce las principales características de los Gabinetes de computadoras.»"
+],
+"indicadores": [
+"Distingue los tipos de gabinete según su tamaño y formato.",
+"Identifica las características que se evalúan al elegir un gabinete.",
+"Relaciona el factor de forma del gabinete con la placa madre que admite."
+],
+"tiempo": "2 h",
+"proc": "Prueba diagnóstica de saberes previos. Observación guiada del equipo del laboratorio y clasificación de gabinetes con la tabla comparativa.",
+"inst": "Prueba diagnóstica. Ficha técnica del equipo elaborada en Word (Práctica 1).",
+"obs": "Clase 1 y Práctica 1 del libro."
+},
+{
+"n": 2,
+"tipo": "F",
+"unidad": 1,
+"tema": [
+"Ficha A — Compatibilidad gabinete · placa madre · fuente",
+"Capacidad MEC: «Reconoce las principales características de los Gabinetes de computadoras.»",
+"Capacidad MEC: «Identifica los diferentes tipos de Placa Madre utilizados en las computadoras.»"
+],
+"indicadores": [
+"Verifica la compatibilidad de factor de forma entre gabinete, placa y fuente.",
+"Fundamenta cada decisión con un dato de la especificación.",
+"Propone el cambio mínimo que vuelve compatible una alternativa."
+],
+"tiempo": "2 h",
+"proc": "Resolución de matriz de compatibilidad con fichas técnicas; contraste entre requisito y especificación.",
+"inst": "Matriz de compatibilidad A con evidencia por decisión.",
+"obs": "Ficha A del libro (continuidad)."
+},
+{
+"n": 3,
+"tipo": "C",
+"unidad": 1,
+"tema": [
+"Clase 2 — La fuente de alimentación: Fuentes de alimentación: concepto, funciones, tipos, voltajes utilizados y voltaje real.",
+"Capacidad MEC: «Analiza las principales funciones de una fuente de alimentación de computadora.»"
+],
+"indicadores": [
+"Explica la función de conversión de corriente que cumple la fuente.",
+"Identifica los voltajes de salida de una fuente ATX y sus usos.",
+"Interpreta la diferencia entre potencia declarada y potencia real."
+],
+"tiempo": "2 h",
+"proc": "Análisis de la etiqueta de una fuente real o proyectada y cálculo de tolerancias con planilla electrónica.",
+"inst": "Planilla de tolerancias con casos evaluados (Práctica 2). Ejercicios de aplicación de la clase.",
+"obs": "Clase 2 y Práctica 2 del libro."
+},
+{
+"n": 4,
+"tipo": "C",
+"unidad": 1,
+"tema": [
+"Clase 3 — La placa madre: Placa madre: concepto, clasificación, características y componentes.",
+"Capacidad MEC: «Identifica los diferentes tipos de Placa Madre utilizados en las computadoras.»"
+],
+"indicadores": [
+"Describe la función integradora de la placa madre.",
+"Clasifica placas madre según su factor de forma.",
+"Ubica los componentes principales de una placa madre."
+],
+"tiempo": "2 h",
+"proc": "Exploración guiada del equipo con msinfo32 y el Administrador de dispositivos; esquema rotulado de la placa madre.",
+"inst": "Mapa de componentes documentado en Word (Práctica 3). Esquema rotulado de la placa.",
+"obs": "Clase 3 y Práctica 3 del libro."
+},
+{
+"n": 5,
+"tipo": "C",
+"unidad": 1,
+"tema": [
+"Clase 4 — Slots de expansión: Slots de expansión: concepto, tipos, características y conexión.",
+"Capacidad MEC: «Identifica las características principales de los slots de expansión de las placas madres.»"
+],
+"indicadores": [
+"Explica para qué sirven las ranuras de expansión.",
+"Distingue los tipos de ranura PCI Express por su tamaño y velocidad.",
+"Describe cómo se conecta correctamente una tarjeta de expansión."
+],
+"tiempo": "2 h",
+"proc": "Identificación de ranuras en placa real o proyectada y cálculo comparativo de anchos de banda en planilla.",
+"inst": "Cuadro comparativo de ranuras con gráfico (Práctica 4). Ejercicios de la clase.",
+"obs": "Clase 4 y Práctica 4 del libro."
+},
+{
+"n": 6,
+"tipo": "F",
+"unidad": 1,
+"tema": [
+"Ficha B — PCIe y M.2: formato, generación y carriles",
+"Capacidad MEC: «Identifica las características principales de los slots de expansión de las placas madres.»"
+],
+"indicadores": [
+"Distingue el tamaño físico de una ranura de sus carriles eléctricos.",
+"Separa el formato M.2 de su interfaz SATA o NVMe.",
+"Cita la especificación al declarar una compatibilidad."
+],
+"tiempo": "2 h",
+"proc": "Análisis de ficha de placa y módulos; construcción de tabla formato/interfaz/generación/carriles.",
+"inst": "Ficha B con compatibilidad documentada.",
+"obs": "Ficha B del libro (continuidad)."
+},
+{
+"n": 7,
+"tipo": "C",
+"unidad": 1,
+"tema": [
+"Clase 5 — Puertos de conexión: Puertos de conexión: concepto, tipos, características y conexión.",
+"Capacidad MEC: «Identifica los diferentes puertos de conexión que existen en una computadora.»"
+],
+"indicadores": [
+"Reconoce los puertos externos de una computadora actual y su uso.",
+"Distingue las versiones de USB por su velocidad y su conector.",
+"Selecciona el puerto de video adecuado para un monitor dado."
+],
+"tiempo": "2 h",
+"proc": "Relevamiento físico de puertos del equipo y clasificación con la tabla de referencia.",
+"inst": "Inventario de puertos en planilla con totales (Práctica 5). Ejercicios de la clase.",
+"obs": "Clase 5 y Práctica 5 del libro."
+},
+{
+"n": 8,
+"tipo": "F",
+"unidad": 1,
+"tema": [
+"Ficha C — USB-C no es una velocidad",
+"Capacidad MEC: «Identifica los diferentes puertos de conexión que existen en una computadora.»"
+],
+"indicadores": [
+"Distingue el conector USB-C de la versión y la velocidad USB.",
+"Registra carga y video solo cuando la especificación los confirma.",
+"Redacta una advertencia técnica clara para un cliente."
+],
+"tiempo": "2 h",
+"proc": "Relevamiento de un puerto USB-C con ficha oficial del equipo y comparación con USB-A.",
+"inst": "Ficha técnica C con campos «confirmado/no indicado».",
+"obs": "Ficha C del libro (continuidad)."
+},
+{
+"n": 9,
+"tipo": "C",
+"unidad": 1,
+"tema": [
+"Clase 6 — El microprocesador: Microprocesador: concepto, evolución, tipos, características y conexión.",
+"Capacidad MEC: «Reconoce las principales características de los microprocesadores de computadoras.»"
+],
+"indicadores": [
+"Explica la función del microprocesador como unidad central de proceso.",
+"Interpreta núcleos, hilos, frecuencia y caché al comparar procesadores.",
+"Describe los cuidados de la conexión del procesador al zócalo."
+],
+"tiempo": "2 h",
+"proc": "Monitoreo del procesador en vivo con el Administrador de tareas y análisis comparativo de ofertas reales.",
+"inst": "Comparativa de procesadores con recomendación fundamentada (Práctica 6).",
+"obs": "Clase 6 y Práctica 6 del libro."
+},
+{
+"n": 10,
+"tipo": "C",
+"unidad": 1,
+"tema": [
+"Clase 7 — Las memorias: Memorias: concepto, tipos, características y conexión.",
+"Capacidad MEC: «Identifica los diferentes tipos de memorias utilizados en la computadora.»"
+],
+"indicadores": [
+"Diferencia memoria RAM, ROM y caché por su función.",
+"Interpreta capacidad, tipo y frecuencia de un módulo de RAM.",
+"Explica el montaje correcto de los módulos y el doble canal."
+],
+"tiempo": "2 h",
+"proc": "Diagnóstico del uso de memoria en vivo y elaboración de presupuesto de ampliación en planilla.",
+"inst": "Presupuesto de ampliación de RAM fundamentado (Práctica 7).",
+"obs": "Clase 7 y Práctica 7 del libro."
+},
+{
+"n": 11,
+"tipo": "F",
+"unidad": 1,
+"tema": [
+"Ficha D — CPU, RAM y placa: cadena de compatibilidad",
+"Capacidad MEC: «Reconoce las principales características de los microprocesadores de computadoras.»",
+"Capacidad MEC: «Identifica los diferentes tipos de memorias utilizados en la computadora.»"
+],
+"indicadores": [
+"Comprueba zócalo, chipset y firmware para un procesador.",
+"Verifica el tipo, la capacidad máxima y las ranuras de memoria.",
+"Justifica una propuesta de ampliación de memoria."
+],
+"tiempo": "2 h",
+"proc": "Checklist de compatibilidad y propuesta de ampliación con ficha de fabricante.",
+"inst": "Checklist D y recomendación de RAM.",
+"obs": "Ficha D del libro (continuidad)."
+},
+{
+"n": 12,
+"tipo": "C",
+"unidad": 1,
+"tema": [
+"Clase 8 — Almacenamiento: discos duros y SSD: Discos duros y unidades SSD: concepto, componentes, tipos, características y conexión.",
+"Capacidad MEC: «Reconoce las características de los dispositivos de almacenamiento secundario.»"
+],
+"indicadores": [
+"Describe los componentes internos de un disco duro mecánico.",
+"Compara HDD y SSD en velocidad, resistencia y costo por GB.",
+"Identifica las conexiones SATA y M.2 NVMe y sus diferencias."
+],
+"tiempo": "2 h",
+"proc": "Relevamiento de unidades reales y verificación del tipo de medio con el Optimizador de Windows.",
+"inst": "Tabla de unidades con tipo y estado (Práctica 8). Ejercicios comparativos HDD/SSD.",
+"obs": "Clase 8 y Práctica 8 del libro."
+},
+{
+"n": 13,
+"tipo": "F",
+"unidad": 1,
+"tema": [
+"Ficha E — Almacenamiento y migración segura",
+"Capacidad MEC: «Reconoce las características de los dispositivos de almacenamiento secundario.»"
+],
+"indicadores": [
+"Calcula la capacidad mínima de un disco de destino con margen libre.",
+"Elige el almacenamiento según compatibilidad y uso.",
+"Planifica una migración con respaldo y verificación."
+],
+"tiempo": "2 h",
+"proc": "Cálculo de espacio, selección SATA/NVMe según compatibilidad y plan de migración.",
+"inst": "Plan E de migración con cálculo y verificación.",
+"obs": "Ficha E del libro (continuidad)."
+},
+{
+"n": 14,
+"tipo": "C",
+"unidad": 1,
+"tema": [
+"Clase 9 — Lectoras de CD, DVD y Blu-ray: Lectoras y grabadoras ópticas: concepto, tipos, características y conexión.",
+"Capacidad MEC: «Reconoce las características de los dispositivos de almacenamiento secundario.»"
+],
+"indicadores": [
+"Distingue CD, DVD y Blu-ray por su capacidad y su láser.",
+"Interpreta la velocidad 'x' de una unidad óptica.",
+"Evalúa cuándo tiene sentido incluir una unidad óptica hoy."
+],
+"tiempo": "2 h",
+"proc": "Resolución de cálculos de capacidad/velocidad óptica y comunicación de la propuesta en presentación.",
+"inst": "Planilla de cálculos ópticos y diapositiva de propuesta (Práctica 9).",
+"obs": "Clase 9 y Práctica 9 del libro."
+},
+{
+"n": 15,
+"tipo": "C",
+"unidad": 1,
+"tema": [
+"Clase 10 — Impresoras: Impresoras: concepto, tipos, características, conexión e insumos.",
+"Capacidad MEC: «Identifica los diferentes tipos de impresoras.»"
+],
+"indicadores": [
+"Clasifica las impresoras por su tecnología de impresión.",
+"Relaciona cada tipo de impresora con su uso y sus insumos.",
+"Calcula y compara el costo por página de distintas tecnologías."
+],
+"tiempo": "2 h",
+"proc": "Gestión de la cola de impresión de Windows y análisis de costo por página con planilla.",
+"inst": "Comparativa de impresoras con recomendación (Práctica 10). Cierre y repaso de la unidad. Evaluación de la unidad (fotocopiable).",
+"obs": "Clase 10 y Práctica 10 del libro."
+},
+{
+"n": 16,
+"tipo": "F",
+"unidad": 1,
+"tema": [
+"Ficha F — Costo total de impresión",
+"Capacidad MEC: «Identifica los diferentes tipos de impresoras.»"
+],
+"indicadores": [
+"Calcula el costo por página con fórmulas.",
+"Estima el costo anual de equipo más insumos.",
+"Recomienda una impresora según el volumen de uso."
+],
+"tiempo": "2 h",
+"proc": "Planilla de costo total anual y recomendación según escenario escolar.",
+"inst": "Planilla F con fórmulas y recomendación.",
+"obs": "Ficha F del libro (continuidad)."
+},
+{
+"n": 17,
+"tipo": "U",
+"unidad": 1,
+"tema": [
+"Evaluación de la Unidad 1 — Componentes básicos de una computadora",
+"Capacidad MEC: «Reconoce las principales características de los Gabinetes de computadoras.»",
+"Capacidad MEC: «Analiza las principales funciones de una fuente de alimentación de computadora.»",
+"Capacidad MEC: «Identifica los diferentes tipos de Placa Madre utilizados en las computadoras.»",
+"Capacidad MEC: «Identifica las características principales de los slots de expansión de las placas madres.»",
+"Capacidad MEC: «Identifica los diferentes puertos de conexión que existen en una computadora.»",
+"Capacidad MEC: «Reconoce las principales características de los microprocesadores de computadoras.»",
+"Capacidad MEC: «Identifica los diferentes tipos de memorias utilizados en la computadora.»",
+"Capacidad MEC: «Reconoce las características de los dispositivos de almacenamiento secundario.»",
+"Capacidad MEC: «Identifica los diferentes tipos de impresoras.»"
+],
+"indicadores": [
+"Integra conceptos de gabinete, fuente, placa, expansión, puertos, CPU, memoria, almacenamiento e impresión.",
+"Resuelve un caso técnico con datos suficientes.",
+"Justifica decisiones con criterios de compatibilidad y costo."
+],
+"tiempo": "2 h",
+"proc": "Aplicación individual de la evaluación de la Unidad 1 del libro, con interpretación de una especificación de equipo y cálculo de costo por página; devolución focalizada en compatibilidad.",
+"inst": "Prueba de Unidad 1 fotocopiable; registro de errores frecuentes.",
+"obs": "Cierre de la Unidad 1."
+},
+{
+"n": 18,
+"tipo": "E",
+"unidad": 1,
+"tema": [
+"Evaluación integradora de la 1.ª etapa (Unidad 1)",
+"Capacidad MEC: «Reconoce las principales características de los Gabinetes de computadoras.»",
+"Capacidad MEC: «Analiza las principales funciones de una fuente de alimentación de computadora.»",
+"Capacidad MEC: «Identifica los diferentes tipos de Placa Madre utilizados en las computadoras.»",
+"Capacidad MEC: «Identifica las características principales de los slots de expansión de las placas madres.»",
+"Capacidad MEC: «Identifica los diferentes puertos de conexión que existen en una computadora.»",
+"Capacidad MEC: «Reconoce las principales características de los microprocesadores de computadoras.»",
+"Capacidad MEC: «Identifica los diferentes tipos de memorias utilizados en la computadora.»",
+"Capacidad MEC: «Reconoce las características de los dispositivos de almacenamiento secundario.»",
+"Capacidad MEC: «Identifica los diferentes tipos de impresoras.»"
+],
+"indicadores": [
+"Relaciona entre sí los componentes básicos del equipo y verifica su compatibilidad.",
+"Resuelve cálculos técnicos de tolerancia, capacidad y costo con los datos del caso.",
+"Fundamenta decisiones de compra de un equipo con criterios técnicos y económicos."
+],
+"tiempo": "2 h",
+"proc": "Resolución individual de la prueba integradora escrita sobre el caso de presupuesto del equipo.",
+"inst": "Prueba escrita integradora fotocopiable con caso de presupuesto.",
+"obs": "Cierre de la 1.ª etapa — junio."
+},
+{
+"n": 19,
+"tipo": "C",
+"unidad": 2,
+"tema": [
+"Clase 11 — La red de computadoras: Red de computadoras: definición, ventajas, características, tipos, elementos y usos.",
+"Capacidad MEC: «Reconoce las características principales de una red de comunicaciones.»"
+],
+"indicadores": [
+"Define qué es una red de computadoras y enumera sus ventajas.",
+"Identifica los elementos que participan en toda comunicación en red.",
+"Distingue redes cliente-servidor de redes entre pares."
+],
+"tiempo": "2 h",
+"proc": "Exploración del estado de red en Windows y mapeo de los elementos de la comunicación sobre la red real del laboratorio.",
+"inst": "Documento «Los elementos de nuestra red» (Práctica 11). Ejercicios de la clase.",
+"obs": "Clase 11 y Práctica 11 del libro."
+},
+{
+"n": 20,
+"tipo": "C",
+"unidad": 2,
+"tema": [
+"Clase 12 — Protocolos y estándares: Protocolos y estándares: concepto, tipos, características y funciones.",
+"Capacidad MEC: «Analiza los principios de las redes de comunicación.»"
+],
+"indicadores": [
+"Explica la función de los protocolos en la comunicación de datos.",
+"Reconoce los protocolos principales de la familia TCP/IP y su rol.",
+"Interpreta una dirección IP, su máscara y la puerta de enlace."
+],
+"tiempo": "2 h",
+"proc": "Diagnóstico de la configuración TCP/IP real con ipconfig /all e interpretación guiada de cada parámetro.",
+"inst": "Tabla interpretada de configuración TCP/IP (Práctica 12).",
+"obs": "Clase 12 y Práctica 12 del libro."
+},
+{
+"n": 21,
+"tipo": "F",
+"unidad": 2,
+"tema": [
+"Ficha G — Diagnóstico IP paso a paso",
+"Capacidad MEC: «Analiza los principios de las redes de comunicación.»"
+],
+"indicadores": [
+"Interpreta dirección IP, máscara, puerta de enlace y DNS.",
+"Aplica una secuencia ordenada de pruebas sin modificar la red.",
+"Distingue fallas locales, de salida y de resolución de nombres."
+],
+"tiempo": "2 h",
+"proc": "Secuencia ipconfig/ping autorizada y registro de resultados en informe.",
+"inst": "Informe G de diagnóstico TCP/IP.",
+"obs": "Ficha G del libro (continuidad)."
+},
+{
+"n": 22,
+"tipo": "C",
+"unidad": 2,
+"tema": [
+"Clase 13 — Redes por alcance: LAN, MAN y WAN: Redes geográficamente distribuidas (LAN, MAN, WAN): definición, características, alcance y elementos.",
+"Capacidad MEC: «Analiza los principios de las redes de comunicación.»"
+],
+"indicadores": [
+"Clasifica redes según su alcance geográfico.",
+"Describe los elementos característicos de LAN, MAN y WAN.",
+"Explica internet como interconexión de redes de distinto alcance."
+],
+"tiempo": "2 h",
+"proc": "Medición comparativa de demoras y saltos con ping y tracert hacia destinos de distinto alcance.",
+"inst": "Tabla de alcances con mediciones reales (Práctica 13).",
+"obs": "Clase 13 y Práctica 13 del libro."
+},
+{
+"n": 23,
+"tipo": "C",
+"unidad": 2,
+"tema": [
+"Clase 14 — Topologías de red: Topología de red física y lógica: definición, tipos, ventajas y desventajas.",
+"Capacidad MEC: «Analiza los principios de las redes de comunicación.»"
+],
+"indicadores": [
+"Diferencia topología física de topología lógica.",
+"Describe las topologías clásicas con sus ventajas y desventajas.",
+"Justifica el predominio actual de la estrella y la estrella extendida."
+],
+"tiempo": "2 h",
+"proc": "Construcción del diagrama de topología del aula con formas y conectores, identificando el punto único de falla.",
+"inst": "Plano de topología del aula en PowerPoint (Práctica 14).",
+"obs": "Clase 14 y Práctica 14 del libro."
+},
+{
+"n": 24,
+"tipo": "F",
+"unidad": 2,
+"tema": [
+"Ficha H — Topologías modernas y dominios de falla",
+"Capacidad MEC: «Analiza los principios de las redes de comunicación.»"
+],
+"indicadores": [
+"Relaciona la topología física con el comportamiento del switch.",
+"Identifica los puntos únicos de falla de una red.",
+"Propone una mejora de redundancia realista."
+],
+"tiempo": "2 h",
+"proc": "Diagrama de estrella/estrella extendida y simulación de tres fallas.",
+"inst": "Plano H con análisis de dominios de falla.",
+"obs": "Ficha H del libro (continuidad)."
+},
+{
+"n": 25,
+"tipo": "C",
+"unidad": 2,
+"tema": [
+"Clase 15 — Equipos de red: Equipos de red: concepto, características, tipos, aplicación y generalidades.",
+"Capacidad MEC: «Identifica equipos y materiales para una red»"
+],
+"indicadores": [
+"Describe la función de switch, router, access point y módem/ONT.",
+"Diferencia el switch del router por el problema que resuelve cada uno.",
+"Selecciona los equipos necesarios para una red local dada."
+],
+"tiempo": "2 h",
+"proc": "Análisis comparativo de switches y dimensionamiento de bocas para la red del caso.",
+"inst": "Comparativa de switches con elección justificada (Práctica 15).",
+"obs": "Clase 15 y Práctica 15 del libro."
+},
+{
+"n": 26,
+"tipo": "C",
+"unidad": 2,
+"tema": [
+"Clase 16 — Materiales de red: Materiales de red: concepto, características, tipos, aplicación y generalidades.",
+"Capacidad MEC: «Identifica equipos y materiales para una red»"
+],
+"indicadores": [
+"Identifica los materiales pasivos de una instalación de red.",
+"Explica la función del patch panel y de las rosetas en la instalación.",
+"Elabora la lista de materiales de una red local pequeña."
+],
+"tiempo": "2 h",
+"proc": "Elaboración de la planilla de materiales del caso con verificación cruzada contra el plano de topología.",
+"inst": "Planilla de materiales verificada (Práctica 16).",
+"obs": "Clase 16 y Práctica 16 del libro."
+},
+{
+"n": 27,
+"tipo": "F",
+"unidad": 2,
+"tema": [
+"Ficha I — Dimensionamiento y BOM de una red pequeña",
+"Capacidad MEC: «Identifica equipos y materiales para una red»"
+],
+"indicadores": [
+"Calcula los puertos necesarios con reserva para crecimiento.",
+"Elabora una lista de materiales trazable contra el plano.",
+"Elige el switch adecuado al dimensionamiento."
+],
+"tiempo": "2 h",
+"proc": "Construcción de BOM a partir del plano y dimensionamiento de switch.",
+"inst": "BOM I verificada contra el plano.",
+"obs": "Ficha I del libro (continuidad)."
+},
+{
+"n": 28,
+"tipo": "C",
+"unidad": 2,
+"tema": [
+"Clase 17 — Medios de transmisión guiados: Medios guiados: concepto, tipos, normativas, características y aplicación.",
+"Capacidad MEC: «Identifica las características principales de los medios de transmisión más utilizados.»"
+],
+"indicadores": [
+"Caracteriza el par trenzado, el coaxial y la fibra óptica.",
+"Interpreta las categorías del cable UTP y sus prestaciones.",
+"Selecciona el medio guiado adecuado para un escenario dado."
+],
+"tiempo": "2 h",
+"proc": "Resolución de escenarios de selección de medios con tabla de decisión y verificación por fórmula condicional.",
+"inst": "Tabla de decisión de medios guiados (Práctica 17).",
+"obs": "Clase 17 y Práctica 17 del libro."
+},
+{
+"n": 29,
+"tipo": "F",
+"unidad": 2,
+"tema": [
+"Ficha J — Cat 6, Cat 6A y T568: especificar sin simplificar",
+"Capacidad MEC: «Identifica las características principales de los medios de transmisión más utilizados.»",
+"Capacidad MEC: «Analiza las normas de cableado estructurado utilizadas en la actualidad.»"
+],
+"indicadores": [
+"Elige la categoría de cable según velocidad y distancia.",
+"Documenta el esquema de terminación adoptado.",
+"Distingue el orden de colores de la certificación del enlace."
+],
+"tiempo": "2 h",
+"proc": "Resolución de escenarios 1G/10G y ficha de terminación/certificación.",
+"inst": "Documento J de especificación de cableado.",
+"obs": "Ficha J del libro (continuidad)."
+},
+{
+"n": 30,
+"tipo": "C",
+"unidad": 2,
+"tema": [
+"Clase 18 — Medios de transmisión no guiados: Medios no guiados: concepto, tipos, normativas, características y aplicación.",
+"Capacidad MEC: «Identifica las características principales de los medios de transmisión más utilizados.»"
+],
+"indicadores": [
+"Caracteriza las transmisiones por Wi-Fi, Bluetooth, radioenlaces y satélite.",
+"Relaciona las bandas de frecuencia del Wi-Fi con su alcance y velocidad.",
+"Reconoce el rol del Estado en la administración del espectro radioeléctrico."
+],
+"tiempo": "2 h",
+"proc": "Relevamiento del espectro Wi-Fi del entorno con netsh y análisis de canales, bandas y seguridad.",
+"inst": "Análisis del relevamiento Wi-Fi (Práctica 18).",
+"obs": "Clase 18 y Práctica 18 del libro."
+},
+{
+"n": 31,
+"tipo": "F",
+"unidad": 2,
+"tema": [
+"Ficha K — Wi-Fi: cobertura, rendimiento y seguridad",
+"Capacidad MEC: «Identifica las características principales de los medios de transmisión más utilizados.»"
+],
+"indicadores": [
+"Releva redes inalámbricas sin registrar contraseñas.",
+"Relaciona banda, canal, interferencia y cobertura.",
+"Recomienda ubicación y seguridad del access point."
+],
+"tiempo": "2 h",
+"proc": "Relevamiento inalámbrico o datos simulados; recomendación de banda, ubicación y seguridad.",
+"inst": "Informe K de Wi‑Fi con criterios múltiples.",
+"obs": "Ficha K del libro (continuidad)."
+},
+{
+"n": 32,
+"tipo": "C",
+"unidad": 2,
+"tema": [
+"Clase 19 — Cableado estructurado: Normas de cableado estructurado: tipos, características, alcance y aplicación.",
+"Capacidad MEC: «Analiza las normas de cableado estructurado utilizadas en la actualidad.»"
+],
+"indicadores": [
+"Explica el propósito del cableado estructurado y sus subsistemas.",
+"Aplica la regla de los 100 metros de canal en un plano.",
+"Reconoce los esquemas de conexión T568A y T568B y el rol de la certificación."
+],
+"tiempo": "2 h",
+"proc": "Verificación normativa de canales con planilla condicional y documentación del esquema de conexión.",
+"inst": "Planilla de verificación de canales (Práctica 19).",
+"obs": "Clase 19 y Práctica 19 del libro."
+},
+{
+"n": 33,
+"tipo": "C",
+"unidad": 2,
+"tema": [
+"Clase 20 — CONATEL y el marco regulatorio: CONATEL: naturaleza, misión, funciones y normativas. Cierre integrador del proyecto de red.",
+"Capacidad MEC: «Reconoce los aspectos regulatorios del ente rector en telecomunicaciones en el País.»"
+],
+"indicadores": [
+"Identifica a CONATEL como ente regulador y su ley de creación.",
+"Enumera funciones de CONATEL que afectan el trabajo del técnico.",
+"Integra los contenidos de la unidad en el informe técnico de la red de la Farmacia Tajy."
+],
+"tiempo": "2 h",
+"proc": "Consulta de fuentes oficiales (CONATEL) y ensamblaje del informe técnico integrador del caso.",
+"inst": "Informe final del proyecto de red (Práctica 20). Cierre y repaso de la unidad. Evaluación de la unidad (fotocopiable).",
+"obs": "Clase 20 y Práctica 20 del libro."
+},
+{
+"n": 34,
+"tipo": "F",
+"unidad": 2,
+"tema": [
+"Ficha L — CONATEL y expediente técnico verificable",
+"Capacidad MEC: «Reconoce los aspectos regulatorios del ente rector en telecomunicaciones en el País.»",
+"Capacidad MEC: «Reconoce la importancia de la capacidad de abstracción, análisis y síntesis en los trabajos realizados.»"
+],
+"indicadores": [
+"Documenta cada afirmación regulatoria con fuente y fecha.",
+"Analiza el proyecto por partes y verifica cada una.",
+"Sintetiza el proyecto en un resumen ejecutivo claro."
+],
+"tiempo": "2 h",
+"proc": "Consulta de fuente oficial o dossier impreso y elaboración de ficha de evidencia.",
+"inst": "Anexo L con fuente, documento y fecha.",
+"obs": "Ficha L del libro (continuidad)."
+},
+{
+"n": 35,
+"tipo": "U",
+"unidad": 2,
+"tema": [
+"Evaluación de la Unidad 2 — Redes de computadoras",
+"Capacidad MEC: «Reconoce las características principales de una red de comunicaciones.»",
+"Capacidad MEC: «Analiza los principios de las redes de comunicación.»",
+"Capacidad MEC: «Identifica equipos y materiales para una red»",
+"Capacidad MEC: «Identifica las características principales de los medios de transmisión más utilizados.»",
+"Capacidad MEC: «Analiza las normas de cableado estructurado utilizadas en la actualidad.»",
+"Capacidad MEC: «Reconoce los aspectos regulatorios del ente rector en telecomunicaciones en el País.»",
+"Capacidad MEC: «Reconoce la importancia de la capacidad de abstracción, análisis y síntesis en los trabajos realizados.»"
+],
+"indicadores": [
+"Integra direccionamiento, topologías, equipos, materiales, medios y cableado.",
+"Resuelve un caso de red local con cálculos y restricciones.",
+"Usa terminología y criterios regulatorios verificables."
+],
+"tiempo": "2 h",
+"proc": "Aplicación individual de la evaluación de la Unidad 2 del libro, con dimensionamiento de equipos para un local y regla de los 100 metros; devolución focalizada en el diseño de la red.",
+"inst": "Prueba de Unidad 2 fotocopiable; registro de dificultades.",
+"obs": "Cierre de la Unidad 2."
+},
+{
+"n": 36,
+"tipo": "E",
+"unidad": 2,
+"tema": [
+"Evaluación integradora de la 2.ª etapa (Unidad 2)",
+"Capacidad MEC: «Reconoce las características principales de una red de comunicaciones.»",
+"Capacidad MEC: «Analiza los principios de las redes de comunicación.»",
+"Capacidad MEC: «Identifica equipos y materiales para una red»",
+"Capacidad MEC: «Identifica las características principales de los medios de transmisión más utilizados.»",
+"Capacidad MEC: «Analiza las normas de cableado estructurado utilizadas en la actualidad.»",
+"Capacidad MEC: «Reconoce los aspectos regulatorios del ente rector en telecomunicaciones en el País.»",
+"Capacidad MEC: «Reconoce la importancia de la capacidad de abstracción, análisis y síntesis en los trabajos realizados.»"
+],
+"indicadores": [
+"Relaciona los elementos de una red local: equipos, materiales, medios y direcciones.",
+"Resuelve un caso de diseño de red aplicando topología, alcance y regla de los 100 metros.",
+"Fundamenta la selección de medios y equipos con criterios técnicos y regulatorios."
+],
+"tiempo": "2 h",
+"proc": "Resolución individual de la prueba integradora escrita sobre el caso de diseño de la red del aula.",
+"inst": "Prueba escrita integradora fotocopiable con caso de diseño de red.",
+"obs": "Cierre de la 2.ª etapa — noviembre."
+}
+]

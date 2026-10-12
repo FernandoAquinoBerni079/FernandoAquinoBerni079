@@ -1,0 +1,18 @@
+MEC = [
+ "Reconoce las principales características de los Gabinetes de computadoras.",
+ "Analiza las principales funciones de una fuente de alimentación de computadora.",
+ "Identifica los diferentes tipos de Placa Madre utilizados en las computadoras.",
+ "Identifica las características principales de los slots de expansión de las placas madres.",
+ "Identifica los diferentes puertos de conexión que existen en una computadora.",
+ "Reconoce las principales características de los microprocesadores de computadoras.",
+ "Identifica los diferentes tipos de memorias utilizados en la computadora.",
+ "Reconoce las características de los dispositivos de almacenamiento secundario.",
+ "Identifica los diferentes tipos de impresoras.",
+ "Reconoce las características principales de una red de comunicaciones.",
+ "Analiza los principios de las redes de comunicación.",
+ "Identifica equipos y materiales para una red",
+ "Identifica las características principales de los medios de transmisión más utilizados.",
+ "Analiza las normas de cableado estructurado utilizadas en la actualidad.",
+ "Reconoce los aspectos regulatorios del ente rector en telecomunicaciones en el País.",
+ "Reconoce la importancia de la capacidad de abstracción, análisis y síntesis en los trabajos realizados.",
+]

@@ -1,0 +1,7 @@
+## Caso integrador — La red del Instituto Ko'ẽju
+El plano final del aula tiene 10 computadoras, 1 impresora de red y 1 access point, todos cableados en estrella a un switch Gigabit de 16 puertos conectado al router. El plan de direcciones es 192.168.10.0 con máscara 255.255.255.0; el router es 192.168.10.1 y la impresora quedó fija en 192.168.10.20. Para el año próximo, el colegio quiere sumar al aula 3 computadoras y un segundo access point; los nuevos puntos quedan a 47 m de tendido fijo del rack.
+a) Contá las bocas del switch que quedarían ocupadas con la ampliación y decidí si el switch de 16 puertos alcanza. Si no alcanza, proponé una solución.
+b) Verificá el canal de los nuevos puntos (cordones de 3 m en el puesto y 2 m en el rack) contra la regla de los 100 metros.
+c) Una de las PC nuevas recibió la dirección 192.168.10.112 automáticamente. ¿Qué protocolo actuó y cómo verificás desde esa PC que pertenece a la misma red que la impresora?
+d) El segundo access point se ofrece en dos modelos y solo uno figura como homologado por CONATEL. Indicá cuál elegís, cómo lo verificás y qué dejás registrado en la carpeta técnica.
+Referencias técnicas de actualización 2026: programa 80 PLUS (CLEAResult); USB-IF (USB 3.2/USB4); PCI-SIG (PCI Express); ANSI/TIA e información técnica de certificación de cableado; CONATEL Paraguay. Las características comerciales y regulatorias deben verificarse por modelo y fecha.

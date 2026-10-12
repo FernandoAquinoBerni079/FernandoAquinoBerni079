@@ -1,0 +1,326 @@
+[
+[
+"1",
+"Clase 1 — El gabinete de la computadora: Gabinetes: función, tipos y características.",
+"• Distingue los tipos de gabinete según su tamaño y formato.\n• Identifica las características que se evalúan al elegir un gabinete.\n• Relaciona el factor de forma del gabinete con la placa madre que admite.",
+"2 h",
+"Prueba diagnóstica de saberes previos. Observación guiada del equipo del laboratorio y clasificación de gabinetes con la tabla comparativa.",
+"Prueba diagnóstica. Ficha técnica del equipo elaborada en Word (Práctica 1).",
+""
+],
+[
+"2",
+"Continuación A — Compatibilidad gabinete · placa · fuente",
+"• Verifica compatibilidad mediante especificaciones. \n• Distingue requisitos mecánicos y eléctricos. \n• Fundamenta decisiones con evidencia técnica.",
+"2 h",
+"Resolución de matriz de compatibilidad con fichas técnicas; contraste entre requisito y especificación.",
+"Matriz de compatibilidad A con evidencia por decisión.",
+""
+],
+[
+"3",
+"Clase 2 — La fuente de alimentación: Fuentes de alimentación: concepto, funciones, tipos, voltajes utilizados y voltaje real.",
+"• Explica la función de conversión de corriente que cumple la fuente.\n• Identifica los voltajes de salida de una fuente ATX y sus usos.\n• Interpreta la diferencia entre potencia declarada y potencia real.",
+"2 h",
+"Análisis de la etiqueta de una fuente real o proyectada y cálculo de tolerancias con planilla electrónica.",
+"Planilla de tolerancias con casos evaluados (Práctica 2). Ejercicios de aplicación de la clase.",
+""
+],
+[
+"4",
+"Clase 3 — La placa madre: Placa madre: concepto, clasificación, características y componentes.",
+"• Describe la función integradora de la placa madre.\n• Clasifica placas madre según su factor de forma.\n• Ubica los componentes principales de una placa madre.",
+"2 h",
+"Exploración guiada del equipo con msinfo32 y el Administrador de dispositivos; esquema rotulado de la placa madre.",
+"Mapa de componentes documentado en Word (Práctica 3). Esquema rotulado de la placa.",
+""
+],
+[
+"5",
+"Clase 4 — Slots de expansión: Slots de expansión: concepto, tipos, características y conexión.",
+"• Explica para qué sirven las ranuras de expansión.\n• Distingue PCI Express por generación, carriles y formato físico.\n• Describe cómo se conecta correctamente una tarjeta de expansión.",
+"2 h",
+"Identificación de ranuras en placa real o proyectada y cálculo comparativo de anchos de banda en planilla.",
+"Cuadro comparativo de ranuras con gráfico (Práctica 4). Ejercicios de la clase.",
+""
+],
+[
+"6",
+"Continuación B — PCIe y M.2: formato, generación y carriles",
+"• Distingue tamaño físico, carriles y generación PCIe. \n• Separa formato M.2 de interfaz SATA/NVMe. \n• Verifica compatibilidad en documentación.",
+"2 h",
+"Análisis de ficha de placa y módulos; construcción de tabla formato/interfaz/generación/carriles.",
+"Ficha B con compatibilidad documentada.",
+""
+],
+[
+"7",
+"Clase 5 — Puertos de conexión: Puertos de conexión: concepto, tipos, características y conexión.",
+"• Reconoce los puertos externos de una computadora actual y su uso.\n• Distingue el estándar de datos USB del tipo de conector físico.\n• Selecciona el puerto de video adecuado para un monitor dado.",
+"2 h",
+"Relevamiento físico de puertos del equipo y clasificación con la tabla de referencia.",
+"Inventario de puertos en planilla con totales (Práctica 5). Ejercicios de la clase.",
+""
+],
+[
+"8",
+"Continuación C — USB-C: conector, estándar y funciones",
+"• Distingue USB-C de la versión USB. \n• Identifica datos, carga y video solo cuando están especificados. \n• Evita inferencias por color o forma.",
+"2 h",
+"Relevamiento de un puerto USB-C con ficha oficial del equipo y comparación con USB-A.",
+"Ficha técnica C con campos «confirmado/no indicado».",
+""
+],
+[
+"9",
+"Clase 6 — El microprocesador: Microprocesador: concepto, evolución, tipos, características y conexión.",
+"• Explica la función del microprocesador como unidad central de proceso.\n• Interpreta núcleos, hilos, frecuencia y caché al comparar procesadores.\n• Describe los cuidados de la conexión del procesador al zócalo.",
+"2 h",
+"Monitoreo del procesador en vivo con el Administrador de tareas y análisis comparativo de ofertas reales.",
+"Comparativa de procesadores con recomendación fundamentada (Práctica 6).",
+""
+],
+[
+"10",
+"Clase 7 — Las memorias: Memorias: concepto, tipos, características y conexión.",
+"• Diferencia memoria RAM, ROM y caché por su función.\n• Interpreta capacidad, tipo y frecuencia de un módulo de RAM.\n• Explica el montaje correcto de los módulos y el doble canal.",
+"2 h",
+"Diagnóstico del uso de memoria en vivo y elaboración de presupuesto de ampliación en planilla.",
+"Presupuesto de ampliación de RAM fundamentado (Práctica 7).",
+""
+],
+[
+"11",
+"Continuación D — CPU, RAM y placa: cadena de compatibilidad",
+"• Comprueba zócalo/chipset/BIOS. \n• Verifica tipo y capacidad de RAM. \n• Propone ampliación fundamentada.",
+"2 h",
+"Checklist de compatibilidad y propuesta de ampliación con ficha de fabricante.",
+"Checklist D y recomendación de RAM.",
+""
+],
+[
+"12",
+"Clase 8 — Almacenamiento: discos duros y SSD: Discos duros y unidades SSD: concepto, componentes, tipos, características y conexión.",
+"• Describe los componentes internos de un disco duro mecánico.\n• Compara HDD y SSD en velocidad, resistencia y costo por GB.\n• Distingue SATA, formato M.2 y NVMe/PCIe según compatibilidad.",
+"2 h",
+"Relevamiento de unidades reales y verificación del tipo de medio con el Optimizador de Windows.",
+"Tabla de unidades con tipo y estado (Práctica 8). Ejercicios comparativos HDD/SSD.",
+""
+],
+[
+"13",
+"Continuación E — Almacenamiento y migración segura",
+"• Distingue formato e interfaz. \n• Dimensiona capacidad de destino. \n• Diseña respaldo, copia y verificación.",
+"2 h",
+"Cálculo de espacio, selección SATA/NVMe según compatibilidad y plan de migración.",
+"Plan E de migración con cálculo y verificación.",
+""
+],
+[
+"14",
+"Clase 9 — Lectoras de CD, DVD y Blu-ray: Lectoras y grabadoras ópticas: concepto, tipos, características y conexión.",
+"• Distingue CD, DVD y Blu-ray por su capacidad y su láser.\n• Interpreta la velocidad 'x' de una unidad óptica.\n• Evalúa cuándo tiene sentido incluir una unidad óptica hoy.",
+"2 h",
+"Resolución de cálculos de capacidad/velocidad óptica y comunicación de la propuesta en presentación.",
+"Planilla de cálculos ópticos y diapositiva de propuesta (Práctica 9).",
+""
+],
+[
+"15",
+"Clase 10 — Impresoras: Impresoras: concepto, tipos, características, conexión e insumos.",
+"• Clasifica las impresoras por su tecnología de impresión.\n• Relaciona cada tipo de impresora con su uso y sus insumos.\n• Calcula y compara el costo por página de distintas tecnologías.",
+"2 h",
+"Gestión de la cola de impresión de Windows y análisis de costo por página con planilla.",
+"Comparativa de impresoras con recomendación (Práctica 10). Cierre y repaso de la unidad. Evaluación de la unidad (fotocopiable).",
+"Cierre de la Unidad 1."
+],
+[
+"16",
+"Continuación F — Costo total de impresión",
+"• Calcula costo por página. \n• Estima consumo anual. \n• Compara costo total según volumen.",
+"2 h",
+"Planilla de costo total anual y recomendación según escenario escolar.",
+"Planilla F con fórmulas y recomendación.",
+""
+],
+[
+"17",
+"Evaluación de la Unidad 1 — Componentes básicos de una computadora",
+"• Integra conceptos de gabinete, fuente, placa, expansión, puertos, CPU, memoria, almacenamiento e impresión.\n• Resuelve un caso técnico con datos suficientes.\n• Justifica decisiones con criterios de compatibilidad y costo.",
+"2 h",
+"Aplicación individual de la evaluación de unidad del tomo; devolución focalizada.",
+"Prueba de Unidad 1 fotocopiable; registro de errores frecuentes.",
+"Cierre de Unidad 1."
+],
+[
+"18",
+"Evaluación integradora de la 1.ª etapa (Unidad 1)",
+"Relaciona entre sí los componentes básicos del equipo y verifica su compatibilidad.\nResuelve cálculos técnicos de tolerancia, capacidad y costo con los datos del caso.\nFundamenta decisiones de compra de un equipo con criterios técnicos y económicos.",
+"2 h",
+"Resolución individual de la prueba integradora escrita sobre el caso de presupuesto del equipo.",
+"Prueba escrita integradora fotocopiable con caso de presupuesto.",
+"Cierre de la 1.ª etapa — junio."
+],
+[
+"19",
+"Clase 11 — La red de computadoras: Red de computadoras: definición, ventajas, características, tipos, elementos y usos.",
+"• Define qué es una red de computadoras y enumera sus ventajas.\n• Identifica los elementos que participan en toda comunicación en red.\n• Distingue redes cliente-servidor de redes entre pares.",
+"2 h",
+"Exploración del estado de red en Windows y mapeo de los elementos de la comunicación sobre la red real del laboratorio.",
+"Documento «Los elementos de nuestra red» (Práctica 11). Ejercicios de la clase.",
+""
+],
+[
+"20",
+"Clase 12 — Protocolos y estándares: Protocolos y estándares: concepto, tipos, características y funciones.",
+"• Explica la función de los protocolos en la comunicación de datos.\n• Reconoce los protocolos principales de la familia TCP/IP y su rol.\n• Interpreta una dirección IP, su máscara y la puerta de enlace.",
+"2 h",
+"Diagnóstico de la configuración TCP/IP real con ipconfig /all e interpretación guiada de cada parámetro.",
+"Tabla interpretada de configuración TCP/IP (Práctica 12).",
+""
+],
+[
+"21",
+"Continuación G — Diagnóstico IP paso a paso",
+"• Interpreta IP, máscara, gateway y DNS. \n• Ejecuta diagnóstico sin modificar parámetros. \n• Localiza fallas probables.",
+"2 h",
+"Secuencia ipconfig/ping autorizada y registro de resultados en informe.",
+"Informe G de diagnóstico TCP/IP.",
+""
+],
+[
+"22",
+"Clase 13 — Redes por alcance: LAN, MAN y WAN: Redes geográficamente distribuidas (LAN, MAN, WAN): definición, características, alcance y elementos.",
+"• Clasifica redes según su alcance geográfico.\n• Describe los elementos característicos de LAN, MAN y WAN.\n• Explica internet como interconexión de redes de distinto alcance.",
+"2 h",
+"Medición comparativa de demoras y saltos con ping y tracert hacia destinos de distinto alcance.",
+"Tabla de alcances con mediciones reales (Práctica 13).",
+""
+],
+[
+"23",
+"Clase 14 — Topologías de red: Topología de red física y lógica: definición, tipos, ventajas y desventajas.",
+"• Diferencia topología física de topología lógica.\n• Describe las topologías clásicas con sus ventajas y desventajas.\n• Justifica el predominio actual de la estrella y la estrella extendida.",
+"2 h",
+"Construcción del diagrama de topología del aula con formas y conectores, identificando el punto único de falla.",
+"Plano de topología del aula en PowerPoint (Práctica 14).",
+""
+],
+[
+"24",
+"Continuación H — Topologías modernas y dominios de falla",
+"• Distingue topología física y comportamiento lógico actual. \n• Identifica puntos únicos de falla. \n• Analiza impacto de fallas.",
+"2 h",
+"Diagrama de estrella/estrella extendida y simulación de tres fallas.",
+"Plano H con análisis de dominios de falla.",
+""
+],
+[
+"25",
+"Clase 15 — Equipos de red: Equipos de red: concepto, características, tipos, aplicación y generalidades.",
+"• Describe la función de switch, router, access point y módem/ONT.\n• Diferencia el switch del router por el problema que resuelve cada uno.\n• Selecciona los equipos necesarios para una red local dada.",
+"2 h",
+"Análisis comparativo de switches y dimensionamiento de bocas para la red del caso.",
+"Comparativa de switches con elección justificada (Práctica 15).",
+""
+],
+[
+"26",
+"Clase 16 — Materiales de red: Materiales de red: concepto, características, tipos, aplicación y generalidades.",
+"• Identifica los materiales pasivos de una instalación de red.\n• Explica la función del patch panel y de las rosetas en la instalación.\n• Elabora la lista de materiales de una red local pequeña.",
+"2 h",
+"Elaboración de la planilla de materiales del caso con verificación cruzada contra el plano de topología.",
+"Planilla de materiales verificada (Práctica 16).",
+""
+],
+[
+"27",
+"Continuación I — Dimensionamiento y BOM",
+"• Calcula puertos y reserva. \n• Relaciona materiales con el plano. \n• Justifica cantidades.",
+"2 h",
+"Construcción de BOM a partir del plano y dimensionamiento de switch.",
+"BOM I verificada contra el plano.",
+""
+],
+[
+"28",
+"Clase 17 — Medios de transmisión guiados: Medios guiados: concepto, tipos, normativas, características y aplicación.",
+"• Caracteriza el par trenzado, el coaxial y la fibra óptica.\n• Interpreta las categorías del cable UTP y sus prestaciones.\n• Selecciona el medio guiado adecuado para un escenario dado.",
+"2 h",
+"Resolución de escenarios de selección de medios con tabla de decisión y verificación por fórmula condicional.",
+"Tabla de decisión de medios guiados (Práctica 17).",
+""
+],
+[
+"29",
+"Continuación J — Cat 6, Cat 6A y T568",
+"• Selecciona categoría según velocidad/distancia. \n• Documenta T568A/B correctamente. \n• Distingue terminación de certificación.",
+"2 h",
+"Resolución de escenarios 1G/10G y ficha de terminación/certificación.",
+"Documento J de especificación de cableado.",
+""
+],
+[
+"30",
+"Clase 18 — Medios de transmisión no guiados: Medios no guiados: concepto, tipos, normativas, características y aplicación.",
+"• Caracteriza las transmisiones por Wi-Fi, Bluetooth, radioenlaces y satélite.\n• Analiza bandas Wi‑Fi considerando propagación, interferencia, estándar, ancho de canal y cliente.\n• Reconoce el rol del Estado en la administración del espectro radioeléctrico.",
+"2 h",
+"Relevamiento del espectro Wi-Fi del entorno con netsh y análisis de canales, bandas y seguridad.",
+"Análisis del relevamiento Wi-Fi (Práctica 18).",
+""
+],
+[
+"31",
+"Continuación K — Wi‑Fi: cobertura, rendimiento y seguridad",
+"• Analiza bandas sin regla simplista de velocidad. \n• Considera interferencia, estándar y cliente. \n• Recomienda WPA2/WPA3.",
+"2 h",
+"Relevamiento inalámbrico o datos simulados; recomendación de banda, ubicación y seguridad.",
+"Informe K de Wi‑Fi con criterios múltiples.",
+""
+],
+[
+"32",
+"Clase 19 — Cableado estructurado: Normas de cableado estructurado: tipos, características, alcance y aplicación.",
+"• Explica el propósito del cableado estructurado y sus subsistemas.\n• Aplica la regla de los 100 metros de canal en un plano.\n• Reconoce los esquemas de conexión T568A y T568B y el rol de la certificación.",
+"2 h",
+"Verificación normativa de canales con planilla condicional y documentación del esquema de conexión.",
+"Planilla de verificación de canales (Práctica 19).",
+""
+],
+[
+"33",
+"Clase 20 — CONATEL y el marco regulatorio: CONATEL: naturaleza, misión, funciones y normativas. Cierre integrador del proyecto de red.",
+"• Identifica a CONATEL como ente regulador y su ley de creación.\n• Enumera funciones de CONATEL que afectan el trabajo del técnico.\n• Integra los contenidos de la unidad en el informe final del caso.",
+"2 h",
+"Consulta de fuentes oficiales (CONATEL) y ensamblaje del informe técnico integrador del caso.",
+"Informe final del proyecto de red (Práctica 20). Cierre y repaso de la unidad. Evaluación de la unidad (fotocopiable).",
+"Cierre de la Unidad 2."
+],
+[
+"34",
+"Continuación L — CONATEL y expediente técnico verificable",
+"• Registra fuente y fecha de datos regulatorios. \n• Distingue información estable de datos cambiantes. \n• Integra evidencia oficial al informe.",
+"2 h",
+"Consulta de fuente oficial o dossier impreso y elaboración de ficha de evidencia.",
+"Anexo L con fuente, documento y fecha.",
+""
+],
+[
+"35",
+"Evaluación de la Unidad 2 — Redes de computadoras",
+"• Integra direccionamiento, topologías, equipos, materiales, medios y cableado.\n• Resuelve un caso de red local con cálculos y restricciones.\n• Usa terminología y criterios regulatorios verificables.",
+"2 h",
+"Aplicación individual de la evaluación de unidad del tomo; devolución focalizada.",
+"Prueba de Unidad 2 fotocopiable; registro de dificultades.",
+"Cierre de Unidad 2."
+],
+[
+"36",
+"Evaluación integradora de la 2.ª etapa (Unidad 2)",
+"Relaciona los elementos de una red local: equipos, materiales, medios y direcciones.\nResuelve un caso de diseño de red aplicando topología, alcance y regla de los 100 metros.\nFundamenta la selección de medios y equipos con criterios técnicos y regulatorios.",
+"2 h",
+"Resolución individual de la prueba integradora escrita sobre el caso de diseño de la red del aula.",
+"Prueba escrita integradora fotocopiable con caso de diseño de red.",
+"Cierre de la 2.ª etapa — noviembre. Presentación del Proyecto Final Integrador en la feria."
+]
+]

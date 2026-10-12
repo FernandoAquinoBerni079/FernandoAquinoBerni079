@@ -1,0 +1,1682 @@
+{
+ "1": [
+  [
+   "Ejercitá",
+   1,
+   "Escribí por extensión: V = {x / x es vocal de la palabra «karumbé»}. Indicá n(V).",
+   "V = {a, u, e} (vocales de «karumbé», sin repetir). n(V) = 3."
+  ],
+  [
+   "Ejercitá",
+   2,
+   "Escribí por extensión: D = {x / x es dígito distinto del número 2026}. Indicá n(D).",
+   "D = {2, 0, 6} (dígitos distintos de 2026; el 2 va una sola vez). n(D) = 3."
+  ],
+  [
+   "Ejercitá",
+   3,
+   "Con M = {chipa, mixta, empanada, coquito, gaseosa}, completá con ∈ o ∉: chipa __ M ; pizza __ M ; coquito __ M ; jugo __ M.",
+   "chipa ∈ M ; pizza ∉ M ; coquito ∈ M ; jugo ∉ M."
+  ],
+  [
+   "Ejercitá",
+   4,
+   "Calculá el cardinal de: a) A = {a, l, g, o, r, i, t, m} ; b) B = {2, 4, 6, 8, 10} ; c) C = {x / x es día de la semana}.",
+   "a) n(A) = 8 ; b) n(B) = 5 ; c) n(C) = 7."
+  ],
+  [
+   "Ejercitá",
+   5,
+   "Escribí por comprensión el conjunto P = {2, 4, 6, 8}.",
+   "P = {x / x es par y 0 < x < 10} (o «x par, 2 ≤ x ≤ 8»)."
+  ],
+  [
+   "Ejercitá",
+   6,
+   "Decidí si cada colección es un conjunto bien definido (sí/no): a) los productos del menú de hoy ; b) las chipas más ricas ; c) las letras de «chipa» ; d) los números grandes.",
+   "a) sí (propiedad objetiva) ; b) no (depende del gusto) ; c) sí ; d) no (impreciso)."
+  ],
+  [
+   "Resolvé",
+   7,
+   "Ña Rosa arma el menú del día: chipa, mixta, empanada, coquito y gaseosa. Definí el conjunto M por extensión, calculá n(M) y escribí dos afirmaciones de pertenencia verdaderas (una con ∈ y otra con ∉).",
+   "M = {chipa, mixta, empanada, coquito, gaseosa}; n(M) = 5. Ej.: chipa ∈ M ; pizza ∉ M."
+  ],
+  [
+   "Resolvé",
+   8,
+   "Los medios de pago que acepta el copetín son efectivo, QR y tarjeta. Definí el conjunto P por extensión y por comprensión, e indicá n(P).",
+   "P = {efectivo, QR, tarjeta}; P = {x / x es medio de pago que acepta el copetín}; n(P) = 3."
+  ],
+  [
+   "Resolvé",
+   9,
+   "Ña Rosa separa las bebidas del menú (gaseosa) del resto. Escribí el conjunto B de bebidas y el conjunto S de salados (chipa, mixta, empanada) por extensión, e indicá n(B) y n(S).",
+   "B = {gaseosa}, n(B) = 1 ; S = {chipa, mixta, empanada}, n(S) = 3."
+  ],
+  [
+   "Pensá y decidí",
+   10,
+   "V o F: «El conjunto {coquito, coquito, chipa} tiene cardinal 3.»",
+   "FALSO — los elementos no se repiten: {coquito, chipa} tiene cardinal 2."
+  ],
+  [
+   "Pensá y decidí",
+   11,
+   "Elegí y justificá: {x / x es par y 0 < x < 10} está determinado por a) comprensión. b) extensión.",
+   "a) comprensión — se enuncia la propiedad, no se listan los elementos."
+  ],
+  [
+   "Pensá y decidí",
+   12,
+   "V o F: «Los clientes simpáticos del copetín» forman un conjunto bien definido.",
+   "FALSO — «simpáticos» depende de la opinión: no está bien definido."
+  ],
+  [
+   "Desafío",
+   13,
+   "Ña Rosa piensa ampliar el menú a 8 productos. Escribí el nuevo conjunto M' por extensión (agregá 3 productos a los 5 actuales), calculá n(M') y escribí una pertenencia verdadera y una falsa sobre M'.",
+   "Ejemplo: M' = {chipa, mixta, empanada, coquito, gaseosa, cocido, pastel mandi'o, jugo}; n(M') = 8. Verdadera: cocido ∈ M' ; falsa: pizza ∈ M' (es falsa)."
+  ]
+ ],
+ "2": [
+  [
+   "Ejercitá",
+   1,
+   "Clasificá en finito o infinito: a) N = {1, 2, 3, ...} ; b) los productos del menú ; c) {x / x es número par} ; d) las letras del achegety (33).",
+   "a) infinito ; b) finito ; c) infinito ; d) finito."
+  ],
+  [
+   "Ejercitá",
+   2,
+   "Clasificá en unitario, vacío o universal: a) {coquito} ; b) {x / x es producto del menú con precio G. 0} ; c) U = todos los productos que Ña Rosa sabe preparar.",
+   "a) unitario ; b) vacío ; c) universal."
+  ],
+  [
+   "Ejercitá",
+   3,
+   "Escribí todos los subconjuntos de A = {chipa, mixta}.",
+   "∅, {chipa}, {mixta}, {chipa, mixta} — son 4 = 2²."
+  ],
+  [
+   "Ejercitá",
+   4,
+   "Calculá cuántos subconjuntos tiene: a) un conjunto de 3 elementos ; b) uno de 4 ; c) uno de 5.",
+   "a) 2³ = 8 ; b) 2⁴ = 16 ; c) 2⁵ = 32."
+  ],
+  [
+   "Ejercitá",
+   5,
+   "Con M (5 productos) y F = {empanada, coquito}, completá con ∈, ∉, ⊆ o ⊂: empanada __ M ; F __ M ; {gaseosa} __ M ; chipa __ F.",
+   "empanada ∈ M ; F ⊂ M ; {gaseosa} ⊂ M ; chipa ∉ F."
+  ],
+  [
+   "Ejercitá",
+   6,
+   "Indicá si es subconjunto propio o impropio: a) ∅ ⊆ M ; b) M ⊆ M ; c) F ⊂ M.",
+   "a) impropio ; b) impropio ; c) propio."
+  ],
+  [
+   "Resolvé",
+   7,
+   "Del menú M, Ña Rosa separa los fritos F = {empanada, coquito}. Mostrá que F ⊂ M (justificá con la definición) y escribí todos los subconjuntos de F.",
+   "Todo elemento de F (empanada, coquito) está en M, y M tiene elementos que F no tiene (chipa, mixta, gaseosa): por eso F ⊂ M. Subconjuntos de F: ∅, {empanada}, {coquito}, {empanada, coquito} (4 = 2²)."
+  ],
+  [
+   "Resolvé",
+   8,
+   "El copetín ofrece 3 bebidas: gaseosa, jugo y agua. ¿Cuántos combos de bebidas puede armar (contando «ninguna» y «todas»)? Listá al menos 4 de esos subconjuntos.",
+   "2³ = 8 combos. Ej.: ∅, {gaseosa}, {jugo}, {gaseosa, jugo, agua} (entre otros)."
+  ],
+  [
+   "Resolvé",
+   9,
+   "Proponé un conjunto universal razonable para «las bebidas del copetín» y un subconjunto propio de él; justificá con ⊂.",
+   "Ej.: U = {gaseosa, jugo, agua, café, cocido}; B = {gaseosa, jugo} ⊂ U, porque todo elemento de B está en U y U tiene más elementos."
+  ],
+  [
+   "Pensá y decidí",
+   10,
+   "V o F: «El conjunto vacío es subconjunto de cualquier conjunto.»",
+   "VERDADERO — por definición, ∅ ⊆ A para todo conjunto A."
+  ],
+  [
+   "Pensá y decidí",
+   11,
+   "V o F: «Si A ⊂ B, entonces A y B tienen exactamente los mismos elementos.»",
+   "FALSO — ⊂ es inclusión propia: B tiene al menos un elemento que A no tiene, así que no son iguales."
+  ],
+  [
+   "Pensá y decidí",
+   12,
+   "Elegí y justificá: un conjunto de 4 elementos tiene a) 8 b) 32 subconjuntos. c) 16.",
+   "c) 16 — 2⁴ = 16."
+  ],
+  [
+   "Desafío",
+   13,
+   "El menú crece a 6 productos. Calculá cuántos subconjuntos tendría el nuevo menú y explicá con la regla 2ⁿ por qué agregar un solo producto duplica la cantidad de combos posibles.",
+   "2⁶ = 64 subconjuntos. Al pasar de n a n+1 elementos, 2^(n+1) = 2 · 2ⁿ: cada subconjunto viejo genera dos (con y sin el nuevo producto), por eso la cantidad se duplica."
+  ]
+ ],
+ "3": [
+  [
+   "Ejercitá",
+   1,
+   "Con U = {1,2,3,4,5,6,7,8}, A = {1,2,3,4} y B = {3,4,5,6}, indicá qué elementos van en cada región: solo A, A∩B, solo B, ni A ni B.",
+   "solo A: {1, 2} ; A∩B: {3, 4} ; solo B: {5, 6} ; ni A ni B: {7, 8}."
+  ],
+  [
+   "Ejercitá",
+   2,
+   "Con U = {chipa, mixta, empanada, coquito, gaseosa, jugo} y C = {chipa, mixta, empanada, coquito}, indicá qué queda dentro del óvalo C y qué queda fuera pero dentro de U.",
+   "Dentro de C: chipa, mixta, empanada, coquito. Fuera del óvalo pero dentro de U: gaseosa, jugo."
+  ],
+  [
+   "Ejercitá",
+   3,
+   "Nombrá la región (solo A / central / solo B / fuera) donde cae cada elemento del ítem 1.",
+   "1 y 2 → solo A ; 3 y 4 → central ; 5 y 6 → solo B ; 7 y 8 → fuera."
+  ],
+  [
+   "Ejercitá",
+   4,
+   "Traducí a símbolo: a) el óvalo de A está dentro del de B ; b) A y B no se tocan ; c) hay elementos en la zona central.",
+   "a) A ⊆ B ; b) A ∩ B = ∅ (disjuntos) ; c) A ∩ B ≠ ∅."
+  ],
+  [
+   "Ejercitá",
+   5,
+   "Si las 4 regiones de un diagrama tienen 10, 8, 7 y 5 elementos, calculá n(U).",
+   "n(U) = 10 + 8 + 7 + 5 = 30."
+  ],
+  [
+   "Ejercitá",
+   6,
+   "Indicá en qué región va cada elemento con A = {1,2,3} y B = {3,4}: el 1, el 3, el 4.",
+   "el 1 → solo A ; el 3 → central (A∩B) ; el 4 → solo B."
+  ],
+  [
+   "Resolvé",
+   7,
+   "En el mostrador, U = {chipa, mixta, empanada, coquito, gaseosa, jugo}. Describí el diagrama con C = comestibles = {chipa, mixta, empanada, coquito} e indicá qué elementos quedan fuera del óvalo.",
+   "Óvalo C = {chipa, mixta, empanada, coquito}; fuera del óvalo, dentro del rectángulo U: gaseosa y jugo (pertenecen al universo, no a C)."
+  ],
+  [
+   "Resolvé",
+   8,
+   "Con A = {chipa, mixta, coquito} (mañana) y B = {mixta, empanada, gaseosa} (siesta), ubicá cada producto en su región del diagrama de dos óvalos.",
+   "solo A (mañana): chipa, coquito ; A∩B (ambos turnos): mixta ; solo B (siesta): empanada, gaseosa ; fuera: ninguno (todos están en A o B)."
+  ],
+  [
+   "Resolvé",
+   9,
+   "Dibujá (o describí) el diagrama de Venn de F = {empanada, coquito} y M = {chipa, mixta, empanada, coquito, gaseosa}, sabiendo que F ⊂ M.",
+   "El óvalo de F va completamente dentro del de M. Dentro de F: empanada, coquito. En M pero fuera de F: chipa, mixta, gaseosa."
+  ],
+  [
+   "Pensá y decidí",
+   10,
+   "V o F: «Un elemento del universo puede quedar fuera de las cuatro regiones del diagrama.»",
+   "FALSO — las cuatro regiones cubren todo U; todo elemento cae en exactamente una."
+  ],
+  [
+   "Pensá y decidí",
+   11,
+   "Elegí y justificá: dos óvalos que se cruzan dividen al universo en a) 2 b) 4 regiones. c) 3.",
+   "b) 4 regiones — solo A, central, solo B y fuera de ambos."
+  ],
+  [
+   "Pensá y decidí",
+   12,
+   "V o F: «Si A ⊆ B, el óvalo de A se dibuja separado del de B.»",
+   "FALSO — si A ⊆ B, el óvalo de A se dibuja dentro del de B."
+  ],
+  [
+   "Desafío",
+   13,
+   "Con U = {1, ..., 8}, A = {1,2,3,4} y B = {3,4,5,6}: armá el diagrama, escribí A∩B y A∪B leyéndolos del diagrama, y verificá que las cuatro regiones suman n(U) = 8.",
+   "A∩B = {3, 4} ; A∪B = {1,2,3,4,5,6}. Regiones: solo A {1,2}=2, central {3,4}=2, solo B {5,6}=2, fuera {7,8}=2. Suma: 2+2+2+2 = 8 = n(U). ✓"
+  ]
+ ],
+ "4": [
+  [
+   "Ejercitá",
+   1,
+   "Con A = {1,2,3} y B = {3,4}: calculá A∪B y A∩B.",
+   "A∪B = {1,2,3,4} ; A∩B = {3}."
+  ],
+  [
+   "Ejercitá",
+   2,
+   "Con A = {chipa, mixta, coquito} y B = {mixta, empanada, gaseosa}: calculá A∪B y A∩B.",
+   "A∪B = {chipa, mixta, coquito, empanada, gaseosa} ; A∩B = {mixta}."
+  ],
+  [
+   "Ejercitá",
+   3,
+   "Calculá n(A∪B) con n(A) = 3, n(B) = 3 y n(A∩B) = 1.",
+   "n(A∪B) = 3 + 3 − 1 = 5."
+  ],
+  [
+   "Ejercitá",
+   4,
+   "Indicá qué propiedad se aplica: a) A∪B = B∪A ; b) A∩A = A ; c) A∪∅ = A ; d) A∩U = A.",
+   "a) conmutativa ; b) idempotente ; c) con el vacío (elemento neutro) ; d) con el universal."
+  ],
+  [
+   "Ejercitá",
+   5,
+   "Con A = {1,2,3,4,5} y B = {4,5,6,7}: calculá A∪B, A∩B y verificá n(A∪B) = n(A) + n(B) − n(A∩B).",
+   "A∪B = {1,2,3,4,5,6,7} (n=7) ; A∩B = {4,5} (n=2). 5 + 4 − 2 = 7. ✓"
+  ],
+  [
+   "Ejercitá",
+   6,
+   "Decidí si son disjuntos (sí/no): a) {1,2} y {3,4} ; b) {chipa} y {chipa, mixta}.",
+   "a) sí (intersección vacía) ; b) no ({chipa} es común)."
+  ],
+  [
+   "Resolvé",
+   7,
+   "Los pedidos del lunes: turno mañana A = {chipa, mixta, coquito}, turno siesta B = {mixta, empanada, gaseosa}. Calculá todo lo vendido en el día (A∪B) y lo pedido en ambos turnos (A∩B).",
+   "A∪B = {chipa, mixta, coquito, empanada, gaseosa} (todo lo vendido); A∩B = {mixta} (pedido en los dos turnos)."
+  ],
+  [
+   "Resolvé",
+   8,
+   "Con A y B del ítem anterior y C = {coquito, gaseosa}: calculá (A∩B)∪C y A∩(B∪C).",
+   "A∩B = {mixta}; (A∩B)∪C = {mixta, coquito, gaseosa}. B∪C = {mixta, empanada, gaseosa, coquito}; A∩(B∪C) = {mixta, coquito}."
+  ],
+  [
+   "Resolvé",
+   9,
+   "Verificá con los conjuntos A y B del turno (mañana/siesta) la fórmula n(A∪B) = n(A) + n(B) − n(A∩B) contando los elementos.",
+   "n(A) = 3, n(B) = 3, n(A∩B) = 1, n(A∪B) = 5. 3 + 3 − 1 = 5. ✓"
+  ],
+  [
+   "Pensá y decidí",
+   10,
+   "V o F: «La intersección de dos conjuntos puede tener más elementos que cada uno de ellos.»",
+   "FALSO — la intersección nunca tiene más elementos que el menor de los dos conjuntos."
+  ],
+  [
+   "Pensá y decidí",
+   11,
+   "Elegí y justificá: la propiedad A∪B = B∪A se llama a) idempotente. b) asociativa c) conmutativa.",
+   "c) conmutativa — se puede intercambiar el orden sin cambiar el resultado."
+  ],
+  [
+   "Pensá y decidí",
+   12,
+   "V o F: «Si A ⊆ B, entonces A∩B = A.»",
+   "VERDADERO — si todo A está en B, lo común entre ambos es exactamente A."
+  ],
+  [
+   "Desafío",
+   13,
+   "En una encuesta rápida, 18 clientes piden chipa y 15 piden gaseosa; 8 piden ambas. Usando n(A∪B) = n(A) + n(B) − n(A∩B), calculá cuántos piden al menos una de las dos.",
+   "Al menos una = n(A∪B) = n(A) + n(B) − n(A∩B) = 18 + 15 − 8 = 25 clientes."
+  ]
+ ],
+ "5": [
+  [
+   "Ejercitá",
+   1,
+   "Con A = {1,2,3,4} y B = {3,4,5}: calculá A−B y B−A.",
+   "A−B = {1, 2} ; B−A = {5}."
+  ],
+  [
+   "Ejercitá",
+   2,
+   "Con U = {1,2,3,4,5,6} y A = {2,4,6}: calculá A′.",
+   "A′ = {1, 3, 5}."
+  ],
+  [
+   "Ejercitá",
+   3,
+   "Con A = {chipa, mixta, coquito} y B = {mixta, empanada, gaseosa}: calculá A−B y B−A.",
+   "A−B = {chipa, coquito} ; B−A = {empanada, gaseosa}."
+  ],
+  [
+   "Ejercitá",
+   4,
+   "Con U = {chipa, mixta, empanada, coquito, gaseosa} y A = {chipa, mixta, coquito}: calculá A′.",
+   "A′ = {empanada, gaseosa}."
+  ],
+  [
+   "Ejercitá",
+   5,
+   "Escribí, aplicando De Morgan, (A∪B)′ y (A∩B)′ en función de A′ y B′.",
+   "(A∪B)′ = A′∩B′ ; (A∩B)′ = A′∪B′."
+  ],
+  [
+   "Ejercitá",
+   6,
+   "Encuesta: 30 clientes, 18 chipa, 15 gaseosa, 8 ambas. Calculá solo chipa, solo gaseosa y ninguna, y verificá que sumen 30.",
+   "Centro 8 ; solo chipa 18−8 = 10 ; solo gaseosa 15−8 = 7 ; ninguna 30−(10+8+7) = 5. Control: 10+8+7+5 = 30. ✓"
+  ],
+  [
+   "Resolvé",
+   7,
+   "De 40 clientes del copetín, 22 pagan en efectivo, 25 con QR y 12 usan ambos medios. Calculá solo efectivo, solo QR y ninguno; verificá con el control del universo.",
+   "Ambos 12 ; solo efectivo 22−12 = 10 ; solo QR 25−12 = 13 ; ninguno 40−(10+12+13) = 5. Control: 10+12+13+5 = 40. ✓"
+  ],
+  [
+   "Resolvé",
+   8,
+   "Con U = {1, ..., 10}, A = {1,2,3,4,5} y B = {4,5,6,7}: comprobá con estos conjuntos que (A∩B)′ = A′∪B′.",
+   "A∩B = {4,5}; (A∩B)′ = {1,2,3,6,7,8,9,10}. A′ = {6,7,8,9,10}; B′ = {1,2,3,8,9,10}; A′∪B′ = {1,2,3,6,7,8,9,10}. Coinciden. ✓"
+  ],
+  [
+   "Resolvé",
+   9,
+   "En una sección de 25 estudiantes, 12 juegan fútbol, 10 vóley y 4 ambos. Con un diagrama, calculá cuántos no practican ninguno.",
+   "Ambos 4 ; solo fútbol 12−4 = 8 ; solo vóley 10−4 = 6 ; ninguno 25−(8+4+6) = 7."
+  ],
+  [
+   "Pensá y decidí",
+   10,
+   "V o F: «La diferencia de conjuntos es conmutativa.»",
+   "FALSO — en general A−B ≠ B−A (no es conmutativa)."
+  ],
+  [
+   "Pensá y decidí",
+   11,
+   "V o F: «A∪A′ = U para cualquier conjunto A.»",
+   "VERDADERO — todo elemento de U está en A o en A′, así que su unión es U."
+  ],
+  [
+   "Pensá y decidí",
+   12,
+   "Elegí y justificá: en un problema de Venn conviene completar primero a) solo A b) la intersección c) ni A ni B.",
+   "b) la intersección — se coloca su cardinal en el centro y luego se restan las demás regiones."
+  ],
+  [
+   "Desafío",
+   13,
+   "De 50 clientes: 30 compran chipa, 25 compran cocido y 10 no compran ninguno de los dos. Calculá cuántos compran ambos (pista: los que compran al menos uno son 40) y armá el diagrama con las cuatro regiones.",
+   "Al menos uno = 50 − 10 = 40. Ambos = 30 + 25 − 40 = 15. Solo chipa = 30−15 = 15 ; solo cocido = 25−15 = 10 ; ninguno = 10. Control: 15+15+10+10 = 50. ✓"
+  ]
+ ],
+ "6": [
+  [
+   "Ejercitá",
+   1,
+   "Decidí si cada expresión es proposición (sí/no): a) «Asunción es la capital del Paraguay» ; b) «¿hay chipa?» ; c) «¡qué calor!» ; d) «7 + 3 = 10» ; e) «x + 3 = 10».",
+   "a) sí (V) ; b) no (pregunta) ; c) no (exclamación) ; d) sí (V) ; e) no (abierta)."
+  ],
+  [
+   "Ejercitá",
+   2,
+   "Clasificá las que sean proposición en atómica o molecular: a) «Hay chipa» ; b) «Hay chipa y hay cocido» ; c) «Hoy no hay empanada».",
+   "a) atómica ; b) molecular (conectivo «y») ; c) molecular (negación «no»)."
+  ],
+  [
+   "Ejercitá",
+   3,
+   "Indicá el valor de verdad (V/F): a) «8 es impar» ; b) «El coquito cuesta G. 500» ; c) «5 > 2».",
+   "a) F ; b) V ; c) V."
+  ],
+  [
+   "Ejercitá",
+   4,
+   "Asigná una letra (p, q, r) a cada atómica: «hay chipa», «hay cocido», «hay gaseosa».",
+   "Ej.: p = «hay chipa» ; q = «hay cocido» ; r = «hay gaseosa»."
+  ],
+  [
+   "Ejercitá",
+   5,
+   "Identificá cuáles son proposiciones abiertas: a) «x es par» ; b) «hoy es lunes» ; c) «el producto x está agotado».",
+   "a) abierta ; b) no (es proposición cerrada) ; c) abierta."
+  ],
+  [
+   "Ejercitá",
+   6,
+   "Reescribí como proposición (que se pueda decidir V o F): a) «¿está abierto el copetín?» ; b) «¡apurate!».",
+   "a) «El copetín está abierto» ; b) «Ña Rosa cierra el copetín» (ejemplos verificables)."
+  ],
+  [
+   "Resolvé",
+   7,
+   "Escribí dos proposiciones atómicas sobre el Copetín Karumbé (una V y una F), asignales las letras p y q e indicá sus valores de verdad.",
+   "Ej.: p = «El coquito cuesta G. 500» (V) ; q = «La chipa es gratis» (F)."
+  ],
+  [
+   "Resolvé",
+   8,
+   "Elegí tres carteles del copetín y clasificá cada uno en atómico o molecular, señalando el conectivo cuando lo haya.",
+   "Ej.: «Hay chipa» (atómica) ; «Hay chipa y cocido» (molecular, «y») ; «Hoy no hay gaseosa» (molecular, negación)."
+  ],
+  [
+   "Resolvé",
+   9,
+   "Convertí la pregunta «¿aceptan QR?» en una proposición y decidí su valor de verdad.",
+   "«El copetín acepta pago con QR»; su valor es V (según el dato del caso, sí lo acepta)."
+  ],
+  [
+   "Pensá y decidí",
+   10,
+   "V o F: «Toda oración del idioma es una proposición.»",
+   "FALSO — preguntas, órdenes y exclamaciones no son proposiciones."
+  ],
+  [
+   "Pensá y decidí",
+   11,
+   "V o F: «La negación de una proposición atómica es una proposición molecular.»",
+   "VERDADERO — la negación es un conectivo, así que ¬p es molecular."
+  ],
+  [
+   "Pensá y decidí",
+   12,
+   "Elegí y justificá: «x es un número par» es a) abierta. b) molecular c) atómica.",
+   "a) abierta — contiene la variable x; solo se decide su valor al reemplazarla."
+  ],
+  [
+   "Desafío",
+   13,
+   "Escribí un cartel del copetín que sea una proposición molecular con dos conectivos, identificá las proposiciones atómicas que lo componen y asignales letras.",
+   "Ej.: «Si comprás chipa y pagás con QR, tenés descuento». Atómicas: p = comprás chipa, q = pagás con QR, r = tenés descuento; forma (p ∧ q) → r (dos conectivos: ∧ y →)."
+  ]
+ ],
+ "7": [
+  [
+   "Ejercitá",
+   1,
+   "Con p = V y q = F, calculá: ¬p, p∧q, p∨q, p⊻q, p→q, p↔q.",
+   "¬p = F ; p∧q = F ; p∨q = V ; p⊻q = V ; p→q = F ; p↔q = F."
+  ],
+  [
+   "Ejercitá",
+   2,
+   "Simbolizá: a) «no hay chipa pero hay cocido» (p, q) ; b) «hay chipa o hay mixta» ; c) «si hay harina y hay queso, hay chipa» (p, q, r).",
+   "a) ¬p ∧ q ; b) p ∨ q ; c) (p ∧ q) → r."
+  ],
+  [
+   "Ejercitá",
+   3,
+   "Con p = V, q = F, r = V, evaluá paso a paso: (p∧q) → r.",
+   "(V ∧ F) → V = F → V = V."
+  ],
+  [
+   "Ejercitá",
+   4,
+   "Indicá el conectivo principal de: a) ¬p∧q ; b) (p∨q)→r ; c) ¬(p∧q).",
+   "a) ∧ ; b) → ; c) ¬ (negación)."
+  ],
+  [
+   "Ejercitá",
+   5,
+   "Con p = V, q = V, r = F, evaluá: a) (p∨q)∧r ; b) ¬p→q.",
+   "a) (V∨V)∧F = V∧F = F ; b) ¬V→V = F→V = V."
+  ],
+  [
+   "Ejercitá",
+   6,
+   "Traducí a palabras: p→q con p = «pagás» y q = «te entrego el pedido».",
+   "«Si pagás, entonces te entrego el pedido.»"
+  ],
+  [
+   "Resolvé",
+   7,
+   "Con p = V, q = F y r = V, calculá paso a paso: a) (p∨q)∧r ; b) ¬p→q ; c) (p∧r)↔q.",
+   "a) (V∨F)∧V = V∧V = V ; b) ¬V→F = F→F = V ; c) (V∧V)↔F = V↔F = F."
+  ],
+  [
+   "Resolvé",
+   8,
+   "Simbolizá con letras y conectivos tres reglas del Copetín Karumbé; al menos una debe usar paréntesis (ej.: «si es viernes y hay harina, hay chipa»).",
+   "Ej.: p→q = «si es viernes, hay chipa»; (p∧q)→r = «si es viernes y hay harina, hay chipa»; p∨q = «hay chipa o hay mixta»."
+  ],
+  [
+   "Resolvé",
+   9,
+   "La promesa de Ña Rosa: p = «comprás dos chipas», q = «te regalo un cocido». Escribí p→q y explicá en qué único caso la promesa se rompe (es F).",
+   "p→q: solo se rompe (F) si comprás dos chipas (p=V) y no te regala el cocido (q=F). En los demás casos la promesa se mantiene (V)."
+  ],
+  [
+   "Pensá y decidí",
+   10,
+   "V o F: «La conjunción p∧q es verdadera si al menos una de las dos es verdadera.»",
+   "FALSO — la conjunción es V solo si las DOS son verdaderas; basta una falsa para que sea F."
+  ],
+  [
+   "Pensá y decidí",
+   11,
+   "V o F: «Con p = F, el condicional p→q es verdadero sin importar q.»",
+   "VERDADERO — si p es F, p→q es V en toda la fila (solo es F con p=V y q=F)."
+  ],
+  [
+   "Pensá y decidí",
+   12,
+   "Elegí y justificá: el único caso en que p→q es F es cuando a) p=V, q=V b) p=V, q=F c) p=F, q=V.",
+   "b) p=V, q=F — es la única fila donde el condicional da F."
+  ],
+  [
+   "Desafío",
+   13,
+   "Simbolizá la regla «hay descuento si pagás con QR y comprás antes de las 9» como (p∧q)→r, y evaluala con p=V, q=V, r=V y con p=V, q=F, r=F. Indicá en qué caso la promesa NO se cumple.",
+   "Con p=V, q=V, r=V: (V∧V)→V = V→V = V (se cumple). Con p=V, q=F, r=F: (V∧F)→F = F→F = V (también se cumple, porque el antecedente es falso). La promesa NO se cumple solo si p=V, q=V y r=F, es decir, se cumple la condición pero no hay descuento."
+  ]
+ ],
+ "8": [
+  [
+   "Ejercitá",
+   1,
+   "Indicá cuántas filas tiene una tabla de: a) 1 variable ; b) 2 variables ; c) 3 variables.",
+   "a) 2 filas ; b) 4 filas ; c) 8 filas (2ⁿ)."
+  ],
+  [
+   "Ejercitá",
+   2,
+   "Escribí el orden estándar de las 4 filas de p y q.",
+   "VV, VF, FV, FF (la primera de a mitades, la segunda de a una)."
+  ],
+  [
+   "Ejercitá",
+   3,
+   "Construí la tabla de verdad de ¬(p∧q).",
+   "p∧q: V,F,F,F → ¬(p∧q): F,V,V,V."
+  ],
+  [
+   "Ejercitá",
+   4,
+   "Construí la tabla de ¬p∨q e indicá con qué conectivo conocido coincide su columna final.",
+   "¬p: F,F,V,V → ¬p∨q: V,F,V,V. Coincide con p→q."
+  ],
+  [
+   "Ejercitá",
+   5,
+   "Construí la tabla de p⊻q (disyunción exclusiva).",
+   "p⊻q: F,V,V,F (V solo cuando los valores difieren)."
+  ],
+  [
+   "Ejercitá",
+   6,
+   "Para la fórmula (p∨q)∧¬p, indicá qué columnas intermedias hay que construir antes del resultado final.",
+   "Columnas: p, q, ¬p, (p∨q) y por último (p∨q)∧¬p."
+  ],
+  [
+   "Resolvé",
+   7,
+   "Construí la tabla de verdad completa de (p∨q)∧¬p e indicá en qué casos es verdadera.",
+   "p∨q: V,V,V,F ; ¬p: F,F,V,V ; (p∨q)∧¬p: F,F,V,F. Es verdadera solo en la fila F,V (p=F, q=V)."
+  ],
+  [
+   "Resolvé",
+   8,
+   "Ña Rosa promete: «hay descuento si comprás chipa o comprás cocido». Construí la tabla de p∨q y explicá en qué única situación de compra el descuento no está prometido.",
+   "p∨q: V,V,V,F. La única situación sin descuento prometido es cuando no compra chipa ni cocido (p=F y q=F): el descuento no aplica."
+  ],
+  [
+   "Resolvé",
+   9,
+   "Construí la tabla de p→q y compará su columna con la de ¬p∨q: ¿coinciden?",
+   "p→q: V,F,V,V ; ¬p∨q: V,F,V,V. Sí, coinciden: son equivalentes."
+  ],
+  [
+   "Pensá y decidí",
+   10,
+   "V o F: «Una tabla de dos variables con tres filas puede estar bien construida.»",
+   "FALSO — con 2 variables la tabla debe tener 2² = 4 filas; con 3 faltaría una combinación."
+  ],
+  [
+   "Pensá y decidí",
+   11,
+   "V o F: «La fórmula p∨¬q es falsa únicamente cuando p = F y q = V.»",
+   "VERDADERO — p∨¬q es F solo cuando p=F y ¬q=F, es decir p=F y q=V; es la única fila (F∨F = F)."
+  ],
+  [
+   "Pensá y decidí",
+   12,
+   "Elegí y justificá: al evaluar una fórmula, lo primero que se resuelve es a) los paréntesis y las negaciones. b) el conectivo principal.",
+   "a) los paréntesis y las negaciones — se resuelve de adentro hacia afuera."
+  ],
+  [
+   "Desafío",
+   13,
+   "Construí la tabla de (p→q)∧(q→p) e indicá con qué conectivo simple coincide su columna final. Justificá el nombre de ese conectivo.",
+   "(p→q): V,F,V,V ; (q→p): V,V,F,V ; conjunción: V,F,F,V. Coincide con p↔q (bicondicional): es V cuando p y q tienen el mismo valor. Por eso «p si y solo si q» equivale a «(p→q) y (q→p)»."
+  ]
+ ],
+ "9": [
+  [
+   "Ejercitá",
+   1,
+   "Indicá cuántas filas tiene la tabla de 3 variables y escribí el orden estándar de p, q, r.",
+   "8 filas. Orden: p (VVVV FFFF), q (VVFF VVFF), r (VFVF VFVF)."
+  ],
+  [
+   "Ejercitá",
+   2,
+   "Construí la tabla de (p∧q)→p e indicá su clase (tautología, contradicción o indeterminación).",
+   "p∧q: V,F,F,F ; (p∧q)→p: V,V,V,V → tautología."
+  ],
+  [
+   "Ejercitá",
+   3,
+   "Construí la tabla de p∨¬p e indicá su clase.",
+   "p∨¬p: V,V → tautología (siempre V)."
+  ],
+  [
+   "Ejercitá",
+   4,
+   "Construí la tabla de p∧¬p e indicá su clase.",
+   "p∧¬p: F,F → contradicción (siempre F)."
+  ],
+  [
+   "Ejercitá",
+   5,
+   "Clasificá según la columna final dada: a) V,V,V,V ; b) F,F,F,F ; c) V,F,V,F.",
+   "a) tautología ; b) contradicción ; c) indeterminación."
+  ],
+  [
+   "Ejercitá",
+   6,
+   "Construí la tabla de p→(p∨q) e indicá su clase.",
+   "p∨q: V,V,V,F ; p→(p∨q): V,V,V,V → tautología."
+  ],
+  [
+   "Resolvé",
+   7,
+   "Construí la tabla completa (8 filas) de (p∧q)→r e indicá las filas en que resulta falsa.",
+   "(p∧q) es V solo en las filas VV_ (r cualquiera). (p∧q)→r es F únicamente cuando p=V, q=V y r=F (fila 2 del orden estándar). En las otras 7 filas es V."
+  ],
+  [
+   "Resolvé",
+   8,
+   "Clasificá la fórmula (p→q)∨p construyendo su tabla, y explicá qué significa el resultado.",
+   "p→q: V,F,V,V ; (p→q)∨p: V,V,V,V → tautología. Significa que la fórmula es siempre verdadera: no filtra ningún caso."
+  ],
+  [
+   "Resolvé",
+   9,
+   "Ña Rosa configura por error un descuento como «pago QR y pago en efectivo» sobre el mismo ticket (p∧¬p). Construí la tabla y explicá por qué ese descuento nunca se aplica.",
+   "p∧¬p: siempre F (F,F). Como la condición nunca es verdadera, el descuento no se aplica en ningún ticket: es una contradicción, un error de diseño."
+  ],
+  [
+   "Pensá y decidí",
+   10,
+   "V o F: «Una fórmula puede ser tautología y contradicción a la vez.»",
+   "FALSO — o es siempre V (tautología) o siempre F (contradicción): no las dos."
+  ],
+  [
+   "Pensá y decidí",
+   11,
+   "V o F: «Para clasificar una fórmula alcanza con probar una sola fila.»",
+   "FALSO — hay que revisar TODAS las filas de la tabla para clasificarla."
+  ],
+  [
+   "Pensá y decidí",
+   12,
+   "Elegí y justificá: si la columna final es F, F, F, F, la fórmula es a) tautología b) indeterminación. c) contradicción.",
+   "c) contradicción — es falsa en todas las combinaciones."
+  ],
+  [
+   "Desafío",
+   13,
+   "Construí la tabla de 8 filas de (p→q)∧(q→r) e indicá si, en todas las filas donde las dos partes son verdaderas, también resulta verdadero p→r (silogismo hipotético).",
+   "En las filas donde (p→q) y (q→r) son ambas V, siempre resulta p→r verdadero (no hay contraejemplo): la conjunción (p→q)∧(q→r) → (p→r) es tautología, lo que valida el silogismo hipotético."
+  ]
+ ],
+ "10": [
+  [
+   "Ejercitá",
+   1,
+   "Aplicá De Morgan: escribí la equivalente de ¬(p∧q) y de ¬(p∨q).",
+   "¬(p∧q) ≡ ¬p∨¬q ; ¬(p∨q) ≡ ¬p∧¬q."
+  ],
+  [
+   "Ejercitá",
+   2,
+   "Simplificá aplicando doble negación: ¬(¬p).",
+   "¬(¬p) ≡ p."
+  ],
+  [
+   "Ejercitá",
+   3,
+   "Con las premisas p (V) y q (V), aplicá adjunción: escribí la conclusión.",
+   "p ∧ q (de dos verdades separadas se forma la conjunción verdadera)."
+  ],
+  [
+   "Ejercitá",
+   4,
+   "De p∧q (V) aplicá simplificación: escribí las dos conclusiones posibles.",
+   "p ; q (de la conjunción verdadera se extrae cada parte)."
+  ],
+  [
+   "Ejercitá",
+   5,
+   "Verificá comparando columnas que ¬p∨q ≡ p→q.",
+   "¬p∨q: V,F,V,V ; p→q: V,F,V,V → columnas iguales, son equivalentes."
+  ],
+  [
+   "Ejercitá",
+   6,
+   "Negá con De Morgan: «hay chipa y hay cocido».",
+   "¬p ∨ ¬q: «no hay chipa o no hay cocido» (falta al menos uno)."
+  ],
+  [
+   "Resolvé",
+   7,
+   "Verificá con tablas de verdad que ¬(p∨q) ≡ ¬p∧¬q.",
+   "¬(p∨q): p∨q = V,V,V,F → F,F,F,V. ¬p∧¬q: (F,F,V,V)∧(F,V,F,V) = F,F,F,V. Columnas iguales. ✓"
+  ],
+  [
+   "Resolvé",
+   8,
+   "El sistema del copetín rechaza un pedido cuando NO se cumple «hay stock y el pago fue aprobado». Escribí la condición de rechazo aplicando De Morgan y explicala en palabras.",
+   "Rechazo = ¬(stock ∧ pagoAprobado) ≡ ¬stock ∨ ¬pagoAprobado: se rechaza si no hay stock o el pago no fue aprobado (basta que falle uno)."
+  ],
+  [
+   "Resolvé",
+   9,
+   "Negá correctamente el cartel «hay chipa y hay cocido» y explicá por qué «no hay chipa y no hay cocido» sería un error.",
+   "Negación correcta: «no hay chipa o no hay cocido» (¬p∨¬q). «No hay chipa y no hay cocido» sería ¬(p∨q), que niega otra cosa (que no haya ninguno de los dos)."
+  ],
+  [
+   "Pensá y decidí",
+   10,
+   "V o F: «¬(p∧q) es equivalente a ¬p∧¬q.»",
+   "FALSO — ¬(p∧q) ≡ ¬p ∨ ¬q (disyunción), no conjunción."
+  ],
+  [
+   "Pensá y decidí",
+   11,
+   "V o F: «p→q es equivalente a ¬p∨q.»",
+   "VERDADERO — es una equivalencia clásica, verificable por tablas."
+  ],
+  [
+   "Pensá y decidí",
+   12,
+   "Elegí y justificá: de p∧q se concluye q por a) simplificación b) adjunción c) De Morgan.",
+   "a) simplificación — de una conjunción verdadera se extrae cada componente."
+  ],
+  [
+   "Desafío",
+   13,
+   "Un buscador de stock debe mostrar los productos que NO están «disponibles y con precio cargado». Escribí la condición con De Morgan, verificala con una tabla y explicá qué productos mostrará el buscador.",
+   "Condición: ¬(disponible ∧ precioCargado) ≡ ¬disponible ∨ ¬precioCargado. Tabla (V,F,F,F para «disponible ∧ precioCargado» → negada F,V,V,V). Mostrará los productos que no están disponibles O que no tienen precio cargado (basta que falle una de las dos condiciones)."
+  ]
+ ],
+ "11": [
+  [
+   "Ejercitá",
+   1,
+   "Sobre A = {2, 4, 6, 8}, decidí el valor de: a) ∀x: x es par ; b) ∃x: x > 7 ; c) ∀x: x > 3.",
+   "a) V (todos pares) ; b) V (el 8 > 7) ; c) V (todos > 3)."
+  ],
+  [
+   "Ejercitá",
+   2,
+   "Sobre el menú M con los precios del día, decidí el valor de ∃x: «x cuesta G. 500».",
+   "V — el coquito cuesta G. 500 (existe al menos uno)."
+  ],
+  [
+   "Ejercitá",
+   3,
+   "Negá: a) ∀x: p(x) ; b) ∃x: p(x).",
+   "a) ∃x: ¬p(x) ; b) ∀x: ¬p(x)."
+  ],
+  [
+   "Ejercitá",
+   4,
+   "Sobre D = {1, 2, 3, 4, 5}, evaluá: a) ∀x: x + 1 ≤ 6 ; b) ∃x: x² = 9 ; c) ∀x: x es par.",
+   "a) V (el mayor es 5, 5+1=6 ≤ 6) ; b) V (x = 3, 3² = 9) ; c) F (contraejemplo: 1 no es par)."
+  ],
+  [
+   "Ejercitá",
+   5,
+   "Escribí con ∀ o ∃: a) «todos los productos tienen precio» ; b) «existe un producto de G. 500».",
+   "a) ∀x: x tiene precio ; b) ∃x: x cuesta G. 500."
+  ],
+  [
+   "Ejercitá",
+   6,
+   "Dado el «para todo» falso ∀x ∈ {2, 4, 5, 6}: x es par, indicá el contraejemplo.",
+   "El 5 (no es par) es el contraejemplo."
+  ],
+  [
+   "Resolvé",
+   7,
+   "Sobre M = {chipa, mixta, empanada, coquito, gaseosa}: evaluá ∀x: «x es frito» y dá el contraejemplo si resulta falsa.",
+   "∀x: «x es frito» es F. Contraejemplo: la gaseosa (no es frita)."
+  ],
+  [
+   "Resolvé",
+   8,
+   "Escribí con símbolos y negá correctamente: «todos los productos del menú tienen precio cargado».",
+   "∀x: x tiene precio cargado. Negación: ∃x: x NO tiene precio cargado («existe un producto sin precio»)."
+  ],
+  [
+   "Resolvé",
+   9,
+   "Ña Rosa afirma: «existe al menos un producto que cuesta menos de G. 1.000». Sobre el menú con el coquito a G. 500, decidí el valor y justificá exhibiendo el ejemplo.",
+   "V — basta exhibir un ejemplo: el coquito cuesta G. 500 < G. 1.000."
+  ],
+  [
+   "Pensá y decidí",
+   10,
+   "V o F: «Una proposición universal falsa puede tener un solo contraejemplo.»",
+   "VERDADERO — un solo contraejemplo basta para que un «para todo» sea falso."
+  ],
+  [
+   "Pensá y decidí",
+   11,
+   "V o F: «∃x: p(x) es falsa cuando ningún elemento del conjunto cumple p(x).»",
+   "VERDADERO — si ningún elemento cumple la propiedad, la existencial es falsa."
+  ],
+  [
+   "Pensá y decidí",
+   12,
+   "Elegí y justificá: para demostrar que ∃x: p(x) es verdadera alcanza con a) revisar todos los elementos b) exhibir un ejemplo que cumpla c) hallar un contraejemplo.",
+   "b) exhibir un ejemplo que cumpla — con uno alcanza para la existencial."
+  ],
+  [
+   "Desafío",
+   13,
+   "Sobre el menú, escribí una proposición universal verdadera, una universal falsa (con su contraejemplo) y una existencial verdadera, todas sobre precios. Después negá la universal verdadera y decidí el valor de la negación.",
+   "Ej.: universal V: ∀x: «x tiene precio mayor a G. 0». Universal F: ∀x: «x cuesta menos de G. 1.000» (contraejemplo: la gaseosa, más cara). Existencial V: ∃x: «x cuesta G. 500» (el coquito). Negación de la universal V: ∃x: «x tiene precio menor o igual a G. 0» (precio ≤ 0), cuyo valor es F en los datos del ejercicio."
+  ]
+ ],
+ "12": [
+  [
+   "Ejercitá",
+   1,
+   "Identificá la regla: de p→q y p se concluye ______.",
+   "q — por Modus Ponendo Ponens (MPP)."
+  ],
+  [
+   "Ejercitá",
+   2,
+   "Identificá la regla: de p→q y ¬q se concluye ______.",
+   "¬p — por Modus Tollendo Tollens (MTT)."
+  ],
+  [
+   "Ejercitá",
+   3,
+   "Identificá la regla: de p∨q y ¬p se concluye ______.",
+   "q — por Modus Tollendo Ponens (MTP)."
+  ],
+  [
+   "Ejercitá",
+   4,
+   "Concluí e indicá la regla: de p→q y q→r se concluye ______.",
+   "p→r — por silogismo hipotético."
+  ],
+  [
+   "Ejercitá",
+   5,
+   "Clasificá en deductivo o inductivo: «probé tres chipas de Ña Rosa y estaban ricas; todas sus chipas son ricas».",
+   "Inductivo — generaliza a partir de casos observados (conclusión probable, no segura)."
+  ],
+  [
+   "Ejercitá",
+   6,
+   "Simbolizá y concluí: «si pagás, te entrego el pedido; pagaste».",
+   "p→q, p ⊢ q (MPP): «te entrego el pedido»."
+  ],
+  [
+   "Resolvé",
+   7,
+   "Simbolizá y resolvé indicando la regla: «Si el cliente paga con QR, el sistema emite el comprobante. El sistema no emitió el comprobante. ¿Qué se concluye?»",
+   "p = paga con QR, q = emite comprobante. Premisas: p→q y ¬q. Por MTT se concluye ¬p: «el cliente no pagó con QR»."
+  ],
+  [
+   "Resolvé",
+   8,
+   "Construí una deducción de dos pasos con las premisas: 1) p→q ; 2) q→r ; 3) p. Indicá la regla usada en cada paso y la conclusión final.",
+   "Paso 1: de p→q y p, por MPP, se concluye q. Paso 2: de q→r y q, por MPP, se concluye r. Conclusión final: r."
+  ],
+  [
+   "Resolvé",
+   9,
+   "«Si es viernes, hay chipa. Hoy no hay chipa.» Simbolizá, concluí e indicá la regla; explicá por qué de p→q y q NO se concluye p.",
+   "p = es viernes, q = hay chipa. Premisas: p→q y ¬q. Por MTT: ¬p («hoy no es viernes»). De p→q y q no se concluye p porque Ña Rosa también hornea otros días: que haya chipa no prueba que sea viernes."
+  ],
+  [
+   "Pensá y decidí",
+   10,
+   "V o F: «De p→q y q se concluye válidamente p.»",
+   "FALSO — es el error de afirmar el consecuente; no es una regla válida."
+  ],
+  [
+   "Pensá y decidí",
+   11,
+   "V o F: «El MTP (Modus Tollendo Ponens) necesita una disyunción entre sus premisas.»",
+   "VERDADERO — el MTP parte de una disyunción p∨q y de la negación de una parte."
+  ],
+  [
+   "Pensá y decidí",
+   12,
+   "Elegí y justificá: de «si llueve, la clase es virtual» y «llueve» se concluye «la clase es virtual» por a) MTT b) MTP. c) MPP.",
+   "c) MPP — afirma el antecedente («llueve») y concluye el consecuente."
+  ],
+  [
+   "Desafío",
+   13,
+   "Encadená un razonamiento con tres premisas del copetín usando silogismo hipotético y MPP, simbolizá cada paso e indicá la conclusión final y las reglas aplicadas.",
+   "Ej.: 1) «si es viernes, hay chipa» (p→q) ; 2) «si hay chipa, hay cola» (q→r) ; 3) «es viernes» (p). Por silogismo hipotético (1,2): p→r. Por MPP (p→r, p): r («hay cola»). Conclusión: hay cola."
+  ]
+ ],
+ "13": [
+  [
+   "Ejercitá",
+   1,
+   "Clasificá en cualitativo o cuantitativo: a) la receta de la chipa ; b) calcular el vuelto ; c) abrir el local ; d) promediar las ventas de la semana.",
+   "a) cualitativo ; b) cuantitativo ; c) cualitativo ; d) cuantitativo."
+  ],
+  [
+   "Ejercitá",
+   2,
+   "Indicá qué característica viola: a) «cobrá más o menos G. 5.000» ; b) «repetí para siempre» ; c) «elegí un descuento al azar».",
+   "a) precisión ; b) finitud ; c) definición (misma entrada, distinto resultado)."
+  ],
+  [
+   "Ejercitá",
+   3,
+   "Para «calcular el vuelto», identificá entrada, proceso y salida.",
+   "Entrada: total de la compra y monto pagado. Proceso: pago − total. Salida: el vuelto."
+  ],
+  [
+   "Ejercitá",
+   4,
+   "Ordená las tres etapas de resolución de un problema: prueba, análisis, diseño.",
+   "1) análisis ; 2) diseño ; 3) prueba."
+  ],
+  [
+   "Ejercitá",
+   5,
+   "Decidí si es algoritmo (sí/no) y por qué: «agregá sal a gusto y serví».",
+   "No — «a gusto» es ambiguo: viola la precisión."
+  ],
+  [
+   "Ejercitá",
+   6,
+   "Escribí los pasos (3 a 4) de un algoritmo cualitativo para «preparar el mostrador del copetín antes de abrir».",
+   "Ej.: 1) limpiar y despejar el mostrador ; 2) colocar servilletas y utensilios ; 3) ordenar los productos o carteles del día ; 4) verificar que la caja y la lista de precios estén listas."
+  ],
+  [
+   "Resolvé",
+   7,
+   "Escribí un algoritmo cualitativo de 4 a 6 pasos para «cerrar el copetín al final del día»; verificá que cada paso sea preciso.",
+   "Ej.: 1) apagar el horno ; 2) contar la caja ; 3) guardar el dinero ; 4) limpiar el mostrador ; 5) bajar la persiana ; 6) cerrar con llave. Cada paso es preciso y verificable."
+  ],
+  [
+   "Resolvé",
+   8,
+   "Para el problema «calcular cuánto gastó un cliente que lleva 3 chipas de G. 4.000 cada una», identificá datos de entrada, proceso y salida, y dá el resultado.",
+   "Entrada: precio (4.000) y cantidad (3). Proceso: 4.000 × 3. Salida: G. 12.000."
+  ],
+  [
+   "Resolvé",
+   9,
+   "Escribí un algoritmo cuantitativo (pasos numerados) para «calcular el total de una compra de dos productos» e indicá su tipo.",
+   "Ej.: 1) leer precio1 ; 2) leer precio2 ; 3) total ← precio1 + precio2 ; 4) escribir total. Es cuantitativo (opera con números)."
+  ],
+  [
+   "Pensá y decidí",
+   10,
+   "V o F: «Un algoritmo puede no terminar nunca.»",
+   "FALSO — todo algoritmo debe ser finito: termina en una cantidad limitada de pasos."
+  ],
+  [
+   "Pensá y decidí",
+   11,
+   "V o F: «Con la misma entrada, un algoritmo definido puede dar resultados distintos.»",
+   "FALSO — un algoritmo definido da siempre el mismo resultado con la misma entrada."
+  ],
+  [
+   "Pensá y decidí",
+   12,
+   "Elegí y justificá: «calcular el promedio de las ventas de la semana» es un algoritmo a) cualitativo b) cuantitativo.",
+   "b) cuantitativo — realiza cálculos numéricos (suma y división)."
+  ],
+  [
+   "Desafío",
+   13,
+   "Escribí dos algoritmos de la misma mañana del copetín: uno cualitativo y uno cuantitativo, con pasos numerados, y justificá por qué cada uno pertenece a su tipo.",
+   "Cualitativo — «Preparar el mostrador»: 1) limpiar y despejar la superficie ; 2) colocar servilletas y utensilios ; 3) ordenar los carteles del día ; 4) verificar que la caja esté lista (sin cálculos). Cuantitativo — «Calcular el vuelto»: 1) leer total ; 2) leer pago ; 3) vuelto ← pago − total ; 4) escribir vuelto (opera con números)."
+  ]
+ ],
+ "14": [
+  [
+   "Ejercitá",
+   1,
+   "Indicá la palabra clave de pseudocódigo para: ingresar un dato, mostrar un resultado, iniciar y terminar el algoritmo.",
+   "Leer (ingresar), Escribir (mostrar), Inicio (iniciar), Fin (terminar)."
+  ],
+  [
+   "Ejercitá",
+   2,
+   "Asigná el símbolo del diagrama (óvalo / paralelogramo / rectángulo / rombo) a: leer, calcular, decidir, iniciar.",
+   "leer → paralelogramo ; calcular → rectángulo ; decidir → rombo ; iniciar → óvalo."
+  ],
+  [
+   "Ejercitá",
+   3,
+   "Escribí en pseudocódigo un algoritmo que lea un precio y lo muestre.",
+   "Inicio / Leer precio / Escribir precio / Fin."
+  ],
+  [
+   "Ejercitá",
+   4,
+   "Traducí a símbolos del diagrama cada línea del algoritmo del vuelto: Inicio, Leer total, Leer pago, vuelto ← pago − total, Escribir vuelto, Fin.",
+   "Inicio → óvalo ; Leer total → paralelogramo ; Leer pago → paralelogramo ; asignación → rectángulo ; Escribir vuelto → paralelogramo ; Fin → óvalo."
+  ],
+  [
+   "Ejercitá",
+   5,
+   "Escribí en pseudocódigo un algoritmo que lea el precio de una docena y escriba el precio de una chipa (precio ÷ 12).",
+   "Inicio / Leer precioDocena / precioUno ← precioDocena / 12 / Escribir precioUno / Fin."
+  ],
+  [
+   "Ejercitá",
+   6,
+   "Corregí el error: un algoritmo que empieza con «Leer» sin «Inicio». Escribilo bien.",
+   "Inicio / Leer dato / ... (todo algoritmo debe empezar con Inicio y cerrar con Fin)."
+  ],
+  [
+   "Resolvé",
+   7,
+   "Escribí en pseudocódigo un algoritmo que lea el precio de una docena de chipas y escriba el precio de una sola (precio ÷ 12). Probalo con precio = 48.000.",
+   "Inicio / Leer precio / unidad ← precio / 12 / Escribir unidad / Fin. Con precio = 48.000: 48.000 / 12 = 4.000."
+  ],
+  [
+   "Resolvé",
+   8,
+   "Indicá qué símbolo del diagrama corresponde a cada línea del algoritmo del vuelto (los seis pasos: Inicio, Leer total, Leer pago, asignación, Escribir vuelto, Fin).",
+   "Inicio → óvalo ; Leer total → paralelogramo ; Leer pago → paralelogramo ; vuelto ← pago − total → rectángulo ; Escribir vuelto → paralelogramo ; Fin → óvalo."
+  ],
+  [
+   "Resolvé",
+   9,
+   "Escribí el pseudocódigo del vuelto (Leer total, Leer pago, vuelto ← pago − total, Escribir vuelto) y probalo con total = 12.000 y pago = 20.000.",
+   "Inicio / Leer total / Leer pago / vuelto ← pago − total / Escribir vuelto / Fin. Con total = 12.000 y pago = 20.000: vuelto = 8.000."
+  ],
+  [
+   "Pensá y decidí",
+   10,
+   "V o F: «El símbolo de decisión tiene una sola salida.»",
+   "FALSO — el rombo de decisión tiene dos salidas: Sí y No."
+  ],
+  [
+   "Pensá y decidí",
+   11,
+   "V o F: «El pseudocódigo exige la sintaxis exacta de un lenguaje de programación.»",
+   "FALSO — el pseudocódigo usa palabras clave, pero no la sintaxis estricta de un lenguaje."
+  ],
+  [
+   "Pensá y decidí",
+   12,
+   "Elegí y justificá: los cálculos en el diagrama de flujo se representan con a) un óvalo b) un rombo c) un rectángulo.",
+   "c) un rectángulo — el rectángulo representa procesos (cálculos y asignaciones)."
+  ],
+  [
+   "Desafío",
+   13,
+   "Escribí en pseudocódigo un algoritmo que lea dos precios y escriba el total; describí su diagrama de flujo completo con los símbolos correctos y probalo con 4.000 y 6.000.",
+   "Inicio / Leer precio1 / Leer precio2 / total ← precio1 + precio2 / Escribir total / Fin. Diagrama: óvalo (Inicio) → paralelogramo (Leer precio1) → paralelogramo (Leer precio2) → rectángulo (suma) → paralelogramo (Escribir total) → óvalo (Fin). Con 4.000 y 6.000: total = 10.000."
+  ]
+ ],
+ "15": [
+  [
+   "Ejercitá",
+   1,
+   "Evaluá con jerarquía: a) 2 + 3 * 4 ; b) (2 + 3) * 4 ; c) 5 + 3 * 2 ; d) (5 + 3) * 2.",
+   "a) 14 ; b) 20 ; c) 11 ; d) 16."
+  ],
+  [
+   "Ejercitá",
+   2,
+   "Evaluá las relacionales (V/F): a) 5.000 > 3.000 ; b) 10 < 7 ; c) 8 >= 8 ; d) 9 <> 9.",
+   "a) V ; b) F ; c) V ; d) F."
+  ],
+  [
+   "Ejercitá",
+   3,
+   "Con precio = 4.000 y cantidad = 3, evaluá total ← precio * cantidad + 2.000.",
+   "4.000 * 3 = 12.000 ; 12.000 + 2.000 = 14.000."
+  ],
+  [
+   "Ejercitá",
+   4,
+   "Con a = 10 y b = 4, evaluá (a > 5) Y (b > 5).",
+   "(V) Y (F) = F (b = 4 no es > 5)."
+  ],
+  [
+   "Ejercitá",
+   5,
+   "Evaluá la expresión lógica: (5 > 3) O (2 > 8).",
+   "(V) O (F) = V."
+  ],
+  [
+   "Ejercitá",
+   6,
+   "Clasificá el tipo de dato: a) 4.000 ; b) «chipa» ; c) V.",
+   "a) numérico ; b) texto (cadena) ; c) lógico."
+  ],
+  [
+   "Resolvé",
+   7,
+   "Evaluá paso a paso, con precio = 5.000 y cantidad = 4: a) precio * cantidad − 3.000 ; b) precio * (cantidad − 3) ; c) (precio * cantidad > 15.000) Y (cantidad <= 4).",
+   "a) 5.000 * 4 = 20.000 ; 20.000 − 3.000 = 17.000. b) (4 − 3) = 1 ; 5.000 * 1 = 5.000. c) 5.000 * 4 = 20.000 > 15.000 (V) Y 4 <= 4 (V) = V."
+  ],
+  [
+   "Resolvé",
+   8,
+   "Escribí una expresión lógica que sea V cuando un cliente compra 2 o más chipas Y paga con QR, usando las variables cantidadChipas y medioPago.",
+   "(cantidadChipas >= 2) Y (medioPago = «QR»)."
+  ],
+  [
+   "Resolvé",
+   9,
+   "Con precio = 4.000 y cantidad = 3, calculá total ← precio * cantidad + 2.000 y evaluá (total > 10.000) Y (cantidad < 5).",
+   "total = 4.000 * 3 + 2.000 = 14.000 ; (14.000 > 10.000) Y (3 < 5) = V Y V = V."
+  ],
+  [
+   "Pensá y decidí",
+   10,
+   "V o F: «Las expresiones se evalúan siempre de izquierda a derecha, sin excepciones.»",
+   "FALSO — primero paréntesis, luego * y /, después + y −."
+  ],
+  [
+   "Pensá y decidí",
+   11,
+   "V o F: «La expresión (5 > 3) O (2 > 8) vale F.»",
+   "FALSO — (5 > 3) es V, así que la disyunción vale V."
+  ],
+  [
+   "Pensá y decidí",
+   12,
+   "Elegí y justificá: 2 + 3 * 4 vale a) 14 b) 24. c) 20.",
+   "a) 14 — la multiplicación va primero: 3 * 4 = 12 ; 2 + 12 = 14."
+  ],
+  [
+   "Desafío",
+   13,
+   "Escribí la fórmula del «precio con IVA 10 % incluido» como base + base * 10 / 100, evaluala con base = 20.000 respetando la jerarquía, y mostrá con paréntesis cómo cambiaría el resultado si se sumara antes de multiplicar.",
+   "base + base * 10 / 100 con base = 20.000: primero 20.000 * 10 = 200.000 ; / 100 = 2.000 ; + 20.000 = 22.000. Con paréntesis (base + base) * 10 / 100 = 40.000 * 10 / 100 = 4.000: el resultado cambia por completo, por eso la jerarquía importa."
+  ]
+ ],
+ "16": [
+  [
+   "Ejercitá",
+   1,
+   "Ejecutá: x ← 5 ; x ← x + 2. ¿Cuánto vale x?",
+   "x = 7."
+  ],
+  [
+   "Ejercitá",
+   2,
+   "Ejecutá: a ← 10 ; b ← 4 ; a ← a − b. ¿Cuánto valen a y b?",
+   "a = 6 ; b = 4 (b no cambia)."
+  ],
+  [
+   "Ejercitá",
+   3,
+   "Escribí en pseudocódigo un algoritmo que lea dos precios y escriba su suma.",
+   "Inicio / Leer p1 / Leer p2 / suma ← p1 + p2 / Escribir suma / Fin."
+  ],
+  [
+   "Ejercitá",
+   4,
+   "Indicá qué enunciado es cada uno: Leer total / total ← precio * cant / Escribir total / Fin.",
+   "Leer total → lectura ; total ← precio * cant → asignación ; Escribir total → escritura ; Fin → terminación."
+  ],
+  [
+   "Ejercitá",
+   5,
+   "Ejecutá y decí qué se escribe: c ← 0 ; c ← c + 1 ; c ← c + 1 ; Escribir c.",
+   "c = 2."
+  ],
+  [
+   "Ejercitá",
+   6,
+   "Hacé las dos primeras filas de la prueba de escritorio del vuelto (precioChipa = 4.000, cantidad = 3) con las columnas de cada variable.",
+   "Leer precioChipa: 4.000, resto —. Leer cantidad: 4.000, 3, resto —."
+  ],
+  [
+   "Resolvé",
+   7,
+   "Escribí un algoritmo que lea los precios de tres productos y escriba el total de la compra. Hacé la prueba de escritorio con 4.000, 6.000 y 2.500.",
+   "Inicio / Leer p1 / Leer p2 / Leer p3 / total ← p1 + p2 + p3 / Escribir total / Fin. Prueba: total = 4.000 + 6.000 + 2.500 = 12.500."
+  ],
+  [
+   "Resolvé",
+   8,
+   "Hacé la prueba de escritorio de: Inicio / a ← 10 / b ← 4 / a ← a − b / b ← a + b / Escribir a, b / Fin. ¿Qué valores se escriben?",
+   "a ← 10 (a=10) ; b ← 4 (b=4) ; a ← a − b (a=6) ; b ← a + b (b=6+4=10) ; Escribir a, b → 6 y 10."
+  ],
+  [
+   "Resolvé",
+   9,
+   "Escribí el algoritmo de «la compra completa» (Leer precioChipa, cantidad, pago ; total ← precioChipa * cantidad ; vuelto ← pago − total ; Escribir total, vuelto) y probalo con 4.000, 3 y 20.000.",
+   "total = 4.000 * 3 = 12.000 ; vuelto = 20.000 − 12.000 = 8.000. Se escriben total = 12.000 y vuelto = 8.000."
+  ],
+  [
+   "Pensá y decidí",
+   10,
+   "V o F: «total ← total + 500 es un enunciado de asignación válido.»",
+   "VERDADERO — toma el valor actual de total, le suma 500 y lo guarda de nuevo en total."
+  ],
+  [
+   "Pensá y decidí",
+   11,
+   "V o F: «El enunciado Escribir modifica el valor de las variables.»",
+   "FALSO — Escribir solo muestra un valor; no lo modifica."
+  ],
+  [
+   "Pensá y decidí",
+   12,
+   "Elegí y justificá: después de x ← 5 y luego x ← x + 2, la variable x vale a) 10. b) 5 c) 7.",
+   "c) 7 — x ← 5 guarda 5, luego x ← x + 2 = 5 + 2 = 7."
+  ],
+  [
+   "Desafío",
+   13,
+   "Escribí un algoritmo que intercambie los valores de dos variables a y b usando una variable auxiliar, y hacé la prueba de escritorio con a = 8 y b = 3 mostrando que quedan cambiados.",
+   "Inicio / aux ← a / a ← b / b ← aux / Escribir a, b / Fin. Con a = 8, b = 3: aux = 8 ; a = 3 ; b = 8. Se escriben a = 3 y b = 8 (quedan intercambiados)."
+  ]
+ ],
+ "17": [
+  [
+   "Ejercitá",
+   1,
+   "Con total = 60.000 y la regla «≥ 50.000 → 10 % de descuento», calculá cuánto se paga.",
+   "60.000 − 6.000 = 54.000."
+  ],
+  [
+   "Ejercitá",
+   2,
+   "Con total = 30.000 y la misma regla, calculá cuánto se paga.",
+   "30.000 (no alcanza el descuento)."
+  ],
+  [
+   "Ejercitá",
+   3,
+   "Con total = 50.000 (frontera) y la condición total >= 50.000, calculá cuánto se paga.",
+   "50.000 − 5.000 = 45.000 (la frontera SÍ recibe descuento con >=)."
+  ],
+  [
+   "Ejercitá",
+   4,
+   "Indicá qué bloque se ejecuta (Entonces / Sino) cuando la condición vale F.",
+   "El bloque Sino."
+  ],
+  [
+   "Ejercitá",
+   5,
+   "Escribí la condición de un Si para «la compra supera G. 40.000».",
+   "total > 40.000."
+  ],
+  [
+   "Ejercitá",
+   6,
+   "Decidí si total > 50.000 y total >= 50.000 dan el mismo resultado con total = 50.000.",
+   "No — con >= la compra de 50.000 recibe descuento; con > no. Difieren justo en la frontera."
+  ],
+  [
+   "Resolvé",
+   7,
+   "Escribí un algoritmo que lea la edad de una persona y escriba «puede votar» si la edad es 18 o más, y «todavía no» en caso contrario. Probalo con 17, 18 y 45.",
+   "Inicio / Leer edad / Si edad >= 18 Entonces Escribir «puede votar» Sino Escribir «todavía no» FinSi / Fin. Prueba: 17 → «todavía no» ; 18 → «puede votar» ; 45 → «puede votar»."
+  ],
+  [
+   "Resolvé",
+   8,
+   "Ña Rosa regala un cocido cuando la compra supera G. 40.000. Escribí el algoritmo (Leer total, decidir, Escribir el mensaje) y explicá qué pasa con una compra de exactamente G. 40.000 según la condición que elegiste.",
+   "Inicio / Leer total / Si total > 40.000 Entonces Escribir «regalo un cocido» Sino Escribir «sin regalo» FinSi / Fin. Con exactamente 40.000, la condición total > 40.000 es F: no hay regalo (usé «supera», es decir >)."
+  ],
+  [
+   "Resolvé",
+   9,
+   "Escribí el algoritmo del descuento (≥ 50.000 → 10 %) con Si–Entonces–Sino y hacé la prueba de escritorio con 60.000, 50.000 y 30.000.",
+   "Si total >= 50.000 Entonces pagar ← total − total * 10 / 100 Sino pagar ← total FinSi. Prueba: 60.000 → 54.000 ; 50.000 → 45.000 ; 30.000 → 30.000."
+  ],
+  [
+   "Pensá y decidí",
+   10,
+   "V o F: «total > 50.000 y total >= 50.000 son condiciones equivalentes.»",
+   "FALSO — difieren en el caso frontera (total = 50.000): >= lo incluye, > lo deja afuera."
+  ],
+  [
+   "Pensá y decidí",
+   11,
+   "V o F: «En un Si–Entonces (sin Sino), cuando la condición es F no se ejecuta ninguna acción del bloque.»",
+   "VERDADERO — sin Sino, si la condición es F simplemente no se ejecuta nada y sigue después del FinSi."
+  ],
+  [
+   "Pensá y decidí",
+   12,
+   "Elegí y justificá: una decisión simple requiere como mínimo a) dos (camino V y F) b) cuatro pruebas de escritorio. c) una.",
+   "a) dos (camino V y camino F) — y también la frontera si la hay."
+  ],
+  [
+   "Desafío",
+   13,
+   "Escribí un algoritmo que lea el total y el medio de pago y aplique 10 % de descuento solo si total >= 50.000 Y medioPago = «QR». Probalo con (60.000, QR), (60.000, efectivo) y (40.000, QR).",
+   "Inicio / Leer total / Leer medioPago / Si (total >= 50.000) Y (medioPago = «QR») Entonces pagar ← total − total * 10 / 100 Sino pagar ← total FinSi / Escribir pagar / Fin. Pruebas: (60.000, QR) → 54.000 ; (60.000, efectivo) → 60.000 ; (40.000, QR) → 40.000."
+  ]
+ ],
+ "18": [
+  [
+   "Ejercitá",
+   1,
+   "Evaluá (a > 5) O (b > 5) con a = 3 y b = 9.",
+   "(F) O (V) = V."
+  ],
+  [
+   "Ejercitá",
+   2,
+   "Negá con De Morgan: (hayStock Y pagoAprobado).",
+   "¬hayStock O ¬pagoAprobado."
+  ],
+  [
+   "Ejercitá",
+   3,
+   "Clasificá con la regla (≥ 80.000 mayorista ; 40.000 a < 80.000 frecuente ; < 40.000 ocasional): 95.000, 80.000, 55.000, 40.000 y 12.000.",
+   "95.000 mayorista ; 80.000 mayorista ; 55.000 frecuente ; 40.000 frecuente ; 12.000 ocasional."
+  ],
+  [
+   "Ejercitá",
+   4,
+   "Indicá cuántos Si (anidados) se necesitan como mínimo para clasificar en tres categorías.",
+   "Dos Si anidados."
+  ],
+  [
+   "Ejercitá",
+   5,
+   "Con total = 80.000, decidí la categoría según la regla del ejercicio 3.",
+   "Mayorista (80.000 >= 80.000)."
+  ],
+  [
+   "Ejercitá",
+   6,
+   "Ordená las preguntas de la más exigente a la menos exigente para los tramos del ejercicio 3.",
+   "Preguntar primero total >= 80.000, luego total >= 40.000 (de la más exigente a la menos)."
+  ],
+  [
+   "Resolvé",
+   7,
+   "Escribí un algoritmo que lea una calificación de 1 a 5 y escriba: «excelente» si es 5, «aprobado» si es 2, 3 o 4, y «reprobado» si es 1. Probalo con 5, 3 y 1.",
+   "Inicio / Leer nota / Si nota = 5 Entonces Escribir «excelente» Sino Si nota = 1 Entonces Escribir «reprobado» Sino Escribir «aprobado» FinSi FinSi / Fin. Prueba: 5 → excelente ; 3 → aprobado ; 1 → reprobado."
+  ],
+  [
+   "Resolvé",
+   8,
+   "Ña Rosa cobra el delivery así: pedidos de G. 100.000 o más, envío gratis ; de 50.000 a menos de 100.000, envío G. 5.000 ; menos de 50.000, envío G. 10.000. Escribí la decisión anidada y probala con 120.000, 100.000, 70.000 y 30.000.",
+   "Si total >= 100.000 Entonces Escribir «gratis» Sino Si total >= 50.000 Entonces Escribir «5.000» Sino Escribir «10.000» FinSi FinSi. Prueba: 120.000 → gratis ; 100.000 → gratis ; 70.000 → 5.000 ; 30.000 → 10.000."
+  ],
+  [
+   "Resolvé",
+   9,
+   "Clasificá la compra (mayorista / frecuente / ocasional) con una decisión anidada y hacé la prueba con 95.000 y 39.000.",
+   "Si total >= 80.000 Entonces «mayorista» Sino Si total >= 40.000 Entonces «frecuente» Sino «ocasional» FinSi FinSi. Prueba: 95.000 → mayorista ; 39.000 → ocasional."
+  ],
+  [
+   "Pensá y decidí",
+   10,
+   "V o F: «En una cadena anidada, un mismo dato puede caer en dos categorías a la vez.»",
+   "FALSO — la decisión anidada garantiza que cada dato entra por una sola rama."
+  ],
+  [
+   "Pensá y decidí",
+   11,
+   "V o F: «El orden de las condiciones en una cadena anidada no afecta el resultado.»",
+   "FALSO — el orden importa: preguntar primero la condición menos exigente clasifica mal los casos altos."
+  ],
+  [
+   "Pensá y decidí",
+   12,
+   "Elegí y justificá: negar (hayStock Y pagoAprobado) equivale a a) ¬hayStock Y ¬pagoAprobado b) ¬hayStock O ¬pagoAprobado.",
+   "b) ¬hayStock O ¬pagoAprobado — por De Morgan, la negación de la conjunción es la disyunción de las negaciones."
+  ],
+  [
+   "Desafío",
+   13,
+   "Escribí un algoritmo que lea total y medioPago y clasifique en «mayorista con QR», «mayorista sin QR» o «no mayorista», combinando una condición compuesta con una decisión anidada. Probalo con (90.000, QR), (90.000, efectivo) y (30.000, QR).",
+   "Inicio / Leer total / Leer medioPago / Si total >= 80.000 Entonces Si medioPago = «QR» Entonces Escribir «mayorista con QR» Sino Escribir «mayorista sin QR» FinSi Sino Escribir «no mayorista» FinSi / Fin. Pruebas: (90.000, QR) → mayorista con QR ; (90.000, efectivo) → mayorista sin QR ; (30.000, QR) → no mayorista."
+  ]
+ ],
+ "19": [
+  [
+   "Ejercitá",
+   1,
+   "¿Cuántas vueltas da: c ← 1 ; Mientras c <= 5 Hacer Escribir c ; c ← c + 1 FinMientras?",
+   "5 vueltas (c toma 1, 2, 3, 4, 5)."
+  ],
+  [
+   "Ejercitá",
+   2,
+   "¿Cuántas vueltas da: c ← 1 ; Mientras c <= 4 Hacer c ← c + 1 FinMientras?",
+   "4 vueltas (c pasa de 1 a 5; cuando c = 5 la condición 5 <= 4 es F)."
+  ],
+  [
+   "Ejercitá",
+   3,
+   "Escribí con Mientras un algoritmo que escriba los números del 1 al 5.",
+   "Inicio / c ← 1 / Mientras c <= 5 Hacer Escribir c ; c ← c + 1 FinMientras / Fin."
+  ],
+  [
+   "Ejercitá",
+   4,
+   "Indicá el error y qué ocurre: un Mientras cuyo contador nunca se incrementa.",
+   "Falta el incremento c ← c + 1: la condición nunca se vuelve falsa y el ciclo es infinito."
+  ],
+  [
+   "Ejercitá",
+   5,
+   "Convertí a ciclo Para: escribir los números del 1 al 8.",
+   "Para c ← 1 Hasta 8 Hacer Escribir c FinPara."
+  ],
+  [
+   "Ejercitá",
+   6,
+   "Inicializá e incrementá correctamente un contador c para que el ciclo dé exactamente 10 vueltas.",
+   "c ← 1 antes del ciclo ; Mientras c <= 10 Hacer ... ; c ← c + 1 dentro del ciclo."
+  ],
+  [
+   "Resolvé",
+   7,
+   "Escribí un algoritmo con Mientras que escriba los números pares del 2 al 10. Hacé la prueba de escritorio vuelta por vuelta.",
+   "Inicio / c ← 2 / Mientras c <= 10 Hacer Escribir c ; c ← c + 2 FinMientras / Fin. Vueltas: escribe 2, 4, 6, 8, 10; cuando c = 12 la condición es F. Total 5 vueltas."
+  ],
+  [
+   "Resolvé",
+   8,
+   "El copetín atiende 8 clientes por hora pico. Escribí con Para un algoritmo que escriba «Cliente n atendido» para n de 1 a 8, e indicá cuántas vueltas da.",
+   "Para n ← 1 Hasta 8 Hacer Escribir «Cliente n atendido» FinPara. Da 8 vueltas."
+  ],
+  [
+   "Resolvé",
+   9,
+   "Escribí con Mientras un algoritmo que escriba del 1 al 5 y hacé la prueba de escritorio con las columnas c y «¿c <= 5?».",
+   "c ← 1 ; Mientras c <= 5: (c=1,V,escribe 1)(c=2,V,2)(c=3,V,3)(c=4,V,4)(c=5,V,5)(c=6,F,termina). Escribe 1,2,3,4,5."
+  ],
+  [
+   "Pensá y decidí",
+   10,
+   "V o F: «Un ciclo Mientras puede ejecutarse cero veces.»",
+   "VERDADERO — si la condición es F desde el inicio, el bloque no se ejecuta ninguna vez."
+  ],
+  [
+   "Pensá y decidí",
+   11,
+   "V o F: «La condición del Mientras se escribe dentro del bloque de acciones.»",
+   "FALSO — la condición se escribe en el encabezado del Mientras, no dentro del bloque."
+  ],
+  [
+   "Pensá y decidí",
+   12,
+   "Elegí y justificá: si un contador dentro de un Mientras nunca se incrementa, el ciclo a) no termina nunca. b) termina enseguida.",
+   "a) no termina nunca — sin incremento la condición nunca se vuelve falsa (ciclo infinito)."
+  ],
+  [
+   "Desafío",
+   13,
+   "Escribí con Mientras un algoritmo que escriba la tabla del 3 (del 3 al 30) usando un contador y una multiplicación. Hacé la prueba de escritorio de las tres primeras vueltas.",
+   "Inicio / c ← 1 / Mientras c <= 10 Hacer Escribir c * 3 ; c ← c + 1 FinMientras / Fin. Vueltas: c=1 → 3 ; c=2 → 6 ; c=3 → 9 ; ... hasta c=10 → 30."
+  ]
+ ],
+ "20": [
+  [
+   "Ejercitá",
+   1,
+   "¿En cuánto se inicializa un acumulador que va a sumar? ¿Y un contador?",
+   "El acumulador en 0 ; el contador en 0 (o en 1 según el diseño)."
+  ],
+  [
+   "Ejercitá",
+   2,
+   "Con las ventas 5.000, 5.000 y 10.000 y luego el centinela 0, calculá suma y c.",
+   "suma = 20.000 ; c = 3 (el centinela 0 no se acumula ni se cuenta)."
+  ],
+  [
+   "Ejercitá",
+   3,
+   "Calculá el promedio con suma = 35.000 y c = 3.",
+   "promedio = 35.000 / 3 ≈ 11.667."
+  ],
+  [
+   "Ejercitá",
+   4,
+   "Indicá el valor centinela del ejemplo de la caja del mediodía.",
+   "El valor 0."
+  ],
+  [
+   "Ejercitá",
+   5,
+   "Escribí la línea de pseudocódigo que acumula una venta en la variable suma.",
+   "suma ← suma + venta."
+  ],
+  [
+   "Ejercitá",
+   6,
+   "Con suma = 0, aplicá suma ← suma + 12.000 y luego suma ← suma + 8.000. ¿Cuánto vale suma?",
+   "suma = 20.000."
+  ],
+  [
+   "Resolvé",
+   7,
+   "Escribí un algoritmo que lea las ventas del día hasta el centinela 0 y escriba solamente cuántas ventas superaron G. 10.000. Probalo con 12.000, 6.000, 25.000, 9.000 y 0.",
+   "Inicio / cd ← 0 / Leer venta / Mientras venta <> 0 Hacer Si venta > 10.000 Entonces cd ← cd + 1 FinSi ; Leer venta FinMientras / Escribir cd / Fin. Con 12.000, 6.000, 25.000, 9.000, 0: cd = 2 (12.000 y 25.000)."
+  ],
+  [
+   "Resolvé",
+   8,
+   "Hacé la prueba de escritorio completa del algoritmo de la caja con las ventas 20.000, 5.000, 5.000, 10.000 y el centinela 0. Indicá suma, c y promedio finales.",
+   "suma parte en 0, c en 0. Vueltas: 20.000 (suma=20.000, c=1) ; 5.000 (25.000, 2) ; 5.000 (30.000, 3) ; 10.000 (40.000, 4) ; 0 corta. suma = 40.000, c = 4, promedio = 40.000 / 4 = 10.000."
+  ],
+  [
+   "Resolvé",
+   9,
+   "Escribí un algoritmo con centinela 0 que acumule el total de ventas y cuente cuántas hubo; calculá el promedio protegiendo la división por cero.",
+   "Inicio / suma ← 0 / c ← 0 / Leer venta / Mientras venta <> 0 Hacer suma ← suma + venta ; c ← c + 1 ; Leer venta FinMientras / Si c > 0 Entonces promedio ← suma / c ; Escribir suma, promedio Sino Escribir «sin ventas» FinSi / Fin."
+  ],
+  [
+   "Pensá y decidí",
+   10,
+   "V o F: «El valor centinela debe sumarse al acumulador antes de cortar.»",
+   "FALSO — el centinela se compara para cortar, pero nunca se acumula."
+  ],
+  [
+   "Pensá y decidí",
+   11,
+   "V o F: «Si no se carga ningún dato, el algoritmo del ejemplo escribe la leyenda sin ventas.»",
+   "VERDADERO — si c = 0, el Si c > 0 es falso y se ejecuta el Sino «sin ventas»."
+  ],
+  [
+   "Pensá y decidí",
+   12,
+   "Elegí y justificá: el promedio se calcula a) dentro del ciclo, en cada vuelta b) después del ciclo, una sola vez.",
+   "b) después del ciclo, una sola vez — con el total y la cantidad ya reunidos."
+  ],
+  [
+   "Desafío",
+   13,
+   "Modificá el algoritmo de la caja para que, además de la suma y el promedio, informe la venta más alta del día (pista: mayor ← 0 y una decisión dentro del ciclo). Probalo con 12.000, 30.000, 8.000 y 0.",
+   "Agregar mayor ← 0 antes del ciclo y, dentro del ciclo, Si venta > mayor Entonces mayor ← venta FinSi. Con 12.000, 30.000, 8.000, 0: suma = 50.000, c = 3, promedio ≈ 16.667, mayor = 30.000."
+  ]
+ ],
+ "21": [
+  [
+   "Ejercitá",
+   1,
+   "Indicá qué cuenta cada variable del sistema de caja: suma, c, cd y promedio.",
+   "suma: recaudación total cobrada ; c: cantidad de ventas ; cd: ventas con descuento ; promedio: suma / c."
+  ],
+  [
+   "Ejercitá",
+   2,
+   "Con una venta de G. 60.000, calculá cuánto se cobra (10 % de descuento si es >= 50.000).",
+   "60.000 − 6.000 = 54.000."
+  ],
+  [
+   "Ejercitá",
+   3,
+   "Con una venta de G. 50.000 (frontera), calculá cuánto se cobra.",
+   "50.000 − 5.000 = 45.000."
+  ],
+  [
+   "Ejercitá",
+   4,
+   "Con una venta de G. 20.000, calculá cuánto se cobra.",
+   "20.000 (no alcanza el descuento)."
+  ],
+  [
+   "Ejercitá",
+   5,
+   "Indicá las tres variables que se inicializan en 0 antes del ciclo.",
+   "suma, c y cd."
+  ],
+  [
+   "Ejercitá",
+   6,
+   "Calculá el promedio con suma = 134.000 y c = 4.",
+   "134.000 / 4 = 33.500."
+  ],
+  [
+   "Resolvé",
+   7,
+   "Hacé la prueba de escritorio completa del sistema de caja Karumbé con las ventas 45.000, 80.000, 10.000 y el centinela 0. Indicá suma, c, cd y promedio, y verificá con el control cruzado.",
+   "45.000 → cobrar 45.000 (sin desc.) ; 80.000 → 72.000 (cd=1) ; 10.000 → 10.000. suma = 127.000, c = 3, cd = 1, promedio = 127.000 / 3 ≈ 42.333. Control: sin descuentos 135.000 − 8.000 = 127.000. ✓"
+  ],
+  [
+   "Resolvé",
+   8,
+   "Modificá el sistema para que también escriba la venta más alta del día (pista: mayor ← 0 y una decisión dentro del ciclo). Probalo con las ventas del día real (20.000, 60.000, 15.000, 50.000 y 0).",
+   "Agregar mayor ← 0 antes del ciclo y, dentro, Si venta > mayor Entonces mayor ← venta FinSi. Con el día real: suma = 134.000, c = 4, cd = 2, promedio = 33.500, mayor = 60.000."
+  ],
+  [
+   "Resolvé",
+   9,
+   "Hacé la prueba de escritorio del sistema con las ventas 30.000, 55.000, 90.000 y el centinela 0. Indicá suma, c, cd y promedio.",
+   "30.000 → 30.000 ; 55.000 → 49.500 (cd=1) ; 90.000 → 81.000 (cd=2). suma = 160.500, c = 3, cd = 2, promedio = 160.500 / 3 = 53.500. Control: sin descuentos 175.000 − 14.500 = 160.500. ✓"
+  ],
+  [
+   "Pensá y decidí",
+   10,
+   "V o F: «En la prueba del día real, la recaudación final fue G. 145.000.»",
+   "FALSO — la recaudación fue G. 134.000; 145.000 es la suma sin descuentos."
+  ],
+  [
+   "Pensá y decidí",
+   11,
+   "V o F: «Agregar la venta más alta del día requiere rehacer el algoritmo desde cero.»",
+   "FALSO — solo se agrega una variable (mayor) y una decisión; se reutilizan los mismos bloques."
+  ],
+  [
+   "Pensá y decidí",
+   12,
+   "Elegí y justificá: una venta de exactamente G. 50.000 se cobra a) 50.000 b) 55.000. c) 45.000.",
+   "c) 45.000 — con >= 50.000 la frontera recibe el 10 %: 50.000 − 5.000 = 45.000."
+  ],
+  [
+   "Desafío",
+   13,
+   "Ampliá el sistema para separar lo cobrado en efectivo y con QR (dos acumuladores más y una decisión por medio de pago). Escribí el fragmento que agregás y explicá dónde va dentro del ciclo.",
+   "Antes del ciclo: sumaEf ← 0 y sumaQR ← 0. Dentro del ciclo, después de calcular cobrar: Si medioPago = «QR» Entonces sumaQR ← sumaQR + cobrar Sino sumaEf ← sumaEf + cobrar FinSi. Va después de la decisión del descuento y antes de leer la próxima venta."
+  ]
+ ]
+}

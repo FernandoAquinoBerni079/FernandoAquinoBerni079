@@ -1,0 +1,409 @@
+Auditoría Software 2.º Esencial — 407 controles · 0 fallos
+
+ok     PDF L en oficio en todas las páginas
+ok     DOCX L sección 1 oficio y márgenes 1,27
+ok     DOCX L sección 2 oficio y márgenes 1,27
+ok     DOCX L sección 3 oficio y márgenes 1,27
+ok     Metadatos L: autor Equipo editorial
+ok     PDF S en oficio en todas las páginas
+ok     DOCX S sección 1 oficio y márgenes 1,27
+ok     DOCX S sección 2 oficio y márgenes 1,27
+ok     Metadatos S: autor Equipo editorial
+ok     PDF A en oficio en todas las páginas
+ok     DOCX A sección 1 oficio y márgenes 1,27
+ok     DOCX A sección 2 oficio y márgenes 1,27
+ok     Metadatos A: autor Equipo editorial
+ok     PDF P en oficio en todas las páginas
+ok     DOCX P sección 1 oficio y márgenes 1,27
+ok     DOCX P sección 2 oficio y márgenes 1,27
+ok     DOCX P sección 3 oficio y márgenes 1,27
+ok     DOCX P sección 4 oficio y márgenes 1,27
+ok     DOCX P sección 5 oficio y márgenes 1,27
+ok     DOCX P sección 6 oficio y márgenes 1,27
+ok     DOCX P sección 7 oficio y márgenes 1,27
+ok     DOCX P sección 8 oficio y márgenes 1,27
+ok     DOCX P sección 9 oficio y márgenes 1,27
+ok     DOCX P sección 10 oficio y márgenes 1,27
+ok     DOCX P sección 11 oficio y márgenes 1,27
+ok     DOCX P sección 12 oficio y márgenes 1,27
+ok     DOCX P sección 13 oficio y márgenes 1,27
+ok     DOCX P sección 14 oficio y márgenes 1,27
+ok     DOCX P sección 15 oficio y márgenes 1,27
+ok     DOCX P sección 16 oficio y márgenes 1,27
+ok     DOCX P sección 17 oficio y márgenes 1,27
+ok     DOCX P sección 18 oficio y márgenes 1,27
+ok     DOCX P sección 19 oficio y márgenes 1,27
+ok     DOCX P sección 20 oficio y márgenes 1,27
+ok     DOCX P sección 21 oficio y márgenes 1,27
+ok     DOCX P sección 22 oficio y márgenes 1,27
+ok     DOCX P sección 23 oficio y márgenes 1,27
+ok     DOCX P sección 24 oficio y márgenes 1,27
+ok     DOCX P sección 25 oficio y márgenes 1,27
+ok     DOCX P sección 26 oficio y márgenes 1,27
+ok     DOCX P sección 27 oficio y márgenes 1,27
+ok     DOCX P sección 28 oficio y márgenes 1,27
+ok     DOCX P sección 29 oficio y márgenes 1,27
+ok     DOCX P sección 30 oficio y márgenes 1,27
+ok     DOCX P sección 31 oficio y márgenes 1,27
+ok     DOCX P sección 32 oficio y márgenes 1,27
+ok     DOCX P sección 33 oficio y márgenes 1,27
+ok     DOCX P sección 34 oficio y márgenes 1,27
+ok     DOCX P sección 35 oficio y márgenes 1,27
+ok     DOCX P sección 36 oficio y márgenes 1,27
+ok     DOCX P sección 37 oficio y márgenes 1,27
+ok     DOCX P sección 38 oficio y márgenes 1,27
+ok     Metadatos P: autor Equipo editorial
+ok     PDF M en oficio en todas las páginas
+ok     Capacidad 1 textual en L
+ok     Capacidad 2 textual en L
+ok     Capacidad 3 textual en L
+ok     Capacidad 4 textual en L
+ok     Capacidad 5 textual en L
+ok     Capacidad 6 textual en L
+ok     Capacidad 7 textual en L
+ok     Capacidad 8 textual en L
+ok     Capacidad 9 textual en L
+ok     Capacidad 10 textual en L
+ok     Capacidad 11 textual en L
+ok     Capacidad 12 textual en L
+ok     Capacidad 13 textual en L
+ok     Capacidad 14 textual en L
+ok     Capacidad 15 textual en L
+ok     Capacidad 16 textual en L
+ok     Capacidad 1 textual en A
+ok     Capacidad 2 textual en A
+ok     Capacidad 3 textual en A
+ok     Capacidad 4 textual en A
+ok     Capacidad 5 textual en A
+ok     Capacidad 6 textual en A
+ok     Capacidad 7 textual en A
+ok     Capacidad 8 textual en A
+ok     Capacidad 9 textual en A
+ok     Capacidad 10 textual en A
+ok     Capacidad 11 textual en A
+ok     Capacidad 12 textual en A
+ok     Capacidad 13 textual en A
+ok     Capacidad 14 textual en A
+ok     Capacidad 15 textual en A
+ok     Capacidad 16 textual en A
+ok     Capacidad 1 textual en P
+ok     Capacidad 2 textual en P
+ok     Capacidad 3 textual en P
+ok     Capacidad 4 textual en P
+ok     Capacidad 5 textual en P
+ok     Capacidad 6 textual en P
+ok     Capacidad 7 textual en P
+ok     Capacidad 8 textual en P
+ok     Capacidad 9 textual en P
+ok     Capacidad 10 textual en P
+ok     Capacidad 11 textual en P
+ok     Capacidad 12 textual en P
+ok     Capacidad 13 textual en P
+ok     Capacidad 14 textual en P
+ok     Capacidad 15 textual en P
+ok     Capacidad 16 textual en P
+ok     Sin capacidad inventada «almacenamiento óptico» en L
+ok     Sin resumen «Reconoce, analiza e identifica» en L
+ok     Sin capacidad inventada «almacenamiento óptico» en S
+ok     Sin resumen «Reconoce, analiza e identifica» en S
+ok     Sin capacidad inventada «almacenamiento óptico» en A
+ok     Sin resumen «Reconoce, analiza e identifica» en A
+ok     Sin capacidad inventada «almacenamiento óptico» en P
+ok     Sin resumen «Reconoce, analiza e identifica» en P
+ok     Clase 1 presente
+ok     Práctica 1 presente
+ok     Clase 2 presente
+ok     Práctica 2 presente
+ok     Clase 3 presente
+ok     Práctica 3 presente
+ok     Clase 4 presente
+ok     Práctica 4 presente
+ok     Clase 5 presente
+ok     Práctica 5 presente
+ok     Clase 6 presente
+ok     Práctica 6 presente
+ok     Clase 7 presente
+ok     Práctica 7 presente
+ok     Clase 8 presente
+ok     Práctica 8 presente
+ok     Clase 9 presente
+ok     Práctica 9 presente
+ok     Clase 10 presente
+ok     Práctica 10 presente
+ok     Clase 11 presente
+ok     Práctica 11 presente
+ok     Clase 12 presente
+ok     Práctica 12 presente
+ok     Clase 13 presente
+ok     Práctica 13 presente
+ok     Clase 14 presente
+ok     Práctica 14 presente
+ok     Clase 15 presente
+ok     Práctica 15 presente
+ok     Clase 16 presente
+ok     Práctica 16 presente
+ok     Clase 17 presente
+ok     Práctica 17 presente
+ok     Clase 18 presente
+ok     Práctica 18 presente
+ok     Clase 19 presente
+ok     Práctica 19 presente
+ok     Clase 20 presente
+ok     Práctica 20 presente
+ok     Ficha A presente
+ok     Ficha B presente
+ok     Ficha C presente
+ok     Ficha D presente
+ok     Ficha E presente
+ok     Ficha F presente
+ok     Ficha G presente
+ok     Ficha H presente
+ok     Ficha I presente
+ok     Ficha J presente
+ok     Ficha K presente
+ok     Ficha L presente
+ok     Prueba diagnóstica presente
+ok     Evaluación de la Unidad 1 presente
+ok     Evaluación integradora de la 1.ª etapa presente
+ok     Evaluación de la Unidad 2 presente
+ok     Evaluación integradora de la 2.ª etapa presente
+ok     Proyecto Final Integrador presente
+ok     Clase 1 ≥ 750 palabras de desarrollo
+ok     Clase 1: ficha, Concepto clave, Ejemplo, En Paraguay, Errores frecuentes, tabla y 12 actividades
+ok     Clase 2 ≥ 750 palabras de desarrollo
+ok     Clase 2: ficha, Concepto clave, Ejemplo, En Paraguay, Errores frecuentes, tabla y 12 actividades
+ok     Clase 3 ≥ 750 palabras de desarrollo
+ok     Clase 3: ficha, Concepto clave, Ejemplo, En Paraguay, Errores frecuentes, tabla y 12 actividades
+ok     Clase 4 ≥ 750 palabras de desarrollo
+ok     Clase 4: ficha, Concepto clave, Ejemplo, En Paraguay, Errores frecuentes, tabla y 12 actividades
+ok     Clase 5 ≥ 750 palabras de desarrollo
+ok     Clase 5: ficha, Concepto clave, Ejemplo, En Paraguay, Errores frecuentes, tabla y 12 actividades
+ok     Clase 6 ≥ 750 palabras de desarrollo
+ok     Clase 6: ficha, Concepto clave, Ejemplo, En Paraguay, Errores frecuentes, tabla y 12 actividades
+ok     Clase 7 ≥ 750 palabras de desarrollo
+ok     Clase 7: ficha, Concepto clave, Ejemplo, En Paraguay, Errores frecuentes, tabla y 12 actividades
+ok     Clase 8 ≥ 750 palabras de desarrollo
+ok     Clase 8: ficha, Concepto clave, Ejemplo, En Paraguay, Errores frecuentes, tabla y 12 actividades
+ok     Clase 9 ≥ 750 palabras de desarrollo
+ok     Clase 9: ficha, Concepto clave, Ejemplo, En Paraguay, Errores frecuentes, tabla y 12 actividades
+ok     Clase 10 ≥ 750 palabras de desarrollo
+ok     Clase 10: ficha, Concepto clave, Ejemplo, En Paraguay, Errores frecuentes, tabla y 12 actividades
+ok     Clase 11 ≥ 750 palabras de desarrollo
+ok     Clase 11: ficha, Concepto clave, Ejemplo, En Paraguay, Errores frecuentes, tabla y 12 actividades
+ok     Clase 12 ≥ 750 palabras de desarrollo
+ok     Clase 12: ficha, Concepto clave, Ejemplo, En Paraguay, Errores frecuentes, tabla y 12 actividades
+ok     Clase 13 ≥ 750 palabras de desarrollo
+ok     Clase 13: ficha, Concepto clave, Ejemplo, En Paraguay, Errores frecuentes, tabla y 12 actividades
+ok     Clase 14 ≥ 750 palabras de desarrollo
+ok     Clase 14: ficha, Concepto clave, Ejemplo, En Paraguay, Errores frecuentes, tabla y 12 actividades
+ok     Clase 15 ≥ 750 palabras de desarrollo
+ok     Clase 15: ficha, Concepto clave, Ejemplo, En Paraguay, Errores frecuentes, tabla y 12 actividades
+ok     Clase 16 ≥ 750 palabras de desarrollo
+ok     Clase 16: ficha, Concepto clave, Ejemplo, En Paraguay, Errores frecuentes, tabla y 12 actividades
+ok     Clase 17 ≥ 750 palabras de desarrollo
+ok     Clase 17: ficha, Concepto clave, Ejemplo, En Paraguay, Errores frecuentes, tabla y 12 actividades
+ok     Clase 18 ≥ 750 palabras de desarrollo
+ok     Clase 18: ficha, Concepto clave, Ejemplo, En Paraguay, Errores frecuentes, tabla y 12 actividades
+ok     Clase 19 ≥ 750 palabras de desarrollo
+ok     Clase 19: ficha, Concepto clave, Ejemplo, En Paraguay, Errores frecuentes, tabla y 12 actividades
+ok     Clase 20 ≥ 750 palabras de desarrollo
+ok     Clase 20: ficha, Concepto clave, Ejemplo, En Paraguay, Errores frecuentes, tabla y 12 actividades
+ok     L: sin íconos ✓/✗/✅
+ok     L: sin «generada con IA»
+ok     L: sin leyenda Ctrl+E/F9
+ok     L: sin tomo/cuaderno
+ok     L: sin python-docx
+ok     S: sin íconos ✓/✗/✅
+ok     S: sin «generada con IA»
+ok     S: sin leyenda Ctrl+E/F9
+ok     S: sin tomo/cuaderno
+ok     S: sin python-docx
+ok     A: sin íconos ✓/✗/✅
+ok     A: sin «generada con IA»
+ok     A: sin leyenda Ctrl+E/F9
+ok     A: sin tomo/cuaderno
+ok     A: sin python-docx
+ok     P: sin íconos ✓/✗/✅
+ok     P: sin «generada con IA»
+ok     P: sin leyenda Ctrl+E/F9
+ok     P: sin tomo/cuaderno
+ok     P: sin python-docx
+ok     Corrección T1 aplicada
+ok     Corrección T2 aplicada
+ok     Corrección T3 aplicada
+ok     Corrección T4 aplicada
+ok     Corrección T5 aplicada
+ok     Corrección T6 aplicada
+ok     Corrección T7 aplicada
+ok     Corrección T8 aplicada
+ok     Corrección T9 aplicada
+ok     Corrección T10 aplicada
+ok     Corrección T11 aplicada
+ok     Corrección T12 aplicada
+ok     Corrección T13 aplicada
+ok     Corrección T14 aplicada
+ok     Corrección T15 aplicada
+ok     Corrección T16 aplicada
+ok     T6: sin 1,35 MB/s ni 21,6 MB/s
+ok     T7: sin 80–160 MB/s
+ok     T2: sin «potencia real certificada»
+ok     T4: sin «Intel Core (i3, i5, i7, i9)»
+ok     Figuras de la Clase 1 numeradas 1..k sin saltos
+ok     Figuras de la Clase 2 numeradas 1..k sin saltos
+ok     Figuras de la Clase 3 numeradas 1..k sin saltos
+ok     Figuras de la Clase 4 numeradas 1..k sin saltos
+ok     Figuras de la Clase 5 numeradas 1..k sin saltos
+ok     Figuras de la Clase 6 numeradas 1..k sin saltos
+ok     Figuras de la Clase 7 numeradas 1..k sin saltos
+ok     Figuras de la Clase 8 numeradas 1..k sin saltos
+ok     Figuras de la Clase 9 numeradas 1..k sin saltos
+ok     Figuras de la Clase 10 numeradas 1..k sin saltos
+ok     Figuras de la Clase 11 numeradas 1..k sin saltos
+ok     Figuras de la Clase 12 numeradas 1..k sin saltos
+ok     Figuras de la Clase 13 numeradas 1..k sin saltos
+ok     Figuras de la Clase 14 numeradas 1..k sin saltos
+ok     Figuras de la Clase 15 numeradas 1..k sin saltos
+ok     Figuras de la Clase 16 numeradas 1..k sin saltos
+ok     Figuras de la Clase 17 numeradas 1..k sin saltos
+ok     Figuras de la Clase 18 numeradas 1..k sin saltos
+ok     Figuras de la Clase 19 numeradas 1..k sin saltos
+ok     Figuras de la Clase 20 numeradas 1..k sin saltos
+ok     Sin «Fotografía N.k» ni «Fotografía PN»
+ok     Las 52 imágenes originales están en el libro (idénticas o PNG sin pérdida)
+ok     JPEG originales byte a byte
+ok     Índice L coincide con el PDF (60 entradas)
+ok     Índice S coincide con el PDF (41 entradas)
+ok     Índice P coincide con el PDF (36 entradas)
+ok     L sin páginas casi vacías (<20 %)
+ok     S sin páginas casi vacías (<20 %)
+ok     Libro: ninguna figura impresa con menos de 3 cm de ancho
+ok     Plan Anual: 36 secuencias de 2 h (72 HC)
+ok     Plan Anual: procedimientos únicos
+ok     Plan Anual: instrumentos únicos
+ok     Planes: 36 planes N.º 1 a 36
+ok     Plan Anual fila 1: indicadores presentes en los Planes
+ok     Plan Anual fila 2: indicadores presentes en los Planes
+ok     Plan Anual fila 3: indicadores presentes en los Planes
+ok     Plan Anual fila 4: indicadores presentes en los Planes
+ok     Plan Anual fila 5: indicadores presentes en los Planes
+ok     Plan Anual fila 6: indicadores presentes en los Planes
+ok     Plan Anual fila 7: indicadores presentes en los Planes
+ok     Plan Anual fila 8: indicadores presentes en los Planes
+ok     Plan Anual fila 9: indicadores presentes en los Planes
+ok     Plan Anual fila 10: indicadores presentes en los Planes
+ok     Plan Anual fila 11: indicadores presentes en los Planes
+ok     Plan Anual fila 12: indicadores presentes en los Planes
+ok     Plan Anual fila 13: indicadores presentes en los Planes
+ok     Plan Anual fila 14: indicadores presentes en los Planes
+ok     Plan Anual fila 15: indicadores presentes en los Planes
+ok     Plan Anual fila 16: indicadores presentes en los Planes
+ok     Plan Anual fila 17: indicadores presentes en los Planes
+ok     Plan Anual fila 18: indicadores presentes en los Planes
+ok     Plan Anual fila 19: indicadores presentes en los Planes
+ok     Plan Anual fila 20: indicadores presentes en los Planes
+ok     Plan Anual fila 21: indicadores presentes en los Planes
+ok     Plan Anual fila 22: indicadores presentes en los Planes
+ok     Plan Anual fila 23: indicadores presentes en los Planes
+ok     Plan Anual fila 24: indicadores presentes en los Planes
+ok     Plan Anual fila 25: indicadores presentes en los Planes
+ok     Plan Anual fila 26: indicadores presentes en los Planes
+ok     Plan Anual fila 27: indicadores presentes en los Planes
+ok     Plan Anual fila 28: indicadores presentes en los Planes
+ok     Plan Anual fila 29: indicadores presentes en los Planes
+ok     Plan Anual fila 30: indicadores presentes en los Planes
+ok     Plan Anual fila 31: indicadores presentes en los Planes
+ok     Plan Anual fila 32: indicadores presentes en los Planes
+ok     Plan Anual fila 33: indicadores presentes en los Planes
+ok     Plan Anual fila 34: indicadores presentes en los Planes
+ok     Plan Anual fila 35: indicadores presentes en los Planes
+ok     Plan Anual fila 36: indicadores presentes en los Planes
+ok     Planes: sin datos viejos de prácticas (132 discos, G. 686, 98 + 4)
+ok     Planes: cada plan en una sola hoja (sin páginas de continuación)
+ok     Plan 33: trabaja el informe de la Farmacia Tajy (Prácticas 14, 15, 16 y 19) y no ensambla el caso Ko'ẽju
+ok     Prácticas 19 y 20: la 19 es la segunda sucursal y la 20 usa los tendidos del local de la 16
+ok     Planes: cada figura citada existe y coincide con su epígrafe
+ok     Plan Anual: tabla en oficio horizontal
+ok     Solucionario: Clase 1 y Práctica 1
+ok     Solucionario: Clase 2 y Práctica 2
+ok     Solucionario: Clase 3 y Práctica 3
+ok     Solucionario: Clase 4 y Práctica 4
+ok     Solucionario: Clase 5 y Práctica 5
+ok     Solucionario: Clase 6 y Práctica 6
+ok     Solucionario: Clase 7 y Práctica 7
+ok     Solucionario: Clase 8 y Práctica 8
+ok     Solucionario: Clase 9 y Práctica 9
+ok     Solucionario: Clase 10 y Práctica 10
+ok     Solucionario: Clase 11 y Práctica 11
+ok     Solucionario: Clase 12 y Práctica 12
+ok     Solucionario: Clase 13 y Práctica 13
+ok     Solucionario: Clase 14 y Práctica 14
+ok     Solucionario: Clase 15 y Práctica 15
+ok     Solucionario: Clase 16 y Práctica 16
+ok     Solucionario: Clase 17 y Práctica 17
+ok     Solucionario: Clase 18 y Práctica 18
+ok     Solucionario: Clase 19 y Práctica 19
+ok     Solucionario: Clase 20 y Práctica 20
+ok     Solucionario: Ficha A
+ok     Solucionario: Ficha B
+ok     Solucionario: Ficha C
+ok     Solucionario: Ficha D
+ok     Solucionario: Ficha E
+ok     Solucionario: Ficha F
+ok     Solucionario: Ficha G
+ok     Solucionario: Ficha H
+ok     Solucionario: Ficha I
+ok     Solucionario: Ficha J
+ok     Solucionario: Ficha K
+ok     Solucionario: Ficha L
+ok     Solucionario: rúbrica analítica con 4 niveles
+ok     Práctica 1: puntos de control sin resultados («≈», «Resultados:»)
+ok     Práctica 2: puntos de control sin resultados («≈», «Resultados:»)
+ok     Práctica 3: puntos de control sin resultados («≈», «Resultados:»)
+ok     Práctica 4: puntos de control sin resultados («≈», «Resultados:»)
+ok     Práctica 5: puntos de control sin resultados («≈», «Resultados:»)
+ok     Práctica 6: puntos de control sin resultados («≈», «Resultados:»)
+ok     Práctica 7: puntos de control sin resultados («≈», «Resultados:»)
+ok     Práctica 8: puntos de control sin resultados («≈», «Resultados:»)
+ok     Práctica 9: puntos de control sin resultados («≈», «Resultados:»)
+ok     Práctica 10: puntos de control sin resultados («≈», «Resultados:»)
+ok     Práctica 11: puntos de control sin resultados («≈», «Resultados:»)
+ok     Práctica 12: puntos de control sin resultados («≈», «Resultados:»)
+ok     Práctica 13: puntos de control sin resultados («≈», «Resultados:»)
+ok     Práctica 14: puntos de control sin resultados («≈», «Resultados:»)
+ok     Práctica 15: puntos de control sin resultados («≈», «Resultados:»)
+ok     Práctica 16: puntos de control sin resultados («≈», «Resultados:»)
+ok     Práctica 17: puntos de control sin resultados («≈», «Resultados:»)
+ok     Práctica 18: puntos de control sin resultados («≈», «Resultados:»)
+ok     Práctica 19: puntos de control sin resultados («≈», «Resultados:»)
+ok     Práctica 20: puntos de control sin resultados («≈», «Resultados:»)
+ok     Trazable Ficha E: 687,5 GB está en la clave
+ok     Trazable Práctica 2 · 12,7 V en +12: NO está en la clave
+ok     Trazable Práctica 2 · 4,9 V en +5: SÍ está en la clave
+ok     Trazable Práctica 2 · 3,1 V en +3,3: NO está en la clave
+ok     Trazable Práctica 4 · PCIe 3.0: 1 / 2 / 8 / 16 está en la clave
+ok     Trazable Práctica 4 · PCIe 5.0: 4 / 8 / 32 / 64 está en la clave
+ok     Trazable Práctica 9 · CD: 88 discos; 2,2 h está en la clave
+ok     Trazable Práctica 9 · DVD: 13 discos; 0,8 h está en la clave
+ok     Trazable Práctica 9 · Blu-ray: 3 discos; 0,5 h está en la clave
+ok     Trazable Práctica 10: G. 700 / G. 200; mensual G. 840.000 / G. 240.000 está en la clave
+ok     Trazable Clase 10 · uso A: G. 152.000 está en la clave
+ok     Trazable Clase 10 · uso B: G. 803.077 está en la clave
+ok     Trazable Clase 10 · año A: G. 1.252.000 está en la clave
+ok     Trazable Clase 10 · año B: G. 2.253.077 está en la clave
+ok     Trazable Clase 10 · caja A: G. 1.290.000 está en la clave
+ok     Trazable Clase 10 · caja B: G. 2.320.000 está en la clave
+ok     Trazable Clase 16 · cable: 117 m; ≈ 129 m está en la clave
+ok     Trazable Clase 19 · punto 1: 83 m; cumple está en la clave
+ok     Trazable Clase 19 · punto 2: 91 m; cumple está en la clave
+ok     Trazable Clase 19 · punto 3: 99 m; no cumple está en la clave
+ok     Trazable Práctica 16 · cable: 195 m; 214,5 m está en la clave
+ok     Trazable Práctica 16 · patch cords: 17 está en la clave
+ok     Trazable Práctica 15 · bocas: 9; 11 está en la clave
+ok     Trazable Práctica 19 · canales: 14, 17, 22, 25, 30, 36, 48, 60 está en la clave
+ok     Trazable Práctica 20 · canales del local: 12, 16, 19, 24, 28, 33, 46, 57 está en la clave
+ok     Trazable Caso 1: G. 3.450.000; G. 34.500.000 está en la clave
+ok     Trazable Caso 2 · bocas: 17 está en la clave
+ok     Trazable Caso 2 · canal: 52 m; 48 m está en la clave
+ok     Sin bloques que compartan 3 o más datos no constantes
+ok     Sin tuplas de datos idénticas en bloques distintos (listas de 3 o más valores)
+ok     Sin bloques del mismo escenario que compartan 1 o 2 datos con unidad
