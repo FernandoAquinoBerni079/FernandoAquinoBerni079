@@ -24,18 +24,20 @@ EVS = evaluaciones.EV
 
 # v1.2 (hallazgo 02 de la auditoría): secciones que se componen en modo compacto porque su última hoja quedaba
 # casi vacía. La lista la calcula el propio build (ver __main__) midiendo el PDF; se guarda en ajustes_paginacion.json.
-# Nivel 1 («compacto»): interlineado sencillo y figuras al 90 % en esa sección. Nivel 2 («sin_salto»): si aun así queda
-# residuo, la sección siguiente (sólo una Práctica o una Clase, nunca una evaluación ni el PFI) empieza en esa misma hoja.
+# Niveles 1 a 4 de compactación por sección (ver maqueta.COMPACTO); la letra no cambia en ninguno. Desde v1.3 ninguna
+# sección «sube» a la hoja de la anterior (sin_salto queda vacío): cada Clase, Práctica, evaluación y el PFI empiezan
+# en hoja propia, y cada Práctica se puede fotocopiar suelta.
 AJ_PATH = B + 'ajustes_paginacion.json'
 _aj = json.load(open(AJ_PATH)) if os.path.exists(AJ_PATH) else {}
 AJUSTES = set(_aj.get('compacto', []))
 COMPACTO2 = set(_aj.get('compacto2', []))
-COMPACTO3 = set(_aj.get('compacto3', []))  # nivel 2 cuando la sección siguiente no puede subir (evaluación, fin del libro)
+COMPACTO3 = set(_aj.get('compacto3', []))
+COMPACTO4 = set(_aj.get('compacto4', []))
 SIN_SALTO = set(_aj.get('sin_salto', []))
 
 
 def nivel(clave):
-    return 3 if clave in COMPACTO3 else 2 if clave in COMPACTO2 else (1 if clave in AJUSTES else 0)
+    return 4 if clave in COMPACTO4 else 3 if clave in COMPACTO3 else 2 if clave in COMPACTO2 else (1 if clave in AJUSTES else 0)
 
 
 def clave_seccion(titulo):
@@ -307,27 +309,24 @@ def residuales(pdf, E, pags, umbral=0.30):
 
 if __name__ == '__main__':
     tmp = B + 'tmp/'; os.makedirs(tmp, exist_ok=True)
-    for ronda in range(6):
+    for ronda in range(8):
         d, E, pags, total, pdf, ok = componer(tmp)
         res = residuales(pdf, E, pags)
         print('ronda', ronda, 'páginas', total, 'residuales', [(p, round(u, 2), k) for p, u, k in res])
-        claves = [clave_seccion(t) for _, t in E if not t.startswith('UNIDAD')]
         cambio = False
         for _, _, k in res:
             if k not in AJUSTES:
                 AJUSTES.add(k); cambio = True
-            else:
-                sig = claves[claves.index(k) + 1] if claves.index(k) + 1 < len(claves) else ''
-                if sig.startswith(('Práctica ', 'Clase ')) and sig not in SIN_SALTO:
-                    SIN_SALTO.add(sig); cambio = True
-                elif not sig.startswith(('Práctica ', 'Clase ')) and k not in COMPACTO2:
-                    COMPACTO2.add(k); cambio = True
-                elif k.startswith(('Práctica ', 'Clase ')) and k not in SIN_SALTO:
-                    SIN_SALTO.add(k); cambio = True   # la sección sube a la última hoja de la anterior
-                elif k not in COMPACTO3:
-                    COMPACTO3.add(k); cambio = True
+            elif k not in COMPACTO2:
+                COMPACTO2.add(k); cambio = True
+            elif k not in COMPACTO3:
+                COMPACTO3.add(k); cambio = True
+            elif k not in COMPACTO4:
+                COMPACTO4.add(k); cambio = True
+            # v1.3 (reauditoría, hallazgo 09): ninguna sección «sube» a la hoja de la anterior. Cada Práctica empieza
+            # y termina en hojas propias, para que se pueda fotocopiar suelta como promete la Presentación.
         if not cambio:
             break
-        json.dump({'compacto': sorted(AJUSTES), 'compacto2': sorted(COMPACTO2), 'compacto3': sorted(COMPACTO3), 'sin_salto': sorted(SIN_SALTO)}, open(AJ_PATH, 'w'), ensure_ascii=False, indent=1)
+        json.dump({'compacto': sorted(AJUSTES), 'compacto2': sorted(COMPACTO2), 'compacto3': sorted(COMPACTO3), 'compacto4': sorted(COMPACTO4), 'sin_salto': sorted(SIN_SALTO)}, open(AJ_PATH, 'w'), ensure_ascii=False, indent=1)
     json.dump({'entradas': E, 'paginas': pags, 'total': total}, open(B + 'indice_libro.json', 'w'), ensure_ascii=False, indent=1)
     print('final: páginas', total, 'índice verificado =', ok, 'secciones compactas', len(AJUSTES), 'residuales', len(res))

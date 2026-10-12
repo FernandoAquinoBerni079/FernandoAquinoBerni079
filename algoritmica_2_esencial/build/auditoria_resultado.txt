@@ -1,16 +1,16 @@
-AUDITORÍA AUTOMÁTICA — Algorítmica 2.º · Edición Esencial Comercial 2026 · versión v1.2
-Controles: 894 · Fallos: 0
-Commit auditado: 673a5b7a8f59356e1c370faf9e2396ca95462851 (rama claude/zen-meitner-kes7dg)
-Carpeta auditada: algoritmica_2_esencial/salida_v1_2
-  sha256 76c702fa23407fbe  Algoritmica_2do_Curso_LIBRO_ESENCIAL_COMERCIAL_2026.docx
-  sha256 6301cb896e97e198  Algoritmica_2do_Curso_LIBRO_ESENCIAL_COMERCIAL_2026.pdf
-  sha256 d40243de13243862  Algoritmica_2do_Curso_MUESTRA_COMERCIAL_2026.pdf
-  sha256 220d8c1faddacf60  Algoritmica_2do_Curso_PLANES_DE_CLASE_COMERCIAL_2026.docx
-  sha256 82a66d93712a273d  Algoritmica_2do_Curso_PLANES_DE_CLASE_COMERCIAL_2026.pdf
-  sha256 f76be51128316140  Algoritmica_2do_Curso_PLAN_ANUAL_COMERCIAL_2026.docx
-  sha256 abdb361611a319a3  Algoritmica_2do_Curso_PLAN_ANUAL_COMERCIAL_2026.pdf
-  sha256 ba18b155b36f818f  Algoritmica_2do_Curso_SOLUCIONARIO_DOCENTE_ESENCIAL_COMERCIAL_2026.docx
-  sha256 b0681b5cd5997626  Algoritmica_2do_Curso_SOLUCIONARIO_DOCENTE_ESENCIAL_COMERCIAL_2026.pdf
+AUDITORÍA AUTOMÁTICA — Algorítmica 2.º · Edición Esencial Comercial 2026 · versión v1.3
+Controles: 916 · Fallos: 0
+Commit auditado (hash Git completo): 0cbcde1586066a3a7c577319b83699a8014b5ab5 (rama claude/zen-meitner-kes7dg) — ATENCIÓN: build/ o salida con cambios sin commit
+Carpeta auditada: algoritmica_2_esencial/salida_v1_3
+  SHA-256 4f67d794893215e826f6e44a8d23f334cbd274754ef2a27278f62006194fadb8  Algoritmica_2do_Curso_LIBRO_ESENCIAL_COMERCIAL_2026.docx
+  SHA-256 6bcb41ed3ebdb8db281d46c812b3287be7a3c041217b82d3d7949763fb79c518  Algoritmica_2do_Curso_LIBRO_ESENCIAL_COMERCIAL_2026.pdf
+  SHA-256 08d00459775263857de24f2c78c8f6c436f76b3b1fed61a1c9dc67b50061a926  Algoritmica_2do_Curso_MUESTRA_COMERCIAL_2026.pdf
+  SHA-256 4feaa7de4de37832a9973497323dbd60c2a93e2ca9fd168ef94b5714a9bae98b  Algoritmica_2do_Curso_PLANES_DE_CLASE_COMERCIAL_2026.docx
+  SHA-256 8247264acabfb2a5d05a8bffc3ead1d58f7b7540b45d355c7a4b17d5b606f4e1  Algoritmica_2do_Curso_PLANES_DE_CLASE_COMERCIAL_2026.pdf
+  SHA-256 833fdaf2895a705e68e5037b6f223131363598ad5212a56ec7df748b9df02608  Algoritmica_2do_Curso_PLAN_ANUAL_COMERCIAL_2026.docx
+  SHA-256 4657246ebf9d03f2521b072f929ce77d2b889b3b7610da1dc74ccba7e4b87c55  Algoritmica_2do_Curso_PLAN_ANUAL_COMERCIAL_2026.pdf
+  SHA-256 ccd1bbf344cd3dca6aae44b8c9d85a7efe94ac5874b9c4723f44da87f556e331  Algoritmica_2do_Curso_SOLUCIONARIO_DOCENTE_ESENCIAL_COMERCIAL_2026.docx
+  SHA-256 61f4234bad1d69aac30f7c9b48b30c1ce2cbbfdf0ba8da07ea1ec043c8d540a2  Algoritmica_2do_Curso_SOLUCIONARIO_DOCENTE_ESENCIAL_COMERCIAL_2026.pdf
 
 1) COMPROBACIÓN AUTOMÁTICA (estructura, cálculos, PSeInt 20250314 re-ejecutado, índices, ocupación de hojas)
   A. Estructura y correspondencia                   120 controles · 0 fallos
@@ -23,7 +23,7 @@ Carpeta auditada: algoritmica_2_esencial/salida_v1_2
   H. Lengua, residuos y cobertura curricular         54 controles · 0 fallos
   I. Lecciones del piloto de 3.º (v2 y v2.1)         91 controles · 0 fallos
   J. Correcciones técnicas de 2.º (T1–T20)           15 controles · 0 fallos
-  K. Maquetación v1.2: hojas casi vacías y de firmas   14 controles · 0 fallos
+  K. Maquetación v1.2: hojas casi vacías y de firmas   36 controles · 0 fallos
   L. Independencia de datos entre evaluaciones       15 controles · 0 fallos
   M. Vigencia técnica (Access 2016)                   4 controles · 0 fallos
   N. Nombres de la entrega                            1 controles · 0 fallos

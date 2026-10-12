@@ -13,25 +13,32 @@
   "Práctica 17",
   "Práctica 18",
   "Práctica 20",
-  "Práctica 21",
-  "Práctica 9"
+  "Práctica 21"
  ],
  "compacto2": [
+  "Clase 11",
+  "Clase 19",
+  "Clase 9",
   "Proyecto Final Integrador",
+  "Práctica 13",
+  "Práctica 17",
   "Práctica 18",
+  "Práctica 20",
   "Práctica 21"
  ],
  "compacto3": [
-  "Proyecto Final Integrador"
+  "Clase 11",
+  "Clase 9",
+  "Proyecto Final Integrador",
+  "Práctica 17",
+  "Práctica 20",
+  "Práctica 21"
  ],
- "sin_salto": [
-  "Clase 10",
-  "Clase 14",
-  "Clase 18",
-  "Clase 21",
-  "Práctica 11",
-  "Práctica 19",
-  "Práctica 21",
-  "Práctica 9"
- ]
+ "compacto4": [
+  "Clase 11",
+  "Práctica 17",
+  "Práctica 20",
+  "Práctica 21"
+ ],
+ "sin_salto": []
 }

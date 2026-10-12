@@ -450,6 +450,22 @@ chk('K', 'Muestra: sin claves del solucionario', not re.search(r'Clave|Resultado
 mm = {round(pg.rect.width / 72 * 2.54, 1): 1 for pg in pymupdf.open(MUE)}
 chk('K', 'Muestra en oficio (21,6 cm o 33 cm de ancho)', set(mm) <= {21.6, 33.0}, mm)
 
+# v1.3 (reauditoría, hallazgo 09): la Presentación promete que cada Práctica «empieza en página propia y se puede
+# fotocopiar suelta». Se verifica literalmente: abre hoja y la hoja siguiente a su última abre la sección que sigue.
+ji2 = [(t, p) for (_, t), p in zip(ji['entradas'], ji['paginas'])]
+promesa = 'Empieza en página propia y se puede fotocopiar suelta' in TL
+for i, (t, p) in enumerate(ji2):
+    if not t.startswith('Práctica '):
+        continue
+    abre = re.sub(r'\s+', '', pags[p - 1]).startswith(re.sub(r'\s+', '', t)[:25])
+    if i + 1 < len(ji2):
+        t2, q = ji2[i + 1]
+        cierra = re.sub(r'\s+', '', pags[q - 1]).startswith(re.sub(r'\s+', '', 'UNIDAD' if t2.startswith('UNIDAD') else t2)[:20])
+    else:
+        cierra = True
+    chk('K', 'Práctica suelta: «%s» abre hoja y no comparte su última hoja' % t[:40], (abre and cierra) or not promesa)
+chk('K', 'Ninguna sección sube a la hoja de la anterior (ajustes sin_salto vacío)', not SIN_SALTO)
+
 # ---------------- L. Independencia de los datos entre evaluaciones (hallazgo 05) ----------------
 EVd = {e['id']: e for e in evaluaciones.EV}
 lineas = collections.Counter(x for e in evaluaciones.EV for x in e['base'][1] if not x.startswith('Campos:'))
@@ -487,7 +503,7 @@ chk('N', 'Carpeta de salida con los 9 archivos y los nombres de planificación c
 # ---------------- salida ----------------
 fallos = [r for r in RES if not r[2]]
 por = collections.Counter(r[0] for r in RES)
-VERSION = os.environ.get('VERSION', 'v1.2')
+VERSION = os.environ.get('VERSION', 'v1.3')
 RAIZ_GIT = os.path.dirname(os.path.dirname(B.rstrip('/')))
 def git(*a):
     return subprocess.run(['git', '-C', RAIZ_GIT] + list(a), capture_output=True, text=True).stdout.strip()
@@ -497,14 +513,14 @@ SUCIO = [l for l in SUCIO.splitlines() if not l.endswith('auditoria_resultado.tx
 with open(B + 'auditoria_resultado.txt', 'w') as f:
     f.write('AUDITORÍA AUTOMÁTICA — Algorítmica 2.º · Edición Esencial Comercial 2026 · versión %s\n' % VERSION)
     f.write('Controles: %d · Fallos: %d\n' % (len(RES), len(fallos)))
-    f.write('Commit auditado: %s (rama %s)%s\n' % (COMMIT, RAMA, ' — ATENCIÓN: build/ o salida con cambios sin commit' if SUCIO else ''))
+    f.write('Commit auditado (hash Git completo): %s (rama %s)%s\n' % (COMMIT, RAMA, ' — ATENCIÓN: build/ o salida con cambios sin commit' if SUCIO else ''))
     f.write('Carpeta auditada: %s\n' % os.path.relpath(O, RAIZ_GIT))
     for fn in sorted(os.listdir(O)):
-        f.write('  sha256 %s  %s\n' % (hashlib.sha256(open(O + fn, 'rb').read()).hexdigest()[:16], fn))
+        f.write('  SHA-256 %s  %s\n' % (hashlib.sha256(open(O + fn, 'rb').read()).hexdigest(), fn))  # v1.3: huella completa (64 hex)
     f.write('\n1) COMPROBACIÓN AUTOMÁTICA (estructura, cálculos, PSeInt 20250314 re-ejecutado, índices, ocupación de hojas)\n')
     nombres = {'A': 'Estructura y correspondencia', 'B': 'Paginación, índice, saltos y encabezados', 'C': 'Coherencia aritmética y ejecución en PSeInt', 'D': 'Libro ↔ solucionario',
                'E': 'Duplicados', 'F': 'Figuras', 'G': 'Plan Anual y Planes de Clase', 'H': 'Lengua, residuos y cobertura curricular', 'I': 'Lecciones del piloto de 3.º (v2 y v2.1)', 'J': 'Correcciones técnicas de 2.º (T1–T20)',
-               'K': 'Maquetación v1.2: hojas casi vacías y de firmas', 'L': 'Independencia de datos entre evaluaciones', 'M': 'Vigencia técnica (Access 2016)', 'N': 'Nombres de la entrega'}
+               'K': 'Maquetación: hojas vacías, firmas, prácticas sueltas', 'L': 'Independencia de datos entre evaluaciones', 'M': 'Vigencia técnica (Access 2016)', 'N': 'Nombres de la entrega'}
     for b in sorted(por):
         f.write('  %s. %-45s %4d controles · %d fallos\n' % (b, nombres[b], por[b], sum(1 for r in fallos if r[0] == b)))
     for r in fallos:

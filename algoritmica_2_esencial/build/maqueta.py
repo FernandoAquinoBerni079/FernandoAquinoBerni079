@@ -19,7 +19,8 @@ TEMPLATE = RT.TEMPLATE
 PAG_W, PAG_H, MARG = 21.6, 33.0, 1.27
 # v1.2: modo compacto por sección (lo activa build_libro sólo en las secciones que dejaban una hoja residual).
 # Interlineado sencillo y figuras al 90 % (COMPACTO = 1); además espaciados entre párrafos de 2 pt como máximo
-# (COMPACTO = 2); figuras al 80 % (COMPACTO = 3). El tamaño de letra NO cambia en ningún nivel.
+# (COMPACTO = 2); figuras al 80 % (COMPACTO = 3); márgenes internos de cajas y tablas a la mitad y subtítulos con
+# 4 pt antes (COMPACTO = 4). El tamaño de letra NO cambia en ningún nivel.
 COMPACTO = False
 ANCHO = round(PAG_W - 2 * MARG, 2)   # 19,06 cm útiles (en el Plan Anual horizontal se recalcula)
 
@@ -140,6 +141,7 @@ def keep_rows(t, salvo_ultima=True):
 
 
 def margenes_celda(t, top=60, left=100):
+    if COMPACTO >= 4: top = top // 2   # nivel 4: márgenes internos verticales a la mitad
     tblPr = t._tbl.tblPr
     m = OxmlElement('w:tblCellMar')
     for e, v in (('top', top), ('left', left), ('bottom', top), ('right', left)):
@@ -175,6 +177,7 @@ def par(d, txt='', size=10.5, bold=False, italic=False, color=None, align='j', a
 def heading(d, txt, nivel, salto=False, estilo=None):
     p = d.add_paragraph(style=estilo or 'Heading %d' % nivel)
     p.add_run(txt)
+    if COMPACTO >= 4 and nivel >= 3: p.paragraph_format.space_before = Pt(4)
     if salto:
         p.paragraph_format.page_break_before = True
     return p
