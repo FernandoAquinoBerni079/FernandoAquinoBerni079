@@ -1,12 +1,13 @@
 # -*- coding: utf-8 -*-
 """Diagramas nuevos de Algorítmica 2.º (estándar gráfico: matplotlib, 200 dpi, DejaVu Sans, VERDE BTI + acentos).
 Los siete corresponden a clases que no tenían figura (2, 4, 5, 9, 12, 16, 17)."""
+import sys as _s, os as _o; _s.path.insert(0, _o.path.dirname(_o.path.abspath(__file__)) + ('/..' if 'portadas' in __file__ else '')); import rutas as RT
 import matplotlib
 matplotlib.use('Agg')
 import matplotlib.pyplot as plt
 from matplotlib.patches import FancyBboxPatch, Polygon, Rectangle, FancyArrowPatch, Ellipse
 import os
-OUT = '/home/claude/alg2/build/figs_new/'
+OUT = RT.B + 'figs_new/'
 os.makedirs(OUT, exist_ok=True)
 DARK, MED, LIGHT, SOFT = '#1B5E20', '#2E7D32', '#E8F5E9', '#A5D6A7'
 AMB, AMBL, ROJO, AZUL, GRIS = '#B8860B', '#FFF4D6', '#C62828', '#1565C0', '#616161'

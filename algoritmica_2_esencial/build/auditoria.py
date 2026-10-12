@@ -1,7 +1,11 @@
 # -*- coding: utf-8 -*-
-"""Auditoría automática de liberación — Algorítmica 2.º Edición Esencial Comercial 2026 (v1).
+"""Auditoría automática de liberación — Algorítmica 2.º Edición Esencial Comercial 2026 (v1.2).
+v1.2 (hallazgo 08): el reporte identifica versión, commit y huella SHA-256 de cada archivo; separa la comprobación
+automática de la revisión visual; agrega controles de hojas casi vacías, hojas solo de firmas, independencia de los
+datos entre evaluaciones, advertencia de Access 2016 y nombres de la planificación compartida.
 Cada control suma al conteo; el resultado esperado es 0 fallos. Incluye la re-ejecución en PSeInt de
 los programas de las prácticas y el control de las lecciones del piloto de 3.º (v2 y v2.1)."""
+import sys as _s, os as _o; _s.path.insert(0, _o.path.dirname(_o.path.abspath(__file__)) + ('/..' if 'portadas' in __file__ else '')); import rutas as RT
 import re, json, os, collections, subprocess, hashlib
 import docx, pymupdf
 from docx.oxml.ns import qn
@@ -9,9 +13,10 @@ import actividades, practicas, evaluaciones, planes_data, preliminares as PRE
 from estructura import cargar
 import ediciones
 
-O = '/home/claude/alg2/salida/'; B = '/home/claude/alg2/build/'; PS = '/home/claude/alg2/pseint/'
+O = RT.OUT; B = RT.B; PS = RT.PS
+# v1.2 (hallazgo 07): Plan Anual y Planes de Clase llevan el nombre de planificación compartida, sin edición.
 F = {k: O + 'Algoritmica_2do_Curso_%s.docx' % k for k in
-     ('LIBRO_ESENCIAL_COMERCIAL_2026', 'SOLUCIONARIO_DOCENTE_ESENCIAL_COMERCIAL_2026', 'PLANES_DE_CLASE_ESENCIAL_COMERCIAL_2026', 'PLAN_ANUAL_ESENCIAL_COMERCIAL_2026')}
+     ('LIBRO_ESENCIAL_COMERCIAL_2026', 'SOLUCIONARIO_DOCENTE_ESENCIAL_COMERCIAL_2026', 'PLANES_DE_CLASE_COMERCIAL_2026', 'PLAN_ANUAL_COMERCIAL_2026')}
 LIB, SOL, PLA, ANU = list(F.values())
 RES = []
 
@@ -80,16 +85,34 @@ ji = json.load(open(B + 'indice_libro.json'))
 for (niv, t), p in zip(ji['entradas'], ji['paginas']):
     chk('B', 'Índice del libro: «%s» en pág. %d' % (t[:50], p), re.sub(r'\s+', '', t) in re.sub(r'\s+', '', pags[p - 1]))
 chk('B', 'Índice poblado (sin «Ctrl+E/F9» ni marcadores 000)', 'Ctrl+E' not in TL and not re.search(r'\.{5,}\s*000\b', ''.join(pags[1:5])))
+AJ = json.load(open(B + 'ajustes_paginacion.json')) if os.path.exists(B + 'ajustes_paginacion.json') else {}
+SIN_SALTO = set(AJ.get('sin_salto', []))
+
+
+def sube(t, p):
+    # sección que, por ajuste de paginación v1.2, continúa en la última hoja de la anterior: no abre página, tiene
+    # contenido antes en esa hoja y su título no queda solo al pie (le sigue texto de la sección en la misma hoja)
+    pg = re.sub(r'\s+', '', pags[p]); tt = re.sub(r'\s+', '', t)[:30]
+    i = pg.find(tt)
+    return i > 40 and len(pg) - i > 200
+
+
 for t in prs:
     p = next(i for i, x in enumerate(pags) if re.sub(r'\s+', '', t) in re.sub(r'\s+', '', x) and i > 0 and not re.search(r"\.{8,}", x))
-    chk('B', 'Salto: «%s» abre página' % t[:40], re.sub(r'\s+', '', pags[p]).startswith(re.sub(r'\s+', '', t)[:30]))
+    if t.split(' — ')[0] in SIN_SALTO:
+        chk('B', 'Ajuste v1.2: «%s» continúa en la hoja anterior con su título acompañado' % t[:40], sube(t, p))
+    else:
+        chk('B', 'Salto: «%s» abre página' % t[:40], re.sub(r'\s+', '', pags[p]).startswith(re.sub(r'\s+', '', t)[:30]))
 for e in evaluaciones.EV:
     p = next(i for i, x in enumerate(pags) if e['titulo'] in x and i > 0 and not re.search(r"\.{8,}", x))
     chk('B', 'Salto: «%s» abre página' % e['titulo'], pags[p].strip().startswith(e['titulo']))
 for t in clases:
     p = next(i for i, x in enumerate(pags) if re.sub(r'\s+', '', t) in re.sub(r'\s+', '', x) and i > 0 and not re.search(r"\.{8,}", x))
     top = re.sub(r'\s+', '', pags[p])
-    chk('B', 'Salto: «%s» abre página (o sigue a la apertura de unidad)' % t[:40], top.startswith(re.sub(r'\s+', '', t)[:25]) or top.startswith('UNIDAD'))
+    if t.split(' — ')[0] in SIN_SALTO:
+        chk('B', 'Ajuste v1.2: «%s» continúa en la hoja anterior con su título acompañado' % t[:40], sube(t, p))
+    else:
+        chk('B', 'Salto: «%s» abre página (o sigue a la apertura de unidad)' % t[:40], top.startswith(re.sub(r'\s+', '', t)[:25]) or top.startswith('UNIDAD'))
 chk('B', 'Pie «Página X de Y» en todas las páginas salvo portada y contraportada',
     all(re.search(r'Página \d+ de %d' % len(pags), pags[i]) for i in range(1, len(pags) - 1)) and 'Página' not in pags[0] and 'Página' not in pags[-1])
 for nombre, path, j in (('Solucionario', SOL, 'indice_sol.json'), ('Planes', PLA, 'indice_planes.json')):
@@ -400,16 +423,94 @@ chk('J', 'T20: «En Paraguay» reducido de 29 a 2', len(cajas_py) == 2)
 chk('J', 'Coherencia: una sola carpeta raíz del copetín (C:\\Karumbe)', 'C:\\Copetin' not in TL and 'C:\\Karumbe' in TL)
 chk('J', 'SubProceso sin parámetros escrito sin paréntesis', not re.search(r'SubProceso \w+\(\)', TL))
 
+# ---------------- K. Maquetación v1.2: hojas casi vacías y hojas solo de firmas (hallazgos 01–04) ----------------
+import ocupacion
+UMBRAL = 0.30
+MUE = O + 'Algoritmica_2do_Curso_MUESTRA_COMERCIAL_2026.pdf'
+for nombre, path in (('Libro', LIB[:-5] + '.pdf'), ('Solucionario', SOL[:-5] + '.pdf'), ('Planes de Clase', PLA[:-5] + '.pdf'),
+                     ('Plan Anual', ANU[:-5] + '.pdf'), ('Muestra', MUE)):
+    oc = ocupacion.medir(path)
+    # la última hoja del libro y de la muestra es la contraportada (imagen); las portadas no tienen texto
+    bajos = [(x[0], x[1]) for x in oc[1:] if x[1] < UMBRAL and (x[2] > 0 or x[1] > 0)]
+    chk('K', '%s: ninguna hoja interior ocupada por debajo del %d %% (sin encabezado ni pie)' % (nombre, UMBRAL * 100), not bajos, bajos)
+FIRMAS = re.compile(r'^(?:[\s_]|Docente|Dirección|—|Visto|bueno|Firma|del|docente|Página|de|\d|·|continuación|Plan de Clase N\.º[^\n]*)*$')
+for nombre, pp_ in (('Planes de Clase', ppla), ('Plan Anual', [pg.get_text() for pg in pdf(ANU)])):
+    solo = [i + 1 for i, x in enumerate(pp_) if i > 0 and FIRMAS.match(x.strip()) and ('Docente' in x or 'Firma' in x)]
+    chk('K', '%s: ninguna hoja con solo firmas o encabezado' % nombre, not solo, solo)
+chk('K', 'Planes: cada uno de los 36 planes ocupa exactamente una hoja (portada + presentación + 36 = 38)',
+    len(ppla) == 38 and [jp['paginas'][k + 1] - jp['paginas'][k] for k in range(35)] == [1] * 35 and jp['paginas'][-1] == len(ppla))
+chk('K', 'Planes: observaciones y firmas dentro de la hoja de cada plan', all('Visto bueno' in ppla[p - 1] and 'Observaciones' in ppla[p - 1] for p in jp['paginas']))
+pan = [pg.get_text() for pg in pdf(ANU)]
+chk('K', 'Plan Anual: 7 hojas; la última trae el final de la tabla (encuentro 36), los criterios y las firmas',
+    len(pan) == 7 and 'Evaluación integradora de la 2.ª etapa' in pan[-1] and 'Criterios generales' in pan[-1] and 'Firma del docente' in pan[-1])
+pmu = [pg.get_text() for pg in pymupdf.open(MUE)]
+chk('K', 'Muestra: Plan de Clase N.º 1 íntegro en una hoja (con observaciones y firmas)', any(x.strip().startswith('Plan de Clase N.º 1 ') and 'Visto bueno' in x for x in pmu))
+chk('K', 'Muestra: Práctica 1 completa (con su desafío final) y sin la Clase 2', 'Desafío final' in ' '.join(pmu) and not any(re.match(r'\s*Clase 2 — ', x) for x in pmu))
+chk('K', 'Muestra: sin claves del solucionario', not re.search(r'Clave|Resultado esperado|Opción correcta', ' '.join(pmu)))
+mm = {round(pg.rect.width / 72 * 2.54, 1): 1 for pg in pymupdf.open(MUE)}
+chk('K', 'Muestra en oficio (21,6 cm o 33 cm de ancho)', set(mm) <= {21.6, 33.0}, mm)
+
+# ---------------- L. Independencia de los datos entre evaluaciones (hallazgo 05) ----------------
+EVd = {e['id']: e for e in evaluaciones.EV}
+lineas = collections.Counter(x for e in evaluaciones.EV for x in e['base'][1] if not x.startswith('Campos:'))
+chk('L', 'Ninguna línea de datos se repite entre evaluaciones', all(v == 1 for v in lineas.values()), [k[:60] for k, v in lineas.items() if v > 1])
+U4i, E2i = evaluaciones.INSUMOS_U4, evaluaciones.INSUMOS_E2
+chk('L', 'Integradora 2: tabla Insumos propia, sin artículos de la Evaluación de la Unidad 4', not set(U4i) & set(E2i))
+for nom, (pr, cat, st) in E2i.items():
+    chk('L', 'Integradora 2: registro %s %s %s %s impreso en el libro' % (nom, pr, cat, st), ('%s %s %s %s' % (nom, '{:,}'.format(pr).replace(',', '.'), cat, st)) in TL)
+tot = sum(x[2] for x in E2i.values()); bajo = [k for k, x in E2i.items() if x[2] < 15]
+cats = [sum(x[2] for x in E2i.values() if x[1] == c) for c in ('lácteo', 'seco', 'fruta')]
+chk('L', 'Integradora 2 (recálculo): stock 120; bajo 15 Queso y Galleta; lácteo 36, seco 46, fruta 38', tot == 120 and bajo == ['Queso', 'Galleta'] and cats == [36, 46, 38])
+chk('L', 'Integradora 2 (recálculo): mayor precio Queso 16.000; ValorStock Harina 210.000 y Queso 128.000',
+    max(E2i, key=lambda k: E2i[k][0]) == 'Queso' and E2i['Harina'][0] * E2i['Harina'][2] == 210000 and E2i['Queso'][0] * E2i['Queso'][2] == 128000)
+claves_e2 = ' '.join(r for _, r in EVd['E2']['ab'])
+chk('L', 'Integradora 2: claves nuevas en el solucionario (120; Queso y Galleta; 36/46/38; 210.000; 128.000)',
+    all(x in TS for x in ('Total 120', 'Queso y Galleta', 'lácteo 36 ; seco 46 ; fruta 38', '210.000', '128.000')))
+chk('L', 'Integradora 2: sin claves viejas (122; 52/31/39; 175.000; 180.000)', not re.search(r'\b122\b|52 ; seco 31|175\.000|180\.000', claves_e2))
+chk('L', 'Integradora 2: ítems 6 y 9 sobre Harina y Queso', 'stock de Harina' in TL and 'calculalo para el Queso' in TL)
+chk('L', 'Evaluación de la Unidad 4 sin cambios (stock 122; lácteo 52, seco 31, fruta 39)', sum(x[2] for x in U4i.values()) == 122 and
+    [sum(x[2] for x in U4i.values() if x[1] == c) for c in ('lácteo', 'seco', 'fruta')] == [52, 31, 39])
+consignas = ' '.join(q for e in evaluaciones.EV for q, _ in e['ab'])
+chk('L', 'Ningún resultado de la Integradora 2 aparece en las consignas del libro', not re.search(r'210\.000|128\.000|\b120\b', ' '.join(q for q, _ in EVd['E2']['ab'])))
+
+# ---------------- M. Vigencia técnica: Access 2016 (hallazgo 06) ----------------
+chk('M', 'Libro: advertencia de fin de soporte de Access 2016 (octubre de 2025) en la Clase 19', TL.count(ediciones.ACCESS_REF) == 1 and 'octubre de 2025' in ediciones.ACCESS_REF)
+chk('M', 'Libro: advertencia breve y alternativa en papel en las Prácticas 19, 20 y 21', TL.count(ediciones.ACCESS_PR) == 3 and 'en papel' in ediciones.ACCESS_PR)
+chk('M', 'Solucionario: advertencia de fin de soporte y recomendación de Access para Microsoft 365 o Access 2024', 'octubre de 2025' in TS and 'Access 2024' in TS)
+chk('M', 'Sin «versión más usada» ni afirmaciones de verificación en Access que no se hizo', not re.search(r'verificaron históricamente|más usad', TL + TS))
+
+# ---------------- N. Nombres de la entrega (hallazgo 07) ----------------
+esperados = {'Algoritmica_2do_Curso_%s.%s' % (n, x) for n in ('LIBRO_ESENCIAL_COMERCIAL_2026', 'SOLUCIONARIO_DOCENTE_ESENCIAL_COMERCIAL_2026',
+             'PLANES_DE_CLASE_COMERCIAL_2026', 'PLAN_ANUAL_COMERCIAL_2026') for x in ('docx', 'pdf')} | {'Algoritmica_2do_Curso_MUESTRA_COMERCIAL_2026.pdf'}
+chk('N', 'Carpeta de salida con los 9 archivos y los nombres de planificación compartida', set(os.listdir(O)) == esperados, sorted(set(os.listdir(O)) ^ esperados))
+
 # ---------------- salida ----------------
 fallos = [r for r in RES if not r[2]]
 por = collections.Counter(r[0] for r in RES)
+VERSION = os.environ.get('VERSION', 'v1.2')
+RAIZ_GIT = os.path.dirname(os.path.dirname(B.rstrip('/')))
+def git(*a):
+    return subprocess.run(['git', '-C', RAIZ_GIT] + list(a), capture_output=True, text=True).stdout.strip()
+COMMIT = git('rev-parse', 'HEAD'); RAMA = git('rev-parse', '--abbrev-ref', 'HEAD')
+SUCIO = git('status', '--porcelain', '--', os.path.relpath(B, RAIZ_GIT), os.path.relpath(O, RAIZ_GIT))
 with open(B + 'auditoria_resultado.txt', 'w') as f:
-    f.write('AUDITORÍA AUTOMÁTICA — Algorítmica 2.º · Edición Esencial Comercial 2026 · versión v1\n')
+    f.write('AUDITORÍA AUTOMÁTICA — Algorítmica 2.º · Edición Esencial Comercial 2026 · versión %s\n' % VERSION)
     f.write('Controles: %d · Fallos: %d\n' % (len(RES), len(fallos)))
+    f.write('Commit auditado: %s (rama %s)%s\n' % (COMMIT, RAMA, ' — ATENCIÓN: build/ o salida con cambios sin commit' if SUCIO else ''))
+    f.write('Carpeta auditada: %s\n' % os.path.relpath(O, RAIZ_GIT))
+    for fn in sorted(os.listdir(O)):
+        f.write('  sha256 %s  %s\n' % (hashlib.sha256(open(O + fn, 'rb').read()).hexdigest()[:16], fn))
+    f.write('\n1) COMPROBACIÓN AUTOMÁTICA (estructura, cálculos, PSeInt 20250314 re-ejecutado, índices, ocupación de hojas)\n')
     nombres = {'A': 'Estructura y correspondencia', 'B': 'Paginación, índice, saltos y encabezados', 'C': 'Coherencia aritmética y ejecución en PSeInt', 'D': 'Libro ↔ solucionario',
-               'E': 'Duplicados', 'F': 'Figuras', 'G': 'Plan Anual y Planes de Clase', 'H': 'Lengua, residuos y cobertura curricular', 'I': 'Lecciones del piloto de 3.º (v2 y v2.1)', 'J': 'Correcciones técnicas de 2.º (T1–T20)'}
+               'E': 'Duplicados', 'F': 'Figuras', 'G': 'Plan Anual y Planes de Clase', 'H': 'Lengua, residuos y cobertura curricular', 'I': 'Lecciones del piloto de 3.º (v2 y v2.1)', 'J': 'Correcciones técnicas de 2.º (T1–T20)',
+               'K': 'Maquetación v1.2: hojas casi vacías y de firmas', 'L': 'Independencia de datos entre evaluaciones', 'M': 'Vigencia técnica (Access 2016)', 'N': 'Nombres de la entrega'}
     for b in sorted(por):
         f.write('  %s. %-45s %4d controles · %d fallos\n' % (b, nombres[b], por[b], sum(1 for r in fallos if r[0] == b)))
     for r in fallos:
         f.write('FALLO [%s] %s — %s\n' % (r[0], r[1], r[3]))
+    f.write('\n2) REVISIÓN VISUAL (no automatizable; se registra aparte en las notas del piloto)\n')
+    f.write('  La ocupación de hojas se mide sobre el PDF de LibreOffice; Word puede paginar distinto. La legibilidad, los cortes de\n')
+    f.write('  tablas y figuras, y la relación entre títulos y contenido se revisan a ojo sobre las páginas renderizadas.\n')
+    f.write('\n0 fallos automáticos NO equivale a APTO editorial: la aptitud la dictamina la auditoría independiente y la\n')
+    f.write('aprobación para la venta corresponde exclusivamente a Fer.\n')
 print(open(B + 'auditoria_resultado.txt').read())

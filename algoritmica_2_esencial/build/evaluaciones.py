@@ -65,18 +65,24 @@ EV = [
       ('Escribí el campo calculado ValorStock y calculalo para la Crema y el Limón.', 'ValorStock: [precio]*[stock]. Crema 18.000 × 12 = 216.000 ; Limón 8.000 × 30 = 240.000.'),
       ('Completá una consulta de referencias cruzadas categoría × nivel («reponer» si stock < 15, «ok» si no) y escribí el campo calculado que la prepara.', 'Nivel: SiInm([stock]<15;"reponer";"ok") (IIf en la vista SQL). Grilla: lácteo ok 1 / reponer 1 ; seco 1 / 1 ; fruta 1 / 1. Totales: ok 3, reponer 3, general 6.')]),
  dict(id='E2', tras=21, titulo='Evaluación integradora de la 2.ª etapa', sub='Unidades 1 a 4 · Cierre de la 2.ª etapa (noviembre)', etapa=True,
-  base=('Datos de la evaluación — tabla Insumos de la heladería Yvoty', ['INS-01 Leche 9.000 lácteo 40 · INS-02 Crema 18.000 lácteo 12 · INS-03 Azúcar 7.000 seco 25 · INS-04 Cacao 30.000 seco 6 · INS-05 Frutilla 22.000 fruta 9 · INS-06 Limón 8.000 fruta 30',
+  base=('Datos de la evaluación — tabla Insumos de la heladería Yvoty (carga de noviembre)', ['HEL-11 Yogur 11.000 lácteo 28 · HEL-12 Queso 16.000 lácteo 8 · HEL-13 Harina 6.000 seco 35 · HEL-14 Galleta 14.000 seco 11 · HEL-15 Mango 12.000 fruta 16 · HEL-16 Naranja 5.000 fruta 22',
                                                                          'Campos: codigo, nombre, precio, categoria, stock.']),
   mc=[('Para recorrer una matriz completa se necesitan:', ['un filtro', 'dos ciclos anidados', 'un ciclo', 'ningún ciclo'], 'b'),
       ('Un archivo se guarda en la:', ['RAM', 'consulta', 'memoria secundaria', 'variable'], 'c'),
       ('Un filtro sobre una tabla:', ['muestra solo los registros que cumplen la condición', 'ordena la tabla', 'borra registros', 'crea un campo'], 'a')],
-  ab=[('Escribí un algoritmo con Para que cargue el vector stock[6] con los stocks de Insumos, calcule el stock total y cuente cuántos insumos tienen menos de 15 unidades.', 'Para i <- 1 Hasta 6: Leer stock[i] ; total <- total + stock[i] ; Si stock[i] < 15 Entonces cont <- cont + 1 FinSi FinPara. Total 122 ; 3 insumos con menos de 15.'),
-      ('Ordená de mayor a menor el vector de precios con el método de selección e indicá qué insumo queda primero.', '[30.000, 22.000, 18.000, 9.000, 8.000, 7.000]; queda primero el Cacao.'),
-      ('Definí una función ValorStock(precio, stock) y calculá el valor del stock de Azúcar.', 'Funcion v <- ValorStock(precio, stock) v <- precio * stock FinFuncion ; ValorStock(7000, 25) = 175.000.'),
+  ab=[('Escribí un algoritmo con Para que cargue el vector stock[6] con los stocks de Insumos, calcule el stock total y cuente cuántos insumos tienen menos de 15 unidades.', 'Para i <- 1 Hasta 6: Leer stock[i] ; total <- total + stock[i] ; Si stock[i] < 15 Entonces cont <- cont + 1 FinSi FinPara. Total 120 ; 2 insumos con menos de 15 (Queso y Galleta).'),
+      ('Ordená de mayor a menor el vector de precios con el método de selección e indicá qué insumo queda primero.', '[16.000, 14.000, 12.000, 11.000, 6.000, 5.000]; queda primero el Queso.'),
+      ('Definí una función ValorStock(precio, stock) y calculá el valor del stock de Harina.', 'Funcion v <- ValorStock(precio, stock) v <- precio * stock FinFuncion ; ValorStock(6000, 35) = 210.000.'),
       ('Escribí en la notación del libro el procedimiento que guarda los seis insumos en insumos.txt, una línea por insumo con el formato código;stock.', 'Abrir "insumos.txt" Para Escritura ; Para i <- 1 Hasta 6 Con Paso 1 Hacer Escribir Archivo codigos[i], ";", stock[i] FinPara ; Cerrar Archivo.'),
-      ('Aplicá a Insumos el filtro stock < 15 y una consulta de totales que sume el stock por categoría; indicá ambos resultados y verificá que el total coincida con el del ejercicio 4.', 'Filtro: Crema, Cacao y Frutilla (3). Totales: lácteo 52 ; seco 31 ; fruta 39 ; suma 122, igual que el total del algoritmo.'),
-      ('Escribí el campo calculado ValorStock y calculalo para el Cacao; después explicá qué decisión podría tomar la heladería con ese dato y con su stock.', 'ValorStock: [precio]*[stock] → 30.000 × 6 = 180.000. Decisión coherente: es el insumo más caro y con menos stock; conviene reponerlo primero o negociar el precio. Se acepta toda decisión justificada con los datos.')]),
+      ('Aplicá a Insumos el filtro stock < 15 y una consulta de totales que sume el stock por categoría; indicá ambos resultados y verificá que el total coincida con el del ejercicio 4.', 'Filtro: Queso y Galleta (2). Totales: lácteo 36 ; seco 46 ; fruta 38 ; suma 120, igual que el total del algoritmo.'),
+      ('Escribí el campo calculado ValorStock y calculalo para el Queso; después explicá qué decisión podría tomar la heladería con ese dato y con su stock.', 'ValorStock: [precio]*[stock] → 16.000 × 8 = 128.000. Decisión coherente: es el insumo más caro (16.000) y con menos stock (8); conviene reponerlo primero o negociar el precio. Se acepta toda decisión justificada con los datos.')]),
 ]
+
+# v1.2 (hallazgo 05): la integradora de la 2.ª etapa tiene su propia tabla Insumos (HEL-11 a HEL-16); la de la
+# Evaluación de la Unidad 4 (INS-01 a INS-06) no cambia. Ningún resultado se muestra en el libro del estudiante.
+INSUMOS_U4 = {'Leche': (9000, 'lácteo', 40), 'Crema': (18000, 'lácteo', 12), 'Azúcar': (7000, 'seco', 25), 'Cacao': (30000, 'seco', 6), 'Frutilla': (22000, 'fruta', 9), 'Limón': (8000, 'fruta', 30)}
+INSUMOS_E2 = {'Yogur': (11000, 'lácteo', 28), 'Queso': (16000, 'lácteo', 8), 'Harina': (6000, 'seco', 35), 'Galleta': (14000, 'seco', 11), 'Mango': (12000, 'fruta', 16), 'Naranja': (5000, 'fruta', 22)}
+
 
 if __name__ == '__main__':
     for e in EV:

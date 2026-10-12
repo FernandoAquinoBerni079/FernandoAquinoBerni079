@@ -2,14 +2,15 @@
 """Extrae los bloques del tomo vigente de Algorítmica 2.º. El .docx (8,1 MB) excede el conector de Drive:
 la estructura se toma de la exportación de texto del .docx (markdown) y el contenido de los recuadros, con
 sus saltos de línea y la sangría del pseudocódigo, del PDF de la misma edición (26/08/2026)."""
+import sys as _s, os as _o; _s.path.insert(0, _o.path.dirname(_o.path.abspath(__file__)) + ('/..' if 'portadas' in __file__ else '')); import rutas as RT
 import re, json
 import pymupdf
 
-SRC = '/home/claude/alg2/src/'
+SRC = RT.SRC
 MD = SRC + 'Algoritmica_2do_Curso_TOMO_COMPLETO.txt'
 PDF = SRC + 'Algoritmica_2do_Curso_TOMO_COMPLETO.pdf'
-OUT = '/home/claude/alg2/build/tomo_blocks.json'
-FIGDIR = '/home/claude/alg2/build/figs_src/'
+OUT = RT.B + 'tomo_blocks.json'
+FIGDIR = RT.B + 'figs_src/'
 
 # figuras con epígrafe, en orden de aparición → xref del PDF (las tres imágenes sin epígrafe se descartan: T14)
 FIG_XREF = {'1.1': 823, '1.2': 1433, '1.3': 2333, '1.4': 2423, '1.5': 2755, '2.1': 3020, '2.2': 3628, '2.3': 3950,

@@ -1,8 +1,9 @@
 # -*- coding: utf-8 -*-
 """Divide los bloques del tomo de 2.º en clases, con su ficha, cuerpo y unidad (mismo formato que el piloto de 3.º)."""
+import sys as _s, os as _o; _s.path.insert(0, _o.path.dirname(_o.path.abspath(__file__)) + ('/..' if 'portadas' in __file__ else '')); import rutas as RT
 import json, re
 
-B_PATH = '/home/claude/alg2/build/tomo_blocks.json'
+B_PATH = RT.B + 'tomo_blocks.json'
 
 
 def cargar():

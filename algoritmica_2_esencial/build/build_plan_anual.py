@@ -1,6 +1,7 @@
 # -*- coding: utf-8 -*-
 """Plan Anual — Edición Esencial Comercial 2026. 36 filas (una por encuentro, misma numeración que los
 Planes de Clase). Temas e indicadores leídos de las fichas del libro; procedimientos e instrumentos únicos."""
+import sys as _s, os as _o; _s.path.insert(0, _o.path.dirname(_o.path.abspath(__file__)) + ('/..' if 'portadas' in __file__ else '')); import rutas as RT
 import re
 from docx.shared import Pt, Cm, RGBColor
 from docx.enum.text import WD_ALIGN_PARAGRAPH
@@ -12,8 +13,8 @@ import planes_data
 import ediciones
 from build_libro import a_pdf
 
-B = '/home/claude/alg2/build/'; OUT = '/home/claude/alg2/salida/'
-NOMBRE = 'Algoritmica_2do_Curso_PLAN_ANUAL_ESENCIAL_COMERCIAL_2026'
+B = RT.B; OUT = RT.OUT
+NOMBRE = 'Algoritmica_2do_Curso_PLAN_ANUAL_COMERCIAL_2026'  # v1.2 (hallazgo 07): planificación compartida, sin edición en el nombre
 ANCHOS = [1.0, 5.0, 6.8, 1.5, 5.3, 4.2, 2.8]
 COLS = ['N.º', 'TEMAS', 'INDICADORES DE LOGRO', 'TIEMPO', 'PROCEDIMIENTOS', 'INSTRUMENTOS DE EVALUACIÓN', 'OBSERVACIÓN']
 DARK, MED, LIGHT, AZUL, AZUL_CLARO = '1B5E20', '2E7D32', 'E8F5E9', '1B4F72', 'EAF0F6'
@@ -125,22 +126,31 @@ def construir():
             M.shd(rr.cells[0], LIGHT)
     M.cant_split(t, header=True)
     M.par(d, '', despues=4)
-    M.par(d, 'Criterios generales de planificación', 10, True, color=DARK, keep=True)
-    for x in ['Enfoque constructivista «Aprender Haciendo»: cada clase parte de un problema del caso integrador del Copetín Karumbé; las prácticas usan otro contexto (la Librería escolar Arandu) para transferir lo aprendido.',
+    # v1.2 (hallazgo 03): criterios e inclusión en dos columnas y firmas en la misma tabla de cierre, sin bordes,
+    # para que el cierre quede completo en la última hoja de la tabla anual (no queda una página solo de firmas).
+    CRITERIOS = ['Enfoque constructivista «Aprender Haciendo»: cada clase parte de un problema del caso integrador del Copetín Karumbé; las prácticas usan otro contexto (la Librería escolar Arandu) para transferir lo aprendido.',
               'Cada clase se acompaña de su práctica, incluida en el libro del estudiante a continuación de la clase y con la misma numeración, en PSeInt, en el Explorador de archivos o en Microsoft Access.',
               'La evaluación es continua y formativa: los instrumentos por encuentro se complementan con las evaluaciones de unidad y las integradoras de etapa (junio y noviembre) y con la rúbrica del Proyecto Final Integrador.',
-              'La numeración de encuentros es continua (1 a 36) y coincide con la de los Planes de Clase; la carga es de 4 horas cátedra semanales, con flexibilidad para reforzar según el ritmo del grupo.']:
-        M.par(d, '• ' + x, 8.5, despues=1)
-    M.par(d, 'Estrategias de inclusión', 10, True, color=DARK, keep=True, antes=4)
-    for x in ['Consignas presentadas en forma oral y escrita, con ejemplos resueltos como modelo antes de la ejercitación individual.',
+              'La numeración de encuentros es continua (1 a 36) y coincide con la de los Planes de Clase; la carga es de 4 horas cátedra semanales, con flexibilidad para reforzar según el ritmo del grupo.']
+    INCLUSION = ['Consignas presentadas en forma oral y escrita, con ejemplos resueltos como modelo antes de la ejercitación individual.',
               'Trabajo en parejas o pequeños grupos heterogéneos en las prácticas, con roles rotativos y andamiaje entre pares.',
               'Tiempo adicional y ejercitación graduada para quienes lo requieran; desafíos finales para quienes terminan antes.',
               'Apoyos visuales (figuras, tablas y diagramas) y alternativa en papel cuando el laboratorio no está disponible.',
-              'Adecuaciones razonables de acceso (ubicación, tamaño de fuente, apoyos técnicos) según las necesidades documentadas del estudiante.']:
-        M.par(d, '• ' + x, 8.5, despues=1)
-    M.par(d, '', despues=14)
-    M.par(d, '__________________________________                                        __________________________________', 9.5, align='c', despues=0)
-    M.par(d, 'Firma del docente                                                                         Dirección — Visto bueno', 9, align='c')
+              'Adecuaciones razonables de acceso (ubicación, tamaño de fuente, apoyos técnicos) según las necesidades documentadas del estudiante.']
+    tc = d.add_table(rows=2, cols=2)
+    M.margenes_celda(tc, 20, 80); M.ancho_fijo(tc, [1, 1])
+    for j, (tit, items) in enumerate((('Criterios generales de planificación', CRITERIOS), ('Estrategias de inclusión', INCLUSION))):
+        c = tc.rows[0].cells[j]
+        p = c.paragraphs[0]; p.paragraph_format.space_after = Pt(2)
+        M.run(p, tit, True, size=10, color=DARK)
+        for x in items:
+            q = c.add_paragraph(); q.paragraph_format.space_after = Pt(1)
+            M.run(q, '• ' + x, size=8.5)
+    for j, rot in enumerate(('Firma del docente: ______________________________', 'Dirección — Visto bueno: ______________________________')):
+        p = tc.rows[1].cells[j].paragraphs[0]; p.alignment = WD_ALIGN_PARAGRAPH.CENTER
+        p.paragraph_format.space_before = Pt(16); p.paragraph_format.space_after = Pt(0)
+        M.run(p, rot, size=9.5)
+    M.cant_split(tc); M.keep_rows(tc, salvo_ultima=True)
     M.pie_paginas(d, sec)
     M.no_actualizar_campos(d)
     M.purgar_relaciones(d)

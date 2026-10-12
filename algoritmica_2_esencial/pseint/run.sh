@@ -1,6 +1,6 @@
 #!/bin/bash
 # uso: run.sh archivo.psc in1 in2 ...  (el .psc se convierte a latin-1 antes de ejecutar)
-P=/home/claude/pseint/pseint
+P=${PSEINT_DIR:-/home/claude/pseint/pseint}   # v1.2: ruta configurable con PSEINT_DIR
 f=$1; shift
 iconv -f utf-8 -t latin1 "$f" > /tmp/claude-0/_run.psc
 args=()

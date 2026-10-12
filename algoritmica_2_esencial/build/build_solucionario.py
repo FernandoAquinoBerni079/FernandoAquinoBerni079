@@ -1,13 +1,14 @@
 # -*- coding: utf-8 -*-
 """Solucionario Docente — Edición Esencial Comercial 2026. Se genera desde las mismas fuentes que el libro
 (actividades.py, practicas.py, evaluaciones.py, preliminares.py): no puede quedar ninguna respuesta de ejercicios viejos."""
+import sys as _s, os as _o; _s.path.insert(0, _o.path.dirname(_o.path.abspath(__file__)) + ('/..' if 'portadas' in __file__ else '')); import rutas as RT
 import os, re, json
 import maqueta as M
 from estructura import cargar
 import ediciones, actividades, practicas, evaluaciones, preliminares as PRE
 from build_libro import a_pdf
 
-B = '/home/claude/alg2/build/'; OUT = '/home/claude/alg2/salida/'
+B = RT.B; OUT = RT.OUT
 NOMBRE = 'Algoritmica_2do_Curso_SOLUCIONARIO_DOCENTE_ESENCIAL_COMERCIAL_2026'
 pre, C, _, U = cargar()
 ediciones.aplicar(C)
@@ -35,7 +36,7 @@ def construir(pags=None):
     M.heading(d, 'Presentación', 1, estilo='Título preliminar')
     for t in ['Este solucionario es material exclusivo del docente. Contiene, con la misma numeración del libro del estudiante, las respuestas de todas las actividades de aplicación de las 21 clases, las orientaciones para corregir la prueba diagnóstica y las claves de las cuatro evaluaciones de unidad y de las dos integradoras de etapa, con el desarrollo de los cálculos.',
               'Incluye además, para cada una de las 21 prácticas del libro, el resultado esperado y los errores frecuentes que conviene vigilar durante la sesión, y las orientaciones y la rúbrica del Proyecto Final Integrador. El libro del estudiante no contiene respuestas: los puntos de control de las prácticas permiten verificar el trabajo sin revelar el resultado.',
-              'Las capacidades de cada ficha se reproducen textualmente del programa MEC vigente; los indicadores de logro son operativizaciones observables. Los algoritmos de las Prácticas 1 a 14 se ejecutaron en PSeInt 20250314 con el perfil Flexible, que es el perfil de referencia del libro; los mensajes de error citados son los de esa versión. Los procedimientos del Explorador de archivos y de Access (referencia: Access 2016 en castellano) no se ejecutaron en el programa: sus resultados se verificaron con un script sobre los mismos datos, y los rótulos que dependen de la interfaz quedan señalados para verificación manual.',
+              'Las capacidades de cada ficha se reproducen textualmente del programa MEC vigente; los indicadores de logro son operativizaciones observables. Los algoritmos de las Prácticas 1 a 14 se ejecutaron en PSeInt 20250314 con el perfil Flexible, que es el perfil de referencia del libro; los mensajes de error citados son los de esa versión. Los procedimientos del Explorador de archivos y de Access no se ejecutaron en el programa: sus resultados se verificaron con un script sobre los mismos datos, y los rótulos que dependen de la interfaz quedan señalados para verificación manual. Las rutas de Access toman como referencia Access 2016 en castellano, versión cuyo soporte finalizó en octubre de 2025; para las clases de 2026 se recomienda Access para Microsoft 365 o Access 2024 con licencia y soporte vigentes, comprobando rutas de menú y separadores de expresiones según la configuración regional del laboratorio. Las Prácticas 19 a 21 mantienen la alternativa en papel con la tabla de datos de la práctica.',
               'Cada pieza tiene sus propios datos para que las respuestas no se copien de los ejemplos: el Copetín Karumbé en las clases (semana 1: G. 4.200.000; semana 2 de las actividades: G. 4.480.000), la Librería escolar Arandu en las prácticas y la heladería Yvoty y la fotocopiadora Ñandutí en las evaluaciones. Todas las cifras de este solucionario se verificaron por cálculo antes de la edición.']:
         M.par(d, t)
     M.heading(d, 'Índice', 1, salto=True, estilo='Título preliminar')
@@ -46,8 +47,8 @@ def construir(pags=None):
     M.par(d, 'La prueba no lleva nota. Sirve para conocer el punto de partida del grupo y calibrar el ritmo de la Unidad 1 (cálculo de importes y porcentajes, orden de los pasos).', 10, italic=True)
     for i, (q, o) in enumerate(PRE.DIAGNOSTICA, 1):
         M.par(d, 'Consigna %d — %s' % (i, o), 10, indent=0.2, despues=3)
-    # primera parte
-    M.heading(d, E[1][1], 1, salto=True)
+    # primera parte — v1.2: sigue en la misma hoja de la diagnóstica (que ocupa un quinto de página) en lugar de dejarla casi vacía
+    h = M.heading(d, E[1][1], 1); h.paragraph_format.space_before = M.Pt(20)
     u_prev = None
     for n in range(1, 22):
         if C[n]['unidad'] != u_prev:

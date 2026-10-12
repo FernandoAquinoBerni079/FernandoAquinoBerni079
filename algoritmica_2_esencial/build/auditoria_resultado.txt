@@ -1,5 +1,18 @@
-AUDITORÍA AUTOMÁTICA — Algorítmica 2.º · Edición Esencial Comercial 2026 · versión v1
-Controles: 860 · Fallos: 0
+AUDITORÍA AUTOMÁTICA — Algorítmica 2.º · Edición Esencial Comercial 2026 · versión v1.2
+Controles: 894 · Fallos: 0
+Commit auditado: 5ce7e24c44d9fb5c0d2fee0d1c79938d479dd08e (rama claude/zen-meitner-kes7dg) — ATENCIÓN: build/ o salida con cambios sin commit
+Carpeta auditada: algoritmica_2_esencial/_t
+  sha256 09fe1826c7094beb  Algoritmica_2do_Curso_LIBRO_ESENCIAL_COMERCIAL_2026.docx
+  sha256 7ad1251b5e398e55  Algoritmica_2do_Curso_LIBRO_ESENCIAL_COMERCIAL_2026.pdf
+  sha256 fc32ce1a3c298072  Algoritmica_2do_Curso_MUESTRA_COMERCIAL_2026.pdf
+  sha256 ef54cc0833a23896  Algoritmica_2do_Curso_PLANES_DE_CLASE_COMERCIAL_2026.docx
+  sha256 5f2888893b259785  Algoritmica_2do_Curso_PLANES_DE_CLASE_COMERCIAL_2026.pdf
+  sha256 7bc5e10886bfcc5f  Algoritmica_2do_Curso_PLAN_ANUAL_COMERCIAL_2026.docx
+  sha256 4d5d979022b985c2  Algoritmica_2do_Curso_PLAN_ANUAL_COMERCIAL_2026.pdf
+  sha256 263316cee6667de5  Algoritmica_2do_Curso_SOLUCIONARIO_DOCENTE_ESENCIAL_COMERCIAL_2026.docx
+  sha256 8c51d71a1302a56a  Algoritmica_2do_Curso_SOLUCIONARIO_DOCENTE_ESENCIAL_COMERCIAL_2026.pdf
+
+1) COMPROBACIÓN AUTOMÁTICA (estructura, cálculos, PSeInt 20250314 re-ejecutado, índices, ocupación de hojas)
   A. Estructura y correspondencia                   120 controles · 0 fallos
   B. Paginación, índice, saltos y encabezados       142 controles · 0 fallos
   C. Coherencia aritmética y ejecución en PSeInt     69 controles · 0 fallos
@@ -10,3 +23,14 @@ Controles: 860 · Fallos: 0
   H. Lengua, residuos y cobertura curricular         54 controles · 0 fallos
   I. Lecciones del piloto de 3.º (v2 y v2.1)         91 controles · 0 fallos
   J. Correcciones técnicas de 2.º (T1–T20)           15 controles · 0 fallos
+  K. Maquetación v1.2: hojas casi vacías y de firmas   14 controles · 0 fallos
+  L. Independencia de datos entre evaluaciones       15 controles · 0 fallos
+  M. Vigencia técnica (Access 2016)                   4 controles · 0 fallos
+  N. Nombres de la entrega                            1 controles · 0 fallos
+
+2) REVISIÓN VISUAL (no automatizable; se registra aparte en las notas del piloto)
+  La ocupación de hojas se mide sobre el PDF de LibreOffice; Word puede paginar distinto. La legibilidad, los cortes de
+  tablas y figuras, y la relación entre títulos y contenido se revisan a ojo sobre las páginas renderizadas.
+
+0 fallos automáticos NO equivale a APTO editorial: la aptitud la dictamina la auditoría independiente y la
+aprobación para la venta corresponde exclusivamente a Fer.

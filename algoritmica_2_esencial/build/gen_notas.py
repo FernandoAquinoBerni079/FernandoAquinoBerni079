@@ -1,15 +1,16 @@
 # -*- coding: utf-8 -*-
 """NOTAS_PILOTO_ALGORITMICA_2_ESENCIAL_v1.md: hallazgos del diagnóstico, corrección aplicada, archivo/página y estado."""
+import sys as _s, os as _o; _s.path.insert(0, _o.path.dirname(_o.path.abspath(__file__)) + ('/..' if 'portadas' in __file__ else '')); import rutas as RT
 import json, re
 from estructura import cargar
 import ediciones, practicas, evaluaciones
 _p, C, _e, U = cargar(); ediciones.aplicar(C); ediciones.fig_refs(C)
-J = json.load(open('/home/claude/alg2/build/indice_libro.json')); PG = {t: p for (n, t), p in zip(J['entradas'], J['paginas'])}
+J = json.load(open(RT.B + 'indice_libro.json')); PG = {t: p for (n, t), p in zip(J['entradas'], J['paginas'])}
 def pc(n): return [p for t, p in PG.items() if t.startswith('Clase %d —' % n)][0]
 def pp(n): return [p for t, p in PG.items() if t.startswith('Práctica %d —' % n)][0]
 def pe(i): return PG[[e for e in evaluaciones.EV if e['id'] == i][0]['titulo']]
 LIB, SOL, PA, PL = 'Libro', 'Solucionario', 'Plan Anual', 'Planes de Clase'
-AUD = open('/home/claude/alg2/build/auditoria_resultado.txt').read().splitlines()[1]
+AUD = open(RT.B + 'auditoria_resultado.txt').read().splitlines()[1]
 R = []
 def r(h, c, a, e='CORREGIDO'): R.append((h, c, a, e))
 

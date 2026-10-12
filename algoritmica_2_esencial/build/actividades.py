@@ -4,10 +4,11 @@ Base: las 12 actividades de cada clase del tomo vigente, emparejadas con su resp
 (acts_base.json). Se reemplazan las que copiaban el ejemplo resuelto de la clase o revelaban el
 resultado, y las que usaban notación vieja. Marcador N = ítem nuevo o modificado (notas del piloto).
 Datos nuevos (verificados por cálculo): semana 2 del copetín, matriz de bebidas, vector del ranking."""
+import sys as _s, os as _o; _s.path.insert(0, _o.path.dirname(_o.path.abspath(__file__)) + ('/..' if 'portadas' in __file__ else '')); import rutas as RT
 import json
 
 FAM = {'Ejercitá': 'Ejercitá', 'Resolvé': 'Resolvé (caso Copetín Karumbé)', 'Pensá': 'Pensá y decidí (justificá tu respuesta)', 'Desafío': 'Desafío'}
-BASE = json.load(open('/home/claude/alg2/build/acts_base.json'))
+BASE = json.load(open(RT.B + 'acts_base.json'))
 
 SEM2 = [350000, 520000, 660000, 470000, 1250000, 900000, 330000]
 DIAS = ['Lunes', 'Martes', 'Miércoles', 'Jueves', 'Viernes', 'Sábado', 'Domingo']

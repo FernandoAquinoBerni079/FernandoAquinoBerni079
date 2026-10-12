@@ -37,8 +37,14 @@ def caps(cods):
     return [MEC[c] for c in cods]
 
 
-ACCESS_REF = ('Los procedimientos de este libro toman como referencia Access 2016 en castellano; las versiones posteriores '
-              'mantienen en general los mismos conceptos, aunque algún nombre o ubicación de comando puede variar.')
+# v1.2 (hallazgo 06): advertencia de ciclo de vida. Access 2016 dejó de tener soporte de Microsoft en octubre de 2025.
+ACCESS_REF = ('Las rutas de menú de este libro toman como referencia Access 2016 en castellano, versión cuyo soporte finalizó '
+              'en octubre de 2025. Para las clases de 2026 se recomienda Access para Microsoft 365 o Access 2024, con licencia y '
+              'soporte vigentes: los conceptos son los mismos, pero conviene comprobar las rutas de menú y el separador de las '
+              'expresiones (punto y coma o coma) según la configuración regional del equipo.')
+ACCESS_PR = ('Las rutas de menú corresponden a Access 2016 en castellano, sin soporte desde octubre de 2025; en Access para '
+             'Microsoft 365 o Access 2024 comprobá las rutas y el separador de las expresiones. Si no hay laboratorio, resolvé '
+             'las actividades en papel con la tabla de datos de la práctica.')
 
 # ---------------------------------------------------------------- política de recuadros «En Paraguay» (v2 de 3.º)
 # 'keep' = contenido paraguayo concreto y verificable · ('ret', título, cuerpo|None) · 'del' · ('p', cuerpo|None) = párrafo común

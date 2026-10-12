@@ -1,8 +1,9 @@
 # -*- coding: utf-8 -*-
 """Genera los HTML de portada (libro, solucionario, plan anual, planes), contraportada y lámina,
 y los rasteriza con Chromium (render.js) a JPG A4."""
+import sys as _s, os as _o; _s.path.insert(0, _o.path.dirname(_o.path.abspath(__file__)) + ('/..' if 'portadas' in __file__ else '')); import rutas as RT
 import os, subprocess
-D = '/home/claude/alg2/build/portadas/'
+D = RT.B + 'portadas/'
 F = 'fonts/'
 CSS = """
 @font-face{font-family:'Merri';font-weight:700;src:url('%(f)su-4D0qyriQwlOrhSvowK_l5UcA6zuSYEqOzpPe3HOZJ5eX1WtLaQwmYiScCmDxhtNOKl8yDrOSAqEw.ttf');}

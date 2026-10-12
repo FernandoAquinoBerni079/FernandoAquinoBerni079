@@ -3,6 +3,7 @@
 Una sección por plan: título con estilo «Plan de Clase», banda, datos, capacidad/indicadores, momentos
 (cantSplit selectivo: Desarrollo divisible), recursos, evaluación, observaciones y firmas; encabezado de
 continuación por STYLEREF; portada a página completa; índice poblado y verificado contra el PDF."""
+import sys as _s, os as _o; _s.path.insert(0, _o.path.dirname(_o.path.abspath(__file__)) + ('/..' if 'portadas' in __file__ else '')); import rutas as RT
 import os, re, json
 from docx.shared import Pt, Cm, RGBColor
 from docx.enum.text import WD_ALIGN_PARAGRAPH
@@ -15,8 +16,8 @@ import maqueta as M
 import planes_data
 from build_libro import a_pdf
 
-B = '/home/claude/alg2/build/'; OUT = '/home/claude/alg2/salida/'
-NOMBRE = 'Algoritmica_2do_Curso_PLANES_DE_CLASE_ESENCIAL_COMERCIAL_2026'
+B = RT.B; OUT = RT.OUT
+NOMBRE = 'Algoritmica_2do_Curso_PLANES_DE_CLASE_COMERCIAL_2026'  # v1.2 (hallazgo 07): planificación compartida, sin edición en el nombre
 DARK, MED, LIGHT, GRIS = '1B5E20', '2E7D32', 'E8F5E9', 'BFBFBF'
 W = M.ANCHO
 MIN_HC, HC = 40, 4
@@ -71,7 +72,7 @@ def encabezado_cont(sec):
 
 def tabla(d, filas, cols, anchos, proteger=True):
     t = d.add_table(rows=filas, cols=cols); t.alignment = WD_TABLE_ALIGNMENT.CENTER
-    M.bordes(t, GRIS, '4'); M.margenes_celda(t, 40, 90)
+    M.bordes(t, GRIS, '4'); M.margenes_celda(t, 30, 90)
     M.ancho_fijo(t, anchos)
     if proteger:
         M.cant_split(t)
@@ -85,7 +86,7 @@ def celda(cell, val, bold=False, blanco=False, size=9.5, center=False, vinetas=F
     for i, linea in enumerate(items):
         if i:
             par = cell.add_paragraph()
-        par.paragraph_format.space_after = Pt(2)
+        par.paragraph_format.space_after = Pt(1.5); par.paragraph_format.line_spacing = 1.0  # v1.2: interlineado sencillo en celdas; la letra sigue en 9,5 pt
         r = par.add_run(('• ' if vinetas else '') + linea)
         r.bold = bold; r.font.size = Pt(size)
         if blanco: r.font.color.rgb = RGBColor.from_string('FFFFFF')
@@ -98,8 +99,10 @@ def desproteger(row):
 
 
 def esp(d, pts=2):
+    # separador entre tablas (no es texto de lectura): 2 pt de alto con interlineado exacto
     p = d.add_paragraph(); p.paragraph_format.space_after = Pt(pts); p.paragraph_format.space_before = Pt(0)
-    r = p.add_run(); r.font.size = Pt(3)
+    p.paragraph_format.line_spacing = Pt(2)
+    r = p.add_run(); r.font.size = Pt(2)
 
 
 def plan(d, p, total):
@@ -146,16 +149,21 @@ def plan(d, p, total):
     for i, (l, v, vin) in enumerate((('Procedimientos', p['proc'], False), ('Instrumentos', p['inst'], False), ('Criterios', p['criterios'], True)), 1):
         M.shd(t.rows[i].cells[0], MED); celda(t.rows[i].cells[0], l, bold=True, blanco=True); celda(t.rows[i].cells[1], v, vinetas=vin)
     esp(d)
-    po = d.add_paragraph(); r = po.add_run('Observaciones: '); r.bold = True; r.font.size = Pt(9.5)
-    r = po.add_run('_' * 74); r.font.size = Pt(9.5)
-    t = tabla(d, 1, 2, [8.5, 8.5])
+    # v1.2: observaciones y firmas en un único bloque sin bordes al pie del mismo plan (nunca una hoja solo de firmas)
+    t = tabla(d, 1, 3, [7.4, 4.8, 4.8])
     for c in t.rows[0].cells:
         tcPr = c._tc.get_or_add_tcPr(); b = OxmlElement('w:tcBorders')
         for e in ('top', 'left', 'bottom', 'right'):
             x = OxmlElement('w:' + e); x.set(qn('w:val'), 'nil'); b.append(x)
         tcPr.append(b)
-    celda(t.rows[0].cells[0], ['', '____________________________', 'Docente'], center=True)
-    celda(t.rows[0].cells[1], ['', '____________________________', 'Dirección — Visto bueno'], center=True)
+    c0 = t.rows[0].cells[0]
+    po = c0.paragraphs[0]; po.paragraph_format.line_spacing = 1.0; po.paragraph_format.space_after = Pt(6)
+    r = po.add_run('Observaciones: '); r.bold = True; r.font.size = Pt(9.5)
+    r = po.add_run('_' * 27); r.font.size = Pt(9.5)
+    po = c0.add_paragraph(); po.paragraph_format.line_spacing = 1.0; po.paragraph_format.space_after = Pt(0)
+    r = po.add_run('_' * 40); r.font.size = Pt(9.5)
+    celda(t.rows[0].cells[1], ['', '______________________', 'Docente'], center=True)
+    celda(t.rows[0].cells[2], ['', '______________________', 'Dirección — Visto bueno'], center=True)
 
 
 COMO_SE_USA = [

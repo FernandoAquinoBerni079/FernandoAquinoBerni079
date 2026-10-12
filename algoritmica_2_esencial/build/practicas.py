@@ -6,6 +6,7 @@ Actividades (objetivo → modelo → pasos → punto de control) · Transferenci
 Los puntos de control no revelan resultados: piden contrastar con lo anticipado o con un control cruzado.
 Todo el pseudocódigo de las prácticas 1 a 14 se ejecutó en PSeInt 20250314, perfil Flexible
 (programas en algoritmica_2_esencial/pseint/). 'sol' alimenta el Solucionario."""
+import ediciones
 
 PSEINT = 'PSeInt'
 PAPEL = 'papel y lápiz'
@@ -427,7 +428,7 @@ PR[19] = dict(
  competencia='Crear una tabla en Access con sus campos, tipos de datos y clave principal, cargar registros y aplicar filtros anticipando el resultado.',
  saber=['Cada campo tiene un tipo de dato: Texto corto para códigos y nombres, Número para cantidades y precios. Si el precio se guarda como texto, los filtros numéricos no funcionan bien.',
         'Un filtro oculta los registros que no cumplen el criterio; no los borra. Al quitar el filtro, vuelven todos.'],
- antes='Abrí Access, elegí Base de datos en blanco y guardala como Arandu.accdb en tu carpeta. ' + 'Las rutas de menú de este libro corresponden a Microsoft Access 2016 en castellano; en otras versiones algún nombre o ubicación puede variar.',
+ antes='Abrí Access, elegí Base de datos en blanco y guardala como Arandu.accdb en tu carpeta. ' + ediciones.ACCESS_PR,
  acts=[
   dict(titulo='Diseñar la tabla', objetivo='Crear la tabla Articulos en vista Diseño con sus cinco campos, tipos y clave principal.',
        modelo=('Diseño de la tabla Articulos', ['codigo · Texto corto · clave principal', 'nombre · Texto corto', 'precio · Número (Entero largo)', 'categoria · Texto corto', 'stock · Número (Entero largo)']),
@@ -452,7 +453,7 @@ PR[20] = dict(
  competencia='Diseñar, ejecutar y guardar consultas de selección, paramétricas, de totales y con campo calculado, comparando cada resultado con lo anticipado.',
  saber=['Una consulta se arma en la cuadrícula de diseño: campos, orden, criterios. Se guarda con un nombre y se puede volver a ejecutar.',
         'Un parámetro se escribe entre corchetes en la fila Criterios: Access lo pregunta al ejecutar. Un campo calculado se escribe como Nombre: expresión.'],
- antes='Usá la base Arandu.accdb con la tabla Articulos de la Práctica 19. ' + 'Las rutas de menú de este libro corresponden a Microsoft Access 2016 en castellano; en otras versiones algún nombre o ubicación puede variar.',
+ antes='Usá la base Arandu.accdb con la tabla Articulos de la Práctica 19. ' + ediciones.ACCESS_PR,
  acts=[
   dict(titulo='Selección con criterio y orden', objetivo='Mostrar nombre, precio y stock de los artículos de escritura, ordenados por precio de mayor a menor.',
        modelo=('Cuadrícula de diseño', ['Campos: nombre, precio, stock, categoria.', 'Criterios: "escritura" en categoria (desmarcá Mostrar en esa columna).', 'Orden: Descendente en precio.']),
@@ -476,7 +477,7 @@ PR[21] = dict(
  competencia='Preparar el origen con un campo calculado condicional, construir una consulta de referencias cruzadas con el asistente y controlarla contra la tabla.',
  saber=['El asistente de referencias cruzadas trabaja sobre una sola tabla o consulta: si una columna no existe, se calcula antes en una consulta de origen.',
         'En la cuadrícula de Access en castellano, la función condicional se escribe SiInm(condición;valor_si;valor_no); en la vista SQL aparece como IIf.'],
- antes='Usá Arandu.accdb. ' + 'Las rutas de menú de este libro corresponden a Microsoft Access 2016 en castellano; en otras versiones algún nombre o ubicación puede variar.',
+ antes='Usá Arandu.accdb. ' + ediciones.ACCESS_PR,
  acts=[
   dict(titulo='La consulta de origen', objetivo='Crear una consulta que agregue a cada artículo su nivel de stock: «reponer» si el stock es menor que 20 y «ok» si no.',
        modelo=('Campo calculado', ['Nivel: SiInm([stock]<20;"reponer";"ok")']),

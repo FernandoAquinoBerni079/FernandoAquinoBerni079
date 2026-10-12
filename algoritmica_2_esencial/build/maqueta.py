@@ -1,6 +1,7 @@
 # -*- coding: utf-8 -*-
 """Primitivas de maquetación comunes (libro y solucionario). Estilo de la Edición Esencial Comercial:
 Arial, VERDE BTI, cajas por tipo, cantSplit universal, portada a página completa, índice poblado."""
+import sys as _s, os as _o; _s.path.insert(0, _o.path.dirname(_o.path.abspath(__file__)) + ('/..' if 'portadas' in __file__ else '')); import rutas as RT
 import copy, re
 import docx
 from docx.shared import Pt, Cm, RGBColor, Emu
@@ -12,10 +13,14 @@ from docx.oxml import OxmlElement
 
 DARK, MED, LIGHT, FICHA = '1B5E20', '2E7D32', 'E8F5E9', 'F4FBF5'
 AMB, AZUL, CREMA, NARANJA = 'B8860B', '1B4F72', 'FFF8E1', 'FFF3E0'
-TEMPLATE = '/home/claude/alg3/src/Algoritmica_3er_Curso_TOMO_COMPLETO.docx'
+TEMPLATE = RT.TEMPLATE
 # Formato de la colección desde oct-2026: oficio 21,6 × 33 cm, márgenes estrechos (1,27 cm),
 # tablas y cajas ajustadas al ancho de la página (100 %), por costo de impresión para docentes y estudiantes.
 PAG_W, PAG_H, MARG = 21.6, 33.0, 1.27
+# v1.2: modo compacto por sección (lo activa build_libro sólo en las secciones que dejaban una hoja residual).
+# Interlineado sencillo y figuras al 90 % (COMPACTO = 1); además espaciados entre párrafos de 2 pt como máximo
+# (COMPACTO = 2); figuras al 80 % (COMPACTO = 3). El tamaño de letra NO cambia en ningún nivel.
+COMPACTO = False
 ANCHO = round(PAG_W - 2 * MARG, 2)   # 19,06 cm útiles (en el Plan Anual horizontal se recalcula)
 
 
@@ -160,6 +165,8 @@ def par(d, txt='', size=10.5, bold=False, italic=False, color=None, align='j', a
         run(p, txt, bold, italic, size, color)
     p.alignment = {'j': WD_ALIGN_PARAGRAPH.JUSTIFY, 'c': WD_ALIGN_PARAGRAPH.CENTER, 'l': WD_ALIGN_PARAGRAPH.LEFT, 'r': WD_ALIGN_PARAGRAPH.RIGHT}[align]
     pf = p.paragraph_format; pf.space_before = Pt(antes); pf.space_after = Pt(despues)
+    if COMPACTO: pf.line_spacing = 1.0
+    if COMPACTO >= 2: pf.space_before = Pt(min(antes, 2)); pf.space_after = Pt(min(despues, 2))
     if indent is not None: pf.left_indent = Cm(indent)
     if keep: pf.keep_with_next = True
     return p
@@ -180,6 +187,7 @@ def salto(d):
 
 
 def separador(d, pts=2):
+    if COMPACTO >= 2: pts = min(pts, 1)
     p = d.add_paragraph(); p.paragraph_format.space_after = Pt(pts); p.paragraph_format.space_before = Pt(0)
     r = p.add_run(); r.font.size = Pt(4)
     return p
@@ -198,6 +206,7 @@ def ficha(d, cap, tema, inds):
         for j, v1 in enumerate(v):
             pp = row.cells[1].paragraphs[0] if j == 0 else row.cells[1].add_paragraph()
             pp.paragraph_format.space_after = Pt(1)
+            if COMPACTO: pp.paragraph_format.line_spacing = 1.0
             run(pp, v1, size=9.5)
     ancho_fijo(t, [3.6, 13.0]); cant_split(t); keep_rows(t)
     separador(d, 4)
@@ -227,6 +236,7 @@ def caja(d, titulo, cuerpo, fill=None, color_tit=None, mono=False, borde='9E9E9E
         if b.startswith('§'):
             b = b[1:]
         pp = c.add_paragraph(); pp.paragraph_format.space_after = Pt(1 if es_cod else 2)
+        if COMPACTO: pp.paragraph_format.line_spacing = 1.0
         if es_cod:
             pp.alignment = WD_ALIGN_PARAGRAPH.LEFT
             run(pp, b, size=9, font='Courier New')
@@ -265,6 +275,7 @@ def tabla(d, hdr, rows, anchos=None, size=9, rotulo=None, cont=None):
         for j, v in enumerate(r):
             c = t.rows[i].cells[j]
             p = c.paragraphs[0]; p.paragraph_format.space_after = Pt(0)
+            if COMPACTO: p.paragraph_format.line_spacing = 1.0
             run(p, str(v), size=size)
             if i % 2 == 0:
                 shd(c, 'F5F5F5')
@@ -280,7 +291,7 @@ def imagen(d, ruta, epigrafe, ancho_cm=15.5, lead=None):
         par(d, lead, keep=True)
     p = d.add_paragraph(); p.alignment = WD_ALIGN_PARAGRAPH.CENTER
     p.paragraph_format.keep_with_next = True; p.paragraph_format.space_after = Pt(2); p.paragraph_format.space_before = Pt(4)
-    p.add_run().add_picture(ruta, width=Cm(min(ancho_cm * 1.1, 17.5)))
+    p.add_run().add_picture(ruta, width=Cm(min(ancho_cm * 1.1, 17.5) * (0.8 if COMPACTO == 3 else 0.9 if COMPACTO else 1)))
     pe = par(d, epigrafe, 8.5, italic=True, color='595959', align='c', despues=6)
     return pe
 

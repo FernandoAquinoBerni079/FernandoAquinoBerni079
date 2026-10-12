@@ -1,13 +1,14 @@
 # -*- coding: utf-8 -*-
 """Arma Algoritmica_2do_Curso_LIBRO_ESENCIAL_COMERCIAL_2026.docx (Clase N → Práctica N), en dos pasadas
 para poblar el índice con números de página reales (verificados contra el PDF)."""
+import sys as _s, os as _o; _s.path.insert(0, _o.path.dirname(_o.path.abspath(__file__)) + ('/..' if 'portadas' in __file__ else '')); import rutas as RT
 import os, re, subprocess, sys, json
 import maqueta as M
 from estructura import cargar
 import ediciones, actividades, practicas, evaluaciones, preliminares as PRE
 
-B = '/home/claude/alg2/build/'
-OUT = '/home/claude/alg2/salida/'
+B = RT.B
+OUT = RT.OUT
 os.makedirs(OUT, exist_ok=True)
 NOMBRE = 'Algoritmica_2do_Curso_LIBRO_ESENCIAL_COMERCIAL_2026'
 FIG_SRC = B + 'figs_src/'; FIG_NEW = B + 'figs_new/'
@@ -19,6 +20,30 @@ ediciones.aplicar(C)
 FIGMAP = ediciones.fig_refs(C)
 TIT_CLASE = {n: C[n]['titulo'] for n in C}
 EVS = evaluaciones.EV
+
+
+# v1.2 (hallazgo 02 de la auditoría): secciones que se componen en modo compacto porque su última hoja quedaba
+# casi vacía. La lista la calcula el propio build (ver __main__) midiendo el PDF; se guarda en ajustes_paginacion.json.
+# Nivel 1 («compacto»): interlineado sencillo y figuras al 90 % en esa sección. Nivel 2 («sin_salto»): si aun así queda
+# residuo, la sección siguiente (sólo una Práctica o una Clase, nunca una evaluación ni el PFI) empieza en esa misma hoja.
+AJ_PATH = B + 'ajustes_paginacion.json'
+_aj = json.load(open(AJ_PATH)) if os.path.exists(AJ_PATH) else {}
+AJUSTES = set(_aj.get('compacto', []))
+COMPACTO2 = set(_aj.get('compacto2', []))
+COMPACTO3 = set(_aj.get('compacto3', []))  # nivel 2 cuando la sección siguiente no puede subir (evaluación, fin del libro)
+SIN_SALTO = set(_aj.get('sin_salto', []))
+
+
+def nivel(clave):
+    return 3 if clave in COMPACTO3 else 2 if clave in COMPACTO2 else (1 if clave in AJUSTES else 0)
+
+
+def clave_seccion(titulo):
+    if titulo.startswith(('Clase ', 'Práctica ')):
+        return titulo.split(' — ')[0]
+    if titulo.startswith('Proyecto Final Integrador'):
+        return 'Proyecto Final Integrador'
+    return titulo
 
 
 def toc_entries():
@@ -57,7 +82,9 @@ def bloque_cuerpo(d, b):
 
 def clase(d, n, salto=True):
     c = C[n]
-    M.heading(d, 'Clase %d — %s' % (n, c['titulo']), 2, salto=salto)
+    h = M.heading(d, 'Clase %d — %s' % (n, c['titulo']), 2, salto=salto and 'Clase %d' % n not in SIN_SALTO)
+    if 'Clase %d' % n in SIN_SALTO:
+        h.paragraph_format.space_before = M.Pt(20)
     f = c['ficha']
     M.ficha(d, f['capacidad'], f['tema'], f['indicadores'])
     for b in c['cuerpo']:
@@ -75,7 +102,9 @@ def clase(d, n, salto=True):
 
 def practica(d, n):
     p = practicas.PR[n]
-    M.heading(d, 'Práctica %d — %s' % (n, p['titulo']), 2, salto=True)
+    h = M.heading(d, 'Práctica %d — %s' % (n, p['titulo']), 2, salto='Práctica %d' % n not in SIN_SALTO)
+    if 'Práctica %d' % n in SIN_SALTO:
+        h.paragraph_format.space_before = M.Pt(20)
     M.linea_nombre(d)
     M.caja(d, 'Competencia de la práctica', [p['competencia'], 'Entorno de trabajo: %s.' % p['entorno']])
     M.par(d, 'Lo que necesitás saber', 10.5, True, color=M.MED, keep=True, antes=2, despues=2)
@@ -124,8 +153,13 @@ def practica(d, n):
             M.tabla(d, hdr, rows, rotulo=rot)
 
 
+LARGO = re.compile(r'algoritmo|procedimiento|Ordená|prueba de escritorio|Definí una función|referencias cruzadas|Formulá')
+RENGLONES_LARGO = 6
+
+
 def evaluacion(d, e):
     M.salto(d)
+    dos_col = M.COMPACTO
     M.banda(d, e['titulo'], e['sub'], M.AZUL if e['etapa'] else M.AMB)
     if e.get('base'):
         M.caja(d, e['base'][0], e['base'][1], fill='F5F5F5', color_tit=M.DARK)
@@ -134,14 +168,25 @@ def evaluacion(d, e):
     for enun, ops, _ in e['mc']:
         k += 1
         M.par(d, '%d. %s' % (k, enun), 10, keep=True, despues=1)
-        for j, o in enumerate(ops):
-            M.par(d, '%s) %s' % ('abcd'[j], o), 10, indent=0.8, despues=1, keep=(j < len(ops) - 1))
+        if dos_col:
+            # v1.2: opciones en dos columnas (a y b en una línea, c y d en la siguiente), misma letra
+            mitad = M.ANCHO / 2
+            for j in range(0, len(ops), 2):
+                pp = M.par(d, '', 10, indent=0.8, despues=1, keep=(j + 2 < len(ops)), align='l')
+                pp.paragraph_format.tab_stops.add_tab_stop(M.Cm(mitad))
+                M.run(pp, '%s) %s' % ('abcd'[j], ops[j]), size=10)
+                if j + 1 < len(ops):
+                    M.run(pp, '\t%s) %s' % ('abcd'[j + 1], ops[j + 1]), size=10)
+        else:
+            for j, o in enumerate(ops):
+                M.par(d, '%s) %s' % ('abcd'[j], o), 10, indent=0.8, despues=1, keep=(j < len(ops) - 1))
         M.separador(d, 2)
     M.par(d, 'Parte B — Resolución y aplicación:', 10.5, True, color=M.DARK, keep=True, antes=4)
     for enun, _ in e['ab']:
         k += 1
         M.par(d, '%d. %s' % (k, enun), 10, keep=True, despues=2)
-        M.renglones(d, 3)
+        # v1.2: espacio de respuesta proporcional a la tarea (escribir un algoritmo no entra en 3 renglones)
+        M.renglones(d, RENGLONES_LARGO if LARGO.search(enun) else 3)
 
 
 def pfi(d):
@@ -198,12 +243,17 @@ def construir(paginas=None):
         if primera:
             M.heading(d, 'UNIDAD %d — %s' % (u, U[u]), 1, salto=True)
             M.par(d, PRE.UNIDADES[u], 10.5, italic=True, despues=6)
+        M.COMPACTO = nivel('Clase %d' % n)
         clase(d, n, salto=not primera)
+        M.COMPACTO = nivel('Práctica %d' % n)
         practica(d, n)
         for e in EVS:
             if e['tras'] == n:
+                M.COMPACTO = nivel(e['titulo'])
                 evaluacion(d, e)
+    M.COMPACTO = nivel('Proyecto Final Integrador')
     pfi(d)
+    M.COMPACTO = False
     M.pie_paginas(d, cuerpo)
     M.seccion_sin_pie(d)
     M.imagen_pagina_completa(d, B + 'portadas/contraportada.jpg', 'Contraportada')
@@ -219,12 +269,10 @@ def a_pdf(docx_path, outdir):
     return os.path.join(outdir, os.path.basename(docx_path)[:-5] + '.pdf')
 
 
-if __name__ == '__main__':
-    tmp = B + 'tmp/'; os.makedirs(tmp, exist_ok=True)
+def componer(tmp):
     d, E = construir(None)
     p1 = tmp + NOMBRE + '.docx'; d.save(p1)
     pdf1 = a_pdf(p1, tmp)
-    # la portada + presentación + índice: buscar desde la página posterior al índice
     import pymupdf
     doc = pymupdf.open(pdf1)
     idx_last = max(i for i, pg in enumerate(doc) if re.search(r'\.{5,}\s*000', pg.get_text())) + 1
@@ -238,5 +286,48 @@ if __name__ == '__main__':
         if pags2 == pags:
             break
         pags = pags2
+    return d, E, pags, total, pdf, pags2 == pags
+
+
+def residuales(pdf, E, pags, umbral=0.30):
+    """Secciones cuya página (no la primera) queda ocupada por debajo del umbral."""
+    import ocupacion
+    occ = {x[0]: x for x in ocupacion.medir(pdf)}
+    inicio = [(p, t) for p, (_, t) in zip(pags, E) if not t.startswith('UNIDAD')]
+    res = []
+    for p0, (pg, uso, pal, txt) in ((k, occ[k]) for k in sorted(occ)):
+        if uso >= umbral or (pal == 0 and uso == 0) or pg <= inicio[0][0] or pg == len(occ):
+            continue
+        prev = [t for p, t in inicio if p <= pg]
+        if not prev:
+            continue
+        res.append((pg, uso, clave_seccion(prev[-1])))
+    return res
+
+
+if __name__ == '__main__':
+    tmp = B + 'tmp/'; os.makedirs(tmp, exist_ok=True)
+    for ronda in range(6):
+        d, E, pags, total, pdf, ok = componer(tmp)
+        res = residuales(pdf, E, pags)
+        print('ronda', ronda, 'páginas', total, 'residuales', [(p, round(u, 2), k) for p, u, k in res])
+        claves = [clave_seccion(t) for _, t in E if not t.startswith('UNIDAD')]
+        cambio = False
+        for _, _, k in res:
+            if k not in AJUSTES:
+                AJUSTES.add(k); cambio = True
+            else:
+                sig = claves[claves.index(k) + 1] if claves.index(k) + 1 < len(claves) else ''
+                if sig.startswith(('Práctica ', 'Clase ')) and sig not in SIN_SALTO:
+                    SIN_SALTO.add(sig); cambio = True
+                elif not sig.startswith(('Práctica ', 'Clase ')) and k not in COMPACTO2:
+                    COMPACTO2.add(k); cambio = True
+                elif k.startswith(('Práctica ', 'Clase ')) and k not in SIN_SALTO:
+                    SIN_SALTO.add(k); cambio = True   # la sección sube a la última hoja de la anterior
+                elif k not in COMPACTO3:
+                    COMPACTO3.add(k); cambio = True
+        if not cambio:
+            break
+        json.dump({'compacto': sorted(AJUSTES), 'compacto2': sorted(COMPACTO2), 'compacto3': sorted(COMPACTO3), 'sin_salto': sorted(SIN_SALTO)}, open(AJ_PATH, 'w'), ensure_ascii=False, indent=1)
     json.dump({'entradas': E, 'paginas': pags, 'total': total}, open(B + 'indice_libro.json', 'w'), ensure_ascii=False, indent=1)
-    print('final: páginas', total, 'índice verificado =', pags2 == pags, 'tamaño MB', round(os.path.getsize(out) / 1e6, 2))
+    print('final: páginas', total, 'índice verificado =', ok, 'secciones compactas', len(AJUSTES), 'residuales', len(res))
