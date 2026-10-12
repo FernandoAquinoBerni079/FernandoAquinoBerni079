@@ -493,6 +493,7 @@ def git(*a):
     return subprocess.run(['git', '-C', RAIZ_GIT] + list(a), capture_output=True, text=True).stdout.strip()
 COMMIT = git('rev-parse', 'HEAD'); RAMA = git('rev-parse', '--abbrev-ref', 'HEAD')
 SUCIO = git('status', '--porcelain', '--untracked-files=no', '--', os.path.relpath(B, RAIZ_GIT), os.path.relpath(O, RAIZ_GIT))
+SUCIO = [l for l in SUCIO.splitlines() if not l.endswith('auditoria_resultado.txt')]  # el propio reporte no cuenta
 with open(B + 'auditoria_resultado.txt', 'w') as f:
     f.write('AUDITORÍA AUTOMÁTICA — Algorítmica 2.º · Edición Esencial Comercial 2026 · versión %s\n' % VERSION)
     f.write('Controles: %d · Fallos: %d\n' % (len(RES), len(fallos)))
