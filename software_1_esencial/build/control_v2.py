@@ -1,5 +1,6 @@
 # -*- coding: utf-8 -*-
-"""Controles de la corrección v2 (V2-01 y V2-02): Planes de Clase y Plan Anual. Uso: python3 control_v2.py (desde build/)."""
+"""Controles de la corrección v2 (V2-01 y V2-02): Planes de Clase y Plan Anual. Uso: python3 control_v2.py (desde build/).
+HISTÓRICO: verificó la v2 (commit 558a335). Desde la v3 el Plan Anual cambia a propósito (H02) y rige control_v3.py."""
 import re, subprocess, io, docx, pymupdf
 from docx.oxml.ns import qn
 S = '../salida/Gabinete_Informatica_Software_1er_Curso_'

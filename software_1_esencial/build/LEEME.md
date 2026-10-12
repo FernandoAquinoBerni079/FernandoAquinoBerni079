@@ -14,6 +14,8 @@ Sirven para rastrear y repetir las correcciones. **No reconstruyen el libro desd
 | `respuesta.py` | Genera el informe 05_RESPUESTA (.docx). |
 | `fix_v2_maqueta.py` | Corrección v2 (V2-01, V2-02): márgenes de 1,27 cm, tablas al ancho útil y espaciado, para que cada plan entre en una hoja y el Plan Anual no deje la firma sola. No cambia texto. Uso: `python3 fix_v2_maqueta.py ENTRADA.docx SALIDA.docx [0 18]` (Planes con `0 18`; Plan Anual sin argumentos). |
 | `control_v2.py` | Controles de la v2 sobre `salida/` (94): páginas, una hoja por plan, firmas, márgenes, identidad textual con la v1 y muestra. |
+| `fix_v3.py` | Corrección v3 (H02 y H15): filas 18 y 36 del Plan Anual con las capacidades MEC literales y retiro de ✓ ✗ ✅ ✔ del texto del Libro y el Solucionario. No toca imágenes. Uso: `python3 fix_v3.py DIR_ENTRADA DIR_SALIDA`. |
+| `control_v3.py` | Controles de la v3 contra el commit 558a335: identidad de contenido, capacidades, pictogramas en 0 (.docx y PDF), imágenes, paginación, márgenes, hojas vacías, un plan por hoja y muestra. |
 | `auditoria_resultado.txt` | Salida de los controles del 11/10/2026 sobre `salida/`. |
 
 Las versiones generalizadas de estos scripts están en la skill `cuadernillos-mec` (`skill/cuadernillos-mec.zip`): `paginacion.py`, `indice_pdf.py`, `formato_oficio.py`, `unicidad_datos.py`.

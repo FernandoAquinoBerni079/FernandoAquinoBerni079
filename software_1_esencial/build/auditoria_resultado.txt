@@ -18,3 +18,22 @@ MUESTRA 14 págs 612x936 · 14/14 páginas idénticas a su origen
 == Controles v2 (11/10/2026, tras 02_AUDITORIA_CHATGPT_SOFTWARE_1_ESENCIAL_v2)
 Controles v2 (Planes de Clase, Plan Anual y Muestra): 94 OK · 0 fallos
 o_PLANES_DE_CLASE_COMERCIAL_2026.docx índice termina p 2 entradas 36 difieren 0
+
+== Controles v3 (12/10/2026, H02 y H15, contra el commit 558a335)
+Controles v3 (contra 558a335): 657 OK · 0 fallos
+ · Plan Anual: 390 → 408 párrafos (+20 capacidades literales, −2 remisiones)
+ · Libro: 28 imágenes idénticas a la v2
+ · LIBRO_ESENCIAL_COMERCIAL_2026: 107 páginas
+ · SOLUCIONARIO_DOCENTE_ESENCIAL_COMERCIAL_2026: 17 páginas
+ · Solucionario p2: «Presentación» (preliminar breve, sin cambios desde la v1)
+ · PLAN_ANUAL_COMERCIAL_2026: 11 páginas
+ · PLANES_DE_CLASE_COMERCIAL_2026: 38 páginas
+ · MUESTRA_COMERCIAL_2026: 13 páginas
+
+== auditoria_v1.py sobre la v3
+controles OK: 117 · fallos: 0
+
+== Índices contra el PDF
+o_LIBRO_ESENCIAL_COMERCIAL_2026.docx índice termina p 4 entradas 61 difieren 0
+o_SOLUCIONARIO_DOCENTE_ESENCIAL_COMERCIAL_2026.docx índice termina p 4 entradas 65 difieren 0
+o_PLANES_DE_CLASE_COMERCIAL_2026.docx índice termina p 2 entradas 36 difieren 0
