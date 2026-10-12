@@ -1,6 +1,6 @@
 AUDITORÍA AUTOMÁTICA — Algorítmica 2.º · Edición Esencial Comercial 2026 · versión v1.3
 Controles: 916 · Fallos: 0
-Commit auditado (hash Git completo): 0cbcde1586066a3a7c577319b83699a8014b5ab5 (rama claude/zen-meitner-kes7dg) — ATENCIÓN: build/ o salida con cambios sin commit
+Commit auditado (hash Git completo): b5003f72c41cd637280246483b12b9f4b992928f (rama claude/zen-meitner-kes7dg)
 Carpeta auditada: algoritmica_2_esencial/salida_v1_3
   SHA-256 4f67d794893215e826f6e44a8d23f334cbd274754ef2a27278f62006194fadb8  Algoritmica_2do_Curso_LIBRO_ESENCIAL_COMERCIAL_2026.docx
   SHA-256 6bcb41ed3ebdb8db281d46c812b3287be7a3c041217b82d3d7949763fb79c518  Algoritmica_2do_Curso_LIBRO_ESENCIAL_COMERCIAL_2026.pdf
@@ -23,7 +23,7 @@ Carpeta auditada: algoritmica_2_esencial/salida_v1_3
   H. Lengua, residuos y cobertura curricular         54 controles · 0 fallos
   I. Lecciones del piloto de 3.º (v2 y v2.1)         91 controles · 0 fallos
   J. Correcciones técnicas de 2.º (T1–T20)           15 controles · 0 fallos
-  K. Maquetación v1.2: hojas casi vacías y de firmas   36 controles · 0 fallos
+  K. Maquetación: hojas vacías, firmas, prácticas sueltas   36 controles · 0 fallos
   L. Independencia de datos entre evaluaciones       15 controles · 0 fallos
   M. Vigencia técnica (Access 2016)                   4 controles · 0 fallos
   N. Nombres de la entrega                            1 controles · 0 fallos
