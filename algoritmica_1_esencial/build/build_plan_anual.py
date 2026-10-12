@@ -12,7 +12,7 @@ import planes_data
 import ediciones
 from build_libro import a_pdf
 
-B = '/home/claude/alg1/build/'; OUT = '/home/claude/alg1/salida_v1_3/'
+B = '/home/claude/alg1/build/'; OUT = '/home/claude/alg1/salida_v1_3_1/'
 NOMBRE = 'Algoritmica_1er_Curso_PLAN_ANUAL_COMERCIAL_2026'
 ANCHOS = [1.0, 5.0, 6.8, 1.5, 5.3, 4.2, 2.8]
 COLS = ['N.º', 'TEMAS', 'INDICADORES DE LOGRO', 'TIEMPO', 'PROCEDIMIENTOS', 'INSTRUMENTOS DE EVALUACIÓN', 'OBSERVACIÓN']

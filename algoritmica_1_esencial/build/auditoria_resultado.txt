@@ -1,5 +1,5 @@
-AUDITORÍA AUTOMÁTICA — Algorítmica 1.º · Edición Esencial Comercial 2026 · versión v1.3
-Controles: 796 · Fallos: 0
+AUDITORÍA AUTOMÁTICA — Algorítmica 1.º · Edición Esencial Comercial 2026 · versión v1.3.1
+Controles: 820 · Fallos: 0
   A. Estructura y correspondencia                   119 controles · 0 fallos
   B. Paginación, índice, saltos y encabezados       139 controles · 0 fallos
   C. Coherencia aritmética y ejecución en PSeInt     67 controles · 0 fallos
@@ -10,4 +10,4 @@ Controles: 796 · Fallos: 0
   H. Lengua, residuos y cobertura curricular         40 controles · 0 fallos
   I. Lecciones del piloto de 3.º (v2 y v2.1)         87 controles · 0 fallos
   J. Correcciones técnicas de 1.º (T1–T9)            15 controles · 0 fallos
-  K. Auditoría independiente de 1.º (H01–H07)        43 controles · 0 fallos
+  K. Auditoría independiente de 1.º (H01–H07)        67 controles · 0 fallos

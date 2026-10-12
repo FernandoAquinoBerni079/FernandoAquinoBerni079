@@ -7,7 +7,7 @@ from estructura import cargar
 import ediciones, actividades, practicas, evaluaciones, preliminares as PRE
 from build_libro import a_pdf
 
-B = '/home/claude/alg1/build/'; OUT = '/home/claude/alg1/salida_v1_3/'
+B = '/home/claude/alg1/build/'; OUT = '/home/claude/alg1/salida_v1_3_1/'
 NOMBRE = 'Algoritmica_1er_Curso_SOLUCIONARIO_DOCENTE_ESENCIAL_COMERCIAL_2026'
 pre, C, _, U = cargar()
 U = {1: 'Teoría de Conjuntos', 2: 'Lógica Simbólica', 3: 'Introducción a la Algoritmia'}

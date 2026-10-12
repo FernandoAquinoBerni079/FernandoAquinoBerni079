@@ -15,7 +15,7 @@ import maqueta as M
 import planes_data
 from build_libro import a_pdf
 
-B = '/home/claude/alg1/build/'; OUT = '/home/claude/alg1/salida_v1_3/'
+B = '/home/claude/alg1/build/'; OUT = '/home/claude/alg1/salida_v1_3_1/'
 NOMBRE = 'Algoritmica_1er_Curso_PLANES_DE_CLASE_COMERCIAL_2026'
 DARK, MED, LIGHT, GRIS = '1B5E20', '2E7D32', 'E8F5E9', 'BFBFBF'
 W = M.ANCHO

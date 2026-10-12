@@ -1,0 +1,69 @@
+{
+ "ev": [
+  "E1",
+  "U3",
+  "E2"
+ ],
+ "evsplit": [
+  "U3",
+  "E2"
+ ],
+ "cortes": [
+  [
+   "Clase 2",
+   "Actividades de aplicación"
+  ],
+  [
+   "Clase 3",
+   "Actividades de aplicación"
+  ],
+  [
+   "Clase 4",
+   "Actividades de aplicación"
+  ],
+  [
+   "Clase 7",
+   "Actividades de aplicación"
+  ],
+  [
+   "Clase 8",
+   "Actividades de aplicación"
+  ],
+  [
+   "Práctica 8",
+   "Actividad 2 — Dos fórmulas, misma tabla"
+  ],
+  [
+   "Clase 9",
+   "Actividades de aplicación"
+  ],
+  [
+   "Clase 11",
+   "Actividades de aplicación"
+  ],
+  [
+   "Clase 12",
+   "Actividades de aplicación"
+  ],
+  [
+   "Práctica 14",
+   "Actividad 3 — Del pseudocódigo al diagrama"
+  ],
+  [
+   "Clase 15",
+   "Actividades de aplicación"
+  ],
+  [
+   "Práctica 17",
+   "Actividad 2 — Par o impar"
+  ],
+  [
+   "Clase 21",
+   "Actividades de aplicación"
+  ],
+  [
+   "Práctica 21",
+   "Actividad 2 — Diseño y prueba con el cierre del jueves"
+  ]
+ ]
+}

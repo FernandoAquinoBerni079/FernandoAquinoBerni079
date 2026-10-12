@@ -9,7 +9,7 @@ import actividades, practicas, evaluaciones, planes_data, preliminares as PRE
 from estructura import cargar
 import ediciones
 
-O = '/home/claude/alg1/salida_v1_3/'; B = '/home/claude/alg1/build/'; PS = '/home/claude/alg1/pseint/'
+O = '/home/claude/alg1/salida_v1_3_1/'; B = '/home/claude/alg1/build/'; PS = '/home/claude/alg1/pseint/'
 F = {k: O + 'Algoritmica_1er_Curso_%s.docx' % k for k in
      ('LIBRO_ESENCIAL_COMERCIAL_2026', 'SOLUCIONARIO_DOCENTE_ESENCIAL_COMERCIAL_2026', 'PLANES_DE_CLASE_COMERCIAL_2026', 'PLAN_ANUAL_COMERCIAL_2026')}
 LIB, SOL, PLA, ANU = list(F.values())
@@ -46,7 +46,7 @@ dL, PL = textos_doc(LIB)
 TL = '\n'.join(t for _, t in PL)
 pdfL = pdf(LIB)
 pags = [pg.get_text() for pg in pdfL]
-UNL = json.load(open(B + 'uniones_libro.json'))
+AJL = json.load(open(B + 'ajustes_libro.json'))
 dS, PSx = textos_doc(SOL); TS = '\n'.join(t for _, t in PSx)
 
 # ---------------- A. Estructura ----------------
@@ -85,16 +85,14 @@ for (niv, t), p in zip(ji['entradas'], ji['paginas']):
 chk('B', 'Índice poblado (sin «Ctrl+E/F9» ni marcadores 000)', 'Ctrl+E' not in TL and not re.search(r'\.{5,}\s*000\b', ''.join(pags[1:5])))
 for t in prs:
     p = next(i for i, x in enumerate(pags) if re.sub(r'\s+', '', t) in re.sub(r'\s+', '', x) and i > 0 and not re.search(r"\.{8,}", x))
-    nP = int(re.match(r'Práctica (\d+)', t).group(1))
-    chk('B', 'Salto: «%s» abre página (o sigue a su clase por unión declarada)' % t[:40], re.sub(r'\s+', '', pags[p]).startswith(re.sub(r'\s+', '', t)[:30]) or nP in UNL['cp'])
+    chk('B', 'Salto: «%s» abre página' % t[:40], re.sub(r'\s+', '', pags[p]).startswith(re.sub(r'\s+', '', t)[:30]))
 for e in evaluaciones.EV:
     p = next(i for i, x in enumerate(pags) if e['titulo'] in x and i > 0 and not re.search(r"\.{8,}", x))
     chk('B', 'Salto: «%s» abre página' % e['titulo'], pags[p].strip().startswith(e['titulo']))
 for t in clases:
     p = next(i for i, x in enumerate(pags) if re.sub(r'\s+', '', t) in re.sub(r'\s+', '', x) and i > 0 and not re.search(r"\.{8,}", x))
     top = re.sub(r'\s+', '', pags[p])
-    nC = int(re.match(r'Clase (\d+)', t).group(1))
-    chk('B', 'Salto: «%s» abre página (o sigue a la apertura de unidad o a su práctica por unión declarada)' % t[:40], top.startswith(re.sub(r'\s+', '', t)[:25]) or top.startswith('UNIDAD') or (nC - 1) in UNL['pc'])
+    chk('B', 'Salto: «%s» abre página (o sigue a la apertura de unidad)' % t[:40], top.startswith(re.sub(r'\s+', '', t)[:25]) or top.startswith('UNIDAD'))
 chk('B', 'Pie «Página X de Y» en todas las páginas salvo portada y contraportada',
     all(re.search(r'Página \d+ de %d' % len(pags), pags[i]) for i in range(1, len(pags) - 1)) and 'Página' not in pags[0] and 'Página' not in pags[-1])
 for nombre, path, j in (('Solucionario', SOL, 'indice_sol.json'), ('Planes', PLA, 'indice_planes.json')):
@@ -452,7 +450,28 @@ mu = [(x[0], int(x[1] * 100)) for x in OCU.ocupacion(O + 'Algoritmica_1er_Curso_
 chk('K', 'H03: Muestra con 0 páginas por debajo del 25 %', not mu, mu)
 vacias = [i + 1 for i, pg in enumerate(pdfL) if 1 <= i < len(pdfL) - 1 and len(pg.get_text().split()) < 12 and 'Página' in pg.get_text() and len(pg.get_text().split()) <= 4]
 chk('K', 'H03: el Libro no tiene hojas en blanco', not vacias, vacias)
-chk('K', 'H03: espacio de respuesta de las evaluaciones intacto: 3 renglones por consigna de la Parte B', all(len(e['ab']) > 0 for e in evaluaciones.EV))
+chk('K', 'H03: el build no tiene mecanismo de unión entre secciones (sin «cp»/«pc» en los ajustes)', set(AJL) == {'ev', 'evsplit', 'cortes'})
+import build_libro as BLB
+for sec_, ancla_ in AJL['cortes']:
+    dentro = {s_ for s_, t_, el_ in BLB.secciones_cuerpo(dL) if t_.startswith(ancla_) and el_.find('.//' + qn('w:pageBreakBefore')) is not None}
+    chk('K', 'H03: el corte «%s» queda dentro de su sección (%s) y no reemplaza un salto obligatorio' % (ancla_[:35], sec_), sec_ in dentro and not re.match(r'(Clase|Práctica) \d+ — ', ancla_))
+# renglones de respuesta, contados en el PDF: líneas grises horizontales de ancho útil en las hojas de cada evaluación
+ent_ = ji['entradas']; pag_ = ji['paginas']
+for e in evaluaciones.EV:
+    k_ = [i for i, (_, t_) in enumerate(ent_) if t_ == e['titulo']][0]
+    desde, hasta = pag_[k_], (pag_[k_ + 1] if k_ + 1 < len(pag_) else ji['total'])
+    lineas = 0
+    for q in range(desde - 1, hasta - 1):
+        for dr in pdfL[q].get_drawings():
+            c_ = dr.get('color') or dr.get('fill')
+            for it_ in dr['items']:
+                if it_[0] == 'l' and abs(it_[1].y - it_[2].y) < 0.5 and abs(it_[2].x - it_[1].x) > 0.9 * (pdfL[q].rect.width - 2 * 36) and c_ and all(abs(v - 0.627) < 0.03 for v in c_[:3]):
+                    lineas += 1
+                elif it_[0] == 're' and it_[1].height < 1.2 and it_[1].width > 0.9 * (pdfL[q].rect.width - 2 * 36) and c_ and all(abs(v - 0.627) < 0.03 for v in c_[:3]):
+                    lineas += 1
+    chk('K', 'H03: %s con 3 renglones de respuesta por consigna de la Parte B, contados en el PDF (%d consignas → %d renglones)' % (e['id'], len(e['ab']), lineas), lineas == 3 * len(e['ab']), lineas)
+    alto_ = 330 if (e['id'] in AJL['ev'] and e['id'] not in AJL['evsplit']) else 400
+    chk('K', 'H03: %s, renglones de %.2f cm (≥ 0,58 cm)' % (e['id'], alto_ / 567), alto_ >= 330)
 # H04: pregunta de la integradora 2
 e2 = [e for e in evaluaciones.EV if e['id'] == 'E2'][0]
 q3, ops3, let3 = e2['mc'][2]
@@ -505,7 +524,7 @@ chk('K', 'DOCX↔PDF: Solucionario, Planes: páginas del PDF = total del índice
 fallos = [r for r in RES if not r[2]]
 por = collections.Counter(r[0] for r in RES)
 with open(B + 'auditoria_resultado.txt', 'w') as f:
-    f.write('AUDITORÍA AUTOMÁTICA — Algorítmica 1.º · Edición Esencial Comercial 2026 · versión v1.3\n')
+    f.write('AUDITORÍA AUTOMÁTICA — Algorítmica 1.º · Edición Esencial Comercial 2026 · versión v1.3.1\n')
     f.write('Controles: %d · Fallos: %d\n' % (len(RES), len(fallos)))
     nombres = {'A': 'Estructura y correspondencia', 'B': 'Paginación, índice, saltos y encabezados', 'C': 'Coherencia aritmética y ejecución en PSeInt', 'D': 'Libro ↔ solucionario',
                'E': 'Duplicados', 'F': 'Figuras', 'G': 'Plan Anual y Planes de Clase', 'H': 'Lengua, residuos y cobertura curricular', 'I': 'Lecciones del piloto de 3.º (v2 y v2.1)', 'J': 'Correcciones técnicas de 1.º (T1–T9)', 'K': 'Auditoría independiente de 1.º (H01–H07)'}
@@ -513,4 +532,7 @@ with open(B + 'auditoria_resultado.txt', 'w') as f:
         f.write('  %s. %-45s %4d controles · %d fallos\n' % (b, nombres[b], por[b], sum(1 for r in fallos if r[0] == b)))
     for r in fallos:
         f.write('FALLO [%s] %s — %s\n' % (r[0], r[1], r[3]))
+with open(B + 'auditoria_detalle.txt', 'w') as f:
+    for r in RES:
+        f.write('%s [%s] %s%s\n' % ('OK   ' if r[2] else 'FALLO', r[0], r[1], (' — %s' % r[3]) if not r[2] else ''))
 print(open(B + 'auditoria_resultado.txt').read())

@@ -1,0 +1,820 @@
+OK    [A] Cantidad de clases = 21
+OK    [A] Cantidad de prácticas = 21
+OK    [A] Correspondencia Clase N → Práctica N (orden intercalado, 1 a 21)
+OK    [A] Título de la Clase 1 coincide con la fuente
+OK    [A] Título de la Práctica 1 coincide con la fuente
+OK    [A] Título de la Clase 2 coincide con la fuente
+OK    [A] Título de la Práctica 2 coincide con la fuente
+OK    [A] Título de la Clase 3 coincide con la fuente
+OK    [A] Título de la Práctica 3 coincide con la fuente
+OK    [A] Título de la Clase 4 coincide con la fuente
+OK    [A] Título de la Práctica 4 coincide con la fuente
+OK    [A] Título de la Clase 5 coincide con la fuente
+OK    [A] Título de la Práctica 5 coincide con la fuente
+OK    [A] Título de la Clase 6 coincide con la fuente
+OK    [A] Título de la Práctica 6 coincide con la fuente
+OK    [A] Título de la Clase 7 coincide con la fuente
+OK    [A] Título de la Práctica 7 coincide con la fuente
+OK    [A] Título de la Clase 8 coincide con la fuente
+OK    [A] Título de la Práctica 8 coincide con la fuente
+OK    [A] Título de la Clase 9 coincide con la fuente
+OK    [A] Título de la Práctica 9 coincide con la fuente
+OK    [A] Título de la Clase 10 coincide con la fuente
+OK    [A] Título de la Práctica 10 coincide con la fuente
+OK    [A] Título de la Clase 11 coincide con la fuente
+OK    [A] Título de la Práctica 11 coincide con la fuente
+OK    [A] Título de la Clase 12 coincide con la fuente
+OK    [A] Título de la Práctica 12 coincide con la fuente
+OK    [A] Título de la Clase 13 coincide con la fuente
+OK    [A] Título de la Práctica 13 coincide con la fuente
+OK    [A] Título de la Clase 14 coincide con la fuente
+OK    [A] Título de la Práctica 14 coincide con la fuente
+OK    [A] Título de la Clase 15 coincide con la fuente
+OK    [A] Título de la Práctica 15 coincide con la fuente
+OK    [A] Título de la Clase 16 coincide con la fuente
+OK    [A] Título de la Práctica 16 coincide con la fuente
+OK    [A] Título de la Clase 17 coincide con la fuente
+OK    [A] Título de la Práctica 17 coincide con la fuente
+OK    [A] Título de la Clase 18 coincide con la fuente
+OK    [A] Título de la Práctica 18 coincide con la fuente
+OK    [A] Título de la Clase 19 coincide con la fuente
+OK    [A] Título de la Práctica 19 coincide con la fuente
+OK    [A] Título de la Clase 20 coincide con la fuente
+OK    [A] Título de la Práctica 20 coincide con la fuente
+OK    [A] Título de la Clase 21 coincide con la fuente
+OK    [A] Título de la Práctica 21 coincide con la fuente
+OK    [A] Una ficha por clase (21)
+OK    [A] Tres unidades con los títulos del tomo vigente
+OK    [A] Unidades por clases: 1–5, 6–12, 13–21
+OK    [A] Evaluaciones en su lugar: U1 tras la Clase 5, U2 y E1 tras la 12, U3 y E2 tras la 21
+OK    [A] Evaluación presente: Evaluación de la Unidad 1
+OK    [A] Evaluación presente: Evaluación de la Unidad 2
+OK    [A] Evaluación presente: Evaluación integradora de la 1.ª etapa
+OK    [A] Evaluación presente: Evaluación de la Unidad 3
+OK    [A] Evaluación presente: Evaluación integradora de la 2.ª etapa
+OK    [A] Prueba diagnóstica presente
+OK    [A] Proyecto Final Integrador presente
+OK    [A] Clase 1: 13 actividades numeradas 1..13
+OK    [A] Práctica 1: competencia, saber, actividades, control y desafío
+OK    [A] Práctica 1: 3 actividades, como en el cuaderno vigente
+OK    [A] Clase 2: 13 actividades numeradas 1..13
+OK    [A] Práctica 2: competencia, saber, actividades, control y desafío
+OK    [A] Práctica 2: 3 actividades, como en el cuaderno vigente
+OK    [A] Clase 3: 13 actividades numeradas 1..13
+OK    [A] Práctica 3: competencia, saber, actividades, control y desafío
+OK    [A] Práctica 3: 3 actividades, como en el cuaderno vigente
+OK    [A] Clase 4: 13 actividades numeradas 1..13
+OK    [A] Práctica 4: competencia, saber, actividades, control y desafío
+OK    [A] Práctica 4: 3 actividades, como en el cuaderno vigente
+OK    [A] Clase 5: 13 actividades numeradas 1..13
+OK    [A] Práctica 5: competencia, saber, actividades, control y desafío
+OK    [A] Práctica 5: 3 actividades, como en el cuaderno vigente
+OK    [A] Clase 6: 13 actividades numeradas 1..13
+OK    [A] Práctica 6: competencia, saber, actividades, control y desafío
+OK    [A] Práctica 6: 3 actividades, como en el cuaderno vigente
+OK    [A] Clase 7: 13 actividades numeradas 1..13
+OK    [A] Práctica 7: competencia, saber, actividades, control y desafío
+OK    [A] Práctica 7: 3 actividades, como en el cuaderno vigente
+OK    [A] Clase 8: 13 actividades numeradas 1..13
+OK    [A] Práctica 8: competencia, saber, actividades, control y desafío
+OK    [A] Práctica 8: 3 actividades, como en el cuaderno vigente
+OK    [A] Clase 9: 13 actividades numeradas 1..13
+OK    [A] Práctica 9: competencia, saber, actividades, control y desafío
+OK    [A] Práctica 9: 3 actividades, como en el cuaderno vigente
+OK    [A] Clase 10: 13 actividades numeradas 1..13
+OK    [A] Práctica 10: competencia, saber, actividades, control y desafío
+OK    [A] Práctica 10: 3 actividades, como en el cuaderno vigente
+OK    [A] Clase 11: 13 actividades numeradas 1..13
+OK    [A] Práctica 11: competencia, saber, actividades, control y desafío
+OK    [A] Práctica 11: 3 actividades, como en el cuaderno vigente
+OK    [A] Clase 12: 13 actividades numeradas 1..13
+OK    [A] Práctica 12: competencia, saber, actividades, control y desafío
+OK    [A] Práctica 12: 3 actividades, como en el cuaderno vigente
+OK    [A] Clase 13: 13 actividades numeradas 1..13
+OK    [A] Práctica 13: competencia, saber, actividades, control y desafío
+OK    [A] Práctica 13: 3 actividades, como en el cuaderno vigente
+OK    [A] Clase 14: 13 actividades numeradas 1..13
+OK    [A] Práctica 14: competencia, saber, actividades, control y desafío
+OK    [A] Práctica 14: 3 actividades, como en el cuaderno vigente
+OK    [A] Clase 15: 13 actividades numeradas 1..13
+OK    [A] Práctica 15: competencia, saber, actividades, control y desafío
+OK    [A] Práctica 15: 3 actividades, como en el cuaderno vigente
+OK    [A] Clase 16: 13 actividades numeradas 1..13
+OK    [A] Práctica 16: competencia, saber, actividades, control y desafío
+OK    [A] Práctica 16: 3 actividades, como en el cuaderno vigente
+OK    [A] Clase 17: 13 actividades numeradas 1..13
+OK    [A] Práctica 17: competencia, saber, actividades, control y desafío
+OK    [A] Práctica 17: 3 actividades, como en el cuaderno vigente
+OK    [A] Clase 18: 13 actividades numeradas 1..13
+OK    [A] Práctica 18: competencia, saber, actividades, control y desafío
+OK    [A] Práctica 18: 3 actividades, como en el cuaderno vigente
+OK    [A] Clase 19: 13 actividades numeradas 1..13
+OK    [A] Práctica 19: competencia, saber, actividades, control y desafío
+OK    [A] Práctica 19: 3 actividades, como en el cuaderno vigente
+OK    [A] Clase 20: 13 actividades numeradas 1..13
+OK    [A] Práctica 20: competencia, saber, actividades, control y desafío
+OK    [A] Práctica 20: 3 actividades, como en el cuaderno vigente
+OK    [A] Clase 21: 13 actividades numeradas 1..13
+OK    [A] Práctica 21: competencia, saber, actividades, control y desafío
+OK    [A] Práctica 21: 3 actividades, como en el cuaderno vigente
+OK    [B] Índice del libro: «Prueba diagnóstica — ¿Qué sabés ya?» en pág. 4
+OK    [B] Índice del libro: «UNIDAD 1 — Teoría de Conjuntos» en pág. 5
+OK    [B] Índice del libro: «Clase 1 — El conjunto: definición y determinación» en pág. 5
+OK    [B] Índice del libro: «Práctica 1 — Escribir conjuntos con precisión» en pág. 8
+OK    [B] Índice del libro: «Clase 2 — Clasificación de conjuntos y subconjunto» en pág. 9
+OK    [B] Índice del libro: «Práctica 2 — Clasificar conjuntos y generar subcon» en pág. 12
+OK    [B] Índice del libro: «Clase 3 — Representación de conjuntos: el diagrama» en pág. 13
+OK    [B] Índice del libro: «Práctica 3 — Dibujar y leer diagramas de Venn» en pág. 16
+OK    [B] Índice del libro: «Clase 4 — Operaciones con conjuntos I: unión e int» en pág. 17
+OK    [B] Índice del libro: «Práctica 4 — Unir e intersecar conjuntos» en pág. 20
+OK    [B] Índice del libro: «Clase 5 — Operaciones con conjuntos II: diferencia» en pág. 21
+OK    [B] Índice del libro: «Práctica 5 — Diferencia, complemento y problemas d» en pág. 23
+OK    [B] Índice del libro: «Evaluación de la Unidad 1» en pág. 25
+OK    [B] Índice del libro: «UNIDAD 2 — Lógica Simbólica» en pág. 26
+OK    [B] Índice del libro: «Clase 6 — La proposición: definición y clasificaci» en pág. 26
+OK    [B] Índice del libro: «Práctica 6 — Cazar proposiciones» en pág. 29
+OK    [B] Índice del libro: «Clase 7 — Conectivos lógicos, simbolización y sign» en pág. 30
+OK    [B] Índice del libro: «Práctica 7 — Simbolizar y evaluar con conectivos» en pág. 33
+OK    [B] Índice del libro: «Clase 8 — Tablas de verdad I: construcción y evalu» en pág. 34
+OK    [B] Índice del libro: «Práctica 8 — Construir tablas de verdad (dos varia» en pág. 37
+OK    [B] Índice del libro: «Clase 9 — Tablas de verdad II: tres variables, tau» en pág. 39
+OK    [B] Índice del libro: «Práctica 9 — Tres variables y clasificación de fór» en pág. 42
+OK    [B] Índice del libro: «Clase 10 — Equivalencias y leyes lógicas» en pág. 44
+OK    [B] Índice del libro: «Práctica 10 — Aplicar equivalencias y leyes lógica» en pág. 46
+OK    [B] Índice del libro: «Clase 11 — Funciones proposicionales y cuantificad» en pág. 47
+OK    [B] Índice del libro: «Práctica 11 — Cuantificar y buscar contraejemplos» en pág. 50
+OK    [B] Índice del libro: «Clase 12 — Razonamientos y demostraciones» en pág. 51
+OK    [B] Índice del libro: «Práctica 12 — Deducir con reglas de inferencia» en pág. 54
+OK    [B] Índice del libro: «Evaluación de la Unidad 2» en pág. 55
+OK    [B] Índice del libro: «Evaluación integradora de la 1.ª etapa» en pág. 56
+OK    [B] Índice del libro: «UNIDAD 3 — Introducción a la Algoritmia» en pág. 57
+OK    [B] Índice del libro: «Clase 13 — El algoritmo: concepto, características» en pág. 57
+OK    [B] Índice del libro: «Práctica 13 — Reconocer y reparar algoritmos» en pág. 60
+OK    [B] Índice del libro: «Clase 14 — Pseudocódigo y diagrama de flujo» en pág. 61
+OK    [B] Índice del libro: «Práctica 14 — Escribir pseudocódigo y dibujar diag» en pág. 64
+OK    [B] Índice del libro: «Clase 15 — Variables y expresiones aritmético-rela» en pág. 66
+OK    [B] Índice del libro: «Práctica 15 — Evaluar expresiones como la computad» en pág. 69
+OK    [B] Índice del libro: «Clase 16 — Enunciados de lectura, asignación, escr» en pág. 70
+OK    [B] Índice del libro: «Práctica 16 — Algoritmos secuenciales y prueba de » en pág. 73
+OK    [B] Índice del libro: «Clase 17 — El enunciado de decisión I: decisiones » en pág. 75
+OK    [B] Índice del libro: «Práctica 17 — Decidir con Si–Entonces–Sino» en pág. 78
+OK    [B] Índice del libro: «Clase 18 — El enunciado de decisión II: condicione» en pág. 80
+OK    [B] Índice del libro: «Práctica 18 — Clasificar con decisiones anidadas» en pág. 83
+OK    [B] Índice del libro: «Clase 19 — El enunciado de repetición I: ciclos y » en pág. 85
+OK    [B] Índice del libro: «Práctica 19 — Repetir con ciclos y contadores» en pág. 88
+OK    [B] Índice del libro: «Clase 20 — El enunciado de repetición II: acumulad» en pág. 90
+OK    [B] Índice del libro: «Práctica 20 — Acumular totales y promedios» en pág. 93
+OK    [B] Índice del libro: «Clase 21 — Proyecto integrador: el sistema de caja» en pág. 95
+OK    [B] Índice del libro: «Práctica 21 — Proyecto: construir el sistema de ca» en pág. 99
+OK    [B] Índice del libro: «Evaluación de la Unidad 3» en pág. 101
+OK    [B] Índice del libro: «Evaluación integradora de la 2.ª etapa» en pág. 103
+OK    [B] Índice del libro: «Proyecto Final Integrador — Presentamos nuestro em» en pág. 105
+OK    [B] Índice poblado (sin «Ctrl+E/F9» ni marcadores 000)
+OK    [B] Salto: «Práctica 1 — Escribir conjuntos con prec» abre página
+OK    [B] Salto: «Práctica 2 — Clasificar conjuntos y gene» abre página
+OK    [B] Salto: «Práctica 3 — Dibujar y leer diagramas de» abre página
+OK    [B] Salto: «Práctica 4 — Unir e intersecar conjuntos» abre página
+OK    [B] Salto: «Práctica 5 — Diferencia, complemento y p» abre página
+OK    [B] Salto: «Práctica 6 — Cazar proposiciones» abre página
+OK    [B] Salto: «Práctica 7 — Simbolizar y evaluar con co» abre página
+OK    [B] Salto: «Práctica 8 — Construir tablas de verdad » abre página
+OK    [B] Salto: «Práctica 9 — Tres variables y clasificac» abre página
+OK    [B] Salto: «Práctica 10 — Aplicar equivalencias y le» abre página
+OK    [B] Salto: «Práctica 11 — Cuantificar y buscar contr» abre página
+OK    [B] Salto: «Práctica 12 — Deducir con reglas de infe» abre página
+OK    [B] Salto: «Práctica 13 — Reconocer y reparar algori» abre página
+OK    [B] Salto: «Práctica 14 — Escribir pseudocódigo y di» abre página
+OK    [B] Salto: «Práctica 15 — Evaluar expresiones como l» abre página
+OK    [B] Salto: «Práctica 16 — Algoritmos secuenciales y » abre página
+OK    [B] Salto: «Práctica 17 — Decidir con Si–Entonces–Si» abre página
+OK    [B] Salto: «Práctica 18 — Clasificar con decisiones » abre página
+OK    [B] Salto: «Práctica 19 — Repetir con ciclos y conta» abre página
+OK    [B] Salto: «Práctica 20 — Acumular totales y promedi» abre página
+OK    [B] Salto: «Práctica 21 — Proyecto: construir el sis» abre página
+OK    [B] Salto: «Evaluación de la Unidad 1» abre página
+OK    [B] Salto: «Evaluación de la Unidad 2» abre página
+OK    [B] Salto: «Evaluación integradora de la 1.ª etapa» abre página
+OK    [B] Salto: «Evaluación de la Unidad 3» abre página
+OK    [B] Salto: «Evaluación integradora de la 2.ª etapa» abre página
+OK    [B] Salto: «Clase 1 — El conjunto: definición y dete» abre página (o sigue a la apertura de unidad)
+OK    [B] Salto: «Clase 2 — Clasificación de conjuntos y s» abre página (o sigue a la apertura de unidad)
+OK    [B] Salto: «Clase 3 — Representación de conjuntos: e» abre página (o sigue a la apertura de unidad)
+OK    [B] Salto: «Clase 4 — Operaciones con conjuntos I: u» abre página (o sigue a la apertura de unidad)
+OK    [B] Salto: «Clase 5 — Operaciones con conjuntos II: » abre página (o sigue a la apertura de unidad)
+OK    [B] Salto: «Clase 6 — La proposición: definición y c» abre página (o sigue a la apertura de unidad)
+OK    [B] Salto: «Clase 7 — Conectivos lógicos, simbolizac» abre página (o sigue a la apertura de unidad)
+OK    [B] Salto: «Clase 8 — Tablas de verdad I: construcci» abre página (o sigue a la apertura de unidad)
+OK    [B] Salto: «Clase 9 — Tablas de verdad II: tres vari» abre página (o sigue a la apertura de unidad)
+OK    [B] Salto: «Clase 10 — Equivalencias y leyes lógicas» abre página (o sigue a la apertura de unidad)
+OK    [B] Salto: «Clase 11 — Funciones proposicionales y c» abre página (o sigue a la apertura de unidad)
+OK    [B] Salto: «Clase 12 — Razonamientos y demostracione» abre página (o sigue a la apertura de unidad)
+OK    [B] Salto: «Clase 13 — El algoritmo: concepto, carac» abre página (o sigue a la apertura de unidad)
+OK    [B] Salto: «Clase 14 — Pseudocódigo y diagrama de fl» abre página (o sigue a la apertura de unidad)
+OK    [B] Salto: «Clase 15 — Variables y expresiones aritm» abre página (o sigue a la apertura de unidad)
+OK    [B] Salto: «Clase 16 — Enunciados de lectura, asigna» abre página (o sigue a la apertura de unidad)
+OK    [B] Salto: «Clase 17 — El enunciado de decisión I: d» abre página (o sigue a la apertura de unidad)
+OK    [B] Salto: «Clase 18 — El enunciado de decisión II: » abre página (o sigue a la apertura de unidad)
+OK    [B] Salto: «Clase 19 — El enunciado de repetición I:» abre página (o sigue a la apertura de unidad)
+OK    [B] Salto: «Clase 20 — El enunciado de repetición II» abre página (o sigue a la apertura de unidad)
+OK    [B] Salto: «Clase 21 — Proyecto integrador: el siste» abre página (o sigue a la apertura de unidad)
+OK    [B] Pie «Página X de Y» en todas las páginas salvo portada y contraportada
+OK    [B] Índice de Solucionario verificado contra el PDF (52 entradas)
+OK    [B] Solucionario: portada sin pie de página
+OK    [B] Índice de Planes verificado contra el PDF (37 entradas)
+OK    [B] Planes: portada sin pie de página
+OK    [B] Planes: encabezado «· continuación» en las páginas siguientes de cada plan
+OK    [B] Planes: 37 planes, cada uno abre página
+OK    [B] DOCX < 25 MB: Algoritmica_1er_Curso_LIBRO_ESENCIAL_COMERCIAL_2026.docx (5.98 MB)
+OK    [B] Metadatos de colección: Algoritmica_1er_Curso_LIBRO_ESENCIAL_COMERCIAL_2026.docx
+OK    [B] PDF regenerado después del DOCX: Algoritmica_1er_Curso_LIBRO_ESENCIAL_COMERCIAL_2026.docx
+OK    [B] DOCX < 25 MB: Algoritmica_1er_Curso_SOLUCIONARIO_DOCENTE_ESENCIAL_COMERCIAL_2026.docx (0.34 MB)
+OK    [B] Metadatos de colección: Algoritmica_1er_Curso_SOLUCIONARIO_DOCENTE_ESENCIAL_COMERCIAL_2026.docx
+OK    [B] PDF regenerado después del DOCX: Algoritmica_1er_Curso_SOLUCIONARIO_DOCENTE_ESENCIAL_COMERCIAL_2026.docx
+OK    [B] DOCX < 25 MB: Algoritmica_1er_Curso_PLANES_DE_CLASE_COMERCIAL_2026.docx (0.45 MB)
+OK    [B] Metadatos de colección: Algoritmica_1er_Curso_PLANES_DE_CLASE_COMERCIAL_2026.docx
+OK    [B] PDF regenerado después del DOCX: Algoritmica_1er_Curso_PLANES_DE_CLASE_COMERCIAL_2026.docx
+OK    [B] DOCX < 25 MB: Algoritmica_1er_Curso_PLAN_ANUAL_COMERCIAL_2026.docx (0.28 MB)
+OK    [B] Metadatos de colección: Algoritmica_1er_Curso_PLAN_ANUAL_COMERCIAL_2026.docx
+OK    [B] PDF regenerado después del DOCX: Algoritmica_1er_Curso_PLAN_ANUAL_COMERCIAL_2026.docx
+OK    [B] Oficio 21,6 × 33 cm en todas las secciones del libro
+OK    [B] Márgenes estrechos (1,27 cm) en todas las secciones del libro
+OK    [B] Tablas y cajas ajustadas al ancho de la página (100 %) en el libro (310)
+OK    [B] PDF del libro en oficio
+OK    [B] Oficio 21,6 × 33 cm en todas las secciones del solucionario
+OK    [B] Márgenes estrechos (1,27 cm) en todas las secciones del solucionario
+OK    [B] Tablas y cajas ajustadas al ancho de la página (100 %) en el solucionario (1)
+OK    [B] PDF del solucionario en oficio
+OK    [B] Oficio 21,6 × 33 cm en todas las secciones del planes de clase
+OK    [B] Márgenes estrechos (1,27 cm) en todas las secciones del planes de clase
+OK    [B] Tablas y cajas ajustadas al ancho de la página (100 %) en el planes de clase (259)
+OK    [B] PDF del planes de clase en oficio
+OK    [B] Oficio 21,6 × 33 cm en todas las secciones del plan anual (horizontal en el cuerpo)
+OK    [B] Márgenes estrechos (1,27 cm) en todas las secciones del plan anual
+OK    [B] Tablas y cajas ajustadas al ancho de la página (100 %) en el plan anual (1)
+OK    [B] PDF del plan anual en oficio
+OK    [B] cantSplit en el 100 % de las filas del libro (576/576)
+OK    [B] cantSplit en el 100 % de las filas del solucionario (6/6)
+OK    [B] cantSplit en el 100 % de las filas del plan anual (43/43)
+OK    [B] Muestra comercial generada
+OK    [C] Práctica 5: encuesta 45/28/21/12 → 16, 12, 9, 8
+OK    [C] Práctica 5: transferencia biblioteca 40/22/17, 9 ninguna → ambas 8
+OK    [C] Actividad 5.6: 36/21/13/7 → 14, 7, 6, 9
+OK    [C] Evaluación U1: 35/20/14/6 → 14, 6, 8, 7
+OK    [C] Evaluación E1: 30/17/12/5 → 12, 5, 7, 6
+OK    [C] Clase 5 (ejemplo): 30/18/15/8 → 10, 8, 7, 5
+OK    [C] Práctica 8: p ∧ ¬q = FVFF; ¬(p ∨ q) = FFFV; (p → q) ∧ p = VFFF; ¬p ↔ q = FVVF
+OK    [C] Práctica 9: p → (q ∨ r) tiene una sola F (V F F)
+OK    [C] Práctica 9: transferencia R1 tautología, R2 contradicción, R3 = VFVV
+OK    [C] Práctica 10: contrarrecíproco p → q ≡ ¬q → ¬p
+OK    [C] Actividad 9.7: (p ∨ q) → r falsa en las filas 2, 4 y 6
+OK    [C] Actividad 8.9: p ↔ q ≡ (p ∧ q) ∨ (¬p ∧ ¬q)
+OK    [C] Evaluación U2: (p → q) ∧ ¬q = FFFV (indeterminación)
+OK    [C] Evaluación E1: ¬p → q ≡ p ∨ q
+OK    [C] Práctica 7: con p=V, q=F, r=V, s=F solo a) y g) son F
+OK    [C] Práctica 15: 13 + 27 + 15 + 14 + 50
+OK    [C] Práctica 21: jueves 80.000 · 30.000 · 70.000 → 165.000, 3, 2, 55.000
+OK    [C] Clase 21: día real → 134.000, 4, 2, 33.500
+OK    [C] Actividad 21.7: 142.000, 4, 1, 35.500
+OK    [C] Actividad 21.9: 160.500, 3, 2, 53.500
+OK    [C] Evaluación U3: 65.000, 2, 1, 32.500
+OK    [C] Evaluación E2: 138.000, 3, 2, 46.000
+OK    [C] Actividad 20.13: 51.000, 3, 17.000, mayor 30.000
+OK    [C] Actividad 20.9: propinas 12.000, 3, 4.000
+OK    [C] PSeInt 20250314 (Flexible): pr/P14_doble 35
+OK    [C] PSeInt 20250314 (Flexible): pr/P14_area 8 5
+OK    [C] PSeInt 20250314 (Flexible): pr/P14_harina 6000
+OK    [C] PSeInt 20250314 (Flexible): pr/P15_expr 
+OK    [C] PSeInt 20250314 (Flexible): pr/P16_vuelto 3500 4 25000
+OK    [C] PSeInt 20250314 (Flexible): pr/P16_swap 7 3
+OK    [C] PSeInt 20250314 (Flexible): pr/P16_swap 10 4
+OK    [C] PSeInt 20250314 (Flexible): pr/P16_prom 2000 4500 3500
+OK    [C] PSeInt 20250314 (Flexible): pr/P16_recargo 18000
+OK    [C] PSeInt 20250314 (Flexible): pr/P17_envio 70000
+OK    [C] PSeInt 20250314 (Flexible): pr/P17_envio 45000
+OK    [C] PSeInt 20250314 (Flexible): pr/P17_par 0
+OK    [C] PSeInt 20250314 (Flexible): pr/P17_par 45
+OK    [C] PSeInt 20250314 (Flexible): pr/P17_croq 10
+OK    [C] PSeInt 20250314 (Flexible): pr/P17_croq 6
+OK    [C] PSeInt 20250314 (Flexible): pr/P18_jugo 500
+OK    [C] PSeInt 20250314 (Flexible): pr/P18_jugo 300
+OK    [C] PSeInt 20250314 (Flexible): pr/P18_jugo 250
+OK    [C] PSeInt 20250314 (Flexible): pr/P18_promo 30000 QR
+OK    [C] PSeInt 20250314 (Flexible): pr/P18_promo 30000 efectivo
+OK    [C] PSeInt 20250314 (Flexible): pr/P18_rota 45
+OK    [C] PSeInt 20250314 (Flexible): pr/P18_ok 45
+OK    [C] PSeInt 20250314 (Flexible): pr/P18_ok 18
+OK    [C] PSeInt 20250314 (Flexible): pr/P18_ok 4
+OK    [C] PSeInt 20250314 (Flexible): pr/P19_mientras 
+OK    [C] PSeInt 20250314 (Flexible): pr/P19_para 
+OK    [C] PSeInt 20250314 (Flexible): pr/P19_fix 
+OK    [C] PSeInt 20250314 (Flexible): pr/P20_caja 7000 13000 4000 0
+OK    [C] PSeInt 20250314 (Flexible): pr/P20_caja 0
+OK    [C] PSeInt 20250314 (Flexible): pr/P20_bolsas 25 25 10 0
+OK    [C] PSeInt 20250314 (Flexible): pr/P20_rifa 35000 50000 20000 45000 0
+OK    [C] PSeInt 20250314 (Flexible): pr/P21_caja 80000 30000 70000 0
+OK    [C] PSeInt 20250314 (Flexible): T_puente 20000 3
+OK    [C] PSeInt 20250314 (Flexible): T_puente 25000 2
+OK    [C] PSeInt 20250314 (Flexible): T_miles 30000
+OK    [C] Práctica 14: el solucionario declara la comprobación en PSeInt
+OK    [C] Práctica 15: el solucionario declara la comprobación en PSeInt
+OK    [C] Práctica 16: el solucionario declara la comprobación en PSeInt
+OK    [C] Práctica 17: el solucionario declara la comprobación en PSeInt
+OK    [C] Práctica 18: el solucionario declara la comprobación en PSeInt
+OK    [C] Práctica 19: el solucionario declara la comprobación en PSeInt
+OK    [C] Práctica 20: el solucionario declara la comprobación en PSeInt
+OK    [C] Práctica 21: el solucionario declara la comprobación en PSeInt
+OK    [D] Solucionario: respuestas de la Clase 1 (13 ítems)
+OK    [D] Libro: consignas de la Clase 1 (13 ítems)
+OK    [D] Solucionario: resultado y errores de la Práctica 1
+OK    [D] Solucionario: respuestas de la Clase 2 (13 ítems)
+OK    [D] Libro: consignas de la Clase 2 (13 ítems)
+OK    [D] Solucionario: resultado y errores de la Práctica 2
+OK    [D] Solucionario: respuestas de la Clase 3 (13 ítems)
+OK    [D] Libro: consignas de la Clase 3 (13 ítems)
+OK    [D] Solucionario: resultado y errores de la Práctica 3
+OK    [D] Solucionario: respuestas de la Clase 4 (13 ítems)
+OK    [D] Libro: consignas de la Clase 4 (13 ítems)
+OK    [D] Solucionario: resultado y errores de la Práctica 4
+OK    [D] Solucionario: respuestas de la Clase 5 (13 ítems)
+OK    [D] Libro: consignas de la Clase 5 (13 ítems)
+OK    [D] Solucionario: resultado y errores de la Práctica 5
+OK    [D] Solucionario: respuestas de la Clase 6 (13 ítems)
+OK    [D] Libro: consignas de la Clase 6 (13 ítems)
+OK    [D] Solucionario: resultado y errores de la Práctica 6
+OK    [D] Solucionario: respuestas de la Clase 7 (13 ítems)
+OK    [D] Libro: consignas de la Clase 7 (13 ítems)
+OK    [D] Solucionario: resultado y errores de la Práctica 7
+OK    [D] Solucionario: respuestas de la Clase 8 (13 ítems)
+OK    [D] Libro: consignas de la Clase 8 (13 ítems)
+OK    [D] Solucionario: resultado y errores de la Práctica 8
+OK    [D] Solucionario: respuestas de la Clase 9 (13 ítems)
+OK    [D] Libro: consignas de la Clase 9 (13 ítems)
+OK    [D] Solucionario: resultado y errores de la Práctica 9
+OK    [D] Solucionario: respuestas de la Clase 10 (13 ítems)
+OK    [D] Libro: consignas de la Clase 10 (13 ítems)
+OK    [D] Solucionario: resultado y errores de la Práctica 10
+OK    [D] Solucionario: respuestas de la Clase 11 (13 ítems)
+OK    [D] Libro: consignas de la Clase 11 (13 ítems)
+OK    [D] Solucionario: resultado y errores de la Práctica 11
+OK    [D] Solucionario: respuestas de la Clase 12 (13 ítems)
+OK    [D] Libro: consignas de la Clase 12 (13 ítems)
+OK    [D] Solucionario: resultado y errores de la Práctica 12
+OK    [D] Solucionario: respuestas de la Clase 13 (13 ítems)
+OK    [D] Libro: consignas de la Clase 13 (13 ítems)
+OK    [D] Solucionario: resultado y errores de la Práctica 13
+OK    [D] Solucionario: respuestas de la Clase 14 (13 ítems)
+OK    [D] Libro: consignas de la Clase 14 (13 ítems)
+OK    [D] Solucionario: resultado y errores de la Práctica 14
+OK    [D] Solucionario: respuestas de la Clase 15 (13 ítems)
+OK    [D] Libro: consignas de la Clase 15 (13 ítems)
+OK    [D] Solucionario: resultado y errores de la Práctica 15
+OK    [D] Solucionario: respuestas de la Clase 16 (13 ítems)
+OK    [D] Libro: consignas de la Clase 16 (13 ítems)
+OK    [D] Solucionario: resultado y errores de la Práctica 16
+OK    [D] Solucionario: respuestas de la Clase 17 (13 ítems)
+OK    [D] Libro: consignas de la Clase 17 (13 ítems)
+OK    [D] Solucionario: resultado y errores de la Práctica 17
+OK    [D] Solucionario: respuestas de la Clase 18 (13 ítems)
+OK    [D] Libro: consignas de la Clase 18 (13 ítems)
+OK    [D] Solucionario: resultado y errores de la Práctica 18
+OK    [D] Solucionario: respuestas de la Clase 19 (13 ítems)
+OK    [D] Libro: consignas de la Clase 19 (13 ítems)
+OK    [D] Solucionario: resultado y errores de la Práctica 19
+OK    [D] Solucionario: respuestas de la Clase 20 (13 ítems)
+OK    [D] Libro: consignas de la Clase 20 (13 ítems)
+OK    [D] Solucionario: resultado y errores de la Práctica 20
+OK    [D] Solucionario: respuestas de la Clase 21 (13 ítems)
+OK    [D] Libro: consignas de la Clase 21 (13 ítems)
+OK    [D] Solucionario: resultado y errores de la Práctica 21
+OK    [D] Opción múltiple coherente libro ↔ clave: Evaluación de la Unidad 1
+OK    [D] Abiertas con clave: Evaluación de la Unidad 1
+OK    [D] Opción múltiple coherente libro ↔ clave: Evaluación de la Unidad 2
+OK    [D] Abiertas con clave: Evaluación de la Unidad 2
+OK    [D] Opción múltiple coherente libro ↔ clave: Evaluación integradora de la 1.ª etapa
+OK    [D] Abiertas con clave: Evaluación integradora de la 1.ª etapa
+OK    [D] Opción múltiple coherente libro ↔ clave: Evaluación de la Unidad 3
+OK    [D] Abiertas con clave: Evaluación de la Unidad 3
+OK    [D] Opción múltiple coherente libro ↔ clave: Evaluación integradora de la 2.ª etapa
+OK    [D] Abiertas con clave: Evaluación integradora de la 2.ª etapa
+OK    [D] Libro del estudiante sin respuestas ni rúbricas
+OK    [D] Evaluaciones sin la pista ambigua «(contando desde 2)» de E1 A1
+OK    [D] Diagnóstica: orientación en el solucionario («Escribí entre llaves { } el co…»)
+OK    [D] Diagnóstica: orientación en el solucionario («Estos pasos para preparar tere…»)
+OK    [D] Diagnóstica: orientación en el solucionario («Leé: «Si llueve, el partido se…»)
+OK    [D] Diagnóstica: orientación en el solucionario («Clasificá estas seis palabras …»)
+OK    [D] Diagnóstica: orientación en el solucionario («Calculá: 3 × (8 − 5) + 4 =…»)
+OK    [D] Diagnóstica: orientación en el solucionario («¿Qué es para vos un «algoritmo…»)
+OK    [E] Práctica 1 sin datos de los ejemplos resueltos de la Clase 1
+OK    [E] Práctica 2 sin datos de los ejemplos resueltos de la Clase 2
+OK    [E] Práctica 3 sin datos de los ejemplos resueltos de la Clase 3
+OK    [E] Práctica 4 sin datos de los ejemplos resueltos de la Clase 4
+OK    [E] Práctica 5 sin datos de los ejemplos resueltos de la Clase 5
+OK    [E] Práctica 6 sin datos de los ejemplos resueltos de la Clase 6
+OK    [E] Práctica 7 sin datos de los ejemplos resueltos de la Clase 7
+OK    [E] Práctica 8 sin datos de los ejemplos resueltos de la Clase 8
+OK    [E] Práctica 9 sin datos de los ejemplos resueltos de la Clase 9
+OK    [E] Práctica 10 sin datos de los ejemplos resueltos de la Clase 10
+OK    [E] Práctica 11 sin datos de los ejemplos resueltos de la Clase 11
+OK    [E] Práctica 12 sin datos de los ejemplos resueltos de la Clase 12
+OK    [E] Práctica 13 sin datos de los ejemplos resueltos de la Clase 13
+OK    [E] Práctica 14 sin datos de los ejemplos resueltos de la Clase 14
+OK    [E] Práctica 15 sin datos de los ejemplos resueltos de la Clase 15
+OK    [E] Práctica 16 sin datos de los ejemplos resueltos de la Clase 16
+OK    [E] Práctica 17 sin datos de los ejemplos resueltos de la Clase 17
+OK    [E] Práctica 18 sin datos de los ejemplos resueltos de la Clase 18
+OK    [E] Práctica 19 sin datos de los ejemplos resueltos de la Clase 19
+OK    [E] Práctica 20 sin datos de los ejemplos resueltos de la Clase 20
+OK    [E] Práctica 21 sin datos de los ejemplos resueltos de la Clase 21
+OK    [E] Clase 1: actividades sin copiar el ejemplo («Ña Rosa arma el menú del día»)
+OK    [E] Clase 2: actividades sin copiar el ejemplo («Ña Rosa separa los fritos F»)
+OK    [E] Clase 3: actividades sin copiar el ejemplo («C = comestibles»)
+OK    [E] Clase 4: actividades sin copiar el ejemplo («Los pedidos del lunes»)
+OK    [E] Clase 5: actividades sin copiar el ejemplo («30 clientes, 18 chipa»)
+OK    [E] Clase 6: actividades sin copiar el ejemplo (««Hay chipa y hay cocido»»)
+OK    [E] Clase 7: actividades sin copiar el ejemplo («si hay harina y hay queso»)
+OK    [E] Clase 7: actividades sin copiar el ejemplo («comprás dos chipas»)
+OK    [E] Clase 8: actividades sin copiar el ejemplo («¬p∨q e indicá con qué conectiv»)
+OK    [E] Clase 9: actividades sin copiar el ejemplo («(p∧q)→p»)
+OK    [E] Clase 9: actividades sin copiar el ejemplo («(p∧q)→r»)
+OK    [E] Clase 10: actividades sin copiar el ejemplo (««hay chipa y hay cocido»»)
+OK    [E] Clase 11: actividades sin copiar el ejemplo (««x cuesta G. 500»»)
+OK    [E] Clase 11: actividades sin copiar el ejemplo (««x es frito»»)
+OK    [E] Clase 12: actividades sin copiar el ejemplo (««Si es viernes, hay chipa. Hoy»)
+OK    [E] Clase 13: actividades sin copiar el ejemplo (««preparar el mostrador del cop»)
+OK    [E] Clase 14: actividades sin copiar el ejemplo («total = 12.000 y pago = 20.000»)
+OK    [E] Clase 14: actividades sin copiar el ejemplo («Probalo con precio = 48.000»)
+OK    [E] Clase 15: actividades sin copiar el ejemplo («precio = 4.000 y cantidad = 3»)
+OK    [E] Clase 16: actividades sin copiar el ejemplo («probalo con 4.000, 3 y 20.000»)
+OK    [E] Clase 16: actividades sin copiar el ejemplo («usando una variable auxiliar, »)
+OK    [E] Clase 17: actividades sin copiar el ejemplo («hacé la prueba de escritorio c»)
+OK    [E] Clase 18: actividades sin copiar el ejemplo («(≥ 80.000 mayorista»)
+OK    [E] Clase 19: actividades sin copiar el ejemplo («escriba los números del 1 al 5»)
+OK    [E] Clase 20: actividades sin copiar el ejemplo («suma = 35.000 y c = 3»)
+OK    [E] Clase 21: actividades sin copiar el ejemplo («Con una venta de G. 60.000»)
+OK    [E] Sin consignas idénticas repetidas entre clases
+OK    [E] Sin objetivos de práctica repetidos
+OK    [E] Evaluaciones sin ítems de resolución duplicados entre sí
+OK    [E] Evaluaciones sin ítems copiados de las actividades
+OK    [E] Evaluaciones sin los ejemplos de clase (harina y queso · mayorista/frecuente · para llevar o para la mesa)
+OK    [E] Opción múltiple sin copiar actividades (n({a,l,g,o,r,i,t,m}), A′ de {2,4,6}, 4 elementos → 16, venta de 50.000)
+OK    [E] Opción múltiple: la respuesta correcta cambia de posición dentro de cada evaluación
+OK    [F] Figuras numeradas por clase y correlativas
+OK    [F] Toda clase tiene al menos una figura (antes 10 no tenían)
+OK    [F] Cantidad de figuras de clase: 11 conservadas + 11 nuevas = 22
+OK    [F] Figura del Proyecto: PFI.1
+OK    [F] Cada imagen del cuerpo tiene su epígrafe (23 imágenes)
+OK    [F] La figura de De Morgan del tomo (src_04) se reemplazó por una tabla redibujada
+OK    [F] Retoques mínimos solo en 4 imágenes del tomo (✓, marca de agua, «blend», comillas «» en el código)
+OK    [F] Las imágenes del tomo se conservan byte a byte (salvo las 4 retocadas, que se usan en su versión retocada)
+OK    [F] Toda figura está anunciada en el texto
+OK    [F] Referencias cruzadas a figuras existentes
+OK    [G] Plan Anual: 37 filas de encuentro numeradas 1..37 (148 HC, como el plan vigente)
+OK    [G] Plan Anual: 20 encuentros en la 1.ª etapa (E1 es el 20) y 17 en la 2.ª
+OK    [G] Continuaciones: las 14 clases de 8 HC del plan vigente (2, 4, 5, 7, 8, 9, 12, 14, 16 a 21)
+OK    [G] Plan Anual: indicadores literales de la ficha de la Clase 1
+OK    [G] Plan Anual: indicadores literales de la ficha de la Clase 2
+OK    [G] Plan Anual: indicadores literales de la ficha de la Clase 3
+OK    [G] Plan Anual: indicadores literales de la ficha de la Clase 4
+OK    [G] Plan Anual: indicadores literales de la ficha de la Clase 5
+OK    [G] Plan Anual: indicadores literales de la ficha de la Clase 6
+OK    [G] Plan Anual: indicadores literales de la ficha de la Clase 7
+OK    [G] Plan Anual: indicadores literales de la ficha de la Clase 8
+OK    [G] Plan Anual: indicadores literales de la ficha de la Clase 9
+OK    [G] Plan Anual: indicadores literales de la ficha de la Clase 10
+OK    [G] Plan Anual: indicadores literales de la ficha de la Clase 11
+OK    [G] Plan Anual: indicadores literales de la ficha de la Clase 12
+OK    [G] Plan Anual: indicadores literales de la ficha de la Clase 13
+OK    [G] Plan Anual: indicadores literales de la ficha de la Clase 14
+OK    [G] Plan Anual: indicadores literales de la ficha de la Clase 15
+OK    [G] Plan Anual: indicadores literales de la ficha de la Clase 16
+OK    [G] Plan Anual: indicadores literales de la ficha de la Clase 17
+OK    [G] Plan Anual: indicadores literales de la ficha de la Clase 18
+OK    [G] Plan Anual: indicadores literales de la ficha de la Clase 19
+OK    [G] Plan Anual: indicadores literales de la ficha de la Clase 20
+OK    [G] Plan Anual: indicadores literales de la ficha de la Clase 21
+OK    [G] Plan Anual: procedimientos únicos (37)
+OK    [G] Plan Anual: instrumentos únicos (37)
+OK    [G] Plan Anual sin «Cuaderno»/«cuadernillo»/«tomo»
+OK    [G] Plan Anual sin códigos internos
+OK    [G] Plan Anual remite al libro
+OK    [G] Planes de Clase sin «Cuaderno»/«cuadernillo»/«tomo»
+OK    [G] Planes de Clase sin códigos internos
+OK    [G] Planes de Clase remite al libro
+OK    [G] Plan 1: figura 1.1 existe en el libro
+OK    [G] Plan 1: figura 1.1 existe en el libro
+OK    [G] Plan 1: afirmaciones [10, 11, 12] son del bloque «Pensá y decidí»
+OK    [G] Plan 1: tiempos suman 160 min
+OK    [G] Plan 2: figura 2.1 existe en el libro
+OK    [G] Plan 2: figura 2.1 existe en el libro
+OK    [G] Plan 2: afirmaciones [10, 11, 12] son del bloque «Pensá y decidí»
+OK    [G] Plan 2: tiempos suman 160 min
+OK    [G] Plan 3: tiempos suman 160 min
+OK    [G] Plan 4: figura 3.1 existe en el libro
+OK    [G] Plan 4: figura 3.1 existe en el libro
+OK    [G] Plan 4: afirmaciones [10, 11, 12] son del bloque «Pensá y decidí»
+OK    [G] Plan 4: tiempos suman 160 min
+OK    [G] Plan 5: figura 4.1 existe en el libro
+OK    [G] Plan 5: figura 4.1 existe en el libro
+OK    [G] Plan 5: afirmaciones [10, 11, 12] son del bloque «Pensá y decidí»
+OK    [G] Plan 5: tiempos suman 160 min
+OK    [G] Plan 6: tiempos suman 160 min
+OK    [G] Plan 7: figura 5.1 existe en el libro
+OK    [G] Plan 7: figura 5.1 existe en el libro
+OK    [G] Plan 7: afirmaciones [10, 11, 12] son del bloque «Pensá y decidí»
+OK    [G] Plan 7: tiempos suman 160 min
+OK    [G] Plan 8: tiempos suman 160 min
+OK    [G] Plan 9: figura 6.1 existe en el libro
+OK    [G] Plan 9: figura 6.1 existe en el libro
+OK    [G] Plan 9: afirmaciones [10, 11, 12] son del bloque «Pensá y decidí»
+OK    [G] Plan 9: tiempos suman 160 min
+OK    [G] Plan 10: figura 7.1 existe en el libro
+OK    [G] Plan 10: figura 7.1 existe en el libro
+OK    [G] Plan 10: afirmaciones [10, 11, 12] son del bloque «Pensá y decidí»
+OK    [G] Plan 10: tiempos suman 160 min
+OK    [G] Plan 11: tiempos suman 160 min
+OK    [G] Plan 12: figura 8.1 existe en el libro
+OK    [G] Plan 12: figura 8.1 existe en el libro
+OK    [G] Plan 12: afirmaciones [10, 11, 12] son del bloque «Pensá y decidí»
+OK    [G] Plan 12: tiempos suman 160 min
+OK    [G] Plan 13: tiempos suman 160 min
+OK    [G] Plan 14: figura 9.1 existe en el libro
+OK    [G] Plan 14: figura 9.1 existe en el libro
+OK    [G] Plan 14: afirmaciones [10, 11, 12] son del bloque «Pensá y decidí»
+OK    [G] Plan 14: tiempos suman 160 min
+OK    [G] Plan 15: tiempos suman 160 min
+OK    [G] Plan 16: figura 10.1 existe en el libro
+OK    [G] Plan 16: figura 10.1 existe en el libro
+OK    [G] Plan 16: afirmaciones [10, 11, 12] son del bloque «Pensá y decidí»
+OK    [G] Plan 16: tiempos suman 160 min
+OK    [G] Plan 17: figura 11.1 existe en el libro
+OK    [G] Plan 17: figura 11.1 existe en el libro
+OK    [G] Plan 17: afirmaciones [10, 11, 12] son del bloque «Pensá y decidí»
+OK    [G] Plan 17: tiempos suman 160 min
+OK    [G] Plan 18: figura 12.1 existe en el libro
+OK    [G] Plan 18: figura 12.1 existe en el libro
+OK    [G] Plan 18: afirmaciones [10, 11, 12] son del bloque «Pensá y decidí»
+OK    [G] Plan 18: tiempos suman 160 min
+OK    [G] Plan 19: tiempos suman 160 min
+OK    [G] Plan 20: tiempos suman 160 min
+OK    [G] Plan 21: figura 13.1 existe en el libro
+OK    [G] Plan 21: figura 13.1 existe en el libro
+OK    [G] Plan 21: afirmaciones [10, 11, 12] son del bloque «Pensá y decidí»
+OK    [G] Plan 21: tiempos suman 160 min
+OK    [G] Plan 22: figura 14.1 existe en el libro
+OK    [G] Plan 22: figura 14.2 existe en el libro
+OK    [G] Plan 22: figura 14.1 existe en el libro
+OK    [G] Plan 22: figura 14.2 existe en el libro
+OK    [G] Plan 22: afirmaciones [10, 11, 12] son del bloque «Pensá y decidí»
+OK    [G] Plan 22: tiempos suman 160 min
+OK    [G] Plan 23: figura 14.1 existe en el libro
+OK    [G] Plan 23: tiempos suman 160 min
+OK    [G] Plan 24: figura 15.1 existe en el libro
+OK    [G] Plan 24: figura 15.1 existe en el libro
+OK    [G] Plan 24: afirmaciones [10, 11, 12] son del bloque «Pensá y decidí»
+OK    [G] Plan 24: tiempos suman 160 min
+OK    [G] Plan 25: figura 16.1 existe en el libro
+OK    [G] Plan 25: figura 16.1 existe en el libro
+OK    [G] Plan 25: afirmaciones [10, 11, 12] son del bloque «Pensá y decidí»
+OK    [G] Plan 25: tiempos suman 160 min
+OK    [G] Plan 26: tiempos suman 160 min
+OK    [G] Plan 27: figura 17.1 existe en el libro
+OK    [G] Plan 27: figura 17.1 existe en el libro
+OK    [G] Plan 27: afirmaciones [10, 11, 12] son del bloque «Pensá y decidí»
+OK    [G] Plan 27: tiempos suman 160 min
+OK    [G] Plan 28: tiempos suman 160 min
+OK    [G] Plan 29: figura 18.1 existe en el libro
+OK    [G] Plan 29: figura 18.1 existe en el libro
+OK    [G] Plan 29: afirmaciones [10, 11, 12] son del bloque «Pensá y decidí»
+OK    [G] Plan 29: tiempos suman 160 min
+OK    [G] Plan 30: tiempos suman 160 min
+OK    [G] Plan 31: figura 19.1 existe en el libro
+OK    [G] Plan 31: figura 19.1 existe en el libro
+OK    [G] Plan 31: afirmaciones [10, 11, 12] son del bloque «Pensá y decidí»
+OK    [G] Plan 31: tiempos suman 160 min
+OK    [G] Plan 32: tiempos suman 160 min
+OK    [G] Plan 33: figura 20.1 existe en el libro
+OK    [G] Plan 33: figura 20.1 existe en el libro
+OK    [G] Plan 33: afirmaciones [10, 11, 12] son del bloque «Pensá y decidí»
+OK    [G] Plan 33: tiempos suman 160 min
+OK    [G] Plan 34: tiempos suman 160 min
+OK    [G] Plan 35: figura 21.1 existe en el libro
+OK    [G] Plan 35: figura 21.1 existe en el libro
+OK    [G] Plan 35: afirmaciones [10, 11, 12] son del bloque «Pensá y decidí»
+OK    [G] Plan 35: tiempos suman 160 min
+OK    [G] Plan 36: tiempos suman 160 min
+OK    [G] Plan 37: tiempos suman 160 min
+OK    [G] Planes de continuación: el Tema coincide con la fila del Plan Anual (auditoría independiente, hallazgo 4)
+OK    [G] Planes: 37 títulos en el documento
+OK    [G] Planes: alternativa en papel en los dos planes que usan PSeInt (Clase 21 y su continuación)
+OK    [G] Planes: evaluación de unidad al cierre de las continuaciones 5, 12 y 21
+OK    [G] Planes: el Proyecto Final Integrador figura en las continuaciones 17, 19, 20 y 21
+OK    [G] Plan Anual: capacidad actitudinal de cada unidad en su banda
+OK    [H] Voseo en las consignas (sin imperativos en tuteo)
+OK    [H] Residuo ausente en el libro: «Cuaderno de Prácticas»
+OK    [H] Residuo ausente en el libro: «cuadernillo»
+OK    [H] Residuo ausente en el libro: «Cuadernillo»
+OK    [H] Residuo ausente en el libro: « tomo »
+OK    [H] Residuo ausente en el libro: «{FIG»
+OK    [H] Residuo ausente en el libro: «TODO:»
+OK    [H] Residuo ausente en el libro: «python-docx»
+OK    [H] Residuo ausente en el libro: «Ctrl+E»
+OK    [H] Cobertura del programa: definición y determinación de conjuntos
+OK    [H] Cobertura del programa: clasificación de conjuntos
+OK    [H] Cobertura del programa: tipos de subconjuntos
+OK    [H] Cobertura del programa: representación (Venn)
+OK    [H] Cobertura del programa: unión e intersección
+OK    [H] Cobertura del programa: diferencia y complemento
+OK    [H] Cobertura del programa: problemas con conjuntos
+OK    [H] Cobertura del programa: proposición: definición y clasificación
+OK    [H] Cobertura del programa: conectivos lógicos
+OK    [H] Cobertura del programa: signos de agrupación
+OK    [H] Cobertura del programa: tablas de verdad
+OK    [H] Cobertura del programa: tautología, contradicción, indeterminación
+OK    [H] Cobertura del programa: equivalencias y leyes
+OK    [H] Cobertura del programa: adjunción y simplificación
+OK    [H] Cobertura del programa: funciones proposicionales
+OK    [H] Cobertura del programa: cuantificadores
+OK    [H] Cobertura del programa: inferencia: MPP, MTT, MTP
+OK    [H] Cobertura del programa: silogismo hipotético y disyuntivo
+OK    [H] Cobertura del programa: algoritmo: concepto y características
+OK    [H] Cobertura del programa: cualitativos y cuantitativos
+OK    [H] Cobertura del programa: pseudocódigo
+OK    [H] Cobertura del programa: diagrama de flujo
+OK    [H] Cobertura del programa: expresiones aritméticas, relacionales y lógicas
+OK    [H] Cobertura del programa: jerarquía de operadores
+OK    [H] Cobertura del programa: enunciado de lectura, asignación y escritura
+OK    [H] Cobertura del programa: enunciado de decisión
+OK    [H] Cobertura del programa: decisiones anidadas
+OK    [H] Cobertura del programa: ciclos repetitivos
+OK    [H] Cobertura del programa: contadores y acumuladores
+OK    [H] Cobertura del programa: prueba de escritorio
+OK    [H] Clases con al menos 750 palabras de desarrollo (antes las 21 tenían entre 344 y 549)
+OK    [I] Clase 1: capacidad textual del programa MEC
+OK    [I] Clase 2: capacidad textual del programa MEC
+OK    [I] Clase 3: capacidad textual del programa MEC
+OK    [I] Clase 4: capacidad textual del programa MEC
+OK    [I] Clase 5: capacidad textual del programa MEC
+OK    [I] Clase 6: capacidad textual del programa MEC
+OK    [I] Clase 7: capacidad textual del programa MEC
+OK    [I] Clase 8: capacidad textual del programa MEC
+OK    [I] Clase 9: capacidad textual del programa MEC
+OK    [I] Clase 10: capacidad textual del programa MEC
+OK    [I] Clase 11: capacidad textual del programa MEC
+OK    [I] Clase 12: capacidad textual del programa MEC
+OK    [I] Clase 13: capacidad textual del programa MEC
+OK    [I] Clase 14: capacidad textual del programa MEC
+OK    [I] Clase 15: capacidad textual del programa MEC
+OK    [I] Clase 16: capacidad textual del programa MEC
+OK    [I] Clase 17: capacidad textual del programa MEC
+OK    [I] Clase 18: capacidad textual del programa MEC
+OK    [I] Clase 19: capacidad textual del programa MEC
+OK    [I] Clase 20: capacidad textual del programa MEC
+OK    [I] Clase 21: capacidad textual del programa MEC
+OK    [I] Las 12 capacidades cognitivas del programa aparecen en alguna ficha
+OK    [I] Clase 13: suma «Analiza las características de los algoritmos cualitativos y cuantitativos», que faltaba
+OK    [I] Plan Anual: nota sobre capacidades textuales e indicadores
+OK    [I] Plan Anual: capacidades textuales de la Unidad 1
+OK    [I] Plan Anual: capacidades textuales de la Unidad 2
+OK    [I] Plan Anual: capacidades textuales de la Unidad 3
+OK    [I] Planes de Clase: toda capacidad es textual del programa MEC
+OK    [I] Planes de Clase: las capacidades figuran en el documento
+OK    [I] PSeInt: perfil Flexible indicado en el libro
+OK    [I] PSeInt: solucionario documenta versión y perfil
+OK    [I] Sin «versión actual» en libro ni solucionario
+OK    [I] Sin «la más utilizada» en libro ni solucionario
+OK    [I] Sin «más usada» en libro ni solucionario
+OK    [I] Sin «la más usada» en libro ni solucionario
+OK    [I] Sin «el más usado» en libro ni solucionario
+OK    [I] Puntos de control sin revelar resultados (sin «Deben darte», cifras ni igualdades)
+OK    [I] Sin «✅» del cuaderno anterior
+OK    [I] Práctica 5: transferencia y revisión entre pares en el libro
+OK    [I] Práctica 5: solución de la transferencia en el solucionario
+OK    [I] Plan de continuación de la Práctica 5 incluye la transferencia
+OK    [I] Práctica 9: transferencia y revisión entre pares en el libro
+OK    [I] Práctica 9: solución de la transferencia en el solucionario
+OK    [I] Plan de continuación de la Práctica 9 incluye la transferencia
+OK    [I] Práctica 20: transferencia y revisión entre pares en el libro
+OK    [I] Práctica 20: solución de la transferencia en el solucionario
+OK    [I] Plan de continuación de la Práctica 20 incluye la transferencia
+OK    [I] Transferencia solo donde hace falta (3 de 14 continuaciones)
+OK    [I] Recuadros «En Paraguay» solo con contenido paraguayo concreto (1)
+OK    [I] Sin tramos de IRP ni afirmaciones sobre factura/boleta (T5)
+OK    [I] «Aplicación profesional»/«Ejemplo cotidiano» no aparecen en todas las clases
+OK    [I] PFI: extensión recomendada con la fórmula acordada
+OK    [I] Rúbrica analítica: 5 criterios con los pesos del paquete vigente 30/25/20/15/10
+OK    [I] Rúbrica analítica: niveles 100/60/30/0 %
+OK    [I] Rúbrica analítica: 4 descriptores por criterio en el solucionario
+OK    [I] Sin símbolos ✓ ✗ ✔ ✅ en el libro
+OK    [I] Sin fuente de emoji en el PDF del libro
+OK    [I] Sin cuadros de glifo faltante en el libro
+OK    [I] Residuos en el libro: marcadores de figura
+OK    [I] Residuos en el libro: comillas vacías
+OK    [I] Residuos en el libro: punto doble
+OK    [I] Residuos en el libro: espacio antes de puntuación
+OK    [I] Residuos en el libro: palabra repetida (salvo cierres anidados FinSi FinSi)
+OK    [I] Sin símbolos ✓ ✗ ✔ ✅ en el solucionario
+OK    [I] Sin fuente de emoji en el PDF del solucionario
+OK    [I] Sin cuadros de glifo faltante en el solucionario
+OK    [I] Residuos en el solucionario: marcadores de figura
+OK    [I] Residuos en el solucionario: comillas vacías
+OK    [I] Residuos en el solucionario: punto doble
+OK    [I] Residuos en el solucionario: espacio antes de puntuación
+OK    [I] Residuos en el solucionario: palabra repetida (salvo cierres anidados FinSi FinSi)
+OK    [I] Sin símbolos ✓ ✗ ✔ ✅ en el planes
+OK    [I] Sin fuente de emoji en el PDF del planes
+OK    [I] Sin cuadros de glifo faltante en el planes
+OK    [I] Residuos en el planes: marcadores de figura
+OK    [I] Residuos en el planes: comillas vacías
+OK    [I] Residuos en el planes: punto doble
+OK    [I] Residuos en el planes: espacio antes de puntuación
+OK    [I] Residuos en el planes: palabra repetida (salvo cierres anidados FinSi FinSi)
+OK    [I] Sin símbolos ✓ ✗ ✔ ✅ en el plan anual
+OK    [I] Sin fuente de emoji en el PDF del plan anual
+OK    [I] Sin cuadros de glifo faltante en el plan anual
+OK    [I] Residuos en el plan anual: marcadores de figura
+OK    [I] Residuos en el plan anual: comillas vacías
+OK    [I] Residuos en el plan anual: punto doble
+OK    [I] Residuos en el plan anual: espacio antes de puntuación
+OK    [I] Residuos en el plan anual: palabra repetida (salvo cierres anidados FinSi FinSi)
+OK    [J] T1: ningún número con punto de miles dentro del código (50.000 se lee 50 en PSeInt)
+OK    [J] T1: tampoco hay expresiones de código con punto de miles escritas en el texto (salvo el ejemplo del error en la Clase 15)
+OK    [J] T1: la Clase 15 explica por qué 50.000 no es «cincuenta mil» dentro de una expresión
+OK    [J] T2: comillas rectas en el código (sin «» después de Escribir o en comparaciones)
+OK    [J] T3: sin «≈» en libro ni solucionario (promedios periódicos escritos con su desarrollo)
+OK    [J] T4: «Puente a PSeInt» es un apartado de la Clase 21, no una clase suelta
+OK    [J] T5: «En Paraguay» reducido a un recuadro verificable
+OK    [J] T6: opciones de «Elegí y justificá» con una sola forma («a) X; b) Y; c) Z.»)
+OK    [J] T8: el solucionario trae las respuestas de las 21 prácticas
+OK    [J] T9: hay Planes de Clase (37)
+OK    [J] Dilema constructivo (p ∨ q, p → r, q → s ⊢ r ∨ s) sin atribuir la nomenclatura al programa
+OK    [J] Clase 14: aclaración diagrama de flujo del algoritmo / DFD
+OK    [J] Sin «favorita», «el error más común» ni «la pregunta favorita»
+OK    [J] Puente a PSeInt: comprobación 54.000 y frontera 45.000 en el libro
+OK    [J] Recurso «tomo» y «cuadernillo» reemplazados por «libro» en las clases
+OK    [K] H01: Libro trae las 15 capacidades MEC textuales (15/15)
+OK    [K] H01: Planes trae las 15 capacidades MEC textuales (15/15)
+OK    [K] H01: Plan Anual trae las 15 capacidades MEC textuales (15/15)
+OK    [K] H01: Libro, apertura de la Unidad 1 con «Capacidad transversal MEC» y su indicador
+OK    [K] H01: Libro, Práctica 5 con la capacidad transversal, su paso evaluable y su punto de control
+OK    [K] H01: Solucionario, Práctica 5 con la clave del indicador transversal
+OK    [K] H01: un plan de la Unidad 1 (N.º 8) con «Capacidad transversal MEC», la capacidad literal y el indicador
+OK    [K] H01: Libro, apertura de la Unidad 2 con «Capacidad transversal MEC» y su indicador
+OK    [K] H01: Libro, Práctica 9 con la capacidad transversal, su paso evaluable y su punto de control
+OK    [K] H01: Solucionario, Práctica 9 con la clave del indicador transversal
+OK    [K] H01: un plan de la Unidad 2 (N.º 15) con «Capacidad transversal MEC», la capacidad literal y el indicador
+OK    [K] H01: Libro, apertura de la Unidad 3 con «Capacidad transversal MEC» y su indicador
+OK    [K] H01: Libro, Práctica 20 con la capacidad transversal, su paso evaluable y su punto de control
+OK    [K] H01: Solucionario, Práctica 20 con la clave del indicador transversal
+OK    [K] H01: un plan de la Unidad 3 (N.º 34) con «Capacidad transversal MEC», la capacidad literal y el indicador
+OK    [K] H01: «Capacidad transversal MEC» aparece 3 veces como caja de unidad y 3 como caja de transferencia en el Libro
+OK    [K] H01: «Capacidad transversal MEC» en los 3 planes (encabezado de fila)
+OK    [K] H02: 0 hojas de Planes con solo firmas (hojas con «Visto bueno» y menos de 80 palabras)
+OK    [K] H02: los 37 planes ocupan exactamente una hoja cada uno
+OK    [K] H02: firmas (Docente / Dirección — Visto bueno) en la misma hoja de cada plan
+OK    [K] H02: ningún texto de los planes baja de 9 pt (la compactación solo toca espaciado y bordes)
+OK    [K] H03: Libro con 0 páginas por debajo del 25 % de ocupación
+OK    [K] H03: Solucionario con 0 páginas por debajo del 25 % de ocupación
+OK    [K] H03: Planes con 0 páginas por debajo del 25 % de ocupación
+OK    [K] H03: Plan Anual con 0 páginas por debajo del 25 % de ocupación
+OK    [K] H03: Muestra con 0 páginas por debajo del 25 %
+OK    [K] H03: el Libro no tiene hojas en blanco
+OK    [K] H03: el build no tiene mecanismo de unión entre secciones (sin «cp»/«pc» en los ajustes)
+OK    [K] H03: el corte «Actividades de aplicación» queda dentro de su sección (Clase 2) y no reemplaza un salto obligatorio
+OK    [K] H03: el corte «Actividades de aplicación» queda dentro de su sección (Clase 3) y no reemplaza un salto obligatorio
+OK    [K] H03: el corte «Actividades de aplicación» queda dentro de su sección (Clase 4) y no reemplaza un salto obligatorio
+OK    [K] H03: el corte «Actividades de aplicación» queda dentro de su sección (Clase 7) y no reemplaza un salto obligatorio
+OK    [K] H03: el corte «Actividades de aplicación» queda dentro de su sección (Clase 8) y no reemplaza un salto obligatorio
+OK    [K] H03: el corte «Actividad 2 — Dos fórmulas, misma t» queda dentro de su sección (Práctica 8) y no reemplaza un salto obligatorio
+OK    [K] H03: el corte «Actividades de aplicación» queda dentro de su sección (Clase 9) y no reemplaza un salto obligatorio
+OK    [K] H03: el corte «Actividades de aplicación» queda dentro de su sección (Clase 11) y no reemplaza un salto obligatorio
+OK    [K] H03: el corte «Actividades de aplicación» queda dentro de su sección (Clase 12) y no reemplaza un salto obligatorio
+OK    [K] H03: el corte «Actividad 3 — Del pseudocódigo al d» queda dentro de su sección (Práctica 14) y no reemplaza un salto obligatorio
+OK    [K] H03: el corte «Actividades de aplicación» queda dentro de su sección (Clase 15) y no reemplaza un salto obligatorio
+OK    [K] H03: el corte «Actividad 2 — Par o impar» queda dentro de su sección (Práctica 17) y no reemplaza un salto obligatorio
+OK    [K] H03: el corte «Actividades de aplicación» queda dentro de su sección (Clase 21) y no reemplaza un salto obligatorio
+OK    [K] H03: el corte «Actividad 2 — Diseño y prueba con e» queda dentro de su sección (Práctica 21) y no reemplaza un salto obligatorio
+OK    [K] H03: U1 con 3 renglones de respuesta por consigna de la Parte B, contados en el PDF (5 consignas → 15 renglones)
+OK    [K] H03: U1, renglones de 0.71 cm (≥ 0,58 cm)
+OK    [K] H03: U2 con 3 renglones de respuesta por consigna de la Parte B, contados en el PDF (5 consignas → 15 renglones)
+OK    [K] H03: U2, renglones de 0.71 cm (≥ 0,58 cm)
+OK    [K] H03: E1 con 3 renglones de respuesta por consigna de la Parte B, contados en el PDF (6 consignas → 18 renglones)
+OK    [K] H03: E1, renglones de 0.58 cm (≥ 0,58 cm)
+OK    [K] H03: U3 con 3 renglones de respuesta por consigna de la Parte B, contados en el PDF (6 consignas → 18 renglones)
+OK    [K] H03: U3, renglones de 0.71 cm (≥ 0,58 cm)
+OK    [K] H03: E2 con 3 renglones de respuesta por consigna de la Parte B, contados en el PDF (7 consignas → 21 renglones)
+OK    [K] H03: E2, renglones de 0.71 cm (≥ 0,58 cm)
+OK    [K] H04: E2 Parte A n.º 3 usa G. 86.000 (opciones 86.000 / 94.600 / 77.400, clave c)
+OK    [K] H04: G. 86.000 no está resuelto ni propuesto en la Clase 17 (ejemplos ni actividades)
+OK    [K] H04: la pregunta del 60.000 con descuento ya no figura en la evaluación
+OK    [K] H04: Solucionario, clave de la integradora 2, n.º 3 = c) 77.400
+OK    [K] H05: Plan Anual y Planes sin «ESENCIAL» en el nombre de archivo
+OK    [K] H05: Plan Anual y Planes sin «Esencial» en título ni asunto
+OK    [K] Índice exacto del Libro: número impreso = página real en las 52 entradas
+OK    [K] Índice exacto del Solucionario: número impreso = página real en las 52 entradas
+OK    [K] Índice exacto del Planes: número impreso = página real en las 37 entradas
+OK    [K] DOCX↔PDF: todo párrafo del DOCX del Libro (3534) figura en su PDF
+OK    [K] DOCX↔PDF: todo párrafo del DOCX del Solucionario (642) figura en su PDF
+OK    [K] DOCX↔PDF: todo párrafo del DOCX del Planes (2698) figura en su PDF
+OK    [K] DOCX↔PDF: todo párrafo del DOCX del Plan Anual (389) figura en su PDF
+OK    [K] DOCX↔PDF: Libro, páginas del PDF = total del índice
+OK    [K] DOCX↔PDF: Solucionario, Planes: páginas del PDF = total del índice

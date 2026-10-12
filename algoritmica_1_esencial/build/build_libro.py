@@ -7,7 +7,7 @@ from estructura import cargar
 import ediciones, actividades, practicas, evaluaciones, preliminares as PRE
 
 B = '/home/claude/alg1/build/'
-OUT = '/home/claude/alg1/salida_v1_3/'
+OUT = '/home/claude/alg1/salida_v1_3_1/'
 os.makedirs(OUT, exist_ok=True)
 NOMBRE = 'Algoritmica_1er_Curso_LIBRO_ESENCIAL_COMERCIAL_2026'
 FIG_SRC = B + 'figs_src/'; FIG_NEW = B + 'figs_new/'; FIG_RET = B + 'figs_ret/'
@@ -22,10 +22,11 @@ TIT_CLASE = {n: C[n]['titulo'] for n in C}
 EVS = evaluaciones.EV
 
 
-UN_PATH = B + 'uniones_libro.json'
-UN = json.load(open(UN_PATH)) if os.path.exists(UN_PATH) else {'cp': [], 'pc': [], 'ev': [], 'evsplit': [], 'pb': []}
-# cp: la Práctica n sigue a la Clase n sin salto de página · pc: la Clase n+1 sigue a la Práctica n sin salto ·
-# ev: evaluaciones con renglones de menor altura (siguen siendo 3 renglones por consigna)
+AJ_PATH = B + 'ajustes_libro.json'
+AJ = json.load(open(AJ_PATH)) if os.path.exists(AJ_PATH) else {'ev': [], 'evsplit': [], 'cortes': []}
+# Cada clase, práctica y evaluación abre página (regla del protocolo). Para que ninguna hoja quede casi vacía, el
+# contenido se redistribuye DENTRO de su sección: 'cortes' = [sección, comienzo del párrafo] lleva ese párrafo a la
+# hoja siguiente. ev: evaluaciones con renglones de menor altura (3 por consigna) · evsplit: Parte B en hoja propia.
 
 
 def toc_entries():
@@ -82,7 +83,7 @@ def clase(d, n, salto=True):
 
 def practica(d, n):
     p = practicas.PR[n]
-    M.heading(d, 'Práctica %d — %s' % (n, p['titulo']), 2, salto=n not in UN['cp'])
+    M.heading(d, 'Práctica %d — %s' % (n, p['titulo']), 2, salto=True)
     M.linea_nombre(d)
     M.caja(d, 'Competencia de la práctica', [p['competencia'], 'Entorno de trabajo: %s.' % p['entorno']])
     M.par(d, 'Lo que necesitás saber', 10.5, True, color=M.MED, keep=True, antes=2, despues=2)
@@ -90,9 +91,7 @@ def practica(d, n):
         M.par(d, s, 10)
     M.par(d, p['antes'], 10, italic=True, color=M.MED, despues=6)
     for k, a in enumerate(p['acts'], 1):
-        pa = M.par(d, 'Actividad %d — %s' % (k, a['titulo']), 11, True, color=M.DARK, keep=True, antes=6, despues=2)
-        if [n, k] in UN['pb']:
-            pa.paragraph_format.page_break_before = True
+        M.par(d, 'Actividad %d — %s' % (k, a['titulo']), 11, True, color=M.DARK, keep=True, antes=6, despues=2)
         pp = M.par(d, '', 10, keep=True)
         M.run(pp, 'Objetivo: ', True, size=10); M.run(pp, a['objetivo'], italic=True, size=10)
         if a.get('modelo'):
@@ -139,8 +138,8 @@ def practica(d, n):
 
 
 def evaluacion(d, e):
-    split = e['id'] in UN['evsplit']
-    alto = 330 if (e['id'] in UN['ev'] and not split) else 400
+    split = e['id'] in AJ['evsplit']
+    alto = 330 if (e['id'] in AJ['ev'] and not split) else 400
     M.salto(d)
     M.banda(d, e['titulo'], e['sub'], M.AZUL if e['etapa'] else M.AMB)
     if e.get('base'):
@@ -219,7 +218,7 @@ def construir(paginas=None):
             M.caja(d, ediciones.TRANSV_ENC, [ediciones.MEC[tv['cod']],
                    'Indicador de logro: ' + tv['indicador'],
                    'Dónde se trabaja: en la Práctica %d, en la transferencia y revisión entre pares.' % tv['practica']], fill='E3F2FD', color_tit=M.AZUL)
-        clase(d, n, salto=not primera and (n - 1) not in UN['pc'])
+        clase(d, n, salto=not primera)
         practica(d, n)
         for e in EVS:
             if e['tras'] == n:
@@ -228,9 +227,56 @@ def construir(paginas=None):
     M.pie_paginas(d, cuerpo)
     M.seccion_sin_pie(d)
     M.imagen_pagina_completa(d, B + 'portadas/contraportada.jpg', 'Contraportada')
+    aplicar_cortes(d)
     M.no_actualizar_campos(d)
     M.purgar_relaciones(d)
     return d, E
+
+
+SECCION = re.compile(r'^(Clase \d+|Práctica \d+) — ')
+
+
+def secciones_cuerpo(d):
+    """[(sección, texto)] de los párrafos de primer nivel del cuerpo (no los de tablas ni cajas)."""
+    from docx.oxml.ns import qn
+    out, sec = [], None
+    for el in d.element.body.iterchildren(qn('w:p')):
+        t = ''.join(x.text or '' for x in el.iter(qn('w:t')))
+        m = SECCION.match(t)
+        if m:
+            sec = m.group(1)
+        elif t.startswith(('UNIDAD ', 'Evaluación ', 'Proyecto Final', 'Parte A — ')):
+            sec = None
+        out.append((sec, t, el))
+    return out
+
+
+def aplicar_cortes(d):
+    from docx.oxml.ns import qn
+    from docx.oxml import OxmlElement
+    hechos = set()
+    for sec, t, el in secciones_cuerpo(d):
+        for k, (s_, ancla) in enumerate(AJ['cortes']):
+            if k not in hechos and sec == s_ and t.startswith(ancla):
+                # si el párrafo anterior debe ir con el siguiente (keepNext o título), el corte sube al inicio de esa cadena
+                destino = el
+                while True:
+                    prev = destino.getprevious()
+                    if prev is None or prev.tag != qn('w:p'):
+                        break
+                    ppr_ = prev.find(qn('w:pPr'))
+                    st_ = ppr_.find(qn('w:pStyle')) if ppr_ is not None else None
+                    junto = ppr_ is not None and ppr_.find(qn('w:keepNext')) is not None
+                    titulo = st_ is not None and st_.get(qn('w:val')).startswith(('Heading', 'Ttulo'))
+                    texto = ''.join(x.text or '' for x in prev.iter(qn('w:t')))
+                    if (junto or titulo) and not SECCION.match(texto):
+                        destino = prev
+                    else:
+                        break
+                ppr = destino.get_or_add_pPr()
+                ppr.insert(0, OxmlElement('w:pageBreakBefore'))
+                hechos.add(k)
+    assert len(hechos) == len(AJ['cortes']), ('corte sin ancla', [c for k, c in enumerate(AJ['cortes']) if k not in hechos])
 
 
 def a_pdf(docx_path, outdir):
