@@ -1,0 +1,84 @@
+VERIFICACIÓN FINAL OFICIO v2 — Algorítmica 3.º · contra el Informe 03 (11/10/2026)
+Controles: 81 · Fallos: 0
+
+01    OK   frase oficial literal en Libro (docx)
+01    OK   frase oficial literal en Libro (pdf)
+01    OK   frase oficial literal en Planes (docx)
+01    OK   frase oficial literal en Planes (pdf)
+01    OK   frase oficial literal en Plan Anual (docx)
+01    OK   frase oficial literal en Plan Anual (pdf)
+01    OK   frase oficial literal en Solucionario (docx)
+01    OK   frase oficial literal en Solucionario (pdf)
+01    OK   Libro: en Presentación y en Proyecto Final
+02    OK   ítem 7: seis productos leídos
+02    OK   clave ítem 7: Panificados = 26.000
+02    OK   clave ítem 7: Salados = 64.000
+02    OK   clave ítem 7: Bebidas = 30.500
+02    OK   clave ítem 7: total = 120.500
+02    OK   clave ítem 7 = propuesta del auditor (26.000/64.000/30.500/120.500)
+02    OK   ítem 7 ya no reutiliza los importes de la Clase 21
+03    OK   clave ítem 8: Rosa = 56.000
+03    OK   clave ítem 8: Luis = 22.000
+03    OK   clave ítem 8: Ana = 18.000
+03    OK   clave ítem 8: Miguel = 57.000
+03    OK   clave ítem 8: total = 153.000
+03    OK   clave ítem 8: promedio = 30.600
+03    OK   clave ítem 8 = propuesta del auditor
+03    OK   ítem 8 ya no reutiliza V1–V5 de la Clase 21
+02/03 OK   resultado 120.500 no figura en el libro del estudiante
+02/03 OK   resultado 30.500 no figura en el libro del estudiante
+02/03 OK   resultado 64.000 no figura en el libro del estudiante
+02/03 OK   resultado 153.000 no figura en el libro del estudiante
+02/03 OK   resultado 30.600 no figura en el libro del estudiante
+02/03 OK   resultado 56.000 no figura en el libro del estudiante
+04    OK   Planes: 0 hojas de continuación
+04    OK   Planes: 36 planes, uno por hoja
+04    OK   los 36 planes cierran con criterios, observaciones y firmas en su hoja
+04    OK   letra mínima 8,5 pt o más (nivel ≤ 3)
+04    OK   Planes: 0 diferencias de texto con FINAL OFICIO (salvo números del índice)
+04    OK   Planes: índice verificado contra el PDF
+05    OK   Libro: sin «Click-to-Run»
+05    OK   Libro: toda mención de Office 2016 lleva el fin de soporte
+05    OK   Libro: recomienda Microsoft 365 o Access 2024
+05    OK   Solucionario: sin «Click-to-Run»
+05    OK   Solucionario: toda mención de Office 2016 lleva el fin de soporte
+05    OK   Solucionario: recomienda Microsoft 365 o Access 2024
+06    OK   Muestra: 15 páginas
+06    OK   Muestra: ninguna continuación ni página < 25 %
+06    OK   Muestra: Plan N.º 1 en una sola página
+06    OK   Muestra: sin claves docentes
+07    OK   nombre sin edición: Algoritmica_3er_Curso_PLANES_DE_CLASE_COMERCIAL_2026_FINAL_OFICIO_v2.pdf
+07    OK   nombre sin edición: Algoritmica_3er_Curso_PLANES_DE_CLASE_COMERCIAL_2026_FINAL_OFICIO_v2.docx
+07    OK   nombre sin edición: Algoritmica_3er_Curso_PLAN_ANUAL_COMERCIAL_2026_FINAL_OFICIO_v2.pdf
+07    OK   nombre sin edición: Algoritmica_3er_Curso_PLAN_ANUAL_COMERCIAL_2026_FINAL_OFICIO_v2.docx
+07    OK   Plan Anual: 0 diferencias de texto con FINAL OFICIO
+08    OK   Práctica 3: traza [15000, 36000, 63000, 87000, 105000, 144000]
+08    OK   Práctica 3: total y promedio
+08    OK   Práctica 3: desafío 4 ventas > 20.000
+08    OK   Práctica 3: error de inicialización muestra el último importe
+08    OK   Práctica 3 ya no repite los importes de la segunda semana (P21)
+08    OK   Práctica 3 en otra semana que la de Access (9 al 11 de marzo)
+09    OK   Libro: 0 páginas con ocupación < 25 %
+09    OK   Libro pág. 33: cierre de clase con autoevaluación
+09    OK   Libro pág. 102: cierre de clase con autoevaluación
+gen   OK   Libro: índice 54/54 contra el PDF
+gen   OK   Solucionario: índice 53/53 contra el PDF
+gen   OK   oficio 612×936 pt: Algoritmica_3er_Curso_LIBRO_ESENCIAL_COMERCIAL_2026_FINAL_OFICIO_v2
+gen   OK   sin ✓ ✗ ✅ ✔: Algoritmica_3er_Curso_LIBRO_ESENCIAL_COMERCIAL_2026_FINAL_OFICIO_v2
+gen   OK   oficio 612×936 pt: Algoritmica_3er_Curso_SOLUCIONARIO_DOCENTE_ESENCIAL_COMERCIAL_2026_FINAL_OFICIO_v2
+gen   OK   sin ✓ ✗ ✅ ✔: Algoritmica_3er_Curso_SOLUCIONARIO_DOCENTE_ESENCIAL_COMERCIAL_2026_FINAL_OFICIO_v2
+gen   OK   oficio 612×936 pt: Algoritmica_3er_Curso_PLANES_DE_CLASE_COMERCIAL_2026_FINAL_OFICIO_v2
+gen   OK   sin ✓ ✗ ✅ ✔: Algoritmica_3er_Curso_PLANES_DE_CLASE_COMERCIAL_2026_FINAL_OFICIO_v2
+gen   OK   oficio 612×936 pt: Algoritmica_3er_Curso_PLAN_ANUAL_COMERCIAL_2026_FINAL_OFICIO_v2
+gen   OK   sin ✓ ✗ ✅ ✔: Algoritmica_3er_Curso_PLAN_ANUAL_COMERCIAL_2026_FINAL_OFICIO_v2
+gen   OK   oficio 612×936 pt: Algoritmica_3er_Curso_MUESTRA_COMERCIAL_2026_FINAL_OFICIO_v2
+gen   OK   sin ✓ ✗ ✅ ✔: Algoritmica_3er_Curso_MUESTRA_COMERCIAL_2026_FINAL_OFICIO_v2
+gen   OK   márgenes 1,27 cm: L
+gen   OK   márgenes 1,27 cm: S
+gen   OK   márgenes 1,27 cm: P
+gen   OK   márgenes 1,27 cm: A
+gen   OK   Libro: 117 páginas
+gen   OK   Solucionario: 18 páginas
+gen   OK   Plan Anual: 6 páginas
+gen   OK   Libro: 29 líneas de texto distintas de FINAL OFICIO, todas revisadas y de esta corrección
+gen   OK   Solucionario: 11 líneas de texto distintas de FINAL OFICIO, todas revisadas y de esta corrección

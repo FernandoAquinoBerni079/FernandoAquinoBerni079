@@ -67,14 +67,14 @@ PR[3] = dict(
        modelo=('Fragmentos', ['(a) Para cada libro de la lista: si está prestado, sumar 1 al contador.', '(b) libro.prestar(socio)', '(c) socio_habilitado(X) si no_tiene_deudas(X).', '(d) Al hacer clic en «Buscar», mostrar los resultados.', '(e) suma(map(precio, compras))', '(f) Contar los préstamos de marzo, pedido a la base de datos.']),
        pasos=['Leé cada fragmento y subrayá la palabra que delata el paradigma (para cada, objeto con punto, si…, al hacer clic, función aplicada a una lista, pedido a la base).', 'Escribí el paradigma y una frase que lo justifique.'],
        control='Clasificaste los seis fragmentos, justificaste cada elección con una evidencia del enunciado y no asignaste dos categorías por simple intuición.'),
-  dict(titulo='La recaudación de una semana, con acumulador', objetivo='Programar en PSeInt la suma de los seis importes de la semana del 9 al 11 de marzo y su promedio.',
-       modelo=('Importes de la semana (en guaraníes)', ['19.000 · 17.000 · 29.000 · 19.000 · 9.000 · 42.000']),
+  dict(titulo='La recaudación de una semana, con acumulador', objetivo='Programar en PSeInt la suma de los seis importes de la semana del 16 al 18 de marzo y su promedio.',
+       modelo=('Importes de la semana (en guaraníes)', ['15.000 · 21.000 · 27.000 · 24.000 · 18.000 · 39.000']),
        pasos=['Definí total, importe e i como Entero y promedio como Real; inicializá total en 0.', 'Usá Para i <- 1 Hasta 6 Hacer: leé el importe y sumalo a total.', 'Después del ciclo, calculá promedio <- total / 6 y mostrá los dos valores.', 'Antes de ejecutar, completá en papel una traza con el valor de total al terminar cada vuelta.'],
        control='El último valor de tu traza coincide con el total que muestra PSeInt, y el promedio multiplicado por 6 da ese mismo total.'),
  ],
  desafio='Agregá un contador que diga cuántas ventas superaron G. 20.000.',
- sol=dict(resultado='Act. 1: (a) estructurado/imperativo; (b) orientado a objetos; (c) lógico; (d) dirigido por eventos; (e) funcional; (f) declarativo. Act. 2: traza 19.000 → 36.000 → 65.000 → 84.000 → 93.000 → 135.000; total G. 135.000; promedio G. 22.500 (PSeInt muestra «Total: 135000» y «Promedio: 22500»). Desafío: 2 ventas (29.000 y 42.000). Todo se ejecutó en PSeInt 20250314 con el perfil Flexible.',
-          errores='Inicializar total dentro del ciclo (el programa termina mostrando solo el último importe, 42000); dividir antes de terminar el ciclo; definir promedio como Entero (con estos importes la división es exacta y no falla, pero con un promedio no entero PSeInt se detiene con «No coinciden los tipos»); no definir i; confundir lógico con estructurado porque ambos tienen «si».'))
+ sol=dict(resultado='Act. 1: (a) estructurado/imperativo; (b) orientado a objetos; (c) lógico; (d) dirigido por eventos; (e) funcional; (f) declarativo. Act. 2: traza 15.000 → 36.000 → 63.000 → 87.000 → 105.000 → 144.000; total G. 144.000; promedio G. 24.000 (PSeInt muestra «Total: 144000» y «Promedio: 24000»). Desafío: 4 ventas (21.000, 27.000, 24.000 y 39.000). Todo se ejecutó en PSeInt 20250314 con el perfil Flexible.',
+          errores='Inicializar total dentro del ciclo (el programa termina mostrando solo el último importe, 39000); dividir antes de terminar el ciclo; definir promedio como Entero (con estos importes la división es exacta y no falla, pero con un promedio no entero PSeInt se detiene con «No coinciden los tipos»); no definir i; confundir lógico con estructurado porque ambos tienen «si».'))
 
 PR[4] = dict(
  titulo='Elegir la tecnología para la biblioteca escolar', entorno=PAPEL,
