@@ -1,0 +1,23 @@
+{
+  "inicio": {"min": 15, "acts": [
+    "El docente presenta la Evaluación de la Unidad 2 (tres partes, 30 puntos), el tiempo y los criterios de las consignas abiertas; recuerda que las respuestas de «Mirate» no forman parte de la evaluación y que no se piden datos personales."
+  ]},
+  "desarrollo": {"min": 85, "acts": [
+    "Resolución individual de la Parte 1 (consignas 1 a 5: opción múltiple y verdadero o falso sobre autoconocimiento, autoestima, asertividad y pensamiento crítico).",
+    "Resolución individual de la Parte 2 (casos ficticios de Tomás y de Ana, consignas 6 a 9) y de la Parte 3 (consigna 10, posición argumentada).",
+    "Revisión personal de las respuestas antes de la entrega; el docente aclara dudas de comprensión de las consignas sin dar pistas de contenido."
+  ]},
+  "cierre": {"min": 20, "acts": [
+    "Entrega de la prueba.",
+    "Devolución general de las ideas clave de la unidad (interés, habilidad y oportunidad; escalera de la autoestima; mensaje yo; hechos y opiniones) y anuncio de las actividades de recuperación."
+  ]},
+  "recursos": "Libro del estudiante (Evaluación de la Unidad 2, fotocopiable); clave de corrección y criterios del solucionario; reloj visible.",
+  "procedimientos": "Prueba escrita individual de la Unidad 2 — Autoconocimiento, con ítems de comprensión, análisis de los casos ficticios de Tomás y de Ana y una posición argumentada.",
+  "instrumentos": "Prueba escrita de la Unidad 2 — Autoconocimiento, corregida con clave de respuestas y criterios analíticos para las consignas abiertas.",
+  "criterios": [
+    "Distingue fortalezas, intereses, habilidades y oportunidades en un caso ficticio.",
+    "Formula frases de autovaloración y mensajes asertivos adecuados a la situación.",
+    "Aplica la secuencia sentir, pensar y actuar y el pensamiento crítico para fundamentar una decisión y una posición."
+  ],
+  "observacion": "Evaluación de cierre de la Unidad 2 (capacidades 3 y 4). Puntaje sugerido: la escala la fija la institución."
+}

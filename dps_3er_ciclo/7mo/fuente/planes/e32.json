@@ -1,0 +1,33 @@
+{
+  "inicio": {
+    "min": 15,
+    "acts": [
+      "Ronda de avances: cada equipo cuenta en un minuto cómo va su objetivo específico.",
+      "Lectura de la apertura del Taller PEC 5 y de la sección «Pasar a la acción»."
+    ]
+  },
+  "desarrollo": {
+    "min": 85,
+    "acts": [
+      "Lectura de la sección «Seguridad primero» y análisis de la tabla de riesgos; cada equipo completa los riesgos, las medidas de prevención y las de mitigación de sus propias actividades.",
+      "Ejecución supervisada según el cronograma: preparación de carteles, revisión de la caja de juegos y revisión visual de los puntos limpios del patio, con la docente presente.",
+      "Lectura de las secciones sobre seguimiento y evidencias; la secretaría de cada equipo completa la bitácora semanal de la Ficha 8 y el responsable de evidencias ordena la carpeta del proyecto."
+    ]
+  },
+  "cierre": {
+    "min": 20,
+    "acts": [
+      "Puesta en común de dificultades y acuerdo de un ajuste por equipo para la semana siguiente.",
+      "Resolución de las consignas 1 a 4 y registro en la caja de bitácora."
+    ]
+  },
+  "recursos": "Libro del estudiante (Taller PEC 5, tabla de riesgos, consignas 1 a 5); Ficha 8 del anexo (una por semana); materiales del proyecto (carteles, caja de juegos, puntos limpios); carpeta del proyecto; botiquín y protocolo de accidentes del colegio.",
+  "procedimientos": "Ejecución supervisada de las actividades del proyecto con análisis de riesgos y seguimiento semanal de avances.",
+  "instrumentos": "Bitácora de seguimiento semanal con evidencias (Ficha 8) y registro de seguimiento docente por equipo.",
+  "criterios": [
+    "Identifica riesgos de las actividades y propone medidas de prevención y mitigación.",
+    "Registra en la bitácora lo realizado, las dificultades y las evidencias.",
+    "Cumple su rol y propone ajustes a partir de los datos del seguimiento."
+  ],
+  "observacion": "Mes del proyecto: octubre. Tarea fuera del aula: ejecución de actividades en el patio durante los recreos (turnos de cancha, caja de juegos, puntos limpios, campaña de buen trato), dentro del colegio, en horario escolar, con autorización de la dirección y acompañamiento docente."
+}

@@ -1,0 +1,26 @@
+{
+  "inicio": {"min": 20, "acts": [
+    "El docente lee en voz alta la situación de apertura (el acto del día del estudiante) y pregunta qué hizo Belén que los demás no hicieron; registra las respuestas en la pizarra.",
+    "Los estudiantes recuerdan, sin nombrar a nadie, una actividad del grado que salió bien y otra que salió mal, y señalan cómo se tomaron las decisiones en cada una."
+  ]},
+  "desarrollo": {"min": 80, "acts": [
+    "Lectura compartida de las secciones «¿Qué es el liderazgo?» y «Tipos de liderazgo»; el docente aclara la diferencia entre liderazgo formal e informal con ejemplos del colegio.",
+    "Análisis de la figura 13.1 y de la tabla de estilos: en parejas, los estudiantes asignan a cada estilo una situación escolar en la que podría servir y otra en la que sería un problema.",
+    "Lectura de «Características de un buen líder» y «La iniciativa: el líder proactivo»; se relee el ejemplo de Belén y se identifica dónde hubo iniciativa y dónde escucha.",
+    "Resolución individual de «Pensá y respondé» (consignas 1 a 5) y corrección dialogada de las opciones múltiples y del verdadero o falso; respuesta privada de «Mirate» (consignas 6 y 7).",
+    "Dinámica «En grupo» (consigna 8): los grupos reparten democráticamente cinco roles para una tarea del grado y elaboran el afiche."
+  ]},
+  "cierre": {"min": 20, "acts": [
+    "Cada grupo presenta su afiche en dos minutos; el resto identifica qué estilo de liderazgo usaron y qué regla aplicaron ante el desacuerdo.",
+    "El docente retoma las respuestas del inicio y el grupo corrige o confirma la idea de que liderar no es mandar; se anticipa que los roles servirán en el proyecto comunitario."
+  ]},
+  "recursos": "Libro del estudiante (Clase 13, figura 13.1 y tabla de estilos de liderazgo); pizarra; papel afiche y marcadores; cinta para pegar los afiches.",
+  "procedimientos": "Clasificación de estilos de liderazgo en situaciones escolares y reparto democrático de roles para una tarea del grado.",
+  "instrumentos": "Lista de cotejo de reparto de roles y regla de decisión aplicada en el afiche grupal.",
+  "criterios": [
+    "Explica qué es el liderazgo y qué no lo es con un ejemplo.",
+    "Asocia correctamente cada estilo de liderazgo con sus características.",
+    "Asume un rol en el reparto democrático y respeta la regla de decisión del grupo."
+  ],
+  "observacion": "Conservar los afiches de roles: sirven de referencia para organizar responsables en el Taller PEC 4."
+}

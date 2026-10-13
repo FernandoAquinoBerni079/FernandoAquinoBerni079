@@ -1,0 +1,35 @@
+{
+  "inicio": {
+    "min": 15,
+    "acts": [
+      "La docente abre el buzón de sugerencias ante el grado (previamente revisado en privado) y cada equipo recupera su Ficha 1 y sus encuestas.",
+      "Lectura de la apertura del Taller PEC 2 y de la sección «¿Qué es un diagnóstico participativo?»; se recuerda el organigrama trabajado en la Clase 2."
+    ]
+  },
+  "desarrollo": {
+    "min": 95,
+    "acts": [
+      "Tabulación por estaciones: un equipo cuenta las encuestas, otro agrupa por temas los papeles del buzón y otro resume entrevistas y guías de observación; la docente modela el cálculo de un porcentaje.",
+      "El grado arma en el pizarrón la lista de problemas redactados como situaciones concretas, sin culpar a personas ni grupos.",
+      "Lectura de la sección sobre priorización y análisis de la figura PEC 2.1; cada equipo completa la matriz de priorización de la Ficha 2 con puntajes de 1 a 3 en los cuatro criterios.",
+      "Comparación de las matrices de los equipos y acuerdo de la matriz del grado (tabla del libro como modelo); decisión democrática del problema prioritario.",
+      "Redacción, con la docente, de una nota respetuosa a la dirección para los problemas que corresponden a otros actores; resolución de las consignas 1 a 4."
+    ]
+  },
+  "cierre": {
+    "min": 10,
+    "acts": [
+      "Puesta en común: cada portavoz explica una razón de los puntajes de su equipo.",
+      "Registro en la caja de bitácora (Ficha 2) y anuncio del próximo taller de formulación."
+    ]
+  },
+  "recursos": "Libro del estudiante (Taller PEC 2, figura PEC 2.1, matriz de priorización de la tabla, consignas 1 a 5); Ficha 2 del anexo; encuestas y guías de junio; buzón de sugerencias; calculadoras o papel para cálculos; carpeta del proyecto.",
+  "procedimientos": "Diagnóstico participativo por equipos: tabulación de datos del relevamiento y priorización de problemas con criterios comunes.",
+  "instrumentos": "Matriz de priorización completada por equipos (Ficha 2) y escala de estimación del diagnóstico.",
+  "criterios": [
+    "Organiza los datos del relevamiento en conteos y porcentajes sencillos.",
+    "Asigna puntajes a los cuatro criterios de priorización con razones explícitas.",
+    "Reconoce qué problemas corresponden a otros actores y propone derivarlos con respeto."
+  ],
+  "observacion": "Mes del proyecto: agosto. Tarea fuera del aula: entrevistas breves a actores de la institución (dirección, docente de turno, personal de limpieza), coordinadas por la docente y realizadas dentro del colegio en horario escolar."
+}

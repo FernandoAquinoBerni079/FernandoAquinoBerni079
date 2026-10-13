@@ -1,0 +1,35 @@
+{
+  "inicio": {
+    "min": 15,
+    "acts": [
+      "La docente presenta el Componente 2 del área (Proyecto Educativo Comunitario), aclara que el Colegio Arasa Poty es una institución ficticia y muestra la caja que será el buzón de sugerencias.",
+      "Los estudiantes leen la apertura del Taller PEC 1 y escriben en una línea qué creen que es un proyecto comunitario (ideas previas que se guardan en la carpeta del proyecto)."
+    ]
+  },
+  "desarrollo": {
+    "min": 90,
+    "acts": [
+      "Lectura guiada de las secciones «¿Qué es un Proyecto Educativo Comunitario?», «El PEC, el PEI y el PCI» y «La escuela y la comunidad: dos perspectivas»; los estudiantes agregan un ejemplo propio a cada fila de la tabla y resuelven las consignas 1 a 3.",
+      "Análisis de la figura PEC 1.1 (ciclo del proyecto en siete etapas) y lectura de la sección sobre técnicas para identificar necesidades; la docente aclara que el Esquema de Proyecto del MEC es un formato sugerido y adaptable.",
+      "La docente forma equipos heterogéneos de cinco o seis integrantes y asigna a cada uno un espacio del colegio; los equipos preparan la guía de observación de la Ficha 1.",
+      "Con autorización de la dirección y acompañamiento docente, los equipos recorren su espacio y registran hechos observados; al volver, redactan tres preguntas para la encuesta breve.",
+      "El grado unifica una encuesta anónima de cinco preguntas, define a quiénes aplicarla y prepara el buzón de sugerencias."
+    ]
+  },
+  "cierre": {
+    "min": 15,
+    "acts": [
+      "Cada equipo comparte dos hallazgos del recorrido; los estudiantes resuelven la consigna 4 y la docente retoma las ideas previas del inicio.",
+      "Se acuerda la tarea de la semana (consigna 5: observación de dos recreos y aplicación de la encuesta) y se completa la caja de bitácora."
+    ]
+  },
+  "recursos": "Libro del estudiante (Taller PEC 1, tabla de perspectivas, figura PEC 1.1, consignas 1 a 5); Ficha 1 del anexo del proyecto; caja de cartón para el buzón; carpeta del proyecto del grado; autorización escrita de la dirección.",
+  "procedimientos": "Observación participante de espacios institucionales y diseño colectivo de una encuesta breve anónima, con puesta en común de hallazgos.",
+  "instrumentos": "Lista de cotejo de la guía de observación y de la encuesta breve (Ficha 1 del anexo del proyecto).",
+  "criterios": [
+    "Explica qué es un Proyecto Educativo Comunitario y su relación con el PEI y el PCI.",
+    "Distingue las dos perspectivas del proyecto comunitario con ejemplos.",
+    "Registra hechos observados y formula preguntas de encuesta sin datos personales."
+  ],
+  "observacion": "Mes del proyecto: junio. Tarea fuera del aula: recorrido de espacios del colegio durante el taller y observación de dos recreos en parejas durante la semana, con aplicación de la encuesta breve a otro grado; todo dentro del colegio, en horario escolar, con autorización de la dirección y acompañamiento docente."
+}

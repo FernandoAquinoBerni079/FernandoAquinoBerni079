@@ -1,0 +1,35 @@
+{
+  "inicio": {
+    "min": 15,
+    "acts": [
+      "Lectura de la apertura del Taller PEC 4; los equipos recuperan sus objetivos específicos de la Ficha 4.",
+      "La docente presenta el calendario escolar de septiembre a noviembre (exámenes, feriados y actos) para planificar con realismo."
+    ]
+  },
+  "desarrollo": {
+    "min": 95,
+    "acts": [
+      "Cada equipo describe las actividades de su objetivo con las cinco preguntas (qué, quién, cuándo, dónde, con qué), según la sección «De los objetivos a las actividades».",
+      "Con la figura PEC 4.1 como modelo, el grado arma el cronograma de junio a noviembre en un papel grande y en la Ficha 5, dejando tiempo de reserva.",
+      "Lectura de las secciones sobre capacidades e interárea, metodologías, recursos y alianzas; cada equipo arma su lista de recursos (se reutiliza, se pide prestado, se dona) y su lista de aliados.",
+      "Reparto de roles con la tabla del libro, a partir de las habilidades e intereses de cada integrante; firma del compromiso de la Ficha 6.",
+      "Resolución de las consignas 1 a 4 y revisión de los apartados 8 a 12 de la Ficha 7."
+    ]
+  },
+  "cierre": {
+    "min": 10,
+    "acts": [
+      "La docente explica cómo presentará la Ficha 7 a la dirección para obtener la autorización escrita de la ejecución.",
+      "Registro en la caja de bitácora y repaso de las responsabilidades de cada rol."
+    ]
+  },
+  "recursos": "Libro del estudiante (Taller PEC 4, figura PEC 4.1, tabla de roles, consignas 1 a 5); Fichas 5, 6 y 7 del anexo; calendario escolar; papel grande para el cronograma; marcadores.",
+  "procedimientos": "Planificación cooperativa del proyecto con cronograma, inventario de recursos, mapa de aliados y asignación de roles.",
+  "instrumentos": "Lista de cotejo de la planificación y compromiso de roles firmado por cada equipo (Fichas 5 y 6).",
+  "criterios": [
+    "Ubica las actividades en un cronograma realista de junio a noviembre.",
+    "Identifica recursos humanos, materiales y financieros priorizando la reutilización y las donaciones voluntarias.",
+    "Asume un rol con tareas claras y participa en decisiones con estilo democrático."
+  ],
+  "observacion": "Mes del proyecto: septiembre. Sin tareas fuera del aula en el taller; a partir de la autorización de la dirección comienzan las primeras acciones de ejecución (asamblea de delegados para el acuerdo de recreo, preparación de materiales), dentro del colegio y con acompañamiento docente."
+}

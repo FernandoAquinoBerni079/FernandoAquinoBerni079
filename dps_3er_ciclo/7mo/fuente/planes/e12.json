@@ -1,0 +1,31 @@
+{
+  "inicio": {
+    "min": 15,
+    "acts": [
+      "El docente explica las consignas, el puntaje de cada parte (30 puntos) y el tiempo disponible.",
+      "Recordatorio: los casos son ficticios y las preguntas de «Mirate» no forman parte de la calificación."
+    ]
+  },
+  "desarrollo": {
+    "min": 85,
+    "acts": [
+      "Resolución individual de la Evaluación de la Unidad 3 — Vida afectiva: Parte 1 (consignas 1 a 5), Parte 2 con los casos de Sofía y Lucas y del video de Tomás (consignas 6 a 9) y Parte 3 con el mensaje a Martín (consigna 10).",
+      "Revisión silenciosa de las respuestas antes de entregar; el docente circula para aclarar consignas sin dar respuestas."
+    ]
+  },
+  "cierre": {
+    "min": 20,
+    "acts": [
+      "Entrega de la evaluación.",
+      "Devolución general de las ideas clave (señales de alerta, semáforo digital, ritmos de cambio y ruta de ayuda) sin exponer respuestas personales."
+    ]
+  },
+  "recursos": "Libro del estudiante (Evaluación de la Unidad 3); solucionario docente con clave de corrección; pizarra.",
+  "procedimientos": "Prueba escrita individual de la Unidad 3 — Vida afectiva, con ítems de comprensión, dos casos ficticios sobre noviazgo y convivencia digital y una posición argumentada sobre los cambios de la adolescencia.",
+  "instrumentos": "Prueba escrita de la Unidad 3 — Vida afectiva, corregida con clave de respuestas y criterios de puntaje para las consignas abiertas.",
+  "criterios": [
+    "Reconoce las características de una relación saludable, las causas y consecuencias del uso excesivo de pantallas y los tipos de cambio de la adolescencia.",
+    "Analiza casos ficticios identificando señales de alerta y aplicando el semáforo digital y la ruta de ayuda.",
+    "Fundamenta con respeto por qué los cambios de la adolescencia son esperables y varían entre personas."
+  ]
+}

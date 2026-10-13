@@ -1,0 +1,26 @@
+{
+  "inicio": {"min": 20, "acts": [
+    "El docente presenta el rumor del grado de Dahiana (situación de apertura) y pide a los estudiantes que digan qué saben o creen saber del Parlamento Escolar; anota las afirmaciones en dos columnas: «lo sabemos seguro» y «lo suponemos».",
+    "Se formula la pregunta de Belén («¿Dónde está escrito?») como pregunta guía de la clase."
+  ]},
+  "desarrollo": {"min": 80, "acts": [
+    "Lectura guiada de «¿Qué es el Parlamento Escolar?» y de «Cómo se conforma: lo dice el reglamento»; análisis de la figura 14.1 comparándola con lo que los estudiantes saben de su institución.",
+    "Lectura de «Deberes y responsabilidades» y de la tabla; el docente agrega ejemplos de rendición de cuentas y de responsabilidades de los representados.",
+    "Lectura de «El derecho a la participación y la participación protagónica»; se diferencia participación decorativa de protagónica con ejemplos del colegio.",
+    "Actividad práctica (caja «Actividad práctica»): en equipos de cuatro, los estudiantes leen el reglamento o extracto autorizado, subrayan órganos, cargos, requisitos, plazos y mecanismos, y completan la tabla Regla | Quién la aplica | Para qué sirve.",
+    "Resolución individual de «Pensá y respondé» (consignas 1 a 5) y respuesta privada de «Mirate» (consignas 6 y 7)."
+  ]},
+  "cierre": {"min": 20, "acts": [
+    "Dinámica «En grupo» (consigna 8): cada equipo lee su propuesta de mejora con la regla que permite presentarla y el grado elige una viable.",
+    "Se vuelve a las dos columnas del inicio y se tachan o confirman las suposiciones según lo que dice el documento; se guardan las tablas para la clase siguiente."
+  ]},
+  "recursos": "Libro del estudiante (Clase 14, figura 14.1, tabla de deberes del representante y caja «Actividad práctica»); reglamento, estatuto o extracto autorizado de participación estudiantil de la institución (una copia por equipo); resaltadores de colores; pizarra.",
+  "procedimientos": "Lectura dirigida del reglamento institucional de participación estudiantil con subrayado por categorías y contraste entre lo supuesto y lo escrito.",
+  "instrumentos": "Tabla Regla | Quién la aplica | Para qué sirve, valorada con escala de estimación de lectura de fuentes normativas.",
+  "criterios": [
+    "Explica qué es el Parlamento Escolar y para qué sirve.",
+    "Extrae del reglamento reglas explícitas sin inventar requisitos ni procedimientos.",
+    "Distingue participación protagónica de participación decorativa y nombra deberes de representantes y representados."
+  ],
+  "observacion": "Si la institución no cuenta con reglamento propio, usar un extracto ficticio presentado como ejemplo. Guardar las tablas para la simulación de la Clase 15."
+}

@@ -1,0 +1,26 @@
+{
+  "inicio": {"min": 15, "acts": [
+    "El docente lee el diálogo entre Belén y Rodrigo (situación de apertura) y pregunta qué tiene que ver «esta semana» con un sueño de largo plazo.",
+    "Los estudiantes distinguen oralmente entre deseos y metas a partir de ejemplos que el docente anota en la pizarra."
+  ]},
+  "desarrollo": {"min": 85, "acts": [
+    "Lectura de «Ponerme metas» y análisis de la figura 18.1; el grupo ubica ejemplos en corto, mediano y largo plazo.",
+    "Lectura de «Metas bien formuladas»; en parejas, los estudiantes transforman dos metas vagas en metas concretas, medibles, realistas y con plazo.",
+    "Lectura de «Mi plan semanal de estudio» y de la tabla del plan ficticio; el docente explica los cinco pasos para armar el plan.",
+    "Dinámica «En grupo» (consigna 8): las parejas mejoran el plan de un personaje ficticio y lo intercambian para su revisión.",
+    "Resolución individual de «Pensá y respondé» (consignas 1 a 5) y elaboración privada de metas y plan propio en «Mirate» (consignas 6 y 7)."
+  ]},
+  "cierre": {"min": 20, "acts": [
+    "Lectura de «Metas, plan y proyecto de vida» y de la actividad práctica «Una semana real»; el docente explica cómo registrar Cumplido, Parcial o No realizado y fija la fecha de revisión.",
+    "Cada estudiante elige los dos o tres bloques que va a registrar; se recuerda que el registro es personal y que solo se compartirá, si se desea, la estrategia de ajuste."
+  ]},
+  "recursos": "Libro del estudiante (Clase 18, figura 18.1, tabla del plan semanal ficticio y caja «Actividad práctica»); plan ficticio para las parejas (en el solucionario); pizarra; cuaderno para el plan propio.",
+  "procedimientos": "Formulación de metas con criterios de calidad y mejora entre pares del plan semanal de un personaje ficticio, con prueba del plan propio durante una semana.",
+  "instrumentos": "Coevaluación entre parejas con los criterios de meta bien formulada y ficha de ajuste del plan tras la semana de registro.",
+  "criterios": [
+    "Diferencia metas de corto, mediano y largo plazo con ejemplos pertinentes.",
+    "Elabora o mejora un plan semanal con bloques de estudio, tareas y descanso.",
+    "Propone un ajuste del plan justificado en lo registrado durante la semana."
+  ],
+  "observacion": "La actividad práctica continúa en casa durante una semana; reservar diez minutos del encuentro siguiente para la revisión del registro y la escritura del ajuste."
+}

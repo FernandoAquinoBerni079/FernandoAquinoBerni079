@@ -1,0 +1,35 @@
+{
+  "inicio": {
+    "min": 15,
+    "acts": [
+      "Lectura de la apertura del Taller PEC 3 y de la sección «Del problema al eje del proyecto»; se recuerda cómo se organiza un club (Unidad 5).",
+      "Cada equipo propone un eje y un nombre para el proyecto; el grado vota el nombre."
+    ]
+  },
+  "desarrollo": {
+    "min": 90,
+    "acts": [
+      "Explicación del árbol de problemas con la figura PEC 3.1; los equipos escriben en tarjetas causas y efectos tomados del diagnóstico y los pegan en un árbol grande del grado (Ficha 3).",
+      "La docente muestra cómo una causa se transforma en objetivo; análisis de la tabla «Así no / Así sí».",
+      "Cada equipo redacta dos objetivos específicos a partir de las causas del árbol; el grado redacta en conjunto el objetivo general (Ficha 4).",
+      "Un equipo redacta la fundamentación con datos del diagnóstico; los demás identifican beneficiarios directos e indirectos con cantidades aproximadas.",
+      "Lectura en voz alta, ajustes y resolución de las consignas 1 a 4."
+    ]
+  },
+  "cierre": {
+    "min": 15,
+    "acts": [
+      "Cada equipo lee su objetivo específico y el grado verifica que tenga verbo en infinitivo, qué, dónde y cuándo.",
+      "Registro de los apartados 2 a 7 en la Ficha 7 (Ficha del proyecto) y asignación de cada equipo a un objetivo específico."
+    ]
+  },
+  "recursos": "Libro del estudiante (Taller PEC 3, figura PEC 3.1, tabla de objetivos, consignas 1 a 5); Fichas 3, 4 y 7 del anexo; papel grande con un árbol dibujado; tarjetas de papel reutilizado; copia del PEI de la institución.",
+  "procedimientos": "Construcción colaborativa del árbol de problemas y redacción de la fundamentación, los objetivos y la población beneficiaria del proyecto.",
+  "instrumentos": "Rúbrica analítica de la formulación del proyecto (árbol, objetivos, fundamentación y beneficiarios).",
+  "criterios": [
+    "Distingue causas, problema central y efectos en el árbol de problemas.",
+    "Redacta objetivos con verbo en infinitivo, claros, alcanzables y con tiempo definido.",
+    "Fundamenta el proyecto con datos e identifica beneficiarios directos e indirectos."
+  ],
+  "observacion": "Mes del proyecto: agosto. Sin tareas fuera del aula. Al terminar, la docente informa a la dirección el nombre, el objetivo general y la fundamentación del proyecto."
+}

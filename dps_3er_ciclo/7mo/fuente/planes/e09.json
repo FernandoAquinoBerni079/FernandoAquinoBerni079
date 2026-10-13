@@ -1,0 +1,35 @@
+{
+  "inicio": {
+    "min": 20,
+    "acts": [
+      "El docente escribe en la pizarra la frase «Una relación sana es aquella en la que…» y los estudiantes la completan en voz alta; se registran las palabras más repetidas.",
+      "Lectura de la apertura de la Clase 7 (Belén, Rodrigo, Dahiana y Matías) y pregunta guiada: ¿qué tienen en común sus historias?"
+    ]
+  },
+  "desarrollo": {
+    "min": 80,
+    "acts": [
+      "Lectura guiada de «¿Qué es una relación afectiva saludable?»: el docente explica los cuatro pilares (respeto, confianza, buen trato y libertad) y los estudiantes proponen un ejemplo ficticio de cada uno.",
+      "Lectura de «Los vínculos en la familia y en el entorno» y observación de la figura 7.1 «Mi red de apoyo»: el docente explica la idea de red y la presión de grupo; los estudiantes anotan en el cuaderno qué hace fuerte a una red.",
+      "Análisis de la tabla de señales de la sección «Señales de buen trato y de maltrato» y del caso de la amiga de Dahiana (caja «Ejemplo»): en parejas, los estudiantes distinguen control de cuidado.",
+      "Lectura comentada de «El noviazgo en la adolescencia: implicancia y compromiso» y «Cuidar los vínculos y pedir ayuda», con la caja «Para cuidarte»; el docente aclara que no hay apuro ni obligación de tener pareja.",
+      "Resolución individual de «Pensá y respondé» (consignas 1 a 5) y respuesta privada de «Mirate» (consignas 6 y 7), que no se leen ni llevan nota."
+    ]
+  },
+  "cierre": {
+    "min": 20,
+    "acts": [
+      "En grupo (consigna 8): el grado arma el afiche con las listas «así se ve el buen trato» y «esto es una señal de alerta» y el recuadro «A quién recurrir».",
+      "Corrección oral de las consignas 2, 3 y 4 y síntesis: los celos y el control no son amor; siempre hay a quién recurrir."
+    ]
+  },
+  "recursos": "Libro del estudiante (Clase 7, figura 7.1, tabla de señales, cajas «Ejemplo», «Concepto clave» y «Para cuidarte»); pizarra; papel afiche y marcadores; datos de la orientación del colegio, de la CODENI y del Fono Ayuda 147 visibles en el aula.",
+  "procedimientos": "Análisis de señales de buen trato y de maltrato en vínculos ficticios de familia, amistad y noviazgo, y elaboración colectiva de listas de alerta con su ruta de ayuda.",
+  "instrumentos": "Rúbrica analítica del afiche «buen trato / señales de alerta» con criterios de ejemplos, reconocimiento de alertas, ruta de ayuda y respeto en el trabajo.",
+  "criterios": [
+    "Nombra los cuatro pilares de una relación afectiva saludable y ejemplifica uno.",
+    "Diferencia una señal de buen trato de una de maltrato en un caso ficticio.",
+    "Explica que el compromiso en el noviazgo implica respeto, libertad y límites, e indica a quién recurrir ante una alerta."
+  ],
+  "observacion": "Tema sensible: se trabaja con casos ficticios y no se piden testimonios; ante una señal de riesgo se deriva a la orientación según la ruta institucional."
+}

@@ -1,0 +1,26 @@
+{
+  "inicio": {"min": 15, "acts": [
+    "El docente narra el caso de la elección de delegado en el grado de Rodrigo (situación de apertura) y pregunta qué funciones tendría un delegado durante el año.",
+    "Los estudiantes enumeran en la pizarra las funciones mencionadas y las usan para formular criterios de elección."
+  ]},
+  "desarrollo": {"min": 85, "acts": [
+    "Lectura de «Elegir bien a nuestras autoridades» y de la caja «Ejemplo»; se definen elección informada, libre y responsable con ejemplos del grado.",
+    "Lectura de «El proceso electoral en el grado y en la institución» y de la tabla de etapas; con la tabla de reglas de la clase anterior, los estudiantes señalan qué etapas regula el reglamento de la institución.",
+    "Actividad práctica (simulación participativa): se reparten roles según el reglamento, dos equipos presentan propuestas, se vota de forma ficticia y se registra en el pizarrón la regla aplicada en cada paso; al final se completan las listas «lo decía el documento» y «fue una simplificación».",
+    "Lectura de «Los clubes estudiantiles» y «Organización y tipos de clubes», con la figura 15.1 y la tabla de elementos del club.",
+    "Resolución individual de «Pensá y respondé» (consignas 1 a 5) y respuesta privada de «Mirate» (consignas 6 y 7)."
+  ]},
+  "cierre": {"min": 20, "acts": [
+    "Dinámica «En grupo» (consigna 8): los grupos completan la ficha de su club y la exponen en tres minutos.",
+    "Síntesis docente: una buena elección y un club que funciona dependen del compromiso de todos; se mencionan los clubes que podrían colaborar con el proyecto comunitario."
+  ]},
+  "recursos": "Libro del estudiante (Clase 15, figura 15.1, tablas de etapas electorales y de elementos del club, caja «Actividad práctica»); tablas de reglas elaboradas en la Clase 14; papeletas para la votación ficticia; urna improvisada (caja); fichas de cartulina para el diseño del club.",
+  "procedimientos": "Simulación de un proceso electoral escolar ajustado al reglamento, con registro de la regla aplicada en cada etapa, y diseño grupal de un club estudiantil.",
+  "instrumentos": "Rúbrica analítica de la ficha de diseño del club y registro de reglas aplicadas en la simulación electoral.",
+  "criterios": [
+    "Explica las características de una elección informada, libre y responsable.",
+    "Vincula cada etapa del proceso electoral simulado con una regla del reglamento.",
+    "Diseña un club con concepto, objetivos, organización y tipo, y asume un rol en él."
+  ],
+  "observacion": "La simulación es didáctica y no reemplaza ningún proceso institucional real."
+}

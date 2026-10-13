@@ -1,0 +1,23 @@
+{
+  "inicio": {"min": 15, "acts": [
+    "Lectura del caso de Matías (apertura de la Clase 5): el docente pregunta por qué la misma persona puede sentirse tan bien un día y tan mal otro, y registra las ideas sobre «cómo nos valoramos»."
+  ]},
+  "desarrollo": {"min": 75, "acts": [
+    "Lectura guiada de «¿Qué es la autoestima?» y de «La escalera de la autoestima» con la figura 5.1: los estudiantes explican qué pasa si falta un peldaño y relacionan el primero con la clase anterior.",
+    "Práctica de autovaloración: el docente escribe en la pizarra tres frases ficticias de autocrítica dura y los estudiantes, en parejas, las transforman en frases de autovaloración siguiendo la sección «La autovaloración».",
+    "Trabajo con la tabla de respuestas pasiva, agresiva y asertiva y con el mensaje yo: el docente modela un ejemplo y los estudiantes redactan uno propio para una situación ficticia.",
+    "Resolución individual de «Pensá y respondé» (consignas 1 a 5) y respuesta privada de «Mirate» (consignas 6 y 7)."
+  ]},
+  "cierre": {"min": 30, "acts": [
+    "En grupo (consigna 8): juego de roles en parejas con las tres formas de responder; el grado identifica cada una y fundamenta; las tarjetas con los mensajes yo se pegan en el «mural asertivo».",
+    "Coevaluación entre parejas con la pauta de tres criterios y lectura final de la caja «Para cuidarte»."
+  ]},
+  "recursos": "Libro del estudiante (Clase 5, figura 5.1, tabla de formas de responder, cajas «Ejemplo» y «Para cuidarte»); tarjetas y cinta para el mural asertivo; pauta de coevaluación escrita en la pizarra.",
+  "procedimientos": "Transformación de frases de autocrítica en autovaloración y juego de roles de respuestas pasivas, agresivas y asertivas con mensaje yo.",
+  "instrumentos": "Coevaluación de la dramatización entre parejas con una pauta de tres criterios (diferenciación de respuestas, mensaje yo y respeto).",
+  "criterios": [
+    "Explica la diferencia entre buena autoestima y sentirse superior a los demás.",
+    "Reformula una frase de autocrítica dura en una frase de autovaloración realista.",
+    "Formula un mensaje yo con sus tres partes ante una situación cotidiana."
+  ]
+}

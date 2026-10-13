@@ -1,0 +1,35 @@
+{
+  "inicio": {
+    "min": 20,
+    "acts": [
+      "Lectura de la apertura de la Clase 8 (el almuerzo en la casa de Matías y la tía de Belén) y debate breve: ¿el celular nos acerca o nos aleja?",
+      "Relevamiento anónimo en la pizarra: cada estudiante marca con un palito la franja de horas diarias de pantalla que le corresponde, sin nombres."
+    ]
+  },
+  "desarrollo": {
+    "min": 80,
+    "acts": [
+      "Lectura de «La tecnología: una herramienta con dos caras» y trabajo con la tabla de usos que suman y que restan: en parejas, agregan un ejemplo ficticio a cada columna.",
+      "Lectura guiada de «Causas y consecuencias del uso excesivo»: el docente organiza en la pizarra un esquema causas–consecuencias (cuerpo, emociones, autoestima, vínculos) a partir de los aportes del grupo.",
+      "Lectura de «El celular en la convivencia familiar y social»: los estudiantes proponen tres acuerdos familiares posibles para un caso ficticio.",
+      "Lectura de la figura 8.1 «Semáforo de la convivencia digital» y práctica con el caso del audio de la consigna 5; luego análisis del caso de la foto de Rodrigo (caja «Ejemplo») y de las pautas de la sección «Cuidarme y cuidar a los demás en las redes» y de la caja «Para cuidarte».",
+      "Resolución individual de «Pensá y respondé» (consignas 1 a 5) y respuesta privada de «Mirate» (consignas 6 y 7)."
+    ]
+  },
+  "cierre": {
+    "min": 20,
+    "acts": [
+      "En grupo (consigna 8): redacción del «decálogo del buen uso de las redes» con diez acuerdos en positivo, firmado por el grado y expuesto en el aula.",
+      "Repaso oral de los pasos ante el ciberacoso y ante pedidos de fotos: guardar pruebas, no responder, contarle a un adulto de confianza, Fono Ayuda 147, 911 ante peligro inmediato."
+    ]
+  },
+  "recursos": "Libro del estudiante (Clase 8, figura 8.1, tabla de usos, sección de pautas de cuidado, cajas «Ejemplo» y «Para cuidarte»); pizarra; papel afiche y marcadores para el decálogo. No se requieren celulares ni conexión a Internet.",
+  "procedimientos": "Análisis de causas y consecuencias del uso excesivo de pantallas, aplicación del semáforo digital a casos ficticios y redacción consensuada de un decálogo de convivencia digital.",
+  "instrumentos": "Lista de cotejo del decálogo del buen uso de las redes (diez acuerdos en positivo, cuidado de la información personal, ruta ante el ciberacoso).",
+  "criterios": [
+    "Reconoce usos positivos y negativos del celular y las redes en los vínculos.",
+    "Explica al menos una causa y una consecuencia del uso excesivo en las emociones o en la convivencia.",
+    "Aplica el semáforo a un caso ficticio e identifica a quién recurrir ante el ciberacoso."
+  ],
+  "observacion": "Se eliminó la mención a un proyecto de ley con fecha de la edición anterior; la clase se centra en pautas concretas de cuidado digital y en la ruta de ayuda."
+}

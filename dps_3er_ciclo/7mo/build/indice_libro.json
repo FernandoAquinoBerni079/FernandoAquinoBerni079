@@ -1,0 +1,139 @@
+{
+"entradas": [
+[
+1,
+"Prueba diagnóstica — ¿Qué sabés ya?"
+],
+[
+1,
+"UNIDAD 1 — Sentido de pertenencia"
+],
+[
+2,
+"Clase 1 — Bienvenida al tercer ciclo: pertenecer"
+],
+[
+2,
+"Clase 2 — Cómo se organiza mi colegio"
+],
+[
+2,
+"Clase 3 — El PEI, los proyectos de la escuela y las normas de convivencia"
+],
+[
+1,
+"UNIDAD 3 — Vida afectiva"
+],
+[
+2,
+"Clase 7 — Relaciones afectivas saludables"
+],
+[
+2,
+"Clase 8 — Tecnología, redes y convivencia"
+],
+[
+2,
+"Clase 9 — Los cambios de la pubertad y la adolescencia"
+],
+[
+2,
+"Evaluación de la Unidad 3 — Vida afectiva"
+],
+[
+1,
+"UNIDAD 4 — Derechos y responsabilidades"
+],
+[
+2,
+"Clase 10 — Mis derechos y mis responsabilidades"
+],
+[
+1,
+"Taller PEC 1 — Nuestra escuela como comunidad: qué es un Proyecto Educativo Comunitario"
+],
+[
+1,
+"Taller PEC 2 — Diagnóstico participativo: conocer y priorizar las necesidades"
+],
+[
+1,
+"UNIDAD 5 — Organizaciones estudiantiles"
+],
+[
+2,
+"Clase 13 — Liderazgo: tipos y características"
+],
+[
+2,
+"Clase 14 — El Parlamento Escolar y la participación protagónica"
+],
+[
+1,
+"UNIDAD 7 — Gestión de riesgo"
+],
+[
+2,
+"Clase 19 — Prevención y mitigación frente a los riesgos"
+],
+[
+2,
+"Clase 20 — Normas de comportamiento en caso de riesgos"
+],
+[
+2,
+"Evaluación de la Unidad 7 — Gestión de riesgo"
+],
+[
+1,
+"Créditos y datos de la edición"
+]
+],
+"paginas": [
+4,
+5,
+5,
+9,
+13,
+16,
+16,
+20,
+24,
+28,
+30,
+30,
+34,
+39,
+44,
+44,
+48,
+52,
+52,
+56,
+60,
+62
+],
+"total": 62,
+"notas": {
+"Clase 8 — Tecnología, redes y convivencia": 23,
+"Clase 9 — Los cambios de la pubertad y la adolescencia": 34,
+"Clase 13 — Liderazgo: tipos y características": 22,
+"Clase 14 — El Parlamento Escolar y la participación protagónica": 23,
+"Clase 20 — Normas de comportamiento en caso de riesgos": 20
+},
+"figuras": [
+"image1.png",
+"image2.png",
+"image3.png",
+"image7.png",
+"image8.png",
+"image9.png",
+"image10.png",
+"nueva_pec_ciclo.png",
+"nueva_pec_priorizacion.png",
+"image13.png",
+"image14.png",
+"image19.png",
+"image20.png"
+]
+}

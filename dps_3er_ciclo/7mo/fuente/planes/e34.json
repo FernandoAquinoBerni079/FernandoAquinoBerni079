@@ -1,0 +1,34 @@
+{
+  "inicio": {
+    "min": 15,
+    "acts": [
+      "La docente presenta la carpeta del proyecto como memoria del trabajo; lectura de la apertura del Taller PEC 6.",
+      "Lectura de la sección «¿Para qué evaluar un proyecto?» y distinción entre evaluación del proceso y de los resultados."
+    ]
+  },
+  "desarrollo": {
+    "min": 95,
+    "acts": [
+      "Lectura de las secciones sobre indicadores y escala L / NL / NM; cada equipo revisa o escribe uno o dos indicadores para su objetivo en la Ficha 9.",
+      "Los equipos reúnen evidencias (bitácoras, conteos, encuesta y observaciones de noviembre) y comparan los datos con los de junio.",
+      "Valoración de cada indicador con L, NL o NM, con la evidencia escrita al lado; lectura de la sección «Pensar con evidencias» y revisión cruzada entre equipos.",
+      "Redacción del borrador de la parte del informe de cada equipo y resolución de las consignas 1 a 4."
+    ]
+  },
+  "cierre": {
+    "min": 10,
+    "acts": [
+      "El grado arma en el pizarrón la tabla de indicadores del proyecto, con la tabla del libro como modelo.",
+      "Registro en la caja de bitácora y acuerdo de cómo se integrará el informe final."
+    ]
+  },
+  "recursos": "Libro del estudiante (Taller PEC 6, tabla de indicadores, consignas 1 a 5); Ficha 9 del anexo; carpeta del proyecto con bitácoras y evidencias; encuestas y guías de observación de junio y de noviembre.",
+  "procedimientos": "Evaluación de resultados del proyecto mediante indicadores y comparación de datos del inicio y del final, con redacción del informe.",
+  "instrumentos": "Rúbrica de evaluación del proyecto y tabla de indicadores con escala L / NL / NM (Ficha 9).",
+  "criterios": [
+    "Formula indicadores observables derivados de los objetivos.",
+    "Valora cada indicador con la escala L / NL / NM a partir de evidencias.",
+    "Redacta su parte del informe con logros, dificultades y recomendaciones."
+  ],
+  "observacion": "Mes del proyecto: noviembre. Tarea fuera del aula (semana previa al taller): repetición de la encuesta breve y de la observación de recreos de junio, dentro del colegio, en horario escolar, con autorización y acompañamiento docente."
+}

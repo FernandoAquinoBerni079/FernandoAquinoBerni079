@@ -1,0 +1,35 @@
+{
+  "inicio": {
+    "min": 20,
+    "acts": [
+      "Pregunta disparadora escrita en la pizarra: «¿Un derecho se puede perder por portarse mal?»; los estudiantes anotan su respuesta inicial.",
+      "Lectura de la apertura de la Clase 10 (Rodrigo y el celular) y diálogo sobre la respuesta de Belén."
+    ]
+  },
+  "desarrollo": {
+    "min": 80,
+    "acts": [
+      "Lectura guiada de «Sos sujeto de derechos» y «Los Derechos Humanos»: el docente explica las características universales, inalienables e indivisibles y las normas de 1948 y 1989.",
+      "Lectura de «El Código de la Niñez y la Adolescencia» y de la caja «En Paraguay»: los estudiantes explican con sus palabras el interés superior del niño.",
+      "Lectura de la figura 10.1 «Cada derecho, una responsabilidad» y de la tabla derecho–responsabilidad–ejemplo; análisis del caso de Rodrigo (caja «Ejemplo»).",
+      "Lectura comentada de «Los derechos sexuales y los derechos reproductivos» y de la caja «Para cuidarte», con enfoque de derechos y cuidado, sin pedir experiencias personales.",
+      "En grupo (consigna 8): cinco grupos elaboran el afiche de responsabilidades de un derecho del Código para el estudiante, la familia y la escuela."
+    ]
+  },
+  "cierre": {
+    "min": 20,
+    "acts": [
+      "Presentación de los afiches (tres minutos por grupo) y coevaluación entre grupos con la pauta de cuatro criterios.",
+      "Retorno a la pregunta inicial y resolución de «Pensá y respondé» (consignas 1 a 5) como tarea, con «Mirate» (consignas 6 y 7) en privado."
+    ]
+  },
+  "recursos": "Libro del estudiante (Clase 10, figura 10.1, tabla derecho–responsabilidad, cajas «Ejemplo», «En Paraguay» y «Para cuidarte»); texto del Código de la Niñez y la Adolescencia (Ley N.º 1680/2001) si la institución lo dispone; papel afiche y marcadores; pauta de coevaluación.",
+  "procedimientos": "Lectura comentada de las normas de derechos de la niñez y elaboración grupal de responsabilidades a partir de un derecho del Código de la Niñez y la Adolescencia.",
+  "instrumentos": "Coevaluación entre grupos de los afiches derecho–responsabilidad con una pauta de cuatro criterios (comprensión, responsabilidades, presentación y aportes).",
+  "criterios": [
+    "Nombra derechos de niños, niñas y adolescentes y la ley que los reúne en Paraguay.",
+    "Relaciona un derecho con responsabilidades concretas del estudiante, la familia y la escuela.",
+    "Explica qué protegen los derechos sexuales y reproductivos en la adolescencia con lenguaje respetuoso."
+  ],
+  "observacion": "El libro no cita números de artículo del Código; los derechos sexuales y reproductivos se trabajan con enfoque de derechos y adecuados a la edad."
+}

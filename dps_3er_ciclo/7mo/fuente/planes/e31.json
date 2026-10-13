@@ -1,0 +1,34 @@
+{
+  "inicio": {
+    "min": 20,
+    "acts": [
+      "Lectura de la escena de la tormenta y el corte de luz; los estudiantes señalan qué hizo bien la profesora y qué hubiera pasado si todos corrían.",
+      "La docente registra en la pizarra las tres normas generales (calma, avisar y seguir indicaciones, no volver por objetos) a partir de lo que dice el grupo."
+    ]
+  },
+  "desarrollo": {
+    "min": 80,
+    "acts": [
+      "Trabajo con la sección «Cuatro riesgos ambientales y cómo actuar»: cada grupo explica al curso una fila de la tabla (incendio, interrupción de energía eléctrica, falta de agua potable, tormenta) distinguiendo antes, durante y después; la docente remarca qué tareas son solo de adultos.",
+      "Lectura de «La violencia también es un riesgo» y de la caja «En Paraguay»: se arma en la pizarra la ruta de ayuda (adulto de confianza u orientación, CODENI, Fono Ayuda 147, 911; Bomberos 132 ante incendio).",
+      "Análisis de la figura 20.1 y práctica guiada de la respiración contando hasta cuatro; resolución individual de las consignas 1 a 5 y corrección compartida.",
+      "Preparación de las tarjetas de emergencia de la consigna 8 en cuatro grupos."
+    ]
+  },
+  "cierre": {
+    "min": 20,
+    "acts": [
+      "Dramatización en el aula, sin salir, de cada situación siguiendo la secuencia avisar, escuchar la indicación y actuar en orden; las tarjetas se pegan como cartelera de seguridad.",
+      "Tiempo para las consignas privadas 6 y 7 de «Mirate» y repaso grupal de la ruta de ayuda; enlace con las normas que aplicará el proyecto comunitario."
+    ]
+  },
+  "recursos": "Libro del estudiante (Clase 20, tabla de normas antes, durante y después, figura 20.1 y cajas «Ejemplo» y «En Paraguay»); cartulinas y marcadores para las tarjetas de emergencia; protocolo institucional de emergencia y evacuación; pizarra.",
+  "procedimientos": "Dramatización de situaciones de emergencia en el aula aplicando normas de comportamiento antes, durante y después del evento.",
+  "instrumentos": "Escala de estimación del desempeño en la dramatización y de las tarjetas de emergencia.",
+  "criterios": [
+    "Aplica normas de comportamiento correctas y seguras ante los cuatro riesgos ambientales.",
+    "Reconoce la violencia como riesgo y nombra a quién recurrir según la situación.",
+    "Nombra una emoción frente al riesgo y propone una estrategia para recuperar la calma."
+  ],
+  "observacion": "Si la institución tiene programado un simulacro, la práctica se ajusta exclusivamente a su protocolo oficial."
+}

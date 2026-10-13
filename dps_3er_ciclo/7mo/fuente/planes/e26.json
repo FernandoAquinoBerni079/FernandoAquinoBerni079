@@ -1,0 +1,26 @@
+{
+  "inicio": {"min": 20, "acts": [
+    "El docente lee la situación de Dahiana y su registro del día; pregunta qué le sorprendió a ella y por qué.",
+    "Cada estudiante completa en privado el registro de su día anterior en bloques (consigna 6 de «Mirate») y suma, aproximadamente, el tiempo dedicado al estudio."
+  ]},
+  "desarrollo": {"min": 80, "acts": [
+    "Lectura dialogada de «Las mismas 24 horas» y «¿Cuánto tiempo le dedico realmente al estudio?»; el grupo enumera ladrones de tiempo frecuentes y posibles soluciones.",
+    "Lectura de «El estudio como hábito» y análisis de la figura 17.1: los estudiantes identifican el bloque diario de estudio y el tiempo libre del fin de semana.",
+    "Lectura de «Técnicas de estudio» y de la tabla; el docente modela en la pizarra un buen y un mal subrayado sobre un mismo párrafo.",
+    "Dinámica «En grupo» (consigna 8): los grupos aplican cuatro técnicas a un texto breve de otra asignatura y comparan resultados.",
+    "Resolución individual de «Pensá y respondé» (consignas 1 a 5) y de la consigna 7 de «Mirate»."
+  ]},
+  "cierre": {"min": 20, "acts": [
+    "Elaboración colectiva del cartel «Técnicas que nos sirven» con los aportes de cada grupo; se pega en el aula.",
+    "Cada estudiante anota la técnica que probará y el horario fijo que elegirá para empezar su hábito; se anticipa que en la Clase 18 armarán un plan semanal."
+  ]},
+  "recursos": "Libro del estudiante (Clase 17, figura 17.1 y tabla de técnicas de estudio); textos breves de otras asignaturas (Ciencias, Historia); resaltadores; papel afiche para el cartel colectivo.",
+  "procedimientos": "Registro de uso del tiempo de un día y práctica comparada de cuatro técnicas de estudio sobre un mismo texto.",
+  "instrumentos": "Escala de estimación de aplicación de técnicas de estudio (subrayado, resumen, esquema y explicación oral).",
+  "criterios": [
+    "Estima el tiempo dedicado al estudio a partir de un registro sencillo.",
+    "Explica qué es un hábito de estudio y cómo se forma.",
+    "Aplica correctamente al menos una técnica de estudio a un texto breve."
+  ],
+  "observacion": "Los registros personales de tiempo no se recogen ni se califican."
+}

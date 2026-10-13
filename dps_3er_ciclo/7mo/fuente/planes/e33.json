@@ -1,0 +1,32 @@
+{
+  "inicio": {
+    "min": 15,
+    "acts": [
+      "La docente explica la estructura de la prueba de la Unidad 7 (tres partes, 30 puntos), el tiempo disponible y los criterios de corrección.",
+      "Se recuerda que los casos son ficticios y que ninguna consigna pide información personal."
+    ]
+  },
+  "desarrollo": {
+    "min": 85,
+    "acts": [
+      "Resolución individual de la Evaluación de la Unidad 7: opción múltiple y verdadero o falso (consignas 1 a 5), análisis de los casos A y B (consignas 6 a 9) y posición fundamentada sobre la jornada de limpieza del proyecto comunitario (consigna 10).",
+      "La docente acompaña aclarando dudas de comprensión de las consignas sin anticipar respuestas; los estudiantes revisan sus respuestas antes de entregar."
+    ]
+  },
+  "cierre": {
+    "min": 20,
+    "acts": [
+      "Entrega de la prueba.",
+      "Devolución general: se comentan en plenario las normas ante los cuatro riesgos ambientales y la ruta de ayuda ante la violencia, sin exponer respuestas individuales."
+    ]
+  },
+  "recursos": "Libro del estudiante (Evaluación de la Unidad 7); solucionario docente con clave y rúbrica; cuaderno; pizarra.",
+  "procedimientos": "Prueba escrita individual de la Unidad 7 — Gestión de riesgo, con análisis de casos ficticios y posición fundamentada.",
+  "instrumentos": "Prueba escrita de la Unidad 7 — Gestión de riesgo, con clave de corrección y rúbrica para las respuestas abiertas.",
+  "criterios": [
+    "Identifica con precisión los tipos de riesgo y los componentes de la gestión de riesgo.",
+    "Aplica normas de comportamiento y la ruta de ayuda a situaciones ficticias.",
+    "Fundamenta una posición con criterios de seguridad aplicables al proyecto comunitario."
+  ],
+  "observacion": "La recuperación se toma con un caso ficticio nuevo según el solucionario."
+}

@@ -1,0 +1,25 @@
+{
+  "inicio": {"min": 20, "acts": [
+    "El docente lee el diálogo entre Matías y Dahiana (situación de apertura) y pregunta qué diferencia hay entre «estudiar tres horas» y «estar tres horas con el cuaderno abierto».",
+    "Los estudiantes levantan la mano si alguna vez estudiaron mucho y no recordaron casi nada, sin dar detalles; se anotan en la pizarra posibles causas."
+  ]},
+  "desarrollo": {"min": 80, "acts": [
+    "Lectura de la sección «Estudiar mejor no es estudiar más horas: las condiciones»; análisis de la figura 16.1 y de la tabla; las causas anotadas al inicio se clasifican en las cuatro condiciones.",
+    "Lectura en parejas de las secciones sobre lo psicológico y lo fisiológico, y sobre lo ambiental y lo material; cada pareja anota un ejemplo nuevo por condición.",
+    "Actividad práctica de auditoría: en equipos, los estudiantes analizan los casos ficticios de Sofía, Iván y Mara, completan la matriz de cuatro columnas y clasifican los ajustes según de quién dependen.",
+    "Resolución individual de «Pensá y respondé» (consignas 1 a 5) y respuesta privada de «Mirate» (consignas 6 y 7)."
+  ]},
+  "cierre": {"min": 20, "acts": [
+    "Dinámica «En grupo» (consigna 8): elaboración del afiche de cuatro cuadrantes y recorrida con estrellas.",
+    "Cada estudiante anota, en privado, un ajuste pequeño que probará durante la semana; el docente recuerda los apoyos del colegio (biblioteca o espacio de estudio)."
+  ]},
+  "recursos": "Libro del estudiante (Clase 16, figura 16.1, tabla de las cuatro condiciones y caja «Actividad práctica» con los casos ficticios); papel afiche dividido en cuadrantes; marcadores; estrellas adhesivas o dibujadas.",
+  "procedimientos": "Auditoría de condiciones de estudio sobre casos ficticios con clasificación de ajustes según quién puede apoyarlos.",
+  "instrumentos": "Matriz de auditoría de condiciones valorada con lista de cotejo de clasificación y realismo de los ajustes.",
+  "criterios": [
+    "Clasifica ejemplos en las cuatro condiciones del estudio.",
+    "Identifica en cada caso ficticio la condición que dificulta el aprendizaje.",
+    "Propone ajustes realistas, seguros y sin costo, indicando quién puede apoyarlos."
+  ],
+  "observacion": "No se solicita a los estudiantes describir su hogar ni sus recursos; la auditoría se hace sobre casos ficticios."
+}

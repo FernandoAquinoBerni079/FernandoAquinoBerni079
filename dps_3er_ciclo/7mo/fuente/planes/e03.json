@@ -1,0 +1,24 @@
+{
+  "inicio": {"min": 15, "acts": [
+    "Lectura del caso del video en el grupo de WhatsApp (apertura de la Clase 3): el docente pregunta qué acuerdos habrían evitado el problema y anota las ideas del grupo sin referirse a situaciones reales del grado."
+  ]},
+  "desarrollo": {"min": 75, "acts": [
+    "Lectura de «¿Qué es el PEI?» junto con un extracto del PEI de la institución (misión, visión y valores): los estudiantes identifican un valor del colegio y una actividad que lo refleja.",
+    "Trabajo con la tabla de la sección «Los proyectos de la escuela»: el docente presenta el Proyecto Curricular Institucional y el Proyecto Educativo Comunitario y anticipa que el grado iniciará su propio proyecto comunitario en junio.",
+    "Análisis de normas modelo: el docente escribe en la pizarra una norma vaga, una imposible y una injusta; los estudiantes las evalúan con las tres características y las reescriben en positivo; luego leen los cuatro pasos de la figura 3.1 y el ejemplo del celular.",
+    "Resolución individual de «Pensá y respondé» (consignas 1 a 5) y respuesta privada de «Mirate» (consignas 6 y 7)."
+  ]},
+  "cierre": {"min": 30, "acts": [
+    "En grupo (consigna 8): cada grupo construye una norma siguiendo los cuatro pasos; el grado elige por consenso tres normas, las copia en un afiche y lo firma como compromiso.",
+    "Síntesis: el docente relaciona las normas con el PEI y con la caja «En Paraguay» (Ley N.º 4633/2012) y fija una fecha para revisar los acuerdos."
+  ]},
+  "recursos": "Libro del estudiante (Clase 3, figura 3.1, tabla de los proyectos de la escuela, cajas «Ejemplo» y «En Paraguay»); extracto del PEI de la institución; reglamento de convivencia vigente; tiras de papel, papel afiche y marcadores.",
+  "procedimientos": "Análisis de normas modelo con criterios de claridad, justicia y cumplimiento, y construcción participativa de los acuerdos de convivencia del grado.",
+  "instrumentos": "Escala de estimación de la participación de cada estudiante en el debate y en la redacción de las normas del grado.",
+  "criterios": [
+    "Explica con sus palabras para qué sirve el PEI y nombra el Proyecto Educativo Comunitario como proyecto de la escuela.",
+    "Clasifica normas modelo según sean claras, justas y cumplibles, y reescribe una en positivo.",
+    "Aporta ideas en el debate respetando el turno de palabra y se compromete con los acuerdos firmados."
+  ],
+  "observacion": "Se anticipa el Proyecto Educativo Comunitario, que el grado desarrollará en los talleres a partir de junio."
+}

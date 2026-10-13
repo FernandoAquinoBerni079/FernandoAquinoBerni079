@@ -1,0 +1,34 @@
+{
+  "inicio": {
+    "min": 15,
+    "acts": [
+      "Lectura de la apertura del Taller PEC 7; el grado define el formato y el público de la socialización según lo acordado con la dirección.",
+      "Lectura de la sección «Socializar: compartir lo que hicimos y aprendimos»."
+    ]
+  },
+  "desarrollo": {
+    "min": 90,
+    "acts": [
+      "Cada equipo prepara su parte del guion con la tabla del libro y un apoyo visual legible (árbol, cronograma, gráfico de barras, fotos de espacios sin personas).",
+      "Ensayo general con control del tiempo; los demás equipos formulan preguntas como público; redacción colectiva de la nota de agradecimiento a los aliados.",
+      "Autoevaluación y coevaluación con la Ficha 10, a partir de criterios acordados y de la sección «Mirar cómo trabajamos».",
+      "Lectura de las secciones de cierre del año y red de apoyo; análisis de la figura PEC 7.1 y resolución de las consignas 1 a 4; las preguntas de «Mirate» se responden en privado."
+    ]
+  },
+  "cierre": {
+    "min": 15,
+    "acts": [
+      "Ronda voluntaria: cada estudiante que lo desee dice en una frase qué se lleva del proyecto y del año.",
+      "Entrega de la carpeta del proyecto y del informe final; la docente recuerda la fecha de la socialización ante la comunidad."
+    ]
+  },
+  "recursos": "Libro del estudiante (Taller PEC 7, tabla del guion, figura PEC 7.1, consignas 1 a 7); Ficha 10 del anexo; cartulinas reutilizadas y marcadores; informe final del proyecto; sobres para las respuestas privadas.",
+  "procedimientos": "Socialización de aprendizajes ante la comunidad educativa con autoevaluación y coevaluación del trabajo en equipo.",
+  "instrumentos": "Rúbrica de socialización y fichas de autoevaluación y coevaluación del equipo (Ficha 10).",
+  "criterios": [
+    "Presenta resultados y aprendizajes con datos y respeto por la privacidad.",
+    "Valora su participación y la de su equipo con criterios acordados.",
+    "Relaciona los aprendizajes del proyecto con su red de apoyo y su proyecto de vida."
+  ],
+  "observacion": "Mes del proyecto: noviembre. Tarea fuera del aula: socialización del proyecto ante la comunidad educativa (muestra de fin de año, formación o reunión con familias) en la fecha y el espacio que fije la institución, en horario escolar y con acompañamiento docente. Este encuentro reemplaza a la antigua clase de cierre del año."
+}

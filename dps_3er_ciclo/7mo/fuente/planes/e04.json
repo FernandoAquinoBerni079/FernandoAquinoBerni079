@@ -1,0 +1,24 @@
+{
+  "inicio": {"min": 15, "acts": [
+    "El docente explica la estructura de la Evaluación de la Unidad 1 (tres partes, 30 puntos), el tiempo disponible y los criterios de las respuestas abiertas; aclara que no se piden datos personales.",
+    "Repaso breve de dudas sobre pertenencia, organigrama, PEI y normas de convivencia, sin anticipar respuestas."
+  ]},
+  "desarrollo": {"min": 85, "acts": [
+    "Resolución individual de la Parte 1 (consignas 1 a 5: opción múltiple y verdadero o falso).",
+    "Resolución individual de la Parte 2 (casos ficticios de Lucía y de la norma «Prohibido todo», consignas 6 a 9) y de la Parte 3 (consigna 10, posición argumentada).",
+    "Revisión personal de las respuestas antes de entregar; el docente acompaña a quienes necesitan más tiempo o una relectura de la consigna."
+  ]},
+  "cierre": {"min": 20, "acts": [
+    "Entrega de la prueba.",
+    "Devolución general: el docente comenta las ideas clave de la unidad (estar y pertenecer, organigrama, PEI, norma clara, justa y cumplible) y anuncia las actividades de recuperación para quienes las necesiten."
+  ]},
+  "recursos": "Libro del estudiante (Evaluación de la Unidad 1, fotocopiable); clave de corrección y criterios del solucionario; reloj visible para administrar el tiempo.",
+  "procedimientos": "Prueba escrita individual de la Unidad 1 — Sentido de pertenencia, con ítems de comprensión, análisis de dos casos ficticios y una posición argumentada.",
+  "instrumentos": "Prueba escrita de la Unidad 1 — Sentido de pertenencia, corregida con clave de respuestas y criterios para las consignas abiertas.",
+  "criterios": [
+    "Distingue estar de pertenecer y propone acciones de integración en un caso ficticio.",
+    "Reconoce la función del organigrama, del PEI y de los miembros de la institución.",
+    "Aplica las características y los pasos de construcción de una buena norma de convivencia y argumenta su posición."
+  ],
+  "observacion": "Evaluación de cierre de la Unidad 1 (capacidades 1 y 2). Puntaje sugerido: la escala la fija la institución."
+}

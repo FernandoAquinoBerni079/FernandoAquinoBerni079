@@ -1,0 +1,35 @@
+{
+  "inicio": {
+    "min": 20,
+    "acts": [
+      "Lectura de la apertura de la Clase 12 (Matías, Dahiana, Rodrigo e Iván) y pregunta en tercera persona: ¿qué debería hacer Matías con lo que le contó su amigo?",
+      "Recuperación de la Clase 10: el docente pregunta qué normas reconocen los derechos de la niñez en Paraguay."
+    ]
+  },
+  "desarrollo": {
+    "min": 80,
+    "acts": [
+      "Lectura guiada de «Las leyes que me protegen» y de la tabla norma–qué protege–responsabilidad; los estudiantes subrayan en cada fila la responsabilidad que les toca.",
+      "Lectura de «Cada derecho lleva implícita una responsabilidad»: el docente explica el sentido de «implícito» y que los derechos no se pierden.",
+      "Lectura de la figura 12.1 «Mi ruta de ayuda» de arriba hacia abajo y de la sección «Mi ruta de ayuda»: el grupo distingue cuándo corresponde cada escalón (adulto de confianza, CODENI, Fono Ayuda 147, 911).",
+      "Lectura de «Mi red de apoyo» y «Pedir ayuda es cuidarse» con el caso de Iván (caja «Ejemplo»); cada estudiante resuelve por escrito un caso ficticio breve propuesto por el docente indicando qué haría un amigo y a quién recurrir.",
+      "Resolución individual de «Pensá y respondé» (consignas 1 a 5) y respuesta privada de «Mirate» (consignas 6 y 7), sin exponer la red personal."
+    ]
+  },
+  "cierre": {
+    "min": 20,
+    "acts": [
+      "En grupo (consigna 8): elaboración del cartel «Nuestra ruta de ayuda» con los tres escalones, la dirección de la CODENI, frases de ánimo y la lista de lo que puede hacer un amigo; se fija en el aula.",
+      "Síntesis: callar nunca protege; pedir ayuda es un acto de cuidado."
+    ]
+  },
+  "recursos": "Libro del estudiante (Clase 12, figura 12.1, tabla de normas, cajas «Ejemplo», «Concepto clave» y «Para cuidarte»); dirección de la CODENI de la municipalidad y cargos de referencia del colegio averiguados por el docente; papel afiche y marcadores; caso ficticio breve impreso o escrito en la pizarra.",
+  "procedimientos": "Identificación de las leyes de protección y de la responsabilidad implícita en cada derecho, y reconstrucción de la ruta de ayuda y de la red de apoyo con un cartel del grado.",
+  "instrumentos": "Resolución escrita individual de un caso ficticio de pedido de ayuda, valorada con rúbrica holística de tres niveles.",
+  "criterios": [
+    "Identifica al menos dos leyes y dos instituciones que protegen a la niñez y la adolescencia.",
+    "Relaciona un derecho con la responsabilidad implícita que lo acompaña.",
+    "Reconstruye en orden la ruta de ayuda ante un caso ficticio y explica por qué pedir ayuda es un acto de cuidado."
+  ],
+  "observacion": "Integra la red de apoyo de la clase de cierre de la edición anterior; el cartel queda visible todo el año."
+}

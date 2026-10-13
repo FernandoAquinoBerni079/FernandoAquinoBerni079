@@ -1,0 +1,35 @@
+{
+  "inicio": {
+    "min": 20,
+    "acts": [
+      "Lectura de la apertura de la Clase 9 (Rodrigo y el «estirón»; los cambios de humor de Dahiana) y pregunta: ¿por qué creían que solo les pasaba a ellos?",
+      "El docente presenta el buzón anónimo y explica sus reglas: sin nombres, con respeto y con preguntas generales."
+    ]
+  },
+  "desarrollo": {
+    "min": 80,
+    "acts": [
+      "Lectura guiada de «Pubertad y adolescencia: una etapa de la vida»: el docente diferencia ambos conceptos y los estudiantes los registran en el cuaderno con sus palabras.",
+      "Observación de la figura 9.1 «Los cambios de la adolescencia» y lectura de la tabla de la sección «Cambios en tres direcciones»: el docente explica cómo se conectan las tres ramas.",
+      "Lectura de «Cómo influyen los cambios en la afectividad»: diálogo sobre la comparación con imágenes de las redes y sobre las emociones intensas, siempre en tercera persona.",
+      "Lectura de «Cómo afrontar los cambios» y «Respetar los cambios de los demás», con el caso de Dahiana y Matías (caja «Ejemplo») y la caja «En Paraguay»; el grupo arma en la pizarra la lista de formas saludables de afrontarlos.",
+      "Resolución individual de «Pensá y respondé» (consignas 1 a 5) y respuesta privada de «Mirate» (consignas 6 y 7)."
+    ]
+  },
+  "cierre": {
+    "min": 20,
+    "acts": [
+      "En grupo (consigna 8): depósito de preguntas en el buzón; el docente lee las preguntas generales seleccionadas y las responde con información adecuada a la edad.",
+      "Elaboración del cartel «cinco cosas que aprendimos sobre los cambios» y completamiento de la ficha de salida."
+    ]
+  },
+  "recursos": "Libro del estudiante (Clase 9, figura 9.1, tabla de los tres tipos de cambio, cajas «Ejemplo», «Concepto clave» y «En Paraguay»); caja cerrada y papeles para el buzón anónimo; cartulina para el cartel; ficha de salida de tres renglones; contacto de la orientación educativa para derivaciones.",
+  "procedimientos": "Reconocimiento de los cambios físicos, emocionales y sociales de la adolescencia con buzón anónimo de preguntas y elaboración de un cartel de aprendizajes.",
+  "instrumentos": "Ficha de salida individual sin nombre de los tres tipos de cambio y de dos formas de afrontarlos, revisada para retroalimentación grupal.",
+  "criterios": [
+    "Nombra un cambio físico, uno emocional y uno social de la adolescencia.",
+    "Explica que los cambios varían de una persona a otra y cómo influyen en la afectividad.",
+    "Propone al menos dos formas saludables de afrontar los cambios y de respetar los de los demás."
+  ],
+  "observacion": "Sin detalles clínicos ni contenido explícito; las dudas de salud se derivan a la familia y a la orientación."
+}

@@ -1,0 +1,25 @@
+{
+  "inicio": {"min": 30, "acts": [
+    "Aplicación de la prueba diagnóstica (página previa a la Unidad 1): el docente explica que no lleva nota y los estudiantes responden individualmente las seis consignas de saberes previos.",
+    "Diálogo de bienvenida al tercer ciclo: el docente pregunta cómo se sintieron el primer día y cómo se sienten hoy; registra en la pizarra las palabras del grupo y presenta a Belén, Rodrigo, Dahiana y Matías con el párrafo de apertura de la Clase 1."
+  ]},
+  "desarrollo": {"min": 65, "acts": [
+    "Lectura guiada de «¿Qué es pertenecer?» y de «Los círculos a los que pertenezco»: con la figura 1.1, cada estudiante nombra en voz baja con su compañero de banco sus propios círculos de pertenencia.",
+    "Análisis de la tabla «Solo estoy / Pertenezco» de la sección «Integrarse: un camino de ida y vuelta» y del caso de Belén: el grupo identifica qué hizo Dahiana y qué hizo Belén para que la integración funcionara.",
+    "El docente presenta los datos de la historia y los símbolos del colegio aportados por la dirección (sección «La historia y la identidad de mi institución»); los estudiantes los relacionan con la caja «En Paraguay» (ñande).",
+    "Resolución individual de «Pensá y respondé» (consignas 1 a 5) y respuesta privada de «Mirate» (consignas 6 y 7), que no se leen en voz alta ni llevan nota."
+  ]},
+  "cierre": {"min": 25, "acts": [
+    "En grupo (consigna 8): en grupos de cuatro, los estudiantes formulan dos preguntas sobre la historia del colegio y aportan cada uno una palabra o dibujo al mural «Esto nos hace nuestro grupo»; el mural queda expuesto en el aula.",
+    "Síntesis oral guiada por el docente: qué distingue estar de pertenecer y qué aporta cada uno al grupo; se acuerda a quién se le harán las preguntas sobre la historia del colegio."
+  ]},
+  "recursos": "Libro del estudiante (Clase 1, figura 1.1, tabla «Solo estoy / Pertenezco», cajas «Ejemplo» y «En Paraguay»); prueba diagnóstica del libro; datos de la historia y los símbolos de la institución facilitados por la dirección; pizarra; papel afiche, marcadores de colores y cinta.",
+  "procedimientos": "Diálogo de bienvenida, lectura guiada de los círculos de pertenencia y construcción colectiva del mural «Esto nos hace nuestro grupo».",
+  "instrumentos": "Registro anecdótico de la participación de cada estudiante en el diálogo inicial y en el mural del grado.",
+  "criterios": [
+    "Explica con sus palabras la diferencia entre estar y pertenecer, con un ejemplo de cada caso.",
+    "Menciona al menos dos datos de la historia o de la identidad del colegio (nombre, fundación, símbolos, fechas).",
+    "Propone una acción concreta para integrar a un compañero y nombra lo que aporta al grado."
+  ],
+  "observacion": "La prueba diagnóstica se aplica al inicio de este encuentro y orienta el énfasis de las unidades siguientes; no lleva nota."
+}

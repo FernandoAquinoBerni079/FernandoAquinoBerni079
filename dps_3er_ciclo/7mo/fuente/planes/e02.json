@@ -1,0 +1,24 @@
+{
+  "inicio": {"min": 15, "acts": [
+    "Lectura del caso de Rodrigo (apertura de la Clase 2): el docente plantea tres situaciones (pedir un certificado, una duda de matemática, un problema personal) y los estudiantes anotan a quién acudirían; las hipótesis quedan en la pizarra."
+  ]},
+  "desarrollo": {"min": 85, "acts": [
+    "Lectura guiada de «Un colegio es un equipo con roles» y de «El organigrama: un mapa de la organización»: con la figura 2.1, el docente modela cómo se lee de arriba hacia abajo y los estudiantes explican de quién depende cada función.",
+    "Trabajo con la tabla de miembros de la comunidad educativa y el caso de Dahiana: en parejas, los estudiantes revisan las hipótesis del inicio y corrigen las que no coinciden con la tabla.",
+    "Actividad práctica «Mi horario y cómo me evaluarán»: con la copia del horario y el documento institucional vigente, los estudiantes completan la tabla Disciplina / Horas cátedra / Docente y los pasos 2 a 4 de la caja; el docente aclara la diferencia entre evaluar, calificar y promover sin dar porcentajes no respaldados.",
+    "Resolución individual de «Pensá y respondé» (consignas 1 a 5) y respuesta privada de «Mirate» (consignas 6 y 7)."
+  ]},
+  "cierre": {"min": 20, "acts": [
+    "En grupo (consigna 8): los grupos dibujan el organigrama real del colegio con la nómina facilitada por la dirección, agregan una situación de consulta por cargo y lo exponen en el aula.",
+    "Puesta en común: se revisan las respuestas del inicio con el organigrama a la vista y se lee en voz alta la frase del paso 4 de algunos voluntarios."
+  ]},
+  "recursos": "Libro del estudiante (Clase 2, figura 2.1, tabla de miembros y funciones, caja «Actividad práctica» y tabla del horario); nómina de cargos de la institución; copia del horario del grado; documento institucional vigente sobre evaluación y promoción; papel afiche, regla y marcadores.",
+  "procedimientos": "Interpretación del organigrama institucional y consulta guiada del horario y de la fuente vigente sobre evaluación y promoción.",
+  "instrumentos": "Lista de cotejo aplicada al organigrama real elaborado por cada grupo y a la tabla del horario completada.",
+  "criterios": [
+    "Asocia correctamente al menos cuatro necesidades con el miembro de la institución que corresponde.",
+    "Lee el organigrama de arriba hacia abajo y explica de quién depende una función.",
+    "Completa su horario con la fuente vigente e indica dónde consultar una duda sobre evaluación o promoción."
+  ],
+  "observacion": "Integra la antigua Continuación práctica 1 (horario y evaluación). No se enseñan porcentajes ni reglas de promoción: se consultan en la normativa institucional vigente."
+}

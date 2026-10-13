@@ -1,0 +1,34 @@
+{
+  "inicio": {
+    "min": 20,
+    "acts": [
+      "La docente lee con el grupo la escena del charco del patio y pregunta «¿fue mala suerte o se podía prevenir?»; los estudiantes aportan ideas que se anotan en la pizarra en tres columnas: cuerpo, emociones y entorno.",
+      "Se presenta la capacidad de la clase y se acuerda el propósito: reconocer riesgos y proponer medidas sin exponerse a ningún peligro."
+    ]
+  },
+  "desarrollo": {
+    "min": 80,
+    "acts": [
+      "Lectura comentada de las secciones «¿Qué es un riesgo?» y «Tres tipos de riesgo»: la docente explica amenaza, vulnerabilidad y factores de riesgo; los estudiantes completan oralmente la tabla con ejemplos del aula y reconocen la violencia en los tres tipos de riesgo.",
+      "Análisis de la figura 19.1 como línea de tiempo (prevención, mitigación, respuesta) y de la sección «Del riesgo al desastre»; resolución individual de las consignas 1 a 5 y corrección en plenario.",
+      "Actividad práctica integrada (consigna 8): tras leer la caja «Para cuidarte», los grupos recorren con la docente solo las zonas habilitadas, observan a distancia sin tocar instalaciones y, de vuelta en el aula, dibujan el mapa de riesgos con rutas, punto de encuentro y la clasificación «hábitos / intervención adulta o técnica».",
+      "Ensayo en el aula de la secuencia avisar, escuchar la indicación, salir en fila y reunirse; si la institución organiza un simulacro, se sigue solo su protocolo oficial."
+    ]
+  },
+  "cierre": {
+    "min": 20,
+    "acts": [
+      "Galería de mapas: cada grupo presenta su plano y el curso elige una recomendación concreta para entregar a la dirección.",
+      "La docente vincula la clase con el proyecto comunitario (cada actividad se planifica con criterios de seguridad) y deja tiempo para las consignas privadas 6 y 7 de «Mirate»."
+    ]
+  },
+  "recursos": "Libro del estudiante (Clase 19, figura 19.1, tabla de tipos de riesgo y cajas «Ejemplo», «En Paraguay» y «Para cuidarte»); croquis simple del colegio si la institución dispone de uno; hojas grandes y marcadores; protocolo institucional de emergencia y evacuación vigente; autorización de la dirección para el recorrido.",
+  "procedimientos": "Elaboración grupal de un mapa de riesgos del aula y de los espacios habilitados, con clasificación de medidas de prevención y mitigación.",
+  "instrumentos": "Lista de cotejo de seguridad y pertinencia del mapa de riesgos.",
+  "criterios": [
+    "Distingue riesgos físicos, psicológicos y ambientales y reconoce la violencia en cada uno.",
+    "Explica la diferencia entre prevención, mitigación y respuesta con ejemplos del entorno escolar.",
+    "Marca riesgos a distancia, sin manipularlos, e indica a qué adulto se avisa en cada caso."
+  ],
+  "observacion": "Integra la antigua práctica del mapa de riesgos; el recorrido requiere autorización de la dirección y se limita a zonas habilitadas."
+}

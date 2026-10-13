@@ -1,0 +1,22 @@
+{
+  "inicio": {"min": 20, "acts": [
+    "Escritura anónima, en dos minutos, de una respuesta a «¿Quién sos?»; el docente pregunta qué fue fácil y qué difícil y lee el caso de apertura de la Clase 4 y la historia de la sección «Conocerse es mirarse con honestidad»."
+  ]},
+  "desarrollo": {"min": 70, "acts": [
+    "Lectura guiada de «Fortalezas y debilidades», «Intereses y habilidades no son lo mismo» y «Las oportunidades»: el docente arma en la pizarra un cuadro de cinco columnas y los estudiantes clasifican ejemplos ficticios; se observa la figura 4.1.",
+    "Aplicación de una técnica de la tabla «Técnicas para conocerme» elegida por cada estudiante (cuestionario personal, diario, pedir opinión o plan para probar algo nuevo) y lectura del caso de Dahiana.",
+    "Resolución individual de «Pensá y respondé» (consignas 1 a 5) y respuesta privada de «Mirate» (consignas 6 y 7)."
+  ]},
+  "cierre": {"min": 30, "acts": [
+    "En grupo (consigna 8): dinámica «Escritos en la espalda» en grupos de seis, con la regla de escribir solo cualidades; cada estudiante compara lo que escribió sobre sí con lo que recibió.",
+    "Elaboración del afiche de cualidades del grado y autoevaluación breve: cada estudiante marca cómo aplicó la técnica elegida, sin que se califique el contenido personal."
+  ]},
+  "recursos": "Libro del estudiante (Clase 4, figura 4.1, tabla de técnicas, cajas «Ejemplo» y «En Paraguay»); hojas en blanco y cinta para la dinámica; papel afiche y marcadores; pauta de autoevaluación con tres criterios escrita en la pizarra.",
+  "procedimientos": "Aplicación individual de una técnica de autoconocimiento y dinámica grupal «Escritos en la espalda».",
+  "instrumentos": "Autoevaluación con criterios sobre la aplicación de la técnica elegida (sinceridad, registro, nombrar una mejora sin descalificarse), sin calificar el contenido privado.",
+  "criterios": [
+    "Clasifica correctamente ejemplos de fortalezas, debilidades, intereses, habilidades y oportunidades.",
+    "Aplica una técnica de autoconocimiento y registra al menos un descubrimiento.",
+    "Expresa una debilidad como dato que se puede mejorar y no como etiqueta."
+  ]
+}

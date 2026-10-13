@@ -1,0 +1,24 @@
+{
+  "inicio": {"min": 15, "acts": [
+    "Lectura del caso del mensaje del domingo (apertura de la Clase 6) sin el final: los estudiantes dicen qué habrían hecho; luego el docente lee el final y el grupo compara las decisiones de Rodrigo y de Belén."
+  ]},
+  "desarrollo": {"min": 75, "acts": [
+    "Lectura guiada de «Sentir, pensar y actuar» y «Observarte: cómo se nota cada parte» con la figura 6.1: el docente modela la pausa de tres preguntas con una situación ficticia y los estudiantes la aplican en parejas a otra.",
+    "Lectura de «El pensamiento crítico» y «Pensamiento objetivo: hechos y opiniones»: con la tabla del libro y nuevas afirmaciones escritas en la pizarra, los estudiantes clasifican hechos y opiniones y proponen cómo verificar cada una.",
+    "Lectura de «Aplicación: mi proyecto de vida» con la figura 6.2: el docente relaciona cada tramo de la línea del tiempo con sentir, pensar y actuar.",
+    "Resolución individual de «Pensá y respondé» (consignas 1 a 5) y respuesta privada de «Mirate» (consignas 6 y 7)."
+  ]},
+  "cierre": {"min": 30, "acts": [
+    "En grupo (consigna 8): análisis del caso ficticio de Sofía en un afiche de tres columnas (sentir, pensar críticamente, decisión) más un paso para su proyecto de vida; presentación de dos minutos por grupo.",
+    "Síntesis: el docente retoma la caja «En Paraguay» y el grupo formula una regla para el grupo de mensajería del grado («Antes de reenviar, verificamos»)."
+  ]},
+  "recursos": "Libro del estudiante (Clase 6, figuras 6.1 y 6.2, tabla de hechos y opiniones, cajas «Ejemplo» y «En Paraguay»); pizarra; papel afiche y marcadores; tiras con afirmaciones para clasificar.",
+  "procedimientos": "Resolución de casos con la secuencia sentir, pensar y actuar, y clasificación de afirmaciones en hechos u opiniones con propuestas de verificación.",
+  "instrumentos": "Rúbrica analítica del afiche grupal sobre el caso de Sofía (análisis de las tres partes, pensamiento crítico y decisión).",
+  "criterios": [
+    "Identifica en un caso qué se siente, qué se piensa y qué se hace, y ubica la pausa antes de actuar.",
+    "Distingue hechos de opiniones y formula preguntas para verificar una información antes de compartirla.",
+    "Propone una decisión pensada que no daña a otros y un paso realista de un proyecto de vida."
+  ],
+  "observacion": "La capacidad 4 es el foco; el proyecto de vida se trabaja como aplicación y su versión personal queda en el «Mirate», privado."
+}

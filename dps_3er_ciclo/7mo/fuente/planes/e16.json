@@ -1,0 +1,31 @@
+{
+  "inicio": {
+    "min": 15,
+    "acts": [
+      "El docente explica las consignas, el puntaje de cada parte (30 puntos) y el tiempo disponible.",
+      "Recordatorio: los casos son ficticios y no se pide información personal; las preguntas de «Mirate» no se califican."
+    ]
+  },
+  "desarrollo": {
+    "min": 85,
+    "acts": [
+      "Resolución individual de la Evaluación de la Unidad 4 — Derechos y responsabilidades: Parte 1 (consignas 1 a 5), Parte 2 con los casos de Nahuel y de Camila (consignas 6 a 9) y Parte 3 con la posición sobre la frase del debate (consigna 10).",
+      "Revisión silenciosa de las respuestas antes de entregar; el docente aclara dudas de comprensión sin dar respuestas."
+    ]
+  },
+  "cierre": {
+    "min": 20,
+    "acts": [
+      "Entrega de la evaluación.",
+      "Devolución general: relación derecho–responsabilidad, no discriminación y ruta de ayuda; se recuerda el cartel «Nuestra ruta de ayuda» del aula."
+    ]
+  },
+  "recursos": "Libro del estudiante (Evaluación de la Unidad 4); solucionario docente con clave de corrección; pizarra; cartel «Nuestra ruta de ayuda» de la Clase 12.",
+  "procedimientos": "Prueba escrita individual de la Unidad 4 — Derechos y responsabilidades, con ítems de comprensión, dos casos ficticios sobre discriminación y protección y una posición argumentada sobre derechos y responsabilidades.",
+  "instrumentos": "Prueba escrita de la Unidad 4 — Derechos y responsabilidades, corregida con clave de respuestas y criterios de puntaje para las respuestas abiertas.",
+  "criterios": [
+    "Reconoce derechos, normas de protección y la responsabilidad que acompaña a cada derecho.",
+    "Analiza casos ficticios de discriminación y de riesgo identificando el derecho vulnerado y la ruta de ayuda.",
+    "Argumenta con respeto su posición sobre la relación entre derechos, responsabilidades y no discriminación."
+  ]
+}

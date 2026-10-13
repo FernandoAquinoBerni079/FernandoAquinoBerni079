@@ -1,0 +1,24 @@
+{
+  "inicio": {"min": 15, "acts": [
+    "El docente explica las tres partes de la evaluación, el puntaje de cada consigna y el tiempo disponible.",
+    "Recuerda que los casos son ficticios y que no se pedirán experiencias personales; aclara dudas de vocabulario sin dar respuestas."
+  ]},
+  "desarrollo": {"min": 85, "acts": [
+    "Los estudiantes resuelven individualmente la Parte 1 (consignas 1 a 5: opción múltiple y verdadero o falso).",
+    "Resuelven la Parte 2 (consignas 6 a 9) analizando los dos casos ficticios sobre liderazgo y elección de delegado.",
+    "Resuelven la Parte 3 (consigna 10) argumentando su posición sobre el caso de Sofía; revisan en silencio sus respuestas antes de entregar."
+  ]},
+  "cierre": {"min": 20, "acts": [
+    "Entrega de la evaluación.",
+    "Devolución general oral de la Parte 1 y comentario de las ideas clave de la unidad, sin exponer respuestas individuales; se anticipa la recuperación para quienes la necesiten."
+  ]},
+  "recursos": "Libro del estudiante (Evaluación de la Unidad 5); solucionario docente con la clave de corrección; reloj visible en el aula.",
+  "procedimientos": "Prueba escrita individual de la Unidad 5 (Organizaciones estudiantiles) con ítems de comprensión, análisis de dos casos y argumentación.",
+  "instrumentos": "Prueba escrita de la Unidad 5 con clave de corrección y rúbrica para la consigna argumentativa sobre participación y pertenencia.",
+  "criterios": [
+    "Reconoce conceptos de liderazgo, Parlamento Escolar, elección responsable y clubes.",
+    "Aplica los conceptos de la unidad al análisis de casos ficticios.",
+    "Fundamenta su posición con razones vinculadas a la participación protagónica y al compromiso con el grupo."
+  ],
+  "observacion": "Evaluación sumativa de la Unidad 5; la escala y el puntaje final los fija la institución."
+}

@@ -1,0 +1,24 @@
+{
+  "inicio": {"min": 15, "acts": [
+    "El docente explica la estructura de la evaluación de la Unidad 6, el puntaje de cada consigna y el tiempo disponible.",
+    "Recuerda que los casos de Tobías, Ana y el estudiante de la Parte 3 son ficticios y que no se pedirán datos del propio hogar ni del plan personal."
+  ]},
+  "desarrollo": {"min": 80, "acts": [
+    "Los estudiantes resuelven individualmente la Parte 1 (consignas 1 a 5).",
+    "Resuelven la Parte 2 (consignas 6 a 9) analizando las condiciones de estudio de Tobías y el plan semanal de Ana.",
+    "Resuelven la Parte 3 (consigna 10) y revisan sus respuestas antes de entregar."
+  ]},
+  "cierre": {"min": 25, "acts": [
+    "Entrega de la evaluación y devolución general de la Parte 1 sin exponer respuestas individuales.",
+    "Revisión privada del registro de la actividad práctica «Una semana real» (Clase 18): cada estudiante calcula la proporción aproximada de bloques cumplidos y anota en su cuaderno un ajuste para la semana siguiente; quien quiera comparte en voz alta solo la estrategia de ajuste."
+  ]},
+  "recursos": "Libro del estudiante (Evaluación de la Unidad 6 y caja «Actividad práctica» de la Clase 18); solucionario docente con la clave de corrección; registros personales de la semana de prueba del plan.",
+  "procedimientos": "Prueba escrita individual de la Unidad 6 (Organización y planificación) con análisis de casos de condiciones de estudio y de un plan semanal.",
+  "instrumentos": "Prueba escrita de la Unidad 6 con clave de corrección y rúbrica para la argumentación sobre organización del tiempo.",
+  "criterios": [
+    "Reconoce las cuatro condiciones del estudio, el hábito, las técnicas y los tipos de metas.",
+    "Aplica los conceptos de la unidad al análisis de casos ficticios y propone ajustes realistas.",
+    "Fundamenta su posición sobre la organización del tiempo con razones de la unidad."
+  ],
+  "observacion": "Evaluación sumativa de la Unidad 6; el cierre incluye la revisión del registro de la semana real, que no se califica."
+}
