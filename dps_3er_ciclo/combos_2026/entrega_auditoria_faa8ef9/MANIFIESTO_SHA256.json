@@ -1,0 +1,194 @@
+{
+ "commit": "faa8ef939dbdbd62cb0d18636fc4bdd4edb849c2",
+ "rama": "claude/libros-5z31jx",
+ "grados": {
+  "7mo": [
+   {
+    "archivo": "DPS_7mo_TOMO_INTEGRAL_PEC_OFICIO_2026.docx",
+    "bytes": 25121748,
+    "sha256": "d2df859d7e6a07ee304541185b886710dbb58b1edd38c0af023617b8bcea50c2",
+    "url_completo": "https://raw.githubusercontent.com/FernandoAquinoBerni079/FernandoAquinoBerni079/faa8ef939dbdbd62cb0d18636fc4bdd4edb849c2/dps_3er_ciclo/combos_2026/7mo/DPS_7mo_TOMO_INTEGRAL_PEC_OFICIO_2026.docx",
+    "partes": [
+     {
+      "archivo": "DPS_7mo_TOMO_INTEGRAL_PEC_OFICIO_2026.docx.part01",
+      "bytes": 2800000,
+      "sha256": "5ebf67a26a4e90234b475304b20c3d5de1910796d6f9abdddb652fa02e096aac",
+      "url": "https://raw.githubusercontent.com/FernandoAquinoBerni079/FernandoAquinoBerni079/claude/libros-5z31jx/dps_3er_ciclo/combos_2026/entrega_auditoria_faa8ef9/7mo/DPS_7mo_TOMO_INTEGRAL_PEC_OFICIO_2026.docx.part01"
+     },
+     {
+      "archivo": "DPS_7mo_TOMO_INTEGRAL_PEC_OFICIO_2026.docx.part02",
+      "bytes": 2800000,
+      "sha256": "17e6687e45a67482d3ba28eccc7be37a46f4dd7e37dee9f791e3c39cb01db17a",
+      "url": "https://raw.githubusercontent.com/FernandoAquinoBerni079/FernandoAquinoBerni079/claude/libros-5z31jx/dps_3er_ciclo/combos_2026/entrega_auditoria_faa8ef9/7mo/DPS_7mo_TOMO_INTEGRAL_PEC_OFICIO_2026.docx.part02"
+     },
+     {
+      "archivo": "DPS_7mo_TOMO_INTEGRAL_PEC_OFICIO_2026.docx.part03",
+      "bytes": 2800000,
+      "sha256": "f842735ec73b5754abfa8a80e0865f27e0997d3437f1a8e3d54943f8a085294b",
+      "url": "https://raw.githubusercontent.com/FernandoAquinoBerni079/FernandoAquinoBerni079/claude/libros-5z31jx/dps_3er_ciclo/combos_2026/entrega_auditoria_faa8ef9/7mo/DPS_7mo_TOMO_INTEGRAL_PEC_OFICIO_2026.docx.part03"
+     },
+     {
+      "archivo": "DPS_7mo_TOMO_INTEGRAL_PEC_OFICIO_2026.docx.part04",
+      "bytes": 2800000,
+      "sha256": "52916b5ce7e137ba3a969c8b8ee894f2ee1799a715fb7206fedfb5b862c954c9",
+      "url": "https://raw.githubusercontent.com/FernandoAquinoBerni079/FernandoAquinoBerni079/claude/libros-5z31jx/dps_3er_ciclo/combos_2026/entrega_auditoria_faa8ef9/7mo/DPS_7mo_TOMO_INTEGRAL_PEC_OFICIO_2026.docx.part04"
+     },
+     {
+      "archivo": "DPS_7mo_TOMO_INTEGRAL_PEC_OFICIO_2026.docx.part05",
+      "bytes": 2800000,
+      "sha256": "0fa9782c80b87437d6a79c8a223cd8330b0044dbe69f1851b2776dd5f4dce490",
+      "url": "https://raw.githubusercontent.com/FernandoAquinoBerni079/FernandoAquinoBerni079/claude/libros-5z31jx/dps_3er_ciclo/combos_2026/entrega_auditoria_faa8ef9/7mo/DPS_7mo_TOMO_INTEGRAL_PEC_OFICIO_2026.docx.part05"
+     },
+     {
+      "archivo": "DPS_7mo_TOMO_INTEGRAL_PEC_OFICIO_2026.docx.part06",
+      "bytes": 2800000,
+      "sha256": "ac337d3d2c916c9d498c3084c7dc1b17969e1ad5021398aebf6ce8ba2b9e79ac",
+      "url": "https://raw.githubusercontent.com/FernandoAquinoBerni079/FernandoAquinoBerni079/claude/libros-5z31jx/dps_3er_ciclo/combos_2026/entrega_auditoria_faa8ef9/7mo/DPS_7mo_TOMO_INTEGRAL_PEC_OFICIO_2026.docx.part06"
+     },
+     {
+      "archivo": "DPS_7mo_TOMO_INTEGRAL_PEC_OFICIO_2026.docx.part07",
+      "bytes": 2800000,
+      "sha256": "dc14c18cf4eb8cb3f69ff2092e76b381ced962c63a15fd2c90156086990aff18",
+      "url": "https://raw.githubusercontent.com/FernandoAquinoBerni079/FernandoAquinoBerni079/claude/libros-5z31jx/dps_3er_ciclo/combos_2026/entrega_auditoria_faa8ef9/7mo/DPS_7mo_TOMO_INTEGRAL_PEC_OFICIO_2026.docx.part07"
+     },
+     {
+      "archivo": "DPS_7mo_TOMO_INTEGRAL_PEC_OFICIO_2026.docx.part08",
+      "bytes": 2800000,
+      "sha256": "9f5808d76c3744fc89ee1dfa94ba91b5dd98e8f71443c176734368d35c1755c9",
+      "url": "https://raw.githubusercontent.com/FernandoAquinoBerni079/FernandoAquinoBerni079/claude/libros-5z31jx/dps_3er_ciclo/combos_2026/entrega_auditoria_faa8ef9/7mo/DPS_7mo_TOMO_INTEGRAL_PEC_OFICIO_2026.docx.part08"
+     },
+     {
+      "archivo": "DPS_7mo_TOMO_INTEGRAL_PEC_OFICIO_2026.docx.part09",
+      "bytes": 2721748,
+      "sha256": "6b2010abd5b51389796002216f9f320cc2f6ae7a5737f81c002a6082462cadba",
+      "url": "https://raw.githubusercontent.com/FernandoAquinoBerni079/FernandoAquinoBerni079/claude/libros-5z31jx/dps_3er_ciclo/combos_2026/entrega_auditoria_faa8ef9/7mo/DPS_7mo_TOMO_INTEGRAL_PEC_OFICIO_2026.docx.part09"
+     }
+    ]
+   },
+   {
+    "archivo": "DPS_7mo_TOMO_INTEGRAL_PEC_OFICIO_2026.pdf",
+    "bytes": 5135403,
+    "sha256": "e4df9beda9ce78a16de3c699bd9b877b754e22591112cf5f1cf19f33a607007d",
+    "url_completo": "https://raw.githubusercontent.com/FernandoAquinoBerni079/FernandoAquinoBerni079/faa8ef939dbdbd62cb0d18636fc4bdd4edb849c2/dps_3er_ciclo/combos_2026/7mo/DPS_7mo_TOMO_INTEGRAL_PEC_OFICIO_2026.pdf",
+    "partes": [
+     {
+      "archivo": "DPS_7mo_TOMO_INTEGRAL_PEC_OFICIO_2026.pdf.part01",
+      "bytes": 2800000,
+      "sha256": "dc4c28de56cd149dff195ed0fd3a8399343f1edc40d9fa49c4eb4467fe2f08a9",
+      "url": "https://raw.githubusercontent.com/FernandoAquinoBerni079/FernandoAquinoBerni079/claude/libros-5z31jx/dps_3er_ciclo/combos_2026/entrega_auditoria_faa8ef9/7mo/DPS_7mo_TOMO_INTEGRAL_PEC_OFICIO_2026.pdf.part01"
+     },
+     {
+      "archivo": "DPS_7mo_TOMO_INTEGRAL_PEC_OFICIO_2026.pdf.part02",
+      "bytes": 2335403,
+      "sha256": "65c956e32724c9b25c8e65e661dcc8212efef29fbe2194f73496bf67ec56afb8",
+      "url": "https://raw.githubusercontent.com/FernandoAquinoBerni079/FernandoAquinoBerni079/claude/libros-5z31jx/dps_3er_ciclo/combos_2026/entrega_auditoria_faa8ef9/7mo/DPS_7mo_TOMO_INTEGRAL_PEC_OFICIO_2026.pdf.part02"
+     }
+    ]
+   },
+   {
+    "archivo": "DPS_7mo_PLAN_ANUAL_PEC_OFICIO_2026.docx",
+    "bytes": 182056,
+    "sha256": "7a5a153f4b652b904c7a225b8e4ae9c84b08b9b2884ae62f006a9a830914f596",
+    "url_completo": "https://raw.githubusercontent.com/FernandoAquinoBerni079/FernandoAquinoBerni079/faa8ef939dbdbd62cb0d18636fc4bdd4edb849c2/dps_3er_ciclo/combos_2026/7mo/DPS_7mo_PLAN_ANUAL_PEC_OFICIO_2026.docx",
+    "partes": []
+   },
+   {
+    "archivo": "DPS_7mo_PLANES_DE_CLASE_PEC_OFICIO_2026.docx",
+    "bytes": 217453,
+    "sha256": "36e109a303149634c97e87419ccf80d89a937a02aba61ff670edba5d1166fd14",
+    "url_completo": "https://raw.githubusercontent.com/FernandoAquinoBerni079/FernandoAquinoBerni079/faa8ef939dbdbd62cb0d18636fc4bdd4edb849c2/dps_3er_ciclo/combos_2026/7mo/DPS_7mo_PLANES_DE_CLASE_PEC_OFICIO_2026.docx",
+    "partes": []
+   },
+   {
+    "archivo": "DPS_7mo_SOLUCIONARIO_DOCENTE_PEC_OFICIO_2026.docx",
+    "bytes": 199848,
+    "sha256": "95edea28f7b22aa1e02a621290721dfd810e92a1287b4698f7129399894f81d9",
+    "url_completo": "https://raw.githubusercontent.com/FernandoAquinoBerni079/FernandoAquinoBerni079/faa8ef939dbdbd62cb0d18636fc4bdd4edb849c2/dps_3er_ciclo/combos_2026/7mo/DPS_7mo_SOLUCIONARIO_DOCENTE_PEC_OFICIO_2026.docx",
+    "partes": []
+   },
+   {
+    "archivo": "DPS_7mo_SOLUCIONARIO_DOCENTE_PEC_OFICIO_2026.pdf",
+    "bytes": 419187,
+    "sha256": "cf5078fd8a1c95ec7cc5f8acda1311ceae7b170dc2fd200c749d94d1730b2454",
+    "url_completo": "https://raw.githubusercontent.com/FernandoAquinoBerni079/FernandoAquinoBerni079/faa8ef939dbdbd62cb0d18636fc4bdd4edb849c2/dps_3er_ciclo/combos_2026/7mo/DPS_7mo_SOLUCIONARIO_DOCENTE_PEC_OFICIO_2026.pdf",
+    "partes": []
+   }
+  ],
+  "8vo": [
+   {
+    "archivo": "DPS_8vo_TOMO_INTEGRAL_PEC_OFICIO_2026.docx",
+    "bytes": 7804997,
+    "sha256": "2b6b61aeb682cec79a004b7c0a4bc9e06af498bc68c8430c9af174dd1a93cdb2",
+    "url_completo": "https://raw.githubusercontent.com/FernandoAquinoBerni079/FernandoAquinoBerni079/faa8ef939dbdbd62cb0d18636fc4bdd4edb849c2/dps_3er_ciclo/combos_2026/8vo/DPS_8vo_TOMO_INTEGRAL_PEC_OFICIO_2026.docx",
+    "partes": [
+     {
+      "archivo": "DPS_8vo_TOMO_INTEGRAL_PEC_OFICIO_2026.docx.part01",
+      "bytes": 2800000,
+      "sha256": "15ab1b72bf4e62875f620e7ee495f0f90567ee2fb1029260cd1f19d53c1c279e",
+      "url": "https://raw.githubusercontent.com/FernandoAquinoBerni079/FernandoAquinoBerni079/claude/libros-5z31jx/dps_3er_ciclo/combos_2026/entrega_auditoria_faa8ef9/8vo/DPS_8vo_TOMO_INTEGRAL_PEC_OFICIO_2026.docx.part01"
+     },
+     {
+      "archivo": "DPS_8vo_TOMO_INTEGRAL_PEC_OFICIO_2026.docx.part02",
+      "bytes": 2800000,
+      "sha256": "57dacf65a86200716536e3d53da26087d6e0f0cb0d7eaf9af954cb30c8694183",
+      "url": "https://raw.githubusercontent.com/FernandoAquinoBerni079/FernandoAquinoBerni079/claude/libros-5z31jx/dps_3er_ciclo/combos_2026/entrega_auditoria_faa8ef9/8vo/DPS_8vo_TOMO_INTEGRAL_PEC_OFICIO_2026.docx.part02"
+     },
+     {
+      "archivo": "DPS_8vo_TOMO_INTEGRAL_PEC_OFICIO_2026.docx.part03",
+      "bytes": 2204997,
+      "sha256": "ee4ddc241a19a2f42436e143dbe185a1f74b9a8f96b413cf344c4873af9caa02",
+      "url": "https://raw.githubusercontent.com/FernandoAquinoBerni079/FernandoAquinoBerni079/claude/libros-5z31jx/dps_3er_ciclo/combos_2026/entrega_auditoria_faa8ef9/8vo/DPS_8vo_TOMO_INTEGRAL_PEC_OFICIO_2026.docx.part03"
+     }
+    ]
+   },
+   {
+    "archivo": "DPS_8vo_TOMO_INTEGRAL_PEC_OFICIO_2026.pdf",
+    "bytes": 3191623,
+    "sha256": "414e89de67ae799846caa786c41c19182788825e3c0e7af041bc41f657ee9f2c",
+    "url_completo": "https://raw.githubusercontent.com/FernandoAquinoBerni079/FernandoAquinoBerni079/faa8ef939dbdbd62cb0d18636fc4bdd4edb849c2/dps_3er_ciclo/combos_2026/8vo/DPS_8vo_TOMO_INTEGRAL_PEC_OFICIO_2026.pdf",
+    "partes": [
+     {
+      "archivo": "DPS_8vo_TOMO_INTEGRAL_PEC_OFICIO_2026.pdf.part01",
+      "bytes": 2800000,
+      "sha256": "bc4e8ef295b01bf6f9ef9ab7f15b8b784ac743b8e30f1ad9154b65f9391b38c9",
+      "url": "https://raw.githubusercontent.com/FernandoAquinoBerni079/FernandoAquinoBerni079/claude/libros-5z31jx/dps_3er_ciclo/combos_2026/entrega_auditoria_faa8ef9/8vo/DPS_8vo_TOMO_INTEGRAL_PEC_OFICIO_2026.pdf.part01"
+     },
+     {
+      "archivo": "DPS_8vo_TOMO_INTEGRAL_PEC_OFICIO_2026.pdf.part02",
+      "bytes": 391623,
+      "sha256": "5014bd4c003e4cd308ebecd3bff93b7715f81ac07141be996faf30c1f30269a5",
+      "url": "https://raw.githubusercontent.com/FernandoAquinoBerni079/FernandoAquinoBerni079/claude/libros-5z31jx/dps_3er_ciclo/combos_2026/entrega_auditoria_faa8ef9/8vo/DPS_8vo_TOMO_INTEGRAL_PEC_OFICIO_2026.pdf.part02"
+     }
+    ]
+   },
+   {
+    "archivo": "DPS_8vo_PLAN_ANUAL_PEC_OFICIO_2026.docx",
+    "bytes": 181727,
+    "sha256": "7dc6578c6c11dde8adccae76f4ea81b2d9380e70bc49efe872360cc08c0a3633",
+    "url_completo": "https://raw.githubusercontent.com/FernandoAquinoBerni079/FernandoAquinoBerni079/faa8ef939dbdbd62cb0d18636fc4bdd4edb849c2/dps_3er_ciclo/combos_2026/8vo/DPS_8vo_PLAN_ANUAL_PEC_OFICIO_2026.docx",
+    "partes": []
+   },
+   {
+    "archivo": "DPS_8vo_PLANES_DE_CLASE_PEC_OFICIO_2026.docx",
+    "bytes": 279421,
+    "sha256": "fcba85f9019f0bf28c6340c6c64475c161b915d7ff935442b2e10b0b9adbb4e8",
+    "url_completo": "https://raw.githubusercontent.com/FernandoAquinoBerni079/FernandoAquinoBerni079/faa8ef939dbdbd62cb0d18636fc4bdd4edb849c2/dps_3er_ciclo/combos_2026/8vo/DPS_8vo_PLANES_DE_CLASE_PEC_OFICIO_2026.docx",
+    "partes": []
+   },
+   {
+    "archivo": "DPS_8vo_SOLUCIONARIO_DOCENTE_PEC_OFICIO_2026.docx",
+    "bytes": 199060,
+    "sha256": "f07aa97038efc645b878354155c5f74c01288dd50c5462765bb8e02e7170220b",
+    "url_completo": "https://raw.githubusercontent.com/FernandoAquinoBerni079/FernandoAquinoBerni079/faa8ef939dbdbd62cb0d18636fc4bdd4edb849c2/dps_3er_ciclo/combos_2026/8vo/DPS_8vo_SOLUCIONARIO_DOCENTE_PEC_OFICIO_2026.docx",
+    "partes": []
+   },
+   {
+    "archivo": "DPS_8vo_SOLUCIONARIO_DOCENTE_PEC_OFICIO_2026.pdf",
+    "bytes": 482564,
+    "sha256": "02631043280832703db914afe07f43f658de4b9c1fa79d677a41ba6c5a769a1b",
+    "url_completo": "https://raw.githubusercontent.com/FernandoAquinoBerni079/FernandoAquinoBerni079/faa8ef939dbdbd62cb0d18636fc4bdd4edb849c2/dps_3er_ciclo/combos_2026/8vo/DPS_8vo_SOLUCIONARIO_DOCENTE_PEC_OFICIO_2026.pdf",
+    "partes": []
+   }
+  ]
+ }
+}
