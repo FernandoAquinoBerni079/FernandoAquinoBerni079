@@ -162,6 +162,33 @@ def plan_anual():
                     if re.match(r'^\d\.ª ETAPA', O.texto(p).strip()):
                         pf.space_before = Pt(10)
                     k -= 1
+        # «Criterios transversales…» sigue a la última tabla sin salto fijo (si la tabla se pasa por una fila, no queda
+        # una página casi vacía); la firma queda unida a las líneas que la preceden
+        els = list(body)
+        crit = next(i for i, e in enumerate(els) if O.texto(e).strip().startswith('CRITERIOS TRANSVERSALES'))
+        pf = docx.text.paragraph.Paragraph(els[crit], d._body).paragraph_format
+        pf.page_break_before = False; pf.space_before = Pt(14); pf.keep_with_next = True
+        docx.text.paragraph.Paragraph(els[crit + 1], d._body).paragraph_format.keep_with_next = True
+        firma = next(i for i, e in enumerate(els) if 'Firma del docente' in O.texto(e))
+        for e in els[firma - 2:firma]:
+            if e.tag == qn('w:p'):
+                docx.text.paragraph.Paragraph(e, d._body).paragraph_format.keep_with_next = True
+        # cierre robusto: «Articulación curricular…», su introducción, la tabla PEC y el párrafo final forman un bloque
+        # unido que nunca se separa, sea cual sea la fuente con que cada programa sustituya a Aptos
+        els = list(body)
+        art = next(i for i, e in enumerate(els) if O.texto(e).strip().startswith('Articulación curricular y organización'))
+        pa_art = docx.text.paragraph.Paragraph(els[art], d._body).paragraph_format
+        pa_art.page_break_before = False; pa_art.space_before = Pt(14)   # sin salto fijo: el bloque unido va donde entre entero
+        for e in els[art:]:
+            if e.tag == qn('w:p'):
+                docx.text.paragraph.Paragraph(e, d._body).paragraph_format.keep_with_next = True
+            elif e.tag == qn('w:tbl'):
+                for p in e.iter(qn('w:p')):
+                    docx.text.paragraph.Paragraph(p, d._body).paragraph_format.keep_with_next = True
+            else:
+                break
+        ultimo = [e for e in els[art:] if e.tag == qn('w:p')][-1]
+        docx.text.paragraph.Paragraph(ultimo, d._body).paragraph_format.keep_with_next = False
     sin_actualizar_campos(d)
     portada_seccion(d, B + 'portadas/%s/portada_plan_anual.png' % g)
     ruta = OUT + C['nombre_pa'] + '.docx'; d.save(ruta)
@@ -222,7 +249,7 @@ def _planes(pags):
     # DPS-02: cada plan empieza en página nueva (8.º: los planes 26 y 32 quedaban partidos entre dos hojas)
     if C.get('planes_pagina_propia'):
         for el in body:
-            if es_plan(el) and O.texto(el).strip().startswith('Plan de Clase N.º ') and not O.texto(el).strip().startswith('Plan de Clase N.º 1 '):
+            if es_plan(el) and O.texto(el).strip().startswith('Plan de Clase N.º '):   # incluido el Plan 1, después del índice
                 docx.text.paragraph.Paragraph(el, d._body).paragraph_format.page_break_before = True
     # índice: el de la candidata quedó vacío (solo el pedido de actualizar con F9)
     E = []

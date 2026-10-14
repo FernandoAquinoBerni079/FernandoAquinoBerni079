@@ -87,3 +87,53 @@ El cotejo literal de las 51 capacidades contra los programas MEC 2014 sigue en 0
 > - DPS-02: Planes 26 y 32 de 8.º en hoja propia, con el índice correcto.
 > - DPS-03: «3 HC» en los 36 encuentros de los tres grados, más la nota.
 > - DPS-04: índice de 7.º sin regresiones.
+
+## 5. Segunda pasada (reauditoría del commit `6c4630c`)
+
+DPS-03 y DPS-04 quedaron conformes. Se corrigieron solo los dos puntos señalados. Cambian únicamente estos dos DOCX; los otros 16 entregables son idénticos a los de la reauditoría.
+
+| Documento | SHA-256 en `6c4630c` | SHA-256 nuevo | Bytes |
+|---|---|---|---|
+| `7mo/DPS_7mo_PLAN_ANUAL_PEC_OFICIO_2026.docx` | `d340a13a5f6913bfa3b703f43f982b62180347f12af4e92672690e682b5933ec` | `00f29ce9b03c6c8ceca8eca03237bc4ce9b1995c37ae5d14299610ea05d4725f` | 182261 |
+| `8vo/DPS_8vo_PLANES_DE_CLASE_PEC_OFICIO_2026.docx` | `730735665e37662108e6c22600e2cc97ffbfbb2bb3fc30c523a016d720df9f24` | `e52e242a47b440ac75db64f1a3441ba105aed415e3f2e1a24a4cdb0f774e2a42` | 279418 |
+
+### DPS-01 (2.ª pasada) — Plan Anual 7.º: cierre robusto
+
+**Causa.** El documento usa la fuente Aptos, que ningún entorno de renderización tiene instalada. Cada uno la sustituye por otra distinta, y por eso el auditor obtuvo 12 páginas donde aquí salían 10. Dos cosas dependían de esa sustitución:
+1. La sección «Criterios transversales» abría página con un salto fijo. Si la tabla de la Unidad 7 se pasaba por una fila, quedaba una página casi vacía.
+2. Solo el párrafo inmediatamente anterior estaba unido a la tabla PEC, así que la introducción podía quedar en una página y la tabla en otra.
+
+**Corrección:**
+- Sin saltos fijos en el cierre: «Criterios transversales» sigue a la última tabla.
+- La firma queda unida a las líneas que la preceden.
+- El bloque «Articulación curricular…» es una unidad que nunca se separa: título, tres párrafos de introducción, tabla PEC y párrafo final. Va donde entra entero: a continuación de los criterios si hay lugar, o en la página siguiente si no lo hay.
+
+**Prueba de robustez.** Se renderizó el mismo DOCX con LibreOffice cuatro veces, sustituyendo Aptos y Calibri por fuentes de distinto ancho:
+
+| Fuente de sustitución | Páginas | Bloque final (título, tabla, cierre) | Llenado de la última página | Páginas intermedias con menos del 45 % |
+|---|---|---|---|---|
+| Sustitución por defecto | 10 | Pág. 10, entero | 90 % | ninguna |
+| DejaVu Sans (la más ancha) | 11 | Pág. 11, entero | 90 % | ninguna |
+| Liberation Sans | 11 | Pág. 11, entero (pasa solo a la página siguiente) | 40 % (sección completa) | ninguna |
+| Carlito | 10 | Pág. 10, entero | 91 % | ninguna |
+
+En todos los casos ninguna fila se parte, el encabezado de columnas se repite y la tabla PEC nunca se separa de su introducción.
+
+### DPS-02 (2.ª pasada) — Planes de Clase 8.º: Plan 1
+
+- **Cambio.** Ahora también el Plan 1 lleva salto antes. El índice queda solo en la pág. 2 y el Plan 1 empieza arriba de la pág. 3.
+- **Prueba.** Se comprobó con la sustitución por defecto, DejaVu Sans y Liberation Sans. En las tres, el Plan 1 empieza en la pág. 3 y ninguno de los 36 planes empieza a mitad de página.
+- **Índice.** Sus 36 entradas coinciden con la página real de cada plan.
+
+### Evidencia de renderización
+
+Imágenes PNG en `verificacion/ronda_DPS-01-02_v2/`. Las planificaciones no se entregan en PDF.
+- `PA7_completo_<fuente>.png`: el Plan Anual 7.º completo en cada una de las cuatro renderizaciones.
+- `PL8_pags_1-4_28-29_34-35_<fuente>.png`: índice y Plan 1 (págs. 1 a 4), Plan 26 (págs. 28 y 29) y Plan 32 (págs. 34 y 35).
+
+### Controles
+
+| Grado | Controles correctos | Fallos |
+|---|---|---|
+| 7.º | 271 | 0 |
+| 8.º | 362 | 0 |
