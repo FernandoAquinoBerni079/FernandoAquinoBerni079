@@ -1,0 +1,302 @@
+{
+ "oficio_actual": {
+  "paginas": 12,
+  "ancho_pt": 612,
+  "alto_pt": 936,
+  "detalle": [
+   {
+    "pag": 1,
+    "blanco_inferior": 0.08,
+    "letra_min": 8.0,
+    "letra_mayoritaria": 8.0
+   },
+   {
+    "pag": 2,
+    "blanco_inferior": 0.78,
+    "letra_min": 8.0,
+    "letra_mayoritaria": 10.5
+   },
+   {
+    "pag": 3,
+    "blanco_inferior": 0.82,
+    "letra_min": 8.0,
+    "letra_mayoritaria": 10.5
+   },
+   {
+    "pag": 4,
+    "blanco_inferior": 0.04,
+    "letra_min": 8.0,
+    "letra_mayoritaria": 10.5
+   },
+   {
+    "pag": 5,
+    "blanco_inferior": 0.02,
+    "letra_min": 8.0,
+    "letra_mayoritaria": 9.5
+   },
+   {
+    "pag": 6,
+    "blanco_inferior": 0.45,
+    "letra_min": 8.0,
+    "letra_mayoritaria": 10.0
+   },
+   {
+    "pag": 7,
+    "blanco_inferior": 0.09,
+    "letra_min": 8.0,
+    "letra_mayoritaria": 9.5
+   },
+   {
+    "pag": 8,
+    "blanco_inferior": 0.13,
+    "letra_min": 8.0,
+    "letra_mayoritaria": 10.0
+   },
+   {
+    "pag": 9,
+    "blanco_inferior": 0.02,
+    "letra_min": 8.0,
+    "letra_mayoritaria": 10.5
+   },
+   {
+    "pag": 10,
+    "blanco_inferior": 0.07,
+    "letra_min": 8.0,
+    "letra_mayoritaria": 10.0
+   },
+   {
+    "pag": 11,
+    "blanco_inferior": 0.24,
+    "letra_min": 8.0,
+    "letra_mayoritaria": 10.5
+   },
+   {
+    "pag": 12,
+    "blanco_inferior": 0.26,
+    "letra_min": 8.0,
+    "letra_mayoritaria": 10.0
+   }
+  ],
+  "indice_estable": true,
+  "secciones": {
+   "UNIDAD 1 — Cómo mirar el tiempo y el espacio": 4,
+   "Clase 1 — La Historia y la Geografía: mirar el tiempo y el espacio": 4,
+   "Clase 14 — América en el siglo XVII: economía colonial": 7,
+   "Clase 18 — La hidrografía y la Hidrovía": 9,
+   "Continuación F — Posición, ríos e Hidrovía: beneficios e impactos": 11,
+   "EVALUACIÓN DE LA UNIDAD 5": 12
+  }
+ },
+ "oficio_mejorado": {
+  "paginas": 14,
+  "ancho_pt": 612,
+  "alto_pt": 936,
+  "detalle": [
+   {
+    "pag": 1,
+    "blanco_inferior": 0.12,
+    "letra_min": 8.0,
+    "letra_mayoritaria": 8.0
+   },
+   {
+    "pag": 2,
+    "blanco_inferior": 0.7,
+    "letra_min": 8.0,
+    "letra_mayoritaria": 11.5
+   },
+   {
+    "pag": 3,
+    "blanco_inferior": 0.78,
+    "letra_min": 8.0,
+    "letra_mayoritaria": 11.5
+   },
+   {
+    "pag": 4,
+    "blanco_inferior": 0.1,
+    "letra_min": 8.0,
+    "letra_mayoritaria": 11.5
+   },
+   {
+    "pag": 5,
+    "blanco_inferior": 0.04,
+    "letra_min": 8.0,
+    "letra_mayoritaria": 10.5
+   },
+   {
+    "pag": 6,
+    "blanco_inferior": 0.2,
+    "letra_min": 8.0,
+    "letra_mayoritaria": 11.0
+   },
+   {
+    "pag": 7,
+    "blanco_inferior": 0.08,
+    "letra_min": 8.0,
+    "letra_mayoritaria": 10.5
+   },
+   {
+    "pag": 8,
+    "blanco_inferior": 0.11,
+    "letra_min": 8.0,
+    "letra_mayoritaria": 11.0
+   },
+   {
+    "pag": 9,
+    "blanco_inferior": 0.73,
+    "letra_min": 8.0,
+    "letra_mayoritaria": 11.0
+   },
+   {
+    "pag": 10,
+    "blanco_inferior": 0.06,
+    "letra_min": 8.0,
+    "letra_mayoritaria": 11.5
+   },
+   {
+    "pag": 11,
+    "blanco_inferior": 0.06,
+    "letra_min": 8.0,
+    "letra_mayoritaria": 11.0
+   },
+   {
+    "pag": 12,
+    "blanco_inferior": 0.66,
+    "letra_min": 8.0,
+    "letra_mayoritaria": 11.0
+   },
+   {
+    "pag": 13,
+    "blanco_inferior": 0.08,
+    "letra_min": 8.0,
+    "letra_mayoritaria": 11.5
+   },
+   {
+    "pag": 14,
+    "blanco_inferior": 0.19,
+    "letra_min": 8.0,
+    "letra_mayoritaria": 11.0
+   }
+  ],
+  "indice_estable": true,
+  "secciones": {
+   "UNIDAD 1 — Cómo mirar el tiempo y el espacio": 4,
+   "Clase 1 — La Historia y la Geografía: mirar el tiempo y el espacio": 4,
+   "Clase 14 — América en el siglo XVII: economía colonial": 7,
+   "Clase 18 — La hidrografía y la Hidrovía": 10,
+   "Continuación F — Posición, ríos e Hidrovía: beneficios e impactos": 13,
+   "EVALUACIÓN DE LA UNIDAD 5": 14
+  }
+ },
+ "a4_mejorado": {
+  "paginas": 16,
+  "ancho_pt": 595,
+  "alto_pt": 842,
+  "detalle": [
+   {
+    "pag": 1,
+    "blanco_inferior": 0.03,
+    "letra_min": 8.0,
+    "letra_mayoritaria": 8.0
+   },
+   {
+    "pag": 2,
+    "blanco_inferior": 0.67,
+    "letra_min": 8.0,
+    "letra_mayoritaria": 11.5
+   },
+   {
+    "pag": 3,
+    "blanco_inferior": 0.76,
+    "letra_min": 8.0,
+    "letra_mayoritaria": 11.5
+   },
+   {
+    "pag": 4,
+    "blanco_inferior": 0.08,
+    "letra_min": 8.0,
+    "letra_mayoritaria": 11.5
+   },
+   {
+    "pag": 5,
+    "blanco_inferior": 0.05,
+    "letra_min": 8.0,
+    "letra_mayoritaria": 11.5
+   },
+   {
+    "pag": 6,
+    "blanco_inferior": 0.05,
+    "letra_min": 8.0,
+    "letra_mayoritaria": 11.0
+   },
+   {
+    "pag": 7,
+    "blanco_inferior": 0.8,
+    "letra_min": 8.0,
+    "letra_mayoritaria": 11.0
+   },
+   {
+    "pag": 8,
+    "blanco_inferior": 0.06,
+    "letra_min": 8.0,
+    "letra_mayoritaria": 11.5
+   },
+   {
+    "pag": 9,
+    "blanco_inferior": 0.05,
+    "letra_min": 8.0,
+    "letra_mayoritaria": 11.0
+   },
+   {
+    "pag": 10,
+    "blanco_inferior": 0.58,
+    "letra_min": 8.0,
+    "letra_mayoritaria": 11.0
+   },
+   {
+    "pag": 11,
+    "blanco_inferior": 0.03,
+    "letra_min": 8.0,
+    "letra_mayoritaria": 11.5
+   },
+   {
+    "pag": 12,
+    "blanco_inferior": 0.02,
+    "letra_min": 8.0,
+    "letra_mayoritaria": 10.5
+   },
+   {
+    "pag": 13,
+    "blanco_inferior": 0.48,
+    "letra_min": 8.0,
+    "letra_mayoritaria": 11.0
+   },
+   {
+    "pag": 14,
+    "blanco_inferior": 0.07,
+    "letra_min": 8.0,
+    "letra_mayoritaria": 11.5
+   },
+   {
+    "pag": 15,
+    "blanco_inferior": 0.87,
+    "letra_min": 8.0,
+    "letra_mayoritaria": 11.5
+   },
+   {
+    "pag": 16,
+    "blanco_inferior": 0.1,
+    "letra_min": 8.0,
+    "letra_mayoritaria": 11.0
+   }
+  ],
+  "indice_estable": true,
+  "secciones": {
+   "UNIDAD 1 — Cómo mirar el tiempo y el espacio": 4,
+   "Clase 1 — La Historia y la Geografía: mirar el tiempo y el espacio": 4,
+   "Clase 14 — América en el siglo XVII: economía colonial": 8,
+   "Clase 18 — La hidrografía y la Hidrovía": 11,
+   "Continuación F — Posición, ríos e Hidrovía: beneficios e impactos": 14,
+   "EVALUACIÓN DE LA UNIDAD 5": 16
+  }
+ }
+}
