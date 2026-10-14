@@ -1,0 +1,61 @@
+{
+ "carpeta": "historia_geografia_7/05_produccion_anual",
+ "modelo": "841f5bc9e4a4fec11af63cc821fc3062a6587de8",
+ "archivos": [
+  {
+   "archivo": "CONDICIONES_PRODUCCION.md",
+   "bytes": 6114,
+   "sha256": "b72899f49c080f796604a0f43e40ddc75ff34e9bda13e9e7d5673ecd27164190"
+  },
+  {
+   "archivo": "ESTADO_36_ENCUENTROS.md",
+   "bytes": 3042,
+   "sha256": "c8783d43b44f8de2e654a720e4833b5288da906d0680ff1d86695a4da889282f"
+  },
+  {
+   "archivo": "README.md",
+   "bytes": 2292,
+   "sha256": "e8a765b850edeba8d9d2b7ccf25d151467dd6e594e4538358fb8dc6cb4ee566f"
+  },
+  {
+   "archivo": "datos/programa_MEC_2014_HyG7_texto_extraido.txt",
+   "bytes": 173507,
+   "sha256": "8802436548dbbb1c3b01daf7c94d5a2872a184565a5fde373dbb66d25d4c5961"
+  },
+  {
+   "archivo": "scripts/curriculo.py",
+   "bytes": 10042,
+   "sha256": "6a636ac78c55c644bc2fcbbcf375f7eb5031ea087e881ba6c2d1e5ba69a7abe1"
+  },
+  {
+   "archivo": "scripts/estado.py",
+   "bytes": 3537,
+   "sha256": "16def56ece55c36c4aebe9dc3770bc79b6ff5f62c3f8ff8e2b0a630a37d852bc"
+  },
+  {
+   "archivo": "scripts/figuras/comun.py",
+   "bytes": 7812,
+   "sha256": "92d787e87ed9db90768804303cb2eeaedcd17f43c693dab13648ad39425090f1"
+  },
+  {
+   "archivo": "scripts/motor/pdf.py",
+   "bytes": 2651,
+   "sha256": "45ada5b11c819d76def3b5f31f4c491b67bc2a9ae4e52178894dfa16099f5c39"
+  },
+  {
+   "archivo": "scripts/motor/planes.py",
+   "bytes": 6818,
+   "sha256": "896fbcfa2b5105356b5974e91afefafcb7c421986ccc87158094a7b8a226eee9"
+  },
+  {
+   "archivo": "scripts/motor/solucionario.py",
+   "bytes": 5193,
+   "sha256": "2138e32494fb5db7703381b4e35eafea1b27006e769c8acffb3861dde01765f8"
+  },
+  {
+   "archivo": "scripts/motor/tomo.py",
+   "bytes": 13723,
+   "sha256": "a52ccdbb81ebe58962aca519b7cf69dc695177b72c519baeddd1f6b8945edaae"
+  }
+ ]
+}
