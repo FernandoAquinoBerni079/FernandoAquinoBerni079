@@ -1,0 +1,194 @@
+[
+  {
+    "archivo": "historia_geografia_7/03_muestra2/INFORME_MUESTRA2.md",
+    "git_blob_sha1": "0a86091532c3a2c439ab9c0d888820ea58d9ecc4",
+    "sha256": "c129d88540c0a0abe0222dccf0d714407430f8c5cc89f6cf0b58e22ffd698622",
+    "bytes": 12458
+  },
+  {
+    "archivo": "historia_geografia_7/03_muestra2/datos/MEC_2014_Programa_Historia_y_Geografia_7mo_reproduccion.pdf",
+    "git_blob_sha1": "ece5d5cce9b5780e418ca5ead0c90126a2625528",
+    "sha256": "389190d302b668f62bf1bd05ac4ca01a78cfba83953cd18cd8ce282aefc8d27e",
+    "bytes": 1499617
+  },
+  {
+    "archivo": "historia_geografia_7/03_muestra2/datos/cotejo_capacidades.json",
+    "git_blob_sha1": "7fd54a6b12ab9863430dbc3e550bcd4fc5f987bc",
+    "sha256": "6ef33a05211d3ea5fac12667075ad11147f3afe22aed256416bf447205d6f2f8",
+    "bytes": 11929
+  },
+  {
+    "archivo": "historia_geografia_7/03_muestra2/datos/estructura_maestro.json",
+    "git_blob_sha1": "fdea639f851c377ef50c92e28e72a84caba6f1dc",
+    "sha256": "640443add5d28f82aa1bf246b5bda33b8018c560f05aa99edcaa88133ae3981a",
+    "bytes": 13113
+  },
+  {
+    "archivo": "historia_geografia_7/03_muestra2/datos/paginas_tomo.json",
+    "git_blob_sha1": "4943249cd8ffd6d63007e6e2a9d211e93ba4d340",
+    "sha256": "56c28b1b0ff8319efc5971ec2e15857edd061b770e28bfdfcae884ca9709dc95",
+    "bytes": 577
+  },
+  {
+    "archivo": "historia_geografia_7/03_muestra2/datos/programa_MEC_2014_HyG7_texto_extraido.txt",
+    "git_blob_sha1": "ce2ac85454b88d775774f9a1a0679f9a3f35cca3",
+    "sha256": "8802436548dbbb1c3b01daf7c94d5a2872a184565a5fde373dbb66d25d4c5961",
+    "bytes": 173507
+  },
+  {
+    "archivo": "historia_geografia_7/03_muestra2/figuras/eval_u5_rios_numerados.png",
+    "git_blob_sha1": "d7cb911bd98b3fe4ac4d0619656d2e0f54e51160",
+    "sha256": "4ed59164e8bd8e2e13d390ca3ddcea66ba0db49e54ac1d465d54566a4120ec1d",
+    "bytes": 364414
+  },
+  {
+    "archivo": "historia_geografia_7/03_muestra2/figuras/ficha_18A_mapa_mudo.png",
+    "git_blob_sha1": "215b3ef2161b255252c4c303a0829d4fd8bbae5a",
+    "sha256": "34864785495af3fe0fed1c7fc6b27d413fb878567b72e32b40c6c1732b079ada",
+    "bytes": 182631
+  },
+  {
+    "archivo": "historia_geografia_7/03_muestra2/figuras/fig_10_2_autoridades.png",
+    "git_blob_sha1": "eb0e0fa5ae54ba660d0aef4ad8e735cb9d7cb58b",
+    "sha256": "a5884ac1f7c63f2f5e2b49c9ca1eda580a94160d3cfb25950dc459ffe034a96f",
+    "bytes": 128219
+  },
+  {
+    "archivo": "historia_geografia_7/03_muestra2/figuras/fig_10_3_linea_tiempo.png",
+    "git_blob_sha1": "a3ff2aff5058d79592927050a6db48e0db625ec2",
+    "sha256": "e5a872f33bf0397ddc4a4b1bd34efe41be27e2cf765da3b4183284278bda85ac",
+    "bytes": 98664
+  },
+  {
+    "archivo": "historia_geografia_7/03_muestra2/figuras/fig_18_2_rios_paraguay.png",
+    "git_blob_sha1": "9c7d5afcc3e3c29ea38685341b0c4698c7ec9ec4",
+    "sha256": "9063d56caae4b94169a9ffdbe881c074071829fdfb59d34e766f8d20e9dee41f",
+    "bytes": 251127
+  },
+  {
+    "archivo": "historia_geografia_7/03_muestra2/figuras/fig_18_3_rios_america.png",
+    "git_blob_sha1": "f2fce8961d4abddefbdf421c3581273fcde4702a",
+    "sha256": "ae3eb55855a156b3b0fd999013a4a44a6be5366cb04405712a5c6a699dfda661",
+    "bytes": 398890
+  },
+  {
+    "archivo": "historia_geografia_7/03_muestra2/figuras/fig_F1_hidrovia.png",
+    "git_blob_sha1": "e95159ed1e5fe64ce00b1ffb2b9caaf845483838",
+    "sha256": "bc1c9a76ee6a239a0338fc0754c32ddde449532ab82c30a810de44d24b6fbba9",
+    "bytes": 325709
+  },
+  {
+    "archivo": "historia_geografia_7/03_muestra2/matriz/MATRIZ_CURRICULAR_36_ENCUENTROS.pdf",
+    "git_blob_sha1": "059b026324c83a87b1cd86fbe3d12bce3a2923e1",
+    "sha256": "c5d18ef57976b0f56b47fc1e06488253a2e9c90853fe5881b146d1aca5d4a99e",
+    "bytes": 168072
+  },
+  {
+    "archivo": "historia_geografia_7/03_muestra2/plan_anual/PLAN_ANUAL_OFICIO_v2.pdf",
+    "git_blob_sha1": "dcfa69e89eee6c4ffe8bda23035994bfddcf193b",
+    "sha256": "759499d0c8934409eb8ab6ad5125b4a60d757e2ae95090aa27b506776f4f5d2a",
+    "bytes": 172284
+  },
+  {
+    "archivo": "historia_geografia_7/03_muestra2/planes/PLANES_MUESTRA2_A4.pdf",
+    "git_blob_sha1": "3991e8be1af1f07a4510edf9b719ca2e3e320538",
+    "sha256": "bc6cd95bf1a189d272fc1389e0e4e3fc9424aff59e7d9d8ea43c9f827cf3d37c",
+    "bytes": 190065
+  },
+  {
+    "archivo": "historia_geografia_7/03_muestra2/revision_liviana/MATRIZ_CURRICULAR_36_ENCUENTROS_REVISION.pdf",
+    "git_blob_sha1": "e217206e9e9416660f11444f71861bb69438f65a",
+    "sha256": "19786d185acc2bd39fdaf9225664aee80c4866b5b5253c1228ded606246fee90",
+    "bytes": 159654
+  },
+  {
+    "archivo": "historia_geografia_7/03_muestra2/revision_liviana/PLANES_MUESTRA2_A4_REVISION.pdf",
+    "git_blob_sha1": "f16f26f03e855927669cae074af3a6a3601a8052",
+    "sha256": "2508a64601d2a66f54e7d0bbc2081d356edad36eeb8ee703cec37dde7c2bc89e",
+    "bytes": 179582
+  },
+  {
+    "archivo": "historia_geografia_7/03_muestra2/revision_liviana/PLAN_ANUAL_OFICIO_v2_REVISION.pdf",
+    "git_blob_sha1": "3ef450bb1b5fff8999d6d78bd6c8748bd60cd85b",
+    "sha256": "0636c0b5fad7283e9f3cf1346f2e5090afe31d40cb454e9c8f5b4d1c945150e4",
+    "bytes": 165155
+  },
+  {
+    "archivo": "historia_geografia_7/03_muestra2/revision_liviana/SOLUCIONARIO_MUESTRA2_A4_REVISION.pdf",
+    "git_blob_sha1": "e951e83b1a7dc2f9f14239cbeda3febb1e84d037",
+    "sha256": "8e65652aeb8c32b326241e55a0021bff8a5f5e17143f09d4d779a27f4ec471c2",
+    "bytes": 120183
+  },
+  {
+    "archivo": "historia_geografia_7/03_muestra2/revision_liviana/TOMO_MUESTRA2_oficio_REVISION.pdf",
+    "git_blob_sha1": "dcede41a9ed9c2d89c8bcfe2682408684d26010d",
+    "sha256": "7bf55655e804af41abbc704d466af55edca30f2e8529c62227a6091ca7e769bb",
+    "bytes": 955974
+  },
+  {
+    "archivo": "historia_geografia_7/03_muestra2/scripts/construir_muestra2.py",
+    "git_blob_sha1": "1edbdb8891915e2e6628d9f39a0e92d3ee75a08b",
+    "sha256": "0b535235fd1f9b81f797288e77a0b33f3cc326e061943ed8e15c969c20dac1e9",
+    "bytes": 15788
+  },
+  {
+    "archivo": "historia_geografia_7/03_muestra2/scripts/construir_tomo_m2.py",
+    "git_blob_sha1": "01bf21fdaea71fee2ed683d6460f481a20d7607b",
+    "sha256": "d5abddc12dca7d56dc580a52e7de53567323d7a5230b05188e0637e46a7989e6",
+    "bytes": 14777
+  },
+  {
+    "archivo": "historia_geografia_7/03_muestra2/scripts/contenido_matriz.py",
+    "git_blob_sha1": "df0da85dde6e3d770d1e8db3572224b86c9b0401",
+    "sha256": "e9f984a1723b9e2111d738b9730862d393b409d76ede63608a2ee88adb08f055",
+    "bytes": 10169
+  },
+  {
+    "archivo": "historia_geografia_7/03_muestra2/scripts/contenido_planes.py",
+    "git_blob_sha1": "71f04fa3a1656f3ceedab756b9817a741c33e032",
+    "sha256": "198fabd9da57a0cb57ca4a69873401b5e616cab7f6b31ca9c5b13bc77f0e1a1a",
+    "bytes": 18500
+  },
+  {
+    "archivo": "historia_geografia_7/03_muestra2/scripts/contenido_solucionario.py",
+    "git_blob_sha1": "6cb86897ca8ab898ca98fe74e1b97d6c9f1add5d",
+    "sha256": "3a36c15679ed43de95c73081bca6a4ec48ad7bb6850a808fb1d984475bc6e153",
+    "bytes": 11186
+  },
+  {
+    "archivo": "historia_geografia_7/03_muestra2/scripts/contenido_tomo.py",
+    "git_blob_sha1": "2a7d11e9dc6ded0ca4be98aa9cf7e14a9b6419e3",
+    "sha256": "b9c82677138e385a65f5e0bc57b4bce7bdea37f4058c546a845c92f15b8e68d5",
+    "bytes": 36014
+  },
+  {
+    "archivo": "historia_geografia_7/03_muestra2/scripts/figuras.py",
+    "git_blob_sha1": "05eec7bbc3384e914a8ee5a67552c0cdfb3405c4",
+    "sha256": "b67225d0b08737d513b5a3baf414117bf9838f1d0faace1a9c720c8e396fb74f",
+    "bytes": 16581
+  },
+  {
+    "archivo": "historia_geografia_7/03_muestra2/scripts/plan_anual_oficio_v2.py",
+    "git_blob_sha1": "862afafebd4eb4b4d6afa9790ea7944d0204e72e",
+    "sha256": "f5df7f92f816c94a67cbee3c6291d7d1bde3e5babec307fab28c3661dcce5561",
+    "bytes": 2071
+  },
+  {
+    "archivo": "historia_geografia_7/03_muestra2/scripts/verificar_muestra2.py",
+    "git_blob_sha1": "a00bfae758b174d56eaef7b35552eaa994bd5b61",
+    "sha256": "5f1faad5f7a6c8433d87199e3972b85e00422ea86c6038da089a9c085584d48c",
+    "bytes": 5749
+  },
+  {
+    "archivo": "historia_geografia_7/03_muestra2/solucionario/SOLUCIONARIO_MUESTRA2_A4.pdf",
+    "git_blob_sha1": "8e2ef66ed0e1aa5511da36ce4a5a9cae319ce617",
+    "sha256": "f6cde909aba9d7e4e23785311faa1da7929ca2b240146184e8cf86126746e9b0",
+    "bytes": 126387
+  },
+  {
+    "archivo": "historia_geografia_7/03_muestra2/tomo/TOMO_MUESTRA2_oficio.pdf",
+    "git_blob_sha1": "9e1c5822fce98155f9d6d26e1fa9018861c93838",
+    "sha256": "6b5b4ac335d071138e9402f17c73967a3299ea23e2eb340eb537ef45e75d9dc4",
+    "bytes": 2410836
+  }
+]

@@ -1,0 +1,322 @@
+[
+  {
+    "original": "MATRIZ_CURRICULAR_36_ENCUENTROS",
+    "liviano": "MATRIZ_CURRICULAR_36_ENCUENTROS_REVISION",
+    "paginas_original": 7,
+    "paginas_liviano": 7,
+    "resultados": [
+      {
+        "pagina": 1,
+        "texto_igual": true,
+        "geometria_equivalente": true
+      },
+      {
+        "pagina": 2,
+        "texto_igual": true,
+        "geometria_equivalente": true
+      },
+      {
+        "pagina": 3,
+        "texto_igual": true,
+        "geometria_equivalente": true
+      },
+      {
+        "pagina": 4,
+        "texto_igual": true,
+        "geometria_equivalente": true
+      },
+      {
+        "pagina": 5,
+        "texto_igual": true,
+        "geometria_equivalente": true
+      },
+      {
+        "pagina": 6,
+        "texto_igual": true,
+        "geometria_equivalente": true
+      },
+      {
+        "pagina": 7,
+        "texto_igual": true,
+        "geometria_equivalente": true
+      }
+    ]
+  },
+  {
+    "original": "PLANES_MUESTRA2_A4",
+    "liviano": "PLANES_MUESTRA2_A4_REVISION",
+    "paginas_original": 10,
+    "paginas_liviano": 10,
+    "resultados": [
+      {
+        "pagina": 1,
+        "texto_igual": true,
+        "geometria_equivalente": true
+      },
+      {
+        "pagina": 2,
+        "texto_igual": true,
+        "geometria_equivalente": true
+      },
+      {
+        "pagina": 3,
+        "texto_igual": true,
+        "geometria_equivalente": true
+      },
+      {
+        "pagina": 4,
+        "texto_igual": true,
+        "geometria_equivalente": true
+      },
+      {
+        "pagina": 5,
+        "texto_igual": true,
+        "geometria_equivalente": true
+      },
+      {
+        "pagina": 6,
+        "texto_igual": true,
+        "geometria_equivalente": true
+      },
+      {
+        "pagina": 7,
+        "texto_igual": true,
+        "geometria_equivalente": true
+      },
+      {
+        "pagina": 8,
+        "texto_igual": true,
+        "geometria_equivalente": true
+      },
+      {
+        "pagina": 9,
+        "texto_igual": true,
+        "geometria_equivalente": true
+      },
+      {
+        "pagina": 10,
+        "texto_igual": true,
+        "geometria_equivalente": true
+      }
+    ]
+  },
+  {
+    "original": "PLAN_ANUAL_OFICIO_v2",
+    "liviano": "PLAN_ANUAL_OFICIO_v2_REVISION",
+    "paginas_original": 8,
+    "paginas_liviano": 8,
+    "resultados": [
+      {
+        "pagina": 1,
+        "texto_igual": true,
+        "geometria_equivalente": true
+      },
+      {
+        "pagina": 2,
+        "texto_igual": true,
+        "geometria_equivalente": true
+      },
+      {
+        "pagina": 3,
+        "texto_igual": true,
+        "geometria_equivalente": true
+      },
+      {
+        "pagina": 4,
+        "texto_igual": true,
+        "geometria_equivalente": true
+      },
+      {
+        "pagina": 5,
+        "texto_igual": true,
+        "geometria_equivalente": true
+      },
+      {
+        "pagina": 6,
+        "texto_igual": true,
+        "geometria_equivalente": true
+      },
+      {
+        "pagina": 7,
+        "texto_igual": true,
+        "geometria_equivalente": true
+      },
+      {
+        "pagina": 8,
+        "texto_igual": true,
+        "geometria_equivalente": true
+      }
+    ]
+  },
+  {
+    "original": "SOLUCIONARIO_MUESTRA2_A4",
+    "liviano": "SOLUCIONARIO_MUESTRA2_A4_REVISION",
+    "paginas_original": 5,
+    "paginas_liviano": 5,
+    "resultados": [
+      {
+        "pagina": 1,
+        "texto_igual": true,
+        "geometria_equivalente": true
+      },
+      {
+        "pagina": 2,
+        "texto_igual": true,
+        "geometria_equivalente": true
+      },
+      {
+        "pagina": 3,
+        "texto_igual": true,
+        "geometria_equivalente": true
+      },
+      {
+        "pagina": 4,
+        "texto_igual": true,
+        "geometria_equivalente": true
+      },
+      {
+        "pagina": 5,
+        "texto_igual": true,
+        "geometria_equivalente": true
+      }
+    ]
+  },
+  {
+    "original": "TOMO_MUESTRA2_oficio",
+    "liviano": "TOMO_MUESTRA2_oficio_REVISION",
+    "paginas_original": 26,
+    "paginas_liviano": 26,
+    "resultados": [
+      {
+        "pagina": 1,
+        "texto_igual": true,
+        "geometria_equivalente": true
+      },
+      {
+        "pagina": 2,
+        "texto_igual": true,
+        "geometria_equivalente": true
+      },
+      {
+        "pagina": 3,
+        "texto_igual": true,
+        "geometria_equivalente": true
+      },
+      {
+        "pagina": 4,
+        "texto_igual": true,
+        "geometria_equivalente": true
+      },
+      {
+        "pagina": 5,
+        "texto_igual": true,
+        "geometria_equivalente": true
+      },
+      {
+        "pagina": 6,
+        "texto_igual": true,
+        "geometria_equivalente": true
+      },
+      {
+        "pagina": 7,
+        "texto_igual": true,
+        "geometria_equivalente": true
+      },
+      {
+        "pagina": 8,
+        "texto_igual": true,
+        "geometria_equivalente": true
+      },
+      {
+        "pagina": 9,
+        "texto_igual": true,
+        "geometria_equivalente": true
+      },
+      {
+        "pagina": 10,
+        "texto_igual": true,
+        "geometria_equivalente": true
+      },
+      {
+        "pagina": 11,
+        "texto_igual": true,
+        "geometria_equivalente": true
+      },
+      {
+        "pagina": 12,
+        "texto_igual": true,
+        "geometria_equivalente": true
+      },
+      {
+        "pagina": 13,
+        "texto_igual": true,
+        "geometria_equivalente": true
+      },
+      {
+        "pagina": 14,
+        "texto_igual": true,
+        "geometria_equivalente": true
+      },
+      {
+        "pagina": 15,
+        "texto_igual": true,
+        "geometria_equivalente": true
+      },
+      {
+        "pagina": 16,
+        "texto_igual": true,
+        "geometria_equivalente": true
+      },
+      {
+        "pagina": 17,
+        "texto_igual": true,
+        "geometria_equivalente": true
+      },
+      {
+        "pagina": 18,
+        "texto_igual": true,
+        "geometria_equivalente": true
+      },
+      {
+        "pagina": 19,
+        "texto_igual": true,
+        "geometria_equivalente": true
+      },
+      {
+        "pagina": 20,
+        "texto_igual": true,
+        "geometria_equivalente": true
+      },
+      {
+        "pagina": 21,
+        "texto_igual": true,
+        "geometria_equivalente": true
+      },
+      {
+        "pagina": 22,
+        "texto_igual": true,
+        "geometria_equivalente": true
+      },
+      {
+        "pagina": 23,
+        "texto_igual": true,
+        "geometria_equivalente": true
+      },
+      {
+        "pagina": 24,
+        "texto_igual": true,
+        "geometria_equivalente": true
+      },
+      {
+        "pagina": 25,
+        "texto_igual": true,
+        "geometria_equivalente": true
+      },
+      {
+        "pagina": 26,
+        "texto_igual": true,
+        "geometria_equivalente": true
+      }
+    ]
+  }
+]
