@@ -1,0 +1,619 @@
+{
+ "programa": "MEC (2014), Programa de Estudio: Historia y Geografía, 7.º grado, EEB, reproducción en PDF (SHA-256 389190d302b668f62bf1bd05ac4ca01a78cfba83953cd18cd8ce282aefc8d27e), págs. 55 a 57",
+ "tipos_de_vinculo": [
+  "Capacidad literal MEC",
+  "Asociación curricular",
+  "Formulación editorial",
+  "Ampliación editorial"
+ ],
+ "conteo_fichas_maestro": {
+  "editorial": 5,
+  "literal": 16,
+  "sin_ficha": 8,
+  "variante": 1,
+  "truncada": 5,
+  "abreviada": 1
+ },
+ "capacidades": {
+  "H1": "Reconoce los procesos fundamentales que configuran la prehistoria paraguaya.",
+  "H2": "Interpreta las características destacadas de la prehistoria americana.",
+  "H3": "Investiga los principales acontecimientos que caracterizan la realidad paraguaya del siglo XVI.",
+  "H4": "Identifica los hechos relevantes del siglo XVI que incidieron en las transformaciones del contexto americano.",
+  "H5": "Analiza los rasgos relevantes que influyeron en la realidad paraguaya del siglo XVII.",
+  "H6": "Describe los rasgos históricos distintivos de la realidad americana del siglo XVII.",
+  "G1": "Analiza la posición geográfica de Paraguay y América y sus incidencias en las actividades humanas.",
+  "G2": "Relaciona las características de las unidades orohidrográficas de Paraguay y América.",
+  "G3": "Identifica las características climáticas de Paraguay y América y su influencia en las actividades humanas.",
+  "G4": "Describe las características de las regiones naturales de Paraguay y América."
+ },
+ "encuentros": [
+  {
+   "encuentro": 1,
+   "seccion": "Clase 1",
+   "tipo_vinculo": "Formulación editorial",
+   "capacidades_mec": [],
+   "temas_mec": [],
+   "ficha_maestro_estado": "editorial",
+   "ficha_maestro_texto": "Reconoce el objeto de estudio de la Historia y la Geografía y el uso de fuentes.",
+   "en_muestra3": false,
+   "observacion": "Clase introductoria editorial (no hay capacidad del MEC para ella). Corregir la regla del siglo (años terminados en 00); citar la obra de Villoro."
+  },
+  {
+   "encuentro": 2,
+   "seccion": "Clase 2",
+   "tipo_vinculo": "Capacidad literal MEC",
+   "capacidades_mec": [
+    "H1"
+   ],
+   "temas_mec": [
+    "H1a",
+    "H1b"
+   ],
+   "ficha_maestro_estado": "literal",
+   "ficha_maestro_texto": "Reconoce los procesos fundamentales que configuran la prehistoria paraguaya.",
+   "en_muestra3": false,
+   "observacion": "Fuente arqueológica real (con autor); organización de los primeros pobladores del Chaco y de la Región Oriental; corregir el tuteo de la actividad 12."
+  },
+  {
+   "encuentro": 3,
+   "seccion": "Clase 3",
+   "tipo_vinculo": "Capacidad literal MEC",
+   "capacidades_mec": [
+    "H1"
+   ],
+   "temas_mec": [
+    "H1c"
+   ],
+   "ficha_maestro_estado": "literal",
+   "ficha_maestro_texto": "Reconoce los procesos fundamentales que configuran la prehistoria paraguaya.",
+   "en_muestra3": false,
+   "observacion": "Fuente con cronista identificado; papel de niños y mujeres; importancia de la lengua guaraní; antropofagia ritual tratada con contexto."
+  },
+  {
+   "encuentro": 4,
+   "seccion": "Continuación A",
+   "tipo_vinculo": "Capacidad literal MEC",
+   "capacidades_mec": [
+    "H1"
+   ],
+   "temas_mec": [
+    "H1c"
+   ],
+   "ficha_maestro_estado": "editorial",
+   "ficha_maestro_texto": "Reconoce los procesos fundamentales que configuran la prehistoria paraguaya e investiga características culturales de los guaraníes.",
+   "en_muestra3": false,
+   "observacion": "Usar la capacidad literal; incluir las fuentes del taller (hoy solo se describen)."
+  },
+  {
+   "encuentro": 5,
+   "seccion": "Evaluación de la Unidad 1",
+   "tipo_vinculo": "Asociación curricular",
+   "capacidades_mec": [
+    "H1"
+   ],
+   "temas_mec": [
+    "H1a",
+    "H1b",
+    "H1c"
+   ],
+   "ficha_maestro_estado": "sin_ficha",
+   "ficha_maestro_texto": "",
+   "en_muestra3": false,
+   "observacion": "Ampliar a 60-70 min con ítems de fuente, mapa y desarrollo; claves balanceadas; ficha de evaluación."
+  },
+  {
+   "encuentro": 6,
+   "seccion": "Clase 4",
+   "tipo_vinculo": "Capacidad literal MEC",
+   "capacidades_mec": [
+    "H2"
+   ],
+   "temas_mec": [
+    "H2a"
+   ],
+   "ficha_maestro_estado": "literal",
+   "ficha_maestro_texto": "Interpreta las características destacadas de la prehistoria americana.",
+   "en_muestra3": false,
+   "observacion": "Fechas y sitios con fuente (Monte Verde); fuente científica identificada."
+  },
+  {
+   "encuentro": 7,
+   "seccion": "Clase 5",
+   "tipo_vinculo": "Capacidad literal MEC",
+   "capacidades_mec": [
+    "H2"
+   ],
+   "temas_mec": [
+    "H2b"
+   ],
+   "ficha_maestro_estado": "literal",
+   "ficha_maestro_texto": "Interpreta las características destacadas de la prehistoria americana.",
+   "en_muestra3": false,
+   "observacion": "Corregir las chinampas (no flotaban); fechas de mayas, mexicas e incas; mapa de territorios con datos reales; crónica identificada."
+  },
+  {
+   "encuentro": 8,
+   "seccion": "Continuación B",
+   "tipo_vinculo": "Capacidad literal MEC",
+   "capacidades_mec": [
+    "H2"
+   ],
+   "temas_mec": [
+    "H2a",
+    "H2b"
+   ],
+   "ficha_maestro_estado": "literal",
+   "ficha_maestro_texto": "Interpreta las características destacadas de la prehistoria americana.",
+   "en_muestra3": false,
+   "observacion": "Agregar la tabla de fechas para la línea de tiempo comparativa; mapa base reproducible."
+  },
+  {
+   "encuentro": 9,
+   "seccion": "Evaluación de la Unidad 2",
+   "tipo_vinculo": "Asociación curricular",
+   "capacidades_mec": [
+    "H2"
+   ],
+   "temas_mec": [
+    "H2a",
+    "H2b"
+   ],
+   "ficha_maestro_estado": "sin_ficha",
+   "ficha_maestro_texto": "",
+   "en_muestra3": false,
+   "observacion": "Corregir la clave de las chinampas; ampliar y balancear claves."
+  },
+  {
+   "encuentro": 10,
+   "seccion": "Clase 6",
+   "tipo_vinculo": "Capacidad literal MEC",
+   "capacidades_mec": [
+    "H4"
+   ],
+   "temas_mec": [
+    "H4a",
+    "H4b"
+   ],
+   "ficha_maestro_estado": "literal",
+   "ficha_maestro_texto": "Identifica los hechos relevantes del siglo XVI que incidieron en las transformaciones del contexto americano.",
+   "en_muestra3": false,
+   "observacion": "Reemplazar el «diario de un navegante» inventado por un fragmento del Diario de Colón con referencia; mentalidad del conquistador."
+  },
+  {
+   "encuentro": 11,
+   "seccion": "Clase 7",
+   "tipo_vinculo": "Capacidad literal MEC",
+   "capacidades_mec": [
+    "H4"
+   ],
+   "temas_mec": [
+    "H4c",
+    "H4d"
+   ],
+   "ficha_maestro_estado": "literal",
+   "ficha_maestro_texto": "Identifica los hechos relevantes del siglo XVI que incidieron en las transformaciones del contexto americano.",
+   "en_muestra3": false,
+   "observacion": "Corregir la opción múltiple con dos respuestas; absolutismo sin contradicciones; Virreinato del Perú (1542) con fecha."
+  },
+  {
+   "encuentro": 12,
+   "seccion": "Clase 8",
+   "tipo_vinculo": "Capacidad literal MEC",
+   "capacidades_mec": [
+    "H3"
+   ],
+   "temas_mec": [
+    "H3a",
+    "H3b"
+   ],
+   "ficha_maestro_estado": "literal",
+   "ficha_maestro_texto": "Investiga los principales acontecimientos que caracterizan la realidad paraguaya del siglo XVI.",
+   "en_muestra3": false,
+   "observacion": "Pedro de Mendoza, Ayolas e Irala explicados; despoblamiento de Buenos Aires (1541); Cabildo de 1541."
+  },
+  {
+   "encuentro": 13,
+   "seccion": "Continuación C",
+   "tipo_vinculo": "Capacidad literal MEC",
+   "capacidades_mec": [
+    "H3"
+   ],
+   "temas_mec": [
+    "H3a",
+    "H3b"
+   ],
+   "ficha_maestro_estado": "literal",
+   "ficha_maestro_texto": "Investiga los principales acontecimientos que caracterizan la realidad paraguaya del siglo XVI.",
+   "en_muestra3": false,
+   "observacion": "Explicar quiénes fueron Solís, García y Gaboto; mapa reproducible de rutas."
+  },
+  {
+   "encuentro": 14,
+   "seccion": "Clase 9",
+   "tipo_vinculo": "Capacidad literal MEC",
+   "capacidades_mec": [
+    "H3"
+   ],
+   "temas_mec": [
+    "H3c"
+   ],
+   "ficha_maestro_estado": "literal",
+   "ficha_maestro_texto": "Investiga los principales acontecimientos que caracterizan la realidad paraguaya del siglo XVI.",
+   "en_muestra3": false,
+   "observacion": "Fuente identificada; verificar la guarania y la UNESCO; resistencia indígena con casos."
+  },
+  {
+   "encuentro": 15,
+   "seccion": "Clase 10",
+   "tipo_vinculo": "Capacidad literal MEC",
+   "capacidades_mec": [
+    "H3"
+   ],
+   "temas_mec": [
+    "H3d",
+    "H3e"
+   ],
+   "ficha_maestro_estado": "literal",
+   "ficha_maestro_texto": "Investiga los principales acontecimientos que caracterizan la realidad paraguaya del siglo XVI.",
+   "en_muestra3": true,
+   "observacion": "MUESTRA 3: contexto de 1534-1556; dos fragmentos con su referencia; Irala hacia 1539 como debate historiográfico; tipos de cabildo y de encomienda; Obispado; Figura 10.1 (línea de tiempo nueva) y 10.2 (esquema); 16 actividades con criterios anunciados."
+  },
+  {
+   "encuentro": 16,
+   "seccion": "Continuación D",
+   "tipo_vinculo": "Capacidad literal MEC",
+   "capacidades_mec": [
+    "H3"
+   ],
+   "temas_mec": [
+    "H3d",
+    "H3e"
+   ],
+   "ficha_maestro_estado": "variante",
+   "ficha_maestro_texto": "Investiga los principales acontecimientos e instituciones que caracterizan la realidad paraguaya del siglo XVI.",
+   "en_muestra3": false,
+   "observacion": "Evitar repetir la Clase 10: casos de aplicación (1539, 1544), lectura de los fragmentos y comparación con la elección actual."
+  },
+  {
+   "encuentro": 17,
+   "seccion": "Evaluación de la Unidad 3",
+   "tipo_vinculo": "Asociación curricular",
+   "capacidades_mec": [
+    "H3",
+    "H4"
+   ],
+   "temas_mec": [
+    "H3a",
+    "H3b",
+    "H3c",
+    "H3d",
+    "H3e",
+    "H4a",
+    "H4b",
+    "H4c",
+    "H4d"
+   ],
+   "ficha_maestro_estado": "sin_ficha",
+   "ficha_maestro_texto": "",
+   "en_muestra3": false,
+   "observacion": "Agregar ítems de cronología y resistencia; corregir el ítem sobre la Real Provisión."
+  },
+  {
+   "encuentro": 18,
+   "seccion": "Integradora 1.ª etapa",
+   "tipo_vinculo": "Asociación curricular",
+   "capacidades_mec": [
+    "H1",
+    "H2",
+    "H3",
+    "H4"
+   ],
+   "temas_mec": [],
+   "ficha_maestro_estado": "sin_ficha",
+   "ficha_maestro_texto": "",
+   "en_muestra3": false,
+   "observacion": "Cubre las Unidades 1 a 3. Revisar ítems reciclados; escala de calificación."
+  },
+  {
+   "encuentro": 19,
+   "seccion": "Clase 11",
+   "tipo_vinculo": "Capacidad literal MEC",
+   "capacidades_mec": [
+    "H5"
+   ],
+   "temas_mec": [
+    "H5a"
+   ],
+   "ficha_maestro_estado": "literal",
+   "ficha_maestro_texto": "Analiza los rasgos relevantes que influyeron en la realidad paraguaya del siglo XVII.",
+   "en_muestra3": false,
+   "observacion": "Corregir la causalidad de la mediterraneidad (1617); Hernandarias; testimonio con fuente."
+  },
+  {
+   "encuentro": 20,
+   "seccion": "Clase 12",
+   "tipo_vinculo": "Capacidad literal MEC",
+   "capacidades_mec": [
+    "H5"
+   ],
+   "temas_mec": [
+    "H5b",
+    "H5c"
+   ],
+   "ficha_maestro_estado": "literal",
+   "ficha_maestro_texto": "Analiza los rasgos relevantes que influyeron en la realidad paraguaya del siglo XVII.",
+   "en_muestra3": false,
+   "observacion": "Ordenanzas de Alfaro (1611); yerba mate con fuente."
+  },
+  {
+   "encuentro": 21,
+   "seccion": "Clase 13",
+   "tipo_vinculo": "Capacidad literal MEC",
+   "capacidades_mec": [
+    "H5"
+   ],
+   "temas_mec": [
+    "H5d"
+   ],
+   "ficha_maestro_estado": "literal",
+   "ficha_maestro_texto": "Analiza los rasgos relevantes que influyeron en la realidad paraguaya del siglo XVII.",
+   "en_muestra3": false,
+   "observacion": "Diferenciar la protección de las reducciones jesuíticas y franciscanas; bandeirantes, pérdida del Guairá y Mbororé."
+  },
+  {
+   "encuentro": 22,
+   "seccion": "Continuación E",
+   "tipo_vinculo": "Ampliación editorial",
+   "capacidades_mec": [],
+   "temas_mec": [],
+   "ficha_maestro_estado": "editorial",
+   "ficha_maestro_texto": "Analiza procesos que afectaron a las poblaciones guaraníes de las misiones y sus relaciones con las monarquías ibéricas.",
+   "en_muestra3": false,
+   "observacion": "AMPLIACIÓN EDITORIAL (siglo XVIII): la Guerra Guaranítica no figura en el programa MEC 2014, cuyo alcance son los siglos XVI y XVII (pág. 54). Núcleo recomendado para el encuentro: bandeirantes, pérdida del Guairá y Mbororé (H5, tema H5d); la Guerra Guaranítica, como ampliación optativa."
+  },
+  {
+   "encuentro": 23,
+   "seccion": "Clase 14",
+   "tipo_vinculo": "Capacidad literal MEC",
+   "capacidades_mec": [
+    "H6"
+   ],
+   "temas_mec": [
+    "H6a"
+   ],
+   "ficha_maestro_estado": "literal",
+   "ficha_maestro_texto": "Describe los rasgos históricos distintivos de la realidad americana del siglo XVII.",
+   "en_muestra3": false,
+   "observacion": "Potosí con fuente identificada; monopolio y contrabando."
+  },
+  {
+   "encuentro": 24,
+   "seccion": "Clase 15",
+   "tipo_vinculo": "Capacidad literal MEC",
+   "capacidades_mec": [
+    "H6"
+   ],
+   "temas_mec": [
+    "H6b",
+    "H6c"
+   ],
+   "ficha_maestro_estado": "literal",
+   "ficha_maestro_texto": "Describe los rasgos históricos distintivos de la realidad americana del siglo XVII.",
+   "en_muestra3": false,
+   "observacion": "Desarrollar la colonización portuguesa; Kamba Kua con el origen correcto (1820)."
+  },
+  {
+   "encuentro": 25,
+   "seccion": "Evaluación de la Unidad 4",
+   "tipo_vinculo": "Asociación curricular",
+   "capacidades_mec": [
+    "H5",
+    "H6"
+   ],
+   "temas_mec": [
+    "H5a",
+    "H5b",
+    "H5c",
+    "H5d",
+    "H6a",
+    "H6b",
+    "H6c"
+   ],
+   "ficha_maestro_estado": "sin_ficha",
+   "ficha_maestro_texto": "",
+   "en_muestra3": false,
+   "observacion": "Ítems sobre la Clase 14; jesuitas expulsados de los dominios españoles (1767)."
+  },
+  {
+   "encuentro": 26,
+   "seccion": "Clase 16",
+   "tipo_vinculo": "Capacidad literal MEC",
+   "capacidades_mec": [
+    "G1"
+   ],
+   "temas_mec": [
+    "G1a",
+    "G1b",
+    "G1c"
+   ],
+   "ficha_maestro_estado": "truncada",
+   "ficha_maestro_texto": "Analiza la posición geográfica de Paraguay y América y sus incidencias.",
+   "en_muestra3": false,
+   "observacion": "Posición de América (falta); longitud en la posición absoluta; Laudo Hayes (1878); dato con fuente (INE o IGM)."
+  },
+  {
+   "encuentro": 27,
+   "seccion": "Clase 17",
+   "tipo_vinculo": "Capacidad literal MEC",
+   "capacidades_mec": [
+    "G2"
+   ],
+   "temas_mec": [
+    "G2a"
+   ],
+   "ficha_maestro_estado": "truncada",
+   "ficha_maestro_texto": "Relaciona las características de las unidades orohidrográficas.",
+   "en_muestra3": false,
+   "observacion": "Serranías del Paraguay con nombres; relieve de América; fuente real."
+  },
+  {
+   "encuentro": 28,
+   "seccion": "Clase 18",
+   "tipo_vinculo": "Capacidad literal MEC",
+   "capacidades_mec": [
+    "G2"
+   ],
+   "temas_mec": [
+    "G2b",
+    "G2c"
+   ],
+   "ficha_maestro_estado": "truncada",
+   "ficha_maestro_texto": "Relaciona las características de las unidades orohidrográficas.",
+   "en_muestra3": true,
+   "observacion": "MUESTRA 3: cuencas y vertientes; río Paraguay como límite; afluentes; lagos, esteros y acuíferos; hidrografía de América; 2 mapas con escala, leyenda y límites legibles en blanco y negro; ficha reproducible; 15 actividades con criterios anunciados."
+  },
+  {
+   "encuentro": 29,
+   "seccion": "Continuación F",
+   "tipo_vinculo": "Capacidad literal MEC",
+   "capacidades_mec": [
+    "G2"
+   ],
+   "temas_mec": [
+    "G2b",
+    "G2c"
+   ],
+   "ficha_maestro_estado": "editorial",
+   "ficha_maestro_texto": "Relaciona las características de las unidades orohidrográficas de Paraguay y América y analiza la incidencia de la posición geográfica en las actividades humanas.",
+   "en_muestra3": true,
+   "observacion": "MUESTRA 3: remite al mapa de la Hidrovía de la Clase 18; evaluación de impacto ambiental; caso con zona de notas, tarjetas de rol recortables y matriz en fichas reproducibles; la decisión se califica solo en la Ficha F-C, con la rúbrica de 8 puntos impresa en la consigna 4; autoevaluación."
+  },
+  {
+   "encuentro": 30,
+   "seccion": "Evaluación de la Unidad 5",
+   "tipo_vinculo": "Asociación curricular",
+   "capacidades_mec": [
+    "G1",
+    "G2"
+   ],
+   "temas_mec": [
+    "G1a",
+    "G1b",
+    "G2a",
+    "G2b",
+    "G2c"
+   ],
+   "ficha_maestro_estado": "sin_ficha",
+   "ficha_maestro_texto": "",
+   "en_muestra3": true,
+   "observacion": "MUESTRA 3: 14 ítems en 6 partes (28 puntos); los dos mapas impresos en la prueba; criterios de puntaje en cada parte; tiempo adicional sin devolución de claves hasta el encuentro 31."
+  },
+  {
+   "encuentro": 31,
+   "seccion": "Clase 19",
+   "tipo_vinculo": "Capacidad literal MEC",
+   "capacidades_mec": [
+    "G3"
+   ],
+   "temas_mec": [
+    "G3a",
+    "G3b",
+    "G3c"
+   ],
+   "ficha_maestro_estado": "abreviada",
+   "ficha_maestro_texto": "Identifica las características climáticas y su influencia.",
+   "en_muestra3": false,
+   "observacion": "Capacidad abreviada en el maestro: usar la literal. Corregir el «Ubicate» del Trópico y la clave de la fuente; tipos de clima de América; tabla climática con datos de la DMH."
+  },
+  {
+   "encuentro": 32,
+   "seccion": "Clase 20",
+   "tipo_vinculo": "Capacidad literal MEC",
+   "capacidades_mec": [
+    "G4"
+   ],
+   "temas_mec": [
+    "G4a",
+    "G4b",
+    "G4d"
+   ],
+   "ficha_maestro_estado": "truncada",
+   "ficha_maestro_texto": "Describe las características de las regiones naturales.",
+   "en_muestra3": false,
+   "observacion": "Chaco Húmedo y Chaco Seco; regiones de América desarrolladas; costes del uso de la tierra."
+  },
+  {
+   "encuentro": 33,
+   "seccion": "Clase 21",
+   "tipo_vinculo": "Capacidad literal MEC",
+   "capacidades_mec": [
+    "G4"
+   ],
+   "temas_mec": [
+    "G4c"
+   ],
+   "ficha_maestro_estado": "truncada",
+   "ficha_maestro_texto": "Describe las características de las regiones naturales.",
+   "en_muestra3": false,
+   "observacion": "Capacidad literal completa; artículos 7 y 8 de la Constitución; SEAM y MADES; Ley 294/1993."
+  },
+  {
+   "encuentro": 34,
+   "seccion": "Continuación G",
+   "tipo_vinculo": "Capacidad literal MEC",
+   "capacidades_mec": [
+    "G3",
+    "G4"
+   ],
+   "temas_mec": [
+    "G3b",
+    "G4b",
+    "G4c"
+   ],
+   "ficha_maestro_estado": "editorial",
+   "ficha_maestro_texto": "Identifica las características climáticas, describe las regiones naturales y reconoce la gestión ambiental desarrollada por el Estado paraguayo.",
+   "en_muestra3": false,
+   "observacion": "Agregar el mapa, la tabla climática y la ficha del proyecto que pide el taller."
+  },
+  {
+   "encuentro": 35,
+   "seccion": "Evaluación de la Unidad 6",
+   "tipo_vinculo": "Asociación curricular",
+   "capacidades_mec": [
+    "G3",
+    "G4"
+   ],
+   "temas_mec": [
+    "G3a",
+    "G3b",
+    "G3c",
+    "G4a",
+    "G4b",
+    "G4c",
+    "G4d"
+   ],
+   "ficha_maestro_estado": "sin_ficha",
+   "ficha_maestro_texto": "",
+   "en_muestra3": false,
+   "observacion": "Claves balanceadas; ítems sobre América; análisis de datos."
+  },
+  {
+   "encuentro": 36,
+   "seccion": "Integradora 2.ª etapa",
+   "tipo_vinculo": "Asociación curricular",
+   "capacidades_mec": [
+    "H5",
+    "H6",
+    "G1",
+    "G2",
+    "G3",
+    "G4"
+   ],
+   "temas_mec": [],
+   "ficha_maestro_estado": "sin_ficha",
+   "ficha_maestro_texto": "",
+   "en_muestra3": false,
+   "observacion": "Cubre las Unidades 4 a 6. El ítem 3 del maestro evalúa la Continuación E (ampliación editorial): en la producción, reemplazarlo por un ítem de H5 o marcarlo como optativo. Ítems nuevos (hoy 5 de 6 son copias); escala."
+  }
+ ]
+}

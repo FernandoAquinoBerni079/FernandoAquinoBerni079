@@ -1,0 +1,56 @@
+{
+ "correctos": 185,
+ "fallos": [],
+ "por_control": {
+  "1. Capacidades literales": {
+   "correctos": 10,
+   "fallos": []
+  },
+  "2. Tomo ↔ solucionario": {
+   "correctos": 4,
+   "fallos": []
+  },
+  "3. Tomo ↔ planes": {
+   "correctos": 4,
+   "fallos": []
+  },
+  "4. Funciones de las actividades": {
+   "correctos": 6,
+   "fallos": []
+  },
+  "5. Duración de las secuencias": {
+   "correctos": 4,
+   "fallos": []
+  },
+  "8. Figuras": {
+   "correctos": 18,
+   "fallos": []
+  },
+  "6. Transparencia de rúbricas": {
+   "correctos": 62,
+   "fallos": []
+  },
+  "7. Exactitud de respuestas": {
+   "correctos": 20,
+   "fallos": []
+  },
+  "9. Trazabilidad curricular": {
+   "correctos": 21,
+   "fallos": []
+  },
+  "10. Evaluación equitativa": {
+   "correctos": 2,
+   "fallos": []
+  },
+  "11. Integridad visual": {
+   "correctos": 34,
+   "fallos": []
+  }
+ },
+ "claves": {
+  "a": 5,
+  "b": 5,
+  "c": 5,
+  "d": 3
+ }
+}
