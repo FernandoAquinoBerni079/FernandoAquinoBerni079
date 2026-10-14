@@ -1,0 +1,35 @@
+CORRECTO Los 15 requisitos del catálogo, en el mismo orden y sin repetir
+CORRECTO Cada criterio tiene la forma «Dado… cuando… entonces…»
+INFO     Modelos: RF-02, RF-04, RF-07, RF-09, RNF-01, RS-01 · Estudiante: RF-05, RF-06, RNF-03 · Docente: RF-01, RF-03, RF-08, RF-10, RNF-02, RS-02
+CORRECTO RF-02 (modelo, Tabla 4.5): coincide palabra por palabra con el libro
+CORRECTO RF-04 (modelo, Ejemplo resuelto 4.3 (CA-04)): coincide palabra por palabra con el libro
+CORRECTO RF-07 (modelo, Tabla 4.5): coincide palabra por palabra con el libro
+CORRECTO RF-09 (modelo, Tabla 4.5): coincide palabra por palabra con el libro
+CORRECTO RNF-01 (modelo, Ejemplo resuelto 4.4, paso 4): coincide palabra por palabra con el libro
+CORRECTO RS-01 (modelo, Tabla 4.5): coincide palabra por palabra con el libro
+CORRECTO RF-05 (estudiante, Encuentro 8, Actividad 2): la consigna lo nombra y la clave de esa actividad contiene el criterio
+CORRECTO RF-06 (estudiante, Encuentro 8, Actividad 2): la consigna lo nombra y la clave de esa actividad contiene el criterio
+CORRECTO RNF-03 (estudiante, Encuentro 8, Actividad 5 (Desafío)): la consigna lo nombra y la clave de esa actividad contiene el criterio
+CORRECTO RF-01 (referencia docente): el libro no trae su criterio
+CORRECTO RF-03 (referencia docente): el libro no trae su criterio
+CORRECTO RF-08 (referencia docente): el libro no trae su criterio
+CORRECTO RF-10 (referencia docente): el libro no trae su criterio
+CORRECTO RNF-02 (referencia docente): el libro no trae su criterio
+CORRECTO RS-02 (referencia docente): el libro no trae su criterio
+CORRECTO La guía contiene la sección 3 y la tabla de correspondencia
+CORRECTO Secciones de la guía numeradas del 1 al 7 sin saltos
+CORRECTO 82 filas de tabla, todas con «no dividir»
+CORRECTO 12 tablas de varias columnas con tblGrid y 16,6 cm
+CORRECTO Sin formas de tuteo inequívocas
+CORRECTO Sin identificadores de modelos de IA
+CORRECTO Sin símbolos prohibidos
+CORRECTO Capacidad rotulada como no oficial del MEC
+CORRECTO contenido.py idéntico al de la v2 (el libro del estudiante no cambia)
+CORRECTO diagramas.py idéntico al de la v2 (el libro del estudiante no cambia)
+CORRECTO maqueta.py idéntico al de la v2 (el libro del estudiante no cambia)
+CORRECTO helpers.py idéntico al de la v2 (el libro del estudiante no cambia)
+CORRECTO build_v2.py idéntico al de la v2 (el libro del estudiante no cambia)
+INFO     Guía v2.1: 7 páginas en la renderización de control
+CORRECTO La tabla de correspondencia aparece en el PDF (pág. [4])
+
+Resultado: 31 correctos, 0 fallos
