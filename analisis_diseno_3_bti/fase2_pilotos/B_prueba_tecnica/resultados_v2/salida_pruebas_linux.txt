@@ -1,0 +1,114 @@
+== Entorno
+PHP 8.3.6 (cli) (built: Jul 16 2026 18:30:41) (NTS)
+SQLite: 3.45.1
+Linux x86_64
+
+== verificar_entorno.php
+[ BIEN ] Versión de PHP: 8.3.6 (mínimo 7.4; recomendado 8.1 o superior)
+[ BIEN ] Extensión pdo_sqlite activa
+[ BIEN ] Versión de SQLite: 3.45.1 (mínimo 3.27, para índices parciales y respaldos)
+[ BIEN ] Funciones de seguridad (random_bytes, password_hash)
+[ BIEN ] Extensión session (inicio de sesión)
+[ BIEN ] Permiso de escritura en la carpeta datos/
+[ INFO ] Archivo php.ini en uso: /etc/php/8.3/cli/php.ini
+
+Esta computadora está lista para el prototipo.
+
+== prueba_reglas.php
+CORRECTO Modelo: dos ejemplares de la misma obra se distinguen por su código
+CORRECTO Modelo: el código de ejemplar no se repite
+CORRECTO Modelo: no se crea un ejemplar de una obra inexistente
+CORRECTO Préstamo válido de A-1 a L1
+CORRECTO El préstamo queda vinculado al ejemplar A-1, no a la obra
+CORRECTO RN-03: vence 7 días después de la salida (2026-03-09)
+CORRECTO A-2, otro ejemplar de la misma obra, sigue disponible
+CORRECTO RN-01: segundo préstamo de A-1 rechazado
+CORRECTO RN-01: la base rechaza un segundo préstamo activo aunque se salteen las reglas del código
+CORRECTO RN-01: A-1 sigue con un único préstamo activo
+CORRECTO RN-02: L1 recibe su segundo préstamo (B-1)
+CORRECTO RN-02: L1 no recibe un tercero (B-2)
+CORRECTO RN-04: lector inactivo rechazado
+CORRECTO Ejemplar inexistente rechazado
+CORRECTO Lector inexistente rechazado
+CORRECTO Fecha imposible rechazada (2026-02-30)
+CORRECTO Los rechazos no dejaron préstamos a medias (hay 3)
+CORRECTO Vencidos al 2026-03-10: los dos préstamos del 2026-03-02
+CORRECTO Vencidos al 2026-03-09: ninguno (vencen ese día)
+CORRECTO Catálogo: Obra A con 2 ejemplares y 0 disponibles
+CORRECTO Devolución de A-1
+CORRECTO RN-05: doble devolución rechazada
+CORRECTO RN-05: la base impide cambiar la fecha de una devolución ya registrada
+CORRECTO RN-05: el préstamo devuelto sigue en el historial
+CORRECTO RN-05: la base no permite borrar préstamos
+CORRECTO RN-05: la base no permite cambiar el ejemplar de un préstamo
+CORRECTO Devolución anterior a la salida rechazada
+CORRECTO A-1 vuelve a estar disponible y se presta a L2
+CORRECTO Historial de A-1: 2 préstamos, 1 activo
+CORRECTO RN-06: no se borra un ejemplar con historial
+CORRECTO RN-06: no se borra un lector con historial
+CORRECTO RN-06: el ejemplar se inactiva
+CORRECTO Un ejemplar inactivo no se presta
+CORRECTO Un ejemplar inactivo no cuenta en el catálogo
+CORRECTO Zona horaria de Paraguay
+CORRECTO Versión del esquema registrada (2)
+CORRECTO Tildes y ñ se guardan y se leen iguales
+
+Resultado: 37 de 37 correctas
+
+== prueba_carrera.php
+CORRECTO Ronda 1, RN-01: 12 pedidos simultáneos del mismo ejemplar → 1 registrado, 1 préstamo activo
+CORRECTO Ronda 1, RN-02: 8 pedidos simultáneos del mismo lector → 2 registrados, 2 préstamos activos
+CORRECTO Ronda 2, RN-01: 12 pedidos simultáneos del mismo ejemplar → 1 registrado, 1 préstamo activo
+CORRECTO Ronda 2, RN-02: 8 pedidos simultáneos del mismo lector → 2 registrados, 2 préstamos activos
+CORRECTO Ronda 3, RN-01: 12 pedidos simultáneos del mismo ejemplar → 1 registrado, 1 préstamo activo
+CORRECTO Ronda 3, RN-02: 8 pedidos simultáneos del mismo lector → 2 registrados, 2 préstamos activos
+CORRECTO Ronda 4, RN-01: 12 pedidos simultáneos del mismo ejemplar → 1 registrado, 1 préstamo activo
+CORRECTO Ronda 4, RN-02: 8 pedidos simultáneos del mismo lector → 2 registrados, 2 préstamos activos
+CORRECTO Ronda 5, RN-01: 12 pedidos simultáneos del mismo ejemplar → 1 registrado, 1 préstamo activo
+CORRECTO Ronda 5, RN-02: 8 pedidos simultáneos del mismo lector → 2 registrados, 2 préstamos activos
+
+Respuestas recibidas en las 5 rondas:
+  55 × RN-01: El ejemplar ya tiene un préstamo activo.
+  5 × RN-01: REGISTRADO
+  30 × RN-02: El lector ya tiene 2 préstamos activos.
+  10 × RN-02: REGISTRADO
+
+Resultado: 10 de 10 correctas
+
+== prueba_http.sh
+CORRECTO Catálogo público visible sin sesión
+CORRECTO Catálogo muestra ejemplares y disponibles por obra (3 y 3)
+CORRECTO El catálogo público no tiene formularios que modifiquen datos
+CORRECTO Operaciones sin sesión: acceso denegado (403)
+CORRECTO Préstamo enviado sin sesión: 403 y ningún préstamo creado
+CORRECTO Clave incorrecta: no ingresa
+CORRECTO Clave correcta: ingresa y redirige a operaciones (303)
+CORRECTO Préstamo sin ficha CSRF: no se registra
+CORRECTO Préstamo válido: 303 y aviso «Préstamo registrado»
+CORRECTO El préstamo queda en el ejemplar EJ-0001
+CORRECTO Reenvío del formulario sobre el mismo ejemplar: rechazado con mensaje
+CORRECTO Sigue habiendo un solo préstamo activo de EJ-0001
+CORRECTO Recargar la página no repite la operación (el aviso ya no aparece)
+CORRECTO Lector inactivo rechazado (RN-04)
+CORRECTO Tercer préstamo del mismo lector rechazado (RN-02)
+CORRECTO El catálogo público refleja la disponibilidad (Cuentos: 3 y 2)
+CORRECTO Vencidos con fecha de referencia futura: aparece EJ-0001 (vence 2026-10-21)
+CORRECTO Devolución registrada
+CORRECTO Doble devolución rechazada (RN-05)
+CORRECTO El préstamo devuelto se conserva en el historial
+CORRECTO Texto con etiquetas se muestra escapado
+CORRECTO Comilla en la búsqueda no altera la consulta (consulta parametrizada)
+CORRECTO Después de salir, operaciones vuelve a estar denegado
+CORRECTO Tras reiniciar el servidor se conservan los 2 préstamos
+CORRECTO Instalar de nuevo sin --reiniciar: se niega (código 1) y la base queda idéntica
+CORRECTO --reiniciar sin escribir REINICIAR: cancela y la base queda idéntica
+CORRECTO Respaldo creado con el servidor en marcha
+CORRECTO Con confirmación, --reiniciar guarda respaldo previo y deja la base vacía de préstamos
+CORRECTO Restauración manual del respaldo: vuelven los 2 préstamos
+CORRECTO 8 pedidos HTTP simultáneos, en 8 sesiones, del ejemplar EJ-0007: un solo préstamo activo
+               7 id="error">El ejemplar ya tiene un préstamo activo.
+               1 id="mensaje">Préstamo registrado.
+CORRECTO Las otras 7 sesiones recibieron el rechazo de RN-01
+CORRECTO El servidor no registró errores de PHP
+
+Resultado: 32 de 32 correctas

@@ -1,0 +1,18 @@
+Prototipo técnico v2 — Sistema de Gestión de Biblioteca Escolar (Fase 2, piloto B)
+
+1. Comprobá el entorno:         php verificar_entorno.php
+2. Creá la base de ejemplo:     php instalar.php
+   (anotá la clave de la cuenta «bibliotecaria» que muestra al terminar)
+3. Iniciá el servidor local:    php -S localhost:8000 -t public
+4. Abrí el navegador en:        http://localhost:8000
+5. Respaldo:                    php respaldar.php
+6. Restaurar un respaldo:       detené el servidor (Ctrl+C) y copiá el archivo de datos/respaldos/
+                                sobre datos/biblioteca.sqlite
+
+El instalador no borra una base existente. Para empezar de cero: php instalar.php --reiniciar
+(pide confirmación y guarda antes un respaldo).
+
+Pruebas automáticas (para el docente):
+   php pruebas/prueba_reglas.php
+   php pruebas/prueba_carrera.php
+   bash pruebas/prueba_http.sh      (requiere bash y curl; en Windows, Git Bash)

@@ -1,0 +1,41 @@
+CORRECTO Título del capítulo según Work: «Requisitos que se pueden comprobar»
+CORRECTO Encuentros 7 y 8
+CORRECTO Secciones 4.1 a 4.4 con los títulos del índice de Work
+CORRECTO Capacidad C3 de Work, rotulada como no oficial del MEC
+CORRECTO Catálogo: identificadores únicos (15)
+CORRECTO Catálogo: al menos 8 funcionales (10) y 4 de calidad o restricciones (5), como pide C3
+CORRECTO Catálogo: las 25 fuentes citadas existen en el dossier o en las reglas
+CORRECTO Catálogo: ningún requisito sin fuente
+CORRECTO Todas las fuentes mencionadas en libro y guía existen (31 códigos; faltan: ninguno)
+CORRECTO Las 8 citas textuales con código coinciden con su fragmento (sin diferencias)
+CORRECTO Respaldo de 13 requisitos: cada fuente contiene la expresión que justifica el requisito
+CORRECTO El código de prueba P-07 (Work) no se confunde con el buzón (B-01 a B-08)
+CORRECTO ESTUDIANTE: sin símbolos prohibidos
+CORRECTO ESTUDIANTE: sin formas de tuteo inequívocas (ninguna)
+CORRECTO ESTUDIANTE: sin identificadores de modelos de IA
+CORRECTO ESTUDIANTE: 125 filas de tabla, todas con «no dividir»
+CORRECTO ESTUDIANTE: 8 tablas de varias columnas con tblGrid y 16,6 cm
+CORRECTO GUÍA: sin símbolos prohibidos
+CORRECTO GUÍA: sin formas de tuteo inequívocas (ninguna)
+CORRECTO GUÍA: sin identificadores de modelos de IA
+CORRECTO GUÍA: 66 filas de tabla, todas con «no dividir»
+CORRECTO GUÍA: 11 tablas de varias columnas con tblGrid y 16,6 cm
+CORRECTO Las 26 consignas usan imperativo de voseo (sin tuteo)
+CORRECTO Estudiante: sin claves ni criterios de corrección
+CORRECTO Ítem «¿Cuál de estas frases es una…»: correcta en la letra d del libro
+CORRECTO Ítem «¿Cuál de estos es un requisi…»: correcta en la letra c del libro
+CORRECTO Ítem «¿Cuál de estos criterios de …»: correcta en la letra b del libro
+CORRECTO Ítem «¿Qué problema tiene «El sist…»: correcta en la letra a del libro
+CORRECTO Claves de opción múltiple repartidas (d, c, b, a)
+CORRECTO Puntaje total 15 = suma de los ítems (15)
+CORRECTO Guía: claves para las 10 actividades
+CORRECTO RF-02: 2 de marzo + 7 días (RN-03) = 9 de marzo, como dice la Tabla 4.5
+CORRECTO fig_4_1_tipos_de_requisito.png: imagen con contenido (tinta 3.3 %)
+CORRECTO fig_4_2_cadena_de_trazabilidad.png: imagen con contenido (tinta 4.9 %)
+CORRECTO Sin personas ni datos del caso de biblioteca de Algorítmica 3.º
+INFO     ADS_3BTI_CAP4_v2_ESTUDIANTE.docx: 16 páginas en la renderización de control
+CORRECTO La evaluación empieza en página propia (pág. 15)
+CORRECTO Ninguna página empieza con renglones sueltos
+INFO     ADS_3BTI_CAP4_v2_GUIA_DOCENTE.docx: 6 páginas en la renderización de control
+
+Resultado: 37 correctos, 0 fallos
