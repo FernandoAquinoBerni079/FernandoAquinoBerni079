@@ -1,0 +1,191 @@
+== Reproducción del defecto con prototipo_v2_1/instalar.php (sin modificar)
+Otra conexión tiene un préstamo sin confirmar.
+instalar.php --reiniciar terminó con código 0 (siguió adelante)
+La otra conexión NO pudo confirmar su préstamo: SQLSTATE[HY000]: General error: 10 disk I/O error
+Préstamos en la base después: 0 (el préstamo de la otra conexión se perdió)
+
+== El mismo caso con prototipo_v2_2
+Otra conexión tiene un préstamo sin confirmar.
+instalar.php --reiniciar terminó con código 1 (se negó)
+La otra conexión confirmó su préstamo sin error.
+Préstamos en la base después: 1 (el préstamo de la otra conexión se conservó)
+
+== Entorno
+PHP 8.3.6 (cli) (built: Jul 16 2026 18:30:41) (NTS)
+SQLite: 3.45.1
+
+== prueba_mantenimiento.php
+-- Base en modo DELETE
+CORRECTO DELETE: con una escritura sin confirmar en otra conexión, el reinicio se niega (código 1, esperó 5.1 s)
+CORRECTO DELETE: …no dejó respaldo a medias ni marca de mantenimiento
+CORRECTO DELETE: …y la escritura de la otra conexión se confirmó sobre la base intacta (3 préstamos)
+CORRECTO DELETE: con una lectura en curso en otra conexión, el reinicio se niega y la base queda igual
+CORRECTO DELETE: si la otra transacción termina dentro de la espera, el reinicio se hace después (código 0)
+CORRECTO DELETE: …y el respaldo incluye lo que esa transacción confirmó (4 préstamos; tiene 4)
+CORRECTO DELETE: …la base reiniciada queda sin préstamos y sin marca de mantenimiento
+-- Base en modo WAL
+CORRECTO WAL: con una escritura sin confirmar en otra conexión, el reinicio se niega (código 1, esperó 5.1 s)
+CORRECTO WAL: …no dejó respaldo a medias ni marca de mantenimiento
+CORRECTO WAL: …y la escritura de la otra conexión se confirmó sobre la base intacta (3 préstamos)
+CORRECTO WAL: con una lectura en curso en otra conexión, el reinicio se niega y la base queda igual
+CORRECTO WAL: si la otra transacción termina dentro de la espera, el reinicio se hace después (código 0)
+CORRECTO WAL: …y el respaldo incluye lo que esa transacción confirmó (4 préstamos; tiene 4)
+CORRECTO WAL: …la base reiniciada queda sin préstamos y sin marca de mantenimiento
+CORRECTO DELETE: durante el mantenimiento otra conexión no puede leer ni escribir
+CORRECTO DELETE: durante el mantenimiento conectar() rechaza conexiones nuevas
+CORRECTO DELETE: el reinicio termina bien y no queda nada de la escritura intentada
+CORRECTO WAL: durante el mantenimiento otra conexión no puede leer ni escribir
+CORRECTO WAL: durante el mantenimiento conectar() rechaza conexiones nuevas
+CORRECTO WAL: el reinicio termina bien y no queda nada de la escritura intentada
+CORRECTO WAL: con otra conexión abierta e inactiva, el reinicio se niega y la base queda igual
+CORRECTO DELETE: con otra conexión inactiva, el reinicio se hace (código 0)
+CORRECTO DELETE: la base es el mismo archivo (mismo inodo); no se borró ni se reemplazó
+CORRECTO DELETE: la conexión que quedó abierta ve la base reiniciada (0 préstamos)
+CORRECTO DELETE: lo que escribe esa conexión queda en la base (no en un archivo huérfano)
+CORRECTO Con la marca de mantenimiento, conectar() rechaza conexiones nuevas
+CORRECTO Con la marca, otro reinicio se niega («mantenimiento en curso») y la base queda idéntica
+CORRECTO Con la marca, respaldar.php se niega sin error de PHP
+CORRECTO Con la marca, el catálogo web responde 503 con aviso de mantenimiento (HTTP/1.1 503 Service Unavailable)
+CORRECTO Sin la marca, el catálogo vuelve a responder 200
+
+Resultado: 30 de 30 correctas
+
+== prueba_respaldo.php
+CORRECTO Instalación inicial
+CORRECTO Hay 4 préstamos confirmados; parte de ellos está solo en el archivo -wal
+CORRECTO Método anterior (copy): la copia tiene 2 de 4 préstamos (pierde lo que está en -wal)
+CORRECTO respaldar.php con la otra conexión abierta: el respaldo tiene los 4 préstamos confirmados (tiene 4)
+CORRECTO …y no incluye la escritura sin confirmar (ejemplar 6)
+CORRECTO …y pasa PRAGMA integrity_check
+CORRECTO instalar.php --reiniciar se niega mientras otra conexión usa la base (detalle en prueba_mantenimiento.php)
+CORRECTO Sin otras conexiones, instalar.php --reiniciar termina bien
+CORRECTO Dejó un respaldo «antes_de_reiniciar»
+CORRECTO El respaldo tiene los 4 préstamos confirmados (tiene 4)
+CORRECTO El respaldo pasa PRAGMA integrity_check
+CORRECTO El instalador informa «Respaldo verificado»
+CORRECTO La base reiniciada queda sin préstamos
+CORRECTO La base reiniciada (en el mismo archivo) pasa PRAGMA integrity_check
+CORRECTO Sin respaldo posible, el instalador se niega (código 1)
+CORRECTO …y la base queda idéntica (mismo SHA-256)
+CORRECTO respaldar.php crea un respaldo verificado con el mismo procedimiento
+CORRECTO Restaurar el respaldo previo devuelve los 4 préstamos
+
+Resultado: 18 de 18 correctas
+
+== prueba_garantias.php
+Regla       Intento con SQL directo                                        Esperado  Resultado
+RN-01       Segundo préstamo activo del mismo ejemplar                    SQLite    SQLite
+RN-02       Tercer préstamo activo del mismo lector                       Solo PHP  Solo PHP
+RN-03       Plazo distinto de 7 días                                      Solo PHP  Solo PHP
+RN-04       Préstamo a un lector inactivo                                 Solo PHP  Solo PHP
+Baja        Préstamo de un ejemplar dado de baja                          Solo PHP  Solo PHP
+RN-05       Borrar un préstamo                                            SQLite    SQLite
+RN-05       Cambiar una devolución ya registrada                          SQLite    SQLite
+RN-05       Cambiar el ejemplar de un préstamo                            SQLite    SQLite
+RN-06       Borrar un ejemplar con historial                               SQLite    SQLite
+RN-06       Borrar un lector con historial                                 SQLite    SQLite
+Integridad  Préstamo de un ejemplar inexistente (con foreign_keys activo) SQLite    SQLite
+Integridad  Vencimiento anterior a la salida                               SQLite    SQLite
+Integridad  Código de ejemplar repetido                                   SQLite    SQLite
+Integridad  Ejemplar inexistente desde una conexión SIN foreign_keys      Solo PHP  Solo PHP
+
+Resultado: 14 de 14 clasificaciones confirmadas
+
+== prueba_reglas.php
+CORRECTO Modelo: dos ejemplares de la misma obra se distinguen por su código
+CORRECTO Modelo: el código de ejemplar no se repite
+CORRECTO Modelo: no se crea un ejemplar de una obra inexistente
+CORRECTO Préstamo válido de A-1 a L1
+CORRECTO El préstamo queda vinculado al ejemplar A-1, no a la obra
+CORRECTO RN-03: vence 7 días después de la salida (2026-03-09)
+CORRECTO A-2, otro ejemplar de la misma obra, sigue disponible
+CORRECTO RN-01: segundo préstamo de A-1 rechazado
+CORRECTO RN-01: la base rechaza un segundo préstamo activo aunque se salteen las reglas del código
+CORRECTO RN-01: A-1 sigue con un único préstamo activo
+CORRECTO RN-02: L1 recibe su segundo préstamo (B-1)
+CORRECTO RN-02: L1 no recibe un tercero (B-2)
+CORRECTO RN-04: lector inactivo rechazado
+CORRECTO Ejemplar inexistente rechazado
+CORRECTO Lector inexistente rechazado
+CORRECTO Fecha imposible rechazada (2026-02-30)
+CORRECTO Los rechazos no dejaron préstamos a medias (hay 3)
+CORRECTO Vencidos al 2026-03-10: los dos préstamos del 2026-03-02
+CORRECTO Vencidos al 2026-03-09: ninguno (vencen ese día)
+CORRECTO Catálogo: Obra A con 2 ejemplares y 0 disponibles
+CORRECTO Devolución de A-1
+CORRECTO RN-05: doble devolución rechazada
+CORRECTO RN-05: la base impide cambiar la fecha de una devolución ya registrada
+CORRECTO RN-05: el préstamo devuelto sigue en el historial
+CORRECTO RN-05: la base no permite borrar préstamos
+CORRECTO RN-05: la base no permite cambiar el ejemplar de un préstamo
+CORRECTO Devolución anterior a la salida rechazada
+CORRECTO A-1 vuelve a estar disponible y se presta a L2
+CORRECTO Historial de A-1: 2 préstamos, 1 activo
+CORRECTO RN-06: no se borra un ejemplar con historial
+CORRECTO RN-06: no se borra un lector con historial
+CORRECTO RN-06: el ejemplar se inactiva
+CORRECTO Un ejemplar inactivo no se presta
+CORRECTO Un ejemplar inactivo no cuenta en el catálogo
+CORRECTO Zona horaria de Paraguay
+CORRECTO Versión del esquema registrada (2)
+CORRECTO Tildes y ñ se guardan y se leen iguales
+
+Resultado: 37 de 37 correctas
+
+== prueba_carrera.php
+CORRECTO Ronda 1, RN-01: 12 pedidos simultáneos del mismo ejemplar → 1 registrado, 1 préstamo activo
+CORRECTO Ronda 1, RN-02: 8 pedidos simultáneos del mismo lector → 2 registrados, 2 préstamos activos
+CORRECTO Ronda 2, RN-01: 12 pedidos simultáneos del mismo ejemplar → 1 registrado, 1 préstamo activo
+CORRECTO Ronda 2, RN-02: 8 pedidos simultáneos del mismo lector → 2 registrados, 2 préstamos activos
+CORRECTO Ronda 3, RN-01: 12 pedidos simultáneos del mismo ejemplar → 1 registrado, 1 préstamo activo
+CORRECTO Ronda 3, RN-02: 8 pedidos simultáneos del mismo lector → 2 registrados, 2 préstamos activos
+CORRECTO Ronda 4, RN-01: 12 pedidos simultáneos del mismo ejemplar → 1 registrado, 1 préstamo activo
+CORRECTO Ronda 4, RN-02: 8 pedidos simultáneos del mismo lector → 2 registrados, 2 préstamos activos
+CORRECTO Ronda 5, RN-01: 12 pedidos simultáneos del mismo ejemplar → 1 registrado, 1 préstamo activo
+CORRECTO Ronda 5, RN-02: 8 pedidos simultáneos del mismo lector → 2 registrados, 2 préstamos activos
+
+Respuestas recibidas en las 5 rondas:
+  55 × RN-01: El ejemplar ya tiene un préstamo activo.
+  5 × RN-01: REGISTRADO
+  30 × RN-02: El lector ya tiene 2 préstamos activos.
+  10 × RN-02: REGISTRADO
+
+Resultado: 10 de 10 correctas
+
+== prueba_http.sh
+CORRECTO Catálogo público visible sin sesión
+CORRECTO Catálogo muestra ejemplares y disponibles por obra (3 y 3)
+CORRECTO El catálogo público no tiene formularios que modifiquen datos
+CORRECTO Operaciones sin sesión: acceso denegado (403)
+CORRECTO Préstamo enviado sin sesión: 403 y ningún préstamo creado
+CORRECTO Clave incorrecta: no ingresa
+CORRECTO Clave correcta: ingresa y redirige a operaciones (303)
+CORRECTO Préstamo sin ficha CSRF: no se registra
+CORRECTO Préstamo válido: 303 y aviso «Préstamo registrado»
+CORRECTO El préstamo queda en el ejemplar EJ-0001
+CORRECTO Reenvío del formulario sobre el mismo ejemplar: rechazado con mensaje
+CORRECTO Sigue habiendo un solo préstamo activo de EJ-0001
+CORRECTO Recargar la página no repite la operación (el aviso ya no aparece)
+CORRECTO Lector inactivo rechazado (RN-04)
+CORRECTO Tercer préstamo del mismo lector rechazado (RN-02)
+CORRECTO El catálogo público refleja la disponibilidad (Cuentos: 3 y 2)
+CORRECTO Vencidos con fecha de referencia futura: aparece EJ-0001 (vence 2026-10-21)
+CORRECTO Devolución registrada
+CORRECTO Doble devolución rechazada (RN-05)
+CORRECTO El préstamo devuelto se conserva en el historial
+CORRECTO Texto con etiquetas se muestra escapado
+CORRECTO Comilla en la búsqueda no altera la consulta (consulta parametrizada)
+CORRECTO Después de salir, operaciones vuelve a estar denegado
+CORRECTO Tras reiniciar el servidor se conservan los 2 préstamos
+CORRECTO Instalar de nuevo sin --reiniciar: se niega (código 1) y la base queda idéntica
+CORRECTO --reiniciar sin escribir REINICIAR: cancela y la base queda idéntica
+CORRECTO Respaldo creado con el servidor en marcha
+CORRECTO Con confirmación, --reiniciar guarda respaldo previo y deja la base vacía de préstamos
+CORRECTO Restauración manual del respaldo: vuelven los 2 préstamos
+CORRECTO 8 pedidos HTTP simultáneos, en 8 sesiones, del ejemplar EJ-0007: un solo préstamo activo
+               7 id="error">El ejemplar ya tiene un préstamo activo.
+               1 id="mensaje">Préstamo registrado.
+CORRECTO Las otras 7 sesiones recibieron el rechazo de RN-01
+CORRECTO El servidor no registró errores de PHP
+
+Resultado: 32 de 32 correctas
