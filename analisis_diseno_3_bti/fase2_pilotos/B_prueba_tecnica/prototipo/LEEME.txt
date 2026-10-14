@@ -1,0 +1,12 @@
+Prototipo mínimo — Sistema de Gestión de Biblioteca Escolar (prueba técnica, Fase 2)
+
+1. Comprobá el entorno:        php verificar_entorno.php
+2. Creá la base de ejemplo:    php instalar.php
+3. Iniciá el servidor local:   php -S localhost:8000 -t public
+4. Abrí el navegador en:       http://localhost:8000
+5. Para detenerlo:             Ctrl+C en la ventana de la consola
+
+Pruebas automáticas (opcional, para el docente):
+   php pruebas/prueba_reglas.php
+   php pruebas/prueba_concurrencia.php
+   bash pruebas/prueba_http.sh      (requiere bash y curl; en Windows, Git Bash)

@@ -1,0 +1,59 @@
+== Entorno
+PHP 8.3.6 (cli) (built: Jul 16 2026 18:30:41) (NTS)
+PDO drivers: mysql, pgsql, sqlite
+SQLite: 3.45.1
+Linux x86_64
+
+== prueba_reglas.php
+CORRECTO Libro A empieza con 1 disponible
+CORRECTO Préstamo válido se registra
+CORRECTO Libro A queda con 0 disponibles
+CORRECTO Segundo préstamo de Libro A se rechaza
+CORRECTO El rechazo no deja filas a medias
+CORRECTO Libro inexistente se rechaza
+CORRECTO Lector inexistente se rechaza
+CORRECTO Devolución válida se registra
+CORRECTO Libro A vuelve a 1 disponible
+CORRECTO Doble devolución se rechaza
+CORRECTO La base rechaza un préstamo con claves inexistentes (foreign_keys activo)
+CORRECTO La base rechaza ejemplares negativos (CHECK)
+CORRECTO Los textos con tildes y ñ se guardan y se leen iguales
+CORRECTO La zona horaria es la de Paraguay
+CORRECTO La base se crea en una carpeta con espacios y tildes
+
+Resultado: 15 de 15 correctas
+
+== prueba_http.sh
+Base creada en: /tmp/<temporal>/biblioteca.sqlite
+Libros: 4 · Lectores: 3
+CORRECTO La página responde y muestra el catálogo
+CORRECTO Se ve con tildes (UTF-8)
+CORRECTO La búsqueda filtra por autor
+CORRECTO Préstamo válido desde el formulario
+CORRECTO Préstamo sin ejemplares se rechaza con mensaje
+CORRECTO Formulario incompleto se rechaza
+CORRECTO Devolución desde el formulario
+CORRECTO Texto con etiquetas se muestra escapado (sin inyección HTML)
+CORRECTO Búsqueda con comilla no rompe la consulta (sentencias preparadas)
+CORRECTO El servidor no registró errores de PHP
+
+Resultado: 10 de 10 correctas
+
+== prueba_concurrencia.php
+Espera configurada en B: 0 s -> B rechazado: SQLSTATE[HY000]: General error: 5 database is locked (tardó 0 ms)
+Espera configurada en B: 1 s -> B rechazado: SQLSTATE[HY000]: General error: 5 database is locked (tardó 1004 ms)
+Con A ya liberada, B escribe sin problema. Filas: 3
+
+== Simulación: PHP sin php.ini (php -n), como una instalación portátil recién descomprimida
+[ BIEN ] Versión de PHP: 8.3.6 (mínimo 7.4; recomendado 8.1 o superior)
+[ FALTA ] Extensión pdo_sqlite no activa: habilitar «extension=pdo_sqlite» en php.ini
+[ BIEN ] Permiso de escritura en la carpeta datos/
+[ INFO ] Archivo php.ini en uso: ninguno (se usan los valores por defecto)
+
+Corregí los puntos marcados con FALTA antes de usar el prototipo.
+(código de salida: 1)
+
+== Mismo caso: qué ve quien intenta instalar igual
+
+Fatal error: Uncaught Error: Class "PDO" not found in prototipo/src/db.php:24
+Stack trace:

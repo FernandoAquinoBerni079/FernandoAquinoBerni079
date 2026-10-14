@@ -1,0 +1,33 @@
+CORRECTO ESTUDIANTE: sin símbolos prohibidos (marcas de verificación)
+CORRECTO ESTUDIANTE: sin formas de tuteo inequívocas (ninguna)
+CORRECTO ESTUDIANTE: no presenta la capacidad como oficial del MEC
+CORRECTO ESTUDIANTE: sin identificadores de modelos de IA
+CORRECTO ESTUDIANTE: 114 filas de tabla, todas con «no dividir»
+CORRECTO ESTUDIANTE: 7 tablas de varias columnas con tblGrid y ancho de 16,6 cm
+CORRECTO DOCENTE: sin símbolos prohibidos (marcas de verificación)
+CORRECTO DOCENTE: sin formas de tuteo inequívocas (ninguna)
+CORRECTO DOCENTE: no presenta la capacidad como oficial del MEC
+CORRECTO DOCENTE: sin identificadores de modelos de IA
+CORRECTO DOCENTE: 63 filas de tabla, todas con «no dividir»
+CORRECTO DOCENTE: 10 tablas de varias columnas con tblGrid y ancho de 16,6 cm
+CORRECTO Las 28 consignas del estudiante usan imperativo de voseo (sin tuteo)
+CORRECTO Estudiante: sin claves ni criterios de corrección
+CORRECTO Ítem «¿Qué es elicitar requisitos?…»: la opción correcta está en la letra d del libro
+CORRECTO Ítem «¿Cuál de estas preguntas es in…»: la opción correcta está en la letra c del libro
+CORRECTO Ítem «¿Qué técnica conviene para ver…»: la opción correcta está en la letra a del libro
+CORRECTO Ítem «Un interesado con mucha influe…»: la opción correcta está en la letra b del libro
+CORRECTO Claves de opción múltiple repartidas (d, c, a, b)
+CORRECTO Guía: la tabla de claves tiene los 9 ítems
+CORRECTO Puntaje total declarado (15) coincide con los ítems (15)
+CORRECTO Figura 4.1 y Tabla 4.2: mismos interesados y mismas cifras
+CORRECTO Tabla 4.2: cada estrategia coincide con el cuadrante de la figura
+CORRECTO fig_4_1_mapa_interesados.png: imagen con contenido (tinta 1.3 %)
+CORRECTO fig_4_2_flujo_elicitacion.png: imagen con contenido (tinta 3.4 %)
+CORRECTO Hallazgos: las 9 líneas citadas existen en el registro E1
+CORRECTO Requisitos candidatos: los 8 orígenes citados existen como hallazgos
+CORRECTO Sin personas ni datos del caso de biblioteca de Algorítmica 3.º
+CORRECTO ADS_3BTI_PILOTO_CAP4_ESTUDIANTE.pdf: 16 páginas en la renderización de control
+CORRECTO La evaluación empieza en página propia (pág. 15)
+CORRECTO ADS_3BTI_PILOTO_CAP4_GUIA_DOCENTE.pdf: 6 páginas en la renderización de control
+
+Resultado: 31 correctos, 0 fallos
