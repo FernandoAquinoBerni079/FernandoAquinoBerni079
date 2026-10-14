@@ -2,7 +2,7 @@
 
 Generado por `edicion/verificar.py`. Son controles del productor: no reemplazan la auditoría independiente.
 
-**267 controles correctos · 0 fallos**
+**271 controles correctos · 0 fallos**
 
 ## Datos
 
@@ -269,6 +269,10 @@ Generado por `edicion/verificar.py`. Son controles del productor: no reemplazan 
 - Capacidad 16 literal en el programa MEC: «Planifica adecuadamente su tiempo para el estudio.»
 - Capacidad 17 literal en el programa MEC: «Identifica las medidas de prevención y mitigación en situaciones de ri»
 - Capacidad 18 literal en el programa MEC: «Aplica normas de comportamiento en caso de riesgos.»
+- Plan Anual · TIEMPO «3 HC» en los 36 encuentros ['3 HC']
+- Plan Anual · nota: 3 HC equivalen a 120 minutos
+- Plan Anual · ninguna fila puede partirse entre páginas
+- Planes · índice de 36 planes con su página []
 - Tomo: las 21 imágenes de la base candidata se conservan idénticas (SHA-256)
 - DPS_7mo_TOMO_INTEGRAL_PEC_OFICIO_2026.pdf · todas las páginas en oficio {(612, 936)}
 - DPS_7mo_TOMO_INTEGRAL_PEC_OFICIO_2026.pdf · sin páginas en blanco o residuales (llenado < 12 %): []

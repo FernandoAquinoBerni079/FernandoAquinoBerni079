@@ -2,7 +2,7 @@
 
 Generado por `edicion/verificar.py`. Son controles del productor: no reemplazan la auditoría independiente.
 
-**358 controles correctos · 0 fallos**
+**362 controles correctos · 0 fallos**
 
 ## Datos
 
@@ -359,6 +359,10 @@ Generado por `edicion/verificar.py`. Son controles del productor: no reemplazan 
 - Capacidad 18 literal en el programa MEC: «Planifica adecuadamente su tiempo para el estudio.»
 - Capacidad 19 literal en el programa MEC: «Practica medidas de prevención, mitigación y atención en situaciones d»
 - Capacidad 20 literal en el programa MEC: «Elabora proyectos sobre prevención y mitigación de riesgo para el cont»
+- Plan Anual · TIEMPO «3 HC» en los 36 encuentros ['3 HC']
+- Plan Anual · nota: 3 HC equivalen a 120 minutos
+- Plan Anual · ninguna fila puede partirse entre páginas
+- Planes · índice de 36 planes con su página []
 - Tomo: las 15 imágenes de la base candidata se conservan idénticas (SHA-256)
 - DPS_8vo_TOMO_INTEGRAL_PEC_OFICIO_2026.pdf · todas las páginas en oficio {(612, 936)}
 - DPS_8vo_TOMO_INTEGRAL_PEC_OFICIO_2026.pdf · sin páginas en blanco o residuales (llenado < 12 %): []

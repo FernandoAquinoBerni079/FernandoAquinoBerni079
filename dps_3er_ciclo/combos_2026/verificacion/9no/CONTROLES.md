@@ -2,7 +2,7 @@
 
 Generado por `edicion/verificar.py`. Son controles del productor: no reemplazan la auditoría independiente.
 
-**347 controles correctos · 0 fallos**
+**351 controles correctos · 0 fallos**
 
 ## Datos
 
@@ -348,6 +348,10 @@ Generado por `edicion/verificar.py`. Son controles del productor: no reemplazan 
 - Capacidad 11 literal en el programa MEC: «Diagnostica situaciones de riesgo en su ámbito familiar, escolar y en »
 - Capacidad 12 literal en el programa MEC: «Considera la gestión de riesgo en la vida cotidiana.»
 - Capacidad 13 literal en el programa MEC: «Aplica normas de comportamiento en caso de riesgos.»
+- Plan Anual · TIEMPO «3 HC» en los 36 encuentros ['3 HC']
+- Plan Anual · nota: 3 HC equivalen a 120 minutos
+- Plan Anual · ninguna fila puede partirse entre páginas
+- Planes · índice de 36 planes con su página []
 - Tomo: las 18 imágenes de la base candidata se conservan idénticas (SHA-256) salvo las corregidas a propósito
 - Tomo: image2.png reemplazada por su versión corregida
 - DPS_9no_TOMO_INTEGRAL_PEC_OFICIO_2026.pdf · todas las páginas en oficio {(612, 936)}

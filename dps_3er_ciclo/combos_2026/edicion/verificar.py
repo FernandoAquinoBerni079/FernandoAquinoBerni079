@@ -113,6 +113,38 @@ if C.get('programa'):
     for k_, cap_ in C['CAP'].items():
         ok(re.sub(r'\s+', ' ', cap_).rstrip('.') in fuente, 'Capacidad %d literal en el programa MEC: «%s»' % (k_, cap_[:70]))
 
+# DPS-03: TIEMPO = «3 HC» en los 36 encuentros del Plan Anual, con la nota de equivalencia
+pa_ = docx.Document(OUT + C['nombre_pa'] + '.docx'); tiempos_ = []
+for tb in pa_.element.body.iter(qn('w:tbl')):
+    hdr = [O.texto(c_).strip() for c_ in tb.findall(qn('w:tr'))[0].findall(qn('w:tc'))]
+    if 'TIEMPO' in hdr:
+        j_ = hdr.index('TIEMPO')
+        tiempos_ += [O.texto(tr.findall(qn('w:tc'))[j_]).strip() for tr in tb.findall(qn('w:tr'))[1:]
+                     if len(tr.findall(qn('w:tc'))) > j_ and re.match(r'^\d+$', O.texto(tr.findall(qn('w:tc'))[0]).strip())]
+ok(len(tiempos_) == 36 and set(tiempos_) == {'3 HC'}, 'Plan Anual · TIEMPO «3 HC» en los 36 encuentros %s' % sorted(set(tiempos_)))
+ok(any('equivalen a 120 minutos' in O.texto(p) for p in pa_.element.body.iter(qn('w:p'))), 'Plan Anual · nota: 3 HC equivalen a 120 minutos')
+ok(all(tr.find('.//' + qn('w:cantSplit')) is not None for tb in pa_.element.body.iter(qn('w:tbl')) for tr in tb.findall(qn('w:tr'))),
+   'Plan Anual · ninguna fila puede partirse entre páginas')
+# índice de los Planes de Clase contra el PDF de control (las páginas del índice son las de esa renderización)
+ctrl = B + '../verificacion/%s/control_pdf/%s.pdf' % (C['carpeta'], C['nombre_planes'])
+pl_ = docx.Document(OUT + C['nombre_planes'] + '.docx')
+def con_tab(p):
+    """«título\tpágina» si el párrafo es una entrada de índice (título, tabulación, número)."""
+    partes, tab = ['', ''], 0
+    for el in p.iter(qn('w:t'), qn('w:tab')):
+        if el.tag == qn('w:tab'):
+            if el.getparent().tag == qn('w:r'):     # el tabulador del texto, no la definición de la tabulación
+                tab = 1
+        else:
+            partes[tab] += el.text or ''
+    return partes[0] + '\t' + partes[1] if tab and partes[1].strip().isdigit() else None
+ent_ = [con_tab(p) for p in pl_.element.body.iter(qn('w:p')) if re.match(r'^(Plan de Clase|PLAN DE CLASE) N\.º \d+', O.texto(p))]
+ent_ = [e for e in ent_ if e]
+if ent_ and os.path.exists(ctrl):
+    pdfp = [re.sub(r'\s+', '', p_.get_text()) for p_ in pymupdf.open(ctrl)]
+    mal_ = [e for e in ent_ if re.sub(r'\s+', '', e.split('\t')[0])[:30] not in pdfp[int(e.split('\t')[-1]) - 1]]
+    ok(len(ent_) == 36 and not mal_, 'Planes · índice de %d planes con su página %s' % (len(ent_), mal_[:2]))
+
 # imágenes del tomo: todas las de la base candidata siguen, byte a byte
 base = O.media_sha(C['base_tomo']); nuevo = O.media_sha(OUT + C['nombre_tomo'] + '.docx')
 corr = C.get('imagenes_corregidas', {})

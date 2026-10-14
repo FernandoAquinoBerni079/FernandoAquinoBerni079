@@ -96,6 +96,8 @@ GRADOS = {
         'E': 'Ante cambios, documentar la causa y acordar ajustes con el docente.',
         'F': 'Preparar una presentación de tres minutos para el colegio.',
     },
+    planes_indice_nuevo=True,    # DPS-04
+    pa_flujo_continuo=True,      # DPS-01
     sol_reemplazos=[('Orientaciones para las continuaciones prácticas', 'Orientaciones para las actividades complementarias (opcionales)')]
                    + [('Continuación %d — ' % k, 'Actividad complementaria %d — ' % k) for k in range(1, 7)],
  ),
@@ -149,6 +151,7 @@ GRADOS['8'] = dict(
          'Los seis talleres PEC ocupan los encuentros 20, 22, 24, 27, 30 y 33; las continuaciones prácticas del tomo quedan como actividades complementarias opcionales, sin encuentro propio.'),
         ('Los materiales originales de continuación práctica que permanecen en el tomo', 'Las actividades complementarias (opcionales) que permanecen en el tomo')],
     planes_cierre_pec=G7['planes_cierre_pec'],
+    planes_pagina_propia=True,   # DPS-02
     sol_reemplazos=[('Continuación práctica %d — ' % k, 'Actividad complementaria %d (opcional) — ' % k) for k in range(1, 7)]
                    + [('Las respuestas de las anteriores continuaciones prácticas', 'Las respuestas de las actividades complementarias (opcionales)')],
 )

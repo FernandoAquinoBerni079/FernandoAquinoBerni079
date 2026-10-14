@@ -111,6 +111,57 @@ def plan_anual():
         if m:
             O.fijar_celda(tcs[2], ['• ' + x for x in IND[m.group(1)]]); k += 1
     assert k == 6, 'filas PEC del Plan Anual: %d' % k
+    # DPS-03: la columna TIEMPO dice «3 HC» en los 36 encuentros, con una nota sobre la equivalencia
+    body = d.element.body
+    t_tiempo = []
+    for t in body.iter(qn('w:tbl')):
+        hdr = [O.texto(c).strip() for c in t.findall(qn('w:tr'))[0].findall(qn('w:tc'))]
+        if 'TIEMPO' in hdr:
+            t_tiempo.append(t); j = hdr.index('TIEMPO')
+            for tr in t.findall(qn('w:tr'))[1:]:
+                tcs = tr.findall(qn('w:tc'))
+                if len(tcs) > j and O.texto(tcs[j]).strip() == '3 h':
+                    O.fijar_celda(tcs[j], ['3 HC'])
+    nota = OxmlElement('w:p'); t_tiempo[0].addprevious(nota)
+    pn = docx.text.paragraph.Paragraph(nota, d._body)
+    M.run(pn, 'En este esquema editorial, cada encuentro dura 3 HC (horas cátedra), que equivalen a 120 minutos; '
+              'los 36 encuentros suman 108 HC.', italic=True, size=9, color='555555')
+    pn.paragraph_format.space_after = Pt(4)
+    # DPS-01: ninguna fila se parte entre páginas; el encabezado de columnas se repite; la tabla de talleres PEC va entera
+    for t in body.iter(qn('w:tbl')):
+        trs = t.findall(qn('w:tr'))
+        for k, tr in enumerate(trs):
+            trPr = tr.find(qn('w:trPr'))
+            if trPr is None:
+                trPr = OxmlElement('w:trPr'); tr.insert(0, trPr)
+            if trPr.find(qn('w:cantSplit')) is None:
+                trPr.append(OxmlElement('w:cantSplit'))
+            if k == 0 and t in t_tiempo and trPr.find(qn('w:tblHeader')) is None:
+                trPr.append(OxmlElement('w:tblHeader'))
+        if O.texto(trs[0]).startswith('Encuentro'):      # tabla de correspondencia de los talleres PEC
+            for tr in trs[:-1]:
+                for p in tr.iter(qn('w:p')):
+                    docx.text.paragraph.Paragraph(p, d._body).paragraph_format.keep_with_next = True
+            prev = t.getprevious()                         # el párrafo que la presenta va con ella
+            if prev is not None and prev.tag == qn('w:p'):
+                docx.text.paragraph.Paragraph(prev, d._body).paragraph_format.keep_with_next = True
+    # DPS-01 (7.º): las unidades corren seguidas; se quitan los saltos manuales que dejaban páginas casi vacías
+    # y el título de cada unidad (etapa + banda de capacidades) queda unido a su tabla
+    if C.get('pa_flujo_continuo'):
+        els = list(body)
+        for i, t in enumerate(els):
+            if t in t_tiempo:
+                k = i - 1
+                while k >= 0 and els[k].tag == qn('w:p') and k >= i - 4:
+                    p = els[k]
+                    brs = [x for x in p.iter(qn('w:br')) if x.get(qn('w:type')) == 'page']
+                    if brs and not O.texto(p).strip():
+                        body.remove(p); break
+                    pf = docx.text.paragraph.Paragraph(p, d._body).paragraph_format
+                    pf.keep_with_next = True
+                    if re.match(r'^\d\.ª ETAPA', O.texto(p).strip()):
+                        pf.space_before = Pt(10)
+                    k -= 1
     sin_actualizar_campos(d)
     portada_seccion(d, B + 'portadas/%s/portada_plan_anual.png' % g)
     ruta = OUT + C['nombre_pa'] + '.docx'; d.save(ruta)
@@ -168,10 +219,30 @@ def _planes(pags):
     for letra in TALLER:
         O.reemplazar_en_doc(d, C['planes_cierre_pec'][letra], C['planes_cierre_pec'][letra] + C.get('planes_cierre_texto',
                             ' Resolución de las consignas 1 a 3 («Pensá y respondé») y acuerdo de la tarea «En equipo» (consigna 4).'))
+    # DPS-02: cada plan empieza en página nueva (8.º: los planes 26 y 32 quedaban partidos entre dos hojas)
+    if C.get('planes_pagina_propia'):
+        for el in body:
+            if es_plan(el) and O.texto(el).strip().startswith('Plan de Clase N.º ') and not O.texto(el).strip().startswith('Plan de Clase N.º 1 '):
+                docx.text.paragraph.Paragraph(el, d._body).paragraph_format.page_break_before = True
     # índice: el de la candidata quedó vacío (solo el pedido de actualizar con F9)
     E = []
     h = next((el for el in body if el.tag == qn('w:p') and O.texto(el).strip() == 'Índice'), None)
-    if h is not None:
+    if h is None and C.get('planes_indice_nuevo'):
+        # DPS-04 (7.º): índice en página propia, después de la portada interna; los títulos de los planes están en tablas
+        tabs = [t for t in body.iter(qn('w:tbl')) if O.texto(t).startswith('PLAN DE CLASE N.º')]
+        E = [(2, re.sub(r'\s+', ' ', O.texto(t.find('.//' + qn('w:tc')))).strip(), True) for t in tabs]
+        assert len(E) == 36, 'planes en el índice: %d' % len(E)
+        primero = tabs[0]
+        while primero.getprevious() is not None and not any(b.get(qn('w:type')) == 'page' for b in primero.getprevious().iter(qn('w:br'))):
+            primero = primero.getprevious()
+        salto = primero.getprevious()                      # párrafo con el salto que abre el primer plan
+        h = OxmlElement('w:p'); salto.addnext(h)
+        ph = docx.text.paragraph.Paragraph(h, d._body)
+        M.run(ph, 'Índice', bold=True, size=14, color=M.DARK); ph.paragraph_format.space_after = Pt(4)
+        fin = OxmlElement('w:p'); h.addnext(fin)
+        r = OxmlElement('w:r'); b = OxmlElement('w:br'); b.set(qn('w:type'), 'page'); r.append(b); fin.append(r)
+        indice_sol(d, E, pags or [0] * 36, h=h, es_fin=lambda el: el is fin)
+    elif h is not None:
         E = [(2, O.texto(el).strip(), True) for el in body if es_plan(el)]
         assert len(E) == 36, 'planes en el índice: %d' % len(E)
         indice_sol(d, E, pags or [0] * 36, h=h, es_fin=es_plan)
