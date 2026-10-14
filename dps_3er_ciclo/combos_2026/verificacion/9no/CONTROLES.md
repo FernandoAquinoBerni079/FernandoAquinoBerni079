@@ -2,7 +2,7 @@
 
 Generado por `edicion/verificar.py`. Son controles del productor: no reemplazan la auditoría independiente.
 
-**333 controles correctos · 0 fallos**
+**334 controles correctos · 0 fallos**
 
 ## Datos
 
@@ -334,7 +334,8 @@ Generado por `edicion/verificar.py`. Son controles del productor: no reemplazan 
 - Tomo · TALLER PEC E · abre con su ficha PEC
 - Tomo · TALLER PEC F · abre con su ficha PEC
 - Solucionario · respuestas esperadas para los seis talleres
-- Tomo: las 19 imágenes de la base candidata se conservan idénticas (SHA-256)
+- Tomo: las 18 imágenes de la base candidata se conservan idénticas (SHA-256) salvo las corregidas a propósito
+- Tomo: image2.png reemplazada por su versión corregida
 - DPS_9no_TOMO_INTEGRAL_PEC_OFICIO_2026.pdf · todas las páginas en oficio {(612, 936)}
 - DPS_9no_TOMO_INTEGRAL_PEC_OFICIO_2026.pdf · sin páginas en blanco o residuales (llenado < 12 %): []
 - DPS_9no_TOMO_INTEGRAL_PEC_OFICIO_2026.pdf · ninguna página contiene solo el espacio para anotaciones: []

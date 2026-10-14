@@ -105,8 +105,11 @@ ok(len(re.findall(r'Respuestas esperadas', sol)) >= 6, 'Solucionario · respuest
 
 # imágenes del tomo: todas las de la base candidata siguen, byte a byte
 base = O.media_sha(C['base_tomo']); nuevo = O.media_sha(OUT + C['nombre_tomo'] + '.docx')
-faltan = set(base.values()) - set(nuevo.values())
-ok(not faltan, 'Tomo: las %d imágenes de la base candidata se conservan idénticas (SHA-256)' % len(base))
+corr = C.get('imagenes_corregidas', {})
+faltan = {h for n_, h in base.items() if n_ not in corr} - set(nuevo.values())
+ok(not faltan, 'Tomo: las %d imágenes de la base candidata se conservan idénticas (SHA-256)%s' % (len(base) - len(corr), ' salvo las corregidas a propósito' if corr else ''))
+for n_, ruta in corr.items():
+    ok(nuevo.get(n_) == hashlib.sha256(open(ruta, 'rb').read()).hexdigest(), 'Tomo: %s reemplazada por su versión corregida' % n_)
 INFO.append('Imágenes del tomo: base %d · editado %d (la diferencia es la portada)' % (len(base), len(nuevo)))
 
 # PDF

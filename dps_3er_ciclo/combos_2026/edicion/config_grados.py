@@ -227,4 +227,6 @@ GRADOS['9'] = dict(
     planes_cierre_texto=' Resolución de las consignas individuales 1 a 3 («Pensá y respondé») y avance de la «Actividad del equipo».',
     sol_modo='insertar',
     sol_reemplazos=[],
+    # única ilustración retocada (dos erratas de texto, CI9-02); el resto de las imágenes queda idéntico
+    imagenes_corregidas={'image2.png': E + 'figs_corregidas/9no_clase2_estilos_CORREGIDA.png'},
 )

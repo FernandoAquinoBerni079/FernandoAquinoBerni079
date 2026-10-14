@@ -128,3 +128,39 @@ Hashes de entrega: `verificacion/9no/SHA256_ENTREGA.md`. Para descargar los arch
 > 6. Conservación de las 19 ilustraciones, y las erratas señaladas en la figura de la Clase 2.
 >
 > Informá los hallazgos numerados con archivo, página o encuentro, y la corrección propuesta.
+
+## 8. Ronda de correcciones por la auditoría preliminar del 14/10 (CI9-01 y CI9-02)
+
+### CI9-02 — Erratas de la figura de la Clase 2: corregidas
+
+Se corrigió solo esta ilustración, sin regenerarla y conservando su composición, sus colores y su dibujo tipográfico. Las otras 18 imágenes del tomo siguen idénticas byte a byte.
+
+- **«AGRƸIVO» → «AGRESIVO».** La palabra se recompuso con las letras A, G, R, I, V y O de la propia cabecera y con la E y la S de «ASERTIVO», de la misma ilustración. Quedó al 95 % del tamaño y centrada en el mismo lugar, para conservar el aire con los dos íconos.
+- **«¡Es asíy punto!» → «¡Es así y punto!».** Se abrió el espacio entre «así» y «y» moviendo cada tramo 7 px. La frase sigue centrada en el globo.
+- **Alcance del cambio.** Se modificaron 36.831 píxeles, todos dentro de la cabecera roja y del globo (filas 302 a 735, columnas 1520 a 1889 de una imagen de 2048 × 891). Las dimensiones no cambian, así que la maquetación es la misma: el tomo sigue en 90 páginas.
+- **Trazabilidad.** El procedimiento y las dos versiones están en `edicion/figs_corregidas/`: `corregir_9no_clase2.py`, `9no_clase2_estilos_ORIGINAL.png` y `9no_clase2_estilos_CORREGIDA.png`.
+
+### CI9-01 — Edición oficial de las capacidades de 9.º: **sigue pendiente, sin cambios en la redacción**
+
+Ninguna fuente fue accesible desde el entorno de edición, ni por la terminal ni por la lectura web:
+
+| Fuente | Resultado |
+|---|---|
+| CONACYT `dspacereva.conacyt.gov.py` | Bloqueada por el proxy / sin resolución DNS |
+| Scribd (las tres copias citadas por ChatGPT) | Sin resolución DNS |
+| Información Pública `informacionpublica.paraguay.gov.py` (priorización 2021) | Sin resolución DNS |
+| `mec.gov.py` | Bloqueada |
+| Drive de Fernando | Sin ejemplar del programa de 9.º |
+
+Siguiendo la indicación de no cambiar la redacción sin confirmar la fuente, las 13 capacidades quedan como están, sin el rótulo «programa MEC». Las cuatro observadas (4, 6, 7 y 11) quedan anotadas para el cotejo.
+
+Cuando haya en Drive un ejemplar completo e identificable (portada con año, página de «Capacidades para el 9º grado»), en una sola ronda se hará lo siguiente:
+1. registrar la edición en `fuentes_mec/FUENTES_CURRICULARES.md`;
+2. cotejar las 13 capacidades;
+3. corregir `CAP9` (`edicion/config_grados.py`);
+4. regenerar el tomo (27 fichas y 7 bandas), el Plan Anual (7 bandas y 6 filas PEC), los Planes (36 fichas) y las fichas PEC de los talleres;
+5. agregar el rótulo «programa MEC».
+
+### Controles
+
+334 correctos y 0 fallos. Se agregó un control de la imagen reemplazada a propósito: las 18 restantes conservan su SHA-256 y image2.png coincide con la versión corregida.

@@ -186,6 +186,10 @@ def construir(paso_indice=None, notas=None):
         abre = marcadores(body)
         for k, n in notas.items():
             insertar_notas(d, abre[k][0], n)
+    # ilustraciones corregidas puntualmente: se reemplazan solo sus bytes (mismas dimensiones, mismo lugar)
+    for nombre, ruta in C.get('imagenes_corregidas', {}).items():
+        parte = next(p for p in d.part.package.iter_parts() if str(p.partname) == '/word/media/' + nombre)
+        parte._blob = open(ruta, 'rb').read()
     for upd in d.settings.element.findall(qn('w:updateFields')):   # índice estático: sin aviso de actualizar campos
         d.settings.element.remove(upd)
     return d, E
