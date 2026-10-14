@@ -25,7 +25,8 @@ ok(not any(n.startswith((C['nombre_pa'], C['nombre_planes'])) and n.endswith('.p
 CAPS = set(C['CAP'].values())
 PROHIBIDOS = '✓✗✅✔✘☑'
 RESIDUOS = ['Vinculado a la unidad de Orientación correspondiente', 'no capacidad literal MEC', 'fichas 1–7', 'articulado con la unidad correspondiente',
-            'MINNA y el MITIC', 'Índice resumido. En Word', 'Mes 1:']
+            'MINNA y el MITIC', 'Índice resumido. En Word', 'Mes 1:', 'Capacidades de la unidad: ', 'Continuación práctica',
+            'Vinculado a la unidad']
 
 for n in nombres:
     if not n.endswith('.docx'):
@@ -44,6 +45,9 @@ for n in nombres:
         ok(r not in txt, '%s · sin el residuo «%s»' % (n, r))
     ok('[[' not in txt and '@@' not in txt, '%s · sin marcado sin procesar' % n)
     ok(d.element.body[0].find('.//' + qn('w:drawing')) is not None, '%s · portada con imagen en la primera página' % n)
+    ok(not d.settings.element.findall(qn('w:updateFields')), '%s · sin pedido de actualizar campos al abrir (índices estáticos)' % n)
+    ok(not any('presionar Ctrl+E' in O.texto(p) or 'presioná Ctrl+E' in O.texto(p) for p in d.element.body.iter(qn('w:p'))),
+       '%s · sin índice dinámico vacío o desactualizado' % n)
     # capacidades: cada celda de ficha rotulada «Capacidad/es…» contiene solo capacidades literales del programa
     for t in d.element.body.iter(qn('w:tbl')):
         for tr in t.findall(qn('w:tr')):
@@ -54,6 +58,28 @@ for n in nombres:
                     if not x or x.startswith('Objetivo del taller (elaboración editorial'):
                         continue
                     ok(x in CAPS, '%s · capacidad literal del programa: «%s»' % (n, x[:90]))
+
+# concordancia PEC: indicadores de cada taller iguales en tomo (fuente), Plan Anual y Planes
+import render as R
+L = R.leer(C['pec_tomo']); IND = []; i = 0
+while '[[FICHA_PEC]]' in L[i:]:
+    i = L.index('[[FICHA_PEC]]', i); blk, i = R.bloque(L, i, '[[/FICHA_PEC]]')
+    IND.append(['• ' + x[2:].strip() for x in blk if x.startswith('- ')])
+IND = dict(zip('ABCDEF', IND))
+pa = docx.Document(OUT + C['nombre_pa'] + '.docx')
+for tr in pa.element.body.iter(qn('w:tr')):
+    tcs = tr.findall(qn('w:tc'))
+    m = re.match(r'^Taller PEC ([A-F]) — ', O.texto(tcs[1]).strip()) if len(tcs) >= 3 else None
+    if m:
+        ok([O.texto(p).strip() for p in tcs[2].findall(qn('w:p'))] == IND[m.group(1)], 'Plan Anual · indicadores del Taller %s iguales a la ficha del tomo' % m.group(1))
+pl = docx.Document(OUT + C['nombre_planes'] + '.docx')
+fs = [t for t in pl.element.body.iter(qn('w:tbl')) if O.texto(t.find('.//' + qn('w:tc'))).strip() == 'Capacidades del área vinculadas']
+ok(len(fs) == 6, 'Planes · seis fichas de taller PEC')
+for letra, t in zip('ABCDEF', fs):
+    ok([O.texto(p).strip() for p in O.celda_de(t, 'Indicadores').findall(qn('w:p'))] == IND[letra], 'Planes · indicadores del Taller %s iguales a la ficha del tomo' % letra)
+sol = '\n'.join(O.texto(p) for p in docx.Document(OUT + C['nombre_sol'] + '.docx').element.body.iter(qn('w:p')))
+for letra, (enc, _) in C['talleres'].items():
+    ok('Encuentro %d de 36 · Taller PEC %s' % (enc, letra) in sol, 'Solucionario · Taller %s en el encuentro %d' % (letra, enc))
 
 # imágenes del tomo: todas las de la base candidata siguen, byte a byte
 base = O.media_sha(C['base_tomo']); nuevo = O.media_sha(OUT + C['nombre_tomo'] + '.docx')
@@ -69,6 +95,8 @@ for n in (C['nombre_tomo'] + '.pdf', C['nombre_sol'] + '.pdf'):
     INFO.append('%s: %d páginas' % (n, doc.page_count))
     vac = [i + 1 for i, p in enumerate(doc) if 0 < i < len(doc) - 1 and O.llenado(p) < 0.12]
     ok(not vac, '%s · sin páginas en blanco o residuales (llenado < 12 %%): %s' % (n, vac))
+    solo = [i + 1 for i, p in enumerate(doc) if p.get_text().strip().startswith('Espacio para anotaciones')]
+    ok(not solo, '%s · ninguna página contiene solo el espacio para anotaciones: %s' % (n, solo))
 
 # índice del tomo contra el PDF
 J = json.load(open(V + 'indice_tomo.json'))
@@ -76,6 +104,17 @@ doc = pymupdf.open(OUT + C['nombre_tomo'] + '.pdf')
 norm = [re.sub(r'\s+', '', p.get_text()) for p in doc]
 mal = [t for (niv, t), pg in zip(J['entradas'], J['paginas']) if re.sub(r'\s+', '', t.split(' / ')[0])[:40] not in norm[pg - 1]]
 ok(not mal, 'Índice del tomo: las %d entradas coinciden con la página del PDF %s' % (len(J['entradas']), mal[:3]))
+
+# índice del Solucionario contra su PDF; la portada de texto de la candidata no se repite
+if os.path.exists(V + 'indice_sol.json'):
+    J = json.load(open(V + 'indice_sol.json'))
+    doc = pymupdf.open(OUT + C['nombre_sol'] + '.pdf')
+    norm = [re.sub(r'\s+', '', p.get_text()) for p in doc]
+    mal = [t for (niv, t, _), pg in zip(J['entradas'], J['paginas']) if re.sub(r'\s+', '', t)[:40] not in norm[pg - 1]]
+    ok(not mal, 'Índice del Solucionario: las %d entradas coinciden con la página del PDF %s' % (len(J['entradas']), mal[:3]))
+doc = pymupdf.open(OUT + C['nombre_sol'] + '.pdf')
+ok('Material exclusivo del docente' not in doc[1].get_text()[:300] or 'DESARROLLO PERSONAL Y SOCIAL' not in doc[1].get_text()[:60],
+   'Solucionario · la portada de texto anterior no se repite después de la portada')
 
 # DOCX ↔ PDF: el texto de cada título del índice está en el PDF; el PDF se generó desde el .docx entregado
 for n in (C['nombre_tomo'], C['nombre_sol']):

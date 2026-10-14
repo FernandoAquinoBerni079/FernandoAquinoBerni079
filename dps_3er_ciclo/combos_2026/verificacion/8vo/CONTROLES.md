@@ -1,0 +1,329 @@
+# Controles del combo 8.º — Desarrollo Personal y Social
+
+Generado por `edicion/verificar.py`. Son controles del productor: no reemplazan la auditoría independiente.
+
+**315 controles correctos · 0 fallos**
+
+## Datos
+
+- Imágenes del tomo: base 15 · editado 16 (la diferencia es la portada)
+- DPS_8vo_TOMO_INTEGRAL_PEC_OFICIO_2026.pdf: 102 páginas
+- DPS_8vo_SOLUCIONARIO_DOCENTE_PEC_OFICIO_2026.pdf: 23 páginas
+
+## Controles correctos
+
+- La carpeta del grado tiene exactamente los seis archivos: ['DPS_8vo_PLANES_DE_CLASE_PEC_OFICIO_2026.docx', 'DPS_8vo_PLAN_ANUAL_PEC_OFICIO_2026.docx', 'DPS_8vo_SOLUCIONARIO_DOCENTE_PEC_OFICIO_2026.docx', 'DPS_8vo_SOLUCIONARIO_DOCENTE_PEC_OFICIO_2026.pdf', 'DPS_8vo_TOMO_INTEGRAL_PEC_OFICIO_2026.docx', 'DPS_8vo_TOMO_INTEGRAL_PEC_OFICIO_2026.pdf']
+- Sin PDF del Plan Anual ni de los Planes de Clase en la entrega
+- DPS_8vo_TOMO_INTEGRAL_PEC_OFICIO_2026.docx · sección 1 en oficio (21.6 × 33.0 cm)
+- DPS_8vo_TOMO_INTEGRAL_PEC_OFICIO_2026.docx · sección 1 con márgenes de 1,27 cm
+- DPS_8vo_TOMO_INTEGRAL_PEC_OFICIO_2026.docx · sección 2 en oficio (21.6 × 33.0 cm)
+- DPS_8vo_TOMO_INTEGRAL_PEC_OFICIO_2026.docx · sección 2 con márgenes de 1,27 cm
+- DPS_8vo_TOMO_INTEGRAL_PEC_OFICIO_2026.docx · sección 3 en oficio (21.6 × 33.0 cm)
+- DPS_8vo_TOMO_INTEGRAL_PEC_OFICIO_2026.docx · sección 3 con márgenes de 1,27 cm
+- DPS_8vo_TOMO_INTEGRAL_PEC_OFICIO_2026.docx · sección 4 en oficio (21.6 × 33.0 cm)
+- DPS_8vo_TOMO_INTEGRAL_PEC_OFICIO_2026.docx · sección 4 con márgenes de 1,27 cm
+- DPS_8vo_TOMO_INTEGRAL_PEC_OFICIO_2026.docx · sección 5 en oficio (21.6 × 33.0 cm)
+- DPS_8vo_TOMO_INTEGRAL_PEC_OFICIO_2026.docx · sección 5 con márgenes de 1,27 cm
+- DPS_8vo_TOMO_INTEGRAL_PEC_OFICIO_2026.docx · sin el símbolo ✓
+- DPS_8vo_TOMO_INTEGRAL_PEC_OFICIO_2026.docx · sin el símbolo ✗
+- DPS_8vo_TOMO_INTEGRAL_PEC_OFICIO_2026.docx · sin el símbolo ✅
+- DPS_8vo_TOMO_INTEGRAL_PEC_OFICIO_2026.docx · sin el símbolo ✔
+- DPS_8vo_TOMO_INTEGRAL_PEC_OFICIO_2026.docx · sin el símbolo ✘
+- DPS_8vo_TOMO_INTEGRAL_PEC_OFICIO_2026.docx · sin el símbolo ☑
+- DPS_8vo_TOMO_INTEGRAL_PEC_OFICIO_2026.docx · sin el residuo «Vinculado a la unidad de Orientación correspondiente»
+- DPS_8vo_TOMO_INTEGRAL_PEC_OFICIO_2026.docx · sin el residuo «no capacidad literal MEC»
+- DPS_8vo_TOMO_INTEGRAL_PEC_OFICIO_2026.docx · sin el residuo «fichas 1–7»
+- DPS_8vo_TOMO_INTEGRAL_PEC_OFICIO_2026.docx · sin el residuo «articulado con la unidad correspondiente»
+- DPS_8vo_TOMO_INTEGRAL_PEC_OFICIO_2026.docx · sin el residuo «MINNA y el MITIC»
+- DPS_8vo_TOMO_INTEGRAL_PEC_OFICIO_2026.docx · sin el residuo «Índice resumido. En Word»
+- DPS_8vo_TOMO_INTEGRAL_PEC_OFICIO_2026.docx · sin el residuo «Mes 1:»
+- DPS_8vo_TOMO_INTEGRAL_PEC_OFICIO_2026.docx · sin el residuo «Capacidades de la unidad: »
+- DPS_8vo_TOMO_INTEGRAL_PEC_OFICIO_2026.docx · sin el residuo «Continuación práctica»
+- DPS_8vo_TOMO_INTEGRAL_PEC_OFICIO_2026.docx · sin el residuo «Vinculado a la unidad»
+- DPS_8vo_TOMO_INTEGRAL_PEC_OFICIO_2026.docx · sin marcado sin procesar
+- DPS_8vo_TOMO_INTEGRAL_PEC_OFICIO_2026.docx · portada con imagen en la primera página
+- DPS_8vo_TOMO_INTEGRAL_PEC_OFICIO_2026.docx · sin pedido de actualizar campos al abrir (índices estáticos)
+- DPS_8vo_TOMO_INTEGRAL_PEC_OFICIO_2026.docx · sin índice dinámico vacío o desactualizado
+- DPS_8vo_TOMO_INTEGRAL_PEC_OFICIO_2026.docx · capacidad literal del programa: «Establece relaciones armónicas con los integrantes de la comunidad educativa.»
+- DPS_8vo_TOMO_INTEGRAL_PEC_OFICIO_2026.docx · capacidad literal del programa: «Interpreta los criterios de evaluación a ser considerados en este nivel educativo.»
+- DPS_8vo_TOMO_INTEGRAL_PEC_OFICIO_2026.docx · capacidad literal del programa: «Plantea actividades relacionadas al PEI que permitan desarrollar el sentido de pertenencia»
+- DPS_8vo_TOMO_INTEGRAL_PEC_OFICIO_2026.docx · capacidad literal del programa: «Descubre características psicológicas y emocionales de su persona según la etapa evolutiva»
+- DPS_8vo_TOMO_INTEGRAL_PEC_OFICIO_2026.docx · capacidad literal del programa: «Toma conciencia de su individualidad y singularidad para lograr conocimiento y aceptación »
+- DPS_8vo_TOMO_INTEGRAL_PEC_OFICIO_2026.docx · capacidad literal del programa: «Identifica habilidades para la construcción de su identidad personal.»
+- DPS_8vo_TOMO_INTEGRAL_PEC_OFICIO_2026.docx · capacidad literal del programa: «Determina la importancia de los estados afectivos para un relacionamiento positivo consigo»
+- DPS_8vo_TOMO_INTEGRAL_PEC_OFICIO_2026.docx · capacidad literal del programa: «Toma conciencia de su sexualidad como parte esencial de su desarrollo integral.»
+- DPS_8vo_TOMO_INTEGRAL_PEC_OFICIO_2026.docx · capacidad literal del programa: «Identifica características de relaciones violentas y cohersivas en el noviazgo.»
+- DPS_8vo_TOMO_INTEGRAL_PEC_OFICIO_2026.docx · capacidad literal del programa: «Identifica las influencias de adicciones y estilos o tendencias de grupos sociales en el d»
+- DPS_8vo_TOMO_INTEGRAL_PEC_OFICIO_2026.docx · capacidad literal del programa: «Valora la importancia de la afectividad para un desarrollo personal armónico.»
+- DPS_8vo_TOMO_INTEGRAL_PEC_OFICIO_2026.docx · capacidad literal del programa: «Investiga sobre los Derechos Humanos referente a la educación de los niños, las niñas y lo»
+- DPS_8vo_TOMO_INTEGRAL_PEC_OFICIO_2026.docx · capacidad literal del programa: «Analiza los derechos y obligaciones de los/as docentes.»
+- DPS_8vo_TOMO_INTEGRAL_PEC_OFICIO_2026.docx · capacidad literal del programa: «Reconoce casos de vulnerabilidad de Derechos y los procedimientos para realizar denuncias.»
+- DPS_8vo_TOMO_INTEGRAL_PEC_OFICIO_2026.docx · capacidad literal del programa: «Comprende la importancia de conformar organizaciones estudiantiles como proceso de estable»
+- DPS_8vo_TOMO_INTEGRAL_PEC_OFICIO_2026.docx · capacidad literal del programa: «Comprende la importancia de conformar organizaciones estudiantiles como proceso de estable»
+- DPS_8vo_TOMO_INTEGRAL_PEC_OFICIO_2026.docx · capacidad literal del programa: «Comprende la importancia de conformar organizaciones estudiantiles como proceso de estable»
+- DPS_8vo_TOMO_INTEGRAL_PEC_OFICIO_2026.docx · capacidad literal del programa: «Comprende la importancia de conformar organizaciones estudiantiles como proceso de estable»
+- DPS_8vo_TOMO_INTEGRAL_PEC_OFICIO_2026.docx · capacidad literal del programa: «Participa activamente en las organizaciones estudiantiles de su institución educativa»
+- DPS_8vo_TOMO_INTEGRAL_PEC_OFICIO_2026.docx · capacidad literal del programa: «Participa activamente en las organizaciones estudiantiles de su institución educativa»
+- DPS_8vo_TOMO_INTEGRAL_PEC_OFICIO_2026.docx · capacidad literal del programa: «Toma conciencia sobre la importancia del proceso de enseñanza–aprendizaje como parte de su»
+- DPS_8vo_TOMO_INTEGRAL_PEC_OFICIO_2026.docx · capacidad literal del programa: «Toma conciencia sobre la importancia del proceso de enseñanza–aprendizaje como parte de su»
+- DPS_8vo_TOMO_INTEGRAL_PEC_OFICIO_2026.docx · capacidad literal del programa: «Planifica adecuadamente su tiempo para el estudio.»
+- DPS_8vo_TOMO_INTEGRAL_PEC_OFICIO_2026.docx · capacidad literal del programa: «Planifica adecuadamente su tiempo para el estudio.»
+- DPS_8vo_TOMO_INTEGRAL_PEC_OFICIO_2026.docx · capacidad literal del programa: «Planifica adecuadamente su tiempo para el estudio.»
+- DPS_8vo_TOMO_INTEGRAL_PEC_OFICIO_2026.docx · capacidad literal del programa: «Practica medidas de prevención, mitigación y atención en situaciones de riesgos físicos y »
+- DPS_8vo_TOMO_INTEGRAL_PEC_OFICIO_2026.docx · capacidad literal del programa: «Practica medidas de prevención, mitigación y atención en situaciones de riesgos físicos y »
+- DPS_8vo_TOMO_INTEGRAL_PEC_OFICIO_2026.docx · capacidad literal del programa: «Elabora proyectos sobre prevención y mitigación de riesgo para el contexto escolar»
+- DPS_8vo_TOMO_INTEGRAL_PEC_OFICIO_2026.docx · capacidad literal del programa: «Plantea actividades relacionadas al PEI que permitan desarrollar el sentido de pertenencia»
+- DPS_8vo_TOMO_INTEGRAL_PEC_OFICIO_2026.docx · capacidad literal del programa: «Establece relaciones armónicas con los integrantes de la comunidad educativa.»
+- DPS_8vo_TOMO_INTEGRAL_PEC_OFICIO_2026.docx · capacidad literal del programa: «Plantea actividades relacionadas al PEI que permitan desarrollar el sentido de pertenencia»
+- DPS_8vo_TOMO_INTEGRAL_PEC_OFICIO_2026.docx · capacidad literal del programa: «Identifica habilidades para la construcción de su identidad personal.»
+- DPS_8vo_TOMO_INTEGRAL_PEC_OFICIO_2026.docx · capacidad literal del programa: «Plantea actividades relacionadas al PEI que permitan desarrollar el sentido de pertenencia»
+- DPS_8vo_TOMO_INTEGRAL_PEC_OFICIO_2026.docx · capacidad literal del programa: «Elabora proyectos sobre prevención y mitigación de riesgo para el contexto escolar»
+- DPS_8vo_TOMO_INTEGRAL_PEC_OFICIO_2026.docx · capacidad literal del programa: «Elabora proyectos sobre prevención y mitigación de riesgo para el contexto escolar»
+- DPS_8vo_TOMO_INTEGRAL_PEC_OFICIO_2026.docx · capacidad literal del programa: «Participa activamente en las organizaciones estudiantiles de su institución educativa»
+- DPS_8vo_TOMO_INTEGRAL_PEC_OFICIO_2026.docx · capacidad literal del programa: «Practica medidas de prevención, mitigación y atención en situaciones de riesgos físicos y »
+- DPS_8vo_TOMO_INTEGRAL_PEC_OFICIO_2026.docx · capacidad literal del programa: «Elabora proyectos sobre prevención y mitigación de riesgo para el contexto escolar»
+- DPS_8vo_TOMO_INTEGRAL_PEC_OFICIO_2026.docx · capacidad literal del programa: «Elabora proyectos sobre prevención y mitigación de riesgo para el contexto escolar»
+- DPS_8vo_TOMO_INTEGRAL_PEC_OFICIO_2026.docx · capacidad literal del programa: «Interpreta los criterios de evaluación a ser considerados en este nivel educativo.»
+- DPS_8vo_PLAN_ANUAL_PEC_OFICIO_2026.docx · sección 1 en oficio (21.6 × 33.0 cm)
+- DPS_8vo_PLAN_ANUAL_PEC_OFICIO_2026.docx · sección 1 con márgenes de 1,27 cm
+- DPS_8vo_PLAN_ANUAL_PEC_OFICIO_2026.docx · sección 2 en oficio (33.0 × 21.6 cm)
+- DPS_8vo_PLAN_ANUAL_PEC_OFICIO_2026.docx · sección 2 con márgenes de 1,27 cm
+- DPS_8vo_PLAN_ANUAL_PEC_OFICIO_2026.docx · sin el símbolo ✓
+- DPS_8vo_PLAN_ANUAL_PEC_OFICIO_2026.docx · sin el símbolo ✗
+- DPS_8vo_PLAN_ANUAL_PEC_OFICIO_2026.docx · sin el símbolo ✅
+- DPS_8vo_PLAN_ANUAL_PEC_OFICIO_2026.docx · sin el símbolo ✔
+- DPS_8vo_PLAN_ANUAL_PEC_OFICIO_2026.docx · sin el símbolo ✘
+- DPS_8vo_PLAN_ANUAL_PEC_OFICIO_2026.docx · sin el símbolo ☑
+- DPS_8vo_PLAN_ANUAL_PEC_OFICIO_2026.docx · sin el residuo «Vinculado a la unidad de Orientación correspondiente»
+- DPS_8vo_PLAN_ANUAL_PEC_OFICIO_2026.docx · sin el residuo «no capacidad literal MEC»
+- DPS_8vo_PLAN_ANUAL_PEC_OFICIO_2026.docx · sin el residuo «fichas 1–7»
+- DPS_8vo_PLAN_ANUAL_PEC_OFICIO_2026.docx · sin el residuo «articulado con la unidad correspondiente»
+- DPS_8vo_PLAN_ANUAL_PEC_OFICIO_2026.docx · sin el residuo «MINNA y el MITIC»
+- DPS_8vo_PLAN_ANUAL_PEC_OFICIO_2026.docx · sin el residuo «Índice resumido. En Word»
+- DPS_8vo_PLAN_ANUAL_PEC_OFICIO_2026.docx · sin el residuo «Mes 1:»
+- DPS_8vo_PLAN_ANUAL_PEC_OFICIO_2026.docx · sin el residuo «Capacidades de la unidad: »
+- DPS_8vo_PLAN_ANUAL_PEC_OFICIO_2026.docx · sin el residuo «Continuación práctica»
+- DPS_8vo_PLAN_ANUAL_PEC_OFICIO_2026.docx · sin el residuo «Vinculado a la unidad»
+- DPS_8vo_PLAN_ANUAL_PEC_OFICIO_2026.docx · sin marcado sin procesar
+- DPS_8vo_PLAN_ANUAL_PEC_OFICIO_2026.docx · portada con imagen en la primera página
+- DPS_8vo_PLAN_ANUAL_PEC_OFICIO_2026.docx · sin pedido de actualizar campos al abrir (índices estáticos)
+- DPS_8vo_PLAN_ANUAL_PEC_OFICIO_2026.docx · sin índice dinámico vacío o desactualizado
+- DPS_8vo_PLANES_DE_CLASE_PEC_OFICIO_2026.docx · sección 1 en oficio (21.6 × 33.0 cm)
+- DPS_8vo_PLANES_DE_CLASE_PEC_OFICIO_2026.docx · sección 1 con márgenes de 1,27 cm
+- DPS_8vo_PLANES_DE_CLASE_PEC_OFICIO_2026.docx · sección 2 en oficio (21.6 × 33.0 cm)
+- DPS_8vo_PLANES_DE_CLASE_PEC_OFICIO_2026.docx · sección 2 con márgenes de 1,27 cm
+- DPS_8vo_PLANES_DE_CLASE_PEC_OFICIO_2026.docx · sección 3 en oficio (21.6 × 33.0 cm)
+- DPS_8vo_PLANES_DE_CLASE_PEC_OFICIO_2026.docx · sección 3 con márgenes de 1,27 cm
+- DPS_8vo_PLANES_DE_CLASE_PEC_OFICIO_2026.docx · sección 4 en oficio (21.6 × 33.0 cm)
+- DPS_8vo_PLANES_DE_CLASE_PEC_OFICIO_2026.docx · sección 4 con márgenes de 1,27 cm
+- DPS_8vo_PLANES_DE_CLASE_PEC_OFICIO_2026.docx · sección 5 en oficio (21.6 × 33.0 cm)
+- DPS_8vo_PLANES_DE_CLASE_PEC_OFICIO_2026.docx · sección 5 con márgenes de 1,27 cm
+- DPS_8vo_PLANES_DE_CLASE_PEC_OFICIO_2026.docx · sección 6 en oficio (21.6 × 33.0 cm)
+- DPS_8vo_PLANES_DE_CLASE_PEC_OFICIO_2026.docx · sección 6 con márgenes de 1,27 cm
+- DPS_8vo_PLANES_DE_CLASE_PEC_OFICIO_2026.docx · sección 7 en oficio (21.6 × 33.0 cm)
+- DPS_8vo_PLANES_DE_CLASE_PEC_OFICIO_2026.docx · sección 7 con márgenes de 1,27 cm
+- DPS_8vo_PLANES_DE_CLASE_PEC_OFICIO_2026.docx · sección 8 en oficio (21.6 × 33.0 cm)
+- DPS_8vo_PLANES_DE_CLASE_PEC_OFICIO_2026.docx · sección 8 con márgenes de 1,27 cm
+- DPS_8vo_PLANES_DE_CLASE_PEC_OFICIO_2026.docx · sección 9 en oficio (21.6 × 33.0 cm)
+- DPS_8vo_PLANES_DE_CLASE_PEC_OFICIO_2026.docx · sección 9 con márgenes de 1,27 cm
+- DPS_8vo_PLANES_DE_CLASE_PEC_OFICIO_2026.docx · sección 10 en oficio (21.6 × 33.0 cm)
+- DPS_8vo_PLANES_DE_CLASE_PEC_OFICIO_2026.docx · sección 10 con márgenes de 1,27 cm
+- DPS_8vo_PLANES_DE_CLASE_PEC_OFICIO_2026.docx · sección 11 en oficio (21.6 × 33.0 cm)
+- DPS_8vo_PLANES_DE_CLASE_PEC_OFICIO_2026.docx · sección 11 con márgenes de 1,27 cm
+- DPS_8vo_PLANES_DE_CLASE_PEC_OFICIO_2026.docx · sección 12 en oficio (21.6 × 33.0 cm)
+- DPS_8vo_PLANES_DE_CLASE_PEC_OFICIO_2026.docx · sección 12 con márgenes de 1,27 cm
+- DPS_8vo_PLANES_DE_CLASE_PEC_OFICIO_2026.docx · sección 13 en oficio (21.6 × 33.0 cm)
+- DPS_8vo_PLANES_DE_CLASE_PEC_OFICIO_2026.docx · sección 13 con márgenes de 1,27 cm
+- DPS_8vo_PLANES_DE_CLASE_PEC_OFICIO_2026.docx · sección 14 en oficio (21.6 × 33.0 cm)
+- DPS_8vo_PLANES_DE_CLASE_PEC_OFICIO_2026.docx · sección 14 con márgenes de 1,27 cm
+- DPS_8vo_PLANES_DE_CLASE_PEC_OFICIO_2026.docx · sección 15 en oficio (21.6 × 33.0 cm)
+- DPS_8vo_PLANES_DE_CLASE_PEC_OFICIO_2026.docx · sección 15 con márgenes de 1,27 cm
+- DPS_8vo_PLANES_DE_CLASE_PEC_OFICIO_2026.docx · sección 16 en oficio (21.6 × 33.0 cm)
+- DPS_8vo_PLANES_DE_CLASE_PEC_OFICIO_2026.docx · sección 16 con márgenes de 1,27 cm
+- DPS_8vo_PLANES_DE_CLASE_PEC_OFICIO_2026.docx · sección 17 en oficio (21.6 × 33.0 cm)
+- DPS_8vo_PLANES_DE_CLASE_PEC_OFICIO_2026.docx · sección 17 con márgenes de 1,27 cm
+- DPS_8vo_PLANES_DE_CLASE_PEC_OFICIO_2026.docx · sección 18 en oficio (21.6 × 33.0 cm)
+- DPS_8vo_PLANES_DE_CLASE_PEC_OFICIO_2026.docx · sección 18 con márgenes de 1,27 cm
+- DPS_8vo_PLANES_DE_CLASE_PEC_OFICIO_2026.docx · sección 19 en oficio (21.6 × 33.0 cm)
+- DPS_8vo_PLANES_DE_CLASE_PEC_OFICIO_2026.docx · sección 19 con márgenes de 1,27 cm
+- DPS_8vo_PLANES_DE_CLASE_PEC_OFICIO_2026.docx · sección 20 en oficio (21.6 × 33.0 cm)
+- DPS_8vo_PLANES_DE_CLASE_PEC_OFICIO_2026.docx · sección 20 con márgenes de 1,27 cm
+- DPS_8vo_PLANES_DE_CLASE_PEC_OFICIO_2026.docx · sección 21 en oficio (21.6 × 33.0 cm)
+- DPS_8vo_PLANES_DE_CLASE_PEC_OFICIO_2026.docx · sección 21 con márgenes de 1,27 cm
+- DPS_8vo_PLANES_DE_CLASE_PEC_OFICIO_2026.docx · sección 22 en oficio (21.6 × 33.0 cm)
+- DPS_8vo_PLANES_DE_CLASE_PEC_OFICIO_2026.docx · sección 22 con márgenes de 1,27 cm
+- DPS_8vo_PLANES_DE_CLASE_PEC_OFICIO_2026.docx · sección 23 en oficio (21.6 × 33.0 cm)
+- DPS_8vo_PLANES_DE_CLASE_PEC_OFICIO_2026.docx · sección 23 con márgenes de 1,27 cm
+- DPS_8vo_PLANES_DE_CLASE_PEC_OFICIO_2026.docx · sección 24 en oficio (21.6 × 33.0 cm)
+- DPS_8vo_PLANES_DE_CLASE_PEC_OFICIO_2026.docx · sección 24 con márgenes de 1,27 cm
+- DPS_8vo_PLANES_DE_CLASE_PEC_OFICIO_2026.docx · sección 25 en oficio (21.6 × 33.0 cm)
+- DPS_8vo_PLANES_DE_CLASE_PEC_OFICIO_2026.docx · sección 25 con márgenes de 1,27 cm
+- DPS_8vo_PLANES_DE_CLASE_PEC_OFICIO_2026.docx · sección 26 en oficio (21.6 × 33.0 cm)
+- DPS_8vo_PLANES_DE_CLASE_PEC_OFICIO_2026.docx · sección 26 con márgenes de 1,27 cm
+- DPS_8vo_PLANES_DE_CLASE_PEC_OFICIO_2026.docx · sección 27 en oficio (21.6 × 33.0 cm)
+- DPS_8vo_PLANES_DE_CLASE_PEC_OFICIO_2026.docx · sección 27 con márgenes de 1,27 cm
+- DPS_8vo_PLANES_DE_CLASE_PEC_OFICIO_2026.docx · sección 28 en oficio (21.6 × 33.0 cm)
+- DPS_8vo_PLANES_DE_CLASE_PEC_OFICIO_2026.docx · sección 28 con márgenes de 1,27 cm
+- DPS_8vo_PLANES_DE_CLASE_PEC_OFICIO_2026.docx · sección 29 en oficio (21.6 × 33.0 cm)
+- DPS_8vo_PLANES_DE_CLASE_PEC_OFICIO_2026.docx · sección 29 con márgenes de 1,27 cm
+- DPS_8vo_PLANES_DE_CLASE_PEC_OFICIO_2026.docx · sección 30 en oficio (21.6 × 33.0 cm)
+- DPS_8vo_PLANES_DE_CLASE_PEC_OFICIO_2026.docx · sección 30 con márgenes de 1,27 cm
+- DPS_8vo_PLANES_DE_CLASE_PEC_OFICIO_2026.docx · sección 31 en oficio (21.6 × 33.0 cm)
+- DPS_8vo_PLANES_DE_CLASE_PEC_OFICIO_2026.docx · sección 31 con márgenes de 1,27 cm
+- DPS_8vo_PLANES_DE_CLASE_PEC_OFICIO_2026.docx · sección 32 en oficio (21.6 × 33.0 cm)
+- DPS_8vo_PLANES_DE_CLASE_PEC_OFICIO_2026.docx · sección 32 con márgenes de 1,27 cm
+- DPS_8vo_PLANES_DE_CLASE_PEC_OFICIO_2026.docx · sección 33 en oficio (21.6 × 33.0 cm)
+- DPS_8vo_PLANES_DE_CLASE_PEC_OFICIO_2026.docx · sección 33 con márgenes de 1,27 cm
+- DPS_8vo_PLANES_DE_CLASE_PEC_OFICIO_2026.docx · sección 34 en oficio (21.6 × 33.0 cm)
+- DPS_8vo_PLANES_DE_CLASE_PEC_OFICIO_2026.docx · sección 34 con márgenes de 1,27 cm
+- DPS_8vo_PLANES_DE_CLASE_PEC_OFICIO_2026.docx · sección 35 en oficio (21.6 × 33.0 cm)
+- DPS_8vo_PLANES_DE_CLASE_PEC_OFICIO_2026.docx · sección 35 con márgenes de 1,27 cm
+- DPS_8vo_PLANES_DE_CLASE_PEC_OFICIO_2026.docx · sin el símbolo ✓
+- DPS_8vo_PLANES_DE_CLASE_PEC_OFICIO_2026.docx · sin el símbolo ✗
+- DPS_8vo_PLANES_DE_CLASE_PEC_OFICIO_2026.docx · sin el símbolo ✅
+- DPS_8vo_PLANES_DE_CLASE_PEC_OFICIO_2026.docx · sin el símbolo ✔
+- DPS_8vo_PLANES_DE_CLASE_PEC_OFICIO_2026.docx · sin el símbolo ✘
+- DPS_8vo_PLANES_DE_CLASE_PEC_OFICIO_2026.docx · sin el símbolo ☑
+- DPS_8vo_PLANES_DE_CLASE_PEC_OFICIO_2026.docx · sin el residuo «Vinculado a la unidad de Orientación correspondiente»
+- DPS_8vo_PLANES_DE_CLASE_PEC_OFICIO_2026.docx · sin el residuo «no capacidad literal MEC»
+- DPS_8vo_PLANES_DE_CLASE_PEC_OFICIO_2026.docx · sin el residuo «fichas 1–7»
+- DPS_8vo_PLANES_DE_CLASE_PEC_OFICIO_2026.docx · sin el residuo «articulado con la unidad correspondiente»
+- DPS_8vo_PLANES_DE_CLASE_PEC_OFICIO_2026.docx · sin el residuo «MINNA y el MITIC»
+- DPS_8vo_PLANES_DE_CLASE_PEC_OFICIO_2026.docx · sin el residuo «Índice resumido. En Word»
+- DPS_8vo_PLANES_DE_CLASE_PEC_OFICIO_2026.docx · sin el residuo «Mes 1:»
+- DPS_8vo_PLANES_DE_CLASE_PEC_OFICIO_2026.docx · sin el residuo «Capacidades de la unidad: »
+- DPS_8vo_PLANES_DE_CLASE_PEC_OFICIO_2026.docx · sin el residuo «Continuación práctica»
+- DPS_8vo_PLANES_DE_CLASE_PEC_OFICIO_2026.docx · sin el residuo «Vinculado a la unidad»
+- DPS_8vo_PLANES_DE_CLASE_PEC_OFICIO_2026.docx · sin marcado sin procesar
+- DPS_8vo_PLANES_DE_CLASE_PEC_OFICIO_2026.docx · portada con imagen en la primera página
+- DPS_8vo_PLANES_DE_CLASE_PEC_OFICIO_2026.docx · sin pedido de actualizar campos al abrir (índices estáticos)
+- DPS_8vo_PLANES_DE_CLASE_PEC_OFICIO_2026.docx · sin índice dinámico vacío o desactualizado
+- DPS_8vo_PLANES_DE_CLASE_PEC_OFICIO_2026.docx · capacidad literal del programa: «Establece relaciones armónicas con los integrantes de la comunidad educativa.»
+- DPS_8vo_PLANES_DE_CLASE_PEC_OFICIO_2026.docx · capacidad literal del programa: «Interpreta los criterios de evaluación a ser considerados en este nivel educativo.»
+- DPS_8vo_PLANES_DE_CLASE_PEC_OFICIO_2026.docx · capacidad literal del programa: «Plantea actividades relacionadas al PEI que permitan desarrollar el sentido de pertenencia»
+- DPS_8vo_PLANES_DE_CLASE_PEC_OFICIO_2026.docx · capacidad literal del programa: «Establece relaciones armónicas con los integrantes de la comunidad educativa.»
+- DPS_8vo_PLANES_DE_CLASE_PEC_OFICIO_2026.docx · capacidad literal del programa: «Interpreta los criterios de evaluación a ser considerados en este nivel educativo.»
+- DPS_8vo_PLANES_DE_CLASE_PEC_OFICIO_2026.docx · capacidad literal del programa: «Plantea actividades relacionadas al PEI que permitan desarrollar el sentido de pertenencia»
+- DPS_8vo_PLANES_DE_CLASE_PEC_OFICIO_2026.docx · capacidad literal del programa: «Descubre características psicológicas y emocionales de su persona según la etapa evolutiva»
+- DPS_8vo_PLANES_DE_CLASE_PEC_OFICIO_2026.docx · capacidad literal del programa: «Toma conciencia de su individualidad y singularidad para lograr conocimiento y aceptación »
+- DPS_8vo_PLANES_DE_CLASE_PEC_OFICIO_2026.docx · capacidad literal del programa: «Identifica habilidades para la construcción de su identidad personal.»
+- DPS_8vo_PLANES_DE_CLASE_PEC_OFICIO_2026.docx · capacidad literal del programa: «Descubre características psicológicas y emocionales de su persona según la etapa evolutiva»
+- DPS_8vo_PLANES_DE_CLASE_PEC_OFICIO_2026.docx · capacidad literal del programa: «Toma conciencia de su individualidad y singularidad para lograr conocimiento y aceptación »
+- DPS_8vo_PLANES_DE_CLASE_PEC_OFICIO_2026.docx · capacidad literal del programa: «Identifica habilidades para la construcción de su identidad personal.»
+- DPS_8vo_PLANES_DE_CLASE_PEC_OFICIO_2026.docx · capacidad literal del programa: «Determina la importancia de los estados afectivos para un relacionamiento positivo consigo»
+- DPS_8vo_PLANES_DE_CLASE_PEC_OFICIO_2026.docx · capacidad literal del programa: «Toma conciencia de su sexualidad como parte esencial de su desarrollo integral.»
+- DPS_8vo_PLANES_DE_CLASE_PEC_OFICIO_2026.docx · capacidad literal del programa: «Identifica características de relaciones violentas y cohersivas en el noviazgo.»
+- DPS_8vo_PLANES_DE_CLASE_PEC_OFICIO_2026.docx · capacidad literal del programa: «Identifica las influencias de adicciones y estilos o tendencias de grupos sociales en el d»
+- DPS_8vo_PLANES_DE_CLASE_PEC_OFICIO_2026.docx · capacidad literal del programa: «Valora la importancia de la afectividad para un desarrollo personal armónico.»
+- DPS_8vo_PLANES_DE_CLASE_PEC_OFICIO_2026.docx · capacidad literal del programa: «Determina la importancia de los estados afectivos para un relacionamiento positivo consigo»
+- DPS_8vo_PLANES_DE_CLASE_PEC_OFICIO_2026.docx · capacidad literal del programa: «Toma conciencia de su sexualidad como parte esencial de su desarrollo integral.»
+- DPS_8vo_PLANES_DE_CLASE_PEC_OFICIO_2026.docx · capacidad literal del programa: «Identifica características de relaciones violentas y cohersivas en el noviazgo.»
+- DPS_8vo_PLANES_DE_CLASE_PEC_OFICIO_2026.docx · capacidad literal del programa: «Identifica las influencias de adicciones y estilos o tendencias de grupos sociales en el d»
+- DPS_8vo_PLANES_DE_CLASE_PEC_OFICIO_2026.docx · capacidad literal del programa: «Valora la importancia de la afectividad para un desarrollo personal armónico.»
+- DPS_8vo_PLANES_DE_CLASE_PEC_OFICIO_2026.docx · capacidad literal del programa: «Investiga sobre los Derechos Humanos referente a la educación de los niños, las niñas y lo»
+- DPS_8vo_PLANES_DE_CLASE_PEC_OFICIO_2026.docx · capacidad literal del programa: «Analiza los derechos y obligaciones de los/as docentes.»
+- DPS_8vo_PLANES_DE_CLASE_PEC_OFICIO_2026.docx · capacidad literal del programa: «Reconoce casos de vulnerabilidad de Derechos y los procedimientos para realizar denuncias.»
+- DPS_8vo_PLANES_DE_CLASE_PEC_OFICIO_2026.docx · capacidad literal del programa: «Investiga sobre los Derechos Humanos referente a la educación de los niños, las niñas y lo»
+- DPS_8vo_PLANES_DE_CLASE_PEC_OFICIO_2026.docx · capacidad literal del programa: «Analiza los derechos y obligaciones de los/as docentes.»
+- DPS_8vo_PLANES_DE_CLASE_PEC_OFICIO_2026.docx · capacidad literal del programa: «Reconoce casos de vulnerabilidad de Derechos y los procedimientos para realizar denuncias.»
+- DPS_8vo_PLANES_DE_CLASE_PEC_OFICIO_2026.docx · capacidad literal del programa: «Establece relaciones armónicas con los integrantes de la comunidad educativa.»
+- DPS_8vo_PLANES_DE_CLASE_PEC_OFICIO_2026.docx · capacidad literal del programa: «Interpreta los criterios de evaluación a ser considerados en este nivel educativo.»
+- DPS_8vo_PLANES_DE_CLASE_PEC_OFICIO_2026.docx · capacidad literal del programa: «Plantea actividades relacionadas al PEI que permitan desarrollar el sentido de pertenencia»
+- DPS_8vo_PLANES_DE_CLASE_PEC_OFICIO_2026.docx · capacidad literal del programa: «Descubre características psicológicas y emocionales de su persona según la etapa evolutiva»
+- DPS_8vo_PLANES_DE_CLASE_PEC_OFICIO_2026.docx · capacidad literal del programa: «Toma conciencia de su individualidad y singularidad para lograr conocimiento y aceptación »
+- DPS_8vo_PLANES_DE_CLASE_PEC_OFICIO_2026.docx · capacidad literal del programa: «Identifica habilidades para la construcción de su identidad personal.»
+- DPS_8vo_PLANES_DE_CLASE_PEC_OFICIO_2026.docx · capacidad literal del programa: «Determina la importancia de los estados afectivos para un relacionamiento positivo consigo»
+- DPS_8vo_PLANES_DE_CLASE_PEC_OFICIO_2026.docx · capacidad literal del programa: «Toma conciencia de su sexualidad como parte esencial de su desarrollo integral.»
+- DPS_8vo_PLANES_DE_CLASE_PEC_OFICIO_2026.docx · capacidad literal del programa: «Identifica características de relaciones violentas y cohersivas en el noviazgo.»
+- DPS_8vo_PLANES_DE_CLASE_PEC_OFICIO_2026.docx · capacidad literal del programa: «Identifica las influencias de adicciones y estilos o tendencias de grupos sociales en el d»
+- DPS_8vo_PLANES_DE_CLASE_PEC_OFICIO_2026.docx · capacidad literal del programa: «Valora la importancia de la afectividad para un desarrollo personal armónico.»
+- DPS_8vo_PLANES_DE_CLASE_PEC_OFICIO_2026.docx · capacidad literal del programa: «Investiga sobre los Derechos Humanos referente a la educación de los niños, las niñas y lo»
+- DPS_8vo_PLANES_DE_CLASE_PEC_OFICIO_2026.docx · capacidad literal del programa: «Analiza los derechos y obligaciones de los/as docentes.»
+- DPS_8vo_PLANES_DE_CLASE_PEC_OFICIO_2026.docx · capacidad literal del programa: «Reconoce casos de vulnerabilidad de Derechos y los procedimientos para realizar denuncias.»
+- DPS_8vo_PLANES_DE_CLASE_PEC_OFICIO_2026.docx · capacidad literal del programa: «Comprende la importancia de conformar organizaciones estudiantiles como proceso de estable»
+- DPS_8vo_PLANES_DE_CLASE_PEC_OFICIO_2026.docx · capacidad literal del programa: «Plantea actividades relacionadas al PEI que permitan desarrollar el sentido de pertenencia»
+- DPS_8vo_PLANES_DE_CLASE_PEC_OFICIO_2026.docx · capacidad literal del programa: «Establece relaciones armónicas con los integrantes de la comunidad educativa.»
+- DPS_8vo_PLANES_DE_CLASE_PEC_OFICIO_2026.docx · capacidad literal del programa: «Comprende la importancia de conformar organizaciones estudiantiles como proceso de estable»
+- DPS_8vo_PLANES_DE_CLASE_PEC_OFICIO_2026.docx · capacidad literal del programa: «Plantea actividades relacionadas al PEI que permitan desarrollar el sentido de pertenencia»
+- DPS_8vo_PLANES_DE_CLASE_PEC_OFICIO_2026.docx · capacidad literal del programa: «Identifica habilidades para la construcción de su identidad personal.»
+- DPS_8vo_PLANES_DE_CLASE_PEC_OFICIO_2026.docx · capacidad literal del programa: «Participa activamente en las organizaciones estudiantiles de su institución educativa»
+- DPS_8vo_PLANES_DE_CLASE_PEC_OFICIO_2026.docx · capacidad literal del programa: «Plantea actividades relacionadas al PEI que permitan desarrollar el sentido de pertenencia»
+- DPS_8vo_PLANES_DE_CLASE_PEC_OFICIO_2026.docx · capacidad literal del programa: «Elabora proyectos sobre prevención y mitigación de riesgo para el contexto escolar»
+- DPS_8vo_PLANES_DE_CLASE_PEC_OFICIO_2026.docx · capacidad literal del programa: «Comprende la importancia de conformar organizaciones estudiantiles como proceso de estable»
+- DPS_8vo_PLANES_DE_CLASE_PEC_OFICIO_2026.docx · capacidad literal del programa: «Participa activamente en las organizaciones estudiantiles de su institución educativa»
+- DPS_8vo_PLANES_DE_CLASE_PEC_OFICIO_2026.docx · capacidad literal del programa: «Toma conciencia sobre la importancia del proceso de enseñanza–aprendizaje como parte de su»
+- DPS_8vo_PLANES_DE_CLASE_PEC_OFICIO_2026.docx · capacidad literal del programa: «Elabora proyectos sobre prevención y mitigación de riesgo para el contexto escolar»
+- DPS_8vo_PLANES_DE_CLASE_PEC_OFICIO_2026.docx · capacidad literal del programa: «Participa activamente en las organizaciones estudiantiles de su institución educativa»
+- DPS_8vo_PLANES_DE_CLASE_PEC_OFICIO_2026.docx · capacidad literal del programa: «Planifica adecuadamente su tiempo para el estudio.»
+- DPS_8vo_PLANES_DE_CLASE_PEC_OFICIO_2026.docx · capacidad literal del programa: «Planifica adecuadamente su tiempo para el estudio.»
+- DPS_8vo_PLANES_DE_CLASE_PEC_OFICIO_2026.docx · capacidad literal del programa: «Practica medidas de prevención, mitigación y atención en situaciones de riesgos físicos y »
+- DPS_8vo_PLANES_DE_CLASE_PEC_OFICIO_2026.docx · capacidad literal del programa: «Elabora proyectos sobre prevención y mitigación de riesgo para el contexto escolar»
+- DPS_8vo_PLANES_DE_CLASE_PEC_OFICIO_2026.docx · capacidad literal del programa: «Toma conciencia sobre la importancia del proceso de enseñanza–aprendizaje como parte de su»
+- DPS_8vo_PLANES_DE_CLASE_PEC_OFICIO_2026.docx · capacidad literal del programa: «Planifica adecuadamente su tiempo para el estudio.»
+- DPS_8vo_PLANES_DE_CLASE_PEC_OFICIO_2026.docx · capacidad literal del programa: «Practica medidas de prevención, mitigación y atención en situaciones de riesgos físicos y »
+- DPS_8vo_PLANES_DE_CLASE_PEC_OFICIO_2026.docx · capacidad literal del programa: «Elabora proyectos sobre prevención y mitigación de riesgo para el contexto escolar»
+- DPS_8vo_PLANES_DE_CLASE_PEC_OFICIO_2026.docx · capacidad literal del programa: «Interpreta los criterios de evaluación a ser considerados en este nivel educativo.»
+- DPS_8vo_PLANES_DE_CLASE_PEC_OFICIO_2026.docx · capacidad literal del programa: «Elabora proyectos sobre prevención y mitigación de riesgo para el contexto escolar»
+- DPS_8vo_PLANES_DE_CLASE_PEC_OFICIO_2026.docx · capacidad literal del programa: «Practica medidas de prevención, mitigación y atención en situaciones de riesgos físicos y »
+- DPS_8vo_PLANES_DE_CLASE_PEC_OFICIO_2026.docx · capacidad literal del programa: «Elabora proyectos sobre prevención y mitigación de riesgo para el contexto escolar»
+- DPS_8vo_PLANES_DE_CLASE_PEC_OFICIO_2026.docx · capacidad literal del programa: «Comprende la importancia de conformar organizaciones estudiantiles como proceso de estable»
+- DPS_8vo_PLANES_DE_CLASE_PEC_OFICIO_2026.docx · capacidad literal del programa: «Participa activamente en las organizaciones estudiantiles de su institución educativa»
+- DPS_8vo_PLANES_DE_CLASE_PEC_OFICIO_2026.docx · capacidad literal del programa: «Toma conciencia sobre la importancia del proceso de enseñanza–aprendizaje como parte de su»
+- DPS_8vo_PLANES_DE_CLASE_PEC_OFICIO_2026.docx · capacidad literal del programa: «Planifica adecuadamente su tiempo para el estudio.»
+- DPS_8vo_PLANES_DE_CLASE_PEC_OFICIO_2026.docx · capacidad literal del programa: «Practica medidas de prevención, mitigación y atención en situaciones de riesgos físicos y »
+- DPS_8vo_PLANES_DE_CLASE_PEC_OFICIO_2026.docx · capacidad literal del programa: «Elabora proyectos sobre prevención y mitigación de riesgo para el contexto escolar»
+- DPS_8vo_SOLUCIONARIO_DOCENTE_PEC_OFICIO_2026.docx · sección 1 en oficio (21.6 × 33.0 cm)
+- DPS_8vo_SOLUCIONARIO_DOCENTE_PEC_OFICIO_2026.docx · sección 1 con márgenes de 1,27 cm
+- DPS_8vo_SOLUCIONARIO_DOCENTE_PEC_OFICIO_2026.docx · sección 2 en oficio (21.6 × 33.0 cm)
+- DPS_8vo_SOLUCIONARIO_DOCENTE_PEC_OFICIO_2026.docx · sección 2 con márgenes de 1,27 cm
+- DPS_8vo_SOLUCIONARIO_DOCENTE_PEC_OFICIO_2026.docx · sin el símbolo ✓
+- DPS_8vo_SOLUCIONARIO_DOCENTE_PEC_OFICIO_2026.docx · sin el símbolo ✗
+- DPS_8vo_SOLUCIONARIO_DOCENTE_PEC_OFICIO_2026.docx · sin el símbolo ✅
+- DPS_8vo_SOLUCIONARIO_DOCENTE_PEC_OFICIO_2026.docx · sin el símbolo ✔
+- DPS_8vo_SOLUCIONARIO_DOCENTE_PEC_OFICIO_2026.docx · sin el símbolo ✘
+- DPS_8vo_SOLUCIONARIO_DOCENTE_PEC_OFICIO_2026.docx · sin el símbolo ☑
+- DPS_8vo_SOLUCIONARIO_DOCENTE_PEC_OFICIO_2026.docx · sin el residuo «Vinculado a la unidad de Orientación correspondiente»
+- DPS_8vo_SOLUCIONARIO_DOCENTE_PEC_OFICIO_2026.docx · sin el residuo «no capacidad literal MEC»
+- DPS_8vo_SOLUCIONARIO_DOCENTE_PEC_OFICIO_2026.docx · sin el residuo «fichas 1–7»
+- DPS_8vo_SOLUCIONARIO_DOCENTE_PEC_OFICIO_2026.docx · sin el residuo «articulado con la unidad correspondiente»
+- DPS_8vo_SOLUCIONARIO_DOCENTE_PEC_OFICIO_2026.docx · sin el residuo «MINNA y el MITIC»
+- DPS_8vo_SOLUCIONARIO_DOCENTE_PEC_OFICIO_2026.docx · sin el residuo «Índice resumido. En Word»
+- DPS_8vo_SOLUCIONARIO_DOCENTE_PEC_OFICIO_2026.docx · sin el residuo «Mes 1:»
+- DPS_8vo_SOLUCIONARIO_DOCENTE_PEC_OFICIO_2026.docx · sin el residuo «Capacidades de la unidad: »
+- DPS_8vo_SOLUCIONARIO_DOCENTE_PEC_OFICIO_2026.docx · sin el residuo «Continuación práctica»
+- DPS_8vo_SOLUCIONARIO_DOCENTE_PEC_OFICIO_2026.docx · sin el residuo «Vinculado a la unidad»
+- DPS_8vo_SOLUCIONARIO_DOCENTE_PEC_OFICIO_2026.docx · sin marcado sin procesar
+- DPS_8vo_SOLUCIONARIO_DOCENTE_PEC_OFICIO_2026.docx · portada con imagen en la primera página
+- DPS_8vo_SOLUCIONARIO_DOCENTE_PEC_OFICIO_2026.docx · sin pedido de actualizar campos al abrir (índices estáticos)
+- DPS_8vo_SOLUCIONARIO_DOCENTE_PEC_OFICIO_2026.docx · sin índice dinámico vacío o desactualizado
+- Plan Anual · indicadores del Taller A iguales a la ficha del tomo
+- Plan Anual · indicadores del Taller B iguales a la ficha del tomo
+- Plan Anual · indicadores del Taller C iguales a la ficha del tomo
+- Plan Anual · indicadores del Taller D iguales a la ficha del tomo
+- Plan Anual · indicadores del Taller E iguales a la ficha del tomo
+- Plan Anual · indicadores del Taller F iguales a la ficha del tomo
+- Planes · seis fichas de taller PEC
+- Planes · indicadores del Taller A iguales a la ficha del tomo
+- Planes · indicadores del Taller B iguales a la ficha del tomo
+- Planes · indicadores del Taller C iguales a la ficha del tomo
+- Planes · indicadores del Taller D iguales a la ficha del tomo
+- Planes · indicadores del Taller E iguales a la ficha del tomo
+- Planes · indicadores del Taller F iguales a la ficha del tomo
+- Solucionario · Taller A en el encuentro 20
+- Solucionario · Taller B en el encuentro 22
+- Solucionario · Taller C en el encuentro 24
+- Solucionario · Taller D en el encuentro 27
+- Solucionario · Taller E en el encuentro 30
+- Solucionario · Taller F en el encuentro 33
+- Tomo: las 15 imágenes de la base candidata se conservan idénticas (SHA-256)
+- DPS_8vo_TOMO_INTEGRAL_PEC_OFICIO_2026.pdf · todas las páginas en oficio {(612, 936)}
+- DPS_8vo_TOMO_INTEGRAL_PEC_OFICIO_2026.pdf · sin páginas en blanco o residuales (llenado < 12 %): []
+- DPS_8vo_TOMO_INTEGRAL_PEC_OFICIO_2026.pdf · ninguna página contiene solo el espacio para anotaciones: []
+- DPS_8vo_SOLUCIONARIO_DOCENTE_PEC_OFICIO_2026.pdf · todas las páginas en oficio {(612, 936)}
+- DPS_8vo_SOLUCIONARIO_DOCENTE_PEC_OFICIO_2026.pdf · sin páginas en blanco o residuales (llenado < 12 %): []
+- DPS_8vo_SOLUCIONARIO_DOCENTE_PEC_OFICIO_2026.pdf · ninguna página contiene solo el espacio para anotaciones: []
+- Índice del tomo: las 54 entradas coinciden con la página del PDF []
+- Índice del Solucionario: las 56 entradas coinciden con la página del PDF []
+- Solucionario · la portada de texto anterior no se repite después de la portada
+- DPS_8vo_TOMO_INTEGRAL_PEC_OFICIO_2026 · PDF generado a partir del .docx entregado
+- DPS_8vo_SOLUCIONARIO_DOCENTE_PEC_OFICIO_2026 · PDF generado a partir del .docx entregado

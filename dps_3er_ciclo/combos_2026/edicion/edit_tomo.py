@@ -24,7 +24,7 @@ M.ANCHO = round(M.PAG_W - 2 * M.MARG, 2)
 
 def es_h(el, nivel):
     st = el.find('.//' + qn('w:pStyle'))
-    return el.tag == qn('w:p') and st is not None and st.get(qn('w:val')) == 'Heading%d' % nivel
+    return el.tag == qn('w:p') and st is not None and st.get(qn('w:val')) in ('Heading%d' % nivel, 'Ttulo%d' % nivel)   # 8.º: ids «Ttulo»
 
 
 def primer_el(d, pred):
@@ -47,8 +47,8 @@ def marcadores(body):
     els = [e for e in body if e.tag != qn('w:sectPr')]
     out = []
     for i, el in enumerate(els):
-        if pbb(el):
-            out.append((el, el))
+        if pbb(el):   # si el que abre página es un párrafo vacío, el texto que la abre es el del elemento siguiente
+            out.append((el, el if O.texto(el).strip() or i + 1 >= len(els) else els[i + 1]))
         elif el.tag == qn('w:p') and any(b.get(qn('w:type')) == 'page' for b in el.iter(qn('w:br'))) and i + 1 < len(els):
             if not O.texto(el).strip():   # párrafo vacío con salto: el texto siguiente abre la página
                 out.append((el, els[i + 1]))
@@ -61,10 +61,11 @@ def entradas_indice(d):
     for el in d.element.body:
         tx = O.texto(el).strip()
         if el.tag == qn('w:p'):
-            if es_h(el, 1) and tx and tx not in ('Presentación', 'Índice') and not tx.startswith('FICHA'):
-                E.append((1, tx))
-            elif es_h(el, 2) and re.match(r'^(Clase \d+|Ficha de profundización|Actividad complementaria)', tx):
+            sub = re.match(r'^(Clase \d+|Ficha de profundización|Actividad complementaria)', tx)
+            if (es_h(el, 1) or es_h(el, 2)) and sub:      # 7.º: clases en Heading 2; 8.º: en Heading 1
                 E.append((2, tx))
+            elif es_h(el, 1) and tx and tx not in ('Presentación', 'Índice') and not tx.startswith('FICHA'):
+                E.append((1, tx))
         elif el.tag == qn('w:tbl'):
             c0 = el.find('.//' + qn('w:tc'))
             t0 = O.texto(c0.find(qn('w:p'))).strip() if c0 is not None and c0.find(qn('w:p')) is not None else ''
@@ -127,6 +128,16 @@ def construir(paso_indice=None, notas=None):
         tr = t.findall(qn('w:tr'))[0]; tcs = tr.findall(qn('w:tc'))
         O.reemplazar_parrafo(tcs[0].find(qn('w:p')), 'Capacidad' if len(caps) == 1 else 'Capacidades')
         O.fijar_celda(tcs[1], [C['CAP'][k] for k in caps] if len(caps) == 1 else ['• ' + C['CAP'][k] for k in caps])
+    # 4 bis. bandas de unidad (8.º): «Capacidades de la unidad: …» parafraseadas → literales del programa
+    u = None
+    for el in body:
+        tx = O.texto(el).strip()
+        m = re.match(r'^UNIDAD (\d+) — ', tx)
+        if m and es_h(el, 1):
+            u = int(m.group(1))
+        elif u and el.tag == qn('w:p') and tx.startswith('Capacidades de la unidad: '):
+            O.reemplazar_parrafo(el, 'Capacidades de la unidad (programa MEC): ' + ' '.join('«%s»' % C['CAP'][k] for k in C['unidad_caps'][u]))
+            u = None
     # 5. módulo PEC: se reemplaza por la versión desarrollada (desde su título hasta el final)
     pec = primer_el(d, lambda el: es_h(el, 1) and O.texto(el).strip().startswith('PROYECTO EDUCATIVO COMUNITARIO'))
     els = list(body); i = els.index(pec)
@@ -141,6 +152,9 @@ def construir(paso_indice=None, notas=None):
         if a.tag == qn('w:p') and not O.texto(a).strip() and pbb(b):
             for br in [x for x in a.iter(qn('w:br')) if x.get(qn('w:type')) == 'page']:
                 br.getparent().remove(br)
+            # un párrafo vacío justo antes de un salto puede desbordar solo a una página en blanco: se quita
+            if a.find('.//' + qn('w:drawing')) is None and a.find('.//' + qn('w:sectPr')) is None:
+                body.remove(a)
     # 7. índice
     E = entradas_indice(d)
     escribir_indice(d, E, paso_indice or [0] * len(E))
@@ -149,6 +163,8 @@ def construir(paso_indice=None, notas=None):
         abre = marcadores(body)
         for k, n in notas.items():
             insertar_notas(d, abre[k][0], n)
+    for upd in d.settings.element.findall(qn('w:updateFields')):   # índice estático: sin aviso de actualizar campos
+        d.settings.element.remove(upd)
     return d, E
 
 
@@ -163,27 +179,36 @@ if __name__ == '__main__':
     ruta = OUT + NOMBRE + '.docx'
     d, E = construir(); d.save(ruta); pdf = O.a_pdf(ruta, OUT)
     pags, total = paginas(pdf, E)
-    # regla N-02: páginas que terminan una pieza con más del 55 % libre
+    # regla N-02: páginas que terminan una pieza con más del 55 % libre. Se mide sobre el PDF del mismo documento
+    # (con las anotaciones ya puestas) y solo se agregan anotaciones en los cortes que todavía no tienen.
     notas = {}
-    for ronda in range(1):
+    for ronda in range(4):
         doc = pymupdf.open(pdf)
-        d0, _ = construir(pags)            # mismo documento sin anotaciones, para ubicar los marcadores
-        abre = marcadores(d0.element.body)
+        abre = marcadores(d.element.body)
         textos = [re.sub(r'\s+', '', O.texto(t))[:40] for _, t in abre]
         norm = [re.sub(r'\s+', '', pg.get_text()) for pg in doc]
-        cur = max(j for j, x in enumerate(norm) if 'Losnúmerosdepáginacorresponden' in x or 'Índice' in x[:20]) + 1
+        cur = max(j for j, x in enumerate(norm) if 'Losnúmerosdepáginacorresponden' in x) + 1
+        nuevas_notas = {}
         for k, t in enumerate(textos):
             if not t:
                 continue
-            pg = next((j for j in range(cur, len(norm)) if t in norm[j]), None)
+            pg = next((j for j in range(cur, len(norm)) if norm[j].startswith(t[:25]) or t in norm[j][:200]), None)
             if pg is None:
                 continue
             cur = pg + 1
             prev = doc[pg - 1]
             fr = O.llenado(prev)
-            if pg - 1 >= 3 and fr < 0.45:
-                notas[k] = max(3, int((0.86 - fr) * prev.rect.height / 72 * 2.54 / 0.74) - 3)
-        break
+            if pg - 1 >= 3 and fr < 0.45 and k not in notas:
+                nuevas_notas[k] = max(3, int((0.86 - fr) * prev.rect.height / 72 * 2.54 / 0.74) - 3)
+            elif k in notas and norm[pg - 1].startswith('Espacioparaanotaciones'):
+                nuevas_notas[k] = None          # el espacio quedó solo en una página: se quita
+        if not nuevas_notas:
+            break
+        for k, n in nuevas_notas.items():
+            if n is None:
+                notas.pop(k)
+            else:
+                notas[k] = n
         d, E = construir(pags, notas); d.save(ruta); pdf = O.a_pdf(ruta, OUT)
         pags, total = paginas(pdf, E)
     for v in range(3):

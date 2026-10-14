@@ -99,7 +99,7 @@ Páginas: tomo 86 (candidata: 72) y Solucionario 19 (candidata: 13). En el contr
 
 Hashes de entrega: `verificacion/7mo/SHA256_ENTREGA.md`.
 
-**Observación abierta.** Las págs. 11, 42 y 51 del tomo tienen un llenado de entre el 19 % y el 29 %. Corresponden al cierre de una pieza seguida de otra que debe abrir página. Ya llevan su espacio de anotaciones. Se dejan a criterio del auditor.
+~~Observación abierta: págs. 11, 42 y 51 casi vacías.~~ Resuelta en la versión 2 (ver sección 7).
 
 ## 5. Cómo reproducir
 
@@ -127,3 +127,25 @@ Fuentes del módulo PEC: `edicion/fuente_pec/pec7_tomo.md` y `pec7_sol.md`. Conf
 > 8. Conservación de las 21 ilustraciones.
 >
 > Informá los hallazgos numerados con archivo, página o encuentro, y la corrección propuesta. Claude corregirá solo los hallazgos documentados.
+
+## 7. Versión 2 (posterior al commit `e76e6e6`)
+
+Al editar 8.º aparecieron cuatro mejoras de los scripts que también corresponden a 7.º. Se aplicaron antes de que la auditoría devolviera hallazgos. **ChatGPT debe auditar esta versión 2**, en el commit indicado por Claude.
+
+| N.º | Cambio | Archivos |
+|---|---|---|
+| V2-1 | Los indicadores de las seis filas PEC del Plan Anual y de las seis fichas de taller de los Planes son ahora los mismos que los de la ficha del taller en el tomo. Antes conservaban los dos indicadores genéricos de la candidata. | Plan Anual, Planes |
+| V2-2 | Las págs. 11, 42 y 51 del tomo (cierre de actividad complementaria antes de una evaluación) llevan ahora su espacio de anotaciones. En total hay 38 espacios y no queda ninguna página con menos del 30 % de llenado. | Tomo |
+| V2-3 | Se quitó la portada de texto de la candidata, que quedaba repetida en la página 2 detrás de la portada de imagen. | Solucionario (19 → 18 págs.) |
+| V2-4 | Se quitó el pedido de actualizar campos al abrir: la base traía dos. Los índices son estáticos y Word mostraba un aviso al abrir. | Tomo, Solucionario |
+
+Controles de la versión 2: **232 correctos y 0 fallos**. Se agregaron controles para:
+- la concordancia de indicadores PEC entre tomo, Plan Anual y Planes;
+- los encuentros de los talleres en el Solucionario;
+- la portada repetida;
+- las páginas ocupadas solo por el espacio de anotaciones;
+- los pedidos de actualizar campos.
+
+Páginas: tomo 86 y Solucionario 18. En el control interno, el Plan Anual tiene 14 páginas.
+
+**Nota sobre la extensión de las clases.** Las 21 clases de 7.º son más breves que las de 8.º: entre 400 y 750 palabras, frente a entre 930 y 1.590. Fernando autorizó completar y enriquecer las clases cortas. Para no cambiar el texto mientras ChatGPT audita, ese enriquecimiento se propone hacer junto con las correcciones de la auditoría, en una sola ronda.

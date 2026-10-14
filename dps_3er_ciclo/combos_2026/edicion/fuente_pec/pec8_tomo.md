@@ -107,8 +107,8 @@ El diagnóstico termina en una lista de necesidades escritas como situaciones co
 Una comisión propone reparar por su cuenta una instalación dañada. El docente aclara que los alumnos no intervienen instalaciones: describen el problema y lo comunican a la dirección para gestión profesional.
 
 [[CAJA ejemplo]]
-Avance de «Patio seguro» (caso ficticio). Durante dos semanas de agosto, el equipo de Lourdes, Ever, Abigail y Tadeo recuperó el semillero de la Clase 3 y lo puso a prueba. Con la profe Leticia observaron tres recreos desde la galería, junto a la docente de turno; aplicaron una encuesta anónima de tres preguntas a 64 estudiantes de 7.º, 8.º y 9.º; entrevistaron a la portera y a la encargada de la cantina, con cita previa; y abrieron el buzón del grado, donde encontraron 17 papelitos.
-La tabla muestra lo que encontraron. Ever quería escribir «los de 9.º corren como locos», pero el equipo lo cambió por un hecho: «14 carreras o empujones en la escalera en tres recreos». La baldosa floja no se tocó: Abigail la señaló a la docente, que avisó a la dirección ese mismo día.
+Avance de «Patio seguro» (caso ficticio). Durante dos semanas de agosto, el equipo de Araceli, Tobías, Milena y Santi recuperó el semillero de la Clase 3 y lo puso a prueba. Con la profe Leticia observaron tres recreos desde la galería, junto a la docente de turno; aplicaron una encuesta anónima de tres preguntas a 64 estudiantes de 7.º, 8.º y 9.º; entrevistaron a la portera y a la encargada de la cantina, con cita previa; y abrieron el buzón del grado, donde encontraron 17 papelitos.
+La tabla muestra lo que encontraron. Tobías quería escribir «los de 9.º corren como locos», pero el equipo lo cambió por un hecho: «14 carreras o empujones en la escalera en tres recreos». La baldosa floja no se tocó: Milena la señaló a la docente, que avisó a la dirección ese mismo día.
 [[/CAJA]]
 
 [[TABLA]]
@@ -210,7 +210,7 @@ Unos compañeros quieren escoger el tema más vistoso para las fotos; otra parte
 
 [[CAJA ejemplo]]
 Avance de «Patio seguro» (caso ficticio). A fines de agosto, cada equipo puntuó las cinco necesidades de la Ficha 1 y luego el grado acordó la matriz común que aparece en la tabla. Las dos primeras quedaron casi empatadas y ocurren en el mismo lugar y momento, así que el grado decidió unirlas en un solo problema: «En el recreo se corre y se empuja en la escalera, y muchos no saben a dónde ir ante una emergencia».
-Hubo debate. Mirna quería elegir la cantina porque «se ve más en las fotos»; Nicolás le respondió con datos: 38 de 64 estudiantes no conocen el punto de encuentro. La baldosa floja obtuvo 1 en posibilidad: Tadeo y Lourdes redactaron con la docente una nota para la dirección.
+Hubo debate. Mirna quería elegir la cantina porque «se ve más en las fotos»; Nicolás le respondió con datos: 38 de 64 estudiantes no conocen el punto de encuentro. La baldosa floja obtuvo 1 en posibilidad: Santi y Araceli redactaron con la docente una nota para la dirección.
 Fundamentación del grado: «Elegimos este problema porque afecta a todos los que usan la escalera y el patio, porque una emergencia sin rutas conocidas puede causar daños y porque podemos atenderlo con información, práctica y acuerdos de convivencia, sin obras ni gastos».
 [[/CAJA]]
 
@@ -415,7 +415,7 @@ Cada actividad importante tiene, además, un plan alternativo. Si llueve el día
 El cronograma fija una jornada al aire libre, pero podría llover. También faltan materiales previstos. ¿Cómo se prepara un plan alternativo?
 
 [[CAJA ejemplo]]
-Avance de «Patio seguro» (caso ficticio). A fines de septiembre, el grado repartió roles: Lourdes quedó en coordinación, Ever y Mirna en comunicación, Abigail en registro, Tadeo en materiales e Iván en enlace, siempre acompañado por la profe Leticia. El centro de estudiantes ofreció difundir la campaña y el club de arte, ayudar con los afiches. La dirección autorizó la campaña por nota y pidió que el personal auxiliar colocara los afiches, para que nadie subiera a sillas ni escaleras.
+Avance de «Patio seguro» (caso ficticio). A fines de septiembre, el grado repartió roles: Araceli quedó en coordinación, Tobías y Mirna en comunicación, Milena en registro, Santi en materiales e Iván en enlace, siempre acompañado por la profe Leticia. El centro de estudiantes ofreció difundir la campaña y el club de arte, ayudar con los afiches. La dirección autorizó la campaña por nota y pidió que el personal auxiliar colocara los afiches, para que nadie subiera a sillas ni escaleras.
 Recursos: papel reutilizado y marcadores del aula; cinta de papel donada voluntariamente por una familia. Costo para los estudiantes: cero. Plan alternativo: si llueve o se suspende la formación, el «minuto seguro» se lee en cada aula.
 [[/CAJA]]
 
@@ -517,7 +517,7 @@ También puede ocurrir que una actividad no se realice: la formación se suspend
 Durante una actividad, un estudiante sugiere publicar fotos con nombres de todos los participantes para mostrar avances. ¿Qué decisión protege la privacidad?
 
 [[CAJA ejemplo]]
-Avance de «Patio seguro» (caso ficticio). En octubre, Abigail llevó la bitácora del grado y Hugo, su suplente, la reemplazó cuando ella faltó. La tabla muestra tres entradas.
+Avance de «Patio seguro» (caso ficticio). En octubre, Milena llevó la bitácora del grado y Hugo, su suplente, la reemplazó cuando ella faltó. La tabla muestra tres entradas.
 El 16 de octubre, un compañero propuso subir al grupo del colegio una foto de la charla con todos los participantes. El equipo decidió fotografiar solo el afiche y el pizarrón con la secuencia de aviso y evacuación, porque no había autorización para mostrar rostros. A mitad de mes, el primer conteo de recreo dio 11 episodios: el grado pidió a la dirección mover un afiche al pie de la escalera.
 [[/CAJA]]
 

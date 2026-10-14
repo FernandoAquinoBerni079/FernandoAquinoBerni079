@@ -1,0 +1,297 @@
+{
+"entradas": [
+[
+1,
+"Prueba diagnóstica — ¿Qué sabés ya?"
+],
+[
+1,
+"UNIDAD 1 — SENTIDO DE PERTENENCIA"
+],
+[
+2,
+"Clase 1 — Mi comunidad educativa: nuevas caras, mismos objetivos"
+],
+[
+2,
+"Clase 2 — ¿Cómo me van a evaluar este año?"
+],
+[
+2,
+"Clase 3 — El PEI y nuestros proyectos: dejar huella en el colegio"
+],
+[
+2,
+"EVALUACIÓN DE LA UNIDAD 1"
+],
+[
+1,
+"UNIDAD 2 — AUTOCONOCIMIENTO"
+],
+[
+2,
+"Clase 4 — Cambiando: la adolescencia por dentro y por fuera"
+],
+[
+2,
+"Clase 5 — Autoestima: conocerme, aceptarme, valorarme"
+],
+[
+2,
+"Clase 6 — Identidad, habilidades sociales y asertividad"
+],
+[
+2,
+"EVALUACIÓN DE LA UNIDAD 2"
+],
+[
+1,
+"UNIDAD 3 — VIDA AFECTIVA"
+],
+[
+2,
+"Clase 7 — Los estados afectivos: sentir, expresar, regular"
+],
+[
+2,
+"Clase 8 — Sexualidad: mucho más que biología"
+],
+[
+2,
+"Clase 9 — Noviazgo sin violencia y embarazo adolescente"
+],
+[
+2,
+"Clase 10 — Adicciones, tribus urbanas y mi red de apoyo"
+],
+[
+2,
+"EVALUACIÓN DE LA UNIDAD 3"
+],
+[
+1,
+"UNIDAD 4 — DERECHOS Y RESPONSABILIDADES"
+],
+[
+2,
+"Clase 11 — Los Derechos Humanos y el derecho a la educación"
+],
+[
+2,
+"Clase 12 — Derechos y obligaciones de docentes y estudiantes"
+],
+[
+2,
+"Clase 13 — Cuando un derecho se vulnera: rutas de protección"
+],
+[
+2,
+"EVALUACIÓN DE LA UNIDAD 4"
+],
+[
+1,
+"EVALUACIÓN INTEGRADORA · 1.ª ETAPA"
+],
+[
+1,
+"UNIDAD 5 — ORGANIZACIONES ESTUDIANTILES"
+],
+[
+2,
+"Clase 14 — El centro de estudiantes: nuestra voz organizada"
+],
+[
+2,
+"Actividad complementaria 1 (opcional) — Leer el estatuto antes de organizarse"
+],
+[
+2,
+"Clase 15 — Conformar el centro: elecciones y líderes que sirven"
+],
+[
+2,
+"Actividad complementaria 2 (opcional) — Simulación electoral conforme a un estatuto"
+],
+[
+2,
+"Clase 16 — Los clubes escolares: participar desde lo que te gusta"
+],
+[
+2,
+"EVALUACIÓN DE LA UNIDAD 5"
+],
+[
+2,
+"Actividad complementaria 3 (opcional) — Del club en papel a una acción piloto"
+],
+[
+1,
+"UNIDAD 6 — ORGANIZACIÓN Y PLANIFICACIÓN"
+],
+[
+2,
+"Clase 17 — El proceso de enseñanza-aprendizaje: un trabajo de a dos"
+],
+[
+2,
+"Actividad complementaria 4 (opcional) — Auditoría de condiciones para aprender"
+],
+[
+2,
+"Clase 18 — Mis 24 horas: el mapa del tiempo"
+],
+[
+2,
+"Clase 19 — Mi plan personal de estudio"
+],
+[
+2,
+"EVALUACIÓN DE LA UNIDAD 6"
+],
+[
+2,
+"Actividad complementaria 5 (opcional) — Una semana real: probar y ajustar mi plan de estudio"
+],
+[
+1,
+"UNIDAD 7 — GESTIÓN DE RIESGO"
+],
+[
+2,
+"Clase 20 — Gestión de riesgo: prevenir, mitigar, responder"
+],
+[
+2,
+"Actividad complementaria 6 (opcional) — Mapa de riesgos y simulación segura"
+],
+[
+2,
+"Clase 21 — Nuestro proyecto de prevención: el 8.º deja huella"
+],
+[
+2,
+"EVALUACIÓN DE LA UNIDAD 7"
+],
+[
+1,
+"EVALUACIÓN INTEGRADORA · 2.ª ETAPA"
+],
+[
+1,
+"PROYECTO EDUCATIVO COMUNITARIO"
+],
+[
+1,
+"Proyecto modelo del 8.º grado"
+],
+[
+1,
+"TALLER PEC A · Mirar antes de actuar"
+],
+[
+1,
+"TALLER PEC B · Elegir con razones"
+],
+[
+1,
+"TALLER PEC C · Pasar de la idea al plan"
+],
+[
+1,
+"TALLER PEC D · Organizar para cumplir"
+],
+[
+1,
+"TALLER PEC E · Actuar y registrar"
+],
+[
+1,
+"TALLER PEC F · Aprender de los resultados"
+],
+[
+1,
+"CARPETA DE TRABAJO — FICHAS DEL PEC"
+],
+[
+1,
+"Evaluación formativa del Proyecto Educativo Comunitario"
+]
+],
+"paginas": [
+4,
+5,
+5,
+9,
+11,
+14,
+14,
+14,
+17,
+20,
+23,
+24,
+24,
+27,
+30,
+33,
+36,
+36,
+37,
+40,
+43,
+46,
+47,
+49,
+49,
+52,
+52,
+55,
+55,
+58,
+59,
+59,
+59,
+62,
+62,
+65,
+68,
+69,
+69,
+69,
+73,
+73,
+76,
+77,
+79,
+81,
+82,
+85,
+88,
+91,
+94,
+97,
+100,
+102
+],
+"total": 102,
+"notas": {
+"2": 25,
+"3": 32,
+"5": 22,
+"7": 21,
+"8": 28,
+"12": 29,
+"13": 21,
+"15": 31,
+"22": 29,
+"24": 28,
+"27": 33,
+"28": 30,
+"30": 23,
+"31": 23,
+"32": 25,
+"33": 21,
+"34": 27,
+"35": 23
+}
+}

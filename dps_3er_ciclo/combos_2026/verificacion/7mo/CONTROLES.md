@@ -2,13 +2,13 @@
 
 Generado por `edicion/verificar.py`. Son controles del productor: no reemplazan la auditoría independiente.
 
-**190 controles correctos · 0 fallos**
+**232 controles correctos · 0 fallos**
 
 ## Datos
 
 - Imágenes del tomo: base 21 · editado 22 (la diferencia es la portada)
 - DPS_7mo_TOMO_INTEGRAL_PEC_OFICIO_2026.pdf: 86 páginas
-- DPS_7mo_SOLUCIONARIO_DOCENTE_PEC_OFICIO_2026.pdf: 19 páginas
+- DPS_7mo_SOLUCIONARIO_DOCENTE_PEC_OFICIO_2026.pdf: 18 páginas
 
 ## Controles correctos
 
@@ -29,8 +29,13 @@ Generado por `edicion/verificar.py`. Son controles del productor: no reemplazan 
 - DPS_7mo_TOMO_INTEGRAL_PEC_OFICIO_2026.docx · sin el residuo «MINNA y el MITIC»
 - DPS_7mo_TOMO_INTEGRAL_PEC_OFICIO_2026.docx · sin el residuo «Índice resumido. En Word»
 - DPS_7mo_TOMO_INTEGRAL_PEC_OFICIO_2026.docx · sin el residuo «Mes 1:»
+- DPS_7mo_TOMO_INTEGRAL_PEC_OFICIO_2026.docx · sin el residuo «Capacidades de la unidad: »
+- DPS_7mo_TOMO_INTEGRAL_PEC_OFICIO_2026.docx · sin el residuo «Continuación práctica»
+- DPS_7mo_TOMO_INTEGRAL_PEC_OFICIO_2026.docx · sin el residuo «Vinculado a la unidad»
 - DPS_7mo_TOMO_INTEGRAL_PEC_OFICIO_2026.docx · sin marcado sin procesar
 - DPS_7mo_TOMO_INTEGRAL_PEC_OFICIO_2026.docx · portada con imagen en la primera página
+- DPS_7mo_TOMO_INTEGRAL_PEC_OFICIO_2026.docx · sin pedido de actualizar campos al abrir (índices estáticos)
+- DPS_7mo_TOMO_INTEGRAL_PEC_OFICIO_2026.docx · sin índice dinámico vacío o desactualizado
 - DPS_7mo_TOMO_INTEGRAL_PEC_OFICIO_2026.docx · capacidad literal del programa: «Valora la importancia de integrarse y pertenecer a la comunidad educativa.»
 - DPS_7mo_TOMO_INTEGRAL_PEC_OFICIO_2026.docx · capacidad literal del programa: «Reconoce la organización interna de la institución educativa.»
 - DPS_7mo_TOMO_INTEGRAL_PEC_OFICIO_2026.docx · capacidad literal del programa: «Valora la importancia de integrarse y pertenecer a la comunidad educativa.»
@@ -83,8 +88,13 @@ Generado por `edicion/verificar.py`. Son controles del productor: no reemplazan 
 - DPS_7mo_PLAN_ANUAL_PEC_OFICIO_2026.docx · sin el residuo «MINNA y el MITIC»
 - DPS_7mo_PLAN_ANUAL_PEC_OFICIO_2026.docx · sin el residuo «Índice resumido. En Word»
 - DPS_7mo_PLAN_ANUAL_PEC_OFICIO_2026.docx · sin el residuo «Mes 1:»
+- DPS_7mo_PLAN_ANUAL_PEC_OFICIO_2026.docx · sin el residuo «Capacidades de la unidad: »
+- DPS_7mo_PLAN_ANUAL_PEC_OFICIO_2026.docx · sin el residuo «Continuación práctica»
+- DPS_7mo_PLAN_ANUAL_PEC_OFICIO_2026.docx · sin el residuo «Vinculado a la unidad»
 - DPS_7mo_PLAN_ANUAL_PEC_OFICIO_2026.docx · sin marcado sin procesar
 - DPS_7mo_PLAN_ANUAL_PEC_OFICIO_2026.docx · portada con imagen en la primera página
+- DPS_7mo_PLAN_ANUAL_PEC_OFICIO_2026.docx · sin pedido de actualizar campos al abrir (índices estáticos)
+- DPS_7mo_PLAN_ANUAL_PEC_OFICIO_2026.docx · sin índice dinámico vacío o desactualizado
 - DPS_7mo_PLANES_DE_CLASE_PEC_OFICIO_2026.docx · sección 1 en oficio (21.6 × 33.0 cm)
 - DPS_7mo_PLANES_DE_CLASE_PEC_OFICIO_2026.docx · sección 1 con márgenes de 1,27 cm
 - DPS_7mo_PLANES_DE_CLASE_PEC_OFICIO_2026.docx · sección 2 en oficio (21.6 × 33.0 cm)
@@ -102,8 +112,13 @@ Generado por `edicion/verificar.py`. Son controles del productor: no reemplazan 
 - DPS_7mo_PLANES_DE_CLASE_PEC_OFICIO_2026.docx · sin el residuo «MINNA y el MITIC»
 - DPS_7mo_PLANES_DE_CLASE_PEC_OFICIO_2026.docx · sin el residuo «Índice resumido. En Word»
 - DPS_7mo_PLANES_DE_CLASE_PEC_OFICIO_2026.docx · sin el residuo «Mes 1:»
+- DPS_7mo_PLANES_DE_CLASE_PEC_OFICIO_2026.docx · sin el residuo «Capacidades de la unidad: »
+- DPS_7mo_PLANES_DE_CLASE_PEC_OFICIO_2026.docx · sin el residuo «Continuación práctica»
+- DPS_7mo_PLANES_DE_CLASE_PEC_OFICIO_2026.docx · sin el residuo «Vinculado a la unidad»
 - DPS_7mo_PLANES_DE_CLASE_PEC_OFICIO_2026.docx · sin marcado sin procesar
 - DPS_7mo_PLANES_DE_CLASE_PEC_OFICIO_2026.docx · portada con imagen en la primera página
+- DPS_7mo_PLANES_DE_CLASE_PEC_OFICIO_2026.docx · sin pedido de actualizar campos al abrir (índices estáticos)
+- DPS_7mo_PLANES_DE_CLASE_PEC_OFICIO_2026.docx · sin índice dinámico vacío o desactualizado
 - DPS_7mo_PLANES_DE_CLASE_PEC_OFICIO_2026.docx · capacidad literal del programa: «Valora la importancia de integrarse y pertenecer a la comunidad educativa.»
 - DPS_7mo_PLANES_DE_CLASE_PEC_OFICIO_2026.docx · capacidad literal del programa: «Reconoce la organización interna de la institución educativa.»
 - DPS_7mo_PLANES_DE_CLASE_PEC_OFICIO_2026.docx · capacidad literal del programa: «Valora la importancia de integrarse y pertenecer a la comunidad educativa.»
@@ -192,13 +207,40 @@ Generado por `edicion/verificar.py`. Son controles del productor: no reemplazan 
 - DPS_7mo_SOLUCIONARIO_DOCENTE_PEC_OFICIO_2026.docx · sin el residuo «MINNA y el MITIC»
 - DPS_7mo_SOLUCIONARIO_DOCENTE_PEC_OFICIO_2026.docx · sin el residuo «Índice resumido. En Word»
 - DPS_7mo_SOLUCIONARIO_DOCENTE_PEC_OFICIO_2026.docx · sin el residuo «Mes 1:»
+- DPS_7mo_SOLUCIONARIO_DOCENTE_PEC_OFICIO_2026.docx · sin el residuo «Capacidades de la unidad: »
+- DPS_7mo_SOLUCIONARIO_DOCENTE_PEC_OFICIO_2026.docx · sin el residuo «Continuación práctica»
+- DPS_7mo_SOLUCIONARIO_DOCENTE_PEC_OFICIO_2026.docx · sin el residuo «Vinculado a la unidad»
 - DPS_7mo_SOLUCIONARIO_DOCENTE_PEC_OFICIO_2026.docx · sin marcado sin procesar
 - DPS_7mo_SOLUCIONARIO_DOCENTE_PEC_OFICIO_2026.docx · portada con imagen en la primera página
+- DPS_7mo_SOLUCIONARIO_DOCENTE_PEC_OFICIO_2026.docx · sin pedido de actualizar campos al abrir (índices estáticos)
+- DPS_7mo_SOLUCIONARIO_DOCENTE_PEC_OFICIO_2026.docx · sin índice dinámico vacío o desactualizado
+- Plan Anual · indicadores del Taller A iguales a la ficha del tomo
+- Plan Anual · indicadores del Taller B iguales a la ficha del tomo
+- Plan Anual · indicadores del Taller C iguales a la ficha del tomo
+- Plan Anual · indicadores del Taller D iguales a la ficha del tomo
+- Plan Anual · indicadores del Taller E iguales a la ficha del tomo
+- Plan Anual · indicadores del Taller F iguales a la ficha del tomo
+- Planes · seis fichas de taller PEC
+- Planes · indicadores del Taller A iguales a la ficha del tomo
+- Planes · indicadores del Taller B iguales a la ficha del tomo
+- Planes · indicadores del Taller C iguales a la ficha del tomo
+- Planes · indicadores del Taller D iguales a la ficha del tomo
+- Planes · indicadores del Taller E iguales a la ficha del tomo
+- Planes · indicadores del Taller F iguales a la ficha del tomo
+- Solucionario · Taller A en el encuentro 4
+- Solucionario · Taller B en el encuentro 21
+- Solucionario · Taller C en el encuentro 23
+- Solucionario · Taller D en el encuentro 26
+- Solucionario · Taller E en el encuentro 29
+- Solucionario · Taller F en el encuentro 32
 - Tomo: las 21 imágenes de la base candidata se conservan idénticas (SHA-256)
 - DPS_7mo_TOMO_INTEGRAL_PEC_OFICIO_2026.pdf · todas las páginas en oficio {(612, 936)}
 - DPS_7mo_TOMO_INTEGRAL_PEC_OFICIO_2026.pdf · sin páginas en blanco o residuales (llenado < 12 %): []
+- DPS_7mo_TOMO_INTEGRAL_PEC_OFICIO_2026.pdf · ninguna página contiene solo el espacio para anotaciones: []
 - DPS_7mo_SOLUCIONARIO_DOCENTE_PEC_OFICIO_2026.pdf · todas las páginas en oficio {(612, 936)}
 - DPS_7mo_SOLUCIONARIO_DOCENTE_PEC_OFICIO_2026.pdf · sin páginas en blanco o residuales (llenado < 12 %): []
+- DPS_7mo_SOLUCIONARIO_DOCENTE_PEC_OFICIO_2026.pdf · ninguna página contiene solo el espacio para anotaciones: []
 - Índice del tomo: las 54 entradas coinciden con la página del PDF []
+- Solucionario · la portada de texto anterior no se repite después de la portada
 - DPS_7mo_TOMO_INTEGRAL_PEC_OFICIO_2026 · PDF generado a partir del .docx entregado
 - DPS_7mo_SOLUCIONARIO_DOCENTE_PEC_OFICIO_2026 · PDF generado a partir del .docx entregado
