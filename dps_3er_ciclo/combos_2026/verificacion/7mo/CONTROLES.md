@@ -2,10 +2,11 @@
 
 Generado por `edicion/verificar.py`. Son controles del productor: no reemplazan la auditoría independiente.
 
-**249 controles correctos · 0 fallos**
+**267 controles correctos · 0 fallos**
 
 ## Datos
 
+- Programa: programa_DPS_7mo_MEC.pdf (2 Paraguay: Ministerio de Educación y Cultura (2014). Programa de Estudio: Desarrollo Pers), págs. 54-57
 - Imágenes del tomo: base 21 · editado 22 (la diferencia es la portada)
 - DPS_7mo_TOMO_INTEGRAL_PEC_OFICIO_2026.pdf: 86 páginas
 - DPS_7mo_SOLUCIONARIO_DOCENTE_PEC_OFICIO_2026.pdf: 18 páginas
@@ -250,6 +251,24 @@ Generado por `edicion/verificar.py`. Son controles del productor: no reemplazan 
 - Tomo · TALLER PEC E · abre con su ficha PEC
 - Tomo · TALLER PEC F · abre con su ficha PEC
 - Solucionario · respuestas esperadas para los seis talleres
+- Capacidad 1 literal en el programa MEC: «Valora la importancia de integrarse y pertenecer a la comunidad educat»
+- Capacidad 2 literal en el programa MEC: «Reconoce la organización interna de la institución educativa.»
+- Capacidad 3 literal en el programa MEC: «Reconoce sus fortalezas, debilidades, intereses, habilidades y oportun»
+- Capacidad 4 literal en el programa MEC: «Expresa su habilidad de sentir, pensar y actuar como elementos que se »
+- Capacidad 5 literal en el programa MEC: «Valora la relación afectiva positiva entre los miembros de la familia »
+- Capacidad 6 literal en el programa MEC: «Analiza las causas y las consecuencias del uso y abuso de la tecnologí»
+- Capacidad 7 literal en el programa MEC: «Reconoce que los cambios que se generan en la pubertad y en la adolesc»
+- Capacidad 8 literal en el programa MEC: «Analiza los artículos referentes a sus derechos y sus responsabilidade»
+- Capacidad 9 literal en el programa MEC: «Reflexiona sobre los principales artículos relacionados con la No disc»
+- Capacidad 10 literal en el programa MEC: «Reconoce la importancia de conocer las leyes que protegen a los niños,»
+- Capacidad 11 literal en el programa MEC: «Identifica los diferentes tipos de liderazgo.»
+- Capacidad 12 literal en el programa MEC: «Participa con actitud democrática en el proceso de elección del Parlam»
+- Capacidad 13 literal en el programa MEC: «Valora la importancia de una correcta elección de autoridades y su inc»
+- Capacidad 14 literal en el programa MEC: «Asume la responsabilidad de pertenecer a un grupo considerando sus hab»
+- Capacidad 15 literal en el programa MEC: «Analiza las condiciones de organización para el estudio.»
+- Capacidad 16 literal en el programa MEC: «Planifica adecuadamente su tiempo para el estudio.»
+- Capacidad 17 literal en el programa MEC: «Identifica las medidas de prevención y mitigación en situaciones de ri»
+- Capacidad 18 literal en el programa MEC: «Aplica normas de comportamiento en caso de riesgos.»
 - Tomo: las 21 imágenes de la base candidata se conservan idénticas (SHA-256)
 - DPS_7mo_TOMO_INTEGRAL_PEC_OFICIO_2026.pdf · todas las páginas en oficio {(612, 936)}
 - DPS_7mo_TOMO_INTEGRAL_PEC_OFICIO_2026.pdf · sin páginas en blanco o residuales (llenado < 12 %): []

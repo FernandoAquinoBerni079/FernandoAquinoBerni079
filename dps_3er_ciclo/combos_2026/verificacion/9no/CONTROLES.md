@@ -2,10 +2,11 @@
 
 Generado por `edicion/verificar.py`. Son controles del productor: no reemplazan la auditoría independiente.
 
-**334 controles correctos · 0 fallos**
+**347 controles correctos · 0 fallos**
 
 ## Datos
 
+- Programa: programa_DPS_9no_MEC_2014.pdf (2 Paraguay: Ministerio de Educación y Cultura (2014). Programa de Estudio: Desarrollo Pers), págs. 52-56
 - Imágenes del tomo: base 19 · editado 20 (la diferencia es la portada)
 - DPS_9no_TOMO_INTEGRAL_PEC_OFICIO_2026.pdf: 90 páginas
 - DPS_9no_SOLUCIONARIO_DOCENTE_PEC_OFICIO_2026.pdf: 19 páginas
@@ -40,10 +41,10 @@ Generado por `edicion/verificar.py`. Son controles del productor: no reemplazan 
 - DPS_9no_TOMO_INTEGRAL_PEC_OFICIO_2026.docx · capacidades citadas del programa: ««Establece relaciones armónicas en su comunicación interpersonal con los miembros de la co»
 - DPS_9no_TOMO_INTEGRAL_PEC_OFICIO_2026.docx · capacidades citadas del programa: ««Reconoce la importancia de conocerse a sí mismo, sus intereses, sus habilidades, sus pote»
 - DPS_9no_TOMO_INTEGRAL_PEC_OFICIO_2026.docx · capacidades citadas del programa: ««Expresa sus emociones de manera equilibrada, demostrando autocontrol en sus actividades.»»
-- DPS_9no_TOMO_INTEGRAL_PEC_OFICIO_2026.docx · capacidades citadas del programa: ««Emprende acciones que promuevan el cumplimiento de los artículos de los DD. HH. referente»
+- DPS_9no_TOMO_INTEGRAL_PEC_OFICIO_2026.docx · capacidades citadas del programa: ««Emprende acciones que promuevan el cumplimiento de los artículos de los DD. HH referentes»
 - DPS_9no_TOMO_INTEGRAL_PEC_OFICIO_2026.docx · capacidades citadas del programa: ««Analiza los procesos democráticos de elección de autoridades de la comunidad educativa en»
 - DPS_9no_TOMO_INTEGRAL_PEC_OFICIO_2026.docx · capacidades citadas del programa: ««Elabora su cronograma de actividades considerando como eje principal su proceso de aprend»
-- DPS_9no_TOMO_INTEGRAL_PEC_OFICIO_2026.docx · capacidades citadas del programa: ««Diagnostica situaciones de riesgo en su ámbito familiar, escolar y comunitario.» «Conside»
+- DPS_9no_TOMO_INTEGRAL_PEC_OFICIO_2026.docx · capacidades citadas del programa: ««Diagnostica situaciones de riesgo en su ámbito familiar, escolar y en su comunidad.» «Con»
 - DPS_9no_TOMO_INTEGRAL_PEC_OFICIO_2026.docx · capacidad literal del programa: «Establece relaciones armónicas en su comunicación interpersonal con los miembros de la com»
 - DPS_9no_TOMO_INTEGRAL_PEC_OFICIO_2026.docx · capacidad literal del programa: «Establece relaciones armónicas en su comunicación interpersonal con los miembros de la com»
 - DPS_9no_TOMO_INTEGRAL_PEC_OFICIO_2026.docx · capacidad literal del programa: «Interpreta los criterios de evaluación a ser considerados en el noveno grado en sus distin»
@@ -53,10 +54,10 @@ Generado por `edicion/verificar.py`. Son controles del productor: no reemplazan 
 - DPS_9no_TOMO_INTEGRAL_PEC_OFICIO_2026.docx · capacidad literal del programa: «Interpreta lo positivo de una Orientación Vocacional para la acertada elección del Bachill»
 - DPS_9no_TOMO_INTEGRAL_PEC_OFICIO_2026.docx · capacidad literal del programa: «Expresa sus emociones de manera equilibrada, demostrando autocontrol en sus actividades.»
 - DPS_9no_TOMO_INTEGRAL_PEC_OFICIO_2026.docx · capacidad literal del programa: «Expresa sus emociones de manera equilibrada, demostrando autocontrol en sus actividades.»
-- DPS_9no_TOMO_INTEGRAL_PEC_OFICIO_2026.docx · capacidad literal del programa: «Conoce la implicancia de la sexualidad como un todo y su enfoque desde la perspectiva de d»
-- DPS_9no_TOMO_INTEGRAL_PEC_OFICIO_2026.docx · capacidad literal del programa: «Conoce la implicancia de la sexualidad como un todo y su enfoque desde la perspectiva de d»
-- DPS_9no_TOMO_INTEGRAL_PEC_OFICIO_2026.docx · capacidad literal del programa: «Emprende acciones que promuevan el cumplimiento de los artículos de los DD. HH. referentes»
-- DPS_9no_TOMO_INTEGRAL_PEC_OFICIO_2026.docx · capacidad literal del programa: «Emprende acciones que promuevan el cumplimiento de los artículos de los DD. HH. referentes»
+- DPS_9no_TOMO_INTEGRAL_PEC_OFICIO_2026.docx · capacidad literal del programa: «Conoce la implicancia de la sexualidad como componente de la personalidad.»
+- DPS_9no_TOMO_INTEGRAL_PEC_OFICIO_2026.docx · capacidad literal del programa: «Conoce la implicancia de la sexualidad como componente de la personalidad.»
+- DPS_9no_TOMO_INTEGRAL_PEC_OFICIO_2026.docx · capacidad literal del programa: «Emprende acciones que promuevan el cumplimiento de los artículos de los DD. HH referentes »
+- DPS_9no_TOMO_INTEGRAL_PEC_OFICIO_2026.docx · capacidad literal del programa: «Emprende acciones que promuevan el cumplimiento de los artículos de los DD. HH referentes »
 - DPS_9no_TOMO_INTEGRAL_PEC_OFICIO_2026.docx · capacidad literal del programa: «Analiza los procesos democráticos de elección de autoridades de la comunidad educativa en »
 - DPS_9no_TOMO_INTEGRAL_PEC_OFICIO_2026.docx · capacidad literal del programa: «Analiza los procesos democráticos de elección de autoridades de la comunidad educativa en »
 - DPS_9no_TOMO_INTEGRAL_PEC_OFICIO_2026.docx · capacidad literal del programa: «Participa activamente y con conocimientos adecuados en el proceso de conformación del Cent»
@@ -68,27 +69,27 @@ Generado por `edicion/verificar.py`. Son controles del productor: no reemplazan 
 - DPS_9no_TOMO_INTEGRAL_PEC_OFICIO_2026.docx · capacidad literal del programa: «Elabora su cronograma de actividades considerando como eje principal su proceso de aprendi»
 - DPS_9no_TOMO_INTEGRAL_PEC_OFICIO_2026.docx · capacidad literal del programa: «Elabora su cronograma de actividades considerando como eje principal su proceso de aprendi»
 - DPS_9no_TOMO_INTEGRAL_PEC_OFICIO_2026.docx · capacidad literal del programa: «Elabora su cronograma de actividades considerando como eje principal su proceso de aprendi»
-- DPS_9no_TOMO_INTEGRAL_PEC_OFICIO_2026.docx · capacidad literal del programa: «Diagnostica situaciones de riesgo en su ámbito familiar, escolar y comunitario.»
-- DPS_9no_TOMO_INTEGRAL_PEC_OFICIO_2026.docx · capacidad literal del programa: «Diagnostica situaciones de riesgo en su ámbito familiar, escolar y comunitario.»
+- DPS_9no_TOMO_INTEGRAL_PEC_OFICIO_2026.docx · capacidad literal del programa: «Diagnostica situaciones de riesgo en su ámbito familiar, escolar y en su comunidad.»
+- DPS_9no_TOMO_INTEGRAL_PEC_OFICIO_2026.docx · capacidad literal del programa: «Diagnostica situaciones de riesgo en su ámbito familiar, escolar y en su comunidad.»
 - DPS_9no_TOMO_INTEGRAL_PEC_OFICIO_2026.docx · capacidad literal del programa: «Considera la gestión de riesgo en la vida cotidiana.»
 - DPS_9no_TOMO_INTEGRAL_PEC_OFICIO_2026.docx · capacidad literal del programa: «Aplica normas de comportamiento en caso de riesgos.»
 - DPS_9no_TOMO_INTEGRAL_PEC_OFICIO_2026.docx · capacidad literal del programa: «Considera la gestión de riesgo en la vida cotidiana.»
 - DPS_9no_TOMO_INTEGRAL_PEC_OFICIO_2026.docx · capacidad literal del programa: «Aplica normas de comportamiento en caso de riesgos.»
-- DPS_9no_TOMO_INTEGRAL_PEC_OFICIO_2026.docx · capacidad literal del programa: «Diagnostica situaciones de riesgo en su ámbito familiar, escolar y comunitario.»
+- DPS_9no_TOMO_INTEGRAL_PEC_OFICIO_2026.docx · capacidad literal del programa: «Diagnostica situaciones de riesgo en su ámbito familiar, escolar y en su comunidad.»
 - DPS_9no_TOMO_INTEGRAL_PEC_OFICIO_2026.docx · capacidad literal del programa: «Considera la gestión de riesgo en la vida cotidiana.»
 - DPS_9no_TOMO_INTEGRAL_PEC_OFICIO_2026.docx · capacidad literal del programa: «Aplica normas de comportamiento en caso de riesgos.»
 - DPS_9no_TOMO_INTEGRAL_PEC_OFICIO_2026.docx · capacidad literal del programa: «Establece relaciones armónicas en su comunicación interpersonal con los miembros de la com»
-- DPS_9no_TOMO_INTEGRAL_PEC_OFICIO_2026.docx · capacidad literal del programa: «Diagnostica situaciones de riesgo en su ámbito familiar, escolar y comunitario.»
+- DPS_9no_TOMO_INTEGRAL_PEC_OFICIO_2026.docx · capacidad literal del programa: «Diagnostica situaciones de riesgo en su ámbito familiar, escolar y en su comunidad.»
 - DPS_9no_TOMO_INTEGRAL_PEC_OFICIO_2026.docx · capacidad literal del programa: «Analiza los procesos democráticos de elección de autoridades de la comunidad educativa en »
 - DPS_9no_TOMO_INTEGRAL_PEC_OFICIO_2026.docx · capacidad literal del programa: «Establece relaciones armónicas en su comunicación interpersonal con los miembros de la com»
-- DPS_9no_TOMO_INTEGRAL_PEC_OFICIO_2026.docx · capacidad literal del programa: «Emprende acciones que promuevan el cumplimiento de los artículos de los DD. HH. referentes»
+- DPS_9no_TOMO_INTEGRAL_PEC_OFICIO_2026.docx · capacidad literal del programa: «Emprende acciones que promuevan el cumplimiento de los artículos de los DD. HH referentes »
 - DPS_9no_TOMO_INTEGRAL_PEC_OFICIO_2026.docx · capacidad literal del programa: «Considera la gestión de riesgo en la vida cotidiana.»
 - DPS_9no_TOMO_INTEGRAL_PEC_OFICIO_2026.docx · capacidad literal del programa: «Elabora su cronograma de actividades considerando como eje principal su proceso de aprendi»
 - DPS_9no_TOMO_INTEGRAL_PEC_OFICIO_2026.docx · capacidad literal del programa: «Participa activamente y con conocimientos adecuados en el proceso de conformación del Cent»
 - DPS_9no_TOMO_INTEGRAL_PEC_OFICIO_2026.docx · capacidad literal del programa: «Aplica normas de comportamiento en caso de riesgos.»
 - DPS_9no_TOMO_INTEGRAL_PEC_OFICIO_2026.docx · capacidad literal del programa: «Elabora su cronograma de actividades considerando como eje principal su proceso de aprendi»
 - DPS_9no_TOMO_INTEGRAL_PEC_OFICIO_2026.docx · capacidad literal del programa: «Interpreta los criterios de evaluación a ser considerados en el noveno grado en sus distin»
-- DPS_9no_TOMO_INTEGRAL_PEC_OFICIO_2026.docx · capacidad literal del programa: «Emprende acciones que promuevan el cumplimiento de los artículos de los DD. HH. referentes»
+- DPS_9no_TOMO_INTEGRAL_PEC_OFICIO_2026.docx · capacidad literal del programa: «Emprende acciones que promuevan el cumplimiento de los artículos de los DD. HH referentes »
 - DPS_9no_PLAN_ANUAL_PEC_OFICIO_2026.docx · sección 1 en oficio (21.6 × 33.0 cm)
 - DPS_9no_PLAN_ANUAL_PEC_OFICIO_2026.docx · sección 1 con márgenes de 1,27 cm
 - DPS_9no_PLAN_ANUAL_PEC_OFICIO_2026.docx · sección 2 en oficio (33.0 × 21.6 cm)
@@ -117,14 +118,14 @@ Generado por `edicion/verificar.py`. Son controles del productor: no reemplazan 
 - DPS_9no_PLAN_ANUAL_PEC_OFICIO_2026.docx · capacidades citadas del programa: ««Establece relaciones armónicas en su comunicación interpersonal con los miembros de la co»
 - DPS_9no_PLAN_ANUAL_PEC_OFICIO_2026.docx · capacidades citadas del programa: ««Reconoce la importancia de conocerse a sí mismo, sus intereses, sus habilidades, sus pote»
 - DPS_9no_PLAN_ANUAL_PEC_OFICIO_2026.docx · capacidades citadas del programa: ««Expresa sus emociones de manera equilibrada, demostrando autocontrol en sus actividades.»»
-- DPS_9no_PLAN_ANUAL_PEC_OFICIO_2026.docx · capacidades citadas del programa: ««Emprende acciones que promuevan el cumplimiento de los artículos de los DD. HH. referente»
+- DPS_9no_PLAN_ANUAL_PEC_OFICIO_2026.docx · capacidades citadas del programa: ««Emprende acciones que promuevan el cumplimiento de los artículos de los DD. HH referentes»
 - DPS_9no_PLAN_ANUAL_PEC_OFICIO_2026.docx · capacidades citadas del programa: ««Analiza los procesos democráticos de elección de autoridades de la comunidad educativa en»
 - DPS_9no_PLAN_ANUAL_PEC_OFICIO_2026.docx · capacidades citadas del programa: ««Establece relaciones armónicas en su comunicación interpersonal con los miembros de la co»
 - DPS_9no_PLAN_ANUAL_PEC_OFICIO_2026.docx · capacidades citadas del programa: ««Analiza los procesos democráticos de elección de autoridades de la comunidad educativa en»
 - DPS_9no_PLAN_ANUAL_PEC_OFICIO_2026.docx · capacidades citadas del programa: ««Elabora su cronograma de actividades considerando como eje principal su proceso de aprend»
-- DPS_9no_PLAN_ANUAL_PEC_OFICIO_2026.docx · capacidades citadas del programa: ««Emprende acciones que promuevan el cumplimiento de los artículos de los DD. HH. referente»
+- DPS_9no_PLAN_ANUAL_PEC_OFICIO_2026.docx · capacidades citadas del programa: ««Emprende acciones que promuevan el cumplimiento de los artículos de los DD. HH referentes»
 - DPS_9no_PLAN_ANUAL_PEC_OFICIO_2026.docx · capacidades citadas del programa: ««Elabora su cronograma de actividades considerando como eje principal su proceso de aprend»
-- DPS_9no_PLAN_ANUAL_PEC_OFICIO_2026.docx · capacidades citadas del programa: ««Diagnostica situaciones de riesgo en su ámbito familiar, escolar y comunitario.» «Conside»
+- DPS_9no_PLAN_ANUAL_PEC_OFICIO_2026.docx · capacidades citadas del programa: ««Diagnostica situaciones de riesgo en su ámbito familiar, escolar y en su comunidad.» «Con»
 - DPS_9no_PLAN_ANUAL_PEC_OFICIO_2026.docx · capacidades citadas del programa: ««Aplica normas de comportamiento en caso de riesgos.» «Elabora su cronograma de actividade»
 - DPS_9no_PLAN_ANUAL_PEC_OFICIO_2026.docx · capacidades citadas del programa: ««Interpreta los criterios de evaluación a ser considerados en el noveno grado en sus disti»
 - DPS_9no_PLANES_DE_CLASE_PEC_OFICIO_2026.docx · sección 1 en oficio (21.6 × 33.0 cm)
@@ -237,23 +238,23 @@ Generado por `edicion/verificar.py`. Son controles del productor: no reemplazan 
 - DPS_9no_PLANES_DE_CLASE_PEC_OFICIO_2026.docx · capacidad literal del programa: «Interpreta lo positivo de una Orientación Vocacional para la acertada elección del Bachill»
 - DPS_9no_PLANES_DE_CLASE_PEC_OFICIO_2026.docx · capacidad literal del programa: «Expresa sus emociones de manera equilibrada, demostrando autocontrol en sus actividades.»
 - DPS_9no_PLANES_DE_CLASE_PEC_OFICIO_2026.docx · capacidad literal del programa: «Expresa sus emociones de manera equilibrada, demostrando autocontrol en sus actividades.»
-- DPS_9no_PLANES_DE_CLASE_PEC_OFICIO_2026.docx · capacidad literal del programa: «Conoce la implicancia de la sexualidad como un todo y su enfoque desde la perspectiva de d»
-- DPS_9no_PLANES_DE_CLASE_PEC_OFICIO_2026.docx · capacidad literal del programa: «Conoce la implicancia de la sexualidad como un todo y su enfoque desde la perspectiva de d»
+- DPS_9no_PLANES_DE_CLASE_PEC_OFICIO_2026.docx · capacidad literal del programa: «Conoce la implicancia de la sexualidad como componente de la personalidad.»
+- DPS_9no_PLANES_DE_CLASE_PEC_OFICIO_2026.docx · capacidad literal del programa: «Conoce la implicancia de la sexualidad como componente de la personalidad.»
 - DPS_9no_PLANES_DE_CLASE_PEC_OFICIO_2026.docx · capacidad literal del programa: «Expresa sus emociones de manera equilibrada, demostrando autocontrol en sus actividades.»
-- DPS_9no_PLANES_DE_CLASE_PEC_OFICIO_2026.docx · capacidad literal del programa: «Conoce la implicancia de la sexualidad como un todo y su enfoque desde la perspectiva de d»
-- DPS_9no_PLANES_DE_CLASE_PEC_OFICIO_2026.docx · capacidad literal del programa: «Emprende acciones que promuevan el cumplimiento de los artículos de los DD. HH. referentes»
-- DPS_9no_PLANES_DE_CLASE_PEC_OFICIO_2026.docx · capacidad literal del programa: «Emprende acciones que promuevan el cumplimiento de los artículos de los DD. HH. referentes»
-- DPS_9no_PLANES_DE_CLASE_PEC_OFICIO_2026.docx · capacidad literal del programa: «Emprende acciones que promuevan el cumplimiento de los artículos de los DD. HH. referentes»
+- DPS_9no_PLANES_DE_CLASE_PEC_OFICIO_2026.docx · capacidad literal del programa: «Conoce la implicancia de la sexualidad como componente de la personalidad.»
+- DPS_9no_PLANES_DE_CLASE_PEC_OFICIO_2026.docx · capacidad literal del programa: «Emprende acciones que promuevan el cumplimiento de los artículos de los DD. HH referentes »
+- DPS_9no_PLANES_DE_CLASE_PEC_OFICIO_2026.docx · capacidad literal del programa: «Emprende acciones que promuevan el cumplimiento de los artículos de los DD. HH referentes »
+- DPS_9no_PLANES_DE_CLASE_PEC_OFICIO_2026.docx · capacidad literal del programa: «Emprende acciones que promuevan el cumplimiento de los artículos de los DD. HH referentes »
 - DPS_9no_PLANES_DE_CLASE_PEC_OFICIO_2026.docx · capacidad literal del programa: «Establece relaciones armónicas en su comunicación interpersonal con los miembros de la com»
 - DPS_9no_PLANES_DE_CLASE_PEC_OFICIO_2026.docx · capacidad literal del programa: «Interpreta los criterios de evaluación a ser considerados en el noveno grado en sus distin»
 - DPS_9no_PLANES_DE_CLASE_PEC_OFICIO_2026.docx · capacidad literal del programa: «Reconoce la importancia de conocerse a sí mismo, sus intereses, sus habilidades, sus poten»
 - DPS_9no_PLANES_DE_CLASE_PEC_OFICIO_2026.docx · capacidad literal del programa: «Interpreta lo positivo de una Orientación Vocacional para la acertada elección del Bachill»
 - DPS_9no_PLANES_DE_CLASE_PEC_OFICIO_2026.docx · capacidad literal del programa: «Expresa sus emociones de manera equilibrada, demostrando autocontrol en sus actividades.»
-- DPS_9no_PLANES_DE_CLASE_PEC_OFICIO_2026.docx · capacidad literal del programa: «Conoce la implicancia de la sexualidad como un todo y su enfoque desde la perspectiva de d»
-- DPS_9no_PLANES_DE_CLASE_PEC_OFICIO_2026.docx · capacidad literal del programa: «Emprende acciones que promuevan el cumplimiento de los artículos de los DD. HH. referentes»
+- DPS_9no_PLANES_DE_CLASE_PEC_OFICIO_2026.docx · capacidad literal del programa: «Conoce la implicancia de la sexualidad como componente de la personalidad.»
+- DPS_9no_PLANES_DE_CLASE_PEC_OFICIO_2026.docx · capacidad literal del programa: «Emprende acciones que promuevan el cumplimiento de los artículos de los DD. HH referentes »
 - DPS_9no_PLANES_DE_CLASE_PEC_OFICIO_2026.docx · capacidad literal del programa: «Analiza los procesos democráticos de elección de autoridades de la comunidad educativa en »
 - DPS_9no_PLANES_DE_CLASE_PEC_OFICIO_2026.docx · capacidad literal del programa: «Establece relaciones armónicas en su comunicación interpersonal con los miembros de la com»
-- DPS_9no_PLANES_DE_CLASE_PEC_OFICIO_2026.docx · capacidad literal del programa: «Diagnostica situaciones de riesgo en su ámbito familiar, escolar y comunitario.»
+- DPS_9no_PLANES_DE_CLASE_PEC_OFICIO_2026.docx · capacidad literal del programa: «Diagnostica situaciones de riesgo en su ámbito familiar, escolar y en su comunidad.»
 - DPS_9no_PLANES_DE_CLASE_PEC_OFICIO_2026.docx · capacidad literal del programa: «Participa activamente y con conocimientos adecuados en el proceso de conformación del Cent»
 - DPS_9no_PLANES_DE_CLASE_PEC_OFICIO_2026.docx · capacidad literal del programa: «Analiza los procesos democráticos de elección de autoridades de la comunidad educativa en »
 - DPS_9no_PLANES_DE_CLASE_PEC_OFICIO_2026.docx · capacidad literal del programa: «Establece relaciones armónicas en su comunicación interpersonal con los miembros de la com»
@@ -261,26 +262,26 @@ Generado por `edicion/verificar.py`. Son controles del productor: no reemplazan 
 - DPS_9no_PLANES_DE_CLASE_PEC_OFICIO_2026.docx · capacidad literal del programa: «Analiza los procesos democráticos de elección de autoridades de la comunidad educativa en »
 - DPS_9no_PLANES_DE_CLASE_PEC_OFICIO_2026.docx · capacidad literal del programa: «Participa activamente y con conocimientos adecuados en el proceso de conformación del Cent»
 - DPS_9no_PLANES_DE_CLASE_PEC_OFICIO_2026.docx · capacidad literal del programa: «Elabora su cronograma de actividades considerando como eje principal su proceso de aprendi»
-- DPS_9no_PLANES_DE_CLASE_PEC_OFICIO_2026.docx · capacidad literal del programa: «Emprende acciones que promuevan el cumplimiento de los artículos de los DD. HH. referentes»
+- DPS_9no_PLANES_DE_CLASE_PEC_OFICIO_2026.docx · capacidad literal del programa: «Emprende acciones que promuevan el cumplimiento de los artículos de los DD. HH referentes »
 - DPS_9no_PLANES_DE_CLASE_PEC_OFICIO_2026.docx · capacidad literal del programa: «Considera la gestión de riesgo en la vida cotidiana.»
 - DPS_9no_PLANES_DE_CLASE_PEC_OFICIO_2026.docx · capacidad literal del programa: «Elabora su cronograma de actividades considerando como eje principal su proceso de aprendi»
 - DPS_9no_PLANES_DE_CLASE_PEC_OFICIO_2026.docx · capacidad literal del programa: «Elabora su cronograma de actividades considerando como eje principal su proceso de aprendi»
 - DPS_9no_PLANES_DE_CLASE_PEC_OFICIO_2026.docx · capacidad literal del programa: «Participa activamente y con conocimientos adecuados en el proceso de conformación del Cent»
 - DPS_9no_PLANES_DE_CLASE_PEC_OFICIO_2026.docx · capacidad literal del programa: «Elabora su cronograma de actividades considerando como eje principal su proceso de aprendi»
-- DPS_9no_PLANES_DE_CLASE_PEC_OFICIO_2026.docx · capacidad literal del programa: «Diagnostica situaciones de riesgo en su ámbito familiar, escolar y comunitario.»
+- DPS_9no_PLANES_DE_CLASE_PEC_OFICIO_2026.docx · capacidad literal del programa: «Diagnostica situaciones de riesgo en su ámbito familiar, escolar y en su comunidad.»
 - DPS_9no_PLANES_DE_CLASE_PEC_OFICIO_2026.docx · capacidad literal del programa: «Aplica normas de comportamiento en caso de riesgos.»
 - DPS_9no_PLANES_DE_CLASE_PEC_OFICIO_2026.docx · capacidad literal del programa: «Elabora su cronograma de actividades considerando como eje principal su proceso de aprendi»
 - DPS_9no_PLANES_DE_CLASE_PEC_OFICIO_2026.docx · capacidad literal del programa: «Considera la gestión de riesgo en la vida cotidiana.»
 - DPS_9no_PLANES_DE_CLASE_PEC_OFICIO_2026.docx · capacidad literal del programa: «Aplica normas de comportamiento en caso de riesgos.»
 - DPS_9no_PLANES_DE_CLASE_PEC_OFICIO_2026.docx · capacidad literal del programa: «Interpreta los criterios de evaluación a ser considerados en el noveno grado en sus distin»
-- DPS_9no_PLANES_DE_CLASE_PEC_OFICIO_2026.docx · capacidad literal del programa: «Emprende acciones que promuevan el cumplimiento de los artículos de los DD. HH. referentes»
-- DPS_9no_PLANES_DE_CLASE_PEC_OFICIO_2026.docx · capacidad literal del programa: «Diagnostica situaciones de riesgo en su ámbito familiar, escolar y comunitario.»
+- DPS_9no_PLANES_DE_CLASE_PEC_OFICIO_2026.docx · capacidad literal del programa: «Emprende acciones que promuevan el cumplimiento de los artículos de los DD. HH referentes »
+- DPS_9no_PLANES_DE_CLASE_PEC_OFICIO_2026.docx · capacidad literal del programa: «Diagnostica situaciones de riesgo en su ámbito familiar, escolar y en su comunidad.»
 - DPS_9no_PLANES_DE_CLASE_PEC_OFICIO_2026.docx · capacidad literal del programa: «Considera la gestión de riesgo en la vida cotidiana.»
 - DPS_9no_PLANES_DE_CLASE_PEC_OFICIO_2026.docx · capacidad literal del programa: «Aplica normas de comportamiento en caso de riesgos.»
 - DPS_9no_PLANES_DE_CLASE_PEC_OFICIO_2026.docx · capacidad literal del programa: «Analiza los procesos democráticos de elección de autoridades de la comunidad educativa en »
 - DPS_9no_PLANES_DE_CLASE_PEC_OFICIO_2026.docx · capacidad literal del programa: «Participa activamente y con conocimientos adecuados en el proceso de conformación del Cent»
 - DPS_9no_PLANES_DE_CLASE_PEC_OFICIO_2026.docx · capacidad literal del programa: «Elabora su cronograma de actividades considerando como eje principal su proceso de aprendi»
-- DPS_9no_PLANES_DE_CLASE_PEC_OFICIO_2026.docx · capacidad literal del programa: «Diagnostica situaciones de riesgo en su ámbito familiar, escolar y comunitario.»
+- DPS_9no_PLANES_DE_CLASE_PEC_OFICIO_2026.docx · capacidad literal del programa: «Diagnostica situaciones de riesgo en su ámbito familiar, escolar y en su comunidad.»
 - DPS_9no_PLANES_DE_CLASE_PEC_OFICIO_2026.docx · capacidad literal del programa: «Considera la gestión de riesgo en la vida cotidiana.»
 - DPS_9no_PLANES_DE_CLASE_PEC_OFICIO_2026.docx · capacidad literal del programa: «Aplica normas de comportamiento en caso de riesgos.»
 - DPS_9no_SOLUCIONARIO_DOCENTE_PEC_OFICIO_2026.docx · sección 1 en oficio (21.6 × 33.0 cm)
@@ -334,6 +335,19 @@ Generado por `edicion/verificar.py`. Son controles del productor: no reemplazan 
 - Tomo · TALLER PEC E · abre con su ficha PEC
 - Tomo · TALLER PEC F · abre con su ficha PEC
 - Solucionario · respuestas esperadas para los seis talleres
+- Capacidad 1 literal en el programa MEC: «Establece relaciones armónicas en su comunicación interpersonal con lo»
+- Capacidad 2 literal en el programa MEC: «Interpreta los criterios de evaluación a ser considerados en el noveno»
+- Capacidad 3 literal en el programa MEC: «Reconoce la importancia de conocerse a sí mismo, sus intereses, sus ha»
+- Capacidad 4 literal en el programa MEC: «Interpreta lo positivo de una Orientación Vocacional para la acertada »
+- Capacidad 5 literal en el programa MEC: «Expresa sus emociones de manera equilibrada, demostrando autocontrol e»
+- Capacidad 6 literal en el programa MEC: «Conoce la implicancia de la sexualidad como componente de la personali»
+- Capacidad 7 literal en el programa MEC: «Emprende acciones que promuevan el cumplimiento de los artículos de lo»
+- Capacidad 8 literal en el programa MEC: «Analiza los procesos democráticos de elección de autoridades de la com»
+- Capacidad 9 literal en el programa MEC: «Participa activamente y con conocimientos adecuados en el proceso de c»
+- Capacidad 10 literal en el programa MEC: «Elabora su cronograma de actividades considerando como eje principal s»
+- Capacidad 11 literal en el programa MEC: «Diagnostica situaciones de riesgo en su ámbito familiar, escolar y en »
+- Capacidad 12 literal en el programa MEC: «Considera la gestión de riesgo en la vida cotidiana.»
+- Capacidad 13 literal en el programa MEC: «Aplica normas de comportamiento en caso de riesgos.»
 - Tomo: las 18 imágenes de la base candidata se conservan idénticas (SHA-256) salvo las corregidas a propósito
 - Tomo: image2.png reemplazada por su versión corregida
 - DPS_9no_TOMO_INTEGRAL_PEC_OFICIO_2026.pdf · todas las páginas en oficio {(612, 936)}

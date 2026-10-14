@@ -103,6 +103,16 @@ for i, el in enumerate(els):
         ok(sig.tag == qn('w:tbl') and O.texto(sig.find('.//' + qn('w:tc'))).strip() == 'Componente', 'Tomo · %s abre con su ficha PEC' % t[:14])
 ok(len(re.findall(r'Respuestas esperadas', sol)) >= 6, 'Solucionario · respuestas esperadas para los seis talleres')
 
+# cotejo literal: cada capacidad de la configuración figura tal cual en el PDF del programa MEC del grado
+if C.get('programa'):
+    f_, pags_ = C['programa']
+    prog = pymupdf.open(B + '../fuentes_mec/' + f_)
+    # se quita el número de página con que empieza cada página, para que una capacidad partida entre dos páginas se lea entera
+    fuente = re.sub(r'\s+', ' ', ' '.join(re.sub(r'^\s*\d+\s', '', prog[i].get_text()) for i in pags_))
+    INFO.append('Programa: %s (%s), págs. %d-%d' % (f_, re.sub(r'\s+', ' ', prog[1].get_text()).strip()[:90], pags_[0] + 1, pags_[-1] + 1))
+    for k_, cap_ in C['CAP'].items():
+        ok(re.sub(r'\s+', ' ', cap_).rstrip('.') in fuente, 'Capacidad %d literal en el programa MEC: «%s»' % (k_, cap_[:70]))
+
 # imágenes del tomo: todas las de la base candidata siguen, byte a byte
 base = O.media_sha(C['base_tomo']); nuevo = O.media_sha(OUT + C['nombre_tomo'] + '.docx')
 corr = C.get('imagenes_corregidas', {})

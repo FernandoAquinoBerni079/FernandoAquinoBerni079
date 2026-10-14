@@ -39,6 +39,7 @@ CAP8 = {
 GRADOS = {
  '7': dict(
     carpeta='7mo', grado='7.º',
+    programa=('programa_DPS_7mo_MEC.pdf', range(53, 57)),
     base_tomo=BASE + '7mo/DPS_7mo_TOMO_INTEGRAL_PEC_OFICIO_2026.docx',
     base_pa=BASE + '7mo/DPS_7mo_PLAN_ANUAL_PEC_OFICIO_2026.docx',
     base_planes=BASE + '7mo/DPS_7mo_PLANES_DE_CLASE_PEC_OFICIO_2026.docx',
@@ -102,6 +103,7 @@ GRADOS = {
 G7 = GRADOS['7']
 GRADOS['8'] = dict(
     carpeta='8vo', grado='8.º',
+    programa=('programa_DPS_8vo_MEC_2014.pdf', range(52, 57)),
     base_tomo=BASE + '8vo/DPS_8vo_TOMO_INTEGRAL_PEC_OFICIO_2026.docx',
     base_pa=BASE + '8vo/DPS_8vo_PLAN_ANUAL_PEC_OFICIO_2026.docx',
     base_planes=BASE + '8vo/DPS_8vo_PLANES_DE_CLASE_PEC_OFICIO_2026.docx',
@@ -151,25 +153,27 @@ GRADOS['8'] = dict(
                    + [('Las respuestas de las anteriores continuaciones prácticas', 'Las respuestas de las actividades complementarias (opcionales)')],
 )
 
-# 9.º: base ChatGPT del 13/10 (18 imágenes Gemini). Programa oficial de 9.º no disponible en el entorno:
-# las capacidades son las de las fichas de la base y NO se rotulan como literales del programa MEC hasta cotejarlas.
+# 9.º: base ChatGPT del 13/10 (18 imágenes Gemini). Capacidades cotejadas literalmente con el Programa de Estudio
+# MEC (2014), DPS 9º grado EEB, págs. 53-55 (fuentes_mec/programa_DPS_9no_MEC_2014.pdf, SHA-256 4be02cae…).
+# Se conserva la grafía de la fuente («DD. HH» sin punto final); solo se normalizan los espacios dobles.
 CAP9 = {
     1: 'Establece relaciones armónicas en su comunicación interpersonal con los miembros de la comunidad educativa.',
     2: 'Interpreta los criterios de evaluación a ser considerados en el noveno grado en sus distintas funciones.',
     3: 'Reconoce la importancia de conocerse a sí mismo, sus intereses, sus habilidades, sus potencialidades y sus preferencias.',
-    4: 'Interpreta lo positivo de una Orientación Vocacional para la acertada elección del Bachillerato.',
+    4: 'Interpreta lo positivo de una Orientación Vocacional para la acertada elección del Bachillerato (ofertas educativas posteriores al tercer ciclo).',
     5: 'Expresa sus emociones de manera equilibrada, demostrando autocontrol en sus actividades.',
-    6: 'Conoce la implicancia de la sexualidad como un todo y su enfoque desde la perspectiva de derecho.',
-    7: 'Emprende acciones que promuevan el cumplimiento de los artículos de los DD. HH. referentes a la no discriminación.',
+    6: 'Conoce la implicancia de la sexualidad como componente de la personalidad.',
+    7: 'Emprende acciones que promuevan el cumplimiento de los artículos de los DD. HH referentes a la no discriminación.',
     8: 'Analiza los procesos democráticos de elección de autoridades de la comunidad educativa en el estamento estudiantil.',
     9: 'Participa activamente y con conocimientos adecuados en el proceso de conformación del Centro de Estudiantes.',
     10: 'Elabora su cronograma de actividades considerando como eje principal su proceso de aprendizaje.',
-    11: 'Diagnostica situaciones de riesgo en su ámbito familiar, escolar y comunitario.',
+    11: 'Diagnostica situaciones de riesgo en su ámbito familiar, escolar y en su comunidad.',
     12: 'Considera la gestión de riesgo en la vida cotidiana.',
     13: 'Aplica normas de comportamiento en caso de riesgos.',
 }
 GRADOS['9'] = dict(
     carpeta='9no', grado='9.º',
+    programa=('programa_DPS_9no_MEC_2014.pdf', range(51, 56)),
     base_tomo=BASE + '9no_v2/DPS_9no_TOMO_INTEGRAL_PEC_OFICIO_2026.docx',
     base_pa=BASE + '9no_v2/DPS_9no_PLAN_ANUAL_PEC_OFICIO_2026.docx',
     base_planes=BASE + '9no_v2/DPS_9no_PLANES_DE_CLASE_PEC_OFICIO_2026.docx',
@@ -179,7 +183,6 @@ GRADOS['9'] = dict(
     nombre_planes='DPS_9no_PLANES_DE_CLASE_PEC_OFICIO_2026',
     nombre_sol='DPS_9no_SOLUCIONARIO_DOCENTE_PEC_OFICIO_2026',
     pec_modo='insertar', pec_tomo=PEC + 'pec9_agregados.md', pec_sol=PEC + 'pec9_agregados.md',
-    rotulo_fuente='',          # sin «(programa MEC)» hasta cotejar con el programa oficial de 9.º
     CAP=CAP9,
     unidad_caps={1: [1, 2], 2: [3, 4], 3: [5, 6], 4: [7], 5: [8, 9], 6: [10], 7: [11, 12, 13]},
     # 27 fichas: 21 clases y 6 fichas de profundización (A–F), en orden de aparición

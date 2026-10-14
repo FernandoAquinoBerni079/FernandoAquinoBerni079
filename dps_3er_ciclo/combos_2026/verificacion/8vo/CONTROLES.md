@@ -2,10 +2,11 @@
 
 Generado por `edicion/verificar.py`. Son controles del productor: no reemplazan la auditoría independiente.
 
-**338 controles correctos · 0 fallos**
+**358 controles correctos · 0 fallos**
 
 ## Datos
 
+- Programa: programa_DPS_8vo_MEC_2014.pdf (2 Paraguay: Ministerio de Educación y Cultura (2014). Programa de Estudio: Desarrollo Pers), págs. 53-57
 - Imágenes del tomo: base 15 · editado 16 (la diferencia es la portada)
 - DPS_8vo_TOMO_INTEGRAL_PEC_OFICIO_2026.pdf: 102 páginas
 - DPS_8vo_SOLUCIONARIO_DOCENTE_PEC_OFICIO_2026.pdf: 23 páginas
@@ -338,6 +339,26 @@ Generado por `edicion/verificar.py`. Son controles del productor: no reemplazan 
 - Tomo · TALLER PEC E · abre con su ficha PEC
 - Tomo · TALLER PEC F · abre con su ficha PEC
 - Solucionario · respuestas esperadas para los seis talleres
+- Capacidad 1 literal en el programa MEC: «Establece relaciones armónicas con los integrantes de la comunidad edu»
+- Capacidad 2 literal en el programa MEC: «Interpreta los criterios de evaluación a ser considerados en este nive»
+- Capacidad 3 literal en el programa MEC: «Plantea actividades relacionadas al PEI que permitan desarrollar el se»
+- Capacidad 4 literal en el programa MEC: «Descubre características psicológicas y emocionales de su persona segú»
+- Capacidad 5 literal en el programa MEC: «Toma conciencia de su individualidad y singularidad para lograr conoci»
+- Capacidad 6 literal en el programa MEC: «Identifica habilidades para la construcción de su identidad personal.»
+- Capacidad 7 literal en el programa MEC: «Determina la importancia de los estados afectivos para un relacionamie»
+- Capacidad 8 literal en el programa MEC: «Toma conciencia de su sexualidad como parte esencial de su desarrollo »
+- Capacidad 9 literal en el programa MEC: «Identifica características de relaciones violentas y cohersivas en el »
+- Capacidad 10 literal en el programa MEC: «Identifica las influencias de adicciones y estilos o tendencias de gru»
+- Capacidad 11 literal en el programa MEC: «Valora la importancia de la afectividad para un desarrollo personal ar»
+- Capacidad 12 literal en el programa MEC: «Investiga sobre los Derechos Humanos referente a la educación de los n»
+- Capacidad 13 literal en el programa MEC: «Analiza los derechos y obligaciones de los/as docentes.»
+- Capacidad 14 literal en el programa MEC: «Reconoce casos de vulnerabilidad de Derechos y los procedimientos para»
+- Capacidad 15 literal en el programa MEC: «Comprende la importancia de conformar organizaciones estudiantiles com»
+- Capacidad 16 literal en el programa MEC: «Participa activamente en las organizaciones estudiantiles de su instit»
+- Capacidad 17 literal en el programa MEC: «Toma conciencia sobre la importancia del proceso de enseñanza–aprendiz»
+- Capacidad 18 literal en el programa MEC: «Planifica adecuadamente su tiempo para el estudio.»
+- Capacidad 19 literal en el programa MEC: «Practica medidas de prevención, mitigación y atención en situaciones d»
+- Capacidad 20 literal en el programa MEC: «Elabora proyectos sobre prevención y mitigación de riesgo para el cont»
 - Tomo: las 15 imágenes de la base candidata se conservan idénticas (SHA-256)
 - DPS_8vo_TOMO_INTEGRAL_PEC_OFICIO_2026.pdf · todas las páginas en oficio {(612, 936)}
 - DPS_8vo_TOMO_INTEGRAL_PEC_OFICIO_2026.pdf · sin páginas en blanco o residuales (llenado < 12 %): []

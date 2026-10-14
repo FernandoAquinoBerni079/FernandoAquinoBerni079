@@ -1,13 +1,13 @@
 @@ Agregados al módulo PEC de 9.º (base ChatGPT 13/10). Se insertan sin reemplazar el texto existente:
 @@ FICHA va después del título del taller; CONSIGNAS, después de «Producto evaluable»; SOL, al final de la sección del taller en el Solucionario.
-@@ Las capacidades son las de las fichas de clase de la base; su cotejo literal con el programa oficial de 9.º está pendiente.
+@@ Capacidades: transcripción literal del Programa de Estudio MEC (2014), DPS 9º grado, págs. 53-55.
 
 === FICHA A
 [[FICHA_PEC]]
 Etapa del proyecto: Diagnóstico participativo de necesidades
 Encuentro: 20 de 36 · agosto
 Capacidad: Establece relaciones armónicas en su comunicación interpersonal con los miembros de la comunidad educativa.
-Capacidad: Diagnostica situaciones de riesgo en su ámbito familiar, escolar y comunitario.
+Capacidad: Diagnostica situaciones de riesgo en su ámbito familiar, escolar y en su comunidad.
 - Distingue hechos comprobables de opiniones al describir una necesidad del colegio o de su entorno cercano.
 - Registra al menos tres evidencias con su fuente y su límite, sin nombres ni fotografías de personas.
 - Identifica a qué instancia de la institución corresponde autorizar cada paso del diagnóstico.
@@ -84,7 +84,7 @@ Delibera con respeto | Escucha, pide la palabra y argumenta | Interrumpe o desca
 [[FICHA_PEC]]
 Etapa del proyecto: Formulación de objetivos, beneficiarios y productos
 Encuentro: 26 de 36 · septiembre
-Capacidad: Emprende acciones que promuevan el cumplimiento de los artículos de los DD. HH. referentes a la no discriminación.
+Capacidad: Emprende acciones que promuevan el cumplimiento de los artículos de los DD. HH referentes a la no discriminación.
 Capacidad: Considera la gestión de riesgo en la vida cotidiana.
 - Redacta un objetivo general que expresa un cambio, distinto de una actividad o de un producto.
 - Formula dos objetivos específicos con verbos observables y su evidencia correspondiente.
@@ -202,7 +202,7 @@ Ajustes | Explica un cambio y el ajuste acordado | No registra cambios | Registr
 Etapa del proyecto: Evaluación, informe y socialización
 Encuentro: 34 de 36 · noviembre
 Capacidad: Interpreta los criterios de evaluación a ser considerados en el noveno grado en sus distintas funciones.
-Capacidad: Emprende acciones que promuevan el cumplimiento de los artículos de los DD. HH. referentes a la no discriminación.
+Capacidad: Emprende acciones que promuevan el cumplimiento de los artículos de los DD. HH referentes a la no discriminación.
 - Compara cada meta con el producto obtenido y su evidencia, y valora el logro con la escala L, NL o NM.
 - Calcula un indicador sencillo solo con datos fiables y reconoce lo que no se puede afirmar.
 - Comunica resultados, límites y una mejora realista en una presentación breve y autorizada.

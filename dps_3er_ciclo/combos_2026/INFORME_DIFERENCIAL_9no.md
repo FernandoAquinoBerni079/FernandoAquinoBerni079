@@ -164,3 +164,24 @@ Cuando haya en Drive un ejemplar completo e identificable (portada con año, pá
 ### Controles
 
 334 correctos y 0 fallos. Se agregó un control de la imagen reemplazada a propósito: las 18 restantes conservan su SHA-256 y image2.png coincide con la versión corregida.
+
+## 9. Cotejo con el Programa de Estudio MEC 2014 de 9.º (CI9-01): resuelto
+
+- **Fuente adoptada.** Ministerio de Educación y Cultura (2014), *Programa de Estudio: Desarrollo Personal y Social – 9º grado, EEB*. Son 89 páginas y las capacidades están en las págs. 53 a 55. Copia en `fuentes_mec/programa_DPS_9no_MEC_2014.pdf`, SHA-256 `4be02caec618229afebe7c91f779fc9fb9a80e046148c97a7d1cd002ceb7ba60`. No se usó la edición anterior (Lugo/Riart).
+- **Resultado.** Se cotejaron las 13 capacidades: 9 coincidían y 4 se corrigieron a la redacción literal. El detalle está en `fuentes_mec/FUENTES_CURRICULARES.md`.
+  - **4.** Se agregó el paréntesis «(ofertas educativas posteriores al tercer ciclo)».
+  - **6.** «como un todo y su enfoque desde la perspectiva de derecho» pasa a «como componente de la personalidad».
+  - **7.** «DD. HH.» pasa a «DD. HH», grafía de la fuente.
+  - **11.** «escolar y comunitario» pasa a «escolar y en su comunidad».
+- **Dónde se aplicó.** Las correcciones salen de una única lista (`CAP9`), que alimenta:
+  - las 27 fichas y las 7 bandas de unidad del tomo;
+  - las fichas PEC de los talleres A, C y F (capacidades 11 y 7);
+  - las 7 bandas y las 6 filas PEC del Plan Anual;
+  - las 36 fichas de los Planes.
+
+  En los documentos generados ya no queda ninguna aparición de la redacción anterior.
+- **Rótulo «(programa MEC)».** Ahora sí se usa en las bandas de unidad y en las filas PEC de 9.º, igual que en 7.º y 8.º.
+- **Texto editorial.** Se conservan el tema de la Clase 10 («La sexualidad como un todo y desde la perspectiva de derecho…») y su consigna 11. Son desarrollo editorial y no se presentan como capacidad oficial.
+- **Imágenes.** Se conservan, con la figura de la Clase 2 ya corregida en la sección 8. No se tocó ninguna otra.
+- **Controles.** 347 correctos y 0 fallos. Se agregó el control de cada capacidad contra el PDF del programa, aplicado también a 7.º (267 correctos, 0 fallos) y 8.º (358 correctos, 0 fallos). Los entregables de 7.º y 8.º no cambiaron: siguen los de `faa8ef9`.
+- **Páginas.** Tomo 90 y Solucionario 19. En el control interno, el Plan Anual tiene 15 páginas y los Planes 39.
