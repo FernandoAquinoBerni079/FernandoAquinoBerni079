@@ -1,0 +1,204 @@
+# Controles del combo 7.º — Desarrollo Personal y Social
+
+Generado por `edicion/verificar.py`. Son controles del productor: no reemplazan la auditoría independiente.
+
+**190 controles correctos · 0 fallos**
+
+## Datos
+
+- Imágenes del tomo: base 21 · editado 22 (la diferencia es la portada)
+- DPS_7mo_TOMO_INTEGRAL_PEC_OFICIO_2026.pdf: 86 páginas
+- DPS_7mo_SOLUCIONARIO_DOCENTE_PEC_OFICIO_2026.pdf: 19 páginas
+
+## Controles correctos
+
+- La carpeta del grado tiene exactamente los seis archivos: ['DPS_7mo_PLANES_DE_CLASE_PEC_OFICIO_2026.docx', 'DPS_7mo_PLAN_ANUAL_PEC_OFICIO_2026.docx', 'DPS_7mo_SOLUCIONARIO_DOCENTE_PEC_OFICIO_2026.docx', 'DPS_7mo_SOLUCIONARIO_DOCENTE_PEC_OFICIO_2026.pdf', 'DPS_7mo_TOMO_INTEGRAL_PEC_OFICIO_2026.docx', 'DPS_7mo_TOMO_INTEGRAL_PEC_OFICIO_2026.pdf']
+- Sin PDF del Plan Anual ni de los Planes de Clase en la entrega
+- DPS_7mo_TOMO_INTEGRAL_PEC_OFICIO_2026.docx · sección 1 en oficio (21.6 × 33.0 cm)
+- DPS_7mo_TOMO_INTEGRAL_PEC_OFICIO_2026.docx · sección 1 con márgenes de 1,27 cm
+- DPS_7mo_TOMO_INTEGRAL_PEC_OFICIO_2026.docx · sin el símbolo ✓
+- DPS_7mo_TOMO_INTEGRAL_PEC_OFICIO_2026.docx · sin el símbolo ✗
+- DPS_7mo_TOMO_INTEGRAL_PEC_OFICIO_2026.docx · sin el símbolo ✅
+- DPS_7mo_TOMO_INTEGRAL_PEC_OFICIO_2026.docx · sin el símbolo ✔
+- DPS_7mo_TOMO_INTEGRAL_PEC_OFICIO_2026.docx · sin el símbolo ✘
+- DPS_7mo_TOMO_INTEGRAL_PEC_OFICIO_2026.docx · sin el símbolo ☑
+- DPS_7mo_TOMO_INTEGRAL_PEC_OFICIO_2026.docx · sin el residuo «Vinculado a la unidad de Orientación correspondiente»
+- DPS_7mo_TOMO_INTEGRAL_PEC_OFICIO_2026.docx · sin el residuo «no capacidad literal MEC»
+- DPS_7mo_TOMO_INTEGRAL_PEC_OFICIO_2026.docx · sin el residuo «fichas 1–7»
+- DPS_7mo_TOMO_INTEGRAL_PEC_OFICIO_2026.docx · sin el residuo «articulado con la unidad correspondiente»
+- DPS_7mo_TOMO_INTEGRAL_PEC_OFICIO_2026.docx · sin el residuo «MINNA y el MITIC»
+- DPS_7mo_TOMO_INTEGRAL_PEC_OFICIO_2026.docx · sin el residuo «Índice resumido. En Word»
+- DPS_7mo_TOMO_INTEGRAL_PEC_OFICIO_2026.docx · sin el residuo «Mes 1:»
+- DPS_7mo_TOMO_INTEGRAL_PEC_OFICIO_2026.docx · sin marcado sin procesar
+- DPS_7mo_TOMO_INTEGRAL_PEC_OFICIO_2026.docx · portada con imagen en la primera página
+- DPS_7mo_TOMO_INTEGRAL_PEC_OFICIO_2026.docx · capacidad literal del programa: «Valora la importancia de integrarse y pertenecer a la comunidad educativa.»
+- DPS_7mo_TOMO_INTEGRAL_PEC_OFICIO_2026.docx · capacidad literal del programa: «Reconoce la organización interna de la institución educativa.»
+- DPS_7mo_TOMO_INTEGRAL_PEC_OFICIO_2026.docx · capacidad literal del programa: «Valora la importancia de integrarse y pertenecer a la comunidad educativa.»
+- DPS_7mo_TOMO_INTEGRAL_PEC_OFICIO_2026.docx · capacidad literal del programa: «Reconoce sus fortalezas, debilidades, intereses, habilidades y oportunidades para construi»
+- DPS_7mo_TOMO_INTEGRAL_PEC_OFICIO_2026.docx · capacidad literal del programa: «Reconoce sus fortalezas, debilidades, intereses, habilidades y oportunidades para construi»
+- DPS_7mo_TOMO_INTEGRAL_PEC_OFICIO_2026.docx · capacidad literal del programa: «Expresa su habilidad de sentir, pensar y actuar como elementos que se observan en el proce»
+- DPS_7mo_TOMO_INTEGRAL_PEC_OFICIO_2026.docx · capacidad literal del programa: «Valora la relación afectiva positiva entre los miembros de la familia y de su entorno.»
+- DPS_7mo_TOMO_INTEGRAL_PEC_OFICIO_2026.docx · capacidad literal del programa: «Analiza las causas y las consecuencias del uso y abuso de la tecnología como elemento que »
+- DPS_7mo_TOMO_INTEGRAL_PEC_OFICIO_2026.docx · capacidad literal del programa: «Reconoce que los cambios que se generan en la pubertad y en la adolescencia forman parte d»
+- DPS_7mo_TOMO_INTEGRAL_PEC_OFICIO_2026.docx · capacidad literal del programa: «Analiza los artículos referentes a sus derechos y sus responsabilidades considerando su fo»
+- DPS_7mo_TOMO_INTEGRAL_PEC_OFICIO_2026.docx · capacidad literal del programa: «Reflexiona sobre los principales artículos relacionados con la No discriminación, expresad»
+- DPS_7mo_TOMO_INTEGRAL_PEC_OFICIO_2026.docx · capacidad literal del programa: «Reconoce la importancia de conocer las leyes que protegen a los niños, las niñas y los ado»
+- DPS_7mo_TOMO_INTEGRAL_PEC_OFICIO_2026.docx · capacidad literal del programa: «Identifica los diferentes tipos de liderazgo.»
+- DPS_7mo_TOMO_INTEGRAL_PEC_OFICIO_2026.docx · capacidad literal del programa: «Participa con actitud democrática en el proceso de elección del Parlamento Escolar.»
+- DPS_7mo_TOMO_INTEGRAL_PEC_OFICIO_2026.docx · capacidad literal del programa: «Valora la importancia de una correcta elección de autoridades y su incidencia en la vida d»
+- DPS_7mo_TOMO_INTEGRAL_PEC_OFICIO_2026.docx · capacidad literal del programa: «Asume la responsabilidad de pertenecer a un grupo considerando sus habilidades y/o interes»
+- DPS_7mo_TOMO_INTEGRAL_PEC_OFICIO_2026.docx · capacidad literal del programa: «Analiza las condiciones de organización para el estudio.»
+- DPS_7mo_TOMO_INTEGRAL_PEC_OFICIO_2026.docx · capacidad literal del programa: «Planifica adecuadamente su tiempo para el estudio.»
+- DPS_7mo_TOMO_INTEGRAL_PEC_OFICIO_2026.docx · capacidad literal del programa: «Planifica adecuadamente su tiempo para el estudio.»
+- DPS_7mo_TOMO_INTEGRAL_PEC_OFICIO_2026.docx · capacidad literal del programa: «Identifica las medidas de prevención y mitigación en situaciones de riesgos.»
+- DPS_7mo_TOMO_INTEGRAL_PEC_OFICIO_2026.docx · capacidad literal del programa: «Aplica normas de comportamiento en caso de riesgos.»
+- DPS_7mo_TOMO_INTEGRAL_PEC_OFICIO_2026.docx · capacidad literal del programa: «Reconoce sus fortalezas, debilidades, intereses, habilidades y oportunidades para construi»
+- DPS_7mo_TOMO_INTEGRAL_PEC_OFICIO_2026.docx · capacidad literal del programa: «Reconoce la importancia de conocer las leyes que protegen a los niños, las niñas y los ado»
+- DPS_7mo_TOMO_INTEGRAL_PEC_OFICIO_2026.docx · capacidad literal del programa: «Valora la importancia de integrarse y pertenecer a la comunidad educativa.»
+- DPS_7mo_TOMO_INTEGRAL_PEC_OFICIO_2026.docx · capacidad literal del programa: «Reconoce la organización interna de la institución educativa.»
+- DPS_7mo_TOMO_INTEGRAL_PEC_OFICIO_2026.docx · capacidad literal del programa: «Valora la importancia de integrarse y pertenecer a la comunidad educativa.»
+- DPS_7mo_TOMO_INTEGRAL_PEC_OFICIO_2026.docx · capacidad literal del programa: «Asume la responsabilidad de pertenecer a un grupo considerando sus habilidades y/o interes»
+- DPS_7mo_TOMO_INTEGRAL_PEC_OFICIO_2026.docx · capacidad literal del programa: «Analiza los artículos referentes a sus derechos y sus responsabilidades considerando su fo»
+- DPS_7mo_TOMO_INTEGRAL_PEC_OFICIO_2026.docx · capacidad literal del programa: «Asume la responsabilidad de pertenecer a un grupo considerando sus habilidades y/o interes»
+- DPS_7mo_TOMO_INTEGRAL_PEC_OFICIO_2026.docx · capacidad literal del programa: «Identifica los diferentes tipos de liderazgo.»
+- DPS_7mo_TOMO_INTEGRAL_PEC_OFICIO_2026.docx · capacidad literal del programa: «Asume la responsabilidad de pertenecer a un grupo considerando sus habilidades y/o interes»
+- DPS_7mo_TOMO_INTEGRAL_PEC_OFICIO_2026.docx · capacidad literal del programa: «Identifica las medidas de prevención y mitigación en situaciones de riesgos.»
+- DPS_7mo_TOMO_INTEGRAL_PEC_OFICIO_2026.docx · capacidad literal del programa: «Asume la responsabilidad de pertenecer a un grupo considerando sus habilidades y/o interes»
+- DPS_7mo_TOMO_INTEGRAL_PEC_OFICIO_2026.docx · capacidad literal del programa: «Expresa su habilidad de sentir, pensar y actuar como elementos que se observan en el proce»
+- DPS_7mo_TOMO_INTEGRAL_PEC_OFICIO_2026.docx · capacidad literal del programa: «Valora la importancia de integrarse y pertenecer a la comunidad educativa.»
+- DPS_7mo_PLAN_ANUAL_PEC_OFICIO_2026.docx · sección 1 en oficio (21.6 × 33.0 cm)
+- DPS_7mo_PLAN_ANUAL_PEC_OFICIO_2026.docx · sección 1 con márgenes de 1,27 cm
+- DPS_7mo_PLAN_ANUAL_PEC_OFICIO_2026.docx · sección 2 en oficio (33.0 × 21.6 cm)
+- DPS_7mo_PLAN_ANUAL_PEC_OFICIO_2026.docx · sección 2 con márgenes de 1,27 cm
+- DPS_7mo_PLAN_ANUAL_PEC_OFICIO_2026.docx · sin el símbolo ✓
+- DPS_7mo_PLAN_ANUAL_PEC_OFICIO_2026.docx · sin el símbolo ✗
+- DPS_7mo_PLAN_ANUAL_PEC_OFICIO_2026.docx · sin el símbolo ✅
+- DPS_7mo_PLAN_ANUAL_PEC_OFICIO_2026.docx · sin el símbolo ✔
+- DPS_7mo_PLAN_ANUAL_PEC_OFICIO_2026.docx · sin el símbolo ✘
+- DPS_7mo_PLAN_ANUAL_PEC_OFICIO_2026.docx · sin el símbolo ☑
+- DPS_7mo_PLAN_ANUAL_PEC_OFICIO_2026.docx · sin el residuo «Vinculado a la unidad de Orientación correspondiente»
+- DPS_7mo_PLAN_ANUAL_PEC_OFICIO_2026.docx · sin el residuo «no capacidad literal MEC»
+- DPS_7mo_PLAN_ANUAL_PEC_OFICIO_2026.docx · sin el residuo «fichas 1–7»
+- DPS_7mo_PLAN_ANUAL_PEC_OFICIO_2026.docx · sin el residuo «articulado con la unidad correspondiente»
+- DPS_7mo_PLAN_ANUAL_PEC_OFICIO_2026.docx · sin el residuo «MINNA y el MITIC»
+- DPS_7mo_PLAN_ANUAL_PEC_OFICIO_2026.docx · sin el residuo «Índice resumido. En Word»
+- DPS_7mo_PLAN_ANUAL_PEC_OFICIO_2026.docx · sin el residuo «Mes 1:»
+- DPS_7mo_PLAN_ANUAL_PEC_OFICIO_2026.docx · sin marcado sin procesar
+- DPS_7mo_PLAN_ANUAL_PEC_OFICIO_2026.docx · portada con imagen en la primera página
+- DPS_7mo_PLANES_DE_CLASE_PEC_OFICIO_2026.docx · sección 1 en oficio (21.6 × 33.0 cm)
+- DPS_7mo_PLANES_DE_CLASE_PEC_OFICIO_2026.docx · sección 1 con márgenes de 1,27 cm
+- DPS_7mo_PLANES_DE_CLASE_PEC_OFICIO_2026.docx · sección 2 en oficio (21.6 × 33.0 cm)
+- DPS_7mo_PLANES_DE_CLASE_PEC_OFICIO_2026.docx · sección 2 con márgenes de 1,27 cm
+- DPS_7mo_PLANES_DE_CLASE_PEC_OFICIO_2026.docx · sin el símbolo ✓
+- DPS_7mo_PLANES_DE_CLASE_PEC_OFICIO_2026.docx · sin el símbolo ✗
+- DPS_7mo_PLANES_DE_CLASE_PEC_OFICIO_2026.docx · sin el símbolo ✅
+- DPS_7mo_PLANES_DE_CLASE_PEC_OFICIO_2026.docx · sin el símbolo ✔
+- DPS_7mo_PLANES_DE_CLASE_PEC_OFICIO_2026.docx · sin el símbolo ✘
+- DPS_7mo_PLANES_DE_CLASE_PEC_OFICIO_2026.docx · sin el símbolo ☑
+- DPS_7mo_PLANES_DE_CLASE_PEC_OFICIO_2026.docx · sin el residuo «Vinculado a la unidad de Orientación correspondiente»
+- DPS_7mo_PLANES_DE_CLASE_PEC_OFICIO_2026.docx · sin el residuo «no capacidad literal MEC»
+- DPS_7mo_PLANES_DE_CLASE_PEC_OFICIO_2026.docx · sin el residuo «fichas 1–7»
+- DPS_7mo_PLANES_DE_CLASE_PEC_OFICIO_2026.docx · sin el residuo «articulado con la unidad correspondiente»
+- DPS_7mo_PLANES_DE_CLASE_PEC_OFICIO_2026.docx · sin el residuo «MINNA y el MITIC»
+- DPS_7mo_PLANES_DE_CLASE_PEC_OFICIO_2026.docx · sin el residuo «Índice resumido. En Word»
+- DPS_7mo_PLANES_DE_CLASE_PEC_OFICIO_2026.docx · sin el residuo «Mes 1:»
+- DPS_7mo_PLANES_DE_CLASE_PEC_OFICIO_2026.docx · sin marcado sin procesar
+- DPS_7mo_PLANES_DE_CLASE_PEC_OFICIO_2026.docx · portada con imagen en la primera página
+- DPS_7mo_PLANES_DE_CLASE_PEC_OFICIO_2026.docx · capacidad literal del programa: «Valora la importancia de integrarse y pertenecer a la comunidad educativa.»
+- DPS_7mo_PLANES_DE_CLASE_PEC_OFICIO_2026.docx · capacidad literal del programa: «Reconoce la organización interna de la institución educativa.»
+- DPS_7mo_PLANES_DE_CLASE_PEC_OFICIO_2026.docx · capacidad literal del programa: «Valora la importancia de integrarse y pertenecer a la comunidad educativa.»
+- DPS_7mo_PLANES_DE_CLASE_PEC_OFICIO_2026.docx · capacidad literal del programa: «Valora la importancia de integrarse y pertenecer a la comunidad educativa.»
+- DPS_7mo_PLANES_DE_CLASE_PEC_OFICIO_2026.docx · capacidad literal del programa: «Reconoce la organización interna de la institución educativa.»
+- DPS_7mo_PLANES_DE_CLASE_PEC_OFICIO_2026.docx · capacidad literal del programa: «Valora la importancia de integrarse y pertenecer a la comunidad educativa.»
+- DPS_7mo_PLANES_DE_CLASE_PEC_OFICIO_2026.docx · capacidad literal del programa: «Reconoce la organización interna de la institución educativa.»
+- DPS_7mo_PLANES_DE_CLASE_PEC_OFICIO_2026.docx · capacidad literal del programa: «Reconoce sus fortalezas, debilidades, intereses, habilidades y oportunidades para construi»
+- DPS_7mo_PLANES_DE_CLASE_PEC_OFICIO_2026.docx · capacidad literal del programa: «Reconoce sus fortalezas, debilidades, intereses, habilidades y oportunidades para construi»
+- DPS_7mo_PLANES_DE_CLASE_PEC_OFICIO_2026.docx · capacidad literal del programa: «Expresa su habilidad de sentir, pensar y actuar como elementos que se observan en el proce»
+- DPS_7mo_PLANES_DE_CLASE_PEC_OFICIO_2026.docx · capacidad literal del programa: «Reconoce sus fortalezas, debilidades, intereses, habilidades y oportunidades para construi»
+- DPS_7mo_PLANES_DE_CLASE_PEC_OFICIO_2026.docx · capacidad literal del programa: «Expresa su habilidad de sentir, pensar y actuar como elementos que se observan en el proce»
+- DPS_7mo_PLANES_DE_CLASE_PEC_OFICIO_2026.docx · capacidad literal del programa: «Valora la relación afectiva positiva entre los miembros de la familia y de su entorno.»
+- DPS_7mo_PLANES_DE_CLASE_PEC_OFICIO_2026.docx · capacidad literal del programa: «Analiza las causas y las consecuencias del uso y abuso de la tecnología como elemento que »
+- DPS_7mo_PLANES_DE_CLASE_PEC_OFICIO_2026.docx · capacidad literal del programa: «Reconoce que los cambios que se generan en la pubertad y en la adolescencia forman parte d»
+- DPS_7mo_PLANES_DE_CLASE_PEC_OFICIO_2026.docx · capacidad literal del programa: «Valora la relación afectiva positiva entre los miembros de la familia y de su entorno.»
+- DPS_7mo_PLANES_DE_CLASE_PEC_OFICIO_2026.docx · capacidad literal del programa: «Analiza las causas y las consecuencias del uso y abuso de la tecnología como elemento que »
+- DPS_7mo_PLANES_DE_CLASE_PEC_OFICIO_2026.docx · capacidad literal del programa: «Reconoce que los cambios que se generan en la pubertad y en la adolescencia forman parte d»
+- DPS_7mo_PLANES_DE_CLASE_PEC_OFICIO_2026.docx · capacidad literal del programa: «Analiza los artículos referentes a sus derechos y sus responsabilidades considerando su fo»
+- DPS_7mo_PLANES_DE_CLASE_PEC_OFICIO_2026.docx · capacidad literal del programa: «Reflexiona sobre los principales artículos relacionados con la No discriminación, expresad»
+- DPS_7mo_PLANES_DE_CLASE_PEC_OFICIO_2026.docx · capacidad literal del programa: «Reconoce la importancia de conocer las leyes que protegen a los niños, las niñas y los ado»
+- DPS_7mo_PLANES_DE_CLASE_PEC_OFICIO_2026.docx · capacidad literal del programa: «Analiza los artículos referentes a sus derechos y sus responsabilidades considerando su fo»
+- DPS_7mo_PLANES_DE_CLASE_PEC_OFICIO_2026.docx · capacidad literal del programa: «Reflexiona sobre los principales artículos relacionados con la No discriminación, expresad»
+- DPS_7mo_PLANES_DE_CLASE_PEC_OFICIO_2026.docx · capacidad literal del programa: «Reconoce la importancia de conocer las leyes que protegen a los niños, las niñas y los ado»
+- DPS_7mo_PLANES_DE_CLASE_PEC_OFICIO_2026.docx · capacidad literal del programa: «Valora la importancia de integrarse y pertenecer a la comunidad educativa.»
+- DPS_7mo_PLANES_DE_CLASE_PEC_OFICIO_2026.docx · capacidad literal del programa: «Reconoce la organización interna de la institución educativa.»
+- DPS_7mo_PLANES_DE_CLASE_PEC_OFICIO_2026.docx · capacidad literal del programa: «Reconoce sus fortalezas, debilidades, intereses, habilidades y oportunidades para construi»
+- DPS_7mo_PLANES_DE_CLASE_PEC_OFICIO_2026.docx · capacidad literal del programa: «Expresa su habilidad de sentir, pensar y actuar como elementos que se observan en el proce»
+- DPS_7mo_PLANES_DE_CLASE_PEC_OFICIO_2026.docx · capacidad literal del programa: «Valora la relación afectiva positiva entre los miembros de la familia y de su entorno.»
+- DPS_7mo_PLANES_DE_CLASE_PEC_OFICIO_2026.docx · capacidad literal del programa: «Analiza las causas y las consecuencias del uso y abuso de la tecnología como elemento que »
+- DPS_7mo_PLANES_DE_CLASE_PEC_OFICIO_2026.docx · capacidad literal del programa: «Reconoce que los cambios que se generan en la pubertad y en la adolescencia forman parte d»
+- DPS_7mo_PLANES_DE_CLASE_PEC_OFICIO_2026.docx · capacidad literal del programa: «Analiza los artículos referentes a sus derechos y sus responsabilidades considerando su fo»
+- DPS_7mo_PLANES_DE_CLASE_PEC_OFICIO_2026.docx · capacidad literal del programa: «Reflexiona sobre los principales artículos relacionados con la No discriminación, expresad»
+- DPS_7mo_PLANES_DE_CLASE_PEC_OFICIO_2026.docx · capacidad literal del programa: «Reconoce la importancia de conocer las leyes que protegen a los niños, las niñas y los ado»
+- DPS_7mo_PLANES_DE_CLASE_PEC_OFICIO_2026.docx · capacidad literal del programa: «Identifica los diferentes tipos de liderazgo.»
+- DPS_7mo_PLANES_DE_CLASE_PEC_OFICIO_2026.docx · capacidad literal del programa: «Participa con actitud democrática en el proceso de elección del Parlamento Escolar.»
+- DPS_7mo_PLANES_DE_CLASE_PEC_OFICIO_2026.docx · capacidad literal del programa: «Valora la importancia de integrarse y pertenecer a la comunidad educativa.»
+- DPS_7mo_PLANES_DE_CLASE_PEC_OFICIO_2026.docx · capacidad literal del programa: «Asume la responsabilidad de pertenecer a un grupo considerando sus habilidades y/o interes»
+- DPS_7mo_PLANES_DE_CLASE_PEC_OFICIO_2026.docx · capacidad literal del programa: «Valora la importancia de una correcta elección de autoridades y su incidencia en la vida d»
+- DPS_7mo_PLANES_DE_CLASE_PEC_OFICIO_2026.docx · capacidad literal del programa: «Asume la responsabilidad de pertenecer a un grupo considerando sus habilidades y/o interes»
+- DPS_7mo_PLANES_DE_CLASE_PEC_OFICIO_2026.docx · capacidad literal del programa: «Analiza los artículos referentes a sus derechos y sus responsabilidades considerando su fo»
+- DPS_7mo_PLANES_DE_CLASE_PEC_OFICIO_2026.docx · capacidad literal del programa: «Asume la responsabilidad de pertenecer a un grupo considerando sus habilidades y/o interes»
+- DPS_7mo_PLANES_DE_CLASE_PEC_OFICIO_2026.docx · capacidad literal del programa: «Identifica los diferentes tipos de liderazgo.»
+- DPS_7mo_PLANES_DE_CLASE_PEC_OFICIO_2026.docx · capacidad literal del programa: «Participa con actitud democrática en el proceso de elección del Parlamento Escolar.»
+- DPS_7mo_PLANES_DE_CLASE_PEC_OFICIO_2026.docx · capacidad literal del programa: «Valora la importancia de una correcta elección de autoridades y su incidencia en la vida d»
+- DPS_7mo_PLANES_DE_CLASE_PEC_OFICIO_2026.docx · capacidad literal del programa: «Asume la responsabilidad de pertenecer a un grupo considerando sus habilidades y/o interes»
+- DPS_7mo_PLANES_DE_CLASE_PEC_OFICIO_2026.docx · capacidad literal del programa: «Analiza las condiciones de organización para el estudio.»
+- DPS_7mo_PLANES_DE_CLASE_PEC_OFICIO_2026.docx · capacidad literal del programa: «Identifica los diferentes tipos de liderazgo.»
+- DPS_7mo_PLANES_DE_CLASE_PEC_OFICIO_2026.docx · capacidad literal del programa: «Asume la responsabilidad de pertenecer a un grupo considerando sus habilidades y/o interes»
+- DPS_7mo_PLANES_DE_CLASE_PEC_OFICIO_2026.docx · capacidad literal del programa: «Planifica adecuadamente su tiempo para el estudio.»
+- DPS_7mo_PLANES_DE_CLASE_PEC_OFICIO_2026.docx · capacidad literal del programa: «Planifica adecuadamente su tiempo para el estudio.»
+- DPS_7mo_PLANES_DE_CLASE_PEC_OFICIO_2026.docx · capacidad literal del programa: «Identifica las medidas de prevención y mitigación en situaciones de riesgos.»
+- DPS_7mo_PLANES_DE_CLASE_PEC_OFICIO_2026.docx · capacidad literal del programa: «Asume la responsabilidad de pertenecer a un grupo considerando sus habilidades y/o interes»
+- DPS_7mo_PLANES_DE_CLASE_PEC_OFICIO_2026.docx · capacidad literal del programa: «Analiza las condiciones de organización para el estudio.»
+- DPS_7mo_PLANES_DE_CLASE_PEC_OFICIO_2026.docx · capacidad literal del programa: «Planifica adecuadamente su tiempo para el estudio.»
+- DPS_7mo_PLANES_DE_CLASE_PEC_OFICIO_2026.docx · capacidad literal del programa: «Identifica las medidas de prevención y mitigación en situaciones de riesgos.»
+- DPS_7mo_PLANES_DE_CLASE_PEC_OFICIO_2026.docx · capacidad literal del programa: «Expresa su habilidad de sentir, pensar y actuar como elementos que se observan en el proce»
+- DPS_7mo_PLANES_DE_CLASE_PEC_OFICIO_2026.docx · capacidad literal del programa: «Valora la importancia de integrarse y pertenecer a la comunidad educativa.»
+- DPS_7mo_PLANES_DE_CLASE_PEC_OFICIO_2026.docx · capacidad literal del programa: «Aplica normas de comportamiento en caso de riesgos.»
+- DPS_7mo_PLANES_DE_CLASE_PEC_OFICIO_2026.docx · capacidad literal del programa: «Reconoce sus fortalezas, debilidades, intereses, habilidades y oportunidades para construi»
+- DPS_7mo_PLANES_DE_CLASE_PEC_OFICIO_2026.docx · capacidad literal del programa: «Reconoce la importancia de conocer las leyes que protegen a los niños, las niñas y los ado»
+- DPS_7mo_PLANES_DE_CLASE_PEC_OFICIO_2026.docx · capacidad literal del programa: «Identifica las medidas de prevención y mitigación en situaciones de riesgos.»
+- DPS_7mo_PLANES_DE_CLASE_PEC_OFICIO_2026.docx · capacidad literal del programa: «Aplica normas de comportamiento en caso de riesgos.»
+- DPS_7mo_PLANES_DE_CLASE_PEC_OFICIO_2026.docx · capacidad literal del programa: «Identifica los diferentes tipos de liderazgo.»
+- DPS_7mo_PLANES_DE_CLASE_PEC_OFICIO_2026.docx · capacidad literal del programa: «Participa con actitud democrática en el proceso de elección del Parlamento Escolar.»
+- DPS_7mo_PLANES_DE_CLASE_PEC_OFICIO_2026.docx · capacidad literal del programa: «Valora la importancia de una correcta elección de autoridades y su incidencia en la vida d»
+- DPS_7mo_PLANES_DE_CLASE_PEC_OFICIO_2026.docx · capacidad literal del programa: «Asume la responsabilidad de pertenecer a un grupo considerando sus habilidades y/o interes»
+- DPS_7mo_PLANES_DE_CLASE_PEC_OFICIO_2026.docx · capacidad literal del programa: «Analiza las condiciones de organización para el estudio.»
+- DPS_7mo_PLANES_DE_CLASE_PEC_OFICIO_2026.docx · capacidad literal del programa: «Planifica adecuadamente su tiempo para el estudio.»
+- DPS_7mo_PLANES_DE_CLASE_PEC_OFICIO_2026.docx · capacidad literal del programa: «Identifica las medidas de prevención y mitigación en situaciones de riesgos.»
+- DPS_7mo_PLANES_DE_CLASE_PEC_OFICIO_2026.docx · capacidad literal del programa: «Aplica normas de comportamiento en caso de riesgos.»
+- DPS_7mo_SOLUCIONARIO_DOCENTE_PEC_OFICIO_2026.docx · sección 1 en oficio (21.6 × 33.0 cm)
+- DPS_7mo_SOLUCIONARIO_DOCENTE_PEC_OFICIO_2026.docx · sección 1 con márgenes de 1,27 cm
+- DPS_7mo_SOLUCIONARIO_DOCENTE_PEC_OFICIO_2026.docx · sección 2 en oficio (21.6 × 33.0 cm)
+- DPS_7mo_SOLUCIONARIO_DOCENTE_PEC_OFICIO_2026.docx · sección 2 con márgenes de 1,27 cm
+- DPS_7mo_SOLUCIONARIO_DOCENTE_PEC_OFICIO_2026.docx · sin el símbolo ✓
+- DPS_7mo_SOLUCIONARIO_DOCENTE_PEC_OFICIO_2026.docx · sin el símbolo ✗
+- DPS_7mo_SOLUCIONARIO_DOCENTE_PEC_OFICIO_2026.docx · sin el símbolo ✅
+- DPS_7mo_SOLUCIONARIO_DOCENTE_PEC_OFICIO_2026.docx · sin el símbolo ✔
+- DPS_7mo_SOLUCIONARIO_DOCENTE_PEC_OFICIO_2026.docx · sin el símbolo ✘
+- DPS_7mo_SOLUCIONARIO_DOCENTE_PEC_OFICIO_2026.docx · sin el símbolo ☑
+- DPS_7mo_SOLUCIONARIO_DOCENTE_PEC_OFICIO_2026.docx · sin el residuo «Vinculado a la unidad de Orientación correspondiente»
+- DPS_7mo_SOLUCIONARIO_DOCENTE_PEC_OFICIO_2026.docx · sin el residuo «no capacidad literal MEC»
+- DPS_7mo_SOLUCIONARIO_DOCENTE_PEC_OFICIO_2026.docx · sin el residuo «fichas 1–7»
+- DPS_7mo_SOLUCIONARIO_DOCENTE_PEC_OFICIO_2026.docx · sin el residuo «articulado con la unidad correspondiente»
+- DPS_7mo_SOLUCIONARIO_DOCENTE_PEC_OFICIO_2026.docx · sin el residuo «MINNA y el MITIC»
+- DPS_7mo_SOLUCIONARIO_DOCENTE_PEC_OFICIO_2026.docx · sin el residuo «Índice resumido. En Word»
+- DPS_7mo_SOLUCIONARIO_DOCENTE_PEC_OFICIO_2026.docx · sin el residuo «Mes 1:»
+- DPS_7mo_SOLUCIONARIO_DOCENTE_PEC_OFICIO_2026.docx · sin marcado sin procesar
+- DPS_7mo_SOLUCIONARIO_DOCENTE_PEC_OFICIO_2026.docx · portada con imagen en la primera página
+- Tomo: las 21 imágenes de la base candidata se conservan idénticas (SHA-256)
+- DPS_7mo_TOMO_INTEGRAL_PEC_OFICIO_2026.pdf · todas las páginas en oficio {(612, 936)}
+- DPS_7mo_TOMO_INTEGRAL_PEC_OFICIO_2026.pdf · sin páginas en blanco o residuales (llenado < 12 %): []
+- DPS_7mo_SOLUCIONARIO_DOCENTE_PEC_OFICIO_2026.pdf · todas las páginas en oficio {(612, 936)}
+- DPS_7mo_SOLUCIONARIO_DOCENTE_PEC_OFICIO_2026.pdf · sin páginas en blanco o residuales (llenado < 12 %): []
+- Índice del tomo: las 54 entradas coinciden con la página del PDF []
+- DPS_7mo_TOMO_INTEGRAL_PEC_OFICIO_2026 · PDF generado a partir del .docx entregado
+- DPS_7mo_SOLUCIONARIO_DOCENTE_PEC_OFICIO_2026 · PDF generado a partir del .docx entregado

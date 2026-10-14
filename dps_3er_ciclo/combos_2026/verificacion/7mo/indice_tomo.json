@@ -1,0 +1,314 @@
+{
+"entradas": [
+[
+1,
+"Prueba diagnóstica — ¿Qué sabés ya?"
+],
+[
+1,
+"UNIDAD 1 — Sentido de pertenencia"
+],
+[
+2,
+"Clase 1 — Bienvenida al tercer ciclo: pertenecer"
+],
+[
+2,
+"Clase 2 — Cómo se organiza mi colegio"
+],
+[
+2,
+"Clase 3 — El PEI y las normas de convivencia"
+],
+[
+2,
+"Actividad complementaria 1 (opcional) — Mi horario y cómo me evaluarán este año"
+],
+[
+2,
+"EVALUACIÓN DE LA UNIDAD 1"
+],
+[
+1,
+"UNIDAD 2 — Autoconocimiento"
+],
+[
+2,
+"Clase 4 — ¿Quién soy? Fortalezas y habilidades"
+],
+[
+2,
+"Clase 5 — Autoestima, autovaloración y asertividad"
+],
+[
+2,
+"Clase 6 — Sentir, pensar y actuar: mi proyecto de vida"
+],
+[
+2,
+"EVALUACIÓN DE LA UNIDAD 2"
+],
+[
+1,
+"UNIDAD 3 — Vida afectiva"
+],
+[
+2,
+"Clase 7 — Relaciones afectivas saludables"
+],
+[
+2,
+"Clase 8 — Tecnología, redes y convivencia digital"
+],
+[
+2,
+"Clase 9 — Los cambios de la adolescencia"
+],
+[
+2,
+"EVALUACIÓN DE LA UNIDAD 3"
+],
+[
+1,
+"UNIDAD 4 — Derechos y responsabilidades"
+],
+[
+2,
+"Clase 10 — Mis derechos y mis responsabilidades"
+],
+[
+2,
+"Clase 11 — No discriminación, respeto y tolerancia"
+],
+[
+2,
+"Clase 12 — Quién me protege: mi red de protección"
+],
+[
+2,
+"EVALUACIÓN DE LA UNIDAD 4"
+],
+[
+1,
+"EVALUACIÓN INTEGRADORA · 1.ª ETAPA"
+],
+[
+1,
+"UNIDAD 5 — Organizaciones estudiantiles"
+],
+[
+2,
+"Clase 13 — Liderazgo: iniciativa y participación democrática"
+],
+[
+2,
+"Clase 14 — El Parlamento Escolar"
+],
+[
+2,
+"Clase 15 — Elecciones en el grado y clubes"
+],
+[
+2,
+"Actividad complementaria 2 (opcional) — Leer las reglas antes de participar"
+],
+[
+2,
+"Actividad complementaria 3 (opcional) — Simulación participativa conforme al reglamento"
+],
+[
+2,
+"EVALUACIÓN DE LA UNIDAD 5"
+],
+[
+1,
+"UNIDAD 6 — Organización y planificación"
+],
+[
+2,
+"Clase 16 — Las condiciones para estudiar"
+],
+[
+2,
+"Clase 17 — Organizá tu tiempo: el estudio como hábito"
+],
+[
+2,
+"Clase 18 — Mi plan y mis metas"
+],
+[
+2,
+"Actividad complementaria 4 (opcional) — Auditoría de condiciones para estudiar"
+],
+[
+2,
+"Actividad complementaria 5 (opcional) — Una semana real: probar y ajustar mi plan"
+],
+[
+2,
+"EVALUACIÓN DE LA UNIDAD 6"
+],
+[
+1,
+"UNIDAD 7 — Gestión de riesgo"
+],
+[
+2,
+"Clase 19 — Prevención, mitigación/reducción y respuesta"
+],
+[
+2,
+"Actividad complementaria 6 (opcional) — Mapa de riesgos y simulación segura"
+],
+[
+2,
+"Clase 20 — Actuar en emergencias y frente a la violencia"
+],
+[
+2,
+"Clase 21 — Cierre del año: mi red y mi proyecto de vida"
+],
+[
+2,
+"EVALUACIÓN DE LA UNIDAD 7"
+],
+[
+1,
+"EVALUACIÓN INTEGRADORA · 2.ª ETAPA"
+],
+[
+1,
+"PROYECTO EDUCATIVO COMUNITARIO"
+],
+[
+1,
+"Proyecto modelo del 7.º grado"
+],
+[
+1,
+"TALLER PEC A · Mirar antes de actuar"
+],
+[
+1,
+"TALLER PEC B · Elegir con razones"
+],
+[
+1,
+"TALLER PEC C · Pasar de la idea al plan"
+],
+[
+1,
+"TALLER PEC D · Organizar para cumplir"
+],
+[
+1,
+"TALLER PEC E · Actuar y registrar"
+],
+[
+1,
+"TALLER PEC F · Aprender de los resultados"
+],
+[
+1,
+"CARPETA DE TRABAJO — FICHAS DEL PEC"
+],
+[
+1,
+"Evaluación formativa del Proyecto Educativo Comunitario"
+]
+],
+"paginas": [
+4,
+5,
+5,
+7,
+9,
+11,
+12,
+13,
+13,
+15,
+17,
+19,
+20,
+20,
+22,
+24,
+26,
+27,
+27,
+29,
+31,
+33,
+34,
+35,
+35,
+37,
+39,
+41,
+42,
+43,
+44,
+44,
+46,
+48,
+50,
+51,
+52,
+53,
+53,
+55,
+56,
+58,
+60,
+61,
+62,
+64,
+65,
+68,
+71,
+74,
+77,
+80,
+83,
+86
+],
+"total": 86,
+"notas": {
+"2": 26,
+"5": 25,
+"7": 20,
+"10": 27,
+"11": 21,
+"13": 16,
+"14": 22,
+"15": 20,
+"17": 19,
+"18": 18,
+"19": 21,
+"20": 18,
+"21": 22,
+"23": 16,
+"24": 25,
+"26": 20,
+"27": 16,
+"28": 22,
+"29": 22,
+"30": 26,
+"32": 20,
+"33": 17,
+"34": 24,
+"35": 18,
+"36": 21,
+"37": 20,
+"38": 18,
+"39": 32,
+"41": 20,
+"42": 21,
+"43": 24,
+"44": 21,
+"45": 23,
+"46": 21,
+"47": 23
+}
+}
