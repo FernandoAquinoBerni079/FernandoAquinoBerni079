@@ -2,7 +2,7 @@
 
 Generado por `edicion/verificar.py`. Son controles del productor: no reemplazan la auditoría independiente.
 
-**232 controles correctos · 0 fallos**
+**249 controles correctos · 0 fallos**
 
 ## Datos
 
@@ -29,7 +29,6 @@ Generado por `edicion/verificar.py`. Son controles del productor: no reemplazan 
 - DPS_7mo_TOMO_INTEGRAL_PEC_OFICIO_2026.docx · sin el residuo «MINNA y el MITIC»
 - DPS_7mo_TOMO_INTEGRAL_PEC_OFICIO_2026.docx · sin el residuo «Índice resumido. En Word»
 - DPS_7mo_TOMO_INTEGRAL_PEC_OFICIO_2026.docx · sin el residuo «Mes 1:»
-- DPS_7mo_TOMO_INTEGRAL_PEC_OFICIO_2026.docx · sin el residuo «Capacidades de la unidad: »
 - DPS_7mo_TOMO_INTEGRAL_PEC_OFICIO_2026.docx · sin el residuo «Continuación práctica»
 - DPS_7mo_TOMO_INTEGRAL_PEC_OFICIO_2026.docx · sin el residuo «Vinculado a la unidad»
 - DPS_7mo_TOMO_INTEGRAL_PEC_OFICIO_2026.docx · sin marcado sin procesar
@@ -88,13 +87,26 @@ Generado por `edicion/verificar.py`. Son controles del productor: no reemplazan 
 - DPS_7mo_PLAN_ANUAL_PEC_OFICIO_2026.docx · sin el residuo «MINNA y el MITIC»
 - DPS_7mo_PLAN_ANUAL_PEC_OFICIO_2026.docx · sin el residuo «Índice resumido. En Word»
 - DPS_7mo_PLAN_ANUAL_PEC_OFICIO_2026.docx · sin el residuo «Mes 1:»
-- DPS_7mo_PLAN_ANUAL_PEC_OFICIO_2026.docx · sin el residuo «Capacidades de la unidad: »
 - DPS_7mo_PLAN_ANUAL_PEC_OFICIO_2026.docx · sin el residuo «Continuación práctica»
 - DPS_7mo_PLAN_ANUAL_PEC_OFICIO_2026.docx · sin el residuo «Vinculado a la unidad»
 - DPS_7mo_PLAN_ANUAL_PEC_OFICIO_2026.docx · sin marcado sin procesar
 - DPS_7mo_PLAN_ANUAL_PEC_OFICIO_2026.docx · portada con imagen en la primera página
 - DPS_7mo_PLAN_ANUAL_PEC_OFICIO_2026.docx · sin pedido de actualizar campos al abrir (índices estáticos)
 - DPS_7mo_PLAN_ANUAL_PEC_OFICIO_2026.docx · sin índice dinámico vacío o desactualizado
+- DPS_7mo_PLAN_ANUAL_PEC_OFICIO_2026.docx · capacidades citadas del programa: ««Valora la importancia de integrarse y pertenecer a la comunidad educativa.» «Reconoce la »
+- DPS_7mo_PLAN_ANUAL_PEC_OFICIO_2026.docx · capacidades citadas del programa: ««Valora la importancia de integrarse y pertenecer a la comunidad educativa.» «Reconoce la »
+- DPS_7mo_PLAN_ANUAL_PEC_OFICIO_2026.docx · capacidades citadas del programa: ««Reconoce sus fortalezas, debilidades, intereses, habilidades y oportunidades para constru»
+- DPS_7mo_PLAN_ANUAL_PEC_OFICIO_2026.docx · capacidades citadas del programa: ««Valora la relación afectiva positiva entre los miembros de la familia y de su entorno.» «»
+- DPS_7mo_PLAN_ANUAL_PEC_OFICIO_2026.docx · capacidades citadas del programa: ««Analiza los artículos referentes a sus derechos y sus responsabilidades considerando su f»
+- DPS_7mo_PLAN_ANUAL_PEC_OFICIO_2026.docx · capacidades citadas del programa: ««Identifica los diferentes tipos de liderazgo.» «Participa con actitud democrática en el p»
+- DPS_7mo_PLAN_ANUAL_PEC_OFICIO_2026.docx · capacidades citadas del programa: ««Valora la importancia de integrarse y pertenecer a la comunidad educativa.» «Asume la res»
+- DPS_7mo_PLAN_ANUAL_PEC_OFICIO_2026.docx · capacidades citadas del programa: ««Identifica los diferentes tipos de liderazgo.» «Participa con actitud democrática en el p»
+- DPS_7mo_PLAN_ANUAL_PEC_OFICIO_2026.docx · capacidades citadas del programa: ««Analiza los artículos referentes a sus derechos y sus responsabilidades considerando su f»
+- DPS_7mo_PLAN_ANUAL_PEC_OFICIO_2026.docx · capacidades citadas del programa: ««Analiza las condiciones de organización para el estudio.» «Planifica adecuadamente su tie»
+- DPS_7mo_PLAN_ANUAL_PEC_OFICIO_2026.docx · capacidades citadas del programa: ««Identifica los diferentes tipos de liderazgo.» «Asume la responsabilidad de pertenecer a »
+- DPS_7mo_PLAN_ANUAL_PEC_OFICIO_2026.docx · capacidades citadas del programa: ««Identifica las medidas de prevención y mitigación en situaciones de riesgos.» «Asume la r»
+- DPS_7mo_PLAN_ANUAL_PEC_OFICIO_2026.docx · capacidades citadas del programa: ««Identifica las medidas de prevención y mitigación en situaciones de riesgos.» «Aplica nor»
+- DPS_7mo_PLAN_ANUAL_PEC_OFICIO_2026.docx · capacidades citadas del programa: ««Expresa su habilidad de sentir, pensar y actuar como elementos que se observan en el proc»
 - DPS_7mo_PLANES_DE_CLASE_PEC_OFICIO_2026.docx · sección 1 en oficio (21.6 × 33.0 cm)
 - DPS_7mo_PLANES_DE_CLASE_PEC_OFICIO_2026.docx · sección 1 con márgenes de 1,27 cm
 - DPS_7mo_PLANES_DE_CLASE_PEC_OFICIO_2026.docx · sección 2 en oficio (21.6 × 33.0 cm)
@@ -112,7 +124,6 @@ Generado por `edicion/verificar.py`. Son controles del productor: no reemplazan 
 - DPS_7mo_PLANES_DE_CLASE_PEC_OFICIO_2026.docx · sin el residuo «MINNA y el MITIC»
 - DPS_7mo_PLANES_DE_CLASE_PEC_OFICIO_2026.docx · sin el residuo «Índice resumido. En Word»
 - DPS_7mo_PLANES_DE_CLASE_PEC_OFICIO_2026.docx · sin el residuo «Mes 1:»
-- DPS_7mo_PLANES_DE_CLASE_PEC_OFICIO_2026.docx · sin el residuo «Capacidades de la unidad: »
 - DPS_7mo_PLANES_DE_CLASE_PEC_OFICIO_2026.docx · sin el residuo «Continuación práctica»
 - DPS_7mo_PLANES_DE_CLASE_PEC_OFICIO_2026.docx · sin el residuo «Vinculado a la unidad»
 - DPS_7mo_PLANES_DE_CLASE_PEC_OFICIO_2026.docx · sin marcado sin procesar
@@ -207,7 +218,6 @@ Generado por `edicion/verificar.py`. Son controles del productor: no reemplazan 
 - DPS_7mo_SOLUCIONARIO_DOCENTE_PEC_OFICIO_2026.docx · sin el residuo «MINNA y el MITIC»
 - DPS_7mo_SOLUCIONARIO_DOCENTE_PEC_OFICIO_2026.docx · sin el residuo «Índice resumido. En Word»
 - DPS_7mo_SOLUCIONARIO_DOCENTE_PEC_OFICIO_2026.docx · sin el residuo «Mes 1:»
-- DPS_7mo_SOLUCIONARIO_DOCENTE_PEC_OFICIO_2026.docx · sin el residuo «Capacidades de la unidad: »
 - DPS_7mo_SOLUCIONARIO_DOCENTE_PEC_OFICIO_2026.docx · sin el residuo «Continuación práctica»
 - DPS_7mo_SOLUCIONARIO_DOCENTE_PEC_OFICIO_2026.docx · sin el residuo «Vinculado a la unidad»
 - DPS_7mo_SOLUCIONARIO_DOCENTE_PEC_OFICIO_2026.docx · sin marcado sin procesar
@@ -233,6 +243,13 @@ Generado por `edicion/verificar.py`. Son controles del productor: no reemplazan 
 - Solucionario · Taller D en el encuentro 26
 - Solucionario · Taller E en el encuentro 29
 - Solucionario · Taller F en el encuentro 32
+- Tomo · TALLER PEC A · abre con su ficha PEC
+- Tomo · TALLER PEC B · abre con su ficha PEC
+- Tomo · TALLER PEC C · abre con su ficha PEC
+- Tomo · TALLER PEC D · abre con su ficha PEC
+- Tomo · TALLER PEC E · abre con su ficha PEC
+- Tomo · TALLER PEC F · abre con su ficha PEC
+- Solucionario · respuestas esperadas para los seis talleres
 - Tomo: las 21 imágenes de la base candidata se conservan idénticas (SHA-256)
 - DPS_7mo_TOMO_INTEGRAL_PEC_OFICIO_2026.pdf · todas las páginas en oficio {(612, 936)}
 - DPS_7mo_TOMO_INTEGRAL_PEC_OFICIO_2026.pdf · sin páginas en blanco o residuales (llenado < 12 %): []

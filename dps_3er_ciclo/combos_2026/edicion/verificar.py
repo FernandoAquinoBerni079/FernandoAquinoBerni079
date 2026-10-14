@@ -24,8 +24,8 @@ ok(not any(n.startswith((C['nombre_pa'], C['nombre_planes'])) and n.endswith('.p
    'Sin PDF del Plan Anual ni de los Planes de Clase en la entrega')
 CAPS = set(C['CAP'].values())
 PROHIBIDOS = '✓✗✅✔✘☑'
-RESIDUOS = ['Vinculado a la unidad de Orientación correspondiente', 'no capacidad literal MEC', 'fichas 1–7', 'articulado con la unidad correspondiente',
-            'MINNA y el MITIC', 'Índice resumido. En Word', 'Mes 1:', 'Capacidades de la unidad: ', 'Continuación práctica',
+RESIDUOS = (['continuación práctica', 'continuaciones prácticas'] if g == '9' else []) + ['Vinculado a la unidad de Orientación correspondiente', 'no capacidad literal MEC', 'fichas 1–7', 'articulado con la unidad correspondiente',
+            'MINNA y el MITIC', 'Índice resumido. En Word', 'Mes 1:', 'Continuación práctica',
             'Vinculado a la unidad']
 
 for n in nombres:
@@ -48,6 +48,19 @@ for n in nombres:
     ok(not d.settings.element.findall(qn('w:updateFields')), '%s · sin pedido de actualizar campos al abrir (índices estáticos)' % n)
     ok(not any('presionar Ctrl+E' in O.texto(p) or 'presioná Ctrl+E' in O.texto(p) for p in d.element.body.iter(qn('w:p'))),
        '%s · sin índice dinámico vacío o desactualizado' % n)
+    # bandas de unidad y filas PEC: «Capacidades…: «…» «…»» solo con capacidades del programa (sin paráfrasis)
+    for p in d.element.body.iter(qn('w:p')):
+        for t in [O.texto(p)] + [x.text or '' for x in p.iter(qn('w:t'))]:
+            m = re.search(r'Capacidades[^:«]{0,60}: (.*)$', t)
+            if m and not t.startswith(('Capacidades del área vinculadas', 'Capacidades evaluadas')) or (m and '«' in m.group(1)[:2]):
+                resto = m.group(1).split(' Indicadores:')[0]
+                if not resto.startswith('«'):
+                    if t.startswith(('Capacidades:', 'Capacidades de la unidad')):
+                        ok(False, '%s · banda de capacidades parafraseada: «%s»' % (n, t[:90]))
+                    continue
+                citas = re.findall(r'«([^»]+)»', resto)
+                ok(citas and all(c in CAPS for c in citas), '%s · capacidades citadas del programa: «%s»' % (n, resto[:90]))
+                break
     # capacidades: cada celda de ficha rotulada «Capacidad/es…» contiene solo capacidades literales del programa
     for t in d.element.body.iter(qn('w:tbl')):
         for tr in t.findall(qn('w:tr')):
@@ -80,6 +93,15 @@ for letra, t in zip('ABCDEF', fs):
 sol = '\n'.join(O.texto(p) for p in docx.Document(OUT + C['nombre_sol'] + '.docx').element.body.iter(qn('w:p')))
 for letra, (enc, _) in C['talleres'].items():
     ok('Encuentro %d de 36 · Taller PEC %s' % (enc, letra) in sol, 'Solucionario · Taller %s en el encuentro %d' % (letra, enc))
+
+# estructura PEC: cada taller abre con su ficha y el Solucionario trae respuestas para los seis
+tomo = docx.Document(OUT + C['nombre_tomo'] + '.docx'); els = list(tomo.element.body)
+for i, el in enumerate(els):
+    t = O.texto(el).strip()
+    if el.tag == qn('w:p') and re.match(r'^TALLER PEC [A-F] · ', t) and el.find('.//' + qn('w:tab')) is None:
+        sig = els[i + 1]
+        ok(sig.tag == qn('w:tbl') and O.texto(sig.find('.//' + qn('w:tc'))).strip() == 'Componente', 'Tomo · %s abre con su ficha PEC' % t[:14])
+ok(len(re.findall(r'Respuestas esperadas', sol)) >= 6, 'Solucionario · respuestas esperadas para los seis talleres')
 
 # imágenes del tomo: todas las de la base candidata siguen, byte a byte
 base = O.media_sha(C['base_tomo']); nuevo = O.media_sha(OUT + C['nombre_tomo'] + '.docx')

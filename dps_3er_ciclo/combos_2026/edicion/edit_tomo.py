@@ -110,6 +110,32 @@ def insertar_notas(d, antes_de, n):
         antes_de.addprevious(copy.deepcopy(el))
 
 
+def reemplazar_pec(d):
+    body = d.element.body
+    pec = primer_el(d, lambda el: es_h(el, 1) and O.texto(el).strip().startswith('PROYECTO EDUCATIVO COMUNITARIO'))
+    els = list(body); i = els.index(pec)
+    for el in els[i:]:
+        if el.tag != qn('w:sectPr'):
+            body.remove(el)
+    R.NIVELES.update({'#': 1, '##': 2, '###': 3})
+    R.render(d, R.leer(C['pec_tomo']))
+
+
+def insertar_pec(d):
+    """9.º: conserva el módulo PEC de la base y agrega, en cada taller, la ficha (después del título) y las consignas
+    individuales con el recuadro de cuidados (después de «Producto evaluable»)."""
+    R.NIVELES.update({'#': 1, '##': 2, '###': 3})
+    B_ = R.bloques(C['pec_tomo'])
+    els = list(d.element.body)
+    for letra in 'ABCDEF':
+        h = next(el for el in els if es_h(el, 1) and O.texto(el).strip().startswith('TALLER PEC %s ·' % letra))
+        i = els.index(h)
+        prod = next(el for el in els[i:] if O.texto(el).strip().startswith('Producto evaluable'))
+        R.render_despues(d, h, B_['FICHA ' + letra])
+        R.render_despues(d, prod, B_['CONSIGNAS ' + letra])
+        els = list(d.element.body)
+
+
 def construir(paso_indice=None, notas=None):
     d = docx.Document(C['base_tomo'])
     body = d.element.body
@@ -136,16 +162,13 @@ def construir(paso_indice=None, notas=None):
         if m and es_h(el, 1):
             u = int(m.group(1))
         elif u and el.tag == qn('w:p') and tx.startswith('Capacidades de la unidad: '):
-            O.reemplazar_parrafo(el, 'Capacidades de la unidad (programa MEC): ' + ' '.join('«%s»' % C['CAP'][k] for k in C['unidad_caps'][u]))
+            O.reemplazar_parrafo(el, 'Capacidades de la unidad%s: ' % C.get('rotulo_fuente', ' (programa MEC)') + ' '.join('«%s»' % C['CAP'][k] for k in C['unidad_caps'][u]))
             u = None
-    # 5. módulo PEC: se reemplaza por la versión desarrollada (desde su título hasta el final)
-    pec = primer_el(d, lambda el: es_h(el, 1) and O.texto(el).strip().startswith('PROYECTO EDUCATIVO COMUNITARIO'))
-    els = list(body); i = els.index(pec)
-    for el in els[i:]:
-        if el.tag != qn('w:sectPr'):
-            body.remove(el)
-    R.NIVELES.update({'#': 1, '##': 2, '###': 3})
-    R.render(d, R.leer(C['pec_tomo']))
+    # 5. módulo PEC: se reemplaza por la versión desarrollada (7.º y 8.º) o se completa en su lugar (9.º)
+    if C.get('pec_modo') == 'insertar':
+        insertar_pec(d)
+    else:
+        reemplazar_pec(d)
     # 5 bis. saltos redundantes: párrafo vacío con salto de página seguido de un elemento que ya abre página
     els = [e for e in body if e.tag != qn('w:sectPr')]
     for a, b in zip(els, els[1:]):

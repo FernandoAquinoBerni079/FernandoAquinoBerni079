@@ -1,0 +1,347 @@
+# Controles del combo 9.º — Desarrollo Personal y Social
+
+Generado por `edicion/verificar.py`. Son controles del productor: no reemplazan la auditoría independiente.
+
+**333 controles correctos · 0 fallos**
+
+## Datos
+
+- Imágenes del tomo: base 19 · editado 20 (la diferencia es la portada)
+- DPS_9no_TOMO_INTEGRAL_PEC_OFICIO_2026.pdf: 90 páginas
+- DPS_9no_SOLUCIONARIO_DOCENTE_PEC_OFICIO_2026.pdf: 19 páginas
+
+## Controles correctos
+
+- La carpeta del grado tiene exactamente los seis archivos: ['DPS_9no_PLANES_DE_CLASE_PEC_OFICIO_2026.docx', 'DPS_9no_PLAN_ANUAL_PEC_OFICIO_2026.docx', 'DPS_9no_SOLUCIONARIO_DOCENTE_PEC_OFICIO_2026.docx', 'DPS_9no_SOLUCIONARIO_DOCENTE_PEC_OFICIO_2026.pdf', 'DPS_9no_TOMO_INTEGRAL_PEC_OFICIO_2026.docx', 'DPS_9no_TOMO_INTEGRAL_PEC_OFICIO_2026.pdf']
+- Sin PDF del Plan Anual ni de los Planes de Clase en la entrega
+- DPS_9no_TOMO_INTEGRAL_PEC_OFICIO_2026.docx · sección 1 en oficio (21.6 × 33.0 cm)
+- DPS_9no_TOMO_INTEGRAL_PEC_OFICIO_2026.docx · sección 1 con márgenes de 1,27 cm
+- DPS_9no_TOMO_INTEGRAL_PEC_OFICIO_2026.docx · sin el símbolo ✓
+- DPS_9no_TOMO_INTEGRAL_PEC_OFICIO_2026.docx · sin el símbolo ✗
+- DPS_9no_TOMO_INTEGRAL_PEC_OFICIO_2026.docx · sin el símbolo ✅
+- DPS_9no_TOMO_INTEGRAL_PEC_OFICIO_2026.docx · sin el símbolo ✔
+- DPS_9no_TOMO_INTEGRAL_PEC_OFICIO_2026.docx · sin el símbolo ✘
+- DPS_9no_TOMO_INTEGRAL_PEC_OFICIO_2026.docx · sin el símbolo ☑
+- DPS_9no_TOMO_INTEGRAL_PEC_OFICIO_2026.docx · sin el residuo «continuación práctica»
+- DPS_9no_TOMO_INTEGRAL_PEC_OFICIO_2026.docx · sin el residuo «continuaciones prácticas»
+- DPS_9no_TOMO_INTEGRAL_PEC_OFICIO_2026.docx · sin el residuo «Vinculado a la unidad de Orientación correspondiente»
+- DPS_9no_TOMO_INTEGRAL_PEC_OFICIO_2026.docx · sin el residuo «no capacidad literal MEC»
+- DPS_9no_TOMO_INTEGRAL_PEC_OFICIO_2026.docx · sin el residuo «fichas 1–7»
+- DPS_9no_TOMO_INTEGRAL_PEC_OFICIO_2026.docx · sin el residuo «articulado con la unidad correspondiente»
+- DPS_9no_TOMO_INTEGRAL_PEC_OFICIO_2026.docx · sin el residuo «MINNA y el MITIC»
+- DPS_9no_TOMO_INTEGRAL_PEC_OFICIO_2026.docx · sin el residuo «Índice resumido. En Word»
+- DPS_9no_TOMO_INTEGRAL_PEC_OFICIO_2026.docx · sin el residuo «Mes 1:»
+- DPS_9no_TOMO_INTEGRAL_PEC_OFICIO_2026.docx · sin el residuo «Continuación práctica»
+- DPS_9no_TOMO_INTEGRAL_PEC_OFICIO_2026.docx · sin el residuo «Vinculado a la unidad»
+- DPS_9no_TOMO_INTEGRAL_PEC_OFICIO_2026.docx · sin marcado sin procesar
+- DPS_9no_TOMO_INTEGRAL_PEC_OFICIO_2026.docx · portada con imagen en la primera página
+- DPS_9no_TOMO_INTEGRAL_PEC_OFICIO_2026.docx · sin pedido de actualizar campos al abrir (índices estáticos)
+- DPS_9no_TOMO_INTEGRAL_PEC_OFICIO_2026.docx · sin índice dinámico vacío o desactualizado
+- DPS_9no_TOMO_INTEGRAL_PEC_OFICIO_2026.docx · capacidades citadas del programa: ««Establece relaciones armónicas en su comunicación interpersonal con los miembros de la co»
+- DPS_9no_TOMO_INTEGRAL_PEC_OFICIO_2026.docx · capacidades citadas del programa: ««Reconoce la importancia de conocerse a sí mismo, sus intereses, sus habilidades, sus pote»
+- DPS_9no_TOMO_INTEGRAL_PEC_OFICIO_2026.docx · capacidades citadas del programa: ««Expresa sus emociones de manera equilibrada, demostrando autocontrol en sus actividades.»»
+- DPS_9no_TOMO_INTEGRAL_PEC_OFICIO_2026.docx · capacidades citadas del programa: ««Emprende acciones que promuevan el cumplimiento de los artículos de los DD. HH. referente»
+- DPS_9no_TOMO_INTEGRAL_PEC_OFICIO_2026.docx · capacidades citadas del programa: ««Analiza los procesos democráticos de elección de autoridades de la comunidad educativa en»
+- DPS_9no_TOMO_INTEGRAL_PEC_OFICIO_2026.docx · capacidades citadas del programa: ««Elabora su cronograma de actividades considerando como eje principal su proceso de aprend»
+- DPS_9no_TOMO_INTEGRAL_PEC_OFICIO_2026.docx · capacidades citadas del programa: ««Diagnostica situaciones de riesgo en su ámbito familiar, escolar y comunitario.» «Conside»
+- DPS_9no_TOMO_INTEGRAL_PEC_OFICIO_2026.docx · capacidad literal del programa: «Establece relaciones armónicas en su comunicación interpersonal con los miembros de la com»
+- DPS_9no_TOMO_INTEGRAL_PEC_OFICIO_2026.docx · capacidad literal del programa: «Establece relaciones armónicas en su comunicación interpersonal con los miembros de la com»
+- DPS_9no_TOMO_INTEGRAL_PEC_OFICIO_2026.docx · capacidad literal del programa: «Interpreta los criterios de evaluación a ser considerados en el noveno grado en sus distin»
+- DPS_9no_TOMO_INTEGRAL_PEC_OFICIO_2026.docx · capacidad literal del programa: «Reconoce la importancia de conocerse a sí mismo, sus intereses, sus habilidades, sus poten»
+- DPS_9no_TOMO_INTEGRAL_PEC_OFICIO_2026.docx · capacidad literal del programa: «Interpreta lo positivo de una Orientación Vocacional para la acertada elección del Bachill»
+- DPS_9no_TOMO_INTEGRAL_PEC_OFICIO_2026.docx · capacidad literal del programa: «Interpreta lo positivo de una Orientación Vocacional para la acertada elección del Bachill»
+- DPS_9no_TOMO_INTEGRAL_PEC_OFICIO_2026.docx · capacidad literal del programa: «Interpreta lo positivo de una Orientación Vocacional para la acertada elección del Bachill»
+- DPS_9no_TOMO_INTEGRAL_PEC_OFICIO_2026.docx · capacidad literal del programa: «Expresa sus emociones de manera equilibrada, demostrando autocontrol en sus actividades.»
+- DPS_9no_TOMO_INTEGRAL_PEC_OFICIO_2026.docx · capacidad literal del programa: «Expresa sus emociones de manera equilibrada, demostrando autocontrol en sus actividades.»
+- DPS_9no_TOMO_INTEGRAL_PEC_OFICIO_2026.docx · capacidad literal del programa: «Conoce la implicancia de la sexualidad como un todo y su enfoque desde la perspectiva de d»
+- DPS_9no_TOMO_INTEGRAL_PEC_OFICIO_2026.docx · capacidad literal del programa: «Conoce la implicancia de la sexualidad como un todo y su enfoque desde la perspectiva de d»
+- DPS_9no_TOMO_INTEGRAL_PEC_OFICIO_2026.docx · capacidad literal del programa: «Emprende acciones que promuevan el cumplimiento de los artículos de los DD. HH. referentes»
+- DPS_9no_TOMO_INTEGRAL_PEC_OFICIO_2026.docx · capacidad literal del programa: «Emprende acciones que promuevan el cumplimiento de los artículos de los DD. HH. referentes»
+- DPS_9no_TOMO_INTEGRAL_PEC_OFICIO_2026.docx · capacidad literal del programa: «Analiza los procesos democráticos de elección de autoridades de la comunidad educativa en »
+- DPS_9no_TOMO_INTEGRAL_PEC_OFICIO_2026.docx · capacidad literal del programa: «Analiza los procesos democráticos de elección de autoridades de la comunidad educativa en »
+- DPS_9no_TOMO_INTEGRAL_PEC_OFICIO_2026.docx · capacidad literal del programa: «Participa activamente y con conocimientos adecuados en el proceso de conformación del Cent»
+- DPS_9no_TOMO_INTEGRAL_PEC_OFICIO_2026.docx · capacidad literal del programa: «Participa activamente y con conocimientos adecuados en el proceso de conformación del Cent»
+- DPS_9no_TOMO_INTEGRAL_PEC_OFICIO_2026.docx · capacidad literal del programa: «Analiza los procesos democráticos de elección de autoridades de la comunidad educativa en »
+- DPS_9no_TOMO_INTEGRAL_PEC_OFICIO_2026.docx · capacidad literal del programa: «Participa activamente y con conocimientos adecuados en el proceso de conformación del Cent»
+- DPS_9no_TOMO_INTEGRAL_PEC_OFICIO_2026.docx · capacidad literal del programa: «Participa activamente y con conocimientos adecuados en el proceso de conformación del Cent»
+- DPS_9no_TOMO_INTEGRAL_PEC_OFICIO_2026.docx · capacidad literal del programa: «Elabora su cronograma de actividades considerando como eje principal su proceso de aprendi»
+- DPS_9no_TOMO_INTEGRAL_PEC_OFICIO_2026.docx · capacidad literal del programa: «Elabora su cronograma de actividades considerando como eje principal su proceso de aprendi»
+- DPS_9no_TOMO_INTEGRAL_PEC_OFICIO_2026.docx · capacidad literal del programa: «Elabora su cronograma de actividades considerando como eje principal su proceso de aprendi»
+- DPS_9no_TOMO_INTEGRAL_PEC_OFICIO_2026.docx · capacidad literal del programa: «Elabora su cronograma de actividades considerando como eje principal su proceso de aprendi»
+- DPS_9no_TOMO_INTEGRAL_PEC_OFICIO_2026.docx · capacidad literal del programa: «Diagnostica situaciones de riesgo en su ámbito familiar, escolar y comunitario.»
+- DPS_9no_TOMO_INTEGRAL_PEC_OFICIO_2026.docx · capacidad literal del programa: «Diagnostica situaciones de riesgo en su ámbito familiar, escolar y comunitario.»
+- DPS_9no_TOMO_INTEGRAL_PEC_OFICIO_2026.docx · capacidad literal del programa: «Considera la gestión de riesgo en la vida cotidiana.»
+- DPS_9no_TOMO_INTEGRAL_PEC_OFICIO_2026.docx · capacidad literal del programa: «Aplica normas de comportamiento en caso de riesgos.»
+- DPS_9no_TOMO_INTEGRAL_PEC_OFICIO_2026.docx · capacidad literal del programa: «Considera la gestión de riesgo en la vida cotidiana.»
+- DPS_9no_TOMO_INTEGRAL_PEC_OFICIO_2026.docx · capacidad literal del programa: «Aplica normas de comportamiento en caso de riesgos.»
+- DPS_9no_TOMO_INTEGRAL_PEC_OFICIO_2026.docx · capacidad literal del programa: «Diagnostica situaciones de riesgo en su ámbito familiar, escolar y comunitario.»
+- DPS_9no_TOMO_INTEGRAL_PEC_OFICIO_2026.docx · capacidad literal del programa: «Considera la gestión de riesgo en la vida cotidiana.»
+- DPS_9no_TOMO_INTEGRAL_PEC_OFICIO_2026.docx · capacidad literal del programa: «Aplica normas de comportamiento en caso de riesgos.»
+- DPS_9no_TOMO_INTEGRAL_PEC_OFICIO_2026.docx · capacidad literal del programa: «Establece relaciones armónicas en su comunicación interpersonal con los miembros de la com»
+- DPS_9no_TOMO_INTEGRAL_PEC_OFICIO_2026.docx · capacidad literal del programa: «Diagnostica situaciones de riesgo en su ámbito familiar, escolar y comunitario.»
+- DPS_9no_TOMO_INTEGRAL_PEC_OFICIO_2026.docx · capacidad literal del programa: «Analiza los procesos democráticos de elección de autoridades de la comunidad educativa en »
+- DPS_9no_TOMO_INTEGRAL_PEC_OFICIO_2026.docx · capacidad literal del programa: «Establece relaciones armónicas en su comunicación interpersonal con los miembros de la com»
+- DPS_9no_TOMO_INTEGRAL_PEC_OFICIO_2026.docx · capacidad literal del programa: «Emprende acciones que promuevan el cumplimiento de los artículos de los DD. HH. referentes»
+- DPS_9no_TOMO_INTEGRAL_PEC_OFICIO_2026.docx · capacidad literal del programa: «Considera la gestión de riesgo en la vida cotidiana.»
+- DPS_9no_TOMO_INTEGRAL_PEC_OFICIO_2026.docx · capacidad literal del programa: «Elabora su cronograma de actividades considerando como eje principal su proceso de aprendi»
+- DPS_9no_TOMO_INTEGRAL_PEC_OFICIO_2026.docx · capacidad literal del programa: «Participa activamente y con conocimientos adecuados en el proceso de conformación del Cent»
+- DPS_9no_TOMO_INTEGRAL_PEC_OFICIO_2026.docx · capacidad literal del programa: «Aplica normas de comportamiento en caso de riesgos.»
+- DPS_9no_TOMO_INTEGRAL_PEC_OFICIO_2026.docx · capacidad literal del programa: «Elabora su cronograma de actividades considerando como eje principal su proceso de aprendi»
+- DPS_9no_TOMO_INTEGRAL_PEC_OFICIO_2026.docx · capacidad literal del programa: «Interpreta los criterios de evaluación a ser considerados en el noveno grado en sus distin»
+- DPS_9no_TOMO_INTEGRAL_PEC_OFICIO_2026.docx · capacidad literal del programa: «Emprende acciones que promuevan el cumplimiento de los artículos de los DD. HH. referentes»
+- DPS_9no_PLAN_ANUAL_PEC_OFICIO_2026.docx · sección 1 en oficio (21.6 × 33.0 cm)
+- DPS_9no_PLAN_ANUAL_PEC_OFICIO_2026.docx · sección 1 con márgenes de 1,27 cm
+- DPS_9no_PLAN_ANUAL_PEC_OFICIO_2026.docx · sección 2 en oficio (33.0 × 21.6 cm)
+- DPS_9no_PLAN_ANUAL_PEC_OFICIO_2026.docx · sección 2 con márgenes de 1,27 cm
+- DPS_9no_PLAN_ANUAL_PEC_OFICIO_2026.docx · sin el símbolo ✓
+- DPS_9no_PLAN_ANUAL_PEC_OFICIO_2026.docx · sin el símbolo ✗
+- DPS_9no_PLAN_ANUAL_PEC_OFICIO_2026.docx · sin el símbolo ✅
+- DPS_9no_PLAN_ANUAL_PEC_OFICIO_2026.docx · sin el símbolo ✔
+- DPS_9no_PLAN_ANUAL_PEC_OFICIO_2026.docx · sin el símbolo ✘
+- DPS_9no_PLAN_ANUAL_PEC_OFICIO_2026.docx · sin el símbolo ☑
+- DPS_9no_PLAN_ANUAL_PEC_OFICIO_2026.docx · sin el residuo «continuación práctica»
+- DPS_9no_PLAN_ANUAL_PEC_OFICIO_2026.docx · sin el residuo «continuaciones prácticas»
+- DPS_9no_PLAN_ANUAL_PEC_OFICIO_2026.docx · sin el residuo «Vinculado a la unidad de Orientación correspondiente»
+- DPS_9no_PLAN_ANUAL_PEC_OFICIO_2026.docx · sin el residuo «no capacidad literal MEC»
+- DPS_9no_PLAN_ANUAL_PEC_OFICIO_2026.docx · sin el residuo «fichas 1–7»
+- DPS_9no_PLAN_ANUAL_PEC_OFICIO_2026.docx · sin el residuo «articulado con la unidad correspondiente»
+- DPS_9no_PLAN_ANUAL_PEC_OFICIO_2026.docx · sin el residuo «MINNA y el MITIC»
+- DPS_9no_PLAN_ANUAL_PEC_OFICIO_2026.docx · sin el residuo «Índice resumido. En Word»
+- DPS_9no_PLAN_ANUAL_PEC_OFICIO_2026.docx · sin el residuo «Mes 1:»
+- DPS_9no_PLAN_ANUAL_PEC_OFICIO_2026.docx · sin el residuo «Continuación práctica»
+- DPS_9no_PLAN_ANUAL_PEC_OFICIO_2026.docx · sin el residuo «Vinculado a la unidad»
+- DPS_9no_PLAN_ANUAL_PEC_OFICIO_2026.docx · sin marcado sin procesar
+- DPS_9no_PLAN_ANUAL_PEC_OFICIO_2026.docx · portada con imagen en la primera página
+- DPS_9no_PLAN_ANUAL_PEC_OFICIO_2026.docx · sin pedido de actualizar campos al abrir (índices estáticos)
+- DPS_9no_PLAN_ANUAL_PEC_OFICIO_2026.docx · sin índice dinámico vacío o desactualizado
+- DPS_9no_PLAN_ANUAL_PEC_OFICIO_2026.docx · capacidades citadas del programa: ««Establece relaciones armónicas en su comunicación interpersonal con los miembros de la co»
+- DPS_9no_PLAN_ANUAL_PEC_OFICIO_2026.docx · capacidades citadas del programa: ««Reconoce la importancia de conocerse a sí mismo, sus intereses, sus habilidades, sus pote»
+- DPS_9no_PLAN_ANUAL_PEC_OFICIO_2026.docx · capacidades citadas del programa: ««Expresa sus emociones de manera equilibrada, demostrando autocontrol en sus actividades.»»
+- DPS_9no_PLAN_ANUAL_PEC_OFICIO_2026.docx · capacidades citadas del programa: ««Emprende acciones que promuevan el cumplimiento de los artículos de los DD. HH. referente»
+- DPS_9no_PLAN_ANUAL_PEC_OFICIO_2026.docx · capacidades citadas del programa: ««Analiza los procesos democráticos de elección de autoridades de la comunidad educativa en»
+- DPS_9no_PLAN_ANUAL_PEC_OFICIO_2026.docx · capacidades citadas del programa: ««Establece relaciones armónicas en su comunicación interpersonal con los miembros de la co»
+- DPS_9no_PLAN_ANUAL_PEC_OFICIO_2026.docx · capacidades citadas del programa: ««Analiza los procesos democráticos de elección de autoridades de la comunidad educativa en»
+- DPS_9no_PLAN_ANUAL_PEC_OFICIO_2026.docx · capacidades citadas del programa: ««Elabora su cronograma de actividades considerando como eje principal su proceso de aprend»
+- DPS_9no_PLAN_ANUAL_PEC_OFICIO_2026.docx · capacidades citadas del programa: ««Emprende acciones que promuevan el cumplimiento de los artículos de los DD. HH. referente»
+- DPS_9no_PLAN_ANUAL_PEC_OFICIO_2026.docx · capacidades citadas del programa: ««Elabora su cronograma de actividades considerando como eje principal su proceso de aprend»
+- DPS_9no_PLAN_ANUAL_PEC_OFICIO_2026.docx · capacidades citadas del programa: ««Diagnostica situaciones de riesgo en su ámbito familiar, escolar y comunitario.» «Conside»
+- DPS_9no_PLAN_ANUAL_PEC_OFICIO_2026.docx · capacidades citadas del programa: ««Aplica normas de comportamiento en caso de riesgos.» «Elabora su cronograma de actividade»
+- DPS_9no_PLAN_ANUAL_PEC_OFICIO_2026.docx · capacidades citadas del programa: ««Interpreta los criterios de evaluación a ser considerados en el noveno grado en sus disti»
+- DPS_9no_PLANES_DE_CLASE_PEC_OFICIO_2026.docx · sección 1 en oficio (21.6 × 33.0 cm)
+- DPS_9no_PLANES_DE_CLASE_PEC_OFICIO_2026.docx · sección 1 con márgenes de 1,27 cm
+- DPS_9no_PLANES_DE_CLASE_PEC_OFICIO_2026.docx · sección 2 en oficio (21.6 × 33.0 cm)
+- DPS_9no_PLANES_DE_CLASE_PEC_OFICIO_2026.docx · sección 2 con márgenes de 1,27 cm
+- DPS_9no_PLANES_DE_CLASE_PEC_OFICIO_2026.docx · sección 3 en oficio (21.6 × 33.0 cm)
+- DPS_9no_PLANES_DE_CLASE_PEC_OFICIO_2026.docx · sección 3 con márgenes de 1,27 cm
+- DPS_9no_PLANES_DE_CLASE_PEC_OFICIO_2026.docx · sección 4 en oficio (21.6 × 33.0 cm)
+- DPS_9no_PLANES_DE_CLASE_PEC_OFICIO_2026.docx · sección 4 con márgenes de 1,27 cm
+- DPS_9no_PLANES_DE_CLASE_PEC_OFICIO_2026.docx · sección 5 en oficio (21.6 × 33.0 cm)
+- DPS_9no_PLANES_DE_CLASE_PEC_OFICIO_2026.docx · sección 5 con márgenes de 1,27 cm
+- DPS_9no_PLANES_DE_CLASE_PEC_OFICIO_2026.docx · sección 6 en oficio (21.6 × 33.0 cm)
+- DPS_9no_PLANES_DE_CLASE_PEC_OFICIO_2026.docx · sección 6 con márgenes de 1,27 cm
+- DPS_9no_PLANES_DE_CLASE_PEC_OFICIO_2026.docx · sección 7 en oficio (21.6 × 33.0 cm)
+- DPS_9no_PLANES_DE_CLASE_PEC_OFICIO_2026.docx · sección 7 con márgenes de 1,27 cm
+- DPS_9no_PLANES_DE_CLASE_PEC_OFICIO_2026.docx · sección 8 en oficio (21.6 × 33.0 cm)
+- DPS_9no_PLANES_DE_CLASE_PEC_OFICIO_2026.docx · sección 8 con márgenes de 1,27 cm
+- DPS_9no_PLANES_DE_CLASE_PEC_OFICIO_2026.docx · sección 9 en oficio (21.6 × 33.0 cm)
+- DPS_9no_PLANES_DE_CLASE_PEC_OFICIO_2026.docx · sección 9 con márgenes de 1,27 cm
+- DPS_9no_PLANES_DE_CLASE_PEC_OFICIO_2026.docx · sección 10 en oficio (21.6 × 33.0 cm)
+- DPS_9no_PLANES_DE_CLASE_PEC_OFICIO_2026.docx · sección 10 con márgenes de 1,27 cm
+- DPS_9no_PLANES_DE_CLASE_PEC_OFICIO_2026.docx · sección 11 en oficio (21.6 × 33.0 cm)
+- DPS_9no_PLANES_DE_CLASE_PEC_OFICIO_2026.docx · sección 11 con márgenes de 1,27 cm
+- DPS_9no_PLANES_DE_CLASE_PEC_OFICIO_2026.docx · sección 12 en oficio (21.6 × 33.0 cm)
+- DPS_9no_PLANES_DE_CLASE_PEC_OFICIO_2026.docx · sección 12 con márgenes de 1,27 cm
+- DPS_9no_PLANES_DE_CLASE_PEC_OFICIO_2026.docx · sección 13 en oficio (21.6 × 33.0 cm)
+- DPS_9no_PLANES_DE_CLASE_PEC_OFICIO_2026.docx · sección 13 con márgenes de 1,27 cm
+- DPS_9no_PLANES_DE_CLASE_PEC_OFICIO_2026.docx · sección 14 en oficio (21.6 × 33.0 cm)
+- DPS_9no_PLANES_DE_CLASE_PEC_OFICIO_2026.docx · sección 14 con márgenes de 1,27 cm
+- DPS_9no_PLANES_DE_CLASE_PEC_OFICIO_2026.docx · sección 15 en oficio (21.6 × 33.0 cm)
+- DPS_9no_PLANES_DE_CLASE_PEC_OFICIO_2026.docx · sección 15 con márgenes de 1,27 cm
+- DPS_9no_PLANES_DE_CLASE_PEC_OFICIO_2026.docx · sección 16 en oficio (21.6 × 33.0 cm)
+- DPS_9no_PLANES_DE_CLASE_PEC_OFICIO_2026.docx · sección 16 con márgenes de 1,27 cm
+- DPS_9no_PLANES_DE_CLASE_PEC_OFICIO_2026.docx · sección 17 en oficio (21.6 × 33.0 cm)
+- DPS_9no_PLANES_DE_CLASE_PEC_OFICIO_2026.docx · sección 17 con márgenes de 1,27 cm
+- DPS_9no_PLANES_DE_CLASE_PEC_OFICIO_2026.docx · sección 18 en oficio (21.6 × 33.0 cm)
+- DPS_9no_PLANES_DE_CLASE_PEC_OFICIO_2026.docx · sección 18 con márgenes de 1,27 cm
+- DPS_9no_PLANES_DE_CLASE_PEC_OFICIO_2026.docx · sección 19 en oficio (21.6 × 33.0 cm)
+- DPS_9no_PLANES_DE_CLASE_PEC_OFICIO_2026.docx · sección 19 con márgenes de 1,27 cm
+- DPS_9no_PLANES_DE_CLASE_PEC_OFICIO_2026.docx · sección 20 en oficio (21.6 × 33.0 cm)
+- DPS_9no_PLANES_DE_CLASE_PEC_OFICIO_2026.docx · sección 20 con márgenes de 1,27 cm
+- DPS_9no_PLANES_DE_CLASE_PEC_OFICIO_2026.docx · sección 21 en oficio (21.6 × 33.0 cm)
+- DPS_9no_PLANES_DE_CLASE_PEC_OFICIO_2026.docx · sección 21 con márgenes de 1,27 cm
+- DPS_9no_PLANES_DE_CLASE_PEC_OFICIO_2026.docx · sección 22 en oficio (21.6 × 33.0 cm)
+- DPS_9no_PLANES_DE_CLASE_PEC_OFICIO_2026.docx · sección 22 con márgenes de 1,27 cm
+- DPS_9no_PLANES_DE_CLASE_PEC_OFICIO_2026.docx · sección 23 en oficio (21.6 × 33.0 cm)
+- DPS_9no_PLANES_DE_CLASE_PEC_OFICIO_2026.docx · sección 23 con márgenes de 1,27 cm
+- DPS_9no_PLANES_DE_CLASE_PEC_OFICIO_2026.docx · sección 24 en oficio (21.6 × 33.0 cm)
+- DPS_9no_PLANES_DE_CLASE_PEC_OFICIO_2026.docx · sección 24 con márgenes de 1,27 cm
+- DPS_9no_PLANES_DE_CLASE_PEC_OFICIO_2026.docx · sección 25 en oficio (21.6 × 33.0 cm)
+- DPS_9no_PLANES_DE_CLASE_PEC_OFICIO_2026.docx · sección 25 con márgenes de 1,27 cm
+- DPS_9no_PLANES_DE_CLASE_PEC_OFICIO_2026.docx · sección 26 en oficio (21.6 × 33.0 cm)
+- DPS_9no_PLANES_DE_CLASE_PEC_OFICIO_2026.docx · sección 26 con márgenes de 1,27 cm
+- DPS_9no_PLANES_DE_CLASE_PEC_OFICIO_2026.docx · sección 27 en oficio (21.6 × 33.0 cm)
+- DPS_9no_PLANES_DE_CLASE_PEC_OFICIO_2026.docx · sección 27 con márgenes de 1,27 cm
+- DPS_9no_PLANES_DE_CLASE_PEC_OFICIO_2026.docx · sección 28 en oficio (21.6 × 33.0 cm)
+- DPS_9no_PLANES_DE_CLASE_PEC_OFICIO_2026.docx · sección 28 con márgenes de 1,27 cm
+- DPS_9no_PLANES_DE_CLASE_PEC_OFICIO_2026.docx · sección 29 en oficio (21.6 × 33.0 cm)
+- DPS_9no_PLANES_DE_CLASE_PEC_OFICIO_2026.docx · sección 29 con márgenes de 1,27 cm
+- DPS_9no_PLANES_DE_CLASE_PEC_OFICIO_2026.docx · sección 30 en oficio (21.6 × 33.0 cm)
+- DPS_9no_PLANES_DE_CLASE_PEC_OFICIO_2026.docx · sección 30 con márgenes de 1,27 cm
+- DPS_9no_PLANES_DE_CLASE_PEC_OFICIO_2026.docx · sección 31 en oficio (21.6 × 33.0 cm)
+- DPS_9no_PLANES_DE_CLASE_PEC_OFICIO_2026.docx · sección 31 con márgenes de 1,27 cm
+- DPS_9no_PLANES_DE_CLASE_PEC_OFICIO_2026.docx · sección 32 en oficio (21.6 × 33.0 cm)
+- DPS_9no_PLANES_DE_CLASE_PEC_OFICIO_2026.docx · sección 32 con márgenes de 1,27 cm
+- DPS_9no_PLANES_DE_CLASE_PEC_OFICIO_2026.docx · sección 33 en oficio (21.6 × 33.0 cm)
+- DPS_9no_PLANES_DE_CLASE_PEC_OFICIO_2026.docx · sección 33 con márgenes de 1,27 cm
+- DPS_9no_PLANES_DE_CLASE_PEC_OFICIO_2026.docx · sección 34 en oficio (21.6 × 33.0 cm)
+- DPS_9no_PLANES_DE_CLASE_PEC_OFICIO_2026.docx · sección 34 con márgenes de 1,27 cm
+- DPS_9no_PLANES_DE_CLASE_PEC_OFICIO_2026.docx · sección 35 en oficio (21.6 × 33.0 cm)
+- DPS_9no_PLANES_DE_CLASE_PEC_OFICIO_2026.docx · sección 35 con márgenes de 1,27 cm
+- DPS_9no_PLANES_DE_CLASE_PEC_OFICIO_2026.docx · sección 36 en oficio (21.6 × 33.0 cm)
+- DPS_9no_PLANES_DE_CLASE_PEC_OFICIO_2026.docx · sección 36 con márgenes de 1,27 cm
+- DPS_9no_PLANES_DE_CLASE_PEC_OFICIO_2026.docx · sección 37 en oficio (21.6 × 33.0 cm)
+- DPS_9no_PLANES_DE_CLASE_PEC_OFICIO_2026.docx · sección 37 con márgenes de 1,27 cm
+- DPS_9no_PLANES_DE_CLASE_PEC_OFICIO_2026.docx · sección 38 en oficio (21.6 × 33.0 cm)
+- DPS_9no_PLANES_DE_CLASE_PEC_OFICIO_2026.docx · sección 38 con márgenes de 1,27 cm
+- DPS_9no_PLANES_DE_CLASE_PEC_OFICIO_2026.docx · sin el símbolo ✓
+- DPS_9no_PLANES_DE_CLASE_PEC_OFICIO_2026.docx · sin el símbolo ✗
+- DPS_9no_PLANES_DE_CLASE_PEC_OFICIO_2026.docx · sin el símbolo ✅
+- DPS_9no_PLANES_DE_CLASE_PEC_OFICIO_2026.docx · sin el símbolo ✔
+- DPS_9no_PLANES_DE_CLASE_PEC_OFICIO_2026.docx · sin el símbolo ✘
+- DPS_9no_PLANES_DE_CLASE_PEC_OFICIO_2026.docx · sin el símbolo ☑
+- DPS_9no_PLANES_DE_CLASE_PEC_OFICIO_2026.docx · sin el residuo «continuación práctica»
+- DPS_9no_PLANES_DE_CLASE_PEC_OFICIO_2026.docx · sin el residuo «continuaciones prácticas»
+- DPS_9no_PLANES_DE_CLASE_PEC_OFICIO_2026.docx · sin el residuo «Vinculado a la unidad de Orientación correspondiente»
+- DPS_9no_PLANES_DE_CLASE_PEC_OFICIO_2026.docx · sin el residuo «no capacidad literal MEC»
+- DPS_9no_PLANES_DE_CLASE_PEC_OFICIO_2026.docx · sin el residuo «fichas 1–7»
+- DPS_9no_PLANES_DE_CLASE_PEC_OFICIO_2026.docx · sin el residuo «articulado con la unidad correspondiente»
+- DPS_9no_PLANES_DE_CLASE_PEC_OFICIO_2026.docx · sin el residuo «MINNA y el MITIC»
+- DPS_9no_PLANES_DE_CLASE_PEC_OFICIO_2026.docx · sin el residuo «Índice resumido. En Word»
+- DPS_9no_PLANES_DE_CLASE_PEC_OFICIO_2026.docx · sin el residuo «Mes 1:»
+- DPS_9no_PLANES_DE_CLASE_PEC_OFICIO_2026.docx · sin el residuo «Continuación práctica»
+- DPS_9no_PLANES_DE_CLASE_PEC_OFICIO_2026.docx · sin el residuo «Vinculado a la unidad»
+- DPS_9no_PLANES_DE_CLASE_PEC_OFICIO_2026.docx · sin marcado sin procesar
+- DPS_9no_PLANES_DE_CLASE_PEC_OFICIO_2026.docx · portada con imagen en la primera página
+- DPS_9no_PLANES_DE_CLASE_PEC_OFICIO_2026.docx · sin pedido de actualizar campos al abrir (índices estáticos)
+- DPS_9no_PLANES_DE_CLASE_PEC_OFICIO_2026.docx · sin índice dinámico vacío o desactualizado
+- DPS_9no_PLANES_DE_CLASE_PEC_OFICIO_2026.docx · capacidad literal del programa: «Establece relaciones armónicas en su comunicación interpersonal con los miembros de la com»
+- DPS_9no_PLANES_DE_CLASE_PEC_OFICIO_2026.docx · capacidad literal del programa: «Establece relaciones armónicas en su comunicación interpersonal con los miembros de la com»
+- DPS_9no_PLANES_DE_CLASE_PEC_OFICIO_2026.docx · capacidad literal del programa: «Interpreta los criterios de evaluación a ser considerados en el noveno grado en sus distin»
+- DPS_9no_PLANES_DE_CLASE_PEC_OFICIO_2026.docx · capacidad literal del programa: «Establece relaciones armónicas en su comunicación interpersonal con los miembros de la com»
+- DPS_9no_PLANES_DE_CLASE_PEC_OFICIO_2026.docx · capacidad literal del programa: «Interpreta los criterios de evaluación a ser considerados en el noveno grado en sus distin»
+- DPS_9no_PLANES_DE_CLASE_PEC_OFICIO_2026.docx · capacidad literal del programa: «Reconoce la importancia de conocerse a sí mismo, sus intereses, sus habilidades, sus poten»
+- DPS_9no_PLANES_DE_CLASE_PEC_OFICIO_2026.docx · capacidad literal del programa: «Interpreta lo positivo de una Orientación Vocacional para la acertada elección del Bachill»
+- DPS_9no_PLANES_DE_CLASE_PEC_OFICIO_2026.docx · capacidad literal del programa: «Interpreta lo positivo de una Orientación Vocacional para la acertada elección del Bachill»
+- DPS_9no_PLANES_DE_CLASE_PEC_OFICIO_2026.docx · capacidad literal del programa: «Interpreta lo positivo de una Orientación Vocacional para la acertada elección del Bachill»
+- DPS_9no_PLANES_DE_CLASE_PEC_OFICIO_2026.docx · capacidad literal del programa: «Reconoce la importancia de conocerse a sí mismo, sus intereses, sus habilidades, sus poten»
+- DPS_9no_PLANES_DE_CLASE_PEC_OFICIO_2026.docx · capacidad literal del programa: «Interpreta lo positivo de una Orientación Vocacional para la acertada elección del Bachill»
+- DPS_9no_PLANES_DE_CLASE_PEC_OFICIO_2026.docx · capacidad literal del programa: «Expresa sus emociones de manera equilibrada, demostrando autocontrol en sus actividades.»
+- DPS_9no_PLANES_DE_CLASE_PEC_OFICIO_2026.docx · capacidad literal del programa: «Expresa sus emociones de manera equilibrada, demostrando autocontrol en sus actividades.»
+- DPS_9no_PLANES_DE_CLASE_PEC_OFICIO_2026.docx · capacidad literal del programa: «Conoce la implicancia de la sexualidad como un todo y su enfoque desde la perspectiva de d»
+- DPS_9no_PLANES_DE_CLASE_PEC_OFICIO_2026.docx · capacidad literal del programa: «Conoce la implicancia de la sexualidad como un todo y su enfoque desde la perspectiva de d»
+- DPS_9no_PLANES_DE_CLASE_PEC_OFICIO_2026.docx · capacidad literal del programa: «Expresa sus emociones de manera equilibrada, demostrando autocontrol en sus actividades.»
+- DPS_9no_PLANES_DE_CLASE_PEC_OFICIO_2026.docx · capacidad literal del programa: «Conoce la implicancia de la sexualidad como un todo y su enfoque desde la perspectiva de d»
+- DPS_9no_PLANES_DE_CLASE_PEC_OFICIO_2026.docx · capacidad literal del programa: «Emprende acciones que promuevan el cumplimiento de los artículos de los DD. HH. referentes»
+- DPS_9no_PLANES_DE_CLASE_PEC_OFICIO_2026.docx · capacidad literal del programa: «Emprende acciones que promuevan el cumplimiento de los artículos de los DD. HH. referentes»
+- DPS_9no_PLANES_DE_CLASE_PEC_OFICIO_2026.docx · capacidad literal del programa: «Emprende acciones que promuevan el cumplimiento de los artículos de los DD. HH. referentes»
+- DPS_9no_PLANES_DE_CLASE_PEC_OFICIO_2026.docx · capacidad literal del programa: «Establece relaciones armónicas en su comunicación interpersonal con los miembros de la com»
+- DPS_9no_PLANES_DE_CLASE_PEC_OFICIO_2026.docx · capacidad literal del programa: «Interpreta los criterios de evaluación a ser considerados en el noveno grado en sus distin»
+- DPS_9no_PLANES_DE_CLASE_PEC_OFICIO_2026.docx · capacidad literal del programa: «Reconoce la importancia de conocerse a sí mismo, sus intereses, sus habilidades, sus poten»
+- DPS_9no_PLANES_DE_CLASE_PEC_OFICIO_2026.docx · capacidad literal del programa: «Interpreta lo positivo de una Orientación Vocacional para la acertada elección del Bachill»
+- DPS_9no_PLANES_DE_CLASE_PEC_OFICIO_2026.docx · capacidad literal del programa: «Expresa sus emociones de manera equilibrada, demostrando autocontrol en sus actividades.»
+- DPS_9no_PLANES_DE_CLASE_PEC_OFICIO_2026.docx · capacidad literal del programa: «Conoce la implicancia de la sexualidad como un todo y su enfoque desde la perspectiva de d»
+- DPS_9no_PLANES_DE_CLASE_PEC_OFICIO_2026.docx · capacidad literal del programa: «Emprende acciones que promuevan el cumplimiento de los artículos de los DD. HH. referentes»
+- DPS_9no_PLANES_DE_CLASE_PEC_OFICIO_2026.docx · capacidad literal del programa: «Analiza los procesos democráticos de elección de autoridades de la comunidad educativa en »
+- DPS_9no_PLANES_DE_CLASE_PEC_OFICIO_2026.docx · capacidad literal del programa: «Establece relaciones armónicas en su comunicación interpersonal con los miembros de la com»
+- DPS_9no_PLANES_DE_CLASE_PEC_OFICIO_2026.docx · capacidad literal del programa: «Diagnostica situaciones de riesgo en su ámbito familiar, escolar y comunitario.»
+- DPS_9no_PLANES_DE_CLASE_PEC_OFICIO_2026.docx · capacidad literal del programa: «Participa activamente y con conocimientos adecuados en el proceso de conformación del Cent»
+- DPS_9no_PLANES_DE_CLASE_PEC_OFICIO_2026.docx · capacidad literal del programa: «Analiza los procesos democráticos de elección de autoridades de la comunidad educativa en »
+- DPS_9no_PLANES_DE_CLASE_PEC_OFICIO_2026.docx · capacidad literal del programa: «Establece relaciones armónicas en su comunicación interpersonal con los miembros de la com»
+- DPS_9no_PLANES_DE_CLASE_PEC_OFICIO_2026.docx · capacidad literal del programa: «Participa activamente y con conocimientos adecuados en el proceso de conformación del Cent»
+- DPS_9no_PLANES_DE_CLASE_PEC_OFICIO_2026.docx · capacidad literal del programa: «Analiza los procesos democráticos de elección de autoridades de la comunidad educativa en »
+- DPS_9no_PLANES_DE_CLASE_PEC_OFICIO_2026.docx · capacidad literal del programa: «Participa activamente y con conocimientos adecuados en el proceso de conformación del Cent»
+- DPS_9no_PLANES_DE_CLASE_PEC_OFICIO_2026.docx · capacidad literal del programa: «Elabora su cronograma de actividades considerando como eje principal su proceso de aprendi»
+- DPS_9no_PLANES_DE_CLASE_PEC_OFICIO_2026.docx · capacidad literal del programa: «Emprende acciones que promuevan el cumplimiento de los artículos de los DD. HH. referentes»
+- DPS_9no_PLANES_DE_CLASE_PEC_OFICIO_2026.docx · capacidad literal del programa: «Considera la gestión de riesgo en la vida cotidiana.»
+- DPS_9no_PLANES_DE_CLASE_PEC_OFICIO_2026.docx · capacidad literal del programa: «Elabora su cronograma de actividades considerando como eje principal su proceso de aprendi»
+- DPS_9no_PLANES_DE_CLASE_PEC_OFICIO_2026.docx · capacidad literal del programa: «Elabora su cronograma de actividades considerando como eje principal su proceso de aprendi»
+- DPS_9no_PLANES_DE_CLASE_PEC_OFICIO_2026.docx · capacidad literal del programa: «Participa activamente y con conocimientos adecuados en el proceso de conformación del Cent»
+- DPS_9no_PLANES_DE_CLASE_PEC_OFICIO_2026.docx · capacidad literal del programa: «Elabora su cronograma de actividades considerando como eje principal su proceso de aprendi»
+- DPS_9no_PLANES_DE_CLASE_PEC_OFICIO_2026.docx · capacidad literal del programa: «Diagnostica situaciones de riesgo en su ámbito familiar, escolar y comunitario.»
+- DPS_9no_PLANES_DE_CLASE_PEC_OFICIO_2026.docx · capacidad literal del programa: «Aplica normas de comportamiento en caso de riesgos.»
+- DPS_9no_PLANES_DE_CLASE_PEC_OFICIO_2026.docx · capacidad literal del programa: «Elabora su cronograma de actividades considerando como eje principal su proceso de aprendi»
+- DPS_9no_PLANES_DE_CLASE_PEC_OFICIO_2026.docx · capacidad literal del programa: «Considera la gestión de riesgo en la vida cotidiana.»
+- DPS_9no_PLANES_DE_CLASE_PEC_OFICIO_2026.docx · capacidad literal del programa: «Aplica normas de comportamiento en caso de riesgos.»
+- DPS_9no_PLANES_DE_CLASE_PEC_OFICIO_2026.docx · capacidad literal del programa: «Interpreta los criterios de evaluación a ser considerados en el noveno grado en sus distin»
+- DPS_9no_PLANES_DE_CLASE_PEC_OFICIO_2026.docx · capacidad literal del programa: «Emprende acciones que promuevan el cumplimiento de los artículos de los DD. HH. referentes»
+- DPS_9no_PLANES_DE_CLASE_PEC_OFICIO_2026.docx · capacidad literal del programa: «Diagnostica situaciones de riesgo en su ámbito familiar, escolar y comunitario.»
+- DPS_9no_PLANES_DE_CLASE_PEC_OFICIO_2026.docx · capacidad literal del programa: «Considera la gestión de riesgo en la vida cotidiana.»
+- DPS_9no_PLANES_DE_CLASE_PEC_OFICIO_2026.docx · capacidad literal del programa: «Aplica normas de comportamiento en caso de riesgos.»
+- DPS_9no_PLANES_DE_CLASE_PEC_OFICIO_2026.docx · capacidad literal del programa: «Analiza los procesos democráticos de elección de autoridades de la comunidad educativa en »
+- DPS_9no_PLANES_DE_CLASE_PEC_OFICIO_2026.docx · capacidad literal del programa: «Participa activamente y con conocimientos adecuados en el proceso de conformación del Cent»
+- DPS_9no_PLANES_DE_CLASE_PEC_OFICIO_2026.docx · capacidad literal del programa: «Elabora su cronograma de actividades considerando como eje principal su proceso de aprendi»
+- DPS_9no_PLANES_DE_CLASE_PEC_OFICIO_2026.docx · capacidad literal del programa: «Diagnostica situaciones de riesgo en su ámbito familiar, escolar y comunitario.»
+- DPS_9no_PLANES_DE_CLASE_PEC_OFICIO_2026.docx · capacidad literal del programa: «Considera la gestión de riesgo en la vida cotidiana.»
+- DPS_9no_PLANES_DE_CLASE_PEC_OFICIO_2026.docx · capacidad literal del programa: «Aplica normas de comportamiento en caso de riesgos.»
+- DPS_9no_SOLUCIONARIO_DOCENTE_PEC_OFICIO_2026.docx · sección 1 en oficio (21.6 × 33.0 cm)
+- DPS_9no_SOLUCIONARIO_DOCENTE_PEC_OFICIO_2026.docx · sección 1 con márgenes de 1,27 cm
+- DPS_9no_SOLUCIONARIO_DOCENTE_PEC_OFICIO_2026.docx · sección 2 en oficio (21.6 × 33.0 cm)
+- DPS_9no_SOLUCIONARIO_DOCENTE_PEC_OFICIO_2026.docx · sección 2 con márgenes de 1,27 cm
+- DPS_9no_SOLUCIONARIO_DOCENTE_PEC_OFICIO_2026.docx · sin el símbolo ✓
+- DPS_9no_SOLUCIONARIO_DOCENTE_PEC_OFICIO_2026.docx · sin el símbolo ✗
+- DPS_9no_SOLUCIONARIO_DOCENTE_PEC_OFICIO_2026.docx · sin el símbolo ✅
+- DPS_9no_SOLUCIONARIO_DOCENTE_PEC_OFICIO_2026.docx · sin el símbolo ✔
+- DPS_9no_SOLUCIONARIO_DOCENTE_PEC_OFICIO_2026.docx · sin el símbolo ✘
+- DPS_9no_SOLUCIONARIO_DOCENTE_PEC_OFICIO_2026.docx · sin el símbolo ☑
+- DPS_9no_SOLUCIONARIO_DOCENTE_PEC_OFICIO_2026.docx · sin el residuo «continuación práctica»
+- DPS_9no_SOLUCIONARIO_DOCENTE_PEC_OFICIO_2026.docx · sin el residuo «continuaciones prácticas»
+- DPS_9no_SOLUCIONARIO_DOCENTE_PEC_OFICIO_2026.docx · sin el residuo «Vinculado a la unidad de Orientación correspondiente»
+- DPS_9no_SOLUCIONARIO_DOCENTE_PEC_OFICIO_2026.docx · sin el residuo «no capacidad literal MEC»
+- DPS_9no_SOLUCIONARIO_DOCENTE_PEC_OFICIO_2026.docx · sin el residuo «fichas 1–7»
+- DPS_9no_SOLUCIONARIO_DOCENTE_PEC_OFICIO_2026.docx · sin el residuo «articulado con la unidad correspondiente»
+- DPS_9no_SOLUCIONARIO_DOCENTE_PEC_OFICIO_2026.docx · sin el residuo «MINNA y el MITIC»
+- DPS_9no_SOLUCIONARIO_DOCENTE_PEC_OFICIO_2026.docx · sin el residuo «Índice resumido. En Word»
+- DPS_9no_SOLUCIONARIO_DOCENTE_PEC_OFICIO_2026.docx · sin el residuo «Mes 1:»
+- DPS_9no_SOLUCIONARIO_DOCENTE_PEC_OFICIO_2026.docx · sin el residuo «Continuación práctica»
+- DPS_9no_SOLUCIONARIO_DOCENTE_PEC_OFICIO_2026.docx · sin el residuo «Vinculado a la unidad»
+- DPS_9no_SOLUCIONARIO_DOCENTE_PEC_OFICIO_2026.docx · sin marcado sin procesar
+- DPS_9no_SOLUCIONARIO_DOCENTE_PEC_OFICIO_2026.docx · portada con imagen en la primera página
+- DPS_9no_SOLUCIONARIO_DOCENTE_PEC_OFICIO_2026.docx · sin pedido de actualizar campos al abrir (índices estáticos)
+- DPS_9no_SOLUCIONARIO_DOCENTE_PEC_OFICIO_2026.docx · sin índice dinámico vacío o desactualizado
+- Plan Anual · indicadores del Taller A iguales a la ficha del tomo
+- Plan Anual · indicadores del Taller B iguales a la ficha del tomo
+- Plan Anual · indicadores del Taller C iguales a la ficha del tomo
+- Plan Anual · indicadores del Taller D iguales a la ficha del tomo
+- Plan Anual · indicadores del Taller E iguales a la ficha del tomo
+- Plan Anual · indicadores del Taller F iguales a la ficha del tomo
+- Planes · seis fichas de taller PEC
+- Planes · indicadores del Taller A iguales a la ficha del tomo
+- Planes · indicadores del Taller B iguales a la ficha del tomo
+- Planes · indicadores del Taller C iguales a la ficha del tomo
+- Planes · indicadores del Taller D iguales a la ficha del tomo
+- Planes · indicadores del Taller E iguales a la ficha del tomo
+- Planes · indicadores del Taller F iguales a la ficha del tomo
+- Solucionario · Taller A en el encuentro 20
+- Solucionario · Taller B en el encuentro 22
+- Solucionario · Taller C en el encuentro 26
+- Solucionario · Taller D en el encuentro 28
+- Solucionario · Taller E en el encuentro 31
+- Solucionario · Taller F en el encuentro 34
+- Tomo · TALLER PEC A · abre con su ficha PEC
+- Tomo · TALLER PEC B · abre con su ficha PEC
+- Tomo · TALLER PEC C · abre con su ficha PEC
+- Tomo · TALLER PEC D · abre con su ficha PEC
+- Tomo · TALLER PEC E · abre con su ficha PEC
+- Tomo · TALLER PEC F · abre con su ficha PEC
+- Solucionario · respuestas esperadas para los seis talleres
+- Tomo: las 19 imágenes de la base candidata se conservan idénticas (SHA-256)
+- DPS_9no_TOMO_INTEGRAL_PEC_OFICIO_2026.pdf · todas las páginas en oficio {(612, 936)}
+- DPS_9no_TOMO_INTEGRAL_PEC_OFICIO_2026.pdf · sin páginas en blanco o residuales (llenado < 12 %): []
+- DPS_9no_TOMO_INTEGRAL_PEC_OFICIO_2026.pdf · ninguna página contiene solo el espacio para anotaciones: []
+- DPS_9no_SOLUCIONARIO_DOCENTE_PEC_OFICIO_2026.pdf · todas las páginas en oficio {(612, 936)}
+- DPS_9no_SOLUCIONARIO_DOCENTE_PEC_OFICIO_2026.pdf · sin páginas en blanco o residuales (llenado < 12 %): []
+- DPS_9no_SOLUCIONARIO_DOCENTE_PEC_OFICIO_2026.pdf · ninguna página contiene solo el espacio para anotaciones: []
+- Índice del tomo: las 54 entradas coinciden con la página del PDF []
+- Solucionario · la portada de texto anterior no se repite después de la portada
+- DPS_9no_TOMO_INTEGRAL_PEC_OFICIO_2026 · PDF generado a partir del .docx entregado
+- DPS_9no_SOLUCIONARIO_DOCENTE_PEC_OFICIO_2026 · PDF generado a partir del .docx entregado

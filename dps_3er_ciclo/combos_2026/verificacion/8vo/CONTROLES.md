@@ -2,7 +2,7 @@
 
 Generado por `edicion/verificar.py`. Son controles del productor: no reemplazan la auditoría independiente.
 
-**315 controles correctos · 0 fallos**
+**338 controles correctos · 0 fallos**
 
 ## Datos
 
@@ -37,13 +37,19 @@ Generado por `edicion/verificar.py`. Son controles del productor: no reemplazan 
 - DPS_8vo_TOMO_INTEGRAL_PEC_OFICIO_2026.docx · sin el residuo «MINNA y el MITIC»
 - DPS_8vo_TOMO_INTEGRAL_PEC_OFICIO_2026.docx · sin el residuo «Índice resumido. En Word»
 - DPS_8vo_TOMO_INTEGRAL_PEC_OFICIO_2026.docx · sin el residuo «Mes 1:»
-- DPS_8vo_TOMO_INTEGRAL_PEC_OFICIO_2026.docx · sin el residuo «Capacidades de la unidad: »
 - DPS_8vo_TOMO_INTEGRAL_PEC_OFICIO_2026.docx · sin el residuo «Continuación práctica»
 - DPS_8vo_TOMO_INTEGRAL_PEC_OFICIO_2026.docx · sin el residuo «Vinculado a la unidad»
 - DPS_8vo_TOMO_INTEGRAL_PEC_OFICIO_2026.docx · sin marcado sin procesar
 - DPS_8vo_TOMO_INTEGRAL_PEC_OFICIO_2026.docx · portada con imagen en la primera página
 - DPS_8vo_TOMO_INTEGRAL_PEC_OFICIO_2026.docx · sin pedido de actualizar campos al abrir (índices estáticos)
 - DPS_8vo_TOMO_INTEGRAL_PEC_OFICIO_2026.docx · sin índice dinámico vacío o desactualizado
+- DPS_8vo_TOMO_INTEGRAL_PEC_OFICIO_2026.docx · capacidades citadas del programa: ««Establece relaciones armónicas con los integrantes de la comunidad educativa.» «Interpret»
+- DPS_8vo_TOMO_INTEGRAL_PEC_OFICIO_2026.docx · capacidades citadas del programa: ««Descubre características psicológicas y emocionales de su persona según la etapa evolutiv»
+- DPS_8vo_TOMO_INTEGRAL_PEC_OFICIO_2026.docx · capacidades citadas del programa: ««Determina la importancia de los estados afectivos para un relacionamiento positivo consig»
+- DPS_8vo_TOMO_INTEGRAL_PEC_OFICIO_2026.docx · capacidades citadas del programa: ««Investiga sobre los Derechos Humanos referente a la educación de los niños, las niñas y l»
+- DPS_8vo_TOMO_INTEGRAL_PEC_OFICIO_2026.docx · capacidades citadas del programa: ««Comprende la importancia de conformar organizaciones estudiantiles como proceso de establ»
+- DPS_8vo_TOMO_INTEGRAL_PEC_OFICIO_2026.docx · capacidades citadas del programa: ««Toma conciencia sobre la importancia del proceso de enseñanza–aprendizaje como parte de s»
+- DPS_8vo_TOMO_INTEGRAL_PEC_OFICIO_2026.docx · capacidades citadas del programa: ««Practica medidas de prevención, mitigación y atención en situaciones de riesgos físicos y»
 - DPS_8vo_TOMO_INTEGRAL_PEC_OFICIO_2026.docx · capacidad literal del programa: «Establece relaciones armónicas con los integrantes de la comunidad educativa.»
 - DPS_8vo_TOMO_INTEGRAL_PEC_OFICIO_2026.docx · capacidad literal del programa: «Interpreta los criterios de evaluación a ser considerados en este nivel educativo.»
 - DPS_8vo_TOMO_INTEGRAL_PEC_OFICIO_2026.docx · capacidad literal del programa: «Plantea actividades relacionadas al PEI que permitan desarrollar el sentido de pertenencia»
@@ -101,13 +107,25 @@ Generado por `edicion/verificar.py`. Son controles del productor: no reemplazan 
 - DPS_8vo_PLAN_ANUAL_PEC_OFICIO_2026.docx · sin el residuo «MINNA y el MITIC»
 - DPS_8vo_PLAN_ANUAL_PEC_OFICIO_2026.docx · sin el residuo «Índice resumido. En Word»
 - DPS_8vo_PLAN_ANUAL_PEC_OFICIO_2026.docx · sin el residuo «Mes 1:»
-- DPS_8vo_PLAN_ANUAL_PEC_OFICIO_2026.docx · sin el residuo «Capacidades de la unidad: »
 - DPS_8vo_PLAN_ANUAL_PEC_OFICIO_2026.docx · sin el residuo «Continuación práctica»
 - DPS_8vo_PLAN_ANUAL_PEC_OFICIO_2026.docx · sin el residuo «Vinculado a la unidad»
 - DPS_8vo_PLAN_ANUAL_PEC_OFICIO_2026.docx · sin marcado sin procesar
 - DPS_8vo_PLAN_ANUAL_PEC_OFICIO_2026.docx · portada con imagen en la primera página
 - DPS_8vo_PLAN_ANUAL_PEC_OFICIO_2026.docx · sin pedido de actualizar campos al abrir (índices estáticos)
 - DPS_8vo_PLAN_ANUAL_PEC_OFICIO_2026.docx · sin índice dinámico vacío o desactualizado
+- DPS_8vo_PLAN_ANUAL_PEC_OFICIO_2026.docx · capacidades citadas del programa: ««Establece relaciones armónicas con los integrantes de la comunidad educativa.» «Interpret»
+- DPS_8vo_PLAN_ANUAL_PEC_OFICIO_2026.docx · capacidades citadas del programa: ««Descubre características psicológicas y emocionales de su persona según la etapa evolutiv»
+- DPS_8vo_PLAN_ANUAL_PEC_OFICIO_2026.docx · capacidades citadas del programa: ««Determina la importancia de los estados afectivos para un relacionamiento positivo consig»
+- DPS_8vo_PLAN_ANUAL_PEC_OFICIO_2026.docx · capacidades citadas del programa: ««Investiga sobre los Derechos Humanos referente a la educación de los niños, las niñas y l»
+- DPS_8vo_PLAN_ANUAL_PEC_OFICIO_2026.docx · capacidades citadas del programa: ««Comprende la importancia de conformar organizaciones estudiantiles como proceso de establ»
+- DPS_8vo_PLAN_ANUAL_PEC_OFICIO_2026.docx · capacidades citadas del programa: ««Plantea actividades relacionadas al PEI que permitan desarrollar el sentido de pertenenci»
+- DPS_8vo_PLAN_ANUAL_PEC_OFICIO_2026.docx · capacidades citadas del programa: ««Plantea actividades relacionadas al PEI que permitan desarrollar el sentido de pertenenci»
+- DPS_8vo_PLAN_ANUAL_PEC_OFICIO_2026.docx · capacidades citadas del programa: ««Plantea actividades relacionadas al PEI que permitan desarrollar el sentido de pertenenci»
+- DPS_8vo_PLAN_ANUAL_PEC_OFICIO_2026.docx · capacidades citadas del programa: ««Toma conciencia sobre la importancia del proceso de enseñanza–aprendizaje como parte de s»
+- DPS_8vo_PLAN_ANUAL_PEC_OFICIO_2026.docx · capacidades citadas del programa: ««Elabora proyectos sobre prevención y mitigación de riesgo para el contexto escolar» «Part»
+- DPS_8vo_PLAN_ANUAL_PEC_OFICIO_2026.docx · capacidades citadas del programa: ««Practica medidas de prevención, mitigación y atención en situaciones de riesgos físicos y»
+- DPS_8vo_PLAN_ANUAL_PEC_OFICIO_2026.docx · capacidades citadas del programa: ««Practica medidas de prevención, mitigación y atención en situaciones de riesgos físicos y»
+- DPS_8vo_PLAN_ANUAL_PEC_OFICIO_2026.docx · capacidades citadas del programa: ««Elabora proyectos sobre prevención y mitigación de riesgo para el contexto escolar» «Inte»
 - DPS_8vo_PLANES_DE_CLASE_PEC_OFICIO_2026.docx · sección 1 en oficio (21.6 × 33.0 cm)
 - DPS_8vo_PLANES_DE_CLASE_PEC_OFICIO_2026.docx · sección 1 con márgenes de 1,27 cm
 - DPS_8vo_PLANES_DE_CLASE_PEC_OFICIO_2026.docx · sección 2 en oficio (21.6 × 33.0 cm)
@@ -191,7 +209,6 @@ Generado por `edicion/verificar.py`. Son controles del productor: no reemplazan 
 - DPS_8vo_PLANES_DE_CLASE_PEC_OFICIO_2026.docx · sin el residuo «MINNA y el MITIC»
 - DPS_8vo_PLANES_DE_CLASE_PEC_OFICIO_2026.docx · sin el residuo «Índice resumido. En Word»
 - DPS_8vo_PLANES_DE_CLASE_PEC_OFICIO_2026.docx · sin el residuo «Mes 1:»
-- DPS_8vo_PLANES_DE_CLASE_PEC_OFICIO_2026.docx · sin el residuo «Capacidades de la unidad: »
 - DPS_8vo_PLANES_DE_CLASE_PEC_OFICIO_2026.docx · sin el residuo «Continuación práctica»
 - DPS_8vo_PLANES_DE_CLASE_PEC_OFICIO_2026.docx · sin el residuo «Vinculado a la unidad»
 - DPS_8vo_PLANES_DE_CLASE_PEC_OFICIO_2026.docx · sin marcado sin procesar
@@ -289,7 +306,6 @@ Generado por `edicion/verificar.py`. Son controles del productor: no reemplazan 
 - DPS_8vo_SOLUCIONARIO_DOCENTE_PEC_OFICIO_2026.docx · sin el residuo «MINNA y el MITIC»
 - DPS_8vo_SOLUCIONARIO_DOCENTE_PEC_OFICIO_2026.docx · sin el residuo «Índice resumido. En Word»
 - DPS_8vo_SOLUCIONARIO_DOCENTE_PEC_OFICIO_2026.docx · sin el residuo «Mes 1:»
-- DPS_8vo_SOLUCIONARIO_DOCENTE_PEC_OFICIO_2026.docx · sin el residuo «Capacidades de la unidad: »
 - DPS_8vo_SOLUCIONARIO_DOCENTE_PEC_OFICIO_2026.docx · sin el residuo «Continuación práctica»
 - DPS_8vo_SOLUCIONARIO_DOCENTE_PEC_OFICIO_2026.docx · sin el residuo «Vinculado a la unidad»
 - DPS_8vo_SOLUCIONARIO_DOCENTE_PEC_OFICIO_2026.docx · sin marcado sin procesar
@@ -315,6 +331,13 @@ Generado por `edicion/verificar.py`. Son controles del productor: no reemplazan 
 - Solucionario · Taller D en el encuentro 27
 - Solucionario · Taller E en el encuentro 30
 - Solucionario · Taller F en el encuentro 33
+- Tomo · TALLER PEC A · abre con su ficha PEC
+- Tomo · TALLER PEC B · abre con su ficha PEC
+- Tomo · TALLER PEC C · abre con su ficha PEC
+- Tomo · TALLER PEC D · abre con su ficha PEC
+- Tomo · TALLER PEC E · abre con su ficha PEC
+- Tomo · TALLER PEC F · abre con su ficha PEC
+- Solucionario · respuestas esperadas para los seis talleres
 - Tomo: las 15 imágenes de la base candidata se conservan idénticas (SHA-256)
 - DPS_8vo_TOMO_INTEGRAL_PEC_OFICIO_2026.pdf · todas las páginas en oficio {(612, 936)}
 - DPS_8vo_TOMO_INTEGRAL_PEC_OFICIO_2026.pdf · sin páginas en blanco o residuales (llenado < 12 %): []

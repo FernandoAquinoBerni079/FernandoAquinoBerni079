@@ -148,3 +148,25 @@ def render(d, L, solucionario=False):
             prev = M.par(d, '• ' + s[2:], indent=0.4, despues=2); i += 1; continue
         prev = M.par(d, s); i += 1
     return d
+
+
+def bloques(ruta):
+    """Archivo de agregados: secciones «=== CLAVE» con marcado; las líneas «@@» son comentarios."""
+    out, k = {}, None
+    for l in leer(ruta):
+        if l.startswith('=== '):
+            k = l[4:].strip(); out[k] = []
+        elif k and not l.startswith('@@'):
+            out[k].append(l)
+    return out
+
+
+def render_despues(d, ancla, lineas):
+    """Renderiza el marcado al final del cuerpo y mueve lo generado justo después de «ancla». Devuelve el último elemento."""
+    body = d.element.body
+    n0 = len([e for e in body if e.tag != qn('w:sectPr')])   # lo nuevo se agrega al final, antes del sectPr
+    render(d, lineas)
+    nuevos = [e for e in body if e.tag != qn('w:sectPr')][n0:]
+    for e in nuevos:
+        ancla.addnext(e); ancla = e
+    return ancla

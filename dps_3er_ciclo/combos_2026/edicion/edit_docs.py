@@ -21,6 +21,7 @@ OUT = B + '../%s/' % C['carpeta']
 CTRL = B + '../verificacion/%s/control_pdf/' % C['carpeta']
 M.DARK, M.MED, M.LIGHT, M.FICHA = '6A3E7A', '8E5BA6', 'F3ECF7', 'F8F3FA'
 CAP = C['CAP']
+ROT = C.get('rotulo_fuente', ' (programa MEC)')   # 9.º: vacío hasta cotejar con el programa oficial
 TALLER = C['talleres']            # {'A': (encuentro, [caps]), ...}
 
 
@@ -74,27 +75,34 @@ def plan_anual():
     for viejo, nuevo in C['pa_reemplazos']:
         O.reemplazar_en_doc(d, viejo, nuevo)
     # capacidades literales en las bandas de unidad
-    n = 0
+    n = 0; unidad = None
     for p in d.element.body.iter(qn('w:p')):
         tx = O.texto(p)
         m = re.match(r'^(Unidad (\d+) · [^·]+ · )Capacidades: ', tx)
         if m:
             u = int(m.group(2))
-            O.reemplazar_parrafo(p, m.group(1) + 'Capacidades (programa MEC): ' + lit(C['unidad_caps'][u]))
+            O.reemplazar_parrafo(p, m.group(1) + 'Capacidades%s: ' % ROT + lit(C['unidad_caps'][u]))
             n += 1
             continue
         # formato 8.º/9.º: «UNIDAD N — …» [salto] «Capacidades: …» [salto] «Período…» en una sola corrida
         m = re.match(r'^UNIDAD (\d+) — ', tx)
         if m and 'Capacidades: ' in tx:
             t = next(t for t in p.iter(qn('w:t')) if (t.text or '').startswith('Capacidades: '))
-            t.text = 'Capacidades (programa MEC): ' + lit(C['unidad_caps'][int(m.group(1))])
+            t.text = 'Capacidades%s: ' % ROT + lit(C['unidad_caps'][int(m.group(1))])
             n += 1
+        elif m:
+            unidad = int(m.group(1))
+            continue
+        # formato 9.º: «Capacidades: …» en el párrafo siguiente al de «UNIDAD N — …», dentro de la misma celda
+        if tx.startswith('Capacidades: ') and unidad:
+            O.reemplazar_parrafo(p, 'Capacidades%s: ' % ROT + lit(C['unidad_caps'][unidad]))
+            n += 1; unidad = None
     assert n >= 7, 'bandas de unidad: %d' % n
     # talleres PEC: capacidades del área vinculadas, en lugar de la vinculación genérica
     for letra, (enc, caps) in TALLER.items():
         O.reemplazar_en_doc(d, C['pa_pec_generico'][letra],
                             C['pa_pec_generico'][letra].replace('Vinculado a la unidad de Orientación correspondiente.',
-                                                               'Capacidades del área vinculadas (programa MEC): ' + lit(caps) + ' Indicadores: elaboración editorial.'))
+                                                               'Capacidades del área vinculadas%s: ' % ROT + lit(caps) + ' Indicadores: elaboración editorial.'))
     # indicadores de las filas PEC: los de la ficha del taller en el tomo
     k = 0
     for tr in d.element.body.iter(qn('w:tr')):
@@ -158,8 +166,8 @@ def _planes(pags):
             O.fijar_celda(O.celda_de(t, 'Indicadores'), ['• ' + x for x in IND[letra]])
     # talleres: los momentos remiten a las consignas agregadas en el tomo
     for letra in TALLER:
-        O.reemplazar_en_doc(d, C['planes_cierre_pec'][letra], C['planes_cierre_pec'][letra] +
-                            ' Resolución de las consignas 1 a 3 («Pensá y respondé») y acuerdo de la tarea «En equipo» (consigna 4).')
+        O.reemplazar_en_doc(d, C['planes_cierre_pec'][letra], C['planes_cierre_pec'][letra] + C.get('planes_cierre_texto',
+                            ' Resolución de las consignas 1 a 3 («Pensá y respondé») y acuerdo de la tarea «En equipo» (consigna 4).'))
     # índice: el de la candidata quedó vacío (solo el pedido de actualizar con F9)
     E = []
     h = next((el for el in body if el.tag == qn('w:p') and O.texto(el).strip() == 'Índice'), None)
@@ -251,13 +259,24 @@ def _solucionario(pags):
     for viejo, nuevo in C['sol_reemplazos']:
         O.reemplazar_en_doc(d, viejo, nuevo)
     body = d.element.body
-    ini = next(el for el in body if el.tag == qn('w:p') and O.texto(el).strip().startswith('ANEXO DOCENTE'))
-    els = list(body); i = els.index(ini)
-    for el in els[i:]:
-        if el.tag != qn('w:sectPr'):
-            body.remove(el)
     R.NIVELES.update({'#': 1, '##': 2, '###': 3})
-    R.render(d, R.leer(C['pec_sol']))
+    if C.get('sol_modo') == 'insertar':
+        # 9.º: se conserva el anexo de la base y se agregan, al final de cada taller, las respuestas y el instrumento
+        B_ = R.bloques(C['pec_sol'])
+        for letra, (enc, _) in TALLER.items():
+            els = list(body)
+            h = next(el for el in els if nivel_h(el) == 2 and O.texto(el).strip().startswith('Encuentro %d de 36 · Taller PEC %s' % (enc, letra)))
+            i = els.index(h) + 1
+            while i < len(els) and nivel_h(els[i]) not in (1, 2) and els[i].tag != qn('w:sectPr'):
+                i += 1
+            R.render_despues(d, els[i - 1], B_['SOL ' + letra])
+    else:
+        ini = next(el for el in body if el.tag == qn('w:p') and O.texto(el).strip().startswith('ANEXO DOCENTE'))
+        els = list(body); i = els.index(ini)
+        for el in els[i:]:
+            if el.tag != qn('w:sectPr'):
+                body.remove(el)
+        R.render(d, R.leer(C['pec_sol']))
     # la portada de texto de la candidata queda reemplazada por la portada de imagen
     for el in list(body):
         if nivel_h(el) == 1:

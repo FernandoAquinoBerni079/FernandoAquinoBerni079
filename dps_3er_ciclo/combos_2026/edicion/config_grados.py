@@ -150,3 +150,81 @@ GRADOS['8'] = dict(
     sol_reemplazos=[('Continuación práctica %d — ' % k, 'Actividad complementaria %d (opcional) — ' % k) for k in range(1, 7)]
                    + [('Las respuestas de las anteriores continuaciones prácticas', 'Las respuestas de las actividades complementarias (opcionales)')],
 )
+
+# 9.º: base ChatGPT del 13/10 (18 imágenes Gemini). Programa oficial de 9.º no disponible en el entorno:
+# las capacidades son las de las fichas de la base y NO se rotulan como literales del programa MEC hasta cotejarlas.
+CAP9 = {
+    1: 'Establece relaciones armónicas en su comunicación interpersonal con los miembros de la comunidad educativa.',
+    2: 'Interpreta los criterios de evaluación a ser considerados en el noveno grado en sus distintas funciones.',
+    3: 'Reconoce la importancia de conocerse a sí mismo, sus intereses, sus habilidades, sus potencialidades y sus preferencias.',
+    4: 'Interpreta lo positivo de una Orientación Vocacional para la acertada elección del Bachillerato.',
+    5: 'Expresa sus emociones de manera equilibrada, demostrando autocontrol en sus actividades.',
+    6: 'Conoce la implicancia de la sexualidad como un todo y su enfoque desde la perspectiva de derecho.',
+    7: 'Emprende acciones que promuevan el cumplimiento de los artículos de los DD. HH. referentes a la no discriminación.',
+    8: 'Analiza los procesos democráticos de elección de autoridades de la comunidad educativa en el estamento estudiantil.',
+    9: 'Participa activamente y con conocimientos adecuados en el proceso de conformación del Centro de Estudiantes.',
+    10: 'Elabora su cronograma de actividades considerando como eje principal su proceso de aprendizaje.',
+    11: 'Diagnostica situaciones de riesgo en su ámbito familiar, escolar y comunitario.',
+    12: 'Considera la gestión de riesgo en la vida cotidiana.',
+    13: 'Aplica normas de comportamiento en caso de riesgos.',
+}
+GRADOS['9'] = dict(
+    carpeta='9no', grado='9.º',
+    base_tomo=BASE + '9no_v2/DPS_9no_TOMO_INTEGRAL_PEC_OFICIO_2026.docx',
+    base_pa=BASE + '9no_v2/DPS_9no_PLAN_ANUAL_PEC_OFICIO_2026.docx',
+    base_planes=BASE + '9no_v2/DPS_9no_PLANES_DE_CLASE_PEC_OFICIO_2026.docx',
+    base_sol=BASE + '9no_v2/DPS_9no_SOLUCIONARIO_DOCENTE_PEC_OFICIO_2026.docx',
+    nombre_tomo='DPS_9no_TOMO_INTEGRAL_PEC_OFICIO_2026',
+    nombre_pa='DPS_9no_PLAN_ANUAL_PEC_OFICIO_2026',
+    nombre_planes='DPS_9no_PLANES_DE_CLASE_PEC_OFICIO_2026',
+    nombre_sol='DPS_9no_SOLUCIONARIO_DOCENTE_PEC_OFICIO_2026',
+    pec_modo='insertar', pec_tomo=PEC + 'pec9_agregados.md', pec_sol=PEC + 'pec9_agregados.md',
+    rotulo_fuente='',          # sin «(programa MEC)» hasta cotejar con el programa oficial de 9.º
+    CAP=CAP9,
+    unidad_caps={1: [1, 2], 2: [3, 4], 3: [5, 6], 4: [7], 5: [8, 9], 6: [10], 7: [11, 12, 13]},
+    # 27 fichas: 21 clases y 6 fichas de profundización (A–F), en orden de aparición
+    caps_clase=[[1], [1], [2], [3], [4], [4], [4], [5], [5], [6], [6], [7], [7], [8],
+                [8, 9],              # Ficha de profundización A
+                [9],                 # Clase 15
+                [8, 9],              # Ficha B
+                [9], [10],           # Clases 16 y 17
+                [10],                # Ficha C
+                [10],                # Clase 18
+                [10],                # Ficha D
+                [11],                # Clase 19
+                [11, 12, 13],        # Ficha E
+                [12], [13],          # Clases 20 y 21
+                [11, 12, 13]],       # Ficha F
+    tomo_reemplazos=[
+        ('El programa del MEC contempla la distribución flexible de la carga horaria del área entre Orientación y PEC; no fija seis sesiones PEC obligatorias para todas las instituciones.',
+         'El programa de estudio del área prevé que la carga horaria de Desarrollo Personal y Social se distribuya «conforme necesidades entre Orientación y Proyecto Educativo Comunitario»; no fija seis sesiones PEC obligatorias para todas las instituciones.'),
+        ('Objetivos y fichas 1–7 del proyecto', 'Objetivos, beneficiarios y productos (Ficha PEC 3)'),
+        ('Mes 1: diagnóstico y consulta. Mes 2: diseño y permisos. Mes 3–4: implementación. Mes 5: seguimiento. Mes 6: evaluación y comunicación.',
+         'Agosto (encuentros 20 y 22): diagnóstico y priorización. Septiembre (26 y 28): formulación, organización y permisos. Octubre (31): acción autorizada o simulada y seguimiento. Noviembre (34): evaluación y comunicación.'),
+        ('Duración tentativa: un semestre', 'Duración tentativa: segunda etapa del año lectivo, de agosto a noviembre'),
+    ],
+    portada_lema='La escuela, promotora de su comunidad',
+    talleres={'A': (20, [1, 11]), 'B': (22, [8, 1]), 'C': (26, [7, 12]), 'D': (28, [10, 9]), 'E': (31, [13, 10]), 'F': (34, [2, 7])},
+    pa_reemplazos=[
+        ('Las seis continuaciones prácticas originales permanecen en el tomo como material de apoyo y refuerzo de Orientación;',
+         'Las seis fichas de profundización (A–F) permanecen en el tomo como material complementario opcional de apoyo y refuerzo de Orientación;'),
+        ('PEC integrado en lugar de una continuación práctica; sin horas adicionales.', 'Taller PEC dentro de los 36 encuentros; sin horas adicionales.'),
+    ],
+    pa_pec_generico=G7['pa_pec_generico'],
+    plan_caps={1: ('C', [1], 0), 2: ('C', [1], 0), 3: ('C', [2], 0), 4: ('E', [1, 2], 0), 5: ('C', [3], 0), 6: ('C', [4], 0), 7: ('C', [4], 0),
+               8: ('C', [4], 0), 9: ('E', [3, 4], 0), 10: ('C', [5], 0), 11: ('C', [5], 0), 12: ('C', [6], 0), 13: ('C', [6], 0),
+               14: ('E', [5, 6], 0), 15: ('C', [7], 0), 16: ('C', [7], 0), 17: ('E', [7], 0), 18: ('I', list(range(1, 8)), 0),
+               19: ('C', [8], 0), 20: ('P', [1, 11], 0), 21: ('C', [9], 0), 22: ('P', [8, 1], 0), 23: ('C', [9], 0), 24: ('E', [8, 9], 0),
+               25: ('C', [10], 0), 26: ('P', [7, 12], 0), 27: ('C', [10], 0), 28: ('P', [10, 9], 0), 29: ('E', [10], 0), 30: ('C', [11], 0),
+               31: ('P', [13, 10], 0), 32: ('C', [12], 0), 33: ('C', [13], 0), 34: ('P', [2, 7], 0), 35: ('E', [11, 12, 13], 0),
+               36: ('I', list(range(8, 14)), 0)},
+    planes_reemplazos=[('(articulado con la unidad correspondiente)', '(componente Proyecto Educativo Comunitario)'),
+        ('21 clases temáticas + 7 evaluaciones de unidad + 6 talleres PEC articulados con las continuaciones prácticas del tomo + 2 evaluaciones de etapa',
+         '21 clases temáticas + 6 talleres del Proyecto Educativo Comunitario + 7 evaluaciones de unidad + 2 evaluaciones de etapa'),
+        ('Los seis talleres PEC reemplazan en esta planificación las seis continuaciones prácticas de los encuentros 20, 22, 26, 28, 31, 34.',
+         'Los seis talleres PEC ocupan los encuentros 20, 22, 26, 28, 31 y 34; las fichas de profundización del tomo quedan como material complementario opcional, sin encuentro propio.')],
+    planes_cierre_pec=G7['planes_cierre_pec'],
+    planes_cierre_texto=' Resolución de las consignas individuales 1 a 3 («Pensá y respondé») y avance de la «Actividad del equipo».',
+    sol_modo='insertar',
+    sol_reemplazos=[],
+)
