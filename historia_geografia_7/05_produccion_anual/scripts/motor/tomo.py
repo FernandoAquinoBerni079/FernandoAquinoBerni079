@@ -176,6 +176,21 @@ class Constructor:
         self._renglones_en(c, renglones)
         self.separador()
 
+    def recuadro(self, titulo, lineas, renglones=0):
+        """Recuadro con título y consignas numeradas (por ejemplo, la prueba
+        diagnóstica); los renglones van dentro, después de cada consigna si
+        `renglones` es una lista, o todos al final si es un número."""
+        t = self._tabla(1, 1, [1])
+        c = t.cell(0, 0); self._sombrear(c, COLOR['ubicate'])
+        self._escribir(c, titulo, TAM_CAJA, negrita=True, color=COLOR['ubicate_t'])
+        for k, q in enumerate(lineas, 1):
+            self._escribir(c, f'{k}. {q}', TAM_CAJA, nuevo=True)
+            if isinstance(renglones, (list, tuple)):
+                self._renglones_en(c, renglones[k - 1])
+        if not isinstance(renglones, (list, tuple)):
+            self._renglones_en(c, renglones)
+        self.separador()
+
     @staticmethod
     def _renglones_en(celda, n):
         """Renglones para responder dentro del recuadro: la fila no se parte,
@@ -227,6 +242,8 @@ class Constructor:
             self.ubicate(*b[1:])
         elif tipo == 'fig':
             self.figura(*b[1:])
+        elif tipo == 'recuadro':
+            self.recuadro(*b[1:])
         elif tipo == 'lista':
             for it in b[1]:
                 p = self.parrafo('•  ' + it, despues=2)
@@ -280,7 +297,7 @@ def secuencia(c, bloques):
     while k < len(bloques):
         b = bloques[k]
         sig = bloques[k + 1] if k + 1 < len(bloques) else None
-        if b[0] in ('fuente', 'ubicate') and sig and sig[0] == 'renglones':
+        if b[0] in ('fuente', 'ubicate', 'recuadro') and sig and sig[0] == 'renglones':
             getattr(c, b[0])(*b[1:], renglones=sig[1])
             k += 2
             continue

@@ -4,15 +4,15 @@ Se genera con `scripts/estado.py tabla`. «Sí» indica que el encuentro superó
 
 | N.º | Bloque | Sección | Tipo | Capacidades | Desarrollado | Verificado automáticamente | Inspeccionado visualmente | Pendiente de auditoría | Aprobado |
 |---:|:---:|---|---|---|:---:|:---:|:---:|:---:|:---:|
-| 1 | 1 | Clase 1 | clase | — (editorial) | — | — | — | — | — |
-| 2 | 1 | Clase 2 | clase | H1 | — | — | — | — | — |
-| 3 | 1 | Clase 3 | clase | H1 | — | — | — | — | — |
-| 4 | 1 | Continuación A | continuacion | H1 | — | — | — | — | — |
-| 5 | 1 | Evaluación de la Unidad 1 | evaluacion | H1 | — | — | — | — | — |
-| 6 | 1 | Clase 4 | clase | H2 | — | — | — | — | — |
-| 7 | 1 | Clase 5 | clase | H2 | — | — | — | — | — |
-| 8 | 1 | Continuación B | continuacion | H2 | — | — | — | — | — |
-| 9 | 1 | Evaluación de la Unidad 2 | evaluacion | H2 | — | — | — | — | — |
+| 1 | 1 | Clase 1 — La Historia y la Geografía: mirar el tiempo y el espacio | clase | — (editorial) | Sí | Sí | Sí | Sí | — |
+| 2 | 1 | Clase 2 — Los primeros pobladores del actual Paraguay | clase | H1 | Sí | Sí | Sí | Sí | — |
+| 3 | 1 | Clase 3 — Los guaraníes: pueblo, cultura y legado | clase | H1 | Sí | Sí | Sí | Sí | — |
+| 4 | 1 | Continuación A — Taller de fuentes sobre los guaraníes | continuacion | H1 | Sí | Sí | Sí | Sí | — |
+| 5 | 1 | Evaluación de la Unidad 1 — Cómo mirar el tiempo y el espacio | evaluacion | H1 | Sí | Sí | Sí | Sí | — |
+| 6 | 1 | Clase 4 — El poblamiento de América | clase | H2 | Sí | Sí | Sí | Sí | — |
+| 7 | 1 | Clase 5 — Mayas, aztecas e incas | clase | H2 | Sí | Sí | Sí | Sí | — |
+| 8 | 1 | Continuación B — Poblamiento y civilizaciones americanas: mapa y línea de tiempo | continuacion | H2 | Sí | Sí | Sí | Sí | — |
+| 9 | 1 | Evaluación de la Unidad 2 — La prehistoria americana | evaluacion | H2 | Sí | Sí | Sí | Sí | — |
 | 10 | 2 | Clase 6 | clase | H4 | — | — | — | — | — |
 | 11 | 2 | Clase 7 | clase | H4 | — | — | — | — | — |
 | 12 | 2 | Clase 8 | clase | H3 | — | — | — | — | — |

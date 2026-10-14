@@ -62,8 +62,12 @@ def lienzo(ancho_cm, alto_cm):
     return fig, ax
 
 
-def guardar(fig, salida, rect=None):
-    if rect:
+def guardar(fig, salida, rect=None, esquema=False, abajo=0.0):
+    """esquema=True: el eje ocupa todo el lienzo (dibujos sin coordenadas), con
+    una franja inferior `abajo` (fracción) reservada para la nota de fuente."""
+    if esquema:
+        fig.subplots_adjust(left=0.005, right=0.995, bottom=abajo, top=0.995)
+    elif rect:
         fig.tight_layout(rect=rect, pad=0.3)
     else:
         fig.tight_layout(pad=0.3)
