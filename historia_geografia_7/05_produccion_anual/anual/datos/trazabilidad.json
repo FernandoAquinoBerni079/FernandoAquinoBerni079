@@ -1,0 +1,1094 @@
+{
+ "programa": "MEC (2014), Programa de Estudio: Historia y Geografía, 7.º grado, EEB (reproducción, SHA-256 389190d3…c8d27e)",
+ "encuentros": [
+  {
+   "encuentro": 1,
+   "seccion": "Clase 1 — La Historia y la Geografía: mirar el tiempo y el espacio",
+   "tipo": "clase",
+   "tipo_vinculo": "Formulación editorial",
+   "capacidades_mec": [],
+   "temas_mec": [],
+   "ficha_impresa": true,
+   "paginas_tomo": [
+    5,
+    10
+   ],
+   "pendientes_de_verificacion": [
+    [
+     "Constitución de 1992, art. 140",
+     "Texto coincidente en varias reproducciones (camara.leg.br, Université Laval). Cotejar con la edición oficial (BACN)."
+    ],
+    [
+     "Archivo Nacional de Asunción: documentos desde el siglo XVI",
+     "Dato institucional difundido; cotejar con la página del Archivo."
+    ],
+    [
+     "Distancia Asunción-Encarnación ≈ 290 km en línea recta",
+     "Cálculo propio con coordenadas aproximadas (57,63° O 25,28° S; 55,87° O 27,33° S)."
+    ]
+   ]
+  },
+  {
+   "encuentro": 2,
+   "seccion": "Clase 2 — Los primeros pobladores del actual Paraguay",
+   "tipo": "clase",
+   "tipo_vinculo": "Capacidad literal MEC",
+   "capacidades_mec": [
+    "H1"
+   ],
+   "temas_mec": [
+    "H1a",
+    "H1b"
+   ],
+   "ficha_impresa": true,
+   "paginas_tomo": [
+    11,
+    15
+   ],
+   "pendientes_de_verificacion": [
+    [
+     "Herramientas de cazadores-recolectores de unos 8.000 años en Misiones y el sur del Brasil",
+     "Síntesis arqueológicas regionales (tradiciones Umbú y Humaitá/Altoparanaense; Itapiranga, Santa Catarina, 8.640 AP; Eldorado, Misiones). Cotejar con bibliografía arqueológica paraguaya."
+    ],
+    [
+     "Expansión de agricultores tupí-guaraníes hace unos 2.000 años",
+     "Dato habitual en la arqueología regional; cotejar."
+    ],
+    [
+     "Censo indígena 2012: 19 pueblos y 5 familias",
+     "Lista coincidente en fuentes secundarias (UNI, prensa). Cotejar con la publicación de la DGEEC (hoy INE)."
+    ]
+   ]
+  },
+  {
+   "encuentro": 3,
+   "seccion": "Clase 3 — Los guaraníes: pueblo, cultura y legado",
+   "tipo": "clase",
+   "tipo_vinculo": "Capacidad literal MEC",
+   "capacidades_mec": [
+    "H1"
+   ],
+   "temas_mec": [
+    "H1c"
+   ],
+   "ficha_impresa": true,
+   "paginas_tomo": [
+    16,
+    20
+   ],
+   "pendientes_de_verificacion": [
+    [
+     "Área guaraní hacia 1500 y parcialidades (carios, itatines, guaireños, tapes, chiriguanos)",
+     "Síntesis etnohistórica general; el mapa es un esquema. Cotejar con bibliografía (Melià, Susnik)."
+    ],
+    [
+     "Relato de Schmidl sobre los carios",
+     "Versión escolar resumida, declarada como no textual. Cotejar con una edición de «Viaje al Río de la Plata»."
+    ],
+    [
+     "Palabras de origen tupí-guaraní en otras lenguas (jaguar, tapir, tucán, ñandú, ananá)",
+     "Etimologías habituales en diccionarios; cotejar con el DLE."
+    ],
+    [
+     "Ley 4251/2010 de Lenguas",
+     "Ley vigente según fuentes secundarias; cotejar con la BACN."
+    ]
+   ]
+  },
+  {
+   "encuentro": 4,
+   "seccion": "Continuación A — Taller de fuentes sobre los guaraníes",
+   "tipo": "continuacion",
+   "tipo_vinculo": "Capacidad literal MEC",
+   "capacidades_mec": [
+    "H1"
+   ],
+   "temas_mec": [
+    "H1c"
+   ],
+   "ficha_impresa": true,
+   "paginas_tomo": [
+    21,
+    23
+   ],
+   "pendientes_de_verificacion": [
+    [
+     "Significado de y, ita, ka'a, guasu, yvyty",
+     "Vocabulario guaraní básico; cotejar con un diccionario (por ejemplo, el de la Academia de la Lengua Guaraní)."
+    ],
+    [
+     "Hallazgos arqueológicos guaraníes (cerámica corrugada y pintada, urnas, hachas pulidas, tembetás)",
+     "Síntesis de la arqueología regional; cotejar."
+    ]
+   ]
+  },
+  {
+   "encuentro": 5,
+   "seccion": "Evaluación de la Unidad 1 — Cómo mirar el tiempo y el espacio",
+   "tipo": "evaluacion",
+   "tipo_vinculo": "Asociación curricular",
+   "capacidades_mec": [
+    "H1"
+   ],
+   "temas_mec": [],
+   "ficha_impresa": false,
+   "paginas_tomo": [
+    25,
+    27
+   ],
+   "pendientes_de_verificacion": []
+  },
+  {
+   "encuentro": 6,
+   "seccion": "Clase 4 — El poblamiento de América",
+   "tipo": "clase",
+   "tipo_vinculo": "Capacidad literal MEC",
+   "capacidades_mec": [
+    "H2"
+   ],
+   "temas_mec": [
+    "H2a"
+   ],
+   "ficha_impresa": true,
+   "paginas_tomo": [
+    28,
+    31
+   ],
+   "pendientes_de_verificacion": [
+    [
+     "Homo sapiens hace unos 300.000 años en África",
+     "Dato habitual (hallazgos de Jebel Irhoud); cotejar."
+    ],
+    [
+     "Monte Verde ≈ 14.500 años; aceptación de 1997",
+     "Bibliografía arqueológica (Dillehay); cotejar."
+    ],
+    [
+     "Clovis ≈ 13.000 años; Cueva Fell más de 11.000; White Sands 21.000-23.000 (2021, en discusión)",
+     "Cotejar con publicaciones científicas."
+    ],
+    [
+     "Autores y épocas de las teorías clásicas (Ameghino, Hrdlička, Rivet, Mendes Correia)",
+     "Contenido habitual de manuales; cotejar."
+    ]
+   ]
+  },
+  {
+   "encuentro": 7,
+   "seccion": "Clase 5 — Mayas, aztecas e incas",
+   "tipo": "clase",
+   "tipo_vinculo": "Capacidad literal MEC",
+   "capacidades_mec": [
+    "H2"
+   ],
+   "temas_mec": [
+    "H2b"
+   ],
+   "ficha_impresa": true,
+   "paginas_tomo": [
+    32,
+    35
+   ],
+   "pendientes_de_verificacion": [
+    [
+     "Fragmento de la Segunda carta de relación de Cortés (1520)",
+     "Versión modernizada de difusión escolar; cotejar la literalidad con una edición (por ejemplo, Porrúa)."
+    ],
+    [
+     "Fechas: clásico maya 250-900; Tenochtitlan hacia 1325; Triple Alianza 1428; Pachacútec hacia 1438; caída 1521 y 1532-1533",
+     "Fechas habituales de la bibliografía; cotejar."
+    ],
+    [
+     "Áreas del mapa 5.1",
+     "Polígonos aproximados de la editorial; no son límites."
+    ]
+   ]
+  },
+  {
+   "encuentro": 8,
+   "seccion": "Continuación B — Poblamiento y civilizaciones americanas: mapa y línea de tiempo",
+   "tipo": "continuacion",
+   "tipo_vinculo": "Capacidad literal MEC",
+   "capacidades_mec": [
+    "H2"
+   ],
+   "temas_mec": [
+    "H2a",
+    "H2b"
+   ],
+   "ficha_impresa": true,
+   "paginas_tomo": [
+    36,
+    37
+   ],
+   "pendientes_de_verificacion": []
+  },
+  {
+   "encuentro": 9,
+   "seccion": "Evaluación de la Unidad 2 — La prehistoria americana",
+   "tipo": "evaluacion",
+   "tipo_vinculo": "Asociación curricular",
+   "capacidades_mec": [
+    "H2"
+   ],
+   "temas_mec": [],
+   "ficha_impresa": false,
+   "paginas_tomo": [
+    40,
+    42
+   ],
+   "pendientes_de_verificacion": []
+  },
+  {
+   "encuentro": 10,
+   "seccion": "Clase 6 — Los avances náuticos y la llegada de los europeos",
+   "tipo": "clase",
+   "tipo_vinculo": "Capacidad literal MEC",
+   "capacidades_mec": [
+    "H4"
+   ],
+   "temas_mec": [
+    "H4a",
+    "H4b"
+   ],
+   "ficha_impresa": true,
+   "paginas_tomo": [
+    43,
+    47
+   ],
+   "pendientes_de_verificacion": [
+    [
+     "Fragmento del Diario de Colón (11-12 de octubre de 1492)",
+     "Versión modernizada de difusión escolar, transmitida por Las Casas; cotejar la literalidad con una edición crítica."
+    ],
+    [
+     "Fechas: Constantinopla 1453; Dias 1488; Da Gama 1498; Cabral 1500; mapa de 1507 (Waldseemüller); Balboa 1513; Magallanes-Elcano 1519-1522; Requerimiento 1513",
+     "Fechas habituales; cotejar."
+    ],
+    [
+     "Trazados de los viajes (Figura 6.2)",
+     "Recorridos aproximados de la editorial."
+    ]
+   ]
+  },
+  {
+   "encuentro": 11,
+   "seccion": "Clase 7 — El reparto de América y el gobierno colonial",
+   "tipo": "clase",
+   "tipo_vinculo": "Capacidad literal MEC",
+   "capacidades_mec": [
+    "H4"
+   ],
+   "temas_mec": [
+    "H4c",
+    "H4d"
+   ],
+   "ficha_impresa": true,
+   "paginas_tomo": [
+    48,
+    51
+   ],
+   "pendientes_de_verificacion": [
+    [
+     "Tratado de Tordesillas: 7 de junio de 1494, 370 leguas al oeste de Cabo Verde; bulas de 1493",
+     "Datos habituales; la fuente es una versión resumida. Cotejar con una edición del tratado."
+    ],
+    [
+     "Casa de Contratación 1503; Consejo de Indias 1524; Virreinato de Nueva España 1535 y del Perú 1542; Audiencia de Charcas 1559",
+     "Fechas habituales; cotejar."
+    ],
+    [
+     "Meridiano aproximado de 46° O en la Figura 7.1",
+     "Valor aproximado de uso escolar; la ubicación se discutió durante siglos."
+    ]
+   ]
+  },
+  {
+   "encuentro": 12,
+   "seccion": "Clase 8 — La conquista del Río de la Plata y la fundación de Asunción",
+   "tipo": "clase",
+   "tipo_vinculo": "Capacidad literal MEC",
+   "capacidades_mec": [
+    "H3"
+   ],
+   "temas_mec": [
+    "H3a",
+    "H3b"
+   ],
+   "ficha_impresa": true,
+   "paginas_tomo": [
+    52,
+    55
+   ],
+   "pendientes_de_verificacion": [
+    [
+     "Solís 1516; García hacia 1524; Sancti Spiritus 1527 y su destrucción en 1529; capitulación de Mendoza 1534; Buenos Aires 1536; Asunción 1537; Cabildo 1541",
+     "Fechas habituales; cotejar (Peña Villamil, citado por la auditoría, para 1539-1541)."
+    ],
+    [
+     "Ciudades fundadas desde Asunción y sus fechas",
+     "Síntesis de la bibliografía; cotejar cada fecha."
+    ],
+    [
+     "Recorridos de la Figura 8.1",
+     "Trazados aproximados de la editorial."
+    ]
+   ]
+  },
+  {
+   "encuentro": 13,
+   "seccion": "Continuación C — Rutas, decisiones y alianzas en el Río de la Plata",
+   "tipo": "continuacion",
+   "tipo_vinculo": "Capacidad literal MEC",
+   "capacidades_mec": [
+    "H3"
+   ],
+   "temas_mec": [
+    "H3a",
+    "H3b"
+   ],
+   "ficha_impresa": true,
+   "paginas_tomo": [
+    56,
+    58
+   ],
+   "pendientes_de_verificacion": [
+    [
+     "Recorridos del cuadro de datos y del mapa mudo",
+     "Síntesis de la Clase 8; trazados aproximados (ver VERIFICACION de la Clase 8)."
+    ]
+   ]
+  },
+  {
+   "encuentro": 14,
+   "seccion": "Clase 9 — Mestizaje, resistencia y vida de los indígenas en el siglo XVI",
+   "tipo": "clase",
+   "tipo_vinculo": "Capacidad literal MEC",
+   "capacidades_mec": [
+    "H3"
+   ],
+   "temas_mec": [
+    "H3c"
+   ],
+   "ficha_impresa": true,
+   "paginas_tomo": [
+    60,
+    63
+   ],
+   "pendientes_de_verificacion": [
+    [
+     "Levantamientos de Aracaré y Tabaré (1542-1543; Tabaré, 1543)",
+     "Corrección del 15/10/2026 a pedido de la revisión de Fernando (antes: «hacia 1542»). Referencia: Florencia Roulet, estudio sobre la resistencia guaraní en el Paraguay del siglo XVI, repositorio UNAM, https://repositorio.unam.mx/contenidos/5054882 (no se abre desde el entorno de edición; datos de la revisión)."
+    ],
+    [
+     "Rebelión de Oberá u Overá (1579, Guarambaré)",
+     "Oberá y Overá son variantes bibliográficas del nombre; fecha y lugar habituales; cotejar."
+    ],
+    [
+     "Testamento de Irala (1556)",
+     "Versión escolar resumida y declarada como no textual; cotejar con una edición del testamento antes de citar datos más precisos."
+    ],
+    [
+     "Tovaja (cuñado) y cuñadazgo",
+     "Término guaraní y categoría historiográfica habituales; cotejar grafía."
+    ],
+    [
+     "Rancheadas; participación de mancebos de la tierra en la fundación de Santa Fe (1573)",
+     "Bibliografía habitual; cotejar."
+    ]
+   ]
+  },
+  {
+   "encuentro": 15,
+   "seccion": "Clase 10 — La Real Provisión de 1537 y las instituciones coloniales",
+   "tipo": "clase",
+   "tipo_vinculo": "Capacidad literal MEC",
+   "capacidades_mec": [
+    "H3"
+   ],
+   "temas_mec": [
+    "H3d",
+    "H3e"
+   ],
+   "ficha_impresa": true,
+   "paginas_tomo": [
+    64,
+    69
+   ],
+   "pendientes_de_verificacion": [
+    [
+     "Fragmentos de la Real Provisión (A19)",
+     "Los dos se toman de la transcripción de Rivarola Paoli (La economía colonial, 1986, nota 105), según su reproducción en Portal Guaraní (URL en el tomo). La página no se abre desde el entorno de edición. Corrección del 15/10/2026: la revisión de Fernando, con acceso directo a la fuente, comprobó que la versión anterior del segundo fragmento no la reproducía exactamente (la fuente escribe «más suficiente», con tilde, y difiere en redacción y puntuación). Como la grafía literal no puede cotejarse desde aquí, el fragmento 2 se presenta como adaptación escolar declarada, sin comillas de cita. El fragmento 1 no fue objetado en esa revisión; su cotejo literal queda a cargo de la auditoría. Transcripción concordante: portal del MEC, https://www.mec.gov.py/cms_v2/recursos/4844-la-cedula-real-del-12-de-septiembre-de-1537-llega-al-paraguay (tampoco accesible desde el entorno)."
+    ],
+    [
+     "Muerte de Mendoza en el viaje de regreso (1537); llegada de Alonso Cabrera (1538); Irala hacia 1539 y el debate sobre la aplicación de la provisión",
+     "Contrastar con ISEPOL, Síntesis de Geografía e Historia (2024) y el estudio publicado por el CEHJ, señalados por la auditoría."
+    ],
+    [
+     "Cabildo 1541; Obispado 1547 y primer obispo en 1556; Audiencia de Charcas 1559; Virreinato del Perú 1542",
+     "Fechas de manual; cotejar."
+    ],
+    [
+     "Tipos de encomienda y reparto de 1556; Leyes Nuevas 1542; Ordenanzas de Alfaro 1611",
+     "Bibliografía paraguaya habitual; cotejar."
+    ]
+   ]
+  },
+  {
+   "encuentro": 16,
+   "seccion": "Continuación D — La autonomía y sus límites: de 1537 a 1544",
+   "tipo": "continuacion",
+   "tipo_vinculo": "Capacidad literal MEC",
+   "capacidades_mec": [
+    "H3"
+   ],
+   "temas_mec": [
+    "H3d",
+    "H3e"
+   ],
+   "ficha_impresa": true,
+   "paginas_tomo": [
+    70,
+    72
+   ],
+   "pendientes_de_verificacion": [
+    [
+     "Cabeza de Vaca: medidas para limitar las rancheadas; deposición en 1544; Comentarios publicados en 1555 con su secretario (Pero Hernández)",
+     "Datos habituales de la bibliografía; cotejar."
+    ],
+    [
+     "Síntesis de las partes de la Real Provisión",
+     "Paráfrasis editorial basada en los fragmentos de la Clase 10 (transcripción de Rivarola Paoli); no es cita."
+    ]
+   ]
+  },
+  {
+   "encuentro": 17,
+   "seccion": "Evaluación de la Unidad 3 — El Paraguay y América en el siglo XVI",
+   "tipo": "evaluacion",
+   "tipo_vinculo": "Asociación curricular",
+   "capacidades_mec": [
+    "H3",
+    "H4"
+   ],
+   "temas_mec": [],
+   "ficha_impresa": false,
+   "paginas_tomo": [
+    73,
+    75
+   ],
+   "pendientes_de_verificacion": []
+  },
+  {
+   "encuentro": 18,
+   "seccion": "Evaluación Integradora de la 1.ª etapa — Unidades 1 a 3",
+   "tipo": "integradora",
+   "tipo_vinculo": "Asociación curricular",
+   "capacidades_mec": [
+    "H1",
+    "H2",
+    "H3",
+    "H4"
+   ],
+   "temas_mec": [],
+   "ficha_impresa": false,
+   "paginas_tomo": [
+    76,
+    78
+   ],
+   "pendientes_de_verificacion": []
+  },
+  {
+   "encuentro": 19,
+   "seccion": "Clase 11 — La división de la provincia (1617) y la mediterraneidad",
+   "tipo": "clase",
+   "tipo_vinculo": "Capacidad literal MEC",
+   "capacidades_mec": [
+    "H5"
+   ],
+   "temas_mec": [
+    "H5a"
+   ],
+   "ficha_impresa": true,
+   "paginas_tomo": [
+    79,
+    82
+   ],
+   "pendientes_de_verificacion": [
+    [
+     "Hernandarias: nacimiento en Asunción (1561), primer gobernador criollo, gobiernos entre 1592 y 1618 y su propuesta de división",
+     "Bibliografía habitual; cotejar años de cada gobierno."
+    ],
+    [
+     "División de 1617 (cédula de Felipe III) y ciudades de cada gobernación",
+     "Cotejar fecha exacta de la cédula y la nómina de ciudades."
+    ],
+    [
+     "Aduana de Córdoba (1622)",
+     "Dato de manual; cotejar."
+    ],
+    [
+     "«Más de mil kilómetros» de Asunción a la desembocadura del Río de la Plata",
+     "Distancia aproximada por río; cotejar."
+    ],
+    [
+     "Posiciones de Villa Rica, Ciudad Real, Santiago de Jerez, Concepción del Bermejo y Santa Fe (sitio de Cayastá) en la Figura 11.1",
+     "Posiciones aproximadas de la editorial."
+    ]
+   ]
+  },
+  {
+   "encuentro": 20,
+   "seccion": "Clase 12 — Economía y situación de los indígenas en el siglo XVII",
+   "tipo": "clase",
+   "tipo_vinculo": "Capacidad literal MEC",
+   "capacidades_mec": [
+    "H5"
+   ],
+   "temas_mec": [
+    "H5b",
+    "H5c"
+   ],
+   "ficha_impresa": true,
+   "paginas_tomo": [
+    83,
+    86
+   ],
+   "pendientes_de_verificacion": [
+    [
+     "Ordenanzas de Alfaro (1611): contenido resumido",
+     "Versión escolar resumida y declarada como no textual; cotejar con una edición de las ordenanzas."
+    ],
+    [
+     "Yerbales de Mbaracayú y del Guairá; trabajo de mitayos y mortalidad",
+     "Bibliografía habitual; cotejar."
+    ],
+    [
+     "Moneda de la tierra (valores fijados por las autoridades)",
+     "Bibliografía habitual; cotejar."
+    ],
+    [
+     "Composición de la sociedad (sector «español» mayormente mestizo)",
+     "Interpretación habitual; proporciones no cuantificadas."
+    ]
+   ]
+  },
+  {
+   "encuentro": 21,
+   "seccion": "Clase 13 — Franciscanos y jesuitas en la cultura paraguaya",
+   "tipo": "clase",
+   "tipo_vinculo": "Capacidad literal MEC",
+   "capacidades_mec": [
+    "H5"
+   ],
+   "temas_mec": [
+    "H5d"
+   ],
+   "ficha_impresa": true,
+   "paginas_tomo": [
+    87,
+    90
+   ],
+   "pendientes_de_verificacion": [
+    [
+     "Llegada de Bolaños y San Buenaventura (1575); pueblos franciscanos (Altos, Itá, Yaguarón, Tobatí, Caazapá, Yuty)",
+     "Bibliografía habitual; cotejar fechas de fundación."
+    ],
+    [
+     "Sínodo de Asunción (1603) y el catecismo de Bolaños",
+     "Versión escolar resumida y declarada como no textual; cotejar con una edición de las constituciones sinodales."
+    ],
+    [
+     "San Ignacio Guazú (1609); primeras reducciones del Guairá",
+     "Fechas habituales; cotejar."
+    ],
+    [
+     "Obras de Ruiz de Montoya sobre el guaraní (1639-1640)",
+     "Tesoro de la lengua guaraní (1639) y Arte y Vocabulario (1640); cotejar."
+    ],
+    [
+     "Treinta pueblos y ocho en el Paraguay actual; UNESCO 1993; expulsión de 1767",
+     "Datos habituales; cotejar."
+    ]
+   ]
+  },
+  {
+   "encuentro": 22,
+   "seccion": "Continuación E — Bandeirantes, pérdida del Guairá y Mbororé (siglo XVII)",
+   "tipo": "continuacion",
+   "tipo_vinculo": "Capacidad literal MEC",
+   "capacidades_mec": [
+    "H5"
+   ],
+   "temas_mec": [
+    "H5c",
+    "H5d"
+   ],
+   "ficha_impresa": true,
+   "paginas_tomo": [
+    91,
+    94
+   ],
+   "pendientes_de_verificacion": [
+    [
+     "Malocas al Guairá 1628-1631 (Raposo Tavares); éxodo de 1631; abandono de Villa Rica y Ciudad Real en 1632; malocas al Itatín",
+     "Fechas habituales; cotejar."
+    ],
+    [
+     "Mbororé: marzo de 1641; cacique Nicolás Ñeenguirú; permiso de armas de fuego",
+     "Bibliografía habitual; cotejar la fecha del permiso real y la grafía Ñeenguirú / Neenguirú."
+    ],
+    [
+     "Fragmento de la Conquista espiritual (1639)",
+     "Versión escolar resumida y declarada como no textual; cotejar con una edición de la obra."
+    ],
+    [
+     "Ampliación optativa: Tratado de Madrid 1750, Guerra Guaranítica 1754-1756, Sepé Tiarajú y Caiboaté 1756, Tratado de El Pardo 1761",
+     "Fechas habituales; contenido de ampliación, no evaluable."
+    ],
+    [
+     "Trazados de la Figura E.1 y de la Ficha E",
+     "Aproximados de la editorial."
+    ]
+   ]
+  },
+  {
+   "encuentro": 23,
+   "seccion": "Clase 14 — Haciendas, minería y comercio en la América colonial",
+   "tipo": "clase",
+   "tipo_vinculo": "Capacidad literal MEC",
+   "capacidades_mec": [
+    "H6"
+   ],
+   "temas_mec": [
+    "H6a"
+   ],
+   "ficha_impresa": true,
+   "paginas_tomo": [
+    96,
+    99
+   ],
+   "pendientes_de_verificacion": [
+    [
+     "Potosí 1545; Zacatecas 1546; Huancavelica; mita de Toledo (década de 1570)",
+     "Fechas habituales; cotejar."
+    ],
+    [
+     "Carta de fray Domingo de Santo Tomás (1550) y la expresión «boca del infierno»",
+     "Versión resumida; cotejar la expresión y la fecha con una edición de la carta."
+    ],
+    [
+     "Sistema de flotas (Veracruz, Cartagena, Portobelo, Callao, La Habana); aduana de Córdoba (1622)",
+     "Datos habituales; cotejar."
+    ],
+    [
+     "Trazados de la Figura 14.1",
+     "Esquema aproximado de la editorial."
+    ]
+   ]
+  },
+  {
+   "encuentro": 24,
+   "seccion": "Clase 15 — Otras colonizaciones; indígenas y africanos en América",
+   "tipo": "clase",
+   "tipo_vinculo": "Capacidad literal MEC",
+   "capacidades_mec": [
+    "H6"
+   ],
+   "temas_mec": [
+    "H6b",
+    "H6c"
+   ],
+   "ficha_impresa": true,
+   "paginas_tomo": [
+    100,
+    103
+   ],
+   "pendientes_de_verificacion": [
+    [
+     "Capitanías (1534); gobierno general en Salvador (1549)",
+     "Fechas habituales; cotejar."
+    ],
+    [
+     "Fechas de Jamestown, Plymouth, Quebec, Nueva Ámsterdam, Barbados, Martinica, Guadalupe, Curazao, Jamaica y del Brasil holandés",
+     "Fechas habituales; cotejar."
+    ],
+    [
+     "Más de doce millones de africanos embarcados (siglos XVI-XIX)",
+     "Estimación habitual de las bases de datos de la trata; cotejar."
+    ],
+    [
+     "Palmares y Zumbi (1695); Benkos Biohó; levantamientos calchaquíes (1630-1665); Rebelión de los Pueblo (1680)",
+     "Fechas habituales; cotejar."
+    ],
+    [
+     "Kamba Kua y los lanceros de Artigas (1820); esclavizados en estancias de órdenes religiosas",
+     "Bibliografía habitual; cotejar."
+    ],
+    [
+     "Relato de Equiano (1789)",
+     "Versión escolar resumida y declarada como no textual; cotejar con una edición."
+    ]
+   ]
+  },
+  {
+   "encuentro": 25,
+   "seccion": "Evaluación de la Unidad 4 — Paraguay y América colonial: siglo XVII",
+   "tipo": "evaluacion",
+   "tipo_vinculo": "Asociación curricular",
+   "capacidades_mec": [
+    "H5",
+    "H6"
+   ],
+   "temas_mec": [],
+   "ficha_impresa": false,
+   "paginas_tomo": [
+    104,
+    106
+   ],
+   "pendientes_de_verificacion": []
+  },
+  {
+   "encuentro": 26,
+   "seccion": "Clase 16 — La posición geográfica del Paraguay y de América",
+   "tipo": "clase",
+   "tipo_vinculo": "Capacidad literal MEC",
+   "capacidades_mec": [
+    "G1"
+   ],
+   "temas_mec": [
+    "G1a",
+    "G1b",
+    "G1c"
+   ],
+   "ficha_impresa": true,
+   "paginas_tomo": [
+    107,
+    111
+   ],
+   "pendientes_de_verificacion": [
+    [
+     "Coordenadas extremas (19° 18' S; 27° 36' S; 54° 19' O; 62° 38' O) y superficie de 406.752 km²",
+     "Datos de la bibliografía escolar; cotejar con el IGM o el INE."
+    ],
+    [
+     "17 departamentos y la capital",
+     "Organización territorial vigente; cotejar."
+    ],
+    [
+     "Superficie de América (unos 42 millones de km²)",
+     "Dato aproximado habitual; cotejar."
+    ],
+    [
+     "Tratados de límites: Brasil 1872, Argentina 1876, Laudo Hayes 1878, Bolivia 1938",
+     "Fechas habituales; cotejar."
+    ],
+    [
+     "Ríos limítrofes y puntos extremos de la Figura 16.2",
+     "Mapa aproximado; Natural Earth no trae el río Apa."
+    ]
+   ]
+  },
+  {
+   "encuentro": 27,
+   "seccion": "Clase 17 — El relieve del Paraguay y de América",
+   "tipo": "clase",
+   "tipo_vinculo": "Capacidad literal MEC",
+   "capacidades_mec": [
+    "G2"
+   ],
+   "temas_mec": [
+    "G2a"
+   ],
+   "ficha_impresa": true,
+   "paginas_tomo": [
+    112,
+    115
+   ],
+   "pendientes_de_verificacion": [
+    [
+     "Cerro Tres Kandú, unos 842 m; cerro León en el Chaco",
+     "Cifra habitual; cotejar con el IGM."
+    ],
+    [
+     "Aconcagua, unos 6.960 m; Andes, más de 7.000 km",
+     "Cifras habituales (6.961-6.962 m según la fuente); cotejar."
+    ],
+    [
+     "Perfil de la Figura 17.1",
+     "Alturas aproximadas de la editorial; no es un perfil topográfico medido."
+    ],
+    [
+     "Esquema de la Figura 17.2",
+     "Ubicación general de las formas de relieve; no es un mapa topográfico."
+    ]
+   ]
+  },
+  {
+   "encuentro": 28,
+   "seccion": "Clase 18 — La hidrografía y la Hidrovía",
+   "tipo": "clase",
+   "tipo_vinculo": "Capacidad literal MEC",
+   "capacidades_mec": [
+    "G2"
+   ],
+   "temas_mec": [
+    "G2b",
+    "G2c"
+   ],
+   "ficha_impresa": true,
+   "paginas_tomo": [
+    116,
+    121
+   ],
+   "pendientes_de_verificacion": [
+    [
+     "Afluentes por margen; Acaray, Monday y Ñacunday; central del Acaray",
+     "Cotejar con un atlas del Paraguay (IGM o INE)."
+    ],
+    [
+     "Agua potable de Asunción tomada del río Paraguay; Acuífero Patiño con pozos en el área metropolitana",
+     "Dato habitual (ESSAP); cotejar."
+    ],
+    [
+     "Acuerdo de transporte fluvial de 1992 y extremos Cáceres-Nueva Palmira",
+     "Cotejar el texto del acuerdo."
+    ],
+    [
+     "Pilcomayo: cauce cambiante; Titicaca a más de 3.800 m; Cuenca del Plata, segunda de América del Sur",
+     "Datos de manual; cotejar."
+    ],
+    [
+     "Mapas de ríos (Natural Earth)",
+     "En Natural Earth el río Paraguay figura rotulado «Paraná»; se rotula por ubicación. El Apa no está: se marca su desembocadura."
+    ]
+   ]
+  },
+  {
+   "encuentro": 29,
+   "seccion": "Continuación F — La Hidrovía: beneficios, impactos y decisiones",
+   "tipo": "continuacion",
+   "tipo_vinculo": "Capacidad literal MEC",
+   "capacidades_mec": [
+    "G2"
+   ],
+   "temas_mec": [
+    "G2b",
+    "G2c"
+   ],
+   "ficha_impresa": true,
+   "paginas_tomo": [
+    123,
+    124
+   ],
+   "pendientes_de_verificacion": [
+    [
+     "Ley 294/1993 de evaluación de impacto ambiental; MADES",
+     "Cotejar en la BACN."
+    ],
+    [
+     "Caso de la Ficha F-A",
+     "Caso didáctico ficticio, declarado en la ficha; no usa cifras reales."
+    ]
+   ]
+  },
+  {
+   "encuentro": 30,
+   "seccion": "Evaluación de la Unidad 5 — Posición, relieve e hidrografía",
+   "tipo": "evaluacion",
+   "tipo_vinculo": "Asociación curricular",
+   "capacidades_mec": [
+    "G1",
+    "G2"
+   ],
+   "temas_mec": [],
+   "ficha_impresa": false,
+   "paginas_tomo": [
+    128,
+    131
+   ],
+   "pendientes_de_verificacion": []
+  },
+  {
+   "encuentro": 31,
+   "seccion": "Clase 19 — El clima de Paraguay y de América",
+   "tipo": "clase",
+   "tipo_vinculo": "Capacidad literal MEC",
+   "capacidades_mec": [
+    "G3"
+   ],
+   "temas_mec": [
+    "G3a",
+    "G3b",
+    "G3c"
+   ],
+   "ficha_impresa": true,
+   "paginas_tomo": [
+    132,
+    136
+   ],
+   "pendientes_de_verificacion": [
+    [
+     "Lluvias anuales: unos 1.800 mm en el este y unos 400 mm en el noroeste del Chaco",
+     "Valores redondeados habituales en la bibliografía escolar; cotejar con la DMH."
+    ],
+    [
+     "Temperaturas del Chaco superiores a 40 °C; heladas ocasionales",
+     "Datos habituales; cotejar con la DMH."
+    ],
+    [
+     "Quito a unos 2.800 m",
+     "Dato habitual; cotejar."
+    ],
+    [
+     "El Niño (lluvias e inundaciones) y La Niña (sequías) en el Paraguay",
+     "Relación habitual en la bibliografía; cotejar."
+    ],
+    [
+     "Mapas de las Figuras 19.2 y 19.3",
+     "Esquemas de la editorial, no mapas climáticos medidos."
+    ]
+   ]
+  },
+  {
+   "encuentro": 32,
+   "seccion": "Clase 20 — Regiones naturales de Paraguay y América",
+   "tipo": "clase",
+   "tipo_vinculo": "Capacidad literal MEC",
+   "capacidades_mec": [
+    "G4"
+   ],
+   "temas_mec": [
+    "G4a",
+    "G4b",
+    "G4d"
+   ],
+   "ficha_impresa": true,
+   "paginas_tomo": [
+    137,
+    141
+   ],
+   "pendientes_de_verificacion": [
+    [
+     "Ecosistemas del Paraguay (Chaco Seco, Chaco Húmedo, Pantanal, Cerrado, Bosque Atlántico del Alto Paraná, humedales del Ñeembucú)",
+     "Denominaciones habituales; el MADES tiene una clasificación oficial de ecorregiones que debe cotejarse."
+    ],
+    [
+     "Pérdida de la mayor parte del Bosque Atlántico en el siglo XX; avance del desmonte en el Chaco",
+     "Afirmación cualitativa habitual; cotejar con INFONA o MADES antes de agregar cifras."
+    ],
+    [
+     "Ley de 2004 que prohíbe la conversión de bosques en la Región Oriental (Ley 2524/2004) y sus prórrogas",
+     "Cotejar en la BACN."
+    ],
+    [
+     "Figuras 20.1 y 20.2",
+     "Esquemas de la editorial."
+    ]
+   ]
+  },
+  {
+   "encuentro": 33,
+   "seccion": "Clase 21 — La gestión ambiental en el Paraguay",
+   "tipo": "clase",
+   "tipo_vinculo": "Capacidad literal MEC",
+   "capacidades_mec": [
+    "G4"
+   ],
+   "temas_mec": [
+    "G4c"
+   ],
+   "ficha_impresa": true,
+   "paginas_tomo": [
+    142,
+    145
+   ],
+   "pendientes_de_verificacion": [
+    [
+     "Constitución, art. 7 (primera oración, cita textual) y art. 8 (síntesis)",
+     "Cotejar con la edición oficial (BACN)."
+    ],
+    [
+     "MADES (2018, sobre la base de la SEAM, creada en 2000); INFONA",
+     "Leyes 6123/2018, 1561/2000 y 3464/2008 según la bibliografía; cotejar."
+    ],
+    [
+     "Leyes 294/1993, 352/1994, 716/1996 y 2524/2004 (y prórrogas)",
+     "Cotejar números, años, contenido y vigencia en la BACN."
+    ],
+    [
+     "Parques nacionales Defensores del Chaco e Ybycuí",
+     "Cotejar en el registro del MADES."
+    ]
+   ]
+  },
+  {
+   "encuentro": 34,
+   "seccion": "Continuación G — Clima, ecosistemas y gestión ambiental",
+   "tipo": "continuacion",
+   "tipo_vinculo": "Capacidad literal MEC",
+   "capacidades_mec": [
+    "G3",
+    "G4"
+   ],
+   "temas_mec": [
+    "G3b",
+    "G4b",
+    "G4c"
+   ],
+   "ficha_impresa": true,
+   "paginas_tomo": [
+    146,
+    148
+   ],
+   "pendientes_de_verificacion": [
+    [
+     "Caso del taller",
+     "Caso didáctico ficticio, declarado en el tomo."
+    ],
+    [
+     "Normas e instituciones citadas en la solución",
+     "Las de la Clase 21; cotejar en la BACN."
+    ]
+   ]
+  },
+  {
+   "encuentro": 35,
+   "seccion": "Evaluación de la Unidad 6 — Clima, regiones naturales y ambiente",
+   "tipo": "evaluacion",
+   "tipo_vinculo": "Asociación curricular",
+   "capacidades_mec": [
+    "G3",
+    "G4"
+   ],
+   "temas_mec": [],
+   "ficha_impresa": false,
+   "paginas_tomo": [
+    150,
+    152
+   ],
+   "pendientes_de_verificacion": []
+  },
+  {
+   "encuentro": 36,
+   "seccion": "Evaluación Integradora de la 2.ª etapa — Unidades 4 a 6",
+   "tipo": "integradora",
+   "tipo_vinculo": "Asociación curricular",
+   "capacidades_mec": [
+    "H5",
+    "H6",
+    "G1",
+    "G2",
+    "G3",
+    "G4"
+   ],
+   "temas_mec": [],
+   "ficha_impresa": false,
+   "paginas_tomo": [
+    153,
+    155
+   ],
+   "pendientes_de_verificacion": []
+  }
+ ]
+}

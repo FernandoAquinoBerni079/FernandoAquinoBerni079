@@ -19,9 +19,8 @@ TOMO = [
     ('item', '2. La brújula permitía a los navegantes…'),
     ('opc', ['conocer la dirección del norte aunque no vieran la costa', 'calcular la latitud midiendo la altura de los astros',
              'avanzar con viento en contra', 'medir la profundidad del mar']),
-    ('item', '3. En una monarquía absoluta…'),
-    ('opc', ['el pueblo elegía al rey cada cuatro años', 'el Cabildo hacía las leyes para América',
-             'el poder se dividía en tres poderes independientes', 'el rey concentraba el poder de hacer leyes, juzgar y gobernar']),
+    ('item', '3. En las monarquías absolutas del siglo XVI, el poder de hacer leyes, juzgar y gobernar lo concentraba…'),
+    ('opc', ['el pueblo, mediante elecciones', 'el Cabildo de cada ciudad', 'un parlamento con tres poderes independientes', 'el rey']),
     ('item', '4. El primer europeo que recorrió el territorio paraguayo fue…'),
     ('opc', ['Sebastián Gaboto', 'Alejo García', 'Pedro de Mendoza', 'Domingo Martínez de Irala']),
     ('item', '5. En 1541, Irala ordenó…'),
@@ -33,7 +32,7 @@ TOMO = [
     ('consigna', 'Parte B — Verdadero o falso. Justificá las falsas (1 punto cada una: si es verdadera, 1 punto por marcarla bien; '
                  'si es falsa, 0,5 por marcarla y 0,5 por la justificación).'),
     ('item', '7. (....) Los «mancebos de la tierra» eran hijos de españoles y mujeres guaraníes.'),
-    ('item', '8. (....) La encomienda era una institución de gobierno de la ciudad.'),
+    ('item', '8. (....) Los encomenderos gobernaban la ciudad en lugar del Cabildo.'),
     ('item', '9. (....) El primer viaje de Colón se hizo por cuenta del rey de Portugal.'),
     ('item', '10. (....) El Cabildo de Asunción estaba formado por alcaldes y regidores.'),
     ('consigna', 'Parte C — Mapa (3 puntos: 1 por fila; 0,5 por el nombre del lugar y 0,5 por el año).'),
@@ -117,7 +116,7 @@ SOL = {
         ('Parte A — 1 punto cada una', [
             ('1', 'c) fijó una línea que dividía las zonas de Castilla y de Portugal', ''),
             ('2', 'a) conocer la dirección del norte aunque no vieran la costa', ''),
-            ('3', 'd) el rey concentraba el poder de hacer leyes, juzgar y gobernar', ''),
+            ('3', 'd) el rey', ''),
             ('4', 'b) Alejo García', ''),
             ('5', 'd) despoblar Buenos Aires y concentrar a los españoles en Asunción', ''),
             ('6', 'a) cuando faltaba la autoridad nombrada por el rey', ''),
@@ -125,7 +124,7 @@ SOL = {
         ('Parte B — 1 punto cada una', [
             ('7', 'Verdadero.',
              'Criterio anunciado en la Parte B: si es verdadera, 1 punto por marcarla bien; si es falsa, 0,5 por marcarla y 0,5 por la justificación.'),
-            ('8', 'Falso: la encomienda asignaba trabajo indígena a un español; el gobierno de la ciudad era tarea del Cabildo.', ''),
+            ('8', 'Falso: el gobierno de la ciudad era tarea del Cabildo; la encomienda solo asignaba trabajo indígena a un español.', ''),
             ('9', 'Falso: se hizo por cuenta de la Corona de Castilla.', ''),
             ('10', 'Verdadero.', ''),
         ]),

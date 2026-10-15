@@ -111,18 +111,23 @@ def construir_tomo(maestro, figuras, ns, dx):
     pdf = PDF.render(dx)
     ind = PDF.pagina_indice(pdf)
     pags = PDF.titulos_pdf(pdf, PATRON_TITULOS, ind + 1)
-    d = docx.Document(dx)
-    claves = {}
-    for e in d.element.body:
-        t = TP.texto(e) if TP.es_p(e) else (TP.texto(e.find('.//' + TP.W + 'p')) if e.tag == TP.W + 'tbl' else '')
-        for k, v in pags.items():
-            if t and t.startswith(k[:40]):
-                claves[t] = v
-    T.construir(maestro, figuras, secciones_tomo(ns), dx, claves)
-    pdf = PDF.render(dx)
-    pags2, rangos = rangos_pdf(pdf)
-    assert pags2 == pags, 'el índice cambió la paginación'
-    return pdf, rangos
+    # El índice estático puede ocupar más de una hoja (tomo anual) y correr la paginación: se itera hasta que
+    # los números impresos en el índice coinciden con la paginación real.
+    for _ in range(4):
+        d = docx.Document(dx)
+        claves = {}
+        for e in d.element.body:
+            t = TP.texto(e) if TP.es_p(e) else (TP.texto(e.find('.//' + TP.W + 'p')) if e.tag == TP.W + 'tbl' else '')
+            for k, v in pags.items():
+                if t and t.startswith(k[:40]):
+                    claves[t] = v
+        T.construir(maestro, figuras, secciones_tomo(ns), dx, claves)
+        pdf = PDF.render(dx)
+        pags2, rangos = rangos_pdf(pdf)
+        if pags2 == pags:
+            return pdf, rangos
+        pags = pags2
+    raise AssertionError('el índice no estabiliza la paginación')
 
 
 def construir_planes(ns, dx, subtitulo):

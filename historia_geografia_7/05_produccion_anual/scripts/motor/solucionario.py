@@ -39,7 +39,7 @@ def _tabla_respuestas(doc, nombre, items):
     doc.add_paragraph().paragraph_format.space_after = Pt(2)
 
 
-def _matriz(doc, filas, total):
+def _matriz(doc, filas, total, entera=False):
     p = doc.add_paragraph(); p.paragraph_format.keep_with_next = True; p.paragraph_format.space_before = Pt(4)
     r = p.add_run('Matriz ítem-capacidad-puntaje'); r.bold = True; r.font.size = Pt(11); r.font.color.rgb = PP.AZUL
     t = doc.add_table(rows=1, cols=4); t.style = 'Table Grid'
@@ -54,6 +54,11 @@ def _matriz(doc, filas, total):
     m = f.cells[0].merge(f.cells[2]); PP.sombrear(m, PP.GRIS); PP.sombrear(f.cells[3], PP.GRIS)
     PP.texto_celda(m, 'Total', negrita=True, tam=10); PP.texto_celda(f.cells[3], str(total), negrita=True, tam=10)
     PP.fijar_anchos(t, [2.2, 2.4, 10.6, 1.8])
+    # las últimas filas y el total van juntos, para no dejar una o dos filas sueltas en otra hoja
+    for fila in (t.rows[:-1] if entera else t.rows[-4:-1]):   # la última matriz del volumen va entera
+        for c in fila.cells:
+            for q in c.paragraphs:
+                q.paragraph_format.keep_with_next = True
     doc.add_paragraph().paragraph_format.space_after = Pt(2)
 
 
@@ -93,5 +98,5 @@ def construir(secciones, rangos, figuras, salida, titulo):
         for archivo, ancho, epigrafe in sec.get('mapas', []):
             _mapa(doc, figuras, archivo, ancho, epigrafe)
         if sec.get('matriz'):
-            _matriz(doc, sec['matriz'], sec['puntaje'])
+            _matriz(doc, sec['matriz'], sec['puntaje'], entera=(k == len(secciones) - 1))
     doc.save(salida)

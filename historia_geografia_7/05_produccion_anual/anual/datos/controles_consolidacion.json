@@ -1,0 +1,38 @@
+{
+ "correctos": 1031,
+ "fallos": [],
+ "por_control": {
+  "A. Arquitectura": {
+   "correctos": 37,
+   "fallos": []
+  },
+  "B. Continuidad de evaluaciones": {
+   "correctos": 15,
+   "fallos": []
+  },
+  "C. Repeticiones": {
+   "correctos": 367,
+   "fallos": []
+  },
+  "D. Capacidades": {
+   "correctos": 3,
+   "fallos": []
+  },
+  "E. Guerra Guaranítica (A05)": {
+   "correctos": 503,
+   "fallos": []
+  },
+  "F. Figuras y cartografía": {
+   "correctos": 103,
+   "fallos": []
+  },
+  "G. N01 (Clase 18)": {
+   "correctos": 2,
+   "fallos": []
+  },
+  "H. Plan 31 (A10/N03)": {
+   "correctos": 1,
+   "fallos": []
+  }
+ }
+}

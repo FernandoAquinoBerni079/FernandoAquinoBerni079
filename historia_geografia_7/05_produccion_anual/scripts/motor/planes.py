@@ -130,7 +130,13 @@ def construir(planes, salida, paginas, subtitulo):
         p.paragraph_format.space_after = Pt(12)
         p.add_run(texto).font.size = Pt(12)
     PP.PLANES = planes
+    n0 = len(doc.paragraphs)
     PP.indice(doc, paginas)
+    if len(planes) > 20:   # índice del volumen anual: compacto, para que entre en una hoja
+        for q in doc.paragraphs[n0 + 1:]:
+            q.paragraph_format.space_after = Pt(1.5)
+            for r in q.runs:
+                r.font.size = Pt(9.5)
     for pl in planes:
         plan(doc, pl, COMUNES)
     doc.save(salida)

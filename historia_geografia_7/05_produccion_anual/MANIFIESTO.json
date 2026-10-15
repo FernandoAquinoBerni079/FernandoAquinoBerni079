@@ -18,6 +18,401 @@
    "sha256": "e8a765b850edeba8d9d2b7ccf25d151467dd6e594e4538358fb8dc6cb4ee566f"
   },
   {
+   "archivo": "anual/INFORME_CONSOLIDACION.md",
+   "bytes": 8251,
+   "sha256": "e9dd4b2e9bef924770774c410359d2a6e0c23cdc41a4dd485aa7797b604cacbc"
+  },
+  {
+   "archivo": "anual/MANIFIESTO_VERSIONES.md",
+   "bytes": 3808,
+   "sha256": "6aa26213f3ed6eea9b7244b70b8b9d1b891bef583e0189d68e268d38232ab318"
+  },
+  {
+   "archivo": "anual/datos/controles.json",
+   "bytes": 944,
+   "sha256": "74daca9a8a6dbae8c7a58e23c68c3a3dded6177827d3c22aa62440f5284f8abf"
+  },
+  {
+   "archivo": "anual/datos/controles_consolidacion.json",
+   "bytes": 614,
+   "sha256": "c39b85b8a4fc564f66596367ed58eeebff3d7c92b1aa3473af5f98496b81625a"
+  },
+  {
+   "archivo": "anual/datos/paginas_tomo.json",
+   "bytes": 3546,
+   "sha256": "e3a7cf43b8bf9e5e25a4f4936a5c18a593d43c870514373ec62d2de270acf6e7"
+  },
+  {
+   "archivo": "anual/datos/trazabilidad.json",
+   "bytes": 30097,
+   "sha256": "4673d78954c0480077903ae0a7de6729c298ad30f47f66576299272a8568b2dd"
+  },
+  {
+   "archivo": "anual/figuras/eval_u1_mapa.png",
+   "bytes": 130191,
+   "sha256": "7138c88b9f8499d6f176dbc17ef061cbf37691630bc6cba26af40a323cf7d556"
+  },
+  {
+   "archivo": "anual/figuras/eval_u1_mapa_clave.png",
+   "bytes": 177867,
+   "sha256": "ab4bb6340ddff1bc2b6a9562e30cf29ab4f520f7e25e8cace9c484084596672c"
+  },
+  {
+   "archivo": "anual/figuras/eval_u2_mapa.png",
+   "bytes": 216776,
+   "sha256": "c980be72e366c9bd4967920f877bdbb1900d16d3d2f48f5915c016a3db015e51"
+  },
+  {
+   "archivo": "anual/figuras/eval_u2_mapa_clave.png",
+   "bytes": 257385,
+   "sha256": "8083b58368df0f2cbba9d4869577348be57452ed54bcc013392b6d47cb87d828"
+  },
+  {
+   "archivo": "anual/figuras/eval_u3_mapa.png",
+   "bytes": 202103,
+   "sha256": "eb04863200db3e637bc362e3465f884cde7014860a76aece64a3a12ac6806b4d"
+  },
+  {
+   "archivo": "anual/figuras/eval_u3_mapa_clave.png",
+   "bytes": 287587,
+   "sha256": "61b92256f93669cd3d5c068b67be901d1669e3543f385da8d86ee4412384126c"
+  },
+  {
+   "archivo": "anual/figuras/eval_u4_mapa.png",
+   "bytes": 201805,
+   "sha256": "e223d15dc9697bcf902db189c6e3ca39074045e284ae8f4e6c16a1ad952b0151"
+  },
+  {
+   "archivo": "anual/figuras/eval_u4_mapa_clave.png",
+   "bytes": 391753,
+   "sha256": "860a34fc5bdbb762be0c5efee0e1bb70a61809fff76de579b44f147f54fad733"
+  },
+  {
+   "archivo": "anual/figuras/eval_u5_mapa_clave.png",
+   "bytes": 378522,
+   "sha256": "662269ba840d27e4089a757609015e3fe1262b13e27b789983e83a42805e2d0b"
+  },
+  {
+   "archivo": "anual/figuras/eval_u5_mapa_mudo.png",
+   "bytes": 211406,
+   "sha256": "2baf8aca139a2a99a092aa4493d0d65f868f65c7023b566daa1684fde02ca3f4"
+  },
+  {
+   "archivo": "anual/figuras/eval_u5_rios_numerados.png",
+   "bytes": 344234,
+   "sha256": "3ba81f19c9ff098522fc7c82f521e18df5a275cbb57cb5a8f63b68c661e248c1"
+  },
+  {
+   "archivo": "anual/figuras/eval_u6_mapa.png",
+   "bytes": 208125,
+   "sha256": "6ebec472ba02c4b50d685cc5858c066f02f68abd19a48f9e1bbb288d8305fe89"
+  },
+  {
+   "archivo": "anual/figuras/eval_u6_mapa_clave.png",
+   "bytes": 323289,
+   "sha256": "ebed3e6ca68c1c6fa9d86f1bd0ca324634a20a4f9a500efbc802c2994202d856"
+  },
+  {
+   "archivo": "anual/figuras/ficha_18A_mapa_mudo.png",
+   "bytes": 267283,
+   "sha256": "b600e6367d7b17d9ca73ce562e9ac3095d8d2b75005031406b529c32f3f63e60"
+  },
+  {
+   "archivo": "anual/figuras/ficha_B_linea_vacia.png",
+   "bytes": 38614,
+   "sha256": "ccca3d7bf49037b02389d5e9acc69de2a1094da96a22a8930328a20acb23afe1"
+  },
+  {
+   "archivo": "anual/figuras/ficha_B_mapa_mudo_america.png",
+   "bytes": 310225,
+   "sha256": "80d57b8cb675f3f6de8f0a8038affe5c0ad511ecdaf70ea72bb0ec29493bd82d"
+  },
+  {
+   "archivo": "anual/figuras/ficha_C_mapa_mudo.png",
+   "bytes": 291953,
+   "sha256": "d3d6e721ce2812495c82cfe4028eaadfe3fc43e9b3af7dbb31dff15679e46fbd"
+  },
+  {
+   "archivo": "anual/figuras/ficha_E_mapa_mudo.png",
+   "bytes": 267405,
+   "sha256": "3bf26877ba2d9185666fbbcf8ad9e1f7c25dfcb6b5ce7fa17ec0d10467654940"
+  },
+  {
+   "archivo": "anual/figuras/ficha_G_mapa_mudo.png",
+   "bytes": 267283,
+   "sha256": "b600e6367d7b17d9ca73ce562e9ac3095d8d2b75005031406b529c32f3f63e60"
+  },
+  {
+   "archivo": "anual/figuras/fig_10_1_linea_1534_1556.png",
+   "bytes": 129192,
+   "sha256": "24705a8c380fdfcbaf0c73c357a23d51811a9f390a1e1eb720eaad1c32a80cd7"
+  },
+  {
+   "archivo": "anual/figuras/fig_10_2_autoridades.png",
+   "bytes": 173511,
+   "sha256": "a22eeeaba126f1d942f7c40a4e7860dc8fa0e5070f91e64c1318f12764f85c8b"
+  },
+  {
+   "archivo": "anual/figuras/fig_11_1_division_1617.png",
+   "bytes": 378499,
+   "sha256": "9b0fc40b2814e1e584101bf12b02e1344238d57a64233cd82090c36fc4f7365f"
+  },
+  {
+   "archivo": "anual/figuras/fig_12_1_yerba.png",
+   "bytes": 144418,
+   "sha256": "b80bc765c576c2e0be649d79bd81f64adbf962b457cdcbe4e3e0e45ec1a74a80"
+  },
+  {
+   "archivo": "anual/figuras/fig_13_1_reduccion.png",
+   "bytes": 132580,
+   "sha256": "d5a28e02911b82d77e14e34f4a2856de355aea36c04f8c48804395cb2248a317"
+  },
+  {
+   "archivo": "anual/figuras/fig_14_1_plata.png",
+   "bytes": 438839,
+   "sha256": "ebc1d8265d0c8d3ca33435fd6d269fc2f3e50fd1a724de942c71df75724aca2e"
+  },
+  {
+   "archivo": "anual/figuras/fig_15_1_colonias.png",
+   "bytes": 416603,
+   "sha256": "b9a55f8be9786529e2deecdd6c09cc6e94eca0e9d80ebdb8a0ebafc14d2fb93b"
+  },
+  {
+   "archivo": "anual/figuras/fig_16_1_america.png",
+   "bytes": 404606,
+   "sha256": "ebc4e24a1594230c34e1ea8fe1da3c9dbbb8b0bc7f92302cff21f3940bcf4237"
+  },
+  {
+   "archivo": "anual/figuras/fig_16_2_paraguay_posicion.png",
+   "bytes": 379971,
+   "sha256": "763ff1a19534fb99f50c0983c3fc5a4986a7721d042af63b6debb28e32e2bc14"
+  },
+  {
+   "archivo": "anual/figuras/fig_17_1_relieve_america.png",
+   "bytes": 479555,
+   "sha256": "bd9ccee255efbab372d00d37b3604c7dd0da3965b1ee581c03888d2b390b0e65"
+  },
+  {
+   "archivo": "anual/figuras/fig_17_2_perfil.png",
+   "bytes": 128144,
+   "sha256": "807739adfbc17338726bcf12290a0e28e8a4d0cba3cf6c35614a3b1faba325e2"
+  },
+  {
+   "archivo": "anual/figuras/fig_18_1_rios_paraguay.png",
+   "bytes": 406522,
+   "sha256": "acc0f02ba7eedbcffc11bb07c202b141470dd8e6d12494a94e834c341c84a5ea"
+  },
+  {
+   "archivo": "anual/figuras/fig_18_2_hidrovia.png",
+   "bytes": 392659,
+   "sha256": "9297a482768628c89257f7cd952c6da5d39509300a4742ecc31e3b6471a91689"
+  },
+  {
+   "archivo": "anual/figuras/fig_18_3_rios_america.png",
+   "bytes": 538198,
+   "sha256": "ea3a789a235cef035453842051d2ac1374f71f111f80a776b7ef644e978a243c"
+  },
+  {
+   "archivo": "anual/figuras/fig_19_1_clima.png",
+   "bytes": 131096,
+   "sha256": "2570d5d0308b51bb718ba24c78e43732e53b0299d50af7098de23f2631574b4f"
+  },
+  {
+   "archivo": "anual/figuras/fig_19_2_climas_america.png",
+   "bytes": 430889,
+   "sha256": "b83a9af7f4d5f8a158d79b21d8031d32a0e06d54dbcef34ecc26457b79bcdaf0"
+  },
+  {
+   "archivo": "anual/figuras/fig_19_3_lluvias_py.png",
+   "bytes": 318564,
+   "sha256": "7d959a55d3218e815e3348a50c17838ed51f3713c42984699a2c8e9fd5c36ac9"
+  },
+  {
+   "archivo": "anual/figuras/fig_1_1_tipos_fuentes.png",
+   "bytes": 115174,
+   "sha256": "570f4f9ff08223abac90fb2a23b80aa02f2a89db1a351e0197fe7840b2fc2525"
+  },
+  {
+   "archivo": "anual/figuras/fig_1_2_linea_tiempo_era.png",
+   "bytes": 103026,
+   "sha256": "e0b648615db99d5e21608cb8faa3ab8774d5d975d70328f4d075a98534c77b5d"
+  },
+  {
+   "archivo": "anual/figuras/fig_1_3_mapa_orientacion.png",
+   "bytes": 254049,
+   "sha256": "5d4e36935cb9f5eedb1abb069afa903cc5585dd73b5648a59de6724052c5a7cf"
+  },
+  {
+   "archivo": "anual/figuras/fig_20_1_regiones_america.png",
+   "bytes": 450727,
+   "sha256": "0d136fd6c831852a0defc44641985cf67e8422e3f3cd8fcd3cbefb5a83f02f85"
+  },
+  {
+   "archivo": "anual/figuras/fig_20_2_ecosistemas_py.png",
+   "bytes": 323289,
+   "sha256": "ebed3e6ca68c1c6fa9d86f1bd0ca324634a20a4f9a500efbc802c2994202d856"
+  },
+  {
+   "archivo": "anual/figuras/fig_21_1_gestion.png",
+   "bytes": 191427,
+   "sha256": "e43489c7163c6f0ead858f1570ee97abad2ff43915bf702de04ff57f3daf17d6"
+  },
+  {
+   "archivo": "anual/figuras/fig_2_1_linea_prehistoria.png",
+   "bytes": 129440,
+   "sha256": "473d633de02e26a0390e557d745dfd9b37ccf6316c098cd643056941f9d0462f"
+  },
+  {
+   "archivo": "anual/figuras/fig_2_2_regiones.png",
+   "bytes": 202086,
+   "sha256": "6df6cbe22410c65a26500cd18ee0dc57d2ba17cea0be09610c2149684c395de7"
+  },
+  {
+   "archivo": "anual/figuras/fig_3_1_area_guarani.png",
+   "bytes": 303650,
+   "sha256": "5b7759f3eb883b5e85688dc9ef058d4f9e585ca9fd2f904da9e0d1098c4c366e"
+  },
+  {
+   "archivo": "anual/figuras/fig_3_2_aldea.png",
+   "bytes": 132456,
+   "sha256": "8caad0cdc0de76afa5daa6aadedb93afc7aa2f7dc249b240249e09c74aa12cf0"
+  },
+  {
+   "archivo": "anual/figuras/fig_4_1_poblamiento.png",
+   "bytes": 393443,
+   "sha256": "5db2458ba1700096959065faeac8ff9b469d40b2af318f5e78dd6ae221e4053f"
+  },
+  {
+   "archivo": "anual/figuras/fig_5_1_civilizaciones.png",
+   "bytes": 303944,
+   "sha256": "8d127046ec2c34965f26aafbb3183e538a4a1ad5223433c9eb534e1582a778ef"
+  },
+  {
+   "archivo": "anual/figuras/fig_5_2_cronologia.png",
+   "bytes": 95824,
+   "sha256": "c96078db678fc552ba3c0ac31bf4abfefea5257c336c309f36fe2ea819012f6f"
+  },
+  {
+   "archivo": "anual/figuras/fig_6_1_viajes.png",
+   "bytes": 505676,
+   "sha256": "15dfb39ab658f0af580f0d7c35ffae213a47798b9462d9bfec069c13c8b0111c"
+  },
+  {
+   "archivo": "anual/figuras/fig_6_2_navegacion.png",
+   "bytes": 142151,
+   "sha256": "cae218ca651d25b39de6e4b85a1cbd570a253f2c44aae1f90efe59645ee8bd84"
+  },
+  {
+   "archivo": "anual/figuras/fig_7_1_tordesillas.png",
+   "bytes": 359508,
+   "sha256": "e0747fdf27ad951dc72066fd7412be7302e15d365127dcf64e70543badd56b1a"
+  },
+  {
+   "archivo": "anual/figuras/fig_7_2_gobierno.png",
+   "bytes": 175517,
+   "sha256": "2b93f2ec10219af3ec987986258bf0e979d96b3a36c001762fede9fd15304751"
+  },
+  {
+   "archivo": "anual/figuras/fig_8_1_rutas_plata.png",
+   "bytes": 351924,
+   "sha256": "e5579f2a71152976b9adf941c5760797f3171439f7f411c616cf4c28265048a3"
+  },
+  {
+   "archivo": "anual/figuras/fig_8_2_linea_1516_1541.png",
+   "bytes": 112018,
+   "sha256": "39e453a5f0fbe837ae02e2fbf076362f63d6907578ed03803bbc9f9b988ee5fe"
+  },
+  {
+   "archivo": "anual/figuras/fig_9_1_sociedad.png",
+   "bytes": 108382,
+   "sha256": "d8aa6bbc29bf2e22ce8d8516c0f76c14b191fbdaca0dc13511e89e9291a305d3"
+  },
+  {
+   "archivo": "anual/figuras/fig_E_1_guaira_mborore.png",
+   "bytes": 391753,
+   "sha256": "860a34fc5bdbb762be0c5efee0e1bb70a61809fff76de579b44f147f54fad733"
+  },
+  {
+   "archivo": "anual/figuras/fig_E_2_linea_1609_1641.png",
+   "bytes": 99368,
+   "sha256": "633855662a94f4d76863c7c9a5958b255c65fa80f64c1204d7e2f1574938b7aa"
+  },
+  {
+   "archivo": "anual/matriz/MATRIZ_CURRICULAR_36_ENCUENTROS_A4.docx",
+   "bytes": 40860,
+   "sha256": "ddb2a67f79cc32b61ef017abe8c1f8cb13f8c012d7f2af52c2a48de525fae355"
+  },
+  {
+   "archivo": "anual/matriz/MATRIZ_CURRICULAR_36_ENCUENTROS_A4.pdf",
+   "bytes": 146460,
+   "sha256": "7444df9bea46dfc6959f66d4db513ac2ecf8dafb394421c83f90feaa7db29032"
+  },
+  {
+   "archivo": "anual/plan_anual/PLAN_ANUAL_oficio.docx",
+   "bytes": 46722,
+   "sha256": "ccd448db7742ecf817d4f0cc6635bf925803ecd2372383a2842483937490e800"
+  },
+  {
+   "archivo": "anual/plan_anual/PLAN_ANUAL_oficio.pdf",
+   "bytes": 176409,
+   "sha256": "784564c5c9b8f6bb33d3d6fae4be3c9d470a5abf2da24de71ee37e956d893ccc"
+  },
+  {
+   "archivo": "anual/planes/PLANES_ANUAL_A4.docx",
+   "bytes": 96742,
+   "sha256": "39054d80a68178b84dff5277c8bcc943105810fc6e88bc45ccc62cde391232a4"
+  },
+  {
+   "archivo": "anual/planes/PLANES_ANUAL_A4.pdf",
+   "bytes": 1648944,
+   "sha256": "39aeb92c1ccd3c1164af656b684907d4af5c83805dc42a50f93ebea81283728d"
+  },
+  {
+   "archivo": "anual/revision_liviana/MATRIZ_CURRICULAR_36_ENCUENTROS_A4_REVISION.pdf",
+   "bytes": 138091,
+   "sha256": "f8fcd776751ffc26643ad997860c57869162df9cb1460ebb96adb372fdb6c53d"
+  },
+  {
+   "archivo": "anual/revision_liviana/PLANES_ANUAL_A4_REVISION.pdf",
+   "bytes": 1549282,
+   "sha256": "90088525e037ffae5db13dcccac8803d9a67864cd4bd52b962a4533ec58c49d0"
+  },
+  {
+   "archivo": "anual/revision_liviana/PLAN_ANUAL_oficio_REVISION.pdf",
+   "bytes": 168718,
+   "sha256": "c5c7f32d3939539c31b4dfabf2e0090af444b8cf7c745c915d86d7c0a5cb3d45"
+  },
+  {
+   "archivo": "anual/revision_liviana/SOLUCIONARIO_ANUAL_A4_REVISION.pdf",
+   "bytes": 1468581,
+   "sha256": "5f56537a902e063f11303cea51080cf7c09037601682dbb80e30b320fe286edd"
+  },
+  {
+   "archivo": "anual/revision_liviana/TOMO_ANUAL_oficio_REVISION.pdf",
+   "bytes": 5079343,
+   "sha256": "537c61760224af4b8a72e0dcc995d5f153532426d0415fed8ea5a206924129d6"
+  },
+  {
+   "archivo": "anual/solucionario/SOLUCIONARIO_ANUAL_A4.docx",
+   "bytes": 1846593,
+   "sha256": "b4a6e6d0659c20261616f5a6cf4c2d7dcdd4f40351e5e69fe019da4c57e78f78"
+  },
+  {
+   "archivo": "anual/solucionario/SOLUCIONARIO_ANUAL_A4.pdf",
+   "bytes": 2169449,
+   "sha256": "3a13866accbc0d88bbff810d3a45ffc495f53730af0e3d614f847d8c9800f801"
+  },
+  {
+   "archivo": "anual/tomo/TOMO_ANUAL_oficio.docx",
+   "bytes": 18859628,
+   "sha256": "37eaeab7e9357e3ac1bd2e552559016e8ac30ed6b1276700f6206ca21253bc18"
+  },
+  {
+   "archivo": "anual/tomo/TOMO_ANUAL_oficio.pdf",
+   "bytes": 10941703,
+   "sha256": "e5614d946c58b7bf1b605d6c92c8331de33d5a4cda9d27c28701459d2686c816"
+  },
+  {
    "archivo": "bloque_1/INFORME_BLOQUE_I.md",
    "bytes": 9627,
    "sha256": "7e8b8668622b09857f4bf3ff85f6f0c87ac4c8955c0822e04f7e6726434a4c97"
@@ -250,47 +645,47 @@
   {
    "archivo": "bloque_2/planes/PLANES_BLOQUE_II_A4.docx",
    "bytes": 53228,
-   "sha256": "f95c5750680e547b47bf2060f3de55bc0873702a2a12ab69683cb58baa8d895f"
+   "sha256": "902741e7221801e1538fec4ffbcf5cca51ed870f07692568f34dee66369e709a"
   },
   {
    "archivo": "bloque_2/planes/PLANES_BLOQUE_II_A4.pdf",
    "bytes": 436826,
-   "sha256": "34c83e41c65391217996e624899ca091decc0a9b2f7ffa7e34b9588ac445ad09"
+   "sha256": "3ff8e5783e5efd78d3429263cec2b61197c4b5386e5536840ec84c43f721a341"
   },
   {
    "archivo": "bloque_2/revision_liviana/PLANES_BLOQUE_II_A4_REVISION.pdf",
    "bytes": 411396,
-   "sha256": "b9e7aefb12186900e85fff27426edb9e8cb3055a702577ed478560e7ed899040"
+   "sha256": "9dbcc051a994576025476194d1dbd58f9c7588bd821672701ee24f8247011053"
   },
   {
    "archivo": "bloque_2/revision_liviana/SOLUCIONARIO_BLOQUE_II_A4_REVISION.pdf",
-   "bytes": 359705,
-   "sha256": "dd5e8c90c8411d3cab68e17bf1d428a1e6bee217f20bca92eec473bed540586d"
+   "bytes": 359648,
+   "sha256": "390f1526a85da54252fafb3c514f5ae86f2896ffa66e0eab1b2f107d2f691fa4"
   },
   {
    "archivo": "bloque_2/revision_liviana/TOMO_BLOQUE_II_oficio_REVISION.pdf",
-   "bytes": 1315011,
-   "sha256": "ea8ead2d56df5b4e576b6553417c24d5dbfbce8cb401d1c803f0ae693f76c99b"
+   "bytes": 1315016,
+   "sha256": "d80828e5c61fb309b175053eb3954eae4c24795b98fe8476438b0670b66ef487"
   },
   {
    "archivo": "bloque_2/solucionario/SOLUCIONARIO_BLOQUE_II_A4.docx",
-   "bytes": 329228,
-   "sha256": "7c5c595d5c109d07b6eac574c8fd50da048ba180702c076f751afe878f068e5c"
+   "bytes": 329275,
+   "sha256": "bebb5970252da6b06fcfa991941e1155f5b20b1e0379bc25d45a8f2ffe206ae7"
   },
   {
    "archivo": "bloque_2/solucionario/SOLUCIONARIO_BLOQUE_II_A4.pdf",
-   "bytes": 454353,
-   "sha256": "f36507ca29ba5aef99e0257cf1a9e2f018eeb97814790a88888c1c3ce7b6f898"
+   "bytes": 454297,
+   "sha256": "55346048f7f783d39702ebdeb7234ec99c77ffed046df3f2d87a7a3d2fb8d6cc"
   },
   {
    "archivo": "bloque_2/tomo/TOMO_BLOQUE_II_oficio.docx",
-   "bytes": 8418106,
-   "sha256": "cf8108ce2c7873e30ad5d7cceb9b08fe1b56c967704fb59028cf6c6a55ec8324"
+   "bytes": 8418107,
+   "sha256": "e18658f7403e37e22693afaea8d97efce67fb6798e9e0cc5a7ca7556cd7e27fe"
   },
   {
    "archivo": "bloque_2/tomo/TOMO_BLOQUE_II_oficio.pdf",
-   "bytes": 3033729,
-   "sha256": "37fb95ef995ab1d989418cb5d3baa9011ff79c9c8869fa6882a5fa7b80da78b0"
+   "bytes": 3033734,
+   "sha256": "dce9c35aa95480bca02c71bc67a38b4194446824a7aa458b94172620b55d9621"
   },
   {
    "archivo": "bloque_3/INFORME_BLOQUE_III.md",
@@ -300,7 +695,7 @@
   {
    "archivo": "bloque_3/datos/controles.json",
    "bytes": 933,
-   "sha256": "6905ed2f9e5dfa9107ce5662a273f310658cb14fb1d71347f41008978ee6e32d"
+   "sha256": "4cd577dda303c229f9d47001e934e4c2001a7c2f9ceae6367c22d5ee558cb05d"
   },
   {
    "archivo": "bloque_3/datos/paginas_tomo.json",
@@ -385,47 +780,47 @@
   {
    "archivo": "bloque_3/planes/PLANES_BLOQUE_III_A4.docx",
    "bytes": 52834,
-   "sha256": "8fa4630fefbbfd9ae15bb5d8770bb031bf096521e453271f8005a8dd481ed1be"
+   "sha256": "094dea2d25e46f0f7eb8664016f56f6c0b84fb4b5852e7a57898b50cc43d65e3"
   },
   {
    "archivo": "bloque_3/planes/PLANES_BLOQUE_III_A4.pdf",
    "bytes": 436298,
-   "sha256": "290f5c0b91a92a96acf73995c46becfae31484d81917bdcf880be1796e9c1759"
+   "sha256": "cec7d18d6e30a0ad4207bb72b2d40fcc4698b2e382dd89be6f3056505c1b3e75"
   },
   {
    "archivo": "bloque_3/revision_liviana/PLANES_BLOQUE_III_A4_REVISION.pdf",
    "bytes": 410712,
-   "sha256": "ac1410c31df7a7278ee172330791512c5874e4d63089d4cd85c524d8aa1cc81a"
+   "sha256": "ce0059b952a32fc42e07c6ec108d8e03b779d83911346af195eb9873427ce0ea"
   },
   {
    "archivo": "bloque_3/revision_liviana/SOLUCIONARIO_BLOQUE_III_A4_REVISION.pdf",
-   "bytes": 364647,
-   "sha256": "55c66fb7f79fb0a4fc48bea49ac83110218f833551a2359375b6d24134c94071"
+   "bytes": 364589,
+   "sha256": "b07f986ef083b7ce049404d52aff03b450c3d574750928837cc80a30ce14f473"
   },
   {
    "archivo": "bloque_3/revision_liviana/TOMO_BLOQUE_III_oficio_REVISION.pdf",
-   "bytes": 1509473,
-   "sha256": "a479ee0892b5b785cf3d6983e087cd03dd1db74cba62bc8eab9defd78bc8e2ab"
+   "bytes": 1509492,
+   "sha256": "95181c54c70cc4f276fc3c086b682e4389ef0322245c34156f02bf795bd7c145"
   },
   {
    "archivo": "bloque_3/solucionario/SOLUCIONARIO_BLOQUE_III_A4.docx",
-   "bytes": 426679,
-   "sha256": "4aac9fc71be89d62d2f327813ecf1eeabeba4e10e1683a79fdce6ed3741585ef"
+   "bytes": 426688,
+   "sha256": "4b0218ce713d3f6aebc6b573a3be15f65b0cba1173f4ca90d7f5c37ae24b8ef8"
   },
   {
    "archivo": "bloque_3/solucionario/SOLUCIONARIO_BLOQUE_III_A4.pdf",
-   "bytes": 531250,
-   "sha256": "e828f99d10a6912848a0de3305682d88919036ac746602ea190edf09e80784b3"
+   "bytes": 531192,
+   "sha256": "33353f026ca5f4c0ede1e4b73940f8949158d7fca7ca6e52961a215d476acd29"
   },
   {
    "archivo": "bloque_3/tomo/TOMO_BLOQUE_III_oficio.docx",
-   "bytes": 9707364,
-   "sha256": "0652cbe6b4f3bb22b93182caab41d2a9bd1ca54c228395f9cfb636482371fe6c"
+   "bytes": 9707394,
+   "sha256": "81bebc5be8d0b7c565d3ec92b0ba93c491b932fd5f1fddb3e149291c10638a2f"
   },
   {
    "archivo": "bloque_3/tomo/TOMO_BLOQUE_III_oficio.pdf",
-   "bytes": 3799856,
-   "sha256": "557c042a8986f647dc5359d956537957129f6522f545116acd7c6c4a48d66a72"
+   "bytes": 3799875,
+   "sha256": "16156d59565d0e74668231ddbb80c3adb72b20115bb4955685e5b8a24add3800"
   },
   {
    "archivo": "bloque_4/INFORME_BLOQUE_IV.md",
@@ -530,47 +925,47 @@
   {
    "archivo": "bloque_4/planes/PLANES_BLOQUE_IV_A4.docx",
    "bytes": 53785,
-   "sha256": "2e9cb41dd918b7d98b412a3008d285f0dbf219276a9edce80fee81ffe22ea0c0"
+   "sha256": "347c57d7b4cb0ff0ff8d33284171321e906a3317dcc51d99b867ecadb9835b22"
   },
   {
    "archivo": "bloque_4/planes/PLANES_BLOQUE_IV_A4.pdf",
    "bytes": 430069,
-   "sha256": "64256c3f0ad2e70352032fdf40422f010d39ff762ab417f6e933f0c532b46f52"
+   "sha256": "c5282b158e592a1c3ff2779769e9cca2a03eda4d1c7125fab16aef9ab2863ef0"
   },
   {
    "archivo": "bloque_4/revision_liviana/PLANES_BLOQUE_IV_A4_REVISION.pdf",
    "bytes": 405108,
-   "sha256": "55a5150925bf7b12036fcd9bed07129a6ffccae25db9f1f4afe6c0a06448835d"
+   "sha256": "883e5e2d87a4232da111e8633e55f9369ca83c964cd2fa82e13caa3690e0658c"
   },
   {
    "archivo": "bloque_4/revision_liviana/SOLUCIONARIO_BLOQUE_IV_A4_REVISION.pdf",
-   "bytes": 454111,
-   "sha256": "fea748e561d59a57168edd3e9e9a8f115ea331ada41c1f4bd98e322a5394a66d"
+   "bytes": 454081,
+   "sha256": "2dd77ab6d87c0a06e7386046c72e396555a00377ad9fe188d7f085cdd351d7d1"
   },
   {
    "archivo": "bloque_4/revision_liviana/TOMO_BLOQUE_IV_oficio_REVISION.pdf",
-   "bytes": 1557617,
-   "sha256": "863a5075505edb8635b2840a19f447dfca1a1c8d4d2040a92fb2b33cb6ffb05a"
+   "bytes": 1557611,
+   "sha256": "a50ce50c01d6f335a3a5f5e1ead23c8c80deb745ca5aa66de1e9bf260a5ace0d"
   },
   {
    "archivo": "bloque_4/solucionario/SOLUCIONARIO_BLOQUE_IV_A4.docx",
-   "bytes": 734997,
-   "sha256": "2c999de319c789a6b6deff2e2220f6e34a67ad3620305976d5151c268496e3f1"
+   "bytes": 735097,
+   "sha256": "ab94a0a4a8ff6a9e23c626c93259bed583cbb3c9bbe40d1c1638c3f948d206f8"
   },
   {
    "archivo": "bloque_4/solucionario/SOLUCIONARIO_BLOQUE_IV_A4.pdf",
-   "bytes": 750038,
-   "sha256": "80738bf27da322ebdee022360cb9c148f9ace61a06ddd46056f77a051ffa771f"
+   "bytes": 749877,
+   "sha256": "886999da3899a45d07141f1ec7034eaa46ca90946b8c306f800d5ffd1e0bfcc8"
   },
   {
    "archivo": "bloque_4/tomo/TOMO_BLOQUE_IV_oficio.docx",
-   "bytes": 10065715,
-   "sha256": "08a2e306112bab3d7692c5f70943c0c1b833fb6710238cb5738a011667ea3dcc"
+   "bytes": 10065729,
+   "sha256": "3412aeea5450535ef1e1b7b2c5725ad782b7f78871a6227c56d3c0cddb93324c"
   },
   {
    "archivo": "bloque_4/tomo/TOMO_BLOQUE_IV_oficio.pdf",
-   "bytes": 4039194,
-   "sha256": "3d8217cf5f607dc127c0566d30d80ecc39c46c4900dbfaf3a8c672a44bc20cab"
+   "bytes": 4039188,
+   "sha256": "9bbadd1dda21a3f6916ad325516ef55904b25e8f9b4661564bfd5f17119ca69f"
   },
   {
    "archivo": "datos/estado.json",
@@ -583,9 +978,14 @@
    "sha256": "8802436548dbbb1c3b01daf7c94d5a2872a184565a5fde373dbb66d25d4c5961"
   },
   {
+   "archivo": "scripts/anuales.py",
+   "bytes": 16814,
+   "sha256": "6f7ba2a26d0e1d20966568d90d342ea448a1792a300fb924bd2cf1d82949acbf"
+  },
+  {
    "archivo": "scripts/construir_bloque.py",
-   "bytes": 7479,
-   "sha256": "c572c9f18403ecea0427b3acc279f500cfdb413c8a43411f7c30a4ba51dc4177"
+   "bytes": 7794,
+   "sha256": "4d108246aa1ca1420c66bc1efe01c1f535bcc88ad4ffef69fa345cfae71c3117"
   },
   {
    "archivo": "scripts/contenido/e01.py",
@@ -669,8 +1069,8 @@
   },
   {
    "archivo": "scripts/contenido/e17.py",
-   "bytes": 13153,
-   "sha256": "34cef998a93db3c6ef36da4999c7c04dae74b503fbe1a842ac5a62a6d95396d3"
+   "bytes": 13075,
+   "sha256": "f36b672b24d3a2e6f9fed0b5ba9ff4eb4c3327f8fd49bd1c8da715b9c7acfc24"
   },
   {
    "archivo": "scripts/contenido/e18.py",
@@ -709,8 +1109,8 @@
   },
   {
    "archivo": "scripts/contenido/e25.py",
-   "bytes": 13514,
-   "sha256": "6d5b2a207e9597f84cab2b1854466036d510838a69d3633337a369baa66fee71"
+   "bytes": 13477,
+   "sha256": "b37603ea274f77e4414c16a026ec3fc65d89d8533a771204d21d87319ae12a8e"
   },
   {
    "archivo": "scripts/contenido/e26.py",
@@ -724,8 +1124,8 @@
   },
   {
    "archivo": "scripts/contenido/e28.py",
-   "bytes": 23950,
-   "sha256": "dca53611df0e019827dca4da4ab9810c809d2ec0104c392eb074339cfd28d323"
+   "bytes": 23962,
+   "sha256": "48f6c023c8b81f2bf78a6498ba590aab4e2f14bfdf4990a441b97c264db38795"
   },
   {
    "archivo": "scripts/contenido/e29.py",
@@ -804,18 +1204,18 @@
   },
   {
    "archivo": "scripts/motor/pdf.py",
-   "bytes": 2651,
-   "sha256": "45ada5b11c819d76def3b5f31f4c491b67bc2a9ae4e52178894dfa16099f5c39"
+   "bytes": 2941,
+   "sha256": "993c5b9c5fcf63d7b9661ce422570a2d0e291d5fc588c565881095c195929487"
   },
   {
    "archivo": "scripts/motor/planes.py",
-   "bytes": 6818,
-   "sha256": "896fbcfa2b5105356b5974e91afefafcb7c421986ccc87158094a7b8a226eee9"
+   "bytes": 7102,
+   "sha256": "ec3683b6ab67e4d42f673da835152fcd86a1ae047d541005d5519637cb711e04"
   },
   {
    "archivo": "scripts/motor/solucionario.py",
-   "bytes": 5193,
-   "sha256": "2138e32494fb5db7703381b4e35eafea1b27006e769c8acffb3861dde01765f8"
+   "bytes": 5565,
+   "sha256": "8160d62f062442418f5bb2d0f66819084cbf6f41fb26a5f8d00dfe8ccbff7cff"
   },
   {
    "archivo": "scripts/motor/tomo.py",

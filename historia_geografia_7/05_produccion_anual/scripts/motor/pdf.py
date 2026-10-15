@@ -30,8 +30,13 @@ def titulos_pdf(pdf, patron, desde=0):
 
 
 def pagina_indice(pdf):
+    """Última página del índice (el del tomo anual ocupa más de una hoja: sus
+    líneas terminan en una fila de puntos y el número de página)."""
     d = pymupdf.open(pdf)
-    return next(n for n in range(d.page_count) if 'Índice' in d[n].get_text().split('\n')[0:3])
+    n = next(n for n in range(d.page_count) if 'Índice' in d[n].get_text().split('\n')[0:3])
+    while n + 1 < d.page_count and re.search(r'\.{8,}\s*\d+\s*$', d[n + 1].get_text().strip().split('\n')[0]):
+        n += 1
+    return n
 
 
 def liviano(pdf, salida, lado_max=1100, calidad=72):
