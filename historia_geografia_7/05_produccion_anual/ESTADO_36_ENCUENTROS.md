@@ -22,15 +22,15 @@ Se genera con `scripts/estado.py tabla`. «Sí» indica que el encuentro superó
 | 16 | 2 | Continuación D — La autonomía y sus límites: de 1537 a 1544 | continuacion | H3 | Sí | Sí | Sí | Sí | — |
 | 17 | 2 | Evaluación de la Unidad 3 — El Paraguay y América en el siglo XVI | evaluacion | H3, H4 | Sí | Sí | Sí | Sí | — |
 | 18 | 2 | Evaluación Integradora de la 1.ª etapa — Unidades 1 a 3 | integradora | H1, H2, H3, H4 | Sí | Sí | Sí | Sí | — |
-| 19 | 3 | Clase 11 | clase | H5 | — | — | — | — | — |
-| 20 | 3 | Clase 12 | clase | H5 | — | — | — | — | — |
-| 21 | 3 | Clase 13 | clase | H5 | — | — | — | — | — |
-| 22 | 3 | Continuación E | continuacion | H5 | — | — | — | — | — |
-| 23 | 3 | Clase 14 | clase | H6 | — | — | — | — | — |
-| 24 | 3 | Clase 15 | clase | H6 | — | — | — | — | — |
-| 25 | 3 | Evaluación de la Unidad 4 | evaluacion | H5, H6 | — | — | — | — | — |
-| 26 | 3 | Clase 16 | clase | G1 | — | — | — | — | — |
-| 27 | 3 | Clase 17 | clase | G2 | — | — | — | — | — |
+| 19 | 3 | Clase 11 — La división de la provincia (1617) y la mediterraneidad | clase | H5 | Sí | Sí | Sí | Sí | — |
+| 20 | 3 | Clase 12 — Economía y situación de los indígenas en el siglo XVII | clase | H5 | Sí | Sí | Sí | Sí | — |
+| 21 | 3 | Clase 13 — Franciscanos y jesuitas en la cultura paraguaya | clase | H5 | Sí | Sí | Sí | Sí | — |
+| 22 | 3 | Continuación E — Bandeirantes, pérdida del Guairá y Mbororé (siglo XVII) | continuacion | H5 | Sí | Sí | Sí | Sí | — |
+| 23 | 3 | Clase 14 — Haciendas, minería y comercio en la América colonial | clase | H6 | Sí | Sí | Sí | Sí | — |
+| 24 | 3 | Clase 15 — Otras colonizaciones; indígenas y africanos en América | clase | H6 | Sí | Sí | Sí | Sí | — |
+| 25 | 3 | Evaluación de la Unidad 4 — Paraguay y América colonial: siglo XVII | evaluacion | H5, H6 | Sí | Sí | Sí | Sí | — |
+| 26 | 3 | Clase 16 — La posición geográfica del Paraguay y de América | clase | G1 | Sí | Sí | Sí | Sí | — |
+| 27 | 3 | Clase 17 — El relieve del Paraguay y de América | clase | G2 | Sí | Sí | Sí | Sí | — |
 | 28 | 4 | Clase 18 | clase | G2 | — | — | — | — | — |
 | 29 | 4 | Continuación F | continuacion | G2 | — | — | — | — | — |
 | 30 | 4 | Evaluación de la Unidad 5 | evaluacion | G1, G2 | — | — | — | — | — |

@@ -4,13 +4,13 @@
  "archivos": [
   {
    "archivo": "CONDICIONES_PRODUCCION.md",
-   "bytes": 6608,
-   "sha256": "d7b07068be01a2a4915d822555f6868af8e18405cf8964a6fddde9bff91f0569"
+   "bytes": 7414,
+   "sha256": "af6f422b8efd11aa6945149a9f3f47dddccf8c049dbc8af853a801435216cd94"
   },
   {
    "archivo": "ESTADO_36_ENCUENTROS.md",
-   "bytes": 3922,
-   "sha256": "fcc28af20d71830cc6bbff39bedbd4f1b6a24c56c5ec32f1f341158a179046f8"
+   "bytes": 4423,
+   "sha256": "e048672a8ded2184160285b7238ef2f65662d11f76a39db702fea3cdaa5d6ff6"
   },
   {
    "archivo": "README.md",
@@ -19,8 +19,13 @@
   },
   {
    "archivo": "bloque_1/INFORME_BLOQUE_I.md",
-   "bytes": 8508,
-   "sha256": "220123206bd7f35b2c3a9fcd5e6b78c4dda00ce32616dcddaa9204a46edacc97"
+   "bytes": 9627,
+   "sha256": "7e8b8668622b09857f4bf3ff85f6f0c87ac4c8955c0822e04f7e6726434a4c97"
+  },
+  {
+   "archivo": "bloque_1/datos/comparacion_escala_antes_despues.png",
+   "bytes": 60565,
+   "sha256": "9027b2d9fd456536f5cdebfdcbadbcca5dd117a802eeb5e0f9547284ee39807e"
   },
   {
    "archivo": "bloque_1/datos/controles.json",
@@ -164,8 +169,8 @@
   },
   {
    "archivo": "bloque_2/INFORME_BLOQUE_II.md",
-   "bytes": 10689,
-   "sha256": "aa8a5e5be3e559dde89f3383787c095b820acaea8526ac70773b5cb14e54036a"
+   "bytes": 13270,
+   "sha256": "511bf6eeb0ae925f96282d2d11d428eb26107b6adc28e1e40592c3536b0442c0"
   },
   {
    "archivo": "bloque_2/datos/controles.json",
@@ -179,8 +184,8 @@
   },
   {
    "archivo": "bloque_2/datos/trazabilidad.json",
-   "bytes": 7512,
-   "sha256": "02305b4c476a71aa9b5f0575c2d3dc026ef62b9670e6c5a2517d52aa62798cf5"
+   "bytes": 8240,
+   "sha256": "c2852a1fcbb5e212e05a845e3af6b0aa68b63b1e6a0fa727083e335489fbca5a"
   },
   {
    "archivo": "bloque_2/figuras/eval_u3_mapa.png",
@@ -244,53 +249,188 @@
   },
   {
    "archivo": "bloque_2/planes/PLANES_BLOQUE_II_A4.docx",
-   "bytes": 53173,
-   "sha256": "34bf11ed39199761d89780a7b4d8e7d6d332385ca7d0cf44f564ce7e57214454"
+   "bytes": 53228,
+   "sha256": "f95c5750680e547b47bf2060f3de55bc0873702a2a12ab69683cb58baa8d895f"
   },
   {
    "archivo": "bloque_2/planes/PLANES_BLOQUE_II_A4.pdf",
-   "bytes": 436732,
-   "sha256": "09a6b14ad046a08db32cec568fb7bc40514f72f9ee7fc23813cdb8ba43084862"
+   "bytes": 436826,
+   "sha256": "34c83e41c65391217996e624899ca091decc0a9b2f7ffa7e34b9588ac445ad09"
   },
   {
    "archivo": "bloque_2/revision_liviana/PLANES_BLOQUE_II_A4_REVISION.pdf",
-   "bytes": 411301,
-   "sha256": "cac0d38d19a5652ce7a6d143977493d458b97d07ac5399ddcdd34cbd0bb9d7c0"
+   "bytes": 411396,
+   "sha256": "b9e7aefb12186900e85fff27426edb9e8cb3055a702577ed478560e7ed899040"
   },
   {
    "archivo": "bloque_2/revision_liviana/SOLUCIONARIO_BLOQUE_II_A4_REVISION.pdf",
    "bytes": 359705,
-   "sha256": "10602543a9a684c28540483d9d00711bbab6b8b89c7863598ff2213a4e3172de"
+   "sha256": "dd5e8c90c8411d3cab68e17bf1d428a1e6bee217f20bca92eec473bed540586d"
   },
   {
    "archivo": "bloque_2/revision_liviana/TOMO_BLOQUE_II_oficio_REVISION.pdf",
-   "bytes": 1314784,
-   "sha256": "b69938075a4d0f2a08829f8d06316ad6417c623c47a465e31387e00c8f5fdfc5"
+   "bytes": 1315011,
+   "sha256": "ea8ead2d56df5b4e576b6553417c24d5dbfbce8cb401d1c803f0ae693f76c99b"
   },
   {
    "archivo": "bloque_2/solucionario/SOLUCIONARIO_BLOQUE_II_A4.docx",
    "bytes": 329228,
-   "sha256": "91929bc40462b3ca0be7aac916003ca781c09c01d93d60053e8ff1fdf2b8ba35"
+   "sha256": "7c5c595d5c109d07b6eac574c8fd50da048ba180702c076f751afe878f068e5c"
   },
   {
    "archivo": "bloque_2/solucionario/SOLUCIONARIO_BLOQUE_II_A4.pdf",
    "bytes": 454353,
-   "sha256": "2d139c7d25d0a1b08bde9c9084cfd9d4cbc0fd556dba45929b07ae6d17e2218f"
+   "sha256": "f36507ca29ba5aef99e0257cf1a9e2f018eeb97814790a88888c1c3ce7b6f898"
   },
   {
    "archivo": "bloque_2/tomo/TOMO_BLOQUE_II_oficio.docx",
-   "bytes": 8418013,
-   "sha256": "650a87143c21c1be4de20f10356af91e68b7059b743baaaf1c5db0e8fab319e2"
+   "bytes": 8418106,
+   "sha256": "cf8108ce2c7873e30ad5d7cceb9b08fe1b56c967704fb59028cf6c6a55ec8324"
   },
   {
    "archivo": "bloque_2/tomo/TOMO_BLOQUE_II_oficio.pdf",
-   "bytes": 3033502,
-   "sha256": "67c89861918fa23d631cbbf5d336f74729df772a87f2f12895f45bcf22467f42"
+   "bytes": 3033729,
+   "sha256": "37fb95ef995ab1d989418cb5d3baa9011ff79c9c8869fa6882a5fa7b80da78b0"
+  },
+  {
+   "archivo": "bloque_3/INFORME_BLOQUE_III.md",
+   "bytes": 12386,
+   "sha256": "2e4fe4721eeff1b4394fd01f5bf02160043fa59207edc0482ac16f12d0bfce58"
+  },
+  {
+   "archivo": "bloque_3/datos/controles.json",
+   "bytes": 933,
+   "sha256": "6905ed2f9e5dfa9107ce5662a273f310658cb14fb1d71347f41008978ee6e32d"
+  },
+  {
+   "archivo": "bloque_3/datos/paginas_tomo.json",
+   "bytes": 839,
+   "sha256": "1f7cc2e446f984184196f5887debd0a1e1fd1f38526b672043f9cb0cfbdfaa2e"
+  },
+  {
+   "archivo": "bloque_3/datos/trazabilidad.json",
+   "bytes": 9155,
+   "sha256": "22069ca6a9e96bb5fa739ed243492a0b09c706ab632e3eacd186c6700f8d855c"
+  },
+  {
+   "archivo": "bloque_3/figuras/eval_u4_mapa.png",
+   "bytes": 201805,
+   "sha256": "e223d15dc9697bcf902db189c6e3ca39074045e284ae8f4e6c16a1ad952b0151"
+  },
+  {
+   "archivo": "bloque_3/figuras/eval_u4_mapa_clave.png",
+   "bytes": 391753,
+   "sha256": "860a34fc5bdbb762be0c5efee0e1bb70a61809fff76de579b44f147f54fad733"
+  },
+  {
+   "archivo": "bloque_3/figuras/ficha_E_mapa_mudo.png",
+   "bytes": 267405,
+   "sha256": "3bf26877ba2d9185666fbbcf8ad9e1f7c25dfcb6b5ce7fa17ec0d10467654940"
+  },
+  {
+   "archivo": "bloque_3/figuras/fig_11_1_division_1617.png",
+   "bytes": 378499,
+   "sha256": "9b0fc40b2814e1e584101bf12b02e1344238d57a64233cd82090c36fc4f7365f"
+  },
+  {
+   "archivo": "bloque_3/figuras/fig_12_1_yerba.png",
+   "bytes": 144418,
+   "sha256": "b80bc765c576c2e0be649d79bd81f64adbf962b457cdcbe4e3e0e45ec1a74a80"
+  },
+  {
+   "archivo": "bloque_3/figuras/fig_13_1_reduccion.png",
+   "bytes": 132580,
+   "sha256": "d5a28e02911b82d77e14e34f4a2856de355aea36c04f8c48804395cb2248a317"
+  },
+  {
+   "archivo": "bloque_3/figuras/fig_14_1_plata.png",
+   "bytes": 438839,
+   "sha256": "ebc1d8265d0c8d3ca33435fd6d269fc2f3e50fd1a724de942c71df75724aca2e"
+  },
+  {
+   "archivo": "bloque_3/figuras/fig_15_1_colonias.png",
+   "bytes": 416603,
+   "sha256": "b9a55f8be9786529e2deecdd6c09cc6e94eca0e9d80ebdb8a0ebafc14d2fb93b"
+  },
+  {
+   "archivo": "bloque_3/figuras/fig_16_1_america.png",
+   "bytes": 404606,
+   "sha256": "ebc4e24a1594230c34e1ea8fe1da3c9dbbb8b0bc7f92302cff21f3940bcf4237"
+  },
+  {
+   "archivo": "bloque_3/figuras/fig_16_2_paraguay_posicion.png",
+   "bytes": 379971,
+   "sha256": "763ff1a19534fb99f50c0983c3fc5a4986a7721d042af63b6debb28e32e2bc14"
+  },
+  {
+   "archivo": "bloque_3/figuras/fig_17_1_relieve_america.png",
+   "bytes": 479555,
+   "sha256": "bd9ccee255efbab372d00d37b3604c7dd0da3965b1ee581c03888d2b390b0e65"
+  },
+  {
+   "archivo": "bloque_3/figuras/fig_17_2_perfil.png",
+   "bytes": 128144,
+   "sha256": "807739adfbc17338726bcf12290a0e28e8a4d0cba3cf6c35614a3b1faba325e2"
+  },
+  {
+   "archivo": "bloque_3/figuras/fig_E_1_guaira_mborore.png",
+   "bytes": 391753,
+   "sha256": "860a34fc5bdbb762be0c5efee0e1bb70a61809fff76de579b44f147f54fad733"
+  },
+  {
+   "archivo": "bloque_3/figuras/fig_E_2_linea_1609_1641.png",
+   "bytes": 99368,
+   "sha256": "633855662a94f4d76863c7c9a5958b255c65fa80f64c1204d7e2f1574938b7aa"
+  },
+  {
+   "archivo": "bloque_3/planes/PLANES_BLOQUE_III_A4.docx",
+   "bytes": 52834,
+   "sha256": "8fa4630fefbbfd9ae15bb5d8770bb031bf096521e453271f8005a8dd481ed1be"
+  },
+  {
+   "archivo": "bloque_3/planes/PLANES_BLOQUE_III_A4.pdf",
+   "bytes": 436298,
+   "sha256": "290f5c0b91a92a96acf73995c46becfae31484d81917bdcf880be1796e9c1759"
+  },
+  {
+   "archivo": "bloque_3/revision_liviana/PLANES_BLOQUE_III_A4_REVISION.pdf",
+   "bytes": 410712,
+   "sha256": "ac1410c31df7a7278ee172330791512c5874e4d63089d4cd85c524d8aa1cc81a"
+  },
+  {
+   "archivo": "bloque_3/revision_liviana/SOLUCIONARIO_BLOQUE_III_A4_REVISION.pdf",
+   "bytes": 364647,
+   "sha256": "55c66fb7f79fb0a4fc48bea49ac83110218f833551a2359375b6d24134c94071"
+  },
+  {
+   "archivo": "bloque_3/revision_liviana/TOMO_BLOQUE_III_oficio_REVISION.pdf",
+   "bytes": 1509473,
+   "sha256": "a479ee0892b5b785cf3d6983e087cd03dd1db74cba62bc8eab9defd78bc8e2ab"
+  },
+  {
+   "archivo": "bloque_3/solucionario/SOLUCIONARIO_BLOQUE_III_A4.docx",
+   "bytes": 426679,
+   "sha256": "4aac9fc71be89d62d2f327813ecf1eeabeba4e10e1683a79fdce6ed3741585ef"
+  },
+  {
+   "archivo": "bloque_3/solucionario/SOLUCIONARIO_BLOQUE_III_A4.pdf",
+   "bytes": 531250,
+   "sha256": "e828f99d10a6912848a0de3305682d88919036ac746602ea190edf09e80784b3"
+  },
+  {
+   "archivo": "bloque_3/tomo/TOMO_BLOQUE_III_oficio.docx",
+   "bytes": 9707364,
+   "sha256": "0652cbe6b4f3bb22b93182caab41d2a9bd1ca54c228395f9cfb636482371fe6c"
+  },
+  {
+   "archivo": "bloque_3/tomo/TOMO_BLOQUE_III_oficio.pdf",
+   "bytes": 3799856,
+   "sha256": "557c042a8986f647dc5359d956537957129f6522f545116acd7c6c4a48d66a72"
   },
   {
    "archivo": "datos/estado.json",
-   "bytes": 4313,
-   "sha256": "4509d893557fe706e6b152877f5f4690ff86ed10ce70d2a4478c7311f9cdb4b6"
+   "bytes": 4277,
+   "sha256": "ba1403059c4dc06e1521341cc76e213882ae8c7eea1a0e5def08b44629c00d04"
   },
   {
    "archivo": "datos/programa_MEC_2014_HyG7_texto_extraido.txt",
@@ -369,18 +509,18 @@
   },
   {
    "archivo": "scripts/contenido/e14.py",
-   "bytes": 16466,
-   "sha256": "02c67b97b993e5c34be00f36892523de38940f5f1dfc2ca1c31602d03f9b0a17"
+   "bytes": 17027,
+   "sha256": "9571a3c4ffc360f9579c0b8f0c701ddb2577132c73c9c27a104933192efa91c0"
   },
   {
    "archivo": "scripts/contenido/e15.py",
-   "bytes": 24344,
-   "sha256": "7face51777416dcbbbd6cc75f5683c6731de7be51ae476320f7ef2605cce3ed6"
+   "bytes": 24889,
+   "sha256": "e7ed43e8dc2a76927d05f0234c0b801a2163dedbbba8f7e2f8f7310546424a3e"
   },
   {
    "archivo": "scripts/contenido/e16.py",
-   "bytes": 11745,
-   "sha256": "90983671fd52e5cd356730b74a3f4ae3807e2a64ec1dda42f5497ca8d56ced7e"
+   "bytes": 11746,
+   "sha256": "7e7838580396153c9c057572058a1610b61defd9bb705878c2df2f2a1429e44a"
   },
   {
    "archivo": "scripts/contenido/e17.py",
@@ -391,6 +531,51 @@
    "archivo": "scripts/contenido/e18.py",
    "bytes": 14341,
    "sha256": "f40fe81f52b24ba5299d979bda67ddc2f893cb59c0c358fe5c7db9e51248b945"
+  },
+  {
+   "archivo": "scripts/contenido/e19.py",
+   "bytes": 16031,
+   "sha256": "db57878f8d62b815a127d563e3bc94e436d4e8267aa2129cdfc6e9323f32c8b4"
+  },
+  {
+   "archivo": "scripts/contenido/e20.py",
+   "bytes": 14974,
+   "sha256": "82369419cd19bc373b95d331f7ec7a4561f7b7b9e664f37e1c7a2569deeff24e"
+  },
+  {
+   "archivo": "scripts/contenido/e21.py",
+   "bytes": 15650,
+   "sha256": "60f05406c3ac849777c3dc92018ad3700ddae4a585c18139ef13bdb0ec9e23fa"
+  },
+  {
+   "archivo": "scripts/contenido/e22.py",
+   "bytes": 15957,
+   "sha256": "7b4eb11551d4d7de510fc0a174316e780d6c3d3f886e6949ee731a3787ae2071"
+  },
+  {
+   "archivo": "scripts/contenido/e23.py",
+   "bytes": 14803,
+   "sha256": "fe99aeea75cf0ba31ce2c670666ee4fd4c0b522528fae23172c4c39d0427603d"
+  },
+  {
+   "archivo": "scripts/contenido/e24.py",
+   "bytes": 15669,
+   "sha256": "766c5ae8ab5690a1a9ffeae877e55e6ae661255a08fbcae9b47fa792d7c6fba3"
+  },
+  {
+   "archivo": "scripts/contenido/e25.py",
+   "bytes": 13514,
+   "sha256": "6d5b2a207e9597f84cab2b1854466036d510838a69d3633337a369baa66fee71"
+  },
+  {
+   "archivo": "scripts/contenido/e26.py",
+   "bytes": 16647,
+   "sha256": "e57e4b9e42bf14abd3a55572b785f97dfe991ceeb2618705a715c8dbab9185dd"
+  },
+  {
+   "archivo": "scripts/contenido/e27.py",
+   "bytes": 15260,
+   "sha256": "4c5062857e59ed91211bd9cd52444fa7588ed79596b936d5d20243c8e29d4c90"
   },
   {
    "archivo": "scripts/curriculo.py",
@@ -411,6 +596,11 @@
    "archivo": "scripts/figuras/bloque2.py",
    "bytes": 17039,
    "sha256": "6d00b18e6cb76c1ab022f6eedac0214189d068e0c98ebaddbfc9dcde42eab7af"
+  },
+  {
+   "archivo": "scripts/figuras/bloque3.py",
+   "bytes": 28643,
+   "sha256": "a273710be90edd100e27456e2de3460eec5a7d2b0a5539e4da21a066f707f5d2"
   },
   {
    "archivo": "scripts/figuras/comun.py",

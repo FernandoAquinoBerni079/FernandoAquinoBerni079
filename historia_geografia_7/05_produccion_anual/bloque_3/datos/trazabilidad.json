@@ -1,0 +1,331 @@
+{
+ "programa": "MEC (2014), Programa de Estudio: Historia y Geografía, 7.º grado, EEB (reproducción, SHA-256 389190d3…c8d27e)",
+ "encuentros": [
+  {
+   "encuentro": 19,
+   "seccion": "Clase 11 — La división de la provincia (1617) y la mediterraneidad",
+   "tipo": "clase",
+   "tipo_vinculo": "Capacidad literal MEC",
+   "capacidades_mec": [
+    "H5"
+   ],
+   "temas_mec": [
+    "H5a"
+   ],
+   "ficha_impresa": true,
+   "paginas_tomo": [
+    4,
+    7
+   ],
+   "pendientes_de_verificacion": [
+    [
+     "Hernandarias: nacimiento en Asunción (1561), primer gobernador criollo, gobiernos entre 1592 y 1618 y su propuesta de división",
+     "Bibliografía habitual; cotejar años de cada gobierno."
+    ],
+    [
+     "División de 1617 (cédula de Felipe III) y ciudades de cada gobernación",
+     "Cotejar fecha exacta de la cédula y la nómina de ciudades."
+    ],
+    [
+     "Aduana de Córdoba (1622)",
+     "Dato de manual; cotejar."
+    ],
+    [
+     "«Más de mil kilómetros» de Asunción a la desembocadura del Río de la Plata",
+     "Distancia aproximada por río; cotejar."
+    ],
+    [
+     "Posiciones de Villa Rica, Ciudad Real, Santiago de Jerez, Concepción del Bermejo y Santa Fe (sitio de Cayastá) en la Figura 11.1",
+     "Posiciones aproximadas de la editorial."
+    ]
+   ]
+  },
+  {
+   "encuentro": 20,
+   "seccion": "Clase 12 — Economía y situación de los indígenas en el siglo XVII",
+   "tipo": "clase",
+   "tipo_vinculo": "Capacidad literal MEC",
+   "capacidades_mec": [
+    "H5"
+   ],
+   "temas_mec": [
+    "H5b",
+    "H5c"
+   ],
+   "ficha_impresa": true,
+   "paginas_tomo": [
+    8,
+    11
+   ],
+   "pendientes_de_verificacion": [
+    [
+     "Ordenanzas de Alfaro (1611): contenido resumido",
+     "Versión escolar resumida y declarada como no textual; cotejar con una edición de las ordenanzas."
+    ],
+    [
+     "Yerbales de Mbaracayú y del Guairá; trabajo de mitayos y mortalidad",
+     "Bibliografía habitual; cotejar."
+    ],
+    [
+     "Moneda de la tierra (valores fijados por las autoridades)",
+     "Bibliografía habitual; cotejar."
+    ],
+    [
+     "Composición de la sociedad (sector «español» mayormente mestizo)",
+     "Interpretación habitual; proporciones no cuantificadas."
+    ]
+   ]
+  },
+  {
+   "encuentro": 21,
+   "seccion": "Clase 13 — Franciscanos y jesuitas en la cultura paraguaya",
+   "tipo": "clase",
+   "tipo_vinculo": "Capacidad literal MEC",
+   "capacidades_mec": [
+    "H5"
+   ],
+   "temas_mec": [
+    "H5d"
+   ],
+   "ficha_impresa": true,
+   "paginas_tomo": [
+    12,
+    15
+   ],
+   "pendientes_de_verificacion": [
+    [
+     "Llegada de Bolaños y San Buenaventura (1575); pueblos franciscanos (Altos, Itá, Yaguarón, Tobatí, Caazapá, Yuty)",
+     "Bibliografía habitual; cotejar fechas de fundación."
+    ],
+    [
+     "Sínodo de Asunción (1603) y el catecismo de Bolaños",
+     "Versión escolar resumida y declarada como no textual; cotejar con una edición de las constituciones sinodales."
+    ],
+    [
+     "San Ignacio Guazú (1609); primeras reducciones del Guairá",
+     "Fechas habituales; cotejar."
+    ],
+    [
+     "Obras de Ruiz de Montoya sobre el guaraní (1639-1640)",
+     "Tesoro de la lengua guaraní (1639) y Arte y Vocabulario (1640); cotejar."
+    ],
+    [
+     "Treinta pueblos y ocho en el Paraguay actual; UNESCO 1993; expulsión de 1767",
+     "Datos habituales; cotejar."
+    ]
+   ]
+  },
+  {
+   "encuentro": 22,
+   "seccion": "Continuación E — Bandeirantes, pérdida del Guairá y Mbororé (siglo XVII)",
+   "tipo": "continuacion",
+   "tipo_vinculo": "Capacidad literal MEC",
+   "capacidades_mec": [
+    "H5"
+   ],
+   "temas_mec": [
+    "H5c",
+    "H5d"
+   ],
+   "ficha_impresa": true,
+   "paginas_tomo": [
+    16,
+    19
+   ],
+   "pendientes_de_verificacion": [
+    [
+     "Malocas al Guairá 1628-1631 (Raposo Tavares); éxodo de 1631; abandono de Villa Rica y Ciudad Real en 1632; malocas al Itatín",
+     "Fechas habituales; cotejar."
+    ],
+    [
+     "Mbororé: marzo de 1641; cacique Nicolás Ñeenguirú; permiso de armas de fuego",
+     "Bibliografía habitual; cotejar la fecha del permiso real y la grafía Ñeenguirú / Neenguirú."
+    ],
+    [
+     "Fragmento de la Conquista espiritual (1639)",
+     "Versión escolar resumida y declarada como no textual; cotejar con una edición de la obra."
+    ],
+    [
+     "Ampliación optativa: Tratado de Madrid 1750, Guerra Guaranítica 1754-1756, Sepé Tiarajú y Caiboaté 1756, Tratado de El Pardo 1761",
+     "Fechas habituales; contenido de ampliación, no evaluable."
+    ],
+    [
+     "Trazados de la Figura E.1 y de la Ficha E",
+     "Aproximados de la editorial."
+    ]
+   ]
+  },
+  {
+   "encuentro": 23,
+   "seccion": "Clase 14 — Haciendas, minería y comercio en la América colonial",
+   "tipo": "clase",
+   "tipo_vinculo": "Capacidad literal MEC",
+   "capacidades_mec": [
+    "H6"
+   ],
+   "temas_mec": [
+    "H6a"
+   ],
+   "ficha_impresa": true,
+   "paginas_tomo": [
+    21,
+    24
+   ],
+   "pendientes_de_verificacion": [
+    [
+     "Potosí 1545; Zacatecas 1546; Huancavelica; mita de Toledo (década de 1570)",
+     "Fechas habituales; cotejar."
+    ],
+    [
+     "Carta de fray Domingo de Santo Tomás (1550) y la expresión «boca del infierno»",
+     "Versión resumida; cotejar la expresión y la fecha con una edición de la carta."
+    ],
+    [
+     "Sistema de flotas (Veracruz, Cartagena, Portobelo, Callao, La Habana); aduana de Córdoba (1622)",
+     "Datos habituales; cotejar."
+    ],
+    [
+     "Trazados de la Figura 14.1",
+     "Esquema aproximado de la editorial."
+    ]
+   ]
+  },
+  {
+   "encuentro": 24,
+   "seccion": "Clase 15 — Otras colonizaciones; indígenas y africanos en América",
+   "tipo": "clase",
+   "tipo_vinculo": "Capacidad literal MEC",
+   "capacidades_mec": [
+    "H6"
+   ],
+   "temas_mec": [
+    "H6b",
+    "H6c"
+   ],
+   "ficha_impresa": true,
+   "paginas_tomo": [
+    25,
+    28
+   ],
+   "pendientes_de_verificacion": [
+    [
+     "Capitanías (1534); gobierno general en Salvador (1549)",
+     "Fechas habituales; cotejar."
+    ],
+    [
+     "Fechas de Jamestown, Plymouth, Quebec, Nueva Ámsterdam, Barbados, Martinica, Guadalupe, Curazao, Jamaica y del Brasil holandés",
+     "Fechas habituales; cotejar."
+    ],
+    [
+     "Más de doce millones de africanos embarcados (siglos XVI-XIX)",
+     "Estimación habitual de las bases de datos de la trata; cotejar."
+    ],
+    [
+     "Palmares y Zumbi (1695); Benkos Biohó; levantamientos calchaquíes (1630-1665); Rebelión de los Pueblo (1680)",
+     "Fechas habituales; cotejar."
+    ],
+    [
+     "Kamba Kua y los lanceros de Artigas (1820); esclavizados en estancias de órdenes religiosas",
+     "Bibliografía habitual; cotejar."
+    ],
+    [
+     "Relato de Equiano (1789)",
+     "Versión escolar resumida y declarada como no textual; cotejar con una edición."
+    ]
+   ]
+  },
+  {
+   "encuentro": 25,
+   "seccion": "Evaluación de la Unidad 4 — Paraguay y América colonial: siglo XVII",
+   "tipo": "evaluacion",
+   "tipo_vinculo": "Asociación curricular",
+   "capacidades_mec": [
+    "H5",
+    "H6"
+   ],
+   "temas_mec": [],
+   "ficha_impresa": false,
+   "paginas_tomo": [
+    29,
+    31
+   ],
+   "pendientes_de_verificacion": []
+  },
+  {
+   "encuentro": 26,
+   "seccion": "Clase 16 — La posición geográfica del Paraguay y de América",
+   "tipo": "clase",
+   "tipo_vinculo": "Capacidad literal MEC",
+   "capacidades_mec": [
+    "G1"
+   ],
+   "temas_mec": [
+    "G1a",
+    "G1b",
+    "G1c"
+   ],
+   "ficha_impresa": true,
+   "paginas_tomo": [
+    32,
+    36
+   ],
+   "pendientes_de_verificacion": [
+    [
+     "Coordenadas extremas (19° 18' S; 27° 36' S; 54° 19' O; 62° 38' O) y superficie de 406.752 km²",
+     "Datos de la bibliografía escolar; cotejar con el IGM o el INE."
+    ],
+    [
+     "17 departamentos y la capital",
+     "Organización territorial vigente; cotejar."
+    ],
+    [
+     "Superficie de América (unos 42 millones de km²)",
+     "Dato aproximado habitual; cotejar."
+    ],
+    [
+     "Tratados de límites: Brasil 1872, Argentina 1876, Laudo Hayes 1878, Bolivia 1938",
+     "Fechas habituales; cotejar."
+    ],
+    [
+     "Ríos limítrofes y puntos extremos de la Figura 16.2",
+     "Mapa aproximado; Natural Earth no trae el río Apa."
+    ]
+   ]
+  },
+  {
+   "encuentro": 27,
+   "seccion": "Clase 17 — El relieve del Paraguay y de América",
+   "tipo": "clase",
+   "tipo_vinculo": "Capacidad literal MEC",
+   "capacidades_mec": [
+    "G2"
+   ],
+   "temas_mec": [
+    "G2a"
+   ],
+   "ficha_impresa": true,
+   "paginas_tomo": [
+    37,
+    40
+   ],
+   "pendientes_de_verificacion": [
+    [
+     "Cerro Tres Kandú, unos 842 m; cerro León en el Chaco",
+     "Cifra habitual; cotejar con el IGM."
+    ],
+    [
+     "Aconcagua, unos 6.960 m; Andes, más de 7.000 km",
+     "Cifras habituales (6.961-6.962 m según la fuente); cotejar."
+    ],
+    [
+     "Perfil de la Figura 17.1",
+     "Alturas aproximadas de la editorial; no es un perfil topográfico medido."
+    ],
+    [
+     "Esquema de la Figura 17.2",
+     "Ubicación general de las formas de relieve; no es un mapa topográfico."
+    ]
+   ]
+  }
+ ]
+}
