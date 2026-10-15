@@ -1,0 +1,3759 @@
+{
+  "fecha": "2026-10-15",
+  "commit_auditado": "ea3cf5f6349f4de2e1f3c495b92707b641e6d37e",
+  "commit_comparacion": "755d7adbd0a4b57f0b91a95c85cd8b9ac978c705",
+  "modelo_muestra3": "841f5bc9e4a4fec11af63cc821fc3062a6587de8",
+  "rama_publicacion": "codex/auditoria-bloques-i-ii-ea3cf5f",
+  "fuentes": [
+    {
+      "archivo": "historia_geografia_7/05_produccion_anual/CONDICIONES_PRODUCCION.md",
+      "commit": "ea3cf5f6349f4de2e1f3c495b92707b641e6d37e",
+      "local": "fuente/CONDICIONES_PRODUCCION.md",
+      "bytes": 6608,
+      "git_blob_sha1": "12ff10b83a3b5043fd4382c0389e3c455f04e1b0",
+      "sha256": "d7b07068be01a2a4915d822555f6868af8e18405cf8964a6fddde9bff91f0569"
+    },
+    {
+      "archivo": "historia_geografia_7/05_produccion_anual/ESTADO_36_ENCUENTROS.md",
+      "commit": "ea3cf5f6349f4de2e1f3c495b92707b641e6d37e",
+      "local": "fuente/ESTADO_36_ENCUENTROS.md",
+      "bytes": 3922,
+      "git_blob_sha1": "4b96fc04c2aca3a6e58a84e12babf852efa4ac35",
+      "sha256": "fcc28af20d71830cc6bbff39bedbd4f1b6a24c56c5ec32f1f341158a179046f8"
+    },
+    {
+      "archivo": "historia_geografia_7/05_produccion_anual/MANIFIESTO.json",
+      "commit": "ea3cf5f6349f4de2e1f3c495b92707b641e6d37e",
+      "local": "fuente/MANIFIESTO.json",
+      "bytes": 14283,
+      "git_blob_sha1": "a587fb9f71bde3dcd5ae2aa3dc0df8ffb264ffd0",
+      "sha256": "27c0827c47747d308dd92b08e4bbc44e698fdf783f52a7bd2fec8e38d1767c0b"
+    },
+    {
+      "archivo": "historia_geografia_7/05_produccion_anual/README.md",
+      "commit": "ea3cf5f6349f4de2e1f3c495b92707b641e6d37e",
+      "local": "fuente/README.md",
+      "bytes": 2292,
+      "git_blob_sha1": "5fa948be388b438c48c3afa20aec6f2b8ddeaf74",
+      "sha256": "e8a765b850edeba8d9d2b7ccf25d151467dd6e594e4538358fb8dc6cb4ee566f"
+    },
+    {
+      "archivo": "historia_geografia_7/05_produccion_anual/bloque_1/INFORME_BLOQUE_I.md",
+      "commit": "ea3cf5f6349f4de2e1f3c495b92707b641e6d37e",
+      "local": "fuente/bloque_1/INFORME_BLOQUE_I.md",
+      "bytes": 8508,
+      "git_blob_sha1": "3d122a7a741a249e853bd0252801eabc81322fea",
+      "sha256": "220123206bd7f35b2c3a9fcd5e6b78c4dda00ce32616dcddaa9204a46edacc97"
+    },
+    {
+      "archivo": "historia_geografia_7/05_produccion_anual/bloque_1/datos/controles.json",
+      "commit": "ea3cf5f6349f4de2e1f3c495b92707b641e6d37e",
+      "local": "fuente/bloque_1/datos/controles.json",
+      "bytes": 933,
+      "git_blob_sha1": "5e32cbd2aa23fc659277cf7258637903ecbfcf9b",
+      "sha256": "c3ac1f1c08481eb99ba9ca765e862c0caa83f650c167e44ba13588ee3d1e017d"
+    },
+    {
+      "archivo": "historia_geografia_7/05_produccion_anual/bloque_1/datos/paginas_tomo.json",
+      "commit": "ea3cf5f6349f4de2e1f3c495b92707b641e6d37e",
+      "local": "fuente/bloque_1/datos/paginas_tomo.json",
+      "bytes": 857,
+      "git_blob_sha1": "14d6a39077258a9b954ae97f54fa8de5ef44e6c0",
+      "sha256": "2d72510ba014e3d4b4cdb882948d131451552be3a5a8ee69ec673b2d1981b447"
+    },
+    {
+      "archivo": "historia_geografia_7/05_produccion_anual/bloque_1/datos/trazabilidad.json",
+      "commit": "ea3cf5f6349f4de2e1f3c495b92707b641e6d37e",
+      "local": "fuente/bloque_1/datos/trazabilidad.json",
+      "bytes": 6543,
+      "git_blob_sha1": "90f18a68d05ea2af4db1f9095c09e435d8dd46e9",
+      "sha256": "df66323237b180d43534e722c5084ecd702c5454d0047dfb06738e2f8f944c8d"
+    },
+    {
+      "archivo": "historia_geografia_7/05_produccion_anual/bloque_1/figuras/eval_u1_mapa.png",
+      "commit": "ea3cf5f6349f4de2e1f3c495b92707b641e6d37e",
+      "local": "fuente/bloque_1/figuras/eval_u1_mapa.png",
+      "bytes": 130191,
+      "git_blob_sha1": "9bb6516cda743986582e0c484d548e628a6543ad",
+      "sha256": "7138c88b9f8499d6f176dbc17ef061cbf37691630bc6cba26af40a323cf7d556"
+    },
+    {
+      "archivo": "historia_geografia_7/05_produccion_anual/bloque_1/figuras/eval_u1_mapa_clave.png",
+      "commit": "ea3cf5f6349f4de2e1f3c495b92707b641e6d37e",
+      "local": "fuente/bloque_1/figuras/eval_u1_mapa_clave.png",
+      "bytes": 177867,
+      "git_blob_sha1": "4461cf1e32a0491d87ebba99e0a785a6af65ad50",
+      "sha256": "ab4bb6340ddff1bc2b6a9562e30cf29ab4f520f7e25e8cace9c484084596672c"
+    },
+    {
+      "archivo": "historia_geografia_7/05_produccion_anual/bloque_1/figuras/eval_u2_mapa.png",
+      "commit": "ea3cf5f6349f4de2e1f3c495b92707b641e6d37e",
+      "local": "fuente/bloque_1/figuras/eval_u2_mapa.png",
+      "bytes": 216776,
+      "git_blob_sha1": "e173067919e6e54ea3d30b10ded742218e066d5d",
+      "sha256": "c980be72e366c9bd4967920f877bdbb1900d16d3d2f48f5915c016a3db015e51"
+    },
+    {
+      "archivo": "historia_geografia_7/05_produccion_anual/bloque_1/figuras/eval_u2_mapa_clave.png",
+      "commit": "ea3cf5f6349f4de2e1f3c495b92707b641e6d37e",
+      "local": "fuente/bloque_1/figuras/eval_u2_mapa_clave.png",
+      "bytes": 257385,
+      "git_blob_sha1": "116a2209e53a4d55029f1765523838647a57e6c2",
+      "sha256": "8083b58368df0f2cbba9d4869577348be57452ed54bcc013392b6d47cb87d828"
+    },
+    {
+      "archivo": "historia_geografia_7/05_produccion_anual/bloque_1/figuras/ficha_B_linea_vacia.png",
+      "commit": "ea3cf5f6349f4de2e1f3c495b92707b641e6d37e",
+      "local": "fuente/bloque_1/figuras/ficha_B_linea_vacia.png",
+      "bytes": 38614,
+      "git_blob_sha1": "cefd4320f8247230a235f15f783bf07d9070797e",
+      "sha256": "ccca3d7bf49037b02389d5e9acc69de2a1094da96a22a8930328a20acb23afe1"
+    },
+    {
+      "archivo": "historia_geografia_7/05_produccion_anual/bloque_1/figuras/ficha_B_mapa_mudo_america.png",
+      "commit": "ea3cf5f6349f4de2e1f3c495b92707b641e6d37e",
+      "local": "fuente/bloque_1/figuras/ficha_B_mapa_mudo_america.png",
+      "bytes": 310225,
+      "git_blob_sha1": "51b91bbe425ac6322b0bf41dc3a8976f4f112425",
+      "sha256": "80d57b8cb675f3f6de8f0a8038affe5c0ad511ecdaf70ea72bb0ec29493bd82d"
+    },
+    {
+      "archivo": "historia_geografia_7/05_produccion_anual/bloque_1/figuras/fig_1_1_tipos_fuentes.png",
+      "commit": "ea3cf5f6349f4de2e1f3c495b92707b641e6d37e",
+      "local": "fuente/bloque_1/figuras/fig_1_1_tipos_fuentes.png",
+      "bytes": 115174,
+      "git_blob_sha1": "f922035dbd0e24644f27866facb32af15bd484f7",
+      "sha256": "570f4f9ff08223abac90fb2a23b80aa02f2a89db1a351e0197fe7840b2fc2525"
+    },
+    {
+      "archivo": "historia_geografia_7/05_produccion_anual/bloque_1/figuras/fig_1_2_linea_tiempo_era.png",
+      "commit": "ea3cf5f6349f4de2e1f3c495b92707b641e6d37e",
+      "local": "fuente/bloque_1/figuras/fig_1_2_linea_tiempo_era.png",
+      "bytes": 103026,
+      "git_blob_sha1": "deac308dc688e0452a8069915ab41682bb8361d1",
+      "sha256": "e0b648615db99d5e21608cb8faa3ab8774d5d975d70328f4d075a98534c77b5d"
+    },
+    {
+      "archivo": "historia_geografia_7/05_produccion_anual/bloque_1/figuras/fig_1_3_mapa_orientacion.png",
+      "commit": "ea3cf5f6349f4de2e1f3c495b92707b641e6d37e",
+      "local": "fuente/bloque_1/figuras/fig_1_3_mapa_orientacion.png",
+      "bytes": 254049,
+      "git_blob_sha1": "6dbd2e11e163fc1baf95a5ebbc8e8ffdb12b2a91",
+      "sha256": "5d4e36935cb9f5eedb1abb069afa903cc5585dd73b5648a59de6724052c5a7cf"
+    },
+    {
+      "archivo": "historia_geografia_7/05_produccion_anual/bloque_1/figuras/fig_2_1_linea_prehistoria.png",
+      "commit": "ea3cf5f6349f4de2e1f3c495b92707b641e6d37e",
+      "local": "fuente/bloque_1/figuras/fig_2_1_linea_prehistoria.png",
+      "bytes": 129440,
+      "git_blob_sha1": "1dc0a712bee7eb3102801ebd8648d2141dae45a2",
+      "sha256": "473d633de02e26a0390e557d745dfd9b37ccf6316c098cd643056941f9d0462f"
+    },
+    {
+      "archivo": "historia_geografia_7/05_produccion_anual/bloque_1/figuras/fig_2_2_regiones.png",
+      "commit": "ea3cf5f6349f4de2e1f3c495b92707b641e6d37e",
+      "local": "fuente/bloque_1/figuras/fig_2_2_regiones.png",
+      "bytes": 202086,
+      "git_blob_sha1": "d28f95f9b95f73d7a37a8c532ebb5191e1911051",
+      "sha256": "6df6cbe22410c65a26500cd18ee0dc57d2ba17cea0be09610c2149684c395de7"
+    },
+    {
+      "archivo": "historia_geografia_7/05_produccion_anual/bloque_1/figuras/fig_3_1_area_guarani.png",
+      "commit": "ea3cf5f6349f4de2e1f3c495b92707b641e6d37e",
+      "local": "fuente/bloque_1/figuras/fig_3_1_area_guarani.png",
+      "bytes": 303650,
+      "git_blob_sha1": "8ce176e3f4fee4ab379e1d7c7547a4d9bfc58d5a",
+      "sha256": "5b7759f3eb883b5e85688dc9ef058d4f9e585ca9fd2f904da9e0d1098c4c366e"
+    },
+    {
+      "archivo": "historia_geografia_7/05_produccion_anual/bloque_1/figuras/fig_3_2_aldea.png",
+      "commit": "ea3cf5f6349f4de2e1f3c495b92707b641e6d37e",
+      "local": "fuente/bloque_1/figuras/fig_3_2_aldea.png",
+      "bytes": 132456,
+      "git_blob_sha1": "69e97c9a54b13bfd258220c6e96c722df7b1ca27",
+      "sha256": "8caad0cdc0de76afa5daa6aadedb93afc7aa2f7dc249b240249e09c74aa12cf0"
+    },
+    {
+      "archivo": "historia_geografia_7/05_produccion_anual/bloque_1/figuras/fig_4_1_poblamiento.png",
+      "commit": "ea3cf5f6349f4de2e1f3c495b92707b641e6d37e",
+      "local": "fuente/bloque_1/figuras/fig_4_1_poblamiento.png",
+      "bytes": 393443,
+      "git_blob_sha1": "5b126cb943aab1719b30a875d3e6274f203f23b6",
+      "sha256": "5db2458ba1700096959065faeac8ff9b469d40b2af318f5e78dd6ae221e4053f"
+    },
+    {
+      "archivo": "historia_geografia_7/05_produccion_anual/bloque_1/figuras/fig_5_1_civilizaciones.png",
+      "commit": "ea3cf5f6349f4de2e1f3c495b92707b641e6d37e",
+      "local": "fuente/bloque_1/figuras/fig_5_1_civilizaciones.png",
+      "bytes": 303944,
+      "git_blob_sha1": "8134dcb09dbaffe4914737ec9e4f6c4ce74dfc00",
+      "sha256": "8d127046ec2c34965f26aafbb3183e538a4a1ad5223433c9eb534e1582a778ef"
+    },
+    {
+      "archivo": "historia_geografia_7/05_produccion_anual/bloque_1/figuras/fig_5_2_cronologia.png",
+      "commit": "ea3cf5f6349f4de2e1f3c495b92707b641e6d37e",
+      "local": "fuente/bloque_1/figuras/fig_5_2_cronologia.png",
+      "bytes": 95824,
+      "git_blob_sha1": "1eb8a57bc043c69a462addcc2c74d8b9865badf9",
+      "sha256": "c96078db678fc552ba3c0ac31bf4abfefea5257c336c309f36fe2ea819012f6f"
+    },
+    {
+      "archivo": "historia_geografia_7/05_produccion_anual/bloque_1/planes/PLANES_BLOQUE_I_A4.pdf",
+      "commit": "ea3cf5f6349f4de2e1f3c495b92707b641e6d37e",
+      "local": "fuente/bloque_1/planes/PLANES_BLOQUE_I_A4.pdf",
+      "bytes": 430707,
+      "git_blob_sha1": "4591db4b96b9e20966a9c3ff797bd48687c64408",
+      "sha256": "ac0272979bf7d2ebe72c46f55839db47efc2bca9320429e9ca6eb52ec9a53f79"
+    },
+    {
+      "archivo": "historia_geografia_7/05_produccion_anual/bloque_1/revision_liviana/PLANES_BLOQUE_I_A4_REVISION.pdf",
+      "commit": "ea3cf5f6349f4de2e1f3c495b92707b641e6d37e",
+      "local": "fuente/bloque_1/revision_liviana/PLANES_BLOQUE_I_A4_REVISION.pdf",
+      "bytes": 405412,
+      "git_blob_sha1": "9d1022d27f0512736f4a3a7eca5d68ead99ca7a3",
+      "sha256": "1998a7801e2409742bf77c260800fd6bc68204a27416af82cf456b6aae5bbf8e"
+    },
+    {
+      "archivo": "historia_geografia_7/05_produccion_anual/bloque_1/revision_liviana/SOLUCIONARIO_BLOQUE_I_A4_REVISION.pdf",
+      "commit": "ea3cf5f6349f4de2e1f3c495b92707b641e6d37e",
+      "local": "fuente/bloque_1/revision_liviana/SOLUCIONARIO_BLOQUE_I_A4_REVISION.pdf",
+      "bytes": 389273,
+      "git_blob_sha1": "e9077e73689da9a7425c2b4003eb16d3e8e47c43",
+      "sha256": "cbe4416676dc8f21bcefbb58bf2e18f3f1860c77ca858a6c8cd80ce69668942e"
+    },
+    {
+      "archivo": "historia_geografia_7/05_produccion_anual/bloque_1/revision_liviana/TOMO_BLOQUE_I_oficio_REVISION.pdf",
+      "commit": "ea3cf5f6349f4de2e1f3c495b92707b641e6d37e",
+      "local": "fuente/bloque_1/revision_liviana/TOMO_BLOQUE_I_oficio_REVISION.pdf",
+      "bytes": 1306106,
+      "git_blob_sha1": "9fa5afc4e47449158699262d8380b04b33dce9e2",
+      "sha256": "31d6878f0b1596c37b8db4779fb63aa1545741bb8e99bb9091687ca5ac59c93d"
+    },
+    {
+      "archivo": "historia_geografia_7/05_produccion_anual/bloque_1/solucionario/SOLUCIONARIO_BLOQUE_I_A4.pdf",
+      "commit": "ea3cf5f6349f4de2e1f3c495b92707b641e6d37e",
+      "local": "fuente/bloque_1/solucionario/SOLUCIONARIO_BLOQUE_I_A4.pdf",
+      "bytes": 534090,
+      "git_blob_sha1": "f539a694a0ad07c9e9298a7e64557a97672a6e25",
+      "sha256": "34fa94279fabd5269993bdf6b59ed8835e7a856093cbbc9fe3c54a63afec8f84"
+    },
+    {
+      "archivo": "historia_geografia_7/05_produccion_anual/bloque_1/tomo/TOMO_BLOQUE_I_oficio.pdf",
+      "commit": "ea3cf5f6349f4de2e1f3c495b92707b641e6d37e",
+      "local": "fuente/bloque_1/tomo/TOMO_BLOQUE_I_oficio.pdf",
+      "bytes": 3149297,
+      "git_blob_sha1": "7f4ce93b83b3331b717a973ce5a0419f491045d1",
+      "sha256": "f6a2205cce5dbb3d526dc309ae641c5ce76c96fc0bd545823bc69a22479c31fb"
+    },
+    {
+      "archivo": "historia_geografia_7/05_produccion_anual/bloque_2/INFORME_BLOQUE_II.md",
+      "commit": "ea3cf5f6349f4de2e1f3c495b92707b641e6d37e",
+      "local": "fuente/bloque_2/INFORME_BLOQUE_II.md",
+      "bytes": 10689,
+      "git_blob_sha1": "bf2a4ca07486ef5be217f04a59b2ba73b4dfddf2",
+      "sha256": "aa8a5e5be3e559dde89f3383787c095b820acaea8526ac70773b5cb14e54036a"
+    },
+    {
+      "archivo": "historia_geografia_7/05_produccion_anual/bloque_2/datos/controles.json",
+      "commit": "ea3cf5f6349f4de2e1f3c495b92707b641e6d37e",
+      "local": "fuente/bloque_2/datos/controles.json",
+      "bytes": 933,
+      "git_blob_sha1": "fbd1ed88a80554c1e2fa491b6d4559829b64794c",
+      "sha256": "e7cf1c7ef50eeee2114b024838c213623fd5c1aefd71f35120fb46aea14a5bd9"
+    },
+    {
+      "archivo": "historia_geografia_7/05_produccion_anual/bloque_2/datos/paginas_tomo.json",
+      "commit": "ea3cf5f6349f4de2e1f3c495b92707b641e6d37e",
+      "local": "fuente/bloque_2/datos/paginas_tomo.json",
+      "bytes": 828,
+      "git_blob_sha1": "fb8efc521e9c00c85ffcf3ae9c6e4c21765ca857",
+      "sha256": "88266431d482ca96573f55851d15e4b4fbcc9c251debafd68ef875dff76e18ad"
+    },
+    {
+      "archivo": "historia_geografia_7/05_produccion_anual/bloque_2/datos/trazabilidad.json",
+      "commit": "ea3cf5f6349f4de2e1f3c495b92707b641e6d37e",
+      "local": "fuente/bloque_2/datos/trazabilidad.json",
+      "bytes": 7512,
+      "git_blob_sha1": "7bc286435abc9051a0143daa37f1c9e5120ec7af",
+      "sha256": "02305b4c476a71aa9b5f0575c2d3dc026ef62b9670e6c5a2517d52aa62798cf5"
+    },
+    {
+      "archivo": "historia_geografia_7/05_produccion_anual/bloque_2/figuras/eval_u3_mapa.png",
+      "commit": "ea3cf5f6349f4de2e1f3c495b92707b641e6d37e",
+      "local": "fuente/bloque_2/figuras/eval_u3_mapa.png",
+      "bytes": 202103,
+      "git_blob_sha1": "33613d4a54019617100a36c02bf410a28149bbbc",
+      "sha256": "eb04863200db3e637bc362e3465f884cde7014860a76aece64a3a12ac6806b4d"
+    },
+    {
+      "archivo": "historia_geografia_7/05_produccion_anual/bloque_2/figuras/eval_u3_mapa_clave.png",
+      "commit": "ea3cf5f6349f4de2e1f3c495b92707b641e6d37e",
+      "local": "fuente/bloque_2/figuras/eval_u3_mapa_clave.png",
+      "bytes": 287587,
+      "git_blob_sha1": "2a97a6c6f61ec5aabca35363de95fa51617e09d2",
+      "sha256": "61b92256f93669cd3d5c068b67be901d1669e3543f385da8d86ee4412384126c"
+    },
+    {
+      "archivo": "historia_geografia_7/05_produccion_anual/bloque_2/figuras/ficha_C_mapa_mudo.png",
+      "commit": "ea3cf5f6349f4de2e1f3c495b92707b641e6d37e",
+      "local": "fuente/bloque_2/figuras/ficha_C_mapa_mudo.png",
+      "bytes": 291953,
+      "git_blob_sha1": "c11cae0fed48fbed15ddb8929258a6a7eb574036",
+      "sha256": "d3d6e721ce2812495c82cfe4028eaadfe3fc43e9b3af7dbb31dff15679e46fbd"
+    },
+    {
+      "archivo": "historia_geografia_7/05_produccion_anual/bloque_2/figuras/fig_10_1_linea_1534_1556.png",
+      "commit": "ea3cf5f6349f4de2e1f3c495b92707b641e6d37e",
+      "local": "fuente/bloque_2/figuras/fig_10_1_linea_1534_1556.png",
+      "bytes": 129192,
+      "git_blob_sha1": "01885495e5a07bff620128484b752b64b598cad8",
+      "sha256": "24705a8c380fdfcbaf0c73c357a23d51811a9f390a1e1eb720eaad1c32a80cd7"
+    },
+    {
+      "archivo": "historia_geografia_7/05_produccion_anual/bloque_2/figuras/fig_10_2_autoridades.png",
+      "commit": "ea3cf5f6349f4de2e1f3c495b92707b641e6d37e",
+      "local": "fuente/bloque_2/figuras/fig_10_2_autoridades.png",
+      "bytes": 173511,
+      "git_blob_sha1": "7532f9cd3bba79788111a9b85d14f18f56bab812",
+      "sha256": "a22eeeaba126f1d942f7c40a4e7860dc8fa0e5070f91e64c1318f12764f85c8b"
+    },
+    {
+      "archivo": "historia_geografia_7/05_produccion_anual/bloque_2/figuras/fig_6_1_viajes.png",
+      "commit": "ea3cf5f6349f4de2e1f3c495b92707b641e6d37e",
+      "local": "fuente/bloque_2/figuras/fig_6_1_viajes.png",
+      "bytes": 505676,
+      "git_blob_sha1": "8350380af49f6b668d814921fdfa8aeb8ed26db1",
+      "sha256": "15dfb39ab658f0af580f0d7c35ffae213a47798b9462d9bfec069c13c8b0111c"
+    },
+    {
+      "archivo": "historia_geografia_7/05_produccion_anual/bloque_2/figuras/fig_6_2_navegacion.png",
+      "commit": "ea3cf5f6349f4de2e1f3c495b92707b641e6d37e",
+      "local": "fuente/bloque_2/figuras/fig_6_2_navegacion.png",
+      "bytes": 142151,
+      "git_blob_sha1": "3e38d6f1858497e6803301811713adea5ec8f164",
+      "sha256": "cae218ca651d25b39de6e4b85a1cbd570a253f2c44aae1f90efe59645ee8bd84"
+    },
+    {
+      "archivo": "historia_geografia_7/05_produccion_anual/bloque_2/figuras/fig_7_1_tordesillas.png",
+      "commit": "ea3cf5f6349f4de2e1f3c495b92707b641e6d37e",
+      "local": "fuente/bloque_2/figuras/fig_7_1_tordesillas.png",
+      "bytes": 359508,
+      "git_blob_sha1": "f07f3a1ae2d613fe4c6a2cd55aa86abab3e5b7d7",
+      "sha256": "e0747fdf27ad951dc72066fd7412be7302e15d365127dcf64e70543badd56b1a"
+    },
+    {
+      "archivo": "historia_geografia_7/05_produccion_anual/bloque_2/figuras/fig_7_2_gobierno.png",
+      "commit": "ea3cf5f6349f4de2e1f3c495b92707b641e6d37e",
+      "local": "fuente/bloque_2/figuras/fig_7_2_gobierno.png",
+      "bytes": 175517,
+      "git_blob_sha1": "1795e08f0a11c4e2927e345776e9ed0ddfc5ddfd",
+      "sha256": "2b93f2ec10219af3ec987986258bf0e979d96b3a36c001762fede9fd15304751"
+    },
+    {
+      "archivo": "historia_geografia_7/05_produccion_anual/bloque_2/figuras/fig_8_1_rutas_plata.png",
+      "commit": "ea3cf5f6349f4de2e1f3c495b92707b641e6d37e",
+      "local": "fuente/bloque_2/figuras/fig_8_1_rutas_plata.png",
+      "bytes": 351924,
+      "git_blob_sha1": "b6249be0600741389a5031cade8cb271051eba3c",
+      "sha256": "e5579f2a71152976b9adf941c5760797f3171439f7f411c616cf4c28265048a3"
+    },
+    {
+      "archivo": "historia_geografia_7/05_produccion_anual/bloque_2/figuras/fig_8_2_linea_1516_1541.png",
+      "commit": "ea3cf5f6349f4de2e1f3c495b92707b641e6d37e",
+      "local": "fuente/bloque_2/figuras/fig_8_2_linea_1516_1541.png",
+      "bytes": 112018,
+      "git_blob_sha1": "19cccc7495e17d27ea4db56f40218be1b66b96db",
+      "sha256": "39e453a5f0fbe837ae02e2fbf076362f63d6907578ed03803bbc9f9b988ee5fe"
+    },
+    {
+      "archivo": "historia_geografia_7/05_produccion_anual/bloque_2/figuras/fig_9_1_sociedad.png",
+      "commit": "ea3cf5f6349f4de2e1f3c495b92707b641e6d37e",
+      "local": "fuente/bloque_2/figuras/fig_9_1_sociedad.png",
+      "bytes": 108382,
+      "git_blob_sha1": "9b7a7a185798d5651c7b7cbe984d1267da973ee7",
+      "sha256": "d8aa6bbc29bf2e22ce8d8516c0f76c14b191fbdaca0dc13511e89e9291a305d3"
+    },
+    {
+      "archivo": "historia_geografia_7/05_produccion_anual/bloque_2/planes/PLANES_BLOQUE_II_A4.pdf",
+      "commit": "ea3cf5f6349f4de2e1f3c495b92707b641e6d37e",
+      "local": "fuente/bloque_2/planes/PLANES_BLOQUE_II_A4.pdf",
+      "bytes": 436732,
+      "git_blob_sha1": "3a64c35f08d3fd48b910d1135750331213c09560",
+      "sha256": "09a6b14ad046a08db32cec568fb7bc40514f72f9ee7fc23813cdb8ba43084862"
+    },
+    {
+      "archivo": "historia_geografia_7/05_produccion_anual/bloque_2/revision_liviana/PLANES_BLOQUE_II_A4_REVISION.pdf",
+      "commit": "ea3cf5f6349f4de2e1f3c495b92707b641e6d37e",
+      "local": "fuente/bloque_2/revision_liviana/PLANES_BLOQUE_II_A4_REVISION.pdf",
+      "bytes": 411301,
+      "git_blob_sha1": "8d3edc827e07015b2f84d6664b800ee2c2f019c3",
+      "sha256": "cac0d38d19a5652ce7a6d143977493d458b97d07ac5399ddcdd34cbd0bb9d7c0"
+    },
+    {
+      "archivo": "historia_geografia_7/05_produccion_anual/bloque_2/revision_liviana/SOLUCIONARIO_BLOQUE_II_A4_REVISION.pdf",
+      "commit": "ea3cf5f6349f4de2e1f3c495b92707b641e6d37e",
+      "local": "fuente/bloque_2/revision_liviana/SOLUCIONARIO_BLOQUE_II_A4_REVISION.pdf",
+      "bytes": 359705,
+      "git_blob_sha1": "553d35b973c1eb4bebd5970a36253072fbe1a216",
+      "sha256": "10602543a9a684c28540483d9d00711bbab6b8b89c7863598ff2213a4e3172de"
+    },
+    {
+      "archivo": "historia_geografia_7/05_produccion_anual/bloque_2/revision_liviana/TOMO_BLOQUE_II_oficio_REVISION.pdf",
+      "commit": "ea3cf5f6349f4de2e1f3c495b92707b641e6d37e",
+      "local": "fuente/bloque_2/revision_liviana/TOMO_BLOQUE_II_oficio_REVISION.pdf",
+      "bytes": 1314784,
+      "git_blob_sha1": "f23bef15cd5021d844f48b71a1154c546b3130aa",
+      "sha256": "b69938075a4d0f2a08829f8d06316ad6417c623c47a465e31387e00c8f5fdfc5"
+    },
+    {
+      "archivo": "historia_geografia_7/05_produccion_anual/bloque_2/solucionario/SOLUCIONARIO_BLOQUE_II_A4.pdf",
+      "commit": "ea3cf5f6349f4de2e1f3c495b92707b641e6d37e",
+      "local": "fuente/bloque_2/solucionario/SOLUCIONARIO_BLOQUE_II_A4.pdf",
+      "bytes": 454353,
+      "git_blob_sha1": "98e4a53402c896f02bd26f55d9da8a080cc83343",
+      "sha256": "2d139c7d25d0a1b08bde9c9084cfd9d4cbc0fd556dba45929b07ae6d17e2218f"
+    },
+    {
+      "archivo": "historia_geografia_7/05_produccion_anual/bloque_2/tomo/TOMO_BLOQUE_II_oficio.pdf",
+      "commit": "ea3cf5f6349f4de2e1f3c495b92707b641e6d37e",
+      "local": "fuente/bloque_2/tomo/TOMO_BLOQUE_II_oficio.pdf",
+      "bytes": 3033502,
+      "git_blob_sha1": "7392e35e7e359fd12b2cb35f578696df3c5c9e3d",
+      "sha256": "67c89861918fa23d631cbbf5d336f74729df772a87f2f12895f45bcf22467f42"
+    },
+    {
+      "archivo": "historia_geografia_7/05_produccion_anual/datos/estado.json",
+      "commit": "ea3cf5f6349f4de2e1f3c495b92707b641e6d37e",
+      "local": "fuente/datos/estado.json",
+      "bytes": 4313,
+      "git_blob_sha1": "d789ca3207f24dcc02193303f32ad4cdb073e1ec",
+      "sha256": "4509d893557fe706e6b152877f5f4690ff86ed10ce70d2a4478c7311f9cdb4b6"
+    },
+    {
+      "archivo": "historia_geografia_7/05_produccion_anual/datos/programa_MEC_2014_HyG7_texto_extraido.txt",
+      "commit": "ea3cf5f6349f4de2e1f3c495b92707b641e6d37e",
+      "local": "fuente/datos/programa_MEC_2014_HyG7_texto_extraido.txt",
+      "bytes": 173507,
+      "git_blob_sha1": "ce2ac85454b88d775774f9a1a0679f9a3f35cca3",
+      "sha256": "8802436548dbbb1c3b01daf7c94d5a2872a184565a5fde373dbb66d25d4c5961"
+    },
+    {
+      "archivo": "historia_geografia_7/05_produccion_anual/scripts/construir_bloque.py",
+      "commit": "ea3cf5f6349f4de2e1f3c495b92707b641e6d37e",
+      "local": "fuente/scripts/construir_bloque.py",
+      "bytes": 7479,
+      "git_blob_sha1": "86fabec70f1e7d5bf54c673c004bf61f0d16d38f",
+      "sha256": "c572c9f18403ecea0427b3acc279f500cfdb413c8a43411f7c30a4ba51dc4177"
+    },
+    {
+      "archivo": "historia_geografia_7/05_produccion_anual/scripts/contenido/e01.py",
+      "commit": "ea3cf5f6349f4de2e1f3c495b92707b641e6d37e",
+      "local": "fuente/scripts/contenido/e01.py",
+      "bytes": 20804,
+      "git_blob_sha1": "9db2e418c4667157903ca35e0a471e7d7492b7b2",
+      "sha256": "91519be7b47b878e8e8c68f70de99c97bee7e89d8dcce9b254ce0e7b4f492674"
+    },
+    {
+      "archivo": "historia_geografia_7/05_produccion_anual/scripts/contenido/e02.py",
+      "commit": "ea3cf5f6349f4de2e1f3c495b92707b641e6d37e",
+      "local": "fuente/scripts/contenido/e02.py",
+      "bytes": 17828,
+      "git_blob_sha1": "3241571a04a63bfa08886819a082f6c006009fbb",
+      "sha256": "47590fef39f2a147e593a62db09c05d9f4a1ba779647f1ef1e388eb6c757d14f"
+    },
+    {
+      "archivo": "historia_geografia_7/05_produccion_anual/scripts/contenido/e03.py",
+      "commit": "ea3cf5f6349f4de2e1f3c495b92707b641e6d37e",
+      "local": "fuente/scripts/contenido/e03.py",
+      "bytes": 17876,
+      "git_blob_sha1": "485996ccf3a4d91442490669e810c89e1c129640",
+      "sha256": "520be6a669858987226d6243cd928ab91b3dd219e62e6f08edfbbcc656a55ef4"
+    },
+    {
+      "archivo": "historia_geografia_7/05_produccion_anual/scripts/contenido/e04.py",
+      "commit": "ea3cf5f6349f4de2e1f3c495b92707b641e6d37e",
+      "local": "fuente/scripts/contenido/e04.py",
+      "bytes": 12131,
+      "git_blob_sha1": "beba5d2d38efbb553a8c02a3038bb3d1a86145f7",
+      "sha256": "4603f26b30dec6746ba544bdc2472f69f1f5308bd7cde36f59b0f4cc7f6c7235"
+    },
+    {
+      "archivo": "historia_geografia_7/05_produccion_anual/scripts/contenido/e05.py",
+      "commit": "ea3cf5f6349f4de2e1f3c495b92707b641e6d37e",
+      "local": "fuente/scripts/contenido/e05.py",
+      "bytes": 12756,
+      "git_blob_sha1": "13d017930f77ac968bc349aaeb1e4865fd98169e",
+      "sha256": "44f5a1c0f2dba3423c0c74418236e3045a94d37c56f023dc908f1cd601b93949"
+    },
+    {
+      "archivo": "historia_geografia_7/05_produccion_anual/scripts/contenido/e06.py",
+      "commit": "ea3cf5f6349f4de2e1f3c495b92707b641e6d37e",
+      "local": "fuente/scripts/contenido/e06.py",
+      "bytes": 15450,
+      "git_blob_sha1": "492fa814d58d3a4451f611dd8f6457c41b860153",
+      "sha256": "9e7eef71d70a7ad00c795462035868b8e39b45ce70ee77300ace4e2169e8a720"
+    },
+    {
+      "archivo": "historia_geografia_7/05_produccion_anual/scripts/contenido/e07.py",
+      "commit": "ea3cf5f6349f4de2e1f3c495b92707b641e6d37e",
+      "local": "fuente/scripts/contenido/e07.py",
+      "bytes": 16734,
+      "git_blob_sha1": "77d3f4dd879cd6d3356d2f7dbe987d55e4b9950e",
+      "sha256": "e6eec41aba58f87201804ff08a71b7d6b89f2e25f0f919c82702cdbe0dc80807"
+    },
+    {
+      "archivo": "historia_geografia_7/05_produccion_anual/scripts/contenido/e08.py",
+      "commit": "ea3cf5f6349f4de2e1f3c495b92707b641e6d37e",
+      "local": "fuente/scripts/contenido/e08.py",
+      "bytes": 10827,
+      "git_blob_sha1": "9ebc1a399eab2d64d598b61ca24a6800e3e8b1f6",
+      "sha256": "afc90b73a07e516be5e6484a8bcea597c55b1a6f9853bba917799d9155ade6d4"
+    },
+    {
+      "archivo": "historia_geografia_7/05_produccion_anual/scripts/contenido/e09.py",
+      "commit": "ea3cf5f6349f4de2e1f3c495b92707b641e6d37e",
+      "local": "fuente/scripts/contenido/e09.py",
+      "bytes": 11706,
+      "git_blob_sha1": "efa32e5162727a21bde2d7b6a6e160e5e2e6a35d",
+      "sha256": "5e0740c340f834c63875e4c87f5d4e7de615d1e0ea5f0945b5985c80212c660d"
+    },
+    {
+      "archivo": "historia_geografia_7/05_produccion_anual/scripts/contenido/e10.py",
+      "commit": "ea3cf5f6349f4de2e1f3c495b92707b641e6d37e",
+      "local": "fuente/scripts/contenido/e10.py",
+      "bytes": 17869,
+      "git_blob_sha1": "ce27e1ca11daef7cb42fcfc28168159759a20fb0",
+      "sha256": "218c33b9b235dcf0b41e4f5c81146b59c900eb525123c8d9f56e23932209a7b9"
+    },
+    {
+      "archivo": "historia_geografia_7/05_produccion_anual/scripts/contenido/e11.py",
+      "commit": "ea3cf5f6349f4de2e1f3c495b92707b641e6d37e",
+      "local": "fuente/scripts/contenido/e11.py",
+      "bytes": 16048,
+      "git_blob_sha1": "b7b0a4276dbc28566f990cef805f760e5be9361a",
+      "sha256": "10d514715552778690cacbbbe3838ebbd5f2cadd608c872835c83cc2529e4cb6"
+    },
+    {
+      "archivo": "historia_geografia_7/05_produccion_anual/scripts/contenido/e12.py",
+      "commit": "ea3cf5f6349f4de2e1f3c495b92707b641e6d37e",
+      "local": "fuente/scripts/contenido/e12.py",
+      "bytes": 15140,
+      "git_blob_sha1": "702875b4a6747c238c4a82f12157c07d7f596347",
+      "sha256": "162ffb60ca0069a236ad1127f6b729ee63372b3cb6f0c546965bd0948267d688"
+    },
+    {
+      "archivo": "historia_geografia_7/05_produccion_anual/scripts/contenido/e13.py",
+      "commit": "ea3cf5f6349f4de2e1f3c495b92707b641e6d37e",
+      "local": "fuente/scripts/contenido/e13.py",
+      "bytes": 12488,
+      "git_blob_sha1": "361df604f44b8d895986e3e0e96387d088970107",
+      "sha256": "7b6c1f6985624320de7bb712fb71b124c2b539e00dbac4b67721f3148cb31309"
+    },
+    {
+      "archivo": "historia_geografia_7/05_produccion_anual/scripts/contenido/e14.py",
+      "commit": "ea3cf5f6349f4de2e1f3c495b92707b641e6d37e",
+      "local": "fuente/scripts/contenido/e14.py",
+      "bytes": 16466,
+      "git_blob_sha1": "b8385b002a37a43ca4ce4984ac7a925ee6826bc2",
+      "sha256": "02c67b97b993e5c34be00f36892523de38940f5f1dfc2ca1c31602d03f9b0a17"
+    },
+    {
+      "archivo": "historia_geografia_7/05_produccion_anual/scripts/contenido/e15.py",
+      "commit": "ea3cf5f6349f4de2e1f3c495b92707b641e6d37e",
+      "local": "fuente/scripts/contenido/e15.py",
+      "bytes": 24344,
+      "git_blob_sha1": "8963efc2df7e817a2f21fbd3113125cf8c2b7569",
+      "sha256": "7face51777416dcbbbd6cc75f5683c6731de7be51ae476320f7ef2605cce3ed6"
+    },
+    {
+      "archivo": "historia_geografia_7/05_produccion_anual/scripts/contenido/e16.py",
+      "commit": "ea3cf5f6349f4de2e1f3c495b92707b641e6d37e",
+      "local": "fuente/scripts/contenido/e16.py",
+      "bytes": 11745,
+      "git_blob_sha1": "e4c0f2e32875fd7962047d1303396f512d077a4b",
+      "sha256": "90983671fd52e5cd356730b74a3f4ae3807e2a64ec1dda42f5497ca8d56ced7e"
+    },
+    {
+      "archivo": "historia_geografia_7/05_produccion_anual/scripts/contenido/e17.py",
+      "commit": "ea3cf5f6349f4de2e1f3c495b92707b641e6d37e",
+      "local": "fuente/scripts/contenido/e17.py",
+      "bytes": 13153,
+      "git_blob_sha1": "d155e0eafb3d7e324c6867577eaac998e584a698",
+      "sha256": "34cef998a93db3c6ef36da4999c7c04dae74b503fbe1a842ac5a62a6d95396d3"
+    },
+    {
+      "archivo": "historia_geografia_7/05_produccion_anual/scripts/contenido/e18.py",
+      "commit": "ea3cf5f6349f4de2e1f3c495b92707b641e6d37e",
+      "local": "fuente/scripts/contenido/e18.py",
+      "bytes": 14341,
+      "git_blob_sha1": "b31d9aba49e016c4f0c1ee6d654890d6eb9e20a3",
+      "sha256": "f40fe81f52b24ba5299d979bda67ddc2f893cb59c0c358fe5c7db9e51248b945"
+    },
+    {
+      "archivo": "historia_geografia_7/05_produccion_anual/scripts/curriculo.py",
+      "commit": "ea3cf5f6349f4de2e1f3c495b92707b641e6d37e",
+      "local": "fuente/scripts/curriculo.py",
+      "bytes": 10042,
+      "git_blob_sha1": "22c1165b8c414ae0e03bf4b1b1a97ee684b1b935",
+      "sha256": "6a636ac78c55c644bc2fcbbcf375f7eb5031ea087e881ba6c2d1e5ba69a7abe1"
+    },
+    {
+      "archivo": "historia_geografia_7/05_produccion_anual/scripts/estado.py",
+      "commit": "ea3cf5f6349f4de2e1f3c495b92707b641e6d37e",
+      "local": "fuente/scripts/estado.py",
+      "bytes": 3537,
+      "git_blob_sha1": "abebaa87cca86a5ad4c4d7e8cb5d5601572df384",
+      "sha256": "16def56ece55c36c4aebe9dc3770bc79b6ff5f62c3f8ff8e2b0a630a37d852bc"
+    },
+    {
+      "archivo": "historia_geografia_7/05_produccion_anual/scripts/figuras/bloque1.py",
+      "commit": "ea3cf5f6349f4de2e1f3c495b92707b641e6d37e",
+      "local": "fuente/scripts/figuras/bloque1.py",
+      "bytes": 19795,
+      "git_blob_sha1": "bea00e7c1ed6c71386a58c01de9cfb9c3ad0620b",
+      "sha256": "30e491eb8ade06fb072c143ead921aefc6eeecf8f14cab939ab976c032414ef5"
+    },
+    {
+      "archivo": "historia_geografia_7/05_produccion_anual/scripts/figuras/bloque2.py",
+      "commit": "ea3cf5f6349f4de2e1f3c495b92707b641e6d37e",
+      "local": "fuente/scripts/figuras/bloque2.py",
+      "bytes": 17039,
+      "git_blob_sha1": "af6bbc45b38f1e273fc20b976964b39c7ebb43cb",
+      "sha256": "6d00b18e6cb76c1ab022f6eedac0214189d068e0c98ebaddbfc9dcde42eab7af"
+    },
+    {
+      "archivo": "historia_geografia_7/05_produccion_anual/scripts/figuras/comun.py",
+      "commit": "ea3cf5f6349f4de2e1f3c495b92707b641e6d37e",
+      "local": "fuente/scripts/figuras/comun.py",
+      "bytes": 8205,
+      "git_blob_sha1": "444c86b7588ae9005d4cb78731b67517651f41e9",
+      "sha256": "1a8e415a9fa9f0eda867ec04e427b70b6ee8bb9e20b0b09dcc5e59c47f4ea0f5"
+    },
+    {
+      "archivo": "historia_geografia_7/05_produccion_anual/scripts/motor/pdf.py",
+      "commit": "ea3cf5f6349f4de2e1f3c495b92707b641e6d37e",
+      "local": "fuente/scripts/motor/pdf.py",
+      "bytes": 2651,
+      "git_blob_sha1": "4562f99e95f19cb7724c261148d5215591e4989f",
+      "sha256": "45ada5b11c819d76def3b5f31f4c491b67bc2a9ae4e52178894dfa16099f5c39"
+    },
+    {
+      "archivo": "historia_geografia_7/05_produccion_anual/scripts/motor/planes.py",
+      "commit": "ea3cf5f6349f4de2e1f3c495b92707b641e6d37e",
+      "local": "fuente/scripts/motor/planes.py",
+      "bytes": 6818,
+      "git_blob_sha1": "8ef38bd0194c9c2caec0cca5a0e437dcddf590af",
+      "sha256": "896fbcfa2b5105356b5974e91afefafcb7c421986ccc87158094a7b8a226eee9"
+    },
+    {
+      "archivo": "historia_geografia_7/05_produccion_anual/scripts/motor/solucionario.py",
+      "commit": "ea3cf5f6349f4de2e1f3c495b92707b641e6d37e",
+      "local": "fuente/scripts/motor/solucionario.py",
+      "bytes": 5193,
+      "git_blob_sha1": "2bbd1e97b0610b9f58b4547e0a5384c82316404a",
+      "sha256": "2138e32494fb5db7703381b4e35eafea1b27006e769c8acffb3861dde01765f8"
+    },
+    {
+      "archivo": "historia_geografia_7/05_produccion_anual/scripts/motor/tomo.py",
+      "commit": "ea3cf5f6349f4de2e1f3c495b92707b641e6d37e",
+      "local": "fuente/scripts/motor/tomo.py",
+      "bytes": 14604,
+      "git_blob_sha1": "fcb8806fd9d6a11e0c4a9d07aa980965e23e7125",
+      "sha256": "5a775542f7daca1c6aab2e9148c8ccacf7ac32008ab5b6d5d3c243867831fb55"
+    },
+    {
+      "archivo": "historia_geografia_7/05_produccion_anual/scripts/verificar.py",
+      "commit": "ea3cf5f6349f4de2e1f3c495b92707b641e6d37e",
+      "local": "fuente/scripts/verificar.py",
+      "bytes": 20049,
+      "git_blob_sha1": "f6d18fdfce94699dd4cf94c0e7b0d82bd8b28b33",
+      "sha256": "7ba2a0266655f9628b4f18ef090ee7e97afd19ef5d5c1e8cb4d96823b1ff4118"
+    },
+    {
+      "archivo": "historia_geografia_7/03_muestra2/datos/MEC_2014_Programa_Historia_y_Geografia_7mo_reproduccion.pdf",
+      "commit": "ea3cf5f6349f4de2e1f3c495b92707b641e6d37e",
+      "local": "referencia/MEC_2014.pdf",
+      "bytes": 1499617,
+      "git_blob_sha1": "ece5d5cce9b5780e418ca5ead0c90126a2625528",
+      "sha256": "389190d302b668f62bf1bd05ac4ca01a78cfba83953cd18cd8ce282aefc8d27e"
+    },
+    {
+      "archivo": "historia_geografia_7/05_produccion_anual/bloque_1/figuras/eval_u1_mapa.png",
+      "commit": "755d7adbd0a4b57f0b91a95c85cd8b9ac978c705",
+      "local": "anterior/bloque_1/figuras/eval_u1_mapa.png",
+      "bytes": 132130,
+      "git_blob_sha1": "f98ec00fc0cbb79ad0bd329558f214670d379aa8",
+      "sha256": "0b2ad8aff304ea4a57192b3ddf3aa81621c94b2c83ece6ee8bcbd885e36ebcdf"
+    },
+    {
+      "archivo": "historia_geografia_7/05_produccion_anual/bloque_1/figuras/eval_u1_mapa_clave.png",
+      "commit": "755d7adbd0a4b57f0b91a95c85cd8b9ac978c705",
+      "local": "anterior/bloque_1/figuras/eval_u1_mapa_clave.png",
+      "bytes": 179801,
+      "git_blob_sha1": "fcbea5fbc330a7ebbde895100c94e62373e78bc7",
+      "sha256": "720a91b9ca737ecb8d3eac87e617a116ee7064d73927e2a6ba3781f6c07fbb2e"
+    },
+    {
+      "archivo": "historia_geografia_7/05_produccion_anual/bloque_1/figuras/fig_1_3_mapa_orientacion.png",
+      "commit": "755d7adbd0a4b57f0b91a95c85cd8b9ac978c705",
+      "local": "anterior/bloque_1/figuras/fig_1_3_mapa_orientacion.png",
+      "bytes": 256067,
+      "git_blob_sha1": "c897692ad50b189deeb1b36ebc60bc7679dd9201",
+      "sha256": "e3f63737ca37b8bed51832ac1e5524226d55793362c86b1345be8c59376ecaa6"
+    },
+    {
+      "archivo": "historia_geografia_7/05_produccion_anual/bloque_1/figuras/fig_2_2_regiones.png",
+      "commit": "755d7adbd0a4b57f0b91a95c85cd8b9ac978c705",
+      "local": "anterior/bloque_1/figuras/fig_2_2_regiones.png",
+      "bytes": 204030,
+      "git_blob_sha1": "0e0bb6b13afa4a3cd40f1205a1c3889a0739bc64",
+      "sha256": "7a3875a2385ef3f225922fb99da4bca9646f56a7f814030a6cf5f0b423f4ad1a"
+    },
+    {
+      "archivo": "historia_geografia_7/05_produccion_anual/bloque_1/figuras/fig_3_1_area_guarani.png",
+      "commit": "755d7adbd0a4b57f0b91a95c85cd8b9ac978c705",
+      "local": "anterior/bloque_1/figuras/fig_3_1_area_guarani.png",
+      "bytes": 306109,
+      "git_blob_sha1": "2b7db61b3721b342875911c13f3c2153102c045d",
+      "sha256": "31e974f0a93fe34c5b295bcc4096a41142ba915d58242a944ac5fc40922a6a87"
+    },
+    {
+      "archivo": "historia_geografia_7/05_produccion_anual/scripts/figuras/comun.py",
+      "commit": "755d7adbd0a4b57f0b91a95c85cd8b9ac978c705",
+      "local": "anterior/scripts/figuras/comun.py",
+      "bytes": 8095,
+      "git_blob_sha1": "2586094eb42c86a72f85ce93a101c257729a0532",
+      "sha256": "d6f55fe517f5926db7f53c06bdef4d220dfa373d29b7b25edf286a4d4ac95492"
+    }
+  ],
+  "fuentes_integridad_final": "90/90 SHA256 idénticos",
+  "pdf_paginas": {
+    "PLANES_BLOQUE_I_A4": 20,
+    "PLANES_BLOQUE_I_A4_REVISION": 20,
+    "SOLUCIONARIO_BLOQUE_I_A4_REVISION": 10,
+    "TOMO_BLOQUE_I_oficio_REVISION": 41,
+    "SOLUCIONARIO_BLOQUE_I_A4": 10,
+    "TOMO_BLOQUE_I_oficio": 41,
+    "PLANES_BLOQUE_II_A4": 20,
+    "PLANES_BLOQUE_II_A4_REVISION": 20,
+    "SOLUCIONARIO_BLOQUE_II_A4_REVISION": 10,
+    "TOMO_BLOQUE_II_oficio_REVISION": 39,
+    "SOLUCIONARIO_BLOQUE_II_A4": 10,
+    "TOMO_BLOQUE_II_oficio": 39
+  },
+  "inspeccion": {
+    "originales": 140,
+    "livianas": 140,
+    "pares_texto_identico": 140,
+    "pares_pixel_identico": 112,
+    "pares_comprimidos_inspeccionados": 28,
+    "prueba_fisica": false,
+    "ensayo_aula": false
+  },
+  "pruebas_independientes": {
+    "controles": [
+      {
+        "control": "capacidad_literal_H1",
+        "resultado": true,
+        "detalle": "Reconoce los procesos fundamentales que configuran la prehistoria paraguaya."
+      },
+      {
+        "control": "capacidad_literal_H2",
+        "resultado": true,
+        "detalle": "Interpreta las características destacadas de la prehistoria americana."
+      },
+      {
+        "control": "capacidad_literal_H3",
+        "resultado": true,
+        "detalle": "Investiga los principales acontecimientos que caracterizan la realidad paraguaya del siglo XVI."
+      },
+      {
+        "control": "capacidad_literal_H4",
+        "resultado": true,
+        "detalle": "Identifica los hechos relevantes del siglo XVI que incidieron en las transformaciones del contexto americano."
+      },
+      {
+        "control": "capacidad_literal_H5",
+        "resultado": true,
+        "detalle": "Analiza los rasgos relevantes que influyeron en la realidad paraguaya del siglo XVII."
+      },
+      {
+        "control": "capacidad_literal_H6",
+        "resultado": true,
+        "detalle": "Describe los rasgos históricos distintivos de la realidad americana del siglo XVII."
+      },
+      {
+        "control": "capacidad_literal_G1",
+        "resultado": true,
+        "detalle": "Analiza la posición geográfica de Paraguay y América y sus incidencias en las actividades humanas."
+      },
+      {
+        "control": "capacidad_literal_G2",
+        "resultado": true,
+        "detalle": "Relaciona las características de las unidades orohidrográficas de Paraguay y América."
+      },
+      {
+        "control": "capacidad_literal_G3",
+        "resultado": true,
+        "detalle": "Identifica las características climáticas de Paraguay y América y su influencia en las actividades humanas."
+      },
+      {
+        "control": "capacidad_literal_G4",
+        "resultado": true,
+        "detalle": "Describe las características de las regiones naturales de Paraguay y América."
+      },
+      {
+        "control": "secuencia_1",
+        "resultado": true,
+        "detalle": [
+          [
+            0,
+            15
+          ],
+          [
+            15,
+            30
+          ],
+          [
+            30,
+            48
+          ],
+          [
+            48,
+            60
+          ],
+          [
+            60,
+            80
+          ],
+          [
+            80,
+            96
+          ],
+          [
+            96,
+            106
+          ],
+          [
+            106,
+            120
+          ]
+        ]
+      },
+      {
+        "control": "respuestas_1",
+        "resultado": true,
+        "detalle": {
+          "items": [
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8,
+            9,
+            10,
+            11,
+            12,
+            13
+          ],
+          "con_respuesta": [
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8,
+            9,
+            10,
+            11,
+            12,
+            13
+          ]
+        }
+      },
+      {
+        "control": "secuencia_2",
+        "resultado": true,
+        "detalle": [
+          [
+            0,
+            10
+          ],
+          [
+            10,
+            25
+          ],
+          [
+            25,
+            45
+          ],
+          [
+            45,
+            60
+          ],
+          [
+            60,
+            78
+          ],
+          [
+            78,
+            98
+          ],
+          [
+            98,
+            110
+          ],
+          [
+            110,
+            120
+          ]
+        ]
+      },
+      {
+        "control": "respuestas_2",
+        "resultado": true,
+        "detalle": {
+          "items": [
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8,
+            9,
+            10,
+            11,
+            12
+          ],
+          "con_respuesta": [
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8,
+            9,
+            10,
+            11,
+            12
+          ]
+        }
+      },
+      {
+        "control": "secuencia_3",
+        "resultado": true,
+        "detalle": [
+          [
+            0,
+            10
+          ],
+          [
+            10,
+            25
+          ],
+          [
+            25,
+            45
+          ],
+          [
+            45,
+            58
+          ],
+          [
+            58,
+            75
+          ],
+          [
+            75,
+            92
+          ],
+          [
+            92,
+            104
+          ],
+          [
+            104,
+            120
+          ]
+        ]
+      },
+      {
+        "control": "respuestas_3",
+        "resultado": true,
+        "detalle": {
+          "items": [
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8,
+            9,
+            10,
+            11,
+            12
+          ],
+          "con_respuesta": [
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8,
+            9,
+            10,
+            11,
+            12
+          ]
+        }
+      },
+      {
+        "control": "secuencia_4",
+        "resultado": true,
+        "detalle": [
+          [
+            0,
+            10
+          ],
+          [
+            10,
+            25
+          ],
+          [
+            25,
+            50
+          ],
+          [
+            50,
+            75
+          ],
+          [
+            75,
+            95
+          ],
+          [
+            95,
+            110
+          ],
+          [
+            110,
+            120
+          ]
+        ]
+      },
+      {
+        "control": "respuestas_4",
+        "resultado": true,
+        "detalle": {
+          "items": [
+            1,
+            2,
+            3,
+            4
+          ],
+          "con_respuesta": [
+            1,
+            2,
+            3,
+            4
+          ]
+        }
+      },
+      {
+        "control": "secuencia_5",
+        "resultado": true,
+        "detalle": [
+          [
+            0,
+            10
+          ],
+          [
+            10,
+            80
+          ],
+          [
+            80,
+            95
+          ],
+          [
+            95,
+            120
+          ]
+        ]
+      },
+      {
+        "control": "respuestas_5",
+        "resultado": true,
+        "detalle": {
+          "items": [
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8,
+            9,
+            10,
+            11,
+            12,
+            13,
+            14
+          ],
+          "con_respuesta": [
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8,
+            9,
+            10,
+            11,
+            12,
+            13,
+            14
+          ]
+        }
+      },
+      {
+        "control": "total_matriz_5",
+        "resultado": true,
+        "detalle": {
+          "total": 23,
+          "declarado": 23
+        }
+      },
+      {
+        "control": "opcion_5_1",
+        "resultado": true,
+        "detalle": {
+          "clave": "b) los restos materiales del pasado",
+          "opciones": [
+            "los documentos escritos de los cabildos",
+            "los restos materiales del pasado",
+            "las lenguas que se hablan hoy",
+            "los mapas antiguos de los navegantes"
+          ]
+        }
+      },
+      {
+        "control": "opcion_5_2",
+        "resultado": true,
+        "detalle": {
+          "clave": "c) practicaban la agricultura y vivían en aldeas",
+          "opciones": [
+            "no tenían ningún tipo de organización",
+            "desconocían el uso del fuego",
+            "practicaban la agricultura y vivían en aldeas",
+            "vivían solo en la Región Occidental"
+          ]
+        }
+      },
+      {
+        "control": "opcion_5_3",
+        "resultado": true,
+        "detalle": {
+          "clave": "b) cazadores-recolectores de los bosques de la Región Oriental",
+          "opciones": [
+            "agricultores del Chaco que vivían en ciudades",
+            "cazadores-recolectores de los bosques de la Región Oriental",
+            "un pueblo de la familia lingüística zamuco",
+            "los conquistadores que fundaron Asunción"
+          ]
+        }
+      },
+      {
+        "control": "opcion_5_4",
+        "resultado": true,
+        "detalle": {
+          "clave": "a) el territorio donde se vive según el modo de ser guaraní",
+          "opciones": [
+            "el territorio donde se vive según el modo de ser guaraní",
+            "un tipo de vasija de cerámica",
+            "el líder de la aldea",
+            "una danza ritual"
+          ]
+        }
+      },
+      {
+        "control": "opcion_5_5",
+        "resultado": true,
+        "detalle": {
+          "clave": "d) cortar y quemar un sector del bosque y cultivarlo algunos años",
+          "opciones": [
+            "regar los campos con canales",
+            "usar arados tirados por bueyes",
+            "cultivar en terrazas en las montañas",
+            "cortar y quemar un sector del bosque y cultivarlo algunos años"
+          ]
+        }
+      },
+      {
+        "control": "opcion_5_6",
+        "resultado": true,
+        "detalle": {
+          "clave": "c) guaicurú",
+          "opciones": [
+            "guaraní",
+            "zamuco",
+            "guaicurú",
+            "mataco mataguayo"
+          ]
+        }
+      },
+      {
+        "control": "opciones_distintas_5",
+        "resultado": true,
+        "detalle": [
+          "b",
+          "c",
+          "b",
+          "a",
+          "d",
+          "c"
+        ]
+      },
+      {
+        "control": "secuencia_6",
+        "resultado": true,
+        "detalle": [
+          [
+            0,
+            20
+          ],
+          [
+            20,
+            28
+          ],
+          [
+            28,
+            40
+          ],
+          [
+            40,
+            55
+          ],
+          [
+            55,
+            72
+          ],
+          [
+            72,
+            90
+          ],
+          [
+            90,
+            104
+          ],
+          [
+            104,
+            120
+          ]
+        ]
+      },
+      {
+        "control": "respuestas_6",
+        "resultado": true,
+        "detalle": {
+          "items": [
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8,
+            9,
+            10,
+            11,
+            12
+          ],
+          "con_respuesta": [
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8,
+            9,
+            10,
+            11,
+            12
+          ]
+        }
+      },
+      {
+        "control": "secuencia_7",
+        "resultado": true,
+        "detalle": [
+          [
+            0,
+            10
+          ],
+          [
+            10,
+            22
+          ],
+          [
+            22,
+            40
+          ],
+          [
+            40,
+            55
+          ],
+          [
+            55,
+            72
+          ],
+          [
+            72,
+            92
+          ],
+          [
+            92,
+            104
+          ],
+          [
+            104,
+            120
+          ]
+        ]
+      },
+      {
+        "control": "respuestas_7",
+        "resultado": true,
+        "detalle": {
+          "items": [
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8,
+            9,
+            10,
+            11,
+            12
+          ],
+          "con_respuesta": [
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8,
+            9,
+            10,
+            11,
+            12
+          ]
+        }
+      },
+      {
+        "control": "secuencia_8",
+        "resultado": true,
+        "detalle": [
+          [
+            0,
+            10
+          ],
+          [
+            10,
+            20
+          ],
+          [
+            20,
+            50
+          ],
+          [
+            50,
+            75
+          ],
+          [
+            75,
+            98
+          ],
+          [
+            98,
+            112
+          ],
+          [
+            112,
+            120
+          ]
+        ]
+      },
+      {
+        "control": "respuestas_8",
+        "resultado": true,
+        "detalle": {
+          "items": [
+            1,
+            2,
+            3,
+            4
+          ],
+          "con_respuesta": [
+            1,
+            2,
+            3,
+            4
+          ]
+        }
+      },
+      {
+        "control": "secuencia_9",
+        "resultado": true,
+        "detalle": [
+          [
+            0,
+            10
+          ],
+          [
+            10,
+            80
+          ],
+          [
+            80,
+            95
+          ],
+          [
+            95,
+            120
+          ]
+        ]
+      },
+      {
+        "control": "respuestas_9",
+        "resultado": true,
+        "detalle": {
+          "items": [
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8,
+            9,
+            10,
+            11,
+            12,
+            13
+          ],
+          "con_respuesta": [
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8,
+            9,
+            10,
+            11,
+            12,
+            13
+          ]
+        }
+      },
+      {
+        "control": "total_matriz_9",
+        "resultado": true,
+        "detalle": {
+          "total": 22,
+          "declarado": 22
+        }
+      },
+      {
+        "control": "opcion_9_1",
+        "resultado": true,
+        "detalle": {
+          "clave": "b) desde el nordeste de Asia",
+          "opciones": [
+            "desde Australia, por la Antártida",
+            "desde el nordeste de Asia",
+            "desde Europa, por el océano Atlántico",
+            "desde África, navegando por el océano"
+          ]
+        }
+      },
+      {
+        "control": "opcion_9_2",
+        "resultado": true,
+        "detalle": {
+          "clave": "a) durante la glaciación bajó el nivel del mar",
+          "opciones": [
+            "durante la glaciación bajó el nivel del mar",
+            "se formó una cadena de volcanes",
+            "se secaron los grandes ríos",
+            "se levantó el fondo del océano Atlántico"
+          ]
+        }
+      },
+      {
+        "control": "opcion_9_3",
+        "resultado": true,
+        "detalle": {
+          "clave": "c) llegadas desde Asia y también desde Melanesia y Polinesia",
+          "opciones": [
+            "que la humanidad se originó en América",
+            "un único origen asiático por Bering",
+            "llegadas desde Asia y también desde Melanesia y Polinesia",
+            "una llegada desde Australia por la Antártida"
+          ]
+        }
+      },
+      {
+        "control": "opcion_9_4",
+        "resultado": true,
+        "detalle": {
+          "clave": "b) vivían en ciudades-estado y tenían escritura propia",
+          "opciones": [
+            "formaron un imperio con capital en Tenochtitlan",
+            "vivían en ciudades-estado y tenían escritura propia",
+            "habitaban las montañas de los Andes",
+            "construyeron el camino del Qhapaq Ñan"
+          ]
+        }
+      },
+      {
+        "control": "opcion_9_5",
+        "resultado": true,
+        "detalle": {
+          "clave": "d) una comunidad de familias emparentadas en los Andes",
+          "opciones": [
+            "un templo en la cima de una pirámide maya",
+            "el título del gobernante mexica",
+            "el calendario de los incas",
+            "una comunidad de familias emparentadas en los Andes"
+          ]
+        }
+      },
+      {
+        "control": "opcion_9_6",
+        "resultado": true,
+        "detalle": {
+          "clave": "c) 1521",
+          "opciones": [
+            "1325",
+            "1438",
+            "1521",
+            "1533"
+          ]
+        }
+      },
+      {
+        "control": "opciones_distintas_9",
+        "resultado": true,
+        "detalle": [
+          "b",
+          "a",
+          "c",
+          "b",
+          "d",
+          "c"
+        ]
+      },
+      {
+        "control": "secuencia_10",
+        "resultado": true,
+        "detalle": [
+          [
+            0,
+            20
+          ],
+          [
+            20,
+            27
+          ],
+          [
+            27,
+            40
+          ],
+          [
+            40,
+            55
+          ],
+          [
+            55,
+            70
+          ],
+          [
+            70,
+            88
+          ],
+          [
+            88,
+            100
+          ],
+          [
+            100,
+            120
+          ]
+        ]
+      },
+      {
+        "control": "respuestas_10",
+        "resultado": true,
+        "detalle": {
+          "items": [
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8,
+            9,
+            10,
+            11,
+            12
+          ],
+          "con_respuesta": [
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8,
+            9,
+            10,
+            11,
+            12
+          ]
+        }
+      },
+      {
+        "control": "secuencia_11",
+        "resultado": true,
+        "detalle": [
+          [
+            0,
+            10
+          ],
+          [
+            10,
+            28
+          ],
+          [
+            28,
+            45
+          ],
+          [
+            45,
+            65
+          ],
+          [
+            65,
+            85
+          ],
+          [
+            85,
+            100
+          ],
+          [
+            100,
+            120
+          ]
+        ]
+      },
+      {
+        "control": "respuestas_11",
+        "resultado": true,
+        "detalle": {
+          "items": [
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8,
+            9,
+            10,
+            11,
+            12
+          ],
+          "con_respuesta": [
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8,
+            9,
+            10,
+            11,
+            12
+          ]
+        }
+      },
+      {
+        "control": "secuencia_12",
+        "resultado": true,
+        "detalle": [
+          [
+            0,
+            10
+          ],
+          [
+            10,
+            30
+          ],
+          [
+            30,
+            50
+          ],
+          [
+            50,
+            68
+          ],
+          [
+            68,
+            85
+          ],
+          [
+            85,
+            100
+          ],
+          [
+            100,
+            120
+          ]
+        ]
+      },
+      {
+        "control": "respuestas_12",
+        "resultado": true,
+        "detalle": {
+          "items": [
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8,
+            9,
+            10,
+            11,
+            12
+          ],
+          "con_respuesta": [
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8,
+            9,
+            10,
+            11,
+            12
+          ]
+        }
+      },
+      {
+        "control": "secuencia_13",
+        "resultado": true,
+        "detalle": [
+          [
+            0,
+            10
+          ],
+          [
+            10,
+            20
+          ],
+          [
+            20,
+            48
+          ],
+          [
+            48,
+            68
+          ],
+          [
+            68,
+            80
+          ],
+          [
+            80,
+            100
+          ],
+          [
+            100,
+            113
+          ],
+          [
+            113,
+            120
+          ]
+        ]
+      },
+      {
+        "control": "respuestas_13",
+        "resultado": true,
+        "detalle": {
+          "items": [
+            1,
+            2,
+            3,
+            4
+          ],
+          "con_respuesta": [
+            1,
+            2,
+            3,
+            4
+          ]
+        }
+      },
+      {
+        "control": "secuencia_14",
+        "resultado": true,
+        "detalle": [
+          [
+            0,
+            10
+          ],
+          [
+            10,
+            28
+          ],
+          [
+            28,
+            45
+          ],
+          [
+            45,
+            60
+          ],
+          [
+            60,
+            80
+          ],
+          [
+            80,
+            98
+          ],
+          [
+            98,
+            120
+          ]
+        ]
+      },
+      {
+        "control": "respuestas_14",
+        "resultado": true,
+        "detalle": {
+          "items": [
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8,
+            9,
+            10,
+            11,
+            12
+          ],
+          "con_respuesta": [
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8,
+            9,
+            10,
+            11,
+            12
+          ]
+        }
+      },
+      {
+        "control": "secuencia_15",
+        "resultado": true,
+        "detalle": [
+          [
+            0,
+            10
+          ],
+          [
+            10,
+            23
+          ],
+          [
+            23,
+            33
+          ],
+          [
+            33,
+            48
+          ],
+          [
+            48,
+            60
+          ],
+          [
+            60,
+            76
+          ],
+          [
+            76,
+            96
+          ],
+          [
+            96,
+            110
+          ],
+          [
+            110,
+            120
+          ]
+        ]
+      },
+      {
+        "control": "respuestas_15",
+        "resultado": true,
+        "detalle": {
+          "items": [
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8,
+            9,
+            10,
+            11,
+            12,
+            13,
+            14,
+            15,
+            16
+          ],
+          "con_respuesta": [
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8,
+            9,
+            10,
+            11,
+            12,
+            13,
+            14,
+            15,
+            16
+          ]
+        }
+      },
+      {
+        "control": "secuencia_16",
+        "resultado": true,
+        "detalle": [
+          [
+            0,
+            10
+          ],
+          [
+            10,
+            22
+          ],
+          [
+            22,
+            40
+          ],
+          [
+            40,
+            55
+          ],
+          [
+            55,
+            80
+          ],
+          [
+            80,
+            100
+          ],
+          [
+            100,
+            112
+          ],
+          [
+            112,
+            120
+          ]
+        ]
+      },
+      {
+        "control": "respuestas_16",
+        "resultado": true,
+        "detalle": {
+          "items": [
+            1,
+            2,
+            3,
+            4,
+            5
+          ],
+          "con_respuesta": [
+            1,
+            2,
+            3,
+            4,
+            5
+          ]
+        }
+      },
+      {
+        "control": "secuencia_17",
+        "resultado": true,
+        "detalle": [
+          [
+            0,
+            10
+          ],
+          [
+            10,
+            80
+          ],
+          [
+            80,
+            95
+          ],
+          [
+            95,
+            120
+          ]
+        ]
+      },
+      {
+        "control": "respuestas_17",
+        "resultado": true,
+        "detalle": {
+          "items": [
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8,
+            9,
+            10,
+            11,
+            12,
+            13,
+            14
+          ],
+          "con_respuesta": [
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8,
+            9,
+            10,
+            11,
+            12,
+            13,
+            14
+          ]
+        }
+      },
+      {
+        "control": "total_matriz_17",
+        "resultado": true,
+        "detalle": {
+          "total": 25,
+          "declarado": 25
+        }
+      },
+      {
+        "control": "opcion_17_1",
+        "resultado": true,
+        "detalle": {
+          "clave": "c) fijó una línea que dividía las zonas de Castilla y de Portugal",
+          "opciones": [
+            "creó el Virreinato del Perú",
+            "repartió las tierras de Asia entre Francia e Inglaterra",
+            "fijó una línea que dividía las zonas de Castilla y de Portugal",
+            "autorizó a elegir gobernador en Asunción"
+          ]
+        }
+      },
+      {
+        "control": "opcion_17_2",
+        "resultado": true,
+        "detalle": {
+          "clave": "a) conocer la dirección del norte aunque no vieran la costa",
+          "opciones": [
+            "conocer la dirección del norte aunque no vieran la costa",
+            "calcular la latitud midiendo la altura de los astros",
+            "avanzar con viento en contra",
+            "medir la profundidad del mar"
+          ]
+        }
+      },
+      {
+        "control": "opcion_17_3",
+        "resultado": true,
+        "detalle": {
+          "clave": "d) el rey concentraba el poder de hacer leyes, juzgar y gobernar",
+          "opciones": [
+            "el pueblo elegía al rey cada cuatro años",
+            "el Cabildo hacía las leyes para América",
+            "el poder se dividía en tres poderes independientes",
+            "el rey concentraba el poder de hacer leyes, juzgar y gobernar"
+          ]
+        }
+      },
+      {
+        "control": "opcion_17_4",
+        "resultado": true,
+        "detalle": {
+          "clave": "b) Alejo García",
+          "opciones": [
+            "Sebastián Gaboto",
+            "Alejo García",
+            "Pedro de Mendoza",
+            "Domingo Martínez de Irala"
+          ]
+        }
+      },
+      {
+        "control": "opcion_17_5",
+        "resultado": true,
+        "detalle": {
+          "clave": "d) despoblar Buenos Aires y concentrar a los españoles en Asunción",
+          "opciones": [
+            "fundar Buenos Aires por primera vez",
+            "trasladar el Cabildo a Buenos Aires",
+            "volver a España con todos los españoles",
+            "despoblar Buenos Aires y concentrar a los españoles en Asunción"
+          ]
+        }
+      },
+      {
+        "control": "opcion_17_6",
+        "resultado": true,
+        "detalle": {
+          "clave": "a) cuando faltaba la autoridad nombrada por el rey",
+          "opciones": [
+            "cuando faltaba la autoridad nombrada por el rey",
+            "cada cuatro años, con el voto de todos los habitantes",
+            "cuando lo pedían los caciques guaraníes",
+            "para reemplazar al virrey del Perú"
+          ]
+        }
+      },
+      {
+        "control": "opciones_distintas_17",
+        "resultado": true,
+        "detalle": [
+          "c",
+          "a",
+          "d",
+          "b",
+          "d",
+          "a"
+        ]
+      },
+      {
+        "control": "secuencia_18",
+        "resultado": true,
+        "detalle": [
+          [
+            0,
+            20
+          ],
+          [
+            20,
+            30
+          ],
+          [
+            30,
+            100
+          ],
+          [
+            100,
+            115
+          ],
+          [
+            115,
+            120
+          ]
+        ]
+      },
+      {
+        "control": "respuestas_18",
+        "resultado": true,
+        "detalle": {
+          "items": [
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8,
+            9,
+            10,
+            11,
+            12,
+            13,
+            14,
+            15,
+            16
+          ],
+          "con_respuesta": [
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8,
+            9,
+            10,
+            11,
+            12,
+            13,
+            14,
+            15,
+            16
+          ]
+        }
+      },
+      {
+        "control": "total_matriz_18",
+        "resultado": true,
+        "detalle": {
+          "total": 28,
+          "declarado": 28
+        }
+      },
+      {
+        "control": "opcion_18_1",
+        "resultado": true,
+        "detalle": {
+          "clave": "b) la arqueología y los restos materiales",
+          "opciones": [
+            "los documentos escritos por los guaraníes",
+            "la arqueología y los restos materiales",
+            "las crónicas de los incas",
+            "las leyes de la Corona de Castilla"
+          ]
+        }
+      },
+      {
+        "control": "opcion_18_2",
+        "resultado": true,
+        "detalle": {
+          "clave": "d) el intercambio recíproco de dones",
+          "opciones": [
+            "la casa comunal de la aldea",
+            "el líder de la aldea",
+            "la tierra donde se cultivaba",
+            "el intercambio recíproco de dones"
+          ]
+        }
+      },
+      {
+        "control": "opcion_18_3",
+        "resultado": true,
+        "detalle": {
+          "clave": "a) quedó al descubierto y unió Asia con América",
+          "opciones": [
+            "quedó al descubierto y unió Asia con América",
+            "era un océano profundo entre Asia y América",
+            "era un territorio del sur de Chile",
+            "era una ciudad del período clásico maya"
+          ]
+        }
+      },
+      {
+        "control": "opcion_18_4",
+        "resultado": true,
+        "detalle": {
+          "clave": "c) quipus, cuerdas anudadas",
+          "opciones": [
+            "códices pintados sobre papel",
+            "tablillas de barro",
+            "quipus, cuerdas anudadas",
+            "monedas de plata"
+          ]
+        }
+      },
+      {
+        "control": "opcion_18_5",
+        "resultado": true,
+        "detalle": {
+          "clave": "a) sus velas triangulares o latinas",
+          "opciones": [
+            "sus velas triangulares o latinas",
+            "sus muchos remeros",
+            "su casco de hierro",
+            "su astrolabio"
+          ]
+        }
+      },
+      {
+        "control": "opcion_18_6",
+        "resultado": true,
+        "detalle": {
+          "clave": "b) preparaba las leyes para América y proponía nombramientos al rey",
+          "opciones": [
+            "gobernaba directamente la ciudad de Asunción",
+            "preparaba las leyes para América y proponía nombramientos al rey",
+            "era el tribunal de justicia de Charcas",
+            "reunía a los caciques guaraníes"
+          ]
+        }
+      },
+      {
+        "control": "opcion_18_7",
+        "resultado": true,
+        "detalle": {
+          "clave": "d) la frontera del Imperio inca",
+          "opciones": [
+            "el Río de la Plata, donde fundó Buenos Aires",
+            "Tenochtitlan, la capital mexica",
+            "la costa del océano Pacífico",
+            "la frontera del Imperio inca"
+          ]
+        }
+      },
+      {
+        "control": "opcion_18_8",
+        "resultado": true,
+        "detalle": {
+          "clave": "c) Asunción",
+          "opciones": [
+            "Buenos Aires",
+            "Lima",
+            "Asunción",
+            "Charcas"
+          ]
+        }
+      },
+      {
+        "control": "opciones_distintas_18",
+        "resultado": true,
+        "detalle": [
+          "b",
+          "d",
+          "a",
+          "c",
+          "a",
+          "b",
+          "d",
+          "c"
+        ]
+      },
+      {
+        "control": "encuadre_B1_Beringia",
+        "resultado": false,
+        "detalle": {
+          "punto": [
+            -168,
+            66
+          ],
+          "encuadre": [
+            -118,
+            -32,
+            -40,
+            34
+          ]
+        }
+      },
+      {
+        "control": "encuadre_B1_Monte Verde",
+        "resultado": false,
+        "detalle": {
+          "punto": [
+            -73.2,
+            -41.5
+          ],
+          "encuadre": [
+            -118,
+            -32,
+            -40,
+            34
+          ]
+        }
+      },
+      {
+        "control": "encuadre_B1_Tikal",
+        "resultado": true,
+        "detalle": {
+          "punto": [
+            -89.6,
+            17.2
+          ],
+          "encuadre": [
+            -118,
+            -32,
+            -40,
+            34
+          ]
+        }
+      },
+      {
+        "control": "encuadre_B1_Tenochtitlan",
+        "resultado": true,
+        "detalle": {
+          "punto": [
+            -99.1,
+            19.4
+          ],
+          "encuadre": [
+            -118,
+            -32,
+            -40,
+            34
+          ]
+        }
+      },
+      {
+        "control": "encuadre_B1_Cuzco",
+        "resultado": true,
+        "detalle": {
+          "punto": [
+            -72,
+            -13.5
+          ],
+          "encuadre": [
+            -118,
+            -32,
+            -40,
+            34
+          ]
+        }
+      }
+    ],
+    "correctos": 83,
+    "fallos": 2,
+    "comparacion_pdf": {
+      "PLANES_BLOQUE_I_A4": [
+        {
+          "pagina": 1,
+          "texto_igual": true,
+          "render_identico": true,
+          "diferencia_media": 0.0
+        },
+        {
+          "pagina": 2,
+          "texto_igual": true,
+          "render_identico": true,
+          "diferencia_media": 0.0
+        },
+        {
+          "pagina": 3,
+          "texto_igual": true,
+          "render_identico": true,
+          "diferencia_media": 0.0
+        },
+        {
+          "pagina": 4,
+          "texto_igual": true,
+          "render_identico": true,
+          "diferencia_media": 0.0
+        },
+        {
+          "pagina": 5,
+          "texto_igual": true,
+          "render_identico": true,
+          "diferencia_media": 0.0
+        },
+        {
+          "pagina": 6,
+          "texto_igual": true,
+          "render_identico": true,
+          "diferencia_media": 0.0
+        },
+        {
+          "pagina": 7,
+          "texto_igual": true,
+          "render_identico": true,
+          "diferencia_media": 0.0
+        },
+        {
+          "pagina": 8,
+          "texto_igual": true,
+          "render_identico": true,
+          "diferencia_media": 0.0
+        },
+        {
+          "pagina": 9,
+          "texto_igual": true,
+          "render_identico": true,
+          "diferencia_media": 0.0
+        },
+        {
+          "pagina": 10,
+          "texto_igual": true,
+          "render_identico": true,
+          "diferencia_media": 0.0
+        },
+        {
+          "pagina": 11,
+          "texto_igual": true,
+          "render_identico": true,
+          "diferencia_media": 0.0
+        },
+        {
+          "pagina": 12,
+          "texto_igual": true,
+          "render_identico": true,
+          "diferencia_media": 0.0
+        },
+        {
+          "pagina": 13,
+          "texto_igual": true,
+          "render_identico": true,
+          "diferencia_media": 0.0
+        },
+        {
+          "pagina": 14,
+          "texto_igual": true,
+          "render_identico": true,
+          "diferencia_media": 0.0
+        },
+        {
+          "pagina": 15,
+          "texto_igual": true,
+          "render_identico": true,
+          "diferencia_media": 0.0
+        },
+        {
+          "pagina": 16,
+          "texto_igual": true,
+          "render_identico": true,
+          "diferencia_media": 0.0
+        },
+        {
+          "pagina": 17,
+          "texto_igual": true,
+          "render_identico": true,
+          "diferencia_media": 0.0
+        },
+        {
+          "pagina": 18,
+          "texto_igual": true,
+          "render_identico": true,
+          "diferencia_media": 0.0
+        },
+        {
+          "pagina": 19,
+          "texto_igual": true,
+          "render_identico": true,
+          "diferencia_media": 0.0
+        },
+        {
+          "pagina": 20,
+          "texto_igual": true,
+          "render_identico": true,
+          "diferencia_media": 0.0
+        }
+      ],
+      "SOLUCIONARIO_BLOQUE_I_A4": [
+        {
+          "pagina": 1,
+          "texto_igual": true,
+          "render_identico": true,
+          "diferencia_media": 0.0
+        },
+        {
+          "pagina": 2,
+          "texto_igual": true,
+          "render_identico": true,
+          "diferencia_media": 0.0
+        },
+        {
+          "pagina": 3,
+          "texto_igual": true,
+          "render_identico": true,
+          "diferencia_media": 0.0
+        },
+        {
+          "pagina": 4,
+          "texto_igual": true,
+          "render_identico": true,
+          "diferencia_media": 0.0
+        },
+        {
+          "pagina": 5,
+          "texto_igual": true,
+          "render_identico": true,
+          "diferencia_media": 0.0
+        },
+        {
+          "pagina": 6,
+          "texto_igual": true,
+          "render_identico": false,
+          "diferencia_media": 0.29294914857188137
+        },
+        {
+          "pagina": 7,
+          "texto_igual": true,
+          "render_identico": true,
+          "diferencia_media": 0.0
+        },
+        {
+          "pagina": 8,
+          "texto_igual": true,
+          "render_identico": true,
+          "diferencia_media": 0.0
+        },
+        {
+          "pagina": 9,
+          "texto_igual": true,
+          "render_identico": true,
+          "diferencia_media": 0.0
+        },
+        {
+          "pagina": 10,
+          "texto_igual": true,
+          "render_identico": false,
+          "diferencia_media": 0.3719650540690444
+        }
+      ],
+      "TOMO_BLOQUE_I_oficio": [
+        {
+          "pagina": 1,
+          "texto_igual": true,
+          "render_identico": false,
+          "diferencia_media": 2.8866455505279034
+        },
+        {
+          "pagina": 2,
+          "texto_igual": true,
+          "render_identico": true,
+          "diferencia_media": 0.0
+        },
+        {
+          "pagina": 3,
+          "texto_igual": true,
+          "render_identico": true,
+          "diferencia_media": 0.0
+        },
+        {
+          "pagina": 4,
+          "texto_igual": true,
+          "render_identico": true,
+          "diferencia_media": 0.0
+        },
+        {
+          "pagina": 5,
+          "texto_igual": true,
+          "render_identico": false,
+          "diferencia_media": 0.5291737556561086
+        },
+        {
+          "pagina": 6,
+          "texto_igual": true,
+          "render_identico": false,
+          "diferencia_media": 0.47827993966817495
+        },
+        {
+          "pagina": 7,
+          "texto_igual": true,
+          "render_identico": false,
+          "diferencia_media": 0.6111031674208145
+        },
+        {
+          "pagina": 8,
+          "texto_igual": true,
+          "render_identico": true,
+          "diferencia_media": 0.0
+        },
+        {
+          "pagina": 9,
+          "texto_igual": true,
+          "render_identico": true,
+          "diferencia_media": 0.0
+        },
+        {
+          "pagina": 10,
+          "texto_igual": true,
+          "render_identico": false,
+          "diferencia_media": 0.5185559577677225
+        },
+        {
+          "pagina": 11,
+          "texto_igual": true,
+          "render_identico": true,
+          "diferencia_media": 0.0
+        },
+        {
+          "pagina": 12,
+          "texto_igual": true,
+          "render_identico": false,
+          "diferencia_media": 0.4325987933634992
+        },
+        {
+          "pagina": 13,
+          "texto_igual": true,
+          "render_identico": true,
+          "diferencia_media": 0.0
+        },
+        {
+          "pagina": 14,
+          "texto_igual": true,
+          "render_identico": true,
+          "diferencia_media": 0.0
+        },
+        {
+          "pagina": 15,
+          "texto_igual": true,
+          "render_identico": true,
+          "diferencia_media": 0.0
+        },
+        {
+          "pagina": 16,
+          "texto_igual": true,
+          "render_identico": false,
+          "diferencia_media": 1.1034666666666666
+        },
+        {
+          "pagina": 17,
+          "texto_igual": true,
+          "render_identico": true,
+          "diferencia_media": 0.0
+        },
+        {
+          "pagina": 18,
+          "texto_igual": true,
+          "render_identico": true,
+          "diferencia_media": 0.0
+        },
+        {
+          "pagina": 19,
+          "texto_igual": true,
+          "render_identico": true,
+          "diferencia_media": 0.0
+        },
+        {
+          "pagina": 20,
+          "texto_igual": true,
+          "render_identico": true,
+          "diferencia_media": 0.0
+        },
+        {
+          "pagina": 21,
+          "texto_igual": true,
+          "render_identico": true,
+          "diferencia_media": 0.0
+        },
+        {
+          "pagina": 22,
+          "texto_igual": true,
+          "render_identico": true,
+          "diferencia_media": 0.0
+        },
+        {
+          "pagina": 23,
+          "texto_igual": true,
+          "render_identico": true,
+          "diferencia_media": 0.0
+        },
+        {
+          "pagina": 24,
+          "texto_igual": true,
+          "render_identico": true,
+          "diferencia_media": 0.0
+        },
+        {
+          "pagina": 25,
+          "texto_igual": true,
+          "render_identico": false,
+          "diferencia_media": 0.21336681749622924
+        },
+        {
+          "pagina": 26,
+          "texto_igual": true,
+          "render_identico": true,
+          "diferencia_media": 0.0
+        },
+        {
+          "pagina": 27,
+          "texto_igual": true,
+          "render_identico": true,
+          "diferencia_media": 0.0
+        },
+        {
+          "pagina": 28,
+          "texto_igual": true,
+          "render_identico": false,
+          "diferencia_media": 0.6843140271493212
+        },
+        {
+          "pagina": 29,
+          "texto_igual": true,
+          "render_identico": true,
+          "diferencia_media": 0.0
+        },
+        {
+          "pagina": 30,
+          "texto_igual": true,
+          "render_identico": true,
+          "diferencia_media": 0.0
+        },
+        {
+          "pagina": 31,
+          "texto_igual": true,
+          "render_identico": false,
+          "diferencia_media": 0.5697031674208145
+        },
+        {
+          "pagina": 32,
+          "texto_igual": true,
+          "render_identico": false,
+          "diferencia_media": 0.4736515837104072
+        },
+        {
+          "pagina": 33,
+          "texto_igual": true,
+          "render_identico": true,
+          "diferencia_media": 0.0
+        },
+        {
+          "pagina": 34,
+          "texto_igual": true,
+          "render_identico": true,
+          "diferencia_media": 0.0
+        },
+        {
+          "pagina": 35,
+          "texto_igual": true,
+          "render_identico": true,
+          "diferencia_media": 0.0
+        },
+        {
+          "pagina": 36,
+          "texto_igual": true,
+          "render_identico": true,
+          "diferencia_media": 0.0
+        },
+        {
+          "pagina": 37,
+          "texto_igual": true,
+          "render_identico": false,
+          "diferencia_media": 0.7371318250377074
+        },
+        {
+          "pagina": 38,
+          "texto_igual": true,
+          "render_identico": false,
+          "diferencia_media": 0.28295625942684766
+        },
+        {
+          "pagina": 39,
+          "texto_igual": true,
+          "render_identico": true,
+          "diferencia_media": 0.0
+        },
+        {
+          "pagina": 40,
+          "texto_igual": true,
+          "render_identico": false,
+          "diferencia_media": 0.262584012066365
+        },
+        {
+          "pagina": 41,
+          "texto_igual": true,
+          "render_identico": true,
+          "diferencia_media": 0.0
+        }
+      ],
+      "PLANES_BLOQUE_II_A4": [
+        {
+          "pagina": 1,
+          "texto_igual": true,
+          "render_identico": true,
+          "diferencia_media": 0.0
+        },
+        {
+          "pagina": 2,
+          "texto_igual": true,
+          "render_identico": true,
+          "diferencia_media": 0.0
+        },
+        {
+          "pagina": 3,
+          "texto_igual": true,
+          "render_identico": true,
+          "diferencia_media": 0.0
+        },
+        {
+          "pagina": 4,
+          "texto_igual": true,
+          "render_identico": true,
+          "diferencia_media": 0.0
+        },
+        {
+          "pagina": 5,
+          "texto_igual": true,
+          "render_identico": true,
+          "diferencia_media": 0.0
+        },
+        {
+          "pagina": 6,
+          "texto_igual": true,
+          "render_identico": true,
+          "diferencia_media": 0.0
+        },
+        {
+          "pagina": 7,
+          "texto_igual": true,
+          "render_identico": true,
+          "diferencia_media": 0.0
+        },
+        {
+          "pagina": 8,
+          "texto_igual": true,
+          "render_identico": true,
+          "diferencia_media": 0.0
+        },
+        {
+          "pagina": 9,
+          "texto_igual": true,
+          "render_identico": true,
+          "diferencia_media": 0.0
+        },
+        {
+          "pagina": 10,
+          "texto_igual": true,
+          "render_identico": true,
+          "diferencia_media": 0.0
+        },
+        {
+          "pagina": 11,
+          "texto_igual": true,
+          "render_identico": true,
+          "diferencia_media": 0.0
+        },
+        {
+          "pagina": 12,
+          "texto_igual": true,
+          "render_identico": true,
+          "diferencia_media": 0.0
+        },
+        {
+          "pagina": 13,
+          "texto_igual": true,
+          "render_identico": true,
+          "diferencia_media": 0.0
+        },
+        {
+          "pagina": 14,
+          "texto_igual": true,
+          "render_identico": true,
+          "diferencia_media": 0.0
+        },
+        {
+          "pagina": 15,
+          "texto_igual": true,
+          "render_identico": true,
+          "diferencia_media": 0.0
+        },
+        {
+          "pagina": 16,
+          "texto_igual": true,
+          "render_identico": true,
+          "diferencia_media": 0.0
+        },
+        {
+          "pagina": 17,
+          "texto_igual": true,
+          "render_identico": true,
+          "diferencia_media": 0.0
+        },
+        {
+          "pagina": 18,
+          "texto_igual": true,
+          "render_identico": true,
+          "diferencia_media": 0.0
+        },
+        {
+          "pagina": 19,
+          "texto_igual": true,
+          "render_identico": true,
+          "diferencia_media": 0.0
+        },
+        {
+          "pagina": 20,
+          "texto_igual": true,
+          "render_identico": true,
+          "diferencia_media": 0.0
+        }
+      ],
+      "SOLUCIONARIO_BLOQUE_II_A4": [
+        {
+          "pagina": 1,
+          "texto_igual": true,
+          "render_identico": true,
+          "diferencia_media": 0.0
+        },
+        {
+          "pagina": 2,
+          "texto_igual": true,
+          "render_identico": true,
+          "diferencia_media": 0.0
+        },
+        {
+          "pagina": 3,
+          "texto_igual": true,
+          "render_identico": true,
+          "diferencia_media": 0.0
+        },
+        {
+          "pagina": 4,
+          "texto_igual": true,
+          "render_identico": true,
+          "diferencia_media": 0.0
+        },
+        {
+          "pagina": 5,
+          "texto_igual": true,
+          "render_identico": true,
+          "diferencia_media": 0.0
+        },
+        {
+          "pagina": 6,
+          "texto_igual": true,
+          "render_identico": true,
+          "diferencia_media": 0.0
+        },
+        {
+          "pagina": 7,
+          "texto_igual": true,
+          "render_identico": true,
+          "diferencia_media": 0.0
+        },
+        {
+          "pagina": 8,
+          "texto_igual": true,
+          "render_identico": false,
+          "diferencia_media": 0.4065613190159744
+        },
+        {
+          "pagina": 9,
+          "texto_igual": true,
+          "render_identico": true,
+          "diferencia_media": 0.0
+        },
+        {
+          "pagina": 10,
+          "texto_igual": true,
+          "render_identico": true,
+          "diferencia_media": 0.0
+        }
+      ],
+      "TOMO_BLOQUE_II_oficio": [
+        {
+          "pagina": 1,
+          "texto_igual": true,
+          "render_identico": false,
+          "diferencia_media": 2.8866455505279034
+        },
+        {
+          "pagina": 2,
+          "texto_igual": true,
+          "render_identico": true,
+          "diferencia_media": 0.0
+        },
+        {
+          "pagina": 3,
+          "texto_igual": true,
+          "render_identico": true,
+          "diferencia_media": 0.0
+        },
+        {
+          "pagina": 4,
+          "texto_igual": true,
+          "render_identico": false,
+          "diferencia_media": 0.5688102564102564
+        },
+        {
+          "pagina": 5,
+          "texto_igual": true,
+          "render_identico": false,
+          "diferencia_media": 0.835374358974359
+        },
+        {
+          "pagina": 6,
+          "texto_igual": true,
+          "render_identico": true,
+          "diferencia_media": 0.0
+        },
+        {
+          "pagina": 7,
+          "texto_igual": true,
+          "render_identico": true,
+          "diferencia_media": 0.0
+        },
+        {
+          "pagina": 8,
+          "texto_igual": true,
+          "render_identico": true,
+          "diferencia_media": 0.0
+        },
+        {
+          "pagina": 9,
+          "texto_igual": true,
+          "render_identico": false,
+          "diferencia_media": 0.468969532428356
+        },
+        {
+          "pagina": 10,
+          "texto_igual": true,
+          "render_identico": false,
+          "diferencia_media": 0.6366977375565611
+        },
+        {
+          "pagina": 11,
+          "texto_igual": true,
+          "render_identico": true,
+          "diferencia_media": 0.0
+        },
+        {
+          "pagina": 12,
+          "texto_igual": true,
+          "render_identico": true,
+          "diferencia_media": 0.0
+        },
+        {
+          "pagina": 13,
+          "texto_igual": true,
+          "render_identico": true,
+          "diferencia_media": 0.0
+        },
+        {
+          "pagina": 14,
+          "texto_igual": true,
+          "render_identico": false,
+          "diferencia_media": 0.9017321266968326
+        },
+        {
+          "pagina": 15,
+          "texto_igual": true,
+          "render_identico": true,
+          "diferencia_media": 0.0
+        },
+        {
+          "pagina": 16,
+          "texto_igual": true,
+          "render_identico": true,
+          "diferencia_media": 0.0
+        },
+        {
+          "pagina": 17,
+          "texto_igual": true,
+          "render_identico": true,
+          "diferencia_media": 0.0
+        },
+        {
+          "pagina": 18,
+          "texto_igual": true,
+          "render_identico": true,
+          "diferencia_media": 0.0
+        },
+        {
+          "pagina": 19,
+          "texto_igual": true,
+          "render_identico": true,
+          "diferencia_media": 0.0
+        },
+        {
+          "pagina": 20,
+          "texto_igual": true,
+          "render_identico": false,
+          "diferencia_media": 0.7954609351432881
+        },
+        {
+          "pagina": 21,
+          "texto_igual": true,
+          "render_identico": false,
+          "diferencia_media": 0.5771725490196079
+        },
+        {
+          "pagina": 22,
+          "texto_igual": true,
+          "render_identico": true,
+          "diferencia_media": 0.0
+        },
+        {
+          "pagina": 23,
+          "texto_igual": true,
+          "render_identico": true,
+          "diferencia_media": 0.0
+        },
+        {
+          "pagina": 24,
+          "texto_igual": true,
+          "render_identico": true,
+          "diferencia_media": 0.0
+        },
+        {
+          "pagina": 25,
+          "texto_igual": true,
+          "render_identico": true,
+          "diferencia_media": 0.0
+        },
+        {
+          "pagina": 26,
+          "texto_igual": true,
+          "render_identico": false,
+          "diferencia_media": 0.2850141779788839
+        },
+        {
+          "pagina": 27,
+          "texto_igual": true,
+          "render_identico": false,
+          "diferencia_media": 0.6646244343891402
+        },
+        {
+          "pagina": 28,
+          "texto_igual": true,
+          "render_identico": true,
+          "diferencia_media": 0.0
+        },
+        {
+          "pagina": 29,
+          "texto_igual": true,
+          "render_identico": true,
+          "diferencia_media": 0.0
+        },
+        {
+          "pagina": 30,
+          "texto_igual": true,
+          "render_identico": true,
+          "diferencia_media": 0.0
+        },
+        {
+          "pagina": 31,
+          "texto_igual": true,
+          "render_identico": true,
+          "diferencia_media": 0.0
+        },
+        {
+          "pagina": 32,
+          "texto_igual": true,
+          "render_identico": true,
+          "diferencia_media": 0.0
+        },
+        {
+          "pagina": 33,
+          "texto_igual": true,
+          "render_identico": true,
+          "diferencia_media": 0.0
+        },
+        {
+          "pagina": 34,
+          "texto_igual": true,
+          "render_identico": true,
+          "diferencia_media": 0.0
+        },
+        {
+          "pagina": 35,
+          "texto_igual": true,
+          "render_identico": false,
+          "diferencia_media": 0.25030346907993967
+        },
+        {
+          "pagina": 36,
+          "texto_igual": true,
+          "render_identico": true,
+          "diferencia_media": 0.0
+        },
+        {
+          "pagina": 37,
+          "texto_igual": true,
+          "render_identico": true,
+          "diferencia_media": 0.0
+        },
+        {
+          "pagina": 38,
+          "texto_igual": true,
+          "render_identico": true,
+          "diferencia_media": 0.0
+        },
+        {
+          "pagina": 39,
+          "texto_igual": true,
+          "render_identico": true,
+          "diferencia_media": 0.0
+        }
+      ]
+    },
+    "comparacion_cinco_mapas": [
+      {
+        "archivo": "eval_u1_mapa.png",
+        "dimensiones": [
+          1062,
+          1190
+        ],
+        "bbox_cambios": [
+          188,
+          954,
+          251,
+          988
+        ],
+        "geometria_superior_80_igual": true
+      },
+      {
+        "archivo": "eval_u1_mapa_clave.png",
+        "dimensiones": [
+          1062,
+          1190
+        ],
+        "bbox_cambios": [
+          188,
+          954,
+          251,
+          988
+        ],
+        "geometria_superior_80_igual": true
+      },
+      {
+        "archivo": "fig_1_3_mapa_orientacion.png",
+        "dimensiones": [
+          1417,
+          1535
+        ],
+        "bbox_cambios": [
+          239,
+          1274,
+          301,
+          1307
+        ],
+        "geometria_superior_80_igual": true
+      },
+      {
+        "archivo": "fig_2_2_regiones.png",
+        "dimensiones": [
+          1299,
+          1455
+        ],
+        "bbox_cambios": [
+          222,
+          1190,
+          284,
+          1224
+        ],
+        "geometria_superior_80_igual": true
+      },
+      {
+        "archivo": "fig_3_1_area_guarani.png",
+        "dimensiones": [
+          1358,
+          1476
+        ],
+        "bbox_cambios": [
+          242,
+          1180,
+          305,
+          1213
+        ],
+        "geometria_superior_80_igual": true
+      }
+    ],
+    "fuera_pagina": 0
+  },
+  "hallazgos": [
+    {
+      "codigo": "BI-01",
+      "archivo": "historia_geografia_7/05_produccion_anual/bloque_1/TOMO_BLOQUE_I_oficio.pdf",
+      "pagina": "36–37; planes 17–18; solucionario 8",
+      "gravedad": "mayor",
+      "descripcion": "La Ficha B-1 no permite ubicar Beringia ni Monte Verde, exigidos en la consigna esencial 1.",
+      "evidencia": "El mapa termina aproximadamente en 34° N y 40° S. scripts/figuras/bloque1.py: mapa_civilizaciones usa marco(-118,-32,-40,34), también en la ficha. Beringia (~168° O,66° N) y Monte Verde (~73,2° O,41,5° S) quedan fuera. Dos pruebas independientes de encuadre fallan.",
+      "causa": "Reutilización de un mapa de civilizaciones para una actividad que además exige poblamiento continental; el control verifica existencia, no encuadre de los lugares pedidos.",
+      "correccion_propuesta": "Ampliar el mapa para incluir los cinco puntos o separar poblamiento y civilizaciones en dos mapas explícitamente disponibles. Ajustar consigna, clave y 30 minutos esenciales del Plan 8; comprobar coordenadas antes de congelar.",
+      "origen": "Nuevo en esta producción",
+      "evidencia_visual": "bloque_1_TOMO_BLOQUE_I_oficio_p37.png"
+    },
+    {
+      "codigo": "BI-02",
+      "archivo": "historia_geografia_7/05_produccion_anual/bloque_1/TOMO_BLOQUE_I_oficio.pdf",
+      "pagina": "38; 32; solucionario 8",
+      "gravedad": "menor",
+      "descripcion": "La cronología rotulada en años d. C. comienza en 0; el solucionario dice que empieza en el año 0, mientras la Clase 1 explica que no existe ese año.",
+      "evidencia": "Contraste tomo p 6 (del 1 a. C. al 1 d. C.) con ejes de Figura 5.2 y Ficha B-2 y clave de consigna 3.",
+      "causa": "Traslado del origen numérico de un gráfico al calendario histórico sin aclaración.",
+      "correccion_propuesta": "Rotular el inicio 1 d. C. o declarar que 0 es solo origen gráfico sin año del calendario; alinear figura, ficha y clave.",
+      "origen": "Nuevo en esta producción",
+      "evidencia_visual": "bloque_1_TOMO_BLOQUE_I_oficio_p38.png"
+    },
+    {
+      "codigo": "BI-03",
+      "archivo": "historia_geografia_7/05_produccion_anual/bloque_1/TOMO_BLOQUE_I_oficio.pdf",
+      "pagina": "28–29; solucionario 6–7",
+      "gravedad": "menor",
+      "descripcion": "La discusión de White Sands queda centrada en 2021 y omite la corroboración independiente publicada en 2023.",
+      "evidencia": "La fuente y F3 piden explicar la duda; la clave permite dejar White Sands aparte. Pigati et al., Science 2023, DOI 10.1126/science.adh 5007: polen terrestre y luminiscencia corroboran 21–23 mil años.",
+      "causa": "Actualización científica incompleta en edición 2026.",
+      "correccion_propuesta": "Añadir la corroboración de 2023 y reformular F3 como evaluación de pruebas y métodos; admitir respuestas que mencionen esa actualización. No afirmar unanimidad académica.",
+      "origen": "Nuevo en esta producción",
+      "evidencia_visual": "bloque_1_TOMO_BLOQUE_I_oficio_p29.png"
+    },
+    {
+      "codigo": "BI-04",
+      "archivo": "historia_geografia_7/05_produccion_anual/bloque_1/SOLUCIONARIO_BLOQUE_I_A4.pdf",
+      "pagina": "9, ítem 13 U2",
+      "gravedad": "menor",
+      "descripcion": "La respuesta modelo enlaza la antigüedad de Monte Verde con la refutación del origen autóctono de Ameghino sin explicar la evidencia pertinente.",
+      "evidencia": "El modelo pasa de un campamento de 14.500 años a «Esto muestra que Ameghino se equivocaba al pensar que la humanidad se originó en América». Esa fecha prueba presencia pre-Clovis; por sí sola no prueba el continente de origen humano.",
+      "causa": "Inferencia causal comprimida en el ejemplo de respuesta.",
+      "correccion_propuesta": "Comparar Monte Verde con una llegada exclusivamente tardía, o fundamentar la refutación de Ameghino en evidencia del origen africano humano y procedencia asiática expuesta en la Clase 4. Conservar los cinco criterios anunciados.",
+      "origen": "Nuevo en esta producción",
+      "evidencia_visual": "bloque_1_TOMO_BLOQUE_I_oficio_p41.png"
+    },
+    {
+      "codigo": "BII-01",
+      "archivo": "historia_geografia_7/05_produccion_anual/bloque_2/SOLUCIONARIO_BLOQUE_II_A4.pdf",
+      "pagina": "10, ítem 15; tomo 38",
+      "gravedad": "mayor",
+      "descripcion": "La respuesta modelo de la integradora rebasa el período que exige la consigna.",
+      "evidencia": "El ítem 15 pide cambios desde 1500 hasta mediados del siglo XVI; el ejemplo termina con la rebelión de Oberá de 1579. Una de las seis unidades de puntaje exige resistencia.",
+      "causa": "La clave usa un ejemplo de toda la Clase 9 sin verificar el límite temporal específico del ítem.",
+      "correccion_propuesta": "Mantener el período y usar resistencia documentada de 1542–1543 o una forma no armada situada en ese período; alternativamente ampliar de forma explícita el período en consigna y criterios. Revalidar la clave sin penalizar respuestas cronológicamente correctas.",
+      "origen": "Nuevo en esta producción",
+      "evidencia_visual": "bloque_2_SOLUCIONARIO_BLOQUE_II_A4_p10.png"
+    },
+    {
+      "codigo": "BII-02",
+      "archivo": "historia_geografia_7/05_produccion_anual/bloque_2/TOMO_BLOQUE_II_oficio.pdf",
+      "pagina": "26; e15.py; CONDICIONES_PRODUCCION.md",
+      "gravedad": "menor",
+      "descripcion": "El segundo fragmento de 1537 no reproduce literalmente la transcripción citada, pese a presentarse «con su ortografía».",
+      "evidencia": "Portal Guaraní imprime «a persona, que, según Dios, y sus conciencias pareciere más suficiente, para el dicho cargo». El tomo imprime «la persona que según Dios y sus conciencias pareciere mas suficiente para el dicho cargo». Cambian artículo, tilde y comas.",
+      "causa": "A19/N04 se marcó cumplida con referencia completa, manteniendo en VERIFICACION la grafía pendiente de cotejo.",
+      "correccion_propuesta": "Restituir literalmente la edición indicada, señalando los cortes con puntos suspensivos, o declarar adaptación y normalización ortográfica/puntuación. No marcar A19 cerrada hasta cotejar ambos fragmentos.",
+      "origen": "Heredado de Muestra 3: A19/N04, parcialmente resuelto",
+      "evidencia_visual": "bloque_2_TOMO_BLOQUE_II_oficio_p26.png"
+    },
+    {
+      "codigo": "BII-03",
+      "archivo": "historia_geografia_7/05_produccion_anual/bloque_2/TOMO_BLOQUE_II_oficio.pdf",
+      "pagina": "22; planes 12; e14.py",
+      "gravedad": "menor",
+      "descripcion": "Tabaré se sitúa solo «hacia 1542» sin distinguir los episodios de Aracaré y Tabaré de 1542–1543 ni identificar una referencia precisa.",
+      "evidencia": "Roulet (1990), Cuadernos Americanos 2(20),205–228, registra ambos episodios 1542/43. La precisión del productor sigue «fechas y lugares habituales; cotejar». No se considera falso el aproximativo «hacia».",
+      "causa": "Síntesis histórica apoyada en una referencia genérica no cerrada.",
+      "correccion_propuesta": "Presentar el ciclo 1542–1543, distinguir a Aracaré y Tabaré y documentar el contexto regional del norte de Asunción (Ypané/Jejuí). Incorporar referencia verificable; admitir ambas fechas contextualizadas.",
+      "origen": "Nuevo en esta producción",
+      "evidencia_visual": "bloque_2_TOMO_BLOQUE_II_oficio_p22.png"
+    },
+    {
+      "codigo": "BII-04",
+      "archivo": "historia_geografia_7/05_produccion_anual/bloque_2/SOLUCIONARIO_BLOQUE_II_A4.pdf",
+      "pagina": "9, ítem 14 integradora",
+      "gravedad": "menor",
+      "descripcion": "La casilla de autoridad agrupa gobernador y encomenderos sin distinguir poder político formal y dominio sobre el trabajo.",
+      "evidencia": "El modelo dice «autoridades españolas (gobernador, encomenderos)»; tomo p 27 y U3 ítem 8 distinguen expresamente encomienda de gobierno de la ciudad.",
+      "causa": "Uso amplio de autoridad social sin explicitar la diferencia institucional enseñada.",
+      "correccion_propuesta": "Indicar gobernador y Cabildo como gobierno colonial; encomenderos como poder económico/social y caciques como intermediarios con persistencias de autoridad local. Aceptar la distinción bien razonada.",
+      "origen": "Nuevo en esta producción",
+      "evidencia_visual": "bloque_2_SOLUCIONARIO_BLOQUE_II_A4_p09.png"
+    },
+    {
+      "codigo": "COM-01",
+      "archivo": "historia_geografia_7/05_produccion_anual/bloque_2/SOLUCIONARIO_BLOQUE_II_A4.pdf",
+      "pagina": "10, matriz integradora; planes 20",
+      "gravedad": "menor",
+      "descripcion": "La matriz muestra cobertura H1–H4, pero no permite calcular el peso exacto de cada capacidad en las filas compartidas.",
+      "evidencia": "Ítem 13: H2,H3,H4=3 puntos; 14 y 15: H1,H3=10 puntos. El Plan 18 afirma que la matriz muestra el peso de cada una. Sumar esos puntos a todas las capacidades duplicaría el total.",
+      "causa": "Se confunde cobertura múltiple con distribución numérica de puntaje.",
+      "correccion_propuesta": "Repartir los subpuntos entre capacidades, o identificar puntaje compartido y retirar la afirmación de peso individual exacto. Mantener total 28 sin doble conteo.",
+      "origen": "Nuevo en esta producción",
+      "evidencia_visual": "bloque_2_SOLUCIONARIO_BLOQUE_II_A4_p10.png"
+    },
+    {
+      "codigo": "COM-02",
+      "archivo": "historia_geografia_7/05_produccion_anual/bloque_1/TOMO_BLOQUE_I_oficio.pdf",
+      "pagina": "16–17,21,29,33; bloque II 6,11,23",
+      "gravedad": "menor",
+      "descripcion": "Varias síntesis y adaptaciones no incluyen edición o localizador suficiente para rehacer el cotejo.",
+      "evidencia": "Fuente A del taller: «bibliografía regional» sin título; esquema guaraní: ejemplo B. Melià sin obra/página; testamento resumido sin edición. La atribución y el tipo de fuente se declaran, pero la trazabilidad bibliográfica es desigual.",
+      "causa": "Referencia abreviada sin bibliografía docente consolidada.",
+      "correccion_propuesta": "Añadir al solucionario una lista breve de ediciones, páginas y enlaces identificables para arqueología regional, Cortés, Colón, Requerimiento, Schmidl, testamento y síntesis guaraníes. Distinguir texto, transcripción, adaptación e interpretación.",
+      "origen": "Heredado parcialmente: A19 en el manejo general de fuentes; extensión nueva",
+      "evidencia_visual": ""
+    },
+    {
+      "codigo": "COM-03",
+      "archivo": "historia_geografia_7/05_produccion_anual/bloque_1/PLANES_BLOQUE_I_A4.pdf",
+      "pagina": "10,16,18,20; bloque II planes 8,18,20; tomo II 39",
+      "gravedad": "menor",
+      "descripcion": "Persisten remanentes cortos de algunos planes y una hoja de autoevaluación con amplio blanco inferior.",
+      "evidencia": "Inspección visual: algunas segundas hojas contienen solo diversidad/precisiones/tarea. La página 39 del tomo II tiene función de autoevaluación, por lo que no se trata como hoja inútil ni se exige igual paginación por clase.",
+      "causa": "Saltos automáticos conservadores con secciones docentes breves al final.",
+      "correccion_propuesta": "Evaluar compactación de cada remanente con la hoja anterior manteniendo letra y encabezados; conservar fichas y espacio de respuesta útiles. La autoevaluación puede compartir espacio si resulta legible. Prioridad menor.",
+      "origen": "Heredado de Muestra 3: A14, parcialmente resuelto",
+      "evidencia_visual": ""
+    }
+  ],
+  "dictamen": {
+    "bloque_I": "NO APTO",
+    "bloque_II": "NO APTO",
+    "conjunto": "NO APTO",
+    "continuidad": "Recomendada con condiciones; autorización final Fernando"
+  },
+  "entregables": [
+    {
+      "archivo": "COMPARACION_MAPAS_BLOQUE_I.md",
+      "bytes": 4259,
+      "sha256": "7b4e8c0b94cf4cdfa15f1a9fa8449633a48ffabef7a76467f89269502f0cc205",
+      "git_blob_sha1": "9f418b60a8cd4521e1b25231d62efd13b2b135aa"
+    },
+    {
+      "archivo": "CONTROL_EVALUACIONES_U1_U2_U3_INTEGRADORA.md",
+      "bytes": 23027,
+      "sha256": "534535a219dd76b686876948b206d5f4b7d4179f85c6d373a3f3de6e173fe84a",
+      "git_blob_sha1": "dd7b1b89361528868de1284336defae6f5f0454f"
+    },
+    {
+      "archivo": "DICTAMEN_INDEPENDIENTE_BLOQUES_I_II.md",
+      "bytes": 47709,
+      "sha256": "9acbf4eeb06d365d5b7c1eba39f02bc00bd41f9001d7a9087bc5186330d226f7",
+      "git_blob_sha1": "c6281858d220e57e40b1e20aeed4b2e83c9f0b6c"
+    },
+    {
+      "archivo": "EVIDENCIAS_VISUALES/bloque_1_SOLUCIONARIO_BLOQUE_I_A4_p07.png",
+      "bytes": 163192,
+      "sha256": "d6764f61c39285c67652d7942e3c39331864c3b1b5db87e7c2ae2db57e90e280",
+      "git_blob_sha1": "b2fa4c348d05a7c44927552ff8c1b7b8327be432"
+    },
+    {
+      "archivo": "EVIDENCIAS_VISUALES/bloque_1_SOLUCIONARIO_BLOQUE_I_A4_p08.png",
+      "bytes": 213020,
+      "sha256": "645173911ce81197596d120402527d60d330ffdea81299eca043972bde0cf78c",
+      "git_blob_sha1": "f8f024acdf910600e1b1fe41e341b7251d73b7d9"
+    },
+    {
+      "archivo": "EVIDENCIAS_VISUALES/bloque_1_SOLUCIONARIO_BLOQUE_I_A4_p09.png",
+      "bytes": 199814,
+      "sha256": "061c9b3c0d6a1d570a010614f3877490576bcdf93fdc88f6a0569ef75f2cdc83",
+      "git_blob_sha1": "67f3c239ee868932fe23b8bc15bda1627571fa08"
+    },
+    {
+      "archivo": "EVIDENCIAS_VISUALES/bloque_1_SOLUCIONARIO_BLOQUE_I_A4_p10.png",
+      "bytes": 135558,
+      "sha256": "78d5f5a336a409614712b9a72d38b185537fe1182038e550dbc3e38fce057e06",
+      "git_blob_sha1": "242613cee927c57defc1814b30e8bd7ac4668d72"
+    },
+    {
+      "archivo": "EVIDENCIAS_VISUALES/bloque_1_TOMO_BLOQUE_I_oficio_p28.png",
+      "bytes": 226336,
+      "sha256": "8a1aaf9a430b32aff3340c64508b054007d9064912a2b44d542588a8bba2532d",
+      "git_blob_sha1": "d83974216e0d8183f6e83badec842071857f59fd"
+    },
+    {
+      "archivo": "EVIDENCIAS_VISUALES/bloque_1_TOMO_BLOQUE_I_oficio_p29.png",
+      "bytes": 181792,
+      "sha256": "17513849fc3c25938d7f9708aaf3cf35c34305ed28b72da62f4e5f1315eed97e",
+      "git_blob_sha1": "0a4c7e1c939f3f6febaf477bcb3c223b307baae6"
+    },
+    {
+      "archivo": "EVIDENCIAS_VISUALES/bloque_1_TOMO_BLOQUE_I_oficio_p36.png",
+      "bytes": 111506,
+      "sha256": "2304fa26ce9926fed2a9bbb089b4810ae287bc5cef1aaa15a62e9e9fccf31935",
+      "git_blob_sha1": "bf57df1aeff09421a4065d5c5b962991814ffedd"
+    },
+    {
+      "archivo": "EVIDENCIAS_VISUALES/bloque_1_TOMO_BLOQUE_I_oficio_p37.png",
+      "bytes": 126970,
+      "sha256": "6ba9f85305dbf32dc96c4793e5d5d277524a153252111c29deea052f380b47ea",
+      "git_blob_sha1": "38a38027b556ac898c33fa589c6f33df106b738a"
+    },
+    {
+      "archivo": "EVIDENCIAS_VISUALES/bloque_1_TOMO_BLOQUE_I_oficio_p38.png",
+      "bytes": 48056,
+      "sha256": "263189e39d343a4a05bc94cf4c7914802570032d117e9893d156ac3eb3b6565c",
+      "git_blob_sha1": "daba71f7e48aa8d638ef80b278bbbd2f7abd4dfe"
+    },
+    {
+      "archivo": "EVIDENCIAS_VISUALES/bloque_1_TOMO_BLOQUE_I_oficio_p41.png",
+      "bytes": 79342,
+      "sha256": "eea77fa307ae5062383ebf0f733473b265c1fb86092f04ff8deef06c588e7fec",
+      "git_blob_sha1": "d3a90108299635201bac97658b26070cadbaae8b"
+    },
+    {
+      "archivo": "EVIDENCIAS_VISUALES/bloque_2_PLANES_BLOQUE_II_A4_p14.png",
+      "bytes": 198242,
+      "sha256": "1d61537be8c9dae641406bb56cc3c489c0f91d79d435f2599155ffd36d4b9c09",
+      "git_blob_sha1": "1918ee4ebea38cfc06f951c9502b3f236df444b6"
+    },
+    {
+      "archivo": "EVIDENCIAS_VISUALES/bloque_2_SOLUCIONARIO_BLOQUE_II_A4_p09.png",
+      "bytes": 168865,
+      "sha256": "357def336382998fa8b48264bd70d5f023e13325208eebf1e9846e074559aa6e",
+      "git_blob_sha1": "34caa133ec47488a3ebb2f93761621367f4fd17f"
+    },
+    {
+      "archivo": "EVIDENCIAS_VISUALES/bloque_2_SOLUCIONARIO_BLOQUE_II_A4_p10.png",
+      "bytes": 136893,
+      "sha256": "f6bbd9bd07a8506f7741dc307c691e37de31483d550d1bb4d22172807a868547",
+      "git_blob_sha1": "e6e175d90b9f473156acfdcdda3a7a666ba37ebc"
+    },
+    {
+      "archivo": "EVIDENCIAS_VISUALES/bloque_2_TOMO_BLOQUE_II_oficio_p22.png",
+      "bytes": 206025,
+      "sha256": "14c1d15bac3380fc3e6dd68b2e54b540e0e06df98c3f3398be03cdc27a1bd1c3",
+      "git_blob_sha1": "61aa4f104bd72e34a249c546d14f79390113587a"
+    },
+    {
+      "archivo": "EVIDENCIAS_VISUALES/bloque_2_TOMO_BLOQUE_II_oficio_p23.png",
+      "bytes": 155543,
+      "sha256": "c65684780bfb1d7e12ecbed6d9f7b88aee63bd7775fef7c1e19f2fd7305c5f62",
+      "git_blob_sha1": "ec71c71a806f689fbee82c44099550708e7ca464"
+    },
+    {
+      "archivo": "EVIDENCIAS_VISUALES/bloque_2_TOMO_BLOQUE_II_oficio_p26.png",
+      "bytes": 173905,
+      "sha256": "ba3679d059eb4c1e68e4378af1deb64a6be91f4f48572f10bbd9b697a9d89a89",
+      "git_blob_sha1": "6bb44ac3bfd3c74651a31794163c45c0c84bc1c8"
+    },
+    {
+      "archivo": "EVIDENCIAS_VISUALES/bloque_2_TOMO_BLOQUE_II_oficio_p38.png",
+      "bytes": 112417,
+      "sha256": "dc68c2a1b92216025df365e3d3321201011d333528c55acf1a892f045ad8712f",
+      "git_blob_sha1": "611f7696255d93a4db8a0361e3a026f50b01f8da"
+    },
+    {
+      "archivo": "EVIDENCIAS_VISUALES/COMPARACION_eval_u1_mapa.png",
+      "bytes": 97560,
+      "sha256": "f1583f88ff1741bdf9a6808fee606b278bc9336271ce9c41c60568e1419a1373",
+      "git_blob_sha1": "de9c6223c071bd6b362eed24a7daed09a4ab5283"
+    },
+    {
+      "archivo": "EVIDENCIAS_VISUALES/COMPARACION_eval_u1_mapa_clave.png",
+      "bytes": 97606,
+      "sha256": "055fae7ccde2db04d6185333b0bafd5e9455352ed2e500fd5d783d16fd663197",
+      "git_blob_sha1": "1a736507c7110c2c5a54444eb7af3f8248f9d4bc"
+    },
+    {
+      "archivo": "EVIDENCIAS_VISUALES/COMPARACION_fig_1_3_mapa_orientacion.png",
+      "bytes": 106656,
+      "sha256": "0e619ebd91463dcb13044feaad84777ddd848142231bf40f08d631e62ced6d81",
+      "git_blob_sha1": "3b2eff00da63173239a6958599bf13125443cae7"
+    },
+    {
+      "archivo": "EVIDENCIAS_VISUALES/COMPARACION_fig_2_2_regiones.png",
+      "bytes": 82695,
+      "sha256": "ce2454f718117e272609c406cf4c02af73921533217a653f0797f190ce4667a8",
+      "git_blob_sha1": "dc542acfc9843172b0dad692b5955c3895fd9100"
+    },
+    {
+      "archivo": "EVIDENCIAS_VISUALES/COMPARACION_fig_3_1_area_guarani.png",
+      "bytes": 123084,
+      "sha256": "8d1feaf74a5ab61cd26884b8871a7c7f3e401e74fed00349303e380af00c7f45",
+      "git_blob_sha1": "41d09d70742033ce843832c7d4504e1dfa76d3cd"
+    },
+    {
+      "archivo": "EVIDENCIAS_VISUALES/GRISES_eval_u1_mapa.png",
+      "bytes": 111251,
+      "sha256": "421187391dcdf8672fae4e591a136df695ba12bfaf387037deff106df9df889f",
+      "git_blob_sha1": "9eb265b73a2638d849b9dd3c8f514f8241843e21"
+    },
+    {
+      "archivo": "EVIDENCIAS_VISUALES/GRISES_eval_u1_mapa_clave.png",
+      "bytes": 148048,
+      "sha256": "c9ccdfae4a93b325372675c15e058f6794a6daf8a84b63f586aa33b9fa8fd9ff",
+      "git_blob_sha1": "552118c1a3bc2b2aff3f61ee67de65f88f28471d"
+    },
+    {
+      "archivo": "EVIDENCIAS_VISUALES/GRISES_fig_1_3_mapa_orientacion.png",
+      "bytes": 211975,
+      "sha256": "2767fb234130a58472f9b0c03bc42f8787d3301c15733468067ccdeae2825287",
+      "git_blob_sha1": "ae9e6c446792dea2287805aaa404326468e08085"
+    },
+    {
+      "archivo": "EVIDENCIAS_VISUALES/GRISES_fig_2_2_regiones.png",
+      "bytes": 168761,
+      "sha256": "953536a2eab98b10694ffb4e8d1eee697624b859847206cee4a331b6be08306b",
+      "git_blob_sha1": "666c00d1de2dfc753247e2da3b499cd681449e92"
+    },
+    {
+      "archivo": "EVIDENCIAS_VISUALES/GRISES_fig_3_1_area_guarani.png",
+      "bytes": 247257,
+      "sha256": "befdb01a8985c4b58d9bfe82c294f6e17f01208b31d9fbe15b467a7a34643144",
+      "git_blob_sha1": "54742703e5aec00752b855cbd2002d05629c41b8"
+    },
+    {
+      "archivo": "HALLAZGOS_BLOQUES_I_II.csv",
+      "bytes": 9071,
+      "sha256": "4e2a4cfaad367d8d6e3d346966269d938f0a681075ad163f38899a89f6cf1dd2",
+      "git_blob_sha1": "f0e303f06e07bbcd1511363766951c69c4f6c3d7"
+    },
+    {
+      "archivo": "RESUMEN_EJECUTIVO_BLOQUES_I_II.pdf",
+      "bytes": 79104,
+      "sha256": "96047bd3a2266ec22e8ba53bfdb5d70ee2fc9d69095c13895eda9f6df87af3cb",
+      "git_blob_sha1": "78b1f2599d6fe7c8ee47fb51e6d8f8f9eacb2327"
+    }
+  ],
+  "drive_carpeta": "1NBbYcUP-qs2Pfme29q-weR_Mvbo20c8w",
+  "drive_evidencias": "1vN9WNo2oTIAvm8JzFYDIpO3ee9kTG4CP",
+  "nota": "El propio manifiesto y la verificación de publicación se verifican externamente para evitar autorreferencia. Fuentes académicas externas son contraste, no nuevas versiones de los materiales."
+}
