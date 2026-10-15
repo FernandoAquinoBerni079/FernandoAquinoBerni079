@@ -31,12 +31,12 @@ Se genera con `scripts/estado.py tabla`. «Sí» indica que el encuentro superó
 | 25 | 3 | Evaluación de la Unidad 4 — Paraguay y América colonial: siglo XVII | evaluacion | H5, H6 | Sí | Sí | Sí | Sí | — |
 | 26 | 3 | Clase 16 — La posición geográfica del Paraguay y de América | clase | G1 | Sí | Sí | Sí | Sí | — |
 | 27 | 3 | Clase 17 — El relieve del Paraguay y de América | clase | G2 | Sí | Sí | Sí | Sí | — |
-| 28 | 4 | Clase 18 | clase | G2 | — | — | — | — | — |
-| 29 | 4 | Continuación F | continuacion | G2 | — | — | — | — | — |
-| 30 | 4 | Evaluación de la Unidad 5 | evaluacion | G1, G2 | — | — | — | — | — |
-| 31 | 4 | Clase 19 | clase | G3 | — | — | — | — | — |
-| 32 | 4 | Clase 20 | clase | G4 | — | — | — | — | — |
-| 33 | 4 | Clase 21 | clase | G4 | — | — | — | — | — |
-| 34 | 4 | Continuación G | continuacion | G3, G4 | — | — | — | — | — |
-| 35 | 4 | Evaluación de la Unidad 6 | evaluacion | G3, G4 | — | — | — | — | — |
-| 36 | 4 | Integradora 2.ª etapa | integradora | H5, H6, G1, G2, G3, G4 | — | — | — | — | — |
+| 28 | 4 | Clase 18 — La hidrografía y la Hidrovía | clase | G2 | Sí | Sí | Sí | Sí | — |
+| 29 | 4 | Continuación F — La Hidrovía: beneficios, impactos y decisiones | continuacion | G2 | Sí | Sí | Sí | Sí | — |
+| 30 | 4 | Evaluación de la Unidad 5 — Posición, relieve e hidrografía | evaluacion | G1, G2 | Sí | Sí | Sí | Sí | — |
+| 31 | 4 | Clase 19 — El clima de Paraguay y de América | clase | G3 | Sí | Sí | Sí | Sí | — |
+| 32 | 4 | Clase 20 — Regiones naturales de Paraguay y América | clase | G4 | Sí | Sí | Sí | Sí | — |
+| 33 | 4 | Clase 21 — La gestión ambiental en el Paraguay | clase | G4 | Sí | Sí | Sí | Sí | — |
+| 34 | 4 | Continuación G — Clima, ecosistemas y gestión ambiental | continuacion | G3, G4 | Sí | Sí | Sí | Sí | — |
+| 35 | 4 | Evaluación de la Unidad 6 — Clima, regiones naturales y ambiente | evaluacion | G3, G4 | Sí | Sí | Sí | Sí | — |
+| 36 | 4 | Evaluación Integradora de la 2.ª etapa — Unidades 4 a 6 | integradora | H5, H6, G1, G2, G3, G4 | Sí | Sí | Sí | Sí | — |

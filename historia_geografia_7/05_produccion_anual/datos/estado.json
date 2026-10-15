@@ -189,66 +189,66 @@
   "aprobado": false
  },
  "28": {
-  "desarrollado": false,
-  "verificado": false,
-  "visual": false,
-  "auditoria": false,
+  "desarrollado": true,
+  "verificado": true,
+  "visual": true,
+  "auditoria": true,
   "aprobado": false
  },
  "29": {
-  "desarrollado": false,
-  "verificado": false,
-  "visual": false,
-  "auditoria": false,
+  "desarrollado": true,
+  "verificado": true,
+  "visual": true,
+  "auditoria": true,
   "aprobado": false
  },
  "30": {
-  "desarrollado": false,
-  "verificado": false,
-  "visual": false,
-  "auditoria": false,
+  "desarrollado": true,
+  "verificado": true,
+  "visual": true,
+  "auditoria": true,
   "aprobado": false
  },
  "31": {
-  "desarrollado": false,
-  "verificado": false,
-  "visual": false,
-  "auditoria": false,
+  "desarrollado": true,
+  "verificado": true,
+  "visual": true,
+  "auditoria": true,
   "aprobado": false
  },
  "32": {
-  "desarrollado": false,
-  "verificado": false,
-  "visual": false,
-  "auditoria": false,
+  "desarrollado": true,
+  "verificado": true,
+  "visual": true,
+  "auditoria": true,
   "aprobado": false
  },
  "33": {
-  "desarrollado": false,
-  "verificado": false,
-  "visual": false,
-  "auditoria": false,
+  "desarrollado": true,
+  "verificado": true,
+  "visual": true,
+  "auditoria": true,
   "aprobado": false
  },
  "34": {
-  "desarrollado": false,
-  "verificado": false,
-  "visual": false,
-  "auditoria": false,
+  "desarrollado": true,
+  "verificado": true,
+  "visual": true,
+  "auditoria": true,
   "aprobado": false
  },
  "35": {
-  "desarrollado": false,
-  "verificado": false,
-  "visual": false,
-  "auditoria": false,
+  "desarrollado": true,
+  "verificado": true,
+  "visual": true,
+  "auditoria": true,
   "aprobado": false
  },
  "36": {
-  "desarrollado": false,
-  "verificado": false,
-  "visual": false,
-  "auditoria": false,
+  "desarrollado": true,
+  "verificado": true,
+  "visual": true,
+  "auditoria": true,
   "aprobado": false
  }
 }

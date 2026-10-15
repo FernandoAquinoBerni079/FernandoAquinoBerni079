@@ -1,0 +1,271 @@
+{
+ "programa": "MEC (2014), Programa de Estudio: Historia y Geografía, 7.º grado, EEB (reproducción, SHA-256 389190d3…c8d27e)",
+ "encuentros": [
+  {
+   "encuentro": 28,
+   "seccion": "Clase 18 — La hidrografía y la Hidrovía",
+   "tipo": "clase",
+   "tipo_vinculo": "Capacidad literal MEC",
+   "capacidades_mec": [
+    "G2"
+   ],
+   "temas_mec": [
+    "G2b",
+    "G2c"
+   ],
+   "ficha_impresa": true,
+   "paginas_tomo": [
+    4,
+    9
+   ],
+   "pendientes_de_verificacion": [
+    [
+     "Afluentes por margen; Acaray, Monday y Ñacunday; central del Acaray",
+     "Cotejar con un atlas del Paraguay (IGM o INE)."
+    ],
+    [
+     "Agua potable de Asunción tomada del río Paraguay; Acuífero Patiño con pozos en el área metropolitana",
+     "Dato habitual (ESSAP); cotejar."
+    ],
+    [
+     "Acuerdo de transporte fluvial de 1992 y extremos Cáceres-Nueva Palmira",
+     "Cotejar el texto del acuerdo."
+    ],
+    [
+     "Pilcomayo: cauce cambiante; Titicaca a más de 3.800 m; Cuenca del Plata, segunda de América del Sur",
+     "Datos de manual; cotejar."
+    ],
+    [
+     "Mapas de ríos (Natural Earth)",
+     "En Natural Earth el río Paraguay figura rotulado «Paraná»; se rotula por ubicación. El Apa no está: se marca su desembocadura."
+    ]
+   ]
+  },
+  {
+   "encuentro": 29,
+   "seccion": "Continuación F — La Hidrovía: beneficios, impactos y decisiones",
+   "tipo": "continuacion",
+   "tipo_vinculo": "Capacidad literal MEC",
+   "capacidades_mec": [
+    "G2"
+   ],
+   "temas_mec": [
+    "G2b",
+    "G2c"
+   ],
+   "ficha_impresa": true,
+   "paginas_tomo": [
+    11,
+    12
+   ],
+   "pendientes_de_verificacion": [
+    [
+     "Ley 294/1993 de evaluación de impacto ambiental; MADES",
+     "Cotejar en la BACN."
+    ],
+    [
+     "Caso de la Ficha F-A",
+     "Caso didáctico ficticio, declarado en la ficha; no usa cifras reales."
+    ]
+   ]
+  },
+  {
+   "encuentro": 30,
+   "seccion": "Evaluación de la Unidad 5 — Posición, relieve e hidrografía",
+   "tipo": "evaluacion",
+   "tipo_vinculo": "Asociación curricular",
+   "capacidades_mec": [
+    "G1",
+    "G2"
+   ],
+   "temas_mec": [],
+   "ficha_impresa": false,
+   "paginas_tomo": [
+    16,
+    19
+   ],
+   "pendientes_de_verificacion": []
+  },
+  {
+   "encuentro": 31,
+   "seccion": "Clase 19 — El clima de Paraguay y de América",
+   "tipo": "clase",
+   "tipo_vinculo": "Capacidad literal MEC",
+   "capacidades_mec": [
+    "G3"
+   ],
+   "temas_mec": [
+    "G3a",
+    "G3b",
+    "G3c"
+   ],
+   "ficha_impresa": true,
+   "paginas_tomo": [
+    20,
+    24
+   ],
+   "pendientes_de_verificacion": [
+    [
+     "Lluvias anuales: unos 1.800 mm en el este y unos 400 mm en el noroeste del Chaco",
+     "Valores redondeados habituales en la bibliografía escolar; cotejar con la DMH."
+    ],
+    [
+     "Temperaturas del Chaco superiores a 40 °C; heladas ocasionales",
+     "Datos habituales; cotejar con la DMH."
+    ],
+    [
+     "Quito a unos 2.800 m",
+     "Dato habitual; cotejar."
+    ],
+    [
+     "El Niño (lluvias e inundaciones) y La Niña (sequías) en el Paraguay",
+     "Relación habitual en la bibliografía; cotejar."
+    ],
+    [
+     "Mapas de las Figuras 19.2 y 19.3",
+     "Esquemas de la editorial, no mapas climáticos medidos."
+    ]
+   ]
+  },
+  {
+   "encuentro": 32,
+   "seccion": "Clase 20 — Regiones naturales de Paraguay y América",
+   "tipo": "clase",
+   "tipo_vinculo": "Capacidad literal MEC",
+   "capacidades_mec": [
+    "G4"
+   ],
+   "temas_mec": [
+    "G4a",
+    "G4b",
+    "G4d"
+   ],
+   "ficha_impresa": true,
+   "paginas_tomo": [
+    25,
+    29
+   ],
+   "pendientes_de_verificacion": [
+    [
+     "Ecosistemas del Paraguay (Chaco Seco, Chaco Húmedo, Pantanal, Cerrado, Bosque Atlántico del Alto Paraná, humedales del Ñeembucú)",
+     "Denominaciones habituales; el MADES tiene una clasificación oficial de ecorregiones que debe cotejarse."
+    ],
+    [
+     "Pérdida de la mayor parte del Bosque Atlántico en el siglo XX; avance del desmonte en el Chaco",
+     "Afirmación cualitativa habitual; cotejar con INFONA o MADES antes de agregar cifras."
+    ],
+    [
+     "Ley de 2004 que prohíbe la conversión de bosques en la Región Oriental (Ley 2524/2004) y sus prórrogas",
+     "Cotejar en la BACN."
+    ],
+    [
+     "Figuras 20.1 y 20.2",
+     "Esquemas de la editorial."
+    ]
+   ]
+  },
+  {
+   "encuentro": 33,
+   "seccion": "Clase 21 — La gestión ambiental en el Paraguay",
+   "tipo": "clase",
+   "tipo_vinculo": "Capacidad literal MEC",
+   "capacidades_mec": [
+    "G4"
+   ],
+   "temas_mec": [
+    "G4c"
+   ],
+   "ficha_impresa": true,
+   "paginas_tomo": [
+    30,
+    33
+   ],
+   "pendientes_de_verificacion": [
+    [
+     "Constitución, art. 7 (primera oración, cita textual) y art. 8 (síntesis)",
+     "Cotejar con la edición oficial (BACN)."
+    ],
+    [
+     "MADES (2018, sobre la base de la SEAM, creada en 2000); INFONA",
+     "Leyes 6123/2018, 1561/2000 y 3464/2008 según la bibliografía; cotejar."
+    ],
+    [
+     "Leyes 294/1993, 352/1994, 716/1996 y 2524/2004 (y prórrogas)",
+     "Cotejar números, años, contenido y vigencia en la BACN."
+    ],
+    [
+     "Parques nacionales Defensores del Chaco e Ybycuí",
+     "Cotejar en el registro del MADES."
+    ]
+   ]
+  },
+  {
+   "encuentro": 34,
+   "seccion": "Continuación G — Clima, ecosistemas y gestión ambiental",
+   "tipo": "continuacion",
+   "tipo_vinculo": "Capacidad literal MEC",
+   "capacidades_mec": [
+    "G3",
+    "G4"
+   ],
+   "temas_mec": [
+    "G3b",
+    "G4b",
+    "G4c"
+   ],
+   "ficha_impresa": true,
+   "paginas_tomo": [
+    34,
+    36
+   ],
+   "pendientes_de_verificacion": [
+    [
+     "Caso del taller",
+     "Caso didáctico ficticio, declarado en el tomo."
+    ],
+    [
+     "Normas e instituciones citadas en la solución",
+     "Las de la Clase 21; cotejar en la BACN."
+    ]
+   ]
+  },
+  {
+   "encuentro": 35,
+   "seccion": "Evaluación de la Unidad 6 — Clima, regiones naturales y ambiente",
+   "tipo": "evaluacion",
+   "tipo_vinculo": "Asociación curricular",
+   "capacidades_mec": [
+    "G3",
+    "G4"
+   ],
+   "temas_mec": [],
+   "ficha_impresa": false,
+   "paginas_tomo": [
+    38,
+    40
+   ],
+   "pendientes_de_verificacion": []
+  },
+  {
+   "encuentro": 36,
+   "seccion": "Evaluación Integradora de la 2.ª etapa — Unidades 4 a 6",
+   "tipo": "integradora",
+   "tipo_vinculo": "Asociación curricular",
+   "capacidades_mec": [
+    "H5",
+    "H6",
+    "G1",
+    "G2",
+    "G3",
+    "G4"
+   ],
+   "temas_mec": [],
+   "ficha_impresa": false,
+   "paginas_tomo": [
+    41,
+    43
+   ],
+   "pendientes_de_verificacion": []
+  }
+ ]
+}
