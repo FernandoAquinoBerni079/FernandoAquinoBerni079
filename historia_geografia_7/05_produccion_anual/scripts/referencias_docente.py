@@ -44,7 +44,7 @@ REFERENCIAS = [
     ('Antonio Ruiz de Montoya, Conquista espiritual, 1639 (Clase 13 y Continuación E)',
      'ISARM: «Antonio Ruiz de Montoya y su legado» (infomontoya.isparm.edu.ar). Exilio de 1631, obra y contexto.',
      'Versión escolar', 'Contexto identificado; paráfrasis por cotejar con la edición de 1639'),
-    ('Santo Tomás de Aquino (Clase 14)', 'Fragmento resumido.', 'Versión escolar', 'Edición por cotejar'),
+    ('Fray Domingo de Santo Tomás, carta de 1550 sobre Potosí (Clase 14)', 'Carta al Consejo de Indias (1550). Fragmento resumido; solo «boca del infierno» va entre comillas.', 'Versión escolar', 'Edición por cotejar'),
     ('Olaudah Equiano (Clase 15)',
      'Equiano, O. (1789). The Interesting Narrative, cap. 2 (extracto en history.hanover.edu). El tomo indica que el texto '
      'es posterior a los hechos.',

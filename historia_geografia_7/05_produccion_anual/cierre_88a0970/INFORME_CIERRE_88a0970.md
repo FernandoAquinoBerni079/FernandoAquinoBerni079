@@ -91,7 +91,7 @@ Las figuras de los Bloques I y IV son idénticas byte a byte a las del volumen a
 ## 5. Limitaciones y pendientes, sin ocultar
 
 - **COM-02 (parcial).** Varias fuentes quedan marcadas «edición por cotejar»:
-  - Colón, Cortés, el Requerimiento, Schmidl, el testamento de Irala y Santo Tomás;
+  - Colón, Cortés, el Requerimiento, Schmidl, el testamento de Irala y la carta de fray Domingo de Santo Tomás (1550);
   - la síntesis arqueológica y la etnohistórica;
   - el cotejo paleográfico de la Real Provisión.
   No se inventaron ediciones ni páginas. Antes de una edición comercial hay que cotejarlas con una edición identificada.
@@ -100,10 +100,24 @@ Las figuras de los Bloques I y IV son idénticas byte a byte a las del volumen a
 - **Impresión.** No se hizo una prueba de impresión física ni una simulación de imprenta.
 - **Programa del MEC.** El cotejo contra la edición del programa del MEC (tarea 39) sigue pendiente y es independiente de este cierre.
 
-## 6. Manifiesto
+## 6. Errata posterior a 041c44f
+
+En la revisión del commit `041c44f`, Fernando detectó una errata en las «Referencias para el docente». La fila de la Clase 14 decía «Santo Tomás de Aquino», pero la fuente que usa `e23.py` es la carta de 1550 de fray Domingo de Santo Tomás al Consejo de Indias, sobre Potosí. Se corrigió solo esa atribución en `scripts/referencias_docente.py`; la fuente sigue como «Versión escolar» y «Edición por cotejar».
+
+Se regeneró únicamente el solucionario anual en DOCX y PDF, junto con su copia liviana. Las «Referencias para el docente» solo están en el volumen anual, así que no hacía falta tocar los solucionarios de los bloques ni los demás documentos.
+
+- La paginación se mantiene en 41 páginas.
+- Al comparar el texto página por página con la versión anterior, solo cambia la fila corregida de la página 41.
+- Verificador anual: 6389 controles correctos, 0 fallos.
+- Cotejo de hallazgos: 33 controles correctos, 0 fallos.
+- Se revisó la página 41 a la vista.
+
+COM-02 y COM-03 siguen como observaciones parciales.
+
+## 7. Manifiesto
 
 `MANIFIESTO_SHA256.txt` lista el SHA-256 de cada DOCX y PDF regenerado (bloques y anual) y de los documentos de cierre.
 
-## 7. Decisión
+## 8. Decisión
 
 Esta es una versión candidata. La aprobación final corresponde a Fernando.
