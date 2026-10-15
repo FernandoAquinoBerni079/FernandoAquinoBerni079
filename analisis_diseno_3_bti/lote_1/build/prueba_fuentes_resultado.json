@@ -1,0 +1,59 @@
+[
+ {
+  "fuente": "Carlito",
+  "documento": "ADS_3BTI_LOTE1_ESTUDIANTE",
+  "paginas": 56,
+  "vacias": [],
+  "renglones_sueltos": [],
+  "fuente_aplicada": true,
+  "evaluaciones_en_pagina_propia": true,
+  "resultado": "correcto"
+ },
+ {
+  "fuente": "Carlito",
+  "documento": "ADS_3BTI_LOTE1_GUIA_DOCENTE",
+  "paginas": 19,
+  "vacias": [],
+  "renglones_sueltos": [],
+  "fuente_aplicada": true,
+  "resultado": "correcto"
+ },
+ {
+  "fuente": "Liberation Sans",
+  "documento": "ADS_3BTI_LOTE1_ESTUDIANTE",
+  "paginas": 57,
+  "vacias": [],
+  "renglones_sueltos": [],
+  "fuente_aplicada": true,
+  "evaluaciones_en_pagina_propia": true,
+  "resultado": "correcto"
+ },
+ {
+  "fuente": "Liberation Sans",
+  "documento": "ADS_3BTI_LOTE1_GUIA_DOCENTE",
+  "paginas": 19,
+  "vacias": [],
+  "renglones_sueltos": [],
+  "fuente_aplicada": true,
+  "resultado": "correcto"
+ },
+ {
+  "fuente": "DejaVu Sans",
+  "documento": "ADS_3BTI_LOTE1_ESTUDIANTE",
+  "paginas": 61,
+  "vacias": [],
+  "renglones_sueltos": [],
+  "fuente_aplicada": true,
+  "evaluaciones_en_pagina_propia": true,
+  "resultado": "correcto"
+ },
+ {
+  "fuente": "DejaVu Sans",
+  "documento": "ADS_3BTI_LOTE1_GUIA_DOCENTE",
+  "paginas": 19,
+  "vacias": [],
+  "renglones_sueltos": [],
+  "fuente_aplicada": true,
+  "resultado": "correcto"
+ }
+]

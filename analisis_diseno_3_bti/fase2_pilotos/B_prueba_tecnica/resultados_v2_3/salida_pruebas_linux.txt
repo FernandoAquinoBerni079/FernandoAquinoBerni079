@@ -1,0 +1,37 @@
+Entorno: Linux 6.18.44-fc-v114, PHP 8.3.6 (cli) (built: Jul 16 2026 18:30:41) (NTS), SQLite 3.45.1
+Fecha: 2026-10-15T16:40Z
+
+== php pruebas/prueba_marca_huerfana.php
+CORRECTO Falta el disparador del historial (RN-05): no se retira la marca (código 2)
+
+Resultado: 19 de 19 correctos
+
+== php pruebas/prueba_mantenimiento.php
+CORRECTO Sin la marca, el catálogo vuelve a responder 200
+
+Resultado: 30 de 30 correctas
+
+== php pruebas/prueba_respaldo.php
+CORRECTO Restaurar el respaldo previo devuelve los 4 préstamos
+
+Resultado: 18 de 18 correctas
+
+== php pruebas/prueba_garantias.php
+Integridad  Ejemplar inexistente desde una conexión SIN foreign_keys      Solo PHP  Solo PHP
+
+Resultado: 14 de 14 clasificaciones confirmadas
+
+== php pruebas/prueba_reglas.php
+CORRECTO Tildes y ñ se guardan y se leen iguales
+
+Resultado: 37 de 37 correctas
+
+== php pruebas/prueba_carrera.php
+  10 × RN-02: REGISTRADO
+
+Resultado: 10 de 10 correctas
+
+== bash pruebas/prueba_http.sh
+CORRECTO El servidor no registró errores de PHP
+
+Resultado: 32 de 32 correctas

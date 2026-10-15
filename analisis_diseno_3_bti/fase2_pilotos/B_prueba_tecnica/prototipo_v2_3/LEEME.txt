@@ -1,0 +1,36 @@
+Prototipo técnico v2.3 — Sistema de Gestión de Biblioteca Escolar (Fase 2, piloto B)
+
+1. Comprobá el entorno:         php verificar_entorno.php
+2. Creá la base de ejemplo:     php instalar.php
+   (anotá la clave de la cuenta «bibliotecaria» que muestra al terminar)
+3. Iniciá el servidor local:    php -S localhost:8000 -t public
+4. Abrí el navegador en:        http://localhost:8000
+5. Respaldo verificado:         php respaldar.php
+6. Restaurar un respaldo:       detené el servidor (Ctrl+C) y copiá el archivo de datos/respaldos/
+                                sobre datos/biblioteca.sqlite (si existen biblioteca.sqlite-wal o
+                                biblioteca.sqlite-shm, borralos antes de copiar)
+
+El instalador no borra una base existente. Para empezar de cero: php instalar.php --reiniciar
+Antes: detené el servidor (Ctrl+C) y cerrá cualquier otro programa que tenga la base abierta.
+El reinicio es un mantenimiento controlado (src/mantenimiento.php):
+ - mientras dura, el sistema responde «en mantenimiento» y no abre conexiones nuevas;
+ - espera hasta 5 segundos a que terminen las operaciones en curso; si alguna sigue, se niega
+   y no toca nada (si la base está en modo WAL, se niega mientras haya otra conexión abierta);
+ - guarda un respaldo consistente y verificado, y reinicia la base dentro del mismo archivo.
+Si un corte de energía deja el archivo datos/biblioteca.sqlite.mantenimiento, NO lo borres a mano:
+ 1. detené el servidor (Ctrl+C) y no abras la base con otros programas;
+ 2. php retirar_marca.php             (diagnóstico: guarda una copia en datos/incidentes/ y no cambia nada)
+ 3. php retirar_marca.php --retirar   (retira la marca solo si la base pasó todas las comprobaciones)
+Si la base no pasa las comprobaciones, la marca queda puesta: seguí el procedimiento de restauración
+(PROCEDIMIENTO_RETIRO_MARCA_MANTENIMIENTO.md, en la carpeta B_prueba_tecnica).
+
+No copies ni muevas el archivo de la base con otros programas mientras esté abierta: usá respaldar.php.
+
+Pruebas automáticas (para el docente):
+   php pruebas/prueba_reglas.php
+   php pruebas/prueba_carrera.php
+   php pruebas/prueba_respaldo.php
+   php pruebas/prueba_mantenimiento.php
+   php pruebas/prueba_marca_huerfana.php   (solo Linux: simula cortes con SIGKILL)
+   php pruebas/prueba_garantias.php
+   bash pruebas/prueba_http.sh      (requiere bash y curl; en Windows, Git Bash)

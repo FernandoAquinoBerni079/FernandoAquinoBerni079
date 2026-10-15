@@ -1,0 +1,245 @@
+{
+ "fase2_pilotos/B_prueba_tecnica/ADENDA_PRUEBA_TECNICA_v2_3.md": {
+  "sha256": "373f2bed271a84fd9b1b45b11d62f01777b1876063285fd4cf33ab6f9ea2e47d",
+  "bytes": 1517
+ },
+ "fase2_pilotos/B_prueba_tecnica/PROCEDIMIENTO_RETIRO_MARCA_MANTENIMIENTO.md": {
+  "sha256": "514165f71129720de6752c7645f8282e097099ba692d70162080e6d9b65d5881",
+  "bytes": 7733
+ },
+ "fase2_pilotos/B_prueba_tecnica/PRUEBAS_PENDIENTES_CAMPO.md": {
+  "sha256": "358d687edd65d9f0c4438ce6142743ccf719cf888596b76f963b5d46b768b98f",
+  "bytes": 3875
+ },
+ "fase2_pilotos/B_prueba_tecnica/prototipo_v2_3/LEEME.txt": {
+  "sha256": "b8ab71651930d82524bef969e32035e550953b5e24285e9aa811c6921e27caf3",
+  "bytes": 2413
+ },
+ "fase2_pilotos/B_prueba_tecnica/prototipo_v2_3/datos/.gitkeep": {
+  "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+  "bytes": 0
+ },
+ "fase2_pilotos/B_prueba_tecnica/prototipo_v2_3/datos/respaldos/.gitkeep": {
+  "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+  "bytes": 0
+ },
+ "fase2_pilotos/B_prueba_tecnica/prototipo_v2_3/instalar.php": {
+  "sha256": "46af4ca07bedecdcd916469c9d4650f28e09e5d041a7ae0f0d7b35e2896af408",
+  "bytes": 4706
+ },
+ "fase2_pilotos/B_prueba_tecnica/prototipo_v2_3/pruebas/_corte.php": {
+  "sha256": "38a5ffd00618c90a47412b6746867b9500193665558f8dc9011f60883e5545b6",
+  "bytes": 1871
+ },
+ "fase2_pilotos/B_prueba_tecnica/prototipo_v2_3/pruebas/_trabajador.php": {
+  "sha256": "fc5a0831483901b14a59a0252dc261e9968ddd617c5977cd615ab5dd930415d4",
+  "bytes": 473
+ },
+ "fase2_pilotos/B_prueba_tecnica/prototipo_v2_3/pruebas/prueba_carrera.php": {
+  "sha256": "f3c509b9571e9b95651bc1a950809bf97c50184b67cc3dc4b7180f3b3ba7ebe3",
+  "bytes": 3755
+ },
+ "fase2_pilotos/B_prueba_tecnica/prototipo_v2_3/pruebas/prueba_garantias.php": {
+  "sha256": "0997d61a47f5ba465854c1506cef7ae1c90e419da2d87fbecec7bbf817ddc337",
+  "bytes": 4675
+ },
+ "fase2_pilotos/B_prueba_tecnica/prototipo_v2_3/pruebas/prueba_http.sh": {
+  "sha256": "1655cfbd99b371d43e92b43795acacf5fb0e6020980385612b7ab210a4debd4b",
+  "bytes": 9456
+ },
+ "fase2_pilotos/B_prueba_tecnica/prototipo_v2_3/pruebas/prueba_mantenimiento.php": {
+  "sha256": "e66530fa04831a2f7cb209acac5057298f64736d56fa3ef40407343af5e695ff",
+  "bytes": 9954
+ },
+ "fase2_pilotos/B_prueba_tecnica/prototipo_v2_3/pruebas/prueba_marca_huerfana.php": {
+  "sha256": "3cc123ade5120a25caa514534be937137013232d7cfb736e8c905da4d06d008d",
+  "bytes": 7869
+ },
+ "fase2_pilotos/B_prueba_tecnica/prototipo_v2_3/pruebas/prueba_reglas.php": {
+  "sha256": "41721071720b3e2ab793f17ec0631c904b19a33a9e6978dc3452d2fea59bd02c",
+  "bytes": 6626
+ },
+ "fase2_pilotos/B_prueba_tecnica/prototipo_v2_3/pruebas/prueba_respaldo.php": {
+  "sha256": "40d52c95339031284eb5b73ffffbe155c832f6b7ca0e35992bdda83afe983613",
+  "bytes": 6964
+ },
+ "fase2_pilotos/B_prueba_tecnica/prototipo_v2_3/pruebas/reproducir_defecto_v2.php": {
+  "sha256": "b5efd819e805ca7311cc136eefa02b6e91ee84e1e4308e2e784ca5fdf385414d",
+  "bytes": 1122
+ },
+ "fase2_pilotos/B_prueba_tecnica/prototipo_v2_3/pruebas/reproducir_defecto_v2_1.php": {
+  "sha256": "b2936030b6ae1dec9856eaccc3fd56d89e4671da153f7033b7ee4c6d739e2b5b",
+  "bytes": 1721
+ },
+ "fase2_pilotos/B_prueba_tecnica/prototipo_v2_3/public/_plantilla.php": {
+  "sha256": "668389dffb788d43bff37eb68ddcf9c9e2ed0e6de6705988f143cd3aafbbfc58",
+  "bytes": 981
+ },
+ "fase2_pilotos/B_prueba_tecnica/prototipo_v2_3/public/index.php": {
+  "sha256": "418f9fe13504250430330e83d745f476748b4fbd7c12447cf3b8f9cc6e5dcd47",
+  "bytes": 887
+ },
+ "fase2_pilotos/B_prueba_tecnica/prototipo_v2_3/public/login.php": {
+  "sha256": "d3280f2ed9a466299afa59e2abaf73a475c6594363b19d47e7542d1bb3cfc847",
+  "bytes": 929
+ },
+ "fase2_pilotos/B_prueba_tecnica/prototipo_v2_3/public/operaciones.php": {
+  "sha256": "962b8ab68532e97f43d2c3a36a296e9c3a88ee6c181643281aa972680961e766",
+  "bytes": 3611
+ },
+ "fase2_pilotos/B_prueba_tecnica/prototipo_v2_3/public/salir.php": {
+  "sha256": "39227aa104b768fce0c22c11c58a76dfedc8c038aaf6e230cc774d002c3272d7",
+  "bytes": 144
+ },
+ "fase2_pilotos/B_prueba_tecnica/prototipo_v2_3/respaldar.php": {
+  "sha256": "af1dd2d4cf79220a14d7ed7d6b597db2bb49aed6f1456e67b481e05b6ca4a5a8",
+  "bytes": 757
+ },
+ "fase2_pilotos/B_prueba_tecnica/prototipo_v2_3/retirar_marca.php": {
+  "sha256": "6c4fd1d5ecaee246f8b8fd5caf44fff7769343c4174f59547fa0654a848b368d",
+  "bytes": 10516
+ },
+ "fase2_pilotos/B_prueba_tecnica/prototipo_v2_3/src/auth.php": {
+  "sha256": "39ab25dd22e3a0e4da4edb15a81fb4ecae35e382f94d3224ce6543f650ba14df",
+  "bytes": 1817
+ },
+ "fase2_pilotos/B_prueba_tecnica/prototipo_v2_3/src/db.php": {
+  "sha256": "4724cdfe3fcb2732f9e85713022c9f2e06d7d453321982909d04a5e320cd7188",
+  "bytes": 11700
+ },
+ "fase2_pilotos/B_prueba_tecnica/prototipo_v2_3/src/mantenimiento.php": {
+  "sha256": "b2e82db5216021d8a272c727a4f25fe52698ca600678d2938666acf3ff7c9f77",
+  "bytes": 6483
+ },
+ "fase2_pilotos/B_prueba_tecnica/prototipo_v2_3/src/respaldo.php": {
+  "sha256": "5c3be72ff1279b60707884b1d61d754d6a7a1667b3df3cb99cf37b1d0ae0387c",
+  "bytes": 2429
+ },
+ "fase2_pilotos/B_prueba_tecnica/prototipo_v2_3/verificar_entorno.php": {
+  "sha256": "43d1f98a0d924bf71aa798dc93c5c297d259bb913b73c25fab4099b3b82b3893",
+  "bytes": 1472
+ },
+ "fase2_pilotos/B_prueba_tecnica/resultados_v2_3/salida_pruebas_linux.txt": {
+  "sha256": "0c67f17a05cc70a747be1a65cb53ce2a45183285653fadeeee9ad5b1107df9e6",
+  "bytes": 1044
+ },
+ "lote_1/ADS_3BTI_LOTE1_ESTUDIANTE.docx": {
+  "sha256": "333e9baad26b8c21860fc3ab0d97d53da02ce2525019c48c37b0438cd245f8e7",
+  "bytes": 468587
+ },
+ "lote_1/ADS_3BTI_LOTE1_ESTUDIANTE.pdf": {
+  "sha256": "4b41eeae22e92ce7d55fc4ba02d9d1378b0390b9e05bcadf48376ddb52864aa8",
+  "bytes": 1179252
+ },
+ "lote_1/ADS_3BTI_LOTE1_GUIA_DOCENTE.docx": {
+  "sha256": "8c8741d0b5f50eeeb5d0d5a97ee2e22dbb3714c643adbd57622895bb1a6bff1e",
+  "bytes": 60546
+ },
+ "lote_1/ADS_3BTI_LOTE1_GUIA_DOCENTE.pdf": {
+  "sha256": "2aa150644168471675309f2aaf05a039b6ec6fdfb645d956c0c7bb27479f9ac0",
+  "bytes": 398083
+ },
+ "lote_1/build/cap1.py": {
+  "sha256": "757bc9f7828518533ab8fdf419b0e55478be93729d67697ee57e6a5acb3a63a8",
+  "bytes": 33323
+ },
+ "lote_1/build/cap2.py": {
+  "sha256": "e3d1a05ca0b460eb9b19cd31dc4bbf5e4942fd2fd836bc86e2929bb14511fc69",
+  "bytes": 41076
+ },
+ "lote_1/build/cap3.py": {
+  "sha256": "3ac9060a19a052f796575ef4c5117c849d2355637f579909f2eb1a7a9ce4ff45",
+  "bytes": 40451
+ },
+ "lote_1/build/comun.py": {
+  "sha256": "cddcd0750cf315362ea9cdab05936794b167ceeba0488005b16a66dd78a0407e",
+  "bytes": 6894
+ },
+ "lote_1/build/construir.py": {
+  "sha256": "c8f1abe96be34c0f9cec0068b32cc3022b8d669582119a9a83ab0cd2d2bbcfc0",
+  "bytes": 14840
+ },
+ "lote_1/build/diagramas.py": {
+  "sha256": "c939700b4a5381041c1c944e32f9bec980e65cf02a86d06976cf1c9a6b9d13fc",
+  "bytes": 9978
+ },
+ "lote_1/build/figs/fig_1_1_sistema_prestamos.png": {
+  "sha256": "c60e54ae698e8cdf25cc556345cf9c9d267cd4f50e37878c25b21e0f42fd61db",
+  "bytes": 129664
+ },
+ "lote_1/build/figs/fig_1_2_mapa_interesados.png": {
+  "sha256": "03215bb4bd29db61f92ad92c81d35be2da8c938fa6a63bf97a72799a449dfdbb",
+  "bytes": 71664
+ },
+ "lote_1/build/figs/fig_2_1_proceso_relevamiento.png": {
+  "sha256": "9a6c0ec4924cdf51e8684b652ec0a1b7af768a0b739ce23d496068f123de9821",
+  "bytes": 81442
+ },
+ "lote_1/build/figs/fig_2_2_contraste_fuentes.png": {
+  "sha256": "0d1e98beb31153accb4034d8d22c4c933e06c13752d5c6d68218969a4c78aae4",
+  "bytes": 87869
+ },
+ "lote_1/build/figs/fig_3_1_mapa_riesgos.png": {
+  "sha256": "90607b7f24c8a6f64038ef1653e49f475ceee6d20cfa18d7db0105271a406160",
+  "bytes": 42091
+ },
+ "lote_1/build/guia.py": {
+  "sha256": "77c069b2118e5d21da142294e6026b0c66dc342f7bfa1fad57eea016865a4d84",
+  "bytes": 36972
+ },
+ "lote_1/build/helpers.py": {
+  "sha256": "7f38e0edc2a5d93266c3c74c9cd9e5bd8dca9559fc965e78526a617b72826f99",
+  "bytes": 16123
+ },
+ "lote_1/build/maqueta.py": {
+  "sha256": "61326d9ad081424148f02b605c53b69db3cf913d0bce3cbdffeb287f2f317c5c",
+  "bytes": 5862
+ },
+ "lote_1/build/prelim.py": {
+  "sha256": "4cd0932b638d70753f6639af6b6052e65fc1e3ba003e854dff1efd9a81ee602a",
+  "bytes": 12335
+ },
+ "lote_1/build/prueba_fuentes.py": {
+  "sha256": "801fb2b33a382e7a4abb1212f361b35cd315ddabdf1ac9d40d37b8a243f558d5",
+  "bytes": 3302
+ },
+ "lote_1/build/prueba_fuentes_resultado.json": {
+  "sha256": "ba15db77502ead750afa89a3ea2babc050f3e8e675362de6ab420fc3d11d3764",
+  "bytes": 1277
+ },
+ "lote_1/build/resultado_construccion.json": {
+  "sha256": "3ccaba9e74cd6a19c3f669575b223a20b72406822880f28e4956cd41c5e664bf",
+  "bytes": 7404
+ },
+ "lote_1/build/verificacion_resultado.json": {
+  "sha256": "b9e964ba6399cd8c79b1050af0f499de22d6eaf255d647de2e1c515251987c36",
+  "bytes": 310
+ },
+ "lote_1/build/verificacion_resultado.txt": {
+  "sha256": "2113fd4bcbc92a09eb3a5187be6ddd1f190e2255ec064b8f3491aac8fd616a39",
+  "bytes": 9436
+ },
+ "lote_1/build/verificar.py": {
+  "sha256": "67398a27bbe255efe43db26eeb8301fc6f40cba747cc59b00c05256167b3b6e5",
+  "bytes": 19218
+ },
+ "lote_1/caso/dossier.py": {
+  "sha256": "fa658775836e7649250271e76ea567e55feba9f1a6832be445e1db614a6b12e8",
+  "bytes": 21388
+ },
+ "lote_1/caso/mbokaja.py": {
+  "sha256": "3f88c967c823faccc48bbe3345ae84513eb3d23de65334b20c4f69235ae35b95",
+  "bytes": 7220
+ },
+ "lote_1/caso/verificacion_caso_resultado.txt": {
+  "sha256": "aaa8d3da7223ae5c3fd560b645c70453618542bfa02c72027b2e93514e8b3ef7",
+  "bytes": 8490
+ },
+ "lote_1/caso/verificar_caso.py": {
+  "sha256": "b73d79354f9960dfd5ef89fd5333fb3cffb04205bcdcafca971918bc7fc14bef",
+  "bytes": 7954
+ },
+ "_fuentes_externas": {
+  "Informe de Work v0.1 (no se sube al repositorio)": "3d4f5ab9daf3329f0dd34b13bc30b7001cb8e65780262c536346dbbea065069a"
+ }
+}

@@ -1,0 +1,109 @@
+CORRECTO A. 72 líneas de registro con código único
+CORRECTO A. D0: códigos D0-1 a D0-6 correlativos
+CORRECTO A. D0: contexto con fecha, lugar y autorización o procedencia
+CORRECTO A. D0: la persona P-02 existe
+CORRECTO A. E1: códigos E1-L1 a E1-L12 correlativos
+CORRECTO A. E1: contexto con fecha, lugar y autorización o procedencia
+CORRECTO A. E1: la persona P-01 existe
+CORRECTO A. E2: códigos E2-L1 a E2-L11 correlativos
+CORRECTO A. E2: contexto con fecha, lugar y autorización o procedencia
+CORRECTO A. E2: la persona P-04 existe
+CORRECTO A. E3: códigos E3-L1 a E3-L4 correlativos
+CORRECTO A. E3: contexto con fecha, lugar y autorización o procedencia
+CORRECTO A. E3: la persona P-05 existe
+CORRECTO A. O1: códigos O1-1 a O1-4 correlativos
+CORRECTO A. O1: contexto con fecha, lugar y autorización o procedencia
+CORRECTO A. D1: códigos D1-A1 a D1-A6 correlativos
+CORRECTO A. D1: contexto con fecha, lugar y autorización o procedencia
+CORRECTO A. D2: códigos D2-1 a D2-9 correlativos
+CORRECTO A. D2: contexto con fecha, lugar y autorización o procedencia
+CORRECTO A. E4: códigos E4-L1 a E4-L12 correlativos
+CORRECTO A. E4: contexto con fecha, lugar y autorización o procedencia
+CORRECTO A. E4: la persona P-01 existe
+CORRECTO A. E5: códigos E5-L1 a E5-L8 correlativos
+CORRECTO A. E5: contexto con fecha, lugar y autorización o procedencia
+CORRECTO A. E5: la persona P-02 existe
+CORRECTO A. E1: solo hablan «Analista» y Mirta
+CORRECTO A. E2: solo hablan «Analista» y Estela
+CORRECTO A. E4: solo hablan «Analista» y Mirta
+CORRECTO A. E5: solo hablan «Analista» y Teresa
+CORRECTO A. Necesidades N-01 a N-13 correlativas
+CORRECTO A. N-01: tiene fuentes y todas existen (E1-L4, E1-L10)
+CORRECTO A. N-02: tiene fuentes y todas existen (E4-L4)
+CORRECTO A. N-03: tiene fuentes y todas existen (E3-L1, E3-L3, E1-L6, O1-3)
+CORRECTO A. N-04: tiene fuentes y todas existen (E1-L2, O1-1, O1-2)
+CORRECTO A. N-05: tiene fuentes y todas existen (E4-L2, E2-L10, D1-A4)
+CORRECTO A. N-06: tiene fuentes y todas existen (E1-L8, E5-L2, D2-9, E4-L12)
+CORRECTO A. N-07: tiene fuentes y todas existen (E5-L6)
+CORRECTO A. N-08: tiene fuentes y todas existen (E4-L8)
+CORRECTO A. N-09: tiene fuentes y todas existen (E4-L6)
+CORRECTO A. N-10: tiene fuentes y todas existen (E4-L10, E5-L4)
+CORRECTO A. N-11: tiene fuentes y todas existen (E1-L10)
+CORRECTO A. N-12: tiene fuentes y todas existen (E2-L2, E2-L8, D1-A3)
+CORRECTO A. N-13: tiene fuentes y todas existen (E3-L4)
+CORRECTO A. Necesidad no expresada apoyada en O1-3, que existe
+CORRECTO A. Necesidad no expresada apoyada en D2-8, que existe
+CORRECTO A. Necesidad no expresada apoyada en D2-9, que existe
+CORRECTO A. D2: los renglones suman 112 y el total escrito es 115, como dicen E4-L11 y el módulo
+CORRECTO A. O1: en fila (14) = préstamos (9) + se fueron sin libro (5)
+CORRECTO A. Las reglas son seis, RN-01 a RN-06
+CORRECTO A. Interesados: seis, con interés e influencia entre 0 y 10
+CORRECTO A. Alcance mínimo: siete funciones (Work §7.2), con «Permisos mínimos»
+CORRECTO A. Fuera del núcleo: las ocho exclusiones de Work §7.2
+CORRECTO B. A2_capitulo4_v2: el registro E1 existe y se titula igual («Entrevista a la Lic. Mirta Escobar, bibliotecaria»)
+CORRECTO B. A2_capitulo4_v2: E1-L2 existe, lo dice el entrevistado y contiene la cita textual
+CORRECTO B. A2_capitulo4_v2: E1-L4 existe, lo dice el entrevistado y contiene la cita textual
+CORRECTO B. A2_capitulo4_v2: E1-L6 existe, lo dice el entrevistado y contiene la cita textual
+CORRECTO B. A2_capitulo4_v2: E1-L8 existe, lo dice el entrevistado y contiene la cita textual
+CORRECTO B. A2_capitulo4_v2: E1-L10 existe, lo dice el entrevistado y contiene la cita textual
+CORRECTO B. A2_capitulo4_v2: el registro E4 existe y se titula igual («Segunda entrevista a la bibliotecaria»)
+CORRECTO B. A2_capitulo4_v2: E4-L2 existe, lo dice el entrevistado y contiene la cita textual
+CORRECTO B. A2_capitulo4_v2: E4-L4 existe, lo dice el entrevistado y contiene la cita textual
+CORRECTO B. A2_capitulo4_v2: E4-L6 existe, lo dice el entrevistado y contiene la cita textual
+CORRECTO B. A2_capitulo4_v2: E4-L8 existe, lo dice el entrevistado y contiene la cita textual
+CORRECTO B. A2_capitulo4_v2: E4-L10 existe, lo dice el entrevistado y contiene la cita textual
+CORRECTO B. A2_capitulo4_v2: el registro E3 existe y se titula igual («Entrevista a Iván Ortellado, delegado de 2.º BTI (lector)»)
+CORRECTO B. A2_capitulo4_v2: E3-L1 existe, lo dice el entrevistado y contiene la cita textual
+CORRECTO B. A2_capitulo4_v2: E3-L3 existe, lo dice el entrevistado y contiene la cita textual
+CORRECTO B. A2_capitulo4_v2: E3-L4 existe, lo dice el entrevistado y contiene la cita textual
+CORRECTO B. A2_capitulo4_v2: el registro E5 existe y se titula igual («Entrevista a la Lic. Teresa Vega, directora»)
+CORRECTO B. A2_capitulo4_v2: E5-L2 existe, lo dice el entrevistado y contiene la cita textual
+CORRECTO B. A2_capitulo4_v2: E5-L4 existe, lo dice el entrevistado y contiene la cita textual
+CORRECTO B. A2_capitulo4_v2: E5-L6 existe, lo dice el entrevistado y contiene la cita textual
+CORRECTO B. A2_capitulo4_v2: las reglas RN-01 a RN-06 coinciden palabra por palabra
+CORRECTO B. A2_capitulo4_v2: las 16 fuentes E#-L# citadas en el capítulo existen en el caso
+CORRECTO B. A2_capitulo4_v2_1: el registro E1 existe y se titula igual («Entrevista a la Lic. Mirta Escobar, bibliotecaria»)
+CORRECTO B. A2_capitulo4_v2_1: E1-L2 existe, lo dice el entrevistado y contiene la cita textual
+CORRECTO B. A2_capitulo4_v2_1: E1-L4 existe, lo dice el entrevistado y contiene la cita textual
+CORRECTO B. A2_capitulo4_v2_1: E1-L6 existe, lo dice el entrevistado y contiene la cita textual
+CORRECTO B. A2_capitulo4_v2_1: E1-L8 existe, lo dice el entrevistado y contiene la cita textual
+CORRECTO B. A2_capitulo4_v2_1: E1-L10 existe, lo dice el entrevistado y contiene la cita textual
+CORRECTO B. A2_capitulo4_v2_1: el registro E4 existe y se titula igual («Segunda entrevista a la bibliotecaria»)
+CORRECTO B. A2_capitulo4_v2_1: E4-L2 existe, lo dice el entrevistado y contiene la cita textual
+CORRECTO B. A2_capitulo4_v2_1: E4-L4 existe, lo dice el entrevistado y contiene la cita textual
+CORRECTO B. A2_capitulo4_v2_1: E4-L6 existe, lo dice el entrevistado y contiene la cita textual
+CORRECTO B. A2_capitulo4_v2_1: E4-L8 existe, lo dice el entrevistado y contiene la cita textual
+CORRECTO B. A2_capitulo4_v2_1: E4-L10 existe, lo dice el entrevistado y contiene la cita textual
+CORRECTO B. A2_capitulo4_v2_1: el registro E3 existe y se titula igual («Entrevista a Iván Ortellado, delegado de 2.º BTI (lector)»)
+CORRECTO B. A2_capitulo4_v2_1: E3-L1 existe, lo dice el entrevistado y contiene la cita textual
+CORRECTO B. A2_capitulo4_v2_1: E3-L3 existe, lo dice el entrevistado y contiene la cita textual
+CORRECTO B. A2_capitulo4_v2_1: E3-L4 existe, lo dice el entrevistado y contiene la cita textual
+CORRECTO B. A2_capitulo4_v2_1: el registro E5 existe y se titula igual («Entrevista a la Lic. Teresa Vega, directora»)
+CORRECTO B. A2_capitulo4_v2_1: E5-L2 existe, lo dice el entrevistado y contiene la cita textual
+CORRECTO B. A2_capitulo4_v2_1: E5-L4 existe, lo dice el entrevistado y contiene la cita textual
+CORRECTO B. A2_capitulo4_v2_1: E5-L6 existe, lo dice el entrevistado y contiene la cita textual
+CORRECTO B. A2_capitulo4_v2_1: las reglas RN-01 a RN-06 coinciden palabra por palabra
+CORRECTO B. A2_capitulo4_v2_1: las 16 fuentes E#-L# citadas en el capítulo existen en el caso
+CORRECTO B. Figura 4.2: N-02 «Evitar entregar a dos lectores el mismo ejemplar (E4-L4)» coincide con el caso y su fuente E4-L4 es fuente de N-02
+CORRECTO B. N-02 dice lo mismo que el ejemplo de Work §7.3
+CORRECTO B. El Capítulo 4 no se modificó en este lote (contenido v2 = v2.1, SHA-256 62179ecbb6fc…)
+CORRECTO C. E1: las 12 líneas del candidato se conservan con el mismo texto y hablante
+CORRECTO C. E2: las 11 líneas del candidato se conservan con el mismo texto y hablante
+CORRECTO C. E3: las 4 líneas del candidato se conservan con el mismo texto y hablante
+CORRECTO C. O1: las 4 líneas del candidato se conservan con el mismo texto y hablante
+CORRECTO C. Presentación del caso: conserva la del candidato
+CORRECTO C. Mapa de interesados: mismos interesados, valores, razones y estrategias que el candidato
+CORRECTO D. Sin personas, títulos ni opciones tecnológicas del caso de Algorítmica 3.º
+CORRECTO D. Sin matriz ponderada en el caso
+
+Resultado: 107 correctos, 0 fallos

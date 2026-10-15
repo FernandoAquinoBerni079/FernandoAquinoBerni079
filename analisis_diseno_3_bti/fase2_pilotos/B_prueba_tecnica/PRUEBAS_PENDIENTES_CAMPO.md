@@ -14,6 +14,7 @@
 | 6 | Proyecto en un pendrive y en una carpeta de red | SQLite desaconseja la base sobre carpetas de red; retirar el pendrive con el servidor abierto puede dañarla | Pendiente: recomendar disco local |
 | 7 | Concurrencia en Windows | `PHP_CLI_SERVER_WORKERS` no existe en Windows: `php -S` atiende de a un pedido. Las pruebas simultáneas de Linux no se trasladan. | Pendiente: probar `prueba_carrera.php` |
 | 8 | Respaldo y restauración en Windows | Windows no deja borrar archivos abiertos: hay que confirmar que `--reiniciar` funciona con el servidor detenido | Pendiente |
+| 9 | Retiro de una marca de mantenimiento en Windows (`retirar_marca.php`, v2.3) | En Windows no existe `posix_kill`: la comprobación del proceso vivo queda a cargo de la persona; el bloqueo de archivos es distinto | Pendiente |
 
 ## 2. Procedimiento en cada equipo (aprox. 30 minutos)
 
