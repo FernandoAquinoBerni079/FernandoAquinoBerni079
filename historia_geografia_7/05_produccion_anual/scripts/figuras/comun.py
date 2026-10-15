@@ -156,7 +156,8 @@ def escala(ax, x, y, lat_ref, km=200, dy=0.18):
     grados = km / (111.32 * math.cos(math.radians(abs(lat_ref))))
     ax.plot([x, x + grados], [y, y], color='#222222', lw=2.4, zorder=9, solid_capstyle='butt')
     ax.plot([x, x + grados / 2], [y, y], color='white', lw=1.1, zorder=10, solid_capstyle='butt')
-    for k, t in ((0, '0'), (0.5, str(km // 2)), (1, f'{km} km')):
+    marcas = ((0, '0'), (0.5, str(km // 2)), (1, f'{km} km')) if grados / (ax.get_xlim()[1] - ax.get_xlim()[0]) > 0.22 else ((0, '0'), (1, f'{km} km'))
+    for k, t in marcas:
         ax.text(x + grados * k, y + dy, t, ha='center', fontsize=7, color='#222222', zorder=10, path_effects=HALO)
     ax.text(x, y - 2 * dy, 'Escala aproximada', fontsize=7, color='#333333', zorder=10, path_effects=HALO)
 

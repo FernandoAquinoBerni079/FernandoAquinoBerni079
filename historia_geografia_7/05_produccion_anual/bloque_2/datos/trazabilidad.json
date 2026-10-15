@@ -1,0 +1,260 @@
+{
+ "programa": "MEC (2014), Programa de Estudio: Historia y Geografía, 7.º grado, EEB (reproducción, SHA-256 389190d3…c8d27e)",
+ "encuentros": [
+  {
+   "encuentro": 10,
+   "seccion": "Clase 6 — Los avances náuticos y la llegada de los europeos",
+   "tipo": "clase",
+   "tipo_vinculo": "Capacidad literal MEC",
+   "capacidades_mec": [
+    "H4"
+   ],
+   "temas_mec": [
+    "H4a",
+    "H4b"
+   ],
+   "ficha_impresa": true,
+   "paginas_tomo": [
+    4,
+    8
+   ],
+   "pendientes_de_verificacion": [
+    [
+     "Fragmento del Diario de Colón (11-12 de octubre de 1492)",
+     "Versión modernizada de difusión escolar, transmitida por Las Casas; cotejar la literalidad con una edición crítica."
+    ],
+    [
+     "Fechas: Constantinopla 1453; Dias 1488; Da Gama 1498; Cabral 1500; mapa de 1507 (Waldseemüller); Balboa 1513; Magallanes-Elcano 1519-1522; Requerimiento 1513",
+     "Fechas habituales; cotejar."
+    ],
+    [
+     "Trazados de los viajes (Figura 6.2)",
+     "Recorridos aproximados de la editorial."
+    ]
+   ]
+  },
+  {
+   "encuentro": 11,
+   "seccion": "Clase 7 — El reparto de América y el gobierno colonial",
+   "tipo": "clase",
+   "tipo_vinculo": "Capacidad literal MEC",
+   "capacidades_mec": [
+    "H4"
+   ],
+   "temas_mec": [
+    "H4c",
+    "H4d"
+   ],
+   "ficha_impresa": true,
+   "paginas_tomo": [
+    9,
+    12
+   ],
+   "pendientes_de_verificacion": [
+    [
+     "Tratado de Tordesillas: 7 de junio de 1494, 370 leguas al oeste de Cabo Verde; bulas de 1493",
+     "Datos habituales; la fuente es una versión resumida. Cotejar con una edición del tratado."
+    ],
+    [
+     "Casa de Contratación 1503; Consejo de Indias 1524; Virreinato de Nueva España 1535 y del Perú 1542; Audiencia de Charcas 1559",
+     "Fechas habituales; cotejar."
+    ],
+    [
+     "Meridiano aproximado de 46° O en la Figura 7.1",
+     "Valor aproximado de uso escolar; la ubicación se discutió durante siglos."
+    ]
+   ]
+  },
+  {
+   "encuentro": 12,
+   "seccion": "Clase 8 — La conquista del Río de la Plata y la fundación de Asunción",
+   "tipo": "clase",
+   "tipo_vinculo": "Capacidad literal MEC",
+   "capacidades_mec": [
+    "H3"
+   ],
+   "temas_mec": [
+    "H3a",
+    "H3b"
+   ],
+   "ficha_impresa": true,
+   "paginas_tomo": [
+    13,
+    16
+   ],
+   "pendientes_de_verificacion": [
+    [
+     "Solís 1516; García hacia 1524; Sancti Spiritus 1527 y su destrucción en 1529; capitulación de Mendoza 1534; Buenos Aires 1536; Asunción 1537; Cabildo 1541",
+     "Fechas habituales; cotejar (Peña Villamil, citado por la auditoría, para 1539-1541)."
+    ],
+    [
+     "Ciudades fundadas desde Asunción y sus fechas",
+     "Síntesis de la bibliografía; cotejar cada fecha."
+    ],
+    [
+     "Recorridos de la Figura 8.1",
+     "Trazados aproximados de la editorial."
+    ]
+   ]
+  },
+  {
+   "encuentro": 13,
+   "seccion": "Continuación C — Rutas, decisiones y alianzas en el Río de la Plata",
+   "tipo": "continuacion",
+   "tipo_vinculo": "Capacidad literal MEC",
+   "capacidades_mec": [
+    "H3"
+   ],
+   "temas_mec": [
+    "H3a",
+    "H3b"
+   ],
+   "ficha_impresa": true,
+   "paginas_tomo": [
+    17,
+    19
+   ],
+   "pendientes_de_verificacion": [
+    [
+     "Recorridos del cuadro de datos y del mapa mudo",
+     "Síntesis de la Clase 8; trazados aproximados (ver VERIFICACION de la Clase 8)."
+    ]
+   ]
+  },
+  {
+   "encuentro": 14,
+   "seccion": "Clase 9 — Mestizaje, resistencia y vida de los indígenas en el siglo XVI",
+   "tipo": "clase",
+   "tipo_vinculo": "Capacidad literal MEC",
+   "capacidades_mec": [
+    "H3"
+   ],
+   "temas_mec": [
+    "H3c"
+   ],
+   "ficha_impresa": true,
+   "paginas_tomo": [
+    21,
+    24
+   ],
+   "pendientes_de_verificacion": [
+    [
+     "Rebelión de Tabaré (hacia 1542) y de Oberá (1579, Guarambaré)",
+     "Fechas y lugares habituales en la bibliografía paraguaya; cotejar."
+    ],
+    [
+     "Testamento de Irala (1556)",
+     "Versión escolar resumida y declarada como no textual; cotejar con una edición del testamento antes de citar datos más precisos."
+    ],
+    [
+     "Tovaja (cuñado) y cuñadazgo",
+     "Término guaraní y categoría historiográfica habituales; cotejar grafía."
+    ],
+    [
+     "Rancheadas; participación de mancebos de la tierra en la fundación de Santa Fe (1573)",
+     "Bibliografía habitual; cotejar."
+    ]
+   ]
+  },
+  {
+   "encuentro": 15,
+   "seccion": "Clase 10 — La Real Provisión de 1537 y las instituciones coloniales",
+   "tipo": "clase",
+   "tipo_vinculo": "Capacidad literal MEC",
+   "capacidades_mec": [
+    "H3"
+   ],
+   "temas_mec": [
+    "H3d",
+    "H3e"
+   ],
+   "ficha_impresa": true,
+   "paginas_tomo": [
+    25,
+    30
+   ],
+   "pendientes_de_verificacion": [
+    [
+     "Fragmentos de la Real Provisión (A19)",
+     "Los dos se toman de la transcripción de Rivarola Paoli (La economía colonial, 1986, nota 105), según su reproducción en Portal Guaraní (URL en el tomo). La página no se abre desde el entorno de edición: la presencia de ambos pasajes se confirmó por búsqueda (fuente secundaria). Queda pendiente el cotejo de la ortografía literal del segundo fragmento con la página o con la edición impresa. Transcripción concordante: portal del MEC, https://www.mec.gov.py/cms_v2/recursos/4844-la-cedula-real-del-12-de-septiembre-de-1537-llega-al-paraguay (tampoco accesible desde el entorno)."
+    ],
+    [
+     "Muerte de Mendoza en el viaje de regreso (1537); llegada de Alonso Cabrera (1538); Irala hacia 1539 y el debate sobre la aplicación de la provisión",
+     "Contrastar con ISEPOL, Síntesis de Geografía e Historia (2024) y el estudio publicado por el CEHJ, señalados por la auditoría."
+    ],
+    [
+     "Cabildo 1541; Obispado 1547 y primer obispo en 1556; Audiencia de Charcas 1559; Virreinato del Perú 1542",
+     "Fechas de manual; cotejar."
+    ],
+    [
+     "Tipos de encomienda y reparto de 1556; Leyes Nuevas 1542; Ordenanzas de Alfaro 1611",
+     "Bibliografía paraguaya habitual; cotejar."
+    ]
+   ]
+  },
+  {
+   "encuentro": 16,
+   "seccion": "Continuación D — La autonomía y sus límites: de 1537 a 1544",
+   "tipo": "continuacion",
+   "tipo_vinculo": "Capacidad literal MEC",
+   "capacidades_mec": [
+    "H3"
+   ],
+   "temas_mec": [
+    "H3d",
+    "H3e"
+   ],
+   "ficha_impresa": true,
+   "paginas_tomo": [
+    31,
+    33
+   ],
+   "pendientes_de_verificacion": [
+    [
+     "Cabeza de Vaca: medidas para limitar las rancheadas; deposición en 1544; Comentarios publicados en 1555 con su secretario (Pero Hernández)",
+     "Datos habituales de la bibliografía; cotejar."
+    ],
+    [
+     "Síntesis de las partes de la Real Provisión",
+     "Paráfrasis editorial basada en los fragmentos de la Clase 10 (transcripción de Rivarola Paoli); no es cita."
+    ]
+   ]
+  },
+  {
+   "encuentro": 17,
+   "seccion": "Evaluación de la Unidad 3 — El Paraguay y América en el siglo XVI",
+   "tipo": "evaluacion",
+   "tipo_vinculo": "Asociación curricular",
+   "capacidades_mec": [
+    "H3",
+    "H4"
+   ],
+   "temas_mec": [],
+   "ficha_impresa": false,
+   "paginas_tomo": [
+    34,
+    36
+   ],
+   "pendientes_de_verificacion": []
+  },
+  {
+   "encuentro": 18,
+   "seccion": "Evaluación Integradora de la 1.ª etapa — Unidades 1 a 3",
+   "tipo": "integradora",
+   "tipo_vinculo": "Asociación curricular",
+   "capacidades_mec": [
+    "H1",
+    "H2",
+    "H3",
+    "H4"
+   ],
+   "temas_mec": [],
+   "ficha_impresa": false,
+   "paginas_tomo": [
+    37,
+    39
+   ],
+   "pendientes_de_verificacion": []
+  }
+ ]
+}

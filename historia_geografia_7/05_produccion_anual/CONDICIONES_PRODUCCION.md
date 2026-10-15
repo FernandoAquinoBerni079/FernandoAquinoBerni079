@@ -13,19 +13,19 @@ La columna «Dónde se cumple» se completa a medida que se produce cada bloque.
 | ID | Condición | Encuentros | Dónde se cumple | Estado |
 |---|---|---|---|---|
 | A05 / N05 | El encuentro 22 tiene como núcleo el siglo XVII: incursiones bandeirantes, Guairá, reducciones y Mbororé. La Guerra Guaranítica (1754-1756) va solo como recuadro optativo del siglo XVIII y no se evalúa como contenido obligatorio. Hay que alinear tema, indicadores, fuente, actividades, plan anual, matriz y JSON, sin atribuir al MEC nombres que son selección editorial. | 22, 25, 36 | Bloque III | Pendiente |
-| A10 / N03 | El encuentro 31 reserva los primeros 20 minutos ordinarios para la devolución de la Evaluación U5 y desarrolla G3 en los otros 100 (clima de Paraguay y América y su relación con las actividades humanas). La evaluación con tiempo excepcional se administra por separado: ningún estudiante sigue rindiendo mientras se revelan claves. | 30, 31 (y toda evaluación) | Regla general aplicada en las evaluaciones 5 y 9 y en el Plan 6 (devolución de la U1). Pendiente: Plan 10 (devolución de la U2), y encuentros 18, 19, 26, 31 y 36. | Aplicada en el Bloque I; el encuentro 31 queda para el Bloque IV |
+| A10 / N03 | El encuentro 31 reserva los primeros 20 minutos ordinarios para la devolución de la Evaluación U5 y desarrolla G3 en los otros 100 (clima de Paraguay y América y su relación con las actividades humanas). La evaluación con tiempo excepcional se administra por separado: ningún estudiante sigue rindiendo mientras se revelan claves. | 30, 31 (y toda evaluación) | Regla general aplicada en las evaluaciones 5, 9, 17 y 18; Planes 6, 10 y 18 con devolución en los primeros 20 minutos. Pendiente: Planes 19, 26, 31 y 36 y Evaluación U5. | Aplicada en los Bloques I y II; el encuentro 31 queda para el Bloque IV |
 | A14 | Sin hojas residuales ni bandas huérfanas. No se reduce la letra para ahorrar papel. Las fichas reproducibles se mantienen independientes cuando corresponde. Hay que compactar los remanentes de planes y la hoja final del anual. | Todos | Control 11 extendido (área ocupada real, bandas huérfanas, matriz y anual) | Regla en vigor desde el Bloque I |
 | A17 | Leyendas completas, rótulos de 8-9 pt efectivos, contraste suficiente y fuentes cartográficas identificables. Hay que revisar el río Apa (símbolo en la leyenda) y las localizaciones principales. Los mapas simplificados se declaran aproximados. | Todos los mapas | Figuras de cada bloque; Clase 18 y Evaluación U5 en el Bloque IV | Regla en vigor desde el Bloque I |
-| A19 / N04 | Los dos fragmentos de la Real Provisión se toman de una transcripción identificable: Rivarola Paoli, reproducción en Portal Guaraní, con URL, edición, nota 105 y fecha de consulta. No se atribuye a una fuente lo que no se comprobó. | 15, 16 | Bloque II | Pendiente |
+| A19 / N04 | Los dos fragmentos de la Real Provisión se toman de una transcripción identificable: Rivarola Paoli, reproducción en Portal Guaraní, con URL, edición, nota 105 y fecha de consulta. No se atribuye a una fuente lo que no se comprobó. | 15, 16 | Bloque II: tomo, Clase 10, «Trabajá con la fuente» (los dos fragmentos, con la referencia completa); Plan 15, precisiones; `contenido/e15.py`, VERIFICACION (grafía del segundo fragmento pendiente de cotejo). | Cumplida (producción) |
 
 ## 2. Observaciones adicionales N01-N05
 
 | ID | Condición | Encuentros | Dónde se cumple | Estado |
 |---|---|---|---|---|
 | N01 | En la Clase 18, la respuesta de la actividad 14 no puede usar el Acuífero Patiño como ejemplo de uso de un río. Hay que distinguir agua superficial de agua subterránea. | 28 | Bloque IV | Pendiente |
-| N02 | La tensión del tramo 47-55 del Plan 15 (cronología y ordenamiento) se resuelve con margen explícito y la consolidación queda para casa. | 15 | Bloque II | Pendiente |
+| N02 | La tensión del tramo 47-55 del Plan 15 (cronología y ordenamiento) se resuelve con margen explícito y la consolidación queda para casa. | 15 | Bloque II: Plan 15, tramo 48-60 (12 minutos) y consolidación en casa con revisión al abrir el encuentro 16 | Cumplida (producción) |
 | N03 | Igual que A10. | 30, 31 | Bloque IV | Pendiente |
-| N04 | Igual que A19. | 15, 16 | Bloque II | Pendiente |
+| N04 | Igual que A19. | 15, 16 | Bloque II (ver A19) | Cumplida (producción) |
 | N05 | Igual que A05. | 22 | Bloque III | Pendiente |
 
 ## 3. Condiciones de la recomendación (dictamen, §8) y de la autorización

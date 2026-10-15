@@ -104,7 +104,7 @@ Se corren con `python3 scripts/verificar.py 1`. El resultado completo está en `
 | 13. Numeración de actividades | 9 | 0 |
 | **Total** | **1626** | **0** |
 
-**Claves de opción múltiple:** a 7, b 10, c 8, d 7. No hay tres claves iguales seguidas ni una letra con más de la mitad de las claves de una sección.
+**Claves de opción múltiple:** a 7, b 9, c 9, d 7. No hay tres claves iguales seguidas ni una letra con más de la mitad de las claves de una sección.
 
 **Defectos que los controles detectaron durante la producción, ya corregidos:**
 - Hoja de la Clase 3 con 45 % en blanco antes del mapa. Se reubicó la figura y se renumeró para que la numeración siga el orden de lectura.
@@ -147,3 +147,7 @@ Lo que figura en `VERIFICACION` de cada `scripts/contenido/eNN.py` y en `datos/t
 
 **Mapas**
 - Áreas guaraní, maya, mexica e inca: son polígonos aproximados de la editorial y así se declaran en las figuras.
+
+## 7. Reconstrucción posterior (15/10/2026)
+
+Al producir el Bloque II se corrigió la escala gráfica común (`scripts/figuras/comun.py`): cuando la barra es corta, se omite el rótulo intermedio, que se superponía con el final («150300»). El Bloque I se reconstruyó con ese cambio. Cambian cinco mapas (`eval_u1_mapa`, `eval_u1_mapa_clave`, `fig_1_3_mapa_orientacion`, `fig_2_2_regiones` y `fig_3_1_area_guarani`) y se revisaron de nuevo. Los controles siguen en 1626 correctos y 0 fallos, y la paginación no cambia.

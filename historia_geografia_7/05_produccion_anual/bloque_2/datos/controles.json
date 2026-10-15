@@ -1,0 +1,64 @@
+{
+ "correctos": 1655,
+ "fallos": [],
+ "por_control": {
+  "1. Capacidades": {
+   "correctos": 88,
+   "fallos": []
+  },
+  "13. Numeración": {
+   "correctos": 9,
+   "fallos": []
+  },
+  "2. Tomo ↔ solucionario": {
+   "correctos": 9,
+   "fallos": []
+  },
+  "3. Tomo ↔ planes": {
+   "correctos": 9,
+   "fallos": []
+  },
+  "4. Funciones": {
+   "correctos": 14,
+   "fallos": []
+  },
+  "5. Secuencias": {
+   "correctos": 9,
+   "fallos": []
+  },
+  "6. Rúbricas": {
+   "correctos": 154,
+   "fallos": []
+  },
+  "7. Claves": {
+   "correctos": 89,
+   "fallos": []
+  },
+  "8. Figuras": {
+   "correctos": 37,
+   "fallos": []
+  },
+  "9. Trazabilidad": {
+   "correctos": 18,
+   "fallos": []
+  },
+  "12. Voseo": {
+   "correctos": 1089,
+   "fallos": []
+  },
+  "10. Equidad": {
+   "correctos": 2,
+   "fallos": []
+  },
+  "11. Integridad visual": {
+   "correctos": 128,
+   "fallos": []
+  }
+ },
+ "claves": {
+  "a": 9,
+  "b": 9,
+  "c": 9,
+  "d": 9
+ }
+}

@@ -13,15 +13,15 @@ Se genera con `scripts/estado.py tabla`. «Sí» indica que el encuentro superó
 | 7 | 1 | Clase 5 — Mayas, aztecas e incas | clase | H2 | Sí | Sí | Sí | Sí | — |
 | 8 | 1 | Continuación B — Poblamiento y civilizaciones americanas: mapa y línea de tiempo | continuacion | H2 | Sí | Sí | Sí | Sí | — |
 | 9 | 1 | Evaluación de la Unidad 2 — La prehistoria americana | evaluacion | H2 | Sí | Sí | Sí | Sí | — |
-| 10 | 2 | Clase 6 | clase | H4 | — | — | — | — | — |
-| 11 | 2 | Clase 7 | clase | H4 | — | — | — | — | — |
-| 12 | 2 | Clase 8 | clase | H3 | — | — | — | — | — |
-| 13 | 2 | Continuación C | continuacion | H3 | — | — | — | — | — |
-| 14 | 2 | Clase 9 | clase | H3 | — | — | — | — | — |
-| 15 | 2 | Clase 10 | clase | H3 | — | — | — | — | — |
-| 16 | 2 | Continuación D | continuacion | H3 | — | — | — | — | — |
-| 17 | 2 | Evaluación de la Unidad 3 | evaluacion | H3, H4 | — | — | — | — | — |
-| 18 | 2 | Integradora 1.ª etapa | integradora | H1, H2, H3, H4 | — | — | — | — | — |
+| 10 | 2 | Clase 6 — Los avances náuticos y la llegada de los europeos | clase | H4 | Sí | Sí | Sí | Sí | — |
+| 11 | 2 | Clase 7 — El reparto de América y el gobierno colonial | clase | H4 | Sí | Sí | Sí | Sí | — |
+| 12 | 2 | Clase 8 — La conquista del Río de la Plata y la fundación de Asunción | clase | H3 | Sí | Sí | Sí | Sí | — |
+| 13 | 2 | Continuación C — Rutas, decisiones y alianzas en el Río de la Plata | continuacion | H3 | Sí | Sí | Sí | Sí | — |
+| 14 | 2 | Clase 9 — Mestizaje, resistencia y vida de los indígenas en el siglo XVI | clase | H3 | Sí | Sí | Sí | Sí | — |
+| 15 | 2 | Clase 10 — La Real Provisión de 1537 y las instituciones coloniales | clase | H3 | Sí | Sí | Sí | Sí | — |
+| 16 | 2 | Continuación D — La autonomía y sus límites: de 1537 a 1544 | continuacion | H3 | Sí | Sí | Sí | Sí | — |
+| 17 | 2 | Evaluación de la Unidad 3 — El Paraguay y América en el siglo XVI | evaluacion | H3, H4 | Sí | Sí | Sí | Sí | — |
+| 18 | 2 | Evaluación Integradora de la 1.ª etapa — Unidades 1 a 3 | integradora | H1, H2, H3, H4 | Sí | Sí | Sí | Sí | — |
 | 19 | 3 | Clase 11 | clase | H5 | — | — | — | — | — |
 | 20 | 3 | Clase 12 | clase | H5 | — | — | — | — | — |
 | 21 | 3 | Clase 13 | clase | H5 | — | — | — | — | — |
