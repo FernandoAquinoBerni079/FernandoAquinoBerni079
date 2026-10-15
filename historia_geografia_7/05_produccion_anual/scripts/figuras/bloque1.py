@@ -7,7 +7,7 @@ aproximados, no límites. Así se declara en cada figura.
 """
 import os
 
-from comun import (AGUA, AZUL, AZUL2, GRIS, HALO, OCRE, ROJO, T_NOTA, T_PAIS, T_ROTULO, TIERRA, VERDE, area, caja,
+from comun import (poligonos, AGUA, AZUL, AZUL2, GRIS, HALO, OCRE, ROJO, T_NOTA, T_PAIS, T_ROTULO, TIERRA, VERDE, area, caja,
                    cargar, dibujar_paises, dibujar_rios, es_rio_paraguay, escala, flecha, guardar, leyenda, lienzo, lineas,
                    marco, norte, nota_fuente, plt, rotulo, CIUDADES_PY, APA_DESEMBOCADURA)
 
@@ -97,7 +97,7 @@ def cronologia_civilizaciones(salida, ancho=16.0):
     ax.set_yticklabels([b[0] for b in barras], fontsize=8)
     ax.set_xlim(0, 1850); ax.set_ylim(0.4, len(barras) + 0.9)
     ax.set_xticks(range(0, 1701, 200)); ax.tick_params(axis='x', labelsize=7.5)
-    ax.set_xlabel('Años después de Cristo (d. C.)', fontsize=8)
+    ax.set_xlabel('Años después de Cristo (d. C.); el 0 es origen gráfico, no año histórico', fontsize=7.5)
     for sp in ('top', 'right'):
         ax.spines[sp].set_visible(False)
     ax.axvline(1492, color=AZUL, lw=1, ls='--')
@@ -107,7 +107,7 @@ def cronologia_civilizaciones(salida, ancho=16.0):
 
 
 def linea_vacia(salida, ancho=16.0):
-    """Eje en blanco de 0 a 1600 d. C. (1 cm = 100 años aprox.) para la Ficha B-2."""
+    """Eje gráfico entre el origen 0 y 1600 (0 NO es un año histórico); Ficha B-2."""
     fig, ax = lienzo(ancho, 6.0)
     ax.set_xlim(-60, 1680); ax.set_ylim(-1.2, 4.2); ax.axis('off')
     eje_tiempo(ax, -40, 1660)
@@ -117,6 +117,7 @@ def linea_vacia(salida, ancho=16.0):
     for y in (1.0, 2.0, 3.0):
         ax.plot([0, 1600], [y, y], color='#BBBBBB', lw=0.6, ls=(0, (2, 3)))
     ax.text(800, 3.8, 'Años después de Cristo (d. C.) · 1 división = 100 años', ha='center', fontsize=8, color=AZUL)
+    ax.text(800, 3.35, '* El 0 es origen de la escala, no un año del calendario.', ha='center', fontsize=7.4, color=ROJO)
     guardar(fig, salida, esquema=True)
 
 
@@ -293,6 +294,40 @@ def mapa_civilizaciones(geo, salida, ancho=12.0, numerado=None, mudo=False):
     guardar(fig, salida, rect=(0, 0.09, 1, 1))
 
 
+def mapa_mudo_poblamiento(geo, salida, ancho=15.0):
+    """Ficha B-1 (BI-01): mapa mudo de América con el nordeste de Asia, para ubicar Beringia, Monte Verde,
+    Tikal, Tenochtitlan y Cuzco. Las tierras al oeste del meridiano 180 se dibujan desplazadas 360°, para
+    que Siberia y Alaska queden contiguas a ambos lados del estrecho de Bering."""
+    paises = cargar(geo, 'ne_50m_admin_0_countries')
+    x0, x1, y0, y1 = -197, -28, -57, 75
+    # Control de encuadre (BI-01): los cinco sitios de la consigna 1 tienen que entrar con margen.
+    sitios = {'Beringia': (-168.0, 66.0), 'Monte Verde': (-73.2, -41.5), 'Tikal': (-89.6, 17.2),
+              'Tenochtitlan': (-99.1, 19.4), 'Cuzco': (-72.0, -13.5)}
+    for nombre, (x, y) in sitios.items():
+        assert x0 + 3 <= x <= x1 - 3 and y0 + 3 <= y <= y1 - 3, 'Ficha B-1: %s queda fuera del mapa' % nombre
+    alto_mapa = ancho * (y1 - y0) / (x1 - x0)
+    fig, ax = lienzo(ancho, alto_mapa + 1.6)
+    marco(ax, x0, x1, y0, y1, ticks=False)
+    dibujar_paises(ax, paises, borde=0.3)
+    desplazados = []
+    for f in paises:
+        geom = f['geometry']
+        polis = poligonos(geom)
+        norte_asia = [p for p in polis if any(x > 120 and y > 45 for x, y in p)]
+        if norte_asia:
+            desplazados.append({'properties': f['properties'],
+                                'geometry': {'type': 'MultiPolygon',
+                                             'coordinates': [[[(x - 360, y) for x, y in p]] for p in norte_asia]}})
+    dibujar_paises(ax, desplazados, borde=0.3)
+    rotulo(ax, -186, 62, 'ASIA', tam=8.5, color='#5A5A5A', ha='center')
+    rotulo(ax, -125, -12, 'OCÉANO\nPACÍFICO', tam=8.5, color='#3A5F7D', ha='center')
+    rotulo(ax, -45, 15, 'OCÉANO\nATLÁNTICO', tam=8.5, color='#3A5F7D', ha='center')
+    norte(ax, -40, -45, tam=4.0)
+    leyenda(fig, ['limite'], ncol=1, y=0.04)
+    nota_fuente(fig, 'Mapa mudo aproximado de América y el nordeste de Asia. Países actuales como referencia: Natural Earth (dominio público).')
+    guardar(fig, salida, rect=(0, 0.08, 1, 1))
+
+
 def generar(geo, out):
     os.makedirs(out, exist_ok=True)
     p = lambda n: os.path.join(out, n)  # noqa: E731
@@ -307,7 +342,7 @@ def generar(geo, out):
     mapa_civilizaciones(geo, p(reg('fig_5_1_civilizaciones.png', 12.0)))
     cronologia_civilizaciones(p(reg('fig_5_2_cronologia.png', 16.0)))
     # Continuación B y evaluaciones
-    mapa_civilizaciones(geo, p(reg('ficha_B_mapa_mudo_america.png', 15.0)), ancho=15.0, mudo=True)
+    mapa_mudo_poblamiento(geo, p(reg('ficha_B_mapa_mudo_america.png', 15.0)), ancho=15.0)
     linea_vacia(p(reg('ficha_B_linea_vacia.png', 16.0)))
     mapa_regiones_py(geo, p(reg('eval_u1_mapa.png', 9.0)), ancho=9.0, rotulado=False)
     mapa_regiones_py(geo, p(reg('eval_u1_mapa_clave.png', 9.0)), ancho=9.0, rotulado=True)

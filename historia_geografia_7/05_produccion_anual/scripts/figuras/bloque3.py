@@ -79,18 +79,23 @@ def mapa_division_1617(geo, salida, ancho=12.0):
 def esquema_yerba(salida, ancho=15.0):
     fig, ax = lienzo(ancho, 7.0)
     ax.set_xlim(0, 15); ax.set_ylim(0, 7.0); ax.axis('off')
-    caja(ax, 0.1, 4.4, 3.4, 1.5, 'Yerbales naturales\n(Mbaracayú\ny Guairá)', VERDE, tam=8.3)
-    ax.text(0.15, 4.25, 'trabajo de mitayos, con alta mortalidad', ha='left', va='top', fontsize=8, color='#222222')
-    caja(ax, 4.2, 4.4, 2.9, 1.5, 'Asunción\n(acopio y envío)', AZUL, tam=8.5)
-    caja(ax, 7.8, 4.4, 3.2, 1.5, 'Santa Fe y\nBuenos Aires\n(pago de derechos)', AZUL2, tam=8.2)
-    caja(ax, 11.7, 4.4, 3.2, 1.5, 'Mercados: Potosí y\nAlto Perú, Chile,\nBuenos Aires', OCRE, tam=8.2)
-    flecha(ax, 3.55, 5.15, 4.15, 5.15); flecha(ax, 7.15, 5.15, 7.75, 5.15); flecha(ax, 11.05, 5.15, 11.65, 5.15)
-    ax.text(7.45, 6.2, 'por el río Paraguay y el Paraná', ha='center', fontsize=8, color=AGUA, fontweight='bold')
+    # BIII-02: la yerba se redistribuía desde Santa Fe por rutas distintas; Buenos Aires no era paso obligatorio.
+    caja(ax, 0.05, 4.45, 3.0, 1.4, 'Yerbales\nnaturales (Mbaracayú\ny Guairá)', VERDE, tam=7.4)
+    ax.text(0.15, 4.3, 'trabajo de mitayos,\ncon alta mortalidad', ha='left', va='top', fontsize=7.8, color='#222222')
+    caja(ax, 3.4, 4.45, 2.55, 1.4, 'Asunción\n(acopio\ny envío)', AZUL, tam=7.6)
+    caja(ax, 6.4, 4.45, 2.65, 1.4, 'Santa Fe\n(desde aquí,\nrutas distintas)', AZUL2, tam=7.6)
+    flecha(ax, 3.07, 5.15, 3.38, 5.15); flecha(ax, 5.97, 5.15, 6.38, 5.15)
+    ax.text(6.2, 6.05, 'por los ríos Paraguay y Paraná', ha='center', fontsize=7.8, color=AGUA, fontweight='bold')
+    ramas = ((6.05, 'Buenos Aires → Atlántico'), (5.0, 'Córdoba → Alto Perú (Potosí)'), (3.95, 'Mendoza → Chile'))
+    for y, t in ramas:
+        caja(ax, 9.85, y - 0.4, 5.05, 0.8, t, OCRE, tam=7.6)
+        flecha(ax, 9.1, 5.15, 9.8, y)
+    ax.text(12.37, 6.62, 'rutas distintas desde Santa Fe', ha='center', fontsize=7.6, color=AZUL, style='italic')
     caja(ax, 0.1, 0.2, 6.9, 2.6, 'Economía de subsistencia\nmaíz, mandioca, porotos, ganado,\nalgodón: se produce para comer\ny vestirse en la chacra y la estancia',
          '#E6EBF1', color=AZUL, tam=8.2)
     caja(ax, 7.6, 0.2, 7.3, 2.6, 'Moneda de la tierra\nfaltaban monedas de metal: se pagaba\ncon yerba, tabaco, lienzo de algodón\no ganado, con valores fijados', '#F3E2C7',
          color='#6B4A12', tam=8.2)
-    ax.text(7.5, 3.25, 'Convivían dos economías: una para vivir y otra para vender afuera, sobre todo yerba.', ha='center',
+    ax.text(7.5, 3.05, 'Convivían dos economías: una para vivir y otra para vender afuera, sobre todo yerba.', ha='center',
             fontsize=8.2, color=AZUL, fontweight='bold')
     guardar(fig, salida, esquema=True)
 
@@ -330,7 +335,7 @@ EXTREMOS_PY = {'Norte': (-58.17, -19.29), 'Sur': (-58.62, -27.60), 'Este': (-54.
 def mapa_py_posicion(geo, salida, ancho=12.0):
     paises = cargar(geo, 'ne_50m_admin_0_countries')
     rios = cargar(geo, 'ne_10m_rivers_lake_centerlines_scale_rank')
-    fig, ax = lienzo(ancho, 13.2)
+    fig, ax = lienzo(ancho, 14.4)   # BIII-01: una fila más de leyenda
     marco(ax, -63.4, -53.6, -28.4, -18.6)
     dibujar_paises(ax, paises, resaltar='Paraguay')
     dibujar_rios(ax, rios, (-64, -53, -29, -18), nombres=('Paraná', 'Pilcomayo', 'Paraguay', 'Verde'))
@@ -344,6 +349,10 @@ def mapa_py_posicion(geo, salida, ancho=12.0):
     rotulo(ax, -62.5, -21.75, 'Extremo oeste\n62° 38\' O', tam=7.8, color=ROJO, ha='left')
     ax.plot(*APA_DESEMBOCADURA, '^', ms=7, color=AGUA, mec='white', zorder=8)
     rotulo(ax, -57.75, -21.85, 'río Apa', tam=7.8, color=AGUA, ha='left', fontweight='bold')
+    # El cauce exacto no está en Natural Earth; señalar únicamente la confluencia junto a Bahía Negra.
+    ax.plot(-57.93, -20.12, 'D', ms=6, color=AZUL, mec='white', zorder=9)
+    ax.plot([-57.86, -57.62], [-20.2, -20.62], color=AZUL, lw=0.8, zorder=8)
+    rotulo(ax, -57.57, -20.72, 'río Negro u Otuquis\n(límite con Bolivia, aprox.)', tam=7.3, color=AZUL, ha='left', va='center')
     x, y = CIUDADES_PY['Asunción']
     ax.plot(x, y, '*', ms=10, color=AZUL, mec='white', zorder=8)
     rotulo(ax, x + 0.2, y - 0.45, 'Asunción', tam=8)
@@ -357,10 +366,11 @@ def mapa_py_posicion(geo, salida, ancho=12.0):
     escala(ax, -63.1, -27.9, -24.0)
     norte(ax, -54.3, -27.6, tam=0.5)
     leyenda(fig, [punto(ROJO, 'Punto extremo', 'X', 7), 'capital', 'apa', 'rio', 'limite',
-                  Line2D([], [], color=OCRE, lw=1.2, ls=(0, (4, 2)), label='Trópico de Capricornio')], ncol=2, y=0.085)
+                  Line2D([], [], color=OCRE, lw=1.2, ls=(0, (4, 2)), label='Trópico de Capricornio'),
+                  punto(AZUL, 'Confluencia Negro/Otuquis (aprox.)', 'D', 6)], ncol=2, y=0.095)
     nota_fuente(fig, 'Mapa aproximado. Coordenadas extremas según la bibliografía geográfica escolar (a cotejar con el IGM o el INE). '
-                     'Natural Earth no trae el río Apa: se marca su desembocadura en posición aproximada. Datos: Natural Earth.')
-    guardar(fig, salida, rect=(0, 0.22, 1, 1))
+                     'Natural Earth no trae el curso del Apa ni del Negro/Otuquis: se señalan confluencias aproximadas. Límite Negro/Otuquis: MRE/CNDL (38 km fluviales). Datos: Natural Earth.')
+    guardar(fig, salida, rect=(0, 0.27, 1, 1))
 
 
 # ---------------------------------------------------------------- Clase 17

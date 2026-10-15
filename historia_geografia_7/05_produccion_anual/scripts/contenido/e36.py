@@ -116,7 +116,7 @@ PLAN = {
                       'La Parte E se corrige con los seis criterios impresos en la consigna.'],
     },
     'precisiones': [
-        'La integradora evalúa las capacidades H5, H6, G1, G2, G3 y G4 con contenidos enseñados en las Unidades 4 a 6; la matriz del solucionario muestra el peso de cada una.',
+        'La integradora evalúa las capacidades H5, H6, G1, G2, G3 y G4 con contenidos enseñados en las Unidades 4 a 6; la matriz muestra cobertura y puntajes por ítem, pero los puntos compartidos no equivalen a un peso exclusivo por capacidad.',
         'No se evalúa la Guerra Guaranítica: el recuadro de la Continuación E es ampliación optativa (A05).',
         'Ningún ítem repite los de la Evaluación de la Unidad 6, cuyas claves se comentan en los primeros 20 minutos.',
     ],
@@ -141,7 +141,7 @@ SOL = {
              'Criterio anunciado en la Parte B: si es verdadera, 1 punto por marcarla bien; si es falsa, 0,5 por marcarla y 0,5 por la justificación.'),
             ('10', 'Verdadero.', ''),
             ('11', 'Verdadero.', ''),
-            ('12', 'Falso: llueve más en la Región Oriental (unos 1.800 mm al año en el este) que en el Chaco (unos 400 mm en el noroeste).', ''),
+            ('12', 'Falso: llueve más en la Región Oriental (unos 1.800 mm al año en el este) que en el Chaco (unos 600 mm en el noroeste).', ''),
         ]),
         ('Parte C — 3 puntos', [
             ('13', 'Orden: 1 Descubrimiento de la plata de Potosí (1545); 2 Fundación de Quebec (1608); 3 Ordenanzas de Alfaro (1611); '

@@ -29,7 +29,7 @@ TOMO = [
           'este, en las regiones de Mbaracayú y del Guairá. Grupos de trabajadores indígenas, sobre todo mitayos de las encomiendas, '
           'pasaban meses en los yerbales cortando, secando y cargando la yerba. El trabajo era muy duro y muchos morían por las '
           'enfermedades, el hambre y el maltrato.'),
-    ('p', 'La yerba bajaba en barcos hasta Santa Fe y Buenos Aires, y desde allí se vendía en el Alto Perú (Potosí), en Chile y en '
+    ('p', 'La yerba bajaba en barcos hasta Santa Fe y se redistribuía por rutas diferentes: una hacia Buenos Aires y el Atlántico, y otras hacia Córdoba, el Alto Perú (Potosí) y Chile, así como a '
           'otras ciudades. Así, aunque no tenía minas, el Paraguay estaba conectado con la economía de la plata. El tabaco y los '
           'lienzos de algodón eran otros productos de venta.'),
     ('fig', 'fig_12_1_yerba.png', 'Figura 12.1 — Las dos economías de la provincia en el siglo XVII (esquema).', 15.0),
@@ -133,8 +133,9 @@ PLAN = {
         ]),
     ],
     'diversidad': [
+        'Variante si la devolución de la Evaluación Integradora de la 1.ª etapa se posterga a este encuentro: 0 a 20 minutos, devolución con claves (sin revelarlas a quien todavía debe rendir); 20 a 120, la clase en 100 minutos. Se mantienen en clase todas las esenciales (Ubicate; fuente, preguntas 1 a 3; actividades 1, 2, 3, 4 y 11). Las de consolidación (5, 6, 8 y 9) pasan a casa, con revisión breve al abrir el encuentro 21; las complementarias quedan como tarea optativa.',
         'Apoyo en vocabulario: glosario en la pizarra (subsistencia, mitayo, servicio personal, ordenanza, visitador, maloca).',
-        'Apoyo en la actividad 11: cadena dada en la pizarra «yerba → Santa Fe y Buenos Aires → Potosí → plata».',
+        'Apoyo en la actividad 11: ramificación dada en la pizarra «yerba → Santa Fe → Buenos Aires / Córdoba y mercados interiores (Potosí y Chile)».',
         'Ajuste de cantidad: quien necesita más tiempo hace solo las esenciales en clase (ver «Actividades según su función»).',
         'Desafío: averiguar cómo se prepara la yerba hoy y compararlo con el trabajo en los yerbales del siglo XVII.',
     ],
@@ -162,7 +163,7 @@ SOL = {
              'Se acepta cualquier fuente que muestre lo que ocurría en realidad.'),
         ]),
         ('Ubicate (Figuras 12.1 y 11.1)', [
-            ('U', 'Los yerbales estaban en Mbaracayú y el Guairá. La yerba pasaba por Asunción, Santa Fe y Buenos Aires hasta Potosí, '
+            ('U', 'Los yerbales estaban en Mbaracayú y el Guairá. La yerba salía desde Asunción hacia Santa Fe y desde allí se distribuía por rutas diversas hacia Buenos Aires, Córdoba, Potosí, '
                   'Chile y otros mercados. Asunción era de la gobernación del Paraguay; Santa Fe y Buenos Aires, del Río de la Plata.', ''),
         ]),
         ('Marcá la opción correcta', [

@@ -21,7 +21,7 @@ TOMO = [
           'relacionar los tres temas: el clima explica en buena parte qué ecosistemas hay en cada región; los ecosistemas condicionan '
           'qué actividades se hacen; y esas actividades producen cambios que la gestión ambiental debe prevenir y controlar.'),
     ('tabla', ['Región', 'Clima', 'Ecosistemas', 'Actividad principal'],
-     [['Noroeste del Chaco', 'Seco y muy caluroso (unos 400 mm de lluvia al año)', 'Chaco Seco', 'Ganadería'],
+     [['Noroeste del Chaco', 'Seco y muy caluroso (unos 600 mm de lluvia al año)', 'Chaco Seco', 'Ganadería'],
       ['Este del Chaco', 'Más húmedo, con inundaciones', 'Chaco Húmedo, palmares y esteros', 'Ganadería'],
       ['Este de la Región Oriental', 'Húmedo (unos 1.800 mm al año)', 'Bosque Atlántico del Alto Paraná', 'Agricultura']],
      [2.6, 3.0, 2.6, 1.8]),
@@ -123,7 +123,7 @@ PLAN = {
 SOL = {
     'bloques': [
         ('Consignas del taller', [
-            ('1', 'Flecha del noroeste del Chaco (unos 400 mm) hacia el este de la Región Oriental (unos 1.800 mm). Chaco Seco al '
+            ('1', 'Flecha del noroeste del Chaco (unos 600 mm) hacia el este de la Región Oriental (unos 1.800 mm). Chaco Seco al '
                   'noroeste; Chaco Húmedo cerca del río Paraguay; Pantanal al norte, junto al río Paraguay; Bosque Atlántico al este, '
                   'junto al Paraná.',
              'Lista de cotejo: título; flecha con valores; cuatro ecosistemas; leyenda. Se compara con las Figuras 19.3 y 20.2.'),

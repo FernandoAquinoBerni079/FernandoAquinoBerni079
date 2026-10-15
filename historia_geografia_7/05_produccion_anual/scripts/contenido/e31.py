@@ -48,7 +48,7 @@ TOMO = [
           'montañas altas que modifiquen mucho su clima: por eso los vientos tienen gran importancia. El viento norte trae aire '
           'cálido y húmedo; el viento sur, aire frío y seco, y produce bajadas bruscas de temperatura.'),
     ('p', 'Las lluvias disminuyen de este a oeste: en el este de la Región Oriental caen unos 1.800 milímetros al año, y en el '
-          'noroeste del Chaco, unos 400. Por eso la Región Oriental es más húmeda y el Chaco, más seco. Algunos años, el fenómeno de '
+          'noroeste del Chaco, unos 600 (promedios del período 1971-2000). Por eso la Región Oriental es más húmeda y el Chaco, más seco. Algunos años, el fenómeno de '
           'El Niño produce lluvias abundantes e inundaciones, y el de La Niña, sequías.'),
     ('fig', 'fig_19_3_lluvias_py.png', 'Figura 19.3 — Las lluvias en el Paraguay aumentan hacia el este (valores aproximados).', 11.0),
     ('caja', 'concepto', 'Concepto clave — ',
@@ -154,7 +154,7 @@ PLAN = {
     },
     'precisiones': [
         'Condición A10/N03: 0 a 20, devolución de la U5; 20 a 120, G3 completo (100 minutos efectivos).',
-        'Los valores de lluvia (unos 400 y unos 1.800 mm al año) son aproximados y redondeados; cotejar con la Dirección de Meteorología e Hidrología.',
+        'Los valores de lluvia (unos 600 y unos 1.800 mm al año) son promedios aproximados de las normales 1971-2000: Grassi (2020), Estado del Clima Paraguay 2019, MADES-STP, p. 20 impresa (PDF 22), fig. 7. Un año seco puede quedar muy por debajo: no es la normal.',
         'Evitar el determinismo: el clima influye junto con los suelos, la tecnología y los mercados.',
     ],
     'tarea': 'Actividades 7, 10 y 12 de la Clase 19.',
@@ -164,7 +164,7 @@ SOL = {
     'bloques': [
         ('Trabajá con la fuente (cartográfica)', [
             ('F1', 'En el este de la Región Oriental: unos 1.800 mm al año.', ''),
-            ('F2', 'Unos 1.400 mm: de unos 1.800 mm en el este a unos 400 mm en el noroeste del Chaco.', 'Se acepta «mucho más al este» con los dos valores.'),
+            ('F2', 'Unos 1.200 mm: de unos 1.800 mm en el este a unos 600 mm en el noroeste del Chaco (normales 1971-2000).', 'Se acepta «mucho más al este» con los dos valores.'),
             ('F3', 'Porque el tiempo cambia de un día y de un año a otro; solo con datos de muchos años se conoce lo habitual.', ''),
         ]),
         ('Ubicate (Figura 19.2)', [
@@ -200,7 +200,7 @@ SOL = {
 }
 
 VERIFICACION = [
-    ('Lluvias anuales: unos 1.800 mm en el este y unos 400 mm en el noroeste del Chaco', 'Valores redondeados habituales en la bibliografía escolar; cotejar con la DMH.'),
+    ('Lluvias anuales: unos 1.800 mm en el este y unos 600 mm en el noroeste del Chaco', 'Normales 1971-2000, aprox. 600-1.800 mm: Grassi (2020), Estado del Clima Paraguay 2019, MADES-STP, p. 20 (PDF p. 22), figura 7.'),
     ('Temperaturas del Chaco superiores a 40 °C; heladas ocasionales', 'Datos habituales; cotejar con la DMH.'),
     ('Quito a unos 2.800 m', 'Dato habitual; cotejar.'),
     ('El Niño (lluvias e inundaciones) y La Niña (sequías) en el Paraguay', 'Relación habitual en la bibliografía; cotejar.'),

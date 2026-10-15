@@ -29,7 +29,7 @@ TOMO = [
           'interior, como viste en la Continuación E.'),
 
     ('h2', 'Inglaterra, Francia y Holanda'),
-    ('p', 'En el siglo XVII, otros reinos europeos fundaron colonias en las zonas que España no ocupaba:'),
+    ('p', 'En el siglo XVII, otros reinos europeos fundaron colonias en áreas sin dominio español efectivo y también conquistaron colonias previamente españolas (por ejemplo, Jamaica, tomada por Inglaterra en 1655). En todos esos territorios existían pueblos originarios:'),
     ('tabla', ['Potencia', 'Dónde y cuándo', 'Características'],
      [['Inglaterra', 'Jamestown (1607) y Plymouth (1620), en América del Norte; Barbados (1627) y Jamaica (1655), en el Caribe.',
        'Colonos que llegaban con sus familias a trabajar la tierra; algunos huían de persecuciones religiosas. En el Caribe, '

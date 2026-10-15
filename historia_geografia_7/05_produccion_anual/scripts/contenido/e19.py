@@ -3,7 +3,7 @@
 Corrige el maestro: la mediterraneidad es una condición geográfica; la
 división de 1617 (causa político-administrativa) la convirtió en dependencia
 política y comercial. Agrega a Hernandarias, las ciudades de cada gobernación
-y el paso obligado por Santa Fe y Buenos Aires. Sustituye el «testimonio de un
+y la salida atlántica por Santa Fe y Buenos Aires (no la única ruta: BIII-02). Sustituye el «testimonio de un
 vecino» inventado por una fuente secundaria declarada.
 Plan 19: los primeros 20 minutos son la devolución de la Evaluación
 Integradora de la 1.ª etapa (condición A10).
@@ -46,8 +46,8 @@ TOMO = [
     ('p', 'Asunción siempre estuvo lejos del mar: está a más de mil kilómetros de la desembocadura del Río de la Plata. Esa '
           'condición geográfica se llama mediterraneidad. La división de 1617 no cambió la geografía, pero sí cambió quién '
           'controlaba la salida al mar: el puerto de Buenos Aires quedó en manos de otra gobernación.'),
-    ('p', 'Desde entonces, todo lo que el Paraguay vendía o compraba afuera bajaba por los ríos Paraguay y Paraná y debía pasar '
-          'por Santa Fe y por Buenos Aires, donde se pagaban derechos e impuestos. Además, el comercio por Buenos Aires estaba muy '
+    ('p', 'Una parte del comercio paraguayo bajaba por los ríos Paraguay y Paraná para salir al Atlántico por el puerto de Buenos Aires; otras mercancías se redistribuían desde Santa Fe por rutas interiores hacia Córdoba, el Alto Perú y Chile. El comercio portuario debía pasar '
+          'por las autoridades y aduanas correspondientes, donde se pagaban derechos e impuestos. Además, el comercio por Buenos Aires estaba muy '
           'limitado por la Corona: en 1622 se creó una aduana en Córdoba para controlar el paso de mercaderías entre el puerto y el '
           'Perú. Para los productores paraguayos, cada pago y cada demora hacían más caros sus productos.'),
     ('caja', 'concepto', 'Concepto clave — ',
@@ -89,7 +89,7 @@ TOMO = [
     ('opc', ['una consecuencia de la división de 1617', 'un tratado con Buenos Aires', 'la falta de ríos navegables',
              'una condición geográfica: no tener costa marítima']),
     ('item', '4. Una consecuencia de la división fue que…'),
-    ('opc', ['el Paraguay obtuvo un puerto propio sobre el mar', 'Asunción pasó a depender de Santa Fe y Buenos Aires para su comercio',
+    ('opc', ['el Paraguay obtuvo un puerto propio sobre el mar', 'Asunción pasó a depender de los puertos de la otra gobernación para su salida atlántica',
              'se suprimió el comercio de la yerba', 'Buenos Aires pasó a depender de Asunción']),
     ('consigna', 'Completá los espacios:'),
     ('item', '5. La provincia fue dividida en el año ________ por el rey Felipe III.'),
@@ -175,7 +175,7 @@ SOL = {
             ('1', 'b) fue el primer gobernador criollo y propuso la división de la provincia', ''),
             ('2', 'a) la gobernación del Río de la Plata', ''),
             ('3', 'd) una condición geográfica: no tener costa marítima', ''),
-            ('4', 'b) Asunción pasó a depender de Santa Fe y Buenos Aires para su comercio', ''),
+            ('4', 'b) Asunción pasó a depender de los puertos de la otra gobernación para su salida atlántica', ''),
         ]),
         ('Completá los espacios', [
             ('5', '1617', ''),
@@ -193,7 +193,7 @@ SOL = {
                    'para comerciar: pasó a depender de Buenos Aires.', 'Debe distinguir la condición geográfica de la situación política.'),
             ('12', 'Ejemplo: «En 1617 el rey dividió la provincia porque era enorme y difícil de gobernar y porque Buenos Aires había '
                    'crecido gracias a su puerto. Hernandarias lo había propuesto. El Paraguay ya era mediterráneo, pero desde entonces '
-                   'dependió de Buenos Aires: sus productos pagaban impuestos en Santa Fe y Buenos Aires y llegaban caros.»',
+                   'dependió de Buenos Aires para salir al mar: lo que se exportaba por el puerto pagaba derechos en la otra gobernación y llegaba caro.»',
              'Criterio anunciado en la consigna: dos causas (2 puntos), una consecuencia para el Paraguay (1 punto) y la distinción '
              'entre mediterraneidad y dependencia (1 punto).'),
         ]),

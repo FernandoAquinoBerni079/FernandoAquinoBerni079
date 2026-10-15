@@ -1,0 +1,126 @@
+{
+  "aplicado": "2026-10-15T18:05:27.583854",
+  "archivos_alterados": [
+    "figuras/bloque1.py",
+    "figuras/bloque2.py",
+    "figuras/bloque3.py",
+    "figuras/bloque4.py",
+    "contenido/e06.py",
+    "contenido/e08.py",
+    "contenido/e09.py",
+    "contenido/e18.py",
+    "contenido/e19.py",
+    "contenido/e20.py",
+    "contenido/e22.py",
+    "contenido/e24.py",
+    "contenido/e26.py",
+    "contenido/e27.py",
+    "contenido/e31.py",
+    "contenido/e34.py",
+    "contenido/e36.py"
+  ],
+  "notas": {
+    "figuras/bloque1.py": [
+      "APLICADO: def mapa_civilizaciones(geo, salida, ancho=12.0, numerado=None, mudo=False):",
+      "APLICADO:     marco(ax, -118, -32, -40, 34, ticks=False)     dibujar_paises(ax, paises, borde=0.3)",
+      "APLICADO: mapa_civilizaciones(geo, p(reg('ficha_B_mapa_mudo_america.png', 15.0)), ancho=15.0, mudo=True)",
+      "APLICADO: \"\"\"Eje en blanco de 0 a 1600 d. C. (1 cm = 100 años aprox.) para la Ficha B-2.\"\"\"",
+      "APLICADO:     ax.text(800, 3.8, 'Años después de Cristo (d. C.) · 1 división = 100 años', ha='center', fontsize=8, ",
+      "APLICADO:     ax.set_xlabel('Años después de Cristo (d. C.)', fontsize=8)"
+    ],
+    "contenido/e08.py": [
+      "APLICADO: y la línea empieza en el año 0. Entre Monte "
+    ],
+    "contenido/e06.py": [
+      "APLICADO 1×: todavía se discuten.",
+      "APLICADO 1×: ¿Por qué los científicos todavía discuten la fecha de White Sands? Pensá qu",
+      "APLICADO 1×: Si deja White Sands aparte por estar en discusión, también es correcto.",
+      "APLICADO 1×: White Sands 21.000-23.000 (2021, en discusión)"
+    ],
+    "contenido/e09.py": [
+      "APLICADO: 'en Monte Verde, en Chile, hay un campamento de unos 14.500 años. Esto muestra que Ameghino se equivocaba"
+    ],
+    "contenido/e18.py": [
+      "APLICADO: Muchos guaraníes resistieron, como en la rebelión de Oberá en 1579.",
+      "APLICADO: las autoridades españolas (gobernador, encomenderos); los caciques como intermediarios.",
+      "APLICADO 1×: la matriz del solucionario muestra el peso de cada una"
+    ],
+    "contenido/e30.py": [
+      "APLICADO 0×: la matriz del solucionario muestra el peso de cada una"
+    ],
+    "contenido/e35.py": [
+      "APLICADO 0×: la matriz del solucionario muestra el peso de cada una"
+    ],
+    "contenido/e36.py": [
+      "APLICADO 1×: la matriz del solucionario muestra el peso de cada una",
+      "APLICADO 1×: 400 mm",
+      "APLICADO 0×: 1.400 mm",
+      "APLICADO 0×: 1400 mm",
+      "APLICADO 0×: unos 400",
+      "APLICADO 0×: unos 1.400",
+      "APLICADO 0×: dependía de Buenos Aires y Santa Fe para comerciar",
+      "APLICADO 0×: dependiente de Buenos Aires y Santa Fe para comerciar"
+    ],
+    "contenido/e19.py": [
+      "APLICADO: Desde entonces, todo lo que el Paraguay vendía o compraba afuera bajaba por los ríos Paraguay y Paraná y ",
+      "APLICADO 2×: Asunción pasó a depender de Santa Fe y Buenos Aires para su comercio",
+      "APLICADO: 'por Santa Fe y por Buenos Aires, donde se pagaban derechos e impuestos. Además, el comercio por Buenos A"
+    ],
+    "contenido/e20.py": [
+      "APLICADO: La yerba bajaba en barcos hasta Santa Fe y Buenos Aires, y desde allí se vendía en el Alto Perú (Potosí),",
+      "APLICADO: cadena dada en la pizarra «yerba → Santa Fe y Buenos Aires → Potosí → plata».",
+      "APLICADO: La yerba pasaba por Asunción, Santa Fe y Buenos Aires hasta Potosí, '",
+      "APLICADO:     'diversidad': [ "
+    ],
+    "figuras/bloque3.py": [
+      "APLICADO: 'Santa Fe y\\nBuenos Aires\\n(pago de derechos)'",
+      "APLICADO: 'Mercados: Potosí y\\nAlto Perú, Chile,\\nBuenos Aires'",
+      "APLICADO:     flecha(ax, 3.55, 5.15, 4.15, 5.15); flecha(ax, 7.15, 5.15, 7.75, 5.15); flecha(ax, 11.05, 5.15, 11.65",
+      "APLICADO:     rotulo(ax, -57.75, -21.85, 'río Apa', tam=7.8, color=AGUA, ha='left', fontweight='bold')",
+      "APLICADO: Line2D([], [], color=OCRE, lw=1.2, ls=(0, (4, 2)), label='Trópico de Capricornio')], ncol=2, y=0.085)",
+      "APLICADO: 'Natural Earth no trae el río Apa: se marca su desembocadura en posición aproximada. Datos: Natural Earth"
+    ],
+    "contenido/e26.py": [
+      "APLICADO: 'río Apa y río Paraguay (con el Brasil)'",
+      "APLICADO: 'Paraguay con el Brasil; Paraná o Pilcomayo con la Argentina; con Bolivia el límite es principalmente sec",
+      "APLICADO: 'Basta un río por país; para Bolivia se acepta que el límite no sigue un gran río.'"
+    ],
+    "contenido/e22.py": [
+      "APLICADO: São Paulo en la costa atlántica del Brasil;"
+    ],
+    "contenido/e24.py": [
+      "APLICADO: otros reinos europeos fundaron colonias en las zonas que España no ocupaba:"
+    ],
+    "contenido/e27.py": [
+      "APLICADO:     'diversidad': [ "
+    ],
+    "contenido/e31.py": [
+      "APLICADO 3×: 400 mm",
+      "APLICADO 0×: 1.400 mm",
+      "APLICADO 0×: 1400 mm",
+      "APLICADO 2×: unos 400",
+      "APLICADO 0×: unos 1.400",
+      "APLICADO 1×: Valores redondeados habituales en la bibliografía escolar; cotejar con la D",
+      "REVISAR: patrón esperado 1, encontrado 0: \"'Los valores de lluvia (unos 400 y unos 1.800 mm al año) son aproximados y redondeados; cotejar con la Direcci\""
+    ],
+    "contenido/e34.py": [
+      "APLICADO 2×: 400 mm",
+      "APLICADO 0×: 1.400 mm",
+      "APLICADO 0×: 1400 mm",
+      "APLICADO 0×: unos 400",
+      "APLICADO 0×: unos 1.400"
+    ],
+    "figuras/bloque4.py": [
+      "APLICADO 1×: 400 mm",
+      "APLICADO 0×: 1.400 mm",
+      "APLICADO 0×: 1400 mm",
+      "APLICADO 0×: unos 400",
+      "APLICADO 0×: unos 1.400",
+      "APLICADO: 'Esquema aproximado: los valores de lluvia anual son redondeados y varían de un año a otro (cotejar con l",
+      "APLICADO: 'de Meteorología e Hidrología). Datos geográficos: Natural Earth.'"
+    ],
+    "figuras/bloque2.py": [
+      "APLICADO:     escala(ax, -67.8, -35.6, -30, km=300, dy=0.3)"
+    ]
+  }
+}

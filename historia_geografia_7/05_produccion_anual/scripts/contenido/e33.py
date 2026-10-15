@@ -193,6 +193,6 @@ SOL = {
 VERIFICACION = [
     ('Constitución, art. 7 (primera oración, cita textual) y art. 8 (síntesis)', 'Cotejar con la edición oficial (BACN).'),
     ('MADES (2018, sobre la base de la SEAM, creada en 2000); INFONA', 'Leyes 6123/2018, 1561/2000 y 3464/2008 según la bibliografía; cotejar.'),
-    ('Leyes 294/1993, 352/1994, 716/1996 y 2524/2004 (y prórrogas)', 'Cotejar números, años, contenido y vigencia en la BACN.'),
+    ('Leyes 294/1993, 352/1994, 716/1996 y 2524/2004 (prorrogada por la Ley 6676/2020)', 'Cotejar números, años, contenido y vigencia en la BACN.'),
     ('Parques nacionales Defensores del Chaco e Ybycuí', 'Cotejar en el registro del MADES.'),
 ]

@@ -168,7 +168,7 @@ def matriz(salida, paginas):
            '(capacidad y temas del programa), Asociación curricular (evaluaciones que integran capacidades literales), Formulación '
            'editorial (Clase 1). Generada desde los módulos de contenido de la producción anual.')
     cab = ['N.º', 'Tipo', 'Sección', 'Unidad', 'Capacidades', 'Temas MEC', 'Tipo de vínculo', 'Tomo (págs.)', 'Observaciones']
-    anchos = [0.9, 2.0, 4.4, 1.5, 2.2, 1.9, 2.4, 1.6, 10.2]
+    anchos = [0.9, 2.0, 4.4, 1.5, 2.5, 1.9, 2.4, 1.6, 9.9]   # COM-03: «Capacidades» sin partir
     t = d.add_table(rows=1, cols=len(cab)); t.style = 'Table Grid'
     PP.encabezado_repetido(t.rows[0]); PP.no_partir(t.rows[0])
     for j, h in enumerate(cab):

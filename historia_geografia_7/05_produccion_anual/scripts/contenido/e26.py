@@ -47,7 +47,7 @@ TOMO = [
 
     ('h2', 'Límites y posición relativa'),
     ('tabla', ['Punto cardinal', 'Países limítrofes', 'Ríos que marcan parte del límite'],
-     [['Norte', 'Bolivia y Brasil', 'río Apa y río Paraguay (con el Brasil)'],
+     [['Norte', 'Bolivia y Brasil', 'río Apa y río Paraguay (con Brasil); río Negro u Otuquis (con Bolivia, aprox. 38 km)'],
       ['Este', 'Brasil y Argentina', 'río Paraná'],
       ['Sur', 'Argentina', 'ríos Paraguay y Paraná'],
       ['Oeste', 'Argentina y Bolivia', 'río Pilcomayo (con la Argentina)']],
@@ -180,8 +180,8 @@ SOL = {
         ]),
         ('Ubicate (Figuras 16.1 y 16.2)', [
             ('U', 'Los océanos Atlántico, Pacífico y Glacial Ártico. El Paraguay está en los hemisferios sur y occidental. Ríos: Apa o '
-                  'Paraguay con el Brasil; Paraná o Pilcomayo con la Argentina; con Bolivia el límite es principalmente seco, en el Chaco.',
-             'Basta un río por país; para Bolivia se acepta que el límite no sigue un gran río.'),
+                  'Paraguay o Apa con Brasil; Paraná o Pilcomayo con Argentina; Negro u Otuquis con Bolivia, cuyo límite es mayormente terrestre (unos 38 km fluviales).',
+             'Un río por país: para Bolivia, Negro u Otuquis; aceptar la explicación de que la mayor parte del límite boliviano es seco, si identifica el tramo fluvial.'),
         ]),
         ('Marcá la opción correcta', [
             ('1', 'a) la latitud y la longitud', ''),

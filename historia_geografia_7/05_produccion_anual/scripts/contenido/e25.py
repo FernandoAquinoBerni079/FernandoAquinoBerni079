@@ -147,8 +147,8 @@ SOL = {
         ('Parte E — 5 puntos', [
             ('13', 'Ejemplo: «En 1617 el rey dividió la provincia porque era enorme y difícil de gobernar y porque Buenos Aires había crecido '
                    'por su puerto. Asunción ya estaba lejos del mar: eso es la mediterraneidad. Pero desde la división el puerto quedó en '
-                   'otra gobernación y el Paraguay pasó a depender de Buenos Aires. Sus productos, como la yerba, pagaban impuestos en '
-                   'Santa Fe y Buenos Aires y llegaban caros.»',
+                   'otra gobernación y el Paraguay pasó a depender de Buenos Aires. Lo que se exportaba por el puerto, como parte de la yerba, '
+                   'pagaba derechos en la otra gobernación y llegaba caro.»',
              'Criterio anunciado en la consigna (1 punto cada uno): una causa de la división, otra causa, la diferencia entre '
              'mediterraneidad y dependencia, una consecuencia económica y un texto ordenado.'),
         ]),

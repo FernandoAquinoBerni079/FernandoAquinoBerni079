@@ -146,7 +146,8 @@ def construir_planes(ns, dx, subtitulo):
 
 def construir_solucionario(ns, rangos, figuras, dx, titulo):
     import solucionario as S
-    S.construir([sol_completo(n) for n in ns], rangos, figuras, dx, titulo)
+    import referencias_docente as RD
+    S.construir([sol_completo(n) for n in ns], rangos, figuras, dx, titulo, referencias=(RD.INTRO, RD.REFERENCIAS) if len(ns) == 36 else None)   # COM-02: solo en el volumen anual
     return PDF.render(dx)
 
 

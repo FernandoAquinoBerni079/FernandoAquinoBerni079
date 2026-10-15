@@ -112,7 +112,7 @@ PLAN = {
                       'La Parte E se corrige con los seis criterios impresos en la consigna.'],
     },
     'precisiones': [
-        'La integradora evalúa las capacidades H1, H2, H3 y H4 (Unidades 1 a 3); la matriz del solucionario muestra el peso de cada una.',
+        'La integradora evalúa las capacidades H1, H2, H3 y H4 (Unidades 1 a 3); la matriz muestra cobertura y puntajes por ítem, pero los puntos compartidos no equivalen a un peso exclusivo por capacidad.',
         'Ningún ítem de la integradora repite los de la Evaluación de la Unidad 3, cuyas claves se comentan en los primeros 20 minutos.',
         'Primeros 20 minutos del encuentro 19: devolución de la integradora con claves y criterios; el Plan 19 reserva ese tiempo.',
     ],
@@ -149,14 +149,14 @@ SOL = {
             ('14', 'Trabajo hacia 1500: agricultura de roza en la aldea, con reciprocidad (los hombres abrían la chacra; las mujeres '
                    'cultivaban y hacían la cerámica). Trabajo a mediados del XVI: servicio a los españoles, rancheadas y, desde 1556, '
                    'encomienda. Autoridad hacia 1500: el mburuvicha, por su prestigio y generosidad. Autoridad a mediados del XVI: '
-                   'las autoridades españolas (gobernador, encomenderos); los caciques como intermediarios.',
+                   'gobernador y Cabildo ejercían el gobierno colonial; los encomenderos tenían poder económico y control del trabajo indígena, mientras los caciques conservaron autoridad local e intermediaron con los españoles.',
              'Criterio anunciado en la Parte D: 1 por cada casilla correcta. Se aceptan expresiones equivalentes.'),
         ]),
         ('Parte E — 6 puntos', [
             ('15', 'Ejemplo: «Hacia 1500, los guaraníes vivían en aldeas con casas comunales y cultivaban con la técnica de roza. El '
                    'parentesco y la reciprocidad unían a las familias. Cuando llegaron los españoles, los carios se aliaron con ellos y '
                    'les entregaron mujeres para volverlos cuñados. De esas uniones nacieron los mestizos. Pero los españoles exigieron '
-                   'cada vez más trabajo y la alianza se volvió dominio. Muchos guaraníes resistieron, como en la rebelión de Oberá en 1579.»',
+                   'cada vez más trabajo y la alianza se volvió dominio. Hubo resistencias guaraníes tempranas, como los levantamientos de Aracaré y Tabaré entre 1542 y 1543.»',
              'Criterio anunciado en la consigna (1 punto cada uno): la organización de la aldea, la reciprocidad o el parentesco, la '
              'alianza con los españoles, el mestizaje, una forma de resistencia y un texto ordenado.'),
         ]),

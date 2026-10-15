@@ -137,6 +137,7 @@ PLAN = {
         ]),
     ],
     'diversidad': [
+        'Variante si la devolución de la Evaluación de la Unidad 4 se posterga a este encuentro: 0 a 20 minutos, devolución con claves (sin revelarlas a quien todavía debe rendir); 20 a 120, la clase en 100 minutos. Se mantienen en clase todas las esenciales (Ubicate; fuente, preguntas 1 a 3; actividades 1, 2, 3, 4 y 11). Las de consolidación (5, 7, 8 y 9) pasan a casa, con revisión breve al abrir el encuentro 28; las complementarias quedan como tarea optativa.',
         'Apoyo con material concreto: modelar con plastilina o arena una montaña, una meseta, una llanura y un valle.',
         'Apoyo en la actividad 11: cuadro de dos columnas en la pizarra («Oriental» / «Occidental») con las palabras llanura, serranía, cerro, esteros.',
         'Ajuste de cantidad: quien necesita más tiempo hace solo las esenciales en clase (ver «Actividades según su función»).',

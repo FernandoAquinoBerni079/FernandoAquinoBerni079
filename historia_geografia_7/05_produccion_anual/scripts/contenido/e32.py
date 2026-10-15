@@ -204,6 +204,6 @@ VERIFICACION = [
     ('Ecosistemas del Paraguay (Chaco Seco, Chaco Húmedo, Pantanal, Cerrado, Bosque Atlántico del Alto Paraná, humedales del Ñeembucú)',
      'Denominaciones habituales; el MADES tiene una clasificación oficial de ecorregiones que debe cotejarse.'),
     ('Pérdida de la mayor parte del Bosque Atlántico en el siglo XX; avance del desmonte en el Chaco', 'Afirmación cualitativa habitual; cotejar con INFONA o MADES antes de agregar cifras.'),
-    ('Ley de 2004 que prohíbe la conversión de bosques en la Región Oriental (Ley 2524/2004) y sus prórrogas', 'Cotejar en la BACN.'),
+    ('Ley de 2004 que prohíbe la conversión de bosques en la Región Oriental (Ley 2524/2004) y sus prórrogas', 'Prórroga: Ley 6676/2020 (BACN). Cotejar la vigencia en la BACN; no se afirma fecha de caducidad.'),
     ('Figuras 20.1 y 20.2', 'Esquemas de la editorial.'),
 ]

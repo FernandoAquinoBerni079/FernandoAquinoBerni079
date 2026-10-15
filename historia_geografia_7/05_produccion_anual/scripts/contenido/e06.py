@@ -49,7 +49,7 @@ TOMO = [
           'un grupo de especialistas aceptó esa antigüedad. Hoy la mayoría acepta que hubo poblamiento anterior a Clovis. Lo que '
           'sigue en debate es cuánto antes llegaron y por qué rutas: algunos proponen una ruta por la costa del Pacífico, en '
           'canoas o caminando por la orilla, y otros un corredor por el interior, entre los hielos. Huellas humanas halladas en '
-          'White Sands (Estados Unidos), fechadas en más de 20.000 años, todavía se discuten.'),
+          'White Sands (Estados Unidos), fechadas en más de 20.000 años, fueron corroboradas mediante polen terrestre y datación por luminiscencia en un estudio independiente de 2023; algunos detalles continúan sujetos a investigación.'),
     ('fig', 'fig_4_1_poblamiento.png', 'Figura 4.1 — Rutas propuestas para el poblamiento de América y algunos sitios arqueológicos (esquema).', 12.0),
     ('caja', 'concepto', 'Concepto clave — ',
      'Una teoría científica es una explicación basada en pruebas, que puede cambiar cuando aparecen nuevos datos. Por eso '
@@ -65,11 +65,11 @@ TOMO = [
       'Clovis (Nuevo México, Estados Unidos): puntas de piedra acanaladas para cazar grandes animales; unos 13.000 años.',
       'Cueva Fell (Patagonia chilena): herramientas y restos de animales extinguidos; más de 11.000 años.',
       'White Sands (Nuevo México, Estados Unidos): huellas humanas fechadas en 21.000 a 23.000 años (publicado en 2021; '
-      'la fecha sigue en discusión).'],
+      'en 2023 un estudio independiente la corroboró con polen y luminiscencia).'],
      '',
      ['Ordená los cuatro sitios del más antiguo al más reciente.',
       '¿Qué sitio hizo dudar de que Clovis fuera la primera cultura de América? ¿Por qué?',
-      '¿Por qué los científicos todavía discuten la fecha de White Sands? Pensá qué haría falta para aceptarla.']),
+      '¿Qué pruebas apoyaron la fecha de White Sands en 2021 y qué métodos independientes la corroboraron en 2023? ¿Por qué importa emplear más de un método?']),
     ('renglones', 6),
     ('ubicate', 'Ubicate  ·  Mapa (Figura 4.1)',
      'Ubicá Beringia y Monte Verde. ¿En qué dirección general avanzó el poblamiento? ¿Por qué Monte Verde, en el extremo sur, '
@@ -161,8 +161,8 @@ PLAN = {
 SOL = {
     'bloques': [
         ('Trabajá con la fuente', [
-            ('F1', 'White Sands (21.000-23.000 años, en discusión), Monte Verde (14.500), Clovis (13.000), Cueva Fell (más de 11.000).',
-             'Si deja White Sands aparte por estar en discusión, también es correcto.'),
+            ('F1', 'White Sands (21.000-23.000 años; corroborada en 2023), Monte Verde (14.500), Clovis (13.000), Cueva Fell (más de 11.000).',
+             'Aceptar la mención de White Sands (21.000-23.000 años), reforzada en 2023 por polen y luminiscencia, o una explicación bien fundamentada de las incertidumbres.'),
             ('F2', 'Monte Verde, porque es más antiguo que Clovis (14.500 frente a 13.000 años) y su antigüedad fue aceptada.', ''),
             ('F3', 'Porque una sola fecha no alcanza: los científicos piden repetir los análisis con otros métodos y encontrar más '
                    'sitios con fechas parecidas.', 'Se acepta cualquier criterio razonable de comprobación.'),
@@ -186,7 +186,7 @@ SOL = {
         ('Verdadero o falso', [
             ('8', 'Falso: no se encontraron restos de especies humanas anteriores en América.', 'Justificación obligatoria.'),
             ('9', 'Verdadero.', ''),
-            ('10', 'Falso: la fecha sigue en discusión.', 'Justificación obligatoria.'),
+            ('10', 'Falso: en 2023 un estudio independiente la corroboró con otros métodos, pero eso no equivale a unanimidad; algunos detalles siguen en investigación.', 'Justificación obligatoria. Se acepta mencionar la corroboración de 2023.'),
         ]),
         ('Respondé y fundamentá', [
             ('11', 'Se confirmó el origen asiático y el paso por la zona de Bering. Cambió la idea de una sola migración reciente: hoy '
@@ -202,6 +202,6 @@ SOL = {
 VERIFICACION = [
     ('Homo sapiens hace unos 300.000 años en África', 'Dato habitual (hallazgos de Jebel Irhoud); cotejar.'),
     ('Monte Verde ≈ 14.500 años; aceptación de 1997', 'Bibliografía arqueológica (Dillehay); cotejar.'),
-    ('Clovis ≈ 13.000 años; Cueva Fell más de 11.000; White Sands 21.000-23.000 (2021, en discusión)', 'Cotejar con publicaciones científicas.'),
+    ('Clovis ≈ 13.000 años; Cueva Fell más de 11.000; White Sands 21.000-23.000 (2021; corroboración independiente en Science, Pigati et al., 2023, DOI 10.1126/science.adh5007)', 'Cotejar con publicaciones científicas.'),
     ('Autores y épocas de las teorías clásicas (Ameghino, Hrdlička, Rivet, Mendes Correia)', 'Contenido habitual de manuales; cotejar.'),
 ]

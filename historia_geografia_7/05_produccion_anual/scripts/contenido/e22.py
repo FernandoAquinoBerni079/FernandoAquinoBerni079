@@ -164,7 +164,7 @@ SOL = {
                    'fuentes, por ejemplo documentos de los paulistas o de las autoridades españolas.', ''),
         ]),
         ('Consignas del taller', [
-            ('1', 'São Paulo en la costa atlántica del Brasil; Asunción sobre el río Paraguay; los Saltos del Guairá sobre el Paraná; '
+            ('1', 'São Paulo en el planalto interior del sudeste brasileño, próximo al litoral; Asunción sobre el río Paraguay; los Saltos del Guairá sobre el Paraná; '
                   'Mbororé junto al río Uruguay. El Guairá, al este del Paraná, entre el Paranapanema y el Iguazú. Maloca de São Paulo al '
                   'Guairá; éxodo por el Paraná hacia el sur.',
              'Lista de cotejo: título; cuatro lugares; región sombreada; dos recorridos con colores distintos; leyenda. Se compara con la Figura E.1.'),

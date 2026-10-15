@@ -251,7 +251,7 @@ def mapa_lluvias_py(geo, salida, ancho=11.0):
     rios_caja(ax, rios, (-64, -53, -29, -18), lw=0.9)
     ax.annotate('', xy=(-55.0, -26.0), xytext=(-61.2, -20.6),
                 arrowprops=dict(arrowstyle='-|>', color=AZUL2, lw=3.0, alpha=0.8), zorder=6)
-    rotulo(ax, -60.2, -20.1, 'menos lluvias:\nunos 400 mm al año', tam=8, color=ROJO, fontweight='bold', ha='center')
+    rotulo(ax, -60.2, -20.1, 'menos lluvias:\nunos 600 mm al año', tam=8, color=ROJO, fontweight='bold', ha='center')
     rotulo(ax, -55.6, -27.2, 'más lluvias:\nunos 1.800 mm al año', tam=8, color=AZUL, fontweight='bold', ha='center')
     rotulo(ax, -62.6, -24.9, 'Chaco: más seco y\nmás caluroso en verano', tam=7.8, color='#7A5A2B')
     rotulo(ax, -56.3, -24.3, 'Región Oriental:\nmás húmeda', tam=7.8, color='#7A5A2B')
@@ -263,8 +263,8 @@ def mapa_lluvias_py(geo, salida, ancho=11.0):
     norte(ax, -54.2, -19.9)
     escala(ax, -62.9, -28.0, -24.0)
     leyenda(fig, [Line2D([], [], color=AZUL2, lw=3, label='Las lluvias aumentan hacia el este'), 'rio', 'limite', 'capital'], ncol=2, y=0.075)
-    nota_fuente(fig, 'Esquema aproximado: los valores de lluvia anual son redondeados y varían de un año a otro (cotejar con la Dirección '
-                     'de Meteorología e Hidrología). Datos geográficos: Natural Earth.')
+    nota_fuente(fig, 'Esquema aproximado: medias anuales para el período 1971-2000 (unos 600-1.800 mm). Fuente: Grassi (2020), MADES-STP, '
+                     'Estado del Clima Paraguay 2019, p. 20 (PDF 22), fig. 7. Datos geográficos: Natural Earth.')
     guardar(fig, salida, rect=(0, 0.17, 1, 1))
 
 

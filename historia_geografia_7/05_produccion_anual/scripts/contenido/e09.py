@@ -131,8 +131,8 @@ SOL = {
         ('Parte E — 5 puntos', [
             ('13', 'Ejemplo: «Los primeros americanos vinieron del nordeste de Asia. Durante la última glaciación el mar bajó y '
                    'apareció Beringia, una franja de tierra entre Siberia y Alaska, por donde pasaron. Después avanzaron hacia el sur: '
-                   'en Monte Verde, en Chile, hay un campamento de unos 14.500 años. Esto muestra que Ameghino se equivocaba al pensar '
-                   'que la humanidad se originó en América.»',
+                   'en Monte Verde, en Chile, hay un campamento de unos 14.500 años, anterior a la cultura Clovis. Esto confirma '
+                   'una presencia humana temprana en América; la humanidad como especie se originó en África, según múltiples evidencias.»',
              'Criterio anunciado en la consigna (1 punto cada uno): el origen en el nordeste de Asia, el paso por Beringia durante la '
              'glaciación, una prueba arqueológica con su fecha aproximada, una diferencia con alguna teoría clásica y un texto ordenado.'),
         ]),

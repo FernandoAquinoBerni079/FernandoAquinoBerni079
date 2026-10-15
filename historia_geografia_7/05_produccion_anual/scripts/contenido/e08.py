@@ -68,7 +68,7 @@ TOMO = [
 FICHAS = [
     ('ficha_repro', 'Ficha reproducible B-1 — Mapa mudo de América',
      [('p', 'Título del mapa: ______________________________________________'),
-      ('fig', 'ficha_B_mapa_mudo_america.png', 'Mapa mudo para la consigna 1. Elaboración propia con datos de Natural Earth (dominio público); mapa aproximado.', 15.0),
+      ('fig', 'ficha_B_mapa_mudo_america.png', 'Mapa mudo de América y el nordeste de Asia para la consigna 1. Elaboración propia con datos de Natural Earth (dominio público); mapa aproximado.', 15.0),
       ('cuadro', ['Leyenda: color o símbolo', 'Qué representa'], ['', '', '', ''], [3.0, 7.0], 0.9)]),
     ('ficha_repro', 'Ficha reproducible B-2 — Línea de tiempo de las civilizaciones',
      [('fig', 'ficha_B_linea_vacia.png', 'Eje para la consigna 2 (1 división = 100 años).', 16.0),
@@ -138,7 +138,7 @@ SOL = {
              'Lista de cotejo: título; cinco lugares; tres áreas diferenciadas; leyenda completa. Se compara con la Figura 5.1.'),
             ('2', 'Barras: clásico maya de 250 a 900; mexicas de 1325 a 1521; incas de 1438 a 1533. Marca en 1492.',
              'Cada barra con sus fechas y respetando la escala (1 división = 100 años).'),
-            ('3', 'Porque ocurrió hace unos 14.500 años, es decir, hacia el 12.500 a. C., y la línea empieza en el año 0. Entre Monte '
+            ('3', 'Porque ocurrió hace unos 14.500 años, es decir, hacia el 12.500 a. C., y la escala gráfica comienza en 0 (solo origen numérico; no existió año 0 del calendario). Entre Monte '
                   'Verde y 1325 pasaron unos 13.800 años: alrededor de 138 siglos.', 'Se aceptan entre 130 y 140 siglos si explica el cálculo.'),
             ('4', 'Ejemplo: «Los mayas vivieron en el sur de México y en Guatemala, y su período clásico fue entre el 250 y el 900. '
                   'Los incas vivieron en los Andes y formaron su imperio desde 1438. Los mayas tenían ciudades-estado independientes; '

@@ -144,8 +144,10 @@ LUGARES_PLATA = {'Buenos Aires (1536)': (-58.38, -34.6), 'Sancti Spiritus (1527)
 def mapa_rutas_plata(geo, salida, ancho=12.0, mudo=False, numerado=None):
     paises = cargar(geo, 'ne_50m_admin_0_countries')
     rios = cargar(geo, 'ne_10m_rivers_lake_centerlines_scale_rank')
-    fig, ax = lienzo(ancho, ancho * 1.08)
-    marco(ax, -68.5, -46.0, -36.5, -16.5, ticks=False)
+    # AN-01: con la leyenda de rutas (cuatro filas) se reserva más alto y una franja inferior libre para la escala;
+    # el mapa mudo de la Ficha C conserva las medidas de 88a0970 (su leyenda es de una fila).
+    fig, ax = lienzo(ancho, ancho * (1.08 if mudo else 1.28))
+    marco(ax, -68.5, -46.0, -36.5 if mudo else -37.7, -16.5, ticks=False)
     dibujar_paises(ax, paises, borde=0.4)
     dibujar_rios(ax, rios, (-70, -45, -37, -15), nombres=('Paraná', 'Pilcomayo', 'Uruguay', 'Bermejo', 'Salado'))
     elems = []
@@ -170,11 +172,11 @@ def mapa_rutas_plata(geo, salida, ancho=12.0, mudo=False, numerado=None):
                     (-56.0, -32.7, 'URUGUAY')):
         rotulo(ax, x, y, t, tam=8, color='#555555', fontweight='bold', ha='center')
     rotulo(ax, -49.5, -32.5, 'OCÉANO\nATLÁNTICO', tam=8, color='#3A5F7D', ha='center')
-    escala(ax, -67.8, -35.6, -30, km=300, dy=0.3)
+    escala(ax, -67.8, -35.6 if mudo else -36.75, -30, km=300, dy=0.3)
     norte(ax, -47.3, -18.5, tam=1.0)
     leyenda(fig, elems + ['rio', 'limite'] + (['ciudad'] if not mudo and not numerado else []), ncol=2)
     nota_fuente(fig, 'Recorridos aproximados de la editorial; países actuales solo como referencia. Datos: Natural Earth.')
-    guardar(fig, salida, rect=(0, 0.12, 1, 1))
+    guardar(fig, salida, rect=(0, 0.12 if mudo else 0.2, 1, 1))
 
 
 HITOS_PLATA = [(1516, 'Solís llega al Río de la Plata y muere en la costa'), (1524, 'Alejo García llega a la frontera inca (año aproximado)'),

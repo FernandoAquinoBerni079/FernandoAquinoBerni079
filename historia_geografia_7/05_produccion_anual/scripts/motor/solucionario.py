@@ -59,6 +59,14 @@ def _matriz(doc, filas, total, entera=False):
         for c in fila.cells:
             for q in c.paragraphs:
                 q.paragraph_format.keep_with_next = True
+    # COM-01: si hay filas con más de una capacidad, se declara el puntaje compartido (no hay peso exclusivo).
+    compartidas = [pts for _, cap, _, pts in filas if ',' in cap or ' y ' in cap]
+    if compartidas:
+        p = doc.add_paragraph(); p.paragraph_format.space_before = Pt(2)
+        r = p.add_run('Puntaje compartido: %d de los %d puntos corresponden a ítems que evalúan más de una capacidad. '
+                      'Cada ítem se cuenta una sola vez en el total; esos puntos no se reparten entre capacidades. La matriz '
+                      'muestra qué capacidades cubre cada ítem, no un peso exclusivo por capacidad.' % (sum(compartidas), total))
+        r.italic = True; r.font.size = Pt(9)
     doc.add_paragraph().paragraph_format.space_after = Pt(2)
 
 
@@ -68,7 +76,7 @@ def _mapa(doc, figuras, archivo, ancho, epigrafe):
     p = doc.add_paragraph(); r = p.add_run(epigrafe); r.italic = True; r.font.size = Pt(9.5)
 
 
-def construir(secciones, rangos, figuras, salida, titulo):
+def construir(secciones, rangos, figuras, salida, titulo, referencias=None):
     doc = docx.Document()
     s = doc.sections[0]
     s.page_width, s.page_height = Cm(21.0), Cm(29.7)
@@ -99,4 +107,23 @@ def construir(secciones, rangos, figuras, salida, titulo):
             _mapa(doc, figuras, archivo, ancho, epigrafe)
         if sec.get('matriz'):
             _matriz(doc, sec['matriz'], sec['puntaje'], entera=(k == len(secciones) - 1))
+    if referencias:
+        _referencias(doc, *referencias)
     doc.save(salida)
+
+
+def _referencias(doc, intro, filas):
+    """COM-02: referencias para el docente, al final del volumen."""
+    p = doc.add_paragraph(); p.paragraph_format.keep_with_next = True; p.paragraph_format.space_before = Pt(14)
+    r = p.add_run('Referencias para el docente'); r.bold = True; r.font.size = Pt(13); r.font.color.rgb = PP.AZUL
+    p = doc.add_paragraph(); p.paragraph_format.keep_with_next = True
+    r = p.add_run(intro); r.font.size = Pt(9.5)
+    t = doc.add_table(rows=1, cols=4); t.style = 'Table Grid'
+    enc = t.rows[0]; PP.encabezado_repetido(enc); PP.no_partir(enc)
+    for j, h in enumerate(['Tema', 'Referencia', 'Uso en el libro', 'Estado']):
+        PP.sombrear(enc.cells[j], PP.BANDA); PP.texto_celda(enc.cells[j], h, negrita=True, color=BLANCO, tam=9.5)
+    for fila in filas:
+        f = t.add_row(); PP.no_partir(f)
+        for j, v in enumerate(fila):
+            PP.texto_celda(f.cells[j], v, tam=8.5, negrita=(j == 0))
+    PP.fijar_anchos(t, [3.6, 8.2, 2.6, 2.6])
