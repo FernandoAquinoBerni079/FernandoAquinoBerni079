@@ -1,0 +1,221 @@
+{
+ "correctos": 33,
+ "fallos": 0,
+ "controles": {
+  "BI-01": [
+   {
+    "control": "La Ficha B-1 usa el mapa con el nordeste de Asia y el control de encuadre de los cinco sitios",
+    "resultado": "correcto",
+    "paginas": []
+   },
+   {
+    "control": "Epígrafe de la Ficha B-1 en el tomo",
+    "resultado": "correcto",
+    "paginas": [
+     38
+    ]
+   },
+   {
+    "control": "Plan 8: la Ficha B-1 sigue esencial con 30 minutos (20–50)",
+    "resultado": "correcto",
+    "paginas": []
+   },
+   {
+    "control": "Consigna 1 y clave piden y ubican Beringia y Monte Verde",
+    "resultado": "correcto",
+    "paginas": []
+   }
+  ],
+  "BI-02": [
+   {
+    "control": "Clave: el 0 es origen de la escala, no año del calendario",
+    "resultado": "correcto",
+    "paginas": []
+   },
+   {
+    "control": "Figura 5.2 y Ficha B-2 declaran el 0 como origen gráfico (texto en el código de las figuras)",
+    "resultado": "correcto",
+    "paginas": []
+   }
+  ],
+  "BI-03": [
+   {
+    "control": "White Sands: corroboración de 2023 en tomo y clave, sin «en discusión»",
+    "resultado": "correcto",
+    "paginas": [
+     29,
+     30,
+     31
+    ]
+   },
+   {
+    "control": "Ítem 10 U1/Clase 4: no se afirma unanimidad",
+    "resultado": "correcto",
+    "paginas": []
+   }
+  ],
+  "BI-04": [
+   {
+    "control": "U2 ítem 13: Monte Verde prueba presencia temprana; origen africano de la especie",
+    "resultado": "correcto",
+    "paginas": []
+   }
+  ],
+  "BII-01": [
+   {
+    "control": "Integradora 1, ítem 15: ejemplo de resistencia dentro del período (1542-1543), sin Oberá 1579",
+    "resultado": "correcto",
+    "paginas": [
+     20
+    ]
+   }
+  ],
+  "BII-02": [
+   {
+    "control": "Real Provisión: el segundo fragmento sigue declarado como adaptación escolar",
+    "resultado": "correcto",
+    "paginas": []
+   }
+  ],
+  "BII-03": [
+   {
+    "control": "Tabaré sigue en 1543 dentro del ciclo 1542-1543",
+    "resultado": "correcto",
+    "paginas": []
+   }
+  ],
+  "BII-04": [
+   {
+    "control": "Integradora 1, ítem 14: gobernador y Cabildo distintos de los encomenderos",
+    "resultado": "correcto",
+    "paginas": []
+   }
+  ],
+  "COM-01": [
+   {
+    "control": "Encuentro 18: el solucionario declara 13 puntos compartidos",
+    "resultado": "correcto",
+    "paginas": []
+   },
+   {
+    "control": "Encuentro 30: el solucionario declara 11 puntos compartidos",
+    "resultado": "correcto",
+    "paginas": []
+   },
+   {
+    "control": "Encuentro 35: el solucionario declara 9 puntos compartidos",
+    "resultado": "correcto",
+    "paginas": []
+   },
+   {
+    "control": "Encuentro 36: el solucionario declara 16 puntos compartidos",
+    "resultado": "correcto",
+    "paginas": []
+   },
+   {
+    "control": "Planes: no se promete «el peso de cada una»",
+    "resultado": "correcto",
+    "paginas": []
+   }
+  ],
+  "COM-02": [
+   {
+    "control": "Solucionario: sección «Referencias para el docente» con uso y estado de cada fuente",
+    "resultado": "correcto",
+    "paginas": [
+     40
+    ]
+   }
+  ],
+  "COM-03": [
+   {
+    "control": "Matriz curricular: columna «Capacidades» ensanchada",
+    "resultado": "correcto",
+    "paginas": []
+   }
+  ],
+  "BIII-01": [
+   {
+    "control": "Tabla y clave: río Negro u Otuquis con Bolivia (38 km)",
+    "resultado": "correcto",
+    "paginas": [
+     109
+    ]
+   },
+   {
+    "control": "Mapa: marca de confluencia aproximada y fuente MRE (sin trazar el cauce)",
+    "resultado": "correcto",
+    "paginas": []
+   },
+   {
+    "control": "No se atribuye el Pilcomayo como límite con Bolivia",
+    "resultado": "correcto",
+    "paginas": []
+   }
+  ],
+  "BIII-02": [
+   {
+    "control": "Clase 11/12 y clave: sin la cadena universal por Santa Fe y Buenos Aires",
+    "resultado": "correcto",
+    "paginas": []
+   },
+   {
+    "control": "Esquema de la yerba: ramificación desde Santa Fe",
+    "resultado": "correcto",
+    "paginas": []
+   }
+  ],
+  "BIII-03": [
+   {
+    "control": "São Paulo en el planalto interior",
+    "resultado": "correcto",
+    "paginas": []
+   }
+  ],
+  "BIII-04": [
+   {
+    "control": "Jamaica 1655: colonia española conquistada por Inglaterra",
+    "resultado": "correcto",
+    "paginas": []
+   }
+  ],
+  "BIII-05": [
+   {
+    "control": "Planes 20 y 27: variante 20 + 100 minutos con lo que pasa a casa",
+    "resultado": "correcto",
+    "paginas": []
+   }
+  ],
+  "BIV-01": [
+   {
+    "control": "Sin el mínimo de 400 mm ni la diferencia de 1.400 mm en tomo, planes y clave",
+    "resultado": "correcto",
+    "paginas": []
+   },
+   {
+    "control": "Diferencia de 1.200 mm en la clave y serie 1971-2000 declarada",
+    "resultado": "correcto",
+    "paginas": []
+   },
+   {
+    "control": "Figura 19.3: fuente MADES y normales 1971-2000 (código de la figura)",
+    "resultado": "correcto",
+    "paginas": []
+   }
+  ],
+  "AN-01": [
+   {
+    "control": "Mapa clave U3: franja inferior para la escala y espacio de leyenda (revisión visual en el informe)",
+    "resultado": "correcto",
+    "paginas": []
+   }
+  ],
+  "PUNTAJES": [
+   {
+    "control": "Totales de las ocho evaluaciones: {5: 23, 9: 22, 17: 25, 18: 28, 25: 25, 30: 28, 35: 25, 36: 28}",
+    "resultado": "correcto",
+    "paginas": []
+   }
+  ]
+ }
+}

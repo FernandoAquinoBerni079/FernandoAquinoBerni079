@@ -49,19 +49,24 @@ Se regeneraron los cuatro bloques y el volumen anual, en DOCX y PDF:
 
 | Producto | Páginas |
 |---|---|
-| Tomo anual | __TOMO__ |
-| Planes (36) | __PLANES__ |
-| Solucionario anual | __SOL__ |
-| Plan anual | __PA__ |
-| Matriz curricular | __MATRIZ__ |
+| Tomo anual | 156 |
+| Planes (36) | 74 |
+| Solucionario anual | 41 |
+| Plan anual | 6 |
+| Matriz curricular | 2 |
 
 ## 4. Verificación
 
 | Verificador | Controles | Fallos |
 |---|---|---|
-__VERIF__
+| Bloque I (`verificar.py 1`) | 1626 | 0 |
+| Bloque II | 1657 | 0 |
+| Bloque III | 1539 | 0 |
+| Bloque IV | 1702 | 0 |
+| Anual (`verificar.py anual`) | 6389 | 0 |
+| Consolidación de anuales (`anuales.py`) | 1031 | 0 |
 
-Cotejo de los 18 hallazgos (`scripts/cotejo_hallazgos_88a0970.py`, resultado en `cotejo_hallazgos.json`): __COTEJO__. Este cotejo busca en el texto de los PDF anuales lo que cada corrección debe mostrar y lo que ya no debe aparecer. También controla los totales de las ocho evaluaciones: 23, 22, 25, 28, 25, 28, 25 y 28 puntos, sin cambios.
+Cotejo de los 18 hallazgos (`scripts/cotejo_hallazgos_88a0970.py`, resultado en `cotejo_hallazgos.json`): 33 controles correctos, 0 fallos. En la primera corrida dio 3 fallos; los tres eran del propio cotejo, no del libro, y se corrigieron sin aflojar los controles: (a) el patrón del Pilcomayo atravesaba una coma y tomaba «entre los ríos Verde y Pilcomayo, y el tratado de paz con Bolivia» (Laudo Hayes), que es correcto; (b) el PDF de los planes corta «1971-» y «2000» en dos líneas; (c) se buscaba una frase literal del comentario del código que estaba redactada de otro modo. Este cotejo busca en el texto de los PDF anuales lo que cada corrección debe mostrar y lo que ya no debe aparecer. También controla los totales de las ocho evaluaciones: 23, 22, 25, 28, 25, 28, 25 y 28 puntos, sin cambios.
 
 Revisión visual a tamaño de impresión de las páginas modificadas:
 
@@ -81,6 +86,8 @@ Durante la revisión se corrigieron dos defectos que había introducido esta mis
 - una página en blanco en el Bloque II, causada por la Ficha C muda, que crecía;
 - la leyenda de la Figura 16.2, que se encimaba con las coordenadas del eje.
 
+Las figuras de los Bloques I y IV son idénticas byte a byte a las del volumen anual, así que esos bloques no quedaron desactualizados por los últimos ajustes de figuras de los Bloques II y III.
+
 ## 5. Limitaciones y pendientes, sin ocultar
 
 - **COM-02 (parcial).** Varias fuentes quedan marcadas «edición por cotejar»:
@@ -93,6 +100,10 @@ Durante la revisión se corrigieron dos defectos que había introducido esta mis
 - **Impresión.** No se hizo una prueba de impresión física ni una simulación de imprenta.
 - **Programa del MEC.** El cotejo contra la edición del programa del MEC (tarea 39) sigue pendiente y es independiente de este cierre.
 
-## 6. Decisión
+## 6. Manifiesto
+
+`MANIFIESTO_SHA256.txt` lista el SHA-256 de cada DOCX y PDF regenerado (bloques y anual) y de los documentos de cierre.
+
+## 7. Decisión
 
 Esta es una versión candidata. La aprobación final corresponde a Fernando.

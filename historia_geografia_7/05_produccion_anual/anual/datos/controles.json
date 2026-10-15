@@ -1,5 +1,5 @@
 {
- "correctos": 6385,
+ "correctos": 6389,
  "fallos": [],
  "por_control": {
   "1. Capacidades": {
@@ -51,7 +51,7 @@
    "fallos": []
   },
   "11. Integridad visual": {
-   "correctos": 526,
+   "correctos": 530,
    "fallos": []
   }
  },

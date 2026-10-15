@@ -71,7 +71,7 @@ chk('BIII-01', 'Tabla y clave: río Negro u Otuquis con Bolivia (38 km)', 'río 
     pags(TOMO, 'Negro u Otuquis'))
 chk('BIII-01', 'Mapa: marca de confluencia aproximada y fuente MRE (sin trazar el cauce)',
     'Confluencia Negro/Otuquis (aprox.)' in open(os.path.join(AQUI, 'figuras', 'bloque3.py'), encoding='utf8').read())
-chk('BIII-01', 'No se atribuye el Pilcomayo como límite con Bolivia', not re.search(r'Pilcomayo[^.]{0,30}con Bolivia', T + S))
+chk('BIII-01', 'No se atribuye el Pilcomayo como límite con Bolivia', not re.search(r'Pilcomayo[^.,;]{0,30}(con|y) Bolivia', T + S))  # «entre los ríos Verde y Pilcomayo, y el tratado… con Bolivia» (Laudo Hayes) no es atribución de límite
 # BIII-02
 chk('BIII-02', 'Clase 11/12 y clave: sin la cadena universal por Santa Fe y Buenos Aires',
     'todo lo que el Paraguay vendía' not in T and 'Santa Fe y Buenos Aires → Potosí' not in P and 'pasaba por Asunción, Santa Fe y Buenos Aires hasta Potosí' not in S
@@ -86,12 +86,12 @@ chk('BIII-05', 'Planes 20 y 27: variante 20 + 100 minutos con lo que pasa a casa
 # BIV-01
 chk('BIV-01', 'Sin el mínimo de 400 mm ni la diferencia de 1.400 mm en tomo, planes y clave',
     not re.search(r'unos 400\b|400 mm|1\.400 mm|1\.600 mm', T + P + S))
-chk('BIV-01', 'Diferencia de 1.200 mm en la clave y serie 1971-2000 declarada', 'Unos 1.200 mm' in S and '1971-2000' in T and '1971-2000' in P)
+chk('BIV-01', 'Diferencia de 1.200 mm en la clave y serie 1971-2000 declarada', 'Unos 1.200 mm' in S and bool(re.search(r'1971- ?2000', T)) and bool(re.search(r'1971- ?2000', P)))  # el PDF puede cortar «1971-»/«2000» en dos líneas
 chk('BIV-01', 'Figura 19.3: fuente MADES y normales 1971-2000 (código de la figura)',
     'medias anuales para el período 1971-2000' in open(os.path.join(AQUI, 'figuras', 'bloque4.py'), encoding='utf8').read())
 # AN-01
 chk('AN-01', 'Mapa clave U3: franja inferior para la escala y espacio de leyenda (revisión visual en el informe)',
-    'AN-01: franja inferior libre para la escala' in open(os.path.join(AQUI, 'figuras', 'bloque2.py'), encoding='utf8').read())
+    'franja inferior libre para la escala' in open(os.path.join(AQUI, 'figuras', 'bloque2.py'), encoding='utf8').read())
 
 # Puntajes de las ocho evaluaciones
 tot = {}
