@@ -1,0 +1,1551 @@
+{
+  "pruebas": [
+    {
+      "control": "Indice_tomo_5",
+      "resultado": true,
+      "detalle": "UNIDAD 1 — Cómo mirar el tiempo y el espacio"
+    },
+    {
+      "control": "Indice_tomo_5",
+      "resultado": true,
+      "detalle": "Clase 1 — La Historia y la Geografía: mirar el tiempo y el espacio"
+    },
+    {
+      "control": "Indice_tomo_11",
+      "resultado": true,
+      "detalle": "Clase 2 — Los primeros pobladores del actual Paraguay"
+    },
+    {
+      "control": "Indice_tomo_16",
+      "resultado": true,
+      "detalle": "Clase 3 — Los guaraníes: pueblo, cultura y legado"
+    },
+    {
+      "control": "Indice_tomo_21",
+      "resultado": true,
+      "detalle": "Continuación A — Taller de fuentes sobre los guaraníes"
+    },
+    {
+      "control": "Indice_tomo_24",
+      "resultado": true,
+      "detalle": "Ficha reproducible A — Matriz de evidencias"
+    },
+    {
+      "control": "Indice_tomo_25",
+      "resultado": true,
+      "detalle": "Evaluación de la Unidad 1"
+    },
+    {
+      "control": "Indice_tomo_28",
+      "resultado": true,
+      "detalle": "UNIDAD 2 — La prehistoria americana"
+    },
+    {
+      "control": "Indice_tomo_28",
+      "resultado": true,
+      "detalle": "Clase 4 — El poblamiento de América"
+    },
+    {
+      "control": "Indice_tomo_32",
+      "resultado": true,
+      "detalle": "Clase 5 — Mayas, aztecas e incas"
+    },
+    {
+      "control": "Indice_tomo_36",
+      "resultado": true,
+      "detalle": "Continuación B — Poblamiento y civilizaciones americanas: mapa y línea de tiempo"
+    },
+    {
+      "control": "Indice_tomo_38",
+      "resultado": true,
+      "detalle": "Ficha reproducible B-1 — Mapa mudo de América"
+    },
+    {
+      "control": "Indice_tomo_39",
+      "resultado": true,
+      "detalle": "Ficha reproducible B-2 — Línea de tiempo de las civilizaciones"
+    },
+    {
+      "control": "Indice_tomo_40",
+      "resultado": true,
+      "detalle": "Evaluación de la Unidad 2"
+    },
+    {
+      "control": "Indice_tomo_43",
+      "resultado": true,
+      "detalle": "UNIDAD 3 — El Paraguay y América en el siglo XVI"
+    },
+    {
+      "control": "Indice_tomo_43",
+      "resultado": true,
+      "detalle": "Clase 6 — Los avances náuticos y la llegada de los europeos"
+    },
+    {
+      "control": "Indice_tomo_48",
+      "resultado": true,
+      "detalle": "Clase 7 — El reparto de América y el gobierno colonial"
+    },
+    {
+      "control": "Indice_tomo_52",
+      "resultado": true,
+      "detalle": "Clase 8 — La conquista del Río de la Plata y la fundación de Asunción"
+    },
+    {
+      "control": "Indice_tomo_56",
+      "resultado": true,
+      "detalle": "Continuación C — Rutas, decisiones y alianzas en el Río de la Plata"
+    },
+    {
+      "control": "Indice_tomo_59",
+      "resultado": true,
+      "detalle": "Ficha reproducible C — Mapa mudo del Río de la Plata y del Paraguay"
+    },
+    {
+      "control": "Indice_tomo_60",
+      "resultado": true,
+      "detalle": "Clase 9 — Mestizaje, resistencia y vida de los indígenas en el siglo XVI"
+    },
+    {
+      "control": "Indice_tomo_64",
+      "resultado": true,
+      "detalle": "Clase 10 — La Real Provisión de 1537 y las instituciones coloniales"
+    },
+    {
+      "control": "Indice_tomo_70",
+      "resultado": true,
+      "detalle": "Continuación D — La autonomía y sus límites: de 1537 a 1544"
+    },
+    {
+      "control": "Indice_tomo_73",
+      "resultado": true,
+      "detalle": "Evaluación de la Unidad 3"
+    },
+    {
+      "control": "Indice_tomo_76",
+      "resultado": true,
+      "detalle": "EVALUACIÓN INTEGRADORA DE LA 1.ª ETAPA"
+    },
+    {
+      "control": "Indice_tomo_79",
+      "resultado": true,
+      "detalle": "UNIDAD 4 — Paraguay y América colonial: siglo XVII"
+    },
+    {
+      "control": "Indice_tomo_79",
+      "resultado": true,
+      "detalle": "Clase 11 — La división de la provincia (1617) y la mediterraneidad"
+    },
+    {
+      "control": "Indice_tomo_83",
+      "resultado": true,
+      "detalle": "Clase 12 — Economía y situación de los indígenas en el siglo XVII"
+    },
+    {
+      "control": "Indice_tomo_87",
+      "resultado": true,
+      "detalle": "Clase 13 — Franciscanos y jesuitas en la cultura paraguaya"
+    },
+    {
+      "control": "Indice_tomo_91",
+      "resultado": true,
+      "detalle": "Continuación E — Bandeirantes, pérdida del Guairá y Mbororé (siglo XVII)"
+    },
+    {
+      "control": "Indice_tomo_95",
+      "resultado": true,
+      "detalle": "Ficha reproducible E — Mapa mudo del Guairá y de las reducciones"
+    },
+    {
+      "control": "Indice_tomo_96",
+      "resultado": true,
+      "detalle": "Clase 14 — Haciendas, minería y comercio en la América colonial"
+    },
+    {
+      "control": "Indice_tomo_100",
+      "resultado": true,
+      "detalle": "Clase 15 — Otras colonizaciones; indígenas y africanos en América"
+    },
+    {
+      "control": "Indice_tomo_104",
+      "resultado": true,
+      "detalle": "Evaluación de la Unidad 4"
+    },
+    {
+      "control": "Indice_tomo_107",
+      "resultado": true,
+      "detalle": "UNIDAD 5 — El espacio geográfico: posición, relieve e hidrografía"
+    },
+    {
+      "control": "Indice_tomo_107",
+      "resultado": true,
+      "detalle": "Clase 16 — La posición geográfica del Paraguay y de América"
+    },
+    {
+      "control": "Indice_tomo_112",
+      "resultado": true,
+      "detalle": "Clase 17 — El relieve del Paraguay y de América"
+    },
+    {
+      "control": "Indice_tomo_116",
+      "resultado": true,
+      "detalle": "Clase 18 — La hidrografía y la Hidrovía"
+    },
+    {
+      "control": "Indice_tomo_122",
+      "resultado": true,
+      "detalle": "Ficha reproducible 18-A — Mapa mudo del Paraguay y sus ríos"
+    },
+    {
+      "control": "Indice_tomo_123",
+      "resultado": true,
+      "detalle": "Continuación F — La Hidrovía: beneficios, impactos y decisiones"
+    },
+    {
+      "control": "Indice_tomo_125",
+      "resultado": true,
+      "detalle": "Ficha reproducible F-A — Caso para decidir"
+    },
+    {
+      "control": "Indice_tomo_126",
+      "resultado": true,
+      "detalle": "Ficha reproducible F-B — Tarjetas de rol"
+    },
+    {
+      "control": "Indice_tomo_127",
+      "resultado": true,
+      "detalle": "Ficha reproducible F-C — Matriz de decisión"
+    },
+    {
+      "control": "Indice_tomo_128",
+      "resultado": true,
+      "detalle": "Evaluación de la Unidad 5"
+    },
+    {
+      "control": "Indice_tomo_132",
+      "resultado": true,
+      "detalle": "UNIDAD 6 — Clima, regiones naturales y ambiente"
+    },
+    {
+      "control": "Indice_tomo_132",
+      "resultado": true,
+      "detalle": "Clase 19 — El clima de Paraguay y de América"
+    },
+    {
+      "control": "Indice_tomo_137",
+      "resultado": true,
+      "detalle": "Clase 20 — Regiones naturales de Paraguay y América"
+    },
+    {
+      "control": "Indice_tomo_142",
+      "resultado": true,
+      "detalle": "Clase 21 — La gestión ambiental en el Paraguay"
+    },
+    {
+      "control": "Indice_tomo_146",
+      "resultado": true,
+      "detalle": "Continuación G — Clima, ecosistemas y gestión ambiental"
+    },
+    {
+      "control": "Indice_tomo_149",
+      "resultado": true,
+      "detalle": "Ficha reproducible G — Mapa mudo del Paraguay: lluvias y ecosistemas"
+    },
+    {
+      "control": "Indice_tomo_150",
+      "resultado": true,
+      "detalle": "Evaluación de la Unidad 6"
+    },
+    {
+      "control": "Indice_tomo_153",
+      "resultado": true,
+      "detalle": "EVALUACIÓN INTEGRADORA DE LA 2.ª ETAPA"
+    },
+    {
+      "control": "Plan_pagina_1",
+      "resultado": true,
+      "detalle": 3
+    },
+    {
+      "control": "Titulo_plan_1",
+      "resultado": true,
+      "detalle": "Clase 1 — La Historia y la Geografía: mirar el tiempo y el espacio"
+    },
+    {
+      "control": "Titulo_solucionario_1",
+      "resultado": true,
+      "detalle": "Clase 1 — La Historia y la Geografía: mirar el tiempo y el espacio"
+    },
+    {
+      "control": "Plan_pagina_2",
+      "resultado": true,
+      "detalle": 5
+    },
+    {
+      "control": "Titulo_plan_2",
+      "resultado": true,
+      "detalle": "Clase 2 — Los primeros pobladores del actual Paraguay"
+    },
+    {
+      "control": "Titulo_solucionario_2",
+      "resultado": true,
+      "detalle": "Clase 2 — Los primeros pobladores del actual Paraguay"
+    },
+    {
+      "control": "Plan_pagina_3",
+      "resultado": true,
+      "detalle": 7
+    },
+    {
+      "control": "Titulo_plan_3",
+      "resultado": true,
+      "detalle": "Clase 3 — Los guaraníes: pueblo, cultura y legado"
+    },
+    {
+      "control": "Titulo_solucionario_3",
+      "resultado": true,
+      "detalle": "Clase 3 — Los guaraníes: pueblo, cultura y legado"
+    },
+    {
+      "control": "Plan_pagina_4",
+      "resultado": true,
+      "detalle": 9
+    },
+    {
+      "control": "Titulo_plan_4",
+      "resultado": true,
+      "detalle": "Continuación A — Taller de fuentes sobre los guaraníes"
+    },
+    {
+      "control": "Titulo_solucionario_4",
+      "resultado": true,
+      "detalle": "Continuación A — Taller de fuentes sobre los guaraníes"
+    },
+    {
+      "control": "Plan_pagina_5",
+      "resultado": true,
+      "detalle": 11
+    },
+    {
+      "control": "Titulo_plan_5",
+      "resultado": true,
+      "detalle": "Evaluación de la Unidad 1 — Cómo mirar el tiempo y el espacio"
+    },
+    {
+      "control": "Titulo_solucionario_5",
+      "resultado": true,
+      "detalle": "Evaluación de la Unidad 1 — Cómo mirar el tiempo y el espacio"
+    },
+    {
+      "control": "Plan_pagina_6",
+      "resultado": true,
+      "detalle": 13
+    },
+    {
+      "control": "Titulo_plan_6",
+      "resultado": true,
+      "detalle": "Clase 4 — El poblamiento de América"
+    },
+    {
+      "control": "Titulo_solucionario_6",
+      "resultado": true,
+      "detalle": "Clase 4 — El poblamiento de América"
+    },
+    {
+      "control": "Plan_pagina_7",
+      "resultado": true,
+      "detalle": 15
+    },
+    {
+      "control": "Titulo_plan_7",
+      "resultado": true,
+      "detalle": "Clase 5 — Mayas, aztecas e incas"
+    },
+    {
+      "control": "Titulo_solucionario_7",
+      "resultado": true,
+      "detalle": "Clase 5 — Mayas, aztecas e incas"
+    },
+    {
+      "control": "Plan_pagina_8",
+      "resultado": true,
+      "detalle": 17
+    },
+    {
+      "control": "Titulo_plan_8",
+      "resultado": true,
+      "detalle": "Continuación B — Poblamiento y civilizaciones americanas: mapa y línea de tiempo"
+    },
+    {
+      "control": "Titulo_solucionario_8",
+      "resultado": true,
+      "detalle": "Continuación B — Poblamiento y civilizaciones americanas: mapa y línea de tiempo"
+    },
+    {
+      "control": "Plan_pagina_9",
+      "resultado": true,
+      "detalle": 19
+    },
+    {
+      "control": "Titulo_plan_9",
+      "resultado": true,
+      "detalle": "Evaluación de la Unidad 2 — La prehistoria americana"
+    },
+    {
+      "control": "Titulo_solucionario_9",
+      "resultado": true,
+      "detalle": "Evaluación de la Unidad 2 — La prehistoria americana"
+    },
+    {
+      "control": "Plan_pagina_10",
+      "resultado": true,
+      "detalle": 21
+    },
+    {
+      "control": "Titulo_plan_10",
+      "resultado": true,
+      "detalle": "Clase 6 — Los avances náuticos y la llegada de los europeos"
+    },
+    {
+      "control": "Titulo_solucionario_10",
+      "resultado": true,
+      "detalle": "Clase 6 — Los avances náuticos y la llegada de los europeos"
+    },
+    {
+      "control": "Plan_pagina_11",
+      "resultado": true,
+      "detalle": 23
+    },
+    {
+      "control": "Titulo_plan_11",
+      "resultado": true,
+      "detalle": "Clase 7 — El reparto de América y el gobierno colonial"
+    },
+    {
+      "control": "Titulo_solucionario_11",
+      "resultado": true,
+      "detalle": "Clase 7 — El reparto de América y el gobierno colonial"
+    },
+    {
+      "control": "Plan_pagina_12",
+      "resultado": true,
+      "detalle": 25
+    },
+    {
+      "control": "Titulo_plan_12",
+      "resultado": true,
+      "detalle": "Clase 8 — La conquista del Río de la Plata y la fundación de Asunción"
+    },
+    {
+      "control": "Titulo_solucionario_12",
+      "resultado": true,
+      "detalle": "Clase 8 — La conquista del Río de la Plata y la fundación de Asunción"
+    },
+    {
+      "control": "Plan_pagina_13",
+      "resultado": true,
+      "detalle": 27
+    },
+    {
+      "control": "Titulo_plan_13",
+      "resultado": true,
+      "detalle": "Continuación C — Rutas, decisiones y alianzas en el Río de la Plata"
+    },
+    {
+      "control": "Titulo_solucionario_13",
+      "resultado": true,
+      "detalle": "Continuación C — Rutas, decisiones y alianzas en el Río de la Plata"
+    },
+    {
+      "control": "Plan_pagina_14",
+      "resultado": true,
+      "detalle": 29
+    },
+    {
+      "control": "Titulo_plan_14",
+      "resultado": true,
+      "detalle": "Clase 9 — Mestizaje, resistencia y vida de los indígenas en el siglo XVI"
+    },
+    {
+      "control": "Titulo_solucionario_14",
+      "resultado": true,
+      "detalle": "Clase 9 — Mestizaje, resistencia y vida de los indígenas en el siglo XVI"
+    },
+    {
+      "control": "Plan_pagina_15",
+      "resultado": true,
+      "detalle": 31
+    },
+    {
+      "control": "Titulo_plan_15",
+      "resultado": true,
+      "detalle": "Clase 10 — La Real Provisión de 1537 y las instituciones coloniales"
+    },
+    {
+      "control": "Titulo_solucionario_15",
+      "resultado": true,
+      "detalle": "Clase 10 — La Real Provisión de 1537 y las instituciones coloniales"
+    },
+    {
+      "control": "Plan_pagina_16",
+      "resultado": true,
+      "detalle": 33
+    },
+    {
+      "control": "Titulo_plan_16",
+      "resultado": true,
+      "detalle": "Continuación D — La autonomía y sus límites: de 1537 a 1544"
+    },
+    {
+      "control": "Titulo_solucionario_16",
+      "resultado": true,
+      "detalle": "Continuación D — La autonomía y sus límites: de 1537 a 1544"
+    },
+    {
+      "control": "Plan_pagina_17",
+      "resultado": true,
+      "detalle": 35
+    },
+    {
+      "control": "Titulo_plan_17",
+      "resultado": true,
+      "detalle": "Evaluación de la Unidad 3 — El Paraguay y América en el siglo XVI"
+    },
+    {
+      "control": "Titulo_solucionario_17",
+      "resultado": true,
+      "detalle": "Evaluación de la Unidad 3 — El Paraguay y América en el siglo XVI"
+    },
+    {
+      "control": "Plan_pagina_18",
+      "resultado": true,
+      "detalle": 37
+    },
+    {
+      "control": "Titulo_plan_18",
+      "resultado": true,
+      "detalle": "Evaluación Integradora de la 1.ª etapa — Unidades 1 a 3"
+    },
+    {
+      "control": "Titulo_solucionario_18",
+      "resultado": true,
+      "detalle": "Evaluación Integradora de la 1.ª etapa — Unidades 1 a 3"
+    },
+    {
+      "control": "Plan_pagina_19",
+      "resultado": true,
+      "detalle": 39
+    },
+    {
+      "control": "Titulo_plan_19",
+      "resultado": true,
+      "detalle": "Clase 11 — La división de la provincia (1617) y la mediterraneidad"
+    },
+    {
+      "control": "Titulo_solucionario_19",
+      "resultado": true,
+      "detalle": "Clase 11 — La división de la provincia (1617) y la mediterraneidad"
+    },
+    {
+      "control": "Plan_pagina_20",
+      "resultado": true,
+      "detalle": 41
+    },
+    {
+      "control": "Titulo_plan_20",
+      "resultado": true,
+      "detalle": "Clase 12 — Economía y situación de los indígenas en el siglo XVII"
+    },
+    {
+      "control": "Titulo_solucionario_20",
+      "resultado": true,
+      "detalle": "Clase 12 — Economía y situación de los indígenas en el siglo XVII"
+    },
+    {
+      "control": "Plan_pagina_21",
+      "resultado": true,
+      "detalle": 43
+    },
+    {
+      "control": "Titulo_plan_21",
+      "resultado": true,
+      "detalle": "Clase 13 — Franciscanos y jesuitas en la cultura paraguaya"
+    },
+    {
+      "control": "Titulo_solucionario_21",
+      "resultado": true,
+      "detalle": "Clase 13 — Franciscanos y jesuitas en la cultura paraguaya"
+    },
+    {
+      "control": "Plan_pagina_22",
+      "resultado": true,
+      "detalle": 45
+    },
+    {
+      "control": "Titulo_plan_22",
+      "resultado": true,
+      "detalle": "Continuación E — Bandeirantes, pérdida del Guairá y Mbororé (siglo XVII)"
+    },
+    {
+      "control": "Titulo_solucionario_22",
+      "resultado": true,
+      "detalle": "Continuación E — Bandeirantes, pérdida del Guairá y Mbororé (siglo XVII)"
+    },
+    {
+      "control": "Plan_pagina_23",
+      "resultado": true,
+      "detalle": 47
+    },
+    {
+      "control": "Titulo_plan_23",
+      "resultado": true,
+      "detalle": "Clase 14 — Haciendas, minería y comercio en la América colonial"
+    },
+    {
+      "control": "Titulo_solucionario_23",
+      "resultado": true,
+      "detalle": "Clase 14 — Haciendas, minería y comercio en la América colonial"
+    },
+    {
+      "control": "Plan_pagina_24",
+      "resultado": true,
+      "detalle": 49
+    },
+    {
+      "control": "Titulo_plan_24",
+      "resultado": true,
+      "detalle": "Clase 15 — Otras colonizaciones; indígenas y africanos en América"
+    },
+    {
+      "control": "Titulo_solucionario_24",
+      "resultado": true,
+      "detalle": "Clase 15 — Otras colonizaciones; indígenas y africanos en América"
+    },
+    {
+      "control": "Plan_pagina_25",
+      "resultado": true,
+      "detalle": 51
+    },
+    {
+      "control": "Titulo_plan_25",
+      "resultado": true,
+      "detalle": "Evaluación de la Unidad 4 — Paraguay y América colonial: siglo XVII"
+    },
+    {
+      "control": "Titulo_solucionario_25",
+      "resultado": true,
+      "detalle": "Evaluación de la Unidad 4 — Paraguay y América colonial: siglo XVII"
+    },
+    {
+      "control": "Plan_pagina_26",
+      "resultado": true,
+      "detalle": 53
+    },
+    {
+      "control": "Titulo_plan_26",
+      "resultado": true,
+      "detalle": "Clase 16 — La posición geográfica del Paraguay y de América"
+    },
+    {
+      "control": "Titulo_solucionario_26",
+      "resultado": true,
+      "detalle": "Clase 16 — La posición geográfica del Paraguay y de América"
+    },
+    {
+      "control": "Plan_pagina_27",
+      "resultado": true,
+      "detalle": 55
+    },
+    {
+      "control": "Titulo_plan_27",
+      "resultado": true,
+      "detalle": "Clase 17 — El relieve del Paraguay y de América"
+    },
+    {
+      "control": "Titulo_solucionario_27",
+      "resultado": true,
+      "detalle": "Clase 17 — El relieve del Paraguay y de América"
+    },
+    {
+      "control": "Plan_pagina_28",
+      "resultado": true,
+      "detalle": 57
+    },
+    {
+      "control": "Titulo_plan_28",
+      "resultado": true,
+      "detalle": "Clase 18 — La hidrografía y la Hidrovía"
+    },
+    {
+      "control": "Titulo_solucionario_28",
+      "resultado": true,
+      "detalle": "Clase 18 — La hidrografía y la Hidrovía"
+    },
+    {
+      "control": "Plan_pagina_29",
+      "resultado": true,
+      "detalle": 59
+    },
+    {
+      "control": "Titulo_plan_29",
+      "resultado": true,
+      "detalle": "Continuación F — La Hidrovía: beneficios, impactos y decisiones"
+    },
+    {
+      "control": "Titulo_solucionario_29",
+      "resultado": true,
+      "detalle": "Continuación F — La Hidrovía: beneficios, impactos y decisiones"
+    },
+    {
+      "control": "Plan_pagina_30",
+      "resultado": true,
+      "detalle": 61
+    },
+    {
+      "control": "Titulo_plan_30",
+      "resultado": true,
+      "detalle": "Evaluación de la Unidad 5 — Posición, relieve e hidrografía"
+    },
+    {
+      "control": "Titulo_solucionario_30",
+      "resultado": true,
+      "detalle": "Evaluación de la Unidad 5 — Posición, relieve e hidrografía"
+    },
+    {
+      "control": "Plan_pagina_31",
+      "resultado": true,
+      "detalle": 63
+    },
+    {
+      "control": "Titulo_plan_31",
+      "resultado": true,
+      "detalle": "Clase 19 — El clima de Paraguay y de América"
+    },
+    {
+      "control": "Titulo_solucionario_31",
+      "resultado": true,
+      "detalle": "Clase 19 — El clima de Paraguay y de América"
+    },
+    {
+      "control": "Plan_pagina_32",
+      "resultado": true,
+      "detalle": 65
+    },
+    {
+      "control": "Titulo_plan_32",
+      "resultado": true,
+      "detalle": "Clase 20 — Regiones naturales de Paraguay y América"
+    },
+    {
+      "control": "Titulo_solucionario_32",
+      "resultado": true,
+      "detalle": "Clase 20 — Regiones naturales de Paraguay y América"
+    },
+    {
+      "control": "Plan_pagina_33",
+      "resultado": true,
+      "detalle": 67
+    },
+    {
+      "control": "Titulo_plan_33",
+      "resultado": true,
+      "detalle": "Clase 21 — La gestión ambiental en el Paraguay"
+    },
+    {
+      "control": "Titulo_solucionario_33",
+      "resultado": true,
+      "detalle": "Clase 21 — La gestión ambiental en el Paraguay"
+    },
+    {
+      "control": "Plan_pagina_34",
+      "resultado": true,
+      "detalle": 69
+    },
+    {
+      "control": "Titulo_plan_34",
+      "resultado": true,
+      "detalle": "Continuación G — Clima, ecosistemas y gestión ambiental"
+    },
+    {
+      "control": "Titulo_solucionario_34",
+      "resultado": true,
+      "detalle": "Continuación G — Clima, ecosistemas y gestión ambiental"
+    },
+    {
+      "control": "Plan_pagina_35",
+      "resultado": true,
+      "detalle": 71
+    },
+    {
+      "control": "Titulo_plan_35",
+      "resultado": true,
+      "detalle": "Evaluación de la Unidad 6 — Clima, regiones naturales y ambiente"
+    },
+    {
+      "control": "Titulo_solucionario_35",
+      "resultado": true,
+      "detalle": "Evaluación de la Unidad 6 — Clima, regiones naturales y ambiente"
+    },
+    {
+      "control": "Plan_pagina_36",
+      "resultado": true,
+      "detalle": 73
+    },
+    {
+      "control": "Titulo_plan_36",
+      "resultado": true,
+      "detalle": "Evaluación Integradora de la 2.ª etapa — Unidades 4 a 6"
+    },
+    {
+      "control": "Titulo_solucionario_36",
+      "resultado": true,
+      "detalle": "Evaluación Integradora de la 2.ª etapa — Unidades 4 a 6"
+    },
+    {
+      "control": "Rango_5",
+      "resultado": true,
+      "detalle": [
+        "Clase 1 — La Historia y la Geografía: mirar el tiempo y el espacio",
+        5,
+        10
+      ]
+    },
+    {
+      "control": "Rango_11",
+      "resultado": true,
+      "detalle": [
+        "Clase 2 — Los primeros pobladores del actual Paraguay",
+        11,
+        15
+      ]
+    },
+    {
+      "control": "Rango_16",
+      "resultado": true,
+      "detalle": [
+        "Clase 3 — Los guaraníes: pueblo, cultura y legado",
+        16,
+        20
+      ]
+    },
+    {
+      "control": "Rango_21",
+      "resultado": true,
+      "detalle": [
+        "Continuación A — Taller de fuentes sobre los guaraníes",
+        21,
+        23
+      ]
+    },
+    {
+      "control": "Rango_24",
+      "resultado": true,
+      "detalle": [
+        "Ficha reproducible A — Matriz de evidencias",
+        24,
+        24
+      ]
+    },
+    {
+      "control": "Rango_25",
+      "resultado": true,
+      "detalle": [
+        "EVALUACIÓN DE LA UNIDAD 1",
+        25,
+        27
+      ]
+    },
+    {
+      "control": "Rango_28",
+      "resultado": true,
+      "detalle": [
+        "Clase 4 — El poblamiento de América",
+        28,
+        31
+      ]
+    },
+    {
+      "control": "Rango_32",
+      "resultado": true,
+      "detalle": [
+        "Clase 5 — Mayas, aztecas e incas",
+        32,
+        35
+      ]
+    },
+    {
+      "control": "Rango_36",
+      "resultado": true,
+      "detalle": [
+        "Continuación B — Poblamiento y civilizaciones americanas: mapa y línea de",
+        36,
+        37
+      ]
+    },
+    {
+      "control": "Rango_38",
+      "resultado": true,
+      "detalle": [
+        "Ficha reproducible B-1 — Mapa mudo de América",
+        38,
+        38
+      ]
+    },
+    {
+      "control": "Rango_39",
+      "resultado": true,
+      "detalle": [
+        "Ficha reproducible B-2 — Línea de tiempo de las civilizaciones",
+        39,
+        39
+      ]
+    },
+    {
+      "control": "Rango_40",
+      "resultado": true,
+      "detalle": [
+        "EVALUACIÓN DE LA UNIDAD 2",
+        40,
+        42
+      ]
+    },
+    {
+      "control": "Rango_43",
+      "resultado": true,
+      "detalle": [
+        "Clase 6 — Los avances náuticos y la llegada de los europeos",
+        43,
+        47
+      ]
+    },
+    {
+      "control": "Rango_48",
+      "resultado": true,
+      "detalle": [
+        "Clase 7 — El reparto de América y el gobierno colonial",
+        48,
+        51
+      ]
+    },
+    {
+      "control": "Rango_52",
+      "resultado": true,
+      "detalle": [
+        "Clase 8 — La conquista del Río de la Plata y la fundación de Asunción",
+        52,
+        55
+      ]
+    },
+    {
+      "control": "Rango_56",
+      "resultado": true,
+      "detalle": [
+        "Continuación C — Rutas, decisiones y alianzas en el Río de la Plata",
+        56,
+        58
+      ]
+    },
+    {
+      "control": "Rango_59",
+      "resultado": true,
+      "detalle": [
+        "Ficha reproducible C — Mapa mudo del Río de la Plata y del Paraguay",
+        59,
+        59
+      ]
+    },
+    {
+      "control": "Rango_60",
+      "resultado": true,
+      "detalle": [
+        "Clase 9 — Mestizaje, resistencia y vida de los indígenas en el siglo XVI",
+        60,
+        63
+      ]
+    },
+    {
+      "control": "Rango_64",
+      "resultado": true,
+      "detalle": [
+        "Clase 10 — La Real Provisión de 1537 y las instituciones coloniales",
+        64,
+        69
+      ]
+    },
+    {
+      "control": "Rango_70",
+      "resultado": true,
+      "detalle": [
+        "Continuación D — La autonomía y sus límites: de 1537 a 1544",
+        70,
+        72
+      ]
+    },
+    {
+      "control": "Rango_73",
+      "resultado": true,
+      "detalle": [
+        "EVALUACIÓN DE LA UNIDAD 3",
+        73,
+        75
+      ]
+    },
+    {
+      "control": "Rango_76",
+      "resultado": true,
+      "detalle": [
+        "EVALUACIÓN INTEGRADORA DE LA 1.ª ETAPA",
+        76,
+        78
+      ]
+    },
+    {
+      "control": "Rango_79",
+      "resultado": true,
+      "detalle": [
+        "Clase 11 — La división de la provincia (1617) y la mediterraneidad",
+        79,
+        82
+      ]
+    },
+    {
+      "control": "Rango_83",
+      "resultado": true,
+      "detalle": [
+        "Clase 12 — Economía y situación de los indígenas en el siglo XVII",
+        83,
+        86
+      ]
+    },
+    {
+      "control": "Rango_87",
+      "resultado": true,
+      "detalle": [
+        "Clase 13 — Franciscanos y jesuitas en la cultura paraguaya",
+        87,
+        90
+      ]
+    },
+    {
+      "control": "Rango_91",
+      "resultado": true,
+      "detalle": [
+        "Continuación E — Bandeirantes, pérdida del Guairá y Mbororé (siglo XVII)",
+        91,
+        94
+      ]
+    },
+    {
+      "control": "Rango_95",
+      "resultado": true,
+      "detalle": [
+        "Ficha reproducible E — Mapa mudo del Guairá y de las reducciones",
+        95,
+        95
+      ]
+    },
+    {
+      "control": "Rango_96",
+      "resultado": true,
+      "detalle": [
+        "Clase 14 — Haciendas, minería y comercio en la América colonial",
+        96,
+        99
+      ]
+    },
+    {
+      "control": "Rango_100",
+      "resultado": true,
+      "detalle": [
+        "Clase 15 — Otras colonizaciones; indígenas y africanos en América",
+        100,
+        103
+      ]
+    },
+    {
+      "control": "Rango_104",
+      "resultado": true,
+      "detalle": [
+        "EVALUACIÓN DE LA UNIDAD 4",
+        104,
+        106
+      ]
+    },
+    {
+      "control": "Rango_107",
+      "resultado": true,
+      "detalle": [
+        "Clase 16 — La posición geográfica del Paraguay y de América",
+        107,
+        111
+      ]
+    },
+    {
+      "control": "Rango_112",
+      "resultado": true,
+      "detalle": [
+        "Clase 17 — El relieve del Paraguay y de América",
+        112,
+        115
+      ]
+    },
+    {
+      "control": "Rango_116",
+      "resultado": true,
+      "detalle": [
+        "Clase 18 — La hidrografía y la Hidrovía",
+        116,
+        121
+      ]
+    },
+    {
+      "control": "Rango_122",
+      "resultado": true,
+      "detalle": [
+        "Ficha reproducible 18-A — Mapa mudo del Paraguay y sus ríos",
+        122,
+        122
+      ]
+    },
+    {
+      "control": "Rango_123",
+      "resultado": true,
+      "detalle": [
+        "Continuación F — La Hidrovía: beneficios, impactos y decisiones",
+        123,
+        124
+      ]
+    },
+    {
+      "control": "Rango_125",
+      "resultado": true,
+      "detalle": [
+        "Ficha reproducible F-A — Caso para decidir",
+        125,
+        125
+      ]
+    },
+    {
+      "control": "Rango_126",
+      "resultado": true,
+      "detalle": [
+        "Ficha reproducible F-B — Tarjetas de rol",
+        126,
+        126
+      ]
+    },
+    {
+      "control": "Rango_127",
+      "resultado": true,
+      "detalle": [
+        "Ficha reproducible F-C — Matriz de decisión",
+        127,
+        127
+      ]
+    },
+    {
+      "control": "Rango_128",
+      "resultado": true,
+      "detalle": [
+        "EVALUACIÓN DE LA UNIDAD 5",
+        128,
+        131
+      ]
+    },
+    {
+      "control": "Rango_132",
+      "resultado": true,
+      "detalle": [
+        "Clase 19 — El clima de Paraguay y de América",
+        132,
+        136
+      ]
+    },
+    {
+      "control": "Rango_137",
+      "resultado": true,
+      "detalle": [
+        "Clase 20 — Regiones naturales de Paraguay y América",
+        137,
+        141
+      ]
+    },
+    {
+      "control": "Rango_142",
+      "resultado": true,
+      "detalle": [
+        "Clase 21 — La gestión ambiental en el Paraguay",
+        142,
+        145
+      ]
+    },
+    {
+      "control": "Rango_146",
+      "resultado": true,
+      "detalle": [
+        "Continuación G — Clima, ecosistemas y gestión ambiental",
+        146,
+        148
+      ]
+    },
+    {
+      "control": "Rango_149",
+      "resultado": true,
+      "detalle": [
+        "Ficha reproducible G — Mapa mudo del Paraguay: lluvias y ecosistemas",
+        149,
+        149
+      ]
+    },
+    {
+      "control": "Rango_150",
+      "resultado": true,
+      "detalle": [
+        "EVALUACIÓN DE LA UNIDAD 6",
+        150,
+        152
+      ]
+    },
+    {
+      "control": "Rango_153",
+      "resultado": true,
+      "detalle": [
+        "EVALUACIÓN INTEGRADORA DE LA 2.ª ETAPA",
+        153,
+        155
+      ]
+    },
+    {
+      "control": "Figuras_sin_duplicar",
+      "resultado": true,
+      "detalle": [
+        {
+          "figura": "1.1",
+          "pagina": 6
+        },
+        {
+          "figura": "1.2",
+          "pagina": 7
+        },
+        {
+          "figura": "1.3",
+          "pagina": 8
+        },
+        {
+          "figura": "2.1",
+          "pagina": 11
+        },
+        {
+          "figura": "2.2",
+          "pagina": 13
+        },
+        {
+          "figura": "3.1",
+          "pagina": 17
+        },
+        {
+          "figura": "3.2",
+          "pagina": 17
+        },
+        {
+          "figura": "4.1",
+          "pagina": 29
+        },
+        {
+          "figura": "5.1",
+          "pagina": 32
+        },
+        {
+          "figura": "5.2",
+          "pagina": 33
+        },
+        {
+          "figura": "6.1",
+          "pagina": 43
+        },
+        {
+          "figura": "6.2",
+          "pagina": 44
+        },
+        {
+          "figura": "7.1",
+          "pagina": 48
+        },
+        {
+          "figura": "7.2",
+          "pagina": 49
+        },
+        {
+          "figura": "8.1",
+          "pagina": 53
+        },
+        {
+          "figura": "8.2",
+          "pagina": 53
+        },
+        {
+          "figura": "9.1",
+          "pagina": 60
+        },
+        {
+          "figura": "10.1",
+          "pagina": 65
+        },
+        {
+          "figura": "10.2",
+          "pagina": 66
+        },
+        {
+          "figura": "11.1",
+          "pagina": 80
+        },
+        {
+          "figura": "12.1",
+          "pagina": 83
+        },
+        {
+          "figura": "13.1",
+          "pagina": 87
+        },
+        {
+          "figura": "E.1",
+          "pagina": 92
+        },
+        {
+          "figura": "E.2",
+          "pagina": 92
+        },
+        {
+          "figura": "14.1",
+          "pagina": 97
+        },
+        {
+          "figura": "15.1",
+          "pagina": 101
+        },
+        {
+          "figura": "16.1",
+          "pagina": 108
+        },
+        {
+          "figura": "16.2",
+          "pagina": 109
+        },
+        {
+          "figura": "17.1",
+          "pagina": 112
+        },
+        {
+          "figura": "17.2",
+          "pagina": 113
+        },
+        {
+          "figura": "18.1",
+          "pagina": 117
+        },
+        {
+          "figura": "18.2",
+          "pagina": 118
+        },
+        {
+          "figura": "18.3",
+          "pagina": 119
+        },
+        {
+          "figura": "19.1",
+          "pagina": 132
+        },
+        {
+          "figura": "19.2",
+          "pagina": 133
+        },
+        {
+          "figura": "19.3",
+          "pagina": 134
+        },
+        {
+          "figura": "20.1",
+          "pagina": 138
+        },
+        {
+          "figura": "20.2",
+          "pagina": 139
+        },
+        {
+          "figura": "21.1",
+          "pagina": 143
+        }
+      ]
+    }
+  ],
+  "correctos": 207,
+  "fallos": [],
+  "figuras_numeradas": [
+    {
+      "figura": "1.1",
+      "pagina": 6
+    },
+    {
+      "figura": "1.2",
+      "pagina": 7
+    },
+    {
+      "figura": "1.3",
+      "pagina": 8
+    },
+    {
+      "figura": "2.1",
+      "pagina": 11
+    },
+    {
+      "figura": "2.2",
+      "pagina": 13
+    },
+    {
+      "figura": "3.1",
+      "pagina": 17
+    },
+    {
+      "figura": "3.2",
+      "pagina": 17
+    },
+    {
+      "figura": "4.1",
+      "pagina": 29
+    },
+    {
+      "figura": "5.1",
+      "pagina": 32
+    },
+    {
+      "figura": "5.2",
+      "pagina": 33
+    },
+    {
+      "figura": "6.1",
+      "pagina": 43
+    },
+    {
+      "figura": "6.2",
+      "pagina": 44
+    },
+    {
+      "figura": "7.1",
+      "pagina": 48
+    },
+    {
+      "figura": "7.2",
+      "pagina": 49
+    },
+    {
+      "figura": "8.1",
+      "pagina": 53
+    },
+    {
+      "figura": "8.2",
+      "pagina": 53
+    },
+    {
+      "figura": "9.1",
+      "pagina": 60
+    },
+    {
+      "figura": "10.1",
+      "pagina": 65
+    },
+    {
+      "figura": "10.2",
+      "pagina": 66
+    },
+    {
+      "figura": "11.1",
+      "pagina": 80
+    },
+    {
+      "figura": "12.1",
+      "pagina": 83
+    },
+    {
+      "figura": "13.1",
+      "pagina": 87
+    },
+    {
+      "figura": "E.1",
+      "pagina": 92
+    },
+    {
+      "figura": "E.2",
+      "pagina": 92
+    },
+    {
+      "figura": "14.1",
+      "pagina": 97
+    },
+    {
+      "figura": "15.1",
+      "pagina": 101
+    },
+    {
+      "figura": "16.1",
+      "pagina": 108
+    },
+    {
+      "figura": "16.2",
+      "pagina": 109
+    },
+    {
+      "figura": "17.1",
+      "pagina": 112
+    },
+    {
+      "figura": "17.2",
+      "pagina": 113
+    },
+    {
+      "figura": "18.1",
+      "pagina": 117
+    },
+    {
+      "figura": "18.2",
+      "pagina": 118
+    },
+    {
+      "figura": "18.3",
+      "pagina": 119
+    },
+    {
+      "figura": "19.1",
+      "pagina": 132
+    },
+    {
+      "figura": "19.2",
+      "pagina": 133
+    },
+    {
+      "figura": "19.3",
+      "pagina": 134
+    },
+    {
+      "figura": "20.1",
+      "pagina": 138
+    },
+    {
+      "figura": "20.2",
+      "pagina": 139
+    },
+    {
+      "figura": "21.1",
+      "pagina": 143
+    }
+  ],
+  "cambios_III_desde_372": {
+    "PLANES_BLOQUE_III_A4": [],
+    "SOLUCIONARIO_BLOQUE_III_A4": [
+      6,
+      7,
+      8
+    ],
+    "TOMO_BLOQUE_III_oficio": [
+      29
+    ]
+  }
+}

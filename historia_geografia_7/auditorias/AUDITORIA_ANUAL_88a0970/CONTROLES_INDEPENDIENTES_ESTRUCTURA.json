@@ -1,0 +1,7535 @@
+{
+  "pruebas": [
+    {
+      "control": "Literal_H1",
+      "resultado": true,
+      "detalle": "Reconoce los procesos fundamentales que configuran la prehistoria paraguaya."
+    },
+    {
+      "control": "Literal_H2",
+      "resultado": true,
+      "detalle": "Interpreta las características destacadas de la prehistoria americana."
+    },
+    {
+      "control": "Literal_H3",
+      "resultado": true,
+      "detalle": "Investiga los principales acontecimientos que caracterizan la realidad paraguaya del siglo XVI."
+    },
+    {
+      "control": "Literal_H4",
+      "resultado": true,
+      "detalle": "Identifica los hechos relevantes del siglo XVI que incidieron en las transformaciones del contexto americano."
+    },
+    {
+      "control": "Literal_H5",
+      "resultado": true,
+      "detalle": "Analiza los rasgos relevantes que influyeron en la realidad paraguaya del siglo XVII."
+    },
+    {
+      "control": "Literal_H6",
+      "resultado": true,
+      "detalle": "Describe los rasgos históricos distintivos de la realidad americana del siglo XVII."
+    },
+    {
+      "control": "Literal_G1",
+      "resultado": true,
+      "detalle": "Analiza la posición geográfica de Paraguay y América y sus incidencias en las actividades humanas."
+    },
+    {
+      "control": "Literal_G2",
+      "resultado": true,
+      "detalle": "Relaciona las características de las unidades orohidrográficas de Paraguay y América."
+    },
+    {
+      "control": "Literal_G3",
+      "resultado": true,
+      "detalle": "Identifica las características climáticas de Paraguay y América y su influencia en las actividades humanas."
+    },
+    {
+      "control": "Literal_G4",
+      "resultado": true,
+      "detalle": "Describe las características de las regiones naturales de Paraguay y América."
+    },
+    {
+      "control": "120_min_1",
+      "resultado": true,
+      "detalle": [
+        [
+          0,
+          15
+        ],
+        [
+          15,
+          30
+        ],
+        [
+          30,
+          48
+        ],
+        [
+          48,
+          60
+        ],
+        [
+          60,
+          80
+        ],
+        [
+          80,
+          96
+        ],
+        [
+          96,
+          106
+        ],
+        [
+          106,
+          120
+        ]
+      ]
+    },
+    {
+      "control": "Correspondencia_items_1",
+      "resultado": true,
+      "detalle": {
+        "items": [
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7,
+          8,
+          9,
+          10,
+          11,
+          12,
+          13
+        ],
+        "respuestas": [
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7,
+          8,
+          9,
+          10,
+          11,
+          12,
+          13
+        ]
+      }
+    },
+    {
+      "control": "Clave_opcion_1_1",
+      "resultado": true,
+      "detalle": "c) las acciones de las sociedades humanas a lo largo del tiempo"
+    },
+    {
+      "control": "Clave_opcion_1_2",
+      "resultado": true,
+      "detalle": "a) material"
+    },
+    {
+      "control": "Clave_opcion_1_3",
+      "resultado": true,
+      "detalle": "b) XIX"
+    },
+    {
+      "control": "Clave_opcion_1_4",
+      "resultado": true,
+      "detalle": "d) la escala"
+    },
+    {
+      "control": "120_min_2",
+      "resultado": true,
+      "detalle": [
+        [
+          0,
+          10
+        ],
+        [
+          10,
+          25
+        ],
+        [
+          25,
+          45
+        ],
+        [
+          45,
+          60
+        ],
+        [
+          60,
+          78
+        ],
+        [
+          78,
+          98
+        ],
+        [
+          98,
+          110
+        ],
+        [
+          110,
+          120
+        ]
+      ]
+    },
+    {
+      "control": "Correspondencia_items_2",
+      "resultado": true,
+      "detalle": {
+        "items": [
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7,
+          8,
+          9,
+          10,
+          11,
+          12
+        ],
+        "respuestas": [
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7,
+          8,
+          9,
+          10,
+          11,
+          12
+        ]
+      }
+    },
+    {
+      "control": "Clave_opcion_2_1",
+      "resultado": true,
+      "detalle": "b) se trasladaban según la disponibilidad de animales y frutos"
+    },
+    {
+      "control": "Clave_opcion_2_2",
+      "resultado": true,
+      "detalle": "a) la agricultura, las aldeas y los lazos de parentesco"
+    },
+    {
+      "control": "Clave_opcion_2_3",
+      "resultado": true,
+      "detalle": "c) Paraguay"
+    },
+    {
+      "control": "Clave_opcion_2_4",
+      "resultado": true,
+      "detalle": "d) cinco familias lingüísticas"
+    },
+    {
+      "control": "120_min_3",
+      "resultado": true,
+      "detalle": [
+        [
+          0,
+          10
+        ],
+        [
+          10,
+          25
+        ],
+        [
+          25,
+          45
+        ],
+        [
+          45,
+          58
+        ],
+        [
+          58,
+          75
+        ],
+        [
+          75,
+          92
+        ],
+        [
+          92,
+          104
+        ],
+        [
+          104,
+          120
+        ]
+      ]
+    },
+    {
+      "control": "Correspondencia_items_3",
+      "resultado": true,
+      "detalle": {
+        "items": [
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7,
+          8,
+          9,
+          10,
+          11,
+          12
+        ],
+        "respuestas": [
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7,
+          8,
+          9,
+          10,
+          11,
+          12
+        ]
+      }
+    },
+    {
+      "control": "Clave_opcion_3_1",
+      "resultado": true,
+      "detalle": "c) vivían en aldeas independientes de un territorio muy amplio"
+    },
+    {
+      "control": "Clave_opcion_3_2",
+      "resultado": true,
+      "detalle": "a) la reciprocidad: dar y recibir entre parientes"
+    },
+    {
+      "control": "Clave_opcion_3_3",
+      "resultado": true,
+      "detalle": "d) su prestigio y generosidad"
+    },
+    {
+      "control": "Clave_opcion_3_4",
+      "resultado": true,
+      "detalle": "b) las mujeres"
+    },
+    {
+      "control": "120_min_4",
+      "resultado": true,
+      "detalle": [
+        [
+          0,
+          10
+        ],
+        [
+          10,
+          25
+        ],
+        [
+          25,
+          50
+        ],
+        [
+          50,
+          75
+        ],
+        [
+          75,
+          95
+        ],
+        [
+          95,
+          110
+        ],
+        [
+          110,
+          120
+        ]
+      ]
+    },
+    {
+      "control": "Correspondencia_items_4",
+      "resultado": true,
+      "detalle": {
+        "items": [
+          1,
+          2,
+          3,
+          4
+        ],
+        "respuestas": [
+          1,
+          2,
+          3,
+          4
+        ]
+      }
+    },
+    {
+      "control": "120_min_5",
+      "resultado": true,
+      "detalle": [
+        [
+          0,
+          10
+        ],
+        [
+          10,
+          80
+        ],
+        [
+          80,
+          95
+        ],
+        [
+          95,
+          120
+        ]
+      ]
+    },
+    {
+      "control": "Correspondencia_items_5",
+      "resultado": true,
+      "detalle": {
+        "items": [
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7,
+          8,
+          9,
+          10,
+          11,
+          12,
+          13,
+          14
+        ],
+        "respuestas": [
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7,
+          8,
+          9,
+          10,
+          11,
+          12,
+          13,
+          14
+        ]
+      }
+    },
+    {
+      "control": "Clave_opcion_5_1",
+      "resultado": true,
+      "detalle": "b) los restos materiales del pasado"
+    },
+    {
+      "control": "Clave_opcion_5_2",
+      "resultado": true,
+      "detalle": "c) practicaban la agricultura y vivían en aldeas"
+    },
+    {
+      "control": "Clave_opcion_5_3",
+      "resultado": true,
+      "detalle": "b) cazadores-recolectores de los bosques de la Región Oriental"
+    },
+    {
+      "control": "Clave_opcion_5_4",
+      "resultado": true,
+      "detalle": "a) el territorio donde se vive según el modo de ser guaraní"
+    },
+    {
+      "control": "Clave_opcion_5_5",
+      "resultado": true,
+      "detalle": "d) cortar y quemar un sector del bosque y cultivarlo algunos años"
+    },
+    {
+      "control": "Clave_opcion_5_6",
+      "resultado": true,
+      "detalle": "c) guaicurú"
+    },
+    {
+      "control": "Total_evaluacion_5",
+      "resultado": true,
+      "detalle": [
+        [
+          "1 a 6",
+          "H1",
+          "Prehistoria, formaciones, pueblos, tekoha, roza y familias lingüísticas (Clases 2 y 3).",
+          6
+        ],
+        [
+          "7 a 10",
+          "H1",
+          "Fuentes de la prehistoria, papel de las mujeres, autoridad y pueblos actuales.",
+          4
+        ],
+        [
+          "11",
+          "H1",
+          "Primeros pobladores de las regiones Oriental y Occidental: ubicación de regiones y ríos.",
+          4
+        ],
+        [
+          "12 y 13",
+          "H1",
+          "Legado e importancia de la lengua guaraní a partir de una fuente (Continuación A).",
+          4
+        ],
+        [
+          "14",
+          "H1",
+          "Organización guaraní basada en el parentesco y la reciprocidad; papel de las mujeres.",
+          5
+        ]
+      ]
+    },
+    {
+      "control": "120_min_6",
+      "resultado": true,
+      "detalle": [
+        [
+          0,
+          20
+        ],
+        [
+          20,
+          28
+        ],
+        [
+          28,
+          40
+        ],
+        [
+          40,
+          55
+        ],
+        [
+          55,
+          72
+        ],
+        [
+          72,
+          90
+        ],
+        [
+          90,
+          104
+        ],
+        [
+          104,
+          120
+        ]
+      ]
+    },
+    {
+      "control": "Correspondencia_items_6",
+      "resultado": true,
+      "detalle": {
+        "items": [
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7,
+          8,
+          9,
+          10,
+          11,
+          12
+        ],
+        "respuestas": [
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7,
+          8,
+          9,
+          10,
+          11,
+          12
+        ]
+      }
+    },
+    {
+      "control": "Clave_opcion_6_1",
+      "resultado": true,
+      "detalle": "b) una franja de tierra entre Siberia y Alaska que quedó al descubierto en la glaciación"
+    },
+    {
+      "control": "Clave_opcion_6_2",
+      "resultado": true,
+      "detalle": "c) se originó en América"
+    },
+    {
+      "control": "Clave_opcion_6_3",
+      "resultado": true,
+      "detalle": "d) hubo poblamiento anterior a Clovis"
+    },
+    {
+      "control": "Clave_opcion_6_4",
+      "resultado": true,
+      "detalle": "a) el sur de Chile"
+    },
+    {
+      "control": "120_min_7",
+      "resultado": true,
+      "detalle": [
+        [
+          0,
+          10
+        ],
+        [
+          10,
+          22
+        ],
+        [
+          22,
+          40
+        ],
+        [
+          40,
+          55
+        ],
+        [
+          55,
+          72
+        ],
+        [
+          72,
+          92
+        ],
+        [
+          92,
+          104
+        ],
+        [
+          104,
+          120
+        ]
+      ]
+    },
+    {
+      "control": "Correspondencia_items_7",
+      "resultado": true,
+      "detalle": {
+        "items": [
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7,
+          8,
+          9,
+          10,
+          11,
+          12
+        ],
+        "respuestas": [
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7,
+          8,
+          9,
+          10,
+          11,
+          12
+        ]
+      }
+    },
+    {
+      "control": "Clave_opcion_7_1",
+      "resultado": true,
+      "detalle": "b) eran ciudades-estado independientes con sus propios reyes"
+    },
+    {
+      "control": "Clave_opcion_7_2",
+      "resultado": true,
+      "detalle": "c) en unos islotes del lago de Texcoco"
+    },
+    {
+      "control": "Clave_opcion_7_3",
+      "resultado": true,
+      "detalle": "a) un turno de trabajo que las comunidades daban al Estado"
+    },
+    {
+      "control": "Clave_opcion_7_4",
+      "resultado": true,
+      "detalle": "d) un cantero elevado construido con barro y plantas en un lago poco profundo"
+    },
+    {
+      "control": "120_min_8",
+      "resultado": true,
+      "detalle": [
+        [
+          0,
+          10
+        ],
+        [
+          10,
+          20
+        ],
+        [
+          20,
+          50
+        ],
+        [
+          50,
+          75
+        ],
+        [
+          75,
+          98
+        ],
+        [
+          98,
+          112
+        ],
+        [
+          112,
+          120
+        ]
+      ]
+    },
+    {
+      "control": "Correspondencia_items_8",
+      "resultado": true,
+      "detalle": {
+        "items": [
+          1,
+          2,
+          3,
+          4
+        ],
+        "respuestas": [
+          1,
+          2,
+          3,
+          4
+        ]
+      }
+    },
+    {
+      "control": "120_min_9",
+      "resultado": true,
+      "detalle": [
+        [
+          0,
+          10
+        ],
+        [
+          10,
+          80
+        ],
+        [
+          80,
+          95
+        ],
+        [
+          95,
+          120
+        ]
+      ]
+    },
+    {
+      "control": "Correspondencia_items_9",
+      "resultado": true,
+      "detalle": {
+        "items": [
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7,
+          8,
+          9,
+          10,
+          11,
+          12,
+          13
+        ],
+        "respuestas": [
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7,
+          8,
+          9,
+          10,
+          11,
+          12,
+          13
+        ]
+      }
+    },
+    {
+      "control": "Clave_opcion_9_1",
+      "resultado": true,
+      "detalle": "b) desde el nordeste de Asia"
+    },
+    {
+      "control": "Clave_opcion_9_2",
+      "resultado": true,
+      "detalle": "a) durante la glaciación bajó el nivel del mar"
+    },
+    {
+      "control": "Clave_opcion_9_3",
+      "resultado": true,
+      "detalle": "c) llegadas desde Asia y también desde Melanesia y Polinesia"
+    },
+    {
+      "control": "Clave_opcion_9_4",
+      "resultado": true,
+      "detalle": "b) vivían en ciudades-estado y tenían escritura propia"
+    },
+    {
+      "control": "Clave_opcion_9_5",
+      "resultado": true,
+      "detalle": "d) una comunidad de familias emparentadas en los Andes"
+    },
+    {
+      "control": "Clave_opcion_9_6",
+      "resultado": true,
+      "detalle": "c) 1521"
+    },
+    {
+      "control": "Total_evaluacion_9",
+      "resultado": true,
+      "detalle": [
+        [
+          "1 a 3",
+          "H2",
+          "Antigüedad y teorías acerca del origen del hombre americano.",
+          3
+        ],
+        [
+          "4 a 6",
+          "H2",
+          "Organización y cronología de mayas, mexicas e incas.",
+          3
+        ],
+        [
+          "7 a 10",
+          "H2",
+          "Poblamiento, chinampas, cronología y quipus.",
+          4
+        ],
+        [
+          "11",
+          "H2",
+          "Espacios territoriales ocupados por aztecas, mayas e incas.",
+          3
+        ],
+        [
+          "12",
+          "H2",
+          "Aportes culturales y organización de mayas e incas.",
+          4
+        ],
+        [
+          "13",
+          "H2",
+          "Poblamiento de América con pruebas actuales y teorías clásicas.",
+          5
+        ]
+      ]
+    },
+    {
+      "control": "120_min_10",
+      "resultado": true,
+      "detalle": [
+        [
+          0,
+          20
+        ],
+        [
+          20,
+          27
+        ],
+        [
+          27,
+          40
+        ],
+        [
+          40,
+          55
+        ],
+        [
+          55,
+          70
+        ],
+        [
+          70,
+          88
+        ],
+        [
+          88,
+          100
+        ],
+        [
+          100,
+          120
+        ]
+      ]
+    },
+    {
+      "control": "Correspondencia_items_10",
+      "resultado": true,
+      "detalle": {
+        "items": [
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7,
+          8,
+          9,
+          10,
+          11,
+          12
+        ],
+        "respuestas": [
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7,
+          8,
+          9,
+          10,
+          11,
+          12
+        ]
+      }
+    },
+    {
+      "control": "Clave_opcion_10_1",
+      "resultado": true,
+      "detalle": "a) calcular la latitud midiendo la altura de los astros"
+    },
+    {
+      "control": "Clave_opcion_10_2",
+      "resultado": true,
+      "detalle": "b) Vasco da Gama"
+    },
+    {
+      "control": "Clave_opcion_10_3",
+      "resultado": true,
+      "detalle": "c) la caída de su población por epidemias y guerras"
+    },
+    {
+      "control": "Clave_opcion_10_4",
+      "resultado": true,
+      "detalle": "d) la Corona de Castilla"
+    },
+    {
+      "control": "120_min_11",
+      "resultado": true,
+      "detalle": [
+        [
+          0,
+          10
+        ],
+        [
+          10,
+          28
+        ],
+        [
+          28,
+          45
+        ],
+        [
+          45,
+          65
+        ],
+        [
+          65,
+          85
+        ],
+        [
+          85,
+          100
+        ],
+        [
+          100,
+          120
+        ]
+      ]
+    },
+    {
+      "control": "Correspondencia_items_11",
+      "resultado": true,
+      "detalle": {
+        "items": [
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7,
+          8,
+          9,
+          10,
+          11,
+          12
+        ],
+        "respuestas": [
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7,
+          8,
+          9,
+          10,
+          11,
+          12
+        ]
+      }
+    },
+    {
+      "control": "Clave_opcion_11_1",
+      "resultado": true,
+      "detalle": "c) Castilla y Portugal"
+    },
+    {
+      "control": "Clave_opcion_11_2",
+      "resultado": true,
+      "detalle": "b) el rey concentra el poder de hacer leyes, juzgar y gobernar"
+    },
+    {
+      "control": "Clave_opcion_11_3",
+      "resultado": true,
+      "detalle": "d) del Perú"
+    },
+    {
+      "control": "Clave_opcion_11_4",
+      "resultado": true,
+      "detalle": "a) controlar el comercio y la navegación con América"
+    },
+    {
+      "control": "120_min_12",
+      "resultado": true,
+      "detalle": [
+        [
+          0,
+          10
+        ],
+        [
+          10,
+          30
+        ],
+        [
+          30,
+          50
+        ],
+        [
+          50,
+          68
+        ],
+        [
+          68,
+          85
+        ],
+        [
+          85,
+          100
+        ],
+        [
+          100,
+          120
+        ]
+      ]
+    },
+    {
+      "control": "Correspondencia_items_12",
+      "resultado": true,
+      "detalle": {
+        "items": [
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7,
+          8,
+          9,
+          10,
+          11,
+          12
+        ],
+        "respuestas": [
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7,
+          8,
+          9,
+          10,
+          11,
+          12
+        ]
+      }
+    },
+    {
+      "control": "Clave_opcion_12_1",
+      "resultado": true,
+      "detalle": "b) fue el primer europeo que recorrió el territorio paraguayo"
+    },
+    {
+      "control": "Clave_opcion_12_2",
+      "resultado": true,
+      "detalle": "c) Sebastián Gaboto"
+    },
+    {
+      "control": "Clave_opcion_12_3",
+      "resultado": true,
+      "detalle": "a) despoblar Buenos Aires y concentrar a los españoles en Asunción"
+    },
+    {
+      "control": "Clave_opcion_12_4",
+      "resultado": true,
+      "detalle": "d) los españoles dependían de la alianza con los guaraníes"
+    },
+    {
+      "control": "120_min_13",
+      "resultado": true,
+      "detalle": [
+        [
+          0,
+          10
+        ],
+        [
+          10,
+          20
+        ],
+        [
+          20,
+          48
+        ],
+        [
+          48,
+          68
+        ],
+        [
+          68,
+          80
+        ],
+        [
+          80,
+          100
+        ],
+        [
+          100,
+          113
+        ],
+        [
+          113,
+          120
+        ]
+      ]
+    },
+    {
+      "control": "Correspondencia_items_13",
+      "resultado": true,
+      "detalle": {
+        "items": [
+          1,
+          2,
+          3,
+          4
+        ],
+        "respuestas": [
+          1,
+          2,
+          3,
+          4
+        ]
+      }
+    },
+    {
+      "control": "120_min_14",
+      "resultado": true,
+      "detalle": [
+        [
+          0,
+          10
+        ],
+        [
+          10,
+          28
+        ],
+        [
+          28,
+          45
+        ],
+        [
+          45,
+          60
+        ],
+        [
+          60,
+          80
+        ],
+        [
+          80,
+          98
+        ],
+        [
+          98,
+          120
+        ]
+      ]
+    },
+    {
+      "control": "Correspondencia_items_14",
+      "resultado": true,
+      "detalle": {
+        "items": [
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7,
+          8,
+          9,
+          10,
+          11,
+          12
+        ],
+        "respuestas": [
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7,
+          8,
+          9,
+          10,
+          11,
+          12
+        ]
+      }
+    },
+    {
+      "control": "Clave_opcion_14_1",
+      "resultado": true,
+      "detalle": "d) convertir a los españoles en parientes y aliados"
+    },
+    {
+      "control": "Clave_opcion_14_2",
+      "resultado": true,
+      "detalle": "a) los hijos de españoles y mujeres guaraníes"
+    },
+    {
+      "control": "Clave_opcion_14_3",
+      "resultado": true,
+      "detalle": "c) expediciones armadas para capturar indígenas"
+    },
+    {
+      "control": "Clave_opcion_14_4",
+      "resultado": true,
+      "detalle": "b) conservar la lengua y las creencias propias"
+    },
+    {
+      "control": "120_min_15",
+      "resultado": true,
+      "detalle": [
+        [
+          0,
+          10
+        ],
+        [
+          10,
+          23
+        ],
+        [
+          23,
+          33
+        ],
+        [
+          33,
+          48
+        ],
+        [
+          48,
+          60
+        ],
+        [
+          60,
+          76
+        ],
+        [
+          76,
+          96
+        ],
+        [
+          96,
+          110
+        ],
+        [
+          110,
+          120
+        ]
+      ]
+    },
+    {
+      "control": "Correspondencia_items_15",
+      "resultado": true,
+      "detalle": {
+        "items": [
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7,
+          8,
+          9,
+          10,
+          11,
+          12,
+          13,
+          14,
+          15,
+          16
+        ],
+        "respuestas": [
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7,
+          8,
+          9,
+          10,
+          11,
+          12,
+          13,
+          14,
+          15,
+          16
+        ]
+      }
+    },
+    {
+      "control": "Clave_opcion_15_1",
+      "resultado": true,
+      "detalle": "b) faltaba el gobernador nombrado por el rey o su lugarteniente"
+    },
+    {
+      "control": "Clave_opcion_15_2",
+      "resultado": true,
+      "detalle": "c) los conquistadores y pobladores españoles"
+    },
+    {
+      "control": "Clave_opcion_15_3",
+      "resultado": true,
+      "detalle": "a) en nombre del rey"
+    },
+    {
+      "control": "Clave_opcion_15_4",
+      "resultado": true,
+      "detalle": "d) vivían en la casa o la chacra del encomendero"
+    },
+    {
+      "control": "Clave_opcion_15_5",
+      "resultado": true,
+      "detalle": "c) 1547"
+    },
+    {
+      "control": "Clave_opcion_15_6",
+      "resultado": true,
+      "detalle": "b) Álvar Núñez Cabeza de Vaca"
+    },
+    {
+      "control": "120_min_16",
+      "resultado": true,
+      "detalle": [
+        [
+          0,
+          10
+        ],
+        [
+          10,
+          22
+        ],
+        [
+          22,
+          40
+        ],
+        [
+          40,
+          55
+        ],
+        [
+          55,
+          80
+        ],
+        [
+          80,
+          100
+        ],
+        [
+          100,
+          112
+        ],
+        [
+          112,
+          120
+        ]
+      ]
+    },
+    {
+      "control": "Correspondencia_items_16",
+      "resultado": true,
+      "detalle": {
+        "items": [
+          1,
+          2,
+          3,
+          4,
+          5
+        ],
+        "respuestas": [
+          1,
+          2,
+          3,
+          4,
+          5
+        ]
+      }
+    },
+    {
+      "control": "120_min_17",
+      "resultado": true,
+      "detalle": [
+        [
+          0,
+          10
+        ],
+        [
+          10,
+          80
+        ],
+        [
+          80,
+          95
+        ],
+        [
+          95,
+          120
+        ]
+      ]
+    },
+    {
+      "control": "Correspondencia_items_17",
+      "resultado": true,
+      "detalle": {
+        "items": [
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7,
+          8,
+          9,
+          10,
+          11,
+          12,
+          13,
+          14
+        ],
+        "respuestas": [
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7,
+          8,
+          9,
+          10,
+          11,
+          12,
+          13,
+          14
+        ]
+      }
+    },
+    {
+      "control": "Clave_opcion_17_1",
+      "resultado": true,
+      "detalle": "c) fijó una línea que dividía las zonas de Castilla y de Portugal"
+    },
+    {
+      "control": "Clave_opcion_17_2",
+      "resultado": true,
+      "detalle": "a) conocer la dirección del norte aunque no vieran la costa"
+    },
+    {
+      "control": "Clave_opcion_17_3",
+      "resultado": true,
+      "detalle": "d) el rey"
+    },
+    {
+      "control": "Clave_opcion_17_4",
+      "resultado": true,
+      "detalle": "b) Alejo García"
+    },
+    {
+      "control": "Clave_opcion_17_5",
+      "resultado": true,
+      "detalle": "d) despoblar Buenos Aires y concentrar a los españoles en Asunción"
+    },
+    {
+      "control": "Clave_opcion_17_6",
+      "resultado": true,
+      "detalle": "a) cuando faltaba la autoridad nombrada por el rey"
+    },
+    {
+      "control": "Total_evaluacion_17",
+      "resultado": true,
+      "detalle": [
+        [
+          "1 a 3",
+          "H4",
+          "Tordesillas, avances técnicos y gobierno absolutista.",
+          3
+        ],
+        [
+          "4 a 6",
+          "H3",
+          "Alejo García, centralidad de Asunción y Real Provisión de 1537.",
+          3
+        ],
+        [
+          "7, 8 y 10",
+          "H3",
+          "Mestizaje e instituciones coloniales.",
+          3
+        ],
+        [
+          "9",
+          "H4",
+          "Llegada de los europeos a América.",
+          1
+        ],
+        [
+          "11",
+          "H3",
+          "Lugares de la conquista del Río de la Plata.",
+          3
+        ],
+        [
+          "12",
+          "H3",
+          "Tipos de encomienda.",
+          4
+        ],
+        [
+          "13",
+          "H3",
+          "Asunción como centro de la conquista.",
+          5
+        ],
+        [
+          "14",
+          "H4",
+          "Causas y consecuencias de la llegada de los europeos.",
+          3
+        ]
+      ]
+    },
+    {
+      "control": "120_min_18",
+      "resultado": true,
+      "detalle": [
+        [
+          0,
+          20
+        ],
+        [
+          20,
+          30
+        ],
+        [
+          30,
+          100
+        ],
+        [
+          100,
+          115
+        ],
+        [
+          115,
+          120
+        ]
+      ]
+    },
+    {
+      "control": "Correspondencia_items_18",
+      "resultado": true,
+      "detalle": {
+        "items": [
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7,
+          8,
+          9,
+          10,
+          11,
+          12,
+          13,
+          14,
+          15,
+          16
+        ],
+        "respuestas": [
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7,
+          8,
+          9,
+          10,
+          11,
+          12,
+          13,
+          14,
+          15,
+          16
+        ]
+      }
+    },
+    {
+      "control": "Clave_opcion_18_1",
+      "resultado": true,
+      "detalle": "b) la arqueología y los restos materiales"
+    },
+    {
+      "control": "Clave_opcion_18_2",
+      "resultado": true,
+      "detalle": "d) el intercambio recíproco de dones"
+    },
+    {
+      "control": "Clave_opcion_18_3",
+      "resultado": true,
+      "detalle": "a) quedó al descubierto y unió Asia con América"
+    },
+    {
+      "control": "Clave_opcion_18_4",
+      "resultado": true,
+      "detalle": "c) quipus, cuerdas anudadas"
+    },
+    {
+      "control": "Clave_opcion_18_5",
+      "resultado": true,
+      "detalle": "a) sus velas triangulares o latinas"
+    },
+    {
+      "control": "Clave_opcion_18_6",
+      "resultado": true,
+      "detalle": "b) preparaba las leyes para América y proponía nombramientos al rey"
+    },
+    {
+      "control": "Clave_opcion_18_7",
+      "resultado": true,
+      "detalle": "d) la frontera del Imperio inca"
+    },
+    {
+      "control": "Clave_opcion_18_8",
+      "resultado": true,
+      "detalle": "c) Asunción"
+    },
+    {
+      "control": "Total_evaluacion_18",
+      "resultado": true,
+      "detalle": [
+        [
+          "1, 2 y 9",
+          "H1",
+          "Prehistoria del Paraguay y organización guaraní.",
+          3
+        ],
+        [
+          "3, 4 y 10",
+          "H2",
+          "Poblamiento de América y civilizaciones americanas.",
+          3
+        ],
+        [
+          "5, 6 y 11",
+          "H4",
+          "Avances técnicos, gobierno colonial y reparto de Tordesillas.",
+          3
+        ],
+        [
+          "7, 8 y 12",
+          "H3",
+          "Expediciones, instituciones y resistencia indígena.",
+          3
+        ],
+        [
+          "13",
+          "H2, H3, H4",
+          "Cronología de las tres unidades.",
+          3
+        ],
+        [
+          "14",
+          "H1, H3",
+          "Los guaraníes antes y después de la conquista.",
+          4
+        ],
+        [
+          "15",
+          "H1, H3",
+          "Cambios en la vida guaraní en el siglo XVI.",
+          6
+        ],
+        [
+          "16",
+          "H4",
+          "Llegada de los europeos y sus consecuencias en América.",
+          3
+        ]
+      ]
+    },
+    {
+      "control": "120_min_19",
+      "resultado": true,
+      "detalle": [
+        [
+          0,
+          20
+        ],
+        [
+          20,
+          27
+        ],
+        [
+          27,
+          45
+        ],
+        [
+          45,
+          65
+        ],
+        [
+          65,
+          82
+        ],
+        [
+          82,
+          100
+        ],
+        [
+          100,
+          120
+        ]
+      ]
+    },
+    {
+      "control": "Correspondencia_items_19",
+      "resultado": true,
+      "detalle": {
+        "items": [
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7,
+          8,
+          9,
+          10,
+          11,
+          12
+        ],
+        "respuestas": [
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7,
+          8,
+          9,
+          10,
+          11,
+          12
+        ]
+      }
+    },
+    {
+      "control": "Clave_opcion_19_1",
+      "resultado": true,
+      "detalle": "b) fue el primer gobernador criollo y propuso la división de la provincia"
+    },
+    {
+      "control": "Clave_opcion_19_2",
+      "resultado": true,
+      "detalle": "a) la gobernación del Río de la Plata"
+    },
+    {
+      "control": "Clave_opcion_19_3",
+      "resultado": true,
+      "detalle": "d) una condición geográfica: no tener costa marítima"
+    },
+    {
+      "control": "Clave_opcion_19_4",
+      "resultado": true,
+      "detalle": "b) Asunción pasó a depender de Santa Fe y Buenos Aires para su comercio"
+    },
+    {
+      "control": "120_min_20",
+      "resultado": true,
+      "detalle": [
+        [
+          0,
+          10
+        ],
+        [
+          10,
+          30
+        ],
+        [
+          30,
+          50
+        ],
+        [
+          50,
+          70
+        ],
+        [
+          70,
+          82
+        ],
+        [
+          82,
+          100
+        ],
+        [
+          100,
+          120
+        ]
+      ]
+    },
+    {
+      "control": "Correspondencia_items_20",
+      "resultado": true,
+      "detalle": {
+        "items": [
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7,
+          8,
+          9,
+          10,
+          11,
+          12
+        ],
+        "respuestas": [
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7,
+          8,
+          9,
+          10,
+          11,
+          12
+        ]
+      }
+    },
+    {
+      "control": "Clave_opcion_20_1",
+      "resultado": true,
+      "detalle": "c) la yerba mate"
+    },
+    {
+      "control": "Clave_opcion_20_2",
+      "resultado": true,
+      "detalle": "a) el pago con productos como yerba, tabaco o lienzo"
+    },
+    {
+      "control": "Clave_opcion_20_3",
+      "resultado": true,
+      "detalle": "d) prohibieron el servicio personal de los indígenas"
+    },
+    {
+      "control": "Clave_opcion_20_4",
+      "resultado": true,
+      "detalle": "b) expediciones que capturaban indígenas para esclavizarlos"
+    },
+    {
+      "control": "120_min_21",
+      "resultado": true,
+      "detalle": [
+        [
+          0,
+          10
+        ],
+        [
+          10,
+          28
+        ],
+        [
+          28,
+          50
+        ],
+        [
+          50,
+          68
+        ],
+        [
+          68,
+          82
+        ],
+        [
+          82,
+          100
+        ],
+        [
+          100,
+          120
+        ]
+      ]
+    },
+    {
+      "control": "Correspondencia_items_21",
+      "resultado": true,
+      "detalle": {
+        "items": [
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7,
+          8,
+          9,
+          10,
+          11,
+          12
+        ],
+        "respuestas": [
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7,
+          8,
+          9,
+          10,
+          11,
+          12
+        ]
+      }
+    },
+    {
+      "control": "Clave_opcion_21_1",
+      "resultado": true,
+      "detalle": "a) traducir el catecismo al guaraní"
+    },
+    {
+      "control": "Clave_opcion_21_2",
+      "resultado": true,
+      "detalle": "c) los indígenas no estaban encomendados a particulares"
+    },
+    {
+      "control": "Clave_opcion_21_3",
+      "resultado": true,
+      "detalle": "b) la tierra común cuyos frutos servían a viudas, enfermos, el culto y el tributo"
+    },
+    {
+      "control": "Clave_opcion_21_4",
+      "resultado": true,
+      "detalle": "d) 1767"
+    },
+    {
+      "control": "120_min_22",
+      "resultado": true,
+      "detalle": [
+        [
+          0,
+          10
+        ],
+        [
+          10,
+          28
+        ],
+        [
+          28,
+          48
+        ],
+        [
+          48,
+          62
+        ],
+        [
+          62,
+          78
+        ],
+        [
+          78,
+          98
+        ],
+        [
+          98,
+          112
+        ],
+        [
+          112,
+          120
+        ]
+      ]
+    },
+    {
+      "control": "Correspondencia_items_22",
+      "resultado": true,
+      "detalle": {
+        "items": [
+          1,
+          2,
+          3,
+          4
+        ],
+        "respuestas": [
+          1,
+          2,
+          3,
+          4
+        ]
+      }
+    },
+    {
+      "control": "120_min_23",
+      "resultado": true,
+      "detalle": [
+        [
+          0,
+          10
+        ],
+        [
+          10,
+          28
+        ],
+        [
+          28,
+          42
+        ],
+        [
+          42,
+          60
+        ],
+        [
+          60,
+          80
+        ],
+        [
+          80,
+          100
+        ],
+        [
+          100,
+          120
+        ]
+      ]
+    },
+    {
+      "control": "Correspondencia_items_23",
+      "resultado": true,
+      "detalle": {
+        "items": [
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7,
+          8,
+          9,
+          10,
+          11,
+          12
+        ],
+        "respuestas": [
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7,
+          8,
+          9,
+          10,
+          11,
+          12
+        ]
+      }
+    },
+    {
+      "control": "Clave_opcion_23_1",
+      "resultado": true,
+      "detalle": "d) Potosí y Zacatecas"
+    },
+    {
+      "control": "Clave_opcion_23_2",
+      "resultado": true,
+      "detalle": "b) el trabajo obligatorio por turnos de indígenas en las minas"
+    },
+    {
+      "control": "Clave_opcion_23_3",
+      "resultado": true,
+      "detalle": "a) producía un solo producto para exportar con trabajo esclavizado"
+    },
+    {
+      "control": "Clave_opcion_23_4",
+      "resultado": true,
+      "detalle": "c) solo podían comerciar con España"
+    },
+    {
+      "control": "120_min_24",
+      "resultado": true,
+      "detalle": [
+        [
+          0,
+          10
+        ],
+        [
+          10,
+          30
+        ],
+        [
+          30,
+          45
+        ],
+        [
+          45,
+          60
+        ],
+        [
+          60,
+          80
+        ],
+        [
+          80,
+          100
+        ],
+        [
+          100,
+          120
+        ]
+      ]
+    },
+    {
+      "control": "Correspondencia_items_24",
+      "resultado": true,
+      "detalle": {
+        "items": [
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7,
+          8,
+          9,
+          10,
+          11,
+          12
+        ],
+        "respuestas": [
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7,
+          8,
+          9,
+          10,
+          11,
+          12
+        ]
+      }
+    },
+    {
+      "control": "Clave_opcion_24_1",
+      "resultado": true,
+      "detalle": "b) franjas de tierra entregadas por Portugal a particulares"
+    },
+    {
+      "control": "Clave_opcion_24_2",
+      "resultado": true,
+      "detalle": "d) Francia"
+    },
+    {
+      "control": "Clave_opcion_24_3",
+      "resultado": true,
+      "detalle": "a) Europa, África y América"
+    },
+    {
+      "control": "Clave_opcion_24_4",
+      "resultado": true,
+      "detalle": "c) un quilombo de africanos que resistió en el Brasil"
+    },
+    {
+      "control": "120_min_25",
+      "resultado": true,
+      "detalle": [
+        [
+          0,
+          10
+        ],
+        [
+          10,
+          80
+        ],
+        [
+          80,
+          95
+        ],
+        [
+          95,
+          120
+        ]
+      ]
+    },
+    {
+      "control": "Correspondencia_items_25",
+      "resultado": true,
+      "detalle": {
+        "items": [
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7,
+          8,
+          9,
+          10,
+          11,
+          12,
+          13,
+          14
+        ],
+        "respuestas": [
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7,
+          8,
+          9,
+          10,
+          11,
+          12,
+          13,
+          14
+        ]
+      }
+    },
+    {
+      "control": "Clave_opcion_25_1",
+      "resultado": true,
+      "detalle": "b) la enorme extensión del territorio y el crecimiento de Buenos Aires"
+    },
+    {
+      "control": "Clave_opcion_25_2",
+      "resultado": true,
+      "detalle": "c) consistía en pagar con productos como yerba, tabaco o lienzo"
+    },
+    {
+      "control": "Clave_opcion_25_3",
+      "resultado": true,
+      "detalle": "a) capturar indígenas para esclavizarlos"
+    },
+    {
+      "control": "Clave_opcion_25_4",
+      "resultado": true,
+      "detalle": "d) obligaba a indígenas andinos a trabajar por turnos en las minas"
+    },
+    {
+      "control": "Clave_opcion_25_5",
+      "resultado": true,
+      "detalle": "b) Holanda"
+    },
+    {
+      "control": "Clave_opcion_25_6",
+      "resultado": true,
+      "detalle": "b) una comunidad de africanos que habían huido de la esclavitud"
+    },
+    {
+      "control": "Total_evaluacion_25",
+      "resultado": true,
+      "detalle": [
+        [
+          "1 a 3",
+          "H5",
+          "División de 1617, moneda de la tierra y malocas.",
+          3
+        ],
+        [
+          "4 a 6",
+          "H6",
+          "Mita minera, colonización holandesa y quilombos.",
+          3
+        ],
+        [
+          "7 y 8",
+          "H5",
+          "Ordenanzas de Alfaro y pueblos franciscanos.",
+          2
+        ],
+        [
+          "9 y 10",
+          "H6",
+          "Plantación y comercio triangular.",
+          2
+        ],
+        [
+          "11",
+          "H5",
+          "Malocas, pérdida del Guairá y Mbororé en el mapa.",
+          3
+        ],
+        [
+          "12",
+          "H5",
+          "Aportes de franciscanos y jesuitas.",
+          4
+        ],
+        [
+          "13",
+          "H5",
+          "División de la provincia; secuelas de la mediterraneidad.",
+          5
+        ],
+        [
+          "14",
+          "H6",
+          "Monopolio, contrabando y vínculo del Paraguay con Potosí.",
+          3
+        ]
+      ]
+    },
+    {
+      "control": "120_min_26",
+      "resultado": true,
+      "detalle": [
+        [
+          0,
+          20
+        ],
+        [
+          20,
+          25
+        ],
+        [
+          25,
+          42
+        ],
+        [
+          42,
+          58
+        ],
+        [
+          58,
+          78
+        ],
+        [
+          78,
+          88
+        ],
+        [
+          88,
+          106
+        ],
+        [
+          106,
+          120
+        ]
+      ]
+    },
+    {
+      "control": "Correspondencia_items_26",
+      "resultado": true,
+      "detalle": {
+        "items": [
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7,
+          8,
+          9,
+          10,
+          11,
+          12
+        ],
+        "respuestas": [
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7,
+          8,
+          9,
+          10,
+          11,
+          12
+        ]
+      }
+    },
+    {
+      "control": "Clave_opcion_26_1",
+      "resultado": true,
+      "detalle": "a) la latitud y la longitud"
+    },
+    {
+      "control": "Clave_opcion_26_2",
+      "resultado": true,
+      "detalle": "d) sur y occidental"
+    },
+    {
+      "control": "Clave_opcion_26_3",
+      "resultado": true,
+      "detalle": "c) reconoció al Paraguay el Chaco entre los ríos Verde y Pilcomayo"
+    },
+    {
+      "control": "Clave_opcion_26_4",
+      "resultado": true,
+      "detalle": "b) necesita acuerdos de navegación y uso de puertos con sus vecinos"
+    },
+    {
+      "control": "120_min_27",
+      "resultado": true,
+      "detalle": [
+        [
+          0,
+          10
+        ],
+        [
+          10,
+          20
+        ],
+        [
+          20,
+          42
+        ],
+        [
+          42,
+          55
+        ],
+        [
+          55,
+          72
+        ],
+        [
+          72,
+          84
+        ],
+        [
+          84,
+          102
+        ],
+        [
+          102,
+          120
+        ]
+      ]
+    },
+    {
+      "control": "Correspondencia_items_27",
+      "resultado": true,
+      "detalle": {
+        "items": [
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7,
+          8,
+          9,
+          10,
+          11,
+          12
+        ],
+        "respuestas": [
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7,
+          8,
+          9,
+          10,
+          11,
+          12
+        ]
+      }
+    },
+    {
+      "control": "Clave_opcion_27_1",
+      "resultado": true,
+      "detalle": "c) Tres Kandú"
+    },
+    {
+      "control": "Clave_opcion_27_2",
+      "resultado": true,
+      "detalle": "b) formaciones antiguas desgastadas por la erosión"
+    },
+    {
+      "control": "Clave_opcion_27_3",
+      "resultado": true,
+      "detalle": "d) una gran llanura con algunas elevaciones aisladas en el norte"
+    },
+    {
+      "control": "Clave_opcion_27_4",
+      "resultado": true,
+      "detalle": "a) la cordillera de los Andes"
+    },
+    {
+      "control": "120_min_28",
+      "resultado": true,
+      "detalle": [
+        [
+          0,
+          10
+        ],
+        [
+          10,
+          25
+        ],
+        [
+          25,
+          50
+        ],
+        [
+          50,
+          60
+        ],
+        [
+          60,
+          70
+        ],
+        [
+          70,
+          90
+        ],
+        [
+          90,
+          100
+        ],
+        [
+          100,
+          110
+        ],
+        [
+          110,
+          120
+        ]
+      ]
+    },
+    {
+      "control": "Correspondencia_items_28",
+      "resultado": true,
+      "detalle": {
+        "items": [
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7,
+          8,
+          9,
+          10,
+          11,
+          12,
+          13,
+          14,
+          15
+        ],
+        "respuestas": [
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7,
+          8,
+          9,
+          10,
+          11,
+          12,
+          13,
+          14,
+          15
+        ]
+      }
+    },
+    {
+      "control": "Clave_opcion_28_1",
+      "resultado": true,
+      "detalle": "c) del Plata"
+    },
+    {
+      "control": "Clave_opcion_28_2",
+      "resultado": true,
+      "detalle": "a) Paraguay"
+    },
+    {
+      "control": "Clave_opcion_28_3",
+      "resultado": true,
+      "detalle": "d) Paraná"
+    },
+    {
+      "control": "Clave_opcion_28_4",
+      "resultado": true,
+      "detalle": "b) la cordillera de los Andes está cerca de la costa"
+    },
+    {
+      "control": "Clave_opcion_28_5",
+      "resultado": true,
+      "detalle": "c) una reserva de agua subterránea compartida por cuatro países"
+    },
+    {
+      "control": "Clave_opcion_28_6",
+      "resultado": true,
+      "detalle": "a) Amazonas"
+    },
+    {
+      "control": "120_min_29",
+      "resultado": true,
+      "detalle": [
+        [
+          0,
+          12
+        ],
+        [
+          12,
+          25
+        ],
+        [
+          25,
+          40
+        ],
+        [
+          40,
+          50
+        ],
+        [
+          50,
+          80
+        ],
+        [
+          80,
+          98
+        ],
+        [
+          98,
+          112
+        ],
+        [
+          112,
+          120
+        ]
+      ]
+    },
+    {
+      "control": "Correspondencia_items_29",
+      "resultado": true,
+      "detalle": {
+        "items": [
+          1,
+          2,
+          3,
+          4
+        ],
+        "respuestas": [
+          1,
+          2,
+          3,
+          4
+        ]
+      }
+    },
+    {
+      "control": "120_min_30",
+      "resultado": true,
+      "detalle": [
+        [
+          0,
+          10
+        ],
+        [
+          10,
+          80
+        ],
+        [
+          80,
+          95
+        ],
+        [
+          95,
+          120
+        ]
+      ]
+    },
+    {
+      "control": "Correspondencia_items_30",
+      "resultado": true,
+      "detalle": {
+        "items": [
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7,
+          8,
+          9,
+          10,
+          11,
+          12,
+          13,
+          14
+        ],
+        "respuestas": [
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7,
+          8,
+          9,
+          10,
+          11,
+          12,
+          13,
+          14
+        ]
+      }
+    },
+    {
+      "control": "Clave_opcion_30_1",
+      "resultado": true,
+      "detalle": "a) Bolivia, el Brasil y la Argentina"
+    },
+    {
+      "control": "Clave_opcion_30_2",
+      "resultado": true,
+      "detalle": "b) relativa"
+    },
+    {
+      "control": "Clave_opcion_30_3",
+      "resultado": true,
+      "detalle": "c) orografía"
+    },
+    {
+      "control": "Clave_opcion_30_4",
+      "resultado": true,
+      "detalle": "d) la Región Oriental"
+    },
+    {
+      "control": "Clave_opcion_30_5",
+      "resultado": true,
+      "detalle": "b) Pilcomayo"
+    },
+    {
+      "control": "Clave_opcion_30_6",
+      "resultado": true,
+      "detalle": "a) antes de una obra, para prever y reducir sus efectos"
+    },
+    {
+      "control": "Total_evaluacion_30",
+      "resultado": true,
+      "detalle": [
+        [
+          "1, 2, 7 y 8",
+          "G1",
+          "Límites, posición relativa y absoluta, trópico de Capricornio.",
+          4
+        ],
+        [
+          "3, 4 y 10",
+          "G2",
+          "Orografía y relieve del Paraguay; relieve y otros factores.",
+          3
+        ],
+        [
+          "5, 6 y 9",
+          "G2",
+          "Ríos del Paraguay; evaluación de impacto ambiental.",
+          3
+        ],
+        [
+          "11",
+          "G1, G2",
+          "Ubicación de ríos, Asunción, Itaipú y países limítrofes.",
+          6
+        ],
+        [
+          "12",
+          "G2",
+          "Grandes ríos de América y sus vertientes.",
+          3
+        ],
+        [
+          "13",
+          "G2",
+          "Beneficios e impactos de la Hidrovía.",
+          4
+        ],
+        [
+          "14",
+          "G1, G2",
+          "Posición, relieve y ríos en las actividades económicas.",
+          5
+        ]
+      ]
+    },
+    {
+      "control": "120_min_31",
+      "resultado": true,
+      "detalle": [
+        [
+          0,
+          20
+        ],
+        [
+          20,
+          32
+        ],
+        [
+          32,
+          50
+        ],
+        [
+          50,
+          64
+        ],
+        [
+          64,
+          84
+        ],
+        [
+          84,
+          100
+        ],
+        [
+          100,
+          120
+        ]
+      ]
+    },
+    {
+      "control": "Correspondencia_items_31",
+      "resultado": true,
+      "detalle": {
+        "items": [
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7,
+          8,
+          9,
+          10,
+          11,
+          12
+        ],
+        "respuestas": [
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7,
+          8,
+          9,
+          10,
+          11,
+          12
+        ]
+      }
+    },
+    {
+      "control": "Clave_opcion_31_1",
+      "resultado": true,
+      "detalle": "a) la temperatura"
+    },
+    {
+      "control": "Clave_opcion_31_2",
+      "resultado": true,
+      "detalle": "c) el tiempo atmosférico"
+    },
+    {
+      "control": "Clave_opcion_31_3",
+      "resultado": true,
+      "detalle": "d) subtropical"
+    },
+    {
+      "control": "Clave_opcion_31_4",
+      "resultado": true,
+      "detalle": "b) aumentan hacia el este"
+    },
+    {
+      "control": "120_min_32",
+      "resultado": true,
+      "detalle": [
+        [
+          0,
+          10
+        ],
+        [
+          10,
+          20
+        ],
+        [
+          20,
+          38
+        ],
+        [
+          38,
+          62
+        ],
+        [
+          62,
+          82
+        ],
+        [
+          82,
+          100
+        ],
+        [
+          100,
+          120
+        ]
+      ]
+    },
+    {
+      "control": "Correspondencia_items_32",
+      "resultado": true,
+      "detalle": {
+        "items": [
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7,
+          8,
+          9,
+          10,
+          11,
+          12
+        ],
+        "respuestas": [
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7,
+          8,
+          9,
+          10,
+          11,
+          12
+        ]
+      }
+    },
+    {
+      "control": "Clave_opcion_32_1",
+      "resultado": true,
+      "detalle": "c) un territorio con clima, relieve y vegetación parecidos"
+    },
+    {
+      "control": "Clave_opcion_32_2",
+      "resultado": true,
+      "detalle": "a) el Bosque Atlántico del Alto Paraná"
+    },
+    {
+      "control": "Clave_opcion_32_3",
+      "resultado": true,
+      "detalle": "b) bosques bajos y espinosos, cactus y pocas lluvias"
+    },
+    {
+      "control": "Clave_opcion_32_4",
+      "resultado": true,
+      "detalle": "d) la pérdida del hábitat de muchas especies"
+    },
+    {
+      "control": "120_min_33",
+      "resultado": true,
+      "detalle": [
+        [
+          0,
+          10
+        ],
+        [
+          10,
+          25
+        ],
+        [
+          25,
+          45
+        ],
+        [
+          45,
+          65
+        ],
+        [
+          65,
+          85
+        ],
+        [
+          85,
+          100
+        ],
+        [
+          100,
+          120
+        ]
+      ]
+    },
+    {
+      "control": "Correspondencia_items_33",
+      "resultado": true,
+      "detalle": {
+        "items": [
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7,
+          8,
+          9,
+          10,
+          11,
+          12
+        ],
+        "respuestas": [
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7,
+          8,
+          9,
+          10,
+          11,
+          12
+        ]
+      }
+    },
+    {
+      "control": "Clave_opcion_33_1",
+      "resultado": true,
+      "detalle": "d) el Ministerio del Ambiente y Desarrollo Sostenible"
+    },
+    {
+      "control": "Clave_opcion_33_2",
+      "resultado": true,
+      "detalle": "b) una evaluación de impacto ambiental antes de ciertas obras"
+    },
+    {
+      "control": "Clave_opcion_33_3",
+      "resultado": true,
+      "detalle": "a) un área silvestre protegida por ley"
+    },
+    {
+      "control": "Clave_opcion_33_4",
+      "resultado": true,
+      "detalle": "c) transformar bosques en tierras de cultivo o pastoreo"
+    },
+    {
+      "control": "120_min_34",
+      "resultado": true,
+      "detalle": [
+        [
+          0,
+          10
+        ],
+        [
+          10,
+          22
+        ],
+        [
+          22,
+          48
+        ],
+        [
+          48,
+          58
+        ],
+        [
+          58,
+          80
+        ],
+        [
+          80,
+          100
+        ],
+        [
+          100,
+          112
+        ],
+        [
+          112,
+          120
+        ]
+      ]
+    },
+    {
+      "control": "Correspondencia_items_34",
+      "resultado": true,
+      "detalle": {
+        "items": [
+          1,
+          2,
+          3,
+          4
+        ],
+        "respuestas": [
+          1,
+          2,
+          3,
+          4
+        ]
+      }
+    },
+    {
+      "control": "120_min_35",
+      "resultado": true,
+      "detalle": [
+        [
+          0,
+          10
+        ],
+        [
+          10,
+          80
+        ],
+        [
+          80,
+          95
+        ],
+        [
+          95,
+          120
+        ]
+      ]
+    },
+    {
+      "control": "Correspondencia_items_35",
+      "resultado": true,
+      "detalle": {
+        "items": [
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7,
+          8,
+          9,
+          10,
+          11,
+          12,
+          13,
+          14
+        ],
+        "respuestas": [
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7,
+          8,
+          9,
+          10,
+          11,
+          12,
+          13,
+          14
+        ]
+      }
+    },
+    {
+      "control": "Clave_opcion_35_1",
+      "resultado": true,
+      "detalle": "d) la altitud"
+    },
+    {
+      "control": "Clave_opcion_35_2",
+      "resultado": true,
+      "detalle": "a) ecuatorial"
+    },
+    {
+      "control": "Clave_opcion_35_3",
+      "resultado": true,
+      "detalle": "b) el este de la Región Oriental"
+    },
+    {
+      "control": "Clave_opcion_35_4",
+      "resultado": true,
+      "detalle": "c) Cerrado"
+    },
+    {
+      "control": "Clave_opcion_35_5",
+      "resultado": true,
+      "detalle": "a) exige una evaluación de impacto ambiental antes de ciertas obras"
+    },
+    {
+      "control": "Clave_opcion_35_6",
+      "resultado": true,
+      "detalle": "d) la erosión de los suelos"
+    },
+    {
+      "control": "Total_evaluacion_35",
+      "resultado": true,
+      "detalle": [
+        [
+          "1 a 3, 7 y 8",
+          "G3",
+          "Factores y tipos de clima; lluvias y vientos del Paraguay.",
+          5
+        ],
+        [
+          "4 a 6, 9 y 10",
+          "G4",
+          "Regiones naturales, normas, costos del uso de la tierra y gestión ambiental.",
+          5
+        ],
+        [
+          "11",
+          "G4",
+          "Ecosistemas del Paraguay en el mapa.",
+          3
+        ],
+        [
+          "12",
+          "G3, G4",
+          "Clima y ecosistemas de las dos regiones.",
+          4
+        ],
+        [
+          "13",
+          "G3, G4",
+          "Clima, ecosistema y uso de la tierra en una región.",
+          5
+        ],
+        [
+          "14",
+          "G4",
+          "Instituciones, normas y participación ciudadana.",
+          3
+        ]
+      ]
+    },
+    {
+      "control": "120_min_36",
+      "resultado": true,
+      "detalle": [
+        [
+          0,
+          20
+        ],
+        [
+          20,
+          30
+        ],
+        [
+          30,
+          100
+        ],
+        [
+          100,
+          115
+        ],
+        [
+          115,
+          120
+        ]
+      ]
+    },
+    {
+      "control": "Correspondencia_items_36",
+      "resultado": true,
+      "detalle": {
+        "items": [
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7,
+          8,
+          9,
+          10,
+          11,
+          12,
+          13,
+          14,
+          15,
+          16
+        ],
+        "respuestas": [
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7,
+          8,
+          9,
+          10,
+          11,
+          12,
+          13,
+          14,
+          15,
+          16
+        ]
+      }
+    },
+    {
+      "control": "Clave_opcion_36_1",
+      "resultado": true,
+      "detalle": "a) enfrentó a guaraníes de las reducciones con bandeirantes paulistas"
+    },
+    {
+      "control": "Clave_opcion_36_2",
+      "resultado": true,
+      "detalle": "c) pagaban un tributo directamente a la Corona"
+    },
+    {
+      "control": "Clave_opcion_36_3",
+      "resultado": true,
+      "detalle": "b) Inglaterra"
+    },
+    {
+      "control": "Clave_opcion_36_4",
+      "resultado": true,
+      "detalle": "d) está en el centro de América del Sur, sin litoral marítimo"
+    },
+    {
+      "control": "Clave_opcion_36_5",
+      "resultado": true,
+      "detalle": "a) es el punto más alto del Paraguay"
+    },
+    {
+      "control": "Clave_opcion_36_6",
+      "resultado": true,
+      "detalle": "c) Cáceres (Brasil) hasta Nueva Palmira (Uruguay)"
+    },
+    {
+      "control": "Clave_opcion_36_7",
+      "resultado": true,
+      "detalle": "d) cuanto más alto, más baja la temperatura"
+    },
+    {
+      "control": "Clave_opcion_36_8",
+      "resultado": true,
+      "detalle": "b) es la autoridad ambiental nacional"
+    },
+    {
+      "control": "Total_evaluacion_36",
+      "resultado": true,
+      "detalle": [
+        [
+          "1, 2 y 9",
+          "H5",
+          "Mbororé, reducciones y Ordenanzas de Alfaro.",
+          3
+        ],
+        [
+          "3 y 10",
+          "H6",
+          "Otras colonizaciones y trabajo esclavizado en las plantaciones.",
+          2
+        ],
+        [
+          "4",
+          "G1",
+          "Posición relativa del Paraguay.",
+          1
+        ],
+        [
+          "5, 6 y 11",
+          "G2",
+          "Relieve, Hidrovía y Cuenca del Plata.",
+          3
+        ],
+        [
+          "7 y 12",
+          "G3",
+          "Factores del clima y lluvias en el Paraguay.",
+          2
+        ],
+        [
+          "8",
+          "G4",
+          "Instituciones ambientales.",
+          1
+        ],
+        [
+          "13",
+          "H5, H6",
+          "Cronología del siglo XVII paraguayo y americano.",
+          3
+        ],
+        [
+          "14",
+          "G2, G3",
+          "Río Paraná y clima del Chaco con sus actividades.",
+          4
+        ],
+        [
+          "15",
+          "H5, G1, G2",
+          "Mediterraneidad: de la división de 1617 a la Hidrovía.",
+          6
+        ],
+        [
+          "16",
+          "G3, G4",
+          "Región natural, clima y gestión ambiental.",
+          3
+        ]
+      ]
+    },
+    {
+      "control": "Planes74",
+      "resultado": true,
+      "detalle": 74
+    },
+    {
+      "control": "Cantidad_par_MATRIZ_CURRICULAR_36_ENCUENTROS_A4",
+      "resultado": true,
+      "detalle": [
+        2,
+        2
+      ]
+    },
+    {
+      "control": "Cantidad_par_PLANES_ANUAL_A4",
+      "resultado": true,
+      "detalle": [
+        74,
+        74
+      ]
+    },
+    {
+      "control": "Cantidad_par_PLAN_ANUAL_oficio",
+      "resultado": true,
+      "detalle": [
+        6,
+        6
+      ]
+    },
+    {
+      "control": "Cantidad_par_SOLUCIONARIO_ANUAL_A4",
+      "resultado": true,
+      "detalle": [
+        40,
+        40
+      ]
+    },
+    {
+      "control": "Cantidad_par_TOMO_ANUAL_oficio",
+      "resultado": true,
+      "detalle": [
+        155,
+        155
+      ]
+    },
+    {
+      "control": "Cantidad_par_PLANES_BLOQUE_III_A4",
+      "resultado": true,
+      "detalle": [
+        20,
+        20
+      ]
+    },
+    {
+      "control": "Cantidad_par_SOLUCIONARIO_BLOQUE_III_A4",
+      "resultado": true,
+      "detalle": [
+        10,
+        10
+      ]
+    },
+    {
+      "control": "Cantidad_par_TOMO_BLOQUE_III_oficio",
+      "resultado": true,
+      "detalle": [
+        40,
+        40
+      ]
+    },
+    {
+      "control": "Cantidad_par_PLANES_BLOQUE_IV_A4",
+      "resultado": true,
+      "detalle": [
+        20,
+        20
+      ]
+    },
+    {
+      "control": "Cantidad_par_SOLUCIONARIO_BLOQUE_IV_A4",
+      "resultado": true,
+      "detalle": [
+        11,
+        11
+      ]
+    },
+    {
+      "control": "Cantidad_par_TOMO_BLOQUE_IV_oficio",
+      "resultado": true,
+      "detalle": [
+        43,
+        43
+      ]
+    }
+  ],
+  "correctos": 242,
+  "fallos": [],
+  "claves": {
+    "c": 34,
+    "a": 35,
+    "b": 38,
+    "d": 33
+  },
+  "evaluaciones": {
+    "5": {
+      "total": 23,
+      "matriz": [
+        [
+          "1 a 6",
+          "H1",
+          "Prehistoria, formaciones, pueblos, tekoha, roza y familias lingüísticas (Clases 2 y 3).",
+          6
+        ],
+        [
+          "7 a 10",
+          "H1",
+          "Fuentes de la prehistoria, papel de las mujeres, autoridad y pueblos actuales.",
+          4
+        ],
+        [
+          "11",
+          "H1",
+          "Primeros pobladores de las regiones Oriental y Occidental: ubicación de regiones y ríos.",
+          4
+        ],
+        [
+          "12 y 13",
+          "H1",
+          "Legado e importancia de la lengua guaraní a partir de una fuente (Continuación A).",
+          4
+        ],
+        [
+          "14",
+          "H1",
+          "Organización guaraní basada en el parentesco y la reciprocidad; papel de las mujeres.",
+          5
+        ]
+      ],
+      "capacidades": null,
+      "claves": [
+        [
+          "1",
+          "b) los restos materiales del pasado",
+          ""
+        ],
+        [
+          "2",
+          "c) practicaban la agricultura y vivían en aldeas",
+          ""
+        ],
+        [
+          "3",
+          "b) cazadores-recolectores de los bosques de la Región Oriental",
+          ""
+        ],
+        [
+          "4",
+          "a) el territorio donde se vive según el modo de ser guaraní",
+          ""
+        ],
+        [
+          "5",
+          "d) cortar y quemar un sector del bosque y cultivarlo algunos años",
+          ""
+        ],
+        [
+          "6",
+          "c) guaicurú",
+          ""
+        ],
+        [
+          "7",
+          "Falso: como no hay escritura, se conoce sobre todo por la arqueología.",
+          "Criterio anunciado en la Parte B: si es verdadera, 1 punto por marcarla bien; si es falsa, 0,5 por marcarla y 0,5 por la justificación."
+        ],
+        [
+          "8",
+          "Verdadero.",
+          ""
+        ],
+        [
+          "9",
+          "Falso: su autoridad se basaba en el prestigio, la generosidad y la palabra.",
+          ""
+        ],
+        [
+          "10",
+          "Verdadero.",
+          ""
+        ],
+        [
+          "11",
+          "Región Oriental al este del río Paraguay; Región Occidental (Chaco) al oeste; río Paraguay repasado y nombrado; X sobre el Pilcomayo, en el límite sudoeste con la Argentina.",
+          "Criterio anunciado en la Parte C: 1 por cada elemento bien ubicado y nombrado. Parcial: 0,5 si el elemento está bien ubicado pero sin nombre o mal nombrado. Se corrige sobre el mapa impreso en la prueba; ver la clave gráfica."
+        ],
+        [
+          "12",
+          "Todos empiezan con «y», que significa «agua». Muestran que el agua (ríos, lagos, esteros) era un elemento importante del ambiente guaraní y servía para orientarse y nombrar los lugares.",
+          "Criterio anunciado en la Parte D: 2 por cada respuesta; 1 por la idea correcta y 1 por usar un dato de la fuente."
+        ],
+        [
+          "13",
+          "Porque son palabras guaraníes que se siguen usando hoy para nombrar ciudades, lagos y ríos del Paraguay: la lengua guaraní sigue viva en el territorio.",
+          ""
+        ],
+        [
+          "14",
+          "Ejemplo: «La aldea guaraní estaba formada por varias casas comunales; en cada una vivía una familia extensa unida por el parentesco. Los bienes circulaban por la reciprocidad o jopói: quien cazaba o cosechaba mucho compartía, y eso le daba prestigio. El mburuvicha no mandaba por la fuerza, sino por su prestigio y generosidad. Las mujeres cultivaban las chacras, hacían la cerámica y enseñaban la lengua a los hijos.»",
+          "Criterio anunciado en la consigna (1 punto cada uno): el parentesco y la casa comunal, la reciprocidad (jopói), la autoridad del mburuvicha, el papel de las mujeres y un texto ordenado."
+        ]
+      ]
+    },
+    "9": {
+      "total": 22,
+      "matriz": [
+        [
+          "1 a 3",
+          "H2",
+          "Antigüedad y teorías acerca del origen del hombre americano.",
+          3
+        ],
+        [
+          "4 a 6",
+          "H2",
+          "Organización y cronología de mayas, mexicas e incas.",
+          3
+        ],
+        [
+          "7 a 10",
+          "H2",
+          "Poblamiento, chinampas, cronología y quipus.",
+          4
+        ],
+        [
+          "11",
+          "H2",
+          "Espacios territoriales ocupados por aztecas, mayas e incas.",
+          3
+        ],
+        [
+          "12",
+          "H2",
+          "Aportes culturales y organización de mayas e incas.",
+          4
+        ],
+        [
+          "13",
+          "H2",
+          "Poblamiento de América con pruebas actuales y teorías clásicas.",
+          5
+        ]
+      ],
+      "capacidades": null,
+      "claves": [
+        [
+          "1",
+          "b) desde el nordeste de Asia",
+          ""
+        ],
+        [
+          "2",
+          "a) durante la glaciación bajó el nivel del mar",
+          ""
+        ],
+        [
+          "3",
+          "c) llegadas desde Asia y también desde Melanesia y Polinesia",
+          ""
+        ],
+        [
+          "4",
+          "b) vivían en ciudades-estado y tenían escritura propia",
+          ""
+        ],
+        [
+          "5",
+          "d) una comunidad de familias emparentadas en los Andes",
+          ""
+        ],
+        [
+          "6",
+          "c) 1521",
+          ""
+        ],
+        [
+          "7",
+          "Falso: se acepta que hubo pobladores anteriores, como los de Monte Verde (unos 14.500 años).",
+          "Criterio anunciado en la Parte B: si es verdadera, 1 punto por marcarla bien; si es falsa, 0,5 por marcarla y 0,5 por la justificación."
+        ],
+        [
+          "8",
+          "Verdadero.",
+          ""
+        ],
+        [
+          "9",
+          "Falso: el clásico maya terminó hacia el 900 y el imperio inca comenzó hacia 1438.",
+          ""
+        ],
+        [
+          "10",
+          "Verdadero.",
+          ""
+        ],
+        [
+          "11",
+          "1: Tenochtitlan, mexicas (aztecas). 2: Tikal, mayas. 3: Cuzco, incas.",
+          "Criterio anunciado en la Parte C: 1 por fila; 0,5 por el nombre de la ciudad y 0,5 por la civilización. Ver la clave gráfica."
+        ],
+        [
+          "12",
+          "Gobierno: mayas, ciudades-estado independientes con reyes sagrados; incas, un imperio con un solo soberano, el Sapa Inca. Aporte: mayas, escritura, el cero o el calendario; incas, caminos, terrazas de cultivo o quipus.",
+          "Criterio anunciado en la Parte D: 1 por cada casilla correcta. Se aceptan otros aportes estudiados."
+        ],
+        [
+          "13",
+          "Ejemplo: «Los primeros americanos vinieron del nordeste de Asia. Durante la última glaciación el mar bajó y apareció Beringia, una franja de tierra entre Siberia y Alaska, por donde pasaron. Después avanzaron hacia el sur: en Monte Verde, en Chile, hay un campamento de unos 14.500 años. Esto muestra que Ameghino se equivocaba al pensar que la humanidad se originó en América.»",
+          "Criterio anunciado en la consigna (1 punto cada uno): el origen en el nordeste de Asia, el paso por Beringia durante la glaciación, una prueba arqueológica con su fecha aproximada, una diferencia con alguna teoría clásica y un texto ordenado."
+        ]
+      ]
+    },
+    "17": {
+      "total": 25,
+      "matriz": [
+        [
+          "1 a 3",
+          "H4",
+          "Tordesillas, avances técnicos y gobierno absolutista.",
+          3
+        ],
+        [
+          "4 a 6",
+          "H3",
+          "Alejo García, centralidad de Asunción y Real Provisión de 1537.",
+          3
+        ],
+        [
+          "7, 8 y 10",
+          "H3",
+          "Mestizaje e instituciones coloniales.",
+          3
+        ],
+        [
+          "9",
+          "H4",
+          "Llegada de los europeos a América.",
+          1
+        ],
+        [
+          "11",
+          "H3",
+          "Lugares de la conquista del Río de la Plata.",
+          3
+        ],
+        [
+          "12",
+          "H3",
+          "Tipos de encomienda.",
+          4
+        ],
+        [
+          "13",
+          "H3",
+          "Asunción como centro de la conquista.",
+          5
+        ],
+        [
+          "14",
+          "H4",
+          "Causas y consecuencias de la llegada de los europeos.",
+          3
+        ]
+      ],
+      "capacidades": null,
+      "claves": [
+        [
+          "1",
+          "c) fijó una línea que dividía las zonas de Castilla y de Portugal",
+          ""
+        ],
+        [
+          "2",
+          "a) conocer la dirección del norte aunque no vieran la costa",
+          ""
+        ],
+        [
+          "3",
+          "d) el rey",
+          ""
+        ],
+        [
+          "4",
+          "b) Alejo García",
+          ""
+        ],
+        [
+          "5",
+          "d) despoblar Buenos Aires y concentrar a los españoles en Asunción",
+          ""
+        ],
+        [
+          "6",
+          "a) cuando faltaba la autoridad nombrada por el rey",
+          ""
+        ],
+        [
+          "7",
+          "Verdadero.",
+          "Criterio anunciado en la Parte B: si es verdadera, 1 punto por marcarla bien; si es falsa, 0,5 por marcarla y 0,5 por la justificación."
+        ],
+        [
+          "8",
+          "Falso: el gobierno de la ciudad era tarea del Cabildo; la encomienda solo asignaba trabajo indígena a un español.",
+          ""
+        ],
+        [
+          "9",
+          "Falso: se hizo por cuenta de la Corona de Castilla.",
+          ""
+        ],
+        [
+          "10",
+          "Verdadero.",
+          ""
+        ],
+        [
+          "11",
+          "1: Buenos Aires, 1536. 2: Asunción, 1537. 3: Sancti Spiritus, 1527.",
+          "Criterio anunciado en la Parte C: 1 por fila; 0,5 por el nombre del lugar y 0,5 por el año. Ver la clave gráfica."
+        ],
+        [
+          "12",
+          "Originaria: vivían en la casa o la chacra del encomendero; trabajaban de manera permanente para él. Mitaya: vivían en sus propios pueblos; trabajaban por turnos (la mita), una parte del año.",
+          "Criterio anunciado en la Parte D: 1 por cada casilla correcta."
+        ],
+        [
+          "13",
+          "Ejemplo: «Asunción estaba sobre el río Paraguay, más cerca del camino a las tierras de la plata que Buenos Aires. Tenía alimentos gracias a la agricultura de los carios. Los carios se aliaron con los españoles porque, al entregarles mujeres, los volvían cuñados, con obligación de ayudarse. Por eso, en 1541 Irala despobló Buenos Aires y desde Asunción salieron expediciones que fundaron otras ciudades.»",
+          "Criterio anunciado en la consigna (1 punto cada uno): la ubicación de Asunción, los alimentos, la alianza con los carios explicada desde el parentesco, una consecuencia para la región y un texto ordenado."
+        ],
+        [
+          "14",
+          "Causas: buscar nuevas rutas hacia las especias de Asia; el comercio con Oriente controlado por otros; el afán de riquezas o de expandir la fe; los avances técnicos. Consecuencias: caída de la población indígena por epidemias y guerras; conquista y colonización; intercambio de plantas y animales.",
+          "Criterio anunciado en la Parte F: 1 por cada elemento. Se aceptan otras causas y consecuencias estudiadas en la Clase 6."
+        ]
+      ]
+    },
+    "18": {
+      "total": 28,
+      "matriz": [
+        [
+          "1, 2 y 9",
+          "H1",
+          "Prehistoria del Paraguay y organización guaraní.",
+          3
+        ],
+        [
+          "3, 4 y 10",
+          "H2",
+          "Poblamiento de América y civilizaciones americanas.",
+          3
+        ],
+        [
+          "5, 6 y 11",
+          "H4",
+          "Avances técnicos, gobierno colonial y reparto de Tordesillas.",
+          3
+        ],
+        [
+          "7, 8 y 12",
+          "H3",
+          "Expediciones, instituciones y resistencia indígena.",
+          3
+        ],
+        [
+          "13",
+          "H2, H3, H4",
+          "Cronología de las tres unidades.",
+          3
+        ],
+        [
+          "14",
+          "H1, H3",
+          "Los guaraníes antes y después de la conquista.",
+          4
+        ],
+        [
+          "15",
+          "H1, H3",
+          "Cambios en la vida guaraní en el siglo XVI.",
+          6
+        ],
+        [
+          "16",
+          "H4",
+          "Llegada de los europeos y sus consecuencias en América.",
+          3
+        ]
+      ],
+      "capacidades": null,
+      "claves": [
+        [
+          "1",
+          "b) la arqueología y los restos materiales",
+          ""
+        ],
+        [
+          "2",
+          "d) el intercambio recíproco de dones",
+          ""
+        ],
+        [
+          "3",
+          "a) quedó al descubierto y unió Asia con América",
+          ""
+        ],
+        [
+          "4",
+          "c) quipus, cuerdas anudadas",
+          ""
+        ],
+        [
+          "5",
+          "a) sus velas triangulares o latinas",
+          ""
+        ],
+        [
+          "6",
+          "b) preparaba las leyes para América y proponía nombramientos al rey",
+          ""
+        ],
+        [
+          "7",
+          "d) la frontera del Imperio inca",
+          ""
+        ],
+        [
+          "8",
+          "c) Asunción",
+          ""
+        ],
+        [
+          "9",
+          "Verdadero.",
+          "Criterio anunciado en la Parte B: si es verdadera, 1 punto por marcarla bien; si es falsa, 0,5 por marcarla y 0,5 por la justificación."
+        ],
+        [
+          "10",
+          "Falso: fue fundada por los mexicas (aztecas), hacia 1325.",
+          ""
+        ],
+        [
+          "11",
+          "Falso: a Portugal le correspondían las tierras al este de la línea; a Castilla, las del oeste.",
+          ""
+        ],
+        [
+          "12",
+          "Verdadero.",
+          ""
+        ],
+        [
+          "13",
+          "Orden: 1 Paso por Beringia; 2 Fundación de Tenochtitlan (hacia 1325); 3 Llegada de Colón (1492); 4 Tratado de Tordesillas (1494); 5 Fundación de Asunción (1537); 6 Reparto de encomiendas de Irala (1556).",
+          "Criterio anunciado en la Parte C: 0,5 por cada hecho bien ubicado. En el paréntesis de cada hecho: Asunción 5; Beringia 1; Tordesillas 4; Reparto 6; Colón 3; Tenochtitlan 2."
+        ],
+        [
+          "14",
+          "Trabajo hacia 1500: agricultura de roza en la aldea, con reciprocidad (los hombres abrían la chacra; las mujeres cultivaban y hacían la cerámica). Trabajo a mediados del XVI: servicio a los españoles, rancheadas y, desde 1556, encomienda. Autoridad hacia 1500: el mburuvicha, por su prestigio y generosidad. Autoridad a mediados del XVI: las autoridades españolas (gobernador, encomenderos); los caciques como intermediarios.",
+          "Criterio anunciado en la Parte D: 1 por cada casilla correcta. Se aceptan expresiones equivalentes."
+        ],
+        [
+          "15",
+          "Ejemplo: «Hacia 1500, los guaraníes vivían en aldeas con casas comunales y cultivaban con la técnica de roza. El parentesco y la reciprocidad unían a las familias. Cuando llegaron los españoles, los carios se aliaron con ellos y les entregaron mujeres para volverlos cuñados. De esas uniones nacieron los mestizos. Pero los españoles exigieron cada vez más trabajo y la alianza se volvió dominio. Muchos guaraníes resistieron, como en la rebelión de Oberá en 1579.»",
+          "Criterio anunciado en la consigna (1 punto cada uno): la organización de la aldea, la reciprocidad o el parentesco, la alianza con los españoles, el mestizaje, una forma de resistencia y un texto ordenado."
+        ],
+        [
+          "16",
+          "Diferencia: en México y en el Perú los españoles conquistaron grandes imperios con ciudades y metales; en el Río de la Plata no había un gran imperio, los españoles eran pocos y dependían de la alianza con los guaraníes. Consecuencias: caída de la población por epidemias y guerras; trabajo forzado; mestizaje; nuevas ciudades y autoridades coloniales.",
+          "Criterio anunciado en la Parte F: 1 por cada elemento. Se aceptan otras consecuencias estudiadas."
+        ]
+      ]
+    },
+    "25": {
+      "total": 25,
+      "matriz": [
+        [
+          "1 a 3",
+          "H5",
+          "División de 1617, moneda de la tierra y malocas.",
+          3
+        ],
+        [
+          "4 a 6",
+          "H6",
+          "Mita minera, colonización holandesa y quilombos.",
+          3
+        ],
+        [
+          "7 y 8",
+          "H5",
+          "Ordenanzas de Alfaro y pueblos franciscanos.",
+          2
+        ],
+        [
+          "9 y 10",
+          "H6",
+          "Plantación y comercio triangular.",
+          2
+        ],
+        [
+          "11",
+          "H5",
+          "Malocas, pérdida del Guairá y Mbororé en el mapa.",
+          3
+        ],
+        [
+          "12",
+          "H5",
+          "Aportes de franciscanos y jesuitas.",
+          4
+        ],
+        [
+          "13",
+          "H5",
+          "División de la provincia; secuelas de la mediterraneidad.",
+          5
+        ],
+        [
+          "14",
+          "H6",
+          "Monopolio, contrabando y vínculo del Paraguay con Potosí.",
+          3
+        ]
+      ],
+      "capacidades": null,
+      "claves": [
+        [
+          "1",
+          "b) la enorme extensión del territorio y el crecimiento de Buenos Aires",
+          ""
+        ],
+        [
+          "2",
+          "c) consistía en pagar con productos como yerba, tabaco o lienzo",
+          ""
+        ],
+        [
+          "3",
+          "a) capturar indígenas para esclavizarlos",
+          ""
+        ],
+        [
+          "4",
+          "d) obligaba a indígenas andinos a trabajar por turnos en las minas",
+          ""
+        ],
+        [
+          "5",
+          "b) Holanda",
+          ""
+        ],
+        [
+          "6",
+          "b) una comunidad de africanos que habían huido de la esclavitud",
+          ""
+        ],
+        [
+          "7",
+          "Verdadero.",
+          "Criterio anunciado en la Parte B: si es verdadera, 1 punto por marcarla bien; si es falsa, 0,5 por marcarla y 0,5 por la justificación."
+        ],
+        [
+          "8",
+          "Verdadero.",
+          ""
+        ],
+        [
+          "9",
+          "Verdadero.",
+          ""
+        ],
+        [
+          "10",
+          "Falso: unía Europa, África y América.",
+          ""
+        ],
+        [
+          "11",
+          "1: São Paulo, de donde partían las malocas bandeirantes. 2: Ciudad Real del Guairá, abandonada en 1632 tras la destrucción de las reducciones del Guairá. 3: Mbororé, donde los guaraníes derrotaron a los bandeirantes en 1641.",
+          "Criterio anunciado en la Parte C: 1 por fila; 0,5 por el nombre del lugar y 0,5 por lo que ocurrió allí. Para el lugar 2 se acepta «el Guairá» o «las reducciones del Guairá». Ver la clave gráfica."
+        ],
+        [
+          "12",
+          "Encomienda: en los pueblos franciscanos los indígenas seguían encomendados; en las reducciones no estaban encomendados a particulares y pagaban tributo a la Corona. Aporte: franciscanos, el catecismo en guaraní de Bolaños o pueblos como Yaguarón e Itá; jesuitas, las obras de Montoya sobre el guaraní, la música, los talleres o el arte.",
+          "Criterio anunciado en la Parte D: 1 por cada casilla correcta. Se aceptan otros aportes estudiados."
+        ],
+        [
+          "13",
+          "Ejemplo: «En 1617 el rey dividió la provincia porque era enorme y difícil de gobernar y porque Buenos Aires había crecido por su puerto. Asunción ya estaba lejos del mar: eso es la mediterraneidad. Pero desde la división el puerto quedó en otra gobernación y el Paraguay pasó a depender de Buenos Aires. Sus productos, como la yerba, pagaban impuestos en Santa Fe y Buenos Aires y llegaban caros.»",
+          "Criterio anunciado en la consigna (1 punto cada uno): una causa de la división, otra causa, la diferencia entre mediterraneidad y dependencia, una consecuencia económica y un texto ordenado."
+        ],
+        [
+          "14",
+          "Monopolio: las colonias solo podían comerciar con España. Contrabando: Buenos Aires estaba más cerca de Potosí y de Europa y los productos legales eran caros y escasos. Producto: la yerba mate.",
+          "Criterio anunciado en la Parte F: 1 por cada elemento."
+        ]
+      ]
+    },
+    "30": {
+      "total": 28,
+      "matriz": [
+        [
+          "1, 2, 7 y 8",
+          "G1",
+          "Límites, posición relativa y absoluta, trópico de Capricornio.",
+          4
+        ],
+        [
+          "3, 4 y 10",
+          "G2",
+          "Orografía y relieve del Paraguay; relieve y otros factores.",
+          3
+        ],
+        [
+          "5, 6 y 9",
+          "G2",
+          "Ríos del Paraguay; evaluación de impacto ambiental.",
+          3
+        ],
+        [
+          "11",
+          "G1, G2",
+          "Ubicación de ríos, Asunción, Itaipú y países limítrofes.",
+          6
+        ],
+        [
+          "12",
+          "G2",
+          "Grandes ríos de América y sus vertientes.",
+          3
+        ],
+        [
+          "13",
+          "G2",
+          "Beneficios e impactos de la Hidrovía.",
+          4
+        ],
+        [
+          "14",
+          "G1, G2",
+          "Posición, relieve y ríos en las actividades económicas.",
+          5
+        ]
+      ],
+      "capacidades": null,
+      "claves": [
+        [
+          "1",
+          "a) Bolivia, el Brasil y la Argentina",
+          ""
+        ],
+        [
+          "2",
+          "b) relativa",
+          ""
+        ],
+        [
+          "3",
+          "c) orografía",
+          ""
+        ],
+        [
+          "4",
+          "d) la Región Oriental",
+          ""
+        ],
+        [
+          "5",
+          "b) Pilcomayo",
+          ""
+        ],
+        [
+          "6",
+          "a) antes de una obra, para prever y reducir sus efectos",
+          ""
+        ],
+        [
+          "7",
+          "Verdadero.",
+          "Criterio anunciado en la Parte B: si es verdadera, 1 punto por marcarla bien; si es falsa, 0,5 por marcarla y 0,5 por la justificación."
+        ],
+        [
+          "8",
+          "Falso: se expresa con la latitud y la longitud.",
+          ""
+        ],
+        [
+          "9",
+          "Verdadero.",
+          ""
+        ],
+        [
+          "10",
+          "Falso: también influyen el suelo, el clima, la tecnología y los mercados.",
+          ""
+        ],
+        [
+          "11",
+          "Río Paraguay, río Paraná, río Pilcomayo, Asunción e Itaipú bien ubicados (1 punto cada uno); los tres países limítrofes en su lugar (1 punto en total).",
+          "Criterio anunciado en la Parte C: 1 por cada elemento bien ubicado y nombrado, y 1 por los tres países. Se corrige sobre el mapa mudo impreso en la prueba. Parcial: 0,5 si el elemento está bien ubicado pero sin nombre o mal nombrado; países, 0,5 si ubica dos de los tres. Tolerancias como en el «Ubicate» de la Clase 18."
+        ],
+        [
+          "12",
+          "1: Amazonas, vertiente del Atlántico. 2: Mississippi, vertiente del Atlántico (golfo de México). 3: Paraná, vertiente del Atlántico (por el Río de la Plata).",
+          "Criterio anunciado en la Parte D: 1 por fila; 0,5 por el nombre del río y 0,5 por la vertiente. La vertiente correcta suma 0,5 aunque el nombre falte."
+        ],
+        [
+          "13",
+          "Ejemplo: económico, exportar a menor costo; social, empleo en los puertos o afectación de la pesca; ecológico, cambios en los humedales o en la calidad del agua; medida, evaluación de impacto ambiental y control del agua.",
+          "Criterio anunciado en la Parte E: 1 por cada casilla con un ejemplo correcto."
+        ],
+        [
+          "14",
+          "Ejemplo completo: «El Paraguay es un país mediterráneo: para exportar depende de los ríos y de puertos de otros países, por eso la Hidrovía es tan importante (Clase 16). En la Región Oriental el relieve es bajo y ondulado, y junto con suelos fértiles y lluvias suficientes permite la agricultura mecanizada; en el Chaco, la llanura y el clima más seco favorecen la ganadería (Clase 17). Los ríos dan transporte, agua y energía: Itaipú y Yacyretá producen electricidad (Clase 18). Por eso posición, relieve y ríos influyen juntos en la economía.» Puntaje parcial: cada criterio vale 1 o 0; el del relieve exige nombrar al menos otro factor (suelo, clima, tecnología o mercados), como dice la consigna.",
+          "Criterio anunciado en la consigna (1 punto cada uno): la posición, el relieve junto con otro factor, los ríos, un dato concreto de cada clase de la unidad y un texto ordenado."
+        ]
+      ]
+    },
+    "35": {
+      "total": 25,
+      "matriz": [
+        [
+          "1 a 3, 7 y 8",
+          "G3",
+          "Factores y tipos de clima; lluvias y vientos del Paraguay.",
+          5
+        ],
+        [
+          "4 a 6, 9 y 10",
+          "G4",
+          "Regiones naturales, normas, costos del uso de la tierra y gestión ambiental.",
+          5
+        ],
+        [
+          "11",
+          "G4",
+          "Ecosistemas del Paraguay en el mapa.",
+          3
+        ],
+        [
+          "12",
+          "G3, G4",
+          "Clima y ecosistemas de las dos regiones.",
+          4
+        ],
+        [
+          "13",
+          "G3, G4",
+          "Clima, ecosistema y uso de la tierra en una región.",
+          5
+        ],
+        [
+          "14",
+          "G4",
+          "Instituciones, normas y participación ciudadana.",
+          3
+        ]
+      ],
+      "capacidades": null,
+      "claves": [
+        [
+          "1",
+          "d) la altitud",
+          ""
+        ],
+        [
+          "2",
+          "a) ecuatorial",
+          ""
+        ],
+        [
+          "3",
+          "b) el este de la Región Oriental",
+          ""
+        ],
+        [
+          "4",
+          "c) Cerrado",
+          ""
+        ],
+        [
+          "5",
+          "a) exige una evaluación de impacto ambiental antes de ciertas obras",
+          ""
+        ],
+        [
+          "6",
+          "d) la erosión de los suelos",
+          ""
+        ],
+        [
+          "7",
+          "Falso: el viento sur trae aire frío y seco; el norte, cálido y húmedo.",
+          "Criterio anunciado en la Parte B: si es verdadera, 1 punto por marcarla bien; si es falsa, 0,5 por marcarla y 0,5 por la justificación."
+        ],
+        [
+          "8",
+          "Verdadero.",
+          ""
+        ],
+        [
+          "9",
+          "Verdadero.",
+          ""
+        ],
+        [
+          "10",
+          "Falso: también participan las empresas, las organizaciones, las comunidades y cada persona.",
+          ""
+        ],
+        [
+          "11",
+          "1: Chaco Seco (bosques bajos y espinosos, pocas lluvias). 2: Bosque Atlántico del Alto Paraná (selva alta y muy diversa, muy deforestada). 3: Humedales del Ñeembucú (esteros y terrenos bajos con agua).",
+          "Criterio anunciado en la Parte C: 1 por fila; 0,5 por el ecosistema y 0,5 por una característica. Ver la clave gráfica."
+        ],
+        [
+          "12",
+          "Clima: Chaco, más seco y caluroso; Región Oriental, más húmeda. Ecosistema: Chaco, Chaco Seco, Chaco Húmedo o Pantanal; Región Oriental, Bosque Atlántico del Alto Paraná, Cerrado o humedales del Ñeembucú.",
+          "Criterio anunciado en la Parte D: 1 por cada casilla correcta."
+        ],
+        [
+          "13",
+          "Ejemplo: «En el este de la Región Oriental llueve mucho, unos 1.800 mm al año, y había una selva alta: el Bosque Atlántico del Alto Paraná. Hoy esa zona se usa para la agricultura, sobre todo de soja. El desmonte hizo perder gran parte del bosque y el hábitat de muchas especies, y los suelos se erosionan.»",
+          "Criterio anunciado en la consigna (1 punto cada uno): una característica del clima, el ecosistema de la región, una actividad económica, un costo socioambiental y un texto ordenado."
+        ],
+        [
+          "14",
+          "Por ejemplo: MADES; Ley 294/1993, que exige evaluación de impacto ambiental (o la Ley 2524/2004, que prohíbe desmontar bosques en la Región Oriental); denunciar daños ambientales, no quemar basura, cuidar los arroyos.",
+          "Criterio anunciado en la Parte F: 1 por cada elemento."
+        ]
+      ]
+    },
+    "36": {
+      "total": 28,
+      "matriz": [
+        [
+          "1, 2 y 9",
+          "H5",
+          "Mbororé, reducciones y Ordenanzas de Alfaro.",
+          3
+        ],
+        [
+          "3 y 10",
+          "H6",
+          "Otras colonizaciones y trabajo esclavizado en las plantaciones.",
+          2
+        ],
+        [
+          "4",
+          "G1",
+          "Posición relativa del Paraguay.",
+          1
+        ],
+        [
+          "5, 6 y 11",
+          "G2",
+          "Relieve, Hidrovía y Cuenca del Plata.",
+          3
+        ],
+        [
+          "7 y 12",
+          "G3",
+          "Factores del clima y lluvias en el Paraguay.",
+          2
+        ],
+        [
+          "8",
+          "G4",
+          "Instituciones ambientales.",
+          1
+        ],
+        [
+          "13",
+          "H5, H6",
+          "Cronología del siglo XVII paraguayo y americano.",
+          3
+        ],
+        [
+          "14",
+          "G2, G3",
+          "Río Paraná y clima del Chaco con sus actividades.",
+          4
+        ],
+        [
+          "15",
+          "H5, G1, G2",
+          "Mediterraneidad: de la división de 1617 a la Hidrovía.",
+          6
+        ],
+        [
+          "16",
+          "G3, G4",
+          "Región natural, clima y gestión ambiental.",
+          3
+        ]
+      ],
+      "capacidades": null,
+      "claves": [
+        [
+          "1",
+          "a) enfrentó a guaraníes de las reducciones con bandeirantes paulistas",
+          ""
+        ],
+        [
+          "2",
+          "c) pagaban un tributo directamente a la Corona",
+          ""
+        ],
+        [
+          "3",
+          "b) Inglaterra",
+          ""
+        ],
+        [
+          "4",
+          "d) está en el centro de América del Sur, sin litoral marítimo",
+          ""
+        ],
+        [
+          "5",
+          "a) es el punto más alto del Paraguay",
+          ""
+        ],
+        [
+          "6",
+          "c) Cáceres (Brasil) hasta Nueva Palmira (Uruguay)",
+          ""
+        ],
+        [
+          "7",
+          "d) cuanto más alto, más baja la temperatura",
+          ""
+        ],
+        [
+          "8",
+          "b) es la autoridad ambiental nacional",
+          ""
+        ],
+        [
+          "9",
+          "Falso: se cumplieron poco por la resistencia de los encomenderos y la lejanía de las autoridades.",
+          "Criterio anunciado en la Parte B: si es verdadera, 1 punto por marcarla bien; si es falsa, 0,5 por marcarla y 0,5 por la justificación."
+        ],
+        [
+          "10",
+          "Verdadero.",
+          ""
+        ],
+        [
+          "11",
+          "Verdadero.",
+          ""
+        ],
+        [
+          "12",
+          "Falso: llueve más en la Región Oriental (unos 1.800 mm al año en el este) que en el Chaco (unos 400 mm en el noroeste).",
+          ""
+        ],
+        [
+          "13",
+          "Orden: 1 Descubrimiento de la plata de Potosí (1545); 2 Fundación de Quebec (1608); 3 Ordenanzas de Alfaro (1611); 4 División de la provincia (1617); 5 Éxodo del Guairá (1631); 6 Batalla de Mbororé (1641).",
+          "Criterio anunciado en la Parte C: 0,5 por cada hecho bien ubicado. En el paréntesis de cada hecho: División 4; Éxodo 5; Mbororé 6; Alfaro 3; Quebec 2; Potosí 1."
+        ],
+        [
+          "14",
+          "Río Paraná: límite con el Brasil y la Argentina, caudaloso; energía en Itaipú y Yacyretá, navegación. Clima del Chaco: seco y muy caluroso; ganadería.",
+          "Criterio anunciado en la Parte D: 1 por cada casilla correcta. Se aceptan otras características y actividades estudiadas."
+        ],
+        [
+          "15",
+          "Ejemplo: «El Paraguay es mediterráneo: no tiene costa y su salida al mar es por los ríos Paraguay y Paraná. En 1617 la provincia se dividió y el puerto de Buenos Aires quedó en otra gobernación, por eso el Paraguay pasó a depender de Buenos Aires y Santa Fe para comerciar. En el siglo XVII su yerba llegaba cara a los mercados. Hoy la Hidrovía Paraguay-Paraná es la vía de su comercio exterior. Pero los ríos deben cuidarse: el dragado o la contaminación pueden dañar los humedales y la pesca.»",
+          "Criterio anunciado en la consigna (1 punto cada uno): qué es la mediterraneidad, la división de 1617 y la dependencia de Buenos Aires, una consecuencia en el siglo XVII, la importancia actual de los ríos o de la Hidrovía, un costo o cuidado ambiental de los ríos y un texto ordenado."
+        ],
+        [
+          "16",
+          "Por ejemplo: Chaco Seco; pocas lluvias y mucho calor; controlar el desmonte con planes del INFONA y evaluación de impacto ambiental.",
+          "Criterio anunciado en la Parte F: 1 por cada elemento."
+        ]
+      ]
+    }
+  },
+  "figuras": [
+    {
+      "encuentro": "1",
+      "datos": [
+        "fig_1_1_tipos_fuentes.png",
+        "Figura 1.1 — Tipos de fuentes históricas, con ejemplos.",
+        15.0
+      ]
+    },
+    {
+      "encuentro": "1",
+      "datos": [
+        "fig_1_2_linea_tiempo_era.png",
+        "Figura 1.2 — La era cristiana en una línea de tiempo.",
+        16.0
+      ]
+    },
+    {
+      "encuentro": "1",
+      "datos": [
+        "fig_1_3_mapa_orientacion.png",
+        "Figura 1.3 — El Paraguay: orientación, escala y leyenda.",
+        12.0
+      ]
+    },
+    {
+      "encuentro": "2",
+      "datos": [
+        "fig_2_1_linea_prehistoria.png",
+        "Figura 2.1 — Línea de tiempo de la prehistoria regional (fechas aproximadas).",
+        16.0
+      ]
+    },
+    {
+      "encuentro": "2",
+      "datos": [
+        "fig_2_2_regiones.png",
+        "Figura 2.2 — Las dos regiones naturales del Paraguay.",
+        11.0
+      ]
+    },
+    {
+      "encuentro": "3",
+      "datos": [
+        "fig_3_2_aldea.png",
+        "Figura 3.1 — La organización guaraní (esquema simplificado).",
+        15.0
+      ]
+    },
+    {
+      "encuentro": "3",
+      "datos": [
+        "fig_3_1_area_guarani.png",
+        "Figura 3.2 — Área aproximada de los pueblos guaraníes hacia 1500 (esquema).",
+        11.5
+      ]
+    },
+    {
+      "encuentro": "5",
+      "datos": [
+        "eval_u1_mapa.png",
+        "Mapa para la Parte C. Elaboración propia con datos de Natural Earth (dominio público); mapa aproximado.",
+        9.0
+      ]
+    },
+    {
+      "encuentro": "6",
+      "datos": [
+        "fig_4_1_poblamiento.png",
+        "Figura 4.1 — Rutas propuestas para el poblamiento de América y algunos sitios arqueológicos (esquema).",
+        12.0
+      ]
+    },
+    {
+      "encuentro": "7",
+      "datos": [
+        "fig_5_1_civilizaciones.png",
+        "Figura 5.1 — Áreas aproximadas de mayas, mexicas e incas (esquema).",
+        12.0
+      ]
+    },
+    {
+      "encuentro": "7",
+      "datos": [
+        "fig_5_2_cronologia.png",
+        "Figura 5.2 — Cronología aproximada de las tres civilizaciones.",
+        16.0
+      ]
+    },
+    {
+      "encuentro": "9",
+      "datos": [
+        "eval_u2_mapa.png",
+        "Mapa para la Parte C. Elaboración propia con datos de Natural Earth (dominio público); mapa aproximado.",
+        10.0
+      ]
+    },
+    {
+      "encuentro": "10",
+      "datos": [
+        "fig_6_2_navegacion.png",
+        "Figura 6.1 — Avances que permitieron navegar mar adentro.",
+        15.0
+      ]
+    },
+    {
+      "encuentro": "10",
+      "datos": [
+        "fig_6_1_viajes.png",
+        "Figura 6.2 — Principales viajes de exploración de Portugal y de Castilla (trazados aproximados).",
+        16.0
+      ]
+    },
+    {
+      "encuentro": "11",
+      "datos": [
+        "fig_7_1_tordesillas.png",
+        "Figura 7.1 — La línea del Tratado de Tordesillas (1494), esquema aproximado.",
+        12.0
+      ]
+    },
+    {
+      "encuentro": "11",
+      "datos": [
+        "fig_7_2_gobierno.png",
+        "Figura 7.2 — El gobierno de las colonias españolas en el siglo XVI (esquema simplificado).",
+        15.0
+      ]
+    },
+    {
+      "encuentro": "12",
+      "datos": [
+        "fig_8_1_rutas_plata.png",
+        "Figura 8.1 — Expediciones al Río de la Plata y al Paraguay, 1516-1537 (recorridos aproximados).",
+        12.0
+      ]
+    },
+    {
+      "encuentro": "12",
+      "datos": [
+        "fig_8_2_linea_1516_1541.png",
+        "Figura 8.2 — Del viaje de Solís a la creación del Cabildo de Asunción (1516-1541).",
+        11.5
+      ]
+    },
+    {
+      "encuentro": "14",
+      "datos": [
+        "fig_9_1_sociedad.png",
+        "Figura 9.1 — La sociedad de Asunción en el siglo XVI (esquema simplificado).",
+        15.0
+      ]
+    },
+    {
+      "encuentro": "15",
+      "datos": [
+        "fig_10_1_linea_1534_1556.png",
+        "Figura 10.1 — Del viaje de Mendoza al reparto de encomiendas (1534-1556).",
+        11.5
+      ]
+    },
+    {
+      "encuentro": "15",
+      "datos": [
+        "fig_10_2_autoridades.png",
+        "Figura 10.2 — Autoridades de la provincia en el siglo XVI (esquema simplificado). La encomienda no era una institución de gobierno.",
+        15.0
+      ]
+    },
+    {
+      "encuentro": "17",
+      "datos": [
+        "eval_u3_mapa.png",
+        "Mapa para la Parte C. Elaboración propia con datos de Natural Earth (dominio público); mapa aproximado.",
+        9.5
+      ]
+    },
+    {
+      "encuentro": "19",
+      "datos": [
+        "fig_11_1_division_1617.png",
+        "Figura 11.1 — Ciudades de las dos gobernaciones después de la división de 1617 (posiciones aproximadas).",
+        12.0
+      ]
+    },
+    {
+      "encuentro": "20",
+      "datos": [
+        "fig_12_1_yerba.png",
+        "Figura 12.1 — Las dos economías de la provincia en el siglo XVII (esquema).",
+        15.0
+      ]
+    },
+    {
+      "encuentro": "21",
+      "datos": [
+        "fig_13_1_reduccion.png",
+        "Figura 13.1 — Plano esquemático de una reducción jesuítico-guaraní.",
+        15.0
+      ]
+    },
+    {
+      "encuentro": "22",
+      "datos": [
+        "fig_E_1_guaira_mborore.png",
+        "Figura E.1 — Malocas, éxodo y Mbororé en el siglo XVII (trazados aproximados).",
+        13.0
+      ]
+    },
+    {
+      "encuentro": "22",
+      "datos": [
+        "fig_E_2_linea_1609_1641.png",
+        "Figura E.2 — De las primeras reducciones a Mbororé (1609-1641).",
+        11.5
+      ]
+    },
+    {
+      "encuentro": "23",
+      "datos": [
+        "fig_14_1_plata.png",
+        "Figura 14.1 — Minas, puertos y rutas del comercio colonial en el siglo XVII (esquema aproximado).",
+        16.0
+      ]
+    },
+    {
+      "encuentro": "24",
+      "datos": [
+        "fig_15_1_colonias.png",
+        "Figura 15.1 — Colonias de Inglaterra, Francia, Holanda y Portugal en el siglo XVII (posiciones aproximadas).",
+        12.0
+      ]
+    },
+    {
+      "encuentro": "25",
+      "datos": [
+        "eval_u4_mapa.png",
+        "Mapa para la Parte C. Elaboración propia con datos de Natural Earth (dominio público); mapa aproximado.",
+        10.0
+      ]
+    },
+    {
+      "encuentro": "26",
+      "datos": [
+        "fig_16_1_america.png",
+        "Figura 16.1 — América: paralelos principales y ubicación del Paraguay.",
+        11.0
+      ]
+    },
+    {
+      "encuentro": "26",
+      "datos": [
+        "fig_16_2_paraguay_posicion.png",
+        "Figura 16.2 — Posición absoluta y límites del Paraguay (mapa aproximado).",
+        12.0
+      ]
+    },
+    {
+      "encuentro": "27",
+      "datos": [
+        "fig_17_2_perfil.png",
+        "Figura 17.1 — Perfil esquemático del relieve del Paraguay de oeste a este.",
+        15.0
+      ]
+    },
+    {
+      "encuentro": "27",
+      "datos": [
+        "fig_17_1_relieve_america.png",
+        "Figura 17.2 — Grandes formas de relieve de América (esquema simplificado).",
+        11.0
+      ]
+    },
+    {
+      "encuentro": "28",
+      "datos": [
+        "fig_18_1_rios_paraguay.png",
+        "Figura 18.1 — Grandes ríos y represas del Paraguay.",
+        13.5
+      ]
+    },
+    {
+      "encuentro": "28",
+      "datos": [
+        "fig_18_2_hidrovia.png",
+        "Figura 18.2 — Recorrido aproximado de la Hidrovía Paraguay-Paraná, de Cáceres (Brasil) a Nueva Palmira (Uruguay).",
+        10.5
+      ]
+    },
+    {
+      "encuentro": "28",
+      "datos": [
+        "fig_18_3_rios_america.png",
+        "Figura 18.3 — Grandes ríos y lagos de América.",
+        13.0
+      ]
+    },
+    {
+      "encuentro": "30",
+      "datos": [
+        "eval_u5_mapa_mudo.png",
+        "Mapa mudo para la Parte C. Elaboración propia con datos de Natural Earth (dominio público).",
+        12.0
+      ]
+    },
+    {
+      "encuentro": "30",
+      "datos": [
+        "eval_u5_rios_numerados.png",
+        "Mapa para la Parte D. Elaboración propia con datos de Natural Earth (dominio público).",
+        9.5
+      ]
+    },
+    {
+      "encuentro": "31",
+      "datos": [
+        "fig_19_1_clima.png",
+        "Figura 19.1 — Elementos y factores del clima.",
+        15.0
+      ]
+    },
+    {
+      "encuentro": "31",
+      "datos": [
+        "fig_19_2_climas_america.png",
+        "Figura 19.2 — Grandes tipos de clima de América (esquema simplificado).",
+        11.0
+      ]
+    },
+    {
+      "encuentro": "31",
+      "datos": [
+        "fig_19_3_lluvias_py.png",
+        "Figura 19.3 — Las lluvias en el Paraguay aumentan hacia el este (valores aproximados).",
+        11.0
+      ]
+    },
+    {
+      "encuentro": "32",
+      "datos": [
+        "fig_20_1_regiones_america.png",
+        "Figura 20.1 — Grandes regiones naturales de América (esquema simplificado).",
+        11.0
+      ]
+    },
+    {
+      "encuentro": "32",
+      "datos": [
+        "fig_20_2_ecosistemas_py.png",
+        "Figura 20.2 — Grandes ecosistemas del Paraguay (ubicación aproximada).",
+        12.0
+      ]
+    },
+    {
+      "encuentro": "33",
+      "datos": [
+        "fig_21_1_gestion.png",
+        "Figura 21.1 — Instituciones y normas de la gestión ambiental en el Paraguay (esquema simplificado).",
+        15.0
+      ]
+    },
+    {
+      "encuentro": "35",
+      "datos": [
+        "eval_u6_mapa.png",
+        "Mapa para la Parte C. Elaboración propia con datos de Natural Earth (dominio público); mapa aproximado.",
+        10.0
+      ]
+    }
+  ],
+  "pares": {
+    "MATRIZ_CURRICULAR_36_ENCUENTROS_A4": [
+      {
+        "pagina": 1,
+        "texto_igual": true,
+        "pixels_iguales": true,
+        "diferencia_media": 0.0
+      },
+      {
+        "pagina": 2,
+        "texto_igual": true,
+        "pixels_iguales": true,
+        "diferencia_media": 0.0
+      }
+    ],
+    "PLANES_ANUAL_A4": [
+      {
+        "pagina": 1,
+        "texto_igual": true,
+        "pixels_iguales": true,
+        "diferencia_media": 0.0
+      },
+      {
+        "pagina": 2,
+        "texto_igual": true,
+        "pixels_iguales": true,
+        "diferencia_media": 0.0
+      },
+      {
+        "pagina": 3,
+        "texto_igual": true,
+        "pixels_iguales": true,
+        "diferencia_media": 0.0
+      },
+      {
+        "pagina": 4,
+        "texto_igual": true,
+        "pixels_iguales": true,
+        "diferencia_media": 0.0
+      },
+      {
+        "pagina": 5,
+        "texto_igual": true,
+        "pixels_iguales": true,
+        "diferencia_media": 0.0
+      },
+      {
+        "pagina": 6,
+        "texto_igual": true,
+        "pixels_iguales": true,
+        "diferencia_media": 0.0
+      },
+      {
+        "pagina": 7,
+        "texto_igual": true,
+        "pixels_iguales": true,
+        "diferencia_media": 0.0
+      },
+      {
+        "pagina": 8,
+        "texto_igual": true,
+        "pixels_iguales": true,
+        "diferencia_media": 0.0
+      },
+      {
+        "pagina": 9,
+        "texto_igual": true,
+        "pixels_iguales": true,
+        "diferencia_media": 0.0
+      },
+      {
+        "pagina": 10,
+        "texto_igual": true,
+        "pixels_iguales": true,
+        "diferencia_media": 0.0
+      },
+      {
+        "pagina": 11,
+        "texto_igual": true,
+        "pixels_iguales": true,
+        "diferencia_media": 0.0
+      },
+      {
+        "pagina": 12,
+        "texto_igual": true,
+        "pixels_iguales": true,
+        "diferencia_media": 0.0
+      },
+      {
+        "pagina": 13,
+        "texto_igual": true,
+        "pixels_iguales": true,
+        "diferencia_media": 0.0
+      },
+      {
+        "pagina": 14,
+        "texto_igual": true,
+        "pixels_iguales": true,
+        "diferencia_media": 0.0
+      },
+      {
+        "pagina": 15,
+        "texto_igual": true,
+        "pixels_iguales": true,
+        "diferencia_media": 0.0
+      },
+      {
+        "pagina": 16,
+        "texto_igual": true,
+        "pixels_iguales": true,
+        "diferencia_media": 0.0
+      },
+      {
+        "pagina": 17,
+        "texto_igual": true,
+        "pixels_iguales": true,
+        "diferencia_media": 0.0
+      },
+      {
+        "pagina": 18,
+        "texto_igual": true,
+        "pixels_iguales": true,
+        "diferencia_media": 0.0
+      },
+      {
+        "pagina": 19,
+        "texto_igual": true,
+        "pixels_iguales": true,
+        "diferencia_media": 0.0
+      },
+      {
+        "pagina": 20,
+        "texto_igual": true,
+        "pixels_iguales": true,
+        "diferencia_media": 0.0
+      },
+      {
+        "pagina": 21,
+        "texto_igual": true,
+        "pixels_iguales": true,
+        "diferencia_media": 0.0
+      },
+      {
+        "pagina": 22,
+        "texto_igual": true,
+        "pixels_iguales": true,
+        "diferencia_media": 0.0
+      },
+      {
+        "pagina": 23,
+        "texto_igual": true,
+        "pixels_iguales": true,
+        "diferencia_media": 0.0
+      },
+      {
+        "pagina": 24,
+        "texto_igual": true,
+        "pixels_iguales": true,
+        "diferencia_media": 0.0
+      },
+      {
+        "pagina": 25,
+        "texto_igual": true,
+        "pixels_iguales": true,
+        "diferencia_media": 0.0
+      },
+      {
+        "pagina": 26,
+        "texto_igual": true,
+        "pixels_iguales": true,
+        "diferencia_media": 0.0
+      },
+      {
+        "pagina": 27,
+        "texto_igual": true,
+        "pixels_iguales": true,
+        "diferencia_media": 0.0
+      },
+      {
+        "pagina": 28,
+        "texto_igual": true,
+        "pixels_iguales": true,
+        "diferencia_media": 0.0
+      },
+      {
+        "pagina": 29,
+        "texto_igual": true,
+        "pixels_iguales": true,
+        "diferencia_media": 0.0
+      },
+      {
+        "pagina": 30,
+        "texto_igual": true,
+        "pixels_iguales": true,
+        "diferencia_media": 0.0
+      },
+      {
+        "pagina": 31,
+        "texto_igual": true,
+        "pixels_iguales": true,
+        "diferencia_media": 0.0
+      },
+      {
+        "pagina": 32,
+        "texto_igual": true,
+        "pixels_iguales": true,
+        "diferencia_media": 0.0
+      },
+      {
+        "pagina": 33,
+        "texto_igual": true,
+        "pixels_iguales": true,
+        "diferencia_media": 0.0
+      },
+      {
+        "pagina": 34,
+        "texto_igual": true,
+        "pixels_iguales": true,
+        "diferencia_media": 0.0
+      },
+      {
+        "pagina": 35,
+        "texto_igual": true,
+        "pixels_iguales": true,
+        "diferencia_media": 0.0
+      },
+      {
+        "pagina": 36,
+        "texto_igual": true,
+        "pixels_iguales": true,
+        "diferencia_media": 0.0
+      },
+      {
+        "pagina": 37,
+        "texto_igual": true,
+        "pixels_iguales": true,
+        "diferencia_media": 0.0
+      },
+      {
+        "pagina": 38,
+        "texto_igual": true,
+        "pixels_iguales": true,
+        "diferencia_media": 0.0
+      },
+      {
+        "pagina": 39,
+        "texto_igual": true,
+        "pixels_iguales": true,
+        "diferencia_media": 0.0
+      },
+      {
+        "pagina": 40,
+        "texto_igual": true,
+        "pixels_iguales": true,
+        "diferencia_media": 0.0
+      },
+      {
+        "pagina": 41,
+        "texto_igual": true,
+        "pixels_iguales": true,
+        "diferencia_media": 0.0
+      },
+      {
+        "pagina": 42,
+        "texto_igual": true,
+        "pixels_iguales": true,
+        "diferencia_media": 0.0
+      },
+      {
+        "pagina": 43,
+        "texto_igual": true,
+        "pixels_iguales": true,
+        "diferencia_media": 0.0
+      },
+      {
+        "pagina": 44,
+        "texto_igual": true,
+        "pixels_iguales": true,
+        "diferencia_media": 0.0
+      },
+      {
+        "pagina": 45,
+        "texto_igual": true,
+        "pixels_iguales": true,
+        "diferencia_media": 0.0
+      },
+      {
+        "pagina": 46,
+        "texto_igual": true,
+        "pixels_iguales": true,
+        "diferencia_media": 0.0
+      },
+      {
+        "pagina": 47,
+        "texto_igual": true,
+        "pixels_iguales": true,
+        "diferencia_media": 0.0
+      },
+      {
+        "pagina": 48,
+        "texto_igual": true,
+        "pixels_iguales": true,
+        "diferencia_media": 0.0
+      },
+      {
+        "pagina": 49,
+        "texto_igual": true,
+        "pixels_iguales": true,
+        "diferencia_media": 0.0
+      },
+      {
+        "pagina": 50,
+        "texto_igual": true,
+        "pixels_iguales": true,
+        "diferencia_media": 0.0
+      },
+      {
+        "pagina": 51,
+        "texto_igual": true,
+        "pixels_iguales": true,
+        "diferencia_media": 0.0
+      },
+      {
+        "pagina": 52,
+        "texto_igual": true,
+        "pixels_iguales": true,
+        "diferencia_media": 0.0
+      },
+      {
+        "pagina": 53,
+        "texto_igual": true,
+        "pixels_iguales": true,
+        "diferencia_media": 0.0
+      },
+      {
+        "pagina": 54,
+        "texto_igual": true,
+        "pixels_iguales": true,
+        "diferencia_media": 0.0
+      },
+      {
+        "pagina": 55,
+        "texto_igual": true,
+        "pixels_iguales": true,
+        "diferencia_media": 0.0
+      },
+      {
+        "pagina": 56,
+        "texto_igual": true,
+        "pixels_iguales": true,
+        "diferencia_media": 0.0
+      },
+      {
+        "pagina": 57,
+        "texto_igual": true,
+        "pixels_iguales": true,
+        "diferencia_media": 0.0
+      },
+      {
+        "pagina": 58,
+        "texto_igual": true,
+        "pixels_iguales": true,
+        "diferencia_media": 0.0
+      },
+      {
+        "pagina": 59,
+        "texto_igual": true,
+        "pixels_iguales": true,
+        "diferencia_media": 0.0
+      },
+      {
+        "pagina": 60,
+        "texto_igual": true,
+        "pixels_iguales": true,
+        "diferencia_media": 0.0
+      },
+      {
+        "pagina": 61,
+        "texto_igual": true,
+        "pixels_iguales": true,
+        "diferencia_media": 0.0
+      },
+      {
+        "pagina": 62,
+        "texto_igual": true,
+        "pixels_iguales": true,
+        "diferencia_media": 0.0
+      },
+      {
+        "pagina": 63,
+        "texto_igual": true,
+        "pixels_iguales": true,
+        "diferencia_media": 0.0
+      },
+      {
+        "pagina": 64,
+        "texto_igual": true,
+        "pixels_iguales": true,
+        "diferencia_media": 0.0
+      },
+      {
+        "pagina": 65,
+        "texto_igual": true,
+        "pixels_iguales": true,
+        "diferencia_media": 0.0
+      },
+      {
+        "pagina": 66,
+        "texto_igual": true,
+        "pixels_iguales": true,
+        "diferencia_media": 0.0
+      },
+      {
+        "pagina": 67,
+        "texto_igual": true,
+        "pixels_iguales": true,
+        "diferencia_media": 0.0
+      },
+      {
+        "pagina": 68,
+        "texto_igual": true,
+        "pixels_iguales": true,
+        "diferencia_media": 0.0
+      },
+      {
+        "pagina": 69,
+        "texto_igual": true,
+        "pixels_iguales": true,
+        "diferencia_media": 0.0
+      },
+      {
+        "pagina": 70,
+        "texto_igual": true,
+        "pixels_iguales": true,
+        "diferencia_media": 0.0
+      },
+      {
+        "pagina": 71,
+        "texto_igual": true,
+        "pixels_iguales": true,
+        "diferencia_media": 0.0
+      },
+      {
+        "pagina": 72,
+        "texto_igual": true,
+        "pixels_iguales": true,
+        "diferencia_media": 0.0
+      },
+      {
+        "pagina": 73,
+        "texto_igual": true,
+        "pixels_iguales": true,
+        "diferencia_media": 0.0
+      },
+      {
+        "pagina": 74,
+        "texto_igual": true,
+        "pixels_iguales": true,
+        "diferencia_media": 0.0
+      }
+    ],
+    "PLAN_ANUAL_oficio": [
+      {
+        "pagina": 1,
+        "texto_igual": true,
+        "pixels_iguales": true,
+        "diferencia_media": 0.0
+      },
+      {
+        "pagina": 2,
+        "texto_igual": true,
+        "pixels_iguales": true,
+        "diferencia_media": 0.0
+      },
+      {
+        "pagina": 3,
+        "texto_igual": true,
+        "pixels_iguales": true,
+        "diferencia_media": 0.0
+      },
+      {
+        "pagina": 4,
+        "texto_igual": true,
+        "pixels_iguales": true,
+        "diferencia_media": 0.0
+      },
+      {
+        "pagina": 5,
+        "texto_igual": true,
+        "pixels_iguales": true,
+        "diferencia_media": 0.0
+      },
+      {
+        "pagina": 6,
+        "texto_igual": true,
+        "pixels_iguales": true,
+        "diferencia_media": 0.0
+      }
+    ],
+    "SOLUCIONARIO_ANUAL_A4": [
+      {
+        "pagina": 1,
+        "texto_igual": true,
+        "pixels_iguales": true,
+        "diferencia_media": 0.0
+      },
+      {
+        "pagina": 2,
+        "texto_igual": true,
+        "pixels_iguales": true,
+        "diferencia_media": 0.0
+      },
+      {
+        "pagina": 3,
+        "texto_igual": true,
+        "pixels_iguales": true,
+        "diferencia_media": 0.0
+      },
+      {
+        "pagina": 4,
+        "texto_igual": true,
+        "pixels_iguales": true,
+        "diferencia_media": 0.0
+      },
+      {
+        "pagina": 5,
+        "texto_igual": true,
+        "pixels_iguales": true,
+        "diferencia_media": 0.0
+      },
+      {
+        "pagina": 6,
+        "texto_igual": true,
+        "pixels_iguales": false,
+        "diferencia_media": 0.29294914857188137
+      },
+      {
+        "pagina": 7,
+        "texto_igual": true,
+        "pixels_iguales": true,
+        "diferencia_media": 0.0
+      },
+      {
+        "pagina": 8,
+        "texto_igual": true,
+        "pixels_iguales": true,
+        "diferencia_media": 0.0
+      },
+      {
+        "pagina": 9,
+        "texto_igual": true,
+        "pixels_iguales": true,
+        "diferencia_media": 0.0
+      },
+      {
+        "pagina": 10,
+        "texto_igual": true,
+        "pixels_iguales": false,
+        "diferencia_media": 0.3719650540690444
+      },
+      {
+        "pagina": 11,
+        "texto_igual": true,
+        "pixels_iguales": true,
+        "diferencia_media": 0.0
+      },
+      {
+        "pagina": 12,
+        "texto_igual": true,
+        "pixels_iguales": true,
+        "diferencia_media": 0.0
+      },
+      {
+        "pagina": 13,
+        "texto_igual": true,
+        "pixels_iguales": true,
+        "diferencia_media": 0.0
+      },
+      {
+        "pagina": 14,
+        "texto_igual": true,
+        "pixels_iguales": true,
+        "diferencia_media": 0.0
+      },
+      {
+        "pagina": 15,
+        "texto_igual": true,
+        "pixels_iguales": true,
+        "diferencia_media": 0.0
+      },
+      {
+        "pagina": 16,
+        "texto_igual": true,
+        "pixels_iguales": true,
+        "diferencia_media": 0.0
+      },
+      {
+        "pagina": 17,
+        "texto_igual": true,
+        "pixels_iguales": true,
+        "diferencia_media": 0.0
+      },
+      {
+        "pagina": 18,
+        "texto_igual": true,
+        "pixels_iguales": false,
+        "diferencia_media": 0.3954371169606962
+      },
+      {
+        "pagina": 19,
+        "texto_igual": true,
+        "pixels_iguales": true,
+        "diferencia_media": 0.0
+      },
+      {
+        "pagina": 20,
+        "texto_igual": true,
+        "pixels_iguales": true,
+        "diferencia_media": 0.0
+      },
+      {
+        "pagina": 21,
+        "texto_igual": true,
+        "pixels_iguales": true,
+        "diferencia_media": 0.0
+      },
+      {
+        "pagina": 22,
+        "texto_igual": true,
+        "pixels_iguales": true,
+        "diferencia_media": 0.0
+      },
+      {
+        "pagina": 23,
+        "texto_igual": true,
+        "pixels_iguales": true,
+        "diferencia_media": 0.0
+      },
+      {
+        "pagina": 24,
+        "texto_igual": true,
+        "pixels_iguales": true,
+        "diferencia_media": 0.0
+      },
+      {
+        "pagina": 25,
+        "texto_igual": true,
+        "pixels_iguales": true,
+        "diferencia_media": 0.0
+      },
+      {
+        "pagina": 26,
+        "texto_igual": true,
+        "pixels_iguales": true,
+        "diferencia_media": 0.0
+      },
+      {
+        "pagina": 27,
+        "texto_igual": true,
+        "pixels_iguales": false,
+        "diferencia_media": 0.8563802850380843
+      },
+      {
+        "pagina": 28,
+        "texto_igual": true,
+        "pixels_iguales": true,
+        "diferencia_media": 0.0
+      },
+      {
+        "pagina": 29,
+        "texto_igual": true,
+        "pixels_iguales": true,
+        "diferencia_media": 0.0
+      },
+      {
+        "pagina": 30,
+        "texto_igual": true,
+        "pixels_iguales": true,
+        "diferencia_media": 0.0
+      },
+      {
+        "pagina": 31,
+        "texto_igual": true,
+        "pixels_iguales": true,
+        "diferencia_media": 0.0
+      },
+      {
+        "pagina": 32,
+        "texto_igual": true,
+        "pixels_iguales": true,
+        "diferencia_media": 0.0
+      },
+      {
+        "pagina": 33,
+        "texto_igual": true,
+        "pixels_iguales": false,
+        "diferencia_media": 0.8905576397716665
+      },
+      {
+        "pagina": 34,
+        "texto_igual": true,
+        "pixels_iguales": true,
+        "diferencia_media": 0.0
+      },
+      {
+        "pagina": 35,
+        "texto_igual": true,
+        "pixels_iguales": true,
+        "diferencia_media": 0.0
+      },
+      {
+        "pagina": 36,
+        "texto_igual": true,
+        "pixels_iguales": true,
+        "diferencia_media": 0.0
+      },
+      {
+        "pagina": 37,
+        "texto_igual": true,
+        "pixels_iguales": true,
+        "diferencia_media": 0.0
+      },
+      {
+        "pagina": 38,
+        "texto_igual": true,
+        "pixels_iguales": false,
+        "diferencia_media": 0.8337384636054527
+      },
+      {
+        "pagina": 39,
+        "texto_igual": true,
+        "pixels_iguales": true,
+        "diferencia_media": 0.0
+      },
+      {
+        "pagina": 40,
+        "texto_igual": true,
+        "pixels_iguales": true,
+        "diferencia_media": 0.0
+      }
+    ],
+    "TOMO_ANUAL_oficio": [
+      {
+        "pagina": 1,
+        "texto_igual": true,
+        "pixels_iguales": false,
+        "diferencia_media": 2.8866455505279034
+      },
+      {
+        "pagina": 2,
+        "texto_igual": true,
+        "pixels_iguales": true,
+        "diferencia_media": 0.0
+      },
+      {
+        "pagina": 3,
+        "texto_igual": true,
+        "pixels_iguales": true,
+        "diferencia_media": 0.0
+      },
+      {
+        "pagina": 4,
+        "texto_igual": true,
+        "pixels_iguales": true,
+        "diferencia_media": 0.0
+      },
+      {
+        "pagina": 5,
+        "texto_igual": true,
+        "pixels_iguales": true,
+        "diferencia_media": 0.0
+      },
+      {
+        "pagina": 6,
+        "texto_igual": true,
+        "pixels_iguales": false,
+        "diferencia_media": 0.5291737556561086
+      },
+      {
+        "pagina": 7,
+        "texto_igual": true,
+        "pixels_iguales": false,
+        "diferencia_media": 0.47827993966817495
+      },
+      {
+        "pagina": 8,
+        "texto_igual": true,
+        "pixels_iguales": false,
+        "diferencia_media": 0.6111031674208145
+      },
+      {
+        "pagina": 9,
+        "texto_igual": true,
+        "pixels_iguales": true,
+        "diferencia_media": 0.0
+      },
+      {
+        "pagina": 10,
+        "texto_igual": true,
+        "pixels_iguales": true,
+        "diferencia_media": 0.0
+      },
+      {
+        "pagina": 11,
+        "texto_igual": true,
+        "pixels_iguales": false,
+        "diferencia_media": 0.5185559577677225
+      },
+      {
+        "pagina": 12,
+        "texto_igual": true,
+        "pixels_iguales": true,
+        "diferencia_media": 0.0
+      },
+      {
+        "pagina": 13,
+        "texto_igual": true,
+        "pixels_iguales": false,
+        "diferencia_media": 0.4325987933634992
+      },
+      {
+        "pagina": 14,
+        "texto_igual": true,
+        "pixels_iguales": true,
+        "diferencia_media": 0.0
+      },
+      {
+        "pagina": 15,
+        "texto_igual": true,
+        "pixels_iguales": true,
+        "diferencia_media": 0.0
+      },
+      {
+        "pagina": 16,
+        "texto_igual": true,
+        "pixels_iguales": true,
+        "diferencia_media": 0.0
+      },
+      {
+        "pagina": 17,
+        "texto_igual": true,
+        "pixels_iguales": false,
+        "diferencia_media": 1.1034666666666666
+      },
+      {
+        "pagina": 18,
+        "texto_igual": true,
+        "pixels_iguales": true,
+        "diferencia_media": 0.0
+      },
+      {
+        "pagina": 19,
+        "texto_igual": true,
+        "pixels_iguales": true,
+        "diferencia_media": 0.0
+      },
+      {
+        "pagina": 20,
+        "texto_igual": true,
+        "pixels_iguales": true,
+        "diferencia_media": 0.0
+      },
+      {
+        "pagina": 21,
+        "texto_igual": true,
+        "pixels_iguales": true,
+        "diferencia_media": 0.0
+      },
+      {
+        "pagina": 22,
+        "texto_igual": true,
+        "pixels_iguales": true,
+        "diferencia_media": 0.0
+      },
+      {
+        "pagina": 23,
+        "texto_igual": true,
+        "pixels_iguales": true,
+        "diferencia_media": 0.0
+      },
+      {
+        "pagina": 24,
+        "texto_igual": true,
+        "pixels_iguales": true,
+        "diferencia_media": 0.0
+      },
+      {
+        "pagina": 25,
+        "texto_igual": true,
+        "pixels_iguales": true,
+        "diferencia_media": 0.0
+      },
+      {
+        "pagina": 26,
+        "texto_igual": true,
+        "pixels_iguales": false,
+        "diferencia_media": 0.21336681749622924
+      },
+      {
+        "pagina": 27,
+        "texto_igual": true,
+        "pixels_iguales": true,
+        "diferencia_media": 0.0
+      },
+      {
+        "pagina": 28,
+        "texto_igual": true,
+        "pixels_iguales": true,
+        "diferencia_media": 0.0
+      },
+      {
+        "pagina": 29,
+        "texto_igual": true,
+        "pixels_iguales": false,
+        "diferencia_media": 0.6843140271493212
+      },
+      {
+        "pagina": 30,
+        "texto_igual": true,
+        "pixels_iguales": true,
+        "diferencia_media": 0.0
+      },
+      {
+        "pagina": 31,
+        "texto_igual": true,
+        "pixels_iguales": true,
+        "diferencia_media": 0.0
+      },
+      {
+        "pagina": 32,
+        "texto_igual": true,
+        "pixels_iguales": false,
+        "diferencia_media": 0.5697031674208145
+      },
+      {
+        "pagina": 33,
+        "texto_igual": true,
+        "pixels_iguales": false,
+        "diferencia_media": 0.4736515837104072
+      },
+      {
+        "pagina": 34,
+        "texto_igual": true,
+        "pixels_iguales": true,
+        "diferencia_media": 0.0
+      },
+      {
+        "pagina": 35,
+        "texto_igual": true,
+        "pixels_iguales": true,
+        "diferencia_media": 0.0
+      },
+      {
+        "pagina": 36,
+        "texto_igual": true,
+        "pixels_iguales": true,
+        "diferencia_media": 0.0
+      },
+      {
+        "pagina": 37,
+        "texto_igual": true,
+        "pixels_iguales": true,
+        "diferencia_media": 0.0
+      },
+      {
+        "pagina": 38,
+        "texto_igual": true,
+        "pixels_iguales": false,
+        "diferencia_media": 0.7371318250377074
+      },
+      {
+        "pagina": 39,
+        "texto_igual": true,
+        "pixels_iguales": false,
+        "diferencia_media": 0.28295625942684766
+      },
+      {
+        "pagina": 40,
+        "texto_igual": true,
+        "pixels_iguales": true,
+        "diferencia_media": 0.0
+      },
+      {
+        "pagina": 41,
+        "texto_igual": true,
+        "pixels_iguales": false,
+        "diferencia_media": 0.262584012066365
+      },
+      {
+        "pagina": 42,
+        "texto_igual": true,
+        "pixels_iguales": true,
+        "diferencia_media": 0.0
+      },
+      {
+        "pagina": 43,
+        "texto_igual": true,
+        "pixels_iguales": false,
+        "diferencia_media": 0.5688102564102564
+      },
+      {
+        "pagina": 44,
+        "texto_igual": true,
+        "pixels_iguales": false,
+        "diferencia_media": 0.835374358974359
+      },
+      {
+        "pagina": 45,
+        "texto_igual": true,
+        "pixels_iguales": true,
+        "diferencia_media": 0.0
+      },
+      {
+        "pagina": 46,
+        "texto_igual": true,
+        "pixels_iguales": true,
+        "diferencia_media": 0.0
+      },
+      {
+        "pagina": 47,
+        "texto_igual": true,
+        "pixels_iguales": true,
+        "diferencia_media": 0.0
+      },
+      {
+        "pagina": 48,
+        "texto_igual": true,
+        "pixels_iguales": false,
+        "diferencia_media": 0.468969532428356
+      },
+      {
+        "pagina": 49,
+        "texto_igual": true,
+        "pixels_iguales": false,
+        "diferencia_media": 0.6366977375565611
+      },
+      {
+        "pagina": 50,
+        "texto_igual": true,
+        "pixels_iguales": true,
+        "diferencia_media": 0.0
+      },
+      {
+        "pagina": 51,
+        "texto_igual": true,
+        "pixels_iguales": true,
+        "diferencia_media": 0.0
+      },
+      {
+        "pagina": 52,
+        "texto_igual": true,
+        "pixels_iguales": true,
+        "diferencia_media": 0.0
+      },
+      {
+        "pagina": 53,
+        "texto_igual": true,
+        "pixels_iguales": false,
+        "diferencia_media": 0.9017321266968326
+      },
+      {
+        "pagina": 54,
+        "texto_igual": true,
+        "pixels_iguales": true,
+        "diferencia_media": 0.0
+      },
+      {
+        "pagina": 55,
+        "texto_igual": true,
+        "pixels_iguales": true,
+        "diferencia_media": 0.0
+      },
+      {
+        "pagina": 56,
+        "texto_igual": true,
+        "pixels_iguales": true,
+        "diferencia_media": 0.0
+      },
+      {
+        "pagina": 57,
+        "texto_igual": true,
+        "pixels_iguales": true,
+        "diferencia_media": 0.0
+      },
+      {
+        "pagina": 58,
+        "texto_igual": true,
+        "pixels_iguales": true,
+        "diferencia_media": 0.0
+      },
+      {
+        "pagina": 59,
+        "texto_igual": true,
+        "pixels_iguales": false,
+        "diferencia_media": 0.7954609351432881
+      },
+      {
+        "pagina": 60,
+        "texto_igual": true,
+        "pixels_iguales": false,
+        "diferencia_media": 0.5771725490196079
+      },
+      {
+        "pagina": 61,
+        "texto_igual": true,
+        "pixels_iguales": true,
+        "diferencia_media": 0.0
+      },
+      {
+        "pagina": 62,
+        "texto_igual": true,
+        "pixels_iguales": true,
+        "diferencia_media": 0.0
+      },
+      {
+        "pagina": 63,
+        "texto_igual": true,
+        "pixels_iguales": true,
+        "diferencia_media": 0.0
+      },
+      {
+        "pagina": 64,
+        "texto_igual": true,
+        "pixels_iguales": true,
+        "diferencia_media": 0.0
+      },
+      {
+        "pagina": 65,
+        "texto_igual": true,
+        "pixels_iguales": false,
+        "diferencia_media": 0.28547601809954753
+      },
+      {
+        "pagina": 66,
+        "texto_igual": true,
+        "pixels_iguales": false,
+        "diferencia_media": 0.6646244343891402
+      },
+      {
+        "pagina": 67,
+        "texto_igual": true,
+        "pixels_iguales": true,
+        "diferencia_media": 0.0
+      },
+      {
+        "pagina": 68,
+        "texto_igual": true,
+        "pixels_iguales": true,
+        "diferencia_media": 0.0
+      },
+      {
+        "pagina": 69,
+        "texto_igual": true,
+        "pixels_iguales": true,
+        "diferencia_media": 0.0
+      },
+      {
+        "pagina": 70,
+        "texto_igual": true,
+        "pixels_iguales": true,
+        "diferencia_media": 0.0
+      },
+      {
+        "pagina": 71,
+        "texto_igual": true,
+        "pixels_iguales": true,
+        "diferencia_media": 0.0
+      },
+      {
+        "pagina": 72,
+        "texto_igual": true,
+        "pixels_iguales": true,
+        "diferencia_media": 0.0
+      },
+      {
+        "pagina": 73,
+        "texto_igual": true,
+        "pixels_iguales": true,
+        "diferencia_media": 0.0
+      },
+      {
+        "pagina": 74,
+        "texto_igual": true,
+        "pixels_iguales": false,
+        "diferencia_media": 0.25030346907993967
+      },
+      {
+        "pagina": 75,
+        "texto_igual": true,
+        "pixels_iguales": true,
+        "diferencia_media": 0.0
+      },
+      {
+        "pagina": 76,
+        "texto_igual": true,
+        "pixels_iguales": true,
+        "diferencia_media": 0.0
+      },
+      {
+        "pagina": 77,
+        "texto_igual": true,
+        "pixels_iguales": true,
+        "diferencia_media": 0.0
+      },
+      {
+        "pagina": 78,
+        "texto_igual": true,
+        "pixels_iguales": true,
+        "diferencia_media": 0.0
+      },
+      {
+        "pagina": 79,
+        "texto_igual": true,
+        "pixels_iguales": true,
+        "diferencia_media": 0.0
+      },
+      {
+        "pagina": 80,
+        "texto_igual": true,
+        "pixels_iguales": false,
+        "diferencia_media": 0.7611131221719457
+      },
+      {
+        "pagina": 81,
+        "texto_igual": true,
+        "pixels_iguales": true,
+        "diferencia_media": 0.0
+      },
+      {
+        "pagina": 82,
+        "texto_igual": true,
+        "pixels_iguales": true,
+        "diferencia_media": 0.0
+      },
+      {
+        "pagina": 83,
+        "texto_igual": true,
+        "pixels_iguales": false,
+        "diferencia_media": 0.6154467571644042
+      },
+      {
+        "pagina": 84,
+        "texto_igual": true,
+        "pixels_iguales": true,
+        "diferencia_media": 0.0
+      },
+      {
+        "pagina": 85,
+        "texto_igual": true,
+        "pixels_iguales": true,
+        "diferencia_media": 0.0
+      },
+      {
+        "pagina": 86,
+        "texto_igual": true,
+        "pixels_iguales": true,
+        "diferencia_media": 0.0
+      },
+      {
+        "pagina": 87,
+        "texto_igual": true,
+        "pixels_iguales": false,
+        "diferencia_media": 0.5866739064856712
+      },
+      {
+        "pagina": 88,
+        "texto_igual": true,
+        "pixels_iguales": true,
+        "diferencia_media": 0.0
+      },
+      {
+        "pagina": 89,
+        "texto_igual": true,
+        "pixels_iguales": true,
+        "diferencia_media": 0.0
+      },
+      {
+        "pagina": 90,
+        "texto_igual": true,
+        "pixels_iguales": true,
+        "diferencia_media": 0.0
+      },
+      {
+        "pagina": 91,
+        "texto_igual": true,
+        "pixels_iguales": true,
+        "diferencia_media": 0.0
+      },
+      {
+        "pagina": 92,
+        "texto_igual": true,
+        "pixels_iguales": false,
+        "diferencia_media": 0.9653779788838612
+      },
+      {
+        "pagina": 93,
+        "texto_igual": true,
+        "pixels_iguales": true,
+        "diferencia_media": 0.0
+      },
+      {
+        "pagina": 94,
+        "texto_igual": true,
+        "pixels_iguales": true,
+        "diferencia_media": 0.0
+      },
+      {
+        "pagina": 95,
+        "texto_igual": true,
+        "pixels_iguales": false,
+        "diferencia_media": 0.7395046757164404
+      },
+      {
+        "pagina": 96,
+        "texto_igual": true,
+        "pixels_iguales": true,
+        "diferencia_media": 0.0
+      },
+      {
+        "pagina": 97,
+        "texto_igual": true,
+        "pixels_iguales": false,
+        "diferencia_media": 0.8933897435897435
+      },
+      {
+        "pagina": 98,
+        "texto_igual": true,
+        "pixels_iguales": true,
+        "diferencia_media": 0.0
+      },
+      {
+        "pagina": 99,
+        "texto_igual": true,
+        "pixels_iguales": true,
+        "diferencia_media": 0.0
+      },
+      {
+        "pagina": 100,
+        "texto_igual": true,
+        "pixels_iguales": true,
+        "diferencia_media": 0.0
+      },
+      {
+        "pagina": 101,
+        "texto_igual": true,
+        "pixels_iguales": false,
+        "diferencia_media": 0.7476090497737556
+      },
+      {
+        "pagina": 102,
+        "texto_igual": true,
+        "pixels_iguales": true,
+        "diferencia_media": 0.0
+      },
+      {
+        "pagina": 103,
+        "texto_igual": true,
+        "pixels_iguales": true,
+        "diferencia_media": 0.0
+      },
+      {
+        "pagina": 104,
+        "texto_igual": true,
+        "pixels_iguales": true,
+        "diferencia_media": 0.0
+      },
+      {
+        "pagina": 105,
+        "texto_igual": true,
+        "pixels_iguales": false,
+        "diferencia_media": 0.24558220211161388
+      },
+      {
+        "pagina": 106,
+        "texto_igual": true,
+        "pixels_iguales": true,
+        "diferencia_media": 0.0
+      },
+      {
+        "pagina": 107,
+        "texto_igual": true,
+        "pixels_iguales": true,
+        "diferencia_media": 0.0
+      },
+      {
+        "pagina": 108,
+        "texto_igual": true,
+        "pixels_iguales": false,
+        "diferencia_media": 0.6721173453996984
+      },
+      {
+        "pagina": 109,
+        "texto_igual": true,
+        "pixels_iguales": false,
+        "diferencia_media": 0.7511417797888386
+      },
+      {
+        "pagina": 110,
+        "texto_igual": true,
+        "pixels_iguales": true,
+        "diferencia_media": 0.0
+      },
+      {
+        "pagina": 111,
+        "texto_igual": true,
+        "pixels_iguales": true,
+        "diferencia_media": 0.0
+      },
+      {
+        "pagina": 112,
+        "texto_igual": true,
+        "pixels_iguales": false,
+        "diferencia_media": 0.4036757164404223
+      },
+      {
+        "pagina": 113,
+        "texto_igual": true,
+        "pixels_iguales": false,
+        "diferencia_media": 0.7373942684766215
+      },
+      {
+        "pagina": 114,
+        "texto_igual": true,
+        "pixels_iguales": true,
+        "diferencia_media": 0.0
+      },
+      {
+        "pagina": 115,
+        "texto_igual": true,
+        "pixels_iguales": true,
+        "diferencia_media": 0.0
+      },
+      {
+        "pagina": 116,
+        "texto_igual": true,
+        "pixels_iguales": true,
+        "diferencia_media": 0.0
+      },
+      {
+        "pagina": 117,
+        "texto_igual": true,
+        "pixels_iguales": false,
+        "diferencia_media": 1.0249212669683259
+      },
+      {
+        "pagina": 118,
+        "texto_igual": true,
+        "pixels_iguales": false,
+        "diferencia_media": 0.8530217194570135
+      },
+      {
+        "pagina": 119,
+        "texto_igual": true,
+        "pixels_iguales": false,
+        "diferencia_media": 0.792703770739065
+      },
+      {
+        "pagina": 120,
+        "texto_igual": true,
+        "pixels_iguales": true,
+        "diferencia_media": 0.0
+      },
+      {
+        "pagina": 121,
+        "texto_igual": true,
+        "pixels_iguales": true,
+        "diferencia_media": 0.0
+      },
+      {
+        "pagina": 122,
+        "texto_igual": true,
+        "pixels_iguales": false,
+        "diferencia_media": 0.9299417797888386
+      },
+      {
+        "pagina": 123,
+        "texto_igual": true,
+        "pixels_iguales": true,
+        "diferencia_media": 0.0
+      },
+      {
+        "pagina": 124,
+        "texto_igual": true,
+        "pixels_iguales": true,
+        "diferencia_media": 0.0
+      },
+      {
+        "pagina": 125,
+        "texto_igual": true,
+        "pixels_iguales": true,
+        "diferencia_media": 0.0
+      },
+      {
+        "pagina": 126,
+        "texto_igual": true,
+        "pixels_iguales": true,
+        "diferencia_media": 0.0
+      },
+      {
+        "pagina": 127,
+        "texto_igual": true,
+        "pixels_iguales": true,
+        "diferencia_media": 0.0
+      },
+      {
+        "pagina": 128,
+        "texto_igual": true,
+        "pixels_iguales": true,
+        "diferencia_media": 0.0
+      },
+      {
+        "pagina": 129,
+        "texto_igual": true,
+        "pixels_iguales": false,
+        "diferencia_media": 0.8709822021116139
+      },
+      {
+        "pagina": 130,
+        "texto_igual": true,
+        "pixels_iguales": true,
+        "diferencia_media": 0.0
+      },
+      {
+        "pagina": 131,
+        "texto_igual": true,
+        "pixels_iguales": true,
+        "diferencia_media": 0.0
+      },
+      {
+        "pagina": 132,
+        "texto_igual": true,
+        "pixels_iguales": false,
+        "diferencia_media": 0.4980853695324283
+      },
+      {
+        "pagina": 133,
+        "texto_igual": true,
+        "pixels_iguales": false,
+        "diferencia_media": 0.8213511312217195
+      },
+      {
+        "pagina": 134,
+        "texto_igual": true,
+        "pixels_iguales": false,
+        "diferencia_media": 0.5741885369532428
+      },
+      {
+        "pagina": 135,
+        "texto_igual": true,
+        "pixels_iguales": true,
+        "diferencia_media": 0.0
+      },
+      {
+        "pagina": 136,
+        "texto_igual": true,
+        "pixels_iguales": true,
+        "diferencia_media": 0.0
+      },
+      {
+        "pagina": 137,
+        "texto_igual": true,
+        "pixels_iguales": true,
+        "diferencia_media": 0.0
+      },
+      {
+        "pagina": 138,
+        "texto_igual": true,
+        "pixels_iguales": false,
+        "diferencia_media": 0.9090503770739065
+      },
+      {
+        "pagina": 139,
+        "texto_igual": true,
+        "pixels_iguales": false,
+        "diferencia_media": 0.7305221719457013
+      },
+      {
+        "pagina": 140,
+        "texto_igual": true,
+        "pixels_iguales": true,
+        "diferencia_media": 0.0
+      },
+      {
+        "pagina": 141,
+        "texto_igual": true,
+        "pixels_iguales": true,
+        "diferencia_media": 0.0
+      },
+      {
+        "pagina": 142,
+        "texto_igual": true,
+        "pixels_iguales": true,
+        "diferencia_media": 0.0
+      },
+      {
+        "pagina": 143,
+        "texto_igual": true,
+        "pixels_iguales": false,
+        "diferencia_media": 0.6854811463046757
+      },
+      {
+        "pagina": 144,
+        "texto_igual": true,
+        "pixels_iguales": true,
+        "diferencia_media": 0.0
+      },
+      {
+        "pagina": 145,
+        "texto_igual": true,
+        "pixels_iguales": true,
+        "diferencia_media": 0.0
+      },
+      {
+        "pagina": 146,
+        "texto_igual": true,
+        "pixels_iguales": true,
+        "diferencia_media": 0.0
+      },
+      {
+        "pagina": 147,
+        "texto_igual": true,
+        "pixels_iguales": true,
+        "diferencia_media": 0.0
+      },
+      {
+        "pagina": 148,
+        "texto_igual": true,
+        "pixels_iguales": true,
+        "diferencia_media": 0.0
+      },
+      {
+        "pagina": 149,
+        "texto_igual": true,
+        "pixels_iguales": false,
+        "diferencia_media": 0.9512817496229261
+      },
+      {
+        "pagina": 150,
+        "texto_igual": true,
+        "pixels_iguales": true,
+        "diferencia_media": 0.0
+      },
+      {
+        "pagina": 151,
+        "texto_igual": true,
+        "pixels_iguales": false,
+        "diferencia_media": 0.33825339366515833
+      },
+      {
+        "pagina": 152,
+        "texto_igual": true,
+        "pixels_iguales": true,
+        "diferencia_media": 0.0
+      },
+      {
+        "pagina": 153,
+        "texto_igual": true,
+        "pixels_iguales": true,
+        "diferencia_media": 0.0
+      },
+      {
+        "pagina": 154,
+        "texto_igual": true,
+        "pixels_iguales": true,
+        "diferencia_media": 0.0
+      },
+      {
+        "pagina": 155,
+        "texto_igual": true,
+        "pixels_iguales": true,
+        "diferencia_media": 0.0
+      }
+    ],
+    "PLANES_BLOQUE_III_A4": [
+      {
+        "pagina": 1,
+        "texto_igual": true,
+        "pixels_iguales": true,
+        "diferencia_media": 0.0
+      },
+      {
+        "pagina": 2,
+        "texto_igual": true,
+        "pixels_iguales": true,
+        "diferencia_media": 0.0
+      },
+      {
+        "pagina": 3,
+        "texto_igual": true,
+        "pixels_iguales": true,
+        "diferencia_media": 0.0
+      },
+      {
+        "pagina": 4,
+        "texto_igual": true,
+        "pixels_iguales": true,
+        "diferencia_media": 0.0
+      },
+      {
+        "pagina": 5,
+        "texto_igual": true,
+        "pixels_iguales": true,
+        "diferencia_media": 0.0
+      },
+      {
+        "pagina": 6,
+        "texto_igual": true,
+        "pixels_iguales": true,
+        "diferencia_media": 0.0
+      },
+      {
+        "pagina": 7,
+        "texto_igual": true,
+        "pixels_iguales": true,
+        "diferencia_media": 0.0
+      },
+      {
+        "pagina": 8,
+        "texto_igual": true,
+        "pixels_iguales": true,
+        "diferencia_media": 0.0
+      },
+      {
+        "pagina": 9,
+        "texto_igual": true,
+        "pixels_iguales": true,
+        "diferencia_media": 0.0
+      },
+      {
+        "pagina": 10,
+        "texto_igual": true,
+        "pixels_iguales": true,
+        "diferencia_media": 0.0
+      },
+      {
+        "pagina": 11,
+        "texto_igual": true,
+        "pixels_iguales": true,
+        "diferencia_media": 0.0
+      },
+      {
+        "pagina": 12,
+        "texto_igual": true,
+        "pixels_iguales": true,
+        "diferencia_media": 0.0
+      },
+      {
+        "pagina": 13,
+        "texto_igual": true,
+        "pixels_iguales": true,
+        "diferencia_media": 0.0
+      },
+      {
+        "pagina": 14,
+        "texto_igual": true,
+        "pixels_iguales": true,
+        "diferencia_media": 0.0
+      },
+      {
+        "pagina": 15,
+        "texto_igual": true,
+        "pixels_iguales": true,
+        "diferencia_media": 0.0
+      },
+      {
+        "pagina": 16,
+        "texto_igual": true,
+        "pixels_iguales": true,
+        "diferencia_media": 0.0
+      },
+      {
+        "pagina": 17,
+        "texto_igual": true,
+        "pixels_iguales": true,
+        "diferencia_media": 0.0
+      },
+      {
+        "pagina": 18,
+        "texto_igual": true,
+        "pixels_iguales": true,
+        "diferencia_media": 0.0
+      },
+      {
+        "pagina": 19,
+        "texto_igual": true,
+        "pixels_iguales": true,
+        "diferencia_media": 0.0
+      },
+      {
+        "pagina": 20,
+        "texto_igual": true,
+        "pixels_iguales": true,
+        "diferencia_media": 0.0
+      }
+    ],
+    "SOLUCIONARIO_BLOQUE_III_A4": [
+      {
+        "pagina": 1,
+        "texto_igual": true,
+        "pixels_iguales": true,
+        "diferencia_media": 0.0
+      },
+      {
+        "pagina": 2,
+        "texto_igual": true,
+        "pixels_iguales": true,
+        "diferencia_media": 0.0
+      },
+      {
+        "pagina": 3,
+        "texto_igual": true,
+        "pixels_iguales": true,
+        "diferencia_media": 0.0
+      },
+      {
+        "pagina": 4,
+        "texto_igual": true,
+        "pixels_iguales": true,
+        "diferencia_media": 0.0
+      },
+      {
+        "pagina": 5,
+        "texto_igual": true,
+        "pixels_iguales": true,
+        "diferencia_media": 0.0
+      },
+      {
+        "pagina": 6,
+        "texto_igual": true,
+        "pixels_iguales": true,
+        "diferencia_media": 0.0
+      },
+      {
+        "pagina": 7,
+        "texto_igual": true,
+        "pixels_iguales": true,
+        "diferencia_media": 0.0
+      },
+      {
+        "pagina": 8,
+        "texto_igual": true,
+        "pixels_iguales": false,
+        "diferencia_media": 0.8563802850380843
+      },
+      {
+        "pagina": 9,
+        "texto_igual": true,
+        "pixels_iguales": true,
+        "diferencia_media": 0.0
+      },
+      {
+        "pagina": 10,
+        "texto_igual": true,
+        "pixels_iguales": true,
+        "diferencia_media": 0.0
+      }
+    ],
+    "TOMO_BLOQUE_III_oficio": [
+      {
+        "pagina": 1,
+        "texto_igual": true,
+        "pixels_iguales": false,
+        "diferencia_media": 2.8866455505279034
+      },
+      {
+        "pagina": 2,
+        "texto_igual": true,
+        "pixels_iguales": true,
+        "diferencia_media": 0.0
+      },
+      {
+        "pagina": 3,
+        "texto_igual": true,
+        "pixels_iguales": true,
+        "diferencia_media": 0.0
+      },
+      {
+        "pagina": 4,
+        "texto_igual": true,
+        "pixels_iguales": true,
+        "diferencia_media": 0.0
+      },
+      {
+        "pagina": 5,
+        "texto_igual": true,
+        "pixels_iguales": false,
+        "diferencia_media": 0.7611131221719457
+      },
+      {
+        "pagina": 6,
+        "texto_igual": true,
+        "pixels_iguales": true,
+        "diferencia_media": 0.0
+      },
+      {
+        "pagina": 7,
+        "texto_igual": true,
+        "pixels_iguales": true,
+        "diferencia_media": 0.0
+      },
+      {
+        "pagina": 8,
+        "texto_igual": true,
+        "pixels_iguales": false,
+        "diferencia_media": 0.6154467571644042
+      },
+      {
+        "pagina": 9,
+        "texto_igual": true,
+        "pixels_iguales": true,
+        "diferencia_media": 0.0
+      },
+      {
+        "pagina": 10,
+        "texto_igual": true,
+        "pixels_iguales": true,
+        "diferencia_media": 0.0
+      },
+      {
+        "pagina": 11,
+        "texto_igual": true,
+        "pixels_iguales": true,
+        "diferencia_media": 0.0
+      },
+      {
+        "pagina": 12,
+        "texto_igual": true,
+        "pixels_iguales": false,
+        "diferencia_media": 0.5866739064856712
+      },
+      {
+        "pagina": 13,
+        "texto_igual": true,
+        "pixels_iguales": true,
+        "diferencia_media": 0.0
+      },
+      {
+        "pagina": 14,
+        "texto_igual": true,
+        "pixels_iguales": true,
+        "diferencia_media": 0.0
+      },
+      {
+        "pagina": 15,
+        "texto_igual": true,
+        "pixels_iguales": true,
+        "diferencia_media": 0.0
+      },
+      {
+        "pagina": 16,
+        "texto_igual": true,
+        "pixels_iguales": true,
+        "diferencia_media": 0.0
+      },
+      {
+        "pagina": 17,
+        "texto_igual": true,
+        "pixels_iguales": false,
+        "diferencia_media": 0.9653779788838612
+      },
+      {
+        "pagina": 18,
+        "texto_igual": true,
+        "pixels_iguales": true,
+        "diferencia_media": 0.0
+      },
+      {
+        "pagina": 19,
+        "texto_igual": true,
+        "pixels_iguales": true,
+        "diferencia_media": 0.0
+      },
+      {
+        "pagina": 20,
+        "texto_igual": true,
+        "pixels_iguales": false,
+        "diferencia_media": 0.7395046757164404
+      },
+      {
+        "pagina": 21,
+        "texto_igual": true,
+        "pixels_iguales": true,
+        "diferencia_media": 0.0
+      },
+      {
+        "pagina": 22,
+        "texto_igual": true,
+        "pixels_iguales": false,
+        "diferencia_media": 0.8933897435897435
+      },
+      {
+        "pagina": 23,
+        "texto_igual": true,
+        "pixels_iguales": true,
+        "diferencia_media": 0.0
+      },
+      {
+        "pagina": 24,
+        "texto_igual": true,
+        "pixels_iguales": true,
+        "diferencia_media": 0.0
+      },
+      {
+        "pagina": 25,
+        "texto_igual": true,
+        "pixels_iguales": true,
+        "diferencia_media": 0.0
+      },
+      {
+        "pagina": 26,
+        "texto_igual": true,
+        "pixels_iguales": false,
+        "diferencia_media": 0.7476090497737556
+      },
+      {
+        "pagina": 27,
+        "texto_igual": true,
+        "pixels_iguales": true,
+        "diferencia_media": 0.0
+      },
+      {
+        "pagina": 28,
+        "texto_igual": true,
+        "pixels_iguales": true,
+        "diferencia_media": 0.0
+      },
+      {
+        "pagina": 29,
+        "texto_igual": true,
+        "pixels_iguales": true,
+        "diferencia_media": 0.0
+      },
+      {
+        "pagina": 30,
+        "texto_igual": true,
+        "pixels_iguales": false,
+        "diferencia_media": 0.24558220211161388
+      },
+      {
+        "pagina": 31,
+        "texto_igual": true,
+        "pixels_iguales": true,
+        "diferencia_media": 0.0
+      },
+      {
+        "pagina": 32,
+        "texto_igual": true,
+        "pixels_iguales": true,
+        "diferencia_media": 0.0
+      },
+      {
+        "pagina": 33,
+        "texto_igual": true,
+        "pixels_iguales": false,
+        "diferencia_media": 0.6721173453996984
+      },
+      {
+        "pagina": 34,
+        "texto_igual": true,
+        "pixels_iguales": false,
+        "diferencia_media": 0.7511417797888386
+      },
+      {
+        "pagina": 35,
+        "texto_igual": true,
+        "pixels_iguales": true,
+        "diferencia_media": 0.0
+      },
+      {
+        "pagina": 36,
+        "texto_igual": true,
+        "pixels_iguales": true,
+        "diferencia_media": 0.0
+      },
+      {
+        "pagina": 37,
+        "texto_igual": true,
+        "pixels_iguales": false,
+        "diferencia_media": 0.4036757164404223
+      },
+      {
+        "pagina": 38,
+        "texto_igual": true,
+        "pixels_iguales": false,
+        "diferencia_media": 0.7373942684766215
+      },
+      {
+        "pagina": 39,
+        "texto_igual": true,
+        "pixels_iguales": true,
+        "diferencia_media": 0.0
+      },
+      {
+        "pagina": 40,
+        "texto_igual": true,
+        "pixels_iguales": true,
+        "diferencia_media": 0.0
+      }
+    ],
+    "PLANES_BLOQUE_IV_A4": [
+      {
+        "pagina": 1,
+        "texto_igual": true,
+        "pixels_iguales": true,
+        "diferencia_media": 0.0
+      },
+      {
+        "pagina": 2,
+        "texto_igual": true,
+        "pixels_iguales": true,
+        "diferencia_media": 0.0
+      },
+      {
+        "pagina": 3,
+        "texto_igual": true,
+        "pixels_iguales": true,
+        "diferencia_media": 0.0
+      },
+      {
+        "pagina": 4,
+        "texto_igual": true,
+        "pixels_iguales": true,
+        "diferencia_media": 0.0
+      },
+      {
+        "pagina": 5,
+        "texto_igual": true,
+        "pixels_iguales": true,
+        "diferencia_media": 0.0
+      },
+      {
+        "pagina": 6,
+        "texto_igual": true,
+        "pixels_iguales": true,
+        "diferencia_media": 0.0
+      },
+      {
+        "pagina": 7,
+        "texto_igual": true,
+        "pixels_iguales": true,
+        "diferencia_media": 0.0
+      },
+      {
+        "pagina": 8,
+        "texto_igual": true,
+        "pixels_iguales": true,
+        "diferencia_media": 0.0
+      },
+      {
+        "pagina": 9,
+        "texto_igual": true,
+        "pixels_iguales": true,
+        "diferencia_media": 0.0
+      },
+      {
+        "pagina": 10,
+        "texto_igual": true,
+        "pixels_iguales": true,
+        "diferencia_media": 0.0
+      },
+      {
+        "pagina": 11,
+        "texto_igual": true,
+        "pixels_iguales": true,
+        "diferencia_media": 0.0
+      },
+      {
+        "pagina": 12,
+        "texto_igual": true,
+        "pixels_iguales": true,
+        "diferencia_media": 0.0
+      },
+      {
+        "pagina": 13,
+        "texto_igual": true,
+        "pixels_iguales": true,
+        "diferencia_media": 0.0
+      },
+      {
+        "pagina": 14,
+        "texto_igual": true,
+        "pixels_iguales": true,
+        "diferencia_media": 0.0
+      },
+      {
+        "pagina": 15,
+        "texto_igual": true,
+        "pixels_iguales": true,
+        "diferencia_media": 0.0
+      },
+      {
+        "pagina": 16,
+        "texto_igual": true,
+        "pixels_iguales": true,
+        "diferencia_media": 0.0
+      },
+      {
+        "pagina": 17,
+        "texto_igual": true,
+        "pixels_iguales": true,
+        "diferencia_media": 0.0
+      },
+      {
+        "pagina": 18,
+        "texto_igual": true,
+        "pixels_iguales": true,
+        "diferencia_media": 0.0
+      },
+      {
+        "pagina": 19,
+        "texto_igual": true,
+        "pixels_iguales": true,
+        "diferencia_media": 0.0
+      },
+      {
+        "pagina": 20,
+        "texto_igual": true,
+        "pixels_iguales": true,
+        "diferencia_media": 0.0
+      }
+    ],
+    "SOLUCIONARIO_BLOQUE_IV_A4": [
+      {
+        "pagina": 1,
+        "texto_igual": true,
+        "pixels_iguales": true,
+        "diferencia_media": 0.0
+      },
+      {
+        "pagina": 2,
+        "texto_igual": true,
+        "pixels_iguales": true,
+        "diferencia_media": 0.0
+      },
+      {
+        "pagina": 3,
+        "texto_igual": true,
+        "pixels_iguales": true,
+        "diferencia_media": 0.0
+      },
+      {
+        "pagina": 4,
+        "texto_igual": true,
+        "pixels_iguales": false,
+        "diferencia_media": 0.8905576397716665
+      },
+      {
+        "pagina": 5,
+        "texto_igual": true,
+        "pixels_iguales": true,
+        "diferencia_media": 0.0
+      },
+      {
+        "pagina": 6,
+        "texto_igual": true,
+        "pixels_iguales": true,
+        "diferencia_media": 0.0
+      },
+      {
+        "pagina": 7,
+        "texto_igual": true,
+        "pixels_iguales": true,
+        "diferencia_media": 0.0
+      },
+      {
+        "pagina": 8,
+        "texto_igual": true,
+        "pixels_iguales": true,
+        "diferencia_media": 0.0
+      },
+      {
+        "pagina": 9,
+        "texto_igual": true,
+        "pixels_iguales": false,
+        "diferencia_media": 0.8506647099150122
+      },
+      {
+        "pagina": 10,
+        "texto_igual": true,
+        "pixels_iguales": true,
+        "diferencia_media": 0.0
+      },
+      {
+        "pagina": 11,
+        "texto_igual": true,
+        "pixels_iguales": true,
+        "diferencia_media": 0.0
+      }
+    ],
+    "TOMO_BLOQUE_IV_oficio": [
+      {
+        "pagina": 1,
+        "texto_igual": true,
+        "pixels_iguales": false,
+        "diferencia_media": 2.8866455505279034
+      },
+      {
+        "pagina": 2,
+        "texto_igual": true,
+        "pixels_iguales": true,
+        "diferencia_media": 0.0
+      },
+      {
+        "pagina": 3,
+        "texto_igual": true,
+        "pixels_iguales": true,
+        "diferencia_media": 0.0
+      },
+      {
+        "pagina": 4,
+        "texto_igual": true,
+        "pixels_iguales": true,
+        "diferencia_media": 0.0
+      },
+      {
+        "pagina": 5,
+        "texto_igual": true,
+        "pixels_iguales": false,
+        "diferencia_media": 1.0249212669683259
+      },
+      {
+        "pagina": 6,
+        "texto_igual": true,
+        "pixels_iguales": false,
+        "diferencia_media": 0.8530217194570135
+      },
+      {
+        "pagina": 7,
+        "texto_igual": true,
+        "pixels_iguales": false,
+        "diferencia_media": 0.792703770739065
+      },
+      {
+        "pagina": 8,
+        "texto_igual": true,
+        "pixels_iguales": true,
+        "diferencia_media": 0.0
+      },
+      {
+        "pagina": 9,
+        "texto_igual": true,
+        "pixels_iguales": true,
+        "diferencia_media": 0.0
+      },
+      {
+        "pagina": 10,
+        "texto_igual": true,
+        "pixels_iguales": false,
+        "diferencia_media": 0.9299417797888386
+      },
+      {
+        "pagina": 11,
+        "texto_igual": true,
+        "pixels_iguales": true,
+        "diferencia_media": 0.0
+      },
+      {
+        "pagina": 12,
+        "texto_igual": true,
+        "pixels_iguales": true,
+        "diferencia_media": 0.0
+      },
+      {
+        "pagina": 13,
+        "texto_igual": true,
+        "pixels_iguales": true,
+        "diferencia_media": 0.0
+      },
+      {
+        "pagina": 14,
+        "texto_igual": true,
+        "pixels_iguales": true,
+        "diferencia_media": 0.0
+      },
+      {
+        "pagina": 15,
+        "texto_igual": true,
+        "pixels_iguales": true,
+        "diferencia_media": 0.0
+      },
+      {
+        "pagina": 16,
+        "texto_igual": true,
+        "pixels_iguales": true,
+        "diferencia_media": 0.0
+      },
+      {
+        "pagina": 17,
+        "texto_igual": true,
+        "pixels_iguales": false,
+        "diferencia_media": 0.8709822021116139
+      },
+      {
+        "pagina": 18,
+        "texto_igual": true,
+        "pixels_iguales": true,
+        "diferencia_media": 0.0
+      },
+      {
+        "pagina": 19,
+        "texto_igual": true,
+        "pixels_iguales": true,
+        "diferencia_media": 0.0
+      },
+      {
+        "pagina": 20,
+        "texto_igual": true,
+        "pixels_iguales": false,
+        "diferencia_media": 0.4980853695324283
+      },
+      {
+        "pagina": 21,
+        "texto_igual": true,
+        "pixels_iguales": false,
+        "diferencia_media": 0.8213511312217195
+      },
+      {
+        "pagina": 22,
+        "texto_igual": true,
+        "pixels_iguales": false,
+        "diferencia_media": 0.5741885369532428
+      },
+      {
+        "pagina": 23,
+        "texto_igual": true,
+        "pixels_iguales": true,
+        "diferencia_media": 0.0
+      },
+      {
+        "pagina": 24,
+        "texto_igual": true,
+        "pixels_iguales": true,
+        "diferencia_media": 0.0
+      },
+      {
+        "pagina": 25,
+        "texto_igual": true,
+        "pixels_iguales": true,
+        "diferencia_media": 0.0
+      },
+      {
+        "pagina": 26,
+        "texto_igual": true,
+        "pixels_iguales": false,
+        "diferencia_media": 0.9090503770739065
+      },
+      {
+        "pagina": 27,
+        "texto_igual": true,
+        "pixels_iguales": false,
+        "diferencia_media": 0.7305221719457013
+      },
+      {
+        "pagina": 28,
+        "texto_igual": true,
+        "pixels_iguales": true,
+        "diferencia_media": 0.0
+      },
+      {
+        "pagina": 29,
+        "texto_igual": true,
+        "pixels_iguales": true,
+        "diferencia_media": 0.0
+      },
+      {
+        "pagina": 30,
+        "texto_igual": true,
+        "pixels_iguales": true,
+        "diferencia_media": 0.0
+      },
+      {
+        "pagina": 31,
+        "texto_igual": true,
+        "pixels_iguales": false,
+        "diferencia_media": 0.6854811463046757
+      },
+      {
+        "pagina": 32,
+        "texto_igual": true,
+        "pixels_iguales": true,
+        "diferencia_media": 0.0
+      },
+      {
+        "pagina": 33,
+        "texto_igual": true,
+        "pixels_iguales": true,
+        "diferencia_media": 0.0
+      },
+      {
+        "pagina": 34,
+        "texto_igual": true,
+        "pixels_iguales": true,
+        "diferencia_media": 0.0
+      },
+      {
+        "pagina": 35,
+        "texto_igual": true,
+        "pixels_iguales": true,
+        "diferencia_media": 0.0
+      },
+      {
+        "pagina": 36,
+        "texto_igual": true,
+        "pixels_iguales": true,
+        "diferencia_media": 0.0
+      },
+      {
+        "pagina": 37,
+        "texto_igual": true,
+        "pixels_iguales": false,
+        "diferencia_media": 0.9512817496229261
+      },
+      {
+        "pagina": 38,
+        "texto_igual": true,
+        "pixels_iguales": true,
+        "diferencia_media": 0.0
+      },
+      {
+        "pagina": 39,
+        "texto_igual": true,
+        "pixels_iguales": false,
+        "diferencia_media": 0.33825339366515833
+      },
+      {
+        "pagina": 40,
+        "texto_igual": true,
+        "pixels_iguales": true,
+        "diferencia_media": 0.0
+      },
+      {
+        "pagina": 41,
+        "texto_igual": true,
+        "pixels_iguales": true,
+        "diferencia_media": 0.0
+      },
+      {
+        "pagina": 42,
+        "texto_igual": true,
+        "pixels_iguales": true,
+        "diferencia_media": 0.0
+      },
+      {
+        "pagina": 43,
+        "texto_igual": true,
+        "pixels_iguales": true,
+        "diferencia_media": 0.0
+      }
+    ]
+  },
+  "fuera": 0,
+  "diferencias_livianas_anual": 55,
+  "laminas_livianas": 14
+}

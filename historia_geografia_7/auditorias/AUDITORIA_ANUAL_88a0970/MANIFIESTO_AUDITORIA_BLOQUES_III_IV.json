@@ -1,0 +1,44 @@
+{
+  "fecha": "2026-10-15",
+  "commit_anual": "88a097011d6004cb67d927f033ffaf13754b634c",
+  "commit_III_preservado": "372362ed8cc27352c758bc6c1270ec127a812f40",
+  "antecedente_IV_no_auditado_por_separado": "f1df4c279f2fde2f0b6b8a191614e8fd8f1d132c",
+  "dictamenes": {
+    "III": "NO APTO",
+    "IV": "NO APTO",
+    "anual": "NO APTO"
+  },
+  "hallazgos": {
+    "unicos": 18,
+    "abiertos": 16,
+    "mayores_abiertos": 5,
+    "menores_abiertos": 11,
+    "resueltos": 2
+  },
+  "paginas_anuales": {
+    "MATRIZ_CURRICULAR_36_ENCUENTROS_A4": 2,
+    "PLANES_ANUAL_A4": 74,
+    "PLAN_ANUAL_oficio": 6,
+    "MATRIZ_CURRICULAR_36_ENCUENTROS_A4_REVISION": 2,
+    "PLANES_ANUAL_A4_REVISION": 74,
+    "PLAN_ANUAL_oficio_REVISION": 6,
+    "SOLUCIONARIO_ANUAL_A4_REVISION": 40,
+    "TOMO_ANUAL_oficio_REVISION": 155,
+    "SOLUCIONARIO_ANUAL_A4": 40,
+    "TOMO_ANUAL_oficio": 155
+  },
+  "controles_propios": {
+    "estructura": 242,
+    "indices": 207,
+    "fallos_estructura": 0,
+    "fallos_indices": 0
+  },
+  "declaracion_productor": {
+    "encuentros": 6385,
+    "consolidacion": 1031,
+    "reejecutada_independientemente": false
+  },
+  "metodo_visual": "Render100dpi; láminas de4 y ampliación de folios críticos; grises digitales sin prueba física",
+  "fuentes_archivos": 150,
+  "archivos_originales_modificados": false
+}

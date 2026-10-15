@@ -1,0 +1,1202 @@
+[
+  {
+    "archivo": "historia_geografia_7/05_produccion_anual/CONDICIONES_PRODUCCION.md",
+    "commit": "88a097011d6004cb67d927f033ffaf13754b634c",
+    "local": "fuente/CONDICIONES_PRODUCCION.md",
+    "bytes": 7952,
+    "git_blob_sha1": "bb87f6d2ff9dec25376628bbc9df58445d62c646",
+    "sha256": "0960e03cacbc306224fb3ef434f0c26532c2be750ec2bd292e50c6e2e6cc2875"
+  },
+  {
+    "archivo": "historia_geografia_7/05_produccion_anual/ESTADO_36_ENCUENTROS.md",
+    "commit": "88a097011d6004cb67d927f033ffaf13754b634c",
+    "local": "fuente/ESTADO_36_ENCUENTROS.md",
+    "bytes": 4796,
+    "git_blob_sha1": "818df913521f0f46b30a6eb57000c475f00a5dac",
+    "sha256": "43742b2e91924ecc4874ee629526cad31854f07ff03a53e66483a2c0ab9e5c86"
+  },
+  {
+    "archivo": "historia_geografia_7/05_produccion_anual/MANIFIESTO.json",
+    "commit": "88a097011d6004cb67d927f033ffaf13754b634c",
+    "local": "fuente/MANIFIESTO.json",
+    "bytes": 40053,
+    "git_blob_sha1": "656377d97588f75b40f5d8310e4c5b35a46928a4",
+    "sha256": "e0ad6f9a629ca58f89fa587134171e172a64cbcf6d154dadda9ff21c354dc2a3"
+  },
+  {
+    "archivo": "historia_geografia_7/05_produccion_anual/README.md",
+    "commit": "88a097011d6004cb67d927f033ffaf13754b634c",
+    "local": "fuente/README.md",
+    "bytes": 2292,
+    "git_blob_sha1": "5fa948be388b438c48c3afa20aec6f2b8ddeaf74",
+    "sha256": "e8a765b850edeba8d9d2b7ccf25d151467dd6e594e4538358fb8dc6cb4ee566f"
+  },
+  {
+    "archivo": "historia_geografia_7/05_produccion_anual/anual/INFORME_CONSOLIDACION.md",
+    "commit": "88a097011d6004cb67d927f033ffaf13754b634c",
+    "local": "fuente/anual/INFORME_CONSOLIDACION.md",
+    "bytes": 8251,
+    "git_blob_sha1": "a35e2b7dff4033184283d2d5d4dbe41f17856b8a",
+    "sha256": "e9dd4b2e9bef924770774c410359d2a6e0c23cdc41a4dd485aa7797b604cacbc"
+  },
+  {
+    "archivo": "historia_geografia_7/05_produccion_anual/anual/MANIFIESTO_VERSIONES.md",
+    "commit": "88a097011d6004cb67d927f033ffaf13754b634c",
+    "local": "fuente/anual/MANIFIESTO_VERSIONES.md",
+    "bytes": 3808,
+    "git_blob_sha1": "387529f3dd5f59352525a2940d1ac10342e95170",
+    "sha256": "6aa26213f3ed6eea9b7244b70b8b9d1b891bef583e0189d68e268d38232ab318"
+  },
+  {
+    "archivo": "historia_geografia_7/05_produccion_anual/anual/datos/controles.json",
+    "commit": "88a097011d6004cb67d927f033ffaf13754b634c",
+    "local": "fuente/anual/datos/controles.json",
+    "bytes": 944,
+    "git_blob_sha1": "b6bb48759b0763ffb8fbb32f8ff784c3e372cb49",
+    "sha256": "74daca9a8a6dbae8c7a58e23c68c3a3dded6177827d3c22aa62440f5284f8abf"
+  },
+  {
+    "archivo": "historia_geografia_7/05_produccion_anual/anual/datos/controles_consolidacion.json",
+    "commit": "88a097011d6004cb67d927f033ffaf13754b634c",
+    "local": "fuente/anual/datos/controles_consolidacion.json",
+    "bytes": 614,
+    "git_blob_sha1": "2c9cd27c147a9b21a96cf88bb43e7499dbfe831f",
+    "sha256": "c39b85b8a4fc564f66596367ed58eeebff3d7c92b1aa3473af5f98496b81625a"
+  },
+  {
+    "archivo": "historia_geografia_7/05_produccion_anual/anual/datos/paginas_tomo.json",
+    "commit": "88a097011d6004cb67d927f033ffaf13754b634c",
+    "local": "fuente/anual/datos/paginas_tomo.json",
+    "bytes": 3546,
+    "git_blob_sha1": "9503c58e970b9a3c196420676bc06fda5b07b85c",
+    "sha256": "e3a7cf43b8bf9e5e25a4f4936a5c18a593d43c870514373ec62d2de270acf6e7"
+  },
+  {
+    "archivo": "historia_geografia_7/05_produccion_anual/anual/datos/trazabilidad.json",
+    "commit": "88a097011d6004cb67d927f033ffaf13754b634c",
+    "local": "fuente/anual/datos/trazabilidad.json",
+    "bytes": 30097,
+    "git_blob_sha1": "0a69bdcca1a04c277e9e798f970962c3b9f8a336",
+    "sha256": "4673d78954c0480077903ae0a7de6729c298ad30f47f66576299272a8568b2dd"
+  },
+  {
+    "archivo": "historia_geografia_7/05_produccion_anual/anual/figuras/eval_u1_mapa.png",
+    "commit": "88a097011d6004cb67d927f033ffaf13754b634c",
+    "local": "fuente/anual/figuras/eval_u1_mapa.png",
+    "bytes": 130191,
+    "git_blob_sha1": "9bb6516cda743986582e0c484d548e628a6543ad",
+    "sha256": "7138c88b9f8499d6f176dbc17ef061cbf37691630bc6cba26af40a323cf7d556"
+  },
+  {
+    "archivo": "historia_geografia_7/05_produccion_anual/anual/figuras/eval_u1_mapa_clave.png",
+    "commit": "88a097011d6004cb67d927f033ffaf13754b634c",
+    "local": "fuente/anual/figuras/eval_u1_mapa_clave.png",
+    "bytes": 177867,
+    "git_blob_sha1": "4461cf1e32a0491d87ebba99e0a785a6af65ad50",
+    "sha256": "ab4bb6340ddff1bc2b6a9562e30cf29ab4f520f7e25e8cace9c484084596672c"
+  },
+  {
+    "archivo": "historia_geografia_7/05_produccion_anual/anual/figuras/eval_u2_mapa.png",
+    "commit": "88a097011d6004cb67d927f033ffaf13754b634c",
+    "local": "fuente/anual/figuras/eval_u2_mapa.png",
+    "bytes": 216776,
+    "git_blob_sha1": "e173067919e6e54ea3d30b10ded742218e066d5d",
+    "sha256": "c980be72e366c9bd4967920f877bdbb1900d16d3d2f48f5915c016a3db015e51"
+  },
+  {
+    "archivo": "historia_geografia_7/05_produccion_anual/anual/figuras/eval_u2_mapa_clave.png",
+    "commit": "88a097011d6004cb67d927f033ffaf13754b634c",
+    "local": "fuente/anual/figuras/eval_u2_mapa_clave.png",
+    "bytes": 257385,
+    "git_blob_sha1": "116a2209e53a4d55029f1765523838647a57e6c2",
+    "sha256": "8083b58368df0f2cbba9d4869577348be57452ed54bcc013392b6d47cb87d828"
+  },
+  {
+    "archivo": "historia_geografia_7/05_produccion_anual/anual/figuras/eval_u3_mapa.png",
+    "commit": "88a097011d6004cb67d927f033ffaf13754b634c",
+    "local": "fuente/anual/figuras/eval_u3_mapa.png",
+    "bytes": 202103,
+    "git_blob_sha1": "33613d4a54019617100a36c02bf410a28149bbbc",
+    "sha256": "eb04863200db3e637bc362e3465f884cde7014860a76aece64a3a12ac6806b4d"
+  },
+  {
+    "archivo": "historia_geografia_7/05_produccion_anual/anual/figuras/eval_u3_mapa_clave.png",
+    "commit": "88a097011d6004cb67d927f033ffaf13754b634c",
+    "local": "fuente/anual/figuras/eval_u3_mapa_clave.png",
+    "bytes": 287587,
+    "git_blob_sha1": "2a97a6c6f61ec5aabca35363de95fa51617e09d2",
+    "sha256": "61b92256f93669cd3d5c068b67be901d1669e3543f385da8d86ee4412384126c"
+  },
+  {
+    "archivo": "historia_geografia_7/05_produccion_anual/anual/figuras/eval_u4_mapa.png",
+    "commit": "88a097011d6004cb67d927f033ffaf13754b634c",
+    "local": "fuente/anual/figuras/eval_u4_mapa.png",
+    "bytes": 201805,
+    "git_blob_sha1": "ca98b345f7eabc287338c2df541f0016a28951b4",
+    "sha256": "e223d15dc9697bcf902db189c6e3ca39074045e284ae8f4e6c16a1ad952b0151"
+  },
+  {
+    "archivo": "historia_geografia_7/05_produccion_anual/anual/figuras/eval_u4_mapa_clave.png",
+    "commit": "88a097011d6004cb67d927f033ffaf13754b634c",
+    "local": "fuente/anual/figuras/eval_u4_mapa_clave.png",
+    "bytes": 391753,
+    "git_blob_sha1": "3b03939b07c50ec2841f3e1dd652c4c5a24565f5",
+    "sha256": "860a34fc5bdbb762be0c5efee0e1bb70a61809fff76de579b44f147f54fad733"
+  },
+  {
+    "archivo": "historia_geografia_7/05_produccion_anual/anual/figuras/eval_u5_mapa_clave.png",
+    "commit": "88a097011d6004cb67d927f033ffaf13754b634c",
+    "local": "fuente/anual/figuras/eval_u5_mapa_clave.png",
+    "bytes": 378522,
+    "git_blob_sha1": "1ec5edfaa97555d4998515242ae9253e030cb3e1",
+    "sha256": "662269ba840d27e4089a757609015e3fe1262b13e27b789983e83a42805e2d0b"
+  },
+  {
+    "archivo": "historia_geografia_7/05_produccion_anual/anual/figuras/eval_u5_mapa_mudo.png",
+    "commit": "88a097011d6004cb67d927f033ffaf13754b634c",
+    "local": "fuente/anual/figuras/eval_u5_mapa_mudo.png",
+    "bytes": 211406,
+    "git_blob_sha1": "803e3d3013d3dbe7789cd6c18fa022718bb3d76d",
+    "sha256": "2baf8aca139a2a99a092aa4493d0d65f868f65c7023b566daa1684fde02ca3f4"
+  },
+  {
+    "archivo": "historia_geografia_7/05_produccion_anual/anual/figuras/eval_u5_rios_numerados.png",
+    "commit": "88a097011d6004cb67d927f033ffaf13754b634c",
+    "local": "fuente/anual/figuras/eval_u5_rios_numerados.png",
+    "bytes": 344234,
+    "git_blob_sha1": "11bd088e15111adba9d29d62b95b9ccb199f20bc",
+    "sha256": "3ba81f19c9ff098522fc7c82f521e18df5a275cbb57cb5a8f63b68c661e248c1"
+  },
+  {
+    "archivo": "historia_geografia_7/05_produccion_anual/anual/figuras/eval_u6_mapa.png",
+    "commit": "88a097011d6004cb67d927f033ffaf13754b634c",
+    "local": "fuente/anual/figuras/eval_u6_mapa.png",
+    "bytes": 208125,
+    "git_blob_sha1": "f3308c65a28286b1a64ca71c65eacb0f9e461b55",
+    "sha256": "6ebec472ba02c4b50d685cc5858c066f02f68abd19a48f9e1bbb288d8305fe89"
+  },
+  {
+    "archivo": "historia_geografia_7/05_produccion_anual/anual/figuras/eval_u6_mapa_clave.png",
+    "commit": "88a097011d6004cb67d927f033ffaf13754b634c",
+    "local": "fuente/anual/figuras/eval_u6_mapa_clave.png",
+    "bytes": 323289,
+    "git_blob_sha1": "f1323ad3e25cfae3e8a41716db825809b723e1df",
+    "sha256": "ebed3e6ca68c1c6fa9d86f1bd0ca324634a20a4f9a500efbc802c2994202d856"
+  },
+  {
+    "archivo": "historia_geografia_7/05_produccion_anual/anual/figuras/ficha_18A_mapa_mudo.png",
+    "commit": "88a097011d6004cb67d927f033ffaf13754b634c",
+    "local": "fuente/anual/figuras/ficha_18A_mapa_mudo.png",
+    "bytes": 267283,
+    "git_blob_sha1": "7ad5c2b6263e6d711b7d86ee6927340334c5f8b4",
+    "sha256": "b600e6367d7b17d9ca73ce562e9ac3095d8d2b75005031406b529c32f3f63e60"
+  },
+  {
+    "archivo": "historia_geografia_7/05_produccion_anual/anual/figuras/ficha_B_linea_vacia.png",
+    "commit": "88a097011d6004cb67d927f033ffaf13754b634c",
+    "local": "fuente/anual/figuras/ficha_B_linea_vacia.png",
+    "bytes": 38614,
+    "git_blob_sha1": "cefd4320f8247230a235f15f783bf07d9070797e",
+    "sha256": "ccca3d7bf49037b02389d5e9acc69de2a1094da96a22a8930328a20acb23afe1"
+  },
+  {
+    "archivo": "historia_geografia_7/05_produccion_anual/anual/figuras/ficha_B_mapa_mudo_america.png",
+    "commit": "88a097011d6004cb67d927f033ffaf13754b634c",
+    "local": "fuente/anual/figuras/ficha_B_mapa_mudo_america.png",
+    "bytes": 310225,
+    "git_blob_sha1": "51b91bbe425ac6322b0bf41dc3a8976f4f112425",
+    "sha256": "80d57b8cb675f3f6de8f0a8038affe5c0ad511ecdaf70ea72bb0ec29493bd82d"
+  },
+  {
+    "archivo": "historia_geografia_7/05_produccion_anual/anual/figuras/ficha_C_mapa_mudo.png",
+    "commit": "88a097011d6004cb67d927f033ffaf13754b634c",
+    "local": "fuente/anual/figuras/ficha_C_mapa_mudo.png",
+    "bytes": 291953,
+    "git_blob_sha1": "c11cae0fed48fbed15ddb8929258a6a7eb574036",
+    "sha256": "d3d6e721ce2812495c82cfe4028eaadfe3fc43e9b3af7dbb31dff15679e46fbd"
+  },
+  {
+    "archivo": "historia_geografia_7/05_produccion_anual/anual/figuras/ficha_E_mapa_mudo.png",
+    "commit": "88a097011d6004cb67d927f033ffaf13754b634c",
+    "local": "fuente/anual/figuras/ficha_E_mapa_mudo.png",
+    "bytes": 267405,
+    "git_blob_sha1": "35938b428549a88d4f61e9244778750dcffabdda",
+    "sha256": "3bf26877ba2d9185666fbbcf8ad9e1f7c25dfcb6b5ce7fa17ec0d10467654940"
+  },
+  {
+    "archivo": "historia_geografia_7/05_produccion_anual/anual/figuras/ficha_G_mapa_mudo.png",
+    "commit": "88a097011d6004cb67d927f033ffaf13754b634c",
+    "local": "fuente/anual/figuras/ficha_G_mapa_mudo.png",
+    "bytes": 267283,
+    "git_blob_sha1": "7ad5c2b6263e6d711b7d86ee6927340334c5f8b4",
+    "sha256": "b600e6367d7b17d9ca73ce562e9ac3095d8d2b75005031406b529c32f3f63e60"
+  },
+  {
+    "archivo": "historia_geografia_7/05_produccion_anual/anual/figuras/fig_10_1_linea_1534_1556.png",
+    "commit": "88a097011d6004cb67d927f033ffaf13754b634c",
+    "local": "fuente/anual/figuras/fig_10_1_linea_1534_1556.png",
+    "bytes": 129192,
+    "git_blob_sha1": "01885495e5a07bff620128484b752b64b598cad8",
+    "sha256": "24705a8c380fdfcbaf0c73c357a23d51811a9f390a1e1eb720eaad1c32a80cd7"
+  },
+  {
+    "archivo": "historia_geografia_7/05_produccion_anual/anual/figuras/fig_10_2_autoridades.png",
+    "commit": "88a097011d6004cb67d927f033ffaf13754b634c",
+    "local": "fuente/anual/figuras/fig_10_2_autoridades.png",
+    "bytes": 173511,
+    "git_blob_sha1": "7532f9cd3bba79788111a9b85d14f18f56bab812",
+    "sha256": "a22eeeaba126f1d942f7c40a4e7860dc8fa0e5070f91e64c1318f12764f85c8b"
+  },
+  {
+    "archivo": "historia_geografia_7/05_produccion_anual/anual/figuras/fig_11_1_division_1617.png",
+    "commit": "88a097011d6004cb67d927f033ffaf13754b634c",
+    "local": "fuente/anual/figuras/fig_11_1_division_1617.png",
+    "bytes": 378499,
+    "git_blob_sha1": "169df4f61831946d219958ec103509404886c35d",
+    "sha256": "9b0fc40b2814e1e584101bf12b02e1344238d57a64233cd82090c36fc4f7365f"
+  },
+  {
+    "archivo": "historia_geografia_7/05_produccion_anual/anual/figuras/fig_12_1_yerba.png",
+    "commit": "88a097011d6004cb67d927f033ffaf13754b634c",
+    "local": "fuente/anual/figuras/fig_12_1_yerba.png",
+    "bytes": 144418,
+    "git_blob_sha1": "36df5b0f7f0b756c72a23d626501344d2808f8c9",
+    "sha256": "b80bc765c576c2e0be649d79bd81f64adbf962b457cdcbe4e3e0e45ec1a74a80"
+  },
+  {
+    "archivo": "historia_geografia_7/05_produccion_anual/anual/figuras/fig_13_1_reduccion.png",
+    "commit": "88a097011d6004cb67d927f033ffaf13754b634c",
+    "local": "fuente/anual/figuras/fig_13_1_reduccion.png",
+    "bytes": 132580,
+    "git_blob_sha1": "7839485ad47d54711f6a5b63ae80bf3889a8b0ad",
+    "sha256": "d5a28e02911b82d77e14e34f4a2856de355aea36c04f8c48804395cb2248a317"
+  },
+  {
+    "archivo": "historia_geografia_7/05_produccion_anual/anual/figuras/fig_14_1_plata.png",
+    "commit": "88a097011d6004cb67d927f033ffaf13754b634c",
+    "local": "fuente/anual/figuras/fig_14_1_plata.png",
+    "bytes": 438839,
+    "git_blob_sha1": "df243430bcb085778c4edd8ca0e7b0dcdd782187",
+    "sha256": "ebc1d8265d0c8d3ca33435fd6d269fc2f3e50fd1a724de942c71df75724aca2e"
+  },
+  {
+    "archivo": "historia_geografia_7/05_produccion_anual/anual/figuras/fig_15_1_colonias.png",
+    "commit": "88a097011d6004cb67d927f033ffaf13754b634c",
+    "local": "fuente/anual/figuras/fig_15_1_colonias.png",
+    "bytes": 416603,
+    "git_blob_sha1": "4fae8491805cfb54a42acfdeb3296ac7cd0b3a62",
+    "sha256": "b9a55f8be9786529e2deecdd6c09cc6e94eca0e9d80ebdb8a0ebafc14d2fb93b"
+  },
+  {
+    "archivo": "historia_geografia_7/05_produccion_anual/anual/figuras/fig_16_1_america.png",
+    "commit": "88a097011d6004cb67d927f033ffaf13754b634c",
+    "local": "fuente/anual/figuras/fig_16_1_america.png",
+    "bytes": 404606,
+    "git_blob_sha1": "415399df6322da24f76f592e2d7e336a3e77c0e5",
+    "sha256": "ebc4e24a1594230c34e1ea8fe1da3c9dbbb8b0bc7f92302cff21f3940bcf4237"
+  },
+  {
+    "archivo": "historia_geografia_7/05_produccion_anual/anual/figuras/fig_16_2_paraguay_posicion.png",
+    "commit": "88a097011d6004cb67d927f033ffaf13754b634c",
+    "local": "fuente/anual/figuras/fig_16_2_paraguay_posicion.png",
+    "bytes": 379971,
+    "git_blob_sha1": "7938d62bcef2d70bdf2bd6459c24da4e147e9a80",
+    "sha256": "763ff1a19534fb99f50c0983c3fc5a4986a7721d042af63b6debb28e32e2bc14"
+  },
+  {
+    "archivo": "historia_geografia_7/05_produccion_anual/anual/figuras/fig_17_1_relieve_america.png",
+    "commit": "88a097011d6004cb67d927f033ffaf13754b634c",
+    "local": "fuente/anual/figuras/fig_17_1_relieve_america.png",
+    "bytes": 479555,
+    "git_blob_sha1": "2af8ca3dd3384cabcaa783f3f78b7d5ce65b20d0",
+    "sha256": "bd9ccee255efbab372d00d37b3604c7dd0da3965b1ee581c03888d2b390b0e65"
+  },
+  {
+    "archivo": "historia_geografia_7/05_produccion_anual/anual/figuras/fig_17_2_perfil.png",
+    "commit": "88a097011d6004cb67d927f033ffaf13754b634c",
+    "local": "fuente/anual/figuras/fig_17_2_perfil.png",
+    "bytes": 128144,
+    "git_blob_sha1": "57597f7e5ad81db7bacfac95ab438379ec69b1d1",
+    "sha256": "807739adfbc17338726bcf12290a0e28e8a4d0cba3cf6c35614a3b1faba325e2"
+  },
+  {
+    "archivo": "historia_geografia_7/05_produccion_anual/anual/figuras/fig_18_1_rios_paraguay.png",
+    "commit": "88a097011d6004cb67d927f033ffaf13754b634c",
+    "local": "fuente/anual/figuras/fig_18_1_rios_paraguay.png",
+    "bytes": 406522,
+    "git_blob_sha1": "7e31ea4cc90f586c85f679ea7848eaab98f03241",
+    "sha256": "acc0f02ba7eedbcffc11bb07c202b141470dd8e6d12494a94e834c341c84a5ea"
+  },
+  {
+    "archivo": "historia_geografia_7/05_produccion_anual/anual/figuras/fig_18_2_hidrovia.png",
+    "commit": "88a097011d6004cb67d927f033ffaf13754b634c",
+    "local": "fuente/anual/figuras/fig_18_2_hidrovia.png",
+    "bytes": 392659,
+    "git_blob_sha1": "69feced7c4bd55c07dc5d89f61354c1efc0704ac",
+    "sha256": "9297a482768628c89257f7cd952c6da5d39509300a4742ecc31e3b6471a91689"
+  },
+  {
+    "archivo": "historia_geografia_7/05_produccion_anual/anual/figuras/fig_18_3_rios_america.png",
+    "commit": "88a097011d6004cb67d927f033ffaf13754b634c",
+    "local": "fuente/anual/figuras/fig_18_3_rios_america.png",
+    "bytes": 538198,
+    "git_blob_sha1": "93bb92be41b5c7fca875eca259417d8fa7e6993c",
+    "sha256": "ea3a789a235cef035453842051d2ac1374f71f111f80a776b7ef644e978a243c"
+  },
+  {
+    "archivo": "historia_geografia_7/05_produccion_anual/anual/figuras/fig_19_1_clima.png",
+    "commit": "88a097011d6004cb67d927f033ffaf13754b634c",
+    "local": "fuente/anual/figuras/fig_19_1_clima.png",
+    "bytes": 131096,
+    "git_blob_sha1": "daaea42cff7ec0e676a4fff267aa1cd4e895bc41",
+    "sha256": "2570d5d0308b51bb718ba24c78e43732e53b0299d50af7098de23f2631574b4f"
+  },
+  {
+    "archivo": "historia_geografia_7/05_produccion_anual/anual/figuras/fig_19_2_climas_america.png",
+    "commit": "88a097011d6004cb67d927f033ffaf13754b634c",
+    "local": "fuente/anual/figuras/fig_19_2_climas_america.png",
+    "bytes": 430889,
+    "git_blob_sha1": "03378b4103baa7e49a574e2bec6a39595fb66605",
+    "sha256": "b83a9af7f4d5f8a158d79b21d8031d32a0e06d54dbcef34ecc26457b79bcdaf0"
+  },
+  {
+    "archivo": "historia_geografia_7/05_produccion_anual/anual/figuras/fig_19_3_lluvias_py.png",
+    "commit": "88a097011d6004cb67d927f033ffaf13754b634c",
+    "local": "fuente/anual/figuras/fig_19_3_lluvias_py.png",
+    "bytes": 318564,
+    "git_blob_sha1": "dd561d0c308c3d5c8b7ff7e1e25de0b8d17e3692",
+    "sha256": "7d959a55d3218e815e3348a50c17838ed51f3713c42984699a2c8e9fd5c36ac9"
+  },
+  {
+    "archivo": "historia_geografia_7/05_produccion_anual/anual/figuras/fig_1_1_tipos_fuentes.png",
+    "commit": "88a097011d6004cb67d927f033ffaf13754b634c",
+    "local": "fuente/anual/figuras/fig_1_1_tipos_fuentes.png",
+    "bytes": 115174,
+    "git_blob_sha1": "f922035dbd0e24644f27866facb32af15bd484f7",
+    "sha256": "570f4f9ff08223abac90fb2a23b80aa02f2a89db1a351e0197fe7840b2fc2525"
+  },
+  {
+    "archivo": "historia_geografia_7/05_produccion_anual/anual/figuras/fig_1_2_linea_tiempo_era.png",
+    "commit": "88a097011d6004cb67d927f033ffaf13754b634c",
+    "local": "fuente/anual/figuras/fig_1_2_linea_tiempo_era.png",
+    "bytes": 103026,
+    "git_blob_sha1": "deac308dc688e0452a8069915ab41682bb8361d1",
+    "sha256": "e0b648615db99d5e21608cb8faa3ab8774d5d975d70328f4d075a98534c77b5d"
+  },
+  {
+    "archivo": "historia_geografia_7/05_produccion_anual/anual/figuras/fig_1_3_mapa_orientacion.png",
+    "commit": "88a097011d6004cb67d927f033ffaf13754b634c",
+    "local": "fuente/anual/figuras/fig_1_3_mapa_orientacion.png",
+    "bytes": 254049,
+    "git_blob_sha1": "6dbd2e11e163fc1baf95a5ebbc8e8ffdb12b2a91",
+    "sha256": "5d4e36935cb9f5eedb1abb069afa903cc5585dd73b5648a59de6724052c5a7cf"
+  },
+  {
+    "archivo": "historia_geografia_7/05_produccion_anual/anual/figuras/fig_20_1_regiones_america.png",
+    "commit": "88a097011d6004cb67d927f033ffaf13754b634c",
+    "local": "fuente/anual/figuras/fig_20_1_regiones_america.png",
+    "bytes": 450727,
+    "git_blob_sha1": "bd2e00ea7fcb37cafeac4c0f884705d906635b04",
+    "sha256": "0d136fd6c831852a0defc44641985cf67e8422e3f3cd8fcd3cbefb5a83f02f85"
+  },
+  {
+    "archivo": "historia_geografia_7/05_produccion_anual/anual/figuras/fig_20_2_ecosistemas_py.png",
+    "commit": "88a097011d6004cb67d927f033ffaf13754b634c",
+    "local": "fuente/anual/figuras/fig_20_2_ecosistemas_py.png",
+    "bytes": 323289,
+    "git_blob_sha1": "f1323ad3e25cfae3e8a41716db825809b723e1df",
+    "sha256": "ebed3e6ca68c1c6fa9d86f1bd0ca324634a20a4f9a500efbc802c2994202d856"
+  },
+  {
+    "archivo": "historia_geografia_7/05_produccion_anual/anual/figuras/fig_21_1_gestion.png",
+    "commit": "88a097011d6004cb67d927f033ffaf13754b634c",
+    "local": "fuente/anual/figuras/fig_21_1_gestion.png",
+    "bytes": 191427,
+    "git_blob_sha1": "e72c1d50e6bcabc2c15710a35b7db088325191cd",
+    "sha256": "e43489c7163c6f0ead858f1570ee97abad2ff43915bf702de04ff57f3daf17d6"
+  },
+  {
+    "archivo": "historia_geografia_7/05_produccion_anual/anual/figuras/fig_2_1_linea_prehistoria.png",
+    "commit": "88a097011d6004cb67d927f033ffaf13754b634c",
+    "local": "fuente/anual/figuras/fig_2_1_linea_prehistoria.png",
+    "bytes": 129440,
+    "git_blob_sha1": "1dc0a712bee7eb3102801ebd8648d2141dae45a2",
+    "sha256": "473d633de02e26a0390e557d745dfd9b37ccf6316c098cd643056941f9d0462f"
+  },
+  {
+    "archivo": "historia_geografia_7/05_produccion_anual/anual/figuras/fig_2_2_regiones.png",
+    "commit": "88a097011d6004cb67d927f033ffaf13754b634c",
+    "local": "fuente/anual/figuras/fig_2_2_regiones.png",
+    "bytes": 202086,
+    "git_blob_sha1": "d28f95f9b95f73d7a37a8c532ebb5191e1911051",
+    "sha256": "6df6cbe22410c65a26500cd18ee0dc57d2ba17cea0be09610c2149684c395de7"
+  },
+  {
+    "archivo": "historia_geografia_7/05_produccion_anual/anual/figuras/fig_3_1_area_guarani.png",
+    "commit": "88a097011d6004cb67d927f033ffaf13754b634c",
+    "local": "fuente/anual/figuras/fig_3_1_area_guarani.png",
+    "bytes": 303650,
+    "git_blob_sha1": "8ce176e3f4fee4ab379e1d7c7547a4d9bfc58d5a",
+    "sha256": "5b7759f3eb883b5e85688dc9ef058d4f9e585ca9fd2f904da9e0d1098c4c366e"
+  },
+  {
+    "archivo": "historia_geografia_7/05_produccion_anual/anual/figuras/fig_3_2_aldea.png",
+    "commit": "88a097011d6004cb67d927f033ffaf13754b634c",
+    "local": "fuente/anual/figuras/fig_3_2_aldea.png",
+    "bytes": 132456,
+    "git_blob_sha1": "69e97c9a54b13bfd258220c6e96c722df7b1ca27",
+    "sha256": "8caad0cdc0de76afa5daa6aadedb93afc7aa2f7dc249b240249e09c74aa12cf0"
+  },
+  {
+    "archivo": "historia_geografia_7/05_produccion_anual/anual/figuras/fig_4_1_poblamiento.png",
+    "commit": "88a097011d6004cb67d927f033ffaf13754b634c",
+    "local": "fuente/anual/figuras/fig_4_1_poblamiento.png",
+    "bytes": 393443,
+    "git_blob_sha1": "5b126cb943aab1719b30a875d3e6274f203f23b6",
+    "sha256": "5db2458ba1700096959065faeac8ff9b469d40b2af318f5e78dd6ae221e4053f"
+  },
+  {
+    "archivo": "historia_geografia_7/05_produccion_anual/anual/figuras/fig_5_1_civilizaciones.png",
+    "commit": "88a097011d6004cb67d927f033ffaf13754b634c",
+    "local": "fuente/anual/figuras/fig_5_1_civilizaciones.png",
+    "bytes": 303944,
+    "git_blob_sha1": "8134dcb09dbaffe4914737ec9e4f6c4ce74dfc00",
+    "sha256": "8d127046ec2c34965f26aafbb3183e538a4a1ad5223433c9eb534e1582a778ef"
+  },
+  {
+    "archivo": "historia_geografia_7/05_produccion_anual/anual/figuras/fig_5_2_cronologia.png",
+    "commit": "88a097011d6004cb67d927f033ffaf13754b634c",
+    "local": "fuente/anual/figuras/fig_5_2_cronologia.png",
+    "bytes": 95824,
+    "git_blob_sha1": "1eb8a57bc043c69a462addcc2c74d8b9865badf9",
+    "sha256": "c96078db678fc552ba3c0ac31bf4abfefea5257c336c309f36fe2ea819012f6f"
+  },
+  {
+    "archivo": "historia_geografia_7/05_produccion_anual/anual/figuras/fig_6_1_viajes.png",
+    "commit": "88a097011d6004cb67d927f033ffaf13754b634c",
+    "local": "fuente/anual/figuras/fig_6_1_viajes.png",
+    "bytes": 505676,
+    "git_blob_sha1": "8350380af49f6b668d814921fdfa8aeb8ed26db1",
+    "sha256": "15dfb39ab658f0af580f0d7c35ffae213a47798b9462d9bfec069c13c8b0111c"
+  },
+  {
+    "archivo": "historia_geografia_7/05_produccion_anual/anual/figuras/fig_6_2_navegacion.png",
+    "commit": "88a097011d6004cb67d927f033ffaf13754b634c",
+    "local": "fuente/anual/figuras/fig_6_2_navegacion.png",
+    "bytes": 142151,
+    "git_blob_sha1": "3e38d6f1858497e6803301811713adea5ec8f164",
+    "sha256": "cae218ca651d25b39de6e4b85a1cbd570a253f2c44aae1f90efe59645ee8bd84"
+  },
+  {
+    "archivo": "historia_geografia_7/05_produccion_anual/anual/figuras/fig_7_1_tordesillas.png",
+    "commit": "88a097011d6004cb67d927f033ffaf13754b634c",
+    "local": "fuente/anual/figuras/fig_7_1_tordesillas.png",
+    "bytes": 359508,
+    "git_blob_sha1": "f07f3a1ae2d613fe4c6a2cd55aa86abab3e5b7d7",
+    "sha256": "e0747fdf27ad951dc72066fd7412be7302e15d365127dcf64e70543badd56b1a"
+  },
+  {
+    "archivo": "historia_geografia_7/05_produccion_anual/anual/figuras/fig_7_2_gobierno.png",
+    "commit": "88a097011d6004cb67d927f033ffaf13754b634c",
+    "local": "fuente/anual/figuras/fig_7_2_gobierno.png",
+    "bytes": 175517,
+    "git_blob_sha1": "1795e08f0a11c4e2927e345776e9ed0ddfc5ddfd",
+    "sha256": "2b93f2ec10219af3ec987986258bf0e979d96b3a36c001762fede9fd15304751"
+  },
+  {
+    "archivo": "historia_geografia_7/05_produccion_anual/anual/figuras/fig_8_1_rutas_plata.png",
+    "commit": "88a097011d6004cb67d927f033ffaf13754b634c",
+    "local": "fuente/anual/figuras/fig_8_1_rutas_plata.png",
+    "bytes": 351924,
+    "git_blob_sha1": "b6249be0600741389a5031cade8cb271051eba3c",
+    "sha256": "e5579f2a71152976b9adf941c5760797f3171439f7f411c616cf4c28265048a3"
+  },
+  {
+    "archivo": "historia_geografia_7/05_produccion_anual/anual/figuras/fig_8_2_linea_1516_1541.png",
+    "commit": "88a097011d6004cb67d927f033ffaf13754b634c",
+    "local": "fuente/anual/figuras/fig_8_2_linea_1516_1541.png",
+    "bytes": 112018,
+    "git_blob_sha1": "19cccc7495e17d27ea4db56f40218be1b66b96db",
+    "sha256": "39e453a5f0fbe837ae02e2fbf076362f63d6907578ed03803bbc9f9b988ee5fe"
+  },
+  {
+    "archivo": "historia_geografia_7/05_produccion_anual/anual/figuras/fig_9_1_sociedad.png",
+    "commit": "88a097011d6004cb67d927f033ffaf13754b634c",
+    "local": "fuente/anual/figuras/fig_9_1_sociedad.png",
+    "bytes": 108382,
+    "git_blob_sha1": "9b7a7a185798d5651c7b7cbe984d1267da973ee7",
+    "sha256": "d8aa6bbc29bf2e22ce8d8516c0f76c14b191fbdaca0dc13511e89e9291a305d3"
+  },
+  {
+    "archivo": "historia_geografia_7/05_produccion_anual/anual/figuras/fig_E_1_guaira_mborore.png",
+    "commit": "88a097011d6004cb67d927f033ffaf13754b634c",
+    "local": "fuente/anual/figuras/fig_E_1_guaira_mborore.png",
+    "bytes": 391753,
+    "git_blob_sha1": "3b03939b07c50ec2841f3e1dd652c4c5a24565f5",
+    "sha256": "860a34fc5bdbb762be0c5efee0e1bb70a61809fff76de579b44f147f54fad733"
+  },
+  {
+    "archivo": "historia_geografia_7/05_produccion_anual/anual/figuras/fig_E_2_linea_1609_1641.png",
+    "commit": "88a097011d6004cb67d927f033ffaf13754b634c",
+    "local": "fuente/anual/figuras/fig_E_2_linea_1609_1641.png",
+    "bytes": 99368,
+    "git_blob_sha1": "2b0b6e2656fe6669852be61d7f46c8fc0f752471",
+    "sha256": "633855662a94f4d76863c7c9a5958b255c65fa80f64c1204d7e2f1574938b7aa"
+  },
+  {
+    "archivo": "historia_geografia_7/05_produccion_anual/anual/matriz/MATRIZ_CURRICULAR_36_ENCUENTROS_A4.pdf",
+    "commit": "88a097011d6004cb67d927f033ffaf13754b634c",
+    "local": "fuente/anual/matriz/MATRIZ_CURRICULAR_36_ENCUENTROS_A4.pdf",
+    "bytes": 146460,
+    "git_blob_sha1": "2d1fbf14bca66a9a8b3812596ae0ec93f81d6113",
+    "sha256": "7444df9bea46dfc6959f66d4db513ac2ecf8dafb394421c83f90feaa7db29032"
+  },
+  {
+    "archivo": "historia_geografia_7/05_produccion_anual/anual/plan_anual/PLAN_ANUAL_oficio.pdf",
+    "commit": "88a097011d6004cb67d927f033ffaf13754b634c",
+    "local": "fuente/anual/plan_anual/PLAN_ANUAL_oficio.pdf",
+    "bytes": 176409,
+    "git_blob_sha1": "510ce6b1d96559c82968e9475eb070bd704987f7",
+    "sha256": "784564c5c9b8f6bb33d3d6fae4be3c9d470a5abf2da24de71ee37e956d893ccc"
+  },
+  {
+    "archivo": "historia_geografia_7/05_produccion_anual/anual/planes/PLANES_ANUAL_A4.pdf",
+    "commit": "88a097011d6004cb67d927f033ffaf13754b634c",
+    "local": "fuente/anual/planes/PLANES_ANUAL_A4.pdf",
+    "bytes": 1648944,
+    "git_blob_sha1": "ed6bfff4287f448c6c2c6e27c281c56eb936b014",
+    "sha256": "39aeb92c1ccd3c1164af656b684907d4af5c83805dc42a50f93ebea81283728d"
+  },
+  {
+    "archivo": "historia_geografia_7/05_produccion_anual/anual/revision_liviana/MATRIZ_CURRICULAR_36_ENCUENTROS_A4_REVISION.pdf",
+    "commit": "88a097011d6004cb67d927f033ffaf13754b634c",
+    "local": "fuente/anual/revision_liviana/MATRIZ_CURRICULAR_36_ENCUENTROS_A4_REVISION.pdf",
+    "bytes": 138091,
+    "git_blob_sha1": "fb16903a63d2f8659e82a3da7ff181ff9184edd3",
+    "sha256": "f8fcd776751ffc26643ad997860c57869162df9cb1460ebb96adb372fdb6c53d"
+  },
+  {
+    "archivo": "historia_geografia_7/05_produccion_anual/anual/revision_liviana/PLANES_ANUAL_A4_REVISION.pdf",
+    "commit": "88a097011d6004cb67d927f033ffaf13754b634c",
+    "local": "fuente/anual/revision_liviana/PLANES_ANUAL_A4_REVISION.pdf",
+    "bytes": 1549282,
+    "git_blob_sha1": "f454b794ba33dca087c60a399df563900b8744d9",
+    "sha256": "90088525e037ffae5db13dcccac8803d9a67864cd4bd52b962a4533ec58c49d0"
+  },
+  {
+    "archivo": "historia_geografia_7/05_produccion_anual/anual/revision_liviana/PLAN_ANUAL_oficio_REVISION.pdf",
+    "commit": "88a097011d6004cb67d927f033ffaf13754b634c",
+    "local": "fuente/anual/revision_liviana/PLAN_ANUAL_oficio_REVISION.pdf",
+    "bytes": 168718,
+    "git_blob_sha1": "33f1f7cbca2850cf150655374b6a35869c3942f0",
+    "sha256": "c5c7f32d3939539c31b4dfabf2e0090af444b8cf7c745c915d86d7c0a5cb3d45"
+  },
+  {
+    "archivo": "historia_geografia_7/05_produccion_anual/anual/revision_liviana/SOLUCIONARIO_ANUAL_A4_REVISION.pdf",
+    "commit": "88a097011d6004cb67d927f033ffaf13754b634c",
+    "local": "fuente/anual/revision_liviana/SOLUCIONARIO_ANUAL_A4_REVISION.pdf",
+    "bytes": 1468581,
+    "git_blob_sha1": "4f35d12260a8b7fc0adbd0225568f4414b69e15b",
+    "sha256": "5f56537a902e063f11303cea51080cf7c09037601682dbb80e30b320fe286edd"
+  },
+  {
+    "archivo": "historia_geografia_7/05_produccion_anual/anual/revision_liviana/TOMO_ANUAL_oficio_REVISION.pdf",
+    "commit": "88a097011d6004cb67d927f033ffaf13754b634c",
+    "local": "fuente/anual/revision_liviana/TOMO_ANUAL_oficio_REVISION.pdf",
+    "bytes": 5079343,
+    "git_blob_sha1": "268b5ee4a4d9e31e20ab53e6cd314900f816d0a6",
+    "sha256": "537c61760224af4b8a72e0dcc995d5f153532426d0415fed8ea5a206924129d6"
+  },
+  {
+    "archivo": "historia_geografia_7/05_produccion_anual/anual/solucionario/SOLUCIONARIO_ANUAL_A4.pdf",
+    "commit": "88a097011d6004cb67d927f033ffaf13754b634c",
+    "local": "fuente/anual/solucionario/SOLUCIONARIO_ANUAL_A4.pdf",
+    "bytes": 2169449,
+    "git_blob_sha1": "25319b80359a4f01479c5f9973216708a2c277b5",
+    "sha256": "3a13866accbc0d88bbff810d3a45ffc495f53730af0e3d614f847d8c9800f801"
+  },
+  {
+    "archivo": "historia_geografia_7/05_produccion_anual/anual/tomo/TOMO_ANUAL_oficio.pdf",
+    "commit": "88a097011d6004cb67d927f033ffaf13754b634c",
+    "local": "fuente/anual/tomo/TOMO_ANUAL_oficio.pdf",
+    "bytes": 10941703,
+    "git_blob_sha1": "782bfcd2c14493fb45d6100b18c95f7cde032cae",
+    "sha256": "e5614d946c58b7bf1b605d6c92c8331de33d5a4cda9d27c28701459d2686c816"
+  },
+  {
+    "archivo": "historia_geografia_7/05_produccion_anual/bloque_3/INFORME_BLOQUE_III.md",
+    "commit": "88a097011d6004cb67d927f033ffaf13754b634c",
+    "local": "fuente/bloque_3/INFORME_BLOQUE_III.md",
+    "bytes": 12386,
+    "git_blob_sha1": "1be2a8298e4e6a0c1a6d0eb23e1674f0e8b816b4",
+    "sha256": "2e4fe4721eeff1b4394fd01f5bf02160043fa59207edc0482ac16f12d0bfce58"
+  },
+  {
+    "archivo": "historia_geografia_7/05_produccion_anual/bloque_3/datos/controles.json",
+    "commit": "88a097011d6004cb67d927f033ffaf13754b634c",
+    "local": "fuente/bloque_3/datos/controles.json",
+    "bytes": 933,
+    "git_blob_sha1": "66750b933177f135e3401e5673a300a29be8123a",
+    "sha256": "4cd577dda303c229f9d47001e934e4c2001a7c2f9ceae6367c22d5ee558cb05d"
+  },
+  {
+    "archivo": "historia_geografia_7/05_produccion_anual/bloque_3/datos/paginas_tomo.json",
+    "commit": "88a097011d6004cb67d927f033ffaf13754b634c",
+    "local": "fuente/bloque_3/datos/paginas_tomo.json",
+    "bytes": 839,
+    "git_blob_sha1": "cace3bbe171655a53eac156615833a7368ed00ad",
+    "sha256": "1f7cc2e446f984184196f5887debd0a1e1fd1f38526b672043f9cb0cfbdfaa2e"
+  },
+  {
+    "archivo": "historia_geografia_7/05_produccion_anual/bloque_3/datos/trazabilidad.json",
+    "commit": "88a097011d6004cb67d927f033ffaf13754b634c",
+    "local": "fuente/bloque_3/datos/trazabilidad.json",
+    "bytes": 9155,
+    "git_blob_sha1": "2601a4112fd9cce287849ccf9e3d0ff5d4419660",
+    "sha256": "22069ca6a9e96bb5fa739ed243492a0b09c706ab632e3eacd186c6700f8d855c"
+  },
+  {
+    "archivo": "historia_geografia_7/05_produccion_anual/bloque_3/planes/PLANES_BLOQUE_III_A4.pdf",
+    "commit": "88a097011d6004cb67d927f033ffaf13754b634c",
+    "local": "fuente/bloque_3/planes/PLANES_BLOQUE_III_A4.pdf",
+    "bytes": 436298,
+    "git_blob_sha1": "80fb251f5ba5904ea0cc33ec0083a8b4acd7e0de",
+    "sha256": "cec7d18d6e30a0ad4207bb72b2d40fcc4698b2e382dd89be6f3056505c1b3e75"
+  },
+  {
+    "archivo": "historia_geografia_7/05_produccion_anual/bloque_3/revision_liviana/PLANES_BLOQUE_III_A4_REVISION.pdf",
+    "commit": "88a097011d6004cb67d927f033ffaf13754b634c",
+    "local": "fuente/bloque_3/revision_liviana/PLANES_BLOQUE_III_A4_REVISION.pdf",
+    "bytes": 410712,
+    "git_blob_sha1": "b87c86e499ce9de9a8233ae8dad5c37803e4f8f9",
+    "sha256": "ce0059b952a32fc42e07c6ec108d8e03b779d83911346af195eb9873427ce0ea"
+  },
+  {
+    "archivo": "historia_geografia_7/05_produccion_anual/bloque_3/revision_liviana/SOLUCIONARIO_BLOQUE_III_A4_REVISION.pdf",
+    "commit": "88a097011d6004cb67d927f033ffaf13754b634c",
+    "local": "fuente/bloque_3/revision_liviana/SOLUCIONARIO_BLOQUE_III_A4_REVISION.pdf",
+    "bytes": 364589,
+    "git_blob_sha1": "4221893141525a32b289fc088e5d3c3995476771",
+    "sha256": "b07f986ef083b7ce049404d52aff03b450c3d574750928837cc80a30ce14f473"
+  },
+  {
+    "archivo": "historia_geografia_7/05_produccion_anual/bloque_3/revision_liviana/TOMO_BLOQUE_III_oficio_REVISION.pdf",
+    "commit": "88a097011d6004cb67d927f033ffaf13754b634c",
+    "local": "fuente/bloque_3/revision_liviana/TOMO_BLOQUE_III_oficio_REVISION.pdf",
+    "bytes": 1509492,
+    "git_blob_sha1": "66cc079426b38faa6e7610799a45f45a62eb7676",
+    "sha256": "95181c54c70cc4f276fc3c086b682e4389ef0322245c34156f02bf795bd7c145"
+  },
+  {
+    "archivo": "historia_geografia_7/05_produccion_anual/bloque_3/solucionario/SOLUCIONARIO_BLOQUE_III_A4.pdf",
+    "commit": "88a097011d6004cb67d927f033ffaf13754b634c",
+    "local": "fuente/bloque_3/solucionario/SOLUCIONARIO_BLOQUE_III_A4.pdf",
+    "bytes": 531192,
+    "git_blob_sha1": "465e3e36adbddb4598dcab02de0620498709938c",
+    "sha256": "33353f026ca5f4c0ede1e4b73940f8949158d7fca7ca6e52961a215d476acd29"
+  },
+  {
+    "archivo": "historia_geografia_7/05_produccion_anual/bloque_3/tomo/TOMO_BLOQUE_III_oficio.pdf",
+    "commit": "88a097011d6004cb67d927f033ffaf13754b634c",
+    "local": "fuente/bloque_3/tomo/TOMO_BLOQUE_III_oficio.pdf",
+    "bytes": 3799875,
+    "git_blob_sha1": "04c2d42b44438a7a6ce5780ba7c191e8ea0f4809",
+    "sha256": "16156d59565d0e74668231ddbb80c3adb72b20115bb4955685e5b8a24add3800"
+  },
+  {
+    "archivo": "historia_geografia_7/05_produccion_anual/bloque_4/INFORME_BLOQUE_IV.md",
+    "commit": "88a097011d6004cb67d927f033ffaf13754b634c",
+    "local": "fuente/bloque_4/INFORME_BLOQUE_IV.md",
+    "bytes": 8177,
+    "git_blob_sha1": "83a31994248cb67322d2f0834f5d50653f32a2ad",
+    "sha256": "03c3bfbe1a5a26822086b26901d5a26138633c61c691065c77cbd747177be049"
+  },
+  {
+    "archivo": "historia_geografia_7/05_produccion_anual/bloque_4/datos/controles.json",
+    "commit": "88a097011d6004cb67d927f033ffaf13754b634c",
+    "local": "fuente/bloque_4/datos/controles.json",
+    "bytes": 934,
+    "git_blob_sha1": "fe69b6108a75e4cdef6b7a610bc65a7d275663f1",
+    "sha256": "352dc534b682a2e3429940a4f3dba190e26cf6bd486edf9526b3f0cd5b520345"
+  },
+  {
+    "archivo": "historia_geografia_7/05_produccion_anual/bloque_4/datos/paginas_tomo.json",
+    "commit": "88a097011d6004cb67d927f033ffaf13754b634c",
+    "local": "fuente/bloque_4/datos/paginas_tomo.json",
+    "bytes": 983,
+    "git_blob_sha1": "d015494159ff41f4e5d94a630b44ef26f228fd10",
+    "sha256": "e7baf4ecbf6a3691c6ab91e6cdd42517cc1c1271e3fbb3f5f8b106842f38c4e1"
+  },
+  {
+    "archivo": "historia_geografia_7/05_produccion_anual/bloque_4/datos/trazabilidad.json",
+    "commit": "88a097011d6004cb67d927f033ffaf13754b634c",
+    "local": "fuente/bloque_4/datos/trazabilidad.json",
+    "bytes": 6583,
+    "git_blob_sha1": "d560db5dfb9ff87598d5aea5dc5c7783f1af556b",
+    "sha256": "db49b4a399a16a365abbfd800f6610259e12dc8de831ac48901a733b6ba30ab7"
+  },
+  {
+    "archivo": "historia_geografia_7/05_produccion_anual/bloque_4/planes/PLANES_BLOQUE_IV_A4.pdf",
+    "commit": "88a097011d6004cb67d927f033ffaf13754b634c",
+    "local": "fuente/bloque_4/planes/PLANES_BLOQUE_IV_A4.pdf",
+    "bytes": 430069,
+    "git_blob_sha1": "02f6649e2ee0a16c682e95cb6d21824d32df6988",
+    "sha256": "c5282b158e592a1c3ff2779769e9cca2a03eda4d1c7125fab16aef9ab2863ef0"
+  },
+  {
+    "archivo": "historia_geografia_7/05_produccion_anual/bloque_4/revision_liviana/PLANES_BLOQUE_IV_A4_REVISION.pdf",
+    "commit": "88a097011d6004cb67d927f033ffaf13754b634c",
+    "local": "fuente/bloque_4/revision_liviana/PLANES_BLOQUE_IV_A4_REVISION.pdf",
+    "bytes": 405108,
+    "git_blob_sha1": "15e88b8c3c70fab5d504cc96c5ced4c7be674dda",
+    "sha256": "883e5e2d87a4232da111e8633e55f9369ca83c964cd2fa82e13caa3690e0658c"
+  },
+  {
+    "archivo": "historia_geografia_7/05_produccion_anual/bloque_4/revision_liviana/SOLUCIONARIO_BLOQUE_IV_A4_REVISION.pdf",
+    "commit": "88a097011d6004cb67d927f033ffaf13754b634c",
+    "local": "fuente/bloque_4/revision_liviana/SOLUCIONARIO_BLOQUE_IV_A4_REVISION.pdf",
+    "bytes": 454081,
+    "git_blob_sha1": "c7a34111f21992670d9dd1a8b8317f31fb9977e0",
+    "sha256": "2dd77ab6d87c0a06e7386046c72e396555a00377ad9fe188d7f085cdd351d7d1"
+  },
+  {
+    "archivo": "historia_geografia_7/05_produccion_anual/bloque_4/revision_liviana/TOMO_BLOQUE_IV_oficio_REVISION.pdf",
+    "commit": "88a097011d6004cb67d927f033ffaf13754b634c",
+    "local": "fuente/bloque_4/revision_liviana/TOMO_BLOQUE_IV_oficio_REVISION.pdf",
+    "bytes": 1557611,
+    "git_blob_sha1": "41af80cca47ae66ec0b957c72aea42634432483d",
+    "sha256": "a50ce50c01d6f335a3a5f5e1ead23c8c80deb745ca5aa66de1e9bf260a5ace0d"
+  },
+  {
+    "archivo": "historia_geografia_7/05_produccion_anual/bloque_4/solucionario/SOLUCIONARIO_BLOQUE_IV_A4.pdf",
+    "commit": "88a097011d6004cb67d927f033ffaf13754b634c",
+    "local": "fuente/bloque_4/solucionario/SOLUCIONARIO_BLOQUE_IV_A4.pdf",
+    "bytes": 749877,
+    "git_blob_sha1": "eaedeac5091921c783a7711a0ec95e79ee736741",
+    "sha256": "886999da3899a45d07141f1ec7034eaa46ca90946b8c306f800d5ffd1e0bfcc8"
+  },
+  {
+    "archivo": "historia_geografia_7/05_produccion_anual/bloque_4/tomo/TOMO_BLOQUE_IV_oficio.pdf",
+    "commit": "88a097011d6004cb67d927f033ffaf13754b634c",
+    "local": "fuente/bloque_4/tomo/TOMO_BLOQUE_IV_oficio.pdf",
+    "bytes": 4039188,
+    "git_blob_sha1": "83f222f6374abb65defefb076ee010b272272932",
+    "sha256": "9bbadd1dda21a3f6916ad325516ef55904b25e8f9b4661564bfd5f17119ca69f"
+  },
+  {
+    "archivo": "historia_geografia_7/05_produccion_anual/datos/estado.json",
+    "commit": "88a097011d6004cb67d927f033ffaf13754b634c",
+    "local": "fuente/datos/estado.json",
+    "bytes": 4241,
+    "git_blob_sha1": "bc2e5c9b454b59ccb8e269b6771a8d859e4894ba",
+    "sha256": "abaaa0a23c1c093e0b309d932aa85a083c30f9925a22dcd4ea236f383eb69de3"
+  },
+  {
+    "archivo": "historia_geografia_7/05_produccion_anual/datos/programa_MEC_2014_HyG7_texto_extraido.txt",
+    "commit": "88a097011d6004cb67d927f033ffaf13754b634c",
+    "local": "fuente/datos/programa_MEC_2014_HyG7_texto_extraido.txt",
+    "bytes": 173507,
+    "git_blob_sha1": "ce2ac85454b88d775774f9a1a0679f9a3f35cca3",
+    "sha256": "8802436548dbbb1c3b01daf7c94d5a2872a184565a5fde373dbb66d25d4c5961"
+  },
+  {
+    "archivo": "historia_geografia_7/05_produccion_anual/scripts/anuales.py",
+    "commit": "88a097011d6004cb67d927f033ffaf13754b634c",
+    "local": "fuente/scripts/anuales.py",
+    "bytes": 16814,
+    "git_blob_sha1": "2b100c41842e3aaff2c3168a33bc13a2e15a66e1",
+    "sha256": "6f7ba2a26d0e1d20966568d90d342ea448a1792a300fb924bd2cf1d82949acbf"
+  },
+  {
+    "archivo": "historia_geografia_7/05_produccion_anual/scripts/construir_bloque.py",
+    "commit": "88a097011d6004cb67d927f033ffaf13754b634c",
+    "local": "fuente/scripts/construir_bloque.py",
+    "bytes": 7794,
+    "git_blob_sha1": "19c6770a76762db87ec30c4391a093180930c1d5",
+    "sha256": "4d108246aa1ca1420c66bc1efe01c1f535bcc88ad4ffef69fa345cfae71c3117"
+  },
+  {
+    "archivo": "historia_geografia_7/05_produccion_anual/scripts/contenido/e01.py",
+    "commit": "88a097011d6004cb67d927f033ffaf13754b634c",
+    "local": "fuente/scripts/contenido/e01.py",
+    "bytes": 20804,
+    "git_blob_sha1": "9db2e418c4667157903ca35e0a471e7d7492b7b2",
+    "sha256": "91519be7b47b878e8e8c68f70de99c97bee7e89d8dcce9b254ce0e7b4f492674"
+  },
+  {
+    "archivo": "historia_geografia_7/05_produccion_anual/scripts/contenido/e02.py",
+    "commit": "88a097011d6004cb67d927f033ffaf13754b634c",
+    "local": "fuente/scripts/contenido/e02.py",
+    "bytes": 17828,
+    "git_blob_sha1": "3241571a04a63bfa08886819a082f6c006009fbb",
+    "sha256": "47590fef39f2a147e593a62db09c05d9f4a1ba779647f1ef1e388eb6c757d14f"
+  },
+  {
+    "archivo": "historia_geografia_7/05_produccion_anual/scripts/contenido/e03.py",
+    "commit": "88a097011d6004cb67d927f033ffaf13754b634c",
+    "local": "fuente/scripts/contenido/e03.py",
+    "bytes": 17876,
+    "git_blob_sha1": "485996ccf3a4d91442490669e810c89e1c129640",
+    "sha256": "520be6a669858987226d6243cd928ab91b3dd219e62e6f08edfbbcc656a55ef4"
+  },
+  {
+    "archivo": "historia_geografia_7/05_produccion_anual/scripts/contenido/e04.py",
+    "commit": "88a097011d6004cb67d927f033ffaf13754b634c",
+    "local": "fuente/scripts/contenido/e04.py",
+    "bytes": 12131,
+    "git_blob_sha1": "beba5d2d38efbb553a8c02a3038bb3d1a86145f7",
+    "sha256": "4603f26b30dec6746ba544bdc2472f69f1f5308bd7cde36f59b0f4cc7f6c7235"
+  },
+  {
+    "archivo": "historia_geografia_7/05_produccion_anual/scripts/contenido/e05.py",
+    "commit": "88a097011d6004cb67d927f033ffaf13754b634c",
+    "local": "fuente/scripts/contenido/e05.py",
+    "bytes": 12756,
+    "git_blob_sha1": "13d017930f77ac968bc349aaeb1e4865fd98169e",
+    "sha256": "44f5a1c0f2dba3423c0c74418236e3045a94d37c56f023dc908f1cd601b93949"
+  },
+  {
+    "archivo": "historia_geografia_7/05_produccion_anual/scripts/contenido/e06.py",
+    "commit": "88a097011d6004cb67d927f033ffaf13754b634c",
+    "local": "fuente/scripts/contenido/e06.py",
+    "bytes": 15450,
+    "git_blob_sha1": "492fa814d58d3a4451f611dd8f6457c41b860153",
+    "sha256": "9e7eef71d70a7ad00c795462035868b8e39b45ce70ee77300ace4e2169e8a720"
+  },
+  {
+    "archivo": "historia_geografia_7/05_produccion_anual/scripts/contenido/e07.py",
+    "commit": "88a097011d6004cb67d927f033ffaf13754b634c",
+    "local": "fuente/scripts/contenido/e07.py",
+    "bytes": 16734,
+    "git_blob_sha1": "77d3f4dd879cd6d3356d2f7dbe987d55e4b9950e",
+    "sha256": "e6eec41aba58f87201804ff08a71b7d6b89f2e25f0f919c82702cdbe0dc80807"
+  },
+  {
+    "archivo": "historia_geografia_7/05_produccion_anual/scripts/contenido/e08.py",
+    "commit": "88a097011d6004cb67d927f033ffaf13754b634c",
+    "local": "fuente/scripts/contenido/e08.py",
+    "bytes": 10827,
+    "git_blob_sha1": "9ebc1a399eab2d64d598b61ca24a6800e3e8b1f6",
+    "sha256": "afc90b73a07e516be5e6484a8bcea597c55b1a6f9853bba917799d9155ade6d4"
+  },
+  {
+    "archivo": "historia_geografia_7/05_produccion_anual/scripts/contenido/e09.py",
+    "commit": "88a097011d6004cb67d927f033ffaf13754b634c",
+    "local": "fuente/scripts/contenido/e09.py",
+    "bytes": 11706,
+    "git_blob_sha1": "efa32e5162727a21bde2d7b6a6e160e5e2e6a35d",
+    "sha256": "5e0740c340f834c63875e4c87f5d4e7de615d1e0ea5f0945b5985c80212c660d"
+  },
+  {
+    "archivo": "historia_geografia_7/05_produccion_anual/scripts/contenido/e10.py",
+    "commit": "88a097011d6004cb67d927f033ffaf13754b634c",
+    "local": "fuente/scripts/contenido/e10.py",
+    "bytes": 17869,
+    "git_blob_sha1": "ce27e1ca11daef7cb42fcfc28168159759a20fb0",
+    "sha256": "218c33b9b235dcf0b41e4f5c81146b59c900eb525123c8d9f56e23932209a7b9"
+  },
+  {
+    "archivo": "historia_geografia_7/05_produccion_anual/scripts/contenido/e11.py",
+    "commit": "88a097011d6004cb67d927f033ffaf13754b634c",
+    "local": "fuente/scripts/contenido/e11.py",
+    "bytes": 16048,
+    "git_blob_sha1": "b7b0a4276dbc28566f990cef805f760e5be9361a",
+    "sha256": "10d514715552778690cacbbbe3838ebbd5f2cadd608c872835c83cc2529e4cb6"
+  },
+  {
+    "archivo": "historia_geografia_7/05_produccion_anual/scripts/contenido/e12.py",
+    "commit": "88a097011d6004cb67d927f033ffaf13754b634c",
+    "local": "fuente/scripts/contenido/e12.py",
+    "bytes": 15140,
+    "git_blob_sha1": "702875b4a6747c238c4a82f12157c07d7f596347",
+    "sha256": "162ffb60ca0069a236ad1127f6b729ee63372b3cb6f0c546965bd0948267d688"
+  },
+  {
+    "archivo": "historia_geografia_7/05_produccion_anual/scripts/contenido/e13.py",
+    "commit": "88a097011d6004cb67d927f033ffaf13754b634c",
+    "local": "fuente/scripts/contenido/e13.py",
+    "bytes": 12488,
+    "git_blob_sha1": "361df604f44b8d895986e3e0e96387d088970107",
+    "sha256": "7b6c1f6985624320de7bb712fb71b124c2b539e00dbac4b67721f3148cb31309"
+  },
+  {
+    "archivo": "historia_geografia_7/05_produccion_anual/scripts/contenido/e14.py",
+    "commit": "88a097011d6004cb67d927f033ffaf13754b634c",
+    "local": "fuente/scripts/contenido/e14.py",
+    "bytes": 17027,
+    "git_blob_sha1": "100405c0ff18cd5fa85c43908dde2ae0730362dc",
+    "sha256": "9571a3c4ffc360f9579c0b8f0c701ddb2577132c73c9c27a104933192efa91c0"
+  },
+  {
+    "archivo": "historia_geografia_7/05_produccion_anual/scripts/contenido/e15.py",
+    "commit": "88a097011d6004cb67d927f033ffaf13754b634c",
+    "local": "fuente/scripts/contenido/e15.py",
+    "bytes": 24889,
+    "git_blob_sha1": "bf17fd35e3e63eeb5c39ade155b18d7e6ceaed7d",
+    "sha256": "e7ed43e8dc2a76927d05f0234c0b801a2163dedbbba8f7e2f8f7310546424a3e"
+  },
+  {
+    "archivo": "historia_geografia_7/05_produccion_anual/scripts/contenido/e16.py",
+    "commit": "88a097011d6004cb67d927f033ffaf13754b634c",
+    "local": "fuente/scripts/contenido/e16.py",
+    "bytes": 11746,
+    "git_blob_sha1": "1605519c8c491601b51b47aa689005091969ee9f",
+    "sha256": "7e7838580396153c9c057572058a1610b61defd9bb705878c2df2f2a1429e44a"
+  },
+  {
+    "archivo": "historia_geografia_7/05_produccion_anual/scripts/contenido/e17.py",
+    "commit": "88a097011d6004cb67d927f033ffaf13754b634c",
+    "local": "fuente/scripts/contenido/e17.py",
+    "bytes": 13075,
+    "git_blob_sha1": "ebccb3479e5ea5839778fe0fe7996ee555f9ee4a",
+    "sha256": "f36b672b24d3a2e6f9fed0b5ba9ff4eb4c3327f8fd49bd1c8da715b9c7acfc24"
+  },
+  {
+    "archivo": "historia_geografia_7/05_produccion_anual/scripts/contenido/e18.py",
+    "commit": "88a097011d6004cb67d927f033ffaf13754b634c",
+    "local": "fuente/scripts/contenido/e18.py",
+    "bytes": 14341,
+    "git_blob_sha1": "b31d9aba49e016c4f0c1ee6d654890d6eb9e20a3",
+    "sha256": "f40fe81f52b24ba5299d979bda67ddc2f893cb59c0c358fe5c7db9e51248b945"
+  },
+  {
+    "archivo": "historia_geografia_7/05_produccion_anual/scripts/contenido/e19.py",
+    "commit": "88a097011d6004cb67d927f033ffaf13754b634c",
+    "local": "fuente/scripts/contenido/e19.py",
+    "bytes": 16031,
+    "git_blob_sha1": "ec7aac5893394306ee6f86a434f0d335f77c73ec",
+    "sha256": "db57878f8d62b815a127d563e3bc94e436d4e8267aa2129cdfc6e9323f32c8b4"
+  },
+  {
+    "archivo": "historia_geografia_7/05_produccion_anual/scripts/contenido/e20.py",
+    "commit": "88a097011d6004cb67d927f033ffaf13754b634c",
+    "local": "fuente/scripts/contenido/e20.py",
+    "bytes": 14974,
+    "git_blob_sha1": "202e54a50bb3c0a369b207ec15494ae061c2323c",
+    "sha256": "82369419cd19bc373b95d331f7ec7a4561f7b7b9e664f37e1c7a2569deeff24e"
+  },
+  {
+    "archivo": "historia_geografia_7/05_produccion_anual/scripts/contenido/e21.py",
+    "commit": "88a097011d6004cb67d927f033ffaf13754b634c",
+    "local": "fuente/scripts/contenido/e21.py",
+    "bytes": 15650,
+    "git_blob_sha1": "5644f371da58f4b34b1a23124e19d0d9c51fc1be",
+    "sha256": "60f05406c3ac849777c3dc92018ad3700ddae4a585c18139ef13bdb0ec9e23fa"
+  },
+  {
+    "archivo": "historia_geografia_7/05_produccion_anual/scripts/contenido/e22.py",
+    "commit": "88a097011d6004cb67d927f033ffaf13754b634c",
+    "local": "fuente/scripts/contenido/e22.py",
+    "bytes": 15957,
+    "git_blob_sha1": "83d804f10c443cc41fe479bd89d91b82e769d018",
+    "sha256": "7b4eb11551d4d7de510fc0a174316e780d6c3d3f886e6949ee731a3787ae2071"
+  },
+  {
+    "archivo": "historia_geografia_7/05_produccion_anual/scripts/contenido/e23.py",
+    "commit": "88a097011d6004cb67d927f033ffaf13754b634c",
+    "local": "fuente/scripts/contenido/e23.py",
+    "bytes": 14803,
+    "git_blob_sha1": "43358822ecf59c72223a373bdadf96d3d0ed3354",
+    "sha256": "fe99aeea75cf0ba31ce2c670666ee4fd4c0b522528fae23172c4c39d0427603d"
+  },
+  {
+    "archivo": "historia_geografia_7/05_produccion_anual/scripts/contenido/e24.py",
+    "commit": "88a097011d6004cb67d927f033ffaf13754b634c",
+    "local": "fuente/scripts/contenido/e24.py",
+    "bytes": 15669,
+    "git_blob_sha1": "39e066ac620971119650f8022240e84cb902f49c",
+    "sha256": "766c5ae8ab5690a1a9ffeae877e55e6ae661255a08fbcae9b47fa792d7c6fba3"
+  },
+  {
+    "archivo": "historia_geografia_7/05_produccion_anual/scripts/contenido/e25.py",
+    "commit": "88a097011d6004cb67d927f033ffaf13754b634c",
+    "local": "fuente/scripts/contenido/e25.py",
+    "bytes": 13477,
+    "git_blob_sha1": "fff747cd6807fc140a905b78768b78ac0ad49152",
+    "sha256": "b37603ea274f77e4414c16a026ec3fc65d89d8533a771204d21d87319ae12a8e"
+  },
+  {
+    "archivo": "historia_geografia_7/05_produccion_anual/scripts/contenido/e26.py",
+    "commit": "88a097011d6004cb67d927f033ffaf13754b634c",
+    "local": "fuente/scripts/contenido/e26.py",
+    "bytes": 16647,
+    "git_blob_sha1": "07ab0acdb14389875814df4f1c685d910cd386d7",
+    "sha256": "e57e4b9e42bf14abd3a55572b785f97dfe991ceeb2618705a715c8dbab9185dd"
+  },
+  {
+    "archivo": "historia_geografia_7/05_produccion_anual/scripts/contenido/e27.py",
+    "commit": "88a097011d6004cb67d927f033ffaf13754b634c",
+    "local": "fuente/scripts/contenido/e27.py",
+    "bytes": 15260,
+    "git_blob_sha1": "7e95342fb3002590a5bf0c4ed67068176321998c",
+    "sha256": "4c5062857e59ed91211bd9cd52444fa7588ed79596b936d5d20243c8e29d4c90"
+  },
+  {
+    "archivo": "historia_geografia_7/05_produccion_anual/scripts/contenido/e28.py",
+    "commit": "88a097011d6004cb67d927f033ffaf13754b634c",
+    "local": "fuente/scripts/contenido/e28.py",
+    "bytes": 23962,
+    "git_blob_sha1": "b1704363fa2e2c74dcff12b546c2430c38590c6b",
+    "sha256": "48f6c023c8b81f2bf78a6498ba590aab4e2f14bfdf4990a441b97c264db38795"
+  },
+  {
+    "archivo": "historia_geografia_7/05_produccion_anual/scripts/contenido/e29.py",
+    "commit": "88a097011d6004cb67d927f033ffaf13754b634c",
+    "local": "fuente/scripts/contenido/e29.py",
+    "bytes": 14676,
+    "git_blob_sha1": "2abf12bcbee284f7208dc6fa3ca864a81aeedf40",
+    "sha256": "c08fe32791347a228ff667cb05340c124a2c9bd98799683e419317820c545a7d"
+  },
+  {
+    "archivo": "historia_geografia_7/05_produccion_anual/scripts/contenido/e30.py",
+    "commit": "88a097011d6004cb67d927f033ffaf13754b634c",
+    "local": "fuente/scripts/contenido/e30.py",
+    "bytes": 14103,
+    "git_blob_sha1": "9d8ea380a9b19dee6d963b778ae9f05944009665",
+    "sha256": "0534fc5854b6f7253188d6b1353711ba003a66992600ef0beaf34fa5b06b4f51"
+  },
+  {
+    "archivo": "historia_geografia_7/05_produccion_anual/scripts/contenido/e31.py",
+    "commit": "88a097011d6004cb67d927f033ffaf13754b634c",
+    "local": "fuente/scripts/contenido/e31.py",
+    "bytes": 15652,
+    "git_blob_sha1": "72913c7adfe543b00e1b839651d0c97e27866292",
+    "sha256": "9d9bb6362800478bba2a18adf6392c0d741f78b66bfed6e9e7d275f1297ed0ef"
+  },
+  {
+    "archivo": "historia_geografia_7/05_produccion_anual/scripts/contenido/e32.py",
+    "commit": "88a097011d6004cb67d927f033ffaf13754b634c",
+    "local": "fuente/scripts/contenido/e32.py",
+    "bytes": 15444,
+    "git_blob_sha1": "37c83f1f3eb697d8ab131f75673241830c1a70ea",
+    "sha256": "22f7f75d894746c599b9d2aa4188c752d39810690fadb497ec17bf959402754e"
+  },
+  {
+    "archivo": "historia_geografia_7/05_produccion_anual/scripts/contenido/e33.py",
+    "commit": "88a097011d6004cb67d927f033ffaf13754b634c",
+    "local": "fuente/scripts/contenido/e33.py",
+    "bytes": 13953,
+    "git_blob_sha1": "de28739f1ce81deb554320ed266161cc435ef8ea",
+    "sha256": "7c077f4a852f74f79dd93f41be107bb6f75926e77988f6040a9d2fc4ceb79913"
+  },
+  {
+    "archivo": "historia_geografia_7/05_produccion_anual/scripts/contenido/e34.py",
+    "commit": "88a097011d6004cb67d927f033ffaf13754b634c",
+    "local": "fuente/scripts/contenido/e34.py",
+    "bytes": 11251,
+    "git_blob_sha1": "d460e7b49a5af1398524a2fb5ca4683dd4ca0e1e",
+    "sha256": "ef790718a7e245bbfd59308d9f78c8f2afbb99c3a3b3fe51e95e41c545e19f3c"
+  },
+  {
+    "archivo": "historia_geografia_7/05_produccion_anual/scripts/contenido/e35.py",
+    "commit": "88a097011d6004cb67d927f033ffaf13754b634c",
+    "local": "fuente/scripts/contenido/e35.py",
+    "bytes": 11934,
+    "git_blob_sha1": "bed51b4e147d7fcaf093b1055a0db0080e8d9f19",
+    "sha256": "5b25643b844a40250f20caee170d723bd278413f6978e1e676d4f7887add8a73"
+  },
+  {
+    "archivo": "historia_geografia_7/05_produccion_anual/scripts/contenido/e36.py",
+    "commit": "88a097011d6004cb67d927f033ffaf13754b634c",
+    "local": "fuente/scripts/contenido/e36.py",
+    "bytes": 14711,
+    "git_blob_sha1": "ae27a103a582986ed2420b95b6d1cf0820e74358",
+    "sha256": "7a9f86a8be86c800cfc176d9bd141dbf489b661199f3b27b00855f58deba7e31"
+  },
+  {
+    "archivo": "historia_geografia_7/05_produccion_anual/scripts/curriculo.py",
+    "commit": "88a097011d6004cb67d927f033ffaf13754b634c",
+    "local": "fuente/scripts/curriculo.py",
+    "bytes": 10042,
+    "git_blob_sha1": "22c1165b8c414ae0e03bf4b1b1a97ee684b1b935",
+    "sha256": "6a636ac78c55c644bc2fcbbcf375f7eb5031ea087e881ba6c2d1e5ba69a7abe1"
+  },
+  {
+    "archivo": "historia_geografia_7/05_produccion_anual/scripts/estado.py",
+    "commit": "88a097011d6004cb67d927f033ffaf13754b634c",
+    "local": "fuente/scripts/estado.py",
+    "bytes": 3537,
+    "git_blob_sha1": "abebaa87cca86a5ad4c4d7e8cb5d5601572df384",
+    "sha256": "16def56ece55c36c4aebe9dc3770bc79b6ff5f62c3f8ff8e2b0a630a37d852bc"
+  },
+  {
+    "archivo": "historia_geografia_7/05_produccion_anual/scripts/figuras/bloque1.py",
+    "commit": "88a097011d6004cb67d927f033ffaf13754b634c",
+    "local": "fuente/scripts/figuras/bloque1.py",
+    "bytes": 19795,
+    "git_blob_sha1": "bea00e7c1ed6c71386a58c01de9cfb9c3ad0620b",
+    "sha256": "30e491eb8ade06fb072c143ead921aefc6eeecf8f14cab939ab976c032414ef5"
+  },
+  {
+    "archivo": "historia_geografia_7/05_produccion_anual/scripts/figuras/bloque2.py",
+    "commit": "88a097011d6004cb67d927f033ffaf13754b634c",
+    "local": "fuente/scripts/figuras/bloque2.py",
+    "bytes": 17039,
+    "git_blob_sha1": "af6bbc45b38f1e273fc20b976964b39c7ebb43cb",
+    "sha256": "6d00b18e6cb76c1ab022f6eedac0214189d068e0c98ebaddbfc9dcde42eab7af"
+  },
+  {
+    "archivo": "historia_geografia_7/05_produccion_anual/scripts/figuras/bloque3.py",
+    "commit": "88a097011d6004cb67d927f033ffaf13754b634c",
+    "local": "fuente/scripts/figuras/bloque3.py",
+    "bytes": 28643,
+    "git_blob_sha1": "163342118f623bbfb7fecec2b7d3947aa69212df",
+    "sha256": "a273710be90edd100e27456e2de3460eec5a7d2b0a5539e4da21a066f707f5d2"
+  },
+  {
+    "archivo": "historia_geografia_7/05_produccion_anual/scripts/figuras/bloque4.py",
+    "commit": "88a097011d6004cb67d927f033ffaf13754b634c",
+    "local": "fuente/scripts/figuras/bloque4.py",
+    "bytes": 22245,
+    "git_blob_sha1": "dad1275b8b5e7d62451c89937ac66af8ea4be2a7",
+    "sha256": "76c6b876b9e12073e4b1f0c3e76d2ee4c11949fec0397b745d5b04f3c001d1e1"
+  },
+  {
+    "archivo": "historia_geografia_7/05_produccion_anual/scripts/figuras/comun.py",
+    "commit": "88a097011d6004cb67d927f033ffaf13754b634c",
+    "local": "fuente/scripts/figuras/comun.py",
+    "bytes": 8205,
+    "git_blob_sha1": "444c86b7588ae9005d4cb78731b67517651f41e9",
+    "sha256": "1a8e415a9fa9f0eda867ec04e427b70b6ee8bb9e20b0b09dcc5e59c47f4ea0f5"
+  },
+  {
+    "archivo": "historia_geografia_7/05_produccion_anual/scripts/motor/pdf.py",
+    "commit": "88a097011d6004cb67d927f033ffaf13754b634c",
+    "local": "fuente/scripts/motor/pdf.py",
+    "bytes": 2941,
+    "git_blob_sha1": "65b78f8f195cbfa46d178631bc107fc5565f6ee3",
+    "sha256": "993c5b9c5fcf63d7b9661ce422570a2d0e291d5fc588c565881095c195929487"
+  },
+  {
+    "archivo": "historia_geografia_7/05_produccion_anual/scripts/motor/planes.py",
+    "commit": "88a097011d6004cb67d927f033ffaf13754b634c",
+    "local": "fuente/scripts/motor/planes.py",
+    "bytes": 7102,
+    "git_blob_sha1": "eaa40cf9aded4c425eb213d9fd1c89144244d740",
+    "sha256": "ec3683b6ab67e4d42f673da835152fcd86a1ae047d541005d5519637cb711e04"
+  },
+  {
+    "archivo": "historia_geografia_7/05_produccion_anual/scripts/motor/solucionario.py",
+    "commit": "88a097011d6004cb67d927f033ffaf13754b634c",
+    "local": "fuente/scripts/motor/solucionario.py",
+    "bytes": 5565,
+    "git_blob_sha1": "a20b302160579ad7bcc323b93f65cffe22b1e70a",
+    "sha256": "8160d62f062442418f5bb2d0f66819084cbf6f41fb26a5f8d00dfe8ccbff7cff"
+  },
+  {
+    "archivo": "historia_geografia_7/05_produccion_anual/scripts/motor/tomo.py",
+    "commit": "88a097011d6004cb67d927f033ffaf13754b634c",
+    "local": "fuente/scripts/motor/tomo.py",
+    "bytes": 14604,
+    "git_blob_sha1": "fcb8806fd9d6a11e0c4a9d07aa980965e23e7125",
+    "sha256": "5a775542f7daca1c6aab2e9148c8ccacf7ac32008ab5b6d5d3c243867831fb55"
+  },
+  {
+    "archivo": "historia_geografia_7/05_produccion_anual/scripts/verificar.py",
+    "commit": "88a097011d6004cb67d927f033ffaf13754b634c",
+    "local": "fuente/scripts/verificar.py",
+    "bytes": 20049,
+    "git_blob_sha1": "f6d18fdfce94699dd4cf94c0e7b0d82bd8b28b33",
+    "sha256": "7ba2a0266655f9628b4f18ef090ee7e97afd19ef5d5c1e8cb4d96823b1ff4118"
+  }
+]
