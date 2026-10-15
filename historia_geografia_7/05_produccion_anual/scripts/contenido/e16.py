@@ -24,7 +24,7 @@ TOMO = [
     ('tabla', ['Parte de la norma (síntesis)', 'Qué quiere decir'],
      [['Si Mendoza no dejó lugarteniente, o si este murió sin nombrar a otro…', 'Condición: solo vale cuando falta la autoridad.'],
       ['…los conquistadores y pobladores se reúnan…', 'Quiénes eligen: los españoles de la provincia.'],
-      ['…y elijan a la persona que según Dios y sus conciencias pareciere más suficiente…', 'Criterio: la persona más capaz.'],
+      ['…que elijan a la persona que, según Dios y sus conciencias, les parezca más capaz…', 'Criterio: la persona más capaz.'],
       ['…por Gobernador en nuestro Nombre…', 'Límite: el elegido gobierna en nombre del rey.']],
      [5.6, 4.4]),
     ('h2', 'El caso de 1544: la deposición de Cabeza de Vaca'),

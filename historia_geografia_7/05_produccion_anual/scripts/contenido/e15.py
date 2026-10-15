@@ -53,12 +53,13 @@ TOMO = [
           'España, e Irala volvió a gobernar. Más adelante, en distintos momentos del período colonial, vecinos de Asunción '
           'invocaron la Real Provisión para reclamar el derecho a designar autoridades cuando faltaban, lo que generó '
           'conflictos con gobernadores enviados por la Corona.'),
-    ('fuente', 'Documento de época · Real Provisión del 12 de septiembre de 1537. Dos fragmentos de una misma transcripción, con su ortografía.',
-     ['«…elijan por Gobernador en nuestro Nombre, y Capitán general de aquella provincia…»',
-      '«…la persona que según Dios y sus conciencias pareciere mas suficiente para el dicho cargo…»',
-      'Fuente de los dos fragmentos: J. B. Rivarola Paoli, «La Cédula Real del 12 de setiembre de 1537», en La economía '
+    ('fuente', 'Documento de época · Real Provisión del 12 de septiembre de 1537. Dos fragmentos tomados de una misma transcripción.',
+     ['Fragmento 1: «…elijan por Gobernador en nuestro Nombre, y Capitán general de aquella provincia…»',
+      'Fragmento 2 (adaptación escolar: se simplificaron la redacción y la puntuación; no es cita literal): que elijan a la '
+      'persona que, según Dios y sus conciencias, les pareciere más suficiente para el cargo.',
+      'Fuente: J. B. Rivarola Paoli, «La Cédula Real del 12 de setiembre de 1537», en La economía '
       'colonial, Asunción, 1986, nota 105. Reproducción digital en Portal Guaraní: ' + URL_RIVAROLA +
-      ' (consulta: 14 de octubre de 2026).'],
+      ' (consulta: 14 de octubre de 2026). El texto literal del fragmento 2 puede leerse en esa fuente.'],
      'Vocabulario: «suficiente» quiere decir aquí capaz, apto. «En nuestro nombre» significa en representación del rey.',
      ['¿A quién se refiere «nuestro» en «en nuestro Nombre»?',
       '¿Qué criterio debían usar los electores para elegir a la persona?',
@@ -216,7 +217,7 @@ PLAN = {
     },
     'precisiones': [
         'El programa del MEC dice «Ejercicio del derecho a la autonomía»; el tomo lo explica en el Concepto clave. No presentarlo como democracia ni como independencia.',
-        'Los dos fragmentos vienen de la transcripción de Rivarola Paoli, con su ortografía. Sobre 1539, el tomo presenta el debate sin tomar partido: no afirmar que hubo una elección.',
+        'Los dos fragmentos vienen de la transcripción de Rivarola Paoli; el segundo es una adaptación escolar declarada en el tomo (no es cita literal). Sobre 1539, el tomo presenta el debate sin tomar partido: no afirmar que hubo una elección.',
     ],
     'tarea': 'Consolidación (actividades 5, 8, 9 y 10), actividades 6, 11, 12 y 14 (repaso breve) y actividad 16 (párrafo con los criterios de la consigna).',
 }
@@ -266,9 +267,11 @@ SOL = {
 
 VERIFICACION = [
     ('Fragmentos de la Real Provisión (A19)', 'Los dos se toman de la transcripción de Rivarola Paoli (La economía colonial, 1986, nota 105), '
-     'según su reproducción en Portal Guaraní (URL en el tomo). La página no se abre desde el entorno de edición: la presencia de ambos '
-     'pasajes se confirmó por búsqueda (fuente secundaria). Queda pendiente el cotejo de la ortografía literal del segundo fragmento con la '
-     'página o con la edición impresa. Transcripción concordante: portal del MEC, '
+     'según su reproducción en Portal Guaraní (URL en el tomo). La página no se abre desde el entorno de edición. Corrección del 15/10/2026: '
+     'la revisión de Fernando, con acceso directo a la fuente, comprobó que la versión anterior del segundo fragmento no la reproducía '
+     'exactamente (la fuente escribe «más suficiente», con tilde, y difiere en redacción y puntuación). Como la grafía literal no puede '
+     'cotejarse desde aquí, el fragmento 2 se presenta como adaptación escolar declarada, sin comillas de cita. El fragmento 1 no fue '
+     'objetado en esa revisión; su cotejo literal queda a cargo de la auditoría. Transcripción concordante: portal del MEC, '
      'https://www.mec.gov.py/cms_v2/recursos/4844-la-cedula-real-del-12-de-septiembre-de-1537-llega-al-paraguay (tampoco accesible desde el entorno).'),
     ('Muerte de Mendoza en el viaje de regreso (1537); llegada de Alonso Cabrera (1538); Irala hacia 1539 y el debate sobre la aplicación de la provisión',
      'Contrastar con ISEPOL, Síntesis de Geografía e Historia (2024) y el estudio publicado por el CEHJ, señalados por la auditoría.'),

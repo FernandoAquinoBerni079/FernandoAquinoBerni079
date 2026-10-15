@@ -58,10 +58,11 @@ TOMO = [
      'hijos en los hogares mestizos. Hoy la Constitución reconoce las dos lenguas como oficiales (Clase 1).'),
 
     ('h2', 'Formas de resistencia indígena'),
-    ('p', 'Los indígenas no aceptaron pasivamente la conquista. Hubo resistencias armadas: hacia 1542, el cacique Tabaré encabezó '
-          'una rebelión de guaraníes contra los abusos de los españoles, y en 1579, en la región de Guarambaré, un líder llamado '
-          'Oberá, que se presentaba como enviado de Dios, reunió a muchos guaraníes que querían expulsar a los españoles. Ambas '
-          'rebeliones fueron reprimidas.'),
+    ('p', 'Los indígenas no aceptaron pasivamente la conquista. Hubo resistencias armadas: en 1542 y 1543 se levantaron '
+          'guaraníes encabezados por los caciques Aracaré y Tabaré contra los abusos de los españoles; la rebelión de Tabaré, en 1543, '
+          'fue reprimida por Irala. En 1579, en la región de Guarambaré, un líder llamado '
+          'Oberá (también escrito Overá), que se presentaba como enviado de Dios, reunió a muchos guaraníes que querían expulsar a '
+          'los españoles. También esa rebelión fue reprimida.'),
     ('p', 'Hubo también resistencias no armadas: huir a los montes, lejos de las ciudades; negarse a trabajar o trabajar lo menos '
           'posible; conservar la lengua, los cantos y las creencias propias, y seguir a líderes religiosos (karai) que anunciaban '
           'el fin del dominio español.'),
@@ -161,7 +162,7 @@ PLAN = {
     'precisiones': [
         'El tema exige tratar la violencia contra las mujeres guaraníes con respeto: nombrarla sin detalles innecesarios.',
         'El testamento de Irala se presenta como versión escolar resumida; no leerlo como cita textual.',
-        'Las fechas de las rebeliones de Tabaré y de Oberá son las habituales en la bibliografía; el tomo las da como aproximadas («hacia 1542»).',
+        'Levantamientos de Aracaré y Tabaré: 1542-1543; la rebelión de Tabaré se fecha en 1543 (Roulet). Oberá y Overá son variantes del mismo nombre en la bibliografía.',
     ],
     'tarea': 'Actividades 7, 10 y 12 de la Clase 9.',
 }
@@ -208,7 +209,10 @@ SOL = {
 }
 
 VERIFICACION = [
-    ('Rebelión de Tabaré (hacia 1542) y de Oberá (1579, Guarambaré)', 'Fechas y lugares habituales en la bibliografía paraguaya; cotejar.'),
+    ('Levantamientos de Aracaré y Tabaré (1542-1543; Tabaré, 1543)', 'Corrección del 15/10/2026 a pedido de la revisión de Fernando (antes: «hacia 1542»). '
+     'Referencia: Florencia Roulet, estudio sobre la resistencia guaraní en el Paraguay del siglo XVI, repositorio UNAM, '
+     'https://repositorio.unam.mx/contenidos/5054882 (no se abre desde el entorno de edición; datos de la revisión).'),
+    ('Rebelión de Oberá u Overá (1579, Guarambaré)', 'Oberá y Overá son variantes bibliográficas del nombre; fecha y lugar habituales; cotejar.'),
     ('Testamento de Irala (1556)', 'Versión escolar resumida y declarada como no textual; cotejar con una edición del testamento antes de citar datos más precisos.'),
     ('Tovaja (cuñado) y cuñadazgo', 'Término guaraní y categoría historiográfica habituales; cotejar grafía.'),
     ('Rancheadas; participación de mancebos de la tierra en la fundación de Santa Fe (1573)', 'Bibliografía habitual; cotejar.'),

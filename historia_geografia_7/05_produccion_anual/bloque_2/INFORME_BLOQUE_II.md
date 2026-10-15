@@ -83,7 +83,7 @@ Entregables (las copias livianas para revisión están en `revision_liviana/`):
 
 | Condición | Aplicación en el Bloque II |
 |---|---|
-| **A19 / N04 (fuente de la Real Provisión)** | Los dos fragmentos se citan de una misma transcripción identificable, con la referencia completa dentro del recuadro de la fuente: J. B. Rivarola Paoli, «La Cédula Real del 12 de setiembre de 1537», en *La economía colonial*, Asunción, 1986, nota 105. Reproducción en Portal Guaraní, con la URL completa y la fecha de consulta (14/10/2026). Se eliminó la atribución del segundo fragmento al portal del MEC: esa página se registra solo como transcripción concordante en `VERIFICACION` (ver §6). |
+| **A19 / N04 (fuente de la Real Provisión)** — *corregido después del commit `ea3cf5f`; ver §7* | Los dos fragmentos se citan de una misma transcripción identificable, con la referencia completa dentro del recuadro de la fuente: J. B. Rivarola Paoli, «La Cédula Real del 12 de setiembre de 1537», en *La economía colonial*, Asunción, 1986, nota 105. Reproducción en Portal Guaraní, con la URL completa y la fecha de consulta (14/10/2026). Se eliminó la atribución del segundo fragmento al portal del MEC: esa página se registra solo como transcripción concordante en `VERIFICACION` (ver §6). |
 | **N02 (Plan 15)** | El tramo de la línea de tiempo pasa de 47-55 a 48-60 (12 minutos en lugar de 8). Las actividades de consolidación (5, 8, 9 y 10) van a casa, con revisión al abrir el encuentro 16, y se suprime el tramo de consolidación en clase. El cierre gana 4 minutos (96-120). |
 | **A10 (equidad)** | Plan 10: los primeros 20 minutos son la devolución de la U2. La Evaluación U3 sigue el esquema de equidad: tiempo adicional supervisado 80-95, actividad sin claves 95-120 y apoyo excepcional antes del encuentro 18. Plan 18: 0-20 devolución de la U3; integradora 30-100; tiempo adicional 100-115; cierre sin claves. El apoyo excepcional de la integradora se da antes del encuentro 19, y la devolución queda en los primeros 20 minutos del Plan 19 (Bloque III). |
 | **A14 (maquetación)** | Sin hojas residuales: el control 11 detectó una en la Continuación C. Se corrigió con renglones más altos en los cuadros (más espacio para escribir) y con la revisión entre pares del mapa, que tiene función en el cierre. La letra no se redujo. La Ficha C va en hoja propia. |
@@ -167,3 +167,17 @@ Lo que figura en `VERIFICACION` de cada `scripts/contenido/eNN.py` y en `datos/t
 
 **Mapas**
 - Recorridos de las expediciones (Figura 8.1, Ficha C y mapa de la U3): son trazados aproximados de la editorial y así se declaran.
+
+## 7. Correcciones posteriores al commit `ea3cf5f` (revisión de Fernando, 15/10/2026)
+
+Se hicieron en un commit aparte para conservar la trazabilidad. Se reconstruyó el bloque: la paginación no cambió (39, 20 y 10 págs.) y los controles siguen en 1655 correctos y 0 fallos. Se revisaron visualmente las páginas tocadas (22, 23, 26 y 31 del tomo).
+
+| N.º | Hallazgo de la revisión | Corrección | Archivos |
+|---|---|---|---|
+| 1 | **A19.** La revisión tuvo acceso directo a la transcripción de Rivarola Paoli en Portal Guaraní. El segundo fragmento de la Clase 10 no reproducía esa edición: la fuente escribe «más suficiente», con tilde, y difiere en redacción y puntuación. El tomo afirmaba, además, que los fragmentos iban «con su ortografía». | Portal Guaraní sigue sin abrirse desde este entorno (curl y WebFetch fallan), así que no se puede copiar la grafía literal. Por eso el fragmento 2 se presenta como **adaptación escolar declarada**, sin comillas de cita: «se simplificaron la redacción y la puntuación; no es cita literal». Se remite a la fuente para el texto literal y se eliminó del tomo y del plan la frase «con su ortografía». La síntesis de la Continuación D ya no reproduce la expresión como si fuera cita. El fragmento 1 no fue objetado; su cotejo literal queda para la auditoría. | `contenido/e15.py` (tomo, Plan 15, VERIFICACION); `contenido/e16.py` (cuadro de síntesis) |
+| 2 | **Clase 9.** La fecha «hacia 1542» para Tabaré era imprecisa. Florencia Roulet documenta los levantamientos de Aracaré y Tabaré en 1542-1543. | El tomo dice ahora: «en 1542 y 1543 se levantaron guaraníes encabezados por los caciques Aracaré y Tabaré…; la rebelión de Tabaré, en 1543, fue reprimida por Irala». Se registra la variante Oberá / Overá. Referencia en VERIFICACION: https://repositorio.unam.mx/contenidos/5054882 (no se abre desde el entorno; el dato proviene de la revisión). | `contenido/e14.py` (tomo, Plan 14, VERIFICACION) |
+| 3 | **Bloque I.** Había que comparar los cinco mapas regenerados con sus versiones anteriores. | Comparación píxel a píxel: solo cambia el rótulo intermedio de la escala, sin desplazamientos ni recortes. Detalle en `bloque_1/INFORME_BLOQUE_I.md` §7.1. | `bloque_1/datos/comparacion_escala_antes_despues.png` |
+
+**Sigue pendiente:**
+- Cotejo literal del fragmento 1 con la fuente.
+- Confirmar con la edición de Roulet que la expedición que reprimió a Tabaré en 1543 la encabezó Irala (por orden de Cabeza de Vaca).

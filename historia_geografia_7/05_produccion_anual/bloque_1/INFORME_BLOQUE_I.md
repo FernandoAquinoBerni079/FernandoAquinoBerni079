@@ -151,3 +151,21 @@ Lo que figura en `VERIFICACION` de cada `scripts/contenido/eNN.py` y en `datos/t
 ## 7. Reconstrucción posterior (15/10/2026)
 
 Al producir el Bloque II se corrigió la escala gráfica común (`scripts/figuras/comun.py`): cuando la barra es corta, se omite el rótulo intermedio, que se superponía con el final («150300»). El Bloque I se reconstruyó con ese cambio. Cambian cinco mapas (`eval_u1_mapa`, `eval_u1_mapa_clave`, `fig_1_3_mapa_orientacion`, `fig_2_2_regiones` y `fig_3_1_area_guarani`) y se revisaron de nuevo. Los controles siguen en 1626 correctos y 0 fallos, y la paginación no cambia.
+
+### 7.1 Comparación visual con las versiones anteriores (pedida en la revisión del 15/10/2026)
+
+Se compararon píxel a píxel los cinco mapas regenerados con sus versiones del commit `755d7ad`:
+
+| Mapa | Tamaño (antes = después) | Zona con diferencias | Píxeles distintos |
+|---|---|---|---:|
+| `eval_u1_mapa` | 1062 × 1190 | 63 × 34 px, rótulo intermedio de la escala | 429 |
+| `eval_u1_mapa_clave` | 1062 × 1190 | 63 × 34 px, ídem | 429 |
+| `fig_1_3_mapa_orientacion` | 1417 × 1535 | 62 × 33 px, ídem | 452 |
+| `fig_2_2_regiones` | 1299 × 1455 | 62 × 34 px, ídem | 433 |
+| `fig_3_1_area_guarani` | 1358 × 1476 | 63 × 33 px, ídem | 464 |
+
+Resultado:
+- El único cambio es la supresión del rótulo intermedio de la escala («100» o «200»), que quedaba casi pegado al rótulo final.
+- El tamaño de las imágenes no cambió y el resto de cada mapa es idéntico píxel a píxel.
+- No hay desplazamientos, recortes ni rótulos superpuestos nuevos.
+- Ampliación «antes / después» de cada escala en `datos/comparacion_escala_antes_despues.png`: arriba de la franja roja, antes; abajo, después.
