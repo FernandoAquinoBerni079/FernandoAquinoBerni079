@@ -1,0 +1,388 @@
+{
+ "titulo": "ADS 3.º BTI — Lote 2, Unidad II (Capítulos 4 a 6), oficio O3",
+ "estado": "Lote para auditoría independiente. No aprobado para comercialización; la aprobación comercial definitiva la hace Fernando sobre el conjunto completo.",
+ "fecha": "2026-10-20",
+ "base_commit": "005096a",
+ "perfil": {
+  "papel": "oficio 21,59 × 33,02 cm, vertical",
+  "interior_cm": 2.5,
+  "exterior_cm": 1.8,
+  "superior_cm": 1.5,
+  "inferior_cm": 1.5,
+  "margenes_espejados": true
+ },
+ "resultados": {
+  "verificador": "198 correctos, 0 fallos",
+  "controles_impresion": "25 controles, 0 fallos",
+  "prueba_fuentes": "9 combinaciones, 0 fallos"
+ },
+ "archivos": [
+  {
+   "ruta": "ADS_3BTI_LOTE2_CUADERNO_PRACTICAS_OFICIO_O3.docx",
+   "bytes": 44061,
+   "sha256": "25bf42955ddfe25955f2f60ba881e7215ef6aef1e91e0218672da346768db616"
+  },
+  {
+   "ruta": "ADS_3BTI_LOTE2_CUADERNO_PRACTICAS_OFICIO_O3.pdf",
+   "bytes": 125059,
+   "sha256": "86431eca21b88f15de2caaf3561c49148823c83d0f2abce5c16b19d5a479b5e7"
+  },
+  {
+   "ruta": "ADS_3BTI_LOTE2_ESTUDIANTE_OFICIO_O3.docx",
+   "bytes": 950067,
+   "sha256": "51f00a38f0faeb840e18209eb893b4c27a1f8e82fc8336cf483270c15f96ae9e"
+  },
+  {
+   "ruta": "ADS_3BTI_LOTE2_ESTUDIANTE_OFICIO_O3.pdf",
+   "bytes": 1476756,
+   "sha256": "dd54a6c6126e4825bd3f5493eab3f639df50a6c26c2af515f8bee85d4c6115ac"
+  },
+  {
+   "ruta": "ADS_3BTI_LOTE2_GUIA_DOCENTE_OFICIO_O3.docx",
+   "bytes": 89356,
+   "sha256": "f388532f25320e5864b38183c27e5141b8adbc57d58a9b63d0af53471e6096fd"
+  },
+  {
+   "ruta": "ADS_3BTI_LOTE2_GUIA_DOCENTE_OFICIO_O3.pdf",
+   "bytes": 467939,
+   "sha256": "5cf5909612f597f6d908f8c186fee41c999939bcb698d1d79a0fcd87a554982b"
+  },
+  {
+   "ruta": "CONTROLES_FINALES.json",
+   "bytes": 27373,
+   "sha256": "3e95f160abccef22f9fef4a3998ae532d6d348cd202080abb2b8f6ef8071b094"
+  },
+  {
+   "ruta": "CONTROLES_FINALES.txt",
+   "bytes": 3635,
+   "sha256": "5c5c97fb0ecf76f9cc1639a64fd54bc75d99e043a6db20ed20e51493da9c0086"
+  },
+  {
+   "ruta": "INFORME_LOTE_2.md",
+   "bytes": 14440,
+   "sha256": "812f1aafd4432f3db9166b35c1c884419acb91011a3f8b1e125932806ca321dd"
+  },
+  {
+   "ruta": "build/cap4.py",
+   "bytes": 6635,
+   "sha256": "de19208435dfc8933f61470c36dee22813098d81fc8f6be0f89bf82eae38b512"
+  },
+  {
+   "ruta": "build/cap5.py",
+   "bytes": 27020,
+   "sha256": "8d1a73111deba41e24b4cf1ca1cf201faf58f149a19bcfed43c2eb107a28d09a"
+  },
+  {
+   "ruta": "build/cap6.py",
+   "bytes": 32228,
+   "sha256": "8ae6f452c8b838b5bd5c36c069bde6973187d9bf3cb7e1fabc8593bfe06e7f42"
+  },
+  {
+   "ruta": "build/construir.py",
+   "bytes": 15334,
+   "sha256": "c0935ed53d83b8836f09203770c429880433fff88a171e91a0823809f63eb2ff"
+  },
+  {
+   "ruta": "build/controles_finales.py",
+   "bytes": 7853,
+   "sha256": "60ee89783d4770d2cab128a02afc113e11e2d98f918badfeb7dc744f63981ee2"
+  },
+  {
+   "ruta": "build/diagramas.py",
+   "bytes": 26099,
+   "sha256": "ddb33eeac7236b3ef84c7ad9c75fff2eb895e4cbad0ee243cf119705774e2ea5"
+  },
+  {
+   "ruta": "build/figs/fig_4_1_tipos_de_requisito.png",
+   "bytes": 98855,
+   "sha256": "75f42b6daf5a762fd9284167bd0c1c4512a61fd190e404e026bcfe6a21d4caee"
+  },
+  {
+   "ruta": "build/figs/fig_4_2_cadena_de_trazabilidad.png",
+   "bytes": 92028,
+   "sha256": "fead57e8cfbad93657504e8bdd1aa7eb153edc71ba314a7e7cd3ab82b485c6a0"
+  },
+  {
+   "ruta": "build/figs/fig_5_1_proceso_actual.png",
+   "bytes": 99718,
+   "sha256": "89a190da6677f2f8b34162d3f88b7c54e36fb5f31e20e2b3b455e42b15b366e6"
+  },
+  {
+   "ruta": "build/figs/fig_5_2_proceso_propuesto.png",
+   "bytes": 148280,
+   "sha256": "cfa3da6c42fc540a89410f10f5e9b44e518b0531ef5769adb252e09c5df4812e"
+  },
+  {
+   "ruta": "build/figs/fig_5_3_contexto.png",
+   "bytes": 96830,
+   "sha256": "eb1326833f0c8af08d2dc820310953a2b0878833f7e150098d4e72afc29f3d56"
+  },
+  {
+   "ruta": "build/figs/fig_5_4_casos_de_uso.png",
+   "bytes": 168622,
+   "sha256": "fe0b732ef8844c8077c381603c0339d37ec527155f3256d437bbdf64c67d5de2"
+  },
+  {
+   "ruta": "build/figs/fig_6_1_cadena_extendida.png",
+   "bytes": 111702,
+   "sha256": "f33bc8bcdc304ab93a30123c2398fc20b182b47d632dbd5ee8282c546ffbd097"
+  },
+  {
+   "ruta": "build/figs/fig_6_2_impacto_del_cambio.png",
+   "bytes": 100518,
+   "sha256": "bdb1d2dfb1397aa02cb8e967dc986fe368674adcc2487a684b5e43a355495cf5"
+  },
+  {
+   "ruta": "build/figs/simbolo_actividad_accion.png",
+   "bytes": 2609,
+   "sha256": "eb0166a511400a4bdc4f93bdba17412519b94320440aba9abcb46353f076324e"
+  },
+  {
+   "ruta": "build/figs/simbolo_actividad_carril.png",
+   "bytes": 783,
+   "sha256": "82bd63985b9a692e906fadd7af83961bce7b7996f48ec7d2f28cfbf3614c8252"
+  },
+  {
+   "ruta": "build/figs/simbolo_actividad_decision.png",
+   "bytes": 1354,
+   "sha256": "1bc3e19dec764d45238778f72db6f44430a6c9d0e6f669149d718f1298b46167"
+  },
+  {
+   "ruta": "build/figs/simbolo_actividad_final.png",
+   "bytes": 2616,
+   "sha256": "857310c0bfcb461bf0d8ef8424a9d85c4b7451b56eb133e0fd106393538296af"
+  },
+  {
+   "ruta": "build/figs/simbolo_actividad_flujo.png",
+   "bytes": 954,
+   "sha256": "020dd8b8d4e2fb220c04d0642cde4088787e117cba06ed162efe17450a3d8b15"
+  },
+  {
+   "ruta": "build/figs/simbolo_actividad_inicial.png",
+   "bytes": 1413,
+   "sha256": "509a9bcdb812bab9275649b18b1e5d23fe85a8ec74cb5fb197c69777a2ce165b"
+  },
+  {
+   "ruta": "build/figs/simbolo_contexto_entidad.png",
+   "bytes": 733,
+   "sha256": "b49096eb6175005a49792081be5bf7ea7817ca1eba3610c05c721817c984ba35"
+  },
+  {
+   "ruta": "build/figs/simbolo_contexto_flujo.png",
+   "bytes": 909,
+   "sha256": "77d62dbae2910e696a26f397e41f7c21ce76751e102982d44aa0dc4ba4a73e82"
+  },
+  {
+   "ruta": "build/figs/simbolo_contexto_sistema.png",
+   "bytes": 5633,
+   "sha256": "f335c8b26aaf31ca9d59cc30d6988b0f36523e9f6680afb1386619ee694ac047"
+  },
+  {
+   "ruta": "build/figs/simbolo_cu_actor.png",
+   "bytes": 3588,
+   "sha256": "7b37cbeeaefb6c2d1df9ad3ec75d3487b696417f6ccc17379607fad5c3e41c12"
+  },
+  {
+   "ruta": "build/figs/simbolo_cu_asociacion.png",
+   "bytes": 651,
+   "sha256": "a85e860e8e3bbedfa87b8ffef980f4dce021d84807d7faf35be57618d2d1b8b8"
+  },
+  {
+   "ruta": "build/figs/simbolo_cu_caso.png",
+   "bytes": 5637,
+   "sha256": "39b2f507d94c75c2eb88e946ead3cd5aa3f4940351deaf8409a5fbb50f81ce38"
+  },
+  {
+   "ruta": "build/figs/simbolo_cu_limite.png",
+   "bytes": 727,
+   "sha256": "671c8fdd1c0bd31fb76b89912c40879335fdc70b831f63c61616eb23c43497e6"
+  },
+  {
+   "ruta": "build/figs/simbolos.json",
+   "bytes": 2486,
+   "sha256": "529174bfde4a1545350d87b041b8c44ba6f4287baf7242d5a1f7e90b62091938"
+  },
+  {
+   "ruta": "build/guia.py",
+   "bytes": 35645,
+   "sha256": "2a48063b20b0aaa91a5593053ee649287bb403b5677e219d60463a612216c352"
+  },
+  {
+   "ruta": "build/oficio.py",
+   "bytes": 5975,
+   "sha256": "ed2070e5b01805974528d62d27ae4a2f971751206e1d5b7322f055a7c611fc13"
+  },
+  {
+   "ruta": "build/piezas.py",
+   "bytes": 4685,
+   "sha256": "3e18826f917ae95c5f764e4ddb6987bc1b60a4824311c16f9e0c5209c1fdfbcb"
+  },
+  {
+   "ruta": "build/prueba_fuentes.py",
+   "bytes": 3260,
+   "sha256": "0fff49cde62aa88cdf39024f485364c1abd88c2a6b04d24e8000ae75379f54d9"
+  },
+  {
+   "ruta": "build/tomo.py",
+   "bytes": 3236,
+   "sha256": "d14f26e6f14ecf8f95d9c0bb2b0a220d7c568d76c3c63c112badd39a534ccbe8"
+  },
+  {
+   "ruta": "build/verificar.py",
+   "bytes": 37121,
+   "sha256": "a1ee3cbdb873d7ad48736355d4450f6ee44031c3eb944e7869716b22a284fd6c"
+  },
+  {
+   "ruta": "caso/mbokaja_u2.py",
+   "bytes": 3807,
+   "sha256": "5ef04ba0178b9358edc8371166eac01dbcbd56f87bbd0a4fed0b078111cdec2d"
+  },
+  {
+   "ruta": "caso/modelos.py",
+   "bytes": 12303,
+   "sha256": "abf32819d08f2990f3d56f7ed383776cac0dab854163e2ba26e720754fed55ce"
+  },
+  {
+   "ruta": "caso/requisitos.py",
+   "bytes": 16776,
+   "sha256": "84901f41ec254271ffdaf95ecbfcf2a2128480dfda0d0212d4e168e9568b6969"
+  },
+  {
+   "ruta": "prueba_fuentes_resultado.json",
+   "bytes": 1961,
+   "sha256": "17ee4aa1b8bd348965f31758e80a3fb5dec08835e1acb6a5b2eb1dffd477b6ad"
+  },
+  {
+   "ruta": "resultado_construccion.json",
+   "bytes": 10420,
+   "sha256": "a426d6ddf26e1c9f41fd352b75058e9a9b5cfdec1d3af37d4a042df16773bec2"
+  },
+  {
+   "ruta": "revision_visual/01_indice_y_apertura.png",
+   "bytes": 123160,
+   "sha256": "65262e08da3312b4b589f7369614ee35a8ad9cd5b56d99b6f311465711f22238"
+  },
+  {
+   "ruta": "revision_visual/02_diagramas_capitulo_5.png",
+   "bytes": 544269,
+   "sha256": "9f5d37d0c9a187878aadfeff1b957a2bded1258352793d5d6d20a4b738b85b4a"
+  },
+  {
+   "ruta": "revision_visual/03_leyendas_de_notacion.png",
+   "bytes": 381978,
+   "sha256": "7a47ec92809969d2f479f89eacaf4db941917c92e8d05cf904138e252b1c76b7"
+  },
+  {
+   "ruta": "revision_visual/04_plantillas_de_casos_de_uso.png",
+   "bytes": 276466,
+   "sha256": "33e0cee5ddd59f6ac1278bddd5595add0b368f9e1103c527b0594b2df131ac71"
+  },
+  {
+   "ruta": "revision_visual/05_trazabilidad_y_solicitud_de_cambio.png",
+   "bytes": 410205,
+   "sha256": "cf4a624fd193f4c311366131ada2881d8bcd644037d1682ce8bb835d23857f10"
+  },
+  {
+   "ruta": "revision_visual/06_practicas.png",
+   "bytes": 241272,
+   "sha256": "c61df220c16200ca5def1b9970d79622eee4017b075bcbaaf1f77a29f369ecf8"
+  },
+  {
+   "ruta": "revision_visual/07_evaluaciones.png",
+   "bytes": 200953,
+   "sha256": "fd24ee3c7dd217f3e5d99fea3ecfc7818b38463ff869e721e7bc0c5c684ccd48"
+  },
+  {
+   "ruta": "revision_visual/08_revision_unidad_II_H2.png",
+   "bytes": 105317,
+   "sha256": "0941c25f216ef73307fdfe52f42b9fd204425fed38f9fa4bbb337c230d807fd8"
+  },
+  {
+   "ruta": "revision_visual/09_guia_rubrica_H2_y_banco.png",
+   "bytes": 282605,
+   "sha256": "ddc400a827c78cc9fb56131ef73c091ef426ad463d191675d9ea2c88e1229ddc"
+  },
+  {
+   "ruta": "revision_visual/10_margenes_espejados_pags_6_7.png",
+   "bytes": 249352,
+   "sha256": "40bf7d0ea816046801c2ad57b0d95ba7a51830e3875fb5b672de2e54ef32792b"
+  },
+  {
+   "ruta": "revision_visual/11_tablas_repartidas.png",
+   "bytes": 778676,
+   "sha256": "aef3a5f8c09ae5b1b6eb0678b1ea3708bb104f206651e6c746b7654a36e2e117"
+  },
+  {
+   "ruta": "revision_visual/12_cuaderno_de_practicas.png",
+   "bytes": 314549,
+   "sha256": "38af33be1767ed05487f96db341627dcc34a939c8173771a7ee5999a4a161936"
+  },
+  {
+   "ruta": "verificacion_resultado.json",
+   "bytes": 29056,
+   "sha256": "c2afd8a4577802341f0243fe5dc10b7f152b965fe27c5cd2dec351f55669161c"
+  },
+  {
+   "ruta": "verificacion_resultado.txt",
+   "bytes": 17585,
+   "sha256": "7b4e8d2d37cf38a9f29fda21bf29bdc492aa92433d16a82a091c7a2cee3a7056"
+  }
+ ],
+ "fuentes_usadas_sin_modificar": [
+  {
+   "ruta": "lote_1_oficio_candidata/MANIFIESTO_CANDIDATA_O3.json",
+   "bytes": 5654,
+   "sha256": "9c373eea40bea102e49d877c18d4ce04ce33557f8cd48e650c2b50f4906adb59"
+  },
+  {
+   "ruta": "lote_2_plan/PLAN_LOTE_2_UNIDAD_II.md",
+   "bytes": 14704,
+   "sha256": "3b18384f28dfa51ed7bfe96391c0ad213ff075c564f7f5a69d28e36fba374994"
+  },
+  {
+   "ruta": "lote_2_plan/NOTACIONES_CAPITULO_5.md",
+   "bytes": 7403,
+   "sha256": "94ded9c272d792bc24b9f3fc15529a34f49b698077b935e7903d6a2e439783d9"
+  },
+  {
+   "ruta": "fase2_pilotos/A2_capitulo4_v2_1/build/contenido.py",
+   "bytes": 34163,
+   "sha256": "62179ecbb6fc44a520e07b848bffa7e733625d25dd668fdf6d6d36cc29651373"
+  },
+  {
+   "ruta": "fase2_pilotos/A2_capitulo4_v2_1/build/guia_v2_1.py",
+   "bytes": 15746,
+   "sha256": "93ced878afa9e37dc23498c9015c1e368041b5f2e2a92d574e69def79be6f51b"
+  },
+  {
+   "ruta": "fase2_pilotos/A2_capitulo4_proxima_version/ESPECIFICACION_EVIDENCIA_C3.md",
+   "bytes": 4070,
+   "sha256": "8846dc48e2bd703ddc777f8ef2efb49798914491cce98655d999319b99f31490"
+  },
+  {
+   "ruta": "lote_1/caso/dossier.py",
+   "bytes": 21388,
+   "sha256": "fa658775836e7649250271e76ea567e55feba9f1a6832be445e1db614a6b12e8"
+  },
+  {
+   "ruta": "lote_1/caso/mbokaja.py",
+   "bytes": 7220,
+   "sha256": "3f88c967c823faccc48bbe3345ae84513eb3d23de65334b20c4f69235ae35b95"
+  },
+  {
+   "ruta": "lote_1/build/helpers.py",
+   "bytes": 16123,
+   "sha256": "7f38e0edc2a5d93266c3c74c9cd9e5bd8dca9559fc965e78526a617b72826f99"
+  },
+  {
+   "ruta": "lote_1/build/maqueta.py",
+   "bytes": 5862,
+   "sha256": "61326d9ad081424148f02b605c53b69db3cf913d0bce3cbdffeb287f2f317c5c"
+  },
+  {
+   "ruta": "lote_1_oficio_candidata/build/controles_impresion.py",
+   "bytes": 4034,
+   "sha256": "6c6a3bfde06a6a246d0f495cdce1733368f3fd763d273da7acaf9b34244f2ad6"
+  }
+ ]
+}

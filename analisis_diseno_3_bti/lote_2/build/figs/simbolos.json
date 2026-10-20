@@ -1,0 +1,133 @@
+{
+ "fig_5_1": {
+  "notacion": "actividad",
+  "simbolos": {
+   "actividad_carril": 2,
+   "actividad_inicial": 1,
+   "actividad_accion": 7,
+   "actividad_decision": 1,
+   "actividad_final": 2,
+   "actividad_flujo": 10
+  },
+  "datos": "Proceso actual de préstamo y devolución"
+ },
+ "fig_5_2": {
+  "notacion": "actividad",
+  "simbolos": {
+   "actividad_carril": 3,
+   "actividad_inicial": 1,
+   "actividad_accion": 9,
+   "actividad_decision": 3,
+   "actividad_final": 2,
+   "actividad_flujo": 15
+  },
+  "datos": "Proceso propuesto de préstamo"
+ },
+ "fig_5_3": {
+  "notacion": "contexto",
+  "simbolos": {
+   "contexto_sistema": 1,
+   "contexto_entidad": 3,
+   "contexto_flujo": 9
+  },
+  "datos": "Diagrama de contexto del sistema de préstamos"
+ },
+ "fig_5_4": {
+  "notacion": "casos_de_uso",
+  "simbolos": {
+   "cu_limite": 1,
+   "cu_caso": 5,
+   "cu_actor": 3,
+   "cu_asociacion": 7
+  },
+  "datos": "Diagrama de casos de uso del sistema de préstamos"
+ },
+ "fig_6_1": {
+  "notacion": "esquema",
+  "simbolos": {},
+  "datos": "cadena N-02 → P-07"
+ },
+ "fig_6_2": {
+  "notacion": "esquema",
+  "simbolos": {},
+  "datos": "impacto de SC-01"
+ },
+ "leyenda:actividad_inicial": {
+  "notacion": "actividad",
+  "simbolos": {
+   "actividad_inicial": 1
+  }
+ },
+ "leyenda:actividad_accion": {
+  "notacion": "actividad",
+  "simbolos": {
+   "actividad_accion": 1
+  }
+ },
+ "leyenda:actividad_decision": {
+  "notacion": "actividad",
+  "simbolos": {
+   "actividad_decision": 1
+  }
+ },
+ "leyenda:actividad_flujo": {
+  "notacion": "actividad",
+  "simbolos": {
+   "actividad_flujo": 1
+  }
+ },
+ "leyenda:actividad_final": {
+  "notacion": "actividad",
+  "simbolos": {
+   "actividad_final": 1
+  }
+ },
+ "leyenda:actividad_carril": {
+  "notacion": "actividad",
+  "simbolos": {
+   "actividad_carril": 1
+  }
+ },
+ "leyenda:contexto_sistema": {
+  "notacion": "contexto",
+  "simbolos": {
+   "contexto_sistema": 1
+  }
+ },
+ "leyenda:contexto_entidad": {
+  "notacion": "contexto",
+  "simbolos": {
+   "contexto_entidad": 1
+  }
+ },
+ "leyenda:contexto_flujo": {
+  "notacion": "contexto",
+  "simbolos": {
+   "contexto_flujo": 1
+  }
+ },
+ "leyenda:cu_actor": {
+  "notacion": "casos_de_uso",
+  "simbolos": {
+   "cu_actor": 1
+  }
+ },
+ "leyenda:cu_caso": {
+  "notacion": "casos_de_uso",
+  "simbolos": {
+   "cu_caso": 1
+  }
+ },
+ "leyenda:cu_limite": {
+  "notacion": "casos_de_uso",
+  "simbolos": {
+   "cu_limite": 1
+  }
+ },
+ "leyenda:cu_asociacion": {
+  "notacion": "casos_de_uso",
+  "simbolos": {
+   "cu_asociacion": 1
+  }
+ }
+}

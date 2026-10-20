@@ -1,0 +1,214 @@
+CORRECTO [A] Capítulo 4: título de Work «Requisitos que se pueden comprobar»
+CORRECTO [A] Capítulo 4: encuentros (7, 8)
+CORRECTO [A] Capítulo 4: secciones de Work §6, textuales y en orden
+CORRECTO [A] Capítulo 4: práctica de Work («convertir pedidos de usuarios en requisitos verificables»)
+CORRECTO [A] Capítulo 5: título de Work «Procesos, contexto y casos de uso»
+CORRECTO [A] Capítulo 5: encuentros (9, 10)
+CORRECTO [A] Capítulo 5: secciones de Work §6, textuales y en orden
+CORRECTO [A] Capítulo 5: práctica de Work («modelar préstamo y devolución con situaciones problemáticas nuevas»)
+CORRECTO [A] Capítulo 6: título de Work «Priorizar y mantener la coherencia»
+CORRECTO [A] Capítulo 6: encuentros (11, 12)
+CORRECTO [A] Capítulo 6: secciones de Work §6, textuales y en orden
+CORRECTO [A] Capítulo 6 cierra con la revisión de la Unidad II y el hito H2 (Work: «Revisión de unidad II: nueva necesidad del usuario y actualización del dossier; H2»)
+CORRECTO [A] Orden: apertura de la Unidad II y Capítulos 4, 5 y 6
+CORRECTO [A] Apertura de la Unidad II con el resultado de Work §5.1 («Requisitos, procesos y trazabilidad inicial»)
+CORRECTO [B] Capítulo 4: rótulo «propuestas para el programa institucional» y «no son capacidades oficiales del MEC»
+CORRECTO [B] Capítulo 4: el rótulo figura en la ficha del libro y de la guía
+CORRECTO [B] Capítulo 4: capacidades C3, C9 de Work §5.2, con su texto de §4.2
+CORRECTO [B] Capítulo 5: rótulo «propuestas para el programa institucional» y «no son capacidades oficiales del MEC»
+CORRECTO [B] Capítulo 5: el rótulo figura en la ficha del libro y de la guía
+CORRECTO [B] Capítulo 5: capacidades C4, C3 de Work §5.2, con su texto de §4.2
+CORRECTO [B] Capítulo 6: rótulo «propuestas para el programa institucional» y «no son capacidades oficiales del MEC»
+CORRECTO [B] Capítulo 6: el rótulo figura en la ficha del libro y de la guía
+CORRECTO [B] Capítulo 6: capacidades C3, C4, C7 de Work §5.2, con su texto de §4.2
+CORRECTO [B] Ninguna capacidad presentada como oficial del MEC
+CORRECTO [B] Guía: aclaración sobre las capacidades propuestas
+CORRECTO [C] libro: los 85 códigos de fuente citados existen en el caso, en Mbokaja o en la situación de evaluación
+CORRECTO [C] libro: 6 citas textuales «…» (código) coinciden con la línea citada
+CORRECTO [C] guía: los 51 códigos de fuente citados existen en el caso, en Mbokaja o en la situación de evaluación
+CORRECTO [C] guía: 1 citas textuales «…» (código) coinciden con la línea citada
+CORRECTO [C] cuaderno: los 37 códigos de fuente citados existen en el caso, en Mbokaja o en la situación de evaluación
+CORRECTO [C] cuaderno: 0 citas textuales «…» (código) coinciden con la línea citada
+CORRECTO [C] Catálogo v1.0: 15 requisitos (10 RF, 3 RNF, 2 RS), identificadores únicos y fuentes existentes
+CORRECTO [C] Catálogo: al menos ocho funcionales y cuatro de calidad o restricciones (Work §4.2, C3)
+CORRECTO [C] El libro reproduce el catálogo, el buzón y los postergados de la fuente única
+CORRECTO [C] Extracto del dossier: cada línea con el texto completo de lote_1/caso/dossier.py
+CORRECTO [C] Registro D3 completo en el libro, con sus tres líneas
+CORRECTO [C] Mbokaja: los requisitos MR citan fuentes que existen (V, M-F, MP, MN)
+CORRECTO [C] Mbokaja: los datos nuevos no repiten ningún código del caso Mbokaja del lote 1
+CORRECTO [C] lote_1/caso/verificar_caso.py sigue sin fallos: Resultado: 107 correctos, 0 fallos
+CORRECTO [D] Capítulo 4: 39 piezas del piloto v2 sin cambios; solo cambian las 15 declaradas
+CORRECTO [D] El piloto no se modificó (contenido.py v2 = v2.1, SHA-256 62179ecbb6fc…)
+CORRECTO [D] Traslado a la fuente única: catálogo, postergados y buzón idénticos al piloto
+CORRECTO [D] Reglas RN-01 a RN-06 idénticas al piloto y al dossier
+CORRECTO [D] Extracto del dossier: mismos registros y códigos que el piloto, y cada fragmento del piloto está en su línea completa
+CORRECTO [D] S42: párrafos iguales al piloto; solo cambia el título (textual de Work)
+CORRECTO [D] Niveles 1 y 3 de la Práctica 4 iguales al piloto
+CORRECTO [D] Actividades del Encuentro 8: solo cambia la Actividad 1 (d)
+CORRECTO [D] Indicadores: los cuatro del piloto más el de C9
+CORRECTO [D] Sin portada ni recuadro de piloto: el libro no dice «piloto» ni «Piloto C»
+CORRECTO [D] Guía: claves de los Encuentros 7 y 8 de la guía v2.1, sin cambios
+CORRECTO [D] Guía: correspondencia de los 15 requisitos igual a la guía v2.1
+CORRECTO [K] 1. Consigna fuera de NIVELES rotulada «Consigna común», con «requisito de calidad», «RNF-04» y «Dado… cuando… entonces…»
+CORRECTO [K] 2. Lista de cotejo con la fila del criterio de calidad, vinculada al indicador 3
+CORRECTO [K] 3. Correspondencia con RNF-04 y origen «Trabajo del estudiante»
+CORRECTO [K] 4. Ninguna consigna de nivel reutiliza RNF-04
+CORRECTO [K] Ajustes: Nivel 2 numera desde RNF-05 y corrige solo B-08; Actividad 1 (d) del Encuentro 8 como tarea
+CORRECTO [K] Guía: clave de la consigna común y nota de evidencia mínima de C3
+CORRECTO [K] Todo camino por la Práctica 4 incluye un criterio sobre un requisito de calidad (la consigna común está antes de los tres niveles)
+CORRECTO [L] 1. Sin mezcla: fig_5_1 declara «Diagrama de actividades UML con particiones» y usa solo sus símbolos (actividad_accion, actividad_carril, actividad_decision, actividad_final, actividad_flujo, actividad_inicial)
+CORRECTO [L] 1. Sin mezcla: fig_5_2 declara «Diagrama de actividades UML con particiones» y usa solo sus símbolos (actividad_accion, actividad_carril, actividad_decision, actividad_final, actividad_flujo, actividad_inicial)
+CORRECTO [L] 1. Sin mezcla: fig_5_3 declara «Diagrama de contexto» y usa solo sus símbolos (contexto_entidad, contexto_flujo, contexto_sistema)
+CORRECTO [L] 1. Sin mezcla: fig_5_4 declara «Diagrama de casos de uso UML» y usa solo sus símbolos (cu_actor, cu_asociacion, cu_caso, cu_limite)
+CORRECTO [L] 1. fig_6_1 (esquema del Capítulo 6) no usa símbolos UML ni del diagrama de contexto
+CORRECTO [L] 1. fig_6_2 (esquema del Capítulo 6) no usa símbolos UML ni del diagrama de contexto
+CORRECTO [L] 2. fig_5_1: un nodo inicial, 2 nodos finales, guardas en todas las salidas de cada decisión y ninguna fuera de ellas
+CORRECTO [L] 2. fig_5_1: acciones con verbo en infinitivo
+CORRECTO [L] 3. fig_5_1: toda acción tiene carril
+CORRECTO [L] 2. fig_5_2: un nodo inicial, 2 nodos finales, guardas en todas las salidas de cada decisión y ninguna fuera de ellas
+CORRECTO [L] 2. fig_5_2: acciones con verbo en infinitivo
+CORRECTO [L] 3. fig_5_2: toda acción tiene carril
+CORRECTO [L] 3. Proceso propuesto: las 4 acciones del carril «Sistema» citan requisitos del catálogo
+CORRECTO [L] 2. Contexto: un solo sistema, entidades externas y flujos rotulados con sustantivos
+CORRECTO [L] 2. Casos de uso: actores fuera del límite (dibujados afuera), roles y no personas
+CORRECTO [L] 4. Los 10 requisitos citados en diagramas, casos de uso y flujos alternativos existen en la fuente única
+CORRECTO [L] 4. «Registrar préstamo», «Registrar devolución» y «Consultar disponibilidad» cubren entre los tres RF-01 a RF-08
+CORRECTO [L] 4. Los requisitos de cada plantilla figuran en su escenario o en sus flujos
+CORRECTO [L] 5. Cada actor de los casos de uso es una entidad externa del contexto o un carril del proceso propuesto
+CORRECTO [L] 5. Cada flujo de información del contexto tiene una fuente del dossier que existe
+CORRECTO [L] 6. Cada caso de uso prioritario tiene al menos un flujo alternativo numerado desde un paso existente
+CORRECTO [L] 6. Los flujos de «Registrar préstamo» cubren RF-04 (ya prestado), RF-05 (máximo) y RF-06 (lector inactivo)
+CORRECTO [L] 7. Cada símbolo usado en una figura figura en la leyenda de la guía (13 símbolos)
+CORRECTO [L] Leyenda en el libro: un recuadro de símbolos en 5.1, 5.2 y 5.3, antes de la primera figura de cada notación
+CORRECTO [L] Guía: errores frecuentes de la NOTACIONES_CAPITULO_5.md §3 (mezclar, verbos, personas, carril, pasos)
+CORRECTO [L] Prueba del control: una figura que mezcla notaciones detiene la generación
+CORRECTO [L] La Figura 2.1 del lote 1 se declara esquema didáctico, no UML
+CORRECTO [M] Matriz: una fila por cada requisito del catálogo v1.0, en orden
+CORRECTO [M] Matriz: necesidades y reglas citadas existen
+CORRECTO [M] Matriz: cada requisito tiene necesidad o regla (ninguno sin origen)
+CORRECTO [M] Matriz: las reglas coinciden con las fuentes del catálogo
+CORRECTO [M] Pruebas previstas: P-01 a P-15, una por requisito y la misma en la matriz
+CORRECTO [M] Matriz: cada caso de uso, paso y flujo citado existe en el Capítulo 5
+CORRECTO [M] Cadena de Work §7.3 (N-02, RN-01, RF-04, P-07) igual en la Figura 4.2, la Figura 6.1 y la matriz
+CORRECTO [M] P-07 dice lo mismo que la prueba de Work §7.3 (segunda solicitud, rechazo y sin segundo préstamo activo)
+CORRECTO [M] Matriz del libro: criterio «a escribir por el equipo» exactamente en los requisitos con criterio de referencia docente
+CORRECTO [M] SC-01: la regla RN-02 v1.1 sale de D3, RF-11 es nuevo y RF-05 conserva el texto («máximo vigente»)
+CORRECTO [M] Tabla 6.6: los elementos que cambian existen (reglas, requisitos, casos de uso, pruebas)
+CORRECTO [M] La solicitud SC-01 tiene todos los campos de 6.4 (quién, qué, por qué, afectados, impacto, decisión, versión)
+CORRECTO [M] Incrementos de la Tabla 6.3: los requisitos citados existen y cada uno depende del anterior
+CORRECTO [M] Tabla 6.4: tareas con responsable, estimación y dependencia; suman 8.5 HC, como dice el Ejemplo resuelto 6.3
+CORRECTO [M] Ejemplo resuelto 6.2: los requisitos con criterio «a escribir» que nombra son los de la matriz
+CORRECTO [E] Sin personas ni títulos del caso de biblioteca de Algorítmica 3.º
+CORRECTO [E] Sin matriz ponderada ni pesos (ni «ponderad…», ni pesos 0,5 / 0,3 / 0,2)
+CORRECTO [E] Sin diagramas de datos ni tablas de base de datos en el Capítulo 5 (solo se remite al Capítulo 7)
+CORRECTO [E] Sin PERT ni teoría de grafos en 6.3 (Work §3, Matemática Aplicada)
+CORRECTO [F] libro: sin formas de tuteo frecuentes
+CORRECTO [F] libro: sin identificadores de modelos de IA
+CORRECTO [F] libro: sin símbolos ✓ ✗
+CORRECTO [F] libro: sin marcadores sin reemplazar
+CORRECTO [F] libro: no se declara apto ni aprobado para la venta
+CORRECTO [F] guía: sin formas de tuteo frecuentes
+CORRECTO [F] guía: sin identificadores de modelos de IA
+CORRECTO [F] guía: sin símbolos ✓ ✗
+CORRECTO [F] guía: sin marcadores sin reemplazar
+CORRECTO [F] guía: no se declara apto ni aprobado para la venta
+CORRECTO [F] cuaderno: sin formas de tuteo frecuentes
+CORRECTO [F] cuaderno: sin identificadores de modelos de IA
+CORRECTO [F] cuaderno: sin símbolos ✓ ✗
+CORRECTO [F] cuaderno: sin marcadores sin reemplazar
+CORRECTO [F] cuaderno: no se declara apto ni aprobado para la venta
+CORRECTO [G] helpers.py del lote 1 (el que se importa) idéntico al del Capítulo 4 v2.1
+CORRECTO [G] maqueta.py del lote 1 (el que se importa) idéntico al del Capítulo 4 v2.1
+CORRECTO [G] libro: oficio 21,59 × 33,02 cm, márgenes O3 y espejados
+CORRECTO [G] libro: 383 filas de tabla, todas «no dividir»
+CORRECTO [G] libro: 32 tablas de varias columnas al ancho útil (17,29 cm)
+CORRECTO [G] libro: toda tabla de datos repite su encabezado (las únicas sin encabezado son las fichas)
+CORRECTO [G] guía: oficio 21,59 × 33,02 cm, márgenes O3 y espejados
+CORRECTO [G] guía: 256 filas de tabla, todas «no dividir»
+CORRECTO [G] guía: 41 tablas de varias columnas al ancho útil (17,29 cm)
+CORRECTO [G] guía: toda tabla de datos repite su encabezado (las únicas sin encabezado son las fichas)
+CORRECTO [G] cuaderno: oficio 21,59 × 33,02 cm, márgenes O3 y espejados
+CORRECTO [G] cuaderno: 51 filas de tabla, todas «no dividir»
+CORRECTO [G] cuaderno: 8 tablas de varias columnas al ancho útil (17,29 cm)
+CORRECTO [G] cuaderno: toda tabla de datos repite su encabezado (las únicas sin encabezado son las fichas)
+CORRECTO [H] libro: ninguna página en blanco
+CORRECTO [H] libro: ninguna página empieza con renglones de respuesta sueltos
+CORRECTO [H] guía: ninguna página en blanco
+CORRECTO [H] guía: ninguna página empieza con renglones de respuesta sueltos
+CORRECTO [H] cuaderno: ninguna página en blanco
+CORRECTO [H] cuaderno: ninguna página empieza con renglones de respuesta sueltos
+CORRECTO [H] Evaluación del Capítulo 4: en página propia y entera en esa página (pág. [15])
+CORRECTO [H] Práctica 4: empieza en página nueva
+CORRECTO [H] Cuaderno: Práctica 4 empieza en página nueva
+CORRECTO [H] Evaluación del Capítulo 5: en página propia y entera en esa página (pág. [28])
+CORRECTO [H] Práctica 5: empieza en página nueva
+CORRECTO [H] Cuaderno: Práctica 5 empieza en página nueva
+CORRECTO [H] Evaluación del Capítulo 6: en página propia y entera en esa página (pág. [39])
+CORRECTO [H] Práctica 6: empieza en página nueva
+CORRECTO [H] Cuaderno: Práctica 6 empieza en página nueva
+CORRECTO [H] El índice ocupa una sola página y la siguiente es la apertura de la Unidad II
+CORRECTO [H] Índice estable: las 29 entradas apuntan a la página donde está su título
+CORRECTO [H] Extensión del libro: 39 págs. (referencia: 36 a 52)
+CORRECTO [H] Extensión de la guía: 16 págs. (referencia: 14 a 22)
+CORRECTO [H] Extensión del cuaderno: 7 págs. (referencia: 6 a 12)
+CORRECTO [I] Evaluación del Capítulo 4: 9 ítems con clave; opción múltiple con claves dcba
+CORRECTO [I] Evaluación del Capítulo 4: suma 15 puntos, como dice su remisión
+CORRECTO [I] Evaluación del Capítulo 4: la guía trae su clave y los criterios de los ítems abiertos
+CORRECTO [I] Capítulo 4: práctica en tres niveles
+CORRECTO [I] Evaluación del Capítulo 5: 9 ítems con clave; opción múltiple con claves ccba
+CORRECTO [I] Evaluación del Capítulo 5: suma 15 puntos, como dice su remisión
+CORRECTO [I] Evaluación del Capítulo 5: la guía trae su clave y los criterios de los ítems abiertos
+CORRECTO [I] Capítulo 5: práctica en tres niveles
+CORRECTO [I] Evaluación del Capítulo 6: 9 ítems con clave; opción múltiple con claves dcac
+CORRECTO [I] Evaluación del Capítulo 6: suma 15 puntos, como dice su remisión
+CORRECTO [I] Evaluación del Capítulo 6: la guía trae su clave y los criterios de los ítems abiertos
+CORRECTO [I] Capítulo 6: práctica en tres niveles
+CORRECTO [I] Semillas de evaluación distintas entre sí y de las del lote 1 (ADS3-C4v2-2, ADS3-L2-C5-c, ADS3-L2-C6)
+CORRECTO [I] Capítulo 4 conserva la semilla del piloto (ADS3-C4v2-2) y sus claves
+CORRECTO [I] Prácticas 5 y 6 con el caso Mbokaja y datos que no están en los ejemplos (MP, MS, MR, MC)
+CORRECTO [I] Situaciones nuevas de la Práctica 5 (libro dañado, turno mañana) ausentes de los ejemplos resueltos
+CORRECTO [I] Rúbrica del H2: cuatro niveles de Work, cinco criterios con descriptores y evidencia del equipo e individual
+CORRECTO [I] El H2 evalúa requisitos (C3), modelos funcionales (C4), solicitud de cambio (C3, C7) y dossier (C2, C7)
+CORRECTO [I] Proporción 60/40 rotulada como propuesta editorial y ausencia de evidencia registrada aparte
+CORRECTO [I] Guía: planilla de registro del H2 y banco de necesidades nuevas que no están en el dossier, el buzón ni D3
+CORRECTO [I] Guía: secuencia en HC de los Encuentros 7 a 12
+CORRECTO [I] Guía: claves de todas las actividades de los Encuentros 7 a 12
+CORRECTO [I] Guía: claves y lista de cotejo de las tres prácticas
+CORRECTO [I] Calendario de 28 encuentros: recuadro en cada capítulo y tabla en la guía
+CORRECTO [I] Capítulo 5 en 28 encuentros: se conserva el proceso actual simplificado de 5 a 7 pasos (adenda v2.1)
+CORRECTO [I] Cuaderno: las tres prácticas con el mismo texto que el libro
+CORRECTO [J] Capítulo 4: tabla 4.1 a 4.6 correlativas, sin repetir
+CORRECTO [J] Capítulo 4: figura 4.1 a 4.2 correlativas, sin repetir
+CORRECTO [J] Capítulo 4: ejemplo resuelto 4.1 a 4.4 correlativas, sin repetir
+CORRECTO [J] Capítulo 4: toda tabla mencionada existe
+CORRECTO [J] Capítulo 4: toda figura mencionada existe
+CORRECTO [J] Capítulo 4: toda ejemplo resuelto mencionada existe
+CORRECTO [J] Capítulo 5: tabla 5.1 a 5.6 correlativas, sin repetir
+CORRECTO [J] Capítulo 5: figura 5.1 a 5.4 correlativas, sin repetir
+CORRECTO [J] Capítulo 5: ejemplo resuelto 5.1 a 5.5 correlativas, sin repetir
+CORRECTO [J] Capítulo 5: toda tabla mencionada existe
+CORRECTO [J] Capítulo 5: toda figura mencionada existe
+CORRECTO [J] Capítulo 5: toda ejemplo resuelto mencionada existe
+CORRECTO [J] Capítulo 6: tabla 6.1 a 6.6 correlativas, sin repetir
+CORRECTO [J] Capítulo 6: figura 6.1 a 6.2 correlativas, sin repetir
+CORRECTO [J] Capítulo 6: ejemplo resuelto 6.1 a 6.4 correlativas, sin repetir
+CORRECTO [J] Capítulo 6: toda tabla mencionada existe
+CORRECTO [J] Capítulo 6: toda figura mencionada existe
+CORRECTO [J] Capítulo 6: toda ejemplo resuelto mencionada existe
+CORRECTO [J] Las referencias a tablas y figuras del lote 1 son solo las previstas (Figura 2.1, Tabla 3.5, Tabla 3.6)
+
+Resultado por bloque:
+  A: 14 correctos, 0 fallos
+  B: 11 correctos, 0 fallos
+  C: 14 correctos, 0 fallos
+  D: 12 correctos, 0 fallos
+  K: 7 correctos, 0 fallos
+  L: 27 correctos, 0 fallos
+  M: 15 correctos, 0 fallos
+  E: 4 correctos, 0 fallos
+  F: 15 correctos, 0 fallos
+  G: 14 correctos, 0 fallos
+  H: 20 correctos, 0 fallos
+  I: 26 correctos, 0 fallos
+  J: 19 correctos, 0 fallos
+Resultado: 198 correctos, 0 fallos

@@ -1,0 +1,350 @@
+{
+ "perfil": {
+  "nombre": "O3",
+  "papel": [
+   21.59,
+   33.02
+  ],
+  "interior": 2.5,
+  "exterior": 1.8,
+  "superior": 1.5,
+  "inferior": 1.5,
+  "espejo": true
+ },
+ "ancho_util": 17.29,
+ "tablas_en_hoja_nueva": [],
+ "columnas_ensanchadas": [],
+ "paginas_libro": {
+  "Unidad II — Especificar qué debe resolver el sistema": 3,
+  "Capítulo 4 — Requisitos que se pueden comprobar": 4,
+  "Encuentro 7 — Requisitos funcionales y reglas de préstamo": 6,
+  "4.1 Necesidad, requisito, regla de negocio y solución técnica": 6,
+  "4.2 Requisitos funcionales, calidad y restricciones": 6,
+  "Encuentro 8 — Calidad, restricciones y criterios de aceptación": 9,
+  "4.3 Identificación, fuente, prioridad y criterios de aceptación": 9,
+  "4.4 Ambigüedades frecuentes y cómo corregirlas": 10,
+  "Práctica 4 — Convertir pedidos de usuarios en requisitos verificables": 13,
+  "Evaluación del Capítulo 4": 15,
+  "Capítulo 5 — Procesos, contexto y casos de uso": 16,
+  "Encuentro 9 — Proceso actual y proceso propuesto": 16,
+  "5.1 Proceso actual y proceso propuesto": 16,
+  "5.2 Diagrama de contexto y límites de intercambio de información": 20,
+  "Encuentro 10 — Casos de uso y excepciones": 22,
+  "5.3 Actores, casos de uso y escenarios principales": 22,
+  "5.4 Excepciones, decisiones y flujos alternativos": 23,
+  "Práctica 5 — Modelar préstamo y devolución en otra biblioteca": 26,
+  "Evaluación del Capítulo 5": 28,
+  "Capítulo 6 — Priorizar y mantener la coherencia": 29,
+  "Encuentro 11 — Prioridades, trazabilidad e incrementos": 29,
+  "6.1 Alcance mínimo y funcionalidades postergables": 29,
+  "6.2 Trazabilidad entre necesidad, requisito, modelo y prueba": 30,
+  "6.3 Iteraciones, tareas, dependencias y responsabilidades": 31,
+  "Encuentro 12 — Solicitud de cambio y revisión de la Unidad II": 33,
+  "6.4 Solicitud de cambio y análisis de impacto": 33,
+  "Revisión de la Unidad II — Hito H2: requisitos y modelos funcionales versionados": 34,
+  "Práctica 6 — Trazar, planificar y cambiar el catálogo de otra biblioteca": 37,
+  "Evaluación del Capítulo 6": 39
+ },
+ "paginas": {
+  "libro": 39,
+  "guia": 16,
+  "cuaderno": 7
+ },
+ "claves": [
+  [
+   "ADS3-C4v2-2",
+   1,
+   "d",
+   "Un lector puede tener como máximo dos préstamos activos."
+  ],
+  [
+   "ADS3-C4v2-2",
+   2,
+   "c",
+   "La bibliotecaria debe poder registrar un préstamo sin ayuda, después de una práctica guiada."
+  ],
+  [
+   "ADS3-C4v2-2",
+   3,
+   "b",
+   "Dado un ejemplar prestado, cuando se intenta prestarlo otra vez, entonces se rechaza y queda un solo préstamo activo."
+  ],
+  [
+   "ADS3-C4v2-2",
+   4,
+   "a",
+   "Es compuesto: une dos requisitos que se comprueban por separado."
+  ],
+  [
+   "ADS3-C4v2-2",
+   5,
+   "F",
+   "Falso. Sin fuente es una idea del equipo: se consulta con los interesados o se descarta."
+  ],
+  [
+   "ADS3-C4v2-2",
+   6,
+   "V",
+   "Verdadero. Es una condición impuesta por el contexto (RS-02, E5-L4)."
+  ],
+  [
+   "ADS3-C4v2-2",
+   7,
+   "F",
+   "Falso. Es una solución técnica para cumplir RF-04; se decide en el diseño."
+  ],
+  [
+   "ADS3-C4v2-2",
+   8,
+   "abierta",
+   "Ejemplo: «RF-13 El sistema debe listar los préstamos activos cuya fecha de vencimiento es anterior a una fecha de referencia elegida.» Criterio: «Dado un préstamo que vence el 9 de marzo y otro que vence el 12, cuando se pide la lista con fecha de referencia 10 de marzo, entonces aparece solo el primero.» Se acepta otra redacción si fija la fecha de referencia y el resultado esperado."
+  ],
+  [
+   "ADS3-C4v2-2",
+   9,
+   "abierta",
+   "RN-07: el material de referencia (diccionarios y atlas) no se presta. Fuente: R-07. Requisito, por ejemplo: «RF-14 El sistema debe rechazar el préstamo de un ejemplar marcado como material de referencia.» Fuente: RN-07. Criterio: «Dado un diccionario marcado como referencia, cuando se intenta prestarlo, entonces el sistema lo rechaza y muestra el motivo.» Prioridad: imprescindible si la institución aprueba la regla, porque sin el requisito la regla se viola; importante si se acepta controlarla a mano. Se valora la justificación, no la etiqueta elegida."
+  ],
+  [
+   "ADS3-L2-C5-c",
+   1,
+   "c",
+   "Un rombo con una guarda entre corchetes en cada salida."
+  ],
+  [
+   "ADS3-L2-C5-c",
+   2,
+   "c",
+   "pedido de proyector"
+  ],
+  [
+   "ADS3-L2-C5-c",
+   3,
+   "b",
+   "Registrar préstamo de proyector"
+  ],
+  [
+   "ADS3-L2-C5-c",
+   4,
+   "a",
+   "el actor participa en ese caso de uso."
+  ],
+  [
+   "ADS3-L2-C5-c",
+   5,
+   "F",
+   "Falso. Muestra el sistema como un todo, las entidades externas y la información que entra y sale."
+  ],
+  [
+   "ADS3-L2-C5-c",
+   6,
+   "V",
+   "Verdadero. Si cambia la persona, el actor sigue siendo el mismo."
+  ],
+  [
+   "ADS3-L2-C5-c",
+   7,
+   "V",
+   "Verdadero. El número dice dónde se desvía y la letra distingue los desvíos de un mismo paso."
+  ],
+  [
+   "ADS3-L2-C5-c",
+   8,
+   "abierta",
+   "Carriles: Docente y Secretaria. Acciones: pedir un proyector (docente); comprobar si hay uno disponible (secretaria); decisión con guardas [hay disponible] y [no hay] (Q-3); anotar nombre y hora (Q-2) y entregar; usar y devolver (docente); revisar funcionamiento y cable (Q-4). Puede agregarse una segunda decisión [falta el cable] que lleva a anotar la falta y avisar a la dirección (Q-5). Nodo inicial único; uno o más nodos finales."
+  ],
+  [
+   "ADS3-L2-C5-c",
+   9,
+   "abierta",
+   "Actor: Secretaria. Escenario: 1. La secretaria indica el proyector devuelto. 2. El sistema muestra el préstamo activo de ese proyector. 3. La secretaria confirma que funciona y tiene el cable. 4. El sistema cierra el préstamo y el proyector queda disponible. Flujo alternativo 3a: falta el cable; la secretaria lo indica, el sistema cierra el préstamo con la observación y deja el aviso para la dirección (Q-5). Se acepta otra redacción coherente."
+  ],
+  [
+   "ADS3-L2-C6",
+   1,
+   "d",
+   "Que todavía no hay una forma de comprobar ese requisito."
+  ],
+  [
+   "ADS3-L2-C6",
+   2,
+   "c",
+   "Avisar al docente por mensaje cuando su solicitud se resuelva."
+  ],
+  [
+   "ADS3-L2-C6",
+   3,
+   "a",
+   "Quien tiene autoridad sobre esa regla, después del análisis de impacto."
+  ],
+  [
+   "ADS3-L2-C6",
+   4,
+   "c",
+   "Que no se puede terminar la primera sin tener hecha la segunda."
+  ],
+  [
+   "ADS3-L2-C6",
+   5,
+   "F",
+   "Falso. Pueden cambiar los datos del criterio y de la prueba, como RF-05 con el cambio de RN-02 (SC-01)."
+  ],
+  [
+   "ADS3-L2-C6",
+   6,
+   "V",
+   "Verdadero. La versión anterior se conserva y la bitácora dice qué cambió y por qué."
+  ],
+  [
+   "ADS3-L2-C6",
+   7,
+   "F",
+   "Falso. La prioridad se justifica con razones: circuito, reglas, valor y dependencias."
+  ],
+  [
+   "ADS3-L2-C6",
+   8,
+   "abierta",
+   "SR-1 y SR-3 salen de W-1; SR-2 y SR-4, de W-2 (se acepta W-1 para SR-2 si se justifica). Cada fila con un criterio observable, por ejemplo: «Dada una solicitud pendiente, cuando el encargado la pasa a resuelta, entonces deja de figurar en la lista de pendientes». Pruebas PS-1 a PS-4. Omisiones posibles: ninguna regla dice quién puede cambiar el estado; no hay requisito de calidad (nada dice cuánto puede esperar una solicitud). Un punto por cada dos filas correctas, uno por los criterios y uno por la omisión."
+  ],
+  [
+   "ADS3-L2-C6",
+   9,
+   "abierta",
+   "Qué cambia: al pasar a «resuelta», se anota qué se hizo. Afecta a SR-3 (cambio de estado) y a su prueba; puede requerir un requisito nuevo SR-5 «registrar la solución de cada solicitud resuelta». Decide el encargado, que es quien pide y usa el registro, con conocimiento de la dirección si cambia una regla. Nueva versión del catálogo con SR-5 y el cambio anotado en la bitácora. Un punto por cada parte."
+  ]
+ ],
+ "simbolos": {
+  "fig_5_1": {
+   "notacion": "actividad",
+   "simbolos": {
+    "actividad_carril": 2,
+    "actividad_inicial": 1,
+    "actividad_accion": 7,
+    "actividad_decision": 1,
+    "actividad_final": 2,
+    "actividad_flujo": 10
+   },
+   "datos": "Proceso actual de préstamo y devolución"
+  },
+  "fig_5_2": {
+   "notacion": "actividad",
+   "simbolos": {
+    "actividad_carril": 3,
+    "actividad_inicial": 1,
+    "actividad_accion": 9,
+    "actividad_decision": 3,
+    "actividad_final": 2,
+    "actividad_flujo": 15
+   },
+   "datos": "Proceso propuesto de préstamo"
+  },
+  "fig_5_3": {
+   "notacion": "contexto",
+   "simbolos": {
+    "contexto_sistema": 1,
+    "contexto_entidad": 3,
+    "contexto_flujo": 9
+   },
+   "datos": "Diagrama de contexto del sistema de préstamos"
+  },
+  "fig_5_4": {
+   "notacion": "casos_de_uso",
+   "simbolos": {
+    "cu_limite": 1,
+    "cu_caso": 5,
+    "cu_actor": 3,
+    "cu_asociacion": 7
+   },
+   "datos": "Diagrama de casos de uso del sistema de préstamos"
+  },
+  "fig_6_1": {
+   "notacion": "esquema",
+   "simbolos": {},
+   "datos": "cadena N-02 → P-07"
+  },
+  "fig_6_2": {
+   "notacion": "esquema",
+   "simbolos": {},
+   "datos": "impacto de SC-01"
+  },
+  "leyenda:actividad_inicial": {
+   "notacion": "actividad",
+   "simbolos": {
+    "actividad_inicial": 1
+   }
+  },
+  "leyenda:actividad_accion": {
+   "notacion": "actividad",
+   "simbolos": {
+    "actividad_accion": 1
+   }
+  },
+  "leyenda:actividad_decision": {
+   "notacion": "actividad",
+   "simbolos": {
+    "actividad_decision": 1
+   }
+  },
+  "leyenda:actividad_flujo": {
+   "notacion": "actividad",
+   "simbolos": {
+    "actividad_flujo": 1
+   }
+  },
+  "leyenda:actividad_final": {
+   "notacion": "actividad",
+   "simbolos": {
+    "actividad_final": 1
+   }
+  },
+  "leyenda:actividad_carril": {
+   "notacion": "actividad",
+   "simbolos": {
+    "actividad_carril": 1
+   }
+  },
+  "leyenda:contexto_sistema": {
+   "notacion": "contexto",
+   "simbolos": {
+    "contexto_sistema": 1
+   }
+  },
+  "leyenda:contexto_entidad": {
+   "notacion": "contexto",
+   "simbolos": {
+    "contexto_entidad": 1
+   }
+  },
+  "leyenda:contexto_flujo": {
+   "notacion": "contexto",
+   "simbolos": {
+    "contexto_flujo": 1
+   }
+  },
+  "leyenda:cu_actor": {
+   "notacion": "casos_de_uso",
+   "simbolos": {
+    "cu_actor": 1
+   }
+  },
+  "leyenda:cu_caso": {
+   "notacion": "casos_de_uso",
+   "simbolos": {
+    "cu_caso": 1
+   }
+  },
+  "leyenda:cu_limite": {
+   "notacion": "casos_de_uso",
+   "simbolos": {
+    "cu_limite": 1
+   }
+  },
+  "leyenda:cu_asociacion": {
+   "notacion": "casos_de_uso",
+   "simbolos": {
+    "cu_asociacion": 1
+   }
+  }
+ }
+}

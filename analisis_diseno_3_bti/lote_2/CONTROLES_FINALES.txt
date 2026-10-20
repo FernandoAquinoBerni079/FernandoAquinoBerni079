@@ -1,0 +1,27 @@
+CORRECTO [1. Filas de tablas] libro: 32 tablas de 2 o más columnas, todas con todas sus filas impresas (200 filas)
+CORRECTO [1. Tablas repartidas entre páginas] libro: «Tabla 4.3 — Catálogo inicial de requisitos del caso», págs. [7, 8]: 16 de 16 filas, encabezado repetido 1 vez/veces
+CORRECTO [1. Tablas repartidas entre páginas] libro: «Tabla 4.5 — Criterios de aceptación y prioridades de otros requisitos», págs. [9, 10]: 5 de 5 filas, encabezado repetido 1 vez/veces
+CORRECTO [1. Tablas repartidas entre páginas] libro: «Tabla 5.2 — Problemas del dossier en el proceso actual», págs. [17, 18]: 4 de 4 filas, encabezado repetido 1 vez/veces
+CORRECTO [1. Tablas repartidas entre páginas] libro: «Tabla 6.2 — Matriz de trazabilidad del catálogo v1.0», págs. [30, 31]: 16 de 16 filas, encabezado repetido 1 vez/veces
+CORRECTO [2. Párrafos impresos] libro: ningún párrafo del DOCX falta en el PDF
+CORRECTO [2. Palabras enteras] libro: ninguna palabra de celda partida en el PDF
+CORRECTO [1. Filas de tablas] guia: 41 tablas de 2 o más columnas, todas con todas sus filas impresas (251 filas)
+CORRECTO [1. Tablas repartidas entre páginas] guia: «Encuentro 8 — Calidad, restricciones y criterios de aceptación (5 HC)», págs. [2, 3]: 4 de 4 filas, encabezado repetido 1 vez/veces
+CORRECTO [1. Tablas repartidas entre páginas] guia: «Correspondencia entre requisitos y criterios de aceptación», págs. [4, 5]: 17 de 17 filas, encabezado repetido 1 vez/veces
+CORRECTO [1. Tablas repartidas entre páginas] guia: «Leyenda: diagrama de actividades con particiones», págs. [7, 8]: 7 de 7 filas, encabezado repetido 1 vez/veces
+CORRECTO [1. Tablas repartidas entre páginas] guia: «Claves de las actividades del Encuentro 9», págs. [8, 9]: 7 de 7 filas, encabezado repetido 1 vez/veces
+CORRECTO [1. Tablas repartidas entre páginas] guia: «Práctica 5: claves por nivel», págs. [9, 10]: 4 de 4 filas, encabezado repetido 1 vez/veces
+CORRECTO [1. Tablas repartidas entre páginas] guia: «Claves de las actividades del Encuentro 11», págs. [11, 12]: 6 de 6 filas, encabezado repetido 1 vez/veces
+CORRECTO [1. Tablas repartidas entre páginas] guia: «Niveles de desempeño (propuesta editorial)», págs. [14, 15]: 5 de 5 filas, encabezado repetido 1 vez/veces
+CORRECTO [1. Tablas repartidas entre páginas] guia: «Inventario de recursos del lote», págs. [15, 16]: 11 de 11 filas, encabezado repetido 1 vez/veces
+CORRECTO [2. Párrafos impresos] guia: ningún párrafo del DOCX falta en el PDF
+CORRECTO [2. Palabras enteras] guia: ninguna palabra de celda partida en el PDF
+CORRECTO [1. Filas de tablas] cuaderno: 8 tablas de 2 o más columnas, todas con todas sus filas impresas (45 filas)
+CORRECTO [2. Párrafos impresos] cuaderno: ningún párrafo del DOCX falta en el PDF
+CORRECTO [2. Palabras enteras] cuaderno: ninguna palabra de celda partida en el PDF
+CORRECTO [3. Figuras] las 8 figuras impresas, cada una con su imagen encima de su epígrafe, en la misma página: Figura 4.1 pág. 7, Figura 4.2 pág. 9, Figura 5.1 pág. 17, Figura 5.2 pág. 19, Figura 5.3 pág. 20, Figura 5.4 pág. 22, Figura 6.1 pág. 30, Figura 6.2 pág. 34
+CORRECTO [3. Figuras] imágenes dibujadas en el libro: 21 (8 figuras y los 13 símbolos de las tres leyendas)
+CORRECTO [4. Índice] 29 entradas; cada una en la página que indica
+CORRECTO [5. Márgenes espejados] impares con el interior (2,5 cm) a la izquierda y pares a la derecha: [(4, 1.8, 2.41), (5, 2.69, 1.9), (6, 1.8, 2.41), (7, 2.5, 1.71), (8, 1.8, 2.41), (9, 2.5, 1.71), (10, 1.8, 2.41), (11, 2.5, 1.72)]
+
+Resultado: 25 controles, 0 fallos

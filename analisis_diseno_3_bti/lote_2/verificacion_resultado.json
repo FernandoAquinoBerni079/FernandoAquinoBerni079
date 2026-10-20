@@ -1,0 +1,1050 @@
+{
+ "correctos": 198,
+ "fallos": 0,
+ "bloques": {
+  "A": [
+   14,
+   0
+  ],
+  "B": [
+   11,
+   0
+  ],
+  "C": [
+   14,
+   0
+  ],
+  "D": [
+   12,
+   0
+  ],
+  "K": [
+   7,
+   0
+  ],
+  "L": [
+   27,
+   0
+  ],
+  "M": [
+   15,
+   0
+  ],
+  "E": [
+   4,
+   0
+  ],
+  "F": [
+   15,
+   0
+  ],
+  "G": [
+   14,
+   0
+  ],
+  "H": [
+   20,
+   0
+  ],
+  "I": [
+   26,
+   0
+  ],
+  "J": [
+   19,
+   0
+  ]
+ },
+ "controles": [
+  {
+   "bloque": "A",
+   "control": "Capítulo 4: título de Work «Requisitos que se pueden comprobar»",
+   "resultado": "correcto"
+  },
+  {
+   "bloque": "A",
+   "control": "Capítulo 4: encuentros (7, 8)",
+   "resultado": "correcto"
+  },
+  {
+   "bloque": "A",
+   "control": "Capítulo 4: secciones de Work §6, textuales y en orden",
+   "resultado": "correcto"
+  },
+  {
+   "bloque": "A",
+   "control": "Capítulo 4: práctica de Work («convertir pedidos de usuarios en requisitos verificables»)",
+   "resultado": "correcto"
+  },
+  {
+   "bloque": "A",
+   "control": "Capítulo 5: título de Work «Procesos, contexto y casos de uso»",
+   "resultado": "correcto"
+  },
+  {
+   "bloque": "A",
+   "control": "Capítulo 5: encuentros (9, 10)",
+   "resultado": "correcto"
+  },
+  {
+   "bloque": "A",
+   "control": "Capítulo 5: secciones de Work §6, textuales y en orden",
+   "resultado": "correcto"
+  },
+  {
+   "bloque": "A",
+   "control": "Capítulo 5: práctica de Work («modelar préstamo y devolución con situaciones problemáticas nuevas»)",
+   "resultado": "correcto"
+  },
+  {
+   "bloque": "A",
+   "control": "Capítulo 6: título de Work «Priorizar y mantener la coherencia»",
+   "resultado": "correcto"
+  },
+  {
+   "bloque": "A",
+   "control": "Capítulo 6: encuentros (11, 12)",
+   "resultado": "correcto"
+  },
+  {
+   "bloque": "A",
+   "control": "Capítulo 6: secciones de Work §6, textuales y en orden",
+   "resultado": "correcto"
+  },
+  {
+   "bloque": "A",
+   "control": "Capítulo 6 cierra con la revisión de la Unidad II y el hito H2 (Work: «Revisión de unidad II: nueva necesidad del usuario y actualización del dossier; H2»)",
+   "resultado": "correcto"
+  },
+  {
+   "bloque": "A",
+   "control": "Orden: apertura de la Unidad II y Capítulos 4, 5 y 6",
+   "resultado": "correcto"
+  },
+  {
+   "bloque": "A",
+   "control": "Apertura de la Unidad II con el resultado de Work §5.1 («Requisitos, procesos y trazabilidad inicial»)",
+   "resultado": "correcto"
+  },
+  {
+   "bloque": "B",
+   "control": "Capítulo 4: rótulo «propuestas para el programa institucional» y «no son capacidades oficiales del MEC»",
+   "resultado": "correcto"
+  },
+  {
+   "bloque": "B",
+   "control": "Capítulo 4: el rótulo figura en la ficha del libro y de la guía",
+   "resultado": "correcto"
+  },
+  {
+   "bloque": "B",
+   "control": "Capítulo 4: capacidades C3, C9 de Work §5.2, con su texto de §4.2",
+   "resultado": "correcto"
+  },
+  {
+   "bloque": "B",
+   "control": "Capítulo 5: rótulo «propuestas para el programa institucional» y «no son capacidades oficiales del MEC»",
+   "resultado": "correcto"
+  },
+  {
+   "bloque": "B",
+   "control": "Capítulo 5: el rótulo figura en la ficha del libro y de la guía",
+   "resultado": "correcto"
+  },
+  {
+   "bloque": "B",
+   "control": "Capítulo 5: capacidades C4, C3 de Work §5.2, con su texto de §4.2",
+   "resultado": "correcto"
+  },
+  {
+   "bloque": "B",
+   "control": "Capítulo 6: rótulo «propuestas para el programa institucional» y «no son capacidades oficiales del MEC»",
+   "resultado": "correcto"
+  },
+  {
+   "bloque": "B",
+   "control": "Capítulo 6: el rótulo figura en la ficha del libro y de la guía",
+   "resultado": "correcto"
+  },
+  {
+   "bloque": "B",
+   "control": "Capítulo 6: capacidades C3, C4, C7 de Work §5.2, con su texto de §4.2",
+   "resultado": "correcto"
+  },
+  {
+   "bloque": "B",
+   "control": "Ninguna capacidad presentada como oficial del MEC",
+   "resultado": "correcto"
+  },
+  {
+   "bloque": "B",
+   "control": "Guía: aclaración sobre las capacidades propuestas",
+   "resultado": "correcto"
+  },
+  {
+   "bloque": "C",
+   "control": "libro: los 85 códigos de fuente citados existen en el caso, en Mbokaja o en la situación de evaluación",
+   "resultado": "correcto"
+  },
+  {
+   "bloque": "C",
+   "control": "libro: 6 citas textuales «…» (código) coinciden con la línea citada",
+   "resultado": "correcto"
+  },
+  {
+   "bloque": "C",
+   "control": "guía: los 51 códigos de fuente citados existen en el caso, en Mbokaja o en la situación de evaluación",
+   "resultado": "correcto"
+  },
+  {
+   "bloque": "C",
+   "control": "guía: 1 citas textuales «…» (código) coinciden con la línea citada",
+   "resultado": "correcto"
+  },
+  {
+   "bloque": "C",
+   "control": "cuaderno: los 37 códigos de fuente citados existen en el caso, en Mbokaja o en la situación de evaluación",
+   "resultado": "correcto"
+  },
+  {
+   "bloque": "C",
+   "control": "cuaderno: 0 citas textuales «…» (código) coinciden con la línea citada",
+   "resultado": "correcto"
+  },
+  {
+   "bloque": "C",
+   "control": "Catálogo v1.0: 15 requisitos (10 RF, 3 RNF, 2 RS), identificadores únicos y fuentes existentes",
+   "resultado": "correcto"
+  },
+  {
+   "bloque": "C",
+   "control": "Catálogo: al menos ocho funcionales y cuatro de calidad o restricciones (Work §4.2, C3)",
+   "resultado": "correcto"
+  },
+  {
+   "bloque": "C",
+   "control": "El libro reproduce el catálogo, el buzón y los postergados de la fuente única",
+   "resultado": "correcto"
+  },
+  {
+   "bloque": "C",
+   "control": "Extracto del dossier: cada línea con el texto completo de lote_1/caso/dossier.py",
+   "resultado": "correcto"
+  },
+  {
+   "bloque": "C",
+   "control": "Registro D3 completo en el libro, con sus tres líneas",
+   "resultado": "correcto"
+  },
+  {
+   "bloque": "C",
+   "control": "Mbokaja: los requisitos MR citan fuentes que existen (V, M-F, MP, MN)",
+   "resultado": "correcto"
+  },
+  {
+   "bloque": "C",
+   "control": "Mbokaja: los datos nuevos no repiten ningún código del caso Mbokaja del lote 1",
+   "resultado": "correcto"
+  },
+  {
+   "bloque": "C",
+   "control": "lote_1/caso/verificar_caso.py sigue sin fallos: Resultado: 107 correctos, 0 fallos",
+   "resultado": "correcto"
+  },
+  {
+   "bloque": "D",
+   "control": "Capítulo 4: 39 piezas del piloto v2 sin cambios; solo cambian las 15 declaradas",
+   "resultado": "correcto"
+  },
+  {
+   "bloque": "D",
+   "control": "El piloto no se modificó (contenido.py v2 = v2.1, SHA-256 62179ecbb6fc…)",
+   "resultado": "correcto"
+  },
+  {
+   "bloque": "D",
+   "control": "Traslado a la fuente única: catálogo, postergados y buzón idénticos al piloto",
+   "resultado": "correcto"
+  },
+  {
+   "bloque": "D",
+   "control": "Reglas RN-01 a RN-06 idénticas al piloto y al dossier",
+   "resultado": "correcto"
+  },
+  {
+   "bloque": "D",
+   "control": "Extracto del dossier: mismos registros y códigos que el piloto, y cada fragmento del piloto está en su línea completa",
+   "resultado": "correcto"
+  },
+  {
+   "bloque": "D",
+   "control": "S42: párrafos iguales al piloto; solo cambia el título (textual de Work)",
+   "resultado": "correcto"
+  },
+  {
+   "bloque": "D",
+   "control": "Niveles 1 y 3 de la Práctica 4 iguales al piloto",
+   "resultado": "correcto"
+  },
+  {
+   "bloque": "D",
+   "control": "Actividades del Encuentro 8: solo cambia la Actividad 1 (d)",
+   "resultado": "correcto"
+  },
+  {
+   "bloque": "D",
+   "control": "Indicadores: los cuatro del piloto más el de C9",
+   "resultado": "correcto"
+  },
+  {
+   "bloque": "D",
+   "control": "Sin portada ni recuadro de piloto: el libro no dice «piloto» ni «Piloto C»",
+   "resultado": "correcto"
+  },
+  {
+   "bloque": "D",
+   "control": "Guía: claves de los Encuentros 7 y 8 de la guía v2.1, sin cambios",
+   "resultado": "correcto"
+  },
+  {
+   "bloque": "D",
+   "control": "Guía: correspondencia de los 15 requisitos igual a la guía v2.1",
+   "resultado": "correcto"
+  },
+  {
+   "bloque": "K",
+   "control": "1. Consigna fuera de NIVELES rotulada «Consigna común», con «requisito de calidad», «RNF-04» y «Dado… cuando… entonces…»",
+   "resultado": "correcto"
+  },
+  {
+   "bloque": "K",
+   "control": "2. Lista de cotejo con la fila del criterio de calidad, vinculada al indicador 3",
+   "resultado": "correcto"
+  },
+  {
+   "bloque": "K",
+   "control": "3. Correspondencia con RNF-04 y origen «Trabajo del estudiante»",
+   "resultado": "correcto"
+  },
+  {
+   "bloque": "K",
+   "control": "4. Ninguna consigna de nivel reutiliza RNF-04",
+   "resultado": "correcto"
+  },
+  {
+   "bloque": "K",
+   "control": "Ajustes: Nivel 2 numera desde RNF-05 y corrige solo B-08; Actividad 1 (d) del Encuentro 8 como tarea",
+   "resultado": "correcto"
+  },
+  {
+   "bloque": "K",
+   "control": "Guía: clave de la consigna común y nota de evidencia mínima de C3",
+   "resultado": "correcto"
+  },
+  {
+   "bloque": "K",
+   "control": "Todo camino por la Práctica 4 incluye un criterio sobre un requisito de calidad (la consigna común está antes de los tres niveles)",
+   "resultado": "correcto"
+  },
+  {
+   "bloque": "L",
+   "control": "1. Sin mezcla: fig_5_1 declara «Diagrama de actividades UML con particiones» y usa solo sus símbolos (actividad_accion, actividad_carril, actividad_decision, actividad_final, actividad_flujo, actividad_inicial)",
+   "resultado": "correcto"
+  },
+  {
+   "bloque": "L",
+   "control": "1. Sin mezcla: fig_5_2 declara «Diagrama de actividades UML con particiones» y usa solo sus símbolos (actividad_accion, actividad_carril, actividad_decision, actividad_final, actividad_flujo, actividad_inicial)",
+   "resultado": "correcto"
+  },
+  {
+   "bloque": "L",
+   "control": "1. Sin mezcla: fig_5_3 declara «Diagrama de contexto» y usa solo sus símbolos (contexto_entidad, contexto_flujo, contexto_sistema)",
+   "resultado": "correcto"
+  },
+  {
+   "bloque": "L",
+   "control": "1. Sin mezcla: fig_5_4 declara «Diagrama de casos de uso UML» y usa solo sus símbolos (cu_actor, cu_asociacion, cu_caso, cu_limite)",
+   "resultado": "correcto"
+  },
+  {
+   "bloque": "L",
+   "control": "1. fig_6_1 (esquema del Capítulo 6) no usa símbolos UML ni del diagrama de contexto",
+   "resultado": "correcto"
+  },
+  {
+   "bloque": "L",
+   "control": "1. fig_6_2 (esquema del Capítulo 6) no usa símbolos UML ni del diagrama de contexto",
+   "resultado": "correcto"
+  },
+  {
+   "bloque": "L",
+   "control": "2. fig_5_1: un nodo inicial, 2 nodos finales, guardas en todas las salidas de cada decisión y ninguna fuera de ellas",
+   "resultado": "correcto"
+  },
+  {
+   "bloque": "L",
+   "control": "2. fig_5_1: acciones con verbo en infinitivo",
+   "resultado": "correcto"
+  },
+  {
+   "bloque": "L",
+   "control": "3. fig_5_1: toda acción tiene carril",
+   "resultado": "correcto"
+  },
+  {
+   "bloque": "L",
+   "control": "2. fig_5_2: un nodo inicial, 2 nodos finales, guardas en todas las salidas de cada decisión y ninguna fuera de ellas",
+   "resultado": "correcto"
+  },
+  {
+   "bloque": "L",
+   "control": "2. fig_5_2: acciones con verbo en infinitivo",
+   "resultado": "correcto"
+  },
+  {
+   "bloque": "L",
+   "control": "3. fig_5_2: toda acción tiene carril",
+   "resultado": "correcto"
+  },
+  {
+   "bloque": "L",
+   "control": "3. Proceso propuesto: las 4 acciones del carril «Sistema» citan requisitos del catálogo",
+   "resultado": "correcto"
+  },
+  {
+   "bloque": "L",
+   "control": "2. Contexto: un solo sistema, entidades externas y flujos rotulados con sustantivos",
+   "resultado": "correcto"
+  },
+  {
+   "bloque": "L",
+   "control": "2. Casos de uso: actores fuera del límite (dibujados afuera), roles y no personas",
+   "resultado": "correcto"
+  },
+  {
+   "bloque": "L",
+   "control": "4. Los 10 requisitos citados en diagramas, casos de uso y flujos alternativos existen en la fuente única",
+   "resultado": "correcto"
+  },
+  {
+   "bloque": "L",
+   "control": "4. «Registrar préstamo», «Registrar devolución» y «Consultar disponibilidad» cubren entre los tres RF-01 a RF-08",
+   "resultado": "correcto"
+  },
+  {
+   "bloque": "L",
+   "control": "4. Los requisitos de cada plantilla figuran en su escenario o en sus flujos",
+   "resultado": "correcto"
+  },
+  {
+   "bloque": "L",
+   "control": "5. Cada actor de los casos de uso es una entidad externa del contexto o un carril del proceso propuesto",
+   "resultado": "correcto"
+  },
+  {
+   "bloque": "L",
+   "control": "5. Cada flujo de información del contexto tiene una fuente del dossier que existe",
+   "resultado": "correcto"
+  },
+  {
+   "bloque": "L",
+   "control": "6. Cada caso de uso prioritario tiene al menos un flujo alternativo numerado desde un paso existente",
+   "resultado": "correcto"
+  },
+  {
+   "bloque": "L",
+   "control": "6. Los flujos de «Registrar préstamo» cubren RF-04 (ya prestado), RF-05 (máximo) y RF-06 (lector inactivo)",
+   "resultado": "correcto"
+  },
+  {
+   "bloque": "L",
+   "control": "7. Cada símbolo usado en una figura figura en la leyenda de la guía (13 símbolos)",
+   "resultado": "correcto"
+  },
+  {
+   "bloque": "L",
+   "control": "Leyenda en el libro: un recuadro de símbolos en 5.1, 5.2 y 5.3, antes de la primera figura de cada notación",
+   "resultado": "correcto"
+  },
+  {
+   "bloque": "L",
+   "control": "Guía: errores frecuentes de la NOTACIONES_CAPITULO_5.md §3 (mezclar, verbos, personas, carril, pasos)",
+   "resultado": "correcto"
+  },
+  {
+   "bloque": "L",
+   "control": "Prueba del control: una figura que mezcla notaciones detiene la generación",
+   "resultado": "correcto"
+  },
+  {
+   "bloque": "L",
+   "control": "La Figura 2.1 del lote 1 se declara esquema didáctico, no UML",
+   "resultado": "correcto"
+  },
+  {
+   "bloque": "M",
+   "control": "Matriz: una fila por cada requisito del catálogo v1.0, en orden",
+   "resultado": "correcto"
+  },
+  {
+   "bloque": "M",
+   "control": "Matriz: necesidades y reglas citadas existen",
+   "resultado": "correcto"
+  },
+  {
+   "bloque": "M",
+   "control": "Matriz: cada requisito tiene necesidad o regla (ninguno sin origen)",
+   "resultado": "correcto"
+  },
+  {
+   "bloque": "M",
+   "control": "Matriz: las reglas coinciden con las fuentes del catálogo",
+   "resultado": "correcto"
+  },
+  {
+   "bloque": "M",
+   "control": "Pruebas previstas: P-01 a P-15, una por requisito y la misma en la matriz",
+   "resultado": "correcto"
+  },
+  {
+   "bloque": "M",
+   "control": "Matriz: cada caso de uso, paso y flujo citado existe en el Capítulo 5",
+   "resultado": "correcto"
+  },
+  {
+   "bloque": "M",
+   "control": "Cadena de Work §7.3 (N-02, RN-01, RF-04, P-07) igual en la Figura 4.2, la Figura 6.1 y la matriz",
+   "resultado": "correcto"
+  },
+  {
+   "bloque": "M",
+   "control": "P-07 dice lo mismo que la prueba de Work §7.3 (segunda solicitud, rechazo y sin segundo préstamo activo)",
+   "resultado": "correcto"
+  },
+  {
+   "bloque": "M",
+   "control": "Matriz del libro: criterio «a escribir por el equipo» exactamente en los requisitos con criterio de referencia docente",
+   "resultado": "correcto"
+  },
+  {
+   "bloque": "M",
+   "control": "SC-01: la regla RN-02 v1.1 sale de D3, RF-11 es nuevo y RF-05 conserva el texto («máximo vigente»)",
+   "resultado": "correcto"
+  },
+  {
+   "bloque": "M",
+   "control": "Tabla 6.6: los elementos que cambian existen (reglas, requisitos, casos de uso, pruebas)",
+   "resultado": "correcto"
+  },
+  {
+   "bloque": "M",
+   "control": "La solicitud SC-01 tiene todos los campos de 6.4 (quién, qué, por qué, afectados, impacto, decisión, versión)",
+   "resultado": "correcto"
+  },
+  {
+   "bloque": "M",
+   "control": "Incrementos de la Tabla 6.3: los requisitos citados existen y cada uno depende del anterior",
+   "resultado": "correcto"
+  },
+  {
+   "bloque": "M",
+   "control": "Tabla 6.4: tareas con responsable, estimación y dependencia; suman 8.5 HC, como dice el Ejemplo resuelto 6.3",
+   "resultado": "correcto"
+  },
+  {
+   "bloque": "M",
+   "control": "Ejemplo resuelto 6.2: los requisitos con criterio «a escribir» que nombra son los de la matriz",
+   "resultado": "correcto"
+  },
+  {
+   "bloque": "E",
+   "control": "Sin personas ni títulos del caso de biblioteca de Algorítmica 3.º",
+   "resultado": "correcto"
+  },
+  {
+   "bloque": "E",
+   "control": "Sin matriz ponderada ni pesos (ni «ponderad…», ni pesos 0,5 / 0,3 / 0,2)",
+   "resultado": "correcto"
+  },
+  {
+   "bloque": "E",
+   "control": "Sin diagramas de datos ni tablas de base de datos en el Capítulo 5 (solo se remite al Capítulo 7)",
+   "resultado": "correcto"
+  },
+  {
+   "bloque": "E",
+   "control": "Sin PERT ni teoría de grafos en 6.3 (Work §3, Matemática Aplicada)",
+   "resultado": "correcto"
+  },
+  {
+   "bloque": "F",
+   "control": "libro: sin formas de tuteo frecuentes",
+   "resultado": "correcto"
+  },
+  {
+   "bloque": "F",
+   "control": "libro: sin identificadores de modelos de IA",
+   "resultado": "correcto"
+  },
+  {
+   "bloque": "F",
+   "control": "libro: sin símbolos ✓ ✗",
+   "resultado": "correcto"
+  },
+  {
+   "bloque": "F",
+   "control": "libro: sin marcadores sin reemplazar",
+   "resultado": "correcto"
+  },
+  {
+   "bloque": "F",
+   "control": "libro: no se declara apto ni aprobado para la venta",
+   "resultado": "correcto"
+  },
+  {
+   "bloque": "F",
+   "control": "guía: sin formas de tuteo frecuentes",
+   "resultado": "correcto"
+  },
+  {
+   "bloque": "F",
+   "control": "guía: sin identificadores de modelos de IA",
+   "resultado": "correcto"
+  },
+  {
+   "bloque": "F",
+   "control": "guía: sin símbolos ✓ ✗",
+   "resultado": "correcto"
+  },
+  {
+   "bloque": "F",
+   "control": "guía: sin marcadores sin reemplazar",
+   "resultado": "correcto"
+  },
+  {
+   "bloque": "F",
+   "control": "guía: no se declara apto ni aprobado para la venta",
+   "resultado": "correcto"
+  },
+  {
+   "bloque": "F",
+   "control": "cuaderno: sin formas de tuteo frecuentes",
+   "resultado": "correcto"
+  },
+  {
+   "bloque": "F",
+   "control": "cuaderno: sin identificadores de modelos de IA",
+   "resultado": "correcto"
+  },
+  {
+   "bloque": "F",
+   "control": "cuaderno: sin símbolos ✓ ✗",
+   "resultado": "correcto"
+  },
+  {
+   "bloque": "F",
+   "control": "cuaderno: sin marcadores sin reemplazar",
+   "resultado": "correcto"
+  },
+  {
+   "bloque": "F",
+   "control": "cuaderno: no se declara apto ni aprobado para la venta",
+   "resultado": "correcto"
+  },
+  {
+   "bloque": "G",
+   "control": "helpers.py del lote 1 (el que se importa) idéntico al del Capítulo 4 v2.1",
+   "resultado": "correcto"
+  },
+  {
+   "bloque": "G",
+   "control": "maqueta.py del lote 1 (el que se importa) idéntico al del Capítulo 4 v2.1",
+   "resultado": "correcto"
+  },
+  {
+   "bloque": "G",
+   "control": "libro: oficio 21,59 × 33,02 cm, márgenes O3 y espejados",
+   "resultado": "correcto"
+  },
+  {
+   "bloque": "G",
+   "control": "libro: 383 filas de tabla, todas «no dividir»",
+   "resultado": "correcto"
+  },
+  {
+   "bloque": "G",
+   "control": "libro: 32 tablas de varias columnas al ancho útil (17,29 cm)",
+   "resultado": "correcto"
+  },
+  {
+   "bloque": "G",
+   "control": "libro: toda tabla de datos repite su encabezado (las únicas sin encabezado son las fichas)",
+   "resultado": "correcto"
+  },
+  {
+   "bloque": "G",
+   "control": "guía: oficio 21,59 × 33,02 cm, márgenes O3 y espejados",
+   "resultado": "correcto"
+  },
+  {
+   "bloque": "G",
+   "control": "guía: 256 filas de tabla, todas «no dividir»",
+   "resultado": "correcto"
+  },
+  {
+   "bloque": "G",
+   "control": "guía: 41 tablas de varias columnas al ancho útil (17,29 cm)",
+   "resultado": "correcto"
+  },
+  {
+   "bloque": "G",
+   "control": "guía: toda tabla de datos repite su encabezado (las únicas sin encabezado son las fichas)",
+   "resultado": "correcto"
+  },
+  {
+   "bloque": "G",
+   "control": "cuaderno: oficio 21,59 × 33,02 cm, márgenes O3 y espejados",
+   "resultado": "correcto"
+  },
+  {
+   "bloque": "G",
+   "control": "cuaderno: 51 filas de tabla, todas «no dividir»",
+   "resultado": "correcto"
+  },
+  {
+   "bloque": "G",
+   "control": "cuaderno: 8 tablas de varias columnas al ancho útil (17,29 cm)",
+   "resultado": "correcto"
+  },
+  {
+   "bloque": "G",
+   "control": "cuaderno: toda tabla de datos repite su encabezado (las únicas sin encabezado son las fichas)",
+   "resultado": "correcto"
+  },
+  {
+   "bloque": "H",
+   "control": "libro: ninguna página en blanco",
+   "resultado": "correcto"
+  },
+  {
+   "bloque": "H",
+   "control": "libro: ninguna página empieza con renglones de respuesta sueltos",
+   "resultado": "correcto"
+  },
+  {
+   "bloque": "H",
+   "control": "guía: ninguna página en blanco",
+   "resultado": "correcto"
+  },
+  {
+   "bloque": "H",
+   "control": "guía: ninguna página empieza con renglones de respuesta sueltos",
+   "resultado": "correcto"
+  },
+  {
+   "bloque": "H",
+   "control": "cuaderno: ninguna página en blanco",
+   "resultado": "correcto"
+  },
+  {
+   "bloque": "H",
+   "control": "cuaderno: ninguna página empieza con renglones de respuesta sueltos",
+   "resultado": "correcto"
+  },
+  {
+   "bloque": "H",
+   "control": "Evaluación del Capítulo 4: en página propia y entera en esa página (pág. [15])",
+   "resultado": "correcto"
+  },
+  {
+   "bloque": "H",
+   "control": "Práctica 4: empieza en página nueva",
+   "resultado": "correcto"
+  },
+  {
+   "bloque": "H",
+   "control": "Cuaderno: Práctica 4 empieza en página nueva",
+   "resultado": "correcto"
+  },
+  {
+   "bloque": "H",
+   "control": "Evaluación del Capítulo 5: en página propia y entera en esa página (pág. [28])",
+   "resultado": "correcto"
+  },
+  {
+   "bloque": "H",
+   "control": "Práctica 5: empieza en página nueva",
+   "resultado": "correcto"
+  },
+  {
+   "bloque": "H",
+   "control": "Cuaderno: Práctica 5 empieza en página nueva",
+   "resultado": "correcto"
+  },
+  {
+   "bloque": "H",
+   "control": "Evaluación del Capítulo 6: en página propia y entera en esa página (pág. [39])",
+   "resultado": "correcto"
+  },
+  {
+   "bloque": "H",
+   "control": "Práctica 6: empieza en página nueva",
+   "resultado": "correcto"
+  },
+  {
+   "bloque": "H",
+   "control": "Cuaderno: Práctica 6 empieza en página nueva",
+   "resultado": "correcto"
+  },
+  {
+   "bloque": "H",
+   "control": "El índice ocupa una sola página y la siguiente es la apertura de la Unidad II",
+   "resultado": "correcto"
+  },
+  {
+   "bloque": "H",
+   "control": "Índice estable: las 29 entradas apuntan a la página donde está su título",
+   "resultado": "correcto"
+  },
+  {
+   "bloque": "H",
+   "control": "Extensión del libro: 39 págs. (referencia: 36 a 52)",
+   "resultado": "correcto"
+  },
+  {
+   "bloque": "H",
+   "control": "Extensión de la guía: 16 págs. (referencia: 14 a 22)",
+   "resultado": "correcto"
+  },
+  {
+   "bloque": "H",
+   "control": "Extensión del cuaderno: 7 págs. (referencia: 6 a 12)",
+   "resultado": "correcto"
+  },
+  {
+   "bloque": "I",
+   "control": "Evaluación del Capítulo 4: 9 ítems con clave; opción múltiple con claves dcba",
+   "resultado": "correcto"
+  },
+  {
+   "bloque": "I",
+   "control": "Evaluación del Capítulo 4: suma 15 puntos, como dice su remisión",
+   "resultado": "correcto"
+  },
+  {
+   "bloque": "I",
+   "control": "Evaluación del Capítulo 4: la guía trae su clave y los criterios de los ítems abiertos",
+   "resultado": "correcto"
+  },
+  {
+   "bloque": "I",
+   "control": "Capítulo 4: práctica en tres niveles",
+   "resultado": "correcto"
+  },
+  {
+   "bloque": "I",
+   "control": "Evaluación del Capítulo 5: 9 ítems con clave; opción múltiple con claves ccba",
+   "resultado": "correcto"
+  },
+  {
+   "bloque": "I",
+   "control": "Evaluación del Capítulo 5: suma 15 puntos, como dice su remisión",
+   "resultado": "correcto"
+  },
+  {
+   "bloque": "I",
+   "control": "Evaluación del Capítulo 5: la guía trae su clave y los criterios de los ítems abiertos",
+   "resultado": "correcto"
+  },
+  {
+   "bloque": "I",
+   "control": "Capítulo 5: práctica en tres niveles",
+   "resultado": "correcto"
+  },
+  {
+   "bloque": "I",
+   "control": "Evaluación del Capítulo 6: 9 ítems con clave; opción múltiple con claves dcac",
+   "resultado": "correcto"
+  },
+  {
+   "bloque": "I",
+   "control": "Evaluación del Capítulo 6: suma 15 puntos, como dice su remisión",
+   "resultado": "correcto"
+  },
+  {
+   "bloque": "I",
+   "control": "Evaluación del Capítulo 6: la guía trae su clave y los criterios de los ítems abiertos",
+   "resultado": "correcto"
+  },
+  {
+   "bloque": "I",
+   "control": "Capítulo 6: práctica en tres niveles",
+   "resultado": "correcto"
+  },
+  {
+   "bloque": "I",
+   "control": "Semillas de evaluación distintas entre sí y de las del lote 1 (ADS3-C4v2-2, ADS3-L2-C5-c, ADS3-L2-C6)",
+   "resultado": "correcto"
+  },
+  {
+   "bloque": "I",
+   "control": "Capítulo 4 conserva la semilla del piloto (ADS3-C4v2-2) y sus claves",
+   "resultado": "correcto"
+  },
+  {
+   "bloque": "I",
+   "control": "Prácticas 5 y 6 con el caso Mbokaja y datos que no están en los ejemplos (MP, MS, MR, MC)",
+   "resultado": "correcto"
+  },
+  {
+   "bloque": "I",
+   "control": "Situaciones nuevas de la Práctica 5 (libro dañado, turno mañana) ausentes de los ejemplos resueltos",
+   "resultado": "correcto"
+  },
+  {
+   "bloque": "I",
+   "control": "Rúbrica del H2: cuatro niveles de Work, cinco criterios con descriptores y evidencia del equipo e individual",
+   "resultado": "correcto"
+  },
+  {
+   "bloque": "I",
+   "control": "El H2 evalúa requisitos (C3), modelos funcionales (C4), solicitud de cambio (C3, C7) y dossier (C2, C7)",
+   "resultado": "correcto"
+  },
+  {
+   "bloque": "I",
+   "control": "Proporción 60/40 rotulada como propuesta editorial y ausencia de evidencia registrada aparte",
+   "resultado": "correcto"
+  },
+  {
+   "bloque": "I",
+   "control": "Guía: planilla de registro del H2 y banco de necesidades nuevas que no están en el dossier, el buzón ni D3",
+   "resultado": "correcto"
+  },
+  {
+   "bloque": "I",
+   "control": "Guía: secuencia en HC de los Encuentros 7 a 12",
+   "resultado": "correcto"
+  },
+  {
+   "bloque": "I",
+   "control": "Guía: claves de todas las actividades de los Encuentros 7 a 12",
+   "resultado": "correcto"
+  },
+  {
+   "bloque": "I",
+   "control": "Guía: claves y lista de cotejo de las tres prácticas",
+   "resultado": "correcto"
+  },
+  {
+   "bloque": "I",
+   "control": "Calendario de 28 encuentros: recuadro en cada capítulo y tabla en la guía",
+   "resultado": "correcto"
+  },
+  {
+   "bloque": "I",
+   "control": "Capítulo 5 en 28 encuentros: se conserva el proceso actual simplificado de 5 a 7 pasos (adenda v2.1)",
+   "resultado": "correcto"
+  },
+  {
+   "bloque": "I",
+   "control": "Cuaderno: las tres prácticas con el mismo texto que el libro",
+   "resultado": "correcto"
+  },
+  {
+   "bloque": "J",
+   "control": "Capítulo 4: tabla 4.1 a 4.6 correlativas, sin repetir",
+   "resultado": "correcto"
+  },
+  {
+   "bloque": "J",
+   "control": "Capítulo 4: figura 4.1 a 4.2 correlativas, sin repetir",
+   "resultado": "correcto"
+  },
+  {
+   "bloque": "J",
+   "control": "Capítulo 4: ejemplo resuelto 4.1 a 4.4 correlativas, sin repetir",
+   "resultado": "correcto"
+  },
+  {
+   "bloque": "J",
+   "control": "Capítulo 4: toda tabla mencionada existe",
+   "resultado": "correcto"
+  },
+  {
+   "bloque": "J",
+   "control": "Capítulo 4: toda figura mencionada existe",
+   "resultado": "correcto"
+  },
+  {
+   "bloque": "J",
+   "control": "Capítulo 4: toda ejemplo resuelto mencionada existe",
+   "resultado": "correcto"
+  },
+  {
+   "bloque": "J",
+   "control": "Capítulo 5: tabla 5.1 a 5.6 correlativas, sin repetir",
+   "resultado": "correcto"
+  },
+  {
+   "bloque": "J",
+   "control": "Capítulo 5: figura 5.1 a 5.4 correlativas, sin repetir",
+   "resultado": "correcto"
+  },
+  {
+   "bloque": "J",
+   "control": "Capítulo 5: ejemplo resuelto 5.1 a 5.5 correlativas, sin repetir",
+   "resultado": "correcto"
+  },
+  {
+   "bloque": "J",
+   "control": "Capítulo 5: toda tabla mencionada existe",
+   "resultado": "correcto"
+  },
+  {
+   "bloque": "J",
+   "control": "Capítulo 5: toda figura mencionada existe",
+   "resultado": "correcto"
+  },
+  {
+   "bloque": "J",
+   "control": "Capítulo 5: toda ejemplo resuelto mencionada existe",
+   "resultado": "correcto"
+  },
+  {
+   "bloque": "J",
+   "control": "Capítulo 6: tabla 6.1 a 6.6 correlativas, sin repetir",
+   "resultado": "correcto"
+  },
+  {
+   "bloque": "J",
+   "control": "Capítulo 6: figura 6.1 a 6.2 correlativas, sin repetir",
+   "resultado": "correcto"
+  },
+  {
+   "bloque": "J",
+   "control": "Capítulo 6: ejemplo resuelto 6.1 a 6.4 correlativas, sin repetir",
+   "resultado": "correcto"
+  },
+  {
+   "bloque": "J",
+   "control": "Capítulo 6: toda tabla mencionada existe",
+   "resultado": "correcto"
+  },
+  {
+   "bloque": "J",
+   "control": "Capítulo 6: toda figura mencionada existe",
+   "resultado": "correcto"
+  },
+  {
+   "bloque": "J",
+   "control": "Capítulo 6: toda ejemplo resuelto mencionada existe",
+   "resultado": "correcto"
+  },
+  {
+   "bloque": "J",
+   "control": "Las referencias a tablas y figuras del lote 1 son solo las previstas (Figura 2.1, Tabla 3.5, Tabla 3.6)",
+   "resultado": "correcto"
+  }
+ ]
+}
