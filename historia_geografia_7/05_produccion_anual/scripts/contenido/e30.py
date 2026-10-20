@@ -48,7 +48,7 @@ TOMO = [('banda', 'EVALUACIÓN DE LA UNIDAD 5', 'El espacio geográfico: posici�
  ('fig',
   'eval_u5_mapa_mudo.png',
   'Mapa mudo para la Parte C. Elaboración propia con datos de Natural Earth (dominio público).',
-  12.0),
+  11.0),
  ('consigna', 'Parte D — Fuente cartográfica (3 puntos: 1 por fila; 0,5 por el nombre del río y 0,5 por la vertiente).'),
  ('fig',
   'eval_u5_rios_numerados.png',

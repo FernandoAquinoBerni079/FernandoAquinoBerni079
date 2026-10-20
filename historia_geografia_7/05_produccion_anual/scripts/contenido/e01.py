@@ -21,9 +21,9 @@ INDICADORES = [
     'Usa los puntos cardinales, la escala y la leyenda para leer un mapa del Paraguay.',
 ]
 
-TOMO = [
-    ('h1', TITULO),
-    ('ficha', CAP_EDITORIAL, TEMA, INDICADORES),
+# La prueba diagnóstica va en hoja propia, antes de la Unidad 1 y de la Clase 1 (se aplica al inicio del encuentro 1).
+DIAGNOSTICA = [
+    ('h1', 'Prueba diagnóstica'),
     ('recuadro', 'Prueba diagnóstica · ¿Qué sabés ya? (no lleva nota)',
      ['¿Qué estudia la Historia? Escribilo con tus palabras.',
       '¿En qué siglo estamos? ¿Cómo lo sabés?',
@@ -31,6 +31,11 @@ TOMO = [
       '¿Con qué países limita el Paraguay?',
       '¿Qué río separa la Región Oriental de la Región Occidental o Chaco?'],
      [2, 1, 2, 1, 1]),
+]
+
+TOMO = [
+    ('h1', TITULO),
+    ('ficha', CAP_EDITORIAL, TEMA, INDICADORES),
 
     ('h2', '¿Qué estudia la Historia?'),
     ('p', 'La Historia es la ciencia que estudia las acciones de las sociedades humanas a lo largo del tiempo: cómo vivían, '

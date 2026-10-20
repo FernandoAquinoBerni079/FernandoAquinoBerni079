@@ -106,7 +106,7 @@ def citados(texto):
 
 
 def todos_bloques(m):
-    return list(m.TOMO) + list(getattr(m, 'FICHAS', []))
+    return list(getattr(m, 'DIAGNOSTICA', [])) + list(m.TOMO) + list(getattr(m, 'FICHAS', []))
 
 
 def aplanar(bloques):
@@ -300,7 +300,9 @@ def cobertura(pg):
     """Fracción de la altura útil cubierta por contenido (intervalos unidos si
     distan menos de 1 cm), sin contar el pie de página."""
     alto = pg.rect.height
-    lim = alto * 0.94
+    # límite: el borde superior del pie de página («Página N de M»); sin pie, el 94 % del alto (márgenes del oficio)
+    pies = [b[1] for b in pg.get_text('blocks') if re.match(r'\s*(Página \d+ de \d+|.*· Página \d+)\s*$', b[4]) and b[1] > alto * 0.85]
+    lim = min(pies) - 1 if pies else alto * 0.94
     iv = [(b[1], b[3]) for b in pg.get_text('blocks') if b[3] < lim]
     iv += [(r.y0, r.y1) for img in pg.get_images() for r in pg.get_image_rects(img[0]) if r.y1 < lim]
     iv += [(d['rect'].y0, d['rect'].y1) for d in pg.get_drawings() if d['rect'].y1 < lim]
@@ -316,7 +318,7 @@ def cobertura(pg):
             tot += b - a; a, b = x, y
     tot += b - a
     util = lim - min(i[0] for i in iv)
-    return tot / (lim - 0.04 * alto), max(i[1] for i in iv) / alto
+    return tot / (lim - 0.04 * alto), max(i[1] for i in iv) / (lim / 0.94)
 
 
 def verificar_pdf(ruta, finales, titulos, nombre, desde=1):
@@ -366,7 +368,7 @@ def main():
     titulos |= {'Capacidad, tema e indicadores', 'Actividades del tomo según su función', 'Secuencia didáctica (120 minutos)',
                 'Atención a la diversidad', 'Evaluación', 'Precisiones para el docente', 'Tarea'}
     rangos = json.load(open(os.path.join(carpeta, 'datos', 'paginas_tomo.json')))
-    tomo_pdf = os.path.join(carpeta, 'tomo', f'TOMO_{nombre}_oficio.pdf')
+    tomo_pdf = os.path.join(carpeta, 'tomo', f'TOMO_{nombre}_legal.pdf')
     verificar_pdf(tomo_pdf, {b for a, b in rangos.values()}, titulos, os.path.basename(tomo_pdf),
                   desde=min(a for a, b in rangos.values()))
     planes_pdf = os.path.join(carpeta, 'planes', f'PLANES_{nombre}_A4.pdf')

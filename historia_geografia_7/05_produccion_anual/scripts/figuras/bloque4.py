@@ -349,7 +349,7 @@ def generar(geo, out):
     mapa_hidrovia(geo, p(reg('fig_18_2_hidrovia.png', 10.5)))
     mapa_rios_america(geo, p(reg('fig_18_3_rios_america.png', 13.0)))
     mapa_rios_paraguay(geo, p(reg('ficha_18A_mapa_mudo.png', 15.0)), ancho=15.0, mudo=True)
-    mapa_rios_paraguay(geo, p(reg('eval_u5_mapa_mudo.png', 12.0)), ancho=12.0, mudo=True)
+    mapa_rios_paraguay(geo, p(reg('eval_u5_mapa_mudo.png', 11.0)), ancho=11.0, mudo=True)   # 11 cm: entra con su consigna en la hoja legal
     mapa_rios_paraguay(geo, p(reg('eval_u5_mapa_clave.png', 12.0)), ancho=12.0)
     mapa_rios_america(geo, p(reg('eval_u5_rios_numerados.png', 9.5)), ancho=9.5, numerado=RIOS_NUMERADOS)
     esquema_clima(p(reg('fig_19_1_clima.png', 15.0)))

@@ -1,186 +1,190 @@
 {
+ "Prueba diagnóstica": [
+  4,
+  4
+ ],
  "Clase 1 — La Historia y la Geografía: mirar el tiempo y el espacio": [
-  5,
-  10
+  4,
+  8
  ],
  "Clase 2 — Los primeros pobladores del actual Paraguay": [
-  11,
-  15
+  9,
+  11
  ],
  "Clase 3 — Los guaraníes: pueblo, cultura y legado": [
-  16,
-  20
+  12,
+  14
  ],
  "Continuación A — Taller de fuentes sobre los guaraníes": [
-  21,
-  23
+  15,
+  16
  ],
  "Ficha reproducible A — Matriz de evidencias": [
-  24,
-  24
+  17,
+  17
  ],
  "EVALUACIÓN DE LA UNIDAD 1": [
-  25,
-  27
+  18,
+  19
  ],
  "Clase 4 — El poblamiento de América": [
-  28,
-  31
+  20,
+  22
  ],
  "Clase 5 — Mayas, aztecas e incas": [
-  32,
-  35
+  23,
+  25
  ],
- "Continuación B — Poblamiento y civilizaciones americanas: mapa y línea de": [
-  36,
-  37
+ "Continuación B — Poblamiento y civilizaciones americanas: mapa y línea de tiempo": [
+  26,
+  27
  ],
  "Ficha reproducible B-1 — Mapa mudo de América": [
-  38,
-  38
+  28,
+  28
  ],
  "Ficha reproducible B-2 — Línea de tiempo de las civilizaciones": [
-  39,
-  39
+  29,
+  29
  ],
  "EVALUACIÓN DE LA UNIDAD 2": [
-  40,
-  42
+  30,
+  31
  ],
  "Clase 6 — Los avances náuticos y la llegada de los europeos": [
-  43,
-  47
+  32,
+  34
  ],
  "Clase 7 — El reparto de América y el gobierno colonial": [
-  48,
-  51
+  35,
+  37
  ],
  "Clase 8 — La conquista del Río de la Plata y la fundación de Asunción": [
-  52,
-  56
+  38,
+  40
  ],
  "Continuación C — Rutas, decisiones y alianzas en el Río de la Plata": [
+  41,
+  42
+ ],
+ "Ficha reproducible C — Mapa mudo del Río de la Plata y del Paraguay": [
+  43,
+  43
+ ],
+ "Clase 9 — Mestizaje, resistencia y vida de los indígenas en el siglo XVI": [
+  44,
+  46
+ ],
+ "Clase 10 — La Real Provisión de 1537 y las instituciones coloniales": [
+  47,
+  50
+ ],
+ "Continuación D — La autonomía y sus límites: de 1537 a 1544": [
+  51,
+  52
+ ],
+ "EVALUACIÓN DE LA UNIDAD 3": [
+  53,
+  54
+ ],
+ "EVALUACIÓN INTEGRADORA DE LA 1.ª ETAPA": [
+  55,
+  56
+ ],
+ "Clase 11 — La división de la provincia (1617) y la mediterraneidad": [
   57,
   59
  ],
- "Ficha reproducible C — Mapa mudo del Río de la Plata y del Paraguay": [
+ "Clase 12 — Economía y situación de los indígenas en el siglo XVII": [
   60,
-  60
+  62
  ],
- "Clase 9 — Mestizaje, resistencia y vida de los indígenas en el siglo XVI": [
-  61,
-  64
+ "Clase 13 — Franciscanos y jesuitas en la cultura paraguaya": [
+  63,
+  65
  ],
- "Clase 10 — La Real Provisión de 1537 y las instituciones coloniales": [
-  65,
-  70
+ "Continuación E — Bandeirantes, pérdida del Guairá y Mbororé (siglo XVII)": [
+  66,
+  68
  ],
- "Continuación D — La autonomía y sus límites: de 1537 a 1544": [
-  71,
-  73
+ "Ficha reproducible E — Mapa mudo del Guairá y de las reducciones": [
+  69,
+  69
  ],
- "EVALUACIÓN DE LA UNIDAD 3": [
-  74,
-  76
+ "Clase 14 — Haciendas, minería y comercio en la América colonial": [
+  70,
+  72
  ],
- "EVALUACIÓN INTEGRADORA DE LA 1.ª ETAPA": [
-  77,
-  79
+ "Clase 15 — Otras colonizaciones; indígenas y africanos en América": [
+  73,
+  75
  ],
- "Clase 11 — La división de la provincia (1617) y la mediterraneidad": [
-  80,
+ "EVALUACIÓN DE LA UNIDAD 4": [
+  76,
+  77
+ ],
+ "Clase 16 — La posición geográfica del Paraguay y de América": [
+  78,
+  80
+ ],
+ "Clase 17 — El relieve del Paraguay y de América": [
+  81,
   83
  ],
- "Clase 12 — Economía y situación de los indígenas en el siglo XVII": [
+ "Clase 18 — La hidrografía y la Hidrovía": [
   84,
   87
  ],
- "Clase 13 — Franciscanos y jesuitas en la cultura paraguaya": [
+ "Ficha reproducible 18-A — Mapa mudo del Paraguay y sus ríos": [
   88,
+  88
+ ],
+ "Continuación F — La Hidrovía: beneficios, impactos y decisiones": [
+  89,
+  90
+ ],
+ "Ficha reproducible F-A — Caso para decidir": [
+  91,
   91
  ],
- "Continuación E — Bandeirantes, pérdida del Guairá y Mbororé (siglo XVII)": [
+ "Ficha reproducible F-B — Tarjetas de rol": [
   92,
-  95
+  92
  ],
- "Ficha reproducible E — Mapa mudo del Guairá y de las reducciones": [
-  96,
+ "Ficha reproducible F-C — Matriz de decisión": [
+  93,
+  93
+ ],
+ "EVALUACIÓN DE LA UNIDAD 5": [
+  94,
   96
  ],
- "Clase 14 — Haciendas, minería y comercio en la América colonial": [
+ "Clase 19 — El clima de Paraguay y de América": [
   97,
   100
  ],
- "Clase 15 — Otras colonizaciones; indígenas y africanos en América": [
+ "Clase 20 — Regiones naturales de Paraguay y América": [
   101,
   104
  ],
- "EVALUACIÓN DE LA UNIDAD 4": [
+ "Clase 21 — La gestión ambiental en el Paraguay": [
   105,
   107
  ],
- "Clase 16 — La posición geográfica del Paraguay y de América": [
-  108,
-  112
- ],
- "Clase 17 — El relieve del Paraguay y de América": [
-  113,
-  116
- ],
- "Clase 18 — La hidrografía y la Hidrovía": [
-  117,
-  122
- ],
- "Ficha reproducible 18-A — Mapa mudo del Paraguay y sus ríos": [
-  123,
-  123
- ],
- "Continuación F — La Hidrovía: beneficios, impactos y decisiones": [
-  124,
-  125
- ],
- "Ficha reproducible F-A — Caso para decidir": [
-  126,
-  126
- ],
- "Ficha reproducible F-B — Tarjetas de rol": [
-  127,
-  127
- ],
- "Ficha reproducible F-C — Matriz de decisión": [
-  128,
-  128
- ],
- "EVALUACIÓN DE LA UNIDAD 5": [
-  129,
-  132
- ],
- "Clase 19 — El clima de Paraguay y de América": [
-  133,
-  137
- ],
- "Clase 20 — Regiones naturales de Paraguay y América": [
-  138,
-  142
- ],
- "Clase 21 — La gestión ambiental en el Paraguay": [
-  143,
-  146
- ],
  "Continuación G — Clima, ecosistemas y gestión ambiental": [
-  147,
-  149
+  108,
+  109
  ],
  "Ficha reproducible G — Mapa mudo del Paraguay: lluvias y ecosistemas": [
-  150,
-  150
+  110,
+  110
  ],
  "EVALUACIÓN DE LA UNIDAD 6": [
-  151,
-  153
+  111,
+  112
  ],
  "EVALUACIÓN INTEGRADORA DE LA 2.ª ETAPA": [
-  154,
-  156
+  113,
+  114
  ]
 }

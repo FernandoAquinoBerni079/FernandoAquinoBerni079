@@ -16,7 +16,7 @@ def texto(ruta):
     return [re.sub(r'\s+', ' ', p.get_text()) for p in d]
 
 
-TOMO = texto(os.path.join(A, 'tomo', 'TOMO_ANUAL_oficio.pdf'))
+TOMO = texto(os.path.join(A, 'tomo', 'TOMO_ANUAL_legal.pdf'))
 PLAN = texto(os.path.join(A, 'planes', 'PLANES_ANUAL_A4.pdf'))
 SOL = texto(os.path.join(A, 'solucionario', 'SOLUCIONARIO_ANUAL_A4.pdf'))
 T, P, S = ' '.join(TOMO), ' '.join(PLAN), ' '.join(SOL)

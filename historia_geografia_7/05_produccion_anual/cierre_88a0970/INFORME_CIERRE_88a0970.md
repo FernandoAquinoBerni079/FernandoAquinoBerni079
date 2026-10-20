@@ -121,3 +121,7 @@ COM-02 y COM-03 siguen como observaciones parciales.
 ## 8. Decisión
 
 Esta es una versión candidata. La aprobación final corresponde a Fernando.
+
+## Anexo: edición compacta en papel legal
+
+Por pedido de Fernando, el tomo se rearmó en papel legal con márgenes estrechos, con letra e interlineado menores, menos huecos y la prueba diagnóstica en hoja propia. El tomo anual pasa de 156 a 114 páginas sin perder contenido. El detalle, los controles y los huecos que quedan están en `EDICION_COMPACTA_LEGAL.md`. Los números de páginas y de controles de las secciones anteriores de este informe corresponden a la versión en oficio (`c2cf12b`).

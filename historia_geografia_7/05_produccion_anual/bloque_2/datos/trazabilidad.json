@@ -16,7 +16,7 @@
    "ficha_impresa": true,
    "paginas_tomo": [
     4,
-    8
+    6
    ],
    "pendientes_de_verificacion": [
     [
@@ -47,8 +47,8 @@
    ],
    "ficha_impresa": true,
    "paginas_tomo": [
-    9,
-    12
+    7,
+    9
    ],
    "pendientes_de_verificacion": [
     [
@@ -79,8 +79,8 @@
    ],
    "ficha_impresa": true,
    "paginas_tomo": [
-    13,
-    17
+    10,
+    12
    ],
    "pendientes_de_verificacion": [
     [
@@ -111,8 +111,8 @@
    ],
    "ficha_impresa": true,
    "paginas_tomo": [
-    18,
-    20
+    13,
+    14
    ],
    "pendientes_de_verificacion": [
     [
@@ -134,8 +134,8 @@
    ],
    "ficha_impresa": true,
    "paginas_tomo": [
-    22,
-    25
+    16,
+    18
    ],
    "pendientes_de_verificacion": [
     [
@@ -174,8 +174,8 @@
    ],
    "ficha_impresa": true,
    "paginas_tomo": [
-    26,
-    31
+    19,
+    22
    ],
    "pendientes_de_verificacion": [
     [
@@ -210,8 +210,8 @@
    ],
    "ficha_impresa": true,
    "paginas_tomo": [
-    32,
-    34
+    23,
+    24
    ],
    "pendientes_de_verificacion": [
     [
@@ -236,8 +236,8 @@
    "temas_mec": [],
    "ficha_impresa": false,
    "paginas_tomo": [
-    35,
-    37
+    25,
+    26
    ],
    "pendientes_de_verificacion": []
   },
@@ -255,8 +255,8 @@
    "temas_mec": [],
    "ficha_impresa": false,
    "paginas_tomo": [
-    38,
-    40
+    27,
+    28
    ],
    "pendientes_de_verificacion": []
   }

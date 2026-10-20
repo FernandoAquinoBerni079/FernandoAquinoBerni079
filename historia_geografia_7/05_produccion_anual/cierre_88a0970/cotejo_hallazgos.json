@@ -12,7 +12,7 @@
     "control": "Epígrafe de la Ficha B-1 en el tomo",
     "resultado": "correcto",
     "paginas": [
-     38
+     28
     ]
    },
    {
@@ -43,9 +43,9 @@
     "control": "White Sands: corroboración de 2023 en tomo y clave, sin «en discusión»",
     "resultado": "correcto",
     "paginas": [
-     29,
-     30,
-     31
+     20,
+     21,
+     22
     ]
    },
    {
@@ -139,7 +139,7 @@
     "control": "Tabla y clave: río Negro u Otuquis con Bolivia (38 km)",
     "resultado": "correcto",
     "paginas": [
-     109
+     78
     ]
    },
    {

@@ -1,5 +1,5 @@
 {
- "correctos": 1626,
+ "correctos": 1608,
  "fallos": [],
  "por_control": {
   "1. Capacidades": {
@@ -43,7 +43,7 @@
    "fallos": []
   },
   "12. Voseo": {
-   "correctos": 1064,
+   "correctos": 1066,
    "fallos": []
   },
   "10. Equidad": {
@@ -51,7 +51,7 @@
    "fallos": []
   },
   "11. Integridad visual": {
-   "correctos": 132,
+   "correctos": 112,
    "fallos": []
   }
  },
