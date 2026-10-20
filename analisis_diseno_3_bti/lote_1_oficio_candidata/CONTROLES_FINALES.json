@@ -1,0 +1,1024 @@
+{
+ "fallos": [],
+ "controles": {
+  "1. Texto idéntico": [
+   {
+    "resultado": "correcto",
+    "detalle": "libro: 1721 párrafos con texto, igual que A4 original"
+   },
+   {
+    "resultado": "correcto",
+    "detalle": "libro: 1721 párrafos con texto, igual que prueba O3"
+   },
+   {
+    "resultado": "correcto",
+    "detalle": "guia: 721 párrafos con texto, igual que A4 original"
+   },
+   {
+    "resultado": "correcto",
+    "detalle": "guia: 721 párrafos con texto, igual que prueba O3"
+   }
+  ],
+  "2. Filas de tablas": [
+   {
+    "resultado": "correcto",
+    "detalle": "libro: 38 tablas de 2 o más columnas, todas con todas sus filas impresas (252 filas)"
+   },
+   {
+    "resultado": "correcto",
+    "detalle": "guia: 36 tablas de 2 o más columnas, todas con todas sus filas impresas (226 filas)"
+   }
+  ],
+  "2. Tablas repartidas entre páginas": [
+   {
+    "resultado": "correcto",
+    "detalle": "libro: «Tabla 1.6 — Resultados del diagnóstico de Noelia» (Área del diagnóstico), págs. [15, 16]: 5 de 5 filas, encabezado repetido 1 vez/veces"
+   },
+   {
+    "resultado": "correcto",
+    "detalle": "libro: «Tabla 2.1 — Necesidad y solución en lo que dice un interesado» (Lo que dice el interesado (con su fuente), págs. [22, 23]: 4 de 4 filas, encabezado repetido 1 vez/veces"
+   },
+   {
+    "resultado": "correcto",
+    "detalle": "libro: «Tabla 3.2 — Tres tipos de solución para la biblioteca» (Alternativa), págs. [38, 39]: 4 de 4 filas, encabezado repetido 1 vez/veces"
+   },
+   {
+    "resultado": "correcto",
+    "detalle": "guia: «Claves de las actividades del Encuentro 1» (Act.), págs. [3, 4]: 6 de 6 filas, encabezado repetido 1 vez/veces"
+   },
+   {
+    "resultado": "correcto",
+    "detalle": "guia: «Lista de cotejo de la Práctica 1» (Criterio), págs. [4, 5]: 6 de 6 filas, encabezado repetido 1 vez/veces"
+   },
+   {
+    "resultado": "correcto",
+    "detalle": "guia: «Claves de las actividades del Encuentro 5» (Act.), págs. [10, 11]: 7 de 7 filas, encabezado repetido 1 vez/veces"
+   },
+   {
+    "resultado": "correcto",
+    "detalle": "guia: «Lista de cotejo de la Práctica 3» (Criterio), págs. [11, 12]: 6 de 6 filas, encabezado repetido 1 vez/veces"
+   },
+   {
+    "resultado": "correcto",
+    "detalle": "guia: «Niveles de desempeño (propuesta editorial)» (Nivel de desempeño), págs. [13, 14]: 5 de 5 filas, encabezado repetido 1 vez/veces"
+   }
+  ],
+  "2. Tabla 3.5": [
+   {
+    "resultado": "correcto",
+    "detalle": "Tabla 3.5 «Alcance mínimo del proyecto (núcleo)»: 8 de 8 filas impresas, pág. [41]"
+   }
+  ],
+  "tablas_libro": [
+   {
+    "n": 1,
+    "rotulo": "Las seis unidades del libro",
+    "primera_celda": "Unidad",
+    "filas_docx": 7,
+    "filas_impresas": 7,
+    "paginas": [
+     3
+    ],
+    "encabezado_repetido": 0,
+    "filas_faltantes": []
+   },
+   {
+    "n": 2,
+    "rotulo": "Capacidades y evidencias del año",
+    "primera_celda": "Código",
+    "filas_docx": 11,
+    "filas_impresas": 11,
+    "paginas": [
+     4
+    ],
+    "encabezado_repetido": 0,
+    "filas_faltantes": []
+   },
+   {
+    "n": 3,
+    "rotulo": "Hitos del proyecto",
+    "primera_celda": "Hito",
+    "filas_docx": 7,
+    "filas_impresas": 7,
+    "paginas": [
+     4
+    ],
+    "encabezado_repetido": 0,
+    "filas_faltantes": []
+   },
+   {
+    "n": 4,
+    "rotulo": "Autoevaluación: marcá una opción por área",
+    "primera_celda": "Área",
+    "filas_docx": 5,
+    "filas_impresas": 5,
+    "paginas": [
+     6
+    ],
+    "encabezado_repetido": 0,
+    "filas_faltantes": []
+   },
+   {
+    "n": 5,
+    "rotulo": "Personas del caso (ficticias)",
+    "primera_celda": "Persona",
+    "filas_docx": 6,
+    "filas_impresas": 6,
+    "paginas": [
+     7
+    ],
+    "encabezado_repetido": 0,
+    "filas_faltantes": []
+   },
+   {
+    "n": 6,
+    "rotulo": "Dónde repasar lo que el proyecto necesita",
+    "primera_celda": "Si necesitás…",
+    "filas_docx": 9,
+    "filas_impresas": 9,
+    "paginas": [
+     8
+    ],
+    "encabezado_repetido": 0,
+    "filas_faltantes": []
+   },
+   {
+    "n": 7,
+    "rotulo": "La Unidad I en un vistazo",
+    "primera_celda": "Capítulo",
+    "filas_docx": 4,
+    "filas_impresas": 4,
+    "paginas": [
+     9
+    ],
+    "encabezado_repetido": 0,
+    "filas_faltantes": []
+   },
+   {
+    "n": 8,
+    "rotulo": "Unidad I — Comprender el problema y su contexto",
+    "primera_celda": "Capacidades propuestas para el programa ",
+    "filas_docx": 4,
+    "filas_impresas": 4,
+    "paginas": [
+     10
+    ],
+    "encabezado_repetido": 0,
+    "filas_faltantes": []
+   },
+   {
+    "n": 9,
+    "rotulo": "Tabla 1.1 — Síntoma, problema y solución anticipada",
+    "primera_celda": "Categoría",
+    "filas_docx": 5,
+    "filas_impresas": 5,
+    "paginas": [
+     11
+    ],
+    "encabezado_repetido": 0,
+    "filas_faltantes": []
+   },
+   {
+    "n": 10,
+    "rotulo": "Tabla 1.2 — Ficha de problema del caso (primera versión)",
+    "primera_celda": "Elemento de la ficha",
+    "filas_docx": 8,
+    "filas_impresas": 8,
+    "paginas": [
+     11
+    ],
+    "encabezado_repetido": 0,
+    "filas_faltantes": []
+   },
+   {
+    "n": 11,
+    "rotulo": "Tabla 1.3 — Los cinco elementos de un sistema",
+    "primera_celda": "Elemento",
+    "filas_docx": 6,
+    "filas_impresas": 6,
+    "paginas": [
+     12
+    ],
+    "encabezado_repetido": 0,
+    "filas_faltantes": []
+   },
+   {
+    "n": 12,
+    "rotulo": "Tabla 1.4 — Interesados de la biblioteca: puntajes y estrategia",
+    "primera_celda": "Interesado",
+    "filas_docx": 7,
+    "filas_impresas": 7,
+    "paginas": [
+     15
+    ],
+    "encabezado_repetido": 0,
+    "filas_faltantes": []
+   },
+   {
+    "n": 13,
+    "rotulo": "Tabla 1.5 — Actores e interesados del caso",
+    "primera_celda": "Persona o grupo",
+    "filas_docx": 6,
+    "filas_impresas": 6,
+    "paginas": [
+     15
+    ],
+    "encabezado_repetido": 0,
+    "filas_faltantes": []
+   },
+   {
+    "n": 14,
+    "rotulo": "Tabla 1.6 — Resultados del diagnóstico de Noelia",
+    "primera_celda": "Área del diagnóstico",
+    "filas_docx": 5,
+    "filas_impresas": 5,
+    "paginas": [
+     15,
+     16
+    ],
+    "encabezado_repetido": 1,
+    "filas_faltantes": []
+   },
+   {
+    "n": 15,
+    "rotulo": "Tabla 1.7 — Plan de apoyo de Noelia",
+    "primera_celda": "Qué repasar",
+    "filas_docx": 4,
+    "filas_impresas": 4,
+    "paginas": [
+     16
+    ],
+    "encabezado_repetido": 0,
+    "filas_faltantes": []
+   },
+   {
+    "n": 16,
+    "rotulo": "Relato de la visita a la biblioteca de la Escuela Básica Mbokaja (caso de prácti",
+    "primera_celda": "Código",
+    "filas_docx": 13,
+    "filas_impresas": 13,
+    "paginas": [
+     18
+    ],
+    "encabezado_repetido": 0,
+    "filas_faltantes": []
+   },
+   {
+    "n": 17,
+    "rotulo": "Unidad I — Comprender el problema y su contexto",
+    "primera_celda": "Capacidad propuesta para el programa ins",
+    "filas_docx": 4,
+    "filas_impresas": 4,
+    "paginas": [
+     22
+    ],
+    "encabezado_repetido": 0,
+    "filas_faltantes": []
+   },
+   {
+    "n": 18,
+    "rotulo": "Tabla 2.1 — Necesidad y solución en lo que dice un interesado",
+    "primera_celda": "Lo que dice el interesado (con su fuente",
+    "filas_docx": 4,
+    "filas_impresas": 4,
+    "paginas": [
+     22,
+     23
+    ],
+    "encabezado_repetido": 1,
+    "filas_faltantes": []
+   },
+   {
+    "n": 19,
+    "rotulo": "Tabla 2.2 — Preguntas que conviene evitar",
+    "primera_celda": "Pregunta a evitar",
+    "filas_docx": 5,
+    "filas_impresas": 5,
+    "paginas": [
+     23
+    ],
+    "encabezado_repetido": 0,
+    "filas_faltantes": []
+   },
+   {
+    "n": 20,
+    "rotulo": "Tabla 2.3 — Técnicas de relevamiento",
+    "primera_celda": "Técnica",
+    "filas_docx": 6,
+    "filas_impresas": 6,
+    "paginas": [
+     25
+    ],
+    "encabezado_repetido": 0,
+    "filas_faltantes": []
+   },
+   {
+    "n": 21,
+    "rotulo": "Tabla 2.4 — Análisis del reglamento y del informe mensual",
+    "primera_celda": "Fragmento",
+    "filas_docx": 5,
+    "filas_impresas": 5,
+    "paginas": [
+     26
+    ],
+    "encabezado_repetido": 0,
+    "filas_faltantes": []
+   },
+   {
+    "n": 22,
+    "rotulo": "Tabla 2.5 — Hallazgos del registro E1",
+    "primera_celda": "Cód.",
+    "filas_docx": 10,
+    "filas_impresas": 10,
+    "paginas": [
+     30
+    ],
+    "encabezado_repetido": 0,
+    "filas_faltantes": []
+   },
+   {
+    "n": 23,
+    "rotulo": "Tabla 2.6 — Cinco principios para cuidar a las personas y sus datos",
+    "primera_celda": "Principio",
+    "filas_docx": 6,
+    "filas_impresas": 6,
+    "paginas": [
+     31
+    ],
+    "encabezado_repetido": 0,
+    "filas_faltantes": []
+   },
+   {
+    "n": 24,
+    "rotulo": "Tabla 2.7 — Necesidades del dossier del caso",
+    "primera_celda": "Cód.",
+    "filas_docx": 14,
+    "filas_impresas": 14,
+    "paginas": [
+     31
+    ],
+    "encabezado_repetido": 0,
+    "filas_faltantes": []
+   },
+   {
+    "n": 25,
+    "rotulo": "Normas de la biblioteca de la Escuela Básica Mbokaja (caso de práctica, ficticio",
+    "primera_celda": "Código",
+    "filas_docx": 6,
+    "filas_impresas": 6,
+    "paginas": [
+     33
+    ],
+    "encabezado_repetido": 0,
+    "filas_faltantes": []
+   },
+   {
+    "n": 26,
+    "rotulo": "Unidad I — Comprender el problema y su contexto",
+    "primera_celda": "Capacidades propuestas para el programa ",
+    "filas_docx": 4,
+    "filas_impresas": 4,
+    "paginas": [
+     37
+    ],
+    "encabezado_repetido": 0,
+    "filas_faltantes": []
+   },
+   {
+    "n": 27,
+    "rotulo": "Tabla 3.1 — Objetivos específicos y resultados esperados",
+    "primera_celda": "Objetivo específico",
+    "filas_docx": 6,
+    "filas_impresas": 6,
+    "paginas": [
+     38
+    ],
+    "encabezado_repetido": 0,
+    "filas_faltantes": []
+   },
+   {
+    "n": 28,
+    "rotulo": "Tabla 3.2 — Tres tipos de solución para la biblioteca",
+    "primera_celda": "Alternativa",
+    "filas_docx": 4,
+    "filas_impresas": 4,
+    "paginas": [
+     38,
+     39
+    ],
+    "encabezado_repetido": 1,
+    "filas_faltantes": []
+   },
+   {
+    "n": 29,
+    "rotulo": "Tabla 3.3 — Factibilidad cualitativa de las alternativas",
+    "primera_celda": "Factibilidad",
+    "filas_docx": 6,
+    "filas_impresas": 6,
+    "paginas": [
+     39
+    ],
+    "encabezado_repetido": 0,
+    "filas_faltantes": []
+   },
+   {
+    "n": 30,
+    "rotulo": "Tabla 3.4 — Riesgos del proyecto",
+    "primera_celda": "Cód.",
+    "filas_docx": 7,
+    "filas_impresas": 7,
+    "paginas": [
+     40
+    ],
+    "encabezado_repetido": 0,
+    "filas_faltantes": []
+   },
+   {
+    "n": 31,
+    "rotulo": "Tabla 3.5 — Alcance mínimo del proyecto (núcleo)",
+    "primera_celda": "Función del núcleo",
+    "filas_docx": 8,
+    "filas_impresas": 8,
+    "paginas": [
+     41
+    ],
+    "encabezado_repetido": 0,
+    "filas_faltantes": []
+   },
+   {
+    "n": 32,
+    "rotulo": "Tabla 3.6 — Exclusiones y pedidos postergados",
+    "primera_celda": "Pedido o función",
+    "filas_docx": 8,
+    "filas_impresas": 8,
+    "paginas": [
+     41
+    ],
+    "encabezado_repetido": 0,
+    "filas_faltantes": []
+   },
+   {
+    "n": 33,
+    "rotulo": "Tabla 3.7 — Acuerdo de proyecto del equipo modelo (v1.0)",
+    "primera_celda": "Sección del acuerdo",
+    "filas_docx": 11,
+    "filas_impresas": 11,
+    "paginas": [
+     43
+    ],
+    "encabezado_repetido": 0,
+    "filas_faltantes": []
+   },
+   {
+    "n": 34,
+    "rotulo": "Tabla 3.8 — Hitos del proyecto",
+    "primera_celda": "Hito",
+    "filas_docx": 7,
+    "filas_impresas": 7,
+    "paginas": [
+     43
+    ],
+    "encabezado_repetido": 0,
+    "filas_faltantes": []
+   },
+   {
+    "n": 35,
+    "rotulo": "Criterios del H1 (la rúbrica completa está en la guía docente)",
+    "primera_celda": "Criterio del H1",
+    "filas_docx": 6,
+    "filas_impresas": 6,
+    "paginas": [
+     44
+    ],
+    "encabezado_repetido": 0,
+    "filas_faltantes": []
+   },
+   {
+    "n": 36,
+    "rotulo": "Niveles de desempeño (propuesta editorial)",
+    "primera_celda": "Nivel de desempeño",
+    "filas_docx": 5,
+    "filas_impresas": 5,
+    "paginas": [
+     44
+    ],
+    "encabezado_repetido": 0,
+    "filas_faltantes": []
+   },
+   {
+    "n": 37,
+    "rotulo": "Datos para decidir (Escuela Básica Mbokaja, caso de práctica, ficticio)",
+    "primera_celda": "Código",
+    "filas_docx": 7,
+    "filas_impresas": 7,
+    "paginas": [
+     46
+    ],
+    "encabezado_repetido": 0,
+    "filas_faltantes": []
+   },
+   {
+    "n": 38,
+    "rotulo": "Necesidades del relevamiento de referencia (Escuela Básica Mbokaja)",
+    "primera_celda": "Cód.",
+    "filas_docx": 6,
+    "filas_impresas": 6,
+    "paginas": [
+     46
+    ],
+    "encabezado_repetido": 0,
+    "filas_faltantes": []
+   }
+  ],
+  "2. Párrafos impresos": [
+   {
+    "resultado": "correcto",
+    "detalle": "libro: ningún párrafo del DOCX falta en el PDF"
+   },
+   {
+    "resultado": "correcto",
+    "detalle": "guia: ningún párrafo del DOCX falta en el PDF"
+   }
+  ],
+  "2. Palabras enteras": [
+   {
+    "resultado": "correcto",
+    "detalle": "libro: ninguna palabra de celda partida en el PDF"
+   },
+   {
+    "resultado": "correcto",
+    "detalle": "guia: ninguna palabra de celda partida en el PDF"
+   }
+  ],
+  "tablas_guia": [
+   {
+    "n": 1,
+    "rotulo": "Claves del diagnóstico de entrada",
+    "primera_celda": "Ítem",
+    "filas_docx": 10,
+    "filas_impresas": 10,
+    "paginas": [
+     2
+    ],
+    "encabezado_repetido": 0,
+    "filas_faltantes": []
+   },
+   {
+    "n": 2,
+    "rotulo": "Mapa de apoyos del curso (modelo)",
+    "primera_celda": "Estudiante (código)",
+    "filas_docx": 4,
+    "filas_impresas": 4,
+    "paginas": [
+     2
+    ],
+    "encabezado_repetido": 0,
+    "filas_faltantes": []
+   },
+   {
+    "n": 3,
+    "rotulo": "2. Capítulo 1 — Un sistema comienza con una necesidad",
+    "primera_celda": "Capacidades propuestas para el programa ",
+    "filas_docx": 4,
+    "filas_impresas": 4,
+    "paginas": [
+     3
+    ],
+    "encabezado_repetido": 0,
+    "filas_faltantes": []
+   },
+   {
+    "n": 4,
+    "rotulo": "Encuentro 1 — El reto y el sistema que ya existe (5 HC)",
+    "primera_celda": "Momento",
+    "filas_docx": 4,
+    "filas_impresas": 4,
+    "paginas": [
+     3
+    ],
+    "encabezado_repetido": 0,
+    "filas_faltantes": []
+   },
+   {
+    "n": 5,
+    "rotulo": "Encuentro 2 — Interesados, punto de partida y práctica (5 HC)",
+    "primera_celda": "Momento",
+    "filas_docx": 4,
+    "filas_impresas": 4,
+    "paginas": [
+     3
+    ],
+    "encabezado_repetido": 0,
+    "filas_faltantes": []
+   },
+   {
+    "n": 6,
+    "rotulo": "Claves de las actividades del Encuentro 1",
+    "primera_celda": "Act.",
+    "filas_docx": 6,
+    "filas_impresas": 6,
+    "paginas": [
+     3,
+     4
+    ],
+    "encabezado_repetido": 1,
+    "filas_faltantes": []
+   },
+   {
+    "n": 7,
+    "rotulo": "Claves de las actividades del Encuentro 2",
+    "primera_celda": "Act.",
+    "filas_docx": 6,
+    "filas_impresas": 6,
+    "paginas": [
+     4
+    ],
+    "encabezado_repetido": 0,
+    "filas_faltantes": []
+   },
+   {
+    "n": 8,
+    "rotulo": "Práctica 1: claves por nivel",
+    "primera_celda": "Nivel",
+    "filas_docx": 4,
+    "filas_impresas": 4,
+    "paginas": [
+     4
+    ],
+    "encabezado_repetido": 0,
+    "filas_faltantes": []
+   },
+   {
+    "n": 9,
+    "rotulo": "Lista de cotejo de la Práctica 1",
+    "primera_celda": "Criterio",
+    "filas_docx": 6,
+    "filas_impresas": 6,
+    "paginas": [
+     4,
+     5
+    ],
+    "encabezado_repetido": 1,
+    "filas_faltantes": []
+   },
+   {
+    "n": 10,
+    "rotulo": "Clave de la evaluación del capítulo 1",
+    "primera_celda": "Ítem",
+    "filas_docx": 10,
+    "filas_impresas": 10,
+    "paginas": [
+     5
+    ],
+    "encabezado_repetido": 0,
+    "filas_faltantes": []
+   },
+   {
+    "n": 11,
+    "rotulo": "Criterios de corrección de los ítems abiertos",
+    "primera_celda": "Ítem",
+    "filas_docx": 3,
+    "filas_impresas": 3,
+    "paginas": [
+     5
+    ],
+    "encabezado_repetido": 0,
+    "filas_faltantes": []
+   },
+   {
+    "n": 12,
+    "rotulo": "3. Capítulo 2 — Investigar antes de diseñar",
+    "primera_celda": "Capacidad propuesta para el programa ins",
+    "filas_docx": 4,
+    "filas_impresas": 4,
+    "paginas": [
+     6
+    ],
+    "encabezado_repetido": 0,
+    "filas_faltantes": []
+   },
+   {
+    "n": 13,
+    "rotulo": "Encuentro 3 — Preparar el relevamiento (5 HC)",
+    "primera_celda": "Momento",
+    "filas_docx": 4,
+    "filas_impresas": 4,
+    "paginas": [
+     6
+    ],
+    "encabezado_repetido": 0,
+    "filas_faltantes": []
+   },
+   {
+    "n": 14,
+    "rotulo": "Encuentro 4 — Contrastar y registrar con cuidado (5 HC)",
+    "primera_celda": "Momento",
+    "filas_docx": 4,
+    "filas_impresas": 4,
+    "paginas": [
+     6
+    ],
+    "encabezado_repetido": 0,
+    "filas_faltantes": []
+   },
+   {
+    "n": 15,
+    "rotulo": "Claves de las actividades del Encuentro 3",
+    "primera_celda": "Act.",
+    "filas_docx": 7,
+    "filas_impresas": 7,
+    "paginas": [
+     6
+    ],
+    "encabezado_repetido": 0,
+    "filas_faltantes": []
+   },
+   {
+    "n": 16,
+    "rotulo": "Claves de las actividades del Encuentro 4",
+    "primera_celda": "Act.",
+    "filas_docx": 6,
+    "filas_impresas": 6,
+    "paginas": [
+     7
+    ],
+    "encabezado_repetido": 0,
+    "filas_faltantes": []
+   },
+   {
+    "n": 17,
+    "rotulo": "Práctica 2: claves por nivel",
+    "primera_celda": "Nivel",
+    "filas_docx": 4,
+    "filas_impresas": 4,
+    "paginas": [
+     8
+    ],
+    "encabezado_repetido": 0,
+    "filas_faltantes": []
+   },
+   {
+    "n": 18,
+    "rotulo": "Lista de cotejo de la Práctica 2",
+    "primera_celda": "Criterio",
+    "filas_docx": 6,
+    "filas_impresas": 6,
+    "paginas": [
+     8
+    ],
+    "encabezado_repetido": 0,
+    "filas_faltantes": []
+   },
+   {
+    "n": 19,
+    "rotulo": "Clave de la evaluación del capítulo 2",
+    "primera_celda": "Ítem",
+    "filas_docx": 10,
+    "filas_impresas": 10,
+    "paginas": [
+     8
+    ],
+    "encabezado_repetido": 0,
+    "filas_faltantes": []
+   },
+   {
+    "n": 20,
+    "rotulo": "Criterios de corrección de los ítems abiertos",
+    "primera_celda": "Ítem",
+    "filas_docx": 3,
+    "filas_impresas": 3,
+    "paginas": [
+     9
+    ],
+    "encabezado_repetido": 0,
+    "filas_faltantes": []
+   },
+   {
+    "n": 21,
+    "rotulo": "Destino de los 31 elementos del candidato",
+    "primera_celda": "Elemento del candidato",
+    "filas_docx": 32,
+    "filas_impresas": 32,
+    "paginas": [
+     9
+    ],
+    "encabezado_repetido": 0,
+    "filas_faltantes": []
+   },
+   {
+    "n": 22,
+    "rotulo": "4. Capítulo 3 — Elegir un alcance posible",
+    "primera_celda": "Capacidades propuestas para el programa ",
+    "filas_docx": 4,
+    "filas_impresas": 4,
+    "paginas": [
+     10
+    ],
+    "encabezado_repetido": 0,
+    "filas_faltantes": []
+   },
+   {
+    "n": 23,
+    "rotulo": "Encuentro 5 — Objetivos, alternativas y riesgos (5 HC)",
+    "primera_celda": "Momento",
+    "filas_docx": 4,
+    "filas_impresas": 4,
+    "paginas": [
+     10
+    ],
+    "encabezado_repetido": 0,
+    "filas_faltantes": []
+   },
+   {
+    "n": 24,
+    "rotulo": "Encuentro 6 — Acuerdo de proyecto y revisión de la Unidad I (5 HC)",
+    "primera_celda": "Momento",
+    "filas_docx": 4,
+    "filas_impresas": 4,
+    "paginas": [
+     10
+    ],
+    "encabezado_repetido": 0,
+    "filas_faltantes": []
+   },
+   {
+    "n": 25,
+    "rotulo": "Claves de las actividades del Encuentro 5",
+    "primera_celda": "Act.",
+    "filas_docx": 7,
+    "filas_impresas": 7,
+    "paginas": [
+     10,
+     11
+    ],
+    "encabezado_repetido": 1,
+    "filas_faltantes": []
+   },
+   {
+    "n": 26,
+    "rotulo": "Claves de las actividades del Encuentro 6",
+    "primera_celda": "Act.",
+    "filas_docx": 5,
+    "filas_impresas": 5,
+    "paginas": [
+     11
+    ],
+    "encabezado_repetido": 0,
+    "filas_faltantes": []
+   },
+   {
+    "n": 27,
+    "rotulo": "Práctica 3: claves por nivel",
+    "primera_celda": "Nivel",
+    "filas_docx": 4,
+    "filas_impresas": 4,
+    "paginas": [
+     11
+    ],
+    "encabezado_repetido": 0,
+    "filas_faltantes": []
+   },
+   {
+    "n": 28,
+    "rotulo": "Lista de cotejo de la Práctica 3",
+    "primera_celda": "Criterio",
+    "filas_docx": 6,
+    "filas_impresas": 6,
+    "paginas": [
+     11,
+     12
+    ],
+    "encabezado_repetido": 1,
+    "filas_faltantes": []
+   },
+   {
+    "n": 29,
+    "rotulo": "Clave de la evaluación del capítulo 3",
+    "primera_celda": "Ítem",
+    "filas_docx": 10,
+    "filas_impresas": 10,
+    "paginas": [
+     12
+    ],
+    "encabezado_repetido": 0,
+    "filas_faltantes": []
+   },
+   {
+    "n": 30,
+    "rotulo": "Criterios de corrección de los ítems abiertos",
+    "primera_celda": "Ítem",
+    "filas_docx": 3,
+    "filas_impresas": 3,
+    "paginas": [
+     12
+    ],
+    "encabezado_repetido": 0,
+    "filas_faltantes": []
+   },
+   {
+    "n": 31,
+    "rotulo": "Rúbrica del H1: descriptores por nivel",
+    "primera_celda": "Criterio",
+    "filas_docx": 6,
+    "filas_impresas": 6,
+    "paginas": [
+     13
+    ],
+    "encabezado_repetido": 0,
+    "filas_faltantes": []
+   },
+   {
+    "n": 32,
+    "rotulo": "Evidencias de cada criterio",
+    "primera_celda": "Criterio",
+    "filas_docx": 6,
+    "filas_impresas": 6,
+    "paginas": [
+     13
+    ],
+    "encabezado_repetido": 0,
+    "filas_faltantes": []
+   },
+   {
+    "n": 33,
+    "rotulo": "Niveles de desempeño (propuesta editorial)",
+    "primera_celda": "Nivel de desempeño",
+    "filas_docx": 5,
+    "filas_impresas": 5,
+    "paginas": [
+     13,
+     14
+    ],
+    "encabezado_repetido": 1,
+    "filas_faltantes": []
+   },
+   {
+    "n": 34,
+    "rotulo": "Planilla de registro del H1 (una por estudiante)",
+    "primera_celda": "Estudiante (código)",
+    "filas_docx": 6,
+    "filas_impresas": 6,
+    "paginas": [
+     14
+    ],
+    "encabezado_repetido": 0,
+    "filas_faltantes": []
+   },
+   {
+    "n": 35,
+    "rotulo": "Unidad I en 36 y en 28 encuentros",
+    "primera_celda": "Encuentro (36)",
+    "filas_docx": 6,
+    "filas_impresas": 6,
+    "paginas": [
+     14
+    ],
+    "encabezado_repetido": 0,
+    "filas_faltantes": []
+   },
+   {
+    "n": 36,
+    "rotulo": "Inventario de recursos del lote",
+    "primera_celda": "Recurso",
+    "filas_docx": 9,
+    "filas_impresas": 9,
+    "paginas": [
+     14
+    ],
+    "encabezado_repetido": 0,
+    "filas_faltantes": []
+   }
+  ],
+  "3. Figuras": [
+   {
+    "resultado": "correcto",
+    "detalle": "5 figuras regeneradas con las mismas dimensiones que las del lote 1"
+   },
+   {
+    "resultado": "correcto",
+    "detalle": "cada figura impresa con su epígrafe en la misma página: Figura 1.1 pág. 12, Figura 1.2 pág. 14, Figura 2.1 pág. 25, Figura 2.2 pág. 29, Figura 3.1 pág. 40"
+   }
+  ],
+  "4. Índice": [
+   {
+    "resultado": "correcto",
+    "detalle": "37 entradas; cada una en la página que indica"
+   }
+  ],
+  "5. Márgenes espejados": [
+   {
+    "resultado": "correcto",
+    "detalle": "impares con el interior (2,5 cm) a la izquierda y pares a la derecha: [(10, 1.8, 2.41), (11, 2.5, 1.71), (12, 1.8, 2.41), (13, 2.5, 1.71), (14, 1.8, 2.41), (15, 2.5, 1.71), (16, 1.8, 2.41), (17, 2.69, 1.91)]"
+   }
+  ],
+  "laminas": {
+   "indice": "01_indice.png",
+   "diagramas": "02_diagramas.png",
+   "evaluaciones": "03_evaluaciones.png",
+   "tabla_3_5": "04_tabla_3_5.png",
+   "margenes": "05_margenes_espejados_pags_10_11.png",
+   "tablas_repartidas_libro": "06_tablas_repartidas_libro.png",
+   "tablas_repartidas_guia": "07_tablas_repartidas_guia.png"
+  }
+ }
+}

@@ -1,0 +1,179 @@
+{
+ "titulo": "ADS 3.º BTI — Lote 1, candidata editorial en oficio O3",
+ "estado": "Candidata editorial para auditoría. No aprobada para comercialización; la aprobación es de Fernando.",
+ "fecha": "2026-10-20",
+ "perfil": {
+  "papel": "oficio 21,59 × 33,02 cm, vertical",
+  "interior_cm": 2.5,
+  "exterior_cm": 1.8,
+  "superior_cm": 1.5,
+  "inferior_cm": 1.5,
+  "margenes_espejados": true
+ },
+ "base": {
+  "maestros_A4": "lote_1/ (commit cdc96a6), sin modificar",
+  "prueba_oficio": "lote_1_oficio/ (commit 18bb2ba), sin modificar"
+ },
+ "archivos": [
+  {
+   "ruta": "ADS_3BTI_LOTE1_ESTUDIANTE_OFICIO_O3_CANDIDATA.docx",
+   "bytes": 468711,
+   "sha256": "c5b2f4593835c58c64d274b81981f50bbbebf2d2d96299b4c4fd9164fab5f3ea"
+  },
+  {
+   "ruta": "ADS_3BTI_LOTE1_ESTUDIANTE_OFICIO_O3_CANDIDATA.pdf",
+   "bytes": 1173037,
+   "sha256": "ca3aad676537b7f89c09e85138aa5a8098c895d5c38dff30d88ea45927c207ff"
+  },
+  {
+   "ruta": "ADS_3BTI_LOTE1_GUIA_DOCENTE_OFICIO_O3_CANDIDATA.docx",
+   "bytes": 60652,
+   "sha256": "f7a44ebf68aebbb7d965695de7c3fdb77d2c4f02d6df6952ebe1ef40fd40ae1e"
+  },
+  {
+   "ruta": "ADS_3BTI_LOTE1_GUIA_DOCENTE_OFICIO_O3_CANDIDATA.pdf",
+   "bytes": 394584,
+   "sha256": "a7a7f88ff524e4fa2adc899f41be48b7dcf5dd271b31feffaaf7b60693ecc3ad"
+  },
+  {
+   "ruta": "CONTROLES_FINALES.json",
+   "bytes": 23502,
+   "sha256": "543341f001fdfa5d49e7ff78473ab09787ee67f9bca3a24f4bd9c6de0001f8c0"
+  },
+  {
+   "ruta": "CONTROLES_FINALES.txt",
+   "bytes": 3096,
+   "sha256": "d117c6d3917897dea6cc282daee90d73e720b6cf1286bac6bf2673b82ae8b9fb"
+  },
+  {
+   "ruta": "INFORME_CANDIDATA_O3.md",
+   "bytes": 8347,
+   "sha256": "8476a4875bd44dbac62bf56ff1340d631a2833f1f7934c2105d3665fd889b990"
+  },
+  {
+   "ruta": "build/construir_candidata.py",
+   "bytes": 10554,
+   "sha256": "fabd66449c40338b776ee43537c93f2f3eae8fac5ad379c7339e7b68f77b8970"
+  },
+  {
+   "ruta": "build/controles_finales.py",
+   "bytes": 8431,
+   "sha256": "dd9cdc31c3566547c0bf0b8e50be21b568afe3c66081a130136327b0382a9654"
+  },
+  {
+   "ruta": "build/controles_impresion.py",
+   "bytes": 4034,
+   "sha256": "6c6a3bfde06a6a246d0f495cdce1733368f3fd763d273da7acaf9b34244f2ad6"
+  },
+  {
+   "ruta": "build/figs/fig_1_1_sistema_prestamos.png",
+   "bytes": 129664,
+   "sha256": "c60e54ae698e8cdf25cc556345cf9c9d267cd4f50e37878c25b21e0f42fd61db"
+  },
+  {
+   "ruta": "build/figs/fig_1_2_mapa_interesados.png",
+   "bytes": 71664,
+   "sha256": "03215bb4bd29db61f92ad92c81d35be2da8c938fa6a63bf97a72799a449dfdbb"
+  },
+  {
+   "ruta": "build/figs/fig_2_1_proceso_relevamiento.png",
+   "bytes": 81442,
+   "sha256": "9a6c0ec4924cdf51e8684b652ec0a1b7af768a0b739ce23d496068f123de9821"
+  },
+  {
+   "ruta": "build/figs/fig_2_2_contraste_fuentes.png",
+   "bytes": 87869,
+   "sha256": "0d1e98beb31153accb4034d8d22c4c933e06c13752d5c6d68218969a4c78aae4"
+  },
+  {
+   "ruta": "build/figs/fig_3_1_mapa_riesgos.png",
+   "bytes": 42091,
+   "sha256": "90607b7f24c8a6f64038ef1653e49f475ceee6d20cfa18d7db0105271a406160"
+  },
+  {
+   "ruta": "build/perfiles.py",
+   "bytes": 1573,
+   "sha256": "4468224881b80d7896d32a1bed33662933b87c569aee1881f487cefe06aa4fc3"
+  },
+  {
+   "ruta": "build/verificar_candidata.py",
+   "bytes": 3174,
+   "sha256": "13b66df67f7f4700f2896c17cbc3f1480b55a792c8708df3792f976889d4842e"
+  },
+  {
+   "ruta": "resultado_construccion.json",
+   "bytes": 7843,
+   "sha256": "6be7c325e1fed3e0c11ebbb75434f2a3c59f8599e455d4f4dd6eb97588de4c77"
+  },
+  {
+   "ruta": "revision_visual/01_indice.png",
+   "bytes": 98253,
+   "sha256": "241fc07df9db35e8f0e7c9736dc681d1581a40ceebc3133dd12dfe9f91fb53fb"
+  },
+  {
+   "ruta": "revision_visual/02_diagramas.png",
+   "bytes": 575123,
+   "sha256": "b7a57321163d1260be4606d25c34e471cfce054232884f14f2c8bd22d335e156"
+  },
+  {
+   "ruta": "revision_visual/03_evaluaciones.png",
+   "bytes": 215122,
+   "sha256": "7470729a35c76712890226a06f9be54e8422ba69b843dab0b1064a0f4de0fddf"
+  },
+  {
+   "ruta": "revision_visual/04_tabla_3_5.png",
+   "bytes": 160541,
+   "sha256": "a444db1328248c831a35dbba9d2a46fde85493cd519c6a01bc6076bb6e9d36fd"
+  },
+  {
+   "ruta": "revision_visual/05_margenes_espejados_pags_10_11.png",
+   "bytes": 335376,
+   "sha256": "9915cf8867f31e5f86588745ee5d1b9bad587cc3e7b6bf38d6c075d9cfb08df9"
+  },
+  {
+   "ruta": "revision_visual/06_tablas_repartidas_libro.png",
+   "bytes": 753748,
+   "sha256": "d69c5d032304f241e6878829292f4587709e214bcc78f14c5024c95beb8cdd80"
+  },
+  {
+   "ruta": "revision_visual/07_tablas_repartidas_guia.png",
+   "bytes": 924146,
+   "sha256": "1f8f26a8cd721dd39caee6ef5703ecd5c9b727a67eefd5aad57485e5fe328e05"
+  },
+  {
+   "ruta": "verificacion_resultado.json",
+   "bytes": 310,
+   "sha256": "b9e964ba6399cd8c79b1050af0f499de22d6eaf255d647de2e1c515251987c36"
+  },
+  {
+   "ruta": "verificacion_resultado.txt",
+   "bytes": 9529,
+   "sha256": "8f1355e29273ae3e988fceb54a8d3a3e87c35a7f311d8ff447dd1948481c376f"
+  }
+ ],
+ "referencia_historica_A4": {
+  "nota": "PDF A4 histórico: no usar para comercializar ni imprimir (Tabla 3.5 con 2 de 8 filas impresas).",
+  "archivos": [
+   {
+    "ruta": "lote_1/ADS_3BTI_LOTE1_ESTUDIANTE.docx",
+    "bytes": 468587,
+    "sha256": "333e9baad26b8c21860fc3ab0d97d53da02ce2525019c48c37b0438cd245f8e7"
+   },
+   {
+    "ruta": "lote_1/ADS_3BTI_LOTE1_ESTUDIANTE.pdf",
+    "bytes": 1179252,
+    "sha256": "4b41eeae22e92ce7d55fc4ba02d9d1378b0390b9e05bcadf48376ddb52864aa8"
+   },
+   {
+    "ruta": "lote_1/ADS_3BTI_LOTE1_GUIA_DOCENTE.docx",
+    "bytes": 60546,
+    "sha256": "8c8741d0b5f50eeeb5d0d5a97ee2e22dbb3714c643adbd57622895bb1a6bff1e"
+   },
+   {
+    "ruta": "lote_1/ADS_3BTI_LOTE1_GUIA_DOCENTE.pdf",
+    "bytes": 398083,
+    "sha256": "2aa150644168471675309f2aaf05a039b6ec6fdfb645d956c0c7bb27479f9ac0"
+   }
+  ]
+ }
+}

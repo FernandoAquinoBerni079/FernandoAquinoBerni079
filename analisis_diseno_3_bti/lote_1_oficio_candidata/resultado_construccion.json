@@ -1,0 +1,229 @@
+{
+ "perfil": "O3",
+ "ancho_util": 17.29,
+ "factor_tablas": 1.0415662650602409,
+ "tablas_en_hoja_nueva": [],
+ "columnas_ensanchadas": [
+  {
+   "tabla": "Fragmento",
+   "columna": 1,
+   "antes_cm": 1.67,
+   "despues_cm": 1.86
+  },
+  {
+   "tabla": "Estudiante (código)",
+   "columna": 2,
+   "antes_cm": 2.08,
+   "despues_cm": 2.27
+  },
+  {
+   "tabla": "Estudiante (código)",
+   "columna": 5,
+   "antes_cm": 2.29,
+   "despues_cm": 2.3
+  }
+ ],
+ "paginas_libro": {
+  "Presentación y alcance": 3,
+  "Cómo usar el libro y las prácticas": 3,
+  "Mapa de capacidades y evidencias": 4,
+  "Acuerdo de trabajo": 4,
+  "Diagnóstico de entrada": 5,
+  "Presentación del caso": 7,
+  "Uso responsable de datos y recursos": 7,
+  "Guía de consulta a las asignaturas previas": 8,
+  "Unidad I — Comprender el problema y su contexto": 9,
+  "Capítulo 1 — Un sistema comienza con una necesidad": 10,
+  "Encuentro 1 — El reto y el sistema que ya existe": 10,
+  "1.1 De la dificultad cotidiana al problema de información": 10,
+  "1.2 Personas, procesos, datos, recursos y límites del sistema": 11,
+  "Encuentro 2 — Interesados, punto de partida y práctica": 14,
+  "1.3 Actores e interesados: necesidades diferentes, decisiones compartidas": 14,
+  "1.4 Diagnóstico de conocimientos previos y plan de apoyo": 15,
+  "Práctica 1 — Describir una biblioteca: hechos, supuestos y soluciones anticipadas": 18,
+  "Evaluación del Capítulo 1": 20,
+  "Capítulo 2 — Investigar antes de diseñar": 22,
+  "Encuentro 3 — Preparar el relevamiento": 22,
+  "2.1 Entrevistar para comprender tareas y problemas": 22,
+  "2.2 Observar un proceso y analizar documentos": 24,
+  "Encuentro 4 — Contrastar y registrar con cuidado": 27,
+  "2.3 Contrastar fuentes, contradicciones y necesidades no expresadas": 28,
+  "2.4 Registrar evidencia con respeto por las personas y sus datos": 30,
+  "Práctica 2 — Dossier de relevamiento con roles": 33,
+  "Evaluación del Capítulo 2": 35,
+  "Capítulo 3 — Elegir un alcance posible": 37,
+  "Encuentro 5 — Objetivos, alternativas y riesgos": 37,
+  "3.1 Objetivos y resultados esperados": 37,
+  "3.2 Comparación de alternativas y factibilidad básica": 38,
+  "Encuentro 6 — Acuerdo de proyecto y revisión de la Unidad I": 42,
+  "3.3 Recursos, riesgos, límites y exclusiones": 39,
+  "3.4 Acuerdo de proyecto y organización del equipo": 42,
+  "Revisión de la Unidad I — Hito H1: problema y alcance defendidos": 43,
+  "Práctica 3 — Decidir un alcance posible para otra biblioteca": 46,
+  "Evaluación del Capítulo 3": 48
+ },
+ "claves": [
+  [
+   "ADS3-L1-C1",
+   1,
+   "b",
+   "Nadie sabe con certeza qué lector tiene cada libro."
+  ],
+  [
+   "ADS3-L1-C1",
+   2,
+   "c",
+   "Un supuesto: todavía no se comprobó."
+  ],
+  [
+   "ADS3-L1-C1",
+   3,
+   "d",
+   "La secretaria que anota los préstamos."
+  ],
+  [
+   "ADS3-L1-C1",
+   4,
+   "d",
+   "mantener satisfecho, consultándolo en las decisiones que lo afectan."
+  ],
+  [
+   "ADS3-L1-C1",
+   5,
+   "F",
+   "Falso. La libreta de la secretaría, la secretaria y sus procesos ya forman un sistema de información manual."
+  ],
+  [
+   "ADS3-L1-C1",
+   6,
+   "V",
+   "Verdadero. Aparece antes de entender el problema; se registra y se pregunta qué resolvería."
+  ],
+  [
+   "ADS3-L1-C1",
+   7,
+   "F",
+   "Falso. No lleva nota: sirve para el plan de apoyo de cada estudiante y el mapa de apoyos del curso."
+  ],
+  [
+   "ADS3-L1-C1",
+   8,
+   "abierta",
+   "Quién: los docentes, la secretaria y la dirección (A-1, A-6). Qué información falta: qué proyector se lleva cada docente y cuándo está libre cada uno (A-2, A-3). Consecuencia: reservas superpuestas (A-3) y decisiones de compra sin datos de uso (A-6). Qué falta averiguar: cuántos pedidos hay por semana, si A-5 es cierto, cómo se devuelven. Se valora que no aparezca «comprar otro proyector» como problema."
+  ],
+  [
+   "ADS3-L1-C1",
+   9,
+   "abierta",
+   "Ejemplo: «En el colegio, los docentes y la dirección no cuentan con información confiable sobre qué proyector está reservado o prestado en cada momento ni sobre su uso, porque la libreta no registra el proyector.» A-4 podría reducir la falta de equipos, pero no impide reservas superpuestas ni produce el dato de uso que pide A-6."
+  ],
+  [
+   "ADS3-L1-C2-i",
+   1,
+   "c",
+   "Obtener, registrar y confirmar con los interesados la información sobre su trabajo y sus necesidades."
+  ],
+  [
+   "ADS3-L1-C2-i",
+   2,
+   "b",
+   "¿No le parece que lo mejor sería una aplicación para el celular?"
+  ],
+  [
+   "ADS3-L1-C2-i",
+   3,
+   "b",
+   "La observación directa en la biblioteca durante el recreo."
+  ],
+  [
+   "ADS3-L1-C2-i",
+   4,
+   "a",
+   "un supuesto: la encargada da por cierta una causa que nadie comprobó."
+  ],
+  [
+   "ADS3-L1-C2-i",
+   5,
+   "F",
+   "Falso. Es una propuesta: se pregunta qué necesidad hay detrás y recién de ahí sale la necesidad."
+  ],
+  [
+   "ADS3-L1-C2-i",
+   6,
+   "V",
+   "Verdadero. Es la trazabilidad, que permite discutir y confirmar cada hallazgo."
+  ],
+  [
+   "ADS3-L1-C2-i",
+   7,
+   "F",
+   "Falso. El analista registra ambas posiciones, busca las necesidades y eleva el conflicto con opciones a quien decide."
+  ],
+  [
+   "ADS3-L1-C2-i",
+   8,
+   "abierta",
+   "T1-L1: hecho (describe cómo se presta; se puede comprobar). T1-L3: hecho (se rompió uno y no se anotó). T1-L4: opinión que contiene una propuesta de solución (comprar microscopios digitales); se registra y se pregunta qué necesidad hay detrás. Un punto por cada clasificación justificada y uno por identificar la propuesta."
+  ],
+  [
+   "ADS3-L1-C2-i",
+   9,
+   "abierta",
+   "Contradicción: T1-L1 (solo dentro del laboratorio) frente a T2-1 (los docentes pueden retirar materiales para el aula). También vale T1-L3 frente a T2-2 (no se anotó una salida). Necesidad no expresada: saber en todo momento quién tiene cada microscopio (sale de T1-L3 y T2-2). Se eleva a la dirección o a quien aprobó las normas, con opciones. Un punto por cada fuente citada, uno por la necesidad y uno por indicar a quién se eleva."
+  ],
+  [
+   "ADS3-L1-C3",
+   1,
+   "a",
+   "Que la coordinación conozca los inscriptos de cada taller al cerrar la inscripción."
+  ],
+  [
+   "ADS3-L1-C3",
+   2,
+   "b",
+   "¿Las personas van a usar la solución en su trabajo real?"
+  ],
+  [
+   "ADS3-L1-C3",
+   3,
+   "b",
+   "una contingencia: se usa si el riesgo ocurre."
+  ],
+  [
+   "ADS3-L1-C3",
+   4,
+   "d",
+   "K-5: no hay presupuesto para comprar programas."
+  ],
+  [
+   "ADS3-L1-C3",
+   5,
+   "F",
+   "Falso. Las factibilidades no se compensan: si las personas no la van a usar, la solución no sirve."
+  ],
+  [
+   "ADS3-L1-C3",
+   6,
+   "F",
+   "Falso. Es un acuerdo explícito sobre lo que no se hace en este proyecto; puede proponerse como extensión o tramitarse como cambio."
+  ],
+  [
+   "ADS3-L1-C3",
+   7,
+   "V",
+   "Verdadero. Es el 40 % de evidencia individual de la propuesta editorial."
+  ],
+  [
+   "ADS3-L1-C3",
+   8,
+   "abierta",
+   "Hoja mejorada: técnica alta (no necesita equipo); calendario alto (se prepara antes de K-6). Prototipo propio: técnica media o baja (computadora compartida, sin internet, K-4; habría que probar si funciona sin conexión); calendario bajo (tres semanas, K-6). Un punto por cada valoración con razón y fuente. No se aceptan puntajes sumados."
+  ],
+  [
+   "ADS3-L1-C3",
+   9,
+   "abierta",
+   "Ejemplo: riesgo «inscripción duplicada en talleres del mismo horario» (fuente: K-2): probabilidad alta, impacto medio; mitigación: la hoja muestra el horario y se controla al anotar; contingencia: la coordinación resuelve los duplicados antes de publicar las listas. Exclusión: inscripción por internet, porque la computadora no tiene conexión (K-4). Un punto por cada elemento correcto (riesgo con valoraciones, mitigación, contingencia, exclusión con razón)."
+  ]
+ ]
+}

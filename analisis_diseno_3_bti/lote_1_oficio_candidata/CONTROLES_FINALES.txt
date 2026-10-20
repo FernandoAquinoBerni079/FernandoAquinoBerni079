@@ -1,0 +1,25 @@
+CORRECTO [1. Texto idéntico] libro: 1721 párrafos con texto, igual que A4 original
+CORRECTO [1. Texto idéntico] libro: 1721 párrafos con texto, igual que prueba O3
+CORRECTO [1. Texto idéntico] guia: 721 párrafos con texto, igual que A4 original
+CORRECTO [1. Texto idéntico] guia: 721 párrafos con texto, igual que prueba O3
+CORRECTO [2. Filas de tablas] libro: 38 tablas de 2 o más columnas, todas con todas sus filas impresas (252 filas)
+CORRECTO [2. Tablas repartidas entre páginas] libro: «Tabla 1.6 — Resultados del diagnóstico de Noelia» (Área del diagnóstico), págs. [15, 16]: 5 de 5 filas, encabezado repetido 1 vez/veces
+CORRECTO [2. Tablas repartidas entre páginas] libro: «Tabla 2.1 — Necesidad y solución en lo que dice un interesado» (Lo que dice el interesado (con su fuente), págs. [22, 23]: 4 de 4 filas, encabezado repetido 1 vez/veces
+CORRECTO [2. Tablas repartidas entre páginas] libro: «Tabla 3.2 — Tres tipos de solución para la biblioteca» (Alternativa), págs. [38, 39]: 4 de 4 filas, encabezado repetido 1 vez/veces
+CORRECTO [2. Tabla 3.5] Tabla 3.5 «Alcance mínimo del proyecto (núcleo)»: 8 de 8 filas impresas, pág. [41]
+CORRECTO [2. Párrafos impresos] libro: ningún párrafo del DOCX falta en el PDF
+CORRECTO [2. Palabras enteras] libro: ninguna palabra de celda partida en el PDF
+CORRECTO [2. Filas de tablas] guia: 36 tablas de 2 o más columnas, todas con todas sus filas impresas (226 filas)
+CORRECTO [2. Tablas repartidas entre páginas] guia: «Claves de las actividades del Encuentro 1» (Act.), págs. [3, 4]: 6 de 6 filas, encabezado repetido 1 vez/veces
+CORRECTO [2. Tablas repartidas entre páginas] guia: «Lista de cotejo de la Práctica 1» (Criterio), págs. [4, 5]: 6 de 6 filas, encabezado repetido 1 vez/veces
+CORRECTO [2. Tablas repartidas entre páginas] guia: «Claves de las actividades del Encuentro 5» (Act.), págs. [10, 11]: 7 de 7 filas, encabezado repetido 1 vez/veces
+CORRECTO [2. Tablas repartidas entre páginas] guia: «Lista de cotejo de la Práctica 3» (Criterio), págs. [11, 12]: 6 de 6 filas, encabezado repetido 1 vez/veces
+CORRECTO [2. Tablas repartidas entre páginas] guia: «Niveles de desempeño (propuesta editorial)» (Nivel de desempeño), págs. [13, 14]: 5 de 5 filas, encabezado repetido 1 vez/veces
+CORRECTO [2. Párrafos impresos] guia: ningún párrafo del DOCX falta en el PDF
+CORRECTO [2. Palabras enteras] guia: ninguna palabra de celda partida en el PDF
+CORRECTO [3. Figuras] 5 figuras regeneradas con las mismas dimensiones que las del lote 1
+CORRECTO [3. Figuras] cada figura impresa con su epígrafe en la misma página: Figura 1.1 pág. 12, Figura 1.2 pág. 14, Figura 2.1 pág. 25, Figura 2.2 pág. 29, Figura 3.1 pág. 40
+CORRECTO [4. Índice] 37 entradas; cada una en la página que indica
+CORRECTO [5. Márgenes espejados] impares con el interior (2,5 cm) a la izquierda y pares a la derecha: [(10, 1.8, 2.41), (11, 2.5, 1.71), (12, 1.8, 2.41), (13, 2.5, 1.71), (14, 1.8, 2.41), (15, 2.5, 1.71), (16, 1.8, 2.41), (17, 2.69, 1.91)]
+
+Resultado: 23 controles, 0 fallos
