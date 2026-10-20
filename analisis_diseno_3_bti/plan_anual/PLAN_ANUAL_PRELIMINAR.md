@@ -86,7 +86,7 @@ HC por categoría (distribución v2.1): A análisis · D diseño · P programaci
 - **Capacidades del capítulo:** C3, C9 (propuestas).
 - **Secciones (Work §6):** 4.1. Necesidad, requisito, regla de negocio y solución técnica. 4.2. Requisitos funcionales, calidad y restricciones. 4.3. Identificación, fuente, prioridad y criterios de aceptación. 4.4. Ambigüedades frecuentes y cómo corregirlas.
 - **Cierre:** Práctica: convertir pedidos de usuarios en requisitos verificables.
-- **Indicadores:** Distingue necesidad, requisito, regla de negocio y solución técnica en pedidos de usuarios. | Formula requisitos funcionales, de calidad y restricciones, cada uno con identificador y fuente que lo respalda. | Define para cada requisito un criterio de aceptación comprobable y una prioridad justificada. | Detecta ambigüedades frecuentes y reescribe el requisito en forma verificable. _(de fase2_pilotos/A2_capitulo4_v2/build/contenido.py)_
+- **Indicadores:** Distingue necesidad, requisito, regla de negocio y solución técnica en pedidos de usuarios. | Formula requisitos funcionales, de calidad y restricciones, cada uno con identificador y fuente que lo respalda. | Define para cada requisito un criterio de aceptación comprobable y una prioridad justificada. | Detecta ambigüedades frecuentes y reescribe el requisito en forma verificable. | Revisa los requisitos de otro equipo con una lista de verificación y propone correcciones concretas. _(de lote_2/build/cap4.py)_
 - **Antecedentes MEC con los que se articula** (páginas según Work §3; asignación al capítulo propuesta por esta estructura): Algorítmica 1.º, pp. 70-73 (reglas de préstamo sin ambigüedad).
 
 | Encuentro | Foco (Work §5.2) | Capacidades | Evidencia o evaluación (Work §5.2) | A | D | P | V | Doc | G | E |
@@ -99,7 +99,7 @@ HC por categoría (distribución v2.1): A análisis · D diseño · P programaci
 - **Capacidades del capítulo:** C3, C4 (propuestas).
 - **Secciones (Work §6):** 5.1. Proceso actual y proceso propuesto. 5.2. Diagrama de contexto y límites de intercambio de información. 5.3. Actores, casos de uso y escenarios principales. 5.4. Excepciones, decisiones y flujos alternativos.
 - **Cierre:** Práctica: modelar préstamo y devolución con situaciones problemáticas nuevas.
-- **Indicadores:** Pendiente: se fijan en la ficha del capítulo (referencia: indicadores de Work §4.2 de C3, C4).
+- **Indicadores:** Representa el proceso actual y el proceso propuesto con un diagrama de actividades con carriles, y señala qué problema del dossier resuelve cada cambio. | Delimita el sistema con un diagrama de contexto: entidades externas y la información que entra y sale. | Identifica actores como roles y desarrolla tres casos de uso prioritarios con su escenario principal. | Describe al menos un flujo alternativo por caso de uso, con su punto de decisión y su resultado. | Mantiene la coherencia entre los modelos y el catálogo: cada requisito citado existe y cada notación se usa sola. _(de lote_2/build/cap5.py)_
 - **Antecedentes MEC con los que se articula** (páginas según Work §3; asignación al capítulo propuesta por esta estructura): Dibujo Técnico 1.º, pp. 35-38 (legibilidad y convenciones; la semántica del diagrama de contexto y de casos de uso es aporte nuevo).
 
 | Encuentro | Foco (Work §5.2) | Capacidades | Evidencia o evaluación (Work §5.2) | A | D | P | V | Doc | G | E |
@@ -112,7 +112,7 @@ HC por categoría (distribución v2.1): A análisis · D diseño · P programaci
 - **Capacidades del capítulo:** C3, C4, C7 (propuestas).
 - **Secciones (Work §6):** 6.1. Alcance mínimo y funcionalidades postergables. 6.2. Trazabilidad entre necesidad, requisito, modelo y prueba. 6.3. Iteraciones, tareas, dependencias y responsabilidades. 6.4. Solicitud de cambio y análisis de impacto.
 - **Cierre:** Revisión de unidad II: nueva necesidad del usuario y actualización del dossier; H2.
-- **Indicadores:** Pendiente: se fijan en la ficha del capítulo (referencia: indicadores de Work §4.2 de C3, C4, C7).
+- **Indicadores:** Distingue el alcance mínimo de las funcionalidades postergables y justifica cada prioridad con criterios explícitos. | Construye una matriz de trazabilidad entre necesidad, regla, requisito, caso de uso, criterio de aceptación y prueba prevista, y detecta omisiones. | Planifica incrementos con tareas, responsables, dependencias, estimaciones y versiones identificables. | Tramita una solicitud de cambio con su análisis de impacto, su decisión y la nueva versión del catálogo y de los modelos. | Actualiza el dossier del equipo y explica individualmente el impacto de un cambio acotado. _(de lote_2/build/cap6.py)_
 - **Antecedentes MEC con los que se articula** (páginas según Work §3; asignación al capítulo propuesta por esta estructura): Matemática Aplicada, pp. 88-94 (dependencias y cronograma sencillo; articulación condicional); Laboratorio 3.º, p. 58 (iteraciones y metodologías).
 
 | Encuentro | Foco (Work §5.2) | Capacidades | Evidencia o evaluación (Work §5.2) | A | D | P | V | Doc | G | E |
@@ -291,7 +291,7 @@ HC por categoría (distribución v2.1): A análisis · D diseño · P programaci
 
 ## 7. Lo que falta para el plan anual definitivo
 
-- Indicadores de los Capítulos 5 a 18: se fijan en la ficha de cada capítulo al construirlo (unicidad y verificabilidad).
+- Indicadores de los Capítulos 7 a 18: se fijan en la ficha de cada capítulo al construirlo (unicidad y verificabilidad).
 - Procedimientos e instrumentos por encuentro, con unicidad dentro del año (como en el formato canónico de la colección).
 - Calendario por etapas del año escolar y adaptación de 28 encuentros (distribución v2.1, `distribucion_28.csv`).
 - Maquetación en oficio con el formato canónico de la colección, y cotejo con las fichas del libro aprobado.
