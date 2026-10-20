@@ -1,0 +1,171 @@
+{
+ "estado": "Versión de PRUEBA del lote 1 en oficio; no es la conversión definitiva ni está aprobada.",
+ "originales_A4_de_referencia (lote_1/, commit cdc96a6, sin cambios)": {
+  "lote_1/ADS_3BTI_LOTE1_ESTUDIANTE.docx": {
+   "sha256": "333e9baad26b8c21860fc3ab0d97d53da02ce2525019c48c37b0438cd245f8e7",
+   "bytes": 468587
+  },
+  "lote_1/ADS_3BTI_LOTE1_ESTUDIANTE.pdf": {
+   "sha256": "4b41eeae22e92ce7d55fc4ba02d9d1378b0390b9e05bcadf48376ddb52864aa8",
+   "bytes": 1179252
+  },
+  "lote_1/ADS_3BTI_LOTE1_GUIA_DOCENTE.docx": {
+   "sha256": "8c8741d0b5f50eeeb5d0d5a97ee2e22dbb3714c643adbd57622895bb1a6bff1e",
+   "bytes": 60546
+  },
+  "lote_1/ADS_3BTI_LOTE1_GUIA_DOCENTE.pdf": {
+   "sha256": "2aa150644168471675309f2aaf05a039b6ec6fdfb645d956c0c7bb27479f9ac0",
+   "bytes": 398083
+  },
+  "lote_1/INFORME_LOTE_1.md": {
+   "sha256": "c891d59e5647deb26b8ed1e2dd3876e223519e0ceeb95f0d1862c3f75c4f06ed",
+   "bytes": 15339
+  },
+  "lote_1/MANIFIESTO_LOTE_1.json": {
+   "sha256": "5483b03659695a158c48b0fd6efcdeeb01973780f08b4f8fa623810e77ca8536",
+   "bytes": 9583
+  }
+ },
+ "prueba_oficio": {
+  "lote_1_oficio/COMPARACION.json": {
+   "sha256": "5727737b2e93c3d3aec18bc112e2fdb806dfe9885e2ddd75522162405b1f1b1f",
+   "bytes": 10415
+  },
+  "lote_1_oficio/COMPARACION.txt": {
+   "sha256": "77fa9fc2b22b60bf59eab44f0d567fc13d6992fdbb0f9beba2692dbfd8160b1f",
+   "bytes": 2424
+  },
+  "lote_1_oficio/DOCX_VS_PDF.json": {
+   "sha256": "7a01a8b22eb31606e8535af30c343bc4574b7b382bb67f639d7284921f11becc",
+   "bytes": 2681
+  },
+  "lote_1_oficio/INFORME_PRUEBA_OFICIO.md": {
+   "sha256": "a8cc5fd06ab97f98164139c46d024dfaec766b8caacc2ac08412ac65de58caff",
+   "bytes": 8896
+  },
+  "lote_1_oficio/O1/ADS_3BTI_LOTE1_ESTUDIANTE_OFICIO_O1.docx": {
+   "sha256": "a6225b9ff37878010bde22c554399dcb974a3e04b8fedcf0a3afad8ac3d74ed1",
+   "bytes": 468629
+  },
+  "lote_1_oficio/O1/ADS_3BTI_LOTE1_ESTUDIANTE_OFICIO_O1.pdf": {
+   "sha256": "12b7beeb20f1e5c57cbf5135dbb3a5e9e626999a5962f7c30e78c4fcb4dc4702",
+   "bytes": 1164362
+  },
+  "lote_1_oficio/O1/ADS_3BTI_LOTE1_GUIA_DOCENTE_OFICIO_O1.docx": {
+   "sha256": "21cda6c98f10b0f017380b98ce5dec943f2e9253377791c44c901655d69b3445",
+   "bytes": 60597
+  },
+  "lote_1_oficio/O1/ADS_3BTI_LOTE1_GUIA_DOCENTE_OFICIO_O1.pdf": {
+   "sha256": "fab20b8d40ce528e4ac8d5465e996557b0fe890b4d29ace840407558ce444b2d",
+   "bytes": 390411
+  },
+  "lote_1_oficio/O1/resultado_construccion.json": {
+   "sha256": "ea580001802cc7355e897d2c81c472cf4700736da27f963836875ec48f9de637",
+   "bytes": 7509
+  },
+  "lote_1_oficio/O1/verificacion_resultado.json": {
+   "sha256": "b9e964ba6399cd8c79b1050af0f499de22d6eaf255d647de2e1c515251987c36",
+   "bytes": 310
+  },
+  "lote_1_oficio/O1/verificacion_resultado.txt": {
+   "sha256": "84bc5d6c5ff56a60a0436258e1a632ea11302e840c0418828014d54523f2f722",
+   "bytes": 9530
+  },
+  "lote_1_oficio/O2/ADS_3BTI_LOTE1_ESTUDIANTE_OFICIO_O2.docx": {
+   "sha256": "a92d8d31ff60a91ae18a345da8457c8e5b3fdc45a73a148c3065ec2f7bb6d950",
+   "bytes": 468644
+  },
+  "lote_1_oficio/O2/ADS_3BTI_LOTE1_ESTUDIANTE_OFICIO_O2.pdf": {
+   "sha256": "af983bc7d2c42177b8869265924050d13ce3683ad637e70c07f8d8c846157c63",
+   "bytes": 1171280
+  },
+  "lote_1_oficio/O2/ADS_3BTI_LOTE1_GUIA_DOCENTE_OFICIO_O2.docx": {
+   "sha256": "b0373c4523d8f8cace737ec5551a4dd95c5368a75ea2ee7fce32a6a151be03b9",
+   "bytes": 60628
+  },
+  "lote_1_oficio/O2/ADS_3BTI_LOTE1_GUIA_DOCENTE_OFICIO_O2.pdf": {
+   "sha256": "5b0ec7a6740dc9950fcebf89e8108a278659e50b7af6e1928e82f4c473e4608b",
+   "bytes": 392683
+  },
+  "lote_1_oficio/O2/resultado_construccion.json": {
+   "sha256": "ac3e3e264c96a9185aca091d4b25b0065be9bbde9227bb63cafa5b36b2512499",
+   "bytes": 7558
+  },
+  "lote_1_oficio/O2/verificacion_resultado.json": {
+   "sha256": "b9e964ba6399cd8c79b1050af0f499de22d6eaf255d647de2e1c515251987c36",
+   "bytes": 310
+  },
+  "lote_1_oficio/O2/verificacion_resultado.txt": {
+   "sha256": "6539cd7098a761ad3c5747acd747a727d30491442ed344a65ec5d32fd2d35415",
+   "bytes": 9530
+  },
+  "lote_1_oficio/O3/ADS_3BTI_LOTE1_ESTUDIANTE_OFICIO_O3.docx": {
+   "sha256": "012858e3e3eb962786696a2492dbffe3ffec026f74960f5226163a6e4a314c86",
+   "bytes": 468699
+  },
+  "lote_1_oficio/O3/ADS_3BTI_LOTE1_ESTUDIANTE_OFICIO_O3.pdf": {
+   "sha256": "1b1f00e8be981fdfe0d65a560488cdfe48b162cfd46c18fa462d913bd0b692f2",
+   "bytes": 1173016
+  },
+  "lote_1_oficio/O3/ADS_3BTI_LOTE1_GUIA_DOCENTE_OFICIO_O3.docx": {
+   "sha256": "514b93c55fcbf8a79cf08f3b05d86af888670741a3d4c104fcf397effe4dcf27",
+   "bytes": 60624
+  },
+  "lote_1_oficio/O3/ADS_3BTI_LOTE1_GUIA_DOCENTE_OFICIO_O3.pdf": {
+   "sha256": "a32c2e5107eae62f1a7c1340cb7da6075f1477164eecbcf3e29572729d744d09",
+   "bytes": 394588
+  },
+  "lote_1_oficio/O3/resultado_construccion.json": {
+   "sha256": "c96f5fe676705bd8b535dc0f2eec0f4511876f214357b4591bd88c14b4df0c30",
+   "bytes": 7510
+  },
+  "lote_1_oficio/O3/verificacion_resultado.json": {
+   "sha256": "b9e964ba6399cd8c79b1050af0f499de22d6eaf255d647de2e1c515251987c36",
+   "bytes": 310
+  },
+  "lote_1_oficio/O3/verificacion_resultado.txt": {
+   "sha256": "8f1355e29273ae3e988fceb54a8d3a3e87c35a7f311d8ff447dd1948481c376f",
+   "bytes": 9529
+  },
+  "lote_1_oficio/build/comparar.py": {
+   "sha256": "66e7e1319bdba61ffae4bce894842fd2a7f83d3b3aa88647fcd5078c29016cab",
+   "bytes": 5393
+  },
+  "lote_1_oficio/build/construir_oficio.py": {
+   "sha256": "14723cad1b8dbd242388363ab001ff4387def70c358a122b310f67118b31600f",
+   "bytes": 8297
+  },
+  "lote_1_oficio/build/docx_vs_pdf.py": {
+   "sha256": "4ff2f7575332bccb64b0bf52afd7c5aca87060bcfce26952151aef1556ce1a76",
+   "bytes": 3169
+  },
+  "lote_1_oficio/build/perfiles.py": {
+   "sha256": "4468224881b80d7896d32a1bed33662933b87c569aee1881f487cefe06aa4fc3",
+   "bytes": 1573
+  },
+  "lote_1_oficio/build/verificar_oficio.py": {
+   "sha256": "778fe20e2e810b362bcea9f41f979063a35eeab9b298fb5472a039276eb06a2e",
+   "bytes": 3110
+  },
+  "lote_1_oficio/build/figs/fig_1_1_sistema_prestamos.png": {
+   "sha256": "c60e54ae698e8cdf25cc556345cf9c9d267cd4f50e37878c25b21e0f42fd61db",
+   "bytes": 129664
+  },
+  "lote_1_oficio/build/figs/fig_1_2_mapa_interesados.png": {
+   "sha256": "03215bb4bd29db61f92ad92c81d35be2da8c938fa6a63bf97a72799a449dfdbb",
+   "bytes": 71664
+  },
+  "lote_1_oficio/build/figs/fig_2_1_proceso_relevamiento.png": {
+   "sha256": "9a6c0ec4924cdf51e8684b652ec0a1b7af768a0b739ce23d496068f123de9821",
+   "bytes": 81442
+  },
+  "lote_1_oficio/build/figs/fig_2_2_contraste_fuentes.png": {
+   "sha256": "0d1e98beb31153accb4034d8d22c4c933e06c13752d5c6d68218969a4c78aae4",
+   "bytes": 87869
+  },
+  "lote_1_oficio/build/figs/fig_3_1_mapa_riesgos.png": {
+   "sha256": "90607b7f24c8a6f64038ef1653e49f475ceee6d20cfa18d7db0105271a406160",
+   "bytes": 42091
+  }
+ }
+}

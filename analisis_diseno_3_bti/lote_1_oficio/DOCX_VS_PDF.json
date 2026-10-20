@@ -1,0 +1,105 @@
+{
+ "ADS_3BTI_LOTE1_ESTUDIANTE (A4)": {
+  "parrafos_no_impresos": [
+   "Registra lectores ficticios con un código interno y los datos mínimos del caso.",
+   "Registra un ejemplar para un lector habilitado, con fecha de vencimiento, y lo valida antes de guardarlo.",
+   "Cierra el préstamo correcto una sola vez y conserva su historial.",
+   "Lista préstamos activos, vencidos y ejemplares disponibles.",
+   "Permisos mínimos",
+   "La consulta del catálogo no permite modificar préstamos; las operaciones requieren un rol autorizado.",
+   "Persistencia y entrega",
+   "Conserva la información entre usos y puede instalarse y restaurarse siguiendo una guía."
+  ],
+  "palabras_del_docx_que_no_aparecen_en_el_pdf": 71,
+  "detalle_palabras": {
+   "un": 4,
+   "una": 2,
+   "préstamos": 2,
+   "Registra": 2,
+   "mínimos": 2,
+   "del": 1,
+   "el": 1,
+   "las": 1,
+   "caso": 1,
+   "datos": 1,
+   "consulta": 1,
+   "su": 1,
+   "con": 1,
+   "información": 1,
+   "no": 1,
+   "permite": 1,
+   "lo": 1,
+   "La": 1,
+   "los": 1,
+   "entre": 1,
+   "puede": 1,
+   "fecha": 1,
+   "entrega": 1,
+   "código": 1,
+   "lectores": 1,
+   "disponibles": 1,
+   "préstamo": 1,
+   "historial": 1,
+   "operaciones": 1,
+   "lector": 1,
+   "vez": 1,
+   "ejemplares": 1,
+   "Lectores": 1,
+   "sola": 1,
+   "guía": 1,
+   "conserva": 1,
+   "Préstamo": 1,
+   "ejemplar": 1,
+   "Fragmento": 1,
+   "autorizado": 1
+  }
+ },
+ "ADS_3BTI_LOTE1_GUIA_DOCENTE (A4)": {
+  "parrafos_no_impresos": [],
+  "palabras_del_docx_que_no_aparecen_en_el_pdf": 2,
+  "detalle_palabras": {
+   "Programación": 1,
+   "Comunicación": 1
+  }
+ },
+ "ADS_3BTI_LOTE1_ESTUDIANTE_OFICIO_O1 (O1)": {
+  "parrafos_no_impresos": [],
+  "palabras_del_docx_que_no_aparecen_en_el_pdf": 0,
+  "detalle_palabras": {}
+ },
+ "ADS_3BTI_LOTE1_GUIA_DOCENTE_OFICIO_O1 (O1)": {
+  "parrafos_no_impresos": [],
+  "palabras_del_docx_que_no_aparecen_en_el_pdf": 0,
+  "detalle_palabras": {}
+ },
+ "ADS_3BTI_LOTE1_ESTUDIANTE_OFICIO_O2 (O2)": {
+  "parrafos_no_impresos": [],
+  "palabras_del_docx_que_no_aparecen_en_el_pdf": 3,
+  "detalle_palabras": {
+   "solución": 1,
+   "objetivo": 1,
+   "Fragmento": 1
+  }
+ },
+ "ADS_3BTI_LOTE1_GUIA_DOCENTE_OFICIO_O2 (O2)": {
+  "parrafos_no_impresos": [],
+  "palabras_del_docx_que_no_aparecen_en_el_pdf": 1,
+  "detalle_palabras": {
+   "Programación": 1
+  }
+ },
+ "ADS_3BTI_LOTE1_ESTUDIANTE_OFICIO_O3 (O3)": {
+  "parrafos_no_impresos": [],
+  "palabras_del_docx_que_no_aparecen_en_el_pdf": 1,
+  "detalle_palabras": {
+   "Fragmento": 1
+  }
+ },
+ "ADS_3BTI_LOTE1_GUIA_DOCENTE_OFICIO_O3 (O3)": {
+  "parrafos_no_impresos": [],
+  "palabras_del_docx_que_no_aparecen_en_el_pdf": 1,
+  "detalle_palabras": {
+   "Programación": 1
+  }
+ }
+}

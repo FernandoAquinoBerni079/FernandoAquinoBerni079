@@ -1,0 +1,132 @@
+Perfil O1: ancho útil 19.05 cm (10800 twips); extensión libro 37-48, guía 13-17
+CORRECTO [A] Capítulo 1: título de Work «Un sistema comienza con una necesidad»
+CORRECTO [A] Capítulo 1: encuentros (1, 2)
+CORRECTO [A] Capítulo 1: secciones de Work, textuales y en orden
+CORRECTO [A] Capítulo 1: práctica de Work («describir una biblioteca y separar hechos, supuestos y soluciones anticipadas»)
+CORRECTO [A] Capítulo 2: título de Work «Investigar antes de diseñar»
+CORRECTO [A] Capítulo 2: encuentros (3, 4)
+CORRECTO [A] Capítulo 2: secciones de Work, textuales y en orden
+CORRECTO [A] Capítulo 2: práctica de Work («dossier de relevamiento con roles de bibliotecario, lector y dirección»)
+CORRECTO [A] Capítulo 3: título de Work «Elegir un alcance posible»
+CORRECTO [A] Capítulo 3: encuentros (5, 6)
+CORRECTO [A] Capítulo 3: secciones de Work, textuales y en orden
+CORRECTO [A] Capítulo 3 cierra con la revisión de la Unidad I y el hito H1
+CORRECTO [A] Preliminares: los ocho de Work, en orden
+CORRECTO [A] Orden: preliminares, Capítulo 1, 2 y 3
+CORRECTO [B] Capítulo 1: rótulo «propuesta para el programa institucional» y «no oficial del MEC»
+CORRECTO [B] Capítulo 1: el rótulo figura en la ficha del libro y de la guía
+CORRECTO [B] Capítulo 2: rótulo «propuesta para el programa institucional» y «no oficial del MEC»
+CORRECTO [B] Capítulo 2: el rótulo figura en la ficha del libro y de la guía
+CORRECTO [B] Capítulo 3: rótulo «propuesta para el programa institucional» y «no oficial del MEC»
+CORRECTO [B] Capítulo 3: el rótulo figura en la ficha del libro y de la guía
+CORRECTO [B] Capítulo 1: capacidades C1, C7 con el texto de Work
+CORRECTO [B] Capítulo 2: capacidades C2 con el texto de Work
+CORRECTO [B] Capítulo 3: capacidades C1, C2, C7 con el texto de Work
+CORRECTO [B] Mapa de capacidades: C1 a C10 con la nota «no son capacidades oficiales del MEC»
+CORRECTO [B] Ninguna capacidad presentada como oficial del MEC (cada mención va precedida de «no es» / «no son»)
+CORRECTO [C] libro: los 131 códigos de fuente citados existen en el caso o en la situación de evaluación
+CORRECTO [C] libro: 17 citas textuales «…» (código) coinciden con la línea citada
+CORRECTO [C] guía: los 58 códigos de fuente citados existen en el caso o en la situación de evaluación
+CORRECTO [C] guía: 1 citas textuales «…» (código) coinciden con la línea citada
+CORRECTO [C] El libro reproduce todos los registros del dossier (D0, E1 a E5, O1, D1, D2) con todas sus líneas
+CORRECTO [C] Tabla 2.7: las trece necesidades con sus fuentes
+CORRECTO [C] N-02 = «Evitar entregar a dos lectores el mismo ejemplar.», fuente E4-L4 (cadena del Capítulo 4)
+CORRECTO [C] El Capítulo 3 presenta las reglas sin numerar y con el texto del caso
+CORRECTO [C] Sin requisitos numerados en el lote (RF, RNF, RS: Capítulo 4)
+CORRECTO [C] Alcance mínimo con permisos mínimos (Work §7.2) y las ocho exclusiones tratadas
+CORRECTO [C] caso/verificar_caso.py (incluye el control contra el Capítulo 4 v2): Resultado: 107 correctos, 0 fallos
+CORRECTO [D] 31 elementos del candidato con destino: {'Adaptar': 15, 'Trasladar': 3, 'Dividir': 1, 'Conservar': 8, 'Retirar': 4}
+CORRECTO [D] Conservar: TABLA_TECNICAS idéntica
+CORRECTO [D] Conservar: TABLA_PREGUNTAS idéntica
+CORRECTO [D] Conservar: EN_PARAGUAY idéntico
+CORRECTO [D] Conservar: S44 (párrafos) idéntico
+CORRECTO [D] Conservar: EJ2 (cuerpo) idéntico como Ejemplo resuelto 2.1
+CORRECTO [D] Conservar: TRANSCRIPCION_E1, TRANSCRIPCION_E2 y OBSERVACION_O1 en el dossier (verificar_caso, bloque C)
+CORRECTO [D] Trasladar: mapa de interesados en 1.3 con los valores del candidato
+CORRECTO [D] Retirar: el Capítulo 2 no redacta requisitos candidatos
+CORRECTO [D] Plan de integración: el dossier incluye E4 y E5 y cierra con N-01…
+CORRECTO [D] Semilla nueva de la evaluación del Capítulo 2 (distinta de ADS3-C4-1)
+CORRECTO [E] Sin personas ni títulos del caso de biblioteca de Algorítmica 3.º
+CORRECTO [E] Sin matriz ponderada: ni «ponderad…» ni pesos 0,5 / 0,3 / 0,2
+CORRECTO [E] «pesos» aparece solo en la remisión a Algorítmica 3.º (Práctica 4)
+CORRECTO [E] La comparación de alternativas no compara tecnologías (web, escritorio, app nativa)
+CORRECTO [E] La Tabla 3.3 no tiene números (fuera de los códigos de fuente)
+CORRECTO [F] libro: sin formas de tuteo frecuentes
+CORRECTO [F] libro: sin identificadores de modelos de IA
+CORRECTO [F] libro: sin símbolos ✓ ✗
+CORRECTO [F] libro: sin marcadores sin reemplazar
+CORRECTO [F] libro: no se declara apto ni aprobado para la venta
+CORRECTO [F] guía: sin formas de tuteo frecuentes
+CORRECTO [F] guía: sin identificadores de modelos de IA
+CORRECTO [F] guía: sin símbolos ✓ ✗
+CORRECTO [F] guía: sin marcadores sin reemplazar
+CORRECTO [F] guía: no se declara apto ni aprobado para la venta
+CORRECTO [G] helpers.py idéntico al del Capítulo 4 v2.1 (comportamiento de maqueta sin cambios)
+CORRECTO [G] maqueta.py idéntico al del Capítulo 4 v2.1 (comportamiento de maqueta sin cambios)
+CORRECTO [G] libro: 493 filas de tabla, todas «no dividir»
+CORRECTO [G] libro: 38 tablas de varias columnas con tblGrid de 19,05 cm
+CORRECTO [G] libro: toda tabla de datos repite su encabezado (las únicas sin encabezado son las 3 fichas)
+CORRECTO [G] guía: 246 filas de tabla, todas «no dividir»
+CORRECTO [G] guía: 36 tablas de varias columnas con tblGrid de 19,05 cm
+CORRECTO [G] guía: toda tabla de datos repite su encabezado (las únicas sin encabezado son las 3 fichas)
+CORRECTO [H] libro: ninguna página en blanco
+CORRECTO [H] libro: ninguna página empieza con renglones de respuesta sueltos
+CORRECTO [H] guía: ninguna página en blanco
+CORRECTO [H] guía: ninguna página empieza con renglones de respuesta sueltos
+CORRECTO [H] Evaluación del Capítulo 1: empieza en página propia (pág. [19])
+CORRECTO [H] Práctica 1: empieza en página nueva
+CORRECTO [H] Evaluación del Capítulo 2: empieza en página propia (pág. [33])
+CORRECTO [H] Práctica 2: empieza en página nueva
+CORRECTO [H] Evaluación del Capítulo 3: empieza en página propia (pág. [45])
+CORRECTO [H] Práctica 3: empieza en página nueva
+CORRECTO [H] El índice ocupa una sola página y la siguiente es «Presentación y alcance»
+CORRECTO [H] Índice: 37 entradas con página, verificadas sobre el PDF final
+CORRECTO [H] Índice estable: las páginas del índice coinciden con el PDF
+CORRECTO [H] Extensión del libro: 46 págs. (rango A4 51 a 65, escalado al área útil del perfil: 37 a 48)
+CORRECTO [H] Extensión de la guía: 14 págs. (rango A4 18 a 22, escalado: 13 a 17)
+CORRECTO [I] Evaluación del Capítulo 1: 9 ítems con clave; opción múltiple con claves bcdd
+CORRECTO [I] Evaluación del Capítulo 1: suma 15 puntos, como dice su remisión
+CORRECTO [I] Evaluación del Capítulo 1: la guía trae su clave y los criterios de los ítems abiertos
+CORRECTO [I] Evaluación del Capítulo 2: 9 ítems con clave; opción múltiple con claves cbba
+CORRECTO [I] Evaluación del Capítulo 2: suma 15 puntos, como dice su remisión
+CORRECTO [I] Evaluación del Capítulo 2: la guía trae su clave y los criterios de los ítems abiertos
+CORRECTO [I] Evaluación del Capítulo 3: 9 ítems con clave; opción múltiple con claves abbd
+CORRECTO [I] Evaluación del Capítulo 3: suma 15 puntos, como dice su remisión
+CORRECTO [I] Evaluación del Capítulo 3: la guía trae su clave y los criterios de los ítems abiertos
+CORRECTO [I] Semillas de evaluación distintas entre sí y del Capítulo 4
+CORRECTO [I] Rúbrica del H1: cuatro niveles de Work y cinco criterios con evidencia del equipo e individual
+CORRECTO [I] Proporción 60/40 rotulada como propuesta editorial (libro y guía)
+CORRECTO [I] Ausencia de evidencia registrada aparte (Work §4.3)
+CORRECTO [I] Prácticas en tres niveles en cada capítulo
+CORRECTO [I] Las prácticas usan el caso Mbokaja, distinto de los ejemplos (Arapoty)
+CORRECTO [I] Guía: secuencia en HC de los seis encuentros
+CORRECTO [I] Guía: tarjetas de rol de la Práctica 2 (solo en la guía)
+CORRECTO [I] Calendario de 28 encuentros: recuadro en cada capítulo y tabla en la guía
+CORRECTO [J] Capítulo 1: tabla 1.1 a 1.7 correlativas, sin repetir
+CORRECTO [J] Capítulo 1: figura 1.1 a 1.2 correlativas, sin repetir
+CORRECTO [J] Capítulo 1: ejemplo resuelto 1.1 a 1.4 correlativas, sin repetir
+CORRECTO [J] Capítulo 1: toda tabla mencionada existe
+CORRECTO [J] Capítulo 1: todo ejemplo resuelto mencionado existe
+CORRECTO [J] Capítulo 2: tabla 2.1 a 2.7 correlativas, sin repetir
+CORRECTO [J] Capítulo 2: figura 2.1 a 2.2 correlativas, sin repetir
+CORRECTO [J] Capítulo 2: ejemplo resuelto 2.1 a 2.5 correlativas, sin repetir
+CORRECTO [J] Capítulo 2: toda tabla mencionada existe
+CORRECTO [J] Capítulo 2: todo ejemplo resuelto mencionado existe
+CORRECTO [J] Capítulo 3: tabla 3.1 a 3.8 correlativas, sin repetir
+CORRECTO [J] Capítulo 3: figura 3.1 a 3.1 correlativas, sin repetir
+CORRECTO [J] Capítulo 3: ejemplo resuelto 3.1 a 3.4 correlativas, sin repetir
+CORRECTO [J] Capítulo 3: toda tabla mencionada existe
+CORRECTO [J] Capítulo 3: todo ejemplo resuelto mencionado existe
+
+Resultado por bloque:
+  A: 14 correctos, 0 fallos
+  B: 11 correctos, 0 fallos
+  C: 11 correctos, 0 fallos
+  D: 11 correctos, 0 fallos
+  E: 5 correctos, 0 fallos
+  F: 10 correctos, 0 fallos
+  G: 8 correctos, 0 fallos
+  H: 15 correctos, 0 fallos
+  I: 18 correctos, 0 fallos
+  J: 15 correctos, 0 fallos
+Resultado: 118 correctos, 0 fallos
