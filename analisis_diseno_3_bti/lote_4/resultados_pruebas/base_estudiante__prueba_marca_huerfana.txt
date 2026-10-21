@@ -1,0 +1,23 @@
+Entorno: {"fecha": "2026-10-21 04:13", "sistema": "Linux 6.18.44-fc-v140 (x86_64)", "php": "8.3.6", "sqlite": "3.45.1", "extensiones": "session, PDO, pdo_sqlite, posix", "curl": "curl 8.5.0 (x86_64-pc-linux-gnu) libcurl/8.5.0 OpenSSL/3.0.13 zlib/1.3 brotli/1.1.0 zstd/1.5.5 libidn2/2.3.7 libpsl/0.21.2 (+libidn2/2.3.7) libssh/0.10.6/openssl/zlib nghttp2/1.59.0 librtmp/2.3 OpenLDAP/2.6.10", "tipo": "Contenedor Linux de construcción del lote. NO es una computadora escolar ni Windows: las pruebas de campo E-1 a E-12 siguen pendientes."}
+
+CORRECTO Sin marca: no hace nada (código 0)
+CORRECTO Proceso del mantenimiento vivo: se niega (código 1), la marca sigue y la base no cambió
+CORRECTO Corte simulado durante el reinicio: quedó la marca huérfana
+CORRECTO Con la marca huérfana, conectar() sigue rechazando conexiones
+CORRECTO Diagnóstico sin --retirar: correcto (código 0), la marca sigue y no cambia la base
+CORRECTO El diagnóstico guardó la copia del estado y su informe en datos/incidentes/
+CORRECTO Con --retirar: retira la marca (código 0) y la conexión de prueba funciona
+CORRECTO Los dos préstamos anteriores al corte siguen en la base
+CORRECTO Corte a mitad del reinicio: quedan la marca y un diario (-journal) caliente
+CORRECTO SQLite deshace la transacción interrumpida al abrir; el retiro sale bien (código 0)
+CORRECTO Después del retiro: los dos préstamos originales siguen y no quedó la tabla del reinicio a medias
+CORRECTO La copia del incidente conserva el diario caliente para revisión
+CORRECTO Corte con la base en modo WAL: quedan la marca y un -wal con datos
+CORRECTO Retiro en modo WAL (código 0) y el préstamo confirmado antes del corte aparece
+CORRECTO Otra conexión con la base tomada: se niega (código 1) y la marca sigue
+CORRECTO Respaldo incompleto posterior a la marca: se aparta a la carpeta del incidente (código 0)
+CORRECTO Base dañada: no pasa las comprobaciones (código 2), la marca queda puesta y se indica restaurar
+CORRECTO Con la base dañada, el sistema sigue bloqueado por la marca
+CORRECTO Falta el disparador del historial (RN-05): no se retira la marca (código 2)
+
+Resultado: 19 de 19 correctos

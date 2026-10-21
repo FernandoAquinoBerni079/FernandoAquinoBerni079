@@ -1,0 +1,39 @@
+Entorno: {"fecha": "2026-10-21 04:13", "sistema": "Linux 6.18.44-fc-v140 (x86_64)", "php": "8.3.6", "sqlite": "3.45.1", "extensiones": "session, PDO, pdo_sqlite, posix", "curl": "curl 8.5.0 (x86_64-pc-linux-gnu) libcurl/8.5.0 OpenSSL/3.0.13 zlib/1.3 brotli/1.1.0 zstd/1.5.5 libidn2/2.3.7 libpsl/0.21.2 (+libidn2/2.3.7) libssh/0.10.6/openssl/zlib nghttp2/1.59.0 librtmp/2.3 OpenLDAP/2.6.10", "tipo": "Contenedor Linux de construcción del lote. NO es una computadora escolar ni Windows: las pruebas de campo E-1 a E-12 siguen pendientes."}
+
+CORRECTO P-08: la consulta pública muestra las dos obras que coinciden con «arroyo»
+CORRECTO P-12: la consulta pública no muestra códigos ni nombres de lectores
+CORRECTO La consulta pública no tiene formularios que modifiquen datos
+CORRECTO OP-03 sin coincidencias: ME-08
+CORRECTO PT-04 sin sesión: 403 con ME-13
+CORRECTO P-11: préstamo enviado sin sesión: 403 y ningún préstamo creado
+CORRECTO Clave incorrecta: ME-12, el mensaje de autenticación
+CORRECTO La dirección ingresa y va al informe (PT-09)
+CORRECTO La dirección no entra a PT-04: 403 con ME-13 (no ME-12)
+CORRECTO La dirección no registra préstamos: 403 y ningún préstamo
+CORRECTO La dirección ve el informe mensual (200)
+CORRECTO La bibliotecaria ingresa y va a PT-04
+CORRECTO Préstamo sin ficha CSRF: MV-12 y no se registra
+CORRECTO P-01: préstamo válido: 303 y ME-04 con el vencimiento
+CORRECTO P-07: reenvío sobre el mismo ejemplar: ME-03
+CORRECTO P-07: sigue habiendo un solo préstamo activo de EJ-0457
+CORRECTO Patrón POST-redirección-GET: recargar no repite la operación (el aviso ya no aparece)
+CORRECTO ME-11: el formulario desactiva el botón y muestra «Guardando…» al enviarse
+CORRECTO P-05: lector inactivo: ME-01
+CORRECTO PA-01: alta de un ejemplar desde PT-08: MA-01
+CORRECTO P-04: PT-07 muestra quién tiene EJ-0457, vencido respecto de una fecha de referencia lejana
+CORRECTO P-09: la bibliotecaria también ve el informe; el préstamo de hoy cuenta en el curso 2.º BTI
+CORRECTO P-03: devolución registrada: ME-07
+CORRECTO Segunda devolución del mismo ejemplar: ME-06
+CORRECTO RI-04: el préstamo devuelto se conserva en el historial
+CORRECTO Texto con etiquetas se muestra escapado
+CORRECTO Comilla en la búsqueda no altera la consulta (consulta parametrizada): ME-08
+CORRECTO Después de salir, PT-04 vuelve a responder 403 con ME-13
+CORRECTO Tras reiniciar el servidor se conservan los 1 préstamos y el ejemplar EJ-0810
+CORRECTO 8 pedidos HTTP simultáneos de EJ-0601 en 8 sesiones (8 procesos del servidor): un solo préstamo activo
+               7 ME-03
+               1 ME-04
+CORRECTO Las otras 7 sesiones recibieron ME-03
+CORRECTO El servidor no registró errores de PHP
+Entorno: Linux 6.18.44-fc-v140, PHP 8.3.6, SQLite 3.45.1, curl 8.5.0
+
+Resultado: 32 de 32 correctas

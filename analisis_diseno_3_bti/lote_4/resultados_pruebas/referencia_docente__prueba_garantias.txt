@@ -1,0 +1,25 @@
+Entorno: {"fecha": "2026-10-21 04:13", "sistema": "Linux 6.18.44-fc-v140 (x86_64)", "php": "8.3.6", "sqlite": "3.45.1", "extensiones": "session, PDO, pdo_sqlite, posix", "curl": "curl 8.5.0 (x86_64-pc-linux-gnu) libcurl/8.5.0 OpenSSL/3.0.13 zlib/1.3 brotli/1.1.0 zstd/1.5.5 libidn2/2.3.7 libpsl/0.21.2 (+libidn2/2.3.7) libssh/0.10.6/openssl/zlib nghttp2/1.59.0 librtmp/2.3 OpenLDAP/2.6.10", "tipo": "Contenedor Linux de construcción del lote. NO es una computadora escolar ni Windows: las pruebas de campo E-1 a E-12 siguen pendientes."}
+
+Regla       Intento con SQL directo                                      Esperado  Resultado
+RI-01       Segundo préstamo activo del mismo ejemplar                  SQLite    SQLite
+RI-02       Tercer préstamo activo de un estudiante                     Solo PHP  Solo PHP
+RI-03       Préstamo a un lector inactivo                               Solo PHP  Solo PHP
+RI-03       Préstamo de un ejemplar dado de baja                        Solo PHP  Solo PHP
+RI-04       Borrar un préstamo                                          SQLite    SQLite
+RI-04       Cambiar una devolución ya registrada                        SQLite    SQLite
+RI-05       Borrar un ejemplar con historial                             SQLite    SQLite
+RI-05       Borrar un lector con historial                               SQLite    SQLite
+RI-05       Cambiar el código de un ejemplar con historial              SQLite    SQLite
+RI-06       Estudiante sin curso                                         SQLite    SQLite
+RI-06       Docente con curso                                            SQLite    SQLite
+RI-07       Vencimiento con un plazo distinto del vigente                Solo PHP  Solo PHP
+RI-07       Cambiar el vencimiento de un préstamo registrado            SQLite    SQLite
+RI-08       Préstamo de un estudiante sin el curso del día             Solo PHP  Solo PHP
+Integridad  Préstamo de un ejemplar inexistente (con foreign_keys activo) SQLite    SQLite
+Integridad  Vencimiento anterior a la salida                             SQLite    SQLite
+Integridad  Código de ejemplar repetido                                 SQLite    SQLite
+Integridad  Código de ejemplar con otro formato                         SQLite    SQLite
+RNF-02      Cuenta con un rol que no existe                              SQLite    SQLite
+Integridad  Ejemplar inexistente desde una conexión SIN foreign_keys    Solo PHP  Solo PHP
+
+Resultado: 20 de 20 clasificaciones confirmadas

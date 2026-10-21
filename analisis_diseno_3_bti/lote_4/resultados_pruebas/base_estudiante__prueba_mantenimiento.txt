@@ -1,0 +1,36 @@
+Entorno: {"fecha": "2026-10-21 04:13", "sistema": "Linux 6.18.44-fc-v140 (x86_64)", "php": "8.3.6", "sqlite": "3.45.1", "extensiones": "session, PDO, pdo_sqlite, posix", "curl": "curl 8.5.0 (x86_64-pc-linux-gnu) libcurl/8.5.0 OpenSSL/3.0.13 zlib/1.3 brotli/1.1.0 zstd/1.5.5 libidn2/2.3.7 libpsl/0.21.2 (+libidn2/2.3.7) libssh/0.10.6/openssl/zlib nghttp2/1.59.0 librtmp/2.3 OpenLDAP/2.6.10", "tipo": "Contenedor Linux de construcción del lote. NO es una computadora escolar ni Windows: las pruebas de campo E-1 a E-12 siguen pendientes."}
+
+-- Base en modo DELETE
+CORRECTO DELETE: con una escritura sin confirmar en otra conexión, el reinicio se niega (código 1, esperó 5 s)
+CORRECTO DELETE: …no dejó respaldo a medias ni marca de mantenimiento
+CORRECTO DELETE: …y la escritura de la otra conexión se confirmó sobre la base intacta (3 préstamos)
+CORRECTO DELETE: con una lectura en curso en otra conexión, el reinicio se niega y la base queda igual
+CORRECTO DELETE: si la otra transacción termina dentro de la espera, el reinicio se hace después (código 0)
+CORRECTO DELETE: …y el respaldo incluye lo que esa transacción confirmó (4 préstamos; tiene 4)
+CORRECTO DELETE: …la base reiniciada queda sin préstamos y sin marca de mantenimiento
+-- Base en modo WAL
+CORRECTO WAL: con una escritura sin confirmar en otra conexión, el reinicio se niega (código 1, esperó 5 s)
+CORRECTO WAL: …no dejó respaldo a medias ni marca de mantenimiento
+CORRECTO WAL: …y la escritura de la otra conexión se confirmó sobre la base intacta (3 préstamos)
+CORRECTO WAL: con una lectura en curso en otra conexión, el reinicio se niega y la base queda igual
+CORRECTO WAL: si la otra transacción termina dentro de la espera, el reinicio se hace después (código 0)
+CORRECTO WAL: …y el respaldo incluye lo que esa transacción confirmó (4 préstamos; tiene 4)
+CORRECTO WAL: …la base reiniciada queda sin préstamos y sin marca de mantenimiento
+CORRECTO DELETE: durante el mantenimiento otra conexión no puede leer ni escribir
+CORRECTO DELETE: durante el mantenimiento conectar() rechaza conexiones nuevas
+CORRECTO DELETE: el reinicio termina bien y no queda nada de la escritura intentada
+CORRECTO WAL: durante el mantenimiento otra conexión no puede leer ni escribir
+CORRECTO WAL: durante el mantenimiento conectar() rechaza conexiones nuevas
+CORRECTO WAL: el reinicio termina bien y no queda nada de la escritura intentada
+CORRECTO WAL: con otra conexión abierta e inactiva, el reinicio se niega y la base queda igual
+CORRECTO DELETE: con otra conexión inactiva, el reinicio se hace (código 0)
+CORRECTO DELETE: la base es el mismo archivo (mismo inodo); no se borró ni se reemplazó
+CORRECTO DELETE: la conexión que quedó abierta ve la base reiniciada (0 préstamos)
+CORRECTO DELETE: lo que escribe esa conexión queda en la base (no en un archivo huérfano)
+CORRECTO Con la marca de mantenimiento, conectar() rechaza conexiones nuevas
+CORRECTO Con la marca, otro reinicio se niega («mantenimiento en curso») y la base queda idéntica
+CORRECTO Con la marca, respaldar.php se niega sin error de PHP
+CORRECTO Con la marca, la consulta pública responde 503 con aviso de mantenimiento (HTTP/1.1 503 Service Unavailable)
+CORRECTO Sin la marca, la consulta pública vuelve a responder 200
+
+Resultado: 30 de 30 correctas

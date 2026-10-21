@@ -1,0 +1,20 @@
+CORRECTO PA-01: alta de EJ-0800 en ED-0060 → MA-01
+CORRECTO PA-01: el mismo código otra vez → MA-02 y sin cambios
+CORRECTO PA-01: formato inválido → MV-02 y sin cambios
+CORRECTO PA-01: edición inexistente → MA-03 y sin cambios
+CORRECTO PA-01: con la cuenta de dirección → ME-13 y sin cambios
+PENDIENTE PA-03: estudiante sin curso (RI-06) (OA-03 registrar un lector todavía no está construida (Capítulo 11).)
+PENDIENTE P-10: inactivar el ejemplar EJ-0701 (OP-06 inactivar lector o ejemplar todavía no está construida (Capítulo 11).)
+PENDIENTE P-01: préstamo válido de EJ-0457 a LE-0123 (OP-01 registrar préstamo todavía no está construida (Capítulo 12).)
+PENDIENTE P-07: segunda solicitud sobre EJ-0457 (OP-01 registrar préstamo todavía no está construida (Capítulo 12).)
+PENDIENTE P-05: préstamo a un lector inactivo (OP-01 registrar préstamo todavía no está construida (Capítulo 12).)
+PENDIENTE P-11: préstamo con la cuenta de dirección (OP-01 registrar préstamo todavía no está construida (Capítulo 12).)
+PENDIENTE P-03: devolución de EJ-0457 (OP-02 registrar devolución todavía no está construida (Capítulo 12).)
+PENDIENTE OP-02: segunda devolución de EJ-0457 (OP-02 registrar devolución todavía no está construida (Capítulo 12).)
+PENDIENTE OP-03: consulta sin coincidencias (OP-03 consultar disponibilidad todavía no está construida (Capítulo 13).)
+PENDIENTE OP-04: préstamos activos con la cuenta de dirección (OP-04 listar préstamos activos todavía no está construida (Capítulo 13).)
+PENDIENTE OP-05: informe sin sesión (OP-05 informe mensual por curso todavía no está construida (Capítulo 13).)
+
+Pendientes: 11 (no cuentan como falla)
+
+Resultado: 5 de 5 correctas
