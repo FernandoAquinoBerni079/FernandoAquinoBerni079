@@ -1,0 +1,24 @@
+Entorno: Linux 6.18.44-fc-v140 (x86_64), PHP 8.3.6, SQLite 3.45.1 (2026-10-21 14:19)
+Condición: comprobación técnica automática en el entorno de construcción
+
+CORRECTO PA-01: alta de EJ-0800 en ED-0060 → MA-01
+CORRECTO PA-01: el mismo código otra vez → MA-02 y sin cambios
+CORRECTO PA-01: formato inválido → MV-02 y sin cambios
+CORRECTO PA-01: edición inexistente → MA-03 y sin cambios
+CORRECTO PA-01: con la cuenta de dirección → ME-13 y sin cambios
+CORRECTO PA-05: corregir el título de OB-0032 sin autor → MV-01 y sin cambios
+CORRECTO PA-03: estudiante sin curso (RI-06) → MV-03 y sin cambios
+CORRECTO P-10: inactivar el ejemplar EJ-0701 → MA-08
+CORRECTO P-01: préstamo válido de EJ-0457 a LE-0123 → ME-04
+CORRECTO P-07: segunda solicitud sobre EJ-0457 → ME-03 y sin cambios
+CORRECTO P-05: préstamo a un lector inactivo → ME-01 y sin cambios
+CORRECTO P-11: préstamo con la cuenta de dirección → ME-13 y sin cambios
+CORRECTO P-03: devolución de EJ-0457 → ME-07
+CORRECTO OP-02: segunda devolución de EJ-0457 → ME-06 y sin cambios
+CORRECTO OP-03: consulta sin coincidencias → ME-08 y sin cambios
+CORRECTO OP-04: préstamos activos con la cuenta de dirección → ME-13 y sin cambios
+CORRECTO OP-05: informe sin sesión → ME-13 y sin cambios
+
+Pendientes: 0 (no cuentan como falla)
+
+Resultado: 17 de 17 correctas

@@ -1,11 +1,13 @@
 # -*- coding: utf-8 -*-
 """Corre todas las pruebas del lote 6 y registra el entorno exacto en que corrieron → lote_6/resultados_pruebas/.
   1. Paquetes: se arman desde las fuentes (build/armar_paquetes.py) y se comprueba que el código del paquete modelo sea
-     idéntico al de la referencia v2 con SC-02 del lote 5 (solo cambian LEEME.txt, ENTREGA/ y el comprobador).
-  2. Comprobador de entrega: 0 incoherencias en el paquete modelo; en el de Mbokaja, exactamente las de la clave
-     (caso/mbokaja_u6.py); en una copia corregida con la clave, 0.
-  3. La guía como prueba (build/prueba_guia.py) sobre el paquete modelo y sobre la copia corregida de Mbokaja.
-  4. Regresión completa de la versión empaquetada.
+     idéntico al de la referencia v2 con SC-02 del lote 5 (solo cambian LEEME.txt y ENTREGA/).
+  2. Herramientas del docente (v1.1, fuera del paquete; build/herramientas_docente.py): la inspección estática y las
+     pruebas en aislamiento dan 0 incoherencias en el paquete modelo; en el de Mbokaja, exactamente las de la clave
+     (caso/mbokaja_u6.py), cada una con su herramienta; en una copia corregida con la clave, 0.
+  3. La guía como prueba (build/prueba_guia.py, aislada) sobre el paquete modelo y sobre la copia corregida de Mbokaja.
+  4. Pruebas negativas de las herramientas (build/pruebas_negativas.py).
+  5. Regresión completa de la versión empaquetada (en una cuenta sin privilegios y sin red).
 Todo corre sobre copias temporales. El entorno de construcción NO es una computadora escolar ni Windows, y una
 ejecución automática NO es la instalación por otro equipo: el resumen lo dice expresamente.
 Uso: python3 lote_6/build/reproducir.py"""
@@ -17,12 +19,14 @@ sys.path.insert(0, AQUI)
 sys.path.insert(1, os.path.join(L6, 'caso'))
 import armar_paquetes as A
 import prueba_guia as PG
+import herramientas_docente as H
+import pruebas_negativas as PN
 import mbokaja_u6 as MB
 import entrega_u6 as E
 OUT = os.path.join(L6, 'resultados_pruebas')
 PRUEBAS = ['prueba_contratos.php', 'prueba_mis_operaciones.php', 'prueba_carrera.php', 'prueba_garantias.php',
            'prueba_respaldo.php', 'prueba_mantenimiento.php', 'prueba_marca_huerfana.php', 'prueba_http.sh', 'prueba_in02.sh']
-DOCS_NUEVOS = {'LEEME.txt', 'comprobar_entrega.php'}
+DOCS_NUEVOS = {'LEEME.txt'}
 
 
 def sh(cmd, cwd=None):
@@ -67,10 +71,12 @@ def archivos(raiz):
     return out
 
 
-def comprobar(paquete):
-    cod, sal = sh(['php', 'comprobar_entrega.php'], cwd=paquete)
-    inc = sorted(l.replace('INCOHERENCIA ', '') for l in sal.split('\n') if l.startswith('INCOHERENCIA'))
-    return cod, sal, inc
+def revisar(paquete):
+    """Inspección estática y pruebas en aislamiento, con las herramientas del docente."""
+    ci, si, ii = H.inspeccionar(paquete)
+    ca, sa, ia, _ = H.probar_aislado(paquete)
+    return {'inspeccion': {'codigo_salida': ci, 'incoherencias': ii, 'resultado': fin(si)},
+            'aislamiento': {'codigo_salida': ca, 'incoherencias': ia, 'resultado': fin(sa)}}, si, sa
 
 
 def texto_guia(r):
@@ -96,46 +102,70 @@ if __name__ == '__main__':
     fallos += not res['paquete_modelo']['codigo_identico']
     print('Paquete modelo: %d archivos; distintos del origen: %s; nuevos: %d' % (len(paq), distintos, len(nuevos)))
 
-    # 2. comprobador de entrega
-    c1, s1, i1 = comprobar(A.MODELO)
-    c2, s2, i2 = comprobar(A.MBOKAJA)
-    esperadas = MB.incoherencias_esperadas()
+    # 2. herramientas del docente
+    if not H.puede_aislar():
+        print('AVISO: el entorno no permite aislar; las pruebas en aislamiento no se ejecutan')
+    r1, si1, sa1 = revisar(A.MODELO)
+    r2, si2, sa2 = revisar(A.MBOKAJA)
     tmp = tempfile.mkdtemp(prefix='ads_l6_')
     try:
         corr = os.path.join(tmp, 'mbokaja_corregido')
         shutil.copytree(A.MBOKAJA, corr)
         A.corregir(corr)
-        c3, s3, i3 = comprobar(corr)
-        coinciden = [x for x in i2 if any(x.startswith(e) for e in esperadas)]
-        res['comprobador'] = {
-            'modelo': {'codigo_salida': c1, 'incoherencias': i1, 'resultado': fin(s1)},
-            'mbokaja': {'codigo_salida': c2, 'incoherencias': i2, 'resultado': fin(s2), 'esperadas': esperadas,
-                        'exactas': len(i2) == len(esperadas) and len(coinciden) == len(esperadas)},
-            'mbokaja_corregido': {'codigo_salida': c3, 'incoherencias': i3, 'resultado': fin(s3)}}
-        escribir('comprobador_paquete_modelo.txt', E_, s1)
-        escribir('comprobador_paquete_mbokaja.txt', E_, s2)
-        escribir('comprobador_mbokaja_corregido.txt', E_, s3)
-        fallos += not (c1 == 0 and not i1 and c2 == 1 and res['comprobador']['mbokaja']['exactas'] and c3 == 0 and not i3)
-        print('Comprobador: modelo %s · Mbokaja %s (%s) · Mbokaja corregido %s' % (
-            fin(s1), fin(s2), 'exactas' if res['comprobador']['mbokaja']['exactas'] else 'NO coinciden con la clave', fin(s3)))
+        r3, si3, sa3 = revisar(corr)
+        exactas = {h: (r2[k]['incoherencias'] == MB.incoherencias_esperadas(h))
+                   for k, h in (('inspeccion', MB.INSPECCION), ('aislamiento', MB.AISLAMIENTO))}
+        r2['esperadas'] = {MB.INSPECCION: MB.incoherencias_esperadas(MB.INSPECCION),
+                           MB.AISLAMIENTO: MB.incoherencias_esperadas(MB.AISLAMIENTO)}
+        r2['exactas'] = all(exactas.values()) and len(MB.incoherencias_esperadas()) == 6
+        res['herramientas'] = {'modelo': r1, 'mbokaja': r2, 'mbokaja_corregido': r3}
+        for nombre, si, sa in (('paquete_modelo', si1, sa1), ('paquete_mbokaja', si2, sa2), ('mbokaja_corregido', si3, sa3)):
+            escribir('inspeccion_%s.txt' % nombre, E_, si)
+            escribir('aislamiento_%s.txt' % nombre, E_, sa)
+        limpio = lambda r: all(r[k]['codigo_salida'] == 0 and not r[k]['incoherencias'] for k in ('inspeccion', 'aislamiento'))
+        fallos += not (limpio(r1) and r2['exactas'] and r2['inspeccion']['codigo_salida'] == 1
+                       and r2['aislamiento']['codigo_salida'] == 1 and limpio(r3))
+        for nombre, r in (('modelo', r1), ('Mbokaja', r2), ('Mbokaja corregido', r3)):
+            print('Herramientas %-18s inspección: %s · aislamiento: %s' % (nombre, r['inspeccion']['resultado'],
+                                                                        r['aislamiento']['resultado']))
+        print('Mbokaja: incoherencias %s con la clave' % ('exactas' if r2['exactas'] else 'que NO coinciden'))
 
         # 3. la guía como prueba
         res['guia'] = {}
         for clave, paquete in (('modelo', A.MODELO), ('mbokaja_corregido', corr), ('mbokaja_con_defectos', A.MBOKAJA)):
             r = PG.ejecutar(paquete)
-            res['guia'][clave] = {'pasos': r, 'correctos': sum(x['correcto'] for x in r), 'total': len(r)}
+            res['guia'][clave] = {'pasos': r, 'correctos': sum(x['correcto'] for x in r), 'total': len(r),
+                                  'aislamiento': PG.ULTIMO.get('aislamiento')}
             escribir('guia_%s.txt' % clave, E_, texto_guia(r))
             print('Guía %-22s %d de %d pasos' % (clave, res['guia'][clave]['correctos'], len(r)))
         fallos += res['guia']['modelo']['correctos'] != res['guia']['modelo']['total']
         fallos += res['guia']['mbokaja_corregido']['correctos'] != res['guia']['mbokaja_corregido']['total']
         fallos += res['guia']['mbokaja_con_defectos']['correctos'] == res['guia']['mbokaja_con_defectos']['total']
 
-        # 4. regresión de la versión empaquetada
+        # 4. pruebas negativas de las herramientas
+        res['pruebas_negativas'] = PN.correr()
+        escribir('pruebas_negativas.txt', E_, '\n'.join('%s %s %s — %s' % ('CORRECTO' if x['correcto'] else 'FALLA   ',
+                 x['caso'], x['titulo'], x['detalle']) for x in res['pruebas_negativas']) + '\nResultado: %d de %d pruebas '
+                 'negativas correctas\n' % (sum(x['correcto'] for x in res['pruebas_negativas']), len(res['pruebas_negativas'])))
+        fallos += not all(x['correcto'] for x in res['pruebas_negativas'])
+        print('Pruebas negativas: %d de %d correctas' % (sum(x['correcto'] for x in res['pruebas_negativas']),
+                                                         len(res['pruebas_negativas'])))
+
+        # 5. regresión de la versión empaquetada: una copia de la cuenta sin privilegios, sin red
         res['regresion'] = {}
         for pr in PRUEBAS:
-            c = os.path.join(tmp, 'r_' + pr.split('.')[0])
-            shutil.copytree(A.MODELO, c)
-            cod, sal = sh(['bash', 'pruebas/' + pr] if pr.endswith('.sh') else ['php', 'pruebas/' + pr], cwd=c)
+            base = tempfile.mkdtemp(prefix='ads_reg_', dir='/tmp')
+            os.chmod(base, 0o755)
+            c = os.path.join(base, 'paquete')
+            shutil.copytree(A.MODELO, c, ignore=shutil.ignore_patterns('*.sqlite'))
+            aislar = []
+            if H.puede_aislar():
+                for d, _, fs in os.walk(c):
+                    for x in [d] + [os.path.join(d, f) for f in fs]:
+                        os.lchown(x, H.NADIE, H.NADIE)
+                aislar = ['unshare', '-n', sys.executable, '-I', os.path.join(AQUI, 'con_red_local.py')] + H.SIN_PRIVILEGIOS
+            cod, sal = sh(aislar + (['bash', 'pruebas/' + pr] if pr.endswith('.sh') else ['php', 'pruebas/' + pr]), cwd=c)
+            shutil.rmtree(base, ignore_errors=True)
             res['regresion'][pr] = {'codigo_salida': cod, 'resultado': fin(sal)}
             escribir('regresion_paquete_modelo__%s.txt' % pr.split('.')[0], E_, sal)
             fallos += cod != 0

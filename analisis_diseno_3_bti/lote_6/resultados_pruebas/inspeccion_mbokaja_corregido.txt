@@ -1,0 +1,4 @@
+Entorno: Linux 6.18.44-fc-v140 (x86_64), PHP 8.3.6, SQLite 3.45.1 (2026-10-21 14:54)
+Condición: comprobación técnica automática en el entorno de construcción
+
+Resultado: 0 incoherencias (inspección estática; no se ejecutó nada)

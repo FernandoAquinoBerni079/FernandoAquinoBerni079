@@ -16,9 +16,8 @@ Versión: Entrega 1.0 (versión candidata v2 con SC-02, equipo modelo, caso Arap
 - archivo: `instalar.php` — Instalación
 - archivo: `respaldar.php` — Respaldo
 - archivo: `restaurar.php` — Restauración
-- archivo: `comprobar_entrega.php` — Comprobador de la entrega
 
-## Pruebas que acompañan la entrega (las ejecuta php comprobar_entrega.php)
+## Pruebas que acompañan la entrega (solo las ejecuta la herramienta del docente, en aislamiento)
 
 - prueba: `php pruebas/prueba_contratos.php`
 - prueba: `php pruebas/prueba_garantias.php`

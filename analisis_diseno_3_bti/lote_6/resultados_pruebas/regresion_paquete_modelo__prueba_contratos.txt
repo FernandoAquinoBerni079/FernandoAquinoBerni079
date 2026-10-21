@@ -1,4 +1,4 @@
-Entorno: Linux 6.18.44-fc-v140 (x86_64), PHP 8.3.6, SQLite 3.45.1 (2026-10-21 14:19)
+Entorno: Linux 6.18.44-fc-v140 (x86_64), PHP 8.3.6, SQLite 3.45.1 (2026-10-21 14:54)
 Condición: comprobación técnica automática en el entorno de construcción
 
 -- OA-01 dar de alta un ejemplar (Capítulo 10)

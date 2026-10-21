@@ -25,7 +25,7 @@ plan = [entrada(ADS, os.path.join('plan_anual', f)) for f in ('plan_anual_prelim
                                                                'PLAN_ANUAL_PRELIMINAR.md')]
 r = json.load(open(os.path.join(L5, 'resultados_pruebas', 'resumen.json'), encoding='utf8'))['entorno']
 v = json.load(open(os.path.join(L5, 'verificacion_resultado.json'), encoding='utf8'))
-json.dump({'lote': 'ADS 3.º BTI — lote 6 (Unidad VI, Capítulos 17 y 18), v1.0 (para auditoría)',
+json.dump({'lote': 'ADS 3.º BTI — lote 6 (Unidad VI, Capítulos 17 y 18), v1.1 (cierre de la auditoría del lote 6; la v1.0 se conserva en version_1_0/)',
            'fecha': r['fecha'][:10],
            'estado': 'Para auditoría independiente. No validado en laboratorios escolares ni aprobado para la venta.',
            'entorno_de_las_pruebas': '%s, PHP %s, SQLite %s (contenedor de construcción; no es una computadora escolar ni '

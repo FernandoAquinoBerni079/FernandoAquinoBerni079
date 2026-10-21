@@ -1,6 +1,6 @@
 # -*- coding: utf-8 -*-
-"""Guía docente con solucionario del lote 6 (Unidad VI, Capítulos 17 y 18): paquete de entrega modelo y comprobador,
-licencias y procedencia (borrador, decisión D-2), organización de la instalación por otro equipo, paquete de Mbokaja
+"""Guía docente con solucionario del lote 6 (Unidad VI, Capítulos 17 y 18): paquete de entrega modelo y herramientas
+del docente para revisarlo (v1.1: inspección estática y pruebas en aislamiento, fuera del paquete), licencias y procedencia (borrador, decisión D-2), organización de la instalación por otro equipo, paquete de Mbokaja
 con la clave de sus defectos, banco reservado de variantes V6 (solo el procedimiento y los ejemplos públicos),
 preparación y planilla de tiempos del Encuentro 35 (D-5), secuencia de cada encuentro en HC, claves de las actividades,
 de la práctica y de la evaluación, rúbricas del H6, de la defensa y del producto final, fichas de recuperación,
@@ -21,16 +21,33 @@ def _r(t):
     return t.replace('Resultado: ', '')
 
 
+def _c(x):
+    """Resultado de una herramienta sin su aclaración entre paréntesis."""
+    return x['resultado'].split(' (')[0]
+
+
 # ---------------------------------------------------------------- 0. antes del Encuentro 33
 PAQUETE = [
     'El paquete del equipo modelo (lote_6/proyecto/paquete_entrega_modelo/) es una copia nueva de la referencia docente v2 '
     'con SC-02 del lote 5, que se conserva sin cambios con sus diferencias y su regresión (decisión D-1). El código copiado '
-    'es idéntico: solo se agregan LEEME.txt, los documentos de ENTREGA/ y el comprobador de entrega. build/reproducir.py lo '
+    'es idéntico: solo se agregan LEEME.txt y los documentos de ENTREGA/. build/reproducir.py lo '
     'comprueba archivo por archivo.',
     'Los documentos de ENTREGA/ se generan desde caso/entrega_u6.py, la misma fuente de las Tablas 17.1 a 17.3 y 17.5: el '
     'libro y el paquete dicen lo mismo.',
-    'php comprobar_entrega.php revisa seis cosas (Tabla 17.4) y no cambia nada. Los estudiantes lo usan con su propio '
-    'paquete. Tiene 90 líneas de código; las comprobaciones C y F están en las Referencias R-8 y R-9.',
+    'Un paquete recibido es código desconocido: no se ejecuta para decidir si es confiable. Por eso el paquete no trae '
+    'un comprobador propio (lo traía la versión 1.0). El docente lo revisa con dos herramientas que viven fuera del paquete, '
+    'en lote_6/proyecto/herramientas/, con su procedimiento en el LEEME de esa carpeta:',
+    '• Inspección estática: php herramientas/inspeccionar_entrega.php <paquete>. Revisa los seis bloques de la Tabla 17.4 '
+    'leyendo texto y nombres de archivo: no ejecuta, no incluye y no interpreta nada del paquete. Los comandos de la guía y '
+    'de la lista de entrega solo se leen; los de forma desconocida se informan.',
+    '• Pruebas en aislamiento: php herramientas/probar_en_aislamiento.php <paquete>. Solo ejecuta las tres pruebas de su '
+    'lista cerrada (prueba_contratos, prueba_garantias y prueba_respaldo), armadas por la herramienta y nunca tomadas del '
+    'paquete, en una copia descartable que borra al terminar, con entorno mínimo y tiempo límite. Se niega a correr con '
+    'una cuenta de administrador o si el paquete tiene enlaces simbólicos.',
+    'Las pruebas se corren siempre después de la inspección y en un equipo aislado: una computadora o máquina virtual de '
+    'pruebas sin datos de la institución, sin red, con una cuenta sin permisos de administrador y una carpeta descartable. '
+    'Al terminar se borra la carpeta (o se vuelve la máquina virtual a su estado inicial). El núcleo de las pruebas y el '
+    'bloque C de la inspección están en las Referencias R-8 y R-9.',
 ]
 LICENCIAS = [
     'El borrador de licencia (ENTREGA/LICENCIA_BORRADOR.md) aplica la política provisional de la decisión D-2: uso educativo '
@@ -57,9 +74,12 @@ INSTALACION_OTRO = [
 MBOKAJA = [
     'Para la Práctica 17, cada equipo recibe una copia de lote_6/proyecto/paquete_mbokaja/. El paquete tiene cinco defectos '
     'introducidos a propósito (tabla de la clave, en la sección 1). No se entrega la clave: los equipos los buscan primero a '
-    'mano (nivel 1) y después con el comprobador.',
-    'build/reproducir.py comprueba que el comprobador informe exactamente las seis incoherencias que producen esos cinco '
-    'defectos y que, con la clave aplicada, el paquete dé 0 incoherencias y se instale siguiendo su guía.',
+    'mano (nivel 1) y después con la inspección estática y las pruebas en aislamiento, que corre el docente.',
+    'build/reproducir.py comprueba que las dos herramientas informen exactamente las seis incoherencias que producen esos '
+    'cinco defectos (cinco la inspección y una las pruebas en aislamiento) y que, con la clave aplicada, el paquete dé 0 '
+    'incoherencias y se instale siguiendo su guía.',
+    'Las copias que reciben los equipos se usan con las mismas condiciones del procedimiento: cuenta estándar, carpeta '
+    'descartable y datos ficticios.',
 ]
 V6_PROCEDIMIENTO = [
     'Las variantes definitivas de la defensa individual son reservadas y no están en el repositorio, como el conjunto DR del '
@@ -109,13 +129,13 @@ CLAVES_E33 = [
 CLAVES_E34 = [
     ['1', '(a) Código propio. (b) Herramienta de terceros: no se entrega; su licencia se verifica para la versión. (c) Recurso ajeno: sin autor y permiso, no se incluye. (d) Datos ficticios propios.', 'Incluir (c) «porque está en internet».'],
     ['2', 'Ficha con cada recurso, autor, licencia o condición, fuente verificada con fecha y si se entrega, como la Tabla 17.3; las licencias de terceros, para la versión instalada.', 'Copiar la licencia de otra versión.'],
-    ['3', 'Acta completa con cada paso (hecho, con dificultad o fallido) y el mensaje exacto, la restauración y el resultado del comprobador. El equipo autor anota el ajuste y la nueva prueba del paso.', 'Ayudar al equipo receptor durante la instalación.'],
+    ['3', 'Acta completa con cada paso (hecho, con dificultad o fallido) y el mensaje exacto, la restauración y el resultado de la revisión del docente. El equipo autor anota el ajuste y la nueva prueba del paso.', 'Ayudar al equipo receptor durante la instalación.'],
     ['4', 'Es un pendiente del entorno si la carpeta no tiene permiso de escritura por la configuración del laboratorio: se anota con el mensaje exacto y se informa al responsable técnico. Si la guía no avisaba del requisito de escritura (que sí está en los requisitos), sería además un defecto de la guía.', 'Marcarlo como falla del equipo, o como restauración comprobada.'],
 ]
 CLAVES_P17 = [
-    ['Nivel 1', 'Las incoherencias, encontradas a mano: el paso 2 dice php instalar_base.php, que no existe; la lista de entrega incluye datos/mbokaja_prueba.json, que no está; public/logo_mbokaja.png no tiene procedencia (MS-9); el manual describe la tarea «Reservar un libro», con public/reservas.php y ME-15, que no existen. La prueba vieja (MS-10) solo aparece al ejecutar el comprobador: prueba_contratos.php no termina bien. El comprobador informa 6 incoherencias de 5 defectos.'],
-    ['Nivel 2', 'Correcciones: documento (paso 2: php instalar.php), lista (quitar el archivo que falta), prueba (volver a esperar ME-14: el código está bien y la prueba quedó vieja), recurso (quitar el logo: sin licencia conocida no se incluye) y manual (quitar la tarea: reservar no es una función del sistema; si se quiere, es una solicitud de cambio). Con eso, el comprobador da 0 incoherencias y la guía se sigue completa (8 de 8 pasos en la comprobación técnica).'],
-    ['Nivel 3', 'En papel. Acta con: qué se entrega, versión, lo que el profesor tiene que comprobar en su visita (pasos 1 a 8 de la guía en la computadora donada, sin internet: M-F7), quién recibe y los pendientes (prueba en esa computadora; claves de demostración que hay que cambiar). Fila de procedencia del logo propio: autor (quien lo dibujó), permiso de la escuela para usarlo, fuente y fecha; la autorización la da la dirección.'],
+    ['Nivel 1', 'Las incoherencias, encontradas a mano: el paso 2 dice php instalar_base.php, que no existe; la lista de entrega incluye datos/mbokaja_prueba.json, que no está; public/logo_mbokaja.png no tiene procedencia (MS-9); el manual describe la tarea «Reservar un libro», con public/reservas.php y ME-15, que no existen. La prueba vieja (MS-10) solo aparece en las pruebas en aislamiento: prueba_contratos.php no termina bien. Entre las dos herramientas se informan 6 incoherencias de 5 defectos: 5 la inspección estática y 1 las pruebas en aislamiento.'],
+    ['Nivel 2', 'Correcciones: documento (paso 2: php instalar.php), lista (quitar el archivo que falta), prueba (volver a esperar ME-14: el código está bien y la prueba quedó vieja), recurso (quitar el logo: sin licencia conocida no se incluye) y manual (quitar la tarea: reservar no es una función del sistema; si se quiere, es una solicitud de cambio). Con eso, la inspección y las pruebas en aislamiento dan 0 incoherencias y la guía se sigue completa (7 de 7 pasos en la comprobación técnica).'],
+    ['Nivel 3', 'En papel. Acta con: qué se entrega, versión, lo que el profesor tiene que comprobar en su visita (pasos 1 a 7 de la guía en la computadora donada, sin internet: M-F7), quién recibe y los pendientes (prueba en esa computadora; claves de demostración que hay que cambiar). Fila de procedencia del logo propio: autor (quien lo dibujó), permiso de la escuela para usarlo, fuente y fecha; la autorización la da la dirección.'],
 ]
 COTEJO_P17 = [
     ['Cada incoherencia tiene archivo y motivo.', 'Indicador 5'],
@@ -169,7 +189,7 @@ def tabla_tiempos_ejemplo():
     v = I.EJEMPLO_TIEMPOS
     t = I.tiempos(**v)
     entradas = [[que, str(v[k])] for k, que, _ in I.TIEMPOS_CAMPOS]
-    salidas = [[et, str(t[clave])] for et, _, clave in PT.SALIDAS]
+    salidas = [[et, str(t[clave]) or '—'] for et, _, clave in PT.SALIDAS]
     return (['Dato o resultado', 'Valor del ejemplo'], entradas + salidas)
 
 
@@ -189,7 +209,7 @@ def construir(ruta, claves, paginas, estado, figs):
                    'Los tiempos son aproximados y la duración de la hora cátedra la fija cada institución.', italic=True, size=9.5)
 
     doc.add_heading('0. Antes del Encuentro 33: paquete, licencias, instalación por otro equipo y defensa', level=2)
-    doc.add_heading('0.1 El paquete de entrega modelo y el comprobador', level=3)
+    doc.add_heading('0.1 El paquete de entrega modelo y las herramientas del docente', level=3)
     for t in PAQUETE:
         H.p_texto(doc, t)
     M.tabla(doc, tabla_paquete(), [5.4, 11.2], rotulo='Paquete modelo frente a la referencia v2 con SC-02', size=8.5)
@@ -220,6 +240,12 @@ def construir(ruta, claves, paginas, estado, figs):
                    'dice qué alternativa corresponde. Las fórmulas son las de la tabla de ejemplo, que tiene valores ficticios '
                    '(no son la duración de la HC de ninguna institución).')
     M.tabla(doc, tabla_tiempos_ejemplo(), [11.6, 5.0], rotulo='Planilla de tiempos: ejemplo con valores ficticios', size=8.5)
+    H.p_texto(doc, 'Los minutos que pasan al Encuentro 36 se cuentan por defensas enteras: defensas trasladadas × minutos por '
+                   'defensa. En el ejemplo pasan 2 defensas (12 minutos) y, con 5 recuperaciones de 15 minutos, quedan 48 '
+                   'minutos en el Encuentro 36. Si un dato no es un entero válido (por ejemplo, 0 minutos por defensa), la '
+                   'planilla no calcula y lo avisa. La planilla se comprobó con estos casos:', size=10)
+    M.tabla(doc, (['Caso', 'Resultado'], [[n, 'Correcto' if b else 'FALLA'] for n, b, _ in PT.comprobar_casos()]),
+            [13.0, 3.6], rotulo='Planilla de tiempos: casos de límite y de datos inválidos', size=8.5)
     M.tabla(doc, (['Alternativa', 'Cuándo', 'Qué se hace'], [[a, b, c] for a, b, c in I.ALTERNATIVAS]), [2.0, 4.0, 10.6],
             rotulo='Alternativas para el Encuentro 35 (decisión D-5)', size=8.5)
 
@@ -229,19 +255,21 @@ def construir(ruta, claves, paginas, estado, figs):
     for titulo, filas in SEC_C17:
         M.tabla(doc, (['Momento', 'Tiempo', 'Qué se hace'], filas), ANCHO_SEC, rotulo=titulo)
     M.tabla(doc, (['Error frecuente', 'Cómo se corrige'], ERRORES_C17), [8.6, 8.0], rotulo='Errores frecuentes del Capítulo 17')
-    H.p_texto(doc, 'Referencia para el docente: las comprobaciones C y F del comprobador de entrega. El libro muestra la A y la D '
-                   '(Códigos 17.1 y 17.2).', size=10)
+    H.p_texto(doc, 'Referencia para el docente: el núcleo de las pruebas en aislamiento (R-8) y el bloque C de la inspección '
+                   'estática (R-9). El libro muestra los bloques A y D de la inspección (Códigos 17.1 y 17.2).', size=10)
     Z.codigo(doc, 'Referencia R-8')
     Z.codigo(doc, 'Referencia R-9')
     for enc, cl in (('Encuentro 33', CLAVES_E33), ('Encuentro 34', CLAVES_E34)):
         M.tabla(doc, (['Act.', 'Respuesta esperada', 'Error frecuente'], cl), [1.2, 11.0, 4.4], rotulo='Claves de las actividades del %s' % enc)
-    M.tabla(doc, (['Defecto', 'Qué se cambió', 'Archivo', 'Qué informa el comprobador', 'Corrección'],
-                  [[d[0], d[1], d[2], ' · '.join(d[3]), d[4]] for d in MB.DEFECTOS]),
+    M.tabla(doc, (['Defecto', 'Qué se cambió', 'Archivo', 'Qué se informa (herramienta)', 'Corrección'],
+                  [[d[0], d[1], d[2], ' · '.join(d[3]) + ' (%s)' % d[5], d[4]] for d in MB.DEFECTOS]),
             [1.4, 3.2, 3.0, 4.4, 4.6], rotulo='Práctica 17: clave de los defectos del paquete de Mbokaja', size=8)
-    c = r['comprobador']
-    H.p_texto(doc, 'Comprobado en el entorno de construcción: el paquete de Mbokaja da %s (exactamente las de la clave: %s); '
-                   'con la clave aplicada, %s, y la guía se sigue completa (%d de %d pasos).'
-              % (_r(c['mbokaja']['resultado']), 'sí' if c['mbokaja']['exactas'] else 'no', _r(c['mbokaja_corregido']['resultado']),
+    c = r['herramientas']
+    H.p_texto(doc, 'Comprobado en el entorno de construcción: en el paquete de Mbokaja, la inspección estática da %s y las '
+                   'pruebas en aislamiento, %s (exactamente las de la clave: %s); con la clave aplicada, %s y %s, y la guía se '
+                   'sigue completa (%d de %d pasos).'
+              % (_r(_c(c['mbokaja']['inspeccion'])), _r(_c(c['mbokaja']['aislamiento'])), 'sí' if c['mbokaja']['exactas'] else 'no',
+                 _r(_c(c['mbokaja_corregido']['inspeccion'])), _r(_c(c['mbokaja_corregido']['aislamiento'])),
                  r['guia']['mbokaja_corregido']['correctos'], r['guia']['mbokaja_corregido']['total']), size=10)
     M.tabla(doc, (['Nivel', 'Respuesta esperada'], CLAVES_P17), [2.2, 14.4], rotulo='Práctica 17: claves por nivel')
     M.tabla(doc, (['Criterio', 'Indicador'], COTEJO_P17), [13.0, 3.6], rotulo='Lista de cotejo de la Práctica 17')
@@ -311,7 +339,8 @@ def construir(ruta, claves, paginas, estado, figs):
             [2.6, 2.6, 11.4], rotulo='Unidad VI en 36 y en 28 encuentros')
     doc.add_heading('5. Condición de cada resultado de la unidad', level=2)
     H.p_texto(doc, 'Comprobado (técnica, entorno de construcción): la guía del paquete modelo seguida por un proceso '
-                   'automático, el comprobador, la regresión de la versión empaquetada y la planilla de tiempos. Simulado: el '
+                   'automático, la inspección estática, las pruebas en aislamiento y sus pruebas negativas, la regresión de la '
+                   'versión empaquetada y la planilla de tiempos con sus casos de límite. Simulado: el '
                    'acta con un paso fallido del Ejemplo resuelto 17.4, la retrospectiva del equipo modelo y los datos de '
                    'Mbokaja. Pendiente: la instalación por otro equipo, sin ayuda (la hace el curso), y las pruebas en Windows y '
                    'en el laboratorio (E-1 a E-12, P-13, concurrencia). Jurídico: el borrador de licencia no está cerrado.')
@@ -320,12 +349,16 @@ def construir(ruta, claves, paginas, estado, figs):
     H.p_texto(doc, 'Entorno: %s, PHP %s, SQLite %s, %s, %s (%s). %s' % (e['sistema'], e['php'], e['sqlite'], e['curl'],
                                                                      e['bash'], e['fecha'], e['tipo']), size=10)
     filas = [['Paquete modelo', 'Código frente a la referencia v2 con SC-02', 'Idéntico' if r['paquete_modelo']['codigo_identico'] else 'NO'],
-             ['Comprobador', 'Paquete modelo', _r(c['modelo']['resultado'])],
-             ['Comprobador', 'Paquete de Mbokaja (con defectos)', _r(c['mbokaja']['resultado'])],
-             ['Comprobador', 'Paquete de Mbokaja corregido con la clave', _r(c['mbokaja_corregido']['resultado'])]]
+             ]
+    for k, nombre in (('modelo', 'Paquete modelo'), ('mbokaja', 'Paquete de Mbokaja (con defectos)'),
+                      ('mbokaja_corregido', 'Paquete de Mbokaja corregido con la clave')):
+        filas.append(['Inspección estática', nombre, _r(_c(c[k]['inspeccion']))])
+        filas.append(['Pruebas en aislamiento', nombre, _r(_c(c[k]['aislamiento']))])
+    for x in r['pruebas_negativas']:
+        filas.append(['Prueba negativa', '%s. %s' % (x['caso'], x['titulo']), 'Correcta' if x['correcto'] else 'FALLA'])
     for k, nombre in (('modelo', 'paquete modelo'), ('mbokaja_corregido', 'Mbokaja corregido'), ('mbokaja_con_defectos', 'Mbokaja con defectos')):
         g = r['guia'][k]
-        filas.append(['Guía como prueba', nombre, '%d de %d pasos' % (g['correctos'], g['total'])])
+        filas.append(['Guía como prueba (aislada)', nombre, '%d de %d pasos' % (g['correctos'], g['total'])])
     for pr, x in r['regresion'].items():
         filas.append(['Regresión', pr, _r(x['resultado'])])
     M.tabla(doc, (['Qué', 'Prueba', 'Resultado'], filas), [3.4, 7.6, 5.6], rotulo='Resultados de las pruebas (build/reproducir.py)', size=8.5)
@@ -337,7 +370,7 @@ def construir(ruta, claves, paginas, estado, figs):
                   [['Texto de los Capítulos 17 y 18 y de la apertura de la unidad', 'Redacción original para este libro.', 'Propios del proyecto.'],
                    ['Figuras 17.1 y 18.1', 'Generadas con build/diagramas_u6.py sobre el lienzo de los lotes 3 y 5; esquemas didácticos.', 'Propias; sin recursos de terceros.'],
                    ['Paquete de entrega modelo', 'Copia de la referencia v2 con SC-02 del lote 5 (que no se modifica) con los documentos de entrega.', 'Borrador de uso educativo institucional (D-2).'],
-                   ['Comprobador de entrega y prueba de la guía', 'Escritos para este lote.', 'Propios.'],
+                   ['Herramientas del docente (inspección estática y pruebas en aislamiento) y prueba de la guía', 'Escritas para este lote; la v1.1 reemplaza el comprobador que traía el paquete en la v1.0.', 'Propias.'],
                    ['Paquete de Mbokaja y su logo', 'Generados por build/armar_paquetes.py; el logo es un dibujo geométrico generado por código, usado como recurso sin procedencia del caso ficticio.', 'Propios.'],
                    ['Componentes de terceros (PHP, SQLite, curl, bash)', 'No se distribuyen; licencias verificadas (sección 0.2).', 'De sus titulares.'],
                    ['Variantes V6', 'Plantilla y ejemplos en lote_6/caso/v6_plantilla.py; el banco definitivo, fuera del repositorio.', 'Propias; el banco no se publica.'],

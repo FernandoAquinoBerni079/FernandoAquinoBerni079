@@ -1,0 +1,14 @@
+Entorno: Linux 6.18.44-fc-v140 (x86_64), PHP 8.3.6, SQLite 3.45.1 (2026-10-21 14:54)
+Condición: comprobación técnica automática en el entorno de construcción
+
+CORRECTO N1 Comando inyectado en la lista de entrega — inspección: 2 en [C]; pruebas aisladas: solo la lista cerrada, bien; centinela: no creado
+CORRECTO N2 Líneas maliciosas en la guía de instalación — inspección: 3 comandos de forma desconocida; guía como prueba: 3 pasos rechazados sin ejecutar (espacio de red aislado (sin red) y cuenta nobody, copia descartable)
+CORRECTO N3 src/mensajes.php con un efecto al incluirse — inspección: 0 incoherencias (los mensajes se leyeron como texto); centinela: no creado
+CORRECTO N4 Rutas que salen del paquete — inspección: [A] la guía usa «php ../../herramientas/x.php», pero no existe ../../herramientas/x.php en el paquete · [B] la lista de entrega nombra ../../../etc/passwd, que está fuera del paquete · [B] la lista de entrega nombra /etc/passwd, que está fuera del paquete
+CORRECTO N5 Enlace simbólico dentro del paquete — inspección: [B] enlace simbólico pruebas/prueba_respaldo.php.enlace: no se sigue; pruebas aisladas: código 2, «No se ejecutó ninguna prueba.»
+CORRECTO N6 Pruebas en aislamiento con una cuenta de administrador — con cuenta de administrador: código 2, «Esta herramienta no se ejecuta con una cuenta de administrador: usá una cuenta sin permisos.»; centinela: no creado
+CORRECTO N7 Una prueba de la lista cerrada que no termina — prueba colgada: cortada por tiempo límite (2 s); la herramienta terminó en 2 s; [C] la prueba pruebas/prueba_respaldo.php no terminó bien
+CORRECTO N8 El paquete recibido no cambia y la copia descartable se borra — paquete recibido sin cambios (SHA-256 igual: True); copias descartables que quedaron: 0
+CORRECTO N9 Una prueba fuera de la lista cerrada — inspección: [C] la prueba declarada «php pruebas/prueba_extra.php» no está en la lista cerrada: no se ejecuta; pruebas aisladas: no se ejecutó prueba_extra; centinela: no creado
+CORRECTO N10 Sin red y sin permisos de administrador durante las pruebas — una prueba de la lista que intenta salir a la red y leer archivos del administrador: Resultado: red=NO admin=NO
+Resultado: 10 de 10 pruebas negativas correctas

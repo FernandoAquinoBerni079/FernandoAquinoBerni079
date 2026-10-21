@@ -8,7 +8,7 @@
    },
    {
     "resultado": "correcto",
-    "detalle": "guia: 36 tablas de 2 o más columnas, todas con todas sus filas impresas (220 filas)"
+    "detalle": "guia: 37 tablas de 2 o más columnas, todas con todas sus filas impresas (248 filas)"
    },
    {
     "resultado": "correcto",
@@ -46,11 +46,15 @@
   "1. Tablas repartidas entre páginas": [
    {
     "resultado": "correcto",
-    "detalle": "guia: «Licencias de terceros verificadas (fuente primaria y versión exacta)», págs. [2, 3]: 8 de 8 filas, encabezado repetido 1 vez/veces"
+    "detalle": "guia: «Campos de una variante V6», págs. [3, 4]: 9 de 9 filas, encabezado repetido 1 vez/veces"
    },
    {
     "resultado": "correcto",
-    "detalle": "guia: «Resultados de las pruebas (build/reproducir.py)», págs. [14, 15]: 17 de 17 filas, encabezado repetido 1 vez/veces"
+    "detalle": "guia: «Planilla de tiempos: ejemplo con valores ficticios», págs. [4, 5]: 23 de 23 filas, encabezado repetido 1 vez/veces"
+   },
+   {
+    "resultado": "correcto",
+    "detalle": "guia: «Resultados de las pruebas (build/reproducir.py)», págs. [14, 15]: 30 de 30 filas, encabezado repetido 1 vez/veces"
    }
   ],
   "6. Cortes de tabla": [
@@ -60,7 +64,7 @@
    },
    {
     "resultado": "correcto",
-    "detalle": "guia: 2 tablas repartidas, ninguna deja menos de dos filas de datos en una página"
+    "detalle": "guia: 3 tablas repartidas, ninguna deja menos de dos filas de datos en una página"
    },
    {
     "resultado": "correcto",
@@ -80,11 +84,11 @@
   "7. Bloques de código": [
    {
     "resultado": "correcto",
-    "detalle": "21 líneas de código de 2 fragmentos, todas impresas enteras y sin caracteres perdidos"
+    "detalle": "27 líneas de código de 2 fragmentos, todas impresas enteras y sin caracteres perdidos"
    },
    {
     "resultado": "correcto",
-    "detalle": "21 tramos en letra monoespaciada, todos dentro de los márgenes"
+    "detalle": "27 tramos en letra monoespaciada, todos dentro de los márgenes"
    },
    {
     "resultado": "correcto",
@@ -100,7 +104,7 @@
   "5. Márgenes espejados": [
    {
     "resultado": "correcto",
-    "detalle": "impares con el interior (2,5 cm) a la izquierda y pares a la derecha: [(4, 1.8, 2.41), (5, 2.5, 1.71), (6, 1.8, 2.42), (7, 2.5, 1.71), (8, 1.8, 2.42), (9, 2.5, 1.71), (10, 1.8, 2.41), (11, 2.5, 1.71)]"
+    "detalle": "impares con el interior (2,5 cm) a la izquierda y pares a la derecha: [(4, 1.8, 2.41), (5, 2.5, 1.71), (6, 1.8, 2.42), (7, 2.5, 1.71), (8, 1.8, 2.42), (9, 2.5, 1.71), (10, 1.8, 2.41), (11, 2.5, 1.72)]"
    }
   ],
   "laminas": {
@@ -150,8 +154,8 @@
      "n": 3,
      "rotulo": "Tabla 17.1 — Pasos de la guía de instalación del paquete modelo",
      "primera_celda": "Paso",
-     "filas_docx": 9,
-     "filas_impresas": 9,
+     "filas_docx": 8,
+     "filas_impresas": 8,
      "paginas": [
       5
      ],
@@ -232,7 +236,7 @@
     },
     {
      "n": 10,
-     "rotulo": "Tabla 17.4 — Lo que el comprobador de entrega revisa",
+     "rotulo": "Tabla 17.4 — Lo que revisan las herramientas del docente",
      "primera_celda": "Bloque",
      "filas_docx": 7,
      "filas_impresas": 7,
@@ -244,12 +248,12 @@
     },
     {
      "n": 11,
-     "rotulo": "Código 17.2 — Cada comando de la guía de instalación nombra un archivo que exist",
+     "rotulo": "Código 17.2 — Cada comando de la guía tiene una forma conocida y nombra un archi",
      "primera_celda": "Archivo",
      "filas_docx": 5,
      "filas_impresas": 5,
      "paginas": [
-      10
+      11
      ],
      "encabezado_repetido": 0,
      "filas_faltantes": []
@@ -270,8 +274,8 @@
      "n": 13,
      "rotulo": "Tabla 17.6 — Comprobación técnica del paquete modelo y lo que queda pendiente",
      "primera_celda": "Prueba",
-     "filas_docx": 6,
-     "filas_impresas": 6,
+     "filas_docx": 7,
+     "filas_impresas": 7,
      "paginas": [
       11
      ],
@@ -419,10 +423,9 @@
      "filas_docx": 8,
      "filas_impresas": 8,
      "paginas": [
-      2,
       3
      ],
-     "encabezado_repetido": 1,
+     "encabezado_repetido": 0,
      "filas_faltantes": []
     },
     {
@@ -432,9 +435,10 @@
      "filas_docx": 9,
      "filas_impresas": 9,
      "paginas": [
-      3
+      3,
+      4
      ],
-     "encabezado_repetido": 0,
+     "encabezado_repetido": 1,
      "filas_faltantes": []
     },
     {
@@ -453,16 +457,29 @@
      "n": 5,
      "rotulo": "Planilla de tiempos: ejemplo con valores ficticios",
      "primera_celda": "Dato o resultado",
-     "filas_docx": 20,
-     "filas_impresas": 20,
+     "filas_docx": 23,
+     "filas_impresas": 23,
      "paginas": [
-      4
+      4,
+      5
+     ],
+     "encabezado_repetido": 1,
+     "filas_faltantes": []
+    },
+    {
+     "n": 6,
+     "rotulo": "Planilla de tiempos: casos de límite y de datos inválidos",
+     "primera_celda": "Caso",
+     "filas_docx": 12,
+     "filas_impresas": 12,
+     "paginas": [
+      5
      ],
      "encabezado_repetido": 0,
      "filas_faltantes": []
     },
     {
-     "n": 6,
+     "n": 7,
      "rotulo": "Alternativas para el Encuentro 35 (decisión D-5)",
      "primera_celda": "Alternativa",
      "filas_docx": 4,
@@ -474,7 +491,7 @@
      "filas_faltantes": []
     },
     {
-     "n": 7,
+     "n": 8,
      "rotulo": "1. Capítulo 17 — Preparar una entrega reproducible",
      "primera_celda": "Capacidades propuestas para el programa ",
      "filas_docx": 4,
@@ -486,7 +503,7 @@
      "filas_faltantes": []
     },
     {
-     "n": 8,
+     "n": 9,
      "rotulo": "Encuentro 33 — Escribir y probar la propia documentación (5 HC de documentación)",
      "primera_celda": "Momento",
      "filas_docx": 5,
@@ -498,7 +515,7 @@
      "filas_faltantes": []
     },
     {
-     "n": 9,
+     "n": 10,
      "rotulo": "Encuentro 34 — Entregar a otro equipo; hito H6 (5 HC: 2 de verificación, 2 de do",
      "primera_celda": "Momento",
      "filas_docx": 4,
@@ -510,7 +527,7 @@
      "filas_faltantes": []
     },
     {
-     "n": 10,
+     "n": 11,
      "rotulo": "Errores frecuentes del Capítulo 17",
      "primera_celda": "Error frecuente",
      "filas_docx": 7,
@@ -522,20 +539,8 @@
      "filas_faltantes": []
     },
     {
-     "n": 11,
-     "rotulo": "Referencia R-8 — Las pruebas de la lista de entrega se ejecutan y tienen que dar",
-     "primera_celda": "Archivo",
-     "filas_docx": 5,
-     "filas_impresas": 5,
-     "paginas": [
-      7
-     ],
-     "encabezado_repetido": 0,
-     "filas_faltantes": []
-    },
-    {
      "n": 12,
-     "rotulo": "Referencia R-9 — La versión declarada tiene que ser la misma en todos los docume",
+     "rotulo": "Referencia R-8 — Solo se ejecutan las pruebas de la lista cerrada de la herramie",
      "primera_celda": "Archivo",
      "filas_docx": 5,
      "filas_impresas": 5,
@@ -547,8 +552,8 @@
     },
     {
      "n": 13,
-     "rotulo": "Claves de las actividades del Encuentro 33",
-     "primera_celda": "Act.",
+     "rotulo": "Referencia R-9 — Cada prueba declarada en la lista de entrega tiene que estar en",
+     "primera_celda": "Archivo",
      "filas_docx": 5,
      "filas_impresas": 5,
      "paginas": [
@@ -559,7 +564,7 @@
     },
     {
      "n": 14,
-     "rotulo": "Claves de las actividades del Encuentro 34",
+     "rotulo": "Claves de las actividades del Encuentro 33",
      "primera_celda": "Act.",
      "filas_docx": 5,
      "filas_impresas": 5,
@@ -571,6 +576,18 @@
     },
     {
      "n": 15,
+     "rotulo": "Claves de las actividades del Encuentro 34",
+     "primera_celda": "Act.",
+     "filas_docx": 5,
+     "filas_impresas": 5,
+     "paginas": [
+      8
+     ],
+     "encabezado_repetido": 0,
+     "filas_faltantes": []
+    },
+    {
+     "n": 16,
      "rotulo": "Práctica 17: clave de los defectos del paquete de Mbokaja",
      "primera_celda": "Defecto",
      "filas_docx": 6,
@@ -582,19 +599,19 @@
      "filas_faltantes": []
     },
     {
-     "n": 16,
+     "n": 17,
      "rotulo": "Práctica 17: claves por nivel",
      "primera_celda": "Nivel",
      "filas_docx": 4,
      "filas_impresas": 4,
      "paginas": [
-      8
+      9
      ],
      "encabezado_repetido": 0,
      "filas_faltantes": []
     },
     {
-     "n": 17,
+     "n": 18,
      "rotulo": "Lista de cotejo de la Práctica 17",
      "primera_celda": "Criterio",
      "filas_docx": 6,
@@ -606,7 +623,7 @@
      "filas_faltantes": []
     },
     {
-     "n": 18,
+     "n": 19,
      "rotulo": "Clave de la evaluación del capítulo 17",
      "primera_celda": "Ítem",
      "filas_docx": 10,
@@ -618,7 +635,7 @@
      "filas_faltantes": []
     },
     {
-     "n": 19,
+     "n": 20,
      "rotulo": "Criterios de corrección de los ítems abiertos",
      "primera_celda": "Ítem",
      "filas_docx": 3,
@@ -630,7 +647,7 @@
      "filas_faltantes": []
     },
     {
-     "n": 20,
+     "n": 21,
      "rotulo": "2. Capítulo 18 — Demostrar, defender y aprender del proyecto",
      "primera_celda": "Capacidades propuestas para el programa ",
      "filas_docx": 4,
@@ -642,7 +659,7 @@
      "filas_faltantes": []
     },
     {
-     "n": 21,
+     "n": 22,
      "rotulo": "Encuentro 35 — Demostración y defensa individual (5 HC de evaluación)",
      "primera_celda": "Momento",
      "filas_docx": 3,
@@ -654,7 +671,7 @@
      "filas_faltantes": []
     },
     {
-     "n": 22,
+     "n": 23,
      "rotulo": "Encuentro 36 — Recuperación, retrospectiva y cierre (5 HC: 3 de evaluación y 2 d",
      "primera_celda": "Momento",
      "filas_docx": 3,
@@ -666,7 +683,7 @@
      "filas_faltantes": []
     },
     {
-     "n": 23,
+     "n": 24,
      "rotulo": "Errores frecuentes del Capítulo 18",
      "primera_celda": "Error frecuente",
      "filas_docx": 7,
@@ -678,7 +695,7 @@
      "filas_faltantes": []
     },
     {
-     "n": 24,
+     "n": 25,
      "rotulo": "Claves de las actividades del Encuentro 35",
      "primera_celda": "Act.",
      "filas_docx": 4,
@@ -690,7 +707,7 @@
      "filas_faltantes": []
     },
     {
-     "n": 25,
+     "n": 26,
      "rotulo": "Claves de las actividades del Encuentro 36",
      "primera_celda": "Act.",
      "filas_docx": 3,
@@ -702,7 +719,7 @@
      "filas_faltantes": []
     },
     {
-     "n": 26,
+     "n": 27,
      "rotulo": "Planilla de defensa individual (niveles 1 a 4 por criterio)",
      "primera_celda": "Estudiante (código)",
      "filas_docx": 5,
@@ -714,7 +731,7 @@
      "filas_faltantes": []
     },
     {
-     "n": 27,
+     "n": 28,
      "rotulo": "Rúbrica de producto final (propuesta editorial, Work §4.3)",
      "primera_celda": "Aspecto (peso)",
      "filas_docx": 7,
@@ -726,7 +743,7 @@
      "filas_faltantes": []
     },
     {
-     "n": 28,
+     "n": 29,
      "rotulo": "Fichas de recuperación (las mismas de la Tabla 18.4)",
      "primera_celda": "Ficha",
      "filas_docx": 5,
@@ -738,7 +755,7 @@
      "filas_faltantes": []
     },
     {
-     "n": 29,
+     "n": 30,
      "rotulo": "Registro de recuperaciones",
      "primera_celda": "Estudiante (código)",
      "filas_docx": 4,
@@ -750,7 +767,7 @@
      "filas_faltantes": []
     },
     {
-     "n": 30,
+     "n": 31,
      "rotulo": "Rúbrica del H6: descriptores por nivel",
      "primera_celda": "Criterio",
      "filas_docx": 7,
@@ -762,7 +779,7 @@
      "filas_faltantes": []
     },
     {
-     "n": 31,
+     "n": 32,
      "rotulo": "Evidencias de cada criterio del H6",
      "primera_celda": "Criterio",
      "filas_docx": 7,
@@ -774,7 +791,7 @@
      "filas_faltantes": []
     },
     {
-     "n": 32,
+     "n": 33,
      "rotulo": "Niveles de desempeño (propuesta editorial)",
      "primera_celda": "Nivel de desempeño",
      "filas_docx": 5,
@@ -786,7 +803,7 @@
      "filas_faltantes": []
     },
     {
-     "n": 33,
+     "n": 34,
      "rotulo": "Planilla de registro del H6 (una por estudiante)",
      "primera_celda": "Estudiante (código)",
      "filas_docx": 7,
@@ -798,7 +815,7 @@
      "filas_faltantes": []
     },
     {
-     "n": 34,
+     "n": 35,
      "rotulo": "Unidad VI en 36 y en 28 encuentros",
      "primera_celda": "Encuentro (36)",
      "filas_docx": 5,
@@ -810,11 +827,11 @@
      "filas_faltantes": []
     },
     {
-     "n": 35,
+     "n": 36,
      "rotulo": "Resultados de las pruebas (build/reproducir.py)",
      "primera_celda": "Qué",
-     "filas_docx": 17,
-     "filas_impresas": 17,
+     "filas_docx": 30,
+     "filas_impresas": 30,
      "paginas": [
       14,
       15
@@ -823,7 +840,7 @@
      "filas_faltantes": []
     },
     {
-     "n": 36,
+     "n": 37,
      "rotulo": "Inventario de recursos del lote",
      "primera_celda": "Recurso",
      "filas_docx": 9,

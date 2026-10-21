@@ -64,14 +64,6 @@ Cuando lo pida, escribí RESTAURAR y apretá Enter.
 Resultado esperado: «Restauración terminada y comprobada»
 Si falla: Usá el nombre del respaldo que mostró el paso 6. Si no escribís RESTAURAR, no se cambia nada.
 
-### Paso 8. Comprobar el paquete completo
-
-```
-php comprobar_entrega.php
-```
-Resultado esperado: «Resultado: 0 incoherencias»
-Si falla: Si aparece una INCOHERENCIA, anotala en el acta de entrega: dice qué falta y dónde.
-
 ## Límites
 
 Leé ENTREGA/LIMITES.md antes de usar el sistema con datos que no sean de prueba.

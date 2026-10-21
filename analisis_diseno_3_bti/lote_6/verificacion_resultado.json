@@ -1,5 +1,5 @@
 {
- "correctos": 158,
+ "correctos": 166,
  "fallos": 0,
  "bloques": {
   "A": [
@@ -15,11 +15,11 @@
    0
   ],
   "P": [
-   5,
+   8,
    0
   ],
   "R": [
-   10,
+   12,
    0
   ],
   "LI": [
@@ -35,7 +35,7 @@
    0
   ],
   "TI": [
-   6,
+   8,
    0
   ],
   "V6": [
@@ -79,7 +79,7 @@
    0
   ],
   "Q": [
-   5,
+   6,
    0
   ]
  },
@@ -191,7 +191,7 @@
   },
   {
    "bloque": "P",
-   "control": "El paquete modelo es una copia de la referencia v2 con SC-02: código idéntico, solo cambian LEEME.txt y ENTREGA/ y se agrega el comprobador",
+   "control": "El paquete modelo es una copia de la referencia v2 con SC-02: código idéntico, solo cambian LEEME.txt y ENTREGA/",
    "resultado": "correcto"
   },
   {
@@ -206,7 +206,22 @@
   },
   {
    "bloque": "P",
-   "control": "El comprobador del paquete es el de lote_6/proyecto/ y tiene menos de 100 líneas de código",
+   "control": "v1.1: ningún paquete trae un comprobador propio; las herramientas del docente viven fuera de los paquetes",
+   "resultado": "correcto"
+  },
+  {
+   "bloque": "P",
+   "control": "La inspección estática no ejecuta ni incluye nada (sin include, require, eval, exec, shell, proc_open, popen)",
+   "resultado": "correcto"
+  },
+  {
+   "bloque": "P",
+   "control": "Las pruebas en aislamiento: lista cerrada propia, comando como lista de argumentos, sin consola, con tiempo límite y negativa con cuenta de administrador",
+   "resultado": "correcto"
+  },
+  {
+   "bloque": "P",
+   "control": "Procedimiento de aislamiento documentado: equipo aislado sin red, cuenta estándar, copia descartable, registro y limpieza; Windows y laboratorios pendientes",
    "resultado": "correcto"
   },
   {
@@ -216,22 +231,32 @@
   },
   {
    "bloque": "R",
-   "control": "Comprobador: 0 incoherencias en el paquete modelo",
+   "control": "Herramientas del docente: 0 incoherencias en el paquete modelo (inspección y pruebas en aislamiento)",
    "resultado": "correcto"
   },
   {
    "bloque": "R",
-   "control": "Comprobador: en el paquete de Mbokaja, exactamente las 6 incoherencias de la clave (5 defectos)",
+   "control": "Herramientas: en el paquete de Mbokaja, exactamente las 6 incoherencias de la clave (5 defectos): 5 de la inspección y 1 de las pruebas en aislamiento",
    "resultado": "correcto"
   },
   {
    "bloque": "R",
-   "control": "Comprobador: con la clave aplicada, 0 incoherencias",
+   "control": "Herramientas: con la clave aplicada, 0 incoherencias",
    "resultado": "correcto"
   },
   {
    "bloque": "R",
-   "control": "Guía como prueba: el paquete modelo y el de Mbokaja corregido se instalan siguiendo solo su guía (8 de 8 pasos)",
+   "control": "Pruebas negativas de las herramientas: 10 de 10 correctas (inyección, guía maliciosa, efectos al incluir, rutas, enlaces, administrador, tiempo límite, paquete intacto, lista cerrada, red)",
+   "resultado": "correcto"
+  },
+  {
+   "bloque": "R",
+   "control": "La guía como prueba corrió aislada (sin red y con la cuenta nobody)",
+   "resultado": "correcto"
+  },
+  {
+   "bloque": "R",
+   "control": "Guía como prueba: el paquete modelo y el de Mbokaja corregido se instalan siguiendo solo su guía (7 de 7 pasos)",
    "resultado": "correcto"
   },
   {
@@ -296,7 +321,7 @@
   },
   {
    "bloque": "LI",
-   "control": "El paquete no trae recursos sin procedencia (el comprobador lo controla con el bloque D)",
+   "control": "El paquete no trae recursos sin procedencia (la inspección estática lo controla con el bloque D)",
    "resultado": "correcto"
   },
   {
@@ -351,12 +376,22 @@
   },
   {
    "bloque": "TI",
-   "control": "La planilla XLSX existe y sus fórmulas, recalculadas por un evaluador independiente, coinciden con el cálculo de la guía en tres casos",
+   "control": "La planilla XLSX existe y sus fórmulas, recalculadas por un evaluador independiente, coinciden con el cálculo de la guía en los 11 casos (límites A/B y B/B+, demostraciones excedidas, datos inválidos)",
    "resultado": "correcto"
   },
   {
    "bloque": "TI",
-   "control": "Los tres casos ejercitan las tres alternativas (A, B y B + calendario institucional)",
+   "control": "Ejemplo de control (v1.1): pasan 2 defensas enteras = 12 minutos; con 5 recuperaciones de 15 minutos quedan 48 (no 51)",
+   "resultado": "correcto"
+  },
+  {
+   "bloque": "TI",
+   "control": "Tres casos ejercitan las tres alternativas (A, B y B + calendario institucional)",
+   "resultado": "correcto"
+  },
+  {
+   "bloque": "TI",
+   "control": "Datos inválidos (0 minutos por defensa, negativos, no enteros) se rechazan: no hay división por cero",
    "resultado": "correcto"
   },
   {
@@ -441,7 +476,7 @@
   },
   {
    "bloque": "T",
-   "control": "Código 17.1: leído tal cual del paquete modelo (9 líneas), ninguna de más de 96 caracteres",
+   "control": "Código 17.1: leído tal cual del paquete modelo (12 líneas), ninguna de más de 96 caracteres",
    "resultado": "correcto"
   },
   {
@@ -451,7 +486,7 @@
   },
   {
    "bloque": "T",
-   "control": "Código 17.2: leído tal cual del paquete modelo (12 líneas), ninguna de más de 96 caracteres",
+   "control": "Código 17.2: leído tal cual del paquete modelo (15 líneas), ninguna de más de 96 caracteres",
    "resultado": "correcto"
   },
   {
@@ -461,7 +496,7 @@
   },
   {
    "bloque": "T",
-   "control": "Referencia R-8: leído tal cual del paquete modelo (12 líneas), ninguna de más de 96 caracteres",
+   "control": "Referencia R-8: leído tal cual del paquete modelo (39 líneas), ninguna de más de 96 caracteres",
    "resultado": "correcto"
   },
   {
@@ -471,7 +506,7 @@
   },
   {
    "bloque": "T",
-   "control": "Referencia R-9: leído tal cual del paquete modelo (15 líneas), ninguna de más de 96 caracteres",
+   "control": "Referencia R-9: leído tal cual del paquete modelo (11 líneas), ninguna de más de 96 caracteres",
    "resultado": "correcto"
   },
   {
@@ -621,12 +656,12 @@
   },
   {
    "bloque": "G",
-   "control": "guía: 228 filas de tabla, todas «no dividir»",
+   "control": "guía: 256 filas de tabla, todas «no dividir»",
    "resultado": "correcto"
   },
   {
    "bloque": "G",
-   "control": "guía: 38 tablas y bloques de código al ancho útil",
+   "control": "guía: 39 tablas y bloques de código al ancho útil",
    "resultado": "correcto"
   },
   {
@@ -867,6 +902,11 @@
   {
    "bloque": "Q",
    "control": "Lote 5: sus seis DOCX y PDF coinciden con su manifiesto SHA-256",
+   "resultado": "correcto"
+  },
+  {
+   "bloque": "Q",
+   "control": "Lote 6 v1.0 intacto en version_1_0/: 44 archivos coinciden con su manifiesto SHA-256",
    "resultado": "correcto"
   },
   {

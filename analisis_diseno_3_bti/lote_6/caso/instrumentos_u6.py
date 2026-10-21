@@ -39,11 +39,11 @@ RUBRICA_H6 = [
       'Sin ficha, o recursos de origen desconocido.'],
      'Ficha de procedencia', 'Aportes registrados en la bitácora'),
     ('Coherencia del paquete', 'C10',
-     ['Código, datos, pruebas y documentación de la misma versión; el comprobador da 0 incoherencias y las pruebas pasan.',
+     ['Código, datos, pruebas y documentación de la misma versión; la inspección estática da 0 incoherencias y las pruebas en aislamiento pasan.',
       'Coherente, con alguna incoherencia menor corregida en el encuentro.',
       'Incoherencias que impiden usar parte del paquete.',
       'Paquete incompleto.'],
-     'Lista de entrega y resultado del comprobador', 'Incoherencia que encontró o corrigió'),
+     'Lista de entrega y resultado de la inspección y de las pruebas', 'Incoherencia que encontró o corrigió'),
     ('Límites y pendientes declarados', 'C10',
      ['Límites conocidos y pendientes del entorno separados de las fallas, con lo que se hace en cada caso.',
       'Límites conocidos escritos.',
@@ -123,22 +123,54 @@ TIEMPOS_CAMPOS = [  # (clave, qué es, quién lo escribe)
 ]
 
 
+VALIDACION = {  # entrada → mínimo permitido (entero); min_defensa > 0 evita la división por cero
+    'equipos': 1, 'estudiantes': 1, 'min_hc': 1, 'min_demo': 1, 'min_cambio': 0, 'min_defensa': 1,
+    'recuperaciones': 0, 'min_recuperacion': 0}
+
+
+def validar_tiempos(**v):
+    """Lista de problemas de los datos (vacía si son válidos): enteros, y positivos donde corresponde."""
+    malos = []
+    for k, minimo in VALIDACION.items():
+        x = v.get(k)
+        if isinstance(x, bool) or not isinstance(x, int) or x < minimo:
+            malos.append('%s tiene que ser un entero mayor o igual que %d (se escribió %r)' % (k, minimo, x))
+    return malos
+
+
 def tiempos(equipos, estudiantes, min_hc, min_demo, min_cambio, min_defensa, recuperaciones, min_recuperacion):
-    """Duración requerida y distribución, con un solo evaluador (no se supone un segundo evaluador)."""
+    """Duración requerida y distribución, con un solo evaluador (no se supone un segundo evaluador).
+    v1.1 (auditoría del lote 6): lo que pasa al Encuentro 36 se cuenta por defensas enteras —minutos trasladados =
+    defensas trasladadas × minutos por defensa—, no por el déficit en minutos; y si las demostraciones solas superan el
+    Encuentro 35, pasan al 36 todas las defensas y los minutos de demostración que no entraron."""
+    v = dict(equipos=equipos, estudiantes=estudiantes, min_hc=min_hc, min_demo=min_demo, min_cambio=min_cambio,
+             min_defensa=min_defensa, recuperaciones=recuperaciones, min_recuperacion=min_recuperacion)
+    malos = validar_tiempos(**v)
+    if malos:
+        raise ValueError('; '.join(malos))
     demos = equipos * (min_demo + min_cambio)
     defensas = estudiantes * min_defensa
     requerido = demos + defensas
     disp35 = 5 * min_hc
-    sobra35 = disp35 - requerido
+    dif35 = disp35 - requerido
+    demos_excedentes = max(0, demos - disp35)       # minutos de demostración que no entran en el 35
+    if dif35 >= 0:
+        pasan = 0
+    elif demos_excedentes > 0:
+        pasan = estudiantes                          # ninguna defensa entra en el 35
+    else:
+        pasan = math.ceil(-dif35 / min_defensa)      # defensas enteras: una defensa no se parte
+    trasladados = pasan * min_defensa + demos_excedentes
     recup = recuperaciones * min_recuperacion
     disp36 = 3 * min_hc            # HC de evaluación del Encuentro 36 (las 2 de gestión son de la retrospectiva)
-    pasan = max(0, -sobra35)       # minutos de defensas que no entran en el 35
-    libre36 = disp36 - recup - pasan
+    dif36 = disp36 - recup - trasladados
     return {'demostraciones': demos, 'defensas': defensas, 'requerido_35': requerido, 'disponible_35': disp35,
-            'diferencia_35': sobra35, 'defensas_que_pasan_al_36': math.ceil(pasan / min_defensa) if pasan else 0,
-            'recuperaciones_36': recup, 'disponible_36': disp36, 'diferencia_36': libre36,
-            'alternativa': 'A' if sobra35 >= 0 else ('B' if libre36 >= 0 else 'B + calendario institucional autorizado'),
-            'minutos_sin_lugar': max(0, -libre36)}
+            'diferencia_35': dif35, 'demostraciones_excedentes': demos_excedentes, 'defensas_que_pasan_al_36': pasan,
+            'minutos_trasladados_al_36': trasladados, 'recuperaciones_36': recup, 'disponible_36': disp36,
+            'diferencia_36': dif36,
+            'alternativa': 'A' if dif35 >= 0 else ('B' if dif36 >= 0 else 'B + calendario institucional autorizado'),
+            'minutos_sin_lugar': max(0, -dif36),
+            'aviso': 'Las demostraciones solas superan el Encuentro 35' if demos_excedentes else ''}
 
 
 # ejemplo con valores ficticios que el docente reemplaza (no es la duración de la HC de ninguna institución)
@@ -151,7 +183,8 @@ ALTERNATIVAS = [
      'retrospectiva (preparación del Encuentro 36, sin evaluación). Un solo evaluador.'),
     ('B', 'Defensas que continúan en el Encuentro 36',
      'Si el Encuentro 35 no alcanza: las defensas que faltan se toman al comienzo de las 3 HC de evaluación del Encuentro '
-     '36, antes que las recuperaciones. Las recuperaciones se ordenan por prioridad (condición mínima, evidencia ausente, '
+     '36, antes que las recuperaciones; se cuentan por defensas enteras. Las recuperaciones se ordenan por prioridad '
+     '(condición mínima, evidencia ausente, '
      'nivel Inicial) en el tiempo que queda. Ninguna evidencia obligatoria se elimina.'),
     ('B+', 'Si tampoco alcanza el Encuentro 36',
      'Los minutos que la planilla da «sin lugar» se programan en el tiempo que la institución autorice dentro de su '

@@ -152,7 +152,8 @@ NIVELES = [
         'Sin ejecutar nada todavía, compará los documentos con los archivos: ¿cada comando de la guía nombra un archivo que '
         'está?, ¿cada archivo de la lista de entrega está?, ¿cada recurso de public/ tiene su procedencia?, ¿cada pantalla y '
         'cada mensaje del manual existen? Anotá cada incoherencia con el archivo y la línea.',
-        'Ejecutá php comprobar_entrega.php en la copia y compará su resultado con tu lista.',
+        'Compará tu lista con la inspección estática que corre tu docente (lee el paquete sin ejecutar nada) y con las '
+        'pruebas que corre después en aislamiento.',
     ]),
     ('Nivel 2 — Intermedio', [
         'Corregí cada incoherencia en la copia y decidí, para cada una, si se corrige el documento, el código, la prueba o se '
@@ -193,10 +194,10 @@ def tabla_173():
 
 CODIGOS_S173 = ['Código 17.1']
 EXPLICA = {
-    'Código 17.1': 'El comprobador recorre public/ y busca cada archivo que no es código (una imagen, una hoja de estilos) '
+    'Código 17.1': 'La inspección recorre public/ y busca cada archivo que no es código (una imagen, una hoja de estilos) '
                    'en la ficha de procedencia. Si no lo encuentra, informa una incoherencia [D].',
-    'Código 17.2': 'Para cada línea de un bloque de comandos de la guía que empieza con «php», busca el archivo que nombra. '
-                   'Si no existe, la guía no se puede seguir: incoherencia [A].',
+    'Código 17.2': 'Cada línea de un bloque de comandos de la guía tiene que tener una forma conocida y nombrar un archivo '
+                   'que existe en el paquete. La guía solo se lee: ningún comando se ejecuta. Si no, incoherencia [A].',
 }
 LICENCIA_ROTULO = 'Borrador de licencia del paquete modelo (no es un texto jurídico cerrado)'
 LICENCIA = ('Borrador de licencia: qué dice', [
@@ -217,7 +218,10 @@ EJ173 = ('Ejemplo resuelto 17.3: completar la ficha de procedencia', [
 S174 = ('17.4 Prueba de instalación por otro equipo y acta de entrega simulada', [
     'La prueba decisiva es que otro equipo instale el paquete sin ayuda. El equipo autor entrega el paquete y se retira: no '
     'explica, no corrige en el momento. El equipo receptor sigue la guía y anota cada paso como hecho, con dificultad o '
-    'fallido, con el mensaje exacto. Después restaura un respaldo y ejecuta el comprobador de entrega.',
+    'fallido, con el mensaje exacto. Después restaura un respaldo.',
+    'Un paquete recibido es código desconocido: no se ejecuta para decidir si es confiable. El docente lo revisa con sus '
+    'herramientas, que no vienen en el paquete: primero la inspección estática, que solo lee; después las pruebas de una '
+    'lista cerrada, en un equipo aislado, sin red, con una cuenta sin permisos de administrador (Tabla 17.4).',
     'Con eso completa el acta de entrega simulada (Tabla 17.5): qué se entrega, la versión, lo que pasó en cada paso, los '
     'límites conocidos y sus observaciones. El equipo autor corrige la guía con lo observado y vuelve a probar el paso que '
     'falló. Así se completa la condición mínima que quedó pendiente en el H5: instalación y restauración reproducibles.',
@@ -225,11 +229,11 @@ S174 = ('17.4 Prueba de instalación por otro equipo y acta de entrega simulada'
     'no reemplaza a la persona ajena al desarrollo: no tropieza con una palabra confusa ni con un paso que da por sabido. '
     'Esa evidencia solo la da otro equipo (Código 17.2).',
 ])
-TABLA_174_ROTULO = 'Tabla 17.4 — Lo que el comprobador de entrega revisa'
+TABLA_174_ROTULO = 'Tabla 17.4 — Lo que revisan las herramientas del docente'
 TABLA_174 = (['Bloque', 'Qué revisa'],
              [['A', 'Cada comando de la guía nombra un archivo que existe'],
               ['B', 'Cada archivo de la lista de entrega está en el paquete'],
-              ['C', 'Cada prueba de la lista termina bien y da su resultado'],
+              ['C', 'Cada prueba declarada está en la lista cerrada (no se ejecuta); en aislamiento, cada una termina bien'],
               ['D', 'Cada recurso que no es código tiene su procedencia'],
               ['E', 'Cada mensaje y cada pantalla del manual existen'],
               ['F', 'Todos los documentos declaran la misma versión']])
@@ -251,13 +255,16 @@ def entorno_texto():
 
 def tabla_176():
     r = resumen()
-    g, c = r['guia']['modelo'], r['comprobador']['modelo']
+    g, c = r['guia']['modelo'], r['herramientas']['modelo']
     reg = r['regresion']
     bien = sum(1 for v in reg.values() if v['codigo_salida'] == 0)
     return (['Prueba', 'Resultado', 'Condición'],
             [['La guía, seguida en una carpeta limpia por un proceso automático', '%d de %d pasos' % (g['correctos'], g['total']),
               'Comprobado (técnica, en el entorno de construcción)'],
-             ['Comprobador de entrega', c['resultado'].replace('Resultado: ', ''), 'Comprobado (técnica)'],
+             ['Inspección estática (no ejecuta nada)', c['inspeccion']['resultado'].split(' (')[0].replace('Resultado: ', ''),
+              'Comprobado (técnica)'],
+             ['Pruebas de la lista cerrada, en aislamiento', c['aislamiento']['resultado'].split(' (')[0].replace('Resultado: ', ''),
+              'Comprobado (técnica, sin red y sin permisos de administrador)'],
              ['Regresión de la versión empaquetada', '%d de %d pruebas sin fallas' % (bien, len(reg)), 'Comprobado (técnica)'],
              ['Instalación por otro equipo, sin ayuda', 'La hace el curso en el Encuentro 34', 'Pendiente hasta el acta'],
              ['Instalación en Windows y en el laboratorio', '—', 'Pendiente (ficha de entorno)']])
@@ -277,7 +284,7 @@ EJ174 = ('Ejemplo resuelto 17.4: un acta con un paso fallido (simulación del li
 H6_TITULO = 'Hito H6: paquete reproducible; ajustes finales'
 H6_TEXTO = [
     'El H6 es el hito de la unidad. Cada equipo entrega su paquete con el acta firmada por el equipo receptor, los ajustes '
-    'que hizo y el resultado del comprobador. La evidencia central es que otro equipo instaló y restauró el sistema sin '
+    'que hizo y el resultado de la revisión del docente. La evidencia central es que otro equipo instaló y restauró el sistema sin '
     'ayuda.',
     'Cada integrante muestra la parte del paquete que redactó o probó, registrada en la bitácora, y responde una pregunta '
     'del docente sobre ella.',
@@ -288,7 +295,7 @@ H6_LISTA = ('Antes de entregar: lista de verificación del equipo', [
     '3. ¿El manual está organizado por tareas, con sus mensajes?',
     '4. ¿El respaldo y la restauración están documentados y probados?',
     '5. ¿La ficha de procedencia tiene cada recurso, con su licencia verificada según la versión?',
-    '6. ¿php comprobar_entrega.php da 0 incoherencias?',
+    '6. ¿La inspección estática da 0 incoherencias y las pruebas de la lista cerrada pasan?',
     '7. ¿Los límites y los pendientes están escritos y separados?',
     '8. ¿El acta está completa y firmada por el equipo receptor?',
 ])

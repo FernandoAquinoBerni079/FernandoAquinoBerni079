@@ -7,6 +7,6 @@ Por dónde empezar:
   2. ENTREGA/MANUAL.md     (cómo se usa, por tareas)
   3. ENTREGA/LIMITES.md    (lo que no hace o no se probó)
 
-Comprobar el paquete:   php comprobar_entrega.php
+Revisión del paquete: la hace el docente con sus herramientas, fuera del paquete.
 
 Procedencia y licencia: ENTREGA/PROCEDENCIA.md y ENTREGA/LICENCIA_BORRADOR.md (borrador).

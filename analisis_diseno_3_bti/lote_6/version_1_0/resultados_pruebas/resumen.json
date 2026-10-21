@@ -1,0 +1,337 @@
+{
+ "entorno": {
+  "fecha": "2026-10-21 14:19",
+  "sistema": "Linux 6.18.44-fc-v140 (x86_64)",
+  "php": "8.3.6",
+  "sqlite": "3.45.1",
+  "curl": "curl 8.5.0",
+  "bash": "GNU bash, version 5.2.21(1)-release (x86_64-pc-linux-gnu)",
+  "tipo": "Contenedor Linux de construcción del lote. NO es una computadora escolar ni Windows: las pruebas de campo E-1 a E-12 siguen pendientes. Una ejecución automática de la guía es una comprobación técnica: NO reemplaza la instalación por otro equipo, sin ayuda, que evalúa una persona ajena al desarrollo."
+ },
+ "paquete_modelo": {
+  "archivos": 46,
+  "distintos_del_origen": [
+   "LEEME.txt"
+  ],
+  "nuevos": [
+   "ENTREGA/ACTA_ENTREGA.md",
+   "ENTREGA/INSTALAR.md",
+   "ENTREGA/LICENCIA_BORRADOR.md",
+   "ENTREGA/LIMITES.md",
+   "ENTREGA/LISTA_ENTREGA.md",
+   "ENTREGA/MANUAL.md",
+   "ENTREGA/PROCEDENCIA.md",
+   "comprobar_entrega.php"
+  ],
+  "faltan_del_origen": [],
+  "codigo_identico": true
+ },
+ "comprobador": {
+  "modelo": {
+   "codigo_salida": 0,
+   "incoherencias": [],
+   "resultado": "Resultado: 0 incoherencias"
+  },
+  "mbokaja": {
+   "codigo_salida": 1,
+   "incoherencias": [
+    "[A] la guía usa «php instalar_base.php», pero no existe instalar_base.php",
+    "[B] la lista de entrega incluye datos/mbokaja_prueba.json, que no está en el paquete",
+    "[C] la prueba «php pruebas/prueba_contratos.php» no terminó bien (Resultado: 92 de 93 correctas)",
+    "[D] public/logo_mbokaja.png no tiene su fila en la ficha de procedencia",
+    "[E] el manual describe public/reservas.php, que no está en el paquete",
+    "[E] el manual nombra el mensaje ME-15, que el sistema no tiene"
+   ],
+   "resultado": "Resultado: 6 incoherencias",
+   "esperadas": [
+    "[A] la guía usa «php instalar_base.php», pero no existe instalar_base.php",
+    "[B] la lista de entrega incluye datos/mbokaja_prueba.json, que no está en el paquete",
+    "[C] la prueba «php pruebas/prueba_contratos.php» no terminó bien",
+    "[D] public/logo_mbokaja.png no tiene su fila en la ficha de procedencia",
+    "[E] el manual describe public/reservas.php, que no está en el paquete",
+    "[E] el manual nombra el mensaje ME-15, que el sistema no tiene"
+   ],
+   "exactas": true
+  },
+  "mbokaja_corregido": {
+   "codigo_salida": 0,
+   "incoherencias": [],
+   "resultado": "Resultado: 0 incoherencias"
+  }
+ },
+ "guia": {
+  "modelo": {
+   "pasos": [
+    {
+     "paso": 1,
+     "titulo": "Comprobar el entorno",
+     "comando": "php verificar_entorno.php",
+     "esperado": "Esta computadora está lista para el prototipo.",
+     "correcto": true,
+     "nota": "",
+     "salida": ""
+    },
+    {
+     "paso": 2,
+     "titulo": "Crear la base con los datos de ejemplo",
+     "comando": "php instalar.php",
+     "esperado": "Base creada en:",
+     "correcto": true,
+     "nota": "",
+     "salida": ""
+    },
+    {
+     "paso": 3,
+     "titulo": "Iniciar el sistema",
+     "comando": "php -S localhost:8000 -t public",
+     "esperado": null,
+     "correcto": true,
+     "nota": "puerto 33073 en lugar de 8000",
+     "salida": ""
+    },
+    {
+     "paso": 4,
+     "titulo": "Abrir el sistema en el navegador",
+     "comando": "http://localhost:8000",
+     "esperado": "PT-01 Buscar un título",
+     "correcto": true,
+     "nota": "",
+     "salida": ""
+    },
+    {
+     "paso": 5,
+     "titulo": "Detener el sistema",
+     "comando": "detener",
+     "esperado": null,
+     "correcto": true,
+     "nota": "",
+     "salida": ""
+    },
+    {
+     "paso": 6,
+     "titulo": "Hacer un respaldo",
+     "comando": "php respaldar.php",
+     "esperado": "Respaldo guardado y verificado",
+     "correcto": true,
+     "nota": "",
+     "salida": ""
+    },
+    {
+     "paso": 7,
+     "titulo": "Comprobar que el respaldo se puede restaurar",
+     "comando": "php restaurar.php datos/respaldos/respaldo_AAAAMMDD_HHMMSS.sqlite",
+     "esperado": "Restauración terminada y comprobada",
+     "correcto": true,
+     "nota": "nombre del respaldo del paso anterior",
+     "salida": ""
+    },
+    {
+     "paso": 8,
+     "titulo": "Comprobar el paquete completo",
+     "comando": "php comprobar_entrega.php",
+     "esperado": "Resultado: 0 incoherencias",
+     "correcto": true,
+     "nota": "",
+     "salida": ""
+    }
+   ],
+   "correctos": 8,
+   "total": 8
+  },
+  "mbokaja_corregido": {
+   "pasos": [
+    {
+     "paso": 1,
+     "titulo": "Comprobar el entorno",
+     "comando": "php verificar_entorno.php",
+     "esperado": "Esta computadora está lista para el prototipo.",
+     "correcto": true,
+     "nota": "",
+     "salida": ""
+    },
+    {
+     "paso": 2,
+     "titulo": "Crear la base con los datos de ejemplo",
+     "comando": "php instalar.php",
+     "esperado": "Base creada en:",
+     "correcto": true,
+     "nota": "",
+     "salida": ""
+    },
+    {
+     "paso": 3,
+     "titulo": "Iniciar el sistema",
+     "comando": "php -S localhost:8000 -t public",
+     "esperado": null,
+     "correcto": true,
+     "nota": "puerto 55733 en lugar de 8000",
+     "salida": ""
+    },
+    {
+     "paso": 4,
+     "titulo": "Abrir el sistema en el navegador",
+     "comando": "http://localhost:8000",
+     "esperado": "PT-01 Buscar un título",
+     "correcto": true,
+     "nota": "",
+     "salida": ""
+    },
+    {
+     "paso": 5,
+     "titulo": "Detener el sistema",
+     "comando": "detener",
+     "esperado": null,
+     "correcto": true,
+     "nota": "",
+     "salida": ""
+    },
+    {
+     "paso": 6,
+     "titulo": "Hacer un respaldo",
+     "comando": "php respaldar.php",
+     "esperado": "Respaldo guardado y verificado",
+     "correcto": true,
+     "nota": "",
+     "salida": ""
+    },
+    {
+     "paso": 7,
+     "titulo": "Comprobar que el respaldo se puede restaurar",
+     "comando": "php restaurar.php datos/respaldos/respaldo_AAAAMMDD_HHMMSS.sqlite",
+     "esperado": "Restauración terminada y comprobada",
+     "correcto": true,
+     "nota": "nombre del respaldo del paso anterior",
+     "salida": ""
+    },
+    {
+     "paso": 8,
+     "titulo": "Comprobar el paquete completo",
+     "comando": "php comprobar_entrega.php",
+     "esperado": "Resultado: 0 incoherencias",
+     "correcto": true,
+     "nota": "",
+     "salida": ""
+    }
+   ],
+   "correctos": 8,
+   "total": 8
+  },
+  "mbokaja_con_defectos": {
+   "pasos": [
+    {
+     "paso": 1,
+     "titulo": "Comprobar el entorno",
+     "comando": "php verificar_entorno.php",
+     "esperado": "Esta computadora está lista para el prototipo.",
+     "correcto": true,
+     "nota": "",
+     "salida": ""
+    },
+    {
+     "paso": 2,
+     "titulo": "Crear la base con los datos de ejemplo",
+     "comando": "php instalar_base.php",
+     "esperado": "Base creada en:",
+     "correcto": false,
+     "nota": "",
+     "salida": "Could not open input file: instalar_base.php\n"
+    },
+    {
+     "paso": 3,
+     "titulo": "Iniciar el sistema",
+     "comando": "php -S localhost:8000 -t public",
+     "esperado": null,
+     "correcto": true,
+     "nota": "puerto 38399 en lugar de 8000",
+     "salida": ""
+    },
+    {
+     "paso": 4,
+     "titulo": "Abrir el sistema en el navegador",
+     "comando": "http://localhost:8000",
+     "esperado": "PT-01 Buscar un título",
+     "correcto": true,
+     "nota": "",
+     "salida": ""
+    },
+    {
+     "paso": 5,
+     "titulo": "Detener el sistema",
+     "comando": "detener",
+     "esperado": null,
+     "correcto": true,
+     "nota": "",
+     "salida": ""
+    },
+    {
+     "paso": 6,
+     "titulo": "Hacer un respaldo",
+     "comando": "php respaldar.php",
+     "esperado": "Respaldo guardado y verificado",
+     "correcto": false,
+     "nota": "",
+     "salida": "No hay base para respaldar.\n"
+    },
+    {
+     "paso": 7,
+     "titulo": "Comprobar que el respaldo se puede restaurar",
+     "comando": "php restaurar.php datos/respaldos/respaldo_AAAAMMDD_HHMMSS.sqlite",
+     "esperado": "Restauración terminada y comprobada",
+     "correcto": false,
+     "nota": "nombre del respaldo del paso anterior",
+     "salida": "No existe el respaldo SIN_RESPALDO. No se modificó nada.\n"
+    },
+    {
+     "paso": 8,
+     "titulo": "Comprobar el paquete completo",
+     "comando": "php comprobar_entrega.php",
+     "esperado": "Resultado: 0 incoherencias",
+     "correcto": false,
+     "nota": "",
+     "salida": "está en el paquete\nINCOHERENCIA [C] la prueba «php pruebas/prueba_contratos.php» no terminó bien (Resultado: 92 de 93 correctas)\nINCOHERENCIA [D] public/logo_mbokaja.png no tiene su fila en la ficha de procedencia\nINCOHERENCIA [E] el manual nombra el mensaje ME-15, que el sistema no tiene\nINCOHERENCIA [E] el manual describe public/reservas.php, que no está en el paquete\nResultado: 6 incoherencias\n"
+    }
+   ],
+   "correctos": 4,
+   "total": 8
+  }
+ },
+ "regresion": {
+  "prueba_contratos.php": {
+   "codigo_salida": 0,
+   "resultado": "Resultado: 93 de 93 correctas"
+  },
+  "prueba_mis_operaciones.php": {
+   "codigo_salida": 0,
+   "resultado": "Resultado: 17 de 17 correctas"
+  },
+  "prueba_carrera.php": {
+   "codigo_salida": 0,
+   "resultado": "Resultado: 15 de 15 correctas"
+  },
+  "prueba_garantias.php": {
+   "codigo_salida": 0,
+   "resultado": "Resultado: 20 de 20 clasificaciones confirmadas"
+  },
+  "prueba_respaldo.php": {
+   "codigo_salida": 0,
+   "resultado": "Resultado: 20 de 20 correctas"
+  },
+  "prueba_mantenimiento.php": {
+   "codigo_salida": 0,
+   "resultado": "Resultado: 30 de 30 correctas"
+  },
+  "prueba_marca_huerfana.php": {
+   "codigo_salida": 0,
+   "resultado": "Resultado: 19 de 19 correctos"
+  },
+  "prueba_http.sh": {
+   "codigo_salida": 0,
+   "resultado": "Resultado: 32 de 32 correctas"
+  },
+  "prueba_in02.sh": {
+   "codigo_salida": 0,
+   "resultado": "Resultado: 7 de 7 correctas"
+  }
+ },
+ "fallos": 0
+}

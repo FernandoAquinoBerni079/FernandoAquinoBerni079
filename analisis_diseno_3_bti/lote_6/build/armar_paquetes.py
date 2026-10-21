@@ -1,7 +1,8 @@
 # -*- coding: utf-8 -*-
 """Arma los dos paquetes de la Unidad VI en lote_6/proyecto/, desde las fuentes del caso:
   - paquete_entrega_modelo/: copia NUEVA de la referencia docente v2 con SC-02 del lote 5 (decisión D-1, que no se
-    modifica), con LEEME.txt y ENTREGA/*.md generados desde caso/entrega_u6.py y el comprobador comprobar_entrega.php;
+    modifica), con LEEME.txt y ENTREGA/*.md generados desde caso/entrega_u6.py (v1.1: sin comprobador dentro del
+    paquete; la revisión la hacen las herramientas del docente de proyecto/herramientas/, fuera del paquete);
   - paquete_mbokaja/: el paquete del voluntario de la Práctica 17, con los cinco defectos de caso/mbokaja_u6.py.
 El código copiado no se toca, salvo la prueba que cambia el defecto DM-3 en el paquete de Mbokaja.
 corregir(carpeta) aplica la clave de la Práctica 17 a una copia (la usa build/reproducir.py, sobre carpetas temporales).
@@ -16,14 +17,12 @@ import mbokaja_u6 as MB
 PROY = os.path.join(L6, 'proyecto')
 MODELO = os.path.join(PROY, 'paquete_entrega_modelo')
 MBOKAJA = os.path.join(PROY, 'paquete_mbokaja')
-COMPROBADOR = os.path.join(PROY, 'comprobar_entrega.php')
 
 
 def _copiar_codigo(destino):
     if os.path.exists(destino):
         shutil.rmtree(destino)
     shutil.copytree(E.ORIGEN, destino, ignore=shutil.ignore_patterns('*.sqlite', '*.sqlite-*', '__pycache__'))
-    shutil.copy2(COMPROBADOR, os.path.join(destino, 'comprobar_entrega.php'))
     os.makedirs(os.path.join(destino, 'ENTREGA'), exist_ok=True)
 
 

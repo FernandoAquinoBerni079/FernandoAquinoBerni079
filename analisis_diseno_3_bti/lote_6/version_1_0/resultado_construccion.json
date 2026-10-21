@@ -1,0 +1,134 @@
+{
+ "perfil": {
+  "nombre": "O3",
+  "papel": [
+   21.59,
+   33.02
+  ],
+  "interior": 2.5,
+  "exterior": 1.8,
+  "superior": 1.5,
+  "inferior": 1.5,
+  "espejo": true
+ },
+ "ancho_util": 17.29,
+ "tablas_en_hoja_nueva": [],
+ "columnas_ensanchadas": [
+  {
+   "tabla": "Paso",
+   "columna": 3,
+   "antes_cm": 6.25,
+   "despues_cm": 7.34
+  },
+  {
+   "tabla": "Recurso",
+   "columna": 3,
+   "antes_cm": 4.79,
+   "despues_cm": 5.03
+  },
+  {
+   "tabla": "Momento",
+   "columna": 2,
+   "antes_cm": 2.5,
+   "despues_cm": 2.64
+  },
+  {
+   "tabla": "Defecto",
+   "columna": 3,
+   "antes_cm": 3.12,
+   "despues_cm": 4.04
+  }
+ ],
+ "paginas_libro": {
+  "Unidad VI — Entregar y comunicar": 3,
+  "Capítulo 17 — Preparar una entrega reproducible": 4,
+  "Encuentro 33 — Escribir y probar la propia documentación": 4,
+  "17.1 Guía de instalación, configuración y ejecución": 4,
+  "17.2 Manual breve basado en tareas": 5,
+  "Práctica 17 — El paquete del voluntario para Mbokaja": 7,
+  "Encuentro 34 — Entregar a otro equipo; hito H6": 9,
+  "17.3 Respaldo, restauración, licencias y registro de procedencia": 9,
+  "17.4 Prueba de instalación por otro equipo y acta de entrega simulada": 10,
+  "Hito H6: paquete reproducible; ajustes finales": 11,
+  "Evaluación del Capítulo 17": 14,
+  "Capítulo 18 — Demostrar, defender y aprender del proyecto": 15,
+  "Encuentro 35 — Demostración y defensa individual": 15,
+  "18.1 Demostración organizada por requisitos y evidencias": 15,
+  "18.2 Defensa individual de decisiones y resolución de una variante": 16,
+  "Encuentro 36 — Recuperación, retrospectiva y cierre": 18,
+  "18.3 Recuperación de aprendizajes pendientes": 18,
+  "18.4 Retrospectiva y mejoras futuras justificadas": 18,
+  "Evaluación integradora de la segunda etapa y cierre del proyecto": 19
+ },
+ "paginas": {
+  "libro": 20,
+  "guia": 15,
+  "cuaderno": 3
+ },
+ "claves": [
+  [
+   "ADS3-L6-C17-e",
+   1,
+   "a",
+   "«php instalar.php» — Resultado esperado: «Base creada en:»; si ya hay una base, no la borres."
+  ],
+  [
+   "ADS3-L6-C17-e",
+   2,
+   "b",
+   "Su autor y un permiso o licencia que autorice ese uso, registrados en la ficha."
+  ],
+  [
+   "ADS3-L6-C17-e",
+   3,
+   "c",
+   "No está autorizado sin un acuerdo de los titulares: la licencia vale dentro de la institución."
+  ],
+  [
+   "ADS3-L6-C17-e",
+   4,
+   "c",
+   "Que otro equipo la instaló y restauró sin ayuda, con su acta."
+  ],
+  [
+   "ADS3-L6-C17-e",
+   5,
+   "F",
+   "Falso. Se organiza por lo que la persona quiere hacer."
+  ],
+  [
+   "ADS3-L6-C17-e",
+   6,
+   "F",
+   "Falso. Comprueba los pasos, pero no a la persona ajena al desarrollo."
+  ],
+  [
+   "ADS3-L6-C17-e",
+   7,
+   "V",
+   "Verdadero. Las licencias pueden cambiar entre versiones."
+  ],
+  [
+   "ADS3-L6-C17-e",
+   8,
+   "abierta",
+   "Un punto por cada paso completo y uno por cuidar LU-2 (sin internet: nada que se descargue durante la instalación)."
+  ],
+  [
+   "ADS3-L6-C17-e",
+   9,
+   "abierta",
+   "Recurso, autor o titular (la editorial del juego), licencia o condición (desconocida si no hay permiso), fuente y decisión (no se incluyen sin permiso). Un punto por cada parte."
+  ]
+ ],
+ "simbolos": {
+  "fig_17_1": {
+   "notacion": "esquema",
+   "simbolos": {}
+  },
+  "fig_18_1": {
+   "notacion": "esquema",
+   "simbolos": {}
+  }
+ }
+}

@@ -16,10 +16,9 @@ Versión: Entrega 0.9 (preparada por el voluntario para Mbokaja)
 - archivo: `instalar.php` — Instalación
 - archivo: `respaldar.php` — Respaldo
 - archivo: `restaurar.php` — Restauración
-- archivo: `comprobar_entrega.php` — Comprobador de la entrega
 - archivo: `datos/mbokaja_prueba.json` — Datos de prueba de Mbokaja
 
-## Pruebas que acompañan la entrega (las ejecuta php comprobar_entrega.php)
+## Pruebas que acompañan la entrega (solo las ejecuta la herramienta del docente, en aislamiento)
 
 - prueba: `php pruebas/prueba_contratos.php`
 - prueba: `php pruebas/prueba_garantias.php`

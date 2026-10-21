@@ -1,6 +1,6 @@
 {
  "entorno": {
-  "fecha": "2026-10-21 14:19",
+  "fecha": "2026-10-21 14:54",
   "sistema": "Linux 6.18.44-fc-v140 (x86_64)",
   "php": "8.3.6",
   "sqlite": "3.45.1",
@@ -9,7 +9,7 @@
   "tipo": "Contenedor Linux de construcción del lote. NO es una computadora escolar ni Windows: las pruebas de campo E-1 a E-12 siguen pendientes. Una ejecución automática de la guía es una comprobación técnica: NO reemplaza la instalación por otro equipo, sin ayuda, que evalúa una persona ajena al desarrollo."
  },
  "paquete_modelo": {
-  "archivos": 46,
+  "archivos": 45,
   "distintos_del_origen": [
    "LEEME.txt"
   ],
@@ -20,43 +20,68 @@
    "ENTREGA/LIMITES.md",
    "ENTREGA/LISTA_ENTREGA.md",
    "ENTREGA/MANUAL.md",
-   "ENTREGA/PROCEDENCIA.md",
-   "comprobar_entrega.php"
+   "ENTREGA/PROCEDENCIA.md"
   ],
   "faltan_del_origen": [],
   "codigo_identico": true
  },
- "comprobador": {
+ "herramientas": {
   "modelo": {
-   "codigo_salida": 0,
-   "incoherencias": [],
-   "resultado": "Resultado: 0 incoherencias"
+   "inspeccion": {
+    "codigo_salida": 0,
+    "incoherencias": [],
+    "resultado": "Resultado: 0 incoherencias (inspección estática; no se ejecutó nada)"
+   },
+   "aislamiento": {
+    "codigo_salida": 0,
+    "incoherencias": [],
+    "resultado": "Resultado: 0 incoherencias (pruebas en una copia descartable, ya borrada)"
+   }
   },
   "mbokaja": {
-   "codigo_salida": 1,
-   "incoherencias": [
-    "[A] la guía usa «php instalar_base.php», pero no existe instalar_base.php",
-    "[B] la lista de entrega incluye datos/mbokaja_prueba.json, que no está en el paquete",
-    "[C] la prueba «php pruebas/prueba_contratos.php» no terminó bien (Resultado: 92 de 93 correctas)",
-    "[D] public/logo_mbokaja.png no tiene su fila en la ficha de procedencia",
-    "[E] el manual describe public/reservas.php, que no está en el paquete",
-    "[E] el manual nombra el mensaje ME-15, que el sistema no tiene"
-   ],
-   "resultado": "Resultado: 6 incoherencias",
-   "esperadas": [
-    "[A] la guía usa «php instalar_base.php», pero no existe instalar_base.php",
-    "[B] la lista de entrega incluye datos/mbokaja_prueba.json, que no está en el paquete",
-    "[C] la prueba «php pruebas/prueba_contratos.php» no terminó bien",
-    "[D] public/logo_mbokaja.png no tiene su fila en la ficha de procedencia",
-    "[E] el manual describe public/reservas.php, que no está en el paquete",
-    "[E] el manual nombra el mensaje ME-15, que el sistema no tiene"
-   ],
+   "inspeccion": {
+    "codigo_salida": 1,
+    "incoherencias": [
+     "[A] la guía usa «php instalar_base.php», pero no existe instalar_base.php en el paquete",
+     "[B] la lista de entrega incluye datos/mbokaja_prueba.json, que no está en el paquete",
+     "[D] public/logo_mbokaja.png no tiene su fila en la ficha de procedencia",
+     "[E] el manual describe public/reservas.php, que no está en el paquete",
+     "[E] el manual nombra el mensaje ME-15, que el sistema no tiene"
+    ],
+    "resultado": "Resultado: 5 incoherencias (inspección estática; no se ejecutó nada)"
+   },
+   "aislamiento": {
+    "codigo_salida": 1,
+    "incoherencias": [
+     "[C] la prueba pruebas/prueba_contratos.php no terminó bien"
+    ],
+    "resultado": "Resultado: 1 incoherencias (pruebas en una copia descartable, ya borrada)"
+   },
+   "esperadas": {
+    "inspección estática": [
+     "[A] la guía usa «php instalar_base.php», pero no existe instalar_base.php en el paquete",
+     "[B] la lista de entrega incluye datos/mbokaja_prueba.json, que no está en el paquete",
+     "[D] public/logo_mbokaja.png no tiene su fila en la ficha de procedencia",
+     "[E] el manual describe public/reservas.php, que no está en el paquete",
+     "[E] el manual nombra el mensaje ME-15, que el sistema no tiene"
+    ],
+    "pruebas en aislamiento": [
+     "[C] la prueba pruebas/prueba_contratos.php no terminó bien"
+    ]
+   },
    "exactas": true
   },
   "mbokaja_corregido": {
-   "codigo_salida": 0,
-   "incoherencias": [],
-   "resultado": "Resultado: 0 incoherencias"
+   "inspeccion": {
+    "codigo_salida": 0,
+    "incoherencias": [],
+    "resultado": "Resultado: 0 incoherencias (inspección estática; no se ejecutó nada)"
+   },
+   "aislamiento": {
+    "codigo_salida": 0,
+    "incoherencias": [],
+    "resultado": "Resultado: 0 incoherencias (pruebas en una copia descartable, ya borrada)"
+   }
   }
  },
  "guia": {
@@ -86,7 +111,7 @@
      "comando": "php -S localhost:8000 -t public",
      "esperado": null,
      "correcto": true,
-     "nota": "puerto 33073 en lugar de 8000",
+     "nota": "puerto 48943 en lugar de 8000",
      "salida": ""
     },
     {
@@ -124,19 +149,11 @@
      "correcto": true,
      "nota": "nombre del respaldo del paso anterior",
      "salida": ""
-    },
-    {
-     "paso": 8,
-     "titulo": "Comprobar el paquete completo",
-     "comando": "php comprobar_entrega.php",
-     "esperado": "Resultado: 0 incoherencias",
-     "correcto": true,
-     "nota": "",
-     "salida": ""
     }
    ],
-   "correctos": 8,
-   "total": 8
+   "correctos": 7,
+   "total": 7,
+   "aislamiento": "espacio de red aislado (sin red) y cuenta nobody, copia descartable"
   },
   "mbokaja_corregido": {
    "pasos": [
@@ -164,7 +181,7 @@
      "comando": "php -S localhost:8000 -t public",
      "esperado": null,
      "correcto": true,
-     "nota": "puerto 55733 en lugar de 8000",
+     "nota": "puerto 35781 en lugar de 8000",
      "salida": ""
     },
     {
@@ -202,19 +219,11 @@
      "correcto": true,
      "nota": "nombre del respaldo del paso anterior",
      "salida": ""
-    },
-    {
-     "paso": 8,
-     "titulo": "Comprobar el paquete completo",
-     "comando": "php comprobar_entrega.php",
-     "esperado": "Resultado: 0 incoherencias",
-     "correcto": true,
-     "nota": "",
-     "salida": ""
     }
    ],
-   "correctos": 8,
-   "total": 8
+   "correctos": 7,
+   "total": 7,
+   "aislamiento": "espacio de red aislado (sin red) y cuenta nobody, copia descartable"
   },
   "mbokaja_con_defectos": {
    "pasos": [
@@ -242,7 +251,7 @@
      "comando": "php -S localhost:8000 -t public",
      "esperado": null,
      "correcto": true,
-     "nota": "puerto 38399 en lugar de 8000",
+     "nota": "puerto 33215 en lugar de 8000",
      "salida": ""
     },
     {
@@ -280,21 +289,75 @@
      "correcto": false,
      "nota": "nombre del respaldo del paso anterior",
      "salida": "No existe el respaldo SIN_RESPALDO. No se modificó nada.\n"
-    },
-    {
-     "paso": 8,
-     "titulo": "Comprobar el paquete completo",
-     "comando": "php comprobar_entrega.php",
-     "esperado": "Resultado: 0 incoherencias",
-     "correcto": false,
-     "nota": "",
-     "salida": "está en el paquete\nINCOHERENCIA [C] la prueba «php pruebas/prueba_contratos.php» no terminó bien (Resultado: 92 de 93 correctas)\nINCOHERENCIA [D] public/logo_mbokaja.png no tiene su fila en la ficha de procedencia\nINCOHERENCIA [E] el manual nombra el mensaje ME-15, que el sistema no tiene\nINCOHERENCIA [E] el manual describe public/reservas.php, que no está en el paquete\nResultado: 6 incoherencias\n"
     }
    ],
    "correctos": 4,
-   "total": 8
+   "total": 7,
+   "aislamiento": "espacio de red aislado (sin red) y cuenta nobody, copia descartable"
   }
  },
+ "pruebas_negativas": [
+  {
+   "caso": "N1",
+   "titulo": "Comando inyectado en la lista de entrega",
+   "correcto": true,
+   "detalle": "inspección: 2 en [C]; pruebas aisladas: solo la lista cerrada, bien; centinela: no creado"
+  },
+  {
+   "caso": "N2",
+   "titulo": "Líneas maliciosas en la guía de instalación",
+   "correcto": true,
+   "detalle": "inspección: 3 comandos de forma desconocida; guía como prueba: 3 pasos rechazados sin ejecutar (espacio de red aislado (sin red) y cuenta nobody, copia descartable)"
+  },
+  {
+   "caso": "N3",
+   "titulo": "src/mensajes.php con un efecto al incluirse",
+   "correcto": true,
+   "detalle": "inspección: 0 incoherencias (los mensajes se leyeron como texto); centinela: no creado"
+  },
+  {
+   "caso": "N4",
+   "titulo": "Rutas que salen del paquete",
+   "correcto": true,
+   "detalle": "inspección: [A] la guía usa «php ../../herramientas/x.php», pero no existe ../../herramientas/x.php en el paquete · [B] la lista de entrega nombra ../../../etc/passwd, que está fuera del paquete · [B] la lista de entrega nombra /etc/passwd, que está fuera del paquete"
+  },
+  {
+   "caso": "N5",
+   "titulo": "Enlace simbólico dentro del paquete",
+   "correcto": true,
+   "detalle": "inspección: [B] enlace simbólico pruebas/prueba_respaldo.php.enlace: no se sigue; pruebas aisladas: código 2, «No se ejecutó ninguna prueba.»"
+  },
+  {
+   "caso": "N6",
+   "titulo": "Pruebas en aislamiento con una cuenta de administrador",
+   "correcto": true,
+   "detalle": "con cuenta de administrador: código 2, «Esta herramienta no se ejecuta con una cuenta de administrador: usá una cuenta sin permisos.»; centinela: no creado"
+  },
+  {
+   "caso": "N7",
+   "titulo": "Una prueba de la lista cerrada que no termina",
+   "correcto": true,
+   "detalle": "prueba colgada: cortada por tiempo límite (2 s); la herramienta terminó en 2 s; [C] la prueba pruebas/prueba_respaldo.php no terminó bien"
+  },
+  {
+   "caso": "N8",
+   "titulo": "El paquete recibido no cambia y la copia descartable se borra",
+   "correcto": true,
+   "detalle": "paquete recibido sin cambios (SHA-256 igual: True); copias descartables que quedaron: 0"
+  },
+  {
+   "caso": "N9",
+   "titulo": "Una prueba fuera de la lista cerrada",
+   "correcto": true,
+   "detalle": "inspección: [C] la prueba declarada «php pruebas/prueba_extra.php» no está en la lista cerrada: no se ejecuta; pruebas aisladas: no se ejecutó prueba_extra; centinela: no creado"
+  },
+  {
+   "caso": "N10",
+   "titulo": "Sin red y sin permisos de administrador durante las pruebas",
+   "correcto": true,
+   "detalle": "una prueba de la lista que intenta salir a la red y leer archivos del administrador: Resultado: red=NO admin=NO"
+  }
+ ],
  "regresion": {
   "prueba_contratos.php": {
    "codigo_salida": 0,

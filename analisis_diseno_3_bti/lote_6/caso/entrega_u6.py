@@ -53,9 +53,10 @@ PASOS = [
     ('Comprobar que el respaldo se puede restaurar', 'php restaurar.php datos/respaldos/respaldo_AAAAMMDD_HHMMSS.sqlite',
      'RESTAURAR', 'Restauración terminada y comprobada',
      'Usá el nombre del respaldo que mostró el paso 6. Si no escribís RESTAURAR, no se cambia nada.'),
-    ('Comprobar el paquete completo', 'php comprobar_entrega.php', None, 'Resultado: 0 incoherencias',
-     'Si aparece una INCOHERENCIA, anotala en el acta de entrega: dice qué falta y dónde.'),
 ]
+# v1.1 (auditoría del lote 6): el paquete ya no trae un comprobador propio. La revisión del paquete la hacen las
+# herramientas del docente (proyecto/herramientas/), que viven fuera del paquete: no se ejecuta código recibido para
+# decidir si es confiable.
 CUENTAS = ('El paso 2 muestra una sola vez las claves de las cuentas de demostración bibliotecaria1 y direccion1. '
            'Anotalas. Son de demostración: no se usan con datos reales sin cambiarlas.')
 
@@ -150,7 +151,7 @@ def limites_md():
 # (recurso, archivos, autor o titular, licencia o condición, fuente verificada, en el paquete)
 PROCEDENCIA = [
     ('Código original de referencia', 'src/, public/, pruebas/, instalar.php, respaldar.php, restaurar.php, '
-     'retirar_marca.php, verificar_entorno.php, comprobar_entrega.php',
+     'retirar_marca.php, verificar_entorno.php',
      'Titulares del material editorial «Análisis y Diseño de Sistemas, 3.º BTI» (adaptado del Piloto B v2.3 de la colección)',
      'Borrador de uso educativo institucional (ENTREGA/LICENCIA_BORRADOR.md)', 'Registro de versiones del proyecto',
      'Se entrega'),
@@ -217,7 +218,7 @@ ACTA_CAMPOS = [
     ('Computadora, sistema y versiones', ''),
     ('Pasos de la guía: hecho, con dificultad o fallido, con el mensaje exacto', ''),
     ('Restauración de un respaldo', ''),
-    ('Resultado de php comprobar_entrega.php', ''),
+    ('Resultado de la inspección estática y de las pruebas en aislamiento (herramientas del docente)', ''),
     ('Límites conocidos y pendientes que se informan', 'ENTREGA/LIMITES.md'),
     ('Observaciones del equipo receptor', ''),
     ('Ajustes que hizo el equipo autor y paso que se volvió a probar', ''),
@@ -243,7 +244,6 @@ ARCHIVOS_LISTA = [
     ('src/datos_ejemplo.php', 'Datos ficticios'),
     ('src/esquema.sql', 'Esquema de la base'),
     ('instalar.php', 'Instalación'), ('respaldar.php', 'Respaldo'), ('restaurar.php', 'Restauración'),
-    ('comprobar_entrega.php', 'Comprobador de la entrega'),
 ]
 PRUEBAS_LISTA = ['php pruebas/prueba_contratos.php', 'php pruebas/prueba_garantias.php', 'php pruebas/prueba_respaldo.php']
 PRUEBAS_OPCIONALES = ['bash pruebas/prueba_http.sh (requiere bash y curl)', 'bash pruebas/prueba_in02.sh (requiere bash y curl)']
@@ -252,7 +252,7 @@ PRUEBAS_OPCIONALES = ['bash pruebas/prueba_http.sh (requiere bash y curl)', 'bas
 def lista_md(archivos=None, version=None):
     out = ['# Lista de entrega', '', 'Versión: ' + (version or VERSION), '', '## Archivos', '']
     out += ['- archivo: `%s` — %s' % a for a in (archivos or ARCHIVOS_LISTA)]
-    out += ['', '## Pruebas que acompañan la entrega (las ejecuta php comprobar_entrega.php)', '']
+    out += ['', '## Pruebas que acompañan la entrega (solo las ejecuta la herramienta del docente, en aislamiento)', '']
     out += ['- prueba: `%s`' % p for p in PRUEBAS_LISTA]
     out += ['', '## Pruebas opcionales', ''] + ['- %s' % p for p in PRUEBAS_OPCIONALES]
     return '\n'.join(out) + '\n'
@@ -262,7 +262,7 @@ def leeme_txt(titulo='Sistema de préstamos de la biblioteca escolar — PAQUETE
     return '\n'.join([titulo, 'Versión: ' + (version or VERSION), 'Datos ficticios. Prototipo educativo.', '',
                       'Por dónde empezar:', '  1. ENTREGA/INSTALAR.md   (instalación, paso a paso)',
                       '  2. ENTREGA/MANUAL.md     (cómo se usa, por tareas)', '  3. ENTREGA/LIMITES.md    (lo que no hace o no se probó)',
-                      '', 'Comprobar el paquete:   php comprobar_entrega.php', '',
+                      '', 'Revisión del paquete: la hace el docente con sus herramientas, fuera del paquete.', '',
                       'Procedencia y licencia: ENTREGA/PROCEDENCIA.md y ENTREGA/LICENCIA_BORRADOR.md (borrador).', ''])
 
 

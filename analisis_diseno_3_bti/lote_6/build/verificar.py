@@ -7,7 +7,7 @@ Bloques de los lotes anteriores, extendidos a los Capítulos 17 y 18: A índice 
 fuentes · F voseo y residuos · G maqueta (DOCX) · H maqueta (PDF) · I evaluaciones e instrumentos · J numeración ·
 L notaciones · T fragmentos de código · V pruebas y entorno · Q lotes 1 a 5 intactos.
 Bloques nuevos (plan del lote 6 y decisiones de Fernando del 21-oct-2026): P paquete modelo (D-1) · R reproducibilidad
-(guía como prueba, comprobador, Mbokaja) · LI licencias y procedencia (D-2) · H6 hito · D18 Capítulo 18 sin práctica ni
+(guía como prueba, herramientas del docente, pruebas negativas, Mbokaja) · LI licencias y procedencia (D-2) · H6 hito · D18 Capítulo 18 sin práctica ni
 prueba escrita (D-3, D-4) · TI planilla de tiempos (D-5) · V6 variantes reservadas · W recuperación y calendario."""
 import os, re, sys, json, collections, subprocess, hashlib
 sys.dont_write_bytecode = True
@@ -172,26 +172,51 @@ chk('C', 'Mbokaja U6: %d códigos nuevos (M-F13, MS-9, MS-10) que no repiten nin
 
 # ---------------------------------------------------------------- P. paquete modelo (D-1)
 pm = r6['paquete_modelo']
-chk('P', 'El paquete modelo es una copia de la referencia v2 con SC-02: código idéntico, solo cambian LEEME.txt y ENTREGA/ y se agrega el comprobador',
+chk('P', 'El paquete modelo es una copia de la referencia v2 con SC-02: código idéntico, solo cambian LEEME.txt y ENTREGA/',
     pm['codigo_identico'] and pm['distintos_del_origen'] == ['LEEME.txt'] and not pm['faltan_del_origen'])
 chk('P', 'Las referencias de los lotes 4 y 5 no cambiaron (git)', not git('status', '--porcelain', '--', 'lote_4', 'lote_5')
     and not git('diff', '--stat', 'b2aed1b', '--', 'lote_4', 'lote_5'))
 docs_ok = all(open(os.path.join(A.MODELO, ruta), encoding='utf8').read() == f() for ruta, f in E.DOCUMENTOS.items())
 chk('P', 'Los documentos del paquete salen de caso/entrega_u6.py (libro y paquete dicen lo mismo)', docs_ok)
-chk('P', 'El comprobador del paquete es el de lote_6/proyecto/ y tiene menos de 100 líneas de código',
-    leer(A.MODELO, 'comprobar_entrega.php') == leer(A.COMPROBADOR)
-    and len([l for l in leer(A.COMPROBADOR).split('\n') if l.strip() and not l.strip().startswith('//')]) < 100)
+chk('P', 'v1.1: ningún paquete trae un comprobador propio; las herramientas del docente viven fuera de los paquetes',
+    not [f_ for d_ in (A.MODELO, A.MBOKAJA) for r_, _, fs in os.walk(d_) for f_ in fs if 'comprobar_entrega' in f_
+         or f_ in ('inspeccionar_entrega.php', 'probar_en_aislamiento.php')]
+    and 'comprobar_entrega' not in j(E.PASOS) + j(E.ARCHIVOS_LISTA) + j(E.PROCEDENCIA) + E.leeme_txt()
+    and not os.path.exists(os.path.join(L6, 'proyecto', 'comprobar_entrega.php'))
+    and all(os.path.exists(os.path.join(L6, 'proyecto', 'herramientas', f_))
+            for f_ in ('inspeccionar_entrega.php', 'probar_en_aislamiento.php', 'LEEME.md')))
+insp, ejec = leer(L6, 'proyecto', 'herramientas', 'inspeccionar_entrega.php'), leer(L6, 'proyecto', 'herramientas', 'probar_en_aislamiento.php')
+# código PHP sin cadenas entre comillas simples ni comentarios (los ` de las expresiones regulares son texto, no el operador de consola)
+sin_cadenas = lambda s: re.sub(r'(?m)//.*$', '', re.sub(r"'(?:[^'\\]|\\.)*'", "''", s))
+chk('P', 'La inspección estática no ejecuta ni incluye nada (sin include, require, eval, exec, shell, proc_open, popen)',
+    not re.search(r'\b(include|require|eval|exec|shell_exec|system|passthru|proc_open|popen|pcntl_exec)\s*\(|`|\binclude\b|\brequire\b', sin_cadenas(insp)))
+chk('P', 'Las pruebas en aislamiento: lista cerrada propia, comando como lista de argumentos, sin consola, con tiempo límite y '
+    'negativa con cuenta de administrador',
+    "const PRUEBAS_PERMITIDAS = array('prueba_contratos', 'prueba_garantias', 'prueba_respaldo');" in ejec
+    and 'proc_open($comando' in ejec and '$comando = array(PHP_BINARY' in ejec
+    and not re.search(r'\b(shell_exec|system|passthru|exec|popen|eval)\s*\(|`', sin_cadenas(ejec))
+    and 'posix_geteuid() === 0' in ejec and 'proc_terminate' in ejec and 'isLink()' in ejec)
+leeme_h = leer(L6, 'proyecto', 'herramientas', 'LEEME.md')
+chk('P', 'Procedimiento de aislamiento documentado: equipo aislado sin red, cuenta estándar, copia descartable, registro y limpieza; Windows y laboratorios pendientes',
+    all(x in leeme_h for x in ('Inspección estática', 'sin red', 'Cuenta estándar', 'Copia descartable', 'Registro', 'Limpieza', 'pendientes')))
 chk('P', 'Ningún paquete trae una base de datos', not [f_ for d_ in (A.MODELO, A.MBOKAJA) for r_, _, fs in os.walk(d_)
                                                      for f_ in fs if f_.endswith(('.sqlite', '.db'))])
 
 # ---------------------------------------------------------------- R. reproducibilidad
-c = r6['comprobador']
-chk('R', 'Comprobador: 0 incoherencias en el paquete modelo', c['modelo']['codigo_salida'] == 0 and not c['modelo']['incoherencias'])
-chk('R', 'Comprobador: en el paquete de Mbokaja, exactamente las %d incoherencias de la clave (5 defectos)' % len(MB.incoherencias_esperadas()),
-    c['mbokaja']['exactas'] and c['mbokaja']['codigo_salida'] == 1 and len(MB.DEFECTOS) == 5)
-chk('R', 'Comprobador: con la clave aplicada, 0 incoherencias', c['mbokaja_corregido']['codigo_salida'] == 0 and not c['mbokaja_corregido']['incoherencias'])
+c = r6['herramientas']
+limpio = lambda x: all(x[k]['codigo_salida'] == 0 and not x[k]['incoherencias'] for k in ('inspeccion', 'aislamiento'))
+chk('R', 'Herramientas del docente: 0 incoherencias en el paquete modelo (inspección y pruebas en aislamiento)', limpio(c['modelo']))
+chk('R', 'Herramientas: en el paquete de Mbokaja, exactamente las %d incoherencias de la clave (5 defectos): 5 de la inspección y 1 de las pruebas en aislamiento' % len(MB.incoherencias_esperadas()),
+    c['mbokaja']['exactas'] and len(MB.DEFECTOS) == 5 and len(c['mbokaja']['inspeccion']['incoherencias']) == 5
+    and len(c['mbokaja']['aislamiento']['incoherencias']) == 1)
+chk('R', 'Herramientas: con la clave aplicada, 0 incoherencias', limpio(c['mbokaja_corregido']))
+pn = r6['pruebas_negativas']
+chk('R', 'Pruebas negativas de las herramientas: %d de %d correctas (inyección, guía maliciosa, efectos al incluir, rutas, enlaces, administrador, tiempo límite, paquete intacto, lista cerrada, red)'
+    % (sum(x['correcto'] for x in pn), len(pn)), len(pn) == 10 and all(x['correcto'] for x in pn))
+chk('R', 'La guía como prueba corrió aislada (sin red y con la cuenta nobody)',
+    all('sin red' in (r6['guia'][k].get('aislamiento') or '') and 'nobody' in r6['guia'][k]['aislamiento'] for k in r6['guia']))
 g = r6['guia']
-chk('R', 'Guía como prueba: el paquete modelo y el de Mbokaja corregido se instalan siguiendo solo su guía (8 de 8 pasos)',
+chk('R', 'Guía como prueba: el paquete modelo y el de Mbokaja corregido se instalan siguiendo solo su guía (7 de 7 pasos)',
     all(g[k]['correctos'] == g[k]['total'] == len(E.PASOS) for k in ('modelo', 'mbokaja_corregido')))
 chk('R', 'Guía como prueba: el paquete con defectos NO se puede instalar siguiendo su guía', g['mbokaja_con_defectos']['correctos'] < len(E.PASOS))
 chk('R', 'Las únicas adaptaciones de la prueba de la guía son el puerto y el nombre del respaldo, y se informan',
@@ -226,7 +251,7 @@ chk('LI', 'Las versiones de la ficha son las del entorno donde corrieron las pru
     and e6['curl'].replace('curl ', 'curl ') in j(E.PROCEDENCIA) and '5.2.21' in e6['bash'])
 chk('LI', 'Licencias verificadas: PHP 8.3.6 «The PHP License, version 3.01»; SQLite 3.45.1 dominio público; curl 8.5.0 aviso propio; bash GPLv3+',
     all(x in j(E.PROCEDENCIA) for x in ('The PHP License, version 3.01', 'dominio público', 'COPYRIGHT AND PERMISSION NOTICE', 'GPLv3+')))
-chk('LI', 'El paquete no trae recursos sin procedencia (el comprobador lo controla con el bloque D)', not c['modelo']['incoherencias'])
+chk('LI', 'El paquete no trae recursos sin procedencia (la inspección estática lo controla con el bloque D)', not c['modelo']['inspeccion']['incoherencias'])
 
 # ---------------------------------------------------------------- H6
 rh = I.RUBRICA_H6
@@ -257,13 +282,24 @@ chk('D18', 'Preguntas de transferencia con los cuatro proyectos alternativos de 
 
 # ---------------------------------------------------------------- TI. planilla de tiempos (D-5)
 xl = os.path.join(L6, 'instrumentos', 'planilla_tiempos_encuentro_35.xlsx')
-casos = [I.EJEMPLO_TIEMPOS, dict(I.EJEMPLO_TIEMPOS, estudiantes=18), dict(I.EJEMPLO_TIEMPOS, estudiantes=40, recuperaciones=8)]
-resultados = [PT.comprobar(cc) for cc in casos]
+casos_pt = PT.comprobar_casos()
 PT.escribir()
-chk('TI', 'La planilla XLSX existe y sus fórmulas, recalculadas por un evaluador independiente, coinciden con el cálculo de la guía en tres casos',
-    os.path.exists(xl) and all(b for rr in resultados for *_, b in rr))
-alts = [[x for x in rr if x[0] == 'Alternativa'][0][2] for rr in resultados]
-chk('TI', 'Los tres casos ejercitan las tres alternativas (A, B y B + calendario institucional)', alts == ['B', 'A', 'B + calendario institucional autorizado'], alts)
+chk('TI', 'La planilla XLSX existe y sus fórmulas, recalculadas por un evaluador independiente, coinciden con el cálculo de la guía en los %d casos (límites A/B y B/B+, demostraciones excedidas, datos inválidos)' % len(casos_pt),
+    os.path.exists(xl) and len(casos_pt) == 11 and all(b for _, b, _ in casos_pt), [n for n, b, _ in casos_pt if not b])
+ej = I.tiempos(**I.EJEMPLO_TIEMPOS)
+chk('TI', 'Ejemplo de control (v1.1): pasan 2 defensas enteras = 12 minutos; con 5 recuperaciones de 15 minutos quedan 48 (no 51)',
+    ej['defensas_que_pasan_al_36'] == 2 and ej['minutos_trasladados_al_36'] == 12 and ej['diferencia_36'] == 48
+    and 'quedan 48 minutos' in tG and '51' not in j(GU.tabla_tiempos_ejemplo()))
+casos = [I.EJEMPLO_TIEMPOS, dict(I.EJEMPLO_TIEMPOS, estudiantes=18), dict(I.EJEMPLO_TIEMPOS, estudiantes=40, recuperaciones=8)]
+alts = [I.tiempos(**cc)['alternativa'] for cc in casos]
+chk('TI', 'Tres casos ejercitan las tres alternativas (A, B y B + calendario institucional)', alts == ['B', 'A', 'B + calendario institucional autorizado'], alts)
+invalidos = []
+for mal in (dict(I.EJEMPLO_TIEMPOS, min_defensa=0), dict(I.EJEMPLO_TIEMPOS, estudiantes=-1), dict(I.EJEMPLO_TIEMPOS, equipos=True)):
+    try:
+        I.tiempos(**mal); invalidos.append(False)
+    except ValueError:
+        invalidos.append(True)
+chk('TI', 'Datos inválidos (0 minutos por defensa, negativos, no enteros) se rechazan: no hay división por cero', all(invalidos))
 chk('TI', 'La planilla pide cantidad de equipos, estudiantes, minutos de la HC y por defensa; no supone la duración de la HC',
     [k for k, *_ in I.TIEMPOS_CAMPOS][:6] == ['equipos', 'estudiantes', 'min_hc', 'min_demo', 'min_cambio', 'min_defensa']
     and 'no se supone' in j(I.TIEMPOS_CAMPOS) and 'no son la duración de la HC de ninguna institución' in tG)
@@ -380,7 +416,7 @@ for nombre, d in (('libro', dE), ('guía', dG), ('cuaderno', dC)):
     chk('G', '%s: %d tablas y bloques de código al ancho útil' % (nombre, len(tablas)), not malas_t, malas_t)
 chk('G', 'Se usan la maqueta del lote 1, el perfil O3 del lote 2 y las piezas del lote 4 (sin copias)',
     os.path.dirname(O.H.__file__).endswith(os.path.join('lote_1', 'build')) and os.path.dirname(B.Z.Z4.__file__).endswith(os.path.join('lote_4', 'build')))
-chk('G', 'Portada: versión del lote 6 en los tres documentos', all('v1.0 (lote 6, para auditoría)' in t for t in (tE, tG, tC)))
+chk('G', 'Portada: versión del lote 6 en los tres documentos', all('v1.1 (lote 6, cierre de auditoría)' in t for t in (tE, tG, tC)))
 
 
 # ---------------------------------------------------------------- H. maqueta (PDF)
@@ -461,6 +497,10 @@ for lote, n in (('lote_3', 3), ('lote_4', 4), ('lote_5', 5)):
     docs = [a for a in m_['archivos'] if a['ruta'].startswith('ADS_3BTI_LOTE%d_' % n)]
     chk('Q', 'Lote %d: sus seis DOCX y PDF coinciden con su manifiesto SHA-256' % n,
         len(docs) == 6 and all(hashlib.sha256(open(os.path.join(ADS, lote, a['ruta']), 'rb').read()).hexdigest() == a['sha256'] for a in docs))
+m10 = json.load(open(os.path.join(L6, 'version_1_0', 'MANIFIESTO_LOTE_6.json'), encoding='utf8'))
+v10 = [a_ for a_ in m10['archivos'] if os.path.exists(os.path.join(L6, 'version_1_0', a_['ruta']))]
+chk('Q', 'Lote 6 v1.0 intacto en version_1_0/: %d archivos coinciden con su manifiesto SHA-256' % len(v10),
+    len(v10) >= 40 and all(hashlib.sha256(open(os.path.join(L6, 'version_1_0', a_['ruta']), 'rb').read()).hexdigest() == a_['sha256'] for a_ in v10))
 chk('Q', 'No se construyeron el tomo anual ni los planes de clase', not os.path.exists(os.path.join(ADS, 'coleccion'))
     and not [f_ for f_ in os.listdir(os.path.join(ADS, 'planes_clase')) if f_.endswith('.docx')])
 
