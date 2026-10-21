@@ -9,9 +9,10 @@ Fuentes, transcritas sin cambios:
   - §5.2: foco, evidencia y capacidades de cada encuentro;
   - §6: índice de capítulos y secciones.
 - `fase2_pilotos/C_informe_esfuerzo/v2_1/distribucion_36.csv`: HC por categoría de cada encuentro.
-- Fichas de los capítulos construidos: `lote_1/build/cap1.py` a `cap3.py` (Unidad I) y `lote_2/build/cap4.py` a
-  `cap6.py` (Unidad II, versión de referencia aceptada por Fernando el 20-oct-2026). Los módulos se importan y se leen
-  sus claves (INDICADORES, TITULO, ENCUENTROS, ROTULO_CAPACIDAD): ningún indicador se transcribe a mano.
+- Fichas de los capítulos construidos: `lote_1/build/cap1.py` a `cap3.py` (Unidad I), `lote_2/build/cap4.py` a
+  `cap6.py` (Unidad II, versión de referencia aceptada por Fernando el 20-oct-2026) y `lote_3/build/cap7.py` a
+  `cap9.py` (Unidad III, lote 3 para auditoría). Los módulos se importan y se leen sus claves (INDICADORES, TITULO,
+  ENCUENTROS, ROTULO_CAPACIDAD): ningún indicador se transcribe a mano.
 
 Regla de rotulado:
 - todo lo de Work §4 y §6 es propuesta editorial para el programa institucional (columna «Origen»);
@@ -26,6 +27,7 @@ import csv
 import importlib.util
 import io
 import os
+import re
 import sys
 
 AQUI = os.path.dirname(os.path.abspath(__file__))
@@ -215,7 +217,8 @@ ANTECEDENTES_MEC = {
 
 # Indicadores ya escritos en las fichas de los capítulos construidos (se leen del código, no se transcriben a mano)
 FICHAS = {1: 'lote_1/build/cap1.py', 2: 'lote_1/build/cap2.py', 3: 'lote_1/build/cap3.py',
-          4: 'lote_2/build/cap4.py', 5: 'lote_2/build/cap5.py', 6: 'lote_2/build/cap6.py'}
+          4: 'lote_2/build/cap4.py', 5: 'lote_2/build/cap5.py', 6: 'lote_2/build/cap6.py',
+          7: 'lote_3/build/cap7.py', 8: 'lote_3/build/cap8.py', 9: 'lote_3/build/cap9.py'}
 
 
 def cargar_ficha(n, ruta):
@@ -270,7 +273,10 @@ def main():
         chk(tuple(m.ENCUENTROS) == tuple(encs), f'Capítulo {n}: los encuentros de la ficha no son los de Work')
         chk(ind[n] and all(isinstance(i, str) and i for i in ind[n]), f'Capítulo {n}: indicadores vacíos')
         caps = set().union(*(caps_de(dist[e - 1]['capacidades_work']) for e in encs))
-        chk(all(c in m.ROTULO_CAPACIDAD for c in caps), f'Capítulo {n}: la ficha no rotula las capacidades de Work §5.2 {sorted(caps)}')
+        rot = set(re.findall(r'C\d+', m.ROTULO_CAPACIDAD))
+        for a, z in re.findall(r'C(\d+) a C(\d+)', m.ROTULO_CAPACIDAD):   # «C1 a C7» rotula del C1 al C7
+            rot |= {f'C{k}' for k in range(int(a), int(z) + 1)}
+        chk(caps <= rot, f'Capítulo {n}: la ficha no rotula las capacidades de Work §5.2 {sorted(caps - rot)}')
         chk('no son capacidades oficiales del MEC' in m.ROTULO_CAPACIDAD or 'no es una capacidad oficial del MEC' in m.ROTULO_CAPACIDAD, f'Capítulo {n}: el rótulo no aclara que no son capacidades oficiales')
     if fallos:
         print('FALLAS:\n- ' + '\n- '.join(fallos)); sys.exit(1)
@@ -334,7 +340,7 @@ def main():
            '- En cada criterio, 60 % de evidencia del producto compartido y 40 % de evidencia individual (propuesta editorial).',
            '- Niveles de desempeño: 4 Sólido, 3 Logrado, 2 En desarrollo, 1 Inicial; la ausencia de evidencia se registra aparte.', '',
            '## 7. Lo que falta para el plan anual definitivo', '',
-           '- Indicadores de los Capítulos 7 a 18: se fijan en la ficha de cada capítulo al construirlo (unicidad y verificabilidad).',
+           '- Indicadores de los Capítulos 10 a 18: se fijan en la ficha de cada capítulo al construirlo (unicidad y verificabilidad).',
            '- Procedimientos e instrumentos por encuentro, con unicidad dentro del año (como en el formato canónico de la colección).',
            '- Calendario por etapas del año escolar y adaptación de 28 encuentros (distribución v2.1, `distribucion_28.csv`).',
            '- Maquetación en oficio con el formato canónico de la colección, y cotejo con las fichas del libro aprobado.']

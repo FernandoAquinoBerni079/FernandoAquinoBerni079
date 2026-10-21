@@ -125,7 +125,7 @@ HC por categoría (distribución v2.1): A análisis · D diseño · P programaci
 - **Capacidades del capítulo:** C5 (propuestas).
 - **Secciones (Work §6):** 7.1. Recuperación aplicada de modelos de Algorítmica. 7.2. Obra/edición, ejemplar, lector y préstamo: identidad y responsabilidad. 7.3. Relaciones, restricciones, historial y diccionario de datos. 7.4. Revisión de normalización con ejemplos del proyecto.
 - **Cierre:** Práctica: justificar el modelo frente a pérdida, devolución y duplicación de solicitudes.
-- **Indicadores:** Pendiente: se fijan en la ficha del capítulo (referencia: indicadores de Work §4.2 de C5).
+- **Indicadores:** Distingue obra, edición y ejemplar, y vincula cada préstamo a un ejemplar físico. | Justifica las claves y las relaciones del modelo con las reglas y los requisitos del catálogo v1.1. | Expresa las reglas de préstamo como restricciones de integridad y conserva el historial sin borrar registros. | Documenta cada dato en un diccionario con su significado, su obligatoriedad y el requisito que lo pide. | Detecta una anomalía en datos del proyecto y corrige el diseño. _(de lote_3/build/cap7.py)_
 - **Antecedentes MEC con los que se articula** (páginas según Work §3; asignación al capítulo propuesta por esta estructura): Algorítmica 3.º, pp. 77-79 (DER, integridad, normalización; concurrente).
 
 | Encuentro | Foco (Work §5.2) | Capacidades | Evidencia o evaluación (Work §5.2) | A | D | P | V | Doc | G | E |
@@ -138,7 +138,7 @@ HC por categoría (distribución v2.1): A análisis · D diseño · P programaci
 - **Capacidades del capítulo:** C6, C9 (propuestas).
 - **Secciones (Work §6):** 8.1. Recorridos de usuario y organización de pantallas. 8.2. Bocetos y prototipo de baja fidelidad. 8.3. Estados vacío, carga, error y confirmación. 8.4. Etiquetas, navegación por teclado y lectura comprensible.
 - **Cierre:** Práctica: observar el uso del boceto y modificarlo con evidencia.
-- **Indicadores:** Pendiente: se fijan en la ficha del capítulo (referencia: indicadores de Work §4.2 de C6, C9).
+- **Indicadores:** Traza tres recorridos completos a partir de los casos de uso prioritarios y organiza las pantallas en un mapa de navegación con zonas por rol. | Dibuja bocetos de baja fidelidad que muestran qué va en cada pantalla y qué requisito lo pide. | Muestra los estados vacío, carga, error y confirmación, con mensajes que dicen qué pasó, por qué y qué hacer. | Aplica una lista de accesibilidad: etiquetas visibles, uso con teclado, foco visible y mensajes que no dependen del color. | Observa el uso del boceto con usuarios simulados, registra los problemas con evidencia y corrige el diseño. _(de lote_3/build/cap8.py)_
 - **Antecedentes MEC con los que se articula** (páginas según Work §3; asignación al capítulo propuesta por esta estructura): Laboratorio 1.º, pp. 39-40 (HTML/CSS, formularios).
 
 | Encuentro | Foco (Work §5.2) | Capacidades | Evidencia o evaluación (Work §5.2) | A | D | P | V | Doc | G | E |
@@ -151,7 +151,7 @@ HC por categoría (distribución v2.1): A análisis · D diseño · P programaci
 - **Capacidades del capítulo:** C1, C2, C3, C4, C5, C6, C7 (propuestas).
 - **Secciones (Work §6):** 9.1. Presentación, reglas de negocio y persistencia. 9.2. Responsabilidades, entradas, salidas y contratos de operaciones. 9.3. Entorno, dependencias y decisiones técnicas justificadas. 9.4. Coherencia entre requisitos, datos e interfaces.
 - **Cierre:** Evaluación integradora de la primera etapa: defensa y corrección del dossier; H3.
-- **Indicadores:** Pendiente: se fijan en la ficha del capítulo (referencia: indicadores de Work §4.2 de C1, C2, C3, C4, C5, C6, C7).
+- **Indicadores:** Identifica qué hace la presentación, qué deciden las reglas de negocio y qué guarda la persistencia, y ubica cada regla del caso. | Escribe el contrato de una operación con sus entradas, precondiciones, resultado, errores y requisitos vinculados. | Registra una decisión técnica con su contexto, las condiciones excluyentes, las opciones, la decisión y sus consecuencias. | Comprueba la coherencia entre requisitos, datos, pantallas, operaciones y pruebas, y corrige los huecos. | Defiende el dossier de las Unidades I a III y resuelve individualmente una variante no vista. _(de lote_3/build/cap9.py)_
 - **Antecedentes MEC con los que se articula** (páginas según Work §3; asignación al capítulo propuesta por esta estructura): Laboratorio 3.º, pp. 52-54 (ciclo de vida, responsabilidades); Laboratorio 2.º, pp. 50-52 (servidor web).
 
 | Encuentro | Foco (Work §5.2) | Capacidades | Evidencia o evaluación (Work §5.2) | A | D | P | V | Doc | G | E |
@@ -291,7 +291,7 @@ HC por categoría (distribución v2.1): A análisis · D diseño · P programaci
 
 ## 7. Lo que falta para el plan anual definitivo
 
-- Indicadores de los Capítulos 7 a 18: se fijan en la ficha de cada capítulo al construirlo (unicidad y verificabilidad).
+- Indicadores de los Capítulos 10 a 18: se fijan en la ficha de cada capítulo al construirlo (unicidad y verificabilidad).
 - Procedimientos e instrumentos por encuentro, con unicidad dentro del año (como en el formato canónico de la colección).
 - Calendario por etapas del año escolar y adaptación de 28 encuentros (distribución v2.1, `distribucion_28.csv`).
 - Maquetación en oficio con el formato canónico de la colección, y cotejo con las fichas del libro aprobado.

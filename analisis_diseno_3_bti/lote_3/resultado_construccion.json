@@ -1,0 +1,367 @@
+{
+ "perfil": {
+  "nombre": "O3",
+  "papel": [
+   21.59,
+   33.02
+  ],
+  "interior": 2.5,
+  "exterior": 1.8,
+  "superior": 1.5,
+  "inferior": 1.5,
+  "espejo": true
+ },
+ "ancho_util": 17.29,
+ "tablas_en_hoja_nueva": [],
+ "columnas_ensanchadas": [
+  {
+   "tabla": "Entidad",
+   "columna": 5,
+   "antes_cm": 2.5,
+   "despues_cm": 2.56
+  },
+  {
+   "tabla": "Operación",
+   "columna": 1,
+   "antes_cm": 1.67,
+   "despues_cm": 1.8
+  }
+ ],
+ "paginas_libro": {
+  "Unidad III — Diseñar una solución coherente": 3,
+  "Capítulo 7 — Datos que representan las reglas": 4,
+  "Encuentro 13 — Antecedentes de Algorítmica y modelo del dominio": 4,
+  "7.1 Recuperación aplicada de modelos de Algorítmica": 4,
+  "7.2 Obra/edición, ejemplar, lector y préstamo: identidad y responsabilidad": 5,
+  "Encuentro 14 — Integridad, historial y diccionario": 7,
+  "7.3 Relaciones, restricciones, historial y diccionario de datos": 7,
+  "7.4 Revisión de normalización con ejemplos del proyecto": 9,
+  "Práctica 7 — Justificar el modelo de otra biblioteca frente a pérdida, devolución y duplicación": 12,
+  "Evaluación del Capítulo 7": 14,
+  "Capítulo 8 — Diseñar para las tareas de las personas": 15,
+  "Encuentro 15 — Recorridos, pantallas y bocetos": 15,
+  "8.1 Recorridos de usuario y organización de pantallas": 15,
+  "8.2 Bocetos y prototipo de baja fidelidad": 17,
+  "Encuentro 16 — Estados, mensajes, accesibilidad y revisión con usuarios": 19,
+  "8.3 Estados vacío, carga, error y confirmación": 19,
+  "8.4 Etiquetas, navegación por teclado y lectura comprensible": 21,
+  "Práctica 8 — Observar el uso del boceto en otra biblioteca y modificarlo con evidencia": 23,
+  "Evaluación del Capítulo 8": 25,
+  "Capítulo 9 — Arquitectura y revisión del diseño": 26,
+  "Encuentro 17 — Responsabilidades, contratos y entorno": 26,
+  "9.1 Presentación, reglas de negocio y persistencia": 26,
+  "9.2 Responsabilidades, entradas, salidas y contratos de operaciones": 27,
+  "9.3 Entorno, dependencias y decisiones técnicas justificadas": 28,
+  "9.4 Coherencia entre requisitos, datos e interfaces": 29,
+  "Práctica 9 — Contrato de devolución y entorno para otra biblioteca (complemento editorial)": 31,
+  "Encuentro 18 — Evaluación integradora de la primera etapa": 33,
+  "Evaluación integradora de la primera etapa — Hito H3: dossier consistente y evidencia individual": 33,
+  "Evaluación del Capítulo 9": 35
+ },
+ "paginas": {
+  "libro": 35,
+  "guia": 16,
+  "cuaderno": 7
+ },
+ "claves": [
+  [
+   "ADS3-L3-C7",
+   1,
+   "b",
+   "Porque así cada devolución cierra el préstamo de ese libro físico."
+  ],
+  [
+   "ADS3-L3-C7",
+   2,
+   "c",
+   "Si un ejemplar está disponible."
+  ],
+  [
+   "ADS3-L3-C7",
+   3,
+   "b",
+   "una restricción de integridad."
+  ],
+  [
+   "ADS3-L3-C7",
+   4,
+   "d",
+   "Nada: el curso queda vacío y el tipo de lector dice que es docente."
+  ],
+  [
+   "ADS3-L3-C7",
+   5,
+   "F",
+   "Falso. Se completa la fecha de devolución y el préstamo queda en el historial (RN-05)."
+  ],
+  [
+   "ADS3-L3-C7",
+   6,
+   "V",
+   "Verdadero. También dice si es obligatorio y da un ejemplo."
+  ],
+  [
+   "ADS3-L3-C7",
+   7,
+   "F",
+   "Falso. El vencimiento se calcula al prestar y se guarda (RI-07): los préstamos hechos no cambian."
+  ],
+  [
+   "ADS3-L3-C7",
+   8,
+   "abierta",
+   "Entidades: Espacio, Docente, Reserva (y Franja, si se la modela aparte). Relaciones: un espacio tiene N reservas; un docente hace N reservas; cada reserva es de un espacio, de un docente, en una fecha y una franja. Un punto por cada entidad bien elegida (hasta 2) y uno por cada relación con su cardinalidad (hasta 2)."
+  ],
+  [
+   "ADS3-L3-C7",
+   9,
+   "abierta",
+   "La cancelación no borra la reserva: le agrega quién la canceló y la fecha, y la reserva queda cancelada. Restricción: un espacio tiene, como máximo, una reserva no cancelada por fecha y franja. Un punto por no borrar, uno por quién, uno por cuándo y uno por la restricción, que tiene que excluir las canceladas."
+  ],
+  [
+   "ADS3-L3-C8",
+   1,
+   "a",
+   "La acción con la que la persona pasa de una pantalla a otra."
+  ],
+  [
+   "ADS3-L3-C8",
+   2,
+   "d",
+   "No se puede enviar: falta el curso. Elegilo en la lista."
+  ],
+  [
+   "ADS3-L3-C8",
+   3,
+   "c",
+   "Carga."
+  ],
+  [
+   "ADS3-L3-C8",
+   4,
+   "d",
+   "Que Tab siga el orden de la tarea y el foco se vea."
+  ],
+  [
+   "ADS3-L3-C8",
+   5,
+   "F",
+   "Falso. Sus flechas llevan la acción, con verbo; las del contexto llevan la información, con sustantivo."
+  ],
+  [
+   "ADS3-L3-C8",
+   6,
+   "V",
+   "Verdadero. Cada problema necesita su evidencia."
+  ],
+  [
+   "ADS3-L3-C8",
+   7,
+   "F",
+   "Falso. Se usan cajas grises; el aspecto se decide después."
+  ],
+  [
+   "ADS3-L3-C8",
+   8,
+   "abierta",
+   "Recorrido: el estudiante completa el pedido (nombre, curso, motivo) y lo envía; recibe una confirmación; más tarde consulta el estado y ve «en preparación» o «lista». Mapa: inicio → «Pedir constancia» → «Pedido enviado» → «Estado del pedido», con flechas rotuladas con verbos; la pantalla de la secretaria en una zona propia. Un punto por el recorrido completo, uno por las tres pantallas, uno por las flechas con acción y uno por la zona de la secretaria."
+  ],
+  [
+   "ADS3-L3-C8",
+   9,
+   "abierta",
+   "Vacío: «Escribí tu número de pedido para ver cómo va.» Carga: «Buscando tu pedido…». Error: «No encontramos ese número de pedido. Revisá el número que te dieron al enviarlo.» Confirmación: «Tu constancia está lista: retirala en la secretaría a partir de las 8:00.» Un punto por estado con un mensaje que dice qué pasó y qué hacer."
+  ],
+  [
+   "ADS3-L3-C9",
+   1,
+   "b",
+   "Las reglas de negocio."
+  ],
+  [
+   "ADS3-L3-C9",
+   2,
+   "b",
+   "Una precondición."
+  ],
+  [
+   "ADS3-L3-C9",
+   3,
+   "c",
+   "Las condiciones excluyentes."
+  ],
+  [
+   "ADS3-L3-C9",
+   4,
+   "d",
+   "algo que falta diseñar."
+  ],
+  [
+   "ADS3-L3-C9",
+   5,
+   "F",
+   "Falso. Las reglas y los permisos se comprueban en el servidor, aunque alguien no use la pantalla."
+  ],
+  [
+   "ADS3-L3-C9",
+   6,
+   "V",
+   "Verdadero. Cada error tiene su mensaje en la pantalla."
+  ],
+  [
+   "ADS3-L3-C9",
+   7,
+   "F",
+   "Falso. Se descartan primero las opciones que no cumplen las condiciones excluyentes y se escriben las razones."
+  ],
+  [
+   "ADS3-L3-C9",
+   8,
+   "abierta",
+   "Entradas: código del kit, docente, cuenta. Precondición: la cuenta es de la encargada (U-3). Resultado: préstamo registrado y kit no disponible. Errores: kit incompleto (U-2), kit ya prestado, sin permiso (U-3). Un punto por entradas, uno por la precondición, uno por el resultado y uno por los errores con su fuente."
+  ],
+  [
+   "ADS3-L3-C9",
+   9,
+   "abierta",
+   "Contexto: sin internet ni presupuesto (U-4). Condiciones excluyentes: funcionar sin conexión y sin costo. Opciones: por ejemplo, aplicación local y planilla. Decisión con su razón y una consecuencia (instalación, respaldo o quién lo mantiene). Un punto por contexto, uno por las condiciones, uno por las opciones y uno por la decisión con su consecuencia. No se aceptan puntajes."
+  ]
+ ],
+ "simbolos": {
+  "fig_7_1": {
+   "notacion": "der",
+   "simbolos": {
+    "der_entidad": 7,
+    "der_relacion": 4,
+    "der_linea": 8,
+    "der_cardinalidad": 8
+   }
+  },
+  "fig_7_2": {
+   "notacion": "esquema",
+   "simbolos": {}
+  },
+  "fig_7_3": {
+   "notacion": "esquema",
+   "simbolos": {}
+  },
+  "fig_8_1": {
+   "notacion": "navegacion",
+   "simbolos": {
+    "nav_zona": 3,
+    "nav_inicio": 1,
+    "nav_transicion": 11,
+    "nav_pantalla": 9
+   }
+  },
+  "fig_8_2": {
+   "notacion": "boceto",
+   "simbolos": {
+    "boc_marco": 3,
+    "boc_campo": 4,
+    "boc_boton": 5,
+    "boc_mensaje": 3
+   }
+  },
+  "fig_8_3": {
+   "notacion": "boceto",
+   "simbolos": {
+    "boc_marco": 4,
+    "boc_campo": 8,
+    "boc_boton": 8,
+    "boc_mensaje": 4
+   }
+  },
+  "fig_9_1": {
+   "notacion": "capas",
+   "simbolos": {
+    "capa_banda": 3,
+    "capa_operacion": 12
+   }
+  },
+  "leyenda:der_entidad": {
+   "notacion": "der",
+   "simbolos": {
+    "der_entidad": 1
+   }
+  },
+  "leyenda:der_relacion": {
+   "notacion": "der",
+   "simbolos": {
+    "der_relacion": 1
+   }
+  },
+  "leyenda:der_cardinalidad": {
+   "notacion": "der",
+   "simbolos": {
+    "der_cardinalidad": 1
+   }
+  },
+  "leyenda:der_linea": {
+   "notacion": "der",
+   "simbolos": {
+    "der_linea": 1
+   }
+  },
+  "leyenda:nav_pantalla": {
+   "notacion": "navegacion",
+   "simbolos": {
+    "nav_pantalla": 1
+   }
+  },
+  "leyenda:nav_transicion": {
+   "notacion": "navegacion",
+   "simbolos": {
+    "nav_transicion": 1
+   }
+  },
+  "leyenda:nav_inicio": {
+   "notacion": "navegacion",
+   "simbolos": {
+    "nav_inicio": 1
+   }
+  },
+  "leyenda:nav_zona": {
+   "notacion": "navegacion",
+   "simbolos": {
+    "nav_zona": 1
+   }
+  },
+  "leyenda:boc_marco": {
+   "notacion": "boceto",
+   "simbolos": {
+    "boc_marco": 1
+   }
+  },
+  "leyenda:boc_campo": {
+   "notacion": "boceto",
+   "simbolos": {
+    "boc_campo": 1
+   }
+  },
+  "leyenda:boc_boton": {
+   "notacion": "boceto",
+   "simbolos": {
+    "boc_boton": 1
+   }
+  },
+  "leyenda:boc_mensaje": {
+   "notacion": "boceto",
+   "simbolos": {
+    "boc_mensaje": 1
+   }
+  },
+  "leyenda:capa_banda": {
+   "notacion": "capas",
+   "simbolos": {
+    "capa_banda": 1
+   }
+  },
+  "leyenda:capa_operacion": {
+   "notacion": "capas",
+   "simbolos": {
+    "capa_operacion": 1
+   }
+  }
+ }
+}

@@ -1,0 +1,137 @@
+{
+ "fig_7_1": {
+  "notacion": "der",
+  "simbolos": {
+   "der_entidad": 7,
+   "der_relacion": 4,
+   "der_linea": 8,
+   "der_cardinalidad": 8
+  }
+ },
+ "fig_7_2": {
+  "notacion": "esquema",
+  "simbolos": {}
+ },
+ "fig_7_3": {
+  "notacion": "esquema",
+  "simbolos": {}
+ },
+ "fig_8_1": {
+  "notacion": "navegacion",
+  "simbolos": {
+   "nav_zona": 3,
+   "nav_inicio": 1,
+   "nav_transicion": 11,
+   "nav_pantalla": 9
+  }
+ },
+ "fig_8_2": {
+  "notacion": "boceto",
+  "simbolos": {
+   "boc_marco": 3,
+   "boc_campo": 4,
+   "boc_boton": 5,
+   "boc_mensaje": 3
+  }
+ },
+ "fig_8_3": {
+  "notacion": "boceto",
+  "simbolos": {
+   "boc_marco": 4,
+   "boc_campo": 8,
+   "boc_boton": 8,
+   "boc_mensaje": 4
+  }
+ },
+ "fig_9_1": {
+  "notacion": "capas",
+  "simbolos": {
+   "capa_banda": 3,
+   "capa_operacion": 12
+  }
+ },
+ "leyenda:der_entidad": {
+  "notacion": "der",
+  "simbolos": {
+   "der_entidad": 1
+  }
+ },
+ "leyenda:der_relacion": {
+  "notacion": "der",
+  "simbolos": {
+   "der_relacion": 1
+  }
+ },
+ "leyenda:der_cardinalidad": {
+  "notacion": "der",
+  "simbolos": {
+   "der_cardinalidad": 1
+  }
+ },
+ "leyenda:der_linea": {
+  "notacion": "der",
+  "simbolos": {
+   "der_linea": 1
+  }
+ },
+ "leyenda:nav_pantalla": {
+  "notacion": "navegacion",
+  "simbolos": {
+   "nav_pantalla": 1
+  }
+ },
+ "leyenda:nav_transicion": {
+  "notacion": "navegacion",
+  "simbolos": {
+   "nav_transicion": 1
+  }
+ },
+ "leyenda:nav_inicio": {
+  "notacion": "navegacion",
+  "simbolos": {
+   "nav_inicio": 1
+  }
+ },
+ "leyenda:nav_zona": {
+  "notacion": "navegacion",
+  "simbolos": {
+   "nav_zona": 1
+  }
+ },
+ "leyenda:boc_marco": {
+  "notacion": "boceto",
+  "simbolos": {
+   "boc_marco": 1
+  }
+ },
+ "leyenda:boc_campo": {
+  "notacion": "boceto",
+  "simbolos": {
+   "boc_campo": 1
+  }
+ },
+ "leyenda:boc_boton": {
+  "notacion": "boceto",
+  "simbolos": {
+   "boc_boton": 1
+  }
+ },
+ "leyenda:boc_mensaje": {
+  "notacion": "boceto",
+  "simbolos": {
+   "boc_mensaje": 1
+  }
+ },
+ "leyenda:capa_banda": {
+  "notacion": "capas",
+  "simbolos": {
+   "capa_banda": 1
+  }
+ },
+ "leyenda:capa_operacion": {
+  "notacion": "capas",
+  "simbolos": {
+   "capa_operacion": 1
+  }
+ }
+}
