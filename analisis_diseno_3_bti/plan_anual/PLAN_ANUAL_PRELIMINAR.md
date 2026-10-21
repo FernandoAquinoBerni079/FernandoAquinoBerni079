@@ -255,7 +255,7 @@ HC por categoría (distribución v2.1): A análisis · D diseño · P programaci
 - **Capacidades del capítulo:** C7, C10 (propuestas).
 - **Secciones (Work §6):** 17.1. Guía de instalación, configuración y ejecución. 17.2. Manual breve basado en tareas. 17.3. Respaldo, restauración, licencias y registro de procedencia. 17.4. Prueba de instalación por otro equipo y acta de entrega simulada.
 - **Cierre:** Práctica: entregar código, datos, pruebas y documentación coherentes; H6.
-- **Indicadores:** Pendiente: se fijan en la ficha del capítulo (referencia: indicadores de Work §4.2 de C7, C10).
+- **Indicadores:** Escribe una guía de instalación con requisitos, comandos exactos, resultado esperado y qué hacer si falla, y la prueba al pie de la letra en una carpeta limpia. | Escribe un manual por tareas que una persona ajena al desarrollo puede seguir, con el significado de cada mensaje. | Documenta el respaldo y la restauración como tareas y registra la procedencia y la licencia de cada recurso. | Instala el paquete de otro equipo sin ayuda, registra cada paso con su mensaje y completa el acta de entrega. | Corrige el paquete con lo observado y entrega código, datos, pruebas y documentación coherentes, con sus límites. _(de lote_6/build/cap17.py)_
 - **Antecedentes MEC con los que se articula** (páginas según Work §3; asignación al capítulo propuesta por esta estructura): Software 1.º, pp. 59-63 (licencias, procedencia); Hardware 2.º, pp. 66-69 (instalación y respaldos).
 
 | Encuentro | Foco (Work §5.2) | Capacidades | Evidencia o evaluación (Work §5.2) | A | D | P | V | Doc | G | E |
@@ -268,7 +268,7 @@ HC por categoría (distribución v2.1): A análisis · D diseño · P programaci
 - **Capacidades del capítulo:** C1, C2, C3, C4, C5, C6, C7, C8, C9, C10 (propuestas).
 - **Secciones (Work §6):** 18.1. Demostración organizada por requisitos y evidencias. 18.2. Defensa individual de decisiones y resolución de una variante. 18.3. Recuperación de aprendizajes pendientes. 18.4. Retrospectiva y mejoras futuras justificadas.
 - **Cierre:** Evaluación integradora de la segunda etapa y cierre del proyecto.
-- **Indicadores:** Pendiente: se fijan en la ficha del capítulo (referencia: indicadores de Work §4.2 de C1, C2, C3, C4, C5, C6, C7, C8, C9, C10).
+- **Indicadores:** Demuestra el sistema con un guion que va de cada requisito imprescindible a su evidencia, en el tiempo acordado. | Explica, solo, una decisión del proyecto y una prueba, con su evidencia. | Resuelve una variante nueva: ubica el cambio en el requisito, el modelo, los contratos y las capas, y elige las pruebas. | Comunica qué está aceptado, qué no y qué queda pendiente, sin exagerar ni ocultar. | Propone mejoras futuras apoyadas en límites, incidencias u observaciones registradas, con su prioridad. _(de lote_6/build/cap18.py)_
 - **Antecedentes MEC con los que se articula** (páginas según Work §3; asignación al capítulo propuesta por esta estructura): Orientaciones de evaluación por competencias, pp. 95-106 (evidencia individual).
 
 | Encuentro | Foco (Work §5.2) | Capacidades | Evidencia o evaluación (Work §5.2) | A | D | P | V | Doc | G | E |
@@ -291,7 +291,7 @@ HC por categoría (distribución v2.1): A análisis · D diseño · P programaci
 
 ## 7. Lo que falta para el plan anual definitivo
 
-- Indicadores de los Capítulos 17 y 18: se fijan en la ficha de cada capítulo al construirlo (unicidad y verificabilidad).
+- Indicadores: los 18 capítulos ya tienen su ficha; el plan definitivo los revisa contra el tomo unificado aprobado.
 - Procedimientos e instrumentos por encuentro, con unicidad dentro del año (como en el formato canónico de la colección).
 - Calendario por etapas del año escolar y adaptación de 28 encuentros (distribución v2.1, `distribucion_28.csv`).
 - Maquetación en oficio con el formato canónico de la colección, y cotejo con las fichas del libro aprobado.

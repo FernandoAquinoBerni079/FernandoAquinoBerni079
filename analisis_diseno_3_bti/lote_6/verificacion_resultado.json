@@ -1,0 +1,878 @@
+{
+ "correctos": 158,
+ "fallos": 0,
+ "bloques": {
+  "A": [
+   9,
+   0
+  ],
+  "B": [
+   7,
+   0
+  ],
+  "C": [
+   5,
+   0
+  ],
+  "P": [
+   5,
+   0
+  ],
+  "R": [
+   10,
+   0
+  ],
+  "LI": [
+   7,
+   0
+  ],
+  "H6": [
+   4,
+   0
+  ],
+  "D18": [
+   6,
+   0
+  ],
+  "TI": [
+   6,
+   0
+  ],
+  "V6": [
+   7,
+   0
+  ],
+  "W": [
+   5,
+   0
+  ],
+  "T": [
+   12,
+   0
+  ],
+  "V": [
+   6,
+   0
+  ],
+  "F": [
+   14,
+   0
+  ],
+  "G": [
+   11,
+   0
+  ],
+  "H": [
+   13,
+   0
+  ],
+  "I": [
+   8,
+   0
+  ],
+  "J": [
+   16,
+   0
+  ],
+  "L": [
+   2,
+   0
+  ],
+  "Q": [
+   5,
+   0
+  ]
+ },
+ "controles": [
+  {
+   "bloque": "A",
+   "control": "Capítulo 17: título y encuentros (33, 34) de Work §6",
+   "resultado": "correcto"
+  },
+  {
+   "bloque": "A",
+   "control": "Capítulo 17: las cuatro secciones con el texto de Work §6, como títulos del libro",
+   "resultado": "correcto"
+  },
+  {
+   "bloque": "A",
+   "control": "Capítulo 18: título y encuentros (35, 36) de Work §6",
+   "resultado": "correcto"
+  },
+  {
+   "bloque": "A",
+   "control": "Capítulo 18: las cuatro secciones con el texto de Work §6, como títulos del libro",
+   "resultado": "correcto"
+  },
+  {
+   "bloque": "A",
+   "control": "Capítulo 17: la práctica de Work («entregar código, datos, pruebas y documentación coherentes; H6»)",
+   "resultado": "correcto"
+  },
+  {
+   "bloque": "A",
+   "control": "Capítulo 18: cierre de Work «Evaluación integradora de la segunda etapa y cierre del proyecto»",
+   "resultado": "correcto"
+  },
+  {
+   "bloque": "A",
+   "control": "Secciones, práctica y cierre textuales en el informe de Work",
+   "resultado": "correcto"
+  },
+  {
+   "bloque": "A",
+   "control": "Resultado de la unidad y evidencias de §5.2 de los Encuentros 33 a 36 están en el informe de Work",
+   "resultado": "correcto"
+  },
+  {
+   "bloque": "A",
+   "control": "Apertura: resultado de §5.1 y evidencias de §5.2 de los cuatro encuentros",
+   "resultado": "correcto"
+  },
+  {
+   "bloque": "B",
+   "control": "Capítulo 17: rótulo «propuestas para el programa institucional» y «no son capacidades oficiales del MEC»",
+   "resultado": "correcto"
+  },
+  {
+   "bloque": "B",
+   "control": "Capítulo 17: capacidades C7, C10 con su texto de Work §4.2",
+   "resultado": "correcto"
+  },
+  {
+   "bloque": "B",
+   "control": "Capítulo 18: rótulo «propuestas para el programa institucional» y «no son capacidades oficiales del MEC»",
+   "resultado": "correcto"
+  },
+  {
+   "bloque": "B",
+   "control": "Capítulo 18: capacidades C7, C9, C10 con su texto de Work §4.2",
+   "resultado": "correcto"
+  },
+  {
+   "bloque": "B",
+   "control": "Encuentros 33 (C10), 34 (C7, C10), 35 (C1 a C10) y 36 (C7, C9, C10) en los rótulos (Work §5.2)",
+   "resultado": "correcto"
+  },
+  {
+   "bloque": "B",
+   "control": "Indicador de C10 (Work §4.2): otro equipo instala con la guía, recupera un respaldo, cada integrante explica una decisión y una prueba",
+   "resultado": "correcto"
+  },
+  {
+   "bloque": "B",
+   "control": "Ninguna capacidad presentada como oficial del MEC",
+   "resultado": "correcto"
+  },
+  {
+   "bloque": "C",
+   "control": "libro: los 66 códigos citados existen en las fuentes",
+   "resultado": "correcto"
+  },
+  {
+   "bloque": "C",
+   "control": "guía: los 35 códigos citados existen en las fuentes",
+   "resultado": "correcto"
+  },
+  {
+   "bloque": "C",
+   "control": "cuaderno: los 4 códigos citados existen en las fuentes",
+   "resultado": "correcto"
+  },
+  {
+   "bloque": "C",
+   "control": "ME-15 solo aparece en la guía como el mensaje inexistente del defecto DM-5",
+   "resultado": "correcto"
+  },
+  {
+   "bloque": "C",
+   "control": "Mbokaja U6: 3 códigos nuevos (M-F13, MS-9, MS-10) que no repiten ninguno anterior",
+   "resultado": "correcto"
+  },
+  {
+   "bloque": "P",
+   "control": "El paquete modelo es una copia de la referencia v2 con SC-02: código idéntico, solo cambian LEEME.txt y ENTREGA/ y se agrega el comprobador",
+   "resultado": "correcto"
+  },
+  {
+   "bloque": "P",
+   "control": "Las referencias de los lotes 4 y 5 no cambiaron (git)",
+   "resultado": "correcto"
+  },
+  {
+   "bloque": "P",
+   "control": "Los documentos del paquete salen de caso/entrega_u6.py (libro y paquete dicen lo mismo)",
+   "resultado": "correcto"
+  },
+  {
+   "bloque": "P",
+   "control": "El comprobador del paquete es el de lote_6/proyecto/ y tiene menos de 100 líneas de código",
+   "resultado": "correcto"
+  },
+  {
+   "bloque": "P",
+   "control": "Ningún paquete trae una base de datos",
+   "resultado": "correcto"
+  },
+  {
+   "bloque": "R",
+   "control": "Comprobador: 0 incoherencias en el paquete modelo",
+   "resultado": "correcto"
+  },
+  {
+   "bloque": "R",
+   "control": "Comprobador: en el paquete de Mbokaja, exactamente las 6 incoherencias de la clave (5 defectos)",
+   "resultado": "correcto"
+  },
+  {
+   "bloque": "R",
+   "control": "Comprobador: con la clave aplicada, 0 incoherencias",
+   "resultado": "correcto"
+  },
+  {
+   "bloque": "R",
+   "control": "Guía como prueba: el paquete modelo y el de Mbokaja corregido se instalan siguiendo solo su guía (8 de 8 pasos)",
+   "resultado": "correcto"
+  },
+  {
+   "bloque": "R",
+   "control": "Guía como prueba: el paquete con defectos NO se puede instalar siguiendo su guía",
+   "resultado": "correcto"
+  },
+  {
+   "bloque": "R",
+   "control": "Las únicas adaptaciones de la prueba de la guía son el puerto y el nombre del respaldo, y se informan",
+   "resultado": "correcto"
+  },
+  {
+   "bloque": "R",
+   "control": "Regresión de la versión empaquetada: las nueve pruebas sin fallos",
+   "resultado": "correcto"
+  },
+  {
+   "bloque": "R",
+   "control": "La prueba automática se rotula como comprobación técnica y no reemplaza la instalación por otro equipo",
+   "resultado": "correcto"
+  },
+  {
+   "bloque": "R",
+   "control": "La instalación por otro equipo exige un equipo distinto, sin ayuda, y registra condiciones reales",
+   "resultado": "correcto"
+  },
+  {
+   "bloque": "R",
+   "control": "Libro y cuaderno no revelan los defectos del paquete de Mbokaja (la clave está solo en la guía)",
+   "resultado": "correcto"
+  },
+  {
+   "bloque": "LI",
+   "control": "Borrador de licencia: uso educativo institucional; instalar, ejecutar, estudiar y modificar dentro de la institución; sin redistribución comercial",
+   "resultado": "correcto"
+  },
+  {
+   "bloque": "LI",
+   "control": "El aspecto jurídico no se declara cerrado (libro, guía y paquete)",
+   "resultado": "correcto"
+  },
+  {
+   "bloque": "LI",
+   "control": "No se atribuye a la editorial código ajeno ni el código de los estudiantes",
+   "resultado": "correcto"
+  },
+  {
+   "bloque": "LI",
+   "control": "Cada recurso externo (4) con su versión exacta, su licencia y una fuente primaria con fecha de consulta",
+   "resultado": "correcto"
+  },
+  {
+   "bloque": "LI",
+   "control": "Las versiones de la ficha son las del entorno donde corrieron las pruebas",
+   "resultado": "correcto"
+  },
+  {
+   "bloque": "LI",
+   "control": "Licencias verificadas: PHP 8.3.6 «The PHP License, version 3.01»; SQLite 3.45.1 dominio público; curl 8.5.0 aviso propio; bash GPLv3+",
+   "resultado": "correcto"
+  },
+  {
+   "bloque": "LI",
+   "control": "El paquete no trae recursos sin procedencia (el comprobador lo controla con el bloque D)",
+   "resultado": "correcto"
+  },
+  {
+   "bloque": "H6",
+   "control": "Rúbrica del H6: seis criterios (C7 y C10), cuatro niveles, evidencia del equipo e individual",
+   "resultado": "correcto"
+  },
+  {
+   "bloque": "H6",
+   "control": "H6: 1 HC de evaluación en el Encuentro 34; 60/40 como propuesta editorial; AE aparte; pendientes del entorno separados",
+   "resultado": "correcto"
+  },
+  {
+   "bloque": "H6",
+   "control": "La condición mínima «instalación y restauración reproducibles» se completa solo con la evidencia de otro equipo",
+   "resultado": "correcto"
+  },
+  {
+   "bloque": "H6",
+   "control": "Guía: planilla de registro del H6 con columna AE",
+   "resultado": "correcto"
+  },
+  {
+   "bloque": "D18",
+   "control": "Capítulo 18 sin práctica independiente (D-4)",
+   "resultado": "correcto"
+  },
+  {
+   "bloque": "D18",
+   "control": "Capítulo 18 sin prueba escrita adicional (D-3); el Capítulo 17 con su evaluación opcional de 15 puntos",
+   "resultado": "correcto"
+  },
+  {
+   "bloque": "D18",
+   "control": "Instrumentos del Capítulo 18: demostración (guion), defensa individual (rúbrica), evaluación integradora",
+   "resultado": "correcto"
+  },
+  {
+   "bloque": "D18",
+   "control": "Evaluación integradora: H6, producto final con la ponderación de Work §4.3 y defensa; propuesta editorial",
+   "resultado": "correcto"
+  },
+  {
+   "bloque": "D18",
+   "control": "Planilla anual H1 a H6 y defensa, con columna AE",
+   "resultado": "correcto"
+  },
+  {
+   "bloque": "D18",
+   "control": "Preguntas de transferencia con los cuatro proyectos alternativos de Work §7.4",
+   "resultado": "correcto"
+  },
+  {
+   "bloque": "TI",
+   "control": "La planilla XLSX existe y sus fórmulas, recalculadas por un evaluador independiente, coinciden con el cálculo de la guía en tres casos",
+   "resultado": "correcto"
+  },
+  {
+   "bloque": "TI",
+   "control": "Los tres casos ejercitan las tres alternativas (A, B y B + calendario institucional)",
+   "resultado": "correcto"
+  },
+  {
+   "bloque": "TI",
+   "control": "La planilla pide cantidad de equipos, estudiantes, minutos de la HC y por defensa; no supone la duración de la HC",
+   "resultado": "correcto"
+  },
+  {
+   "bloque": "TI",
+   "control": "Un solo evaluador: no se supone un segundo evaluador disponible",
+   "resultado": "correcto"
+  },
+  {
+   "bloque": "TI",
+   "control": "Si no alcanza: defensas en el Encuentro 36 y tiempo institucional autorizado, sin eliminar evidencias obligatorias",
+   "resultado": "correcto"
+  },
+  {
+   "bloque": "TI",
+   "control": "Preparación anticipada del Encuentro 35 (variantes, planillas, paquetes instalados, orden)",
+   "resultado": "correcto"
+  },
+  {
+   "bloque": "V6",
+   "control": "Ningún banco de variantes en el repositorio",
+   "resultado": "correcto"
+  },
+  {
+   "bloque": "V6",
+   "control": "El validador se niega a usar un banco dentro del repositorio",
+   "resultado": "correcto"
+  },
+  {
+   "bloque": "V6",
+   "control": "Libro y guía solo muestran ejemplos públicos (V6-E1 a V6-E3), rotulados como que no se usan en la defensa",
+   "resultado": "correcto"
+  },
+  {
+   "bloque": "V6",
+   "control": "ADS_V6: ninguno de los 12 textos o códigos reservados está en el repositorio ni en los documentos",
+   "resultado": "correcto"
+  },
+  {
+   "bloque": "V6",
+   "control": "ADS_V6: la carpeta privada está fuera del repositorio",
+   "resultado": "correcto"
+  },
+  {
+   "bloque": "V6",
+   "control": "ADS_DR: ninguno de los 22 textos o códigos reservados está en el repositorio ni en los documentos",
+   "resultado": "correcto"
+  },
+  {
+   "bloque": "V6",
+   "control": "ADS_DR: la carpeta privada está fuera del repositorio",
+   "resultado": "correcto"
+  },
+  {
+   "bloque": "W",
+   "control": "No se suponen horas extraordinarias (5 menciones, todas negadas)",
+   "resultado": "correcto"
+  },
+  {
+   "bloque": "W",
+   "control": "Recuperación con prioridad (condiciones mínimas, evidencias ausentes, nivel Inicial); lo que no se recupera no se declara aprobado",
+   "resultado": "correcto"
+  },
+  {
+   "bloque": "W",
+   "control": "Fichas de recuperación FR-1 a FR-4 en el libro y en la guía",
+   "resultado": "correcto"
+  },
+  {
+   "bloque": "W",
+   "control": "Calendario de 28: Encuentros 25 a 28 sin cambios; el 28 recibe las recuperaciones técnicas de la Unidad V",
+   "resultado": "correcto"
+  },
+  {
+   "bloque": "W",
+   "control": "Las 20 HC de la unidad: 33 Doc 5; 34 V 2, Doc 2, E 1; 35 E 5; 36 E 3, G 2",
+   "resultado": "correcto"
+  },
+  {
+   "bloque": "T",
+   "control": "Código 17.1: leído tal cual del paquete modelo (9 líneas), ninguna de más de 96 caracteres",
+   "resultado": "correcto"
+  },
+  {
+   "bloque": "T",
+   "control": "Código 17.1: con su ficha en el libro",
+   "resultado": "correcto"
+  },
+  {
+   "bloque": "T",
+   "control": "Código 17.2: leído tal cual del paquete modelo (12 líneas), ninguna de más de 96 caracteres",
+   "resultado": "correcto"
+  },
+  {
+   "bloque": "T",
+   "control": "Código 17.2: con su ficha en el libro",
+   "resultado": "correcto"
+  },
+  {
+   "bloque": "T",
+   "control": "Referencia R-8: leído tal cual del paquete modelo (12 líneas), ninguna de más de 96 caracteres",
+   "resultado": "correcto"
+  },
+  {
+   "bloque": "T",
+   "control": "Referencia R-8: con su ficha en la guía",
+   "resultado": "correcto"
+  },
+  {
+   "bloque": "T",
+   "control": "Referencia R-9: leído tal cual del paquete modelo (15 líneas), ninguna de más de 96 caracteres",
+   "resultado": "correcto"
+  },
+  {
+   "bloque": "T",
+   "control": "Referencia R-9: con su ficha en la guía",
+   "resultado": "correcto"
+  },
+  {
+   "bloque": "T",
+   "control": "Referencia R-8 no se publica en el libro ni en el cuaderno",
+   "resultado": "correcto"
+  },
+  {
+   "bloque": "T",
+   "control": "Referencia R-9 no se publica en el libro ni en el cuaderno",
+   "resultado": "correcto"
+  },
+  {
+   "bloque": "T",
+   "control": "Códigos 17.1 y 17.2 correlativos, en orden de aparición y con explicación",
+   "resultado": "correcto"
+  },
+  {
+   "bloque": "T",
+   "control": "Cada línea de código del libro y de la guía está impresa entera en el PDF",
+   "resultado": "correcto"
+  },
+  {
+   "bloque": "V",
+   "control": "Última ejecución de build/reproducir.py sin fallos y con el entorno registrado",
+   "resultado": "correcto"
+  },
+  {
+   "bloque": "V",
+   "control": "Cada resultado guardado tiene su línea de entorno y su condición",
+   "resultado": "correcto"
+  },
+  {
+   "bloque": "V",
+   "control": "Cada capítulo y la apertura advierten que el entorno no se probó en la institución",
+   "resultado": "correcto"
+  },
+  {
+   "bloque": "V",
+   "control": "Windows y el laboratorio siguen pendientes (libro, guía y paquete)",
+   "resultado": "correcto"
+  },
+  {
+   "bloque": "V",
+   "control": "Nada se declara validado ni probado en colegios",
+   "resultado": "correcto"
+  },
+  {
+   "bloque": "V",
+   "control": "Datos ficticios en el paquete y en los casos",
+   "resultado": "correcto"
+  },
+  {
+   "bloque": "F",
+   "control": "libro: sin formas de tuteo frecuentes",
+   "resultado": "correcto"
+  },
+  {
+   "bloque": "F",
+   "control": "libro: sin identificadores de modelos de IA",
+   "resultado": "correcto"
+  },
+  {
+   "bloque": "F",
+   "control": "libro: sin marcadores sin reemplazar",
+   "resultado": "correcto"
+  },
+  {
+   "bloque": "F",
+   "control": "libro: no se declara apto ni aprobado para la venta",
+   "resultado": "correcto"
+  },
+  {
+   "bloque": "F",
+   "control": "guía: sin formas de tuteo frecuentes",
+   "resultado": "correcto"
+  },
+  {
+   "bloque": "F",
+   "control": "guía: sin identificadores de modelos de IA",
+   "resultado": "correcto"
+  },
+  {
+   "bloque": "F",
+   "control": "guía: sin marcadores sin reemplazar",
+   "resultado": "correcto"
+  },
+  {
+   "bloque": "F",
+   "control": "guía: no se declara apto ni aprobado para la venta",
+   "resultado": "correcto"
+  },
+  {
+   "bloque": "F",
+   "control": "cuaderno: sin formas de tuteo frecuentes",
+   "resultado": "correcto"
+  },
+  {
+   "bloque": "F",
+   "control": "cuaderno: sin identificadores de modelos de IA",
+   "resultado": "correcto"
+  },
+  {
+   "bloque": "F",
+   "control": "cuaderno: sin marcadores sin reemplazar",
+   "resultado": "correcto"
+  },
+  {
+   "bloque": "F",
+   "control": "cuaderno: no se declara apto ni aprobado para la venta",
+   "resultado": "correcto"
+  },
+  {
+   "bloque": "F",
+   "control": "paquete_entrega_modelo: documentos de entrega en voseo y sin modelos de IA",
+   "resultado": "correcto"
+  },
+  {
+   "bloque": "F",
+   "control": "paquete_mbokaja: documentos de entrega en voseo y sin modelos de IA",
+   "resultado": "correcto"
+  },
+  {
+   "bloque": "G",
+   "control": "libro: oficio 21,59 × 33,02 cm, márgenes O3 y espejados",
+   "resultado": "correcto"
+  },
+  {
+   "bloque": "G",
+   "control": "libro: 225 filas de tabla, todas «no dividir»",
+   "resultado": "correcto"
+  },
+  {
+   "bloque": "G",
+   "control": "libro: 25 tablas y bloques de código al ancho útil",
+   "resultado": "correcto"
+  },
+  {
+   "bloque": "G",
+   "control": "guía: oficio 21,59 × 33,02 cm, márgenes O3 y espejados",
+   "resultado": "correcto"
+  },
+  {
+   "bloque": "G",
+   "control": "guía: 228 filas de tabla, todas «no dividir»",
+   "resultado": "correcto"
+  },
+  {
+   "bloque": "G",
+   "control": "guía: 38 tablas y bloques de código al ancho útil",
+   "resultado": "correcto"
+  },
+  {
+   "bloque": "G",
+   "control": "cuaderno: oficio 21,59 × 33,02 cm, márgenes O3 y espejados",
+   "resultado": "correcto"
+  },
+  {
+   "bloque": "G",
+   "control": "cuaderno: 18 filas de tabla, todas «no dividir»",
+   "resultado": "correcto"
+  },
+  {
+   "bloque": "G",
+   "control": "cuaderno: 3 tablas y bloques de código al ancho útil",
+   "resultado": "correcto"
+  },
+  {
+   "bloque": "G",
+   "control": "Se usan la maqueta del lote 1, el perfil O3 del lote 2 y las piezas del lote 4 (sin copias)",
+   "resultado": "correcto"
+  },
+  {
+   "bloque": "G",
+   "control": "Portada: versión del lote 6 en los tres documentos",
+   "resultado": "correcto"
+  },
+  {
+   "bloque": "H",
+   "control": "libro: ninguna página en blanco",
+   "resultado": "correcto"
+  },
+  {
+   "bloque": "H",
+   "control": "libro: ninguna página empieza con renglones de respuesta sueltos",
+   "resultado": "correcto"
+  },
+  {
+   "bloque": "H",
+   "control": "guía: ninguna página en blanco",
+   "resultado": "correcto"
+  },
+  {
+   "bloque": "H",
+   "control": "guía: ninguna página empieza con renglones de respuesta sueltos",
+   "resultado": "correcto"
+  },
+  {
+   "bloque": "H",
+   "control": "cuaderno: ninguna página en blanco",
+   "resultado": "correcto"
+  },
+  {
+   "bloque": "H",
+   "control": "cuaderno: ninguna página empieza con renglones de respuesta sueltos",
+   "resultado": "correcto"
+  },
+  {
+   "bloque": "H",
+   "control": "Evaluación del Capítulo 17 en página propia (pág. [14])",
+   "resultado": "correcto"
+  },
+  {
+   "bloque": "H",
+   "control": "«Práctica 17» empieza en página nueva",
+   "resultado": "correcto"
+  },
+  {
+   "bloque": "H",
+   "control": "«Encuentro 34» empieza en página nueva",
+   "resultado": "correcto"
+  },
+  {
+   "bloque": "H",
+   "control": "«Encuentro 36» empieza en página nueva",
+   "resultado": "correcto"
+  },
+  {
+   "bloque": "H",
+   "control": "Cuaderno: la Práctica 17 empieza en página nueva",
+   "resultado": "correcto"
+  },
+  {
+   "bloque": "H",
+   "control": "Índice estable: las 19 entradas apuntan a su página; la apertura sigue al índice",
+   "resultado": "correcto"
+  },
+  {
+   "bloque": "H",
+   "control": "Extensión: libro 20, guía 15, cuaderno 3 págs. (estimación del plan: 26-34, 18-24, 3-6; no se rellena)",
+   "resultado": "correcto"
+  },
+  {
+   "bloque": "I",
+   "control": "Evaluación del Capítulo 17: 9 ítems con clave; opción múltiple con claves abcc",
+   "resultado": "correcto"
+  },
+  {
+   "bloque": "I",
+   "control": "Evaluación del Capítulo 17: 15 puntos y texto base nuevo (ludoteca, LU-1 a LU-4)",
+   "resultado": "correcto"
+  },
+  {
+   "bloque": "I",
+   "control": "Semilla de evaluación distinta de las de los lotes 1 a 5",
+   "resultado": "correcto"
+  },
+  {
+   "bloque": "I",
+   "control": "Guía: clave y criterios de la evaluación, claves de todas las actividades de los Encuentros 33 a 36",
+   "resultado": "correcto"
+  },
+  {
+   "bloque": "I",
+   "control": "Práctica 17: tres niveles con Mbokaja, claves por nivel y lista de cotejo",
+   "resultado": "correcto"
+  },
+  {
+   "bloque": "I",
+   "control": "Guía: secuencia en HC de los Encuentros 33 a 36 con las categorías de la v2.1",
+   "resultado": "correcto"
+  },
+  {
+   "bloque": "I",
+   "control": "Cuaderno: la Práctica 17 con el mismo texto que el libro y sin evaluaciones",
+   "resultado": "correcto"
+  },
+  {
+   "bloque": "I",
+   "control": "Rúbrica de defensa individual con cuatro criterios y cuatro niveles; planilla de defensa en la guía",
+   "resultado": "correcto"
+  },
+  {
+   "bloque": "J",
+   "control": "Capítulo 17: tabla 17.1 a 17.6 correlativas",
+   "resultado": "correcto"
+  },
+  {
+   "bloque": "J",
+   "control": "Capítulo 17: figura 17.1 a 17.1 correlativas",
+   "resultado": "correcto"
+  },
+  {
+   "bloque": "J",
+   "control": "Capítulo 17: ejemplo resuelto 17.1 a 17.4 correlativas",
+   "resultado": "correcto"
+  },
+  {
+   "bloque": "J",
+   "control": "Capítulo 17: toda tabla mencionada existe",
+   "resultado": "correcto"
+  },
+  {
+   "bloque": "J",
+   "control": "Capítulo 17: toda figura mencionada existe",
+   "resultado": "correcto"
+  },
+  {
+   "bloque": "J",
+   "control": "Capítulo 17: toda ejemplo resuelto mencionada existe",
+   "resultado": "correcto"
+  },
+  {
+   "bloque": "J",
+   "control": "Capítulo 17: toda código mencionada existe",
+   "resultado": "correcto"
+  },
+  {
+   "bloque": "J",
+   "control": "Capítulo 18: tabla 18.1 a 18.7 correlativas",
+   "resultado": "correcto"
+  },
+  {
+   "bloque": "J",
+   "control": "Capítulo 18: figura 18.1 a 18.1 correlativas",
+   "resultado": "correcto"
+  },
+  {
+   "bloque": "J",
+   "control": "Capítulo 18: ejemplo resuelto 18.1 a 18.3 correlativas",
+   "resultado": "correcto"
+  },
+  {
+   "bloque": "J",
+   "control": "Capítulo 18: toda tabla mencionada existe",
+   "resultado": "correcto"
+  },
+  {
+   "bloque": "J",
+   "control": "Capítulo 18: toda figura mencionada existe",
+   "resultado": "correcto"
+  },
+  {
+   "bloque": "J",
+   "control": "Capítulo 18: toda ejemplo resuelto mencionada existe",
+   "resultado": "correcto"
+  },
+  {
+   "bloque": "J",
+   "control": "Capítulo 18: toda código mencionada existe",
+   "resultado": "correcto"
+  },
+  {
+   "bloque": "J",
+   "control": "Tablas y figuras de los lotes 1 a 5 citadas existen allí (Tabla 14.6, Tabla 15.2, Tabla 15.3, Tabla 16.8)",
+   "resultado": "correcto"
+  },
+  {
+   "bloque": "J",
+   "control": "Ejemplos resueltos de otros capítulos citados existen (15.1)",
+   "resultado": "correcto"
+  },
+  {
+   "bloque": "L",
+   "control": "fig_17_1 (esquema didáctico) no usa símbolos de ninguna notación",
+   "resultado": "correcto"
+  },
+  {
+   "bloque": "L",
+   "control": "fig_18_1 (esquema didáctico) no usa símbolos de ninguna notación",
+   "resultado": "correcto"
+  },
+  {
+   "bloque": "Q",
+   "control": "git: ningún archivo de los lotes 1 a 5 ni de los planes cambió ni se agregó",
+   "resultado": "correcto"
+  },
+  {
+   "bloque": "Q",
+   "control": "Lote 3: sus seis DOCX y PDF coinciden con su manifiesto SHA-256",
+   "resultado": "correcto"
+  },
+  {
+   "bloque": "Q",
+   "control": "Lote 4: sus seis DOCX y PDF coinciden con su manifiesto SHA-256",
+   "resultado": "correcto"
+  },
+  {
+   "bloque": "Q",
+   "control": "Lote 5: sus seis DOCX y PDF coinciden con su manifiesto SHA-256",
+   "resultado": "correcto"
+  },
+  {
+   "bloque": "Q",
+   "control": "No se construyeron el tomo anual ni los planes de clase",
+   "resultado": "correcto"
+  }
+ ]
+}

@@ -1,0 +1,827 @@
+{
+ "lote": "ADS 3.º BTI — lote 6 (Unidad VI, Capítulos 17 y 18), v1.0 (para auditoría)",
+ "fecha": "2026-10-21",
+ "estado": "Para auditoría independiente. No validado en laboratorios escolares ni aprobado para la venta.",
+ "entorno_de_las_pruebas": "Linux 6.18.44-fc-v140 (x86_64), PHP 8.3.6, SQLite 3.45.1 (contenedor de construcción; no es una computadora escolar ni Windows)",
+ "verificador": "158 correctos, 0 fallos",
+ "reservados": "No incluidos: el conjunto DR (lote 5) y el banco de variantes V6 son exclusivos del docente y están fuera del repositorio.",
+ "archivos": [
+  {
+   "ruta": "ADS_3BTI_LOTE6_CUADERNO_PRACTICAS_OFICIO_O3.docx",
+   "bytes": 40231,
+   "sha256": "e8d880db1eedaaacfd568fa12b6ef0fd795e90b0d69c5f0bc21b9e062bb33f6e"
+  },
+  {
+   "ruta": "ADS_3BTI_LOTE6_CUADERNO_PRACTICAS_OFICIO_O3.pdf",
+   "bytes": 54974,
+   "sha256": "1cc9d583233e6376ab308f2097657cec9a5c3375004f2c503f6145817607dec7"
+  },
+  {
+   "ruta": "ADS_3BTI_LOTE6_ESTUDIANTE_OFICIO_O3.docx",
+   "bytes": 186266,
+   "sha256": "27d0fd26413c27288a495cdc3c650028d30e18967337e3e6f4e84f9f38a5e694"
+  },
+  {
+   "ruta": "ADS_3BTI_LOTE6_ESTUDIANTE_OFICIO_O3.pdf",
+   "bytes": 515673,
+   "sha256": "4726a845251383c0069fe7ec3bd7744da195c9f341db1ab2856da969731fee73"
+  },
+  {
+   "ruta": "ADS_3BTI_LOTE6_GUIA_DOCENTE_OFICIO_O3.docx",
+   "bytes": 59973,
+   "sha256": "a0f7660376941a710db1444af8b96efeef939da1e6197a4c5ecd184f4f94877d"
+  },
+  {
+   "ruta": "ADS_3BTI_LOTE6_GUIA_DOCENTE_OFICIO_O3.pdf",
+   "bytes": 413280,
+   "sha256": "bf9281e0c50afe5010abc1d14dbb31ffbfc656e2a149b9e42f72546da1f2382b"
+  },
+  {
+   "ruta": "CONTROLES_FINALES.json",
+   "bytes": 21339,
+   "sha256": "e10376b743316e63bfba47fe946fd41cdaf06ed31bf7cbed19e3a6c2d5861d2e"
+  },
+  {
+   "ruta": "INFORME_LOTE_6.md",
+   "bytes": 11410,
+   "sha256": "5f2e4a6e173f9a33cd74c01d666c0bc72a44fb514fdaa222b2dc271885219348"
+  },
+  {
+   "ruta": "prueba_fuentes_resultado.json",
+   "bytes": 1961,
+   "sha256": "60eadcb5c184d1e1852d3192a095538b4c1d40e45eca6ab3ebeebe5e4a743438"
+  },
+  {
+   "ruta": "resultado_construccion.json",
+   "bytes": 3300,
+   "sha256": "b63743dadd2bb080de09be045a47a38c12f572ad0bc0799729b5544da8f48089"
+  },
+  {
+   "ruta": "verificacion_resultado.json",
+   "bytes": 23160,
+   "sha256": "6c3da9bded2a107ae48fbfba93b298aeb7743e00a504ea3fda1d98e30e860dc2"
+  },
+  {
+   "ruta": "build/armar_paquetes.py",
+   "bytes": 4375,
+   "sha256": "15cf1c990bfb1072fa00dd458916ae4a4f7c78ec84add2f55a7e744583b3dc91"
+  },
+  {
+   "ruta": "build/cap17.py",
+   "bytes": 25538,
+   "sha256": "704e0b9dd050c64c04f9e1d96fca5269fa993722dd2bb3332e31901c7cbb5b72"
+  },
+  {
+   "ruta": "build/cap18.py",
+   "bytes": 13093,
+   "sha256": "82b4f5e7591e8effc11285600d4928c35c3bdce7a7fcfe9c6608a81635c4a3cc"
+  },
+  {
+   "ruta": "build/construir.py",
+   "bytes": 13187,
+   "sha256": "3f1047e6e7706676956938902d67de0a5a751bf6212ddda34eaf6222c8bdeea6"
+  },
+  {
+   "ruta": "build/controles_finales.py",
+   "bytes": 11888,
+   "sha256": "71c47a07b607e51114b22f4f27db496abab4520cc2b31cb726d759f08f70a7a4"
+  },
+  {
+   "ruta": "build/diagramas_u6.py",
+   "bytes": 3478,
+   "sha256": "cc3cf296febf9c572389fb13672875df1a09813f0ddb40b3cf4aa31cbffd397c"
+  },
+  {
+   "ruta": "build/fragmentos_u6.py",
+   "bytes": 3292,
+   "sha256": "8cec60aec3db043004386216351560f7a71761dde635ecf0077a64bf3c5019c9"
+  },
+  {
+   "ruta": "build/guia_u6.py",
+   "bytes": 31259,
+   "sha256": "74842f27c6501a2dcfda9d9f4199d1eeb3802565023f6d08301355af684f011f"
+  },
+  {
+   "ruta": "build/manifiesto.py",
+   "bytes": 2364,
+   "sha256": "1bb5ad6d46ce565c094fc105c6a79d649474d639abdd6e975036268520902843"
+  },
+  {
+   "ruta": "build/piezas_u6.py",
+   "bytes": 1191,
+   "sha256": "fea898d5998be5acb5b8b1178e9b23c1d410cd92d042b3987e62a5a95c4d07ec"
+  },
+  {
+   "ruta": "build/planilla_tiempos.py",
+   "bytes": 5217,
+   "sha256": "0d45bc5125fd0afdf2c53f457874998290c69e8f7c6de4afd1e4098d442c61ef"
+  },
+  {
+   "ruta": "build/prueba_fuentes.py",
+   "bytes": 3231,
+   "sha256": "1a23af8f34890430376234296ff666deb87221b103a630edbf77b3a7ebbe32f6"
+  },
+  {
+   "ruta": "build/prueba_guia.py",
+   "bytes": 5059,
+   "sha256": "94c3df22ce5b0fe3cc54d9e884ccd4be04bb3104e6a85d29163f9d2f51ec0c90"
+  },
+  {
+   "ruta": "build/reproducir.py",
+   "bytes": 8400,
+   "sha256": "1541134169364e2e86ec8f6b66f9909f48c62e3aa5b6449689544a9a6eef5210"
+  },
+  {
+   "ruta": "build/tomo.py",
+   "bytes": 6182,
+   "sha256": "341affd60069c4311d1478a170cecb818e3745309c52d36d6d4c21c7d18230c7"
+  },
+  {
+   "ruta": "build/verificar.py",
+   "bytes": 37885,
+   "sha256": "22025df7fbbba9bd6740854e0518146f452885057a6c91b7402f738af4c9d779"
+  },
+  {
+   "ruta": "build/figs/fig_17_1_de_la_guia_al_acta.png",
+   "bytes": 71201,
+   "sha256": "5cbe0b2b873ee9cfd1fa0dc8b23d47894b436b7c8298f623b578844dd642cabb"
+  },
+  {
+   "ruta": "build/figs/fig_18_1_demostracion_por_requisitos.png",
+   "bytes": 65397,
+   "sha256": "df313cd8d7851bebe613487f0893c31f88b4f89df15022af6a997c23a4f09899"
+  },
+  {
+   "ruta": "build/figs/simbolos.json",
+   "bytes": 124,
+   "sha256": "859f2557a8e4ba7b77eba2563f33c5f78ac96b957e220ef0390feb56cbd4c407"
+  },
+  {
+   "ruta": "caso/entrega_u6.py",
+   "bytes": 18165,
+   "sha256": "e45fabf7abed90ea08ac6f0378f7d83e2ee35973b7393a0de2fd25fad08c6b26"
+  },
+  {
+   "ruta": "caso/instrumentos_u6.py",
+   "bytes": 15630,
+   "sha256": "4a739654ebf7efed2e2e45a578899b976bef80803cf864fb4fae43861480faff"
+  },
+  {
+   "ruta": "caso/mbokaja_u6.py",
+   "bytes": 4649,
+   "sha256": "3da6cd4363df0b096573b95564a81de7014601295ee55e4d85df40775dfe5843"
+  },
+  {
+   "ruta": "caso/v6_plantilla.py",
+   "bytes": 7012,
+   "sha256": "7deaf9a94c3fd034a0661d73a0b64e874bf11a15f928f40d1b355fad67fb0854"
+  },
+  {
+   "ruta": "instrumentos/planilla_tiempos_encuentro_35.xlsx",
+   "bytes": 6286,
+   "sha256": "3410054c7b931ae0055986e126168690a21109764753322cb2c0670768785e05"
+  },
+  {
+   "ruta": "proyecto/comprobar_entrega.php",
+   "bytes": 4555,
+   "sha256": "925749f241cd4dbfa7a39f55ce77ea348fa3989035253ff8a32827cc351c549b"
+  },
+  {
+   "ruta": "proyecto/paquete_entrega_modelo/LEEME.txt",
+   "bytes": 524,
+   "sha256": "33db97eefeca242e79769646fdbddac3d1830ba5dae8d4b0894f264bef0953bd"
+  },
+  {
+   "ruta": "proyecto/paquete_entrega_modelo/comprobar_entrega.php",
+   "bytes": 4555,
+   "sha256": "925749f241cd4dbfa7a39f55ce77ea348fa3989035253ff8a32827cc351c549b"
+  },
+  {
+   "ruta": "proyecto/paquete_entrega_modelo/instalar.php",
+   "bytes": 3153,
+   "sha256": "744147731ee3131974da1800ab9533315fe816867f7c2a12321eaeb377c58f42"
+  },
+  {
+   "ruta": "proyecto/paquete_entrega_modelo/respaldar.php",
+   "bytes": 757,
+   "sha256": "af1dd2d4cf79220a14d7ed7d6b597db2bb49aed6f1456e67b481e05b6ca4a5a8"
+  },
+  {
+   "ruta": "proyecto/paquete_entrega_modelo/restaurar.php",
+   "bytes": 5406,
+   "sha256": "a905d4c02e2409ead16328f8393c14d3d76979364075f17a772384bc7bd3ec10"
+  },
+  {
+   "ruta": "proyecto/paquete_entrega_modelo/retirar_marca.php",
+   "bytes": 10964,
+   "sha256": "dc3b8ff0af6eb36fb681f63bcb212e9ffffc1f29cece7088613a7da856ddbbb2"
+  },
+  {
+   "ruta": "proyecto/paquete_entrega_modelo/verificar_entorno.php",
+   "bytes": 1472,
+   "sha256": "43d1f98a0d924bf71aa798dc93c5c297d259bb913b73c25fab4099b3b82b3893"
+  },
+  {
+   "ruta": "proyecto/paquete_entrega_modelo/ENTREGA/ACTA_ENTREGA.md",
+   "bytes": 866,
+   "sha256": "367d00a1d143ba35cb2c707b279f645ad765d56070379edb22fcb5d4e5dcc37b"
+  },
+  {
+   "ruta": "proyecto/paquete_entrega_modelo/ENTREGA/INSTALAR.md",
+   "bytes": 2679,
+   "sha256": "a79983e06273ce2c895a238665c4aa6c72ad500d2954434a31ec16b2880cfd63"
+  },
+  {
+   "ruta": "proyecto/paquete_entrega_modelo/ENTREGA/LICENCIA_BORRADOR.md",
+   "bytes": 1088,
+   "sha256": "65b93f1d3fcea29769bbf9f46e88da335030fd0e155d10cf0eb83e0c92e604ac"
+  },
+  {
+   "ruta": "proyecto/paquete_entrega_modelo/ENTREGA/LIMITES.md",
+   "bytes": 1274,
+   "sha256": "8bb1376ebedbf41f029dc8c00c874728b6c489acec20e493292fd60dfa3fa857"
+  },
+  {
+   "ruta": "proyecto/paquete_entrega_modelo/ENTREGA/LISTA_ENTREGA.md",
+   "bytes": 1255,
+   "sha256": "aa96fe82d818cd00a887d4de0038eef212818b032b54b380f6149768d782c6fe"
+  },
+  {
+   "ruta": "proyecto/paquete_entrega_modelo/ENTREGA/MANUAL.md",
+   "bytes": 2691,
+   "sha256": "9aa9964d4072e3912c62da11e8f7f02a5b79c7bfd86bf5e7925a88dab14d1d09"
+  },
+  {
+   "ruta": "proyecto/paquete_entrega_modelo/ENTREGA/PROCEDENCIA.md",
+   "bytes": 2528,
+   "sha256": "ba28895f68a23317016f90cc5b10974a3cf4a2aa75acc7436926bc45919cd9c6"
+  },
+  {
+   "ruta": "proyecto/paquete_entrega_modelo/datos/.gitkeep",
+   "bytes": 0,
+   "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+  },
+  {
+   "ruta": "proyecto/paquete_entrega_modelo/datos/respaldos/.gitkeep",
+   "bytes": 0,
+   "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+  },
+  {
+   "ruta": "proyecto/paquete_entrega_modelo/pruebas/_comun.php",
+   "bytes": 1665,
+   "sha256": "a2db934fa5b653b1d76416b3db44e0937f5f747a4cb584d740d1ad51a9b7793d"
+  },
+  {
+   "ruta": "proyecto/paquete_entrega_modelo/pruebas/_corte.php",
+   "bytes": 1958,
+   "sha256": "828c62119c8b53839a28e7d0c41cb8b69e01eb5cc419ec0ffd2b9f1fb60ba16c"
+  },
+  {
+   "ruta": "proyecto/paquete_entrega_modelo/pruebas/_trabajador.php",
+   "bytes": 675,
+   "sha256": "2bf93bf2d9259f06d7c8a1dd5f75fd5182445494af7cfe36ceca769ddd71273f"
+  },
+  {
+   "ruta": "proyecto/paquete_entrega_modelo/pruebas/prueba_carrera.php",
+   "bytes": 4520,
+   "sha256": "42fa9071e001f1bab9dad93afa467130c87c650f617b5ca5ca5218727fef5a74"
+  },
+  {
+   "ruta": "proyecto/paquete_entrega_modelo/pruebas/prueba_contratos.php",
+   "bytes": 19040,
+   "sha256": "c203b3bc11fd0c5851896aba1a94337357f7522f709e3e968eeb21cc7126cda2"
+  },
+  {
+   "ruta": "proyecto/paquete_entrega_modelo/pruebas/prueba_garantias.php",
+   "bytes": 4978,
+   "sha256": "9524a39426b2c49fdcde28bc62c33a9471da80e2b1b19e99c74cd205ce43bd3a"
+  },
+  {
+   "ruta": "proyecto/paquete_entrega_modelo/pruebas/prueba_http.sh",
+   "bytes": 9975,
+   "sha256": "1366c769b706d0377af7880cdea114e656dadc33d193e2992c36d8f07c0e826f"
+  },
+  {
+   "ruta": "proyecto/paquete_entrega_modelo/pruebas/prueba_in02.sh",
+   "bytes": 3393,
+   "sha256": "c9254ad2e305e69ce1cb083435ade17d1e727b6fbe0ea6e2bccaaf6b82a4c9aa"
+  },
+  {
+   "ruta": "proyecto/paquete_entrega_modelo/pruebas/prueba_mantenimiento.php",
+   "bytes": 10070,
+   "sha256": "9e9e968c0a352d8e0bbb9ea4fb0b904408c2f5558765bb5ea23e0363067c16b8"
+  },
+  {
+   "ruta": "proyecto/paquete_entrega_modelo/pruebas/prueba_marca_huerfana.php",
+   "bytes": 7955,
+   "sha256": "8df650632c393237b21aee29a6f07bb3fc86bf15376ca36ff92e43b1badbd600"
+  },
+  {
+   "ruta": "proyecto/paquete_entrega_modelo/pruebas/prueba_mis_operaciones.php",
+   "bytes": 4238,
+   "sha256": "d66af50a97b7948aec1f03b2b3df538eff5f877ea69bf5dabefa69423ce4df68"
+  },
+  {
+   "ruta": "proyecto/paquete_entrega_modelo/pruebas/prueba_respaldo.php",
+   "bytes": 7155,
+   "sha256": "7cac362220aa090b42157e6258bb3a00432f327c375991c2e338f4d3548fbd5b"
+  },
+  {
+   "ruta": "proyecto/paquete_entrega_modelo/public/_plantilla.php",
+   "bytes": 3717,
+   "sha256": "3f0732fa6ea58bffbbcd1ccb5299a99f73e82573e87874337774d69b9257dbeb"
+  },
+  {
+   "ruta": "proyecto/paquete_entrega_modelo/public/activos.php",
+   "bytes": 1249,
+   "sha256": "a7b6457182b1e4ea80c9f5236c4f3b5c15259597dd2118f4b4375b6fdf4a9322"
+  },
+  {
+   "ruta": "proyecto/paquete_entrega_modelo/public/devolucion.php",
+   "bytes": 829,
+   "sha256": "1c0d510d650a7e82448ff3a7219fb7862a1d62832622ce90daa100709e3b183b"
+  },
+  {
+   "ruta": "proyecto/paquete_entrega_modelo/public/index.php",
+   "bytes": 1042,
+   "sha256": "b7c10425fc395e0abce8b9a747cdc9d53dbec63de09bf98685f4add06935f427"
+  },
+  {
+   "ruta": "proyecto/paquete_entrega_modelo/public/informe.php",
+   "bytes": 1074,
+   "sha256": "4f41c9e07798b8a7cb3e58188981f1dc3f5541949fb6ed7e490ec78691ff8dcd"
+  },
+  {
+   "ruta": "proyecto/paquete_entrega_modelo/public/inicio.php",
+   "bytes": 568,
+   "sha256": "785fe7da423d4490782bcf06abe492504812e7d6d3c74033ec4468b0862d2a38"
+  },
+  {
+   "ruta": "proyecto/paquete_entrega_modelo/public/lectores.php",
+   "bytes": 4121,
+   "sha256": "ab9e309815d21616a45a26a8ba8ab93eb3f24938276e53bfb781f80f7b1f2bc7"
+  },
+  {
+   "ruta": "proyecto/paquete_entrega_modelo/public/login.php",
+   "bytes": 1040,
+   "sha256": "47e567344a143c8dfc862775ec01681351768874851f4264fad81c67f0f438ef"
+  },
+  {
+   "ruta": "proyecto/paquete_entrega_modelo/public/prestamo.php",
+   "bytes": 897,
+   "sha256": "efd384df3dc6d4a7889f77967f8d97a9498710878b2e8966f97aad9b4624a177"
+  },
+  {
+   "ruta": "proyecto/paquete_entrega_modelo/public/salir.php",
+   "bytes": 144,
+   "sha256": "39227aa104b768fce0c22c11c58a76dfedc8c038aaf6e230cc774d002c3272d7"
+  },
+  {
+   "ruta": "proyecto/paquete_entrega_modelo/src/auth.php",
+   "bytes": 2645,
+   "sha256": "1561723b1db484e6a8f1d39b6b8f1de3b98b07e5d495e901758ed9ec3db58281"
+  },
+  {
+   "ruta": "proyecto/paquete_entrega_modelo/src/datos_ejemplo.php",
+   "bytes": 3514,
+   "sha256": "347c733a46a57a058f732e88b5c38879d45ca2dddf5f3a08cc9e64bf5330ef87"
+  },
+  {
+   "ruta": "proyecto/paquete_entrega_modelo/src/db.php",
+   "bytes": 3611,
+   "sha256": "986f40b6392f43b0e3872f5ece23e45f5f26e4ec949cab04e1ef4e04a56008d7"
+  },
+  {
+   "ruta": "proyecto/paquete_entrega_modelo/src/esquema.sql",
+   "bytes": 4858,
+   "sha256": "218378b880f3e2285e3f9563d4c069c699f6bb3baa445799588daf780a8868f8"
+  },
+  {
+   "ruta": "proyecto/paquete_entrega_modelo/src/mantenimiento.php",
+   "bytes": 6483,
+   "sha256": "b2e82db5216021d8a272c727a4f25fe52698ca600678d2938666acf3ff7c9f77"
+  },
+  {
+   "ruta": "proyecto/paquete_entrega_modelo/src/mensajes.php",
+   "bytes": 4270,
+   "sha256": "be806f8ae59a516375de08af58d484765fe9f4bd760a7d4da708ed4c0e37765f"
+  },
+  {
+   "ruta": "proyecto/paquete_entrega_modelo/src/reglas.php",
+   "bytes": 21021,
+   "sha256": "fb1820007f3df0dd0123dace143bcc28513596d564095b9a9bd57dc79d175d21"
+  },
+  {
+   "ruta": "proyecto/paquete_entrega_modelo/src/respaldo.php",
+   "bytes": 2429,
+   "sha256": "5c3be72ff1279b60707884b1d61d754d6a7a1667b3df3cb99cf37b1d0ae0387c"
+  },
+  {
+   "ruta": "proyecto/paquete_mbokaja/LEEME.txt",
+   "bytes": 538,
+   "sha256": "df4edef50b3bd028aa2ee91c1a7aeac54d30131453d7574e8a8498db755b50bb"
+  },
+  {
+   "ruta": "proyecto/paquete_mbokaja/comprobar_entrega.php",
+   "bytes": 4555,
+   "sha256": "925749f241cd4dbfa7a39f55ce77ea348fa3989035253ff8a32827cc351c549b"
+  },
+  {
+   "ruta": "proyecto/paquete_mbokaja/instalar.php",
+   "bytes": 3153,
+   "sha256": "744147731ee3131974da1800ab9533315fe816867f7c2a12321eaeb377c58f42"
+  },
+  {
+   "ruta": "proyecto/paquete_mbokaja/respaldar.php",
+   "bytes": 757,
+   "sha256": "af1dd2d4cf79220a14d7ed7d6b597db2bb49aed6f1456e67b481e05b6ca4a5a8"
+  },
+  {
+   "ruta": "proyecto/paquete_mbokaja/restaurar.php",
+   "bytes": 5406,
+   "sha256": "a905d4c02e2409ead16328f8393c14d3d76979364075f17a772384bc7bd3ec10"
+  },
+  {
+   "ruta": "proyecto/paquete_mbokaja/retirar_marca.php",
+   "bytes": 10964,
+   "sha256": "dc3b8ff0af6eb36fb681f63bcb212e9ffffc1f29cece7088613a7da856ddbbb2"
+  },
+  {
+   "ruta": "proyecto/paquete_mbokaja/verificar_entorno.php",
+   "bytes": 1472,
+   "sha256": "43d1f98a0d924bf71aa798dc93c5c297d259bb913b73c25fab4099b3b82b3893"
+  },
+  {
+   "ruta": "proyecto/paquete_mbokaja/ENTREGA/ACTA_ENTREGA.md",
+   "bytes": 846,
+   "sha256": "8988ca91e630bea33162cd6daa83cc273b40a3104bd2c52fa7fe8b7f474e729a"
+  },
+  {
+   "ruta": "proyecto/paquete_mbokaja/ENTREGA/INSTALAR.md",
+   "bytes": 2664,
+   "sha256": "85edaebcb8a3d4a387d3441d8cff0445e42ccced4cffd050fc3a4c0d64b45348"
+  },
+  {
+   "ruta": "proyecto/paquete_mbokaja/ENTREGA/LICENCIA_BORRADOR.md",
+   "bytes": 1088,
+   "sha256": "65b93f1d3fcea29769bbf9f46e88da335030fd0e155d10cf0eb83e0c92e604ac"
+  },
+  {
+   "ruta": "proyecto/paquete_mbokaja/ENTREGA/LIMITES.md",
+   "bytes": 1254,
+   "sha256": "476d5301488914b6f2bbb51bd8752a253aa5aa26c10536117af15396476cd6f3"
+  },
+  {
+   "ruta": "proyecto/paquete_mbokaja/ENTREGA/LISTA_ENTREGA.md",
+   "bytes": 1305,
+   "sha256": "f4770c72e739b31a9eeb6460957ce0752e9bd9ece4beb52c640b60816481973f"
+  },
+  {
+   "ruta": "proyecto/paquete_mbokaja/ENTREGA/MANUAL.md",
+   "bytes": 2888,
+   "sha256": "ef35cafa4543253104c5c21101c86eed5cff0d0235beab93f53b6d6f28bb8c96"
+  },
+  {
+   "ruta": "proyecto/paquete_mbokaja/ENTREGA/PROCEDENCIA.md",
+   "bytes": 2528,
+   "sha256": "ba28895f68a23317016f90cc5b10974a3cf4a2aa75acc7436926bc45919cd9c6"
+  },
+  {
+   "ruta": "proyecto/paquete_mbokaja/datos/.gitkeep",
+   "bytes": 0,
+   "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+  },
+  {
+   "ruta": "proyecto/paquete_mbokaja/datos/respaldos/.gitkeep",
+   "bytes": 0,
+   "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+  },
+  {
+   "ruta": "proyecto/paquete_mbokaja/pruebas/_comun.php",
+   "bytes": 1665,
+   "sha256": "a2db934fa5b653b1d76416b3db44e0937f5f747a4cb584d740d1ad51a9b7793d"
+  },
+  {
+   "ruta": "proyecto/paquete_mbokaja/pruebas/_corte.php",
+   "bytes": 1958,
+   "sha256": "828c62119c8b53839a28e7d0c41cb8b69e01eb5cc419ec0ffd2b9f1fb60ba16c"
+  },
+  {
+   "ruta": "proyecto/paquete_mbokaja/pruebas/_trabajador.php",
+   "bytes": 675,
+   "sha256": "2bf93bf2d9259f06d7c8a1dd5f75fd5182445494af7cfe36ceca769ddd71273f"
+  },
+  {
+   "ruta": "proyecto/paquete_mbokaja/pruebas/prueba_carrera.php",
+   "bytes": 4520,
+   "sha256": "42fa9071e001f1bab9dad93afa467130c87c650f617b5ca5ca5218727fef5a74"
+  },
+  {
+   "ruta": "proyecto/paquete_mbokaja/pruebas/prueba_contratos.php",
+   "bytes": 19050,
+   "sha256": "ac6e06160078762f4d0fa1574f49ae6ce772924397dc6019663d0bdf87c7a5cb"
+  },
+  {
+   "ruta": "proyecto/paquete_mbokaja/pruebas/prueba_garantias.php",
+   "bytes": 4978,
+   "sha256": "9524a39426b2c49fdcde28bc62c33a9471da80e2b1b19e99c74cd205ce43bd3a"
+  },
+  {
+   "ruta": "proyecto/paquete_mbokaja/pruebas/prueba_http.sh",
+   "bytes": 9975,
+   "sha256": "1366c769b706d0377af7880cdea114e656dadc33d193e2992c36d8f07c0e826f"
+  },
+  {
+   "ruta": "proyecto/paquete_mbokaja/pruebas/prueba_in02.sh",
+   "bytes": 3393,
+   "sha256": "c9254ad2e305e69ce1cb083435ade17d1e727b6fbe0ea6e2bccaaf6b82a4c9aa"
+  },
+  {
+   "ruta": "proyecto/paquete_mbokaja/pruebas/prueba_mantenimiento.php",
+   "bytes": 10070,
+   "sha256": "9e9e968c0a352d8e0bbb9ea4fb0b904408c2f5558765bb5ea23e0363067c16b8"
+  },
+  {
+   "ruta": "proyecto/paquete_mbokaja/pruebas/prueba_marca_huerfana.php",
+   "bytes": 7955,
+   "sha256": "8df650632c393237b21aee29a6f07bb3fc86bf15376ca36ff92e43b1badbd600"
+  },
+  {
+   "ruta": "proyecto/paquete_mbokaja/pruebas/prueba_mis_operaciones.php",
+   "bytes": 4238,
+   "sha256": "d66af50a97b7948aec1f03b2b3df538eff5f877ea69bf5dabefa69423ce4df68"
+  },
+  {
+   "ruta": "proyecto/paquete_mbokaja/pruebas/prueba_respaldo.php",
+   "bytes": 7155,
+   "sha256": "7cac362220aa090b42157e6258bb3a00432f327c375991c2e338f4d3548fbd5b"
+  },
+  {
+   "ruta": "proyecto/paquete_mbokaja/public/_plantilla.php",
+   "bytes": 3717,
+   "sha256": "3f0732fa6ea58bffbbcd1ccb5299a99f73e82573e87874337774d69b9257dbeb"
+  },
+  {
+   "ruta": "proyecto/paquete_mbokaja/public/activos.php",
+   "bytes": 1249,
+   "sha256": "a7b6457182b1e4ea80c9f5236c4f3b5c15259597dd2118f4b4375b6fdf4a9322"
+  },
+  {
+   "ruta": "proyecto/paquete_mbokaja/public/devolucion.php",
+   "bytes": 829,
+   "sha256": "1c0d510d650a7e82448ff3a7219fb7862a1d62832622ce90daa100709e3b183b"
+  },
+  {
+   "ruta": "proyecto/paquete_mbokaja/public/index.php",
+   "bytes": 1042,
+   "sha256": "b7c10425fc395e0abce8b9a747cdc9d53dbec63de09bf98685f4add06935f427"
+  },
+  {
+   "ruta": "proyecto/paquete_mbokaja/public/informe.php",
+   "bytes": 1074,
+   "sha256": "4f41c9e07798b8a7cb3e58188981f1dc3f5541949fb6ed7e490ec78691ff8dcd"
+  },
+  {
+   "ruta": "proyecto/paquete_mbokaja/public/inicio.php",
+   "bytes": 568,
+   "sha256": "785fe7da423d4490782bcf06abe492504812e7d6d3c74033ec4468b0862d2a38"
+  },
+  {
+   "ruta": "proyecto/paquete_mbokaja/public/lectores.php",
+   "bytes": 4121,
+   "sha256": "ab9e309815d21616a45a26a8ba8ab93eb3f24938276e53bfb781f80f7b1f2bc7"
+  },
+  {
+   "ruta": "proyecto/paquete_mbokaja/public/login.php",
+   "bytes": 1040,
+   "sha256": "47e567344a143c8dfc862775ec01681351768874851f4264fad81c67f0f438ef"
+  },
+  {
+   "ruta": "proyecto/paquete_mbokaja/public/logo_mbokaja.png",
+   "bytes": 481,
+   "sha256": "181e28929ef99cf823aa6cfeac24950259bda75e87e983ee7fb62b0c04382e4f"
+  },
+  {
+   "ruta": "proyecto/paquete_mbokaja/public/prestamo.php",
+   "bytes": 897,
+   "sha256": "efd384df3dc6d4a7889f77967f8d97a9498710878b2e8966f97aad9b4624a177"
+  },
+  {
+   "ruta": "proyecto/paquete_mbokaja/public/salir.php",
+   "bytes": 144,
+   "sha256": "39227aa104b768fce0c22c11c58a76dfedc8c038aaf6e230cc774d002c3272d7"
+  },
+  {
+   "ruta": "proyecto/paquete_mbokaja/src/auth.php",
+   "bytes": 2645,
+   "sha256": "1561723b1db484e6a8f1d39b6b8f1de3b98b07e5d495e901758ed9ec3db58281"
+  },
+  {
+   "ruta": "proyecto/paquete_mbokaja/src/datos_ejemplo.php",
+   "bytes": 3514,
+   "sha256": "347c733a46a57a058f732e88b5c38879d45ca2dddf5f3a08cc9e64bf5330ef87"
+  },
+  {
+   "ruta": "proyecto/paquete_mbokaja/src/db.php",
+   "bytes": 3611,
+   "sha256": "986f40b6392f43b0e3872f5ece23e45f5f26e4ec949cab04e1ef4e04a56008d7"
+  },
+  {
+   "ruta": "proyecto/paquete_mbokaja/src/esquema.sql",
+   "bytes": 4858,
+   "sha256": "218378b880f3e2285e3f9563d4c069c699f6bb3baa445799588daf780a8868f8"
+  },
+  {
+   "ruta": "proyecto/paquete_mbokaja/src/mantenimiento.php",
+   "bytes": 6483,
+   "sha256": "b2e82db5216021d8a272c727a4f25fe52698ca600678d2938666acf3ff7c9f77"
+  },
+  {
+   "ruta": "proyecto/paquete_mbokaja/src/mensajes.php",
+   "bytes": 4270,
+   "sha256": "be806f8ae59a516375de08af58d484765fe9f4bd760a7d4da708ed4c0e37765f"
+  },
+  {
+   "ruta": "proyecto/paquete_mbokaja/src/reglas.php",
+   "bytes": 21021,
+   "sha256": "fb1820007f3df0dd0123dace143bcc28513596d564095b9a9bd57dc79d175d21"
+  },
+  {
+   "ruta": "proyecto/paquete_mbokaja/src/respaldo.php",
+   "bytes": 2429,
+   "sha256": "5c3be72ff1279b60707884b1d61d754d6a7a1667b3df3cb99cf37b1d0ae0387c"
+  },
+  {
+   "ruta": "resultados_pruebas/comprobador_mbokaja_corregido.txt",
+   "bytes": 448,
+   "sha256": "50cfc27764906cb26b9df8e95d68060e889d39d64a6ee3d4debd1445c75a49a5"
+  },
+  {
+   "ruta": "resultados_pruebas/comprobador_paquete_mbokaja.txt",
+   "bytes": 995,
+   "sha256": "97198ecc5406345c789ffc9f8552504778accfc442da0007f30bd62d9567a278"
+  },
+  {
+   "ruta": "resultados_pruebas/comprobador_paquete_modelo.txt",
+   "bytes": 448,
+   "sha256": "50cfc27764906cb26b9df8e95d68060e889d39d64a6ee3d4debd1445c75a49a5"
+  },
+  {
+   "ruta": "resultados_pruebas/guia_mbokaja_con_defectos.txt",
+   "bytes": 882,
+   "sha256": "9e8018105b274cbf34305ed66e8593b06b1b70c2112fd1c0d442cef7d53f5238"
+  },
+  {
+   "ruta": "resultados_pruebas/guia_mbokaja_corregido.txt",
+   "bytes": 877,
+   "sha256": "a4566bd4a058e58e2e4434d0865bdf1227b71c9a437f799c1be243f43245502f"
+  },
+  {
+   "ruta": "resultados_pruebas/guia_modelo.txt",
+   "bytes": 877,
+   "sha256": "44a7290f2b51b47226d65c6f22a0b1bd14f81c86db7e7a052a5fec4053b3e834"
+  },
+  {
+   "ruta": "resultados_pruebas/regresion_paquete_modelo__prueba_carrera.txt",
+   "bytes": 2126,
+   "sha256": "4fd888564fa96bfff93209cce2d5a94078a229871b86ca66575403c6f3861cfc"
+  },
+  {
+   "ruta": "resultados_pruebas/regresion_paquete_modelo__prueba_contratos.txt",
+   "bytes": 6971,
+   "sha256": "d34b2226ee7ec98949e4e3f1c51d4c967fe7b1898ee224244e660c3cfd37ce76"
+  },
+  {
+   "ruta": "resultados_pruebas/regresion_paquete_modelo__prueba_garantias.txt",
+   "bytes": 2120,
+   "sha256": "b188461039e7bf859c29514c0cf6b1cc2a251bb9b22ae2c13ca964a6f55fab17"
+  },
+  {
+   "ruta": "resultados_pruebas/regresion_paquete_modelo__prueba_http.txt",
+   "bytes": 2457,
+   "sha256": "c0bb660c9615b85e2e6f43300a1de820f1aacddf2c87eb981db774e0a6927ccb"
+  },
+  {
+   "ruta": "resultados_pruebas/regresion_paquete_modelo__prueba_in02.txt",
+   "bytes": 654,
+   "sha256": "27952e005f0deba1d0a98fb12dd783c181a3d10eae75f1af5622d4aa3ed1c6fc"
+  },
+  {
+   "ruta": "resultados_pruebas/regresion_paquete_modelo__prueba_mantenimiento.txt",
+   "bytes": 2967,
+   "sha256": "b6163c0cffd3521428a3ea357ceba121cc9a67498060fda447a4f3b204fe9d0b"
+  },
+  {
+   "ruta": "resultados_pruebas/regresion_paquete_modelo__prueba_marca_huerfana.txt",
+   "bytes": 1791,
+   "sha256": "d7efcf0db7532e07fe3d372460fa85da0bb291e68383b2ccb80cacf456ebf079"
+  },
+  {
+   "ruta": "resultados_pruebas/regresion_paquete_modelo__prueba_mis_operaciones.txt",
+   "bytes": 1360,
+   "sha256": "bb0f9f760c2e109604694c2769558c5a5e80b101125bedfd1922cf90bf8df04c"
+  },
+  {
+   "ruta": "resultados_pruebas/regresion_paquete_modelo__prueba_respaldo.txt",
+   "bytes": 1807,
+   "sha256": "f990b57e1a176087175c327fbe9cda4badd670b154bef3df7e6339284cba104d"
+  },
+  {
+   "ruta": "resultados_pruebas/resumen.json",
+   "bytes": 9675,
+   "sha256": "68c694e42b7046f082e4641131469a890753faee5ebc0b6d720a68cdc0927fca"
+  },
+  {
+   "ruta": "revision_visual/01_indice_y_apertura.png",
+   "bytes": 128745,
+   "sha256": "ffe80ac0898b33f14d194d1aca8b3ce5fd0365b94fed9c06b424cf0de656cc3b"
+  },
+  {
+   "ruta": "revision_visual/02_guia_de_instalacion_y_manual.png",
+   "bytes": 202798,
+   "sha256": "c0b6e4b0dcf0c879b3e246a97c01210c70300ca35cb8f044f66e9c665a1f14a6"
+  },
+  {
+   "ruta": "revision_visual/03_practica_17_mbokaja.png",
+   "bytes": 107221,
+   "sha256": "82a87d10733d37606f7cba8da54d4a37b00aaf308805c8548f3af82a2915e6a7"
+  },
+  {
+   "ruta": "revision_visual/04_procedencia_licencia_y_codigo.png",
+   "bytes": 299076,
+   "sha256": "f5daa2ebf18a701e7ce0cfd525cfdc49c9987736723386af9cdaca3442718128"
+  },
+  {
+   "ruta": "revision_visual/05_acta_comprobacion_y_H6.png",
+   "bytes": 204092,
+   "sha256": "0a57d7d5f31e3ab1a419a1564708fd1f6622923caf19cdfa88294bd5337b4abe"
+  },
+  {
+   "ruta": "revision_visual/06_evaluacion_capitulo_17.png",
+   "bytes": 68673,
+   "sha256": "298f126d4913490709f4f1c49e42d3166276becc52bcd87239034d15d46a5e5a"
+  },
+  {
+   "ruta": "revision_visual/07_demostracion_y_defensa.png",
+   "bytes": 215365,
+   "sha256": "7743a0e46a074704e848c3b62085a447f9c38e01419c10d491843450b56df57f"
+  },
+  {
+   "ruta": "revision_visual/08_recuperacion_retrospectiva_e_integradora.png",
+   "bytes": 245122,
+   "sha256": "82c827f86e7d6acff72ba9dcc0e5f9ec518c7e51300f4d9fbd6cc589dbb532d4"
+  },
+  {
+   "ruta": "revision_visual/09_guia_paquete_licencias_y_V6.png",
+   "bytes": 276587,
+   "sha256": "e9c4e0f7eaf9b294e259987f3cf4374ed0b944449c2532095fb112930a5ece5a"
+  },
+  {
+   "ruta": "revision_visual/10_guia_planilla_de_tiempos_y_alternativas.png",
+   "bytes": 154883,
+   "sha256": "7d6f2ce4717dc6cdb05be8ae0eebbb99863fa2c17bed878f9ddd05f800cb61bd"
+  },
+  {
+   "ruta": "revision_visual/11_guia_clave_de_Mbokaja_y_referencias.png",
+   "bytes": 255975,
+   "sha256": "6b1f070dc34d6b33713c7b2b8651dc134e0c50d3f48a4b6bab1e0e603f7f4804"
+  },
+  {
+   "ruta": "revision_visual/12_guia_rubricas_H6_producto_y_defensa.png",
+   "bytes": 377797,
+   "sha256": "bd57275ad79ba933444349ce87e272af5c257dda597c537d908c10a641de0662"
+  },
+  {
+   "ruta": "revision_visual/13_margenes_espejados_pags_4_5.png",
+   "bytes": 244815,
+   "sha256": "706addd92f78687769470cb3fe42f772e5d8a59706dd0b699519cfb150fa7b83"
+  },
+  {
+   "ruta": "revision_visual/14_tablas_repartidas.png",
+   "bytes": 100430,
+   "sha256": "48fb2882d45a259329f78faf6610e50c566f1206ee501bc63dc972f0730991d8"
+  },
+  {
+   "ruta": "revision_visual/15_cuaderno_de_practicas.png",
+   "bytes": 109697,
+   "sha256": "df6932d12746052e7cf2ceb40dbd6033b7b99f3839cbc016a1145d38ee2bbd6d"
+  }
+ ],
+ "plan_anual": [
+  {
+   "ruta": "plan_anual/plan_anual_preliminar.py",
+   "bytes": 30741,
+   "sha256": "9a1d68c14fb89dc02b317720cd1eff093c6eb8782c562ac3df157c8158de8df0"
+  },
+  {
+   "ruta": "plan_anual/plan_anual_preliminar.csv",
+   "bytes": 49160,
+   "sha256": "402c075589ed87a79d7b10c07936fcb15020ede2b75f5498053e1a13ecf02a05"
+  },
+  {
+   "ruta": "plan_anual/PLAN_ANUAL_PRELIMINAR.md",
+   "bytes": 40547,
+   "sha256": "0a2bd6236b31dd5bb63a72fdb850b8a2da07fd9b98128e67917ed3c551f898e7"
+  }
+ ]
+}

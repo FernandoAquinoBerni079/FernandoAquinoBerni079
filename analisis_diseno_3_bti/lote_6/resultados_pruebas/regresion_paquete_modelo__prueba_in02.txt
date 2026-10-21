@@ -1,0 +1,12 @@
+Entorno: Linux 6.18.44-fc-v140 (x86_64), PHP 8.3.6, SQLite 3.45.1 (2026-10-21 14:19)
+Condición: comprobación técnica automática en el entorno de construcción
+
+CORRECTO IN-02: después de MV-04 se muestra el mensaje
+CORRECTO IN-02: el tipo elegido (Docente) sigue elegido
+CORRECTO IN-02: el código y el nombre escritos se conservan
+CORRECTO IN-02: la ficha CSRF no se conserva como dato escrito
+CORRECTO IN-02: al recargar, el formulario vuelve a estar vacío
+CORRECTO IN-02: después de un alta correcta (MA-06), el formulario queda vacío
+CORRECTO IN-02: un error en otro formulario (MV-02) no llena el alta de lector
+
+Resultado: 7 de 7 correctas

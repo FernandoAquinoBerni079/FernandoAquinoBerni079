@@ -1,0 +1,878 @@
+{
+ "fallos": [],
+ "controles": {
+  "1. Filas de tablas": [
+   {
+    "resultado": "correcto",
+    "detalle": "libro: 23 tablas de 2 o más columnas, todas con todas sus filas impresas (141 filas)"
+   },
+   {
+    "resultado": "correcto",
+    "detalle": "guia: 36 tablas de 2 o más columnas, todas con todas sus filas impresas (220 filas)"
+   },
+   {
+    "resultado": "correcto",
+    "detalle": "cuaderno: 3 tablas de 2 o más columnas, todas con todas sus filas impresas (13 filas)"
+   }
+  ],
+  "2. Párrafos impresos": [
+   {
+    "resultado": "correcto",
+    "detalle": "libro: ningún párrafo del DOCX falta en el PDF"
+   },
+   {
+    "resultado": "correcto",
+    "detalle": "guia: ningún párrafo del DOCX falta en el PDF"
+   },
+   {
+    "resultado": "correcto",
+    "detalle": "cuaderno: ningún párrafo del DOCX falta en el PDF"
+   }
+  ],
+  "2. Palabras enteras": [
+   {
+    "resultado": "correcto",
+    "detalle": "libro: ninguna palabra de celda partida en el PDF"
+   },
+   {
+    "resultado": "correcto",
+    "detalle": "guia: ninguna palabra de celda partida en el PDF"
+   },
+   {
+    "resultado": "correcto",
+    "detalle": "cuaderno: ninguna palabra de celda partida en el PDF"
+   }
+  ],
+  "1. Tablas repartidas entre páginas": [
+   {
+    "resultado": "correcto",
+    "detalle": "guia: «Licencias de terceros verificadas (fuente primaria y versión exacta)», págs. [2, 3]: 8 de 8 filas, encabezado repetido 1 vez/veces"
+   },
+   {
+    "resultado": "correcto",
+    "detalle": "guia: «Resultados de las pruebas (build/reproducir.py)», págs. [14, 15]: 17 de 17 filas, encabezado repetido 1 vez/veces"
+   }
+  ],
+  "6. Cortes de tabla": [
+   {
+    "resultado": "correcto",
+    "detalle": "libro: 0 tablas repartidas, ninguna deja menos de dos filas de datos en una página"
+   },
+   {
+    "resultado": "correcto",
+    "detalle": "guia: 2 tablas repartidas, ninguna deja menos de dos filas de datos en una página"
+   },
+   {
+    "resultado": "correcto",
+    "detalle": "cuaderno: 0 tablas repartidas, ninguna deja menos de dos filas de datos en una página"
+   }
+  ],
+  "3. Figuras": [
+   {
+    "resultado": "correcto",
+    "detalle": "las 2 figuras impresas, cada una con su imagen encima de su epígrafe, en la misma página: Figura 17.1 pág. 6, Figura 18.1 pág. 16"
+   },
+   {
+    "resultado": "correcto",
+    "detalle": "imágenes dibujadas en el libro: 2 (las 2 figuras)"
+   }
+  ],
+  "7. Bloques de código": [
+   {
+    "resultado": "correcto",
+    "detalle": "21 líneas de código de 2 fragmentos, todas impresas enteras y sin caracteres perdidos"
+   },
+   {
+    "resultado": "correcto",
+    "detalle": "21 tramos en letra monoespaciada, todos dentro de los márgenes"
+   },
+   {
+    "resultado": "correcto",
+    "detalle": "cada bloque de código (4: 2 del libro y 2 de la guía) entero en la página de su rótulo y su ficha"
+   }
+  ],
+  "4. Índice": [
+   {
+    "resultado": "correcto",
+    "detalle": "19 entradas; cada una en la página que indica"
+   }
+  ],
+  "5. Márgenes espejados": [
+   {
+    "resultado": "correcto",
+    "detalle": "impares con el interior (2,5 cm) a la izquierda y pares a la derecha: [(4, 1.8, 2.41), (5, 2.5, 1.71), (6, 1.8, 2.42), (7, 2.5, 1.71), (8, 1.8, 2.42), (9, 2.5, 1.71), (10, 1.8, 2.41), (11, 2.5, 1.71)]"
+   }
+  ],
+  "laminas": {
+   "indice": "01_indice_y_apertura.png",
+   "guia_y_manual": "02_guia_de_instalacion_y_manual.png",
+   "practica17": "03_practica_17_mbokaja.png",
+   "procedencia": "04_procedencia_licencia_y_codigo.png",
+   "acta_h6": "05_acta_comprobacion_y_H6.png",
+   "evaluacion": "06_evaluacion_capitulo_17.png",
+   "demostracion": "07_demostracion_y_defensa.png",
+   "recuperacion": "08_recuperacion_retrospectiva_e_integradora.png",
+   "guia_paquete": "09_guia_paquete_licencias_y_V6.png",
+   "guia_tiempos": "10_guia_planilla_de_tiempos_y_alternativas.png",
+   "guia_clave_mbokaja": "11_guia_clave_de_Mbokaja_y_referencias.png",
+   "guia_rubricas": "12_guia_rubricas_H6_producto_y_defensa.png",
+   "margenes": "13_margenes_espejados_pags_4_5.png",
+   "tablas_repartidas": "14_tablas_repartidas.png",
+   "cuaderno": "15_cuaderno_de_practicas.png"
+  },
+  "tablas": {
+   "libro": [
+    {
+     "n": 1,
+     "rotulo": "La Unidad VI en un vistazo",
+     "primera_celda": "Capítulo",
+     "filas_docx": 3,
+     "filas_impresas": 3,
+     "paginas": [
+      3
+     ],
+     "encabezado_repetido": 0,
+     "filas_faltantes": []
+    },
+    {
+     "n": 2,
+     "rotulo": "Unidad VI — Entregar y comunicar",
+     "primera_celda": "Capacidades propuestas para el programa ",
+     "filas_docx": 4,
+     "filas_impresas": 4,
+     "paginas": [
+      4
+     ],
+     "encabezado_repetido": 0,
+     "filas_faltantes": []
+    },
+    {
+     "n": 3,
+     "rotulo": "Tabla 17.1 — Pasos de la guía de instalación del paquete modelo",
+     "primera_celda": "Paso",
+     "filas_docx": 9,
+     "filas_impresas": 9,
+     "paginas": [
+      5
+     ],
+     "encabezado_repetido": 0,
+     "filas_faltantes": []
+    },
+    {
+     "n": 4,
+     "rotulo": "Tabla 17.2 — Tareas del manual del paquete modelo",
+     "primera_celda": "Tarea",
+     "filas_docx": 9,
+     "filas_impresas": 9,
+     "paginas": [
+      5
+     ],
+     "encabezado_repetido": 0,
+     "filas_faltantes": []
+    },
+    {
+     "n": 5,
+     "rotulo": "Datos nuevos de Mbokaja (caso de práctica, ficticio)",
+     "primera_celda": "Código",
+     "filas_docx": 2,
+     "filas_impresas": 2,
+     "paginas": [
+      7
+     ],
+     "encabezado_repetido": 0,
+     "filas_faltantes": []
+    },
+    {
+     "n": 6,
+     "rotulo": "Situaciones nuevas (caso de práctica, ficticio)",
+     "primera_celda": "Código",
+     "filas_docx": 3,
+     "filas_impresas": 3,
+     "paginas": [
+      7
+     ],
+     "encabezado_repetido": 0,
+     "filas_faltantes": []
+    },
+    {
+     "n": 7,
+     "rotulo": "Documentos que trae el paquete del voluntario",
+     "primera_celda": "Archivo",
+     "filas_docx": 8,
+     "filas_impresas": 8,
+     "paginas": [
+      7
+     ],
+     "encabezado_repetido": 0,
+     "filas_faltantes": []
+    },
+    {
+     "n": 8,
+     "rotulo": "Tabla 17.3 — Ficha de procedencia del paquete modelo (licencias verificadas el 2",
+     "primera_celda": "Recurso",
+     "filas_docx": 9,
+     "filas_impresas": 9,
+     "paginas": [
+      9
+     ],
+     "encabezado_repetido": 0,
+     "filas_faltantes": []
+    },
+    {
+     "n": 9,
+     "rotulo": "Código 17.1 — Cada recurso que no es código tiene que estar en la ficha de proce",
+     "primera_celda": "Archivo",
+     "filas_docx": 5,
+     "filas_impresas": 5,
+     "paginas": [
+      9
+     ],
+     "encabezado_repetido": 0,
+     "filas_faltantes": []
+    },
+    {
+     "n": 10,
+     "rotulo": "Tabla 17.4 — Lo que el comprobador de entrega revisa",
+     "primera_celda": "Bloque",
+     "filas_docx": 7,
+     "filas_impresas": 7,
+     "paginas": [
+      10
+     ],
+     "encabezado_repetido": 0,
+     "filas_faltantes": []
+    },
+    {
+     "n": 11,
+     "rotulo": "Código 17.2 — Cada comando de la guía de instalación nombra un archivo que exist",
+     "primera_celda": "Archivo",
+     "filas_docx": 5,
+     "filas_impresas": 5,
+     "paginas": [
+      10
+     ],
+     "encabezado_repetido": 0,
+     "filas_faltantes": []
+    },
+    {
+     "n": 12,
+     "rotulo": "Tabla 17.5 — Acta de entrega simulada",
+     "primera_celda": "Campo",
+     "filas_docx": 13,
+     "filas_impresas": 13,
+     "paginas": [
+      11
+     ],
+     "encabezado_repetido": 0,
+     "filas_faltantes": []
+    },
+    {
+     "n": 13,
+     "rotulo": "Tabla 17.6 — Comprobación técnica del paquete modelo y lo que queda pendiente",
+     "primera_celda": "Prueba",
+     "filas_docx": 6,
+     "filas_impresas": 6,
+     "paginas": [
+      11
+     ],
+     "encabezado_repetido": 0,
+     "filas_faltantes": []
+    },
+    {
+     "n": 14,
+     "rotulo": "Criterios del H6 (la rúbrica completa está en la guía docente)",
+     "primera_celda": "Criterio del H6",
+     "filas_docx": 7,
+     "filas_impresas": 7,
+     "paginas": [
+      12
+     ],
+     "encabezado_repetido": 0,
+     "filas_faltantes": []
+    },
+    {
+     "n": 15,
+     "rotulo": "Unidad VI — Entregar y comunicar",
+     "primera_celda": "Capacidades propuestas para el programa ",
+     "filas_docx": 4,
+     "filas_impresas": 4,
+     "paginas": [
+      15
+     ],
+     "encabezado_repetido": 0,
+     "filas_faltantes": []
+    },
+    {
+     "n": 16,
+     "rotulo": "Tabla 18.1 — Guion de demostración del equipo modelo",
+     "primera_celda": "Requisito",
+     "filas_docx": 7,
+     "filas_impresas": 7,
+     "paginas": [
+      16
+     ],
+     "encabezado_repetido": 0,
+     "filas_faltantes": []
+    },
+    {
+     "n": 17,
+     "rotulo": "Tabla 18.2 — Rúbrica de la defensa individual",
+     "primera_celda": "Criterio",
+     "filas_docx": 5,
+     "filas_impresas": 5,
+     "paginas": [
+      17
+     ],
+     "encabezado_repetido": 0,
+     "filas_faltantes": []
+    },
+    {
+     "n": 18,
+     "rotulo": "Tabla 18.3 — Preguntas de transferencia (proyectos alternativos de Work §7.4)",
+     "primera_celda": "Proyecto",
+     "filas_docx": 5,
+     "filas_impresas": 5,
+     "paginas": [
+      17
+     ],
+     "encabezado_repetido": 0,
+     "filas_faltantes": []
+    },
+    {
+     "n": 19,
+     "rotulo": "Tabla 18.4 — Fichas de recuperación",
+     "primera_celda": "Ficha",
+     "filas_docx": 5,
+     "filas_impresas": 5,
+     "paginas": [
+      18
+     ],
+     "encabezado_repetido": 0,
+     "filas_faltantes": []
+    },
+    {
+     "n": 20,
+     "rotulo": "Tabla 18.5 — Planilla anual de hitos (una por estudiante)",
+     "primera_celda": "Hito",
+     "filas_docx": 8,
+     "filas_impresas": 8,
+     "paginas": [
+      18
+     ],
+     "encabezado_repetido": 0,
+     "filas_faltantes": []
+    },
+    {
+     "n": 21,
+     "rotulo": "Tabla 18.6 — Retrospectiva del equipo modelo (simulación del libro)",
+     "primera_celda": "Qué",
+     "filas_docx": 5,
+     "filas_impresas": 5,
+     "paginas": [
+      19
+     ],
+     "encabezado_repetido": 0,
+     "filas_faltantes": []
+    },
+    {
+     "n": 22,
+     "rotulo": "Tabla 18.7 — Rúbrica de producto final: aspectos y ponderación (propuesta editor",
+     "primera_celda": "Aspecto",
+     "filas_docx": 7,
+     "filas_impresas": 7,
+     "paginas": [
+      19
+     ],
+     "encabezado_repetido": 0,
+     "filas_faltantes": []
+    },
+    {
+     "n": 23,
+     "rotulo": "Niveles de desempeño (propuesta editorial)",
+     "primera_celda": "Nivel de desempeño",
+     "filas_docx": 5,
+     "filas_impresas": 5,
+     "paginas": [
+      20
+     ],
+     "encabezado_repetido": 0,
+     "filas_faltantes": []
+    }
+   ],
+   "guia": [
+    {
+     "n": 1,
+     "rotulo": "Paquete modelo frente a la referencia v2 con SC-02",
+     "primera_celda": "Qué",
+     "filas_docx": 4,
+     "filas_impresas": 4,
+     "paginas": [
+      2
+     ],
+     "encabezado_repetido": 0,
+     "filas_faltantes": []
+    },
+    {
+     "n": 2,
+     "rotulo": "Licencias de terceros verificadas (fuente primaria y versión exacta)",
+     "primera_celda": "Recurso",
+     "filas_docx": 8,
+     "filas_impresas": 8,
+     "paginas": [
+      2,
+      3
+     ],
+     "encabezado_repetido": 1,
+     "filas_faltantes": []
+    },
+    {
+     "n": 3,
+     "rotulo": "Campos de una variante V6",
+     "primera_celda": "Campo",
+     "filas_docx": 9,
+     "filas_impresas": 9,
+     "paginas": [
+      3
+     ],
+     "encabezado_repetido": 0,
+     "filas_faltantes": []
+    },
+    {
+     "n": 4,
+     "rotulo": "Ejemplos públicos de variantes (no se usan en la defensa)",
+     "primera_celda": "Ejemplo",
+     "filas_docx": 4,
+     "filas_impresas": 4,
+     "paginas": [
+      4
+     ],
+     "encabezado_repetido": 0,
+     "filas_faltantes": []
+    },
+    {
+     "n": 5,
+     "rotulo": "Planilla de tiempos: ejemplo con valores ficticios",
+     "primera_celda": "Dato o resultado",
+     "filas_docx": 20,
+     "filas_impresas": 20,
+     "paginas": [
+      4
+     ],
+     "encabezado_repetido": 0,
+     "filas_faltantes": []
+    },
+    {
+     "n": 6,
+     "rotulo": "Alternativas para el Encuentro 35 (decisión D-5)",
+     "primera_celda": "Alternativa",
+     "filas_docx": 4,
+     "filas_impresas": 4,
+     "paginas": [
+      5
+     ],
+     "encabezado_repetido": 0,
+     "filas_faltantes": []
+    },
+    {
+     "n": 7,
+     "rotulo": "1. Capítulo 17 — Preparar una entrega reproducible",
+     "primera_celda": "Capacidades propuestas para el programa ",
+     "filas_docx": 4,
+     "filas_impresas": 4,
+     "paginas": [
+      6
+     ],
+     "encabezado_repetido": 0,
+     "filas_faltantes": []
+    },
+    {
+     "n": 8,
+     "rotulo": "Encuentro 33 — Escribir y probar la propia documentación (5 HC de documentación)",
+     "primera_celda": "Momento",
+     "filas_docx": 5,
+     "filas_impresas": 5,
+     "paginas": [
+      6
+     ],
+     "encabezado_repetido": 0,
+     "filas_faltantes": []
+    },
+    {
+     "n": 9,
+     "rotulo": "Encuentro 34 — Entregar a otro equipo; hito H6 (5 HC: 2 de verificación, 2 de do",
+     "primera_celda": "Momento",
+     "filas_docx": 4,
+     "filas_impresas": 4,
+     "paginas": [
+      6
+     ],
+     "encabezado_repetido": 0,
+     "filas_faltantes": []
+    },
+    {
+     "n": 10,
+     "rotulo": "Errores frecuentes del Capítulo 17",
+     "primera_celda": "Error frecuente",
+     "filas_docx": 7,
+     "filas_impresas": 7,
+     "paginas": [
+      6
+     ],
+     "encabezado_repetido": 0,
+     "filas_faltantes": []
+    },
+    {
+     "n": 11,
+     "rotulo": "Referencia R-8 — Las pruebas de la lista de entrega se ejecutan y tienen que dar",
+     "primera_celda": "Archivo",
+     "filas_docx": 5,
+     "filas_impresas": 5,
+     "paginas": [
+      7
+     ],
+     "encabezado_repetido": 0,
+     "filas_faltantes": []
+    },
+    {
+     "n": 12,
+     "rotulo": "Referencia R-9 — La versión declarada tiene que ser la misma en todos los docume",
+     "primera_celda": "Archivo",
+     "filas_docx": 5,
+     "filas_impresas": 5,
+     "paginas": [
+      7
+     ],
+     "encabezado_repetido": 0,
+     "filas_faltantes": []
+    },
+    {
+     "n": 13,
+     "rotulo": "Claves de las actividades del Encuentro 33",
+     "primera_celda": "Act.",
+     "filas_docx": 5,
+     "filas_impresas": 5,
+     "paginas": [
+      7
+     ],
+     "encabezado_repetido": 0,
+     "filas_faltantes": []
+    },
+    {
+     "n": 14,
+     "rotulo": "Claves de las actividades del Encuentro 34",
+     "primera_celda": "Act.",
+     "filas_docx": 5,
+     "filas_impresas": 5,
+     "paginas": [
+      8
+     ],
+     "encabezado_repetido": 0,
+     "filas_faltantes": []
+    },
+    {
+     "n": 15,
+     "rotulo": "Práctica 17: clave de los defectos del paquete de Mbokaja",
+     "primera_celda": "Defecto",
+     "filas_docx": 6,
+     "filas_impresas": 6,
+     "paginas": [
+      8
+     ],
+     "encabezado_repetido": 0,
+     "filas_faltantes": []
+    },
+    {
+     "n": 16,
+     "rotulo": "Práctica 17: claves por nivel",
+     "primera_celda": "Nivel",
+     "filas_docx": 4,
+     "filas_impresas": 4,
+     "paginas": [
+      8
+     ],
+     "encabezado_repetido": 0,
+     "filas_faltantes": []
+    },
+    {
+     "n": 17,
+     "rotulo": "Lista de cotejo de la Práctica 17",
+     "primera_celda": "Criterio",
+     "filas_docx": 6,
+     "filas_impresas": 6,
+     "paginas": [
+      9
+     ],
+     "encabezado_repetido": 0,
+     "filas_faltantes": []
+    },
+    {
+     "n": 18,
+     "rotulo": "Clave de la evaluación del capítulo 17",
+     "primera_celda": "Ítem",
+     "filas_docx": 10,
+     "filas_impresas": 10,
+     "paginas": [
+      9
+     ],
+     "encabezado_repetido": 0,
+     "filas_faltantes": []
+    },
+    {
+     "n": 19,
+     "rotulo": "Criterios de corrección de los ítems abiertos",
+     "primera_celda": "Ítem",
+     "filas_docx": 3,
+     "filas_impresas": 3,
+     "paginas": [
+      9
+     ],
+     "encabezado_repetido": 0,
+     "filas_faltantes": []
+    },
+    {
+     "n": 20,
+     "rotulo": "2. Capítulo 18 — Demostrar, defender y aprender del proyecto",
+     "primera_celda": "Capacidades propuestas para el programa ",
+     "filas_docx": 4,
+     "filas_impresas": 4,
+     "paginas": [
+      10
+     ],
+     "encabezado_repetido": 0,
+     "filas_faltantes": []
+    },
+    {
+     "n": 21,
+     "rotulo": "Encuentro 35 — Demostración y defensa individual (5 HC de evaluación)",
+     "primera_celda": "Momento",
+     "filas_docx": 3,
+     "filas_impresas": 3,
+     "paginas": [
+      10
+     ],
+     "encabezado_repetido": 0,
+     "filas_faltantes": []
+    },
+    {
+     "n": 22,
+     "rotulo": "Encuentro 36 — Recuperación, retrospectiva y cierre (5 HC: 3 de evaluación y 2 d",
+     "primera_celda": "Momento",
+     "filas_docx": 3,
+     "filas_impresas": 3,
+     "paginas": [
+      10
+     ],
+     "encabezado_repetido": 0,
+     "filas_faltantes": []
+    },
+    {
+     "n": 23,
+     "rotulo": "Errores frecuentes del Capítulo 18",
+     "primera_celda": "Error frecuente",
+     "filas_docx": 7,
+     "filas_impresas": 7,
+     "paginas": [
+      10
+     ],
+     "encabezado_repetido": 0,
+     "filas_faltantes": []
+    },
+    {
+     "n": 24,
+     "rotulo": "Claves de las actividades del Encuentro 35",
+     "primera_celda": "Act.",
+     "filas_docx": 4,
+     "filas_impresas": 4,
+     "paginas": [
+      11
+     ],
+     "encabezado_repetido": 0,
+     "filas_faltantes": []
+    },
+    {
+     "n": 25,
+     "rotulo": "Claves de las actividades del Encuentro 36",
+     "primera_celda": "Act.",
+     "filas_docx": 3,
+     "filas_impresas": 3,
+     "paginas": [
+      11
+     ],
+     "encabezado_repetido": 0,
+     "filas_faltantes": []
+    },
+    {
+     "n": 26,
+     "rotulo": "Planilla de defensa individual (niveles 1 a 4 por criterio)",
+     "primera_celda": "Estudiante (código)",
+     "filas_docx": 5,
+     "filas_impresas": 5,
+     "paginas": [
+      11
+     ],
+     "encabezado_repetido": 0,
+     "filas_faltantes": []
+    },
+    {
+     "n": 27,
+     "rotulo": "Rúbrica de producto final (propuesta editorial, Work §4.3)",
+     "primera_celda": "Aspecto (peso)",
+     "filas_docx": 7,
+     "filas_impresas": 7,
+     "paginas": [
+      11
+     ],
+     "encabezado_repetido": 0,
+     "filas_faltantes": []
+    },
+    {
+     "n": 28,
+     "rotulo": "Fichas de recuperación (las mismas de la Tabla 18.4)",
+     "primera_celda": "Ficha",
+     "filas_docx": 5,
+     "filas_impresas": 5,
+     "paginas": [
+      12
+     ],
+     "encabezado_repetido": 0,
+     "filas_faltantes": []
+    },
+    {
+     "n": 29,
+     "rotulo": "Registro de recuperaciones",
+     "primera_celda": "Estudiante (código)",
+     "filas_docx": 4,
+     "filas_impresas": 4,
+     "paginas": [
+      12
+     ],
+     "encabezado_repetido": 0,
+     "filas_faltantes": []
+    },
+    {
+     "n": 30,
+     "rotulo": "Rúbrica del H6: descriptores por nivel",
+     "primera_celda": "Criterio",
+     "filas_docx": 7,
+     "filas_impresas": 7,
+     "paginas": [
+      13
+     ],
+     "encabezado_repetido": 0,
+     "filas_faltantes": []
+    },
+    {
+     "n": 31,
+     "rotulo": "Evidencias de cada criterio del H6",
+     "primera_celda": "Criterio",
+     "filas_docx": 7,
+     "filas_impresas": 7,
+     "paginas": [
+      13
+     ],
+     "encabezado_repetido": 0,
+     "filas_faltantes": []
+    },
+    {
+     "n": 32,
+     "rotulo": "Niveles de desempeño (propuesta editorial)",
+     "primera_celda": "Nivel de desempeño",
+     "filas_docx": 5,
+     "filas_impresas": 5,
+     "paginas": [
+      13
+     ],
+     "encabezado_repetido": 0,
+     "filas_faltantes": []
+    },
+    {
+     "n": 33,
+     "rotulo": "Planilla de registro del H6 (una por estudiante)",
+     "primera_celda": "Estudiante (código)",
+     "filas_docx": 7,
+     "filas_impresas": 7,
+     "paginas": [
+      14
+     ],
+     "encabezado_repetido": 0,
+     "filas_faltantes": []
+    },
+    {
+     "n": 34,
+     "rotulo": "Unidad VI en 36 y en 28 encuentros",
+     "primera_celda": "Encuentro (36)",
+     "filas_docx": 5,
+     "filas_impresas": 5,
+     "paginas": [
+      14
+     ],
+     "encabezado_repetido": 0,
+     "filas_faltantes": []
+    },
+    {
+     "n": 35,
+     "rotulo": "Resultados de las pruebas (build/reproducir.py)",
+     "primera_celda": "Qué",
+     "filas_docx": 17,
+     "filas_impresas": 17,
+     "paginas": [
+      14,
+      15
+     ],
+     "encabezado_repetido": 1,
+     "filas_faltantes": []
+    },
+    {
+     "n": 36,
+     "rotulo": "Inventario de recursos del lote",
+     "primera_celda": "Recurso",
+     "filas_docx": 9,
+     "filas_impresas": 9,
+     "paginas": [
+      15
+     ],
+     "encabezado_repetido": 0,
+     "filas_faltantes": []
+    }
+   ],
+   "cuaderno": [
+    {
+     "n": 1,
+     "rotulo": "Datos nuevos de Mbokaja (caso de práctica, ficticio)",
+     "primera_celda": "Código",
+     "filas_docx": 2,
+     "filas_impresas": 2,
+     "paginas": [
+      2
+     ],
+     "encabezado_repetido": 0,
+     "filas_faltantes": []
+    },
+    {
+     "n": 2,
+     "rotulo": "Situaciones nuevas (caso de práctica, ficticio)",
+     "primera_celda": "Código",
+     "filas_docx": 3,
+     "filas_impresas": 3,
+     "paginas": [
+      2
+     ],
+     "encabezado_repetido": 0,
+     "filas_faltantes": []
+    },
+    {
+     "n": 3,
+     "rotulo": "Documentos que trae el paquete del voluntario",
+     "primera_celda": "Archivo",
+     "filas_docx": 8,
+     "filas_impresas": 8,
+     "paginas": [
+      2
+     ],
+     "encabezado_repetido": 0,
+     "filas_faltantes": []
+    }
+   ]
+  }
+ }
+}

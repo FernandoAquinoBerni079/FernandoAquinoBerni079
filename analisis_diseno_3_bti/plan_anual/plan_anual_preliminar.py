@@ -12,8 +12,8 @@ Fuentes, transcritas sin cambios:
 - Fichas de los capítulos construidos: `lote_1/build/cap1.py` a `cap3.py` (Unidad I), `lote_2/build/cap4.py` a
   `cap6.py` (Unidad II, versión de referencia aceptada por Fernando el 20-oct-2026) y `lote_3/build/cap7.py` a
   `cap9.py` (Unidad III, lote 3 v1.1, aceptado para integración), `lote_4/build/cap10.py` a `cap13.py` (Unidad IV,
-  lote 4 v1.1, versión de referencia para la integración) y `lote_5/build/cap14.py` a `cap16.py` (Unidad V, lote 5
-  para auditoría). Los módulos se importan y se leen sus claves (INDICADORES, TITULO,
+  lote 4 v1.1, versión de referencia para la integración), `lote_5/build/cap14.py` a `cap16.py` (Unidad V, lote 5,
+  versión de referencia) y `lote_6/build/cap17.py` y `cap18.py` (Unidad VI, lote 6 para auditoría). Los módulos se importan y se leen sus claves (INDICADORES, TITULO,
   ENCUENTROS, ROTULO_CAPACIDAD): ningún indicador se transcribe a mano.
 
 Regla de rotulado:
@@ -222,7 +222,8 @@ FICHAS = {1: 'lote_1/build/cap1.py', 2: 'lote_1/build/cap2.py', 3: 'lote_1/build
           4: 'lote_2/build/cap4.py', 5: 'lote_2/build/cap5.py', 6: 'lote_2/build/cap6.py',
           7: 'lote_3/build/cap7.py', 8: 'lote_3/build/cap8.py', 9: 'lote_3/build/cap9.py',
           10: 'lote_4/build/cap10.py', 11: 'lote_4/build/cap11.py', 12: 'lote_4/build/cap12.py', 13: 'lote_4/build/cap13.py',
-          14: 'lote_5/build/cap14.py', 15: 'lote_5/build/cap15.py', 16: 'lote_5/build/cap16.py'}
+          14: 'lote_5/build/cap14.py', 15: 'lote_5/build/cap15.py', 16: 'lote_5/build/cap16.py',
+          17: 'lote_6/build/cap17.py', 18: 'lote_6/build/cap18.py'}
 
 
 def cargar_ficha(n, ruta):
@@ -344,7 +345,7 @@ def main():
            '- En cada criterio, 60 % de evidencia del producto compartido y 40 % de evidencia individual (propuesta editorial).',
            '- Niveles de desempeño: 4 Sólido, 3 Logrado, 2 En desarrollo, 1 Inicial; la ausencia de evidencia se registra aparte.', '',
            '## 7. Lo que falta para el plan anual definitivo', '',
-           '- Indicadores de los Capítulos 17 y 18: se fijan en la ficha de cada capítulo al construirlo (unicidad y verificabilidad).',
+           '- Indicadores: los 18 capítulos ya tienen su ficha; el plan definitivo los revisa contra el tomo unificado aprobado.',
            '- Procedimientos e instrumentos por encuentro, con unicidad dentro del año (como en el formato canónico de la colección).',
            '- Calendario por etapas del año escolar y adaptación de 28 encuentros (distribución v2.1, `distribucion_28.csv`).',
            '- Maquetación en oficio con el formato canónico de la colección, y cotejo con las fichas del libro aprobado.']

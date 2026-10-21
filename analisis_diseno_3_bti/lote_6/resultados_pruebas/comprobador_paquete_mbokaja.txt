@@ -1,0 +1,13 @@
+Entorno: Linux 6.18.44-fc-v140 (x86_64), PHP 8.3.6, SQLite 3.45.1 (2026-10-21 14:19)
+Condición: comprobación técnica automática en el entorno de construcción
+
+PRUEBA FALLA php pruebas/prueba_contratos.php — Resultado: 92 de 93 correctas
+PRUEBA BIEN  php pruebas/prueba_garantias.php — Resultado: 20 de 20 clasificaciones confirmadas
+PRUEBA BIEN  php pruebas/prueba_respaldo.php — Resultado: 20 de 20 correctas
+INCOHERENCIA [A] la guía usa «php instalar_base.php», pero no existe instalar_base.php
+INCOHERENCIA [B] la lista de entrega incluye datos/mbokaja_prueba.json, que no está en el paquete
+INCOHERENCIA [C] la prueba «php pruebas/prueba_contratos.php» no terminó bien (Resultado: 92 de 93 correctas)
+INCOHERENCIA [D] public/logo_mbokaja.png no tiene su fila en la ficha de procedencia
+INCOHERENCIA [E] el manual nombra el mensaje ME-15, que el sistema no tiene
+INCOHERENCIA [E] el manual describe public/reservas.php, que no está en el paquete
+Resultado: 6 incoherencias

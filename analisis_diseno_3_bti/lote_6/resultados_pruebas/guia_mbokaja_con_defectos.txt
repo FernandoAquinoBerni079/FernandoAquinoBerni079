@@ -1,0 +1,12 @@
+Entorno: Linux 6.18.44-fc-v140 (x86_64), PHP 8.3.6, SQLite 3.45.1 (2026-10-21 14:19)
+Condición: comprobación técnica automática en el entorno de construcción
+
+CORRECTO Paso 1. Comprobar el entorno — php verificar_entorno.php
+FALLA    Paso 2. Crear la base con los datos de ejemplo — php instalar_base.php
+CORRECTO Paso 3. Iniciar el sistema — php -S localhost:8000 -t public (puerto 38399 en lugar de 8000)
+CORRECTO Paso 4. Abrir el sistema en el navegador — http://localhost:8000
+CORRECTO Paso 5. Detener el sistema — detener
+FALLA    Paso 6. Hacer un respaldo — php respaldar.php
+FALLA    Paso 7. Comprobar que el respaldo se puede restaurar — php restaurar.php datos/respaldos/respaldo_AAAAMMDD_HHMMSS.sqlite (nombre del respaldo del paso anterior)
+FALLA    Paso 8. Comprobar el paquete completo — php comprobar_entrega.php
+Resultado: 4 de 8 pasos correctos

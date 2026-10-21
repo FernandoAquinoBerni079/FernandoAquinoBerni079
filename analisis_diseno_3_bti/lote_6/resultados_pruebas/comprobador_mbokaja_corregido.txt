@@ -1,0 +1,7 @@
+Entorno: Linux 6.18.44-fc-v140 (x86_64), PHP 8.3.6, SQLite 3.45.1 (2026-10-21 14:19)
+Condición: comprobación técnica automática en el entorno de construcción
+
+PRUEBA BIEN  php pruebas/prueba_contratos.php — Resultado: 93 de 93 correctas
+PRUEBA BIEN  php pruebas/prueba_garantias.php — Resultado: 20 de 20 clasificaciones confirmadas
+PRUEBA BIEN  php pruebas/prueba_respaldo.php — Resultado: 20 de 20 correctas
+Resultado: 0 incoherencias
