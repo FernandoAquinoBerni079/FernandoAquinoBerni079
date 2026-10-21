@@ -1,0 +1,14 @@
+Entorno: Linux 6.18.44-fc-v140, PHP 8.3.6, SQLite 3.45.1
+Copia temporal de lote_4/proyecto/referencia_docente; datos ficticios de ejemplo.
+
+IN-01 (PT-07, fecha de referencia vacía):
+data-codigo="MV-08">La fecha  no es válida. Escribila como año-mes-día, por ejemplo 2026-03-09.
+
+IN-02 (PT-08, alta de lector con error MV-04: ¿se conserva el tipo elegido?):
+data-codigo="MV-04">Los docentes no llevan curso. Dejá el curso vacío y volvé a intentar.
+<select name="tipo"><option value="estudiante">Estudiante</option><option value="docente">Docente</option></select>
+→ vuelve a «Estudiante» (primera opción): se reproduce
+
+IN-03 (PT-09, informe de un mes sin préstamos):
+ Grupo Préstamos Total (contado de nuevo) 0 
+→ sin mensaje de vacío: se reproduce
