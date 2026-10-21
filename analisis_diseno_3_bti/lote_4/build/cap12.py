@@ -254,6 +254,8 @@ PRACTICA_INTRO = [
     'En Mbokaja, un miércoles, dos voluntarios cargaron al mismo tiempo, en dos computadoras, el mismo libro para dos '
     'lectores distintos (MS-6). Ese mismo día volvió un libro con hojas arrancadas (MS-1), y la norma dice que se repone '
     'con otro igual (M-N5). Usá el contrato de devolución que escribiste en la Práctica 9.',
+    'Esta práctica se resuelve en papel: se explica, se diseña la prueba y se decide. No hace falta ejecutar nada en la '
+    'computadora de Mbokaja.',
 ]
 NIVELES = [
     ('Nivel 1 — Guiado', [

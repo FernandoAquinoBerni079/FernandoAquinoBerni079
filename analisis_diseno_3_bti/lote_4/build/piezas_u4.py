@@ -17,7 +17,7 @@ import fragmentos as F
 Z2 = Z3.Z2
 X = C.X
 
-VERSION = 'v1.0 (lote 4, para auditoría) · oficio O3'
+VERSION = 'v1.1 (lote 4, cierre de auditoría) · oficio O3'
 LINEA = 'LOTE EDITORIAL 4 — UNIDAD IV (CAPÍTULOS 10 A 13)'
 MONO = 'Courier New'          # en LibreOffice se imprime con Liberation Mono, de la misma métrica
 CUERPO_CODIGO = 7.5           # 96 caracteres entran en el ancho útil del perfil O3

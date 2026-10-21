@@ -257,6 +257,8 @@ PRACTICA_INTRO = [
     'Seguís con la Escuela Básica Mbokaja, que ya tiene la computadora donada sin internet (M-F7). El profesor del colegio '
     'vecino dejó instalado un sistema de prueba con una copia de la base del curso (M-F10). En la escuela nadie sabe '
     'instalar programas (M-F9), y los libros tienen etiquetas propias (M-F11).',
+    'Los niveles 1 y 2 se hacen en una copia de práctica de la base de tu equipo, instalada en otra carpeta: el sistema '
+    'de prueba de Mbokaja es una copia como esa. El nivel 3 se resuelve en papel.',
 ]
 NIVELES = [
     ('Nivel 1 — Guiado', [

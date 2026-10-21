@@ -8,6 +8,8 @@ Uso: python3 lote_4/build/reproducir.py   →  lote_4/resultados_pruebas/*.txt y
    prueba_mis_operaciones.php, que tiene que dar todo PENDIENTE y ninguna falla.
 3. Reproducción del ejemplo del libro: en una copia de la base se completa OA-01 con la función de la referencia
    (la que el Capítulo 10 muestra en fragmentos) y se comprueba que pasan sus cinco pruebas PA-01.
+4. Práctica 11 (v1.1): se genera practica_11/secuencia.json desde caso/mbokaja_u4.py y se corre
+   practica_11/comprobar_practica_11.php sobre una base temporal, con el código de la referencia sin modificar.
 El entorno de construcción NO es una computadora escolar: el resumen lo dice expresamente."""
 import os, re, sys, json, shutil, subprocess, tempfile, platform, datetime
 L4 = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
@@ -61,6 +63,21 @@ def reproducir_ejemplo():
             'ok': cod == 0 and len(pa01) == 5 and all(l.startswith('CORRECTO') for l in pa01)}, salida
 
 
+def practica_11():
+    """Genera la secuencia de la Práctica 11 desde la fuente de Mbokaja y la comprueba en una base temporal."""
+    sys.path.insert(0, os.path.join(L4, 'caso'))
+    sys.dont_write_bytecode = True
+    import mbokaja_u4 as MB
+    carpeta = os.path.join(L4, 'practica_11')
+    json.dump({'pasos': [list(p) for p in MB.PASOS_P11], 'consultas': [list(c) for c in MB.CONSULTAS_P11]},
+              open(os.path.join(carpeta, 'secuencia.json'), 'w', encoding='utf8'), ensure_ascii=False, indent=1)
+    p = subprocess.run(['php', 'comprobar_practica_11.php'], cwd=carpeta, capture_output=True, text=True, timeout=300)
+    salida = p.stdout + p.stderr
+    fin = [l for l in salida.strip().split('\n') if l.startswith('Resultado')]
+    return {'codigo': p.returncode, 'resultado': fin[-1] if fin else '(sin línea de resultado)',
+            'ok': p.returncode == 0}, salida
+
+
 if __name__ == '__main__':
     os.makedirs(OUT, exist_ok=True)
     res = {'entorno': entorno(), 'referencia_docente': {}, 'base_estudiante': {}}
@@ -81,6 +98,11 @@ if __name__ == '__main__':
         'Entorno: %s, PHP %s, SQLite %s\n\n' % (e['sistema'], e['php'], e['sqlite']) + salida)
     fallos += not ej['ok']
     print('Reproducción del ejemplo del Capítulo 10 (OA-01 completada en una copia de la base):', 'correcta' if ej['ok'] else 'FALLA', ej['pa01'])
+    p11, salida = practica_11()
+    res['practica_11'] = p11
+    open(os.path.join(OUT, 'practica_11_mbokaja.txt'), 'w', encoding='utf8').write(salida)
+    fallos += not p11['ok']
+    print('Práctica 11 (correspondencia fija, base temporal):', p11['resultado'])
     pend_base = res['base_estudiante']['prueba_mis_operaciones.php']['pendientes']
     res['base_estudiante_operaciones_pendientes'] = pend_base
     res['fallos'] = fallos

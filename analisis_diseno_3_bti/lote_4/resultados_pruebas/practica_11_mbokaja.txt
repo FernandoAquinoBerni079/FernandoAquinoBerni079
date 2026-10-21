@@ -1,0 +1,20 @@
+CORRECTO Paso 1 (MD-01, OA-02 OB-0210 · La laguna de los patos · Autora del caso (ficticia) · ED-0210 · Donación Mbokaja) → MA-04
+CORRECTO Paso 2 (MD-01, OA-01 EJ-0201 · ED-0210) → MA-01
+CORRECTO Paso 3 (MD-02, OA-01 EJ-0202 · ED-0210) → MA-01
+CORRECTO Paso 4 (MD-03, OA-02 OB-0220 · Canciones del recreo · Autor del caso (ficticio) · ED-0220 · Donación Mbokaja) → MA-04
+CORRECTO Paso 5 (MD-03, OA-01 EJ-0202 · ED-0220) → MA-02 y sin cambios
+CORRECTO Paso 6 (MD-04, OA-01 EJ-0204 · ED-0210) → MA-01
+CORRECTO Paso 7 (MD-05, OA-02 OB-0230 · Mapas de mi país · ED-0230 · Donación Mbokaja) → MV-01 y sin cambios
+CORRECTO Paso 8 (MD-06, OA-01 MB205 · ED-0230) → MV-02 y sin cambios
+CORRECTO Paso 9 (MD-06, OA-02 OB-0230 · Mapas de mi país · Equipo editorial (ficticio) · ED-0230 · Donación Mbokaja) → MA-04
+CORRECTO Paso 10 (MD-05 y MD-06, OA-01 EJ-0205 · ED-0230) → MA-01
+CORRECTO Paso 11 (ML-1, OA-03 LE-0301 · Lector ML-1 (ficticio) · estudiante) → MV-03 y sin cambios
+CORRECTO Paso 12 (ML-2, OA-03 LE-0302 · Lector ML-2 (ficticio) · docente · 6.º) → MV-04 y sin cambios
+CORRECTO Paso 13 (ML-3, OA-03 LE-0303 · Lector ML-3 (ficticio) · estudiante · 6.º grado) → MA-06
+CORRECTO Consulta pública «laguna» → 1 obra, 3 ejemplares, 3 disponibles
+CORRECTO Consulta pública «Canciones» → ME-08
+CORRECTO Consulta pública «Mapas» → 1 obra, 1 ejemplares, 1 disponibles
+CORRECTO Ningún dato de lectores en la consulta pública
+Entorno: Linux 6.18.44-fc-v140, PHP 8.3.6, SQLite 3.45.1
+
+Resultado: 17 de 17 correctas

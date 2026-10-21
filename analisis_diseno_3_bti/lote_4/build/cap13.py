@@ -146,6 +146,8 @@ PRACTICA_INTRO = [
     'actividad complementaria. No reemplaza ni reduce el H4. El sistema de prueba de Mbokaja se usó una semana, con plazo '
     'de siete días (M-N1). El encargado anotó lo que pasó (MI-01 a MI-07). Algunos resultados del sistema no coinciden '
     'con lo que pasó: hay que descubrir por qué.',
+    'El registro de la semana y lo que mostró el sistema de Mbokaja son datos simulados: la práctica se resuelve en papel, '
+    'a partir del registro, y no se reproduce en la base entregada.',
 ]
 NIVELES = [
     ('Nivel 1 — Guiado', [

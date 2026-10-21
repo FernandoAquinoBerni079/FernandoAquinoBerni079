@@ -105,6 +105,10 @@ def cuerpo11(doc):
             [1.7, 2.0, 4.6, 4.3, 4.0], rotulo=MB.LOTE_TITULO)
     Z.codigos(doc, MB.LECTORES_TITULO, MB.LECTORES)
     Z.codigos(doc, DATOS_MB, _pares('M-F11', 'MS-5', 'MN-05'))
+    M.tabla(doc, (['Dato de Mbokaja', 'Cómo se escribe en la copia de práctica', 'Por qué'], [list(c) for c in MB.CORRESPONDENCIA]),
+            [4.6, 5.6, 6.4], rotulo=MB.CORRESPONDENCIA_TITULO)
+    M.tabla(doc, (['Nivel', 'Dónde se hace', 'Qué se hace'], [list(e) for e in MB.EJECUCION]), [2.2, 5.0, 9.4],
+            rotulo=MB.EJECUCION_TITULO)
 
 
 def cuerpo12(doc):

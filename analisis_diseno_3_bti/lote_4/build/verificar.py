@@ -491,6 +491,31 @@ for f in ('fig_10_1', 'fig_12_1', 'fig_13_1'):
     chk('L', '%s (esquema didáctico) no usa símbolos de ninguna notación' % f, reg[f]['notacion'] == 'esquema' and not reg[f]['simbolos'])
 chk('L', 'Guía: leyenda de la notación de capas con los símbolos que usa la Figura 10.2', all(G.SIMBOLOS[s][1] in tG for s in u))
 
+# ---------------------------------------------------------------- W. Práctica 11 reproducible (v1.1, cierre de auditoría)
+chk('W', 'La Práctica 11 ya no supone un sistema adaptado a MB-: se carga en una copia de práctica con correspondencia fija',
+    'ya acepta las etiquetas MB-' not in tE + tC and 'copia de práctica' in j(cap11.PRACTICA_INTRO) and 'correspondencia fija' in j(cap11.PRACTICA_INTRO))
+chk('W', 'Libro y cuaderno: tabla de correspondencia y tabla de qué se ejecuta y qué se resuelve en papel',
+    all(t in x for t in (MB.CORRESPONDENCIA_TITULO, MB.EJECUCION_TITULO) for x in (tE, tC)) and all(c[1] in tC for c in MB.CORRESPONDENCIA))
+sec = json.load(open(os.path.join(L4, 'practica_11', 'secuencia.json'), encoding='utf8'))
+chk('W', 'practica_11/secuencia.json sale de caso/mbokaja_u4.py (PASOS_P11 y CONSULTAS_P11)',
+    sec == {'pasos': [list(x) for x in MB.PASOS_P11], 'consultas': [list(c) for c in MB.CONSULTAS_P11]})
+chk('W', 'La secuencia se comprobó sin fallos en una base temporal: %s' % res['practica_11']['resultado'],
+    res['practica_11']['ok'] and 'Entorno' in leer(L4, 'resultados_pruebas', 'practica_11_mbokaja.txt'))
+chk('W', 'Cada paso usa solo códigos que la base entregada acepta o rechaza con su mensaje (EJ-, OB-, ED-, LE- o el formato inválido MB205)',
+    all(all(re.match(r'^(EJ|OB|ED|LE)-\d{4}$', x) or not re.match(r'^[A-Z]{2}-?\d', x) or x == 'MB205' for x in p_[3]) for p_ in MB.PASOS_P11))
+diff_p = subprocess.run(['git', 'diff', '--stat', '10c877a', '--', 'lote_4/proyecto'], cwd=ADS, capture_output=True, text=True).stdout.strip()
+chk('W', 'La base Arapoty (referencia docente y base del estudiante) no cambió desde la v1.0 (10c877a)', not diff_p, diff_p[:200])
+chk('W', 'La guía trae la secuencia comprobada, con el mensaje esperado de cada paso', 'Práctica 11: secuencia comprobada del nivel 2' in tG
+    and all(('%s' % x[4]) in tG for x in MB.PASOS_P11))
+chk('W', 'El nivel 3 de la Práctica 11 se resuelve en papel y lo dice', 'en papel' in cap11.NIVELES[2][0] and 'no se programa' in j(cap11.NIVELES[2]))
+chk('W', 'Las Prácticas 10, 12 y 13 dicen qué se ejecuta y qué se resuelve en papel; la 13 rotula sus datos como simulados',
+    'copia de práctica' in j(cap10.PRACTICA_INTRO) and 'en papel' in j(cap12.PRACTICA_INTRO) and 'datos simulados' in j(cap13.PRACTICA_INTRO))
+m10 = json.load(open(os.path.join(L4, 'version_1_0', 'MANIFIESTO_LOTE_4.json'), encoding='utf8'))
+d10 = [x for x in m10['archivos'] if x['ruta'].startswith('ADS_3BTI_LOTE4_')]
+chk('W', 'Versión 1.0 conservada: los seis DOCX y PDF de version_1_0/ coinciden con su manifiesto SHA-256',
+    len(d10) == 6 and all(hashlib.sha256(open(os.path.join(L4, 'version_1_0', x['ruta']), 'rb').read()).hexdigest() == x['sha256'] for x in d10))
+chk('W', 'Versión 1.1 en la portada de los tres documentos', all('v1.1 (lote 4, cierre de auditoría)' in t for t in (tE, tG, tC)))
+
 # ---------------------------------------------------------------- Q. lotes 1 a 3 intactos
 st = subprocess.run(['git', 'status', '--porcelain', '--', 'lote_1', 'lote_2', 'lote_3', 'lote_1_oficio_candidata'], cwd=ADS,
                     capture_output=True, text=True).stdout.strip()

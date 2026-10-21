@@ -1,5 +1,5 @@
 {
- "correctos": 274,
+ "correctos": 285,
  "fallos": 0,
  "bloques": {
   "A": [
@@ -64,6 +64,10 @@
   ],
   "L": [
    5,
+   0
+  ],
+  "W": [
+   11,
    0
   ],
   "Q": [
@@ -214,12 +218,12 @@
   },
   {
    "bloque": "C",
-   "control": "guía: los 130 códigos citados existen en las fuentes",
+   "control": "guía: los 131 códigos citados existen en las fuentes",
    "resultado": "correcto"
   },
   {
    "bloque": "C",
-   "control": "cuaderno: los 41 códigos citados existen en las fuentes",
+   "control": "cuaderno: los 43 códigos citados existen en las fuentes",
    "resultado": "correcto"
   },
   {
@@ -939,12 +943,12 @@
   },
   {
    "bloque": "G",
-   "control": "libro: 501 filas de tabla, todas «no dividir»",
+   "control": "libro: 513 filas de tabla, todas «no dividir»",
    "resultado": "correcto"
   },
   {
    "bloque": "G",
-   "control": "libro: 62 tablas de varias columnas y bloques de código al ancho útil",
+   "control": "libro: 64 tablas de varias columnas y bloques de código al ancho útil",
    "resultado": "correcto"
   },
   {
@@ -954,12 +958,12 @@
   },
   {
    "bloque": "G",
-   "control": "guía: 392 filas de tabla, todas «no dividir»",
+   "control": "guía: 408 filas de tabla, todas «no dividir»",
    "resultado": "correcto"
   },
   {
    "bloque": "G",
-   "control": "guía: 61 tablas de varias columnas y bloques de código al ancho útil",
+   "control": "guía: 62 tablas de varias columnas y bloques de código al ancho útil",
    "resultado": "correcto"
   },
   {
@@ -969,12 +973,12 @@
   },
   {
    "bloque": "G",
-   "control": "cuaderno: 50 filas de tabla, todas «no dividir»",
+   "control": "cuaderno: 62 filas de tabla, todas «no dividir»",
    "resultado": "correcto"
   },
   {
    "bloque": "G",
-   "control": "cuaderno: 9 tablas de varias columnas y bloques de código al ancho útil",
+   "control": "cuaderno: 11 tablas de varias columnas y bloques de código al ancho útil",
    "resultado": "correcto"
   },
   {
@@ -1099,7 +1103,7 @@
   },
   {
    "bloque": "H",
-   "control": "Extensión de la guía: 23 págs. (plan: 18 a 24)",
+   "control": "Extensión de la guía: 24 págs. (plan: 18 a 24)",
    "resultado": "correcto"
   },
   {
@@ -1430,6 +1434,61 @@
   {
    "bloque": "L",
    "control": "Guía: leyenda de la notación de capas con los símbolos que usa la Figura 10.2",
+   "resultado": "correcto"
+  },
+  {
+   "bloque": "W",
+   "control": "La Práctica 11 ya no supone un sistema adaptado a MB-: se carga en una copia de práctica con correspondencia fija",
+   "resultado": "correcto"
+  },
+  {
+   "bloque": "W",
+   "control": "Libro y cuaderno: tabla de correspondencia y tabla de qué se ejecuta y qué se resuelve en papel",
+   "resultado": "correcto"
+  },
+  {
+   "bloque": "W",
+   "control": "practica_11/secuencia.json sale de caso/mbokaja_u4.py (PASOS_P11 y CONSULTAS_P11)",
+   "resultado": "correcto"
+  },
+  {
+   "bloque": "W",
+   "control": "La secuencia se comprobó sin fallos en una base temporal: Resultado: 17 de 17 correctas",
+   "resultado": "correcto"
+  },
+  {
+   "bloque": "W",
+   "control": "Cada paso usa solo códigos que la base entregada acepta o rechaza con su mensaje (EJ-, OB-, ED-, LE- o el formato inválido MB205)",
+   "resultado": "correcto"
+  },
+  {
+   "bloque": "W",
+   "control": "La base Arapoty (referencia docente y base del estudiante) no cambió desde la v1.0 (10c877a)",
+   "resultado": "correcto"
+  },
+  {
+   "bloque": "W",
+   "control": "La guía trae la secuencia comprobada, con el mensaje esperado de cada paso",
+   "resultado": "correcto"
+  },
+  {
+   "bloque": "W",
+   "control": "El nivel 3 de la Práctica 11 se resuelve en papel y lo dice",
+   "resultado": "correcto"
+  },
+  {
+   "bloque": "W",
+   "control": "Las Prácticas 10, 12 y 13 dicen qué se ejecuta y qué se resuelve en papel; la 13 rotula sus datos como simulados",
+   "resultado": "correcto"
+  },
+  {
+   "bloque": "W",
+   "control": "Versión 1.0 conservada: los seis DOCX y PDF de version_1_0/ coinciden con su manifiesto SHA-256",
+   "resultado": "correcto"
+  },
+  {
+   "bloque": "W",
+   "control": "Versión 1.1 en la portada de los tres documentos",
    "resultado": "correcto"
   },
   {

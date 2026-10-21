@@ -52,3 +52,50 @@ SEMANA = [
 
 FUENTES = dict(DATOS + [(c, '%s — %s' % (e, t)) for c, e, t, _, _ in LOTE] + LECTORES + SITUACIONES + SEMANA)
 FUENTES.update(MB3.FUENTES)
+
+# ------------------------------------------------------------------ Práctica 11, v1.1 (corrección de la auditoría)
+# La práctica se ejecuta en una COPIA DE PRÁCTICA de la base del equipo (o, si el equipo no llegó, de la referencia
+# docente), sin cambiar la base Arapoty: las etiquetas de Mbokaja se cargan con una correspondencia fija, porque el
+# sistema entregado valida EJ- y cuatro cifras. Lo que no se puede ejecutar con el entorno entregado se resuelve en papel.
+CORRESPONDENCIA_TITULO = 'Cómo se cargan los datos de Mbokaja en la copia de práctica (correspondencia fija)'
+# (dato de Mbokaja, cómo se escribe en la copia de práctica, por qué)
+CORRESPONDENCIA = [
+    ('Etiqueta MB- y tres cifras (por ejemplo, MB-201)', 'EJ-0 y las mismas tres cifras (EJ-0201)',
+     'El sistema entregado valida EJ- y cuatro cifras; la correspondencia conserva las cifras de la etiqueta.'),
+    ('Etiqueta con otro formato (MB205)', 'Tal como figura en la planilla (MB205)', 'Para ver qué responde el sistema.'),
+    ('Obra «La laguna de los patos»', 'Obra OB-0210, edición ED-0210', 'Códigos asignados por el encargado.'),
+    ('Obra «Canciones del recreo»', 'Obra OB-0220, edición ED-0220', 'Códigos asignados por el encargado.'),
+    ('Obra «Mapas de mi país»', 'Obra OB-0230, edición ED-0230', 'Códigos asignados por el encargado.'),
+    ('Editorial y año de las donaciones', '«Donación Mbokaja»', 'La planilla no los trae.'),
+    ('Lectores ML-1, ML-2 y ML-3', 'LE-0301, LE-0302 y LE-0303, con el nombre «Lector ML-1 (ficticio)» y así',
+     'Datos ficticios; el sistema no guarda datos personales reales.'),
+]
+EJECUCION_TITULO = 'Qué se ejecuta en la copia de práctica y qué se resuelve en papel'
+EJECUCION = [
+    ('Nivel 1', 'En papel, y después se comprueba en la copia', 'Clasificar cada fila y prever el mensaje; luego cargar las filas tal cual y comparar.'),
+    ('Nivel 2', 'Se ejecuta en la copia de práctica', 'Cargar el lote corregido con la correspondencia y comprobar con la consulta pública.'),
+    ('Nivel 3', 'En papel (diseño)', 'El sistema entregado no tiene un rol de voluntario: se decide y se diseña la prueba, sin programarla.'),
+]
+# Secuencia de comprobación del Nivel 2 (la ejecuta lote_4/practica_11/comprobar_practica_11.php sobre una copia aislada
+# de la referencia docente). (paso, fuente, operación, entradas, mensaje esperado)
+PASOS_P11 = [
+    (1, 'MD-01', 'OA-02', ['OB-0210', 'La laguna de los patos', 'Autora del caso (ficticia)', 'ED-0210', 'Donación Mbokaja'], 'MA-04'),
+    (2, 'MD-01', 'OA-01', ['EJ-0201', 'ED-0210'], 'MA-01'),
+    (3, 'MD-02', 'OA-01', ['EJ-0202', 'ED-0210'], 'MA-01'),
+    (4, 'MD-03', 'OA-02', ['OB-0220', 'Canciones del recreo', 'Autor del caso (ficticio)', 'ED-0220', 'Donación Mbokaja'], 'MA-04'),
+    (5, 'MD-03', 'OA-01', ['EJ-0202', 'ED-0220'], 'MA-02'),
+    (6, 'MD-04', 'OA-01', ['EJ-0204', 'ED-0210'], 'MA-01'),
+    (7, 'MD-05', 'OA-02', ['OB-0230', 'Mapas de mi país', '', 'ED-0230', 'Donación Mbokaja'], 'MV-01'),
+    (8, 'MD-06', 'OA-01', ['MB205', 'ED-0230'], 'MV-02'),
+    (9, 'MD-06', 'OA-02', ['OB-0230', 'Mapas de mi país', 'Equipo editorial (ficticio)', 'ED-0230', 'Donación Mbokaja'], 'MA-04'),
+    (10, 'MD-05 y MD-06', 'OA-01', ['EJ-0205', 'ED-0230'], 'MA-01'),
+    (11, 'ML-1', 'OA-03', ['LE-0301', 'Lector ML-1 (ficticio)', 'estudiante', ''], 'MV-03'),
+    (12, 'ML-2', 'OA-03', ['LE-0302', 'Lector ML-2 (ficticio)', 'docente', '6.º'], 'MV-04'),
+    (13, 'ML-3', 'OA-03', ['LE-0303', 'Lector ML-3 (ficticio)', 'estudiante', '6.º grado'], 'MA-06'),
+]
+# Consultas públicas al final: (texto buscado, obras esperadas, ejemplares, disponibles, o el mensaje si no hay obras)
+CONSULTAS_P11 = [
+    ('laguna', 1, 3, 3, None),
+    ('Canciones', 0, 0, 0, 'ME-08'),
+    ('Mapas', 1, 1, 1, None),
+]

@@ -217,32 +217,37 @@ ACT_E22 = [
 PRACTICA_TITULO = 'Práctica 11 — Un lote de libros donados y lectores con datos incompletos'
 PRACTICA_INTRO = [
     'En Mbokaja llegó un lote de libros donados, cargado en una planilla por un voluntario. También hay lectores nuevos '
-    'para registrar. Para esta práctica, el sistema de prueba de Mbokaja ya acepta las etiquetas MB- y tres cifras (M-F11): '
-    'el profesor vecino adaptó la validación y la restricción de la base. Los datos tienen errores que hay que resolver '
-    'antes de cargarlos, o que el sistema tiene que rechazar.',
+    'para registrar. Los datos tienen errores que hay que resolver antes de cargarlos, o que el sistema tiene que rechazar.',
+    'Se trabaja en una copia de práctica: instalá la base de tu equipo en otra carpeta, con php instalar.php, y cargá ahí '
+    'los datos. No se cambia la base de la clase. El sistema entregado valida códigos EJ- y cuatro cifras, y los libros de '
+    'Mbokaja tienen etiquetas MB- y tres cifras (M-F11): por eso se cargan con la correspondencia fija de la tabla de '
+    'abajo. Si tu equipo todavía no construyó OA-01 a OA-03, tu docente hace la carga en una copia de la referencia.',
 ]
 NIVELES = [
     ('Nivel 1 — Guiado', [
-        'Para cada fila del lote (MD-01 a MD-06), decidí: se registra tal cual, se corrige antes de registrar, o el sistema '
-        'la rechaza. Escribí el mensaje que esperás en cada rechazo.',
-        'Para cada lector (ML-1 a ML-3), escribí si se registra y, si no, qué mensaje responde y qué dato hay que pedir.',
+        'Para cada fila del lote (MD-01 a MD-06), decidí en papel: se registra tal cual, se corrige antes de registrar, o el '
+        'sistema la rechaza. Escribí el mensaje que esperás en cada rechazo.',
+        'Para cada lector (ML-1 a ML-3), escribí si se registra y, si no, qué mensaje responde y qué dato hay que pedir. '
+        'Después cargá en la copia de práctica las filas que previste como rechazos y anotá el mensaje obtenido.',
     ]),
     ('Nivel 2 — Intermedio', [
         'MD-01, MD-02 y MD-04 parecen la misma obra. Decidí cuántas obras, ediciones y ejemplares hay que registrar, con '
         'qué operaciones y en qué orden, y qué hacés con el título mal escrito.',
-        'Registrá el lote corregido en la copia de la base y comprobá con la consulta pública cuántos disponibles hay de '
-        'cada título. Anotá esperado y obtenido.',
+        'Cargá el lote corregido en la copia de práctica, con la correspondencia fija, y comprobá con la consulta pública '
+        'cuántos ejemplares y disponibles hay de «laguna», «Canciones» y «Mapas». Anotá esperado y obtenido, y explicá '
+        'cualquier diferencia.',
     ]),
-    ('Nivel 3 — Ampliación', [
+    ('Nivel 3 — Ampliación (en papel)', [
         'Los voluntarios de 9.º ayudan los miércoles con el encargado presente (MS-5). Decidí qué pueden hacer en el sistema '
-        'y cómo se comprueba en el servidor. Tené en cuenta que son menores de edad y que no tienen que ver datos de otros '
-        'estudiantes (MN-05).',
-        'Escribí la prueba que demuestra tu decisión, con la cuenta, la operación y el mensaje esperado.',
+        'y cómo se comprobaría en el servidor. Tené en cuenta que son menores de edad y que no tienen que ver datos de otros '
+        'estudiantes (MN-05). El sistema entregado no tiene un rol de voluntario: no se programa.',
+        'Escribí la prueba que demostraría tu decisión, con la cuenta, la operación y el mensaje esperado.',
     ]),
 ]
-PRACTICA_CONTROL = ('Punto de control: ningún código repetido se registra; el título mal escrito no crea una obra nueva; '
-                    'el estudiante sin curso y el docente con curso se rechazan con su mensaje; los voluntarios no '
-                    'comparten la cuenta del encargado ni ven datos de lectores; cada decisión tiene su prueba.')
+PRACTICA_CONTROL = ('Punto de control: la carga se hace en la copia de práctica, con la correspondencia fija; ningún '
+                    'código repetido se registra; el título mal escrito no crea una obra nueva; el estudiante sin curso y '
+                    'el docente con curso se rechazan con su mensaje; los voluntarios no comparten la cuenta del encargado '
+                    'ni ven datos de lectores; cada decisión tiene su prueba.')
 
 REPASO = ('Para repasar', [
     'Las tareas del incremento se ordenan por dependencias: primero lo que las demás necesitan.',

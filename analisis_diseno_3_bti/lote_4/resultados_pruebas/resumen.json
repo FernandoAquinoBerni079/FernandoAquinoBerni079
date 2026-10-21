@@ -1,6 +1,6 @@
 {
  "entorno": {
-  "fecha": "2026-10-21 04:47",
+  "fecha": "2026-10-21 09:15",
   "sistema": "Linux 6.18.44-fc-v140 (x86_64)",
   "php": "8.3.6",
   "sqlite": "3.45.1",
@@ -92,6 +92,11 @@
    "CORRECTO PA-01: edición inexistente → MA-03 y sin cambios",
    "CORRECTO PA-01: con la cuenta de dirección → ME-13 y sin cambios"
   ],
+  "ok": true
+ },
+ "practica_11": {
+  "codigo": 0,
+  "resultado": "Resultado: 17 de 17 correctas",
   "ok": true
  },
  "base_estudiante_operaciones_pendientes": 16,

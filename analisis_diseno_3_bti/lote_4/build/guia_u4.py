@@ -169,6 +169,7 @@ def tabla_resultados():
                           (' (%d pendientes)' % v['pendientes'] if v['pendientes'] else '')])
     ej = r['reproduccion_ejemplo_capitulo_10']
     filas.append(['Ejemplo del Capítulo 10', 'OA-01 pegada en una copia de la base', ej['resultado'].replace('Resultado: ', '')])
+    filas.append(['Práctica 11 (v1.1)', 'Secuencia del nivel 2 en una base temporal', r['practica_11']['resultado'].replace('Resultado: ', '')])
     entorno = '%s; PHP %s; SQLite %s; %s; %s' % (e['sistema'], e['php'], e['sqlite'], e['fecha'], e['tipo'])
     return (['Distribución', 'Prueba', 'Resultado'], filas), entorno
 
@@ -247,11 +248,12 @@ CLAVES_E22 = [
     ['5', 'Un estudiante con un préstamo de marzo registrado en 2.º BTI; se corrige su curso a 3.º BTI con OA-04; el informe de marzo sigue con ese préstamo en 2.º BTI (RI-08). La referencia docente lo comprueba en prueba_contratos.php.', 'Comprobar con el informe del mes actual.'],
 ]
 CLAVES_P11 = [
-    ['Nivel 1', 'MD-01: se registra (obra nueva, su edición y el ejemplar MB-201). MD-02: se registra como otro ejemplar de la misma obra y edición (MB-202). MD-03: el sistema la rechaza con MA-02 (MB-202 ya existe): hay que revisar la etiqueta del libro y darle otra. MD-04: se corrige antes: es la misma obra que MD-01; el ejemplar MB-204 va en esa edición. MD-05: falta el autor: MV-01 al registrar la obra; hay que pedir el dato. MD-06: MV-02 por el formato (MB205). ML-1: MV-03, falta el curso (4.º grado). ML-2: MV-04, el docente no lleva curso. ML-3: se registra (MA-06).'],
-    ['Nivel 2', '«La laguna de los patos»: una obra, una edición (salvo que las tapas muestren ediciones distintas) y tres ejemplares (MB-201, MB-202 y MB-204), con el título bien escrito. «Canciones del recreo»: una obra, una edición y un ejemplar con una etiqueta nueva. «Mapas de mi país»: MD-05 y MD-06 son probablemente el mismo libro (MB-205 sin autor y MB205 con autor): se revisa el estante y, si es uno, se registra una sola vez con el autor de MD-06. Orden: OA-02 antes que OA-01. Consulta esperada: 3, 1 y 1 disponibles (o 2 si los mapas son dos libros con etiquetas distintas).'],
-    ['Nivel 3', 'Los voluntarios no usan la cuenta del encargado. Opción esperada: usan solo la consulta pública, que no pide sesión ni muestra datos de lectores (MN-05, RNF-03), y el encargado registra. Si la escuela quiere que registren, hace falta una solicitud de cambio con un rol nuevo, una zona y su comprobación en el servidor, sin acceso a datos de otros estudiantes. Prueba: con la cuenta del voluntario (si existe), pedir un préstamo o el informe responde ME-13 y no cambia nada.'],
+    ['Nivel 1', 'MD-01: se registra (obra nueva OB-0210, edición ED-0210 y el ejemplar EJ-0201, que corresponde a MB-201). MD-02: otro ejemplar de la misma obra y edición (EJ-0202). MD-03: la etiqueta repite MB-202: el sistema responde MA-02; hay que revisar el libro y darle otra etiqueta. MD-04: se corrige antes: es la misma obra que MD-01, y el ejemplar EJ-0204 va en ED-0210. MD-05: falta el autor: MV-01 al registrar la obra. MD-06: MB205 se escribe tal cual y responde MV-02. ML-1: MV-03, falta el curso (4.º grado). ML-2: MV-04, el docente no lleva curso. ML-3: se registra (MA-06). Los mensajes obtenidos en la copia tienen que coincidir con los previstos (tabla de la secuencia comprobada).'],
+    ['Nivel 2', '«La laguna de los patos»: una obra, una edición y tres ejemplares (EJ-0201, EJ-0202 y EJ-0204), con el título bien escrito: la consulta «laguna» da 3 ejemplares y 3 disponibles. «Canciones del recreo»: la obra y su edición se registran, pero su ejemplar se rechaza con MA-02: la consulta «Canciones» responde ME-08 hasta que el libro recibe una etiqueta nueva (por ejemplo, MB-203 → EJ-0203), y entonces da 1 disponible. «Mapas de mi país»: MD-05 y MD-06 son probablemente el mismo libro; se registra una sola vez, con el autor de MD-06: 1 disponible. Orden: OA-02 antes que OA-01. Se valora que el equipo explique la diferencia de «Canciones» en lugar de anotar solo el número.'],
+    ['Nivel 3', 'En papel. Los voluntarios no usan la cuenta del encargado. Opción esperada: usan solo la consulta pública, que no pide sesión ni muestra datos de lectores (MN-05, RNF-03), y el encargado registra. Si la escuela quiere que registren, hace falta una solicitud de cambio con un rol nuevo, una zona y su comprobación en el servidor, sin acceso a datos de otros estudiantes. Prueba diseñada: con la cuenta del voluntario, pedir un préstamo o el informe tendría que responder ME-13 sin cambiar nada.'],
 ]
 COTEJO_P11 = [
+    ['La carga se hace en una copia de práctica, con la correspondencia fija; la base de la clase no cambia.', 'Indicador 3'],
     ['Ningún código repetido se registra y cada rechazo tiene su mensaje.', 'Indicadores 2 y 3'],
     ['El título mal escrito no crea una obra nueva (Nivel 2 o 3).', 'Indicador 3'],
     ['El estudiante sin curso y el docente con curso se rechazan.', 'Indicador 2'],
@@ -493,6 +495,14 @@ def construir(ruta, claves, paginas, estado, figs):
             Z.tabla_leyenda(doc, 'capas', 'Leyenda: esquema de capas (Figura 10.2, la misma notación de la Tabla 9.1)', figs)
         _errores(doc, 'Errores frecuentes del %s' % C_.CAPITULO, errores)
         if C_ is cap11:
+            H.p_texto(doc, 'Práctica 11 (v1.1): se hace en una copia de práctica de la base del equipo, con la correspondencia '
+                           'fija del libro; la base de la clase no cambia. La secuencia del nivel 2 se comprobó con '
+                           'lote_4/practica_11/comprobar_practica_11.php, que usa el código de la referencia docente sin '
+                           'modificarlo sobre una base temporal (resultado en la sección 7). El docente puede correrla también '
+                           'sobre la copia de un equipo: php comprobar_practica_11.php <carpeta de la copia>.', size=10)
+            M.tabla(doc, (['Paso', 'Fuente', 'Operación', 'Entradas', 'Esperado'],
+                          [[str(p[0]), p[1], p[2], ' · '.join(x for x in p[3] if x), p[4]] for p in MB.PASOS_P11]),
+                    [1.2, 2.2, 2.0, 9.0, 2.2], rotulo='Práctica 11: secuencia comprobada del nivel 2', size=8.5)
             H.p_texto(doc, 'Referencia para el docente: las validaciones del lector de la referencia docente (OA-03 y OA-04). '
                            'El libro no las publica: los equipos las construyen con la Tabla 11.2.', size=10)
             Z.codigo(doc, 'Referencia R-1')
