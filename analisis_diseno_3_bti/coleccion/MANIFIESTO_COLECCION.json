@@ -54,68 +54,83 @@
  "archivos": [
   {
    "ruta": "ADS_3BTI_CUADERNO_ANUAL_PRACTICAS_OFICIO_O3.docx",
-   "bytes": 64692,
-   "sha256": "44abec79c532ffb64d6d9d3b417f79de899399130f40caed2f9364ee75f45656"
+   "bytes": 64700,
+   "sha256": "d1ebfd2cf5906917e6fb8dd73b3a430ef4ee64f562428e4c46d6f68a9ab57918"
   },
   {
    "ruta": "ADS_3BTI_CUADERNO_ANUAL_PRACTICAS_OFICIO_O3.pdf",
-   "bytes": 480393,
-   "sha256": "cc0480fe547d857a1177527b6c255fedf2bb405a3cf22da270467e022723bca2"
+   "bytes": 480421,
+   "sha256": "20fde6d78e9a7b13979769965625b042a5baaa252dd875ff0d247fd12bdd7010"
   },
   {
    "ruta": "ADS_3BTI_GUIA_DOCENTE_ANUAL_OFICIO_O3.docx",
-   "bytes": 248935,
-   "sha256": "e7729597b9e22add46161220ba9cafe9ccca0a78492f86bc781866bb6c071396"
+   "bytes": 249544,
+   "sha256": "9eaa5c2f353cd788187909ab1f7d8e64e9863c6982056a307184367be762a057"
   },
   {
    "ruta": "ADS_3BTI_GUIA_DOCENTE_ANUAL_OFICIO_O3.pdf",
-   "bytes": 2832345,
-   "sha256": "1e131d9c0eac3d3db9018f09cfa082dc0a79e63a3e9ca43ae8353d47983f4191"
+   "bytes": 2846856,
+   "sha256": "4c95ddabce7459cb4dfbefeae3682c6236c496c5dc8ca41c69c32f57a6960bbd"
   },
   {
    "ruta": "ADS_3BTI_LIBRO_ANUAL_ESTUDIANTE_OFICIO_O3.docx",
-   "bytes": 2748441,
-   "sha256": "35da2ae2448b47f54e6c81255b67d66a9416d3eb98b948da0519990690121996"
+   "bytes": 2748609,
+   "sha256": "6f0bb7660817206b07196affbaccfa537d55dfdcd0ee831abe02f999c2e44c66"
   },
   {
    "ruta": "ADS_3BTI_LIBRO_ANUAL_ESTUDIANTE_OFICIO_O3.pdf",
-   "bytes": 6209750,
-   "sha256": "e2e52194446982994754ee299651c7334407d6ab59d6782d8ec0323fa9ff257e"
+   "bytes": 6210244,
+   "sha256": "310090c92bdd7bd385ad7ad293a1df2af53c54fe5937626b7c4582a9a1378936"
   },
   {
    "ruta": "COHERENCIA.json",
-   "bytes": 6133,
-   "sha256": "8c21572077c1fc3c19e13384cc9076faf7923f8b2b1f9bf612185cda22574c72"
+   "bytes": 6823,
+   "sha256": "7b99fd7eaf89be4d7a092d4bd300f69b1f242bb62e255821ec90202c8ccc52da"
   },
   {
    "ruta": "CONTROLES_IMPRESION.json",
-   "bytes": 13250,
-   "sha256": "d3d4ae78d4c7ff265d2d0afbae00be2b1a4e95df9a022c95a52c860b563114ca"
+   "bytes": 25338,
+   "sha256": "205e069a12909c2eae4b427008552915607b5a8e30514f7c2e8ce1032a9e232e"
   },
   {
    "ruta": "DIFERENCIAS.md",
-   "bytes": 6830,
-   "sha256": "81803f870e6e3c43ea3f430e3f780d7e4f1b1282428eaba95405bc83ba1b670b"
+   "bytes": 10295,
+   "sha256": "8964ca7a73b715bcb1e0eb4f05af4564cbce59672b931721de9d0c211ef355ee"
   },
   {
    "ruta": "EQUIVALENCIA.json",
-   "bytes": 12658,
-   "sha256": "2adcd48f793727cef619fde9f4f4f6b366e2c9c074e6683e6a993fd81a4296da"
+   "bytes": 12708,
+   "sha256": "fd83ed6622f867b523c6af59a280948c02936e3b43e479dcc86e90cc49a48b71"
   },
   {
    "ruta": "EVALUACION_ENCUADERNACION.md",
-   "bytes": 3977,
-   "sha256": "ca36a43a6ad3284448b2f037256ce5ed8ed9dbf7009a08b83d41c448af701b2f"
+   "bytes": 3980,
+   "sha256": "beadcbcb4bfaf281b336bcdb8dce015a7b3bb4c2d8cdbfd2c7924e9b500fec0a"
+  },
+  {
+   "ruta": "INFORME_CIERRE_EDITORIAL.md",
+   "bytes": 9363,
+   "sha256": "8548c8d592ffe4677897919bc5b0ca69dc3938cfd02cc25974bc450c714e714f"
   },
   {
    "ruta": "INFORME_INTEGRACION.md",
-   "bytes": 12260,
-   "sha256": "fcc23c59655bb6de17d12da689efeb20f793baf8a2e22e0621b3d532fb750efe"
+   "bytes": 12374,
+   "sha256": "84c6a4ca8048576dc57e0ee50d2fc22bd7ecc4a86abdee9dd8678021949b55ed"
+  },
+  {
+   "ruta": "INFORME_LEGIBILIDAD_IMPRESION.md",
+   "bytes": 7706,
+   "sha256": "935bc640865c8ea942ef4d868ab6bddd8b6c1e999b9b3023e58892b93e160e48"
   },
   {
    "ruta": "INVENTARIO.md",
-   "bytes": 10278,
-   "sha256": "945864ce68cb425647c2e003858034bf22e83f4d3250b64f7f36b114488929af"
+   "bytes": 10285,
+   "sha256": "1a52dbfc9241d79268598edff463c0fa368c639cd807cbe29d5a3ef0227ed8ff"
+  },
+  {
+   "ruta": "LEGIBILIDAD_IMPRESION.json",
+   "bytes": 5348,
+   "sha256": "1e17b3cb2046ea6391db59cb475f6917c6702abd5c9e8c503a41349444d785fa"
   },
   {
    "ruta": "PRUEBA_FUENTES.json",
@@ -123,39 +138,44 @@
    "sha256": "7f8970a3a585e93d71aa8f1eb09dcdc1a145be919c5bb4c70e52a19a6005853b"
   },
   {
+   "ruta": "REVISION_VISUAL.md",
+   "bytes": 8289,
+   "sha256": "25710887fcbc329eb31bb367d2510136c3346b17e004fe5dad9c4ea23105c6e1"
+  },
+  {
    "ruta": "resultado_construccion.json",
-   "bytes": 56738,
-   "sha256": "3396acbb5166c4a04b22369387b2aba2bbda4432b07ebd8b9c3a89668725b9e4"
+   "bytes": 59262,
+   "sha256": "30d1df44a9a8ca0dfa6b9a16d06202898eac08ae8905eac4b370f811c8d662a1"
   },
   {
    "ruta": "build/armar_coleccion.py",
-   "bytes": 14348,
-   "sha256": "f90d1c92c4885bed3d78c70be0db2aeaab9566bb58bd7d84352ccba6b8696c05"
+   "bytes": 14791,
+   "sha256": "1198cd7b29c01e56eca89585df67a914d5c346469705bf8c74969b28186be66e"
   },
   {
    "ruta": "build/coherencia.py",
-   "bytes": 15393,
-   "sha256": "8914fabb3801d49000d4d31a20d51c927fb896185ae836f0ca2f739275a0931a"
+   "bytes": 17817,
+   "sha256": "0d4bc1ed10dd4696f4303dc6726d8d1f0d8dadc458acd7102eaef4d62cf9d2d6"
   },
   {
    "ruta": "build/controles.py",
-   "bytes": 13377,
-   "sha256": "e634a49763e5ad9d1490b4bd14e88ff2d301d67231f5898fbc52b34a90133a4d"
+   "bytes": 18615,
+   "sha256": "98f3852a8f1995a7242eb10f20578ba79f78d754f28e4533338e0bcb0d77d99f"
   },
   {
    "ruta": "build/diferencias_coleccion.py",
-   "bytes": 4285,
-   "sha256": "95ea7c774c7198aae30c9a01f8d657ab86722fd7f0edd1bc0de161796c2ddd7e"
+   "bytes": 6065,
+   "sha256": "189c0c2d638ec06c5734315f8b996a755bfd77f03ee836414a5a8936f2c11876"
   },
   {
    "ruta": "build/encuadernacion.py",
-   "bytes": 6901,
-   "sha256": "f926381d49f931701d04c0108303dbf82f68f9dc4f23b5a8285f96438ffe98d7"
+   "bytes": 6904,
+   "sha256": "e3f631b2e49281762cfbfab234b18426c398ac41f57dcc4cc275a5c6156ff242"
   },
   {
    "ruta": "build/equivalencia.py",
-   "bytes": 13451,
-   "sha256": "6cf887e6f02df818bed196109cddcc3e999a314544e96b628a09a7c9d39099fc"
+   "bytes": 14049,
+   "sha256": "1695a8c44532a598cec9a1e05b2e61529745ae3e852fffcf10cb48291a7b95d0"
   },
   {
    "ruta": "build/fuentes.py",
@@ -164,18 +184,23 @@
   },
   {
    "ruta": "build/guia_general.py",
-   "bytes": 4772,
-   "sha256": "55ebee11c513ab4d9899d0015a5268a6a41d9a8e56ccd1d6cc24071f2473ee75"
+   "bytes": 6549,
+   "sha256": "c9e23820b089991080444bae3350a1fab2999c16711dd77e07dc4d928905b628"
   },
   {
    "ruta": "build/informes.py",
-   "bytes": 8651,
-   "sha256": "2f725209436cc816c314d77207d21a4d59230c4f8ebc84f15d0acd53945e3d2b"
+   "bytes": 9071,
+   "sha256": "8a89d6cae702e5740c9d189d979d0f701d9ef40d8f26c4de8046fcda7aff0b2e"
   },
   {
    "ruta": "build/laminas.py",
    "bytes": 4287,
    "sha256": "4e2043a92df87c70704f8267f741b95774a1b03feb6991891d776c5b8527b8b0"
+  },
+  {
+   "ruta": "build/legibilidad.py",
+   "bytes": 16227,
+   "sha256": "0e83943008c1aae8188b5fe08764b2791c138edd36797ba412008d18ed111905"
   },
   {
    "ruta": "build/manifiesto_coleccion.py",
@@ -184,8 +209,8 @@
   },
   {
    "ruta": "build/piezas_coleccion.py",
-   "bytes": 13118,
-   "sha256": "8fdbc4d910cf9f3c805b27966c93ca6aae19dec541da39086f902f803fec0367"
+   "bytes": 16475,
+   "sha256": "52536c1b6f93bc08c1839a814f3729bedb2c9a235125b4c16d155f28d3e3d0a1"
   },
   {
    "ruta": "build/prueba_fuentes_coleccion.py",
@@ -508,9 +533,59 @@
    "sha256": "859f2557a8e4ba7b77eba2563f33c5f78ac96b957e220ef0390feb56cbd4c407"
   },
   {
+   "ruta": "evidencias/inspeccion_paquete_entrega_modelo.txt",
+   "bytes": 72,
+   "sha256": "7047c7324dc1a813e2a714101066ac8a089f3f7b89ca12a189ae194998d250f4"
+  },
+  {
+   "ruta": "evidencias/inspeccion_paquete_mbokaja.txt",
+   "bytes": 520,
+   "sha256": "4e70b4705cedc58ae837e2305eab7cc1fa93df8136f1cc5fcfaa5c0b94efbd75"
+  },
+  {
+   "ruta": "evidencias/pruebas_negativas_lote6.txt",
+   "bytes": 2125,
+   "sha256": "6b1676b2b888a368571622eb214df09bf730f51ebc192e29db52d80a25f608a9"
+  },
+  {
+   "ruta": "evidencias/salida_armar_coleccion.txt",
+   "bytes": 281,
+   "sha256": "d0d2da32e0f921e0d3ea5f673fde981637a20db7c2fcd261d1cc36d7e00d6c72"
+  },
+  {
+   "ruta": "evidencias/salida_coherencia.txt",
+   "bytes": 4507,
+   "sha256": "11c1a4a9c9d43585dc8078d293a0951360822e14375c8484b300d5e9ecd17d53"
+  },
+  {
+   "ruta": "evidencias/salida_controles.txt",
+   "bytes": 5833,
+   "sha256": "b4fca55229b8591aa4321a37c604585f08b75a17d3300b5d59e8a8631ae66b9f"
+  },
+  {
+   "ruta": "evidencias/salida_equivalencia.txt",
+   "bytes": 5706,
+   "sha256": "12147951c437c2c3838f6a1dc9ee87a784aacaa4355a10e46e1aae7e9a8500f0"
+  },
+  {
+   "ruta": "evidencias/salida_informes.txt",
+   "bytes": 63,
+   "sha256": "86569036ca01bbdc22323e927224eb6ffaf8810bea607fa011483e78f0a41ae5"
+  },
+  {
+   "ruta": "evidencias/salida_legibilidad.txt",
+   "bytes": 1702,
+   "sha256": "00079172e0756c2210ff333ecf339aad2ca1f6e3d1714c4c8a203760b3524eb8"
+  },
+  {
+   "ruta": "evidencias/salida_prueba_fuentes_coleccion.txt",
+   "bytes": 1322,
+   "sha256": "fd2ee068db39b048ad80922081488c427fb0dce52ffeaaee0f49beb55df475a5"
+  },
+  {
    "ruta": "revision_visual/00_portadas_e_indices.png",
-   "bytes": 316080,
-   "sha256": "788d1a972d7a3a3c1cafd0bc31c71cbfef2cd0c6cd7ebcae403c4cbe20595c6f"
+   "bytes": 315864,
+   "sha256": "692804779a87dee05afaed2f73ac0d0de480ce55619a0d6168ffe4a1f9b25696"
   },
   {
    "ruta": "revision_visual/01_unidad_I.png",
@@ -529,8 +604,8 @@
   },
   {
    "ruta": "revision_visual/04_unidad_IV.png",
-   "bytes": 857577,
-   "sha256": "589e333b24892254c558c833bba3b6deb719a71061556fde271abca3be5fe33e"
+   "bytes": 857962,
+   "sha256": "53f2534c42eabbd25c29ce3043c35f1bfbfdf4c45553d74f9259d30272aa7320"
   },
   {
    "ruta": "revision_visual/05_unidad_V.png",
@@ -549,13 +624,13 @@
   },
   {
    "ruta": "revision_visual/08_figuras_2.png",
-   "bytes": 1141307,
-   "sha256": "bfa3eb31b9ad477a175d75f3093bae5a8e930c0e61e60a35282e51a9f8fb3c61"
+   "bytes": 1143131,
+   "sha256": "5a39170b2ed387d8ce878838d1170f02868c799d0a809be27ca8df14479da649"
   },
   {
    "ruta": "revision_visual/09_bloques_de_codigo.png",
-   "bytes": 1305617,
-   "sha256": "f73e4d6b1735172131c094b9b5ebc681785d055dff55e3506681d13215f511f0"
+   "bytes": 1311105,
+   "sha256": "298073d43ed9374b65114808cb47a44a8290694e18e862a33789084be849d6b6"
   },
   {
    "ruta": "revision_visual/10_hitos_H1_a_H6.png",
@@ -574,8 +649,8 @@
   },
   {
    "ruta": "revision_visual/13_tablas_repartidas_libro.png",
-   "bytes": 1330424,
-   "sha256": "924a92252ff1dde02e72cf1208252c560b212908fc9b8009bd54969f3c9b577f"
+   "bytes": 1331028,
+   "sha256": "e51125a83ec8bc75a8949cddeb080b4f6ad20dfc1308a47a1077c169e1720f2b"
   },
   {
    "ruta": "revision_visual/14_margenes_espejados.png",
@@ -584,8 +659,8 @@
   },
   {
    "ruta": "revision_visual/15_guia_parte_general_e_indice.png",
-   "bytes": 321398,
-   "sha256": "fa1b3dc22a5619d48cf0d959ec7d4eaf08f8dddf32e7b2f63a94e87a0c4e8d80"
+   "bytes": 348340,
+   "sha256": "694c6e73956eeda7c6be6aac51916668ea8772dcda1e696f1d3d27b4c35c0275"
   },
   {
    "ruta": "revision_visual/16_guia_inicio_de_cada_parte.png",
@@ -599,18 +674,18 @@
   },
   {
    "ruta": "revision_visual/18_guia_referencias_de_codigo.png",
-   "bytes": 442818,
-   "sha256": "3a06302d9c4b9ffaaae4ef8b4fe6ccfaa280b37fc4e29b0a0a9747ea40bff209"
+   "bytes": 444157,
+   "sha256": "2ed57cf04eb4338b155a1f7bc4606f929711695ad0ccff7ff751f1106219c31e"
   },
   {
    "ruta": "revision_visual/19_guia_tablas_repartidas.png",
-   "bytes": 1193385,
-   "sha256": "4d8b6973f655d70b918a0a60182ae521c87ce9d91f9cee1da91e50c1dca14520"
+   "bytes": 1178503,
+   "sha256": "7c6ddac499483c610dcb5a10d2ba021c19f5046fac4d1ecb0918c8cd332b424b"
   },
   {
    "ruta": "revision_visual/20_cuaderno_1.png",
-   "bytes": 753786,
-   "sha256": "b00679444f77b7371fbbff38f99802c5468c964724e3952828fdec0ccac7af2d"
+   "bytes": 753989,
+   "sha256": "410f7c406d3168c44ecf3172990dbb951dda846cf930a00c4175d67af6bc3569"
   },
   {
    "ruta": "revision_visual/21_cuaderno_2.png",
@@ -621,6 +696,161 @@
    "ruta": "revision_visual/paginas_de_cada_lamina.json",
    "bytes": 2135,
    "sha256": "e2422cceb414ff62063bafe0bab2d2d33c8f259288388a09ffb35c4ae028b908"
+  },
+  {
+   "ruta": "revision_visual/todas_las_paginas/cuaderno_001-012.png",
+   "bytes": 377921,
+   "sha256": "1a96774b4226934dd7bd029f78a56688de4f653b06b50ac8f022a797de5e4867"
+  },
+  {
+   "ruta": "revision_visual/todas_las_paginas/cuaderno_013-024.png",
+   "bytes": 374818,
+   "sha256": "31c5d9588a142df0df2fd2e76b2836fd5be4cfb34eeebfdee5fe984d0241557c"
+  },
+  {
+   "ruta": "revision_visual/todas_las_paginas/cuaderno_025-033.png",
+   "bytes": 258889,
+   "sha256": "76d588833489536d8058d264a752d1d9ddca5f72178567ba0abed01d4a527544"
+  },
+  {
+   "ruta": "revision_visual/todas_las_paginas/guia_001-012.png",
+   "bytes": 470701,
+   "sha256": "cf14400a6c44e86125ae1c9250fb823cbdd63af70327037bead91c08bad7be74"
+  },
+  {
+   "ruta": "revision_visual/todas_las_paginas/guia_013-024.png",
+   "bytes": 558356,
+   "sha256": "7b4ad4bb19adc51a13168ba4cd5d81ba88f25f7325ce9b0ab0304b66ba57bf00"
+  },
+  {
+   "ruta": "revision_visual/todas_las_paginas/guia_025-036.png",
+   "bytes": 495936,
+   "sha256": "977ad93e52bfca0e2ca1146d9aa5cb9e693919a62e302c7e4ec69bf002b309f9"
+  },
+  {
+   "ruta": "revision_visual/todas_las_paginas/guia_037-048.png",
+   "bytes": 559506,
+   "sha256": "0a15e887bffdff9bf639dd84a58adfb30ae5fbdc7304a012b7fd3624e3afec8b"
+  },
+  {
+   "ruta": "revision_visual/todas_las_paginas/guia_049-060.png",
+   "bytes": 557431,
+   "sha256": "049225b91236a8fe06fb55b6ffe8eaf770670bd90bf48ccf9c83d77345b1bd52"
+  },
+  {
+   "ruta": "revision_visual/todas_las_paginas/guia_061-072.png",
+   "bytes": 560895,
+   "sha256": "5ae3b2af6a593ed1e889310b69a36771993cd2b805a72ec56f621d34f0fcb0a2"
+  },
+  {
+   "ruta": "revision_visual/todas_las_paginas/guia_073-084.png",
+   "bytes": 575593,
+   "sha256": "bc995d671675dbfb7a29dde56b05998503b3de5a5c14a429fcd81e71c882aebd"
+  },
+  {
+   "ruta": "revision_visual/todas_las_paginas/guia_085-096.png",
+   "bytes": 549143,
+   "sha256": "1ef7d86fc9d4fc8e3ec920be190a0148a421974a0aa1832750f6a3261eb6fdd2"
+  },
+  {
+   "ruta": "revision_visual/todas_las_paginas/guia_097-108.png",
+   "bytes": 640519,
+   "sha256": "3f0154c5092cd3f4574a2fb30e6ba2f89c74ae3dabdb544b79182dfa2e322543"
+  },
+  {
+   "ruta": "revision_visual/todas_las_paginas/guia_109-109.png",
+   "bytes": 52476,
+   "sha256": "d35d16e47b1bf93a4dfdcabd123f774a95d5221eff4e2cbafb0732b64d3d7c88"
+  },
+  {
+   "ruta": "revision_visual/todas_las_paginas/libro_001-012.png",
+   "bytes": 429434,
+   "sha256": "09a78fd7f93765b8f25b112e4a54ae553e5895fe01ec0d10578e615a3b4d43ff"
+  },
+  {
+   "ruta": "revision_visual/todas_las_paginas/libro_013-024.png",
+   "bytes": 529550,
+   "sha256": "f2e64c6b92509d31176dc6ba8dd7ac87c77baf3084e7a44ac579a6964f80ccc8"
+  },
+  {
+   "ruta": "revision_visual/todas_las_paginas/libro_025-036.png",
+   "bytes": 647725,
+   "sha256": "b4fd315730f4f701d0798e89c1f9c3b408588ea4784eaa4a147ce159141c341d"
+  },
+  {
+   "ruta": "revision_visual/todas_las_paginas/libro_037-048.png",
+   "bytes": 556941,
+   "sha256": "7d101c2f03ab16c41898cd6126f545fd66dc4ba2222b9af3f38052fb9cc9ab62"
+  },
+  {
+   "ruta": "revision_visual/todas_las_paginas/libro_049-060.png",
+   "bytes": 488114,
+   "sha256": "2e59dab7446b18b6546b6f811c5dfbb900ee7f3adf5bc143c015a18b670f6f7d"
+  },
+  {
+   "ruta": "revision_visual/todas_las_paginas/libro_061-072.png",
+   "bytes": 485795,
+   "sha256": "d04efddb5229651445861f28cb311bc815e0430ca6ab7d94a98177880478c2e1"
+  },
+  {
+   "ruta": "revision_visual/todas_las_paginas/libro_073-084.png",
+   "bytes": 611581,
+   "sha256": "71672eadcf69c8e5a99a742304f48069f6c68075763fc11747f7bd8540cea33b"
+  },
+  {
+   "ruta": "revision_visual/todas_las_paginas/libro_085-096.png",
+   "bytes": 519618,
+   "sha256": "2e6e3ba02b76b8a8c8d6712d4caf4b2c9f44429875e07238eea4a8edf73b31fa"
+  },
+  {
+   "ruta": "revision_visual/todas_las_paginas/libro_097-108.png",
+   "bytes": 547585,
+   "sha256": "fb8ff921351e8eace27826a0291d3e97ae602f90046496e9308cfe3a82eec3c0"
+  },
+  {
+   "ruta": "revision_visual/todas_las_paginas/libro_109-120.png",
+   "bytes": 529516,
+   "sha256": "7babf1bbd966434c03a1e92031884b57b0bb00efbce91788dc917a8a66e357a4"
+  },
+  {
+   "ruta": "revision_visual/todas_las_paginas/libro_121-132.png",
+   "bytes": 611145,
+   "sha256": "186d21bf0e5fe9e0e46331d8bfca596c6e451e1d730e58a25bb28384fb05663f"
+  },
+  {
+   "ruta": "revision_visual/todas_las_paginas/libro_133-144.png",
+   "bytes": 559019,
+   "sha256": "07e20884dbdbe39c257712a39257b778c6263014f7165331e6702e72c8778fe0"
+  },
+  {
+   "ruta": "revision_visual/todas_las_paginas/libro_145-156.png",
+   "bytes": 574007,
+   "sha256": "a0f35ff5573a3037d432b4d4703383734b83cbc0a4a0bb262d0bf2b85b98090b"
+  },
+  {
+   "ruta": "revision_visual/todas_las_paginas/libro_157-168.png",
+   "bytes": 542342,
+   "sha256": "3c75319817e60252d72cbd9b9bb31f2749ede07b07ce83edab7111a614eb3ef5"
+  },
+  {
+   "ruta": "revision_visual/todas_las_paginas/libro_169-180.png",
+   "bytes": 530869,
+   "sha256": "1eaff62920b3475946a04bbe5636b72de8c22a05f649124950bcca55c3032052"
+  },
+  {
+   "ruta": "revision_visual/todas_las_paginas/libro_181-192.png",
+   "bytes": 565122,
+   "sha256": "2f42b8374d54805136315711ec4ab6d3f08437246b49851d7654316cbe8bcdc4"
+  },
+  {
+   "ruta": "revision_visual/todas_las_paginas/libro_193-204.png",
+   "bytes": 512466,
+   "sha256": "329c98106634bff53757f454b8403b1f2bc9cb8f4976d17a69921fed3f091e6a"
+  },
+  {
+   "ruta": "revision_visual/todas_las_paginas/libro_205-211.png",
+   "bytes": 340320,
+   "sha256": "fb7b95249742e253c32db8f535c54f9a1e0693adbdeec124ae371a89da235ea7"
   }
  ]
 }

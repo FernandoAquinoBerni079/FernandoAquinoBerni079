@@ -12,7 +12,7 @@
   "espejo": true
  },
  "ancho_util": 17.29,
- "version": "v0.1 de la colección (integración editorial, para auditoría) · oficio O3",
+ "version": "v0.2 de la colección (cierre editorial, candidata para autorización) · oficio O3",
  "tablas_en_hoja_nueva": [],
  "columnas_ensanchadas": [
   {
@@ -803,7 +803,7 @@
    4
   ],
   [
-   "1. Organización de la guía y versión de cada parte",
+   "1. Organización de la guía, versión de cada parte y calendario",
    4
   ],
   [
@@ -812,11 +812,11 @@
   ],
   [
    "3. Seguridad: pruebas de código recibido de otros",
-   5
+   6
   ],
   [
    "4. Datos reservados y variantes privadas",
-   5
+   6
   ],
   [
    "5. Lo que sigue pendiente",
@@ -1168,6 +1168,11 @@
    20
   ],
   [
+   "Unidad I en 36 y en 28 encuentros",
+   "I",
+   20
+  ],
+  [
    "Lista de cotejo de la Práctica 4",
    "II",
    26
@@ -1208,6 +1213,11 @@
    38
   ],
   [
+   "Unidad II en 36 y en 28 encuentros",
+   "II",
+   38
+  ],
+  [
    "Lista de cotejo de la Práctica 7",
    "III",
    43
@@ -1244,6 +1254,11 @@
   ],
   [
    "Planilla de registro del H3 (una por estudiante)",
+   "III",
+   53
+  ],
+  [
+   "Unidad III en 36 y en 28 encuentros",
    "III",
    53
   ],
@@ -1298,6 +1313,11 @@
    75
   ],
   [
+   "Unidad IV en 36 y en 28 encuentros",
+   "IV",
+   76
+  ],
+  [
    "Lista de cotejo de la Práctica 14",
    "V",
    83
@@ -1331,6 +1351,11 @@
    "Planilla de registro del H5 (una por estudiante)",
    "V",
    92
+  ],
+  [
+   "Unidad V en 36 y en 28 encuentros",
+   "V",
+   93
   ],
   [
    "Planilla de tiempos: ejemplo con valores ficticios",
@@ -1376,6 +1401,11 @@
    "Planilla de registro del H6 (una por estudiante)",
    "VI",
    108
+  ],
+  [
+   "Unidad VI en 36 y en 28 encuentros",
+   "VI",
+   108
   ]
  ],
  "reemplazos": [
@@ -1406,6 +1436,18 @@
   [
    "R-07",
    1
+  ],
+  [
+   "R-08",
+   1
+  ],
+  [
+   "R-09",
+   1
+  ],
+  [
+   "R-10",
+   1
   ]
  ],
  "indice_reordenado": [
@@ -1418,6 +1460,84 @@
    "Encuentro 6 — Acuerdo de proyecto y revisión de la Unidad I"
   ]
  ],
+ "rutas_fichas": {
+  "libro": [
+   [
+    "referencia_docente/public/lectores.php",
+    "lote_4/proyecto/referencia_docente/public/lectores.php"
+   ],
+   [
+    "base_estudiante/public/lectores.php",
+    "lote_4/proyecto/base_estudiante/public/lectores.php"
+   ],
+   [
+    "referencia_docente/src/reglas.php",
+    "lote_4/proyecto/referencia_docente/src/reglas.php"
+   ],
+   [
+    "referencia_docente/src/reglas.php",
+    "lote_4/proyecto/referencia_docente/src/reglas.php"
+   ],
+   [
+    "referencia_docente/pruebas/prueba_contratos.php",
+    "lote_4/proyecto/referencia_docente/pruebas/prueba_contratos.php"
+   ],
+   [
+    "referencia_docente/src/auth.php",
+    "lote_4/proyecto/referencia_docente/src/auth.php"
+   ],
+   [
+    "referencia_docente/src/reglas.php",
+    "lote_4/proyecto/referencia_docente/src/reglas.php"
+   ],
+   [
+    "referencia_docente/src/reglas.php",
+    "lote_4/proyecto/referencia_docente/src/reglas.php"
+   ],
+   [
+    "referencia_docente/src/esquema.sql",
+    "lote_4/proyecto/referencia_docente/src/esquema.sql"
+   ],
+   [
+    "referencia_docente/src/reglas.php",
+    "lote_4/proyecto/referencia_docente/src/reglas.php"
+   ],
+   [
+    "referencia_docente/src/esquema.sql",
+    "lote_4/proyecto/referencia_docente/src/esquema.sql"
+   ],
+   [
+    "referencia_docente/src/reglas.php",
+    "lote_4/proyecto/referencia_docente/src/reglas.php"
+   ],
+   [
+    "referencia_docente/src/reglas.php",
+    "lote_4/proyecto/referencia_docente/src/reglas.php"
+   ],
+   [
+    "referencia_docente/src/reglas.php",
+    "lote_4/proyecto/referencia_docente/src/reglas.php"
+   ],
+   [
+    "referencia_docente/src/reglas.php",
+    "lote_4/proyecto/referencia_docente/src/reglas.php"
+   ]
+  ],
+  "guia": [
+   [
+    "referencia_docente/src/reglas.php",
+    "lote_4/proyecto/referencia_docente/src/reglas.php"
+   ],
+   [
+    "referencia_docente/src/reglas.php",
+    "lote_4/proyecto/referencia_docente/src/reglas.php"
+   ],
+   [
+    "referencia_docente/src/reglas.php",
+    "lote_4/proyecto/referencia_docente/src/reglas.php"
+   ]
+  ]
+ },
  "claves": [
   [
    "ADS3-L1-C1",

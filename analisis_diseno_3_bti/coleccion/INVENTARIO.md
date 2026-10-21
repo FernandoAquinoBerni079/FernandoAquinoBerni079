@@ -1,6 +1,6 @@
 # Inventario provisional de la colección
 
-**Análisis y Diseño de Sistemas, 3.º BTI · documentos anuales v0.1 de la colección (integración editorial, para auditoría) · oficio O3**
+**Análisis y Diseño de Sistemas, 3.º BTI · documentos anuales v0.2 de la colección (cierre editorial, candidata para autorización) · oficio O3**
 
 Estado: versión para la auditoría de integración. No está aprobada para la venta ni para uso en aula; la aprobación final corresponde a Fernando. Las capacidades C1 a C10 son propuestas para el programa institucional, no capacidades oficiales del MEC.
 

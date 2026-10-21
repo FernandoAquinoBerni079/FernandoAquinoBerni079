@@ -1,0 +1,1 @@
+Resultado: 0 incoherencias (inspección estática; no se ejecutó nada)

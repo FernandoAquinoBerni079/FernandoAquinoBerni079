@@ -1,0 +1,12 @@
+
+| | Libro | Guía | Cuaderno |
+|---|---|---|---|
+| Páginas | 211 | 109 | 33 |
+| Tamaño de página en el PDF (mm) | 215,9 × 330,2 | 215,9 × 330,2 | 215,9 × 330,2 |
+| Papel y márgenes del DOCX (cm) | 21,6 × 33,0; interior 2,5, exterior 1,8, superior 1,5, inferior 1,5 | 21,6 × 33,0; interior 2,5, exterior 1,8, superior 1,5, inferior 1,5 | 21,6 × 33,0; interior 2,5, exterior 1,8, superior 1,5, inferior 1,5 |
+| Márgenes espejados en el DOCX | sí | sí | sí |
+| Fuentes que pide el DOCX | Calibri, Courier, Courier New | Calibri, Courier, Courier New | Calibri, Courier |
+| Fuentes incrustadas en el PDF | Carlito-Bold, Carlito-Italic, Carlito-Regular, LiberationMono | Carlito-Bold, Carlito-Italic, Carlito-Regular, LiberationMono | Carlito-Bold, Carlito-Regular |
+libro {'títulos': {'minimo': 12.0, 'mas_usado': 13.0, 'caracteres': 9922}, 'texto y tablas': {'minimo': 8.0, 'mas_usado': 10.0, 'caracteres': 571924}, 'código': {'minimo': 7.5, 'mas_usado': 7.5, 'caracteres': 8489}} True {'cantidad': 692, 'separacion_mm_mediana': 5.2, 'separacion_mm_minima': 5.2, 'largo_mm_mediana': 139.1} 112
+guia {'títulos': {'minimo': 12.0, 'mas_usado': 13.0, 'caracteres': 3281}, 'texto y tablas': {'minimo': 8.0, 'mas_usado': 9.0, 'caracteres': 309031}, 'código': {'minimo': 7.5, 'mas_usado': 7.5, 'caracteres': 6790}} True {'cantidad': 0, 'separacion_mm_mediana': None, 'separacion_mm_minima': None, 'largo_mm_mediana': None} 112
+cuaderno {'títulos': {'minimo': 12.0, 'mas_usado': 16.0, 'caracteres': 1307}, 'texto y tablas': {'minimo': 9.0, 'mas_usado': 9.0, 'caracteres': 73631}} True {'cantidad': 216, 'separacion_mm_mediana': 5.2, 'separacion_mm_minima': 5.2, 'largo_mm_mediana': 139.1} 111

@@ -1,5 +1,7 @@
 # Informe de integración editorial — Colección ADS 3.º BTI
 
+> **Registro de la v0.1** (commit `43de4bc`). La versión vigente es la v0.2: ver `INFORME_CIERRE_EDITORIAL.md`.
+
 **Análisis y Diseño de Sistemas, 3.er curso BTI · Biblioteca Comercial 2026 · 21 de octubre de 2026**
 
 **Estado:** primer paso del cierre de la colección, para la auditoría independiente.

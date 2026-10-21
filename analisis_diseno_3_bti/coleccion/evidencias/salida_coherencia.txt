@@ -1,0 +1,47 @@
+CORRECTO [L] git: ningún archivo de los seis lotes, de sus planes, del plan anual ni de los planes de clase cambió ni se agregó
+CORRECTO [L] git: los únicos cambios del repositorio están en coleccion/ (ninguna otra asignatura cambió)
+CORRECTO [L] Lote 1: los 60 archivos de su manifiesto, iguales
+CORRECTO [L] Lote 1 (candidata O3): los 27 archivos de su manifiesto SHA-256, iguales
+CORRECTO [L] Lote 2: los 62 archivos de su manifiesto SHA-256, iguales
+CORRECTO [L] Lote 3: los 134 archivos de su manifiesto SHA-256, iguales
+CORRECTO [L] Lote 4: los 187 archivos de su manifiesto SHA-256, iguales
+CORRECTO [L] Lote 5: los 171 archivos de su manifiesto SHA-256, iguales
+CORRECTO [L] Lote 6: los 214 archivos de su manifiesto SHA-256, iguales
+CORRECTO [X] libro: 229 citas de tablas, figuras, códigos y ejemplos resueltos; todas existen en el libro con ese número
+CORRECTO [X] guia: 211 citas de tablas, figuras, códigos y ejemplos resueltos; todas existen en el libro con ese número
+CORRECTO [X] cuaderno: 9 citas de tablas, figuras, códigos y ejemplos resueltos; todas existen en el libro con ese número
+CORRECTO [X] guía: las 9 referencias de código citadas (R-n) existen como bloques en la guía
+CORRECTO [X] libro: 114 tablas, 29 figuras, 20 códigos y 66 ejemplos resueltos numerados, sin números repetidos
+CORRECTO [E] 17 evaluaciones con semillas únicas en el año
+CORRECTO [E] cada evaluación vale 15 puntos
+CORRECTO [E] guía: la clave de cada ítem de las 17 evaluaciones del libro, con el mismo número y la misma letra (153 ítems)
+CORRECTO [E] el Capítulo 18 no tiene evaluación escrita y los Capítulos 16 y 18 no tienen práctica (decisiones D-3 y D-4)
+CORRECTO [P] 39 rutas de archivos del prototipo y de los lotes citadas en los tres documentos; todas existen
+CORRECTO [P] herramientas de inspección estática y ejecución controlada del lote 6 v1.1, conservadas sin cambios
+CORRECTO [P] los 29 bloques de código se leen de archivos del proyecto que existen (fichas de los lotes 4 a 6)
+CORRECTO [P] C-04: las 29 fichas de código impresas (libro y guía) nombran el archivo con la misma notación (lote_N/proyecto/…), y cada ruta existe y es el archivo del que se lee el fragmento
+CORRECTO [M] 57 oraciones mencionan al MEC; ninguna presenta las capacidades de la propuesta como oficiales
+CORRECTO [M] libro: dice que las capacidades no son oficiales del MEC
+CORRECTO [M] guia: dice que las capacidades no son oficiales del MEC
+CORRECTO [M] cuaderno: dice que las capacidades no son oficiales del MEC
+CORRECTO [M] 3 afirmaciones sobre la validación del material; ninguna lo declara validado en aulas o equipos escolares
+CORRECTO [M] libro: Windows y las computadoras escolares, pendientes de validación
+CORRECTO [M] guia: Windows y las computadoras escolares, pendientes de validación
+CORRECTO [M] cuaderno: Windows y las computadoras escolares, pendientes de validación
+CORRECTO [M] guía: las pruebas de código desconocido requieren una máquina virtual o un equipo aislado, sin datos institucionales y sin red
+CORRECTO [M] guía: la lista cerrada de nombres de pruebas no vuelve confiable su código
+CORRECTO [M] los tres documentos: el borrador de licencia, pendiente de revisión jurídica
+CORRECTO [M] ningún documento declara aptitud comercial
+CORRECTO [M] C-03: la guía aclara la secuencia ordinaria de 36 encuentros y la adaptación alternativa a 28; su tabla coincide con lo que dice cada parte (6+6+6+8+6+4 = 36 y 5+4+5+5+5+4 = 28)
+CORRECTO [M] C-01 y C-02: la presentación da la distribución real de los 18 capítulos y explica las excepciones de práctica y evaluación de los Capítulos 16 y 18
+CORRECTO [R] variantes V6: ninguno de los 12 textos o códigos reservados está en los documentos ni en coleccion/
+CORRECTO [R] variantes V6: la carpeta privada está fuera del repositorio
+CORRECTO [R] conjunto DR: ninguno de los 22 textos o códigos reservados está en los documentos ni en coleccion/
+CORRECTO [R] conjunto DR: la carpeta privada está fuera del repositorio
+CORRECTO [R] coleccion/ no tiene archivos reservados (dr.json, variantes_v6.json, comprobacion_*.txt)
+CORRECTO [S] 18 capítulos en seis unidades, 36 encuentros (1 a 36, sin repetir) y 180 HC (5 por encuentro)
+CORRECTO [S] 16 prácticas en el libro y en el cuaderno (Capítulos 1 a 15 y 17)
+CORRECTO [S] el cuaderno no trae evaluaciones ni secciones de teoría
+CORRECTO [S] no se generaron el plan anual definitivo ni los planes de clase
+
+Resultado: 45 controles, 0 fallos

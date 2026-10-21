@@ -1,0 +1,49 @@
+IGUAL  libro   Preliminares               lote 1:  82 bloques (73 párrafos, 9 tablas, 0 imágenes) · reemplazos admitidos en 2 bloques
+IGUAL  libro   Apertura de la Unidad I    lote 1:   4 bloques (3 párrafos, 1 tablas, 0 imágenes)
+IGUAL  libro   Capítulo 1                 lote 1: 188 bloques (167 párrafos, 21 tablas, 2 imágenes)
+IGUAL  libro   Capítulo 2                 lote 1: 221 bloques (189 párrafos, 32 tablas, 2 imágenes)
+IGUAL  libro   Capítulo 3                 lote 1: 199 bloques (172 párrafos, 27 tablas, 1 imágenes)
+IGUAL  libro   Apertura de la Unidad II   lote 2:   5 bloques (3 párrafos, 2 tablas, 0 imágenes)
+IGUAL  libro   Capítulo 4                 lote 2: 195 bloques (169 párrafos, 26 tablas, 2 imágenes)
+IGUAL  libro   Capítulo 5                 lote 2: 186 bloques (160 párrafos, 26 tablas, 17 imágenes)
+IGUAL  libro   Capítulo 6                 lote 2: 174 bloques (150 párrafos, 24 tablas, 2 imágenes)
+IGUAL  libro   Apertura de la Unidad III  lote 3:   5 bloques (3 párrafos, 2 tablas, 0 imágenes)
+IGUAL  libro   Capítulo 7                 lote 3: 173 bloques (149 párrafos, 24 tablas, 7 imágenes)
+IGUAL  libro   Capítulo 8                 lote 3: 166 bloques (145 párrafos, 21 tablas, 11 imágenes)
+IGUAL  libro   Capítulo 9                 lote 3: 150 bloques (129 párrafos, 21 tablas, 3 imágenes)
+IGUAL  libro   Apertura de la Unidad IV   lote 4:   7 bloques (3 párrafos, 4 tablas, 0 imágenes)
+IGUAL  libro   Capítulo 10                lote 4: 178 bloques (146 párrafos, 32 tablas, 2 imágenes) · reemplazos admitidos en 5 bloques
+IGUAL  libro   Capítulo 11                lote 4: 173 bloques (139 párrafos, 34 tablas, 0 imágenes) · reemplazos admitidos en 4 bloques
+IGUAL  libro   Capítulo 12                lote 4: 167 bloques (139 párrafos, 28 tablas, 1 imágenes) · reemplazos admitidos en 4 bloques
+IGUAL  libro   Capítulo 13                lote 4: 156 bloques (129 párrafos, 27 tablas, 1 imágenes) · reemplazos admitidos en 2 bloques
+IGUAL  libro   Apertura de la Unidad V    lote 5:   7 bloques (3 párrafos, 4 tablas, 0 imágenes) · reemplazos admitidos en 1 bloques
+IGUAL  libro   Capítulo 14                lote 5: 165 bloques (141 párrafos, 24 tablas, 2 imágenes) · reemplazos admitidos en 3 bloques
+IGUAL  libro   Capítulo 15                lote 5: 143 bloques (126 párrafos, 17 tablas, 0 imágenes)
+IGUAL  libro   Capítulo 16                lote 5: 142 bloques (114 párrafos, 28 tablas, 1 imágenes) · reemplazos admitidos en 3 bloques
+IGUAL  libro   Apertura de la Unidad VI   lote 6:   6 bloques (3 párrafos, 3 tablas, 0 imágenes)
+IGUAL  libro   Capítulo 17                lote 6: 170 bloques (141 párrafos, 29 tablas, 1 imágenes)
+IGUAL  libro   Capítulo 18                lote 6:  75 bloques (57 párrafos, 18 tablas, 1 imágenes)
+IGUAL  guía    Parte I                    lote 1:  94 bloques (54 párrafos, 40 tablas, 0 imágenes)
+IGUAL  guía    Parte II                   lote 2:  99 bloques (57 párrafos, 42 tablas, 13 imágenes)
+IGUAL  guía    Parte III                  lote 3: 104 bloques (59 párrafos, 45 tablas, 14 imágenes)
+IGUAL  guía    Parte IV                   lote 4: 166 bloques (102 párrafos, 64 tablas, 2 imágenes)
+IGUAL  guía    Parte V                    lote 5: 141 bloques (90 párrafos, 51 tablas, 0 imágenes) · nota de integración
+IGUAL  guía    Parte VI                   lote 6: 131 bloques (91 párrafos, 40 tablas, 0 imágenes) · nota de integración
+IGUAL  cuaderno Práctica 1 — Describir una biblioteca: hechos, supuestos y s = libro anual: True · = aprobada (lote 1): True
+IGUAL  cuaderno Práctica 2 — Dossier de relevamiento con roles               = libro anual: True · = aprobada (lote 1): True
+IGUAL  cuaderno Práctica 3 — Decidir un alcance posible para otra biblioteca = libro anual: True · = aprobada (lote 1): True
+IGUAL  cuaderno Práctica 4 — Convertir pedidos de usuarios en requisitos ver = libro anual: True · = aprobada (lote 2): True
+IGUAL  cuaderno Práctica 5 — Modelar préstamo y devolución en otra bibliotec = libro anual: True · = aprobada (lote 2): True
+IGUAL  cuaderno Práctica 6 — Trazar, planificar y cambiar el catálogo de otr = libro anual: True · = aprobada (lote 2): True
+IGUAL  cuaderno Práctica 7 — Justificar el modelo de otra biblioteca frente  = libro anual: True · = aprobada (lote 3): True
+IGUAL  cuaderno Práctica 8 — Observar el uso del boceto en otra biblioteca y = libro anual: True · = aprobada (lote 3): True
+IGUAL  cuaderno Práctica 9 — Contrato de devolución y entorno para otra bibl = libro anual: True · = aprobada (lote 3): True
+IGUAL  cuaderno Práctica 10 — Demostrar una operación en la computadora de M = libro anual: True · = aprobada (lote 4): True
+IGUAL  cuaderno Práctica 11 — Un lote de libros donados y lectores con datos = libro anual: True · = aprobada (lote 4): True
+IGUAL  cuaderno Práctica 12 — Dos voluntarios, el mismo libro y un libro dañ = libro anual: True · = aprobada (lote 4): True
+IGUAL  cuaderno Práctica 13 — Una semana en Mbokaja: integración e incidenci = libro anual: True · = aprobada (lote 4): True
+IGUAL  cuaderno Práctica 14 — Una batería nueva de pruebas para Mbokaja      = libro anual: True · = aprobada (lote 5): True
+IGUAL  cuaderno Práctica 15 — Revisión cruzada entre equipos con datos reser = libro anual: True · = aprobada (lote 5): True
+IGUAL  cuaderno Práctica 17 — El paquete del voluntario para Mbokaja         = libro anual: True · = aprobada (lote 6): True
+Cuaderno sin evaluaciones: True
+Resultado: 25 segmentos del libro, 6 partes de la guía y 16 prácticas comparados; 0 fallos

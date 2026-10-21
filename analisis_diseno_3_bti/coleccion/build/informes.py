@@ -29,10 +29,15 @@ md = ['# Lista cerrada de diferencias con los seis lotes', '',
           len(EQ['fallos']), len(EQ['libro']), len(EQ['guia']), len(EQ['cuaderno'])), '',
       '| Id. | Documento | Categoría | Qué cambia | Dónde | Cómo se controla |', '|---|---|---|---|---|---|']
 md += ['| %s |' % ' | '.join(d) for d in DF.DIFERENCIAS]
-md += ['', '## Apariciones de los reemplazos del libro (D-05 a D-11)', '',
+md += ['', '## Apariciones de los reemplazos del libro (D-05 a D-11 y D-18 a D-20)', '',
        '| Reemplazo | Apariciones esperadas | Apariciones en el armado |', '|---|---|---|']
 hechos = dict((a, b) for a, b in R['reemplazos'])
 md += ['| %s | %d | %d |' % (r[0], r[4], hechos.get(r[0], 0)) for r in PC.REEMPLAZOS]
+rf = R.get('rutas_fichas', {})
+md += ['', '## Rutas de las fichas de código (D-21)', '',
+       '| Documento | Fichas esperadas | Fichas unificadas | Rutas distintas |', '|---|---|---|---|']
+md += ['| %s | %d | %d | %s |' % (k, PC.FICHAS_ESPERADAS[k], len(rf.get(k, [])),
+                                 ', '.join(sorted({'`%s` → `%s`' % tuple(x) for x in rf.get(k, [])}))) for k in ('libro', 'guia')]
 md += ['', '## Qué no cambió', '',
        '- Ningún texto de teoría, ejemplo, práctica, consigna, evaluación, puntaje, indicador ni solución.',
        '- Ninguna figura: se generaron otra vez con los scripts de cada lote y sus píxeles coinciden con los de los documentos '

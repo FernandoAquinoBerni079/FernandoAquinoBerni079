@@ -1,0 +1,4 @@
+vuelta 1: libro 211 págs., guía 109, cuaderno 33; tablas incompletas: []
+Libro del estudiante: 211 págs. · guía docente: 109 págs. · cuaderno de prácticas: 33 págs.
+tablas que empiezan en hoja nueva para no perder filas: []
+columnas ensanchadas para no partir palabras: 9

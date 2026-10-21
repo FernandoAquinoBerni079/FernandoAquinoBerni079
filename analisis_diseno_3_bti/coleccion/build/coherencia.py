@@ -37,7 +37,7 @@ def chk(clave, detalle, cond, info=None):
 
 
 def git(*a):
-    return subprocess.run(['git'] + list(a), cwd=ADS, capture_output=True, text=True).stdout.strip()
+    return subprocess.run(['git'] + list(a), cwd=ADS, capture_output=True, text=True).stdout.rstrip()
 
 
 def texto(ruta):
@@ -144,10 +144,23 @@ chk('P', 'herramientas de inspección estática y ejecución controlada del lote
     all(sha(os.path.join(ADS, 'lote_6', h)) == m6[h] for h in herr))
 import fragmentos as F4, fragmentos_u5 as F5, fragmentos_u6 as F6
 fichas = [(m, f) for m in (F4, F5, F6) for f in m.TODOS]
-# las fichas del lote 4 nombran el archivo dentro de lote_4/proyecto/; las de los lotes 5 y 6, desde la carpeta del lote
+# C-04: las fichas impresas nombran el archivo desde la carpeta de la colección (lote_N/proyecto/…), y es el mismo
+# archivo del que se lee el fragmento
 base_ficha = {F4: os.path.join(ADS, 'lote_4', 'proyecto'), F5: ADS, F6: ADS}
 sin_archivo = [f for m, f in fichas if not os.path.exists(os.path.join(base_ficha[m], m.ficha(f)['archivo']))]
 chk('P', 'los %d bloques de código se leen de archivos del proyecto que existen (fichas de los lotes 4 a 6)' % len(fichas), not sin_archivo, sin_archivo)
+from docx.oxml.ns import qn as _qn
+impresas = []
+for k in ('libro', 'guia'):
+    for tbl in DOC[k].element.body.iter(_qn('w:tbl')):
+        filas_ = [[''.join(x.text or '' for x in tc.iter(_qn('w:t'))) for tc in tr.findall(_qn('w:tc'))] for tr in tbl.findall(_qn('w:tr'))]
+        if len(filas_) >= 2 and filas_[0][:1] == ['Archivo'] and filas_[1][:1] == ['Requisito o contrato']:
+            impresas.append((k, filas_[0][1]))
+esperadas = {os.path.realpath(os.path.join(base_ficha[m], m.ficha(f)['archivo'])) for m, f in fichas}
+malas = [r for k, r in impresas if not (r.startswith('lote_') and os.path.isfile(os.path.join(ADS, r))
+                                        and os.path.realpath(os.path.join(ADS, r)) in esperadas)]
+chk('P', 'C-04: las %d fichas de código impresas (libro y guía) nombran el archivo con la misma notación (lote_N/proyecto/…), '
+    'y cada ruta existe y es el archivo del que se lee el fragmento' % len(impresas), len(impresas) == len(fichas) and not malas, malas[:5])
 
 # M ------------------------------------------------------------------------------------------------------------
 oraciones = lambda t: re.split(r'(?<=[.;])\s+|\n', t)
@@ -171,6 +184,22 @@ chk('M', 'guía: la lista cerrada de nombres de pruebas no vuelve confiable su c
 chk('M', 'los tres documentos: el borrador de licencia, pendiente de revisión jurídica', all('pendiente de revisión jurídica' in TX[k] for k in AC.RUTA))
 chk('M', 'ningún documento declara aptitud comercial', not re.search(r'apt[oa] para (la )?(venta|comercializ)', TODO, re.I)
     and all('no está aprobad' in TX[k] for k in AC.RUTA))
+
+import guia_general as GG
+frases = {1: 'pasa de seis a cinco encuentros', 2: 'pasa de seis a cuatro encuentros', 3: 'pasa de seis a cinco encuentros',
+          4: 'pasa de ocho a cinco encuentros', 5: 'pasa de seis a cinco encuentros', 6: 'conserva sus cuatro encuentros'}
+num = {'cuatro': 4, 'cinco': 5, 'seis': 6, 'ocho': 8}
+partes_txt = re.split(r'\nParte (?=[IVX]+ — )', TX['guia'])
+ok_cal = all(frases[n] in TX['guia'] for n in frases)
+cal_ok = all(GG.CAL28[n][1] == num[frases[n].split()[-2]] for n in frases) and all(
+    GG.CAL28[n][0] == (num[frases[n].split()[2]] if n < 6 else 4) for n in frases)
+chk('M', 'C-03: la guía aclara la secuencia ordinaria de 36 encuentros y la adaptación alternativa a 28; su tabla coincide con lo '
+    'que dice cada parte (6+6+6+8+6+4 = 36 y 5+4+5+5+5+4 = 28)',
+    ok_cal and cal_ok and '36 encuentros ordinarios' in TX['guia'] and 'adaptación alternativa a 28 encuentros' in TX['guia'])
+chk('M', 'C-01 y C-02: la presentación da la distribución real de los 18 capítulos y explica las excepciones de práctica y '
+    'evaluación de los Capítulos 16 y 18', 'cuatro en la Unidad IV y dos en la Unidad VI' in TX['libro']
+    and 'salvo los Capítulos 16 y 18, que no tienen práctica' in TX['libro'] and 'el Capítulo 18 no tiene evaluación escrita' in TX['libro']
+    and 'seis unidades de tres capítulos' not in TX['libro'])
 
 # R ------------------------------------------------------------------------------------------------------------
 coleccion_txt = TODO + ''.join(open(os.path.join(d, f), encoding='utf8', errors='ignore').read()

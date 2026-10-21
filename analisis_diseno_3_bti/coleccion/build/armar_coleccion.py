@@ -69,10 +69,13 @@ def libro(figs, paginas):
     Z3.encadenar_inicio(doc)
     K.saltos_a_titulos(doc)
     hechos = PC.aplicar_reemplazos(doc)
+    rutas = PC.unificar_rutas_fichas(doc)
+    assert len(rutas) == PC.FICHAS_ESPERADAS['libro'], len(rutas)
     entradas, movidas = PC.ordenar_por_documento(doc, entradas_libro())
     PC.rellenar_indice(doc, entradas, paginas)
     H.finalizar(doc, RUTA['libro'])
-    return {'claves': list(H.CLAVES), 'reemplazos': hechos, 'entradas': entradas, 'indice_reordenado': movidas}
+    return {'claves': list(H.CLAVES), 'reemplazos': hechos, 'entradas': entradas, 'indice_reordenado': movidas,
+            'rutas_fichas': rutas}
 
 
 # ---------------------------------------------------------------- guía docente
@@ -142,16 +145,18 @@ def guia(res_libro, pag_libro, figs, instrumentos, paginas):
     M.pegar_renglones(doc)
     Z3.encadenar_inicio(doc)
     K.saltos_a_titulos(doc)
+    rutas = PC.unificar_rutas_fichas(doc)
+    assert len(rutas) == PC.FICHAS_ESPERADAS['guia'], len(rutas)
     e = entradas_guia(doc)
     PC.rellenar_indice(doc, e, paginas)
     H.finalizar(doc, RUTA['guia'])
-    return {'entradas': e, 'instrumentos': instrumentos_de(doc)}
+    return {'entradas': e, 'instrumentos': instrumentos_de(doc), 'rutas_fichas': rutas}
 
 
 PATRONES_INSTRUMENTO = ('Rúbrica del H', 'Planilla de registro del H', 'Clave de la evaluación', 'Lista de cotejo de la Práctica',
                         'Rúbrica de defensa', 'Planilla de defensa', 'Rúbrica de producto final', 'Planilla anual',
                         'Fichas de recuperación', 'Registro de recuperaciones', 'Planilla de tiempos: ejemplo',
-                        'Claves del diagnóstico')
+                        'Claves del diagnóstico', 'Unidad ')   # «Unidad N en 36 y en 28 encuentros»: tabla de calendario
 
 
 def instrumentos_de(doc):
@@ -309,6 +314,7 @@ if __name__ == '__main__':
                'indice_guia': [[t, p] for (_, t), p in zip(res_g['entradas'], pag_g)],
                'indice_cuaderno': [[t, p] for (_, t), p in zip(res_c['entradas'], pag_c)],
                'instrumentos_guia': paginas_de_instrumentos(PDF['guia'], res_g['instrumentos']),
-               'reemplazos': res_l['reemplazos'], 'indice_reordenado': res_l['indice_reordenado'], 'claves': res_l['claves'], 'practicas': res_c['practicas'],
+               'reemplazos': res_l['reemplazos'], 'indice_reordenado': res_l['indice_reordenado'],
+               'rutas_fichas': {'libro': res_l['rutas_fichas'], 'guia': res_g['rutas_fichas']}, 'claves': res_l['claves'], 'practicas': res_c['practicas'],
                'figuras': {n: {k: os.path.relpath(v, COL) for k, v in f.items()} for n, f in figs.items()}},
               open(os.path.join(COL, 'resultado_construccion.json'), 'w', encoding='utf8'), ensure_ascii=False, indent=1)

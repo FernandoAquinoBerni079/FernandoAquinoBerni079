@@ -16,7 +16,7 @@ O, LOTES, GUIA, DIAG = FU.cargar()
 H, M, K = O.H, O.M, O.K
 Z2 = LOTES[2].Z   # lote_2/build/piezas.py: la portada de los lotes 2 a 6
 
-VERSION = 'v0.1 de la colección (integración editorial, para auditoría) · oficio O3'
+VERSION = 'v0.2 de la colección (cierre editorial, candidata para autorización) · oficio O3'
 TITULOS_UNIDAD = {1: 'Unidad I — Comprender el problema y su contexto',
                   2: LOTES[2].UNIDAD_II, 3: LOTES[3].UNIDAD_III, 4: LOTES[4].UNIDAD_IV, 5: LOTES[5].UNIDAD_V,
                   6: LOTES[6].UNIDAD_VI}
@@ -30,13 +30,13 @@ ESTADO_COMUN = [
 ]
 ESTADO = {
     'libro': ['Tomo anual integrado desde las fuentes aprobadas de los seis lotes: 18 capítulos, seis unidades, 36 '
-              'encuentros y 180 HC de la propuesta editorial. Versión para la auditoría de integración: no está aprobado '
+              'encuentros y 180 HC de la propuesta editorial. Versión candidata del cierre editorial: no está aprobado '
               'para la venta ni para uso en aula; la aprobación final corresponde a Fernando.'] + ESTADO_COMUN,
-    'guia': ['Guía docente anual con solucionario, integrada desde las guías aprobadas de los seis lotes. Versión para la '
-             'auditoría de integración: no está aprobada para la venta ni para uso en aula; la aprobación final '
+    'guia': ['Guía docente anual con solucionario, integrada desde las guías aprobadas de los seis lotes. Versión candidata del '
+             'cierre editorial: no está aprobada para la venta ni para uso en aula; la aprobación final '
              'corresponde a Fernando.'] + ESTADO_COMUN,
     'cuaderno': ['Cuaderno anual de prácticas: las prácticas de los Capítulos 1 a 15 y 17, extraídas de las mismas fuentes '
-                 'que el libro del estudiante, sin teoría ni evaluaciones. Versión para la auditoría de integración: no '
+                 'que el libro del estudiante, sin teoría ni evaluaciones. Versión candidata del cierre editorial: no '
                  'está aprobado para la venta ni para uso en aula; la aprobación final corresponde a Fernando.',
                  'Cada práctica trabaja con datos que no aparecen en los ejemplos resueltos del libro. Tiene tres niveles que '
                  'usan los mismos datos: tu docente te indica en cuál trabajar. Si el trabajo es un diagrama o un boceto, '
@@ -155,6 +155,18 @@ REEMPLAZOS = [
      'Referencia editorial.'),
     ('R-07', 'Capítulo 14 (tabla de resultados)', 'la referencia del lote 4 (falla)', 'la referencia de la Unidad IV (falla)', 1,
      'Referencia editorial.'),
+    # v0.2 (cierre editorial, correcciones C-01 y C-02 autorizadas)
+    ('R-08', 'Preliminares (Presentación y alcance)', 'organizados en seis unidades de tres capítulos; cada capítulo '
+     'corresponde a dos encuentros.', 'organizados en seis unidades y 18 capítulos: tres capítulos en cada una de las '
+     'Unidades I, II, III y V, cuatro en la Unidad IV y dos en la Unidad VI; cada capítulo corresponde a dos encuentros.', 1,
+     'C-01: la Unidad IV tiene cuatro capítulos y la VI, dos.'),
+    ('R-09', 'Preliminares (Cómo usar el libro y las prácticas)', 'Cada capítulo tiene una práctica en tres niveles.',
+     'Cada capítulo tiene una práctica en tres niveles, salvo los Capítulos 16 y 18, que no tienen práctica: el 16 cierra '
+     'la Unidad V con el hito H5, y el 18 cierra el año con la demostración, la defensa individual y la evaluación '
+     'integradora.', 1, 'C-02: decisiones D-3 y D-4, que no cambian.'),
+    ('R-10', 'Preliminares (Cómo usar el libro y las prácticas)', 'Al final hay una evaluación opcional, en página propia,',
+     'Al final hay una evaluación opcional, en página propia (el Capítulo 18 no tiene evaluación escrita),', 1,
+     'C-02: decisión D-3, que no cambia.'),
 ]
 
 
@@ -220,3 +232,47 @@ NOTA_UNIDAD_VI = ('Nota de integración: pruebas de código recibido de otros', 
     'pendientes de validación.'])
 
 NOTAS_PARTE = {5: NOTA_UNIDAD_V, 6: NOTA_UNIDAD_VI}
+
+
+# ---------------------------------------------------------------- C-04: rutas de las fichas de código
+# Las fichas de los bloques de código del lote 4 nombran el archivo desde lote_4/proyecto/ («referencia_docente/…»); las
+# de los lotes 5 y 6, desde la carpeta de la colección («lote_5/proyecto/…»). La colección escribe todas desde la
+# carpeta de la colección. Solo cambia la celda «Archivo» de la ficha: el archivo es el mismo (se comprueba que exista y
+# que sea el mismo archivo real), y no cambian el código, las pruebas ni las instrucciones de ejecución.
+import os
+BASE_LOTE4 = 'lote_4/proyecto/'
+
+
+def _es_ficha(tbl):
+    from docx.oxml.ns import qn
+    filas = tbl.findall(qn('w:tr'))
+    texto = lambda tr, k: ''.join(x.text or '' for x in tr.findall(qn('w:tc'))[k].iter(qn('w:t'))) if len(tr.findall(qn('w:tc'))) > k else ''
+    return len(filas) >= 2 and texto(filas[0], 0) == 'Archivo' and texto(filas[1], 0) == 'Requisito o contrato'
+
+
+def ruta_unificada(ruta):
+    return ruta if ruta.startswith('lote_') else BASE_LOTE4 + ruta
+
+
+def unificar_rutas_fichas(doc):
+    """Devuelve [(ruta anterior, ruta unificada)] y se detiene si una ruta nueva no existe o no es el mismo archivo."""
+    from docx.oxml.ns import qn
+    hechos = []
+    for tbl in doc.element.body.iter(qn('w:tbl')):
+        if not _es_ficha(tbl):
+            continue
+        celda = tbl.findall(qn('w:tr'))[0].findall(qn('w:tc'))[1]
+        ts = list(celda.iter(qn('w:t')))
+        vieja = ''.join(x.text or '' for x in ts)
+        nueva = ruta_unificada(vieja)
+        if nueva == vieja:
+            continue
+        assert len(ts) == 1, ('la ruta está repartida en varios tramos', vieja)
+        antes, despues = os.path.join(FU.ADS, 'lote_4', 'proyecto', vieja), os.path.join(FU.ADS, nueva)
+        assert os.path.isfile(despues) and os.path.realpath(antes) == os.path.realpath(despues), (vieja, nueva)
+        ts[0].text = nueva
+        hechos.append((vieja, nueva))
+    return hechos
+
+
+FICHAS_ESPERADAS = {'libro': 15, 'guia': 3}   # bloques de código del lote 4: 15 Códigos en el libro, 3 Referencias en la guía

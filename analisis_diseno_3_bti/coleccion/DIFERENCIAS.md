@@ -1,6 +1,6 @@
 # Lista cerrada de diferencias con los seis lotes
 
-**Colección ADS 3.º BTI · documentos anuales v0.1 de la colección (integración editorial, para auditoría) · oficio O3**
+**Colección ADS 3.º BTI · documentos anuales v0.2 de la colección (cierre editorial, candidata para autorización) · oficio O3**
 
 Estas son **todas** las diferencias admitidas entre los documentos anuales y los documentos aprobados de los lotes. La equivalencia (`build/equivalencia.py`) compara cada capítulo, cada parte de la guía y cada práctica, bloque por bloque: el texto, el estilo y el formato de cada párrafo, cada celda de cada tabla, los anchos de columna, el sombreado y los píxeles de cada imagen. Cualquier diferencia que no esté en esta lista es un fallo.
 
@@ -25,8 +25,13 @@ Resultado de la equivalencia: **0 fallos**, en 25 segmentos del libro, 6 partes 
 | D-15 | Guía | Referencia editorial | Nota de integración de la Parte VI: las pruebas de código recibido requieren una máquina virtual o un equipo aislado, y la lista cerrada no vuelve confiable el código. | Después del título de la Parte VI | Se admite solo esa caja. |
 | D-16 | Guía | Remisión | La página del diagnóstico de entrada en el libro («libro, pág. N») es la del libro anual. | Parte I, sección 1 | Se admite solo el número. |
 | D-17 | Cuaderno | Referencia editorial | Las Prácticas 1 a 3, que estaban solo en el libro del lote 1, se agregan al cuaderno con la misma función de práctica de los lotes 2 a 6; el estado de la portada resume lo que decían las portadas de los cuadernos de los lotes. | Prácticas 1 a 3 y portada | Cada práctica se compara con la del libro anual y con la versión aprobada de su lote. |
+| D-18 | Libro | Corrección editorial autorizada (C-01) | R-08: «organizados en seis unidades de tres capítulos; cada capítulo corresponde a dos encuentros.» → «organizados en seis unidades y 18 capítulos: tres capítulos en cada una de las Unidades I, II, III y V, cuatro en la Unidad IV y dos en la Unidad VI; cada capítulo corresponde a dos encuentros.» (1 aparición). | Preliminares (Presentación y alcance) | C-01: la Unidad IV tiene cuatro capítulos y la VI, dos. |
+| D-19 | Libro | Corrección editorial autorizada (C-02) | R-09: «Cada capítulo tiene una práctica en tres niveles.» → «Cada capítulo tiene una práctica en tres niveles, salvo los Capítulos 16 y 18, que no tienen práctica: el 16 cierra la Unidad V con el hito H5, y el 18 cierra el año con la demostración, la defensa individual y la evaluación integradora.» (1 aparición). | Preliminares (Cómo usar el libro y las prácticas) | C-02: decisiones D-3 y D-4, que no cambian. |
+| D-20 | Libro | Corrección editorial autorizada (C-02) | R-10: «Al final hay una evaluación opcional, en página propia,» → «Al final hay una evaluación opcional, en página propia (el Capítulo 18 no tiene evaluación escrita),» (1 aparición). | Preliminares (Cómo usar el libro y las prácticas) | C-02: decisión D-3, que no cambia. |
+| D-21 | Libro y guía | Corrección editorial autorizada (C-04) | La celda «Archivo» de las fichas de los bloques de código del lote 4 se escribe desde la carpeta de la colección, como en los lotes 5 y 6: «referencia_docente/…» → «lote_4/proyecto/referencia_docente/…» y «base_estudiante/…» → «lote_4/proyecto/base_estudiante/…» (15 fichas del libro y 3 de la guía). | Fichas de los Códigos 10.1 a 13.2 y de las Referencias R-1 a R-3 | El armado comprueba que cada ruta nueva exista y sea el mismo archivo real que la anterior. No cambian el código, las pruebas, las instrucciones de ejecución ni las rutas del texto: solo esa celda. |
+| D-22 | Guía | Corrección editorial autorizada (C-03) | Parte general, sección 1: aclara que el año tiene 36 encuentros ordinarios y una adaptación alternativa a 28, con una tabla que reúne los encuentros de cada parte en las dos secuencias y la página de su tabla de calendario. | Parte general | Texto nuevo de guia_general.py; las secciones «Calendario con menos encuentros» de las partes no cambian (la equivalencia las compara) y la coherencia comprueba que los números de la tabla coincidan con lo que dice cada parte. |
 
-## Apariciones de los reemplazos del libro (D-05 a D-11)
+## Apariciones de los reemplazos del libro (D-05 a D-11 y D-18 a D-20)
 
 | Reemplazo | Apariciones esperadas | Apariciones en el armado |
 |---|---|---|
@@ -37,6 +42,16 @@ Resultado de la equivalencia: **0 fallos**, en 25 segmentos del libro, 6 partes 
 | R-05 | 1 | 1 |
 | R-06 | 1 | 1 |
 | R-07 | 1 | 1 |
+| R-08 | 1 | 1 |
+| R-09 | 1 | 1 |
+| R-10 | 1 | 1 |
+
+## Rutas de las fichas de código (D-21)
+
+| Documento | Fichas esperadas | Fichas unificadas | Rutas distintas |
+|---|---|---|---|
+| libro | 15 | 15 | `base_estudiante/public/lectores.php` → `lote_4/proyecto/base_estudiante/public/lectores.php`, `referencia_docente/pruebas/prueba_contratos.php` → `lote_4/proyecto/referencia_docente/pruebas/prueba_contratos.php`, `referencia_docente/public/lectores.php` → `lote_4/proyecto/referencia_docente/public/lectores.php`, `referencia_docente/src/auth.php` → `lote_4/proyecto/referencia_docente/src/auth.php`, `referencia_docente/src/esquema.sql` → `lote_4/proyecto/referencia_docente/src/esquema.sql`, `referencia_docente/src/reglas.php` → `lote_4/proyecto/referencia_docente/src/reglas.php` |
+| guia | 3 | 3 | `referencia_docente/src/reglas.php` → `lote_4/proyecto/referencia_docente/src/reglas.php` |
 
 ## Qué no cambió
 

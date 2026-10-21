@@ -8,7 +8,7 @@
    },
    {
     "resultado": "correcto",
-    "detalle": "guia: 263 tablas de 2 o más columnas, 1696 filas, todas impresas"
+    "detalle": "guia: 264 tablas de 2 o más columnas, 1704 filas, todas impresas"
    },
    {
     "resultado": "correcto",
@@ -82,7 +82,7 @@
    },
    {
     "resultado": "correcto",
-    "detalle": "guia: los 51 instrumentos de la tabla «Instrumentos del año», cada uno en la página que indica"
+    "detalle": "guia: los 57 instrumentos de la tabla «Instrumentos del año», cada uno en la página que indica"
    }
   ],
   "5. Paginación continua": [
@@ -197,6 +197,443 @@
     "detalle": "libro: las 17 evaluaciones, cada una al comienzo de su página propia"
    }
   ],
+  "12. Espacios de respuesta": [
+   {
+    "resultado": "correcto",
+    "detalle": "libro: los 692 renglones de respuesta del DOCX, impresos (692 en el PDF)"
+   },
+   {
+    "resultado": "correcto",
+    "detalle": "libro: ninguna consigna separada de sus renglones"
+   },
+   {
+    "resultado": "correcto",
+    "detalle": "guia: los 0 renglones de respuesta del DOCX, impresos (0 en el PDF)"
+   },
+   {
+    "resultado": "correcto",
+    "detalle": "guia: ninguna consigna separada de sus renglones"
+   },
+   {
+    "resultado": "correcto",
+    "detalle": "cuaderno: los 216 renglones de respuesta del DOCX, impresos (216 en el PDF)"
+   },
+   {
+    "resultado": "correcto",
+    "detalle": "cuaderno: ninguna consigna separada de sus renglones"
+   }
+  ],
+  "11. Títulos": [
+   {
+    "resultado": "correcto",
+    "detalle": "libro: ningún título queda solo al pie de una página"
+   },
+   {
+    "resultado": "correcto",
+    "detalle": "guia: ningún título queda solo al pie de una página"
+   },
+   {
+    "resultado": "correcto",
+    "detalle": "cuaderno: ningún título queda solo al pie de una página"
+   }
+  ],
+  "13. Saltos de página": [
+   {
+    "resultado": "correcto",
+    "detalle": "libro: los 40 capítulos, prácticas, unidades o partes empiezan cada uno al comienzo de su página"
+   },
+   {
+    "resultado": "correcto",
+    "detalle": "cuaderno: los 16 capítulos, prácticas, unidades o partes empiezan cada uno al comienzo de su página"
+   },
+   {
+    "resultado": "correcto",
+    "detalle": "guia: los 7 capítulos, prácticas, unidades o partes empiezan cada uno al comienzo de su página"
+   }
+  ],
+  "14. Rúbricas y evaluaciones": [
+   {
+    "resultado": "correcto",
+    "detalle": "guia: las rúbricas de los hitos H1 a H6 (6) y de defensa y producto (1), con todas sus filas impresas"
+   },
+   {
+    "resultado": "correcto",
+    "detalle": "guia: las 17 tablas de claves de evaluación, con todas sus filas impresas (170 filas)"
+   }
+  ],
+  "paginas_con_blanco_al_pie": {
+   "libro": [
+    {
+     "pagina": 5,
+     "ocupado": 0.26,
+     "siguiente_empieza_con": "Presentación y alcance"
+    },
+    {
+     "pagina": 9,
+     "ocupado": 0.22,
+     "siguiente_empieza_con": "Presentación del caso"
+    },
+    {
+     "pagina": 11,
+     "ocupado": 0.36,
+     "siguiente_empieza_con": "Unidad I — Comprender el problema y su contexto"
+    },
+    {
+     "pagina": 12,
+     "ocupado": 0.24,
+     "siguiente_empieza_con": "Capítulo 1 — Un sistema comienza con una necesidad"
+    },
+    {
+     "pagina": 20,
+     "ocupado": 0.26,
+     "siguiente_empieza_con": "Práctica 1 — Describir una biblioteca: hechos, supuestos y s"
+    },
+    {
+     "pagina": 22,
+     "ocupado": 0.41,
+     "siguiente_empieza_con": "Evaluación del Capítulo 1"
+    },
+    {
+     "pagina": 24,
+     "ocupado": 0.1,
+     "siguiente_empieza_con": "Capítulo 2 — Investigar antes de diseñar"
+    },
+    {
+     "pagina": 38,
+     "ocupado": 0.24,
+     "siguiente_empieza_con": "Evaluación del Capítulo 2"
+    },
+    {
+     "pagina": 40,
+     "ocupado": 0.12,
+     "siguiente_empieza_con": "Capítulo 3 — Elegir un alcance posible"
+    },
+    {
+     "pagina": 51,
+     "ocupado": 0.41,
+     "siguiente_empieza_con": "Evaluación del Capítulo 3"
+    },
+    {
+     "pagina": 53,
+     "ocupado": 0.12,
+     "siguiente_empieza_con": "Unidad II — Especificar qué debe resolver el sistema"
+    },
+    {
+     "pagina": 54,
+     "ocupado": 0.32,
+     "siguiente_empieza_con": "Capítulo 4 — Requisitos que se pueden comprobar"
+    },
+    {
+     "pagina": 63,
+     "ocupado": 0.11,
+     "siguiente_empieza_con": "Práctica 4 — Convertir pedidos de usuarios en requisitos ver"
+    },
+    {
+     "pagina": 65,
+     "ocupado": 0.35,
+     "siguiente_empieza_con": "Evaluación del Capítulo 4"
+    },
+    {
+     "pagina": 69,
+     "ocupado": 0.41,
+     "siguiente_empieza_con": "Ahora comparalo con la Figura 5.2. Aparece un tercer carril,"
+    },
+    {
+     "pagina": 76,
+     "ocupado": 0.57,
+     "siguiente_empieza_con": "Práctica 5 — Modelar préstamo y devolución en otra bibliotec"
+    },
+    {
+     "pagina": 87,
+     "ocupado": 0.47,
+     "siguiente_empieza_con": "Práctica 6 — Trazar, planificar y cambiar el catálogo de otr"
+    },
+    {
+     "pagina": 89,
+     "ocupado": 0.07,
+     "siguiente_empieza_con": "Evaluación del Capítulo 6"
+    },
+    {
+     "pagina": 91,
+     "ocupado": 0.34,
+     "siguiente_empieza_con": "Capítulo 7 — Datos que representan las reglas"
+    },
+    {
+     "pagina": 101,
+     "ocupado": 0.56,
+     "siguiente_empieza_con": "Evaluación del Capítulo 7"
+    },
+    {
+     "pagina": 107,
+     "ocupado": 0.49,
+     "siguiente_empieza_con": "La Figura 8.3 muestra la misma pantalla en sus cuatro estado"
+    },
+    {
+     "pagina": 112,
+     "ocupado": 0.27,
+     "siguiente_empieza_con": "Evaluación del Capítulo 8"
+    },
+    {
+     "pagina": 120,
+     "ocupado": 0.15,
+     "siguiente_empieza_con": "Encuentro 18 — Evaluación integradora de la primera etapa"
+    },
+    {
+     "pagina": 122,
+     "ocupado": 0.53,
+     "siguiente_empieza_con": "Evaluación del Capítulo 9"
+    },
+    {
+     "pagina": 132,
+     "ocupado": 0.52,
+     "siguiente_empieza_con": "Práctica 10 — Demostrar una operación en la computadora de M"
+    },
+    {
+     "pagina": 134,
+     "ocupado": 0.15,
+     "siguiente_empieza_con": "Evaluación del Capítulo 10"
+    },
+    {
+     "pagina": 142,
+     "ocupado": 0.42,
+     "siguiente_empieza_con": "Práctica 11 — Un lote de libros donados y lectores con datos"
+    },
+    {
+     "pagina": 152,
+     "ocupado": 0.48,
+     "siguiente_empieza_con": "Práctica 12 — Dos voluntarios, el mismo libro y un libro dañ"
+    },
+    {
+     "pagina": 154,
+     "ocupado": 0.07,
+     "siguiente_empieza_con": "Evaluación del Capítulo 12"
+    },
+    {
+     "pagina": 159,
+     "ocupado": 0.52,
+     "siguiente_empieza_con": "Práctica 13 — Una semana en Mbokaja: integración e incidenci"
+    },
+    {
+     "pagina": 161,
+     "ocupado": 0.27,
+     "siguiente_empieza_con": "Encuentro 26 — Integración, demostración y revisión de la Un"
+    },
+    {
+     "pagina": 174,
+     "ocupado": 0.1,
+     "siguiente_empieza_con": "Práctica 14 — Una batería nueva de pruebas para Mbokaja"
+    },
+    {
+     "pagina": 176,
+     "ocupado": 0.24,
+     "siguiente_empieza_con": "Evaluación del Capítulo 14"
+    },
+    {
+     "pagina": 192,
+     "ocupado": 0.36,
+     "siguiente_empieza_con": "Evaluación del Capítulo 16"
+    },
+    {
+     "pagina": 194,
+     "ocupado": 0.48,
+     "siguiente_empieza_con": "Capítulo 17 — Preparar una entrega reproducible"
+    },
+    {
+     "pagina": 199,
+     "ocupado": 0.25,
+     "siguiente_empieza_con": "Encuentro 34 — Entregar a otro equipo; hito H6"
+    },
+    {
+     "pagina": 204,
+     "ocupado": 0.53,
+     "siguiente_empieza_con": "Evaluación del Capítulo 17"
+    },
+    {
+     "pagina": 211,
+     "ocupado": 0.55,
+     "siguiente_empieza_con": ""
+    }
+   ],
+   "guia": [
+    {
+     "pagina": 3,
+     "ocupado": 0.07,
+     "siguiente_empieza_con": "Parte general — Cómo usar esta guía anual"
+    },
+    {
+     "pagina": 6,
+     "ocupado": 0.49,
+     "siguiente_empieza_con": "Parte I — Comprender el problema y su contexto (Capítulos 1 "
+    },
+    {
+     "pagina": 8,
+     "ocupado": 0.05,
+     "siguiente_empieza_con": "2. Capítulo 1 — Un sistema comienza con una necesidad"
+    },
+    {
+     "pagina": 21,
+     "ocupado": 0.08,
+     "siguiente_empieza_con": "Parte II — Especificar qué debe resolver el sistema (Capítul"
+    },
+    {
+     "pagina": 23,
+     "ocupado": 0.54,
+     "siguiente_empieza_con": "Claves de las actividades del Encuentro 8"
+    },
+    {
+     "pagina": 27,
+     "ocupado": 0.32,
+     "siguiente_empieza_con": "2. Capítulo 5 — Procesos, contexto y casos de uso"
+    },
+    {
+     "pagina": 32,
+     "ocupado": 0.13,
+     "siguiente_empieza_con": "3. Capítulo 6 — Priorizar y mantener la coherencia"
+    },
+    {
+     "pagina": 36,
+     "ocupado": 0.1,
+     "siguiente_empieza_con": "4. Rúbrica del hito H2: requisitos y modelos funcionales ver"
+    },
+    {
+     "pagina": 39,
+     "ocupado": 0.47,
+     "siguiente_empieza_con": "Parte III — Diseñar una solución coherente (Capítulos 7 a 9,"
+    },
+    {
+     "pagina": 40,
+     "ocupado": 0.47,
+     "siguiente_empieza_con": "1. Capítulo 7 — Datos que representan las reglas"
+    },
+    {
+     "pagina": 51,
+     "ocupado": 0.26,
+     "siguiente_empieza_con": "4. Rúbrica del hito H3: dossier consistente y evidencia indi"
+    },
+    {
+     "pagina": 54,
+     "ocupado": 0.45,
+     "siguiente_empieza_con": "Parte IV — Construir el prototipo por incrementos (Capítulos"
+    },
+    {
+     "pagina": 59,
+     "ocupado": 0.21,
+     "siguiente_empieza_con": "1. Capítulo 10 — Del diseño a la primera operación funcional"
+    },
+    {
+     "pagina": 66,
+     "ocupado": 0.56,
+     "siguiente_empieza_con": "3. Capítulo 12 — Préstamos y devoluciones consistentes"
+    },
+    {
+     "pagina": 70,
+     "ocupado": 0.25,
+     "siguiente_empieza_con": "4. Capítulo 13 — Información útil e integración"
+    },
+    {
+     "pagina": 77,
+     "ocupado": 0.48,
+     "siguiente_empieza_con": "Parte V — Verificar, validar y mejorar (Capítulos 14 a 16, E"
+    },
+    {
+     "pagina": 80,
+     "ocupado": 0.14,
+     "siguiente_empieza_con": "1. Capítulo 14 — Probar con criterios y datos independientes"
+    },
+    {
+     "pagina": 86,
+     "ocupado": 0.39,
+     "siguiente_empieza_con": "3. Capítulo 16 — Corregir y volver a comprobar"
+    },
+    {
+     "pagina": 90,
+     "ocupado": 0.1,
+     "siguiente_empieza_con": "4. Rúbrica del hito H5: evidencia de calidad y límites conoc"
+    },
+    {
+     "pagina": 95,
+     "ocupado": 0.32,
+     "siguiente_empieza_con": "Parte VI — Entregar y comunicar (Capítulos 17 y 18, Encuentr"
+    },
+    {
+     "pagina": 106,
+     "ocupado": 0.48,
+     "siguiente_empieza_con": "3. Rúbrica del hito H6: paquete reproducible; ajustes finale"
+    }
+   ],
+   "cuaderno": [
+    {
+     "pagina": 2,
+     "ocupado": 0.43,
+     "siguiente_empieza_con": "Práctica 1 — Describir una biblioteca: hechos, supuestos y s"
+    },
+    {
+     "pagina": 4,
+     "ocupado": 0.41,
+     "siguiente_empieza_con": "Práctica 2 — Dossier de relevamiento con roles"
+    },
+    {
+     "pagina": 6,
+     "ocupado": 0.24,
+     "siguiente_empieza_con": "Práctica 3 — Decidir un alcance posible para otra biblioteca"
+    },
+    {
+     "pagina": 8,
+     "ocupado": 0.41,
+     "siguiente_empieza_con": "Práctica 4 — Convertir pedidos de usuarios en requisitos ver"
+    },
+    {
+     "pagina": 10,
+     "ocupado": 0.35,
+     "siguiente_empieza_con": "Práctica 5 — Modelar préstamo y devolución en otra bibliotec"
+    },
+    {
+     "pagina": 14,
+     "ocupado": 0.07,
+     "siguiente_empieza_con": "Práctica 7 — Justificar el modelo de otra biblioteca frente "
+    },
+    {
+     "pagina": 16,
+     "ocupado": 0.56,
+     "siguiente_empieza_con": "Práctica 8 — Observar el uso del boceto en otra biblioteca y"
+    },
+    {
+     "pagina": 18,
+     "ocupado": 0.27,
+     "siguiente_empieza_con": "Práctica 9 — Contrato de devolución y entorno para otra bibl"
+    },
+    {
+     "pagina": 20,
+     "ocupado": 0.15,
+     "siguiente_empieza_con": "Práctica 10 — Demostrar una operación en la computadora de M"
+    },
+    {
+     "pagina": 22,
+     "ocupado": 0.15,
+     "siguiente_empieza_con": "Práctica 11 — Un lote de libros donados y lectores con datos"
+    },
+    {
+     "pagina": 26,
+     "ocupado": 0.07,
+     "siguiente_empieza_con": "Práctica 13 — Una semana en Mbokaja: integración e incidenci"
+    },
+    {
+     "pagina": 28,
+     "ocupado": 0.27,
+     "siguiente_empieza_con": "Práctica 14 — Una batería nueva de pruebas para Mbokaja"
+    },
+    {
+     "pagina": 30,
+     "ocupado": 0.24,
+     "siguiente_empieza_con": "Práctica 15 — Revisión cruzada entre equipos con datos reser"
+    },
+    {
+     "pagina": 33,
+     "ocupado": 0.25,
+     "siguiente_empieza_con": ""
+    }
+   ]
+  },
   "tablas": {
    "libro": [
     {
@@ -319,7 +756,7 @@
    ],
    "guia": [
     {
-     "n": 2,
+     "n": 3,
      "rotulo": "Instrumentos del año en esta guía",
      "primera_celda": "Instrumento",
      "filas_docx": 52,
@@ -332,7 +769,7 @@
      "filas_faltantes": []
     },
     {
-     "n": 27,
+     "n": 28,
      "rotulo": "Claves de las actividades del Encuentro 5",
      "primera_celda": "Act.",
      "filas_docx": 7,
@@ -345,7 +782,7 @@
      "filas_faltantes": []
     },
     {
-     "n": 38,
+     "n": 39,
      "rotulo": "Inventario de recursos del lote",
      "primera_celda": "Recurso",
      "filas_docx": 9,
@@ -358,7 +795,7 @@
      "filas_faltantes": []
     },
     {
-     "n": 45,
+     "n": 46,
      "rotulo": "Correspondencia entre requisitos y criterios de aceptación",
      "primera_celda": "Id.",
      "filas_docx": 17,
@@ -371,7 +808,7 @@
      "filas_faltantes": []
     },
     {
-     "n": 48,
+     "n": 49,
      "rotulo": "Clave de la evaluación del capítulo 4",
      "primera_celda": "Ítem",
      "filas_docx": 10,
@@ -384,7 +821,7 @@
      "filas_faltantes": []
     },
     {
-     "n": 68,
+     "n": 69,
      "rotulo": "Pruebas previstas P-01 a P-15 del caso",
      "primera_celda": "Prueba",
      "filas_docx": 16,
@@ -397,7 +834,7 @@
      "filas_faltantes": []
     },
     {
-     "n": 113,
+     "n": 114,
      "rotulo": "Clave de la evaluación del capítulo 9",
      "primera_celda": "Ítem",
      "filas_docx": 10,
@@ -410,7 +847,7 @@
      "filas_faltantes": []
     },
     {
-     "n": 122,
+     "n": 123,
      "rotulo": "Ficha de entorno completa (E-1 a E-12, con E-6a y E-6b)",
      "primera_celda": "Código",
      "filas_docx": 14,
@@ -423,7 +860,7 @@
      "filas_faltantes": []
     },
     {
-     "n": 126,
+     "n": 127,
      "rotulo": "Archivos del proyecto y su estado en la base del estudiante",
      "primera_celda": "Archivo",
      "filas_docx": 37,
@@ -436,7 +873,7 @@
      "filas_faltantes": []
     },
     {
-     "n": 127,
+     "n": 128,
      "rotulo": "Tamaño de la base del estudiante (PHP propio)",
      "primera_celda": "Archivo PHP propio",
      "filas_docx": 19,
@@ -449,7 +886,7 @@
      "filas_faltantes": []
     },
     {
-     "n": 160,
+     "n": 161,
      "rotulo": "Clave de la evaluación del capítulo 12",
      "primera_celda": "Ítem",
      "filas_docx": 10,
@@ -462,7 +899,7 @@
      "filas_faltantes": []
     },
     {
-     "n": 165,
+     "n": 166,
      "rotulo": "Errores frecuentes del Capítulo 13",
      "primera_celda": "Error frecuente",
      "filas_docx": 7,
@@ -475,7 +912,7 @@
      "filas_faltantes": []
     },
     {
-     "n": 183,
+     "n": 184,
      "rotulo": "Archivos que cambian en las versiones v2",
      "primera_celda": "Versión",
      "filas_docx": 10,
@@ -488,7 +925,7 @@
      "filas_faltantes": []
     },
     {
-     "n": 208,
+     "n": 209,
      "rotulo": "Errores frecuentes del Capítulo 16",
      "primera_celda": "Error frecuente",
      "filas_docx": 7,
@@ -501,7 +938,7 @@
      "filas_faltantes": []
     },
     {
-     "n": 226,
+     "n": 227,
      "rotulo": "Inventario de recursos del lote",
      "primera_celda": "Recurso",
      "filas_docx": 11,
@@ -514,7 +951,7 @@
      "filas_faltantes": []
     },
     {
-     "n": 231,
+     "n": 232,
      "rotulo": "Planilla de tiempos: ejemplo con valores ficticios",
      "primera_celda": "Dato o resultado",
      "filas_docx": 23,
@@ -527,7 +964,7 @@
      "filas_faltantes": []
     },
     {
-     "n": 262,
+     "n": 263,
      "rotulo": "Resultados de las pruebas (build/reproducir.py)",
      "primera_celda": "Qué",
      "filas_docx": 30,

@@ -1,0 +1,282 @@
+{
+ "libro": {
+  "paginas": 211,
+  "hojas_doble_faz": 106,
+  "tamano_pagina_mm": [
+   [
+    215.9,
+    330.2
+   ]
+  ],
+  "docx_papel_cm": [
+   21.59,
+   33.02
+  ],
+  "docx_margenes_cm": {
+   "left": 2.5,
+   "right": 1.8,
+   "top": 1.5,
+   "bottom": 1.5,
+   "header": 0.6,
+   "footer": 0.6
+  },
+  "docx_margenes_espejados": true,
+  "fuentes_que_pide_el_docx": {
+   "Courier New": 181,
+   "Calibri": 4,
+   "Courier": 2
+  },
+  "fuentes_del_pdf": {
+   "BAAAAA+Carlito-Bold": "ttf",
+   "CAAAAA+Carlito-Regular": "ttf",
+   "DAAAAA+Carlito-Italic": "ttf",
+   "EAAAAA+LiberationMono": "ttf"
+  },
+  "tamanos_pt": {
+   "títulos": {
+    "minimo": 12.0,
+    "mas_usado": 13.0,
+    "caracteres": 9922
+   },
+   "texto y tablas": {
+    "minimo": 8.0,
+    "mas_usado": 10.0,
+    "caracteres": 571924
+   },
+   "código": {
+    "minimo": 7.5,
+    "mas_usado": 7.5,
+    "caracteres": 8489
+   }
+  },
+  "minimos_aprobados_pt": {
+   "títulos": 12.0,
+   "texto y tablas": 8.0,
+   "código": 7.5
+  },
+  "sin_reduccion": true,
+  "caracteres_por_renglon_mediana": 112,
+  "renglones_respuesta": {
+   "cantidad": 692,
+   "separacion_mm_mediana": 5.2,
+   "separacion_mm_minima": 5.2,
+   "largo_mm_mediana": 139.1
+  },
+  "relleno_al_pliego": {
+   "4": 1,
+   "8": 5,
+   "16": 13
+  },
+  "comienzo_de_unidades": {
+   "Unidad I": {
+    "pagina": 12,
+    "cara": "par (izquierda)"
+   },
+   "Unidad II": {
+    "pagina": 54,
+    "cara": "par (izquierda)"
+   },
+   "Unidad III": {
+    "pagina": 91,
+    "cara": "impar (derecha)"
+   },
+   "Unidad IV": {
+    "pagina": 124,
+    "cara": "par (izquierda)"
+   },
+   "Unidad V": {
+    "pagina": 166,
+    "cara": "par (izquierda)"
+   },
+   "Unidad VI": {
+    "pagina": 194,
+    "cara": "par (izquierda)"
+   }
+  }
+ },
+ "guia": {
+  "paginas": 109,
+  "hojas_doble_faz": 55,
+  "tamano_pagina_mm": [
+   [
+    215.9,
+    330.2
+   ]
+  ],
+  "docx_papel_cm": [
+   21.59,
+   33.02
+  ],
+  "docx_margenes_cm": {
+   "left": 2.5,
+   "right": 1.8,
+   "top": 1.5,
+   "bottom": 1.5,
+   "header": 0.6,
+   "footer": 0.6
+  },
+  "docx_margenes_espejados": true,
+  "fuentes_que_pide_el_docx": {
+   "Courier New": 154,
+   "Calibri": 4,
+   "Courier": 2
+  },
+  "fuentes_del_pdf": {
+   "BAAAAA+Carlito-Bold": "ttf",
+   "CAAAAA+Carlito-Regular": "ttf",
+   "DAAAAA+Carlito-Italic": "ttf",
+   "EAAAAA+LiberationMono": "ttf"
+  },
+  "tamanos_pt": {
+   "títulos": {
+    "minimo": 12.0,
+    "mas_usado": 13.0,
+    "caracteres": 3281
+   },
+   "texto y tablas": {
+    "minimo": 8.0,
+    "mas_usado": 9.0,
+    "caracteres": 309031
+   },
+   "código": {
+    "minimo": 7.5,
+    "mas_usado": 7.5,
+    "caracteres": 6790
+   }
+  },
+  "minimos_aprobados_pt": {
+   "títulos": 12.0,
+   "texto y tablas": 8.0,
+   "código": 7.5
+  },
+  "sin_reduccion": true,
+  "caracteres_por_renglon_mediana": 112,
+  "renglones_respuesta": {
+   "cantidad": 0,
+   "separacion_mm_mediana": null,
+   "separacion_mm_minima": null,
+   "largo_mm_mediana": null
+  },
+  "relleno_al_pliego": {
+   "4": 3,
+   "8": 3,
+   "16": 3
+  }
+ },
+ "cuaderno": {
+  "paginas": 33,
+  "hojas_doble_faz": 17,
+  "tamano_pagina_mm": [
+   [
+    215.9,
+    330.2
+   ]
+  ],
+  "docx_papel_cm": [
+   21.59,
+   33.02
+  ],
+  "docx_margenes_cm": {
+   "left": 2.5,
+   "right": 1.8,
+   "top": 1.5,
+   "bottom": 1.5,
+   "header": 0.6,
+   "footer": 0.6
+  },
+  "docx_margenes_espejados": true,
+  "fuentes_que_pide_el_docx": {
+   "Calibri": 4,
+   "Courier": 2
+  },
+  "fuentes_del_pdf": {
+   "BAAAAA+Carlito-Bold": "ttf",
+   "CAAAAA+Carlito-Regular": "ttf"
+  },
+  "tamanos_pt": {
+   "títulos": {
+    "minimo": 12.0,
+    "mas_usado": 16.0,
+    "caracteres": 1307
+   },
+   "texto y tablas": {
+    "minimo": 9.0,
+    "mas_usado": 9.0,
+    "caracteres": 73631
+   }
+  },
+  "minimos_aprobados_pt": {
+   "títulos": 12.0,
+   "texto y tablas": 9.0
+  },
+  "sin_reduccion": true,
+  "caracteres_por_renglon_mediana": 111,
+  "renglones_respuesta": {
+   "cantidad": 216,
+   "separacion_mm_mediana": 5.2,
+   "separacion_mm_minima": 5.2,
+   "largo_mm_mediana": 139.1
+  },
+  "relleno_al_pliego": {
+   "4": 3,
+   "8": 7,
+   "16": 15
+  }
+ },
+ "fuentes_de_sustitucion": [
+  {
+   "fuente": "Carlito",
+   "documento": "ADS_3BTI_LIBRO_ANUAL_ESTUDIANTE_OFICIO_O3",
+   "paginas": 211,
+   "resultado": "correcto"
+  },
+  {
+   "fuente": "Carlito",
+   "documento": "ADS_3BTI_GUIA_DOCENTE_ANUAL_OFICIO_O3",
+   "paginas": 109,
+   "resultado": "correcto"
+  },
+  {
+   "fuente": "Carlito",
+   "documento": "ADS_3BTI_CUADERNO_ANUAL_PRACTICAS_OFICIO_O3",
+   "paginas": 33,
+   "resultado": "correcto"
+  },
+  {
+   "fuente": "Liberation Sans",
+   "documento": "ADS_3BTI_LIBRO_ANUAL_ESTUDIANTE_OFICIO_O3",
+   "paginas": 213,
+   "resultado": "correcto"
+  },
+  {
+   "fuente": "Liberation Sans",
+   "documento": "ADS_3BTI_GUIA_DOCENTE_ANUAL_OFICIO_O3",
+   "paginas": 111,
+   "resultado": "correcto"
+  },
+  {
+   "fuente": "Liberation Sans",
+   "documento": "ADS_3BTI_CUADERNO_ANUAL_PRACTICAS_OFICIO_O3",
+   "paginas": 33,
+   "resultado": "correcto"
+  },
+  {
+   "fuente": "DejaVu Sans",
+   "documento": "ADS_3BTI_LIBRO_ANUAL_ESTUDIANTE_OFICIO_O3",
+   "paginas": 236,
+   "resultado": "correcto"
+  },
+  {
+   "fuente": "DejaVu Sans",
+   "documento": "ADS_3BTI_GUIA_DOCENTE_ANUAL_OFICIO_O3",
+   "paginas": 122,
+   "resultado": "correcto"
+  },
+  {
+   "fuente": "DejaVu Sans",
+   "documento": "ADS_3BTI_CUADERNO_ANUAL_PRACTICAS_OFICIO_O3",
+   "paginas": 35,
+   "resultado": "correcto"
+  }
+ ]
+}

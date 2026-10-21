@@ -1,0 +1,10 @@
+Carlito          ADS_3BTI_LIBRO_ANUAL_ESTUDIANTE_OFICIO_O3      211 págs.  en blanco: ninguna  sueltos: ninguno  eval. propia: True  correcto
+Carlito          ADS_3BTI_GUIA_DOCENTE_ANUAL_OFICIO_O3          109 págs.  en blanco: ninguna  sueltos: ninguno  eval. propia: —  correcto
+Carlito          ADS_3BTI_CUADERNO_ANUAL_PRACTICAS_OFICIO_O3     33 págs.  en blanco: ninguna  sueltos: ninguno  eval. propia: —  correcto
+Liberation Sans  ADS_3BTI_LIBRO_ANUAL_ESTUDIANTE_OFICIO_O3      213 págs.  en blanco: ninguna  sueltos: ninguno  eval. propia: True  correcto
+Liberation Sans  ADS_3BTI_GUIA_DOCENTE_ANUAL_OFICIO_O3          111 págs.  en blanco: ninguna  sueltos: ninguno  eval. propia: —  correcto
+Liberation Sans  ADS_3BTI_CUADERNO_ANUAL_PRACTICAS_OFICIO_O3     33 págs.  en blanco: ninguna  sueltos: ninguno  eval. propia: —  correcto
+DejaVu Sans      ADS_3BTI_LIBRO_ANUAL_ESTUDIANTE_OFICIO_O3      236 págs.  en blanco: ninguna  sueltos: ninguno  eval. propia: True  correcto
+DejaVu Sans      ADS_3BTI_GUIA_DOCENTE_ANUAL_OFICIO_O3          122 págs.  en blanco: ninguna  sueltos: ninguno  eval. propia: —  correcto
+DejaVu Sans      ADS_3BTI_CUADERNO_ANUAL_PRACTICAS_OFICIO_O3     35 págs.  en blanco: ninguna  sueltos: ninguno  eval. propia: —  correcto
+Resultado: 9 combinaciones, 0 con fallos

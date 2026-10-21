@@ -1,0 +1,6 @@
+INCOHERENCIA [A] la guía usa «php instalar_base.php», pero no existe instalar_base.php en el paquete
+INCOHERENCIA [B] la lista de entrega incluye datos/mbokaja_prueba.json, que no está en el paquete
+INCOHERENCIA [D] public/logo_mbokaja.png no tiene su fila en la ficha de procedencia
+INCOHERENCIA [E] el manual nombra el mensaje ME-15, que el sistema no tiene
+INCOHERENCIA [E] el manual describe public/reservas.php, que no está en el paquete
+Resultado: 5 incoherencias (inspección estática; no se ejecutó nada)

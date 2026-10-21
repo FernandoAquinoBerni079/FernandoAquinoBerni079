@@ -1,0 +1,59 @@
+CORRECTO [1. Filas de tablas] libro: 212 tablas de 2 o más columnas, 1388 filas, todas impresas
+CORRECTO [1. Tablas repartidas entre páginas] libro: 9 tablas repartidas, todas con sus filas y el encabezado repetido
+CORRECTO [2. Párrafos impresos] libro: ningún párrafo del DOCX falta en el PDF
+CORRECTO [2. Palabras enteras] libro: ninguna palabra de celda partida
+CORRECTO [1. Filas de tablas] guia: 264 tablas de 2 o más columnas, 1704 filas, todas impresas
+CORRECTO [1. Tablas repartidas entre páginas] guia: 17 tablas repartidas, todas con sus filas y el encabezado repetido
+CORRECTO [2. Párrafos impresos] guia: ningún párrafo del DOCX falta en el PDF
+CORRECTO [2. Palabras enteras] guia: ninguna palabra de celda partida
+CORRECTO [1. Filas de tablas] cuaderno: 37 tablas de 2 o más columnas, 208 filas, todas impresas
+CORRECTO [1. Tablas repartidas entre páginas] cuaderno: 0 tablas repartidas, todas con sus filas y el encabezado repetido
+CORRECTO [2. Párrafos impresos] cuaderno: ningún párrafo del DOCX falta en el PDF
+CORRECTO [2. Palabras enteras] cuaderno: ninguna palabra de celda partida
+CORRECTO [3. Figuras] libro: 29 figuras, cada una impresa una vez con su imagen encima de su epígrafe en la misma página
+CORRECTO [3. Figuras] guia: 0 figuras, cada una impresa una vez con su imagen encima de su epígrafe en la misma página
+CORRECTO [4. Índice] libro: 180 entradas en 4 páginas de índice; cada una en la página que indica y en orden creciente
+CORRECTO [4. Índice] guia: 58 entradas en 2 páginas de índice; cada una en la página que indica y en orden creciente
+CORRECTO [4. Índice] cuaderno: 22 entradas en 1 páginas de índice; cada una en la página que indica y en orden creciente
+CORRECTO [4. Índice] guia: los 57 instrumentos de la tabla «Instrumentos del año», cada uno en la página que indica
+CORRECTO [5. Paginación continua] libro: las 211 páginas llevan «Página X de 211» con su número
+CORRECTO [6. Márgenes espejados] libro: 210 páginas medidas; impares con el interior a la izquierda y pares a la derecha
+CORRECTO [7. Hojas en blanco] libro: ninguna página en blanco
+CORRECTO [5. Paginación continua] guia: las 109 páginas llevan «Página X de 109» con su número
+CORRECTO [6. Márgenes espejados] guia: 108 páginas medidas; impares con el interior a la izquierda y pares a la derecha
+CORRECTO [7. Hojas en blanco] guia: ninguna página en blanco
+CORRECTO [5. Paginación continua] cuaderno: las 33 páginas llevan «Página X de 33» con su número
+CORRECTO [6. Márgenes espejados] cuaderno: 32 páginas medidas; impares con el interior a la izquierda y pares a la derecha
+CORRECTO [7. Hojas en blanco] cuaderno: ninguna página en blanco
+CORRECTO [8. Cortes de tabla] libro: 9 tablas repartidas, ninguna deja menos de dos filas de datos en una página
+CORRECTO [8. Cortes de tabla] guia: 17 tablas repartidas, ninguna deja menos de dos filas de datos en una página
+CORRECTO [8. Cortes de tabla] cuaderno: 0 tablas repartidas, ninguna deja menos de dos filas de datos en una página
+CORRECTO [9. Bloques de código] libro: 181 líneas de 20 bloques, todas impresas enteras
+CORRECTO [9. Bloques de código] libro: 181 tramos en letra monoespaciada, todos dentro de los márgenes
+CORRECTO [9. Bloques de código] libro: cada uno de los 20 bloques entero en la página de su rótulo y su ficha
+CORRECTO [9. Bloques de código] guia: 152 líneas de 9 bloques, todas impresas enteras
+CORRECTO [9. Bloques de código] guia: 152 tramos en letra monoespaciada, todos dentro de los márgenes
+CORRECTO [9. Bloques de código] guia: cada uno de los 9 bloques entero en la página de su rótulo y su ficha
+CORRECTO [10. Legibilidad] libro: ningún texto por debajo de 7,5 pt
+CORRECTO [10. Legibilidad] libro: ningún renglón de respuesta suelto al comienzo de una página
+CORRECTO [10. Legibilidad] guia: ningún texto por debajo de 7,5 pt
+CORRECTO [10. Legibilidad] guia: ningún renglón de respuesta suelto al comienzo de una página
+CORRECTO [10. Legibilidad] cuaderno: ningún texto por debajo de 7,5 pt
+CORRECTO [10. Legibilidad] cuaderno: ningún renglón de respuesta suelto al comienzo de una página
+CORRECTO [10. Legibilidad] libro: las 17 evaluaciones, cada una al comienzo de su página propia
+CORRECTO [12. Espacios de respuesta] libro: los 692 renglones de respuesta del DOCX, impresos (692 en el PDF)
+CORRECTO [11. Títulos] libro: ningún título queda solo al pie de una página
+CORRECTO [12. Espacios de respuesta] libro: ninguna consigna separada de sus renglones
+CORRECTO [12. Espacios de respuesta] guia: los 0 renglones de respuesta del DOCX, impresos (0 en el PDF)
+CORRECTO [11. Títulos] guia: ningún título queda solo al pie de una página
+CORRECTO [12. Espacios de respuesta] guia: ninguna consigna separada de sus renglones
+CORRECTO [12. Espacios de respuesta] cuaderno: los 216 renglones de respuesta del DOCX, impresos (216 en el PDF)
+CORRECTO [11. Títulos] cuaderno: ningún título queda solo al pie de una página
+CORRECTO [12. Espacios de respuesta] cuaderno: ninguna consigna separada de sus renglones
+CORRECTO [13. Saltos de página] libro: los 40 capítulos, prácticas, unidades o partes empiezan cada uno al comienzo de su página
+CORRECTO [13. Saltos de página] cuaderno: los 16 capítulos, prácticas, unidades o partes empiezan cada uno al comienzo de su página
+CORRECTO [13. Saltos de página] guia: los 7 capítulos, prácticas, unidades o partes empiezan cada uno al comienzo de su página
+CORRECTO [14. Rúbricas y evaluaciones] guia: las rúbricas de los hitos H1 a H6 (6) y de defensa y producto (1), con todas sus filas impresas
+CORRECTO [14. Rúbricas y evaluaciones] guia: las 17 tablas de claves de evaluación, con todas sus filas impresas (170 filas)
+
+Resultado: 57 controles sobre 353 páginas, 0 fallos

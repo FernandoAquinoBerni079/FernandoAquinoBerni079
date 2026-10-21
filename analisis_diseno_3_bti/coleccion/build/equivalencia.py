@@ -113,9 +113,18 @@ def segmento_practica(bs, titulo):
     return bs[ini:fin + 1]
 
 
-def _transformar_aprobado(b):
-    """Aplica al bloque aprobado la lista cerrada de reemplazos del libro (D-05 a D-11)."""
+def _transformar_fichas(b):
+    """C-04 (D-21): la celda «Archivo» de las fichas de código del lote 4 se escribe desde la carpeta de la colección."""
     b = json.loads(json.dumps(b))
+    f = b.get('filas') if b['k'] == 't' else None
+    if f and len(f) >= 2 and f[0][:1] == ['Archivo'] and f[1][:1] == ['Requisito o contrato']:
+        f[0][1] = PC.ruta_unificada(f[0][1])
+    return b
+
+
+def _transformar_aprobado(b):
+    """Aplica al bloque aprobado la lista cerrada de reemplazos del libro (R-01 a R-10) y la de las fichas de código."""
+    b = _transformar_fichas(b)
     if b['k'] == 'p':
         b['tx'] = PC.reemplazar_texto(b['tx'])
     else:
@@ -124,7 +133,10 @@ def _transformar_aprobado(b):
 
 
 def comparar(nombre, aprobado, armado, transformar=True):
-    if transformar:
+    if transformar == 'fichas':
+        apl = [_transformar_fichas(b) for b in aprobado]
+        cambios = sum(1 for a, b in zip(aprobado, apl) if _textos(a) != _textos(b))
+    elif transformar:
         apl = [_transformar_aprobado(b) for b in aprobado]
         cambios = sum(1 for a, b in zip(aprobado, apl) if _textos(a) != _textos(b))
     else:
@@ -191,7 +203,7 @@ def main():
             nota_ok = True
         norm = lambda bs: [dict(b, tx=re.sub(r'\(libro, pág\. \S+\)', '(libro, pág. N)', b['tx'])) if b['k'] == 'p' else b for b in bs]
         pag_diag = [b['tx'] for b in armado if b['k'] == 'p' and '(libro, pág.' in b['tx']]
-        r = comparar('Parte %s' % FU.UNIDADES[n], norm(apr), norm(armado), transformar=False)
+        r = comparar('Parte %s' % FU.UNIDADES[n], norm(apr), norm(armado), transformar='fichas')
         r.update(lote=n, titulo_de_parte=titulo_ok, nota_de_integracion=(n in PC.NOTAS_PARTE) and nota_ok,
                  pagina_del_diagnostico=[re.search(r'pág\. (\S+)\)', t).group(1) for t in pag_diag])
         r['identico'] = r['identico'] and titulo_ok and nota_ok

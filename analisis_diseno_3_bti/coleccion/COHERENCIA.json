@@ -90,7 +90,7 @@
   "P": [
    {
     "resultado": "correcto",
-    "detalle": "33 rutas de archivos del prototipo y de los lotes citadas en los tres documentos; todas existen"
+    "detalle": "39 rutas de archivos del prototipo y de los lotes citadas en los tres documentos; todas existen"
    },
    {
     "resultado": "correcto",
@@ -99,6 +99,10 @@
    {
     "resultado": "correcto",
     "detalle": "los 29 bloques de código se leen de archivos del proyecto que existen (fichas de los lotes 4 a 6)"
+   },
+   {
+    "resultado": "correcto",
+    "detalle": "C-04: las 29 fichas de código impresas (libro y guía) nombran el archivo con la misma notación (lote_N/proyecto/…), y cada ruta existe y es el archivo del que se lee el fragmento"
    }
   ],
   "M": [
@@ -149,6 +153,14 @@
    {
     "resultado": "correcto",
     "detalle": "ningún documento declara aptitud comercial"
+   },
+   {
+    "resultado": "correcto",
+    "detalle": "C-03: la guía aclara la secuencia ordinaria de 36 encuentros y la adaptación alternativa a 28; su tabla coincide con lo que dice cada parte (6+6+6+8+6+4 = 36 y 5+4+5+5+5+4 = 28)"
+   },
+   {
+    "resultado": "correcto",
+    "detalle": "C-01 y C-02: la presentación da la distribución real de los 18 capítulos y explica las excepciones de práctica y evaluación de los Capítulos 16 y 18"
    }
   ],
   "R": [

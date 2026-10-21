@@ -42,9 +42,9 @@ def peso(p, g):
 
 
 md = ['# Evaluación técnica del grosor y la encuadernación', '',
-      '**Colección ADS 3.º BTI · documentos anuales v0.1 · oficio 21,59 × 33,02 cm, impresión a doble faz**', '',
-      'Este informe compara un tomo anual con dos volúmenes por etapa. **No se dividió el libro**: la decisión es de la '
-      'editorial. Los espesores y los gramajes son supuestos de referencia del papel obra o bond corriente; la imprenta tiene '
+      '**Colección ADS 3.º BTI · documentos anuales v0.2 · oficio 21,59 × 33,02 cm, impresión a doble faz**', '',
+      'Este informe compara un tomo anual con dos volúmenes por etapa. **Decisión aprobada (cierre editorial): un único tomo anual.** '
+      'Los espesores y los gramajes son supuestos de referencia del papel obra o bond corriente; la imprenta tiene '
       'que confirmarlos con su papel antes de fijar el lomo.', '',
       '## 1. Extensión medida', '',
       '| Documento | Páginas | Hojas | Lomo estimado (interior + tapas) | Peso estimado (80 g, tapas de 250 g) |',

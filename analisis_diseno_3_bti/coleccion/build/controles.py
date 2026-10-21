@@ -198,6 +198,79 @@ propias = {e: [i + 1 for i, pg in enumerate(pL) if e in sin_pie(pg)[:2]] for e i
 chk('10. Legibilidad', all(len(v) == 1 for v in propias.values()) and len(evals) == 17,
     'libro: las %d evaluaciones, cada una al comienzo de su página propia%s' % (len(evals), '' if all(len(v) == 1 for v in propias.values()) else ' — %s' % {k: v for k, v in propias.items() if len(v) != 1}))
 
+# 11 a 14 (cierre editorial) -----------------------------------------------------------------------------
+H_ = {}
+for k in DOCS:
+    d = docx.Document(DOCS[k] + '.docx')
+    H_[k] = {p_.text.strip() for p_ in d.paragraphs if p_.style.name.startswith('Heading') and p_.text.strip()}
+    renglones_docx = sum(1 for p_ in d.paragraphs if p_.text.startswith('_' * 20))
+    pdf = PDFS[k]
+    renglones_pdf = sum(1 for pg in pdf for l in lineas(pg) if l.startswith('_' * 20))
+    chk('12. Espacios de respuesta', renglones_pdf == renglones_docx, '%s: los %d renglones de respuesta del DOCX, impresos (%d en el PDF)'
+        % (k, renglones_docx, renglones_pdf))
+    huerfanos = []
+    for i, pg in enumerate(pdf):
+        if i == 0:
+            continue
+        # renglones fuera de las tablas (una celda puede repetir el texto de un título), sin el pie
+        cajas = [tb.bbox for tb in pg.find_tables().tables]
+        fuera = [(l['bbox'], ''.join(x['text'] for x in l['spans']).strip()) for b_ in pg.get_text('dict')['blocks']
+                 for l in b_.get('lines', []) if ''.join(x['text'] for x in l['spans']).strip()]
+        fuera = [(bb, tx) for bb, tx in fuera if not re.match(r'^Página \d+ de \d+$', tx)
+                 and not any(c[0] - 1 <= bb[0] and bb[2] <= c[2] + 1 and c[1] - 1 <= bb[1] and bb[3] <= c[3] + 1 for c in cajas)]
+        if not fuera:
+            continue
+        fuera.sort(key=lambda z: (round(z[0][1]), z[0][0]))
+        ult = fuera[-1][1]
+        pen = (fuera[-2][1] + ' ' + ult) if len(fuera) > 1 else ult
+        # el texto que sigue al último título fuera de tabla, en la misma página
+        if (ult in H_[k] or pen in H_[k]) and fuera[-1][0][1] > pg.rect.height * 0.5:
+            huerfanos.append((i + 1, ult[:50]))
+    chk('11. Títulos', not huerfanos, '%s: ningún título queda solo al pie de una página%s' % (k, '' if not huerfanos else ' — %s' % huerfanos[:5]))
+    # consignas: ninguna página termina con una consigna numerada cuyos renglones pasan a la página siguiente
+    cortadas = [i + 1 for i, pg in enumerate(pdf) if sin_pie(pg) and re.match(r'^\d+\. ', sin_pie(pg)[-1])
+                and i + 1 < len(pdf) and sin_pie(pdf[i + 1]) and sin_pie(pdf[i + 1])[0].startswith('_' * 20)]
+    chk('12. Espacios de respuesta', not cortadas, '%s: ninguna consigna separada de sus renglones%s' % (k, '' if not cortadas else ' — %s' % cortadas))
+
+
+def empieza_pagina(pdf, titulo):
+    return [i + 1 for i, pg in enumerate(pdf) if i > 1 and sin_pie(pg) and (sin_pie(pg)[0] == titulo or
+            ' '.join(sin_pie(pg)[:2]) == titulo or ' '.join(sin_pie(pg)[:3]) == titulo)]
+
+
+caps = [FU.capitulo(c) for c in range(1, 19)]
+for k, titulos in (('libro', ['%s — %s' % (c.CAPITULO, c.TITULO) for c in caps] + [c.PRACTICA_TITULO for c in caps if c.PRACTICA_TITULO]
+                    + list(AC.PC.TITULOS_UNIDAD.values())),
+                   ('cuaderno', [c.PRACTICA_TITULO for c in caps if c.PRACTICA_TITULO]),
+                   ('guia', [AC.PC.titulo_parte(n) for n in range(1, 7)] + ['Parte general — Cómo usar esta guía anual'])):
+    malos = [x for x in titulos if len(empieza_pagina(PDFS[k], x)) != 1]
+    chk('13. Saltos de página', not malos, '%s: los %d capítulos, prácticas, unidades o partes empiezan cada uno al comienzo de su página%s'
+        % (k, len(titulos), '' if not malos else ' — %s' % malos[:4]))
+rub = [r for r in res_c['instrumentos_guia'] if re.match(r'Rúbrica del H[1-6]: descriptores por nivel', r[0])]
+otras = [r for r in res_c['instrumentos_guia'] if r[0].startswith(('Rúbrica de defensa', 'Rúbrica de producto final'))]
+mal_rub = [f['rotulo'] for f in TABLAS['guia'] if f['rotulo'].startswith('Rúbrica') and f['filas_impresas'] != f['filas_docx']]
+chk('14. Rúbricas y evaluaciones', len(rub) == 6 and len(otras) >= 1 and not mal_rub,
+    'guia: las rúbricas de los hitos H1 a H6 (%d) y de defensa y producto (%d), con todas sus filas impresas' % (len(rub), len(otras)))
+claves = [f for f in TABLAS['guia'] if f['rotulo'].lower().startswith('clave de la evaluación del capítulo')]
+chk('14. Rúbricas y evaluaciones', len(claves) == 17 and all(f['filas_impresas'] == f['filas_docx'] for f in claves),
+    'guia: las 17 tablas de claves de evaluación, con todas sus filas impresas (%d filas)' % sum(f['filas_docx'] for f in claves))
+
+# registro para la revisión visual: páginas con mucho blanco al pie (no es un fallo: lo deja una tabla o una caja que
+# no cabe, o el fin de una sección antes de un título en hoja nueva)
+BLANCO = {}
+for k, pdf in PDFS.items():
+    H0 = pdf[0].rect.height
+    filas_b = []
+    for i, pg in enumerate(pdf):
+        bl = [b for b in pg.get_text('blocks') if b[4].strip() and not re.match(r'^Página \d+ de \d+\s*$', b[4].strip())]
+        ims = [x['bbox'] for x in pg.get_image_info()]
+        fondo = max([b[3] for b in bl] + [b[3] for b in ims] or [0])
+        util = (fondo - 1.5 * CM) / (H0 - 3.0 * CM)
+        sig = sin_pie(pdf[i + 1])[0] if i + 1 < len(pdf) and sin_pie(pdf[i + 1]) else ''
+        if i > 0 and util < 0.6:
+            filas_b.append({'pagina': i + 1, 'ocupado': round(util, 2), 'siguiente_empieza_con': sig[:60]})
+    BLANCO[k] = filas_b
+RES['paginas_con_blanco_al_pie'] = BLANCO
 RES['tablas'] = {k: [f for f in v if len(f['paginas']) > 1] for k, v in TABLAS.items()}
 RES['paginas'] = {k: len(p) for k, p in PDFS.items()}
 json.dump({'fallos': FALLOS, 'controles': RES}, open(os.path.join(COL, 'CONTROLES_IMPRESION.json'), 'w', encoding='utf8'),
