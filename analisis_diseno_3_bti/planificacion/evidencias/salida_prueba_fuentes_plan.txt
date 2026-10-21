@@ -1,0 +1,7 @@
+Carlito          ADS_3BTI_PLAN_ANUAL_OFICIO_O3         23 págs.  en blanco: ninguna  correcto
+Carlito          ADS_3BTI_PLANES_DE_CLASE_OFICIO_O3    73 págs.  en blanco: ninguna  planes 36, máx. 2 págs. por plan  correcto
+Liberation Sans  ADS_3BTI_PLAN_ANUAL_OFICIO_O3         24 págs.  en blanco: ninguna  correcto
+Liberation Sans  ADS_3BTI_PLANES_DE_CLASE_OFICIO_O3    74 págs.  en blanco: ninguna  planes 36, máx. 2 págs. por plan  correcto
+DejaVu Sans      ADS_3BTI_PLAN_ANUAL_OFICIO_O3         26 págs.  en blanco: ninguna  correcto
+DejaVu Sans      ADS_3BTI_PLANES_DE_CLASE_OFICIO_O3    74 págs.  en blanco: ninguna  planes 36, máx. 2 págs. por plan  correcto
+Resultado: 6 combinaciones, 0 con fallos

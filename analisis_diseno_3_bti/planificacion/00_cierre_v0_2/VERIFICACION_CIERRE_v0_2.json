@@ -1,0 +1,47 @@
+{
+ "instrumentos": {
+  "entradas_comprobadas_por_el_control": 57,
+  "en_la_pagina_que_indican": 57,
+  "filas_de_la_tabla_instrumentos_del_anio": 51,
+  "tablas_de_calendario": 6,
+  "la_tabla_coincide_con_las_entradas_sin_calendario": true,
+  "paginas_de_calendario_en_la_tabla_de_la_seccion_1": true,
+  "texto_del_control": [
+   "guia: los 57 instrumentos de la tabla «Instrumentos del año», cada uno en la página que indica"
+  ]
+ },
+ "manifiesto_y_zip": {
+  "zip": "ADS_3BTI_COLECCION_v0_2_CIERRE_EDITORIAL.zip",
+  "zip_sha256": "ec18c9ff00727965ab1efb0ae8324bc380f45efb9b3f2816acafd8c9fff05a16",
+  "entradas_del_zip": 101,
+  "carpetas_del_zip": [
+   "revision_visual/",
+   "revision_visual/todas_las_paginas/",
+   "evidencias/"
+  ],
+  "archivos_del_zip": 98,
+  "archivos_del_manifiesto": 160,
+  "manifiesto_igual_al_repositorio": 160,
+  "en_el_zip_y_en_el_manifiesto": 97,
+  "con_el_mismo_sha256": 97,
+  "solo_en_el_zip": [
+   "MANIFIESTO_COLECCION.json"
+  ],
+  "del_manifiesto_fuera_del_zip": 63,
+  "fuera_del_zip_por_carpeta": {
+   "build/figs/lote_1/figs": 5,
+   "build/figs/lote_2": 22,
+   "build/figs/lote_3": 22,
+   "build/figs/lote_4": 7,
+   "build/figs/lote_5": 4,
+   "build/figs/lote_6": 3
+  },
+  "todos_los_de_fuera_estan_en_build_figs": true,
+  "fuera_del_zip_por_tipo": {
+   "json": 5,
+   "png": 58
+  },
+  "figuras_de_build_figs_en_git": 63,
+  "rotulo_interno_del_manifiesto": "ADS 3.º BTI — documentos anuales v0.1 (integración editorial, para auditoría)"
+ }
+}

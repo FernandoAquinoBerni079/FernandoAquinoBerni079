@@ -1,0 +1,285 @@
+{
+ "planificacion": "ADS 3.º BTI — plan anual y 36 planes de clase, versión 0.1 para revisión",
+ "fecha": "2026-10-21",
+ "base": "colección v0.2, commit 88c5cb5 (aprobada como base editorial estable para la planificación)",
+ "estado": "Para revisión. No definitiva hasta confirmar el encuadre institucional y la carga horaria. Sin validación en aulas ni en Windows; no autorizada para la venta.",
+ "controles": {
+  "total": 83,
+  "fallos": 0,
+  "no_ejecutados": 0
+ },
+ "fuentes_leidas": [
+  {
+   "ruta": "coleccion/ADS_3BTI_LIBRO_ANUAL_ESTUDIANTE_OFICIO_O3.docx",
+   "bytes": 2748609,
+   "sha256": "6f0bb7660817206b07196affbaccfa537d55dfdcd0ee831abe02f999c2e44c66"
+  },
+  {
+   "ruta": "coleccion/ADS_3BTI_LIBRO_ANUAL_ESTUDIANTE_OFICIO_O3.pdf",
+   "bytes": 6210244,
+   "sha256": "310090c92bdd7bd385ad7ad293a1df2af53c54fe5937626b7c4582a9a1378936"
+  },
+  {
+   "ruta": "coleccion/ADS_3BTI_GUIA_DOCENTE_ANUAL_OFICIO_O3.docx",
+   "bytes": 249544,
+   "sha256": "9eaa5c2f353cd788187909ab1f7d8e64e9863c6982056a307184367be762a057"
+  },
+  {
+   "ruta": "coleccion/ADS_3BTI_GUIA_DOCENTE_ANUAL_OFICIO_O3.pdf",
+   "bytes": 2846856,
+   "sha256": "4c95ddabce7459cb4dfbefeae3682c6236c496c5dc8ca41c69c32f57a6960bbd"
+  },
+  {
+   "ruta": "coleccion/ADS_3BTI_CUADERNO_ANUAL_PRACTICAS_OFICIO_O3.docx",
+   "bytes": 64700,
+   "sha256": "d1ebfd2cf5906917e6fb8dd73b3a430ef4ee64f562428e4c46d6f68a9ab57918"
+  },
+  {
+   "ruta": "coleccion/ADS_3BTI_CUADERNO_ANUAL_PRACTICAS_OFICIO_O3.pdf",
+   "bytes": 480421,
+   "sha256": "20fde6d78e9a7b13979769965625b042a5baaa252dd875ff0d247fd12bdd7010"
+  },
+  {
+   "ruta": "coleccion/MANIFIESTO_COLECCION.json",
+   "bytes": 28034,
+   "sha256": "1748e8a366c1c0e6ae3930f0e11d05dff00116897c6a5d54903655a9d2899457"
+  }
+ ],
+ "archivos": [
+  {
+   "ruta": "ADS_3BTI_PLANES_DE_CLASE_OFICIO_O3.docx",
+   "bytes": 116376,
+   "sha256": "7edb7baab9c891b520d634cd78c8ccdd0a1198a3651baf4dd022b7449ed29285"
+  },
+  {
+   "ruta": "ADS_3BTI_PLANES_DE_CLASE_OFICIO_O3.pdf",
+   "bytes": 1468278,
+   "sha256": "a5b0f8e209785ae4e0c7da95552ce30967633acd7b800b144ddc44d32c7e5e6c"
+  },
+  {
+   "ruta": "ADS_3BTI_PLAN_ANUAL_OFICIO_O3.docx",
+   "bytes": 73891,
+   "sha256": "747d8f14c6377a79912afa97cd4639b37e5202f188478976746f17017e26e640"
+  },
+  {
+   "ruta": "ADS_3BTI_PLAN_ANUAL_OFICIO_O3.pdf",
+   "bytes": 959809,
+   "sha256": "d42e904f64c4da18c4dd791a05414881860453e4e877c78689281cec6159cc5a"
+  },
+  {
+   "ruta": "CONTROLES_PLANIFICACION.json",
+   "bytes": 12147,
+   "sha256": "be19206cd43867641f13e8fc36d3f86d40f87fffb3d3fcb7f328ece1f4eaf4da"
+  },
+  {
+   "ruta": "ESTRUCTURA_Y_ALINEACION.md",
+   "bytes": 11510,
+   "sha256": "5d7dd441ef28c6eab54ff8d7a225b2e3a3a6e60f6522106514760aebdb73a870"
+  },
+  {
+   "ruta": "INFORME_PLANIFICACION.md",
+   "bytes": 6750,
+   "sha256": "c8043379051dc0507ca48bf47e59322a1805f50940593a0eb46ea30659d3b5b7"
+  },
+  {
+   "ruta": "PRUEBA_FUENTES_PLAN.json",
+   "bytes": 1352,
+   "sha256": "042bd7d690a950d9bb3771ff8a682df59776230e93d0d210704ab01c09477d62"
+  },
+  {
+   "ruta": "00_cierre_v0_2/ADENDA_CIERRE_EDITORIAL_v0_2.md",
+   "bytes": 5011,
+   "sha256": "282fe14ef6532bfbab8a4ba7b7552ec1d863fa7fa936dfa25b665a41cf984496"
+  },
+  {
+   "ruta": "00_cierre_v0_2/VERIFICACION_CIERRE_v0_2.json",
+   "bytes": 1483,
+   "sha256": "3f565b4b14fb1d7ae5128f1f4de110fe365830d5f53835188f23bc87c75072d7"
+  },
+  {
+   "ruta": "00_cierre_v0_2/verificar_cierre_v0_2.py",
+   "bytes": 4735,
+   "sha256": "091b8a4a60f3bc2be5b79e4fc83524be6b8f1a90f7c1e30a9725147f3432cb29"
+  },
+  {
+   "ruta": "build/construir_todo.py",
+   "bytes": 1240,
+   "sha256": "d536fceb82de18cde33dfb9166e0586f7f688a873264b9f45532caf7dfbe38d0"
+  },
+  {
+   "ruta": "build/controles_plan.py",
+   "bytes": 27530,
+   "sha256": "8386faf3a7216fc6efb089fb2e18846d741bc64e1f6cab12bcedb0bf3aac356d"
+  },
+  {
+   "ruta": "build/datos_coleccion.json",
+   "bytes": 312792,
+   "sha256": "3a9d0db9561ff2fbb3d9ca9877241fe86a14479f51bf57a7b83c548777115c12"
+  },
+  {
+   "ruta": "build/encuadre.py",
+   "bytes": 6661,
+   "sha256": "c98dc096e5e211b7957a461042710959f2ffa83f549a4e1f07c84fc213f50353"
+  },
+  {
+   "ruta": "build/extraer_coleccion.py",
+   "bytes": 16078,
+   "sha256": "128d4bef38f401e972ca706f9ed542632a8762a35a36c4e1ead8cf6ab13c9b7b"
+  },
+  {
+   "ruta": "build/hojas_contacto.py",
+   "bytes": 1437,
+   "sha256": "25e55a84ac1ae3885e777118f86719d67a90aa81172fe6de4d0998317d9b7f1b"
+  },
+  {
+   "ruta": "build/manifiesto_plan.py",
+   "bytes": 2328,
+   "sha256": "11940e3fb7ced777c8168475e8d1516357c48a8fe2a25818eeaf0984e00f6985"
+  },
+  {
+   "ruta": "build/maqueta_plan.py",
+   "bytes": 7251,
+   "sha256": "f9e69795f3afdb7d720c9c0de73aee3305a2fb973b496a53f8832dd29befbbc9"
+  },
+  {
+   "ruta": "build/modelo.py",
+   "bytes": 19493,
+   "sha256": "52b4bf8f585294044d77782196ac2fc0aae5eea3dc4b9903445436da952a8d57"
+  },
+  {
+   "ruta": "build/paginas_planes.json",
+   "bytes": 349,
+   "sha256": "f3e17e7c08028c70e5b5799a5d105756976f54089d24b23e01fcb9c0d6b1d1fe"
+  },
+  {
+   "ruta": "build/plan_anual.py",
+   "bytes": 24137,
+   "sha256": "d1b64440ecbe7535246ce3951554c7b1bf2eadd1e7f00a774754b827fe143589"
+  },
+  {
+   "ruta": "build/planes_clase.py",
+   "bytes": 23620,
+   "sha256": "90b8a52fb5e1a0b39acb646bc99535e26b69d0f398352fd9449a3643e350e55f"
+  },
+  {
+   "ruta": "build/prueba_fuentes_plan.py",
+   "bytes": 3521,
+   "sha256": "3284fbb7301f80664bf0d2d85bebe3c02822232bc4dde969ab4a136d18434004"
+  },
+  {
+   "ruta": "evidencias/salida_controles_plan.txt",
+   "bytes": 7657,
+   "sha256": "182848e16b2c39d678d17a8131fc0e240e2abc5c9b2b8f3478a14b7eaf4fab33"
+  },
+  {
+   "ruta": "evidencias/salida_extraer_coleccion.txt",
+   "bytes": 67,
+   "sha256": "60131d9795a6d8dcafa1317186bb246147cd124b796a9ab48076f9281babf79c"
+  },
+  {
+   "ruta": "evidencias/salida_hojas_contacto.txt",
+   "bytes": 476,
+   "sha256": "75c33ab147a72db145d2361ce74d8fb42e36df1634fb4ef958bca9382c2f31bf"
+  },
+  {
+   "ruta": "evidencias/salida_plan_anual.txt",
+   "bytes": 154,
+   "sha256": "29f376134060a37906f474ba39b0eaf4ba1891c9244b189a85e809ec9ebbc600"
+  },
+  {
+   "ruta": "evidencias/salida_planes_clase.txt",
+   "bytes": 159,
+   "sha256": "c8557cb1b5d42c262a76800f1ae9e22201ae0636f2ae566e6018228a30b93dcf"
+  },
+  {
+   "ruta": "evidencias/salida_prueba_fuentes_plan.txt",
+   "bytes": 719,
+   "sha256": "77853821aab365451f49652df2a77205989aa8396bbbfa942cc598d91f84d455"
+  },
+  {
+   "ruta": "revision_visual/plan_anual_pags_001-006.png",
+   "bytes": 712442,
+   "sha256": "10bd7bfd305301faa473b2756da5ffe6419b894ad5e831474e2bf6bc29bc260a"
+  },
+  {
+   "ruta": "revision_visual/plan_anual_pags_007-012.png",
+   "bytes": 798430,
+   "sha256": "26bb5db26180c559dd47de51fca3eb6ce2ca21c6a1472446bbd806f17b99e722"
+  },
+  {
+   "ruta": "revision_visual/plan_anual_pags_013-018.png",
+   "bytes": 829594,
+   "sha256": "454006bddb9adbb0790d783cf1430cdd18633968a4cfd216d54e7299058b14f2"
+  },
+  {
+   "ruta": "revision_visual/plan_anual_pags_019-023.png",
+   "bytes": 308581,
+   "sha256": "3c515bf227aa704788d974251c842bf0f0a07b4aa88544a15780a4f42b44a672"
+  },
+  {
+   "ruta": "revision_visual/planes_pags_001-006.png",
+   "bytes": 647102,
+   "sha256": "bd09d3b3c6d31a1aca945dcae6a21d8f78493dc5c913a3c64e23fd686db9182c"
+  },
+  {
+   "ruta": "revision_visual/planes_pags_007-012.png",
+   "bytes": 617225,
+   "sha256": "c14ee1cd9be41c469aa56b47bded950f0a29f4dee3ac430d4a42a6363a8c9c1f"
+  },
+  {
+   "ruta": "revision_visual/planes_pags_013-018.png",
+   "bytes": 616423,
+   "sha256": "d5b3a384a3037b2db78d24183e8ede2c4235dc3f57e5e8b62c78a291756a5a70"
+  },
+  {
+   "ruta": "revision_visual/planes_pags_019-024.png",
+   "bytes": 579395,
+   "sha256": "ace75e147bf69a1a68aa05cbab1f810c3bd34c171be66bbacd518634d1df63d4"
+  },
+  {
+   "ruta": "revision_visual/planes_pags_025-030.png",
+   "bytes": 654363,
+   "sha256": "5503bffaef761884f15cc5440d9f3d6b1b8dc9c0b8ff9030e90dddc2cea9e3d1"
+  },
+  {
+   "ruta": "revision_visual/planes_pags_031-036.png",
+   "bytes": 568390,
+   "sha256": "0267a3daf7fe144f32f8c2b4dfed597ae3b2f777557fe029ef07fd1b7135b969"
+  },
+  {
+   "ruta": "revision_visual/planes_pags_037-042.png",
+   "bytes": 630659,
+   "sha256": "72e23afad43084d09de866e378e43f580eadccf8670b991cc4ff6de8b8e6bf73"
+  },
+  {
+   "ruta": "revision_visual/planes_pags_043-048.png",
+   "bytes": 576936,
+   "sha256": "534854dff4eb9bc71c9fd2839b8a25234d1c4bd6d4fe8ea73940248862de465a"
+  },
+  {
+   "ruta": "revision_visual/planes_pags_049-054.png",
+   "bytes": 665904,
+   "sha256": "4d1ee4bdf20d0bc06b95e9ae9f3f73cf71610fe6dfc36220d0bf17ff9e892ae2"
+  },
+  {
+   "ruta": "revision_visual/planes_pags_055-060.png",
+   "bytes": 548130,
+   "sha256": "43fb7984b2a1b6ad3475a3a7f0d157a8501f520e1c92f5ccfafd29336475c6dc"
+  },
+  {
+   "ruta": "revision_visual/planes_pags_061-066.png",
+   "bytes": 658111,
+   "sha256": "46be886011ada643dc6cbe9fc5796c7943f3e98dad7d4bebcb1bc0a240f174d8"
+  },
+  {
+   "ruta": "revision_visual/planes_pags_067-072.png",
+   "bytes": 620143,
+   "sha256": "8c9073224f2e3d605d3c3ab0afb2a2ea24efdad19cf9ca8283b40fb41edd7dda"
+  },
+  {
+   "ruta": "revision_visual/planes_pags_073-073.png",
+   "bytes": 72623,
+   "sha256": "40ee6c9d72814d6f324aaf41b2ac4b7dd140b07f9fa45a63138edb0b4d95a66c"
+  }
+ ]
+}
