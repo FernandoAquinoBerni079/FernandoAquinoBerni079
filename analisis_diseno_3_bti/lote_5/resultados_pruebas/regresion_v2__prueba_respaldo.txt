@@ -1,0 +1,24 @@
+Entorno: Linux 6.18.44-fc-v140 (x86_64), PHP 8.3.6, SQLite 3.45.1 (2026-10-21 10:19)
+
+CORRECTO Instalación inicial con datos ficticios
+CORRECTO Instalar de nuevo sin --reiniciar: se niega (código 1) y la base queda idéntica
+CORRECTO --reiniciar sin escribir REINICIAR: cancela y la base queda idéntica
+CORRECTO Copiar el archivo a mano pierde lo que está en -wal (2 de 3 préstamos)
+CORRECTO respaldar.php con la otra conexión abierta: tiene los 3 préstamos confirmados y no el que está sin confirmar
+CORRECTO restaurar.php se niega mientras otra conexión tiene una escritura en curso
+CORRECTO Restaurar un archivo que no existe: se niega y la base queda idéntica
+CORRECTO Restaurar un archivo dañado: se niega («El respaldo no sirve») y la base queda idéntica
+CORRECTO Restaurar un respaldo de otra versión del esquema (la del Piloto B): se niega y la base queda idéntica
+CORRECTO Restaurar la base en uso sobre sí misma: se niega
+CORRECTO Sin escribir RESTAURAR: cancela y la base queda idéntica
+CORRECTO Con confirmación, restaurar.php termina bien
+CORRECTO La base vuelve a tener los 3 préstamos del respaldo
+CORRECTO Antes de restaurar guardó la base anterior, con sus 4 préstamos
+CORRECTO Ese respaldo previo pasa PRAGMA integrity_check
+CORRECTO La base restaurada conserva el índice de RI-01 y los disparadores del historial
+CORRECTO La base restaurada conserva las cuentas (se puede volver a ingresar)
+CORRECTO Deshacer la restauración con el respaldo previo devuelve los 4 préstamos
+CORRECTO Sin respaldo posible, el reinicio se niega y la base queda idéntica
+CORRECTO Con respaldo posible, el reinicio guarda un respaldo verificado y deja la base sin préstamos
+
+Resultado: 20 de 20 correctas

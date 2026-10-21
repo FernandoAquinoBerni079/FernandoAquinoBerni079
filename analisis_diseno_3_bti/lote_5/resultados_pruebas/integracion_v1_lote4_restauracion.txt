@@ -1,0 +1,20 @@
+Entorno: Linux 6.18.44-fc-v140 (x86_64), PHP 8.3.6, SQLite 3.45.1 (2026-10-21 10:19)
+
+Respaldo guardado y verificado en: /tmp/ads_l5_ykpcib3b/restaurar_v1_lote4/src/../datos/respaldos/respaldo_20261021_072153.sqlite
+
+--- cambio después del respaldo
+CORRECTO Persistencia, 1.º proceso: préstamo de EJ-1008 a LE-1005 registrado (ME-04)
+
+Resultado: 1 de 1 correctas
+
+--- restauración
+Respaldo a restaurar: /tmp/ads_l5_ykpcib3b/restaurar_v1_lote4/datos/respaldos/respaldo_20261021_072153.sqlite
+  {"parametros":3,"obras":4,"ediciones":5,"ejemplares":12,"lectores":5,"cuentas":2,"prestamos":9}
+Base actual: {"parametros":3,"obras":4,"ediciones":5,"ejemplares":12,"lectores":5,"cuentas":2,"prestamos":10}
+Copia de la base anterior, verificada: /tmp/ads_l5_ykpcib3b/restaurar_v1_lote4/src/../datos/respaldos/antes_de_restaurar_20261021_072153_11070.sqlite
+Restauración terminada y comprobada: la base tiene lo mismo que el respaldo.
+
+--- el cambio ya no está (se espera FALLA en la lectura)
+FALLA    Persistencia, 2.º proceso (otra conexión, como al reiniciar): el préstamo de EJ-1008 sigue
+
+Resultado: 0 de 1 correctas

@@ -216,7 +216,7 @@ HC por categoría (distribución v2.1): A análisis · D diseño · P programaci
 - **Capacidades del capítulo:** C8, C9 (propuestas).
 - **Secciones (Work §6):** 14.1. Verificación, validación y aceptación. 14.2. Casos normales, límites, excepciones y rechazos. 14.3. Resultado esperado, resultado obtenido y evidencia. 14.4. Cobertura de requisitos y reporte de defectos.
 - **Cierre:** Práctica: elaborar y ejecutar una batería nueva de pruebas.
-- **Indicadores:** Pendiente: se fijan en la ficha del capítulo (referencia: indicadores de Work §4.2 de C8, C9).
+- **Indicadores:** Distingue verificar, validar y aceptar, y dice contra qué se compara cada una. | Diseña al menos doce casos identificados desde las reglas, seis de ellos de límite o de rechazo. | Prepara una copia descartable con datos independientes y comprueba su estado antes de probar. | Ejecuta los casos y registra requisito, esperado, obtenido, entorno y evidencia, sin dar por bueno lo que no se probó. | Encuentra los huecos de cobertura y reporta cada defecto con pasos para reproducirlo y su condición. _(de lote_5/build/cap14.py)_
 - **Antecedentes MEC con los que se articula** (páginas según Work §3; asignación al capítulo propuesta por esta estructura): Laboratorio 3.º, p. 58 (TDD e integración continua como antecedentes concurrentes).
 
 | Encuentro | Foco (Work §5.2) | Capacidades | Evidencia o evaluación (Work §5.2) | A | D | P | V | Doc | G | E |
@@ -229,7 +229,7 @@ HC por categoría (distribución v2.1): A análisis · D diseño · P programaci
 - **Capacidades del capítulo:** C3, C6, C8, C9, C10 (propuestas).
 - **Secciones (Work §6):** 15.1. Pruebas de integración y persistencia. 15.2. Permisos, recuperación de datos y manejo de errores. 15.3. Sesiones de uso y observación de dificultades. 15.4. Aceptación por criterios acordados y prioridad de correcciones.
 - **Cierre:** Práctica: revisión cruzada entre equipos con datos reservados para evaluación.
-- **Indicadores:** Pendiente: se fijan en la ficha del capítulo (referencia: indicadores de Work §4.2 de C3, C6, C8, C9, C10).
+- **Indicadores:** Prueba el circuito completo y la persistencia entre ejecuciones, con la consulta del estado final. | Ejecuta todas las operaciones con las tres cuentas y comprueba que cada rechazo sea ME-13 sin cambiar datos. | Restaura un respaldo y comprueba que el estado es el del respaldo y que quedó la copia previa. | Conduce o registra una sesión de uso con tareas nuevas, anotando lo que la persona hace y no opiniones. | Marca cada criterio de aceptación con su evidencia y prioriza las correcciones dentro del alcance. _(de lote_5/build/cap15.py)_
 - **Antecedentes MEC con los que se articula** (páginas según Work §3; asignación al capítulo propuesta por esta estructura): Laboratorio 3.º, pp. 54-55 (persistencia); Hardware 2.º, pp. 66-69 (respaldos y entorno).
 
 | Encuentro | Foco (Work §5.2) | Capacidades | Evidencia o evaluación (Work §5.2) | A | D | P | V | Doc | G | E |
@@ -242,7 +242,7 @@ HC por categoría (distribución v2.1): A análisis · D diseño · P programaci
 - **Capacidades del capítulo:** C7, C8, C9 (propuestas).
 - **Secciones (Work §6):** 16.1. Diagnóstico de incidencias e impacto de cambios. 16.2. Corrección, revisión entre pares y regresión. 16.3. Actualización de modelos, pruebas y documentación. 16.4. Recuperación técnica y versión candidata.
 - **Cierre:** Revisión de unidad V: evidencia de calidad y límites conocidos; H5.
-- **Indicadores:** Pendiente: se fijan en la ficha del capítulo (referencia: indicadores de Work §4.2 de C7, C8, C9).
+- **Indicadores:** Reproduce una incidencia con pasos que se repiten y distingue el síntoma de la causa y la capa. | Estima el impacto de una corrección con la trazabilidad y elige las pruebas de regresión. | Corrige con el cambio mínimo, hace revisar la corrección por otro integrante y ejecuta la regresión. | Actualiza requisitos, contratos, mensajes, pruebas y bitácora cuando se aprueba un cambio, con su versión. | Presenta una versión candidata con sus límites conocidos y revisa una por una las condiciones mínimas. _(de lote_5/build/cap16.py)_
 - **Antecedentes MEC con los que se articula** (páginas según Work §3; asignación al capítulo propuesta por esta estructura): Laboratorio 3.º, p. 58 (revisión entre pares y mejora).
 
 | Encuentro | Foco (Work §5.2) | Capacidades | Evidencia o evaluación (Work §5.2) | A | D | P | V | Doc | G | E |
@@ -291,7 +291,7 @@ HC por categoría (distribución v2.1): A análisis · D diseño · P programaci
 
 ## 7. Lo que falta para el plan anual definitivo
 
-- Indicadores de los Capítulos 14 a 18: se fijan en la ficha de cada capítulo al construirlo (unicidad y verificabilidad).
+- Indicadores de los Capítulos 17 y 18: se fijan en la ficha de cada capítulo al construirlo (unicidad y verificabilidad).
 - Procedimientos e instrumentos por encuentro, con unicidad dentro del año (como en el formato canónico de la colección).
 - Calendario por etapas del año escolar y adaptación de 28 encuentros (distribución v2.1, `distribucion_28.csv`).
 - Maquetación en oficio con el formato canónico de la colección, y cotejo con las fichas del libro aprobado.

@@ -1,0 +1,10 @@
+Entorno: Linux 6.18.44-fc-v140 (x86_64), PHP 8.3.6, SQLite 3.45.1 (2026-10-21 10:19)
+
+CORRECTO Persistencia, 1.º proceso: préstamo de EJ-1008 a LE-1005 registrado (ME-04)
+
+Resultado: 1 de 1 correctas
+
+--- otro proceso
+CORRECTO Persistencia, 2.º proceso (otra conexión, como al reiniciar): el préstamo de EJ-1008 sigue
+
+Resultado: 1 de 1 correctas

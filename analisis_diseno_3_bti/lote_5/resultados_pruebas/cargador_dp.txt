@@ -1,0 +1,18 @@
+Entorno: Linux 6.18.44-fc-v140 (x86_64), PHP 8.3.6, SQLite 3.45.1 (2026-10-21 10:19)
+
+Copia descartable creada en: /tmp/ads_l5_ykpcib3b/dp_v2
+Cuenta de demostración «bibliotecaria1»
+Cuenta de demostración «direccion1»
+Estado esperado: correcto
+Huella de los datos: b9b9e76c77dfa2e605f1a8edf7168c997be7917fc40a0b16ebd4512c64f60769
+
+--- desde la base del estudiante (lote 4)
+Copia descartable creada en: /tmp/ads_l5_ykpcib3b/dp_base
+Cuenta de demostración «bibliotecaria1»
+Cuenta de demostración «direccion1»
+Estado esperado: correcto
+Huella de los datos: b9b9e76c77dfa2e605f1a8edf7168c997be7917fc40a0b16ebd4512c64f60769
+
+--- segunda carga sobre la misma carpeta (tiene que negarse)
+Ya existe /tmp/ads_l5_ykpcib3b/dp_v2. El cargador solo crea copias nuevas: elegí otra carpeta o borrala vos, si es descartable.
+No se cambió nada.

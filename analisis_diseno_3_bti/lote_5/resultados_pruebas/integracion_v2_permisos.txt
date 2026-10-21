@@ -1,0 +1,36 @@
+Entorno: Linux 6.18.44-fc-v140 (x86_64), PHP 8.3.6, SQLite 3.45.1 (2026-10-21 10:19)
+
+CORRECTO OP-01 con sin sesión: ME-13 y ningún dato cambia
+CORRECTO OP-01 con dirección: ME-13 y ningún dato cambia
+CORRECTO OP-01 con bibliotecaria: permitida (no ME-13)
+CORRECTO OP-02 con sin sesión: ME-13 y ningún dato cambia
+CORRECTO OP-02 con dirección: ME-13 y ningún dato cambia
+CORRECTO OP-02 con bibliotecaria: permitida (no ME-13)
+CORRECTO OP-04 con sin sesión: ME-13 y ningún dato cambia
+CORRECTO OP-04 con dirección: ME-13 y ningún dato cambia
+CORRECTO OP-04 con bibliotecaria: permitida (no ME-13)
+CORRECTO OP-05 con sin sesión: ME-13 y ningún dato cambia
+CORRECTO OP-05 con dirección: permitida (no ME-13)
+CORRECTO OP-05 con bibliotecaria: permitida (no ME-13)
+CORRECTO OP-06 con sin sesión: ME-13 y ningún dato cambia
+CORRECTO OP-06 con dirección: ME-13 y ningún dato cambia
+CORRECTO OP-06 con bibliotecaria: permitida (no ME-13)
+CORRECTO OA-01 con sin sesión: ME-13 y ningún dato cambia
+CORRECTO OA-01 con dirección: ME-13 y ningún dato cambia
+CORRECTO OA-01 con bibliotecaria: permitida (no ME-13)
+CORRECTO OA-02 con sin sesión: ME-13 y ningún dato cambia
+CORRECTO OA-02 con dirección: ME-13 y ningún dato cambia
+CORRECTO OA-02 con bibliotecaria: permitida (no ME-13)
+CORRECTO OA-03 con sin sesión: ME-13 y ningún dato cambia
+CORRECTO OA-03 con dirección: ME-13 y ningún dato cambia
+CORRECTO OA-03 con bibliotecaria: permitida (no ME-13)
+CORRECTO OA-04 con sin sesión: ME-13 y ningún dato cambia
+CORRECTO OA-04 con dirección: ME-13 y ningún dato cambia
+CORRECTO OA-04 con bibliotecaria: permitida (no ME-13)
+CORRECTO OA-05 con sin sesión: ME-13 y ningún dato cambia
+CORRECTO OA-05 con dirección: ME-13 y ningún dato cambia
+CORRECTO OA-05 con bibliotecaria: permitida (no ME-13)
+CORRECTO OP-03 sin sesión: permitida (pública), sin datos de lectores
+CORRECTO Ninguna operación usó ME-12 (solo el ingreso)
+
+Resultado: 32 de 32 correctas

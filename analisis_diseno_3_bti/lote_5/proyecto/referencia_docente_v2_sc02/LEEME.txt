@@ -1,0 +1,48 @@
+Sistema de préstamos de la biblioteca escolar — REFERENCIA DOCENTE (lote 4, Unidad IV)
+VERSIÓN 2 CON SC-02 (lote 5): IN-02 corregida y el cambio aprobado SC-02 (ME-14 para el informe de un mes vacío).
+No reemplaza a lote_4/proyecto/referencia_docente, que se conserva sin cambios. Diferencias: ../DIFERENCIAS_v2.md
+Caso Arapoty, datos ficticios. Adaptado del Piloto B v2.3 al diseño del lote 3 v1.1.
+
+Esta carpeta es para el docente: el sistema completo, para comprobar y corregir. No se entrega a los
+estudiantes como punto de partida: ellos trabajan con la carpeta base_estudiante/.
+
+ESTADO DEL ENTORNO: HTML/CSS + PHP + SQLite es una referencia editorial provisional. Las pruebas automáticas
+corrieron en Linux (ver lote_4/resultados_pruebas/). NO se probó en Windows ni en computadoras escolares:
+antes de usarlo en un laboratorio hay que completar la ficha de entorno E-1 a E-12 de la guía docente.
+
+1. Comprobá el entorno:         php verificar_entorno.php
+2. Creá la base de ejemplo:     php instalar.php
+   Se crean dos cuentas de demostración, bibliotecaria1 y direccion1, con claves al azar que se muestran
+   una sola vez. Son de demostración: no uses estas cuentas ni sus claves con datos reales.
+3. Iniciá el servidor local:    php -S localhost:8000 -t public
+4. Abrí el navegador en:        http://localhost:8000
+5. Respaldo verificado:         php respaldar.php
+6. Restaurar un respaldo:       detené el servidor (Ctrl+C) y ejecutá
+                                php restaurar.php datos/respaldos/respaldo_AAAAMMDD_HHMMSS.sqlite
+   restaurar.php comprueba el respaldo antes de tocar nada, muestra qué tiene, pide escribir RESTAURAR
+   y guarda antes una copia verificada de la base actual (datos/respaldos/antes_de_restaurar_*.sqlite).
+
+El instalador no borra una base existente. Para empezar de cero: php instalar.php --reiniciar
+(pide escribir REINICIAR, se niega si otra conexión usa la base y guarda antes un respaldo verificado).
+
+Si un corte de energía deja el archivo datos/biblioteca.sqlite.mantenimiento, NO lo borres a mano:
+   php retirar_marca.php             (diagnóstico: guarda una copia en datos/incidentes/ y no cambia nada)
+   php retirar_marca.php --retirar   (retira la marca solo si la base pasó todas las comprobaciones)
+
+Si la base quedó dañada (retirar_marca.php se niega con el código 2): con el servidor detenido, apartá la carpeta
+datos/ entera a otro lugar (no la borres), creá una base nueva con php instalar.php y restaurá el último respaldo
+verificado con php restaurar.php.
+
+En Windows: si verificar_entorno.php dice que falta pdo_sqlite, habilitá «extension=pdo_sqlite» (y «extension=sqlite3»)
+en el php.ini que indica. El servidor incorporado de Windows atiende los pedidos de a uno: no sirve para probar
+pedidos simultáneos; para eso está pruebas/prueba_carrera.php.
+
+Pruebas automáticas (para el docente; cada una usa una base temporal y no toca datos/):
+   php pruebas/prueba_contratos.php        contratos OP-01 a OP-06 y OA-01 a OA-04 (P-xx y PA-xx)
+   php pruebas/prueba_mis_operaciones.php  la misma prueba que reciben los estudiantes
+   php pruebas/prueba_carrera.php          P-07: pedidos simultáneos en procesos y conexiones independientes
+   php pruebas/prueba_garantias.php        qué restricciones protege la base por sí sola
+   php pruebas/prueba_respaldo.php         instalación sin pérdida, respaldo y restauración
+   php pruebas/prueba_mantenimiento.php    reinicio con conexiones activas
+   php pruebas/prueba_marca_huerfana.php   (solo Linux: simula cortes con SIGKILL)
+   bash pruebas/prueba_http.sh             punta a punta con el servidor (bash y curl; en Windows, Git Bash)

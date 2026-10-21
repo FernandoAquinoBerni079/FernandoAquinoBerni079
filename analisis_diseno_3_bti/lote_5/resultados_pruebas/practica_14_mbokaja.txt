@@ -1,0 +1,81 @@
+Entorno: Linux 6.18.44-fc-v140 (x86_64), PHP 8.3.6, SQLite 3.45.1 (2026-10-21 10:19)
+
+Copia descartable creada en: /tmp/ads_l5_ykpcib3b/p14
+Cuenta de demostración «bibliotecaria1»
+Cuenta de demostración «direccion1»
+Estado esperado: correcto
+Huella de los datos: 116ed6503fff5112f3f872b1cc17e13d7aca89f5e0e23d00b5de100297360490
+
+[
+    {
+        "id": "M-01",
+        "ejecutado": true,
+        "esperado_codigo": null,
+        "correcto": true,
+        "obtenido": {
+            "codigo": null,
+            "texto": "",
+            "filas": [
+                {
+                    "ejemplar": "EJ-0301",
+                    "titulo": "Leyendas del monte",
+                    "lector": "LE-0321",
+                    "nombre": "Lector Mbokaja 21 (ficticio)",
+                    "fecha_salida": "2026-07-08",
+                    "fecha_vencimiento": "2026-07-15",
+                    "vencido": 1
+                }
+            ]
+        }
+    },
+    {
+        "id": "M-02",
+        "ejecutado": true,
+        "esperado_codigo": "ME-04",
+        "correcto": true,
+        "obtenido": {
+            "codigo": "ME-04",
+            "texto": "Préstamo registrado. Vence el 23\/07."
+        }
+    },
+    {
+        "id": "M-03",
+        "ejecutado": true,
+        "esperado_codigo": "ME-02",
+        "correcto": true,
+        "obtenido": {
+            "codigo": "ME-02",
+            "texto": "No se puede prestar: el lector ya tiene 2 préstamos activos, el máximo para estudiantes. Tiene que devolver uno antes."
+        }
+    },
+    {
+        "id": "M-04",
+        "ejecutado": true,
+        "esperado_codigo": "MV-06",
+        "correcto": true,
+        "obtenido": {
+            "codigo": "MV-06",
+            "texto": "No se puede prestar: el ejemplar EJ-0305 está dado de baja. Elegí otro ejemplar disponible."
+        }
+    },
+    {
+        "id": "M-05",
+        "ejecutado": true,
+        "esperado_codigo": "ME-03",
+        "correcto": true,
+        "obtenido": {
+            "codigo": "ME-03",
+            "texto": "No se puede prestar: el ejemplar EJ-0301 ya está prestado y vence el 15\/07. Elegí otro ejemplar disponible."
+        }
+    },
+    {
+        "id": "M-06",
+        "ejecutado": true,
+        "esperado_codigo": "MV-02",
+        "correcto": true,
+        "obtenido": {
+            "codigo": "MV-02",
+            "texto": "El código MB-30 no tiene el formato esperado (EJ- y cuatro cifras). Revisá la etiqueta o el registro."
+        }
+    }
+]

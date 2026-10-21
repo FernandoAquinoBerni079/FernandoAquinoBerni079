@@ -1,0 +1,1064 @@
+{
+ "entorno": {
+  "fecha": "2026-10-21 10:19",
+  "sistema": "Linux 6.18.44-fc-v140 (x86_64)",
+  "php": "8.3.6",
+  "sqlite": "3.45.1",
+  "curl": "curl 8.5.0",
+  "tipo": "Contenedor Linux de construcción del lote. NO es una computadora escolar ni Windows: las pruebas de campo E-1 a E-12 siguen pendientes."
+ },
+ "cargador_dp": {
+  "estado_esperado_v2": true,
+  "estado_esperado_base_estudiante": true,
+  "misma_huella": true,
+  "huella": "b9b9e76c77dfa2e605f1a8edf7168c997be7917fc40a0b16ebd4512c64f60769",
+  "se_niega_a_sobrescribir": true,
+  "origen_sin_base_creada": true,
+  "ok": true
+ },
+ "practica_14": {
+  "carga": true,
+  "casos": [
+   {
+    "id": "M-01",
+    "ejecutado": true,
+    "esperado_codigo": null,
+    "correcto": true,
+    "obtenido": {
+     "codigo": null,
+     "texto": "",
+     "filas": [
+      {
+       "ejemplar": "EJ-0301",
+       "titulo": "Leyendas del monte",
+       "lector": "LE-0321",
+       "nombre": "Lector Mbokaja 21 (ficticio)",
+       "fecha_salida": "2026-07-08",
+       "fecha_vencimiento": "2026-07-15",
+       "vencido": 1
+      }
+     ]
+    }
+   },
+   {
+    "id": "M-02",
+    "ejecutado": true,
+    "esperado_codigo": "ME-04",
+    "correcto": true,
+    "obtenido": {
+     "codigo": "ME-04",
+     "texto": "Préstamo registrado. Vence el 23/07."
+    }
+   },
+   {
+    "id": "M-03",
+    "ejecutado": true,
+    "esperado_codigo": "ME-02",
+    "correcto": true,
+    "obtenido": {
+     "codigo": "ME-02",
+     "texto": "No se puede prestar: el lector ya tiene 2 préstamos activos, el máximo para estudiantes. Tiene que devolver uno antes."
+    }
+   },
+   {
+    "id": "M-04",
+    "ejecutado": true,
+    "esperado_codigo": "MV-06",
+    "correcto": true,
+    "obtenido": {
+     "codigo": "MV-06",
+     "texto": "No se puede prestar: el ejemplar EJ-0305 está dado de baja. Elegí otro ejemplar disponible."
+    }
+   },
+   {
+    "id": "M-05",
+    "ejecutado": true,
+    "esperado_codigo": "ME-03",
+    "correcto": true,
+    "obtenido": {
+     "codigo": "ME-03",
+     "texto": "No se puede prestar: el ejemplar EJ-0301 ya está prestado y vence el 15/07. Elegí otro ejemplar disponible."
+    }
+   },
+   {
+    "id": "M-06",
+    "ejecutado": true,
+    "esperado_codigo": "MV-02",
+    "correcto": true,
+    "obtenido": {
+     "codigo": "MV-02",
+     "texto": "El código MB-30 no tiene el formato esperado (EJ- y cuatro cifras). Revisá la etiqueta o el registro."
+    }
+   }
+  ],
+  "correctos": 6,
+  "total": 6,
+  "ok": true
+ },
+ "matriz": {
+  "v1_lote4": {
+   "casos": [
+    {
+     "id": "C-01",
+     "ejecutado": true,
+     "esperado_codigo": "ME-04",
+     "correcto": true,
+     "obtenido": {
+      "codigo": "ME-04",
+      "texto": "Préstamo registrado. Vence el 19/05.",
+      "sql": 2
+     }
+    },
+    {
+     "id": "C-02",
+     "ejecutado": true,
+     "esperado_codigo": "ME-04",
+     "correcto": true,
+     "obtenido": {
+      "codigo": "ME-04",
+      "texto": "Préstamo registrado. Vence el 19/05."
+     }
+    },
+    {
+     "id": "C-03",
+     "ejecutado": true,
+     "esperado_codigo": "ME-02",
+     "correcto": true,
+     "obtenido": {
+      "codigo": "ME-02",
+      "texto": "No se puede prestar: el lector ya tiene 2 préstamos activos, el máximo para estudiantes. Tiene que devolver uno antes."
+     }
+    },
+    {
+     "id": "C-04",
+     "ejecutado": true,
+     "esperado_codigo": "ME-04",
+     "correcto": true,
+     "obtenido": {
+      "codigo": "ME-04",
+      "texto": "Préstamo registrado. Vence el 19/05."
+     }
+    },
+    {
+     "id": "C-05",
+     "ejecutado": true,
+     "esperado_codigo": "ME-02",
+     "correcto": true,
+     "obtenido": {
+      "codigo": "ME-02",
+      "texto": "No se puede prestar: el lector ya tiene 5 préstamos activos, el máximo para docentes. Tiene que devolver uno antes."
+     }
+    },
+    {
+     "id": "C-06",
+     "ejecutado": true,
+     "esperado_codigo": "ME-03",
+     "correcto": true,
+     "obtenido": {
+      "codigo": "ME-03",
+      "texto": "No se puede prestar: el ejemplar EJ-1001 ya está prestado y vence el 11/05. Elegí otro ejemplar disponible.",
+      "sql": 1
+     }
+    },
+    {
+     "id": "C-07",
+     "ejecutado": true,
+     "esperado_codigo": "ME-01",
+     "correcto": true,
+     "obtenido": {
+      "codigo": "ME-01",
+      "texto": "No se puede prestar: este lector está inactivo. Si debería poder retirar libros, consultá con la dirección."
+     }
+    },
+    {
+     "id": "C-08",
+     "ejecutado": true,
+     "esperado_codigo": "MV-06",
+     "correcto": true,
+     "obtenido": {
+      "codigo": "MV-06",
+      "texto": "No se puede prestar: el ejemplar EJ-1006 está dado de baja. Elegí otro ejemplar disponible.",
+      "sql": 1
+     }
+    },
+    {
+     "id": "C-09",
+     "ejecutado": true,
+     "esperado_codigo": "ME-07",
+     "correcto": true,
+     "obtenido": {
+      "codigo": "ME-07",
+      "texto": "Devolución registrada. El préstamo queda en el historial y el ejemplar está disponible."
+     }
+    },
+    {
+     "id": "C-10",
+     "ejecutado": true,
+     "esperado_codigo": "ME-06",
+     "correcto": true,
+     "obtenido": {
+      "codigo": "ME-06",
+      "texto": "Este ejemplar no tiene un préstamo activo. No se cerró ningún préstamo: apartalo para revisarlo con el historial."
+     }
+    },
+    {
+     "id": "C-11",
+     "ejecutado": true,
+     "esperado_codigo": "MV-10",
+     "correcto": true,
+     "obtenido": {
+      "codigo": "MV-10",
+      "texto": "La devolución no puede tener una fecha anterior a la salida (2026-05-05). Revisá la fecha."
+     }
+    },
+    {
+     "id": "C-12",
+     "ejecutado": true,
+     "esperado_codigo": null,
+     "correcto": true,
+     "obtenido": {
+      "codigo": null,
+      "texto": "",
+      "filas": [
+       {
+        "ejemplar": "EJ-1001",
+        "titulo": "El río de los pájaros",
+        "lector": "LE-1001",
+        "nombre": "Lector de prueba 1 (ficticio)",
+        "fecha_salida": "2026-05-04",
+        "fecha_vencimiento": "2026-05-11",
+        "vencido": 1
+       },
+       {
+        "ejemplar": "EJ-1002",
+        "titulo": "El río de los pájaros",
+        "lector": "LE-1002",
+        "nombre": "Lector de prueba 2 (ficticio)",
+        "fecha_salida": "2026-05-05",
+        "fecha_vencimiento": "2026-05-12",
+        "vencido": 0
+       }
+      ]
+     }
+    },
+    {
+     "id": "C-13",
+     "ejecutado": true,
+     "esperado_codigo": null,
+     "correcto": true,
+     "obtenido": {
+      "codigo": null,
+      "texto": "",
+      "filas_cuenta": 1,
+      "filas": [
+       {
+        "codigo": "OB-1003",
+        "titulo": "Diccionario 100% escolar",
+        "autor": "Equipo de prueba (ficticio)",
+        "ejemplares": 1,
+        "disponibles": 0
+       }
+      ]
+     }
+    },
+    {
+     "id": "C-14",
+     "ejecutado": true,
+     "esperado_codigo": null,
+     "correcto": true,
+     "obtenido": {
+      "codigo": null,
+      "texto": "",
+      "filas_cuenta": 1,
+      "filas": [
+       {
+        "codigo": "OB-1004",
+        "titulo": "Juegos_de_patio",
+        "autor": "Autora de prueba (ficticia)",
+        "ejemplares": 1,
+        "disponibles": 1
+       }
+      ]
+     }
+    },
+    {
+     "id": "C-15",
+     "ejecutado": true,
+     "esperado_codigo": null,
+     "correcto": true,
+     "obtenido": {
+      "codigo": null,
+      "texto": "",
+      "campos": [
+       "codigo",
+       "titulo",
+       "autor",
+       "ejemplares",
+       "disponibles"
+      ]
+     }
+    },
+    {
+     "id": "C-16",
+     "ejecutado": true,
+     "esperado_codigo": null,
+     "correcto": true,
+     "obtenido": {
+      "codigo": null,
+      "texto": "",
+      "filas": [
+       {
+        "grupo": "1.º BTI",
+        "prestamos": 1
+       }
+      ],
+      "total": 1
+     }
+    },
+    {
+     "id": "C-17",
+     "ejecutado": true,
+     "esperado_codigo": "ME-13",
+     "correcto": true,
+     "obtenido": {
+      "codigo": "ME-13",
+      "texto": "No tenés permiso para hacer esta operación con tu cuenta. Si la necesitás, consultá con la dirección."
+     }
+    },
+    {
+     "id": "C-18",
+     "ejecutado": true,
+     "esperado_codigo": "ME-13",
+     "correcto": true,
+     "obtenido": {
+      "codigo": "ME-13",
+      "texto": "No tenés permiso para hacer esta operación con tu cuenta. Si la necesitás, consultá con la dirección."
+     }
+    },
+    {
+     "id": "C-19",
+     "ejecutado": true,
+     "esperado_codigo": null,
+     "correcto": true,
+     "obtenido": {
+      "codigo": null,
+      "texto": "",
+      "filas_cuenta": 0,
+      "total": 0
+     }
+    },
+    {
+     "id": "C-20",
+     "ejecutado": true,
+     "correcto": false,
+     "esperado_codigo": null,
+     "obtenido": {
+      "resultado": "Resultado: 5 de 7 correctas"
+     }
+    }
+   ],
+   "correctos": 19,
+   "total": 20,
+   "huella_dp": "b9b9e76c77dfa2e605f1a8edf7168c997be7917fc40a0b16ebd4512c64f60769"
+  },
+  "v2": {
+   "casos": [
+    {
+     "id": "C-01",
+     "ejecutado": true,
+     "esperado_codigo": "ME-04",
+     "correcto": true,
+     "obtenido": {
+      "codigo": "ME-04",
+      "texto": "Préstamo registrado. Vence el 19/05.",
+      "sql": 2
+     }
+    },
+    {
+     "id": "C-02",
+     "ejecutado": true,
+     "esperado_codigo": "ME-04",
+     "correcto": true,
+     "obtenido": {
+      "codigo": "ME-04",
+      "texto": "Préstamo registrado. Vence el 19/05."
+     }
+    },
+    {
+     "id": "C-03",
+     "ejecutado": true,
+     "esperado_codigo": "ME-02",
+     "correcto": true,
+     "obtenido": {
+      "codigo": "ME-02",
+      "texto": "No se puede prestar: el lector ya tiene 2 préstamos activos, el máximo para estudiantes. Tiene que devolver uno antes."
+     }
+    },
+    {
+     "id": "C-04",
+     "ejecutado": true,
+     "esperado_codigo": "ME-04",
+     "correcto": true,
+     "obtenido": {
+      "codigo": "ME-04",
+      "texto": "Préstamo registrado. Vence el 19/05."
+     }
+    },
+    {
+     "id": "C-05",
+     "ejecutado": true,
+     "esperado_codigo": "ME-02",
+     "correcto": true,
+     "obtenido": {
+      "codigo": "ME-02",
+      "texto": "No se puede prestar: el lector ya tiene 5 préstamos activos, el máximo para docentes. Tiene que devolver uno antes."
+     }
+    },
+    {
+     "id": "C-06",
+     "ejecutado": true,
+     "esperado_codigo": "ME-03",
+     "correcto": true,
+     "obtenido": {
+      "codigo": "ME-03",
+      "texto": "No se puede prestar: el ejemplar EJ-1001 ya está prestado y vence el 11/05. Elegí otro ejemplar disponible.",
+      "sql": 1
+     }
+    },
+    {
+     "id": "C-07",
+     "ejecutado": true,
+     "esperado_codigo": "ME-01",
+     "correcto": true,
+     "obtenido": {
+      "codigo": "ME-01",
+      "texto": "No se puede prestar: este lector está inactivo. Si debería poder retirar libros, consultá con la dirección."
+     }
+    },
+    {
+     "id": "C-08",
+     "ejecutado": true,
+     "esperado_codigo": "MV-06",
+     "correcto": true,
+     "obtenido": {
+      "codigo": "MV-06",
+      "texto": "No se puede prestar: el ejemplar EJ-1006 está dado de baja. Elegí otro ejemplar disponible.",
+      "sql": 1
+     }
+    },
+    {
+     "id": "C-09",
+     "ejecutado": true,
+     "esperado_codigo": "ME-07",
+     "correcto": true,
+     "obtenido": {
+      "codigo": "ME-07",
+      "texto": "Devolución registrada. El préstamo queda en el historial y el ejemplar está disponible."
+     }
+    },
+    {
+     "id": "C-10",
+     "ejecutado": true,
+     "esperado_codigo": "ME-06",
+     "correcto": true,
+     "obtenido": {
+      "codigo": "ME-06",
+      "texto": "Este ejemplar no tiene un préstamo activo. No se cerró ningún préstamo: apartalo para revisarlo con el historial."
+     }
+    },
+    {
+     "id": "C-11",
+     "ejecutado": true,
+     "esperado_codigo": "MV-10",
+     "correcto": true,
+     "obtenido": {
+      "codigo": "MV-10",
+      "texto": "La devolución no puede tener una fecha anterior a la salida (2026-05-05). Revisá la fecha."
+     }
+    },
+    {
+     "id": "C-12",
+     "ejecutado": true,
+     "esperado_codigo": null,
+     "correcto": true,
+     "obtenido": {
+      "codigo": null,
+      "texto": "",
+      "filas": [
+       {
+        "ejemplar": "EJ-1001",
+        "titulo": "El río de los pájaros",
+        "lector": "LE-1001",
+        "nombre": "Lector de prueba 1 (ficticio)",
+        "fecha_salida": "2026-05-04",
+        "fecha_vencimiento": "2026-05-11",
+        "vencido": 1
+       },
+       {
+        "ejemplar": "EJ-1002",
+        "titulo": "El río de los pájaros",
+        "lector": "LE-1002",
+        "nombre": "Lector de prueba 2 (ficticio)",
+        "fecha_salida": "2026-05-05",
+        "fecha_vencimiento": "2026-05-12",
+        "vencido": 0
+       }
+      ]
+     }
+    },
+    {
+     "id": "C-13",
+     "ejecutado": true,
+     "esperado_codigo": null,
+     "correcto": true,
+     "obtenido": {
+      "codigo": null,
+      "texto": "",
+      "filas_cuenta": 1,
+      "filas": [
+       {
+        "codigo": "OB-1003",
+        "titulo": "Diccionario 100% escolar",
+        "autor": "Equipo de prueba (ficticio)",
+        "ejemplares": 1,
+        "disponibles": 0
+       }
+      ]
+     }
+    },
+    {
+     "id": "C-14",
+     "ejecutado": true,
+     "esperado_codigo": null,
+     "correcto": true,
+     "obtenido": {
+      "codigo": null,
+      "texto": "",
+      "filas_cuenta": 1,
+      "filas": [
+       {
+        "codigo": "OB-1004",
+        "titulo": "Juegos_de_patio",
+        "autor": "Autora de prueba (ficticia)",
+        "ejemplares": 1,
+        "disponibles": 1
+       }
+      ]
+     }
+    },
+    {
+     "id": "C-15",
+     "ejecutado": true,
+     "esperado_codigo": null,
+     "correcto": true,
+     "obtenido": {
+      "codigo": null,
+      "texto": "",
+      "campos": [
+       "codigo",
+       "titulo",
+       "autor",
+       "ejemplares",
+       "disponibles"
+      ]
+     }
+    },
+    {
+     "id": "C-16",
+     "ejecutado": true,
+     "esperado_codigo": null,
+     "correcto": true,
+     "obtenido": {
+      "codigo": null,
+      "texto": "",
+      "filas": [
+       {
+        "grupo": "1.º BTI",
+        "prestamos": 1
+       }
+      ],
+      "total": 1
+     }
+    },
+    {
+     "id": "C-17",
+     "ejecutado": true,
+     "esperado_codigo": "ME-13",
+     "correcto": true,
+     "obtenido": {
+      "codigo": "ME-13",
+      "texto": "No tenés permiso para hacer esta operación con tu cuenta. Si la necesitás, consultá con la dirección."
+     }
+    },
+    {
+     "id": "C-18",
+     "ejecutado": true,
+     "esperado_codigo": "ME-13",
+     "correcto": true,
+     "obtenido": {
+      "codigo": "ME-13",
+      "texto": "No tenés permiso para hacer esta operación con tu cuenta. Si la necesitás, consultá con la dirección."
+     }
+    },
+    {
+     "id": "C-19",
+     "ejecutado": true,
+     "esperado_codigo": null,
+     "correcto": true,
+     "obtenido": {
+      "codigo": null,
+      "texto": "",
+      "filas_cuenta": 0,
+      "total": 0
+     }
+    },
+    {
+     "id": "C-20",
+     "ejecutado": true,
+     "correcto": true,
+     "esperado_codigo": null,
+     "obtenido": {
+      "resultado": "Resultado: 7 de 7 correctas"
+     }
+    }
+   ],
+   "correctos": 20,
+   "total": 20,
+   "huella_dp": "b9b9e76c77dfa2e605f1a8edf7168c997be7917fc40a0b16ebd4512c64f60769"
+  },
+  "v2_sc02": {
+   "casos": [
+    {
+     "id": "C-01",
+     "ejecutado": true,
+     "esperado_codigo": "ME-04",
+     "correcto": true,
+     "obtenido": {
+      "codigo": "ME-04",
+      "texto": "Préstamo registrado. Vence el 19/05.",
+      "sql": 2
+     }
+    },
+    {
+     "id": "C-02",
+     "ejecutado": true,
+     "esperado_codigo": "ME-04",
+     "correcto": true,
+     "obtenido": {
+      "codigo": "ME-04",
+      "texto": "Préstamo registrado. Vence el 19/05."
+     }
+    },
+    {
+     "id": "C-03",
+     "ejecutado": true,
+     "esperado_codigo": "ME-02",
+     "correcto": true,
+     "obtenido": {
+      "codigo": "ME-02",
+      "texto": "No se puede prestar: el lector ya tiene 2 préstamos activos, el máximo para estudiantes. Tiene que devolver uno antes."
+     }
+    },
+    {
+     "id": "C-04",
+     "ejecutado": true,
+     "esperado_codigo": "ME-04",
+     "correcto": true,
+     "obtenido": {
+      "codigo": "ME-04",
+      "texto": "Préstamo registrado. Vence el 19/05."
+     }
+    },
+    {
+     "id": "C-05",
+     "ejecutado": true,
+     "esperado_codigo": "ME-02",
+     "correcto": true,
+     "obtenido": {
+      "codigo": "ME-02",
+      "texto": "No se puede prestar: el lector ya tiene 5 préstamos activos, el máximo para docentes. Tiene que devolver uno antes."
+     }
+    },
+    {
+     "id": "C-06",
+     "ejecutado": true,
+     "esperado_codigo": "ME-03",
+     "correcto": true,
+     "obtenido": {
+      "codigo": "ME-03",
+      "texto": "No se puede prestar: el ejemplar EJ-1001 ya está prestado y vence el 11/05. Elegí otro ejemplar disponible.",
+      "sql": 1
+     }
+    },
+    {
+     "id": "C-07",
+     "ejecutado": true,
+     "esperado_codigo": "ME-01",
+     "correcto": true,
+     "obtenido": {
+      "codigo": "ME-01",
+      "texto": "No se puede prestar: este lector está inactivo. Si debería poder retirar libros, consultá con la dirección."
+     }
+    },
+    {
+     "id": "C-08",
+     "ejecutado": true,
+     "esperado_codigo": "MV-06",
+     "correcto": true,
+     "obtenido": {
+      "codigo": "MV-06",
+      "texto": "No se puede prestar: el ejemplar EJ-1006 está dado de baja. Elegí otro ejemplar disponible.",
+      "sql": 1
+     }
+    },
+    {
+     "id": "C-09",
+     "ejecutado": true,
+     "esperado_codigo": "ME-07",
+     "correcto": true,
+     "obtenido": {
+      "codigo": "ME-07",
+      "texto": "Devolución registrada. El préstamo queda en el historial y el ejemplar está disponible."
+     }
+    },
+    {
+     "id": "C-10",
+     "ejecutado": true,
+     "esperado_codigo": "ME-06",
+     "correcto": true,
+     "obtenido": {
+      "codigo": "ME-06",
+      "texto": "Este ejemplar no tiene un préstamo activo. No se cerró ningún préstamo: apartalo para revisarlo con el historial."
+     }
+    },
+    {
+     "id": "C-11",
+     "ejecutado": true,
+     "esperado_codigo": "MV-10",
+     "correcto": true,
+     "obtenido": {
+      "codigo": "MV-10",
+      "texto": "La devolución no puede tener una fecha anterior a la salida (2026-05-05). Revisá la fecha."
+     }
+    },
+    {
+     "id": "C-12",
+     "ejecutado": true,
+     "esperado_codigo": null,
+     "correcto": true,
+     "obtenido": {
+      "codigo": null,
+      "texto": "",
+      "filas": [
+       {
+        "ejemplar": "EJ-1001",
+        "titulo": "El río de los pájaros",
+        "lector": "LE-1001",
+        "nombre": "Lector de prueba 1 (ficticio)",
+        "fecha_salida": "2026-05-04",
+        "fecha_vencimiento": "2026-05-11",
+        "vencido": 1
+       },
+       {
+        "ejemplar": "EJ-1002",
+        "titulo": "El río de los pájaros",
+        "lector": "LE-1002",
+        "nombre": "Lector de prueba 2 (ficticio)",
+        "fecha_salida": "2026-05-05",
+        "fecha_vencimiento": "2026-05-12",
+        "vencido": 0
+       }
+      ]
+     }
+    },
+    {
+     "id": "C-13",
+     "ejecutado": true,
+     "esperado_codigo": null,
+     "correcto": true,
+     "obtenido": {
+      "codigo": null,
+      "texto": "",
+      "filas_cuenta": 1,
+      "filas": [
+       {
+        "codigo": "OB-1003",
+        "titulo": "Diccionario 100% escolar",
+        "autor": "Equipo de prueba (ficticio)",
+        "ejemplares": 1,
+        "disponibles": 0
+       }
+      ]
+     }
+    },
+    {
+     "id": "C-14",
+     "ejecutado": true,
+     "esperado_codigo": null,
+     "correcto": true,
+     "obtenido": {
+      "codigo": null,
+      "texto": "",
+      "filas_cuenta": 1,
+      "filas": [
+       {
+        "codigo": "OB-1004",
+        "titulo": "Juegos_de_patio",
+        "autor": "Autora de prueba (ficticia)",
+        "ejemplares": 1,
+        "disponibles": 1
+       }
+      ]
+     }
+    },
+    {
+     "id": "C-15",
+     "ejecutado": true,
+     "esperado_codigo": null,
+     "correcto": true,
+     "obtenido": {
+      "codigo": null,
+      "texto": "",
+      "campos": [
+       "codigo",
+       "titulo",
+       "autor",
+       "ejemplares",
+       "disponibles"
+      ]
+     }
+    },
+    {
+     "id": "C-16",
+     "ejecutado": true,
+     "esperado_codigo": null,
+     "correcto": true,
+     "obtenido": {
+      "codigo": null,
+      "texto": "",
+      "filas": [
+       {
+        "grupo": "1.º BTI",
+        "prestamos": 1
+       }
+      ],
+      "total": 1
+     }
+    },
+    {
+     "id": "C-17",
+     "ejecutado": true,
+     "esperado_codigo": "ME-13",
+     "correcto": true,
+     "obtenido": {
+      "codigo": "ME-13",
+      "texto": "No tenés permiso para hacer esta operación con tu cuenta. Si la necesitás, consultá con la dirección."
+     }
+    },
+    {
+     "id": "C-18",
+     "ejecutado": true,
+     "esperado_codigo": "ME-13",
+     "correcto": true,
+     "obtenido": {
+      "codigo": "ME-13",
+      "texto": "No tenés permiso para hacer esta operación con tu cuenta. Si la necesitás, consultá con la dirección."
+     }
+    },
+    {
+     "id": "C-19",
+     "ejecutado": true,
+     "esperado_codigo": "ME-14",
+     "correcto": true,
+     "obtenido": {
+      "codigo": "ME-14",
+      "texto": "No hay préstamos registrados en 2026-01. El informe está vacío: no es un error.",
+      "filas_cuenta": 0,
+      "total": 0
+     }
+    },
+    {
+     "id": "C-20",
+     "ejecutado": true,
+     "correcto": true,
+     "esperado_codigo": null,
+     "obtenido": {
+      "resultado": "Resultado: 7 de 7 correctas"
+     }
+    }
+   ],
+   "correctos": 20,
+   "total": 20,
+   "huella_dp": "b9b9e76c77dfa2e605f1a8edf7168c997be7917fc40a0b16ebd4512c64f60769"
+  }
+ },
+ "in02": {
+  "lote4": "Resultado: 5 de 7 correctas",
+  "lote4_falla": true,
+  "v2": "Resultado: 7 de 7 correctas",
+  "v2_correcta": true
+ },
+ "regresion": {
+  "v2": {
+   "prueba_contratos.php": {
+    "codigo_salida": 0,
+    "resultado": "Resultado: 90 de 90 correctas"
+   },
+   "prueba_mis_operaciones.php": {
+    "codigo_salida": 0,
+    "resultado": "Resultado: 17 de 17 correctas"
+   },
+   "prueba_carrera.php": {
+    "codigo_salida": 0,
+    "resultado": "Resultado: 15 de 15 correctas"
+   },
+   "prueba_garantias.php": {
+    "codigo_salida": 0,
+    "resultado": "Resultado: 20 de 20 clasificaciones confirmadas"
+   },
+   "prueba_respaldo.php": {
+    "codigo_salida": 0,
+    "resultado": "Resultado: 20 de 20 correctas"
+   },
+   "prueba_mantenimiento.php": {
+    "codigo_salida": 0,
+    "resultado": "Resultado: 30 de 30 correctas"
+   },
+   "prueba_marca_huerfana.php": {
+    "codigo_salida": 0,
+    "resultado": "Resultado: 19 de 19 correctos"
+   },
+   "prueba_http.sh": {
+    "codigo_salida": 0,
+    "resultado": "Resultado: 32 de 32 correctas"
+   },
+   "prueba_in02.sh": {
+    "codigo_salida": 0,
+    "resultado": "Resultado: 7 de 7 correctas"
+   }
+  },
+  "v2_sc02": {
+   "prueba_contratos.php": {
+    "codigo_salida": 0,
+    "resultado": "Resultado: 93 de 93 correctas"
+   },
+   "prueba_mis_operaciones.php": {
+    "codigo_salida": 0,
+    "resultado": "Resultado: 17 de 17 correctas"
+   },
+   "prueba_carrera.php": {
+    "codigo_salida": 0,
+    "resultado": "Resultado: 15 de 15 correctas"
+   },
+   "prueba_garantias.php": {
+    "codigo_salida": 0,
+    "resultado": "Resultado: 20 de 20 clasificaciones confirmadas"
+   },
+   "prueba_respaldo.php": {
+    "codigo_salida": 0,
+    "resultado": "Resultado: 20 de 20 correctas"
+   },
+   "prueba_mantenimiento.php": {
+    "codigo_salida": 0,
+    "resultado": "Resultado: 30 de 30 correctas"
+   },
+   "prueba_marca_huerfana.php": {
+    "codigo_salida": 0,
+    "resultado": "Resultado: 19 de 19 correctos"
+   },
+   "prueba_http.sh": {
+    "codigo_salida": 0,
+    "resultado": "Resultado: 32 de 32 correctas"
+   },
+   "prueba_in02.sh": {
+    "codigo_salida": 0,
+    "resultado": "Resultado: 7 de 7 correctas"
+   }
+  }
+ },
+ "integracion": {
+  "v1_lote4": {
+   "permisos": "Resultado: 32 de 32 correctas",
+   "permisos_ok": true,
+   "permisos_detalle": [
+    "CORRECTO OP-01 con sin sesión: ME-13 y ningún dato cambia",
+    "CORRECTO OP-01 con dirección: ME-13 y ningún dato cambia",
+    "CORRECTO OP-01 con bibliotecaria: permitida (no ME-13)",
+    "CORRECTO OP-02 con sin sesión: ME-13 y ningún dato cambia",
+    "CORRECTO OP-02 con dirección: ME-13 y ningún dato cambia",
+    "CORRECTO OP-02 con bibliotecaria: permitida (no ME-13)",
+    "CORRECTO OP-04 con sin sesión: ME-13 y ningún dato cambia",
+    "CORRECTO OP-04 con dirección: ME-13 y ningún dato cambia",
+    "CORRECTO OP-04 con bibliotecaria: permitida (no ME-13)",
+    "CORRECTO OP-05 con sin sesión: ME-13 y ningún dato cambia",
+    "CORRECTO OP-05 con dirección: permitida (no ME-13)",
+    "CORRECTO OP-05 con bibliotecaria: permitida (no ME-13)",
+    "CORRECTO OP-06 con sin sesión: ME-13 y ningún dato cambia",
+    "CORRECTO OP-06 con dirección: ME-13 y ningún dato cambia",
+    "CORRECTO OP-06 con bibliotecaria: permitida (no ME-13)",
+    "CORRECTO OA-01 con sin sesión: ME-13 y ningún dato cambia",
+    "CORRECTO OA-01 con dirección: ME-13 y ningún dato cambia",
+    "CORRECTO OA-01 con bibliotecaria: permitida (no ME-13)",
+    "CORRECTO OA-02 con sin sesión: ME-13 y ningún dato cambia",
+    "CORRECTO OA-02 con dirección: ME-13 y ningún dato cambia",
+    "CORRECTO OA-02 con bibliotecaria: permitida (no ME-13)",
+    "CORRECTO OA-03 con sin sesión: ME-13 y ningún dato cambia",
+    "CORRECTO OA-03 con dirección: ME-13 y ningún dato cambia",
+    "CORRECTO OA-03 con bibliotecaria: permitida (no ME-13)",
+    "CORRECTO OA-04 con sin sesión: ME-13 y ningún dato cambia",
+    "CORRECTO OA-04 con dirección: ME-13 y ningún dato cambia",
+    "CORRECTO OA-04 con bibliotecaria: permitida (no ME-13)",
+    "CORRECTO OA-05 con sin sesión: ME-13 y ningún dato cambia",
+    "CORRECTO OA-05 con dirección: ME-13 y ningún dato cambia",
+    "CORRECTO OA-05 con bibliotecaria: permitida (no ME-13)",
+    "CORRECTO OP-03 sin sesión: permitida (pública), sin datos de lectores",
+    "CORRECTO Ninguna operación usó ME-12 (solo el ingreso)"
+   ],
+   "persistencia": true,
+   "restauracion": true,
+   "copia_previa_a_restaurar": true
+  },
+  "v2": {
+   "permisos": "Resultado: 32 de 32 correctas",
+   "permisos_ok": true,
+   "permisos_detalle": [
+    "CORRECTO OP-01 con sin sesión: ME-13 y ningún dato cambia",
+    "CORRECTO OP-01 con dirección: ME-13 y ningún dato cambia",
+    "CORRECTO OP-01 con bibliotecaria: permitida (no ME-13)",
+    "CORRECTO OP-02 con sin sesión: ME-13 y ningún dato cambia",
+    "CORRECTO OP-02 con dirección: ME-13 y ningún dato cambia",
+    "CORRECTO OP-02 con bibliotecaria: permitida (no ME-13)",
+    "CORRECTO OP-04 con sin sesión: ME-13 y ningún dato cambia",
+    "CORRECTO OP-04 con dirección: ME-13 y ningún dato cambia",
+    "CORRECTO OP-04 con bibliotecaria: permitida (no ME-13)",
+    "CORRECTO OP-05 con sin sesión: ME-13 y ningún dato cambia",
+    "CORRECTO OP-05 con dirección: permitida (no ME-13)",
+    "CORRECTO OP-05 con bibliotecaria: permitida (no ME-13)",
+    "CORRECTO OP-06 con sin sesión: ME-13 y ningún dato cambia",
+    "CORRECTO OP-06 con dirección: ME-13 y ningún dato cambia",
+    "CORRECTO OP-06 con bibliotecaria: permitida (no ME-13)",
+    "CORRECTO OA-01 con sin sesión: ME-13 y ningún dato cambia",
+    "CORRECTO OA-01 con dirección: ME-13 y ningún dato cambia",
+    "CORRECTO OA-01 con bibliotecaria: permitida (no ME-13)",
+    "CORRECTO OA-02 con sin sesión: ME-13 y ningún dato cambia",
+    "CORRECTO OA-02 con dirección: ME-13 y ningún dato cambia",
+    "CORRECTO OA-02 con bibliotecaria: permitida (no ME-13)",
+    "CORRECTO OA-03 con sin sesión: ME-13 y ningún dato cambia",
+    "CORRECTO OA-03 con dirección: ME-13 y ningún dato cambia",
+    "CORRECTO OA-03 con bibliotecaria: permitida (no ME-13)",
+    "CORRECTO OA-04 con sin sesión: ME-13 y ningún dato cambia",
+    "CORRECTO OA-04 con dirección: ME-13 y ningún dato cambia",
+    "CORRECTO OA-04 con bibliotecaria: permitida (no ME-13)",
+    "CORRECTO OA-05 con sin sesión: ME-13 y ningún dato cambia",
+    "CORRECTO OA-05 con dirección: ME-13 y ningún dato cambia",
+    "CORRECTO OA-05 con bibliotecaria: permitida (no ME-13)",
+    "CORRECTO OP-03 sin sesión: permitida (pública), sin datos de lectores",
+    "CORRECTO Ninguna operación usó ME-12 (solo el ingreso)"
+   ],
+   "persistencia": true,
+   "restauracion": true,
+   "copia_previa_a_restaurar": true
+  }
+ },
+ "fallos": 0
+}

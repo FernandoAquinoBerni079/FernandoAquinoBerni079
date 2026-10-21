@@ -1,0 +1,230 @@
+{
+ "perfil": {
+  "nombre": "O3",
+  "papel": [
+   21.59,
+   33.02
+  ],
+  "interior": 2.5,
+  "exterior": 1.8,
+  "superior": 1.5,
+  "inferior": 1.5,
+  "espejo": true
+ },
+ "ancho_util": 17.29,
+ "tablas_en_hoja_nueva": [],
+ "columnas_ensanchadas": [],
+ "paginas_libro": {
+  "Unidad V — Verificar, validar y mejorar": 3,
+  "Capítulo 14 — Probar con criterios y datos independientes": 4,
+  "Encuentro 27 — Cobertura y datos independientes": 4,
+  "14.1 Verificación, validación y aceptación": 4,
+  "14.2 Casos normales, límites, excepciones y rechazos": 5,
+  "Encuentro 28 — Ejecutar, registrar y reportar": 7,
+  "14.3 Resultado esperado, resultado obtenido y evidencia": 7,
+  "14.4 Cobertura de requisitos y reporte de defectos": 8,
+  "Práctica 14 — Una batería nueva de pruebas para Mbokaja": 12,
+  "Evaluación del Capítulo 14": 14,
+  "Capítulo 15 — Probar el sistema completo con usuarios": 15,
+  "Encuentro 29 — Integración, permisos, persistencia y restauración": 15,
+  "15.1 Pruebas de integración y persistencia": 15,
+  "15.2 Permisos, recuperación de datos y manejo de errores": 16,
+  "Encuentro 30 — Sesiones de uso y aceptación": 17,
+  "15.3 Sesiones de uso y observación de dificultades": 17,
+  "15.4 Aceptación por criterios acordados y prioridad de correcciones": 18,
+  "Práctica 15 — Revisión cruzada entre equipos con datos reservados": 20,
+  "Evaluación del Capítulo 15": 21,
+  "Capítulo 16 — Corregir y volver a comprobar": 22,
+  "Encuentro 31 — Diagnosticar, corregir y volver a probar": 22,
+  "16.1 Diagnóstico de incidencias e impacto de cambios": 22,
+  "16.2 Corrección, revisión entre pares y regresión": 23,
+  "16.3 Actualización de modelos, pruebas y documentación": 25,
+  "Encuentro 32 — Recuperación técnica y revisión de la Unidad V": 27,
+  "16.4 Recuperación técnica y versión candidata": 27,
+  "Revisión de la Unidad V — Hito H5: evidencia de calidad y límites conocidos": 27,
+  "Evaluación del Capítulo 16": 30
+ },
+ "paginas": {
+  "libro": 30,
+  "guia": 18,
+  "cuaderno": 4
+ },
+ "claves": [
+  [
+   "ADS3-L5-C14-c",
+   1,
+   "d",
+   "Con 19 inscriptos se acepta uno más; con 20, se rechaza."
+  ],
+  [
+   "ADS3-L5-C14-c",
+   2,
+   "c",
+   "La validación: el requisito no cubría la necesidad."
+  ],
+  [
+   "ADS3-L5-C14-c",
+   3,
+   "c",
+   "Pendiente, con el motivo."
+  ],
+  [
+   "ADS3-L5-C14-c",
+   4,
+   "a",
+   "Los pasos exactos, el esperado, el obtenido y el entorno."
+  ],
+  [
+   "ADS3-L5-C14-c",
+   5,
+   "F",
+   "Falso. Se escribe antes; si no, se espera lo que salió."
+  ],
+  [
+   "ADS3-L5-C14-c",
+   6,
+   "F",
+   "Falso. Los datos tienen que ser independientes."
+  ],
+  [
+   "ADS3-L5-C14-c",
+   7,
+   "V",
+   "Verdadero. El sistema tiene que rechazarlo sin cambiar datos."
+  ],
+  [
+   "ADS3-L5-C14-c",
+   8,
+   "abierta",
+   "Por ejemplo: inscripción válida (normal); 19 → se acepta y 20 → se rechaza (límites, TA-1); inscripción repetida (rechazo, TA-2); inscripción de un estudiante (rechazo, TA-3); inscripción el viernes 12:01 (límite, TA-4). Un punto por los límites, uno por los rechazos, uno por las fuentes y uno por los esperados."
+  ],
+  [
+   "ADS3-L5-C14-c",
+   9,
+   "abierta",
+   "Pantalla y operación, requisito TA-1, pasos (taller con 20, inscribir uno más), esperado (rechazo con mensaje), obtenido (registrada), gravedad, entorno y condición (reproducido si se repitió). Un punto por pasos, uno por esperado y obtenido, uno por gravedad y entorno, uno por la condición."
+  ],
+  [
+   "ADS3-L5-C15",
+   1,
+   "c",
+   "Un proceso registra una reserva y otro, después, la busca."
+  ],
+  [
+   "ADS3-L5-C15",
+   2,
+   "b",
+   "Un rechazo por permiso, sin cambiar datos."
+  ],
+  [
+   "ADS3-L5-C15",
+   3,
+   "a",
+   "Un cambio, la restauración y la comprobación de que el cambio ya no está."
+  ],
+  [
+   "ADS3-L5-C15",
+   4,
+   "d",
+   "Anota dónde se detuvo y qué buscó, sin ayudar."
+  ],
+  [
+   "ADS3-L5-C15",
+   5,
+   "F",
+   "Falso. Ahora se prueba el sistema funcionando, con tareas nuevas."
+  ],
+  [
+   "ADS3-L5-C15",
+   6,
+   "V",
+   "Verdadero. No se da por aceptado."
+  ],
+  [
+   "ADS3-L5-C15",
+   7,
+   "F",
+   "Falso. Reporta; corrige el equipo dueño del prototipo."
+  ],
+  [
+   "ADS3-L5-C15",
+   8,
+   "abierta",
+   "Reservar una franja; intentar otra reserva superpuesta del mismo espacio; esperado: rechazo con mensaje; consulta: una sola reserva en esa franja. Un punto por cada parte."
+  ],
+  [
+   "ADS3-L5-C15",
+   9,
+   "abierta",
+   "Observaciones: lo que hizo y dónde se detuvo (1 punto cada una, con su requisito). Opinión: se anota aparte y no decide (1 punto). Qué se hace: corrección priorizada o solicitud de cambio (1 punto)."
+  ],
+  [
+   "ADS3-L5-C16",
+   1,
+   "a",
+   "Reproducirlo con los pasos."
+  ],
+  [
+   "ADS3-L5-C16",
+   2,
+   "d",
+   "En la presentación."
+  ],
+  [
+   "ADS3-L5-C16",
+   3,
+   "b",
+   "Como una solicitud de cambio, con su impacto y su versión."
+  ],
+  [
+   "ADS3-L5-C16",
+   4,
+   "c",
+   "La que reproduce SO-3 y las que el cambio pudo afectar, más el núcleo."
+  ],
+  [
+   "ADS3-L5-C16",
+   5,
+   "F",
+   "Falso. La hace otro integrante."
+  ],
+  [
+   "ADS3-L5-C16",
+   6,
+   "F",
+   "Falso. Es algo que el equipo sabe y declara."
+  ],
+  [
+   "ADS3-L5-C16",
+   7,
+   "V",
+   "Verdadero (Work §4.3)."
+  ],
+  [
+   "ADS3-L5-C16",
+   8,
+   "abierta",
+   "Síntoma: la pantalla muestra «en curso» (SO-3). Causa probable: la pantalla no se actualiza después de cerrar. Capa: presentación. Impacto: la pantalla de la solicitud y quizá otras que muestren estados; regresión de SO-1 y SO-2. Un punto por cada parte."
+  ],
+  [
+   "ADS3-L5-C16",
+   9,
+   "abierta",
+   "Qué y quién (SO-4); por qué; qué cambia: SO-1 (orden de estados), la pantalla y las pruebas de transición; versión nueva del catálogo. Un punto por cada parte."
+  ]
+ ],
+ "simbolos": {
+  "fig_14_1": {
+   "notacion": "esquema",
+   "simbolos": {}
+  },
+  "fig_14_2": {
+   "notacion": "esquema",
+   "simbolos": {}
+  },
+  "fig_16_1": {
+   "notacion": "esquema",
+   "simbolos": {}
+  }
+ }
+}

@@ -1,0 +1,23 @@
+Entorno: Linux 6.18.44-fc-v140 (x86_64), PHP 8.3.6, SQLite 3.45.1 (2026-10-21 10:19)
+
+CORRECTO Sin marca: no hace nada (código 0)
+CORRECTO Proceso del mantenimiento vivo: se niega (código 1), la marca sigue y la base no cambió
+CORRECTO Corte simulado durante el reinicio: quedó la marca huérfana
+CORRECTO Con la marca huérfana, conectar() sigue rechazando conexiones
+CORRECTO Diagnóstico sin --retirar: correcto (código 0), la marca sigue y no cambia la base
+CORRECTO El diagnóstico guardó la copia del estado y su informe en datos/incidentes/
+CORRECTO Con --retirar: retira la marca (código 0) y la conexión de prueba funciona
+CORRECTO Los dos préstamos anteriores al corte siguen en la base
+CORRECTO Corte a mitad del reinicio: quedan la marca y un diario (-journal) caliente
+CORRECTO SQLite deshace la transacción interrumpida al abrir; el retiro sale bien (código 0)
+CORRECTO Después del retiro: los dos préstamos originales siguen y no quedó la tabla del reinicio a medias
+CORRECTO La copia del incidente conserva el diario caliente para revisión
+CORRECTO Corte con la base en modo WAL: quedan la marca y un -wal con datos
+CORRECTO Retiro en modo WAL (código 0) y el préstamo confirmado antes del corte aparece
+CORRECTO Otra conexión con la base tomada: se niega (código 1) y la marca sigue
+CORRECTO Respaldo incompleto posterior a la marca: se aparta a la carpeta del incidente (código 0)
+CORRECTO Base dañada: no pasa las comprobaciones (código 2), la marca queda puesta y se indica restaurar
+CORRECTO Con la base dañada, el sistema sigue bloqueado por la marca
+CORRECTO Falta el disparador del historial (RN-05): no se retira la marca (código 2)
+
+Resultado: 19 de 19 correctos
