@@ -1,0 +1,551 @@
+{
+ "fallos": [],
+ "controles": {
+  "1. Filas de tablas": [
+   {
+    "resultado": "correcto",
+    "detalle": "libro: 212 tablas de 2 o más columnas, 1388 filas, todas impresas"
+   },
+   {
+    "resultado": "correcto",
+    "detalle": "guia: 263 tablas de 2 o más columnas, 1696 filas, todas impresas"
+   },
+   {
+    "resultado": "correcto",
+    "detalle": "cuaderno: 37 tablas de 2 o más columnas, 208 filas, todas impresas"
+   }
+  ],
+  "1. Tablas repartidas entre páginas": [
+   {
+    "resultado": "correcto",
+    "detalle": "libro: 9 tablas repartidas, todas con sus filas y el encabezado repetido"
+   },
+   {
+    "resultado": "correcto",
+    "detalle": "guia: 17 tablas repartidas, todas con sus filas y el encabezado repetido"
+   },
+   {
+    "resultado": "correcto",
+    "detalle": "cuaderno: 0 tablas repartidas, todas con sus filas y el encabezado repetido"
+   }
+  ],
+  "2. Párrafos impresos": [
+   {
+    "resultado": "correcto",
+    "detalle": "libro: ningún párrafo del DOCX falta en el PDF"
+   },
+   {
+    "resultado": "correcto",
+    "detalle": "guia: ningún párrafo del DOCX falta en el PDF"
+   },
+   {
+    "resultado": "correcto",
+    "detalle": "cuaderno: ningún párrafo del DOCX falta en el PDF"
+   }
+  ],
+  "2. Palabras enteras": [
+   {
+    "resultado": "correcto",
+    "detalle": "libro: ninguna palabra de celda partida"
+   },
+   {
+    "resultado": "correcto",
+    "detalle": "guia: ninguna palabra de celda partida"
+   },
+   {
+    "resultado": "correcto",
+    "detalle": "cuaderno: ninguna palabra de celda partida"
+   }
+  ],
+  "3. Figuras": [
+   {
+    "resultado": "correcto",
+    "detalle": "libro: 29 figuras, cada una impresa una vez con su imagen encima de su epígrafe en la misma página"
+   },
+   {
+    "resultado": "correcto",
+    "detalle": "guia: 0 figuras, cada una impresa una vez con su imagen encima de su epígrafe en la misma página"
+   }
+  ],
+  "4. Índice": [
+   {
+    "resultado": "correcto",
+    "detalle": "libro: 180 entradas en 4 páginas de índice; cada una en la página que indica y en orden creciente"
+   },
+   {
+    "resultado": "correcto",
+    "detalle": "guia: 58 entradas en 2 páginas de índice; cada una en la página que indica y en orden creciente"
+   },
+   {
+    "resultado": "correcto",
+    "detalle": "cuaderno: 22 entradas en 1 páginas de índice; cada una en la página que indica y en orden creciente"
+   },
+   {
+    "resultado": "correcto",
+    "detalle": "guia: los 51 instrumentos de la tabla «Instrumentos del año», cada uno en la página que indica"
+   }
+  ],
+  "5. Paginación continua": [
+   {
+    "resultado": "correcto",
+    "detalle": "libro: las 211 páginas llevan «Página X de 211» con su número"
+   },
+   {
+    "resultado": "correcto",
+    "detalle": "guia: las 109 páginas llevan «Página X de 109» con su número"
+   },
+   {
+    "resultado": "correcto",
+    "detalle": "cuaderno: las 33 páginas llevan «Página X de 33» con su número"
+   }
+  ],
+  "6. Márgenes espejados": [
+   {
+    "resultado": "correcto",
+    "detalle": "libro: 210 páginas medidas; impares con el interior a la izquierda y pares a la derecha"
+   },
+   {
+    "resultado": "correcto",
+    "detalle": "guia: 108 páginas medidas; impares con el interior a la izquierda y pares a la derecha"
+   },
+   {
+    "resultado": "correcto",
+    "detalle": "cuaderno: 32 páginas medidas; impares con el interior a la izquierda y pares a la derecha"
+   }
+  ],
+  "7. Hojas en blanco": [
+   {
+    "resultado": "correcto",
+    "detalle": "libro: ninguna página en blanco"
+   },
+   {
+    "resultado": "correcto",
+    "detalle": "guia: ninguna página en blanco"
+   },
+   {
+    "resultado": "correcto",
+    "detalle": "cuaderno: ninguna página en blanco"
+   }
+  ],
+  "8. Cortes de tabla": [
+   {
+    "resultado": "correcto",
+    "detalle": "libro: 9 tablas repartidas, ninguna deja menos de dos filas de datos en una página"
+   },
+   {
+    "resultado": "correcto",
+    "detalle": "guia: 17 tablas repartidas, ninguna deja menos de dos filas de datos en una página"
+   },
+   {
+    "resultado": "correcto",
+    "detalle": "cuaderno: 0 tablas repartidas, ninguna deja menos de dos filas de datos en una página"
+   }
+  ],
+  "9. Bloques de código": [
+   {
+    "resultado": "correcto",
+    "detalle": "libro: 181 líneas de 20 bloques, todas impresas enteras"
+   },
+   {
+    "resultado": "correcto",
+    "detalle": "libro: 181 tramos en letra monoespaciada, todos dentro de los márgenes"
+   },
+   {
+    "resultado": "correcto",
+    "detalle": "libro: cada uno de los 20 bloques entero en la página de su rótulo y su ficha"
+   },
+   {
+    "resultado": "correcto",
+    "detalle": "guia: 152 líneas de 9 bloques, todas impresas enteras"
+   },
+   {
+    "resultado": "correcto",
+    "detalle": "guia: 152 tramos en letra monoespaciada, todos dentro de los márgenes"
+   },
+   {
+    "resultado": "correcto",
+    "detalle": "guia: cada uno de los 9 bloques entero en la página de su rótulo y su ficha"
+   }
+  ],
+  "10. Legibilidad": [
+   {
+    "resultado": "correcto",
+    "detalle": "libro: ningún texto por debajo de 7,5 pt"
+   },
+   {
+    "resultado": "correcto",
+    "detalle": "libro: ningún renglón de respuesta suelto al comienzo de una página"
+   },
+   {
+    "resultado": "correcto",
+    "detalle": "guia: ningún texto por debajo de 7,5 pt"
+   },
+   {
+    "resultado": "correcto",
+    "detalle": "guia: ningún renglón de respuesta suelto al comienzo de una página"
+   },
+   {
+    "resultado": "correcto",
+    "detalle": "cuaderno: ningún texto por debajo de 7,5 pt"
+   },
+   {
+    "resultado": "correcto",
+    "detalle": "cuaderno: ningún renglón de respuesta suelto al comienzo de una página"
+   },
+   {
+    "resultado": "correcto",
+    "detalle": "libro: las 17 evaluaciones, cada una al comienzo de su página propia"
+   }
+  ],
+  "tablas": {
+   "libro": [
+    {
+     "n": 43,
+     "rotulo": "Tabla 4.3 — Catálogo inicial de requisitos del caso",
+     "primera_celda": "Id.",
+     "filas_docx": 16,
+     "filas_impresas": 16,
+     "paginas": [
+      58,
+      59
+     ],
+     "encabezado_repetido": 1,
+     "filas_faltantes": []
+    },
+    {
+     "n": 77,
+     "rotulo": "Tabla 7.5 — Diccionario de datos del núcleo",
+     "primera_celda": "Entidad",
+     "filas_docx": 26,
+     "filas_impresas": 26,
+     "paginas": [
+      96,
+      97
+     ],
+     "encabezado_repetido": 1,
+     "filas_faltantes": []
+    },
+    {
+     "n": 88,
+     "rotulo": "Tabla 8.3 — Pantallas, zonas y requisitos",
+     "primera_celda": "Pantalla",
+     "filas_docx": 10,
+     "filas_impresas": 10,
+     "paginas": [
+      104,
+      105
+     ],
+     "encabezado_repetido": 1,
+     "filas_faltantes": []
+    },
+    {
+     "n": 91,
+     "rotulo": "Tabla 8.6 — Mensajes y estados, desde los flujos alternativos",
+     "primera_celda": "Código",
+     "filas_docx": 14,
+     "filas_impresas": 14,
+     "paginas": [
+      108,
+      109
+     ],
+     "encabezado_repetido": 1,
+     "filas_faltantes": []
+    },
+    {
+     "n": 99,
+     "rotulo": "Tabla 9.3 — Operaciones del núcleo",
+     "primera_celda": "Operación",
+     "filas_docx": 7,
+     "filas_impresas": 7,
+     "paginas": [
+      115,
+      116
+     ],
+     "encabezado_repetido": 1,
+     "filas_faltantes": []
+    },
+    {
+     "n": 102,
+     "rotulo": "Tabla 9.6 — Matriz de coherencia del catálogo v1.1",
+     "primera_celda": "Requisito",
+     "filas_docx": 17,
+     "filas_impresas": 17,
+     "paginas": [
+      117,
+      118
+     ],
+     "encabezado_repetido": 1,
+     "filas_faltantes": []
+    },
+    {
+     "n": 109,
+     "rotulo": "Tabla 10.2 — Qué trae la base y qué construye tu equipo",
+     "primera_celda": "Parte",
+     "filas_docx": 8,
+     "filas_impresas": 8,
+     "paginas": [
+      126,
+      127
+     ],
+     "encabezado_repetido": 1,
+     "filas_faltantes": []
+    },
+    {
+     "n": 126,
+     "rotulo": "Tabla 11.3 — Qué responde cada operación según la cuenta (P-11)",
+     "primera_celda": "Operación",
+     "filas_docx": 12,
+     "filas_impresas": 12,
+     "paginas": [
+      139,
+      140
+     ],
+     "encabezado_repetido": 1,
+     "filas_faltantes": []
+    },
+    {
+     "n": 162,
+     "rotulo": "Tabla 14.6 — Matriz del equipo modelo, ejecutada sobre la copia con DP (prototip",
+     "primera_celda": "Caso",
+     "filas_docx": 21,
+     "filas_impresas": 21,
+     "paginas": [
+      170,
+      171
+     ],
+     "encabezado_repetido": 1,
+     "filas_faltantes": []
+    }
+   ],
+   "guia": [
+    {
+     "n": 2,
+     "rotulo": "Instrumentos del año en esta guía",
+     "primera_celda": "Instrumento",
+     "filas_docx": 52,
+     "filas_impresas": 52,
+     "paginas": [
+      4,
+      5
+     ],
+     "encabezado_repetido": 1,
+     "filas_faltantes": []
+    },
+    {
+     "n": 27,
+     "rotulo": "Claves de las actividades del Encuentro 5",
+     "primera_celda": "Act.",
+     "filas_docx": 7,
+     "filas_impresas": 7,
+     "paginas": [
+      16,
+      17
+     ],
+     "encabezado_repetido": 1,
+     "filas_faltantes": []
+    },
+    {
+     "n": 38,
+     "rotulo": "Inventario de recursos del lote",
+     "primera_celda": "Recurso",
+     "filas_docx": 9,
+     "filas_impresas": 9,
+     "paginas": [
+      20,
+      21
+     ],
+     "encabezado_repetido": 1,
+     "filas_faltantes": []
+    },
+    {
+     "n": 45,
+     "rotulo": "Correspondencia entre requisitos y criterios de aceptación",
+     "primera_celda": "Id.",
+     "filas_docx": 17,
+     "filas_impresas": 17,
+     "paginas": [
+      24,
+      25
+     ],
+     "encabezado_repetido": 1,
+     "filas_faltantes": []
+    },
+    {
+     "n": 48,
+     "rotulo": "Clave de la evaluación del capítulo 4",
+     "primera_celda": "Ítem",
+     "filas_docx": 10,
+     "filas_impresas": 10,
+     "paginas": [
+      26,
+      27
+     ],
+     "encabezado_repetido": 1,
+     "filas_faltantes": []
+    },
+    {
+     "n": 68,
+     "rotulo": "Pruebas previstas P-01 a P-15 del caso",
+     "primera_celda": "Prueba",
+     "filas_docx": 16,
+     "filas_impresas": 16,
+     "paginas": [
+      34,
+      35
+     ],
+     "encabezado_repetido": 1,
+     "filas_faltantes": []
+    },
+    {
+     "n": 113,
+     "rotulo": "Clave de la evaluación del capítulo 9",
+     "primera_celda": "Ítem",
+     "filas_docx": 10,
+     "filas_impresas": 10,
+     "paginas": [
+      50,
+      51
+     ],
+     "encabezado_repetido": 1,
+     "filas_faltantes": []
+    },
+    {
+     "n": 122,
+     "rotulo": "Ficha de entorno completa (E-1 a E-12, con E-6a y E-6b)",
+     "primera_celda": "Código",
+     "filas_docx": 14,
+     "filas_impresas": 14,
+     "paginas": [
+      55,
+      56
+     ],
+     "encabezado_repetido": 1,
+     "filas_faltantes": []
+    },
+    {
+     "n": 126,
+     "rotulo": "Archivos del proyecto y su estado en la base del estudiante",
+     "primera_celda": "Archivo",
+     "filas_docx": 37,
+     "filas_impresas": 37,
+     "paginas": [
+      57,
+      58
+     ],
+     "encabezado_repetido": 1,
+     "filas_faltantes": []
+    },
+    {
+     "n": 127,
+     "rotulo": "Tamaño de la base del estudiante (PHP propio)",
+     "primera_celda": "Archivo PHP propio",
+     "filas_docx": 19,
+     "filas_impresas": 19,
+     "paginas": [
+      58,
+      59
+     ],
+     "encabezado_repetido": 1,
+     "filas_faltantes": []
+    },
+    {
+     "n": 160,
+     "rotulo": "Clave de la evaluación del capítulo 12",
+     "primera_celda": "Ítem",
+     "filas_docx": 10,
+     "filas_impresas": 10,
+     "paginas": [
+      69,
+      70
+     ],
+     "encabezado_repetido": 1,
+     "filas_faltantes": []
+    },
+    {
+     "n": 165,
+     "rotulo": "Errores frecuentes del Capítulo 13",
+     "primera_celda": "Error frecuente",
+     "filas_docx": 7,
+     "filas_impresas": 7,
+     "paginas": [
+      71,
+      72
+     ],
+     "encabezado_repetido": 1,
+     "filas_faltantes": []
+    },
+    {
+     "n": 183,
+     "rotulo": "Archivos que cambian en las versiones v2",
+     "primera_celda": "Versión",
+     "filas_docx": 10,
+     "filas_impresas": 10,
+     "paginas": [
+      79,
+      80
+     ],
+     "encabezado_repetido": 1,
+     "filas_faltantes": []
+    },
+    {
+     "n": 208,
+     "rotulo": "Errores frecuentes del Capítulo 16",
+     "primera_celda": "Error frecuente",
+     "filas_docx": 7,
+     "filas_impresas": 7,
+     "paginas": [
+      87,
+      88
+     ],
+     "encabezado_repetido": 1,
+     "filas_faltantes": []
+    },
+    {
+     "n": 226,
+     "rotulo": "Inventario de recursos del lote",
+     "primera_celda": "Recurso",
+     "filas_docx": 11,
+     "filas_impresas": 11,
+     "paginas": [
+      94,
+      95
+     ],
+     "encabezado_repetido": 1,
+     "filas_faltantes": []
+    },
+    {
+     "n": 231,
+     "rotulo": "Planilla de tiempos: ejemplo con valores ficticios",
+     "primera_celda": "Dato o resultado",
+     "filas_docx": 23,
+     "filas_impresas": 23,
+     "paginas": [
+      98,
+      99
+     ],
+     "encabezado_repetido": 1,
+     "filas_faltantes": []
+    },
+    {
+     "n": 262,
+     "rotulo": "Resultados de las pruebas (build/reproducir.py)",
+     "primera_celda": "Qué",
+     "filas_docx": 30,
+     "filas_impresas": 30,
+     "paginas": [
+      108,
+      109
+     ],
+     "encabezado_repetido": 1,
+     "filas_faltantes": []
+    }
+   ],
+   "cuaderno": []
+  },
+  "paginas": {
+   "libro": 211,
+   "guia": 109,
+   "cuaderno": 33
+  }
+ }
+}

@@ -1,0 +1,86 @@
+[
+ {
+  "fuente": "Carlito",
+  "documento": "ADS_3BTI_LIBRO_ANUAL_ESTUDIANTE_OFICIO_O3",
+  "paginas": 211,
+  "vacias": [],
+  "renglones_sueltos": [],
+  "fuente_aplicada": true,
+  "evaluaciones_en_pagina_propia": true,
+  "resultado": "correcto"
+ },
+ {
+  "fuente": "Carlito",
+  "documento": "ADS_3BTI_GUIA_DOCENTE_ANUAL_OFICIO_O3",
+  "paginas": 109,
+  "vacias": [],
+  "renglones_sueltos": [],
+  "fuente_aplicada": true,
+  "resultado": "correcto"
+ },
+ {
+  "fuente": "Carlito",
+  "documento": "ADS_3BTI_CUADERNO_ANUAL_PRACTICAS_OFICIO_O3",
+  "paginas": 33,
+  "vacias": [],
+  "renglones_sueltos": [],
+  "fuente_aplicada": true,
+  "resultado": "correcto"
+ },
+ {
+  "fuente": "Liberation Sans",
+  "documento": "ADS_3BTI_LIBRO_ANUAL_ESTUDIANTE_OFICIO_O3",
+  "paginas": 213,
+  "vacias": [],
+  "renglones_sueltos": [],
+  "fuente_aplicada": true,
+  "evaluaciones_en_pagina_propia": true,
+  "resultado": "correcto"
+ },
+ {
+  "fuente": "Liberation Sans",
+  "documento": "ADS_3BTI_GUIA_DOCENTE_ANUAL_OFICIO_O3",
+  "paginas": 111,
+  "vacias": [],
+  "renglones_sueltos": [],
+  "fuente_aplicada": true,
+  "resultado": "correcto"
+ },
+ {
+  "fuente": "Liberation Sans",
+  "documento": "ADS_3BTI_CUADERNO_ANUAL_PRACTICAS_OFICIO_O3",
+  "paginas": 33,
+  "vacias": [],
+  "renglones_sueltos": [],
+  "fuente_aplicada": true,
+  "resultado": "correcto"
+ },
+ {
+  "fuente": "DejaVu Sans",
+  "documento": "ADS_3BTI_LIBRO_ANUAL_ESTUDIANTE_OFICIO_O3",
+  "paginas": 236,
+  "vacias": [],
+  "renglones_sueltos": [],
+  "fuente_aplicada": true,
+  "evaluaciones_en_pagina_propia": true,
+  "resultado": "correcto"
+ },
+ {
+  "fuente": "DejaVu Sans",
+  "documento": "ADS_3BTI_GUIA_DOCENTE_ANUAL_OFICIO_O3",
+  "paginas": 122,
+  "vacias": [],
+  "renglones_sueltos": [],
+  "fuente_aplicada": true,
+  "resultado": "correcto"
+ },
+ {
+  "fuente": "DejaVu Sans",
+  "documento": "ADS_3BTI_CUADERNO_ANUAL_PRACTICAS_OFICIO_O3",
+  "paginas": 35,
+  "vacias": [],
+  "renglones_sueltos": [],
+  "fuente_aplicada": true,
+  "resultado": "correcto"
+ }
+]

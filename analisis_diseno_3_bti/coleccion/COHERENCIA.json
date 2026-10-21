@@ -1,0 +1,195 @@
+{
+ "fallos": [],
+ "controles": {
+  "L": [
+   {
+    "resultado": "correcto",
+    "detalle": "git: ningún archivo de los seis lotes, de sus planes, del plan anual ni de los planes de clase cambió ni se agregó"
+   },
+   {
+    "resultado": "correcto",
+    "detalle": "git: los únicos cambios del repositorio están en coleccion/ (ninguna otra asignatura cambió)"
+   },
+   {
+    "resultado": "correcto",
+    "detalle": "Lote 1: los 60 archivos de su manifiesto, iguales"
+   },
+   {
+    "resultado": "correcto",
+    "detalle": "Lote 1 (candidata O3): los 27 archivos de su manifiesto SHA-256, iguales"
+   },
+   {
+    "resultado": "correcto",
+    "detalle": "Lote 2: los 62 archivos de su manifiesto SHA-256, iguales"
+   },
+   {
+    "resultado": "correcto",
+    "detalle": "Lote 3: los 134 archivos de su manifiesto SHA-256, iguales"
+   },
+   {
+    "resultado": "correcto",
+    "detalle": "Lote 4: los 187 archivos de su manifiesto SHA-256, iguales"
+   },
+   {
+    "resultado": "correcto",
+    "detalle": "Lote 5: los 171 archivos de su manifiesto SHA-256, iguales"
+   },
+   {
+    "resultado": "correcto",
+    "detalle": "Lote 6: los 214 archivos de su manifiesto SHA-256, iguales"
+   }
+  ],
+  "commits_de_los_lotes": {
+   "1": "cdc96a6 2026-10-15 · candidata 005096a 2026-10-20",
+   "2": "733932c 2026-10-20",
+   "3": "de515d1 2026-10-21",
+   "4": "45bc5e9 2026-10-21",
+   "5": "b2aed1b 2026-10-21",
+   "6": "59edae5 2026-10-21"
+  },
+  "X": [
+   {
+    "resultado": "correcto",
+    "detalle": "libro: 229 citas de tablas, figuras, códigos y ejemplos resueltos; todas existen en el libro con ese número"
+   },
+   {
+    "resultado": "correcto",
+    "detalle": "guia: 211 citas de tablas, figuras, códigos y ejemplos resueltos; todas existen en el libro con ese número"
+   },
+   {
+    "resultado": "correcto",
+    "detalle": "cuaderno: 9 citas de tablas, figuras, códigos y ejemplos resueltos; todas existen en el libro con ese número"
+   },
+   {
+    "resultado": "correcto",
+    "detalle": "guía: las 9 referencias de código citadas (R-n) existen como bloques en la guía"
+   },
+   {
+    "resultado": "correcto",
+    "detalle": "libro: 114 tablas, 29 figuras, 20 códigos y 66 ejemplos resueltos numerados, sin números repetidos"
+   }
+  ],
+  "E": [
+   {
+    "resultado": "correcto",
+    "detalle": "17 evaluaciones con semillas únicas en el año"
+   },
+   {
+    "resultado": "correcto",
+    "detalle": "cada evaluación vale 15 puntos"
+   },
+   {
+    "resultado": "correcto",
+    "detalle": "guía: la clave de cada ítem de las 17 evaluaciones del libro, con el mismo número y la misma letra (153 ítems)"
+   },
+   {
+    "resultado": "correcto",
+    "detalle": "el Capítulo 18 no tiene evaluación escrita y los Capítulos 16 y 18 no tienen práctica (decisiones D-3 y D-4)"
+   }
+  ],
+  "P": [
+   {
+    "resultado": "correcto",
+    "detalle": "33 rutas de archivos del prototipo y de los lotes citadas en los tres documentos; todas existen"
+   },
+   {
+    "resultado": "correcto",
+    "detalle": "herramientas de inspección estática y ejecución controlada del lote 6 v1.1, conservadas sin cambios"
+   },
+   {
+    "resultado": "correcto",
+    "detalle": "los 29 bloques de código se leen de archivos del proyecto que existen (fichas de los lotes 4 a 6)"
+   }
+  ],
+  "M": [
+   {
+    "resultado": "correcto",
+    "detalle": "57 oraciones mencionan al MEC; ninguna presenta las capacidades de la propuesta como oficiales"
+   },
+   {
+    "resultado": "correcto",
+    "detalle": "libro: dice que las capacidades no son oficiales del MEC"
+   },
+   {
+    "resultado": "correcto",
+    "detalle": "guia: dice que las capacidades no son oficiales del MEC"
+   },
+   {
+    "resultado": "correcto",
+    "detalle": "cuaderno: dice que las capacidades no son oficiales del MEC"
+   },
+   {
+    "resultado": "correcto",
+    "detalle": "3 afirmaciones sobre la validación del material; ninguna lo declara validado en aulas o equipos escolares"
+   },
+   {
+    "resultado": "correcto",
+    "detalle": "libro: Windows y las computadoras escolares, pendientes de validación"
+   },
+   {
+    "resultado": "correcto",
+    "detalle": "guia: Windows y las computadoras escolares, pendientes de validación"
+   },
+   {
+    "resultado": "correcto",
+    "detalle": "cuaderno: Windows y las computadoras escolares, pendientes de validación"
+   },
+   {
+    "resultado": "correcto",
+    "detalle": "guía: las pruebas de código desconocido requieren una máquina virtual o un equipo aislado, sin datos institucionales y sin red"
+   },
+   {
+    "resultado": "correcto",
+    "detalle": "guía: la lista cerrada de nombres de pruebas no vuelve confiable su código"
+   },
+   {
+    "resultado": "correcto",
+    "detalle": "los tres documentos: el borrador de licencia, pendiente de revisión jurídica"
+   },
+   {
+    "resultado": "correcto",
+    "detalle": "ningún documento declara aptitud comercial"
+   }
+  ],
+  "R": [
+   {
+    "resultado": "correcto",
+    "detalle": "variantes V6: ninguno de los 12 textos o códigos reservados está en los documentos ni en coleccion/"
+   },
+   {
+    "resultado": "correcto",
+    "detalle": "variantes V6: la carpeta privada está fuera del repositorio"
+   },
+   {
+    "resultado": "correcto",
+    "detalle": "conjunto DR: ninguno de los 22 textos o códigos reservados está en los documentos ni en coleccion/"
+   },
+   {
+    "resultado": "correcto",
+    "detalle": "conjunto DR: la carpeta privada está fuera del repositorio"
+   },
+   {
+    "resultado": "correcto",
+    "detalle": "coleccion/ no tiene archivos reservados (dr.json, variantes_v6.json, comprobacion_*.txt)"
+   }
+  ],
+  "S": [
+   {
+    "resultado": "correcto",
+    "detalle": "18 capítulos en seis unidades, 36 encuentros (1 a 36, sin repetir) y 180 HC (5 por encuentro)"
+   },
+   {
+    "resultado": "correcto",
+    "detalle": "16 prácticas en el libro y en el cuaderno (Capítulos 1 a 15 y 17)"
+   },
+   {
+    "resultado": "correcto",
+    "detalle": "el cuaderno no trae evaluaciones ni secciones de teoría"
+   },
+   {
+    "resultado": "correcto",
+    "detalle": "no se generaron el plan anual definitivo ni los planes de clase"
+   }
+  ]
+ }
+}

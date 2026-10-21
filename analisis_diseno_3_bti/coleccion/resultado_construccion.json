@@ -1,0 +1,2431 @@
+{
+ "perfil": {
+  "nombre": "O3",
+  "papel": [
+   21.59,
+   33.02
+  ],
+  "interior": 2.5,
+  "exterior": 1.8,
+  "superior": 1.5,
+  "inferior": 1.5,
+  "espejo": true
+ },
+ "ancho_util": 17.29,
+ "version": "v0.1 de la colección (integración editorial, para auditoría) · oficio O3",
+ "tablas_en_hoja_nueva": [],
+ "columnas_ensanchadas": [
+  {
+   "tabla": "Fragmento",
+   "columna": 1,
+   "antes_cm": 1.67,
+   "despues_cm": 1.86
+  },
+  {
+   "tabla": "Entidad",
+   "columna": 5,
+   "antes_cm": 2.5,
+   "despues_cm": 2.56
+  },
+  {
+   "tabla": "Operación",
+   "columna": 1,
+   "antes_cm": 1.67,
+   "despues_cm": 1.8
+  },
+  {
+   "tabla": "Paso",
+   "columna": 3,
+   "antes_cm": 6.25,
+   "despues_cm": 7.34
+  },
+  {
+   "tabla": "Recurso",
+   "columna": 3,
+   "antes_cm": 4.79,
+   "despues_cm": 5.03
+  },
+  {
+   "tabla": "Estudiante (código)",
+   "columna": 2,
+   "antes_cm": 2.08,
+   "despues_cm": 2.27
+  },
+  {
+   "tabla": "Estudiante (código)",
+   "columna": 5,
+   "antes_cm": 2.29,
+   "despues_cm": 2.3
+  },
+  {
+   "tabla": "Momento",
+   "columna": 2,
+   "antes_cm": 2.5,
+   "despues_cm": 2.64
+  },
+  {
+   "tabla": "Defecto",
+   "columna": 3,
+   "antes_cm": 3.12,
+   "despues_cm": 4.04
+  }
+ ],
+ "paginas": {
+  "libro": 211,
+  "guia": 109,
+  "cuaderno": 33
+ },
+ "indice_libro": [
+  [
+   "Presentación y alcance",
+   6
+  ],
+  [
+   "Cómo usar el libro y las prácticas",
+   6
+  ],
+  [
+   "Mapa de capacidades y evidencias",
+   7
+  ],
+  [
+   "Acuerdo de trabajo",
+   7
+  ],
+  [
+   "Diagnóstico de entrada",
+   8
+  ],
+  [
+   "Presentación del caso",
+   10
+  ],
+  [
+   "Uso responsable de datos y recursos",
+   10
+  ],
+  [
+   "Guía de consulta a las asignaturas previas",
+   11
+  ],
+  [
+   "Unidad I — Comprender el problema y su contexto",
+   12
+  ],
+  [
+   "Capítulo 1 — Un sistema comienza con una necesidad",
+   13
+  ],
+  [
+   "Encuentro 1 — El reto y el sistema que ya existe",
+   13
+  ],
+  [
+   "1.1 De la dificultad cotidiana al problema de información",
+   13
+  ],
+  [
+   "1.2 Personas, procesos, datos, recursos y límites del sistema",
+   14
+  ],
+  [
+   "Encuentro 2 — Interesados, punto de partida y práctica",
+   17
+  ],
+  [
+   "1.3 Actores e interesados: necesidades diferentes, decisiones compartidas",
+   17
+  ],
+  [
+   "1.4 Diagnóstico de conocimientos previos y plan de apoyo",
+   18
+  ],
+  [
+   "Práctica 1 — Describir una biblioteca: hechos, supuestos y soluciones anticipadas",
+   21
+  ],
+  [
+   "Evaluación del Capítulo 1",
+   23
+  ],
+  [
+   "Capítulo 2 — Investigar antes de diseñar",
+   25
+  ],
+  [
+   "Encuentro 3 — Preparar el relevamiento",
+   25
+  ],
+  [
+   "2.1 Entrevistar para comprender tareas y problemas",
+   25
+  ],
+  [
+   "2.2 Observar un proceso y analizar documentos",
+   28
+  ],
+  [
+   "Encuentro 4 — Contrastar y registrar con cuidado",
+   31
+  ],
+  [
+   "2.3 Contrastar fuentes, contradicciones y necesidades no expresadas",
+   32
+  ],
+  [
+   "2.4 Registrar evidencia con respeto por las personas y sus datos",
+   33
+  ],
+  [
+   "Práctica 2 — Dossier de relevamiento con roles",
+   37
+  ],
+  [
+   "Evaluación del Capítulo 2",
+   39
+  ],
+  [
+   "Capítulo 3 — Elegir un alcance posible",
+   41
+  ],
+  [
+   "Encuentro 5 — Objetivos, alternativas y riesgos",
+   41
+  ],
+  [
+   "3.1 Objetivos y resultados esperados",
+   41
+  ],
+  [
+   "3.2 Comparación de alternativas y factibilidad básica",
+   42
+  ],
+  [
+   "3.3 Recursos, riesgos, límites y exclusiones",
+   44
+  ],
+  [
+   "Encuentro 6 — Acuerdo de proyecto y revisión de la Unidad I",
+   46
+  ],
+  [
+   "3.4 Acuerdo de proyecto y organización del equipo",
+   46
+  ],
+  [
+   "Revisión de la Unidad I — Hito H1: problema y alcance defendidos",
+   47
+  ],
+  [
+   "Práctica 3 — Decidir un alcance posible para otra biblioteca",
+   50
+  ],
+  [
+   "Evaluación del Capítulo 3",
+   52
+  ],
+  [
+   "Unidad II — Especificar qué debe resolver el sistema",
+   54
+  ],
+  [
+   "Capítulo 4 — Requisitos que se pueden comprobar",
+   55
+  ],
+  [
+   "Encuentro 7 — Requisitos funcionales y reglas de préstamo",
+   57
+  ],
+  [
+   "4.1 Necesidad, requisito, regla de negocio y solución técnica",
+   57
+  ],
+  [
+   "4.2 Requisitos funcionales, calidad y restricciones",
+   57
+  ],
+  [
+   "Encuentro 8 — Calidad, restricciones y criterios de aceptación",
+   60
+  ],
+  [
+   "4.3 Identificación, fuente, prioridad y criterios de aceptación",
+   60
+  ],
+  [
+   "4.4 Ambigüedades frecuentes y cómo corregirlas",
+   61
+  ],
+  [
+   "Práctica 4 — Convertir pedidos de usuarios en requisitos verificables",
+   64
+  ],
+  [
+   "Evaluación del Capítulo 4",
+   66
+  ],
+  [
+   "Capítulo 5 — Procesos, contexto y casos de uso",
+   67
+  ],
+  [
+   "Encuentro 9 — Proceso actual y proceso propuesto",
+   67
+  ],
+  [
+   "5.1 Proceso actual y proceso propuesto",
+   67
+  ],
+  [
+   "5.2 Diagrama de contexto y límites de intercambio de información",
+   71
+  ],
+  [
+   "Encuentro 10 — Casos de uso y excepciones",
+   73
+  ],
+  [
+   "5.3 Actores, casos de uso y escenarios principales",
+   73
+  ],
+  [
+   "5.4 Excepciones, decisiones y flujos alternativos",
+   74
+  ],
+  [
+   "Práctica 5 — Modelar préstamo y devolución en otra biblioteca",
+   77
+  ],
+  [
+   "Evaluación del Capítulo 5",
+   79
+  ],
+  [
+   "Capítulo 6 — Priorizar y mantener la coherencia",
+   80
+  ],
+  [
+   "Encuentro 11 — Prioridades, trazabilidad e incrementos",
+   80
+  ],
+  [
+   "6.1 Alcance mínimo y funcionalidades postergables",
+   80
+  ],
+  [
+   "6.2 Trazabilidad entre necesidad, requisito, modelo y prueba",
+   81
+  ],
+  [
+   "6.3 Iteraciones, tareas, dependencias y responsabilidades",
+   82
+  ],
+  [
+   "Encuentro 12 — Solicitud de cambio y revisión de la Unidad II",
+   84
+  ],
+  [
+   "6.4 Solicitud de cambio y análisis de impacto",
+   84
+  ],
+  [
+   "Revisión de la Unidad II — Hito H2: requisitos y modelos funcionales versionados",
+   85
+  ],
+  [
+   "Práctica 6 — Trazar, planificar y cambiar el catálogo de otra biblioteca",
+   88
+  ],
+  [
+   "Evaluación del Capítulo 6",
+   90
+  ],
+  [
+   "Unidad III — Diseñar una solución coherente",
+   91
+  ],
+  [
+   "Capítulo 7 — Datos que representan las reglas",
+   92
+  ],
+  [
+   "Encuentro 13 — Antecedentes de Algorítmica y modelo del dominio",
+   92
+  ],
+  [
+   "7.1 Recuperación aplicada de modelos de Algorítmica",
+   92
+  ],
+  [
+   "7.2 Obra/edición, ejemplar, lector y préstamo: identidad y responsabilidad",
+   93
+  ],
+  [
+   "Encuentro 14 — Integridad, historial y diccionario",
+   95
+  ],
+  [
+   "7.3 Relaciones, restricciones, historial y diccionario de datos",
+   95
+  ],
+  [
+   "7.4 Revisión de normalización con ejemplos del proyecto",
+   97
+  ],
+  [
+   "Práctica 7 — Justificar el modelo de otra biblioteca frente a pérdida, devolución y duplicación",
+   100
+  ],
+  [
+   "Evaluación del Capítulo 7",
+   102
+  ],
+  [
+   "Capítulo 8 — Diseñar para las tareas de las personas",
+   103
+  ],
+  [
+   "Encuentro 15 — Recorridos, pantallas y bocetos",
+   103
+  ],
+  [
+   "8.1 Recorridos de usuario y organización de pantallas",
+   103
+  ],
+  [
+   "8.2 Bocetos y prototipo de baja fidelidad",
+   105
+  ],
+  [
+   "Encuentro 16 — Estados, mensajes, accesibilidad y revisión con usuarios",
+   107
+  ],
+  [
+   "8.3 Estados vacío, carga, error y confirmación",
+   107
+  ],
+  [
+   "8.4 Etiquetas, navegación por teclado y lectura comprensible",
+   109
+  ],
+  [
+   "Práctica 8 — Observar el uso del boceto en otra biblioteca y modificarlo con evidencia",
+   111
+  ],
+  [
+   "Evaluación del Capítulo 8",
+   113
+  ],
+  [
+   "Capítulo 9 — Arquitectura y revisión del diseño",
+   114
+  ],
+  [
+   "Encuentro 17 — Responsabilidades, contratos y entorno",
+   114
+  ],
+  [
+   "9.1 Presentación, reglas de negocio y persistencia",
+   114
+  ],
+  [
+   "9.2 Responsabilidades, entradas, salidas y contratos de operaciones",
+   115
+  ],
+  [
+   "9.3 Entorno, dependencias y decisiones técnicas justificadas",
+   116
+  ],
+  [
+   "9.4 Coherencia entre requisitos, datos e interfaces",
+   117
+  ],
+  [
+   "Práctica 9 — Contrato de devolución y entorno para otra biblioteca (complemento editorial)",
+   119
+  ],
+  [
+   "Encuentro 18 — Evaluación integradora de la primera etapa",
+   121
+  ],
+  [
+   "Evaluación integradora de la primera etapa — Hito H3: dossier consistente y evidencia individual",
+   121
+  ],
+  [
+   "Evaluación del Capítulo 9",
+   123
+  ],
+  [
+   "Unidad IV — Construir el prototipo por incrementos",
+   124
+  ],
+  [
+   "Capítulo 10 — Del diseño a la primera operación funcional",
+   125
+  ],
+  [
+   "Encuentro 19 — Entorno, estructura, versiones y datos",
+   126
+  ],
+  [
+   "10.1 Preparación del entorno y estructura del proyecto",
+   126
+  ],
+  [
+   "10.2 Versiones, bitácora y conjunto inicial de datos ficticios",
+   127
+  ],
+  [
+   "Encuentro 20 — Una operación de punta a punta",
+   128
+  ],
+  [
+   "10.3 Una operación completa: formulario, procesamiento y almacenamiento",
+   128
+  ],
+  [
+   "10.4 Validación, consulta parametrizada y evidencia de persistencia",
+   130
+  ],
+  [
+   "Práctica 10 — Demostrar una operación en la computadora de Mbokaja",
+   133
+  ],
+  [
+   "Evaluación del Capítulo 10",
+   135
+  ],
+  [
+   "Capítulo 11 — Catálogo, ejemplares y lectores",
+   136
+  ],
+  [
+   "Encuentro 21 — Catálogo: obras, ediciones y ejemplares",
+   136
+  ],
+  [
+   "11.1 Implementación de tareas priorizadas a partir de los bocetos",
+   136
+  ],
+  [
+   "11.2 Datos obligatorios, códigos, duplicados y mensajes útiles",
+   137
+  ],
+  [
+   "Encuentro 22 — Lectores, permisos y baja lógica",
+   139
+  ],
+  [
+   "11.3 Permisos mínimos y comprobaciones del servidor",
+   139
+  ],
+  [
+   "11.4 Edición y baja lógica sin pérdida de historial",
+   140
+  ],
+  [
+   "Práctica 11 — Un lote de libros donados y lectores con datos incompletos",
+   143
+  ],
+  [
+   "Evaluación del Capítulo 11",
+   145
+  ],
+  [
+   "Capítulo 12 — Préstamos y devoluciones consistentes",
+   146
+  ],
+  [
+   "Encuentro 23 — El préstamo y sus protecciones",
+   146
+  ],
+  [
+   "12.1 Precondiciones y reglas de la operación de préstamo",
+   146
+  ],
+  [
+   "12.2 Doble envío, disponibilidad y operaciones atómicas",
+   147
+  ],
+  [
+   "Encuentro 24 — Devolución, historial y fallos previsibles",
+   149
+  ],
+  [
+   "12.3 Devolución, estado del ejemplar y conservación de historial",
+   149
+  ],
+  [
+   "12.4 Fallos previsibles y comprobación de resultados",
+   150
+  ],
+  [
+   "Práctica 12 — Dos voluntarios, el mismo libro y un libro dañado",
+   153
+  ],
+  [
+   "Evaluación del Capítulo 12",
+   155
+  ],
+  [
+   "Capítulo 13 — Información útil e integración",
+   156
+  ],
+  [
+   "Encuentro 25 — Consultas, vencimientos e informe",
+   156
+  ],
+  [
+   "13.1 Búsqueda de ejemplares disponibles y préstamos activos",
+   156
+  ],
+  [
+   "13.2 Vencimientos y fecha de referencia",
+   158
+  ],
+  [
+   "Práctica 13 — Una semana en Mbokaja: integración e incidencias (complemento editorial)",
+   160
+  ],
+  [
+   "Encuentro 26 — Integración, demostración y revisión de la Unidad IV",
+   162
+  ],
+  [
+   "13.3 Integración de módulos y revisión del alcance mínimo",
+   162
+  ],
+  [
+   "13.4 Demostración del incremento y registro de pendientes",
+   162
+  ],
+  [
+   "Revisión de la Unidad IV — Hito H4: circuito funcional completo y lista de incidencias",
+   163
+  ],
+  [
+   "Evaluación del Capítulo 13",
+   165
+  ],
+  [
+   "Unidad V — Verificar, validar y mejorar",
+   166
+  ],
+  [
+   "Capítulo 14 — Probar con criterios y datos independientes",
+   167
+  ],
+  [
+   "Encuentro 27 — Cobertura y datos independientes",
+   167
+  ],
+  [
+   "14.1 Verificación, validación y aceptación",
+   167
+  ],
+  [
+   "14.2 Casos normales, límites, excepciones y rechazos",
+   168
+  ],
+  [
+   "Encuentro 28 — Ejecutar, registrar y reportar",
+   170
+  ],
+  [
+   "14.3 Resultado esperado, resultado obtenido y evidencia",
+   170
+  ],
+  [
+   "14.4 Cobertura de requisitos y reporte de defectos",
+   171
+  ],
+  [
+   "Práctica 14 — Una batería nueva de pruebas para Mbokaja",
+   175
+  ],
+  [
+   "Evaluación del Capítulo 14",
+   177
+  ],
+  [
+   "Capítulo 15 — Probar el sistema completo con usuarios",
+   178
+  ],
+  [
+   "Encuentro 29 — Integración, permisos, persistencia y restauración",
+   178
+  ],
+  [
+   "15.1 Pruebas de integración y persistencia",
+   178
+  ],
+  [
+   "15.2 Permisos, recuperación de datos y manejo de errores",
+   179
+  ],
+  [
+   "Encuentro 30 — Sesiones de uso y aceptación",
+   180
+  ],
+  [
+   "15.3 Sesiones de uso y observación de dificultades",
+   180
+  ],
+  [
+   "15.4 Aceptación por criterios acordados y prioridad de correcciones",
+   181
+  ],
+  [
+   "Práctica 15 — Revisión cruzada entre equipos con datos reservados",
+   183
+  ],
+  [
+   "Evaluación del Capítulo 15",
+   184
+  ],
+  [
+   "Capítulo 16 — Corregir y volver a comprobar",
+   185
+  ],
+  [
+   "Encuentro 31 — Diagnosticar, corregir y volver a probar",
+   185
+  ],
+  [
+   "16.1 Diagnóstico de incidencias e impacto de cambios",
+   185
+  ],
+  [
+   "16.2 Corrección, revisión entre pares y regresión",
+   186
+  ],
+  [
+   "16.3 Actualización de modelos, pruebas y documentación",
+   188
+  ],
+  [
+   "Encuentro 32 — Recuperación técnica y revisión de la Unidad V",
+   190
+  ],
+  [
+   "16.4 Recuperación técnica y versión candidata",
+   190
+  ],
+  [
+   "Revisión de la Unidad V — Hito H5: evidencia de calidad y límites conocidos",
+   190
+  ],
+  [
+   "Evaluación del Capítulo 16",
+   193
+  ],
+  [
+   "Unidad VI — Entregar y comunicar",
+   194
+  ],
+  [
+   "Capítulo 17 — Preparar una entrega reproducible",
+   195
+  ],
+  [
+   "Encuentro 33 — Escribir y probar la propia documentación",
+   195
+  ],
+  [
+   "17.1 Guía de instalación, configuración y ejecución",
+   195
+  ],
+  [
+   "17.2 Manual breve basado en tareas",
+   196
+  ],
+  [
+   "Práctica 17 — El paquete del voluntario para Mbokaja",
+   198
+  ],
+  [
+   "Encuentro 34 — Entregar a otro equipo; hito H6",
+   200
+  ],
+  [
+   "17.3 Respaldo, restauración, licencias y registro de procedencia",
+   200
+  ],
+  [
+   "17.4 Prueba de instalación por otro equipo y acta de entrega simulada",
+   201
+  ],
+  [
+   "Hito H6: paquete reproducible; ajustes finales",
+   203
+  ],
+  [
+   "Evaluación del Capítulo 17",
+   205
+  ],
+  [
+   "Capítulo 18 — Demostrar, defender y aprender del proyecto",
+   206
+  ],
+  [
+   "Encuentro 35 — Demostración y defensa individual",
+   206
+  ],
+  [
+   "18.1 Demostración organizada por requisitos y evidencias",
+   206
+  ],
+  [
+   "18.2 Defensa individual de decisiones y resolución de una variante",
+   207
+  ],
+  [
+   "Encuentro 36 — Recuperación, retrospectiva y cierre",
+   209
+  ],
+  [
+   "18.3 Recuperación de aprendizajes pendientes",
+   209
+  ],
+  [
+   "18.4 Retrospectiva y mejoras futuras justificadas",
+   209
+  ],
+  [
+   "Evaluación integradora de la segunda etapa y cierre del proyecto",
+   210
+  ]
+ ],
+ "indice_guia": [
+  [
+   "Parte general — Cómo usar esta guía anual",
+   4
+  ],
+  [
+   "1. Organización de la guía y versión de cada parte",
+   4
+  ],
+  [
+   "2. Dónde está cada instrumento del año",
+   4
+  ],
+  [
+   "3. Seguridad: pruebas de código recibido de otros",
+   5
+  ],
+  [
+   "4. Datos reservados y variantes privadas",
+   5
+  ],
+  [
+   "5. Lo que sigue pendiente",
+   6
+  ],
+  [
+   "Parte I — Comprender el problema y su contexto (Capítulos 1 a 3, Encuentros 1 a 6)",
+   7
+  ],
+  [
+   "1. Preliminares: diagnóstico de entrada y mapa de apoyos",
+   7
+  ],
+  [
+   "2. Capítulo 1 — Un sistema comienza con una necesidad",
+   9
+  ],
+  [
+   "3. Capítulo 2 — Investigar antes de diseñar",
+   12
+  ],
+  [
+   "4. Capítulo 3 — Elegir un alcance posible",
+   16
+  ],
+  [
+   "5. Rúbrica del hito H1: problema y alcance defendidos",
+   19
+  ],
+  [
+   "6. Calendario con menos encuentros",
+   20
+  ],
+  [
+   "7. Procedencia y derechos de los recursos",
+   20
+  ],
+  [
+   "Parte II — Especificar qué debe resolver el sistema (Capítulos 4 a 6, Encuentros 7 a 12)",
+   22
+  ],
+  [
+   "1. Capítulo 4 — Requisitos que se pueden comprobar",
+   22
+  ],
+  [
+   "2. Capítulo 5 — Procesos, contexto y casos de uso",
+   28
+  ],
+  [
+   "3. Capítulo 6 — Priorizar y mantener la coherencia",
+   33
+  ],
+  [
+   "4. Rúbrica del hito H2: requisitos y modelos funcionales versionados",
+   37
+  ],
+  [
+   "5. Calendario con menos encuentros",
+   38
+  ],
+  [
+   "6. Procedencia y derechos de los recursos",
+   39
+  ],
+  [
+   "Parte III — Diseñar una solución coherente (Capítulos 7 a 9, Encuentros 13 a 18)",
+   40
+  ],
+  [
+   "Antes del Encuentro 13: acuerdo con Algorítmica 3.º",
+   40
+  ],
+  [
+   "1. Capítulo 7 — Datos que representan las reglas",
+   41
+  ],
+  [
+   "2. Capítulo 8 — Diseñar para las tareas de las personas",
+   44
+  ],
+  [
+   "3. Capítulo 9 — Arquitectura y revisión del diseño",
+   48
+  ],
+  [
+   "4. Rúbrica del hito H3: dossier consistente y evidencia individual",
+   52
+  ],
+  [
+   "5. Calendario con menos encuentros",
+   53
+  ],
+  [
+   "6. Procedencia y derechos de los recursos",
+   54
+  ],
+  [
+   "Parte IV — Construir el prototipo por incrementos (Capítulos 10 a 13, Encuentros 19 a 26)",
+   55
+  ],
+  [
+   "0. Antes del Encuentro 19: entorno, base de proyecto y coordinación",
+   55
+  ],
+  [
+   "1. Capítulo 10 — Del diseño a la primera operación funcional",
+   60
+  ],
+  [
+   "2. Capítulo 11 — Catálogo, ejemplares y lectores",
+   63
+  ],
+  [
+   "3. Capítulo 12 — Préstamos y devoluciones consistentes",
+   67
+  ],
+  [
+   "4. Capítulo 13 — Información útil e integración",
+   71
+  ],
+  [
+   "5. Rúbrica del hito H4: circuito funcional completo y lista de incidencias",
+   74
+  ],
+  [
+   "6. Calendario con menos encuentros",
+   76
+  ],
+  [
+   "7. Resultados de las pruebas de la base y entorno en que corrieron",
+   76
+  ],
+  [
+   "8. Procedencia y derechos de los recursos",
+   77
+  ],
+  [
+   "Parte V — Verificar, validar y mejorar (Capítulos 14 a 16, Encuentros 27 a 32)",
+   78
+  ],
+  [
+   "0. Antes del Encuentro 27: copias, datos de prueba y coordinación",
+   78
+  ],
+  [
+   "1. Capítulo 14 — Probar con criterios y datos independientes",
+   81
+  ],
+  [
+   "2. Capítulo 15 — Probar el sistema completo con usuarios",
+   84
+  ],
+  [
+   "3. Capítulo 16 — Corregir y volver a comprobar",
+   87
+  ],
+  [
+   "4. Rúbrica del hito H5: evidencia de calidad y límites conocidos",
+   91
+  ],
+  [
+   "5. Calendario con menos encuentros",
+   93
+  ],
+  [
+   "6. Condición de cada resultado de la unidad",
+   93
+  ],
+  [
+   "7. Resultados de las pruebas y entorno en que corrieron",
+   94
+  ],
+  [
+   "8. Procedencia y derechos de los recursos",
+   94
+  ],
+  [
+   "Parte VI — Entregar y comunicar (Capítulos 17 y 18, Encuentros 33 a 36)",
+   96
+  ],
+  [
+   "0. Antes del Encuentro 33: paquete, licencias, instalación por otro equipo y defensa",
+   96
+  ],
+  [
+   "1. Capítulo 17 — Preparar una entrega reproducible",
+   100
+  ],
+  [
+   "2. Capítulo 18 — Demostrar, defender y aprender del proyecto",
+   104
+  ],
+  [
+   "3. Rúbrica del hito H6: paquete reproducible; ajustes finales",
+   107
+  ],
+  [
+   "4. Calendario con menos encuentros",
+   108
+  ],
+  [
+   "5. Condición de cada resultado de la unidad",
+   108
+  ],
+  [
+   "6. Resultados de las pruebas y entorno en que corrieron",
+   108
+  ],
+  [
+   "7. Procedencia y derechos de los recursos del lote",
+   109
+  ]
+ ],
+ "indice_cuaderno": [
+  [
+   "Unidad I — Comprender el problema y su contexto",
+   3
+  ],
+  [
+   "Práctica 1 — Describir una biblioteca: hechos, supuestos y soluciones anticipadas",
+   3
+  ],
+  [
+   "Práctica 2 — Dossier de relevamiento con roles",
+   5
+  ],
+  [
+   "Práctica 3 — Decidir un alcance posible para otra biblioteca",
+   7
+  ],
+  [
+   "Unidad II — Especificar qué debe resolver el sistema",
+   9
+  ],
+  [
+   "Práctica 4 — Convertir pedidos de usuarios en requisitos verificables",
+   9
+  ],
+  [
+   "Práctica 5 — Modelar préstamo y devolución en otra biblioteca",
+   11
+  ],
+  [
+   "Práctica 6 — Trazar, planificar y cambiar el catálogo de otra biblioteca",
+   13
+  ],
+  [
+   "Unidad III — Diseñar una solución coherente",
+   15
+  ],
+  [
+   "Práctica 7 — Justificar el modelo de otra biblioteca frente a pérdida, devolución y duplicación",
+   15
+  ],
+  [
+   "Práctica 8 — Observar el uso del boceto en otra biblioteca y modificarlo con evidencia",
+   17
+  ],
+  [
+   "Práctica 9 — Contrato de devolución y entorno para otra biblioteca (complemento editorial)",
+   19
+  ],
+  [
+   "Unidad IV — Construir el prototipo por incrementos",
+   21
+  ],
+  [
+   "Práctica 10 — Demostrar una operación en la computadora de Mbokaja",
+   21
+  ],
+  [
+   "Práctica 11 — Un lote de libros donados y lectores con datos incompletos",
+   23
+  ],
+  [
+   "Práctica 12 — Dos voluntarios, el mismo libro y un libro dañado",
+   25
+  ],
+  [
+   "Práctica 13 — Una semana en Mbokaja: integración e incidencias (complemento editorial)",
+   27
+  ],
+  [
+   "Unidad V — Verificar, validar y mejorar",
+   29
+  ],
+  [
+   "Práctica 14 — Una batería nueva de pruebas para Mbokaja",
+   29
+  ],
+  [
+   "Práctica 15 — Revisión cruzada entre equipos con datos reservados",
+   31
+  ],
+  [
+   "Unidad VI — Entregar y comunicar",
+   32
+  ],
+  [
+   "Práctica 17 — El paquete del voluntario para Mbokaja",
+   32
+  ]
+ ],
+ "instrumentos_guia": [
+  [
+   "Claves del diagnóstico de entrada",
+   "I",
+   7
+  ],
+  [
+   "Lista de cotejo de la Práctica 1",
+   "I",
+   11
+  ],
+  [
+   "Clave de la evaluación del capítulo 1",
+   "I",
+   11
+  ],
+  [
+   "Lista de cotejo de la Práctica 2",
+   "I",
+   14
+  ],
+  [
+   "Clave de la evaluación del capítulo 2",
+   "I",
+   14
+  ],
+  [
+   "Lista de cotejo de la Práctica 3",
+   "I",
+   18
+  ],
+  [
+   "Clave de la evaluación del capítulo 3",
+   "I",
+   18
+  ],
+  [
+   "Rúbrica del H1: descriptores por nivel",
+   "I",
+   19
+  ],
+  [
+   "Planilla de registro del H1 (una por estudiante)",
+   "I",
+   20
+  ],
+  [
+   "Lista de cotejo de la Práctica 4",
+   "II",
+   26
+  ],
+  [
+   "Clave de la evaluación del capítulo 4",
+   "II",
+   26
+  ],
+  [
+   "Lista de cotejo de la Práctica 5",
+   "II",
+   31
+  ],
+  [
+   "Clave de la evaluación del capítulo 5",
+   "II",
+   31
+  ],
+  [
+   "Lista de cotejo de la Práctica 6",
+   "II",
+   35
+  ],
+  [
+   "Clave de la evaluación del capítulo 6",
+   "II",
+   35
+  ],
+  [
+   "Rúbrica del H2: descriptores por nivel",
+   "II",
+   37
+  ],
+  [
+   "Planilla de registro del H2 (una por estudiante)",
+   "II",
+   38
+  ],
+  [
+   "Lista de cotejo de la Práctica 7",
+   "III",
+   43
+  ],
+  [
+   "Clave de la evaluación del capítulo 7",
+   "III",
+   43
+  ],
+  [
+   "Lista de cotejo de la Práctica 8",
+   "III",
+   47
+  ],
+  [
+   "Clave de la evaluación del capítulo 8",
+   "III",
+   47
+  ],
+  [
+   "Lista de cotejo de la Práctica 9",
+   "III",
+   50
+  ],
+  [
+   "Clave de la evaluación del capítulo 9",
+   "III",
+   50
+  ],
+  [
+   "Rúbrica del H3: descriptores por nivel",
+   "III",
+   52
+  ],
+  [
+   "Planilla de registro del H3 (una por estudiante)",
+   "III",
+   53
+  ],
+  [
+   "Lista de cotejo de la Práctica 10",
+   "IV",
+   62
+  ],
+  [
+   "Clave de la evaluación del capítulo 10",
+   "IV",
+   62
+  ],
+  [
+   "Lista de cotejo de la Práctica 11",
+   "IV",
+   66
+  ],
+  [
+   "Clave de la evaluación del capítulo 11",
+   "IV",
+   66
+  ],
+  [
+   "Lista de cotejo de la Práctica 12",
+   "IV",
+   69
+  ],
+  [
+   "Clave de la evaluación del capítulo 12",
+   "IV",
+   69
+  ],
+  [
+   "Lista de cotejo de la Práctica 13",
+   "IV",
+   73
+  ],
+  [
+   "Clave de la evaluación del capítulo 13",
+   "IV",
+   73
+  ],
+  [
+   "Rúbrica del H4: descriptores por nivel",
+   "IV",
+   74
+  ],
+  [
+   "Planilla de registro del H4 (una por estudiante)",
+   "IV",
+   75
+  ],
+  [
+   "Lista de cotejo de la Práctica 14",
+   "V",
+   83
+  ],
+  [
+   "Clave de la evaluación del capítulo 14",
+   "V",
+   83
+  ],
+  [
+   "Lista de cotejo de la Práctica 15",
+   "V",
+   85
+  ],
+  [
+   "Clave de la evaluación del capítulo 15",
+   "V",
+   86
+  ],
+  [
+   "Clave de la evaluación del capítulo 16",
+   "V",
+   89
+  ],
+  [
+   "Rúbrica del H5: descriptores por nivel",
+   "V",
+   91
+  ],
+  [
+   "Planilla de registro del H5 (una por estudiante)",
+   "V",
+   92
+  ],
+  [
+   "Planilla de tiempos: ejemplo con valores ficticios",
+   "VI",
+   98
+  ],
+  [
+   "Lista de cotejo de la Práctica 17",
+   "VI",
+   103
+  ],
+  [
+   "Clave de la evaluación del capítulo 17",
+   "VI",
+   103
+  ],
+  [
+   "Planilla de defensa individual (niveles 1 a 4 por criterio)",
+   "VI",
+   105
+  ],
+  [
+   "Rúbrica de producto final (propuesta editorial, Work §4.3)",
+   "VI",
+   105
+  ],
+  [
+   "Fichas de recuperación (las mismas de la Tabla 18.4)",
+   "VI",
+   106
+  ],
+  [
+   "Registro de recuperaciones",
+   "VI",
+   106
+  ],
+  [
+   "Rúbrica del H6: descriptores por nivel",
+   "VI",
+   107
+  ],
+  [
+   "Planilla de registro del H6 (una por estudiante)",
+   "VI",
+   108
+  ]
+ ],
+ "reemplazos": [
+  [
+   "R-01",
+   1
+  ],
+  [
+   "R-02",
+   1
+  ],
+  [
+   "R-03",
+   3
+  ],
+  [
+   "R-04",
+   1
+  ],
+  [
+   "R-05",
+   1
+  ],
+  [
+   "R-06",
+   1
+  ],
+  [
+   "R-07",
+   1
+  ]
+ ],
+ "indice_reordenado": [
+  [
+   3,
+   "3.3 Recursos, riesgos, límites y exclusiones"
+  ],
+  [
+   2,
+   "Encuentro 6 — Acuerdo de proyecto y revisión de la Unidad I"
+  ]
+ ],
+ "claves": [
+  [
+   "ADS3-L1-C1",
+   1,
+   "b",
+   "Nadie sabe con certeza qué lector tiene cada libro."
+  ],
+  [
+   "ADS3-L1-C1",
+   2,
+   "c",
+   "Un supuesto: todavía no se comprobó."
+  ],
+  [
+   "ADS3-L1-C1",
+   3,
+   "d",
+   "La secretaria que anota los préstamos."
+  ],
+  [
+   "ADS3-L1-C1",
+   4,
+   "d",
+   "mantener satisfecho, consultándolo en las decisiones que lo afectan."
+  ],
+  [
+   "ADS3-L1-C1",
+   5,
+   "F",
+   "Falso. La libreta de la secretaría, la secretaria y sus procesos ya forman un sistema de información manual."
+  ],
+  [
+   "ADS3-L1-C1",
+   6,
+   "V",
+   "Verdadero. Aparece antes de entender el problema; se registra y se pregunta qué resolvería."
+  ],
+  [
+   "ADS3-L1-C1",
+   7,
+   "F",
+   "Falso. No lleva nota: sirve para el plan de apoyo de cada estudiante y el mapa de apoyos del curso."
+  ],
+  [
+   "ADS3-L1-C1",
+   8,
+   "abierta",
+   "Quién: los docentes, la secretaria y la dirección (A-1, A-6). Qué información falta: qué proyector se lleva cada docente y cuándo está libre cada uno (A-2, A-3). Consecuencia: reservas superpuestas (A-3) y decisiones de compra sin datos de uso (A-6). Qué falta averiguar: cuántos pedidos hay por semana, si A-5 es cierto, cómo se devuelven. Se valora que no aparezca «comprar otro proyector» como problema."
+  ],
+  [
+   "ADS3-L1-C1",
+   9,
+   "abierta",
+   "Ejemplo: «En el colegio, los docentes y la dirección no cuentan con información confiable sobre qué proyector está reservado o prestado en cada momento ni sobre su uso, porque la libreta no registra el proyector.» A-4 podría reducir la falta de equipos, pero no impide reservas superpuestas ni produce el dato de uso que pide A-6."
+  ],
+  [
+   "ADS3-L1-C2-i",
+   1,
+   "c",
+   "Obtener, registrar y confirmar con los interesados la información sobre su trabajo y sus necesidades."
+  ],
+  [
+   "ADS3-L1-C2-i",
+   2,
+   "b",
+   "¿No le parece que lo mejor sería una aplicación para el celular?"
+  ],
+  [
+   "ADS3-L1-C2-i",
+   3,
+   "b",
+   "La observación directa en la biblioteca durante el recreo."
+  ],
+  [
+   "ADS3-L1-C2-i",
+   4,
+   "a",
+   "un supuesto: la encargada da por cierta una causa que nadie comprobó."
+  ],
+  [
+   "ADS3-L1-C2-i",
+   5,
+   "F",
+   "Falso. Es una propuesta: se pregunta qué necesidad hay detrás y recién de ahí sale la necesidad."
+  ],
+  [
+   "ADS3-L1-C2-i",
+   6,
+   "V",
+   "Verdadero. Es la trazabilidad, que permite discutir y confirmar cada hallazgo."
+  ],
+  [
+   "ADS3-L1-C2-i",
+   7,
+   "F",
+   "Falso. El analista registra ambas posiciones, busca las necesidades y eleva el conflicto con opciones a quien decide."
+  ],
+  [
+   "ADS3-L1-C2-i",
+   8,
+   "abierta",
+   "T1-L1: hecho (describe cómo se presta; se puede comprobar). T1-L3: hecho (se rompió uno y no se anotó). T1-L4: opinión que contiene una propuesta de solución (comprar microscopios digitales); se registra y se pregunta qué necesidad hay detrás. Un punto por cada clasificación justificada y uno por identificar la propuesta."
+  ],
+  [
+   "ADS3-L1-C2-i",
+   9,
+   "abierta",
+   "Contradicción: T1-L1 (solo dentro del laboratorio) frente a T2-1 (los docentes pueden retirar materiales para el aula). También vale T1-L3 frente a T2-2 (no se anotó una salida). Necesidad no expresada: saber en todo momento quién tiene cada microscopio (sale de T1-L3 y T2-2). Se eleva a la dirección o a quien aprobó las normas, con opciones. Un punto por cada fuente citada, uno por la necesidad y uno por indicar a quién se eleva."
+  ],
+  [
+   "ADS3-L1-C3",
+   1,
+   "a",
+   "Que la coordinación conozca los inscriptos de cada taller al cerrar la inscripción."
+  ],
+  [
+   "ADS3-L1-C3",
+   2,
+   "b",
+   "¿Las personas van a usar la solución en su trabajo real?"
+  ],
+  [
+   "ADS3-L1-C3",
+   3,
+   "b",
+   "una contingencia: se usa si el riesgo ocurre."
+  ],
+  [
+   "ADS3-L1-C3",
+   4,
+   "d",
+   "K-5: no hay presupuesto para comprar programas."
+  ],
+  [
+   "ADS3-L1-C3",
+   5,
+   "F",
+   "Falso. Las factibilidades no se compensan: si las personas no la van a usar, la solución no sirve."
+  ],
+  [
+   "ADS3-L1-C3",
+   6,
+   "F",
+   "Falso. Es un acuerdo explícito sobre lo que no se hace en este proyecto; puede proponerse como extensión o tramitarse como cambio."
+  ],
+  [
+   "ADS3-L1-C3",
+   7,
+   "V",
+   "Verdadero. Es el 40 % de evidencia individual de la propuesta editorial."
+  ],
+  [
+   "ADS3-L1-C3",
+   8,
+   "abierta",
+   "Hoja mejorada: técnica alta (no necesita equipo); calendario alto (se prepara antes de K-6). Prototipo propio: técnica media o baja (computadora compartida, sin internet, K-4; habría que probar si funciona sin conexión); calendario bajo (tres semanas, K-6). Un punto por cada valoración con razón y fuente. No se aceptan puntajes sumados."
+  ],
+  [
+   "ADS3-L1-C3",
+   9,
+   "abierta",
+   "Ejemplo: riesgo «inscripción duplicada en talleres del mismo horario» (fuente: K-2): probabilidad alta, impacto medio; mitigación: la hoja muestra el horario y se controla al anotar; contingencia: la coordinación resuelve los duplicados antes de publicar las listas. Exclusión: inscripción por internet, porque la computadora no tiene conexión (K-4). Un punto por cada elemento correcto (riesgo con valoraciones, mitigación, contingencia, exclusión con razón)."
+  ],
+  [
+   "ADS3-C4v2-2",
+   1,
+   "d",
+   "Un lector puede tener como máximo dos préstamos activos."
+  ],
+  [
+   "ADS3-C4v2-2",
+   2,
+   "c",
+   "La bibliotecaria debe poder registrar un préstamo sin ayuda, después de una práctica guiada."
+  ],
+  [
+   "ADS3-C4v2-2",
+   3,
+   "b",
+   "Dado un ejemplar prestado, cuando se intenta prestarlo otra vez, entonces se rechaza y queda un solo préstamo activo."
+  ],
+  [
+   "ADS3-C4v2-2",
+   4,
+   "a",
+   "Es compuesto: une dos requisitos que se comprueban por separado."
+  ],
+  [
+   "ADS3-C4v2-2",
+   5,
+   "F",
+   "Falso. Sin fuente es una idea del equipo: se consulta con los interesados o se descarta."
+  ],
+  [
+   "ADS3-C4v2-2",
+   6,
+   "V",
+   "Verdadero. Es una condición impuesta por el contexto (RS-02, E5-L4)."
+  ],
+  [
+   "ADS3-C4v2-2",
+   7,
+   "F",
+   "Falso. Es una solución técnica para cumplir RF-04; se decide en el diseño."
+  ],
+  [
+   "ADS3-C4v2-2",
+   8,
+   "abierta",
+   "Ejemplo: «RF-13 El sistema debe listar los préstamos activos cuya fecha de vencimiento es anterior a una fecha de referencia elegida.» Criterio: «Dado un préstamo que vence el 9 de marzo y otro que vence el 12, cuando se pide la lista con fecha de referencia 10 de marzo, entonces aparece solo el primero.» Se acepta otra redacción si fija la fecha de referencia y el resultado esperado."
+  ],
+  [
+   "ADS3-C4v2-2",
+   9,
+   "abierta",
+   "RN-07: el material de referencia (diccionarios y atlas) no se presta. Fuente: R-07. Requisito, por ejemplo: «RF-14 El sistema debe rechazar el préstamo de un ejemplar marcado como material de referencia.» Fuente: RN-07. Criterio: «Dado un diccionario marcado como referencia, cuando se intenta prestarlo, entonces el sistema lo rechaza y muestra el motivo.» Prioridad: imprescindible si la institución aprueba la regla, porque sin el requisito la regla se viola; importante si se acepta controlarla a mano. Se valora la justificación, no la etiqueta elegida."
+  ],
+  [
+   "ADS3-L2-C5-c",
+   1,
+   "c",
+   "Un rombo con una guarda entre corchetes en cada salida."
+  ],
+  [
+   "ADS3-L2-C5-c",
+   2,
+   "c",
+   "pedido de proyector"
+  ],
+  [
+   "ADS3-L2-C5-c",
+   3,
+   "b",
+   "Registrar préstamo de proyector"
+  ],
+  [
+   "ADS3-L2-C5-c",
+   4,
+   "a",
+   "el actor participa en ese caso de uso."
+  ],
+  [
+   "ADS3-L2-C5-c",
+   5,
+   "F",
+   "Falso. Muestra el sistema como un todo, las entidades externas y la información que entra y sale."
+  ],
+  [
+   "ADS3-L2-C5-c",
+   6,
+   "V",
+   "Verdadero. Si cambia la persona, el actor sigue siendo el mismo."
+  ],
+  [
+   "ADS3-L2-C5-c",
+   7,
+   "V",
+   "Verdadero. El número dice dónde se desvía y la letra distingue los desvíos de un mismo paso."
+  ],
+  [
+   "ADS3-L2-C5-c",
+   8,
+   "abierta",
+   "Carriles: Docente y Secretaria. Acciones: pedir un proyector (docente); comprobar si hay uno disponible (secretaria); decisión con guardas [hay disponible] y [no hay] (Q-3); anotar nombre y hora (Q-2) y entregar; usar y devolver (docente); revisar funcionamiento y cable (Q-4). Puede agregarse una segunda decisión [falta el cable] que lleva a anotar la falta y avisar a la dirección (Q-5). Nodo inicial único; uno o más nodos finales."
+  ],
+  [
+   "ADS3-L2-C5-c",
+   9,
+   "abierta",
+   "Actor: Secretaria. Escenario: 1. La secretaria indica el proyector devuelto. 2. El sistema muestra el préstamo activo de ese proyector. 3. La secretaria confirma que funciona y tiene el cable. 4. El sistema cierra el préstamo y el proyector queda disponible. Flujo alternativo 3a: falta el cable; la secretaria lo indica, el sistema cierra el préstamo con la observación y deja el aviso para la dirección (Q-5). Se acepta otra redacción coherente."
+  ],
+  [
+   "ADS3-L2-C6",
+   1,
+   "d",
+   "Que todavía no hay una forma de comprobar ese requisito."
+  ],
+  [
+   "ADS3-L2-C6",
+   2,
+   "c",
+   "Avisar al docente por mensaje cuando su solicitud se resuelva."
+  ],
+  [
+   "ADS3-L2-C6",
+   3,
+   "a",
+   "Quien tiene autoridad sobre esa regla, después del análisis de impacto."
+  ],
+  [
+   "ADS3-L2-C6",
+   4,
+   "c",
+   "Que no se puede terminar la primera sin tener hecha la segunda."
+  ],
+  [
+   "ADS3-L2-C6",
+   5,
+   "F",
+   "Falso. Pueden cambiar los datos del criterio y de la prueba, como RF-05 con el cambio de RN-02 (SC-01)."
+  ],
+  [
+   "ADS3-L2-C6",
+   6,
+   "V",
+   "Verdadero. La versión anterior se conserva y la bitácora dice qué cambió y por qué."
+  ],
+  [
+   "ADS3-L2-C6",
+   7,
+   "F",
+   "Falso. La prioridad se justifica con razones: circuito, reglas, valor y dependencias."
+  ],
+  [
+   "ADS3-L2-C6",
+   8,
+   "abierta",
+   "SR-1 y SR-3 salen de W-1; SR-2 y SR-4, de W-2 (se acepta W-1 para SR-2 si se justifica). Cada fila con un criterio observable, por ejemplo: «Dada una solicitud pendiente, cuando el encargado la pasa a resuelta, entonces deja de figurar en la lista de pendientes». Pruebas PS-1 a PS-4. Omisiones posibles: ninguna regla dice quién puede cambiar el estado; no hay requisito de calidad (nada dice cuánto puede esperar una solicitud). Un punto por cada dos filas correctas, uno por los criterios y uno por la omisión."
+  ],
+  [
+   "ADS3-L2-C6",
+   9,
+   "abierta",
+   "Qué cambia: al pasar a «resuelta», se anota qué se hizo. Afecta a SR-3 (cambio de estado) y a su prueba; puede requerir un requisito nuevo SR-5 «registrar la solución de cada solicitud resuelta». Decide el encargado, que es quien pide y usa el registro, con conocimiento de la dirección si cambia una regla. Nueva versión del catálogo con SR-5 y el cambio anotado en la bitácora. Un punto por cada parte."
+  ],
+  [
+   "ADS3-L3-C7",
+   1,
+   "b",
+   "Porque así cada devolución cierra el préstamo de ese libro físico."
+  ],
+  [
+   "ADS3-L3-C7",
+   2,
+   "c",
+   "Si un ejemplar está disponible."
+  ],
+  [
+   "ADS3-L3-C7",
+   3,
+   "b",
+   "una restricción de integridad."
+  ],
+  [
+   "ADS3-L3-C7",
+   4,
+   "d",
+   "Nada: el curso queda vacío y el tipo de lector dice que es docente."
+  ],
+  [
+   "ADS3-L3-C7",
+   5,
+   "F",
+   "Falso. Se completa la fecha de devolución y el préstamo queda en el historial (RN-05)."
+  ],
+  [
+   "ADS3-L3-C7",
+   6,
+   "V",
+   "Verdadero. También dice si es obligatorio y da un ejemplo."
+  ],
+  [
+   "ADS3-L3-C7",
+   7,
+   "F",
+   "Falso. El vencimiento se calcula al prestar y se guarda (RI-07): los préstamos hechos no cambian."
+  ],
+  [
+   "ADS3-L3-C7",
+   8,
+   "abierta",
+   "Entidades: Espacio, Docente, Reserva (y Franja, si se la modela aparte). Relaciones: un espacio tiene N reservas; un docente hace N reservas; cada reserva es de un espacio, de un docente, en una fecha y una franja. Un punto por cada entidad bien elegida (hasta 2) y uno por cada relación con su cardinalidad (hasta 2)."
+  ],
+  [
+   "ADS3-L3-C7",
+   9,
+   "abierta",
+   "La cancelación no borra la reserva: le agrega quién la canceló y la fecha, y la reserva queda cancelada. Restricción: un espacio tiene, como máximo, una reserva no cancelada por fecha y franja. Un punto por no borrar, uno por quién, uno por cuándo y uno por la restricción, que tiene que excluir las canceladas."
+  ],
+  [
+   "ADS3-L3-C8",
+   1,
+   "a",
+   "La acción con la que la persona pasa de una pantalla a otra."
+  ],
+  [
+   "ADS3-L3-C8",
+   2,
+   "d",
+   "No se puede enviar: falta el curso. Elegilo en la lista."
+  ],
+  [
+   "ADS3-L3-C8",
+   3,
+   "c",
+   "Carga."
+  ],
+  [
+   "ADS3-L3-C8",
+   4,
+   "d",
+   "Que Tab siga el orden de la tarea y el foco se vea."
+  ],
+  [
+   "ADS3-L3-C8",
+   5,
+   "F",
+   "Falso. Sus flechas llevan la acción, con verbo; las del contexto llevan la información, con sustantivo."
+  ],
+  [
+   "ADS3-L3-C8",
+   6,
+   "V",
+   "Verdadero. Cada problema necesita su evidencia."
+  ],
+  [
+   "ADS3-L3-C8",
+   7,
+   "F",
+   "Falso. Se usan cajas grises; el aspecto se decide después."
+  ],
+  [
+   "ADS3-L3-C8",
+   8,
+   "abierta",
+   "Recorrido: el estudiante completa el pedido (nombre, curso, motivo) y lo envía; recibe una confirmación; más tarde consulta el estado y ve «en preparación» o «lista». Mapa: inicio → «Pedir constancia» → «Pedido enviado» → «Estado del pedido», con flechas rotuladas con verbos; la pantalla de la secretaria en una zona propia. Un punto por el recorrido completo, uno por las tres pantallas, uno por las flechas con acción y uno por la zona de la secretaria."
+  ],
+  [
+   "ADS3-L3-C8",
+   9,
+   "abierta",
+   "Vacío: «Escribí tu número de pedido para ver cómo va.» Carga: «Buscando tu pedido…». Error: «No encontramos ese número de pedido. Revisá el número que te dieron al enviarlo.» Confirmación: «Tu constancia está lista: retirala en la secretaría a partir de las 8:00.» Un punto por estado con un mensaje que dice qué pasó y qué hacer."
+  ],
+  [
+   "ADS3-L3-C9",
+   1,
+   "b",
+   "Las reglas de negocio."
+  ],
+  [
+   "ADS3-L3-C9",
+   2,
+   "b",
+   "Una precondición."
+  ],
+  [
+   "ADS3-L3-C9",
+   3,
+   "c",
+   "Las condiciones excluyentes."
+  ],
+  [
+   "ADS3-L3-C9",
+   4,
+   "d",
+   "algo que falta diseñar."
+  ],
+  [
+   "ADS3-L3-C9",
+   5,
+   "F",
+   "Falso. Las reglas y los permisos se comprueban en el servidor, aunque alguien no use la pantalla."
+  ],
+  [
+   "ADS3-L3-C9",
+   6,
+   "V",
+   "Verdadero. Cada error tiene su mensaje en la pantalla."
+  ],
+  [
+   "ADS3-L3-C9",
+   7,
+   "F",
+   "Falso. Se descartan primero las opciones que no cumplen las condiciones excluyentes y se escriben las razones."
+  ],
+  [
+   "ADS3-L3-C9",
+   8,
+   "abierta",
+   "Entradas: código del kit, docente, cuenta. Precondición: la cuenta es de la encargada (U-3). Resultado: préstamo registrado y kit no disponible. Errores: kit incompleto (U-2), kit ya prestado, sin permiso (U-3). Un punto por entradas, uno por la precondición, uno por el resultado y uno por los errores con su fuente."
+  ],
+  [
+   "ADS3-L3-C9",
+   9,
+   "abierta",
+   "Contexto: sin internet ni presupuesto (U-4). Condiciones excluyentes: funcionar sin conexión y sin costo. Opciones: por ejemplo, aplicación local y planilla. Decisión con su razón y una consecuencia (instalación, respaldo o quién lo mantiene). Un punto por contexto, uno por las condiciones, uno por las opciones y uno por la decisión con su consecuencia. No se aceptan puntajes."
+  ],
+  [
+   "ADS3-L4-C10",
+   1,
+   "c",
+   "En las reglas de negocio, en el servidor."
+  ],
+  [
+   "ADS3-L4-C10",
+   2,
+   "a",
+   "Que el dato sigue al abrir la base con otra conexión."
+  ],
+  [
+   "ADS3-L4-C10",
+   3,
+   "d",
+   "Reiniciar con el instalador, que pide confirmación y guarda antes un respaldo verificado."
+  ],
+  [
+   "ADS3-L4-C10",
+   4,
+   "d",
+   "que lo que escribe la persona no pueda cambiar la sentencia."
+  ],
+  [
+   "ADS3-L4-C10",
+   5,
+   "V",
+   "Verdadero. Un resultado que no se obtuvo no se inventa."
+  ],
+  [
+   "ADS3-L4-C10",
+   6,
+   "F",
+   "Falso. Trae la conexión, el ingreso y los permisos; las operaciones las construye el equipo."
+  ],
+  [
+   "ADS3-L4-C10",
+   7,
+   "V",
+   "Verdadero. El permiso se comprueba primero, en el servidor (EF-3)."
+  ],
+  [
+   "ADS3-L4-C10",
+   8,
+   "abierta",
+   "Entradas: etiqueta, tipo de material, cuenta. Precondición: la cuenta es del encargado (EF-3). Resultado: material nuevo, activo. Errores: falta un dato, etiqueta con otro formato (EF-2), etiqueta repetida, sin permiso. Un punto por entradas, uno por la precondición, uno por el resultado y uno por los errores con su fuente."
+  ],
+  [
+   "ADS3-L4-C10",
+   9,
+   "abierta",
+   "Alta de un material con datos ficticios; rechazo de una etiqueta repetida o mal escrita; cerrar el sistema y volver a abrirlo (o abrir otra conexión) y encontrar el material; bitácora con versión, prueba, resultado obtenido y entorno. Un punto por cada parte."
+  ],
+  [
+   "ADS3-L4-C11",
+   1,
+   "d",
+   "Un error de permiso, sin cambiar datos."
+  ],
+  [
+   "ADS3-L4-C11",
+   2,
+   "a",
+   "Se marca inactivo y se conserva su historial."
+  ],
+  [
+   "ADS3-L4-C11",
+   3,
+   "b",
+   "En la operación, con un mensaje, y en la base, con una restricción de unicidad."
+  ],
+  [
+   "ADS3-L4-C11",
+   4,
+   "b",
+   "«El código PRY-7 no tiene el formato esperado (PRY- y dos cifras). Revisá la etiqueta.»"
+  ],
+  [
+   "ADS3-L4-C11",
+   5,
+   "F",
+   "Falso. Cualquiera puede enviar el pedido; la operación comprueba el rol en el servidor."
+  ],
+  [
+   "ADS3-L4-C11",
+   6,
+   "V",
+   "Verdadero. Corregir no cambia el historial."
+  ],
+  [
+   "ADS3-L4-C11",
+   7,
+   "F",
+   "Falso. El historial nombra ese código: no se reutiliza."
+  ],
+  [
+   "ADS3-L4-C11",
+   8,
+   "abierta",
+   "Por ejemplo: formato PRY- y dos cifras (AV-1): mensaje de formato y CHECK; código único: mensaje de código usado y UNIQUE; equipo inactivo no se presta (AV-3): rechazo en el préstamo y estado en la base. Un punto por cada regla completa y uno por citar las fuentes."
+  ],
+  [
+   "ADS3-L4-C11",
+   9,
+   "abierta",
+   "Cuenta de docente con sesión; pedido de baja enviado aunque no haya botón; error de permiso; el equipo sigue activo y su historial no cambió. Un punto por cada parte."
+  ],
+  [
+   "ADS3-L4-C12",
+   1,
+   "b",
+   "Comprobar y registrar en una operación atómica, y una restricción única en la base."
+  ],
+  [
+   "ADS3-L4-C12",
+   2,
+   "a",
+   "Permiso, estudiante, máximo y calculadora."
+  ],
+  [
+   "ADS3-L4-C12",
+   3,
+   "c",
+   "No se cambia nada y se informa que no había un préstamo activo."
+  ],
+  [
+   "ADS3-L4-C12",
+   4,
+   "d",
+   "Con una consulta que busca calculadoras con más de un préstamo activo."
+  ],
+  [
+   "ADS3-L4-C12",
+   5,
+   "F",
+   "Falso. Evita el doble clic en una pantalla, no dos mesas a la vez (CA-3)."
+  ],
+  [
+   "ADS3-L4-C12",
+   6,
+   "V",
+   "Verdadero (CA-4)."
+  ],
+  [
+   "ADS3-L4-C12",
+   7,
+   "F",
+   "Falso. Vale para el entorno en que corrió; en la del colegio queda pendiente hasta probarla."
+  ],
+  [
+   "ADS3-L4-C12",
+   8,
+   "abierta",
+   "Permiso de quien registra; estudiante existe y no tiene ya una calculadora (CA-2); calculadora existe; calculadora sin préstamo activo (CA-1); registrar. Un punto por el orden, uno por las fuentes, uno por los mensajes y uno por el registro final."
+  ],
+  [
+   "ADS3-L4-C12",
+   9,
+   "abierta",
+   "Operación atómica: el segundo pedido comprueba después de que el primero registró. Restricción única en la base: cubre un error de la operación o un dato escrito sin pasar por ella. Dos puntos por cada protección bien explicada."
+  ],
+  [
+   "ADS3-L4-C13-f",
+   1,
+   "c",
+   "El título del mapa y cuántos hay disponibles."
+  ],
+  [
+   "ADS3-L4-C13-f",
+   2,
+   "a",
+   "Vencido, porque vencía el jueves 5."
+  ],
+  [
+   "ADS3-L4-C13-f",
+   3,
+   "c",
+   "Para comprobar que la suma de los grupos coincide."
+  ],
+  [
+   "ADS3-L4-C13-f",
+   4,
+   "d",
+   "Como pendiente, con motivo y responsable."
+  ],
+  [
+   "ADS3-L4-C13-f",
+   5,
+   "F",
+   "Falso. Es un dato derivado: se cuenta en el momento, así no deja de coincidir."
+  ],
+  [
+   "ADS3-L4-C13-f",
+   6,
+   "V",
+   "Verdadero. Lo que no se admite es ocultarla o inventar un resultado."
+  ],
+  [
+   "ADS3-L4-C13-f",
+   7,
+   "F",
+   "Falso. Se agrupan por el curso que tenía al prestar."
+  ],
+  [
+   "ADS3-L4-C13-f",
+   8,
+   "abierta",
+   "Entradas: fecha de referencia y cuenta. Precondición: rol de coordinadora (MP-3). Resultado: préstamos activos con la marca de vencido si el vencimiento es anterior a la fecha de referencia (MP-2, MP-3). Errores: fecha inválida, sin préstamos activos, sin permiso. Un punto por cada parte."
+  ],
+  [
+   "ADS3-L4-C13-f",
+   9,
+   "abierta",
+   "Cada incidencia con dónde, qué pasa, gravedad, estado y destino (1 punto cada una) y su prueba reproducible (1 punto cada una)."
+  ],
+  [
+   "ADS3-L5-C14-c",
+   1,
+   "d",
+   "Con 19 inscriptos se acepta uno más; con 20, se rechaza."
+  ],
+  [
+   "ADS3-L5-C14-c",
+   2,
+   "c",
+   "La validación: el requisito no cubría la necesidad."
+  ],
+  [
+   "ADS3-L5-C14-c",
+   3,
+   "c",
+   "Pendiente, con el motivo."
+  ],
+  [
+   "ADS3-L5-C14-c",
+   4,
+   "a",
+   "Los pasos exactos, el esperado, el obtenido y el entorno."
+  ],
+  [
+   "ADS3-L5-C14-c",
+   5,
+   "F",
+   "Falso. Se escribe antes; si no, se espera lo que salió."
+  ],
+  [
+   "ADS3-L5-C14-c",
+   6,
+   "F",
+   "Falso. Los datos tienen que ser independientes."
+  ],
+  [
+   "ADS3-L5-C14-c",
+   7,
+   "V",
+   "Verdadero. El sistema tiene que rechazarlo sin cambiar datos."
+  ],
+  [
+   "ADS3-L5-C14-c",
+   8,
+   "abierta",
+   "Por ejemplo: inscripción válida (normal); 19 → se acepta y 20 → se rechaza (límites, TA-1); inscripción repetida (rechazo, TA-2); inscripción de un estudiante (rechazo, TA-3); inscripción el viernes 12:01 (límite, TA-4). Un punto por los límites, uno por los rechazos, uno por las fuentes y uno por los esperados."
+  ],
+  [
+   "ADS3-L5-C14-c",
+   9,
+   "abierta",
+   "Pantalla y operación, requisito TA-1, pasos (taller con 20, inscribir uno más), esperado (rechazo con mensaje), obtenido (registrada), gravedad, entorno y condición (reproducido si se repitió). Un punto por pasos, uno por esperado y obtenido, uno por gravedad y entorno, uno por la condición."
+  ],
+  [
+   "ADS3-L5-C15",
+   1,
+   "c",
+   "Un proceso registra una reserva y otro, después, la busca."
+  ],
+  [
+   "ADS3-L5-C15",
+   2,
+   "b",
+   "Un rechazo por permiso, sin cambiar datos."
+  ],
+  [
+   "ADS3-L5-C15",
+   3,
+   "a",
+   "Un cambio, la restauración y la comprobación de que el cambio ya no está."
+  ],
+  [
+   "ADS3-L5-C15",
+   4,
+   "d",
+   "Anota dónde se detuvo y qué buscó, sin ayudar."
+  ],
+  [
+   "ADS3-L5-C15",
+   5,
+   "F",
+   "Falso. Ahora se prueba el sistema funcionando, con tareas nuevas."
+  ],
+  [
+   "ADS3-L5-C15",
+   6,
+   "V",
+   "Verdadero. No se da por aceptado."
+  ],
+  [
+   "ADS3-L5-C15",
+   7,
+   "F",
+   "Falso. Reporta; corrige el equipo dueño del prototipo."
+  ],
+  [
+   "ADS3-L5-C15",
+   8,
+   "abierta",
+   "Reservar una franja; intentar otra reserva superpuesta del mismo espacio; esperado: rechazo con mensaje; consulta: una sola reserva en esa franja. Un punto por cada parte."
+  ],
+  [
+   "ADS3-L5-C15",
+   9,
+   "abierta",
+   "Observaciones: lo que hizo y dónde se detuvo (1 punto cada una, con su requisito). Opinión: se anota aparte y no decide (1 punto). Qué se hace: corrección priorizada o solicitud de cambio (1 punto)."
+  ],
+  [
+   "ADS3-L5-C16",
+   1,
+   "a",
+   "Reproducirlo con los pasos."
+  ],
+  [
+   "ADS3-L5-C16",
+   2,
+   "d",
+   "En la presentación."
+  ],
+  [
+   "ADS3-L5-C16",
+   3,
+   "b",
+   "Como una solicitud de cambio, con su impacto y su versión."
+  ],
+  [
+   "ADS3-L5-C16",
+   4,
+   "c",
+   "La que reproduce SO-3 y las que el cambio pudo afectar, más el núcleo."
+  ],
+  [
+   "ADS3-L5-C16",
+   5,
+   "F",
+   "Falso. La hace otro integrante."
+  ],
+  [
+   "ADS3-L5-C16",
+   6,
+   "F",
+   "Falso. Es algo que el equipo sabe y declara."
+  ],
+  [
+   "ADS3-L5-C16",
+   7,
+   "V",
+   "Verdadero (Work §4.3)."
+  ],
+  [
+   "ADS3-L5-C16",
+   8,
+   "abierta",
+   "Síntoma: la pantalla muestra «en curso» (SO-3). Causa probable: la pantalla no se actualiza después de cerrar. Capa: presentación. Impacto: la pantalla de la solicitud y quizá otras que muestren estados; regresión de SO-1 y SO-2. Un punto por cada parte."
+  ],
+  [
+   "ADS3-L5-C16",
+   9,
+   "abierta",
+   "Qué y quién (SO-4); por qué; qué cambia: SO-1 (orden de estados), la pantalla y las pruebas de transición; versión nueva del catálogo. Un punto por cada parte."
+  ],
+  [
+   "ADS3-L6-C17-e",
+   1,
+   "a",
+   "«php instalar.php» — Resultado esperado: «Base creada en:»; si ya hay una base, no la borres."
+  ],
+  [
+   "ADS3-L6-C17-e",
+   2,
+   "b",
+   "Su autor y un permiso o licencia que autorice ese uso, registrados en la ficha."
+  ],
+  [
+   "ADS3-L6-C17-e",
+   3,
+   "c",
+   "No está autorizado sin un acuerdo de los titulares: la licencia vale dentro de la institución."
+  ],
+  [
+   "ADS3-L6-C17-e",
+   4,
+   "c",
+   "Que otro equipo la instaló y restauró sin ayuda, con su acta."
+  ],
+  [
+   "ADS3-L6-C17-e",
+   5,
+   "F",
+   "Falso. Se organiza por lo que la persona quiere hacer."
+  ],
+  [
+   "ADS3-L6-C17-e",
+   6,
+   "F",
+   "Falso. Comprueba los pasos, pero no a la persona ajena al desarrollo."
+  ],
+  [
+   "ADS3-L6-C17-e",
+   7,
+   "V",
+   "Verdadero. Las licencias pueden cambiar entre versiones."
+  ],
+  [
+   "ADS3-L6-C17-e",
+   8,
+   "abierta",
+   "Un punto por cada paso completo y uno por cuidar LU-2 (sin internet: nada que se descargue durante la instalación)."
+  ],
+  [
+   "ADS3-L6-C17-e",
+   9,
+   "abierta",
+   "Recurso, autor o titular (la editorial del juego), licencia o condición (desconocida si no hay permiso), fuente y decisión (no se incluyen sin permiso). Un punto por cada parte."
+  ]
+ ],
+ "practicas": [
+  "Práctica 1 — Describir una biblioteca: hechos, supuestos y soluciones anticipadas",
+  "Práctica 2 — Dossier de relevamiento con roles",
+  "Práctica 3 — Decidir un alcance posible para otra biblioteca",
+  "Práctica 4 — Convertir pedidos de usuarios en requisitos verificables",
+  "Práctica 5 — Modelar préstamo y devolución en otra biblioteca",
+  "Práctica 6 — Trazar, planificar y cambiar el catálogo de otra biblioteca",
+  "Práctica 7 — Justificar el modelo de otra biblioteca frente a pérdida, devolución y duplicación",
+  "Práctica 8 — Observar el uso del boceto en otra biblioteca y modificarlo con evidencia",
+  "Práctica 9 — Contrato de devolución y entorno para otra biblioteca (complemento editorial)",
+  "Práctica 10 — Demostrar una operación en la computadora de Mbokaja",
+  "Práctica 11 — Un lote de libros donados y lectores con datos incompletos",
+  "Práctica 12 — Dos voluntarios, el mismo libro y un libro dañado",
+  "Práctica 13 — Una semana en Mbokaja: integración e incidencias (complemento editorial)",
+  "Práctica 14 — Una batería nueva de pruebas para Mbokaja",
+  "Práctica 15 — Revisión cruzada entre equipos con datos reservados",
+  "Práctica 17 — El paquete del voluntario para Mbokaja"
+ ],
+ "figuras": {
+  "1": {
+   "fig_1_1": "build/figs/lote_1/figs/fig_1_1_sistema_prestamos.png",
+   "fig_1_2": "build/figs/lote_1/figs/fig_1_2_mapa_interesados.png",
+   "fig_2_1": "build/figs/lote_1/figs/fig_2_1_proceso_relevamiento.png",
+   "fig_2_2": "build/figs/lote_1/figs/fig_2_2_contraste_fuentes.png",
+   "fig_3_1": "build/figs/lote_1/figs/fig_3_1_mapa_riesgos.png"
+  },
+  "2": {
+   "fig_4_1": "build/figs/lote_2/fig_4_1_tipos_de_requisito.png",
+   "fig_4_2": "build/figs/lote_2/fig_4_2_cadena_de_trazabilidad.png",
+   "fig_5_1": "build/figs/lote_2/fig_5_1_proceso_actual.png",
+   "fig_5_2": "build/figs/lote_2/fig_5_2_proceso_propuesto.png",
+   "fig_5_3": "build/figs/lote_2/fig_5_3_contexto.png",
+   "fig_5_4": "build/figs/lote_2/fig_5_4_casos_de_uso.png",
+   "fig_6_1": "build/figs/lote_2/fig_6_1_cadena_extendida.png",
+   "fig_6_2": "build/figs/lote_2/fig_6_2_impacto_del_cambio.png",
+   "sim:actividad_inicial": "build/figs/lote_2/simbolo_actividad_inicial.png",
+   "sim:actividad_accion": "build/figs/lote_2/simbolo_actividad_accion.png",
+   "sim:actividad_decision": "build/figs/lote_2/simbolo_actividad_decision.png",
+   "sim:actividad_flujo": "build/figs/lote_2/simbolo_actividad_flujo.png",
+   "sim:actividad_final": "build/figs/lote_2/simbolo_actividad_final.png",
+   "sim:actividad_carril": "build/figs/lote_2/simbolo_actividad_carril.png",
+   "sim:contexto_sistema": "build/figs/lote_2/simbolo_contexto_sistema.png",
+   "sim:contexto_entidad": "build/figs/lote_2/simbolo_contexto_entidad.png",
+   "sim:contexto_flujo": "build/figs/lote_2/simbolo_contexto_flujo.png",
+   "sim:cu_actor": "build/figs/lote_2/simbolo_cu_actor.png",
+   "sim:cu_caso": "build/figs/lote_2/simbolo_cu_caso.png",
+   "sim:cu_limite": "build/figs/lote_2/simbolo_cu_limite.png",
+   "sim:cu_asociacion": "build/figs/lote_2/simbolo_cu_asociacion.png"
+  },
+  "3": {
+   "fig_7_1": "build/figs/lote_3/fig_7_1_modelo_de_datos.png",
+   "fig_7_2": "build/figs/lote_3/fig_7_2_obra_ediciones_ejemplares.png",
+   "fig_7_3": "build/figs/lote_3/fig_7_3_historial_del_ejemplar.png",
+   "fig_8_1": "build/figs/lote_3/fig_8_1_mapa_de_navegacion.png",
+   "fig_8_2": "build/figs/lote_3/fig_8_2_bocetos_de_tres_tareas.png",
+   "fig_8_3": "build/figs/lote_3/fig_8_3_estados_de_una_pantalla.png",
+   "fig_9_1": "build/figs/lote_3/fig_9_1_esquema_de_capas.png",
+   "sim:der_entidad": "build/figs/lote_3/simbolo_der_entidad.png",
+   "sim:der_relacion": "build/figs/lote_3/simbolo_der_relacion.png",
+   "sim:der_cardinalidad": "build/figs/lote_3/simbolo_der_cardinalidad.png",
+   "sim:der_linea": "build/figs/lote_3/simbolo_der_linea.png",
+   "sim:nav_pantalla": "build/figs/lote_3/simbolo_nav_pantalla.png",
+   "sim:nav_transicion": "build/figs/lote_3/simbolo_nav_transicion.png",
+   "sim:nav_inicio": "build/figs/lote_3/simbolo_nav_inicio.png",
+   "sim:nav_zona": "build/figs/lote_3/simbolo_nav_zona.png",
+   "sim:boc_marco": "build/figs/lote_3/simbolo_boc_marco.png",
+   "sim:boc_campo": "build/figs/lote_3/simbolo_boc_campo.png",
+   "sim:boc_boton": "build/figs/lote_3/simbolo_boc_boton.png",
+   "sim:boc_mensaje": "build/figs/lote_3/simbolo_boc_mensaje.png",
+   "sim:capa_banda": "build/figs/lote_3/simbolo_capa_banda.png",
+   "sim:capa_operacion": "build/figs/lote_3/simbolo_capa_operacion.png"
+  },
+  "4": {
+   "fig_10_2": "build/figs/lote_4/fig_10_2_recorrido_por_capas.png",
+   "fig_10_1": "build/figs/lote_4/fig_10_1_estructura_de_carpetas.png",
+   "fig_12_1": "build/figs/lote_4/fig_12_1_dos_pedidos_simultaneos.png",
+   "fig_13_1": "build/figs/lote_4/fig_13_1_vencidos_y_fecha_de_referencia.png",
+   "sim:capa_banda": "build/figs/lote_4/simbolo_capa_banda.png",
+   "sim:capa_operacion": "build/figs/lote_4/simbolo_capa_operacion.png"
+  },
+  "5": {
+   "fig_14_1": "build/figs/lote_5/fig_14_1_casos_alrededor_del_limite.png",
+   "fig_14_2": "build/figs/lote_5/fig_14_2_del_caso_al_reporte.png",
+   "fig_16_1": "build/figs/lote_5/fig_16_1_ciclo_de_una_correccion.png"
+  },
+  "6": {
+   "fig_17_1": "build/figs/lote_6/fig_17_1_de_la_guia_al_acta.png",
+   "fig_18_1": "build/figs/lote_6/fig_18_1_demostracion_por_requisitos.png"
+  }
+ }
+}
