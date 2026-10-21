@@ -4,11 +4,11 @@
   "1. Filas de tablas": [
    {
     "resultado": "correcto",
-    "detalle": "libro: 35 tablas de 2 o más columnas, todas con todas sus filas impresas (258 filas)"
+    "detalle": "libro: 35 tablas de 2 o más columnas, todas con todas sus filas impresas (259 filas)"
    },
    {
     "resultado": "correcto",
-    "detalle": "guia: 42 tablas de 2 o más columnas, todas con todas sus filas impresas (229 filas)"
+    "detalle": "guia: 42 tablas de 2 o más columnas, todas con todas sus filas impresas (231 filas)"
    },
    {
     "resultado": "correcto",
@@ -23,6 +23,10 @@
    {
     "resultado": "correcto",
     "detalle": "libro: «Tabla 8.3 — Pantallas, zonas y requisitos», págs. [16, 17]: 10 de 10 filas, encabezado repetido 1 vez/veces"
+   },
+   {
+    "resultado": "correcto",
+    "detalle": "libro: «Tabla 8.6 — Mensajes y estados, desde los flujos alternativos», págs. [20, 21]: 14 de 14 filas, encabezado repetido 1 vez/veces"
    },
    {
     "resultado": "correcto",
@@ -63,6 +67,20 @@
    {
     "resultado": "correcto",
     "detalle": "cuaderno: ninguna palabra de celda partida en el PDF"
+   }
+  ],
+  "6. Cortes de tabla": [
+   {
+    "resultado": "correcto",
+    "detalle": "libro: 5 tablas repartidas, ninguna deja menos de dos filas de datos en una página"
+   },
+   {
+    "resultado": "correcto",
+    "detalle": "guia: 1 tablas repartidas, ninguna deja menos de dos filas de datos en una página"
+   },
+   {
+    "resultado": "correcto",
+    "detalle": "cuaderno: 0 tablas repartidas, ninguna deja menos de dos filas de datos en una página"
    }
   ],
   "3. Figuras": [
@@ -352,12 +370,13 @@
      "n": 21,
      "rotulo": "Tabla 8.6 — Mensajes y estados, desde los flujos alternativos",
      "primera_celda": "Código",
-     "filas_docx": 13,
-     "filas_impresas": 13,
+     "filas_docx": 14,
+     "filas_impresas": 14,
      "paginas": [
-      20
+      20,
+      21
      ],
-     "encabezado_repetido": 0,
+     "encabezado_repetido": 1,
      "filas_faltantes": []
     },
     {
@@ -728,8 +747,8 @@
      "n": 17,
      "rotulo": "Errores frecuentes con el mapa y los bocetos",
      "primera_celda": "Error frecuente",
-     "filas_docx": 7,
-     "filas_impresas": 7,
+     "filas_docx": 9,
+     "filas_impresas": 9,
      "paginas": [
       7
      ],

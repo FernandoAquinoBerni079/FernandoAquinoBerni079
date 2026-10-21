@@ -139,7 +139,10 @@ assert INFORME[1][-1][2] == '112'
 # ================================================================== Capítulo 8: interacción
 ZONAS = [('Pública', 'Cualquier persona, sin iniciar sesión'),
          ('Bibliotecaria', 'Solo con sesión de la bibliotecaria o su reemplazo'),
-         ('Dirección', 'Solo con sesión de la dirección')]
+         ('Bibliotecaria o dirección', 'Con sesión de la bibliotecaria (o su reemplazo) o de la dirección; el servidor comprueba el rol en cada pedido')]
+# Roles que pueden ver cada zona (v1.1, cierre de la auditoría del lote 3): el informe mensual lo consultan la
+# bibliotecaria y la dirección, con autorización comprobada por el servidor.
+ROLES_ZONA = {'Pública': [], 'Bibliotecaria': ['bibliotecaria'], 'Bibliotecaria o dirección': ['bibliotecaria', 'dirección']}
 # (código, nombre, zona, qué muestra, requisitos)
 PANTALLAS = [
     ('PT-01', 'Buscar un título', 'Pública', 'Un campo «Título o parte del título» y el botón «Buscar».', ['RF-07']),
@@ -150,7 +153,7 @@ PANTALLAS = [
     ('PT-06', 'Registrar devolución', 'Bibliotecaria', 'Código del ejemplar, su préstamo activo con el lector y «Confirmar devolución».', ['RF-03', 'RF-08']),
     ('PT-07', 'Préstamos activos y vencidos', 'Bibliotecaria', 'Qué lector tiene cada ejemplar y cuáles están vencidos a la fecha.', ['RF-08']),
     ('PT-08', 'Lectores y ejemplares', 'Bibliotecaria', 'Alta, tipo y curso del lector; alta e inactivación de lectores y ejemplares.', ['RF-10', 'RF-11']),
-    ('PT-09', 'Informe mensual por curso', 'Dirección', 'El mes elegido y los préstamos por curso, más la fila «Docentes».', ['RF-09']),
+    ('PT-09', 'Informe mensual por curso', 'Bibliotecaria o dirección', 'El mes elegido y los préstamos por curso, más la fila «Docentes».', ['RF-09']),
 ]
 PANTALLA = {p[0]: p for p in PANTALLAS}
 INICIO = 'PT-01'
@@ -162,7 +165,8 @@ TRANSICIONES = [
     ('PT-04', 'PT-08', 'Gestionar lectores'), ('PT-04', 'PT-09', 'Ver informe'),
 ]
 NOTA_MAPA = ('Cada pantalla de la bibliotecaria vuelve a PT-04 con «Volver al inicio», y cada zona con sesión tiene '
-             '«Salir», que vuelve a PT-01. No se dibujan para que el mapa se pueda leer.')
+             '«Salir», que vuelve a PT-01. No se dibujan para que el mapa se pueda leer. PT-09 está en la zona que comparten '
+             'la bibliotecaria y la dirección: las dos consultan el informe y el servidor comprueba el rol en cada pedido.')
 
 # Recorridos de las tres tareas (C6): (caso de uso, [(paso de la plantilla, pantalla, lo que hace la persona, lo que responde el sistema)])
 RECORRIDOS = [
@@ -193,8 +197,11 @@ MENSAJES = [
     ('ME-09', 'PT-02', 'vacío', 'CU-03, flujo 4a', '0 disponibles por ahora.', ['RF-07', 'RNF-03']),
     ('ME-10', 'PT-07', 'vacío', 'Sin préstamos activos', 'No hay préstamos activos.', ['RF-08']),
     ('ME-11', 'PT-02, PT-05, PT-06', 'carga', 'Mientras el sistema busca o guarda', 'Buscando… / Guardando… (y el botón queda desactivado para no enviarlo dos veces).', ['RS-01']),
-    ('ME-12', 'PT-03', 'error', 'Usuario o contraseña incorrectos', 'No pudimos iniciar la sesión. Revisá el usuario y la contraseña.', ['RNF-02']),
+    ('ME-12', 'PT-03', 'error', 'Usuario o contraseña incorrectos (autenticación)', 'No pudimos iniciar la sesión. Revisá el usuario y la contraseña.', ['RNF-02']),
+    ('ME-13', 'PT-05 a PT-09', 'error', 'La cuenta no tiene permiso para esa operación (autorización)', 'No tenés permiso para hacer esta operación con tu cuenta. Si la necesitás, consultá con la dirección.', ['RNF-02']),
 ]
+# ME-12 es solo de autenticación (inicio de sesión); ME-13, de autorización (operación sin permiso).
+AUTENTICACION, AUTORIZACION = 'ME-12', 'ME-13'
 MENSAJE = {m[0]: m for m in MENSAJES}
 REGLA_MENSAJE = 'Un buen mensaje dice qué pasó, por qué pasó y qué puede hacer la persona.'
 
@@ -211,7 +218,7 @@ ACCESIBILIDAD = [
 
 # ================================================================== Capítulo 9: arquitectura
 CAPAS = [
-    ('Presentación', 'Muestra pantallas, recibe lo que la persona escribe y muestra los mensajes.', 'PT-01 a PT-09, ME-01 a ME-12'),
+    ('Presentación', 'Muestra pantallas, recibe lo que la persona escribe y muestra los mensajes.', 'PT-01 a PT-09, ME-01 a ME-13'),
     ('Reglas de negocio', 'Decide si una operación se puede hacer: comprueba permisos, reglas y restricciones.', 'OP-01 a OP-06, RI-01 a RI-08'),
     ('Persistencia', 'Guarda y recupera los datos; protege RI-01 y el historial aunque falle otra capa.', 'Entidades del Capítulo 7'),
 ]
@@ -221,13 +228,13 @@ OPERACIONES = [
      'Código del lector, código del ejemplar, cuenta que opera.',
      'La cuenta tiene rol de bibliotecaria (RNF-02).',
      'Existe un préstamo nuevo con fecha de salida de hoy, el curso del estudiante si corresponde (RI-08) y el vencimiento con el plazo vigente (RI-07). El ejemplar deja de estar disponible. Si dos pedidos llegan a la vez por el mismo ejemplar, se registra solo uno (RI-01).',
-     ['ME-01 (lector inactivo, RI-03)', 'ME-02 (máximo del tipo, RI-02)', 'ME-03 (ejemplar ya prestado, RI-01)', 'ME-05 (ejemplar inexistente)', 'ME-12 (sin permiso)'],
+     ['ME-01 (lector inactivo, RI-03)', 'ME-02 (máximo del tipo, RI-02)', 'ME-03 (ejemplar ya prestado, RI-01)', 'ME-05 (ejemplar inexistente)', 'ME-13 (sin permiso)'],
      ['RF-01', 'RF-02', 'RF-04', 'RF-05', 'RF-06', 'RF-11', 'RNF-02']),
     ('OP-02', 'registrar devolución',
      'Código del ejemplar, cuenta que opera.',
      'La cuenta tiene rol de bibliotecaria (RNF-02).',
      'El préstamo sin devolución de ese ejemplar tiene ahora la fecha de devolución de hoy (RI-04). No se borra ningún dato. El ejemplar vuelve a estar disponible.',
-     ['ME-05 (ejemplar inexistente)', 'ME-06 (sin préstamo activo)', 'ME-12 (sin permiso)'],
+     ['ME-05 (ejemplar inexistente)', 'ME-06 (sin préstamo activo)', 'ME-13 (sin permiso)'],
      ['RF-03', 'RF-08', 'RNF-02']),
     ('OP-03', 'consultar disponibilidad',
      'Texto del título, o parte de él.',
@@ -239,22 +246,26 @@ OPERACIONES = [
      'Fecha de referencia, cuenta que opera.',
      'Rol de bibliotecaria.',
      'Los préstamos sin devolución, con el ejemplar y el lector, y marcados los vencidos a la fecha de referencia.',
-     ['ME-10 (no hay préstamos activos)', 'ME-12 (sin permiso)'],
+     ['ME-10 (no hay préstamos activos)', 'ME-13 (sin permiso)'],
      ['RF-08', 'RNF-02']),
     ('OP-05', 'informe mensual por curso',
      'Mes y año, cuenta que opera.',
-     'Rol de dirección o de bibliotecaria.',
+     'Rol de bibliotecaria o de dirección, comprobado por el servidor (RNF-02).',
      'Los préstamos del mes agrupados por curso al prestar, más la fila «Docentes», y el total contado de nuevo.',
-     ['ME-12 (sin permiso)'],
+     ['ME-13 (sin permiso)'],
      ['RF-09', 'RF-11', 'RNF-02']),
     ('OP-06', 'inactivar lector o ejemplar',
      'Código del lector o del ejemplar, cuenta que opera.',
      'Rol de bibliotecaria.',
      'El lector o el ejemplar queda inactivo. Su historial no cambia (RI-05).',
-     ['ME-12 (sin permiso)'],
+     ['ME-13 (sin permiso)'],
      ['RF-10', 'RNF-02']),
 ]
 OPERACION = {o[0]: o for o in OPERACIONES}
+# Roles que puede usar cada operación y operación que pide cada pantalla (controlados contra ROLES_ZONA).
+ROLES_OP = {'OP-01': ['bibliotecaria'], 'OP-02': ['bibliotecaria'], 'OP-03': [], 'OP-04': ['bibliotecaria'],
+            'OP-05': ['bibliotecaria', 'dirección'], 'OP-06': ['bibliotecaria']}
+PANTALLA_OP = {'PT-02': 'OP-03', 'PT-05': 'OP-01', 'PT-06': 'OP-02', 'PT-07': 'OP-04', 'PT-08': 'OP-06', 'PT-09': 'OP-05'}
 PRIORITARIAS = ['OP-01', 'OP-02', 'OP-03']
 
 DT01 = [
@@ -282,7 +293,7 @@ COHERENCIA = [
     ('RF-10', 'Estado de Lector y Ejemplar, RI-05', 'PT-08', 'OP-06', 'P-10'),
     ('RF-11', 'Lector.tipo, RI-02, RI-06', 'PT-08, ME-02', 'OP-01, OP-05', 'P-06'),
     ('RNF-01', '—', 'PT-04 a PT-07; A-01 a A-08', '—', 'P-14'),
-    ('RNF-02', 'Cuenta', 'PT-03, ME-12; zonas', 'Todas las de la bibliotecaria', 'P-11'),
+    ('RNF-02', 'Cuenta', 'PT-03, ME-12, ME-13; zonas', 'OP-01, OP-02, OP-04, OP-05, OP-06', 'P-11'),
     ('RNF-03', 'Lector.código interno', 'PT-02, ME-09', 'OP-03', 'P-12'),
     ('RS-01', '—', 'ME-11', 'DT-01', 'P-13'),
     ('RS-02', '—', '—', 'DT-01', 'P-15'),

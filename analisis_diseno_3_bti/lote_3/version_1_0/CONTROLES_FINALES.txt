@@ -1,0 +1,21 @@
+Consider using the pymupdf_layout package for a greatly improved page layout analysis.
+CORRECTO [1. Filas de tablas] libro: 35 tablas de 2 o más columnas, todas con todas sus filas impresas (258 filas)
+CORRECTO [1. Tablas repartidas entre páginas] libro: «Tabla 7.5 — Diccionario de datos del núcleo», págs. [8, 9]: 26 de 26 filas, encabezado repetido 1 vez/veces
+CORRECTO [1. Tablas repartidas entre páginas] libro: «Tabla 8.3 — Pantallas, zonas y requisitos», págs. [16, 17]: 10 de 10 filas, encabezado repetido 1 vez/veces
+CORRECTO [1. Tablas repartidas entre páginas] libro: «Tabla 9.3 — Operaciones del núcleo», págs. [27, 28]: 7 de 7 filas, encabezado repetido 1 vez/veces
+CORRECTO [1. Tablas repartidas entre páginas] libro: «Tabla 9.6 — Matriz de coherencia del catálogo v1.1», págs. [29, 30]: 17 de 17 filas, encabezado repetido 1 vez/veces
+CORRECTO [2. Párrafos impresos] libro: ningún párrafo del DOCX falta en el PDF
+CORRECTO [2. Palabras enteras] libro: ninguna palabra de celda partida en el PDF
+CORRECTO [1. Filas de tablas] guia: 42 tablas de 2 o más columnas, todas con todas sus filas impresas (229 filas)
+CORRECTO [1. Tablas repartidas entre páginas] guia: «Clave de la evaluación del capítulo 9», págs. [12, 13]: 10 de 10 filas, encabezado repetido 1 vez/veces
+CORRECTO [2. Párrafos impresos] guia: ningún párrafo del DOCX falta en el PDF
+CORRECTO [2. Palabras enteras] guia: ninguna palabra de celda partida en el PDF
+CORRECTO [1. Filas de tablas] cuaderno: 7 tablas de 2 o más columnas, todas con todas sus filas impresas (43 filas)
+CORRECTO [2. Párrafos impresos] cuaderno: ningún párrafo del DOCX falta en el PDF
+CORRECTO [2. Palabras enteras] cuaderno: ninguna palabra de celda partida en el PDF
+CORRECTO [3. Figuras] las 7 figuras impresas, cada una con su imagen encima de su epígrafe, en la misma página: Figura 7.1 pág. 5, Figura 7.2 pág. 6, Figura 7.3 pág. 8, Figura 8.1 pág. 16, Figura 8.2 pág. 18, Figura 8.3 pág. 20, Figura 9.1 pág. 27
+CORRECTO [3. Figuras] imágenes dibujadas en el libro: 21 (7 figuras y los 14 símbolos de las cuatro leyendas)
+CORRECTO [4. Índice] 29 entradas; cada una en la página que indica
+CORRECTO [5. Márgenes espejados] impares con el interior (2,5 cm) a la izquierda y pares a la derecha: [(4, 1.8, 2.41), (5, 2.5, 1.71), (6, 1.8, 2.41), (7, 2.5, 1.71), (8, 1.8, 2.41), (9, 2.5, 1.71), (10, 1.8, 2.41), (11, 2.5, 1.71)]
+
+Resultado: 18 controles, 0 fallos

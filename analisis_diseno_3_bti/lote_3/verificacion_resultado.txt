@@ -26,9 +26,9 @@ CORRECTO [B] Capítulo 9: capacidades C5, C6 de Work §5.2, con su texto de §4.
 CORRECTO [B] Capítulo 7: C9 solo como articulación, sin atribuirla a Work (no figura en la capacidad del capítulo)
 CORRECTO [B] Capítulo 9: el H3 evalúa C1 a C7
 CORRECTO [B] Ninguna capacidad presentada como oficial del MEC
-CORRECTO [C] libro: los 151 códigos citados (dossier, requisitos, reglas, diseño, Mbokaja, evaluación) existen
+CORRECTO [C] libro: los 152 códigos citados (dossier, requisitos, reglas, diseño, Mbokaja, evaluación) existen
 CORRECTO [C] libro: 2 citas textuales «…» (código) coinciden con la línea citada
-CORRECTO [C] guía: los 84 códigos citados (dossier, requisitos, reglas, diseño, Mbokaja, evaluación) existen
+CORRECTO [C] guía: los 85 códigos citados (dossier, requisitos, reglas, diseño, Mbokaja, evaluación) existen
 CORRECTO [C] guía: 4 citas textuales «…» (código) coinciden con la línea citada
 CORRECTO [C] cuaderno: los 37 códigos citados (dossier, requisitos, reglas, diseño, Mbokaja, evaluación) existen
 CORRECTO [C] cuaderno: 0 citas textuales «…» (código) coinciden con la línea citada
@@ -51,7 +51,7 @@ CORRECTO [N] Ejemplo resuelto 7.1 y Práctica 7 trabajan la distinción obra/eje
 CORRECTO [D] Catálogo v1.1: 16 requisitos (los 15 de la v1.0 y RF-11 de SC-01)
 CORRECTO [D] RN-02 v1.1 (máximo de cinco para los docentes) reemplaza a la v1.0
 CORRECTO [D] Matriz de coherencia: una fila por cada requisito del catálogo v1.1, sin repetir (RF-11 junto a los funcionales)
-CORRECTO [D] Matriz de coherencia: los 52 códigos de datos, interfaz, operación y prueba existen
+CORRECTO [D] Matriz de coherencia: los 53 códigos de datos, interfaz, operación y prueba existen
 CORRECTO [D] Matriz de coherencia: la prueba de cada requisito es la de la matriz del Capítulo 6 (RF-11 usa P-06, desdoblada por SC-01)
 CORRECTO [D] Matriz de coherencia: cada «—» es de un requisito de calidad o una restricción del entorno
 CORRECTO [D] RF-11 tiene respuesta en datos (Lector.tipo), interfaz (PT-08, ME-02) y operaciones (OP-01, OP-05)
@@ -64,7 +64,7 @@ CORRECTO [M] CU-02, flujo 1a tiene su estado y su mensaje en el Capítulo 8 (ME-
 CORRECTO [M] CU-02, flujo 2a tiene su estado y su mensaje en el Capítulo 8 (ME-06) y su error en un contrato del Capítulo 9
 CORRECTO [M] CU-03, flujo 2a tiene su estado y su mensaje en el Capítulo 8 (ME-08) y su error en un contrato del Capítulo 9
 CORRECTO [M] CU-03, flujo 4a tiene su estado y su mensaje en el Capítulo 8 (ME-09) y su error en un contrato del Capítulo 9
-CORRECTO [M] Cada mensaje de error de las pantallas de la bibliotecaria es un error de algún contrato
+CORRECTO [M] Cada mensaje de error, salvo el de inicio de sesión (ME-12), es un error de algún contrato
 CORRECTO [M] Cada error de contrato tiene su mensaje en la Tabla 8.6
 CORRECTO [M] Mensajes con la regla de 8.3 (qué pasó, por qué y qué hacer): los de error dicen qué hacer
 CORRECTO [M] Recorridos: los pasos citados existen en las plantillas de CU-01 a CU-03 y las pantallas, en el mapa
@@ -104,11 +104,11 @@ CORRECTO [F] cuaderno: sin símbolos ✓ ✗
 CORRECTO [F] cuaderno: sin marcadores sin reemplazar
 CORRECTO [F] cuaderno: no se declara apto ni aprobado para la venta
 CORRECTO [G] libro: oficio 21,59 × 33,02 cm, márgenes O3 y espejados
-CORRECTO [G] libro: 379 filas de tabla, todas «no dividir»
+CORRECTO [G] libro: 380 filas de tabla, todas «no dividir»
 CORRECTO [G] libro: 35 tablas de varias columnas al ancho útil (17,29 cm)
 CORRECTO [G] libro: toda tabla de datos repite su encabezado (las únicas sin encabezado son las fichas)
 CORRECTO [G] guía: oficio 21,59 × 33,02 cm, márgenes O3 y espejados
-CORRECTO [G] guía: 245 filas de tabla, todas «no dividir»
+CORRECTO [G] guía: 247 filas de tabla, todas «no dividir»
 CORRECTO [G] guía: 42 tablas de varias columnas al ancho útil (17,29 cm)
 CORRECTO [G] guía: toda tabla de datos repite su encabezado (las únicas sin encabezado son las fichas)
 CORRECTO [G] cuaderno: oficio 21,59 × 33,02 cm, márgenes O3 y espejados
@@ -197,7 +197,23 @@ CORRECTO [L] Cada símbolo usado en una figura figura en la leyenda del libro y 
 CORRECTO [L] Leyendas antes de la primera figura de cada notación
 CORRECTO [L] Guía: errores frecuentes de cada notación
 CORRECTO [L] Prueba del control: una figura que mezcla notaciones detiene la generación
+CORRECTO [R] Cada zona del mapa tiene sus roles definidos y cada pantalla está en una zona que existe
+CORRECTO [R] Cada operación tiene sus roles definidos y cada pantalla con operación la nombra
+CORRECTO [R] Sin contradicciones entre zonas y contratos: los roles de la zona de cada pantalla son los que admite su operación
+CORRECTO [R] La precondición de cada contrato nombra exactamente los roles permitidos (o dice que es pública)
+CORRECTO [R] Cada ingreso desde PT-03 lleva a una zona que admite el rol con que se ingresa
+CORRECTO [R] Cada rol de una zona llega a sus pantallas por el mapa (PT-09: bibliotecaria por «Ver informe» y dirección al ingresar)
+CORRECTO [R] PT-09 y OP-05: los consultan la bibliotecaria y la dirección, con el rol comprobado por el servidor
+CORRECTO [R] ME-12 es solo de autenticación: se muestra en PT-03 por usuario o contraseña incorrectos
+CORRECTO [R] ME-13 es el de autorización: acceso denegado, distinto de ME-12 y fuera de PT-03
+CORRECTO [R] Ningún contrato usa el mensaje de autenticación (ME-12) para un error de autorización
+CORRECTO [R] Toda operación con roles tiene ME-13 entre sus errores, y la pública no
+CORRECTO [R] Ningún texto del libro, la guía, el cuaderno ni los contratos asocia ME-12 con falta de permiso
+CORRECTO [R] Prueba de los controles: detectan una zona exclusiva, un contrato con otros roles y ME-12 usado como «sin permiso»
+CORRECTO [R] La matriz de coherencia, la Tabla 8.6 y el libro incluyen ME-13
+CORRECTO [R] Leyenda del mapa: la zona agrupa las pantallas de un rol o de un grupo de roles (libro y guía)
 CORRECTO [Q] git: ningún archivo de lote_1, lote_1_oficio_candidata ni lote_2 cambió ni se agregó
+CORRECTO [Q] Versión 1.0 conservada: los seis DOCX y PDF de version_1_0/ coinciden con su manifiesto SHA-256
 
 Resultado por bloque:
   A: 16 correctos, 0 fallos
@@ -214,5 +230,6 @@ Resultado por bloque:
   I: 25 correctos, 0 fallos
   J: 19 correctos, 0 fallos
   L: 16 correctos, 0 fallos
-  Q: 1 correctos, 0 fallos
-Resultado: 200 correctos, 0 fallos
+  R: 15 correctos, 0 fallos
+  Q: 2 correctos, 0 fallos
+Resultado: 216 correctos, 0 fallos

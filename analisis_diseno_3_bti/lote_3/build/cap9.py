@@ -102,7 +102,7 @@ EJ91 = ('Ejemplo resuelto 9.1: el contrato de «registrar préstamo»', [
     'Consigna: escribir el contrato de OP-01 a partir de CU-01, de las restricciones del Capítulo 7 y de los mensajes del '
     'Capítulo 8.',
     'Entradas: los dos campos de PT-05 (código del lector y del ejemplar) y la cuenta que opera.',
-    'Precondición: la cuenta es de la bibliotecaria (RNF-02). Si no, error ME-12, y la operación no hace nada.',
+    'Precondición: la cuenta es de la bibliotecaria (RNF-02). Si no, error ME-13 (sin permiso), y la operación no hace nada. ME-12 es otro error: usuario o contraseña incorrectos al ingresar.',
     'Errores: uno por cada flujo alternativo de CU-01 (4a, 4b, 5a), con su mensaje (ME-01, ME-02, ME-03), más el ejemplar '
     'inexistente (ME-05).',
     'Resultado: un préstamo nuevo, con la fecha de hoy, el curso si es estudiante (RI-08) y el vencimiento con el plazo '

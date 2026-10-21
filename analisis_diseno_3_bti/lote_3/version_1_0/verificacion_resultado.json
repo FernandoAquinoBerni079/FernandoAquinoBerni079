@@ -1,0 +1,1068 @@
+{
+ "correctos": 200,
+ "fallos": 0,
+ "bloques": {
+  "A": [
+   16,
+   0
+  ],
+  "B": [
+   12,
+   0
+  ],
+  "C": [
+   11,
+   0
+  ],
+  "N": [
+   11,
+   0
+  ],
+  "D": [
+   9,
+   0
+  ],
+  "M": [
+   14,
+   0
+  ],
+  "P": [
+   10,
+   0
+  ],
+  "E": [
+   7,
+   0
+  ],
+  "F": [
+   15,
+   0
+  ],
+  "G": [
+   13,
+   0
+  ],
+  "H": [
+   21,
+   0
+  ],
+  "I": [
+   25,
+   0
+  ],
+  "J": [
+   19,
+   0
+  ],
+  "L": [
+   16,
+   0
+  ],
+  "Q": [
+   1,
+   0
+  ]
+ },
+ "controles": [
+  {
+   "bloque": "A",
+   "control": "Capítulo 7: título de Work «Datos que representan las reglas»",
+   "resultado": "correcto"
+  },
+  {
+   "bloque": "A",
+   "control": "Capítulo 7: encuentros (13, 14)",
+   "resultado": "correcto"
+  },
+  {
+   "bloque": "A",
+   "control": "Capítulo 7: secciones de Work §6, textuales y en orden",
+   "resultado": "correcto"
+  },
+  {
+   "bloque": "A",
+   "control": "Capítulo 7: práctica de Work («justificar el modelo frente a pérdida, devolución y duplicación de solicitudes»)",
+   "resultado": "correcto"
+  },
+  {
+   "bloque": "A",
+   "control": "Capítulo 8: título de Work «Diseñar para las tareas de las personas»",
+   "resultado": "correcto"
+  },
+  {
+   "bloque": "A",
+   "control": "Capítulo 8: encuentros (15, 16)",
+   "resultado": "correcto"
+  },
+  {
+   "bloque": "A",
+   "control": "Capítulo 8: secciones de Work §6, textuales y en orden",
+   "resultado": "correcto"
+  },
+  {
+   "bloque": "A",
+   "control": "Capítulo 8: práctica de Work («observar el uso del boceto y modificarlo con evidencia»)",
+   "resultado": "correcto"
+  },
+  {
+   "bloque": "A",
+   "control": "Capítulo 9: título de Work «Arquitectura y revisión del diseño»",
+   "resultado": "correcto"
+  },
+  {
+   "bloque": "A",
+   "control": "Capítulo 9: encuentros (17, 18)",
+   "resultado": "correcto"
+  },
+  {
+   "bloque": "A",
+   "control": "Capítulo 9: secciones de Work §6, textuales y en orden",
+   "resultado": "correcto"
+  },
+  {
+   "bloque": "A",
+   "control": "Capítulo 9 cierra con la evaluación integradora de la primera etapa y el H3 (Work: «Evaluación integradora de la primera etapa: defensa y corrección del dossier; H3»)",
+   "resultado": "correcto"
+  },
+  {
+   "bloque": "A",
+   "control": "Orden: apertura de la Unidad III y Capítulos 7, 8 y 9",
+   "resultado": "correcto"
+  },
+  {
+   "bloque": "A",
+   "control": "Apertura con el resultado de Work §5.1 («modelo de datos, interacción y arquitectura revisados»)",
+   "resultado": "correcto"
+  },
+  {
+   "bloque": "A",
+   "control": "Encuentros 13 a 18 como títulos, en orden",
+   "resultado": "correcto"
+  },
+  {
+   "bloque": "A",
+   "control": "Fuera del lote: ningún título de la Unidad IV ni de los Capítulos 10 a 18",
+   "resultado": "correcto"
+  },
+  {
+   "bloque": "B",
+   "control": "Capítulo 7: rótulo «propuesta(s) para el programa institucional» y «no oficial del MEC»",
+   "resultado": "correcto"
+  },
+  {
+   "bloque": "B",
+   "control": "Capítulo 7: el rótulo figura en la ficha del libro y de la guía",
+   "resultado": "correcto"
+  },
+  {
+   "bloque": "B",
+   "control": "Capítulo 7: capacidades C5 de Work §5.2, con su texto de §4.2",
+   "resultado": "correcto"
+  },
+  {
+   "bloque": "B",
+   "control": "Capítulo 8: rótulo «propuesta(s) para el programa institucional» y «no oficial del MEC»",
+   "resultado": "correcto"
+  },
+  {
+   "bloque": "B",
+   "control": "Capítulo 8: el rótulo figura en la ficha del libro y de la guía",
+   "resultado": "correcto"
+  },
+  {
+   "bloque": "B",
+   "control": "Capítulo 8: capacidades C6, C9 de Work §5.2, con su texto de §4.2",
+   "resultado": "correcto"
+  },
+  {
+   "bloque": "B",
+   "control": "Capítulo 9: rótulo «propuesta(s) para el programa institucional» y «no oficial del MEC»",
+   "resultado": "correcto"
+  },
+  {
+   "bloque": "B",
+   "control": "Capítulo 9: el rótulo figura en la ficha del libro y de la guía",
+   "resultado": "correcto"
+  },
+  {
+   "bloque": "B",
+   "control": "Capítulo 9: capacidades C5, C6 de Work §5.2, con su texto de §4.2",
+   "resultado": "correcto"
+  },
+  {
+   "bloque": "B",
+   "control": "Capítulo 7: C9 solo como articulación, sin atribuirla a Work (no figura en la capacidad del capítulo)",
+   "resultado": "correcto"
+  },
+  {
+   "bloque": "B",
+   "control": "Capítulo 9: el H3 evalúa C1 a C7",
+   "resultado": "correcto"
+  },
+  {
+   "bloque": "B",
+   "control": "Ninguna capacidad presentada como oficial del MEC",
+   "resultado": "correcto"
+  },
+  {
+   "bloque": "C",
+   "control": "libro: los 151 códigos citados (dossier, requisitos, reglas, diseño, Mbokaja, evaluación) existen",
+   "resultado": "correcto"
+  },
+  {
+   "bloque": "C",
+   "control": "libro: 2 citas textuales «…» (código) coinciden con la línea citada",
+   "resultado": "correcto"
+  },
+  {
+   "bloque": "C",
+   "control": "guía: los 84 códigos citados (dossier, requisitos, reglas, diseño, Mbokaja, evaluación) existen",
+   "resultado": "correcto"
+  },
+  {
+   "bloque": "C",
+   "control": "guía: 4 citas textuales «…» (código) coinciden con la línea citada",
+   "resultado": "correcto"
+  },
+  {
+   "bloque": "C",
+   "control": "cuaderno: los 37 códigos citados (dossier, requisitos, reglas, diseño, Mbokaja, evaluación) existen",
+   "resultado": "correcto"
+  },
+  {
+   "bloque": "C",
+   "control": "cuaderno: 0 citas textuales «…» (código) coinciden con la línea citada",
+   "resultado": "correcto"
+  },
+  {
+   "bloque": "C",
+   "control": "Diccionario: cada origen citado existe (requisito, regla, necesidad o línea del dossier)",
+   "resultado": "correcto"
+  },
+  {
+   "bloque": "C",
+   "control": "Diccionario: los 25 campos con significado, obligatoriedad, ejemplo y origen, y en el libro",
+   "resultado": "correcto"
+  },
+  {
+   "bloque": "C",
+   "control": "Restricciones RI-01 a RI-08: cada una sale de una regla, un requisito, una necesidad o una línea que existe",
+   "resultado": "correcto"
+  },
+  {
+   "bloque": "C",
+   "control": "Mbokaja U3: los códigos nuevos (M-F8, M-F9, MS-3 a MS-5, OBS-1 a OBS-6) no repiten ninguno anterior",
+   "resultado": "correcto"
+  },
+  {
+   "bloque": "C",
+   "control": "lote_1/caso/verificar_caso.py sigue sin fallos: Resultado: 107 correctos, 0 fallos",
+   "resultado": "correcto"
+  },
+  {
+   "bloque": "N",
+   "control": "Modelo: Obra, Edición, Ejemplar, Lector, Préstamo, Parámetro y Cuenta",
+   "resultado": "correcto"
+  },
+  {
+   "bloque": "N",
+   "control": "Todo préstamo referencia a un ejemplar (no a la obra): relación Ejemplar 1:N Préstamo y campo Préstamo.ejemplar obligatorio",
+   "resultado": "correcto"
+  },
+  {
+   "bloque": "N",
+   "control": "Obra → Edición → Ejemplar, con cardinalidad 1:N",
+   "resultado": "correcto"
+  },
+  {
+   "bloque": "N",
+   "control": "La disponibilidad es derivada: ningún campo «disponible» en el diccionario y figura en la Tabla 7.4",
+   "resultado": "correcto"
+  },
+  {
+   "bloque": "N",
+   "control": "Historial: la devolución no borra (RI-04, RN-05), lo que tiene historia se inactiva (RI-05, RN-06) y no hay campos para borrar",
+   "resultado": "correcto"
+  },
+  {
+   "bloque": "N",
+   "control": "Ninguna operación borra: los resultados de OP-01 a OP-06 no borran nada",
+   "resultado": "correcto"
+  },
+  {
+   "bloque": "N",
+   "control": "Curso: obligatorio solo para estudiantes (RI-06), guardado al prestar (RI-08), y tipo de lector aparte (RF-11)",
+   "resultado": "correcto"
+  },
+  {
+   "bloque": "N",
+   "control": "Tabla 7.8: el total se recuenta y coincide con la suma de las filas, con la fila «Docentes» y sin «Sin curso»",
+   "resultado": "correcto"
+  },
+  {
+   "bloque": "N",
+   "control": "Tabla 7.8 no se presenta como el mes de marzo de D2 (cuyas cifras no se reconstruyen)",
+   "resultado": "correcto"
+  },
+  {
+   "bloque": "N",
+   "control": "Vencimiento calculado al prestar y guardado (RI-07); plazo y máximos en Parámetro (7, 2 y 5)",
+   "resultado": "correcto"
+  },
+  {
+   "bloque": "N",
+   "control": "Ejemplo resuelto 7.1 y Práctica 7 trabajan la distinción obra/ejemplar (E2-L2, M-F8)",
+   "resultado": "correcto"
+  },
+  {
+   "bloque": "D",
+   "control": "Catálogo v1.1: 16 requisitos (los 15 de la v1.0 y RF-11 de SC-01)",
+   "resultado": "correcto"
+  },
+  {
+   "bloque": "D",
+   "control": "RN-02 v1.1 (máximo de cinco para los docentes) reemplaza a la v1.0",
+   "resultado": "correcto"
+  },
+  {
+   "bloque": "D",
+   "control": "Matriz de coherencia: una fila por cada requisito del catálogo v1.1, sin repetir (RF-11 junto a los funcionales)",
+   "resultado": "correcto"
+  },
+  {
+   "bloque": "D",
+   "control": "Matriz de coherencia: los 52 códigos de datos, interfaz, operación y prueba existen",
+   "resultado": "correcto"
+  },
+  {
+   "bloque": "D",
+   "control": "Matriz de coherencia: la prueba de cada requisito es la de la matriz del Capítulo 6 (RF-11 usa P-06, desdoblada por SC-01)",
+   "resultado": "correcto"
+  },
+  {
+   "bloque": "D",
+   "control": "Matriz de coherencia: cada «—» es de un requisito de calidad o una restricción del entorno",
+   "resultado": "correcto"
+  },
+  {
+   "bloque": "D",
+   "control": "RF-11 tiene respuesta en datos (Lector.tipo), interfaz (PT-08, ME-02) y operaciones (OP-01, OP-05)",
+   "resultado": "correcto"
+  },
+  {
+   "bloque": "D",
+   "control": "Trazabilidad a SC-01: el Ejemplo resuelto 9.3 y el Capítulo 7 la citan",
+   "resultado": "correcto"
+  },
+  {
+   "bloque": "D",
+   "control": "Postergados fuera del núcleo: sin renovación ni reserva ni estado «en reparación» como decisiones del diseño",
+   "resultado": "correcto"
+  },
+  {
+   "bloque": "M",
+   "control": "CU-01, flujo 4a tiene su estado y su mensaje en el Capítulo 8 (ME-01) y su error en un contrato del Capítulo 9",
+   "resultado": "correcto"
+  },
+  {
+   "bloque": "M",
+   "control": "CU-01, flujo 4b tiene su estado y su mensaje en el Capítulo 8 (ME-02) y su error en un contrato del Capítulo 9",
+   "resultado": "correcto"
+  },
+  {
+   "bloque": "M",
+   "control": "CU-01, flujo 5a tiene su estado y su mensaje en el Capítulo 8 (ME-03) y su error en un contrato del Capítulo 9",
+   "resultado": "correcto"
+  },
+  {
+   "bloque": "M",
+   "control": "CU-02, flujo 1a tiene su estado y su mensaje en el Capítulo 8 (ME-05) y su error en un contrato del Capítulo 9",
+   "resultado": "correcto"
+  },
+  {
+   "bloque": "M",
+   "control": "CU-02, flujo 2a tiene su estado y su mensaje en el Capítulo 8 (ME-06) y su error en un contrato del Capítulo 9",
+   "resultado": "correcto"
+  },
+  {
+   "bloque": "M",
+   "control": "CU-03, flujo 2a tiene su estado y su mensaje en el Capítulo 8 (ME-08) y su error en un contrato del Capítulo 9",
+   "resultado": "correcto"
+  },
+  {
+   "bloque": "M",
+   "control": "CU-03, flujo 4a tiene su estado y su mensaje en el Capítulo 8 (ME-09) y su error en un contrato del Capítulo 9",
+   "resultado": "correcto"
+  },
+  {
+   "bloque": "M",
+   "control": "Cada mensaje de error de las pantallas de la bibliotecaria es un error de algún contrato",
+   "resultado": "correcto"
+  },
+  {
+   "bloque": "M",
+   "control": "Cada error de contrato tiene su mensaje en la Tabla 8.6",
+   "resultado": "correcto"
+  },
+  {
+   "bloque": "M",
+   "control": "Mensajes con la regla de 8.3 (qué pasó, por qué y qué hacer): los de error dicen qué hacer",
+   "resultado": "correcto"
+  },
+  {
+   "bloque": "M",
+   "control": "Recorridos: los pasos citados existen en las plantillas de CU-01 a CU-03 y las pantallas, en el mapa",
+   "resultado": "correcto"
+  },
+  {
+   "bloque": "M",
+   "control": "Pantallas: los requisitos citados existen en el catálogo v1.1",
+   "resultado": "correcto"
+  },
+  {
+   "bloque": "M",
+   "control": "Consulta pública sin datos personales: PT-02, ME-09 y OP-03 no devuelven datos de lectores",
+   "resultado": "correcto"
+  },
+  {
+   "bloque": "M",
+   "control": "Práctica 8: el voluntario de 9.º es menor, supervisado y sin acceso supuesto a datos personales ni funciones administrativas",
+   "resultado": "correcto"
+  },
+  {
+   "bloque": "P",
+   "control": "Tres capas: presentación, reglas de negocio y persistencia",
+   "resultado": "correcto"
+  },
+  {
+   "bloque": "P",
+   "control": "Contratos: OP-01 a OP-06 con entradas, precondiciones, resultado, errores y requisitos que existen",
+   "resultado": "correcto"
+  },
+  {
+   "bloque": "P",
+   "control": "Las reglas se comprueban en el servidor (Work §7.5) y RI-01 se protege también en la persistencia",
+   "resultado": "correcto"
+  },
+  {
+   "bloque": "P",
+   "control": "DT-01: contexto, condiciones excluyentes con RS-01 y RS-02, opciones, descarte, decisión, consecuencias y requisitos",
+   "resultado": "correcto"
+  },
+  {
+   "bloque": "P",
+   "control": "DT-01 sin puntajes ni pesos",
+   "resultado": "correcto"
+  },
+  {
+   "bloque": "P",
+   "control": "HTML/CSS, PHP y SQLite como ejemplo provisional, no obligatorio, no aprobado para todos los colegios y sin probar en equipos",
+   "resultado": "correcto"
+  },
+  {
+   "bloque": "P",
+   "control": "Funcionamiento local y sin servicios pagos obligatorios",
+   "resultado": "correcto"
+  },
+  {
+   "bloque": "P",
+   "control": "Sin la matriz de selección tecnológica de Algorítmica 3.º: la ARTICULACIÓN la remite y el capítulo no la repite",
+   "resultado": "correcto"
+  },
+  {
+   "bloque": "P",
+   "control": "Práctica 9: complemento editorial, en el Encuentro 17 o como actividad complementaria, antes del Encuentro 18 y sin desplazar el H3",
+   "resultado": "correcto"
+  },
+  {
+   "bloque": "P",
+   "control": "Práctica 9 con decisiones nuevas: contrato de devolución, libro dañado, reposición y mantenimiento del entorno",
+   "resultado": "correcto"
+  },
+  {
+   "bloque": "E",
+   "control": "Sin personas, títulos, archivos ni tecnologías del caso de Algorítmica 3.º",
+   "resultado": "correcto"
+  },
+  {
+   "bloque": "E",
+   "control": "Sin matriz ponderada ni pesos (ni «ponderad…», ni pesos 0,5 / 0,3 / 0,2)",
+   "resultado": "correcto"
+  },
+  {
+   "bloque": "E",
+   "control": "Sin las tablas de Algorítmica («Socios», Access): solo se nombran en la guía para decir que no se usan",
+   "resultado": "correcto"
+  },
+  {
+   "bloque": "E",
+   "control": "Sin sección ni ejercicios de formas normales (1FN a 3FN): solo revisión aplicada en 7.4",
+   "resultado": "correcto"
+  },
+  {
+   "bloque": "E",
+   "control": "La «eliminación en cascada» aparece solo como contraste con RN-05 y RN-06",
+   "resultado": "correcto"
+  },
+  {
+   "bloque": "E",
+   "control": "Notación entidad-relación clásica de Algorítmica, rotulada como representación simplificada",
+   "resultado": "correcto"
+  },
+  {
+   "bloque": "E",
+   "control": "Guía: acuerdo previo con Algorítmica antes del Encuentro 13, con las dos rutas de Work §3",
+   "resultado": "correcto"
+  },
+  {
+   "bloque": "F",
+   "control": "libro: sin formas de tuteo frecuentes",
+   "resultado": "correcto"
+  },
+  {
+   "bloque": "F",
+   "control": "libro: sin identificadores de modelos de IA",
+   "resultado": "correcto"
+  },
+  {
+   "bloque": "F",
+   "control": "libro: sin símbolos ✓ ✗",
+   "resultado": "correcto"
+  },
+  {
+   "bloque": "F",
+   "control": "libro: sin marcadores sin reemplazar",
+   "resultado": "correcto"
+  },
+  {
+   "bloque": "F",
+   "control": "libro: no se declara apto ni aprobado para la venta",
+   "resultado": "correcto"
+  },
+  {
+   "bloque": "F",
+   "control": "guía: sin formas de tuteo frecuentes",
+   "resultado": "correcto"
+  },
+  {
+   "bloque": "F",
+   "control": "guía: sin identificadores de modelos de IA",
+   "resultado": "correcto"
+  },
+  {
+   "bloque": "F",
+   "control": "guía: sin símbolos ✓ ✗",
+   "resultado": "correcto"
+  },
+  {
+   "bloque": "F",
+   "control": "guía: sin marcadores sin reemplazar",
+   "resultado": "correcto"
+  },
+  {
+   "bloque": "F",
+   "control": "guía: no se declara apto ni aprobado para la venta",
+   "resultado": "correcto"
+  },
+  {
+   "bloque": "F",
+   "control": "cuaderno: sin formas de tuteo frecuentes",
+   "resultado": "correcto"
+  },
+  {
+   "bloque": "F",
+   "control": "cuaderno: sin identificadores de modelos de IA",
+   "resultado": "correcto"
+  },
+  {
+   "bloque": "F",
+   "control": "cuaderno: sin símbolos ✓ ✗",
+   "resultado": "correcto"
+  },
+  {
+   "bloque": "F",
+   "control": "cuaderno: sin marcadores sin reemplazar",
+   "resultado": "correcto"
+  },
+  {
+   "bloque": "F",
+   "control": "cuaderno: no se declara apto ni aprobado para la venta",
+   "resultado": "correcto"
+  },
+  {
+   "bloque": "G",
+   "control": "libro: oficio 21,59 × 33,02 cm, márgenes O3 y espejados",
+   "resultado": "correcto"
+  },
+  {
+   "bloque": "G",
+   "control": "libro: 379 filas de tabla, todas «no dividir»",
+   "resultado": "correcto"
+  },
+  {
+   "bloque": "G",
+   "control": "libro: 35 tablas de varias columnas al ancho útil (17,29 cm)",
+   "resultado": "correcto"
+  },
+  {
+   "bloque": "G",
+   "control": "libro: toda tabla de datos repite su encabezado (las únicas sin encabezado son las fichas)",
+   "resultado": "correcto"
+  },
+  {
+   "bloque": "G",
+   "control": "guía: oficio 21,59 × 33,02 cm, márgenes O3 y espejados",
+   "resultado": "correcto"
+  },
+  {
+   "bloque": "G",
+   "control": "guía: 245 filas de tabla, todas «no dividir»",
+   "resultado": "correcto"
+  },
+  {
+   "bloque": "G",
+   "control": "guía: 42 tablas de varias columnas al ancho útil (17,29 cm)",
+   "resultado": "correcto"
+  },
+  {
+   "bloque": "G",
+   "control": "guía: toda tabla de datos repite su encabezado (las únicas sin encabezado son las fichas)",
+   "resultado": "correcto"
+  },
+  {
+   "bloque": "G",
+   "control": "cuaderno: oficio 21,59 × 33,02 cm, márgenes O3 y espejados",
+   "resultado": "correcto"
+  },
+  {
+   "bloque": "G",
+   "control": "cuaderno: 50 filas de tabla, todas «no dividir»",
+   "resultado": "correcto"
+  },
+  {
+   "bloque": "G",
+   "control": "cuaderno: 7 tablas de varias columnas al ancho útil (17,29 cm)",
+   "resultado": "correcto"
+  },
+  {
+   "bloque": "G",
+   "control": "cuaderno: toda tabla de datos repite su encabezado (las únicas sin encabezado son las fichas)",
+   "resultado": "correcto"
+  },
+  {
+   "bloque": "G",
+   "control": "Se usan la maqueta del lote 1 y el perfil O3 del lote 2 (sin copias)",
+   "resultado": "correcto"
+  },
+  {
+   "bloque": "H",
+   "control": "libro: ninguna página en blanco",
+   "resultado": "correcto"
+  },
+  {
+   "bloque": "H",
+   "control": "libro: ninguna página empieza con renglones de respuesta sueltos",
+   "resultado": "correcto"
+  },
+  {
+   "bloque": "H",
+   "control": "guía: ninguna página en blanco",
+   "resultado": "correcto"
+  },
+  {
+   "bloque": "H",
+   "control": "guía: ninguna página empieza con renglones de respuesta sueltos",
+   "resultado": "correcto"
+  },
+  {
+   "bloque": "H",
+   "control": "cuaderno: ninguna página en blanco",
+   "resultado": "correcto"
+  },
+  {
+   "bloque": "H",
+   "control": "cuaderno: ninguna página empieza con renglones de respuesta sueltos",
+   "resultado": "correcto"
+  },
+  {
+   "bloque": "H",
+   "control": "Evaluación del Capítulo 7: en página propia y entera en esa página (pág. [14])",
+   "resultado": "correcto"
+  },
+  {
+   "bloque": "H",
+   "control": "Práctica 7: empieza en página nueva",
+   "resultado": "correcto"
+  },
+  {
+   "bloque": "H",
+   "control": "Cuaderno: Práctica 7 empieza en página nueva",
+   "resultado": "correcto"
+  },
+  {
+   "bloque": "H",
+   "control": "Evaluación del Capítulo 8: en página propia y entera en esa página (pág. [25])",
+   "resultado": "correcto"
+  },
+  {
+   "bloque": "H",
+   "control": "Práctica 8: empieza en página nueva",
+   "resultado": "correcto"
+  },
+  {
+   "bloque": "H",
+   "control": "Cuaderno: Práctica 8 empieza en página nueva",
+   "resultado": "correcto"
+  },
+  {
+   "bloque": "H",
+   "control": "Evaluación del Capítulo 9: en página propia y entera en esa página (pág. [35])",
+   "resultado": "correcto"
+  },
+  {
+   "bloque": "H",
+   "control": "Práctica 9: empieza en página nueva",
+   "resultado": "correcto"
+  },
+  {
+   "bloque": "H",
+   "control": "Cuaderno: Práctica 9 empieza en página nueva",
+   "resultado": "correcto"
+  },
+  {
+   "bloque": "H",
+   "control": "El Encuentro 18 (H3) empieza en página nueva (pág. [33])",
+   "resultado": "correcto"
+  },
+  {
+   "bloque": "H",
+   "control": "El índice ocupa una sola página y la siguiente es la apertura de la Unidad III",
+   "resultado": "correcto"
+  },
+  {
+   "bloque": "H",
+   "control": "Índice estable: las 29 entradas apuntan a la página donde está su título",
+   "resultado": "correcto"
+  },
+  {
+   "bloque": "H",
+   "control": "Extensión del libro: 35 págs. (plan: 38 a 46; se admite desde 32)",
+   "resultado": "correcto"
+  },
+  {
+   "bloque": "H",
+   "control": "Extensión de la guía: 16 págs. (plan: 16 a 22)",
+   "resultado": "correcto"
+  },
+  {
+   "bloque": "H",
+   "control": "Extensión del cuaderno: 7 págs. (referencia: 6 a 12)",
+   "resultado": "correcto"
+  },
+  {
+   "bloque": "I",
+   "control": "Evaluación del Capítulo 7: 9 ítems con clave; opción múltiple con claves bcbd",
+   "resultado": "correcto"
+  },
+  {
+   "bloque": "I",
+   "control": "Evaluación del Capítulo 7: suma 15 puntos, como dice su remisión",
+   "resultado": "correcto"
+  },
+  {
+   "bloque": "I",
+   "control": "Evaluación del Capítulo 7: la guía trae su clave y los criterios de los ítems abiertos",
+   "resultado": "correcto"
+  },
+  {
+   "bloque": "I",
+   "control": "Capítulo 7: práctica en tres niveles con el caso Mbokaja",
+   "resultado": "correcto"
+  },
+  {
+   "bloque": "I",
+   "control": "Evaluación del Capítulo 8: 9 ítems con clave; opción múltiple con claves adcd",
+   "resultado": "correcto"
+  },
+  {
+   "bloque": "I",
+   "control": "Evaluación del Capítulo 8: suma 15 puntos, como dice su remisión",
+   "resultado": "correcto"
+  },
+  {
+   "bloque": "I",
+   "control": "Evaluación del Capítulo 8: la guía trae su clave y los criterios de los ítems abiertos",
+   "resultado": "correcto"
+  },
+  {
+   "bloque": "I",
+   "control": "Capítulo 8: práctica en tres niveles con el caso Mbokaja",
+   "resultado": "correcto"
+  },
+  {
+   "bloque": "I",
+   "control": "Evaluación del Capítulo 9: 9 ítems con clave; opción múltiple con claves bbcd",
+   "resultado": "correcto"
+  },
+  {
+   "bloque": "I",
+   "control": "Evaluación del Capítulo 9: suma 15 puntos, como dice su remisión",
+   "resultado": "correcto"
+  },
+  {
+   "bloque": "I",
+   "control": "Evaluación del Capítulo 9: la guía trae su clave y los criterios de los ítems abiertos",
+   "resultado": "correcto"
+  },
+  {
+   "bloque": "I",
+   "control": "Capítulo 9: práctica en tres niveles con el caso Mbokaja",
+   "resultado": "correcto"
+  },
+  {
+   "bloque": "I",
+   "control": "Semillas de evaluación distintas entre sí y de las de los lotes 1 y 2 (ADS3-L3-C7, ADS3-L3-C8, ADS3-L3-C9)",
+   "resultado": "correcto"
+  },
+  {
+   "bloque": "I",
+   "control": "Los datos de las prácticas (M-F8, M-F9, MS-3 a MS-5, OBS) no aparecen en los ejemplos resueltos ni en las secciones",
+   "resultado": "correcto"
+  },
+  {
+   "bloque": "I",
+   "control": "Rúbrica del H3: seis criterios que cubren C1 a C7, cuatro niveles, evidencia del equipo e individual",
+   "resultado": "correcto"
+  },
+  {
+   "bloque": "I",
+   "control": "H3: 60/40 como propuesta editorial, ausencia de evidencia aparte y tiempo para corregir el dossier",
+   "resultado": "correcto"
+  },
+  {
+   "bloque": "I",
+   "control": "H3: variante individual no resuelta antes; banco de cinco variantes que no están en el dossier, el buzón, D3 ni las prácticas",
+   "resultado": "correcto"
+  },
+  {
+   "bloque": "I",
+   "control": "Guía: planilla de registro del H3 con columna AE",
+   "resultado": "correcto"
+  },
+  {
+   "bloque": "I",
+   "control": "Guía: secuencia en HC de los Encuentros 13 a 18",
+   "resultado": "correcto"
+  },
+  {
+   "bloque": "I",
+   "control": "Guía: HC por categoría de Work §5.2 (13 D5; 14 D4 V1; 15 D5; 16 D3 V2; 17 D5; 18 D1 E4)",
+   "resultado": "correcto"
+  },
+  {
+   "bloque": "I",
+   "control": "Guía: claves de todas las actividades de los Encuentros 13 a 18",
+   "resultado": "correcto"
+  },
+  {
+   "bloque": "I",
+   "control": "Guía: claves por nivel y lista de cotejo de las tres prácticas",
+   "resultado": "correcto"
+  },
+  {
+   "bloque": "I",
+   "control": "Guía: tarjetas de rol del Encuentro 16 sin datos de personas reales",
+   "resultado": "correcto"
+  },
+  {
+   "bloque": "I",
+   "control": "Calendario de 28 encuentros: recuadro en cada capítulo y tabla en la guía (se unen el 15 y el 16)",
+   "resultado": "correcto"
+  },
+  {
+   "bloque": "I",
+   "control": "Cuaderno: las tres prácticas con el mismo texto que el libro y sin evaluaciones",
+   "resultado": "correcto"
+  },
+  {
+   "bloque": "J",
+   "control": "Capítulo 7: tabla 7.1 a 7.8 correlativas, en orden de aparición y sin repetir",
+   "resultado": "correcto"
+  },
+  {
+   "bloque": "J",
+   "control": "Capítulo 7: figura 7.1 a 7.3 correlativas, en orden de aparición y sin repetir",
+   "resultado": "correcto"
+  },
+  {
+   "bloque": "J",
+   "control": "Capítulo 7: ejemplo resuelto 7.1 a 7.4 correlativas, en orden de aparición y sin repetir",
+   "resultado": "correcto"
+  },
+  {
+   "bloque": "J",
+   "control": "Capítulo 7: toda tabla mencionada existe",
+   "resultado": "correcto"
+  },
+  {
+   "bloque": "J",
+   "control": "Capítulo 7: toda figura mencionada existe",
+   "resultado": "correcto"
+  },
+  {
+   "bloque": "J",
+   "control": "Capítulo 7: toda ejemplo resuelto mencionada existe",
+   "resultado": "correcto"
+  },
+  {
+   "bloque": "J",
+   "control": "Capítulo 8: tabla 8.1 a 8.8 correlativas, en orden de aparición y sin repetir",
+   "resultado": "correcto"
+  },
+  {
+   "bloque": "J",
+   "control": "Capítulo 8: figura 8.1 a 8.3 correlativas, en orden de aparición y sin repetir",
+   "resultado": "correcto"
+  },
+  {
+   "bloque": "J",
+   "control": "Capítulo 8: ejemplo resuelto 8.1 a 8.4 correlativas, en orden de aparición y sin repetir",
+   "resultado": "correcto"
+  },
+  {
+   "bloque": "J",
+   "control": "Capítulo 8: toda tabla mencionada existe",
+   "resultado": "correcto"
+  },
+  {
+   "bloque": "J",
+   "control": "Capítulo 8: toda figura mencionada existe",
+   "resultado": "correcto"
+  },
+  {
+   "bloque": "J",
+   "control": "Capítulo 8: toda ejemplo resuelto mencionada existe",
+   "resultado": "correcto"
+  },
+  {
+   "bloque": "J",
+   "control": "Capítulo 9: tabla 9.1 a 9.6 correlativas, en orden de aparición y sin repetir",
+   "resultado": "correcto"
+  },
+  {
+   "bloque": "J",
+   "control": "Capítulo 9: figura 9.1 a 9.1 correlativas, en orden de aparición y sin repetir",
+   "resultado": "correcto"
+  },
+  {
+   "bloque": "J",
+   "control": "Capítulo 9: ejemplo resuelto 9.1 a 9.3 correlativas, en orden de aparición y sin repetir",
+   "resultado": "correcto"
+  },
+  {
+   "bloque": "J",
+   "control": "Capítulo 9: toda tabla mencionada existe",
+   "resultado": "correcto"
+  },
+  {
+   "bloque": "J",
+   "control": "Capítulo 9: toda figura mencionada existe",
+   "resultado": "correcto"
+  },
+  {
+   "bloque": "J",
+   "control": "Capítulo 9: toda ejemplo resuelto mencionada existe",
+   "resultado": "correcto"
+  },
+  {
+   "bloque": "J",
+   "control": "Las tablas y figuras de los lotes 1 y 2 que se citan existen allí (ninguna)",
+   "resultado": "correcto"
+  },
+  {
+   "bloque": "L",
+   "control": "Sin mezcla: fig_7_1 declara «Entidad-relación (notación clásica de Algorítmica 3.º)» y usa solo sus símbolos (der_cardinalidad, der_entidad, der_linea, der_relacion)",
+   "resultado": "correcto"
+  },
+  {
+   "bloque": "L",
+   "control": "Sin mezcla: fig_8_1 declara «Mapa de navegación» y usa solo sus símbolos (nav_inicio, nav_pantalla, nav_transicion, nav_zona)",
+   "resultado": "correcto"
+  },
+  {
+   "bloque": "L",
+   "control": "Sin mezcla: fig_8_2 declara «Boceto de baja fidelidad» y usa solo sus símbolos (boc_boton, boc_campo, boc_marco, boc_mensaje)",
+   "resultado": "correcto"
+  },
+  {
+   "bloque": "L",
+   "control": "Sin mezcla: fig_8_3 declara «Boceto de baja fidelidad» y usa solo sus símbolos (boc_boton, boc_campo, boc_marco, boc_mensaje)",
+   "resultado": "correcto"
+  },
+  {
+   "bloque": "L",
+   "control": "Sin mezcla: fig_9_1 declara «Esquema de capas» y usa solo sus símbolos (capa_banda, capa_operacion)",
+   "resultado": "correcto"
+  },
+  {
+   "bloque": "L",
+   "control": "fig_7_2 (esquema didáctico) no usa símbolos de ninguna notación",
+   "resultado": "correcto"
+  },
+  {
+   "bloque": "L",
+   "control": "fig_7_3 (esquema didáctico) no usa símbolos de ninguna notación",
+   "resultado": "correcto"
+  },
+  {
+   "bloque": "L",
+   "control": "Figura 7.1: siete entidades, cuatro relaciones y dos cardinalidades por relación, sin atributos dibujados",
+   "resultado": "correcto"
+  },
+  {
+   "bloque": "L",
+   "control": "Figura 8.1: un inicio, nueve pantallas, tres zonas por rol y una transición por cada una de la fuente (más la de inicio)",
+   "resultado": "correcto"
+  },
+  {
+   "bloque": "L",
+   "control": "Mapa: transiciones rotuladas con la acción, con verbo (no sustantivos como en el contexto)",
+   "resultado": "correcto"
+  },
+  {
+   "bloque": "L",
+   "control": "Mapa: la zona pública no lleva a pantallas de la bibliotecaria sin pasar por el ingreso (PT-03)",
+   "resultado": "correcto"
+  },
+  {
+   "bloque": "L",
+   "control": "Tabla 8.2: el mapa se distingue expresamente de los diagramas de actividades, contexto y casos de uso",
+   "resultado": "correcto"
+  },
+  {
+   "bloque": "L",
+   "control": "Cada símbolo usado en una figura figura en la leyenda del libro y de la guía (14 símbolos)",
+   "resultado": "correcto"
+  },
+  {
+   "bloque": "L",
+   "control": "Leyendas antes de la primera figura de cada notación",
+   "resultado": "correcto"
+  },
+  {
+   "bloque": "L",
+   "control": "Guía: errores frecuentes de cada notación",
+   "resultado": "correcto"
+  },
+  {
+   "bloque": "L",
+   "control": "Prueba del control: una figura que mezcla notaciones detiene la generación",
+   "resultado": "correcto"
+  },
+  {
+   "bloque": "Q",
+   "control": "git: ningún archivo de lote_1, lote_1_oficio_candidata ni lote_2 cambió ni se agregó",
+   "resultado": "correcto"
+  }
+ ]
+}

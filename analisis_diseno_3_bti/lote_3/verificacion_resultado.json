@@ -1,5 +1,5 @@
 {
- "correctos": 200,
+ "correctos": 216,
  "fallos": 0,
  "bloques": {
   "A": [
@@ -58,8 +58,12 @@
    16,
    0
   ],
+  "R": [
+   15,
+   0
+  ],
   "Q": [
-   1,
+   2,
    0
   ]
  },
@@ -206,7 +210,7 @@
   },
   {
    "bloque": "C",
-   "control": "libro: los 151 códigos citados (dossier, requisitos, reglas, diseño, Mbokaja, evaluación) existen",
+   "control": "libro: los 152 códigos citados (dossier, requisitos, reglas, diseño, Mbokaja, evaluación) existen",
    "resultado": "correcto"
   },
   {
@@ -216,7 +220,7 @@
   },
   {
    "bloque": "C",
-   "control": "guía: los 84 códigos citados (dossier, requisitos, reglas, diseño, Mbokaja, evaluación) existen",
+   "control": "guía: los 85 códigos citados (dossier, requisitos, reglas, diseño, Mbokaja, evaluación) existen",
    "resultado": "correcto"
   },
   {
@@ -331,7 +335,7 @@
   },
   {
    "bloque": "D",
-   "control": "Matriz de coherencia: los 52 códigos de datos, interfaz, operación y prueba existen",
+   "control": "Matriz de coherencia: los 53 códigos de datos, interfaz, operación y prueba existen",
    "resultado": "correcto"
   },
   {
@@ -396,7 +400,7 @@
   },
   {
    "bloque": "M",
-   "control": "Cada mensaje de error de las pantallas de la bibliotecaria es un error de algún contrato",
+   "control": "Cada mensaje de error, salvo el de inicio de sesión (ME-12), es un error de algún contrato",
    "resultado": "correcto"
   },
   {
@@ -596,7 +600,7 @@
   },
   {
    "bloque": "G",
-   "control": "libro: 379 filas de tabla, todas «no dividir»",
+   "control": "libro: 380 filas de tabla, todas «no dividir»",
    "resultado": "correcto"
   },
   {
@@ -616,7 +620,7 @@
   },
   {
    "bloque": "G",
-   "control": "guía: 245 filas de tabla, todas «no dividir»",
+   "control": "guía: 247 filas de tabla, todas «no dividir»",
    "resultado": "correcto"
   },
   {
@@ -1060,8 +1064,88 @@
    "resultado": "correcto"
   },
   {
+   "bloque": "R",
+   "control": "Cada zona del mapa tiene sus roles definidos y cada pantalla está en una zona que existe",
+   "resultado": "correcto"
+  },
+  {
+   "bloque": "R",
+   "control": "Cada operación tiene sus roles definidos y cada pantalla con operación la nombra",
+   "resultado": "correcto"
+  },
+  {
+   "bloque": "R",
+   "control": "Sin contradicciones entre zonas y contratos: los roles de la zona de cada pantalla son los que admite su operación",
+   "resultado": "correcto"
+  },
+  {
+   "bloque": "R",
+   "control": "La precondición de cada contrato nombra exactamente los roles permitidos (o dice que es pública)",
+   "resultado": "correcto"
+  },
+  {
+   "bloque": "R",
+   "control": "Cada ingreso desde PT-03 lleva a una zona que admite el rol con que se ingresa",
+   "resultado": "correcto"
+  },
+  {
+   "bloque": "R",
+   "control": "Cada rol de una zona llega a sus pantallas por el mapa (PT-09: bibliotecaria por «Ver informe» y dirección al ingresar)",
+   "resultado": "correcto"
+  },
+  {
+   "bloque": "R",
+   "control": "PT-09 y OP-05: los consultan la bibliotecaria y la dirección, con el rol comprobado por el servidor",
+   "resultado": "correcto"
+  },
+  {
+   "bloque": "R",
+   "control": "ME-12 es solo de autenticación: se muestra en PT-03 por usuario o contraseña incorrectos",
+   "resultado": "correcto"
+  },
+  {
+   "bloque": "R",
+   "control": "ME-13 es el de autorización: acceso denegado, distinto de ME-12 y fuera de PT-03",
+   "resultado": "correcto"
+  },
+  {
+   "bloque": "R",
+   "control": "Ningún contrato usa el mensaje de autenticación (ME-12) para un error de autorización",
+   "resultado": "correcto"
+  },
+  {
+   "bloque": "R",
+   "control": "Toda operación con roles tiene ME-13 entre sus errores, y la pública no",
+   "resultado": "correcto"
+  },
+  {
+   "bloque": "R",
+   "control": "Ningún texto del libro, la guía, el cuaderno ni los contratos asocia ME-12 con falta de permiso",
+   "resultado": "correcto"
+  },
+  {
+   "bloque": "R",
+   "control": "Prueba de los controles: detectan una zona exclusiva, un contrato con otros roles y ME-12 usado como «sin permiso»",
+   "resultado": "correcto"
+  },
+  {
+   "bloque": "R",
+   "control": "La matriz de coherencia, la Tabla 8.6 y el libro incluyen ME-13",
+   "resultado": "correcto"
+  },
+  {
+   "bloque": "R",
+   "control": "Leyenda del mapa: la zona agrupa las pantallas de un rol o de un grupo de roles (libro y guía)",
+   "resultado": "correcto"
+  },
+  {
    "bloque": "Q",
    "control": "git: ningún archivo de lote_1, lote_1_oficio_candidata ni lote_2 cambió ni se agregó",
+   "resultado": "correcto"
+  },
+  {
+   "bloque": "Q",
+   "control": "Versión 1.0 conservada: los seis DOCX y PDF de version_1_0/ coinciden con su manifiesto SHA-256",
    "resultado": "correcto"
   }
  ]

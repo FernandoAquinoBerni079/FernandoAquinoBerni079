@@ -66,8 +66,8 @@ S81 = ('8.1 Recorridos de usuario y organización de pantallas', [
     'pantalla, un dato que se escribe o un botón que se pulsa. Los tres recorridos de este capítulo son los de los casos de '
     'uso prioritarios: registrar un préstamo, registrar una devolución y consultar la disponibilidad.',
     'Las pantallas se organizan en un mapa de navegación. El mapa muestra todas las pantallas y cómo se pasa de una a otra; '
-    'no muestra el contenido de cada una. Las pantallas que solo puede ver un rol se agrupan en una zona con el nombre de '
-    'ese rol: así se ve de un vistazo que la consulta pública no lleva a los datos de los lectores (RNF-03) y que solo la '
+    'no muestra el contenido de cada una. Las pantallas que puede ver un rol, o un grupo de roles, se agrupan en una zona '
+    'con su nombre: así se ve de un vistazo que la consulta pública no lleva a los datos de los lectores (RNF-03) y que solo la '
     'bibliotecaria registra préstamos (RNF-02).',
     'El mapa de navegación no es ninguno de los diagramas del Capítulo 5. No tiene carriles ni decisiones, como el diagrama '
     'de actividades; sus flechas no son flujos de información rotulados con sustantivos, como en el diagrama de contexto; y '

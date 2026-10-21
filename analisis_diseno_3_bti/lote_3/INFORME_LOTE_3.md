@@ -2,6 +2,8 @@
 
 **Análisis y Diseño de Sistemas, 3.º BTI · Biblioteca Comercial 2026 · 21 de octubre de 2026**
 
+> **Versión vigente: 1.1.** Este informe describe la versión 1.0 (commit `f1c8bbf`), conservada en `version_1_0/`. Las dos correcciones del cierre de auditoría (acceso a PT-09, y ME-12 frente a ME-13) y sus resultados están en `INFORME_CORRECCIONES_v1_1.md`.
+
 **Estado:** lote para auditoría independiente.
 - No está aprobado para la venta ni para uso en aula.
 - La aprobación comercial la hace Fernando sobre el conjunto completo.

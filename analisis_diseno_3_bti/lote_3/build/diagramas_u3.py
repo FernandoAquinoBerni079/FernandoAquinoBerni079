@@ -36,7 +36,7 @@ SIMBOLOS = {
     'nav_pantalla': ('navegacion', 'Pantalla', 'Una pantalla del sistema, con su código', 'Código y nombre: «PT-05 Registrar préstamo»'),
     'nav_transicion': ('navegacion', 'Transición', 'Cómo se pasa de una pantalla a otra', 'Flecha rotulada con la acción: «Prestar»'),
     'nav_inicio': ('navegacion', 'Inicio', 'La pantalla con la que empieza el uso', 'Uno por mapa'),
-    'nav_zona': ('navegacion', 'Zona por rol', 'Las pantallas que solo ve un rol', 'Marco punteado con el nombre del rol'),
+    'nav_zona': ('navegacion', 'Zona por rol', 'Las pantallas que ve un rol o un grupo de roles', 'Marco punteado con el nombre de los roles que la ven'),
     'boc_marco': ('boceto', 'Pantalla del boceto', 'El borde de una pantalla, con su título', 'Sin colores ni logotipos'),
     'boc_campo': ('boceto', 'Campo con etiqueta', 'Dónde se escribe un dato', 'La etiqueta siempre visible'),
     'boc_boton': ('boceto', 'Botón', 'Una acción', 'Un verbo: «Prestar»'),
@@ -144,7 +144,10 @@ def nav_zona(L, ax, x0, y0, w, h, rol):
     L.usar('nav_zona')
     ax.add_patch(Rectangle((x0, y0), w, h, facecolor='none', edgecolor=AMBAR, lw=1.6, ls='--'))
     if rol:
-        ax.text(x0 + 0.15, y0 + h - 0.3, rol, ha='left', va='center', fontsize=9.5, weight='bold', color=AMBAR)
+        if '\n' in rol:   # nombre de dos roles en dos renglones
+            ax.text(x0 + w - 0.15, y0 + h - 0.12, rol, ha='right', va='top', fontsize=9.5, weight='bold', color=AMBAR, linespacing=1.1)
+        else:
+            ax.text(x0 + 0.15, y0 + h - 0.3, rol, ha='left', va='center', fontsize=9.5, weight='bold', color=AMBAR)
 
 
 def mapa_navegacion(ruta):
@@ -156,7 +159,7 @@ def mapa_navegacion(ruta):
     W, Hh = 3.1, 0.7
     nav_zona(L, ax, 0.3, 4.0, 7.6, 8.6, 'Pública')
     nav_zona(L, ax, 8.3, 5.1, 10.4, 7.5, 'Bibliotecaria')
-    nav_zona(L, ax, 18.9, 5.4, 3.5, 2.5, 'Dirección')
+    nav_zona(L, ax, 18.9, 5.4, 3.5, 3.2, 'Bibliotecaria\no dirección')
     nav_inicio(L, ax, 2.1, 12.2)
     nav_transicion(L, ax, [(2.1, 11.95), (2.1, 11.3)], '')
     for cod, (x, y) in pos.items():
@@ -173,7 +176,7 @@ def mapa_navegacion(ruta):
         ('PT-04', 'PT-06'): ([s_('PT-04', 0.2), n('PT-06')], (13.4, 8.7)),
         ('PT-04', 'PT-07'): ([s_('PT-04', 1.0), n('PT-07')], (15.6, 8.9)),
         ('PT-04', 'PT-08'): ([e('PT-04'), o('PT-08')], (14.75, 11.6)),
-        ('PT-04', 'PT-09'): ([s_('PT-04', 1.4), n('PT-09')], (19.2, 8.6)),
+        ('PT-04', 'PT-09'): ([s_('PT-04', 1.4), n('PT-09')], (17.3, 8.6)),
     }
     for a, b, acc in X.TRANSICIONES:
         pts, p = rutas[(a, b)]

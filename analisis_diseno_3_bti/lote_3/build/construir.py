@@ -5,7 +5,9 @@ que amplían sin modificarlas las fuentes de los lotes 1 y 2) y build/cap7.py a 
 
 Mismo ciclo que el lote 2: el índice se calcula sobre el PDF hasta que la paginación queda estable, y el control de
 filas de la candidata O3 manda a hoja nueva el rótulo de toda tabla a la que le falte alguna fila.
-Uso: python3 lote_3/build/construir.py   →  lote_3/ADS_3BTI_LOTE3_*.docx y .pdf"""
+Uso: python3 lote_3/build/construir.py [--sin-cuaderno]   →  lote_3/ADS_3BTI_LOTE3_*.docx y .pdf
+Con --sin-cuaderno no se regenera el cuaderno de prácticas: se controla el que ya está (v1.1, el cierre de la
+auditoría no cambió ninguna práctica)."""
 import os, sys, json
 sys.dont_write_bytecode = True
 AQUI = os.path.dirname(os.path.abspath(__file__))
@@ -289,12 +291,16 @@ def cuaderno():
 if __name__ == '__main__':
     import pymupdf
     figs = G.generar()
+    con_cuaderno = '--sin-cuaderno' not in sys.argv
     for vuelta in range(8):
         claves, paginas, total = construir_estudiante(figs)
         guia_u3.construir(RUTA_GUIA, claves, paginas, ESTADO, figs)
         pdf_g = K.a_pdf(RUTA_GUIA, L3)
-        cuaderno()
-        pdf_c = K.a_pdf(RUTA_CUAD, L3)
+        if con_cuaderno:
+            cuaderno()
+            pdf_c = K.a_pdf(RUTA_CUAD, L3)
+        else:
+            pdf_c = RUTA_CUAD[:-5] + '.pdf'
         nuevas = set()
         for dx, pdf in ((RUTA_EST, RUTA_EST[:-5] + '.pdf'), (RUTA_GUIA, pdf_g), (RUTA_CUAD, pdf_c)):
             inc = O.incompletas(dx, pdf)

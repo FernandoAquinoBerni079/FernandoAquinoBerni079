@@ -13,7 +13,7 @@ import mbokaja_u3 as MB
 import diagramas_u3 as G
 R, D, MO = X.R, X.D, X.MO
 
-VERSION = 'v1.0 (lote 3, para auditoría) · oficio O3'
+VERSION = 'v1.1 (lote 3, cierre de auditoría) · oficio O3'
 LINEA = 'LOTE EDITORIAL 3 — UNIDAD III (CAPÍTULOS 7 A 9)'
 
 
@@ -49,12 +49,14 @@ def contrato(doc, cod):
 def encadenar_inicio(doc, filas=3):
     """Evita que una tabla larga quede cortada con el encabezado y una sola fila al pie de la página: los párrafos del
     encabezado y de las primeras filas se mantienen con el siguiente, así la tabla empieza con al menos `filas` filas
-    o pasa entera a la página siguiente junto con su rótulo. Las tablas de hasta seis filas no se parten."""
+    o pasa entera a la página siguiente junto con su rótulo; tampoco termina con una sola fila en la página siguiente.
+    Las tablas de hasta seis filas no se parten."""
     for t in doc.tables:
         if len(t.columns) < 2 or len(t.rows) < 3:
             continue
         n = len(t.rows) - 1 if len(t.rows) <= 6 else filas
-        for r in t.rows[:n]:
+        # v1.1: la penúltima fila también se mantiene con la última, para que ninguna fila quede sola al pasar de página
+        for r in t.rows[:n] + ([t.rows[-2]] if len(t.rows) > 6 else []):
             for c in r.cells:
                 for p in c.paragraphs:
                     p.paragraph_format.keep_with_next = True

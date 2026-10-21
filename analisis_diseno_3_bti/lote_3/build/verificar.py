@@ -209,8 +209,8 @@ for cu in MO.PRIORITARIOS:
         m = me_de.get(clave)
         chk('M', '%s tiene su estado y su mensaje en el Capítulo 8 (%s) y su error en un contrato del Capítulo 9' % (clave, m[0] if m else '—'),
             m and m[4] in tE and (m[0] in errores_op or m[2] == 'vacío'))
-chk('M', 'Cada mensaje de error de las pantallas de la bibliotecaria es un error de algún contrato',
-    all(m[0] in errores_op for m in X.MENSAJES if m[2] == 'error'))
+chk('M', 'Cada mensaje de error, salvo el de inicio de sesión (ME-12), es un error de algún contrato',
+    all(m[0] in errores_op for m in X.MENSAJES if m[2] == 'error' and m[0] != X.AUTENTICACION))
 chk('M', 'Cada error de contrato tiene su mensaje en la Tabla 8.6', all(re.match(r'ME-\d\d', e).group() in {m[0] for m in X.MENSAJES} for o in X.OPERACIONES for e in o[5]))
 chk('M', 'Mensajes con la regla de 8.3 (qué pasó, por qué y qué hacer): los de error dicen qué hacer',
     all(re.search(r'(?i)(consultá|tiene que|elegí|revisá|apartalo)', m[4]) for m in X.MENSAJES if m[2] == 'error'))
@@ -423,9 +423,68 @@ def _mezcla_detenida():
     return False
 chk('L', 'Prueba del control: una figura que mezcla notaciones detiene la generación', _mezcla_detenida())
 
+# ---------------------------------------------------------------- R. zonas, roles y mensajes de seguridad (v1.1)
+zona_de = {p[0]: p[2] for p in X.PANTALLAS}
+ROL_TXT = {'bibliotecaria': 'bibliotecaria', 'dirección': 'dirección'}
+chk('R', 'Cada zona del mapa tiene sus roles definidos y cada pantalla está en una zona que existe',
+    [z for z, _ in X.ZONAS] == list(X.ROLES_ZONA) and all(z in X.ROLES_ZONA for z in zona_de.values()))
+chk('R', 'Cada operación tiene sus roles definidos y cada pantalla con operación la nombra',
+    set(X.ROLES_OP) == set(X.OPERACION) and set(X.PANTALLA_OP.values()) == set(X.OPERACION) and all(p in X.PANTALLA for p in X.PANTALLA_OP))
+contra = [(p, op, X.ROLES_ZONA[zona_de[p]], X.ROLES_OP[op]) for p, op in X.PANTALLA_OP.items() if sorted(X.ROLES_ZONA[zona_de[p]]) != sorted(X.ROLES_OP[op])]
+chk('R', 'Sin contradicciones entre zonas y contratos: los roles de la zona de cada pantalla son los que admite su operación', not contra, contra)
+mal_pre = [o for o, roles in X.ROLES_OP.items() if (not roles and 'pública' not in X.OPERACION[o][3]) or
+           any(ROL_TXT[r] not in X.OPERACION[o][3] for r in roles) or
+           any(ROL_TXT[r] in X.OPERACION[o][3] for r in ROL_TXT if r not in roles)]
+chk('R', 'La precondición de cada contrato nombra exactamente los roles permitidos (o dice que es pública)', not mal_pre, mal_pre)
+ingreso = [(b_, a_) for a_, b_, acc in X.TRANSICIONES if a_ == 'PT-03']
+mal_ing = [(b_, acc) for a_, b_, acc in X.TRANSICIONES if a_ == 'PT-03' and not any(r in acc for r in X.ROLES_ZONA[zona_de[b_]])]
+chk('R', 'Cada ingreso desde PT-03 lleva a una zona que admite el rol con que se ingresa', ingreso and not mal_ing, mal_ing)
+alcanza = collections.defaultdict(set)
+for a_, b_, acc in X.TRANSICIONES:
+    for r in ROL_TXT:
+        if r in X.ROLES_ZONA[zona_de[b_]] and (not X.ROLES_ZONA[zona_de[a_]] or r in X.ROLES_ZONA[zona_de[a_]]):
+            alcanza[b_].add(r)
+chk('R', 'Cada rol de una zona llega a sus pantallas por el mapa (PT-09: bibliotecaria por «Ver informe» y dirección al ingresar)',
+    all(set(X.ROLES_ZONA[zona_de[p]]) <= alcanza[p] for p in X.PANTALLA if X.ROLES_ZONA[zona_de[p]]), dict(alcanza))
+chk('R', 'PT-09 y OP-05: los consultan la bibliotecaria y la dirección, con el rol comprobado por el servidor',
+    sorted(X.ROLES_ZONA[zona_de['PT-09']]) == ['bibliotecaria', 'dirección'] and 'servidor' in X.OPERACION['OP-05'][3]
+    and 'Dirección' not in [z for z, _ in X.ZONAS] and zona_de['PT-09'] in tE)
+me = X.MENSAJE
+chk('R', 'ME-12 es solo de autenticación: se muestra en PT-03 por usuario o contraseña incorrectos',
+    X.AUTENTICACION == 'ME-12' and me['ME-12'][1] == 'PT-03' and 'contraseña' in me['ME-12'][3] and 'permiso' not in me['ME-12'][4].lower())
+chk('R', 'ME-13 es el de autorización: acceso denegado, distinto de ME-12 y fuera de PT-03',
+    X.AUTORIZACION == 'ME-13' and 'permiso' in me['ME-13'][3] and 'PT-03' not in me['ME-13'][1] and me['ME-13'][4] != me['ME-12'][4])
+reuso = [o[0] for o in X.OPERACIONES if any(e.startswith(X.AUTENTICACION) for e in o[5])]
+chk('R', 'Ningún contrato usa el mensaje de autenticación (ME-12) para un error de autorización', not reuso, reuso)
+falta13 = [o for o, roles in X.ROLES_OP.items() if roles and not any(e.startswith(X.AUTORIZACION) for e in X.OPERACION[o][5])]
+sobra13 = [o for o, roles in X.ROLES_OP.items() if not roles and any(e.startswith(X.AUTORIZACION) for e in X.OPERACION[o][5])]
+chk('R', 'Toda operación con roles tiene ME-13 entre sus errores, y la pública no', not falta13 and not sobra13, (falta13, sobra13))
+mezcla = [m.group(0) for tx in (tE, tG, tC, j(X.OPERACIONES), j(X.COHERENCIA)) for m in re.finditer(r'ME-12[^.;\n]{0,40}(?:sin permiso|permiso\b(?! .{0,10}inicio))', tx)
+          if 'no ME-12' not in tx[max(0, m.start() - 4):m.end()]]
+chk('R', 'Ningún texto del libro, la guía, el cuaderno ni los contratos asocia ME-12 con falta de permiso', not mezcla, mezcla)
+def _contradicciones(zonas, roles_op):
+    return [p for p, op in X.PANTALLA_OP.items() if sorted(X.ROLES_ZONA[zonas[p]]) != sorted(roles_op[op])]
+def _reuso(operaciones):
+    return [o[0] for o in operaciones if any(e.startswith(X.AUTENTICACION) for e in o[5])]
+prueba_zona = dict(zona_de, **{'PT-09': 'Bibliotecaria'})                       # la v1.0 corregida al revés
+prueba_rol = dict(X.ROLES_OP, **{'OP-05': ['dirección']})
+prueba_op = [o if o[0] != 'OP-04' else o[:5] + (['ME-12 (sin permiso)'],) + o[6:] for o in X.OPERACIONES]
+chk('R', 'Prueba de los controles: detectan una zona exclusiva, un contrato con otros roles y ME-12 usado como «sin permiso»',
+    _contradicciones(prueba_zona, X.ROLES_OP) == ['PT-09'] and _contradicciones(zona_de, prueba_rol) == ['PT-09']
+    and _reuso(prueba_op) == ['OP-04'] and not _contradicciones(zona_de, X.ROLES_OP) and not _reuso(X.OPERACIONES))
+chk('R', 'La matriz de coherencia, la Tabla 8.6 y el libro incluyen ME-13', 'ME-13' in X.COHERENCIA[[c[0] for c in X.COHERENCIA].index('RNF-02')][2]
+    and me['ME-13'][4] in tE and 'ME-13' in tG)
+chk('R', 'Leyenda del mapa: la zona agrupa las pantallas de un rol o de un grupo de roles (libro y guía)',
+    'grupo de roles' in G.SIMBOLOS['nav_zona'][2] and G.SIMBOLOS['nav_zona'][2] in tE and G.SIMBOLOS['nav_zona'][3] in tG)
+
 # ---------------------------------------------------------------- Q. lotes 1 y 2 intactos
 st = subprocess.run(['git', 'status', '--porcelain', '--', 'lote_1', 'lote_2', 'lote_1_oficio_candidata'], cwd=ADS, capture_output=True, text=True).stdout.strip()
 chk('Q', 'git: ningún archivo de lote_1, lote_1_oficio_candidata ni lote_2 cambió ni se agregó', not st, st[:300])
+import hashlib
+m10 = json.load(open(os.path.join(L3, 'version_1_0', 'MANIFIESTO_LOTE_3.json'), encoding='utf8'))
+docs10 = [a for a in m10['archivos'] if a['ruta'].startswith('ADS_3BTI_LOTE3_')]
+chk('Q', 'Versión 1.0 conservada: los seis DOCX y PDF de version_1_0/ coinciden con su manifiesto SHA-256',
+    len(docs10) == 6 and all(hashlib.sha256(open(os.path.join(L3, 'version_1_0', a['ruta']), 'rb').read()).hexdigest() == a['sha256'] for a in docs10))
 
 print('\nResultado por bloque:')
 for b, (o, f) in RES.items():

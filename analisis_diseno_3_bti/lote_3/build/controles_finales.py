@@ -11,7 +11,7 @@ y las láminas de la Unidad III.
 4. Índice: cada entrada en la página que indica.
 5. Márgenes espejados medidos en el PDF.
 Uso: python3 lote_3/build/controles_finales.py   (sale con 1 si algo falla)"""
-import os, re, sys, json
+import os, re, sys, json, collections
 sys.dont_write_bytecode = True
 AQUI = os.path.dirname(os.path.abspath(__file__))
 L2 = os.path.dirname(AQUI)   # carpeta del lote 3
@@ -51,6 +51,29 @@ for doc, base in DOCS.items():
     chk('2. Párrafos impresos', not no, '%s: ningún párrafo del DOCX falta en el PDF%s' % (doc, '' if not no else ' — faltan %s' % no[:3]))
     part = CI.palabras_partidas(base + '.docx', base + '.pdf')
     chk('2. Palabras enteras', not part, '%s: ninguna palabra de celda partida en el PDF%s' % (doc, '' if not part else ' — %s' % part))
+
+def filas_por_pagina(dx, pdf):
+    """Página de cada fila de datos de cada tabla, con el mismo emparejamiento DOCX-PDF que CI.filas_de_tablas."""
+    pf = [(i + 1, [c or '' for c in r]) for i, pg in enumerate(pymupdf.open(pdf))
+          for tb in sorted(pg.find_tables().tables, key=lambda x: x.bbox[1]) if tb.col_count >= 2 for r in tb.extract()]
+    k = 0; out = []
+    for rot, filas in CI._tablas_docx(dx):
+        pags = []
+        for fila in filas:
+            j = k
+            while j < len(pf) and not (len(pf[j][1]) == len(fila) and all(CI._igual(a, b) for a, b in zip(fila, pf[j][1]))):
+                j += 1
+            if j < len(pf):
+                pags.append(pf[j][0]); k = j + 1
+        out.append((rot or filas[0][0], pags[1:]))
+    return out
+
+
+for doc, base in DOCS.items():
+    cortes = [(r[:50], dict(collections.Counter(p))) for r, p in filas_por_pagina(base + '.docx', base + '.pdf') if len(set(p)) > 1]
+    solas = [c for c in cortes if min(c[1].values()) < 2]
+    chk('6. Cortes de tabla', not solas, '%s: %d tablas repartidas, ninguna deja menos de dos filas de datos en una página%s'
+        % (doc, len(cortes), '' if not solas else ' — %s' % solas))
 
 pE = pymupdf.open(DOCS['libro'] + '.pdf')
 epis = [(i + 1, m.group(0)) for i, pg in enumerate(pE) for m in re.finditer(r'Figura \d\.\d —', pg.get_text())]
