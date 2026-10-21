@@ -26,6 +26,7 @@ const MENSAJES = array(
     'MA-06' => 'Lector %s registrado.',
     'MA-07' => 'Datos del lector %s actualizados. Su código y su historial no cambian.',
     'MA-08' => '%s %s inactivado. Su historial se conserva y ya no puede usarse en préstamos nuevos.',
+    'MA-09' => 'Datos de la obra %s corregidos. Sus ediciones, sus ejemplares y su historial no cambian.',
     'MV-01' => 'Falta completar: %s. Escribilo y volvé a intentar.',
     'MV-02' => 'El código %s no tiene el formato esperado (%s). Revisá la etiqueta o el registro.',
     'MV-03' => 'Falta el curso: es obligatorio para los estudiantes. Escribilo y volvé a intentar.',

@@ -1,0 +1,1446 @@
+{
+ "correctos": 274,
+ "fallos": 0,
+ "bloques": {
+  "A": [
+   16,
+   0
+  ],
+  "B": [
+   11,
+   0
+  ],
+  "C": [
+   7,
+   0
+  ],
+  "K": [
+   25,
+   0
+  ],
+  "R": [
+   24,
+   0
+  ],
+  "S": [
+   12,
+   0
+  ],
+  "T": [
+   43,
+   0
+  ],
+  "U": [
+   5,
+   0
+  ],
+  "V": [
+   10,
+   0
+  ],
+  "E": [
+   4,
+   0
+  ],
+  "F": [
+   15,
+   0
+  ],
+  "G": [
+   11,
+   0
+  ],
+  "H": [
+   25,
+   0
+  ],
+  "I": [
+   30,
+   0
+  ],
+  "J": [
+   29,
+   0
+  ],
+  "L": [
+   5,
+   0
+  ],
+  "Q": [
+   2,
+   0
+  ]
+ },
+ "controles": [
+  {
+   "bloque": "A",
+   "control": "Capítulo 10: título y encuentros (19, 20) de Work §6",
+   "resultado": "correcto"
+  },
+  {
+   "bloque": "A",
+   "control": "Capítulo 10: las cuatro secciones con el texto de Work §6, como títulos del libro",
+   "resultado": "correcto"
+  },
+  {
+   "bloque": "A",
+   "control": "Capítulo 10: la práctica es la de Work §6 («demostrar una operación y vincularla con su requisito y prueba»)",
+   "resultado": "correcto"
+  },
+  {
+   "bloque": "A",
+   "control": "Capítulo 11: título y encuentros (21, 22) de Work §6",
+   "resultado": "correcto"
+  },
+  {
+   "bloque": "A",
+   "control": "Capítulo 11: las cuatro secciones con el texto de Work §6, como títulos del libro",
+   "resultado": "correcto"
+  },
+  {
+   "bloque": "A",
+   "control": "Capítulo 11: la práctica es la de Work §6 («registrar un lote distinto del ejemplo y resolver entradas inválidas»)",
+   "resultado": "correcto"
+  },
+  {
+   "bloque": "A",
+   "control": "Capítulo 12: título y encuentros (23, 24) de Work §6",
+   "resultado": "correcto"
+  },
+  {
+   "bloque": "A",
+   "control": "Capítulo 12: las cuatro secciones con el texto de Work §6, como títulos del libro",
+   "resultado": "correcto"
+  },
+  {
+   "bloque": "A",
+   "control": "Capítulo 12: la práctica es la de Work §6 («resolver dos solicitudes incompatibles y explicar la protección elegida»)",
+   "resultado": "correcto"
+  },
+  {
+   "bloque": "A",
+   "control": "Capítulo 13: título y encuentros (25, 26) de Work §6",
+   "resultado": "correcto"
+  },
+  {
+   "bloque": "A",
+   "control": "Capítulo 13: las cuatro secciones con el texto de Work §6, como títulos del libro",
+   "resultado": "correcto"
+  },
+  {
+   "bloque": "A",
+   "control": "Capítulo 13: cierre de Work «Revisión de unidad IV: circuito funcional completo; H4»",
+   "resultado": "correcto"
+  },
+  {
+   "bloque": "A",
+   "control": "Capítulo 13: la práctica es un complemento editorial rotulado como tal, en el Encuentro 25 o complementaria",
+   "resultado": "correcto"
+  },
+  {
+   "bloque": "A",
+   "control": "Las 16 secciones están textuales en el informe de Work",
+   "resultado": "correcto"
+  },
+  {
+   "bloque": "A",
+   "control": "Resultado de la unidad de Work §5.1 en la apertura («circuito funcional integrado y persistente»)",
+   "resultado": "correcto"
+  },
+  {
+   "bloque": "A",
+   "control": "Apertura: las evidencias de Work §5.2 de los ocho encuentros",
+   "resultado": "correcto"
+  },
+  {
+   "bloque": "B",
+   "control": "Capítulo 10: rótulo «propuestas para el programa institucional» y «no son capacidades oficiales del MEC»",
+   "resultado": "correcto"
+  },
+  {
+   "bloque": "B",
+   "control": "Capítulo 10: capacidades C6, C7, C8, C9 de Work §5.2, con su texto de §4.2",
+   "resultado": "correcto"
+  },
+  {
+   "bloque": "B",
+   "control": "Capítulo 11: rótulo «propuestas para el programa institucional» y «no son capacidades oficiales del MEC»",
+   "resultado": "correcto"
+  },
+  {
+   "bloque": "B",
+   "control": "Capítulo 11: capacidades C5, C6, C8 de Work §5.2, con su texto de §4.2",
+   "resultado": "correcto"
+  },
+  {
+   "bloque": "B",
+   "control": "Capítulo 12: rótulo «propuestas para el programa institucional» y «no son capacidades oficiales del MEC»",
+   "resultado": "correcto"
+  },
+  {
+   "bloque": "B",
+   "control": "Capítulo 12: capacidades C5, C8, C9 de Work §5.2, con su texto de §4.2",
+   "resultado": "correcto"
+  },
+  {
+   "bloque": "B",
+   "control": "Capítulo 13: rótulo «propuestas para el programa institucional» y «no son capacidades oficiales del MEC»",
+   "resultado": "correcto"
+  },
+  {
+   "bloque": "B",
+   "control": "Capítulo 13: capacidades C3, C8 de Work §5.2, con su texto de §4.2",
+   "resultado": "correcto"
+  },
+  {
+   "bloque": "B",
+   "control": "Encuentros 19 (C7, C8), 20 (C6, C8, C9), 21 (C5, C8), 22 (C6, C8) en los rótulos",
+   "resultado": "correcto"
+  },
+  {
+   "bloque": "B",
+   "control": "Capítulo 13: el H4 evalúa C7 a C9",
+   "resultado": "correcto"
+  },
+  {
+   "bloque": "B",
+   "control": "Ninguna capacidad presentada como oficial del MEC",
+   "resultado": "correcto"
+  },
+  {
+   "bloque": "C",
+   "control": "libro: los 160 códigos citados existen en las fuentes",
+   "resultado": "correcto"
+  },
+  {
+   "bloque": "C",
+   "control": "guía: los 130 códigos citados existen en las fuentes",
+   "resultado": "correcto"
+  },
+  {
+   "bloque": "C",
+   "control": "cuaderno: los 41 códigos citados existen en las fuentes",
+   "resultado": "correcto"
+  },
+  {
+   "bloque": "C",
+   "control": "Mbokaja U4: 19 códigos nuevos (M-F10, M-F11, MD, ML, MS-6, MI) que no repiten ninguno anterior",
+   "resultado": "correcto"
+  },
+  {
+   "bloque": "C",
+   "control": "Datos de prueba ficticios: los lectores de la base se nombran por descripción y llevan «ficticio»",
+   "resultado": "correcto"
+  },
+  {
+   "bloque": "C",
+   "control": "Los mensajes ME de mensajes.php reproducen exactamente los de la Tabla 8.6 (lote 3 v1.1), con los datos del diseño",
+   "resultado": "correcto"
+  },
+  {
+   "bloque": "C",
+   "control": "Cada mensaje MA y MV tiene su uso documentado",
+   "resultado": "correcto"
+  },
+  {
+   "bloque": "K",
+   "control": "OP-01 (registrar_prestamo): implementado y con todos los errores de su contrato (ME-01, ME-02, ME-03, ME-05, ME-13)",
+   "resultado": "correcto"
+  },
+  {
+   "bloque": "K",
+   "control": "OP-01: la base del estudiante trae el contrato y responde PENDIENTE",
+   "resultado": "correcto"
+  },
+  {
+   "bloque": "K",
+   "control": "OP-02 (registrar_devolucion): implementado y con todos los errores de su contrato (ME-05, ME-06, ME-13)",
+   "resultado": "correcto"
+  },
+  {
+   "bloque": "K",
+   "control": "OP-02: la base del estudiante trae el contrato y responde PENDIENTE",
+   "resultado": "correcto"
+  },
+  {
+   "bloque": "K",
+   "control": "OP-03 (consultar_disponibilidad): implementado y con todos los errores de su contrato (ME-08, ME-09)",
+   "resultado": "correcto"
+  },
+  {
+   "bloque": "K",
+   "control": "OP-03: la base del estudiante trae el contrato y responde PENDIENTE",
+   "resultado": "correcto"
+  },
+  {
+   "bloque": "K",
+   "control": "OP-04 (listar_prestamos_activos): implementado y con todos los errores de su contrato (ME-10, ME-13)",
+   "resultado": "correcto"
+  },
+  {
+   "bloque": "K",
+   "control": "OP-04: la base del estudiante trae el contrato y responde PENDIENTE",
+   "resultado": "correcto"
+  },
+  {
+   "bloque": "K",
+   "control": "OP-05 (informe_mensual): implementado y con todos los errores de su contrato (ME-13)",
+   "resultado": "correcto"
+  },
+  {
+   "bloque": "K",
+   "control": "OP-05: la base del estudiante trae el contrato y responde PENDIENTE",
+   "resultado": "correcto"
+  },
+  {
+   "bloque": "K",
+   "control": "OP-06 (inactivar): implementado y con todos los errores de su contrato (ME-13)",
+   "resultado": "correcto"
+  },
+  {
+   "bloque": "K",
+   "control": "OP-06: la base del estudiante trae el contrato y responde PENDIENTE",
+   "resultado": "correcto"
+  },
+  {
+   "bloque": "K",
+   "control": "OA-01 (alta_ejemplar): implementado y con todos los errores de su contrato (MV-01, MV-02, MA-03, MA-02, ME-13)",
+   "resultado": "correcto"
+  },
+  {
+   "bloque": "K",
+   "control": "OA-01: la base del estudiante trae el contrato y responde PENDIENTE",
+   "resultado": "correcto"
+  },
+  {
+   "bloque": "K",
+   "control": "OA-02 (alta_obra_edicion): implementado y con todos los errores de su contrato (MV-01, MV-02, MA-05, ME-13)",
+   "resultado": "correcto"
+  },
+  {
+   "bloque": "K",
+   "control": "OA-02: la base del estudiante trae el contrato y responde PENDIENTE",
+   "resultado": "correcto"
+  },
+  {
+   "bloque": "K",
+   "control": "OA-03 (alta_lector): implementado y con todos los errores de su contrato (MV-01, MV-02, MV-03, MV-04, MA-05, ME-13)",
+   "resultado": "correcto"
+  },
+  {
+   "bloque": "K",
+   "control": "OA-03: la base del estudiante trae el contrato y responde PENDIENTE",
+   "resultado": "correcto"
+  },
+  {
+   "bloque": "K",
+   "control": "OA-04 (editar_lector): implementado y con todos los errores de su contrato (MV-01, MV-03, MV-04, MV-07, ME-13)",
+   "resultado": "correcto"
+  },
+  {
+   "bloque": "K",
+   "control": "OA-04: la base del estudiante trae el contrato y responde PENDIENTE",
+   "resultado": "correcto"
+  },
+  {
+   "bloque": "K",
+   "control": "OA-05 (editar_obra): implementado y con todos los errores de su contrato (MV-07, MV-01, ME-13)",
+   "resultado": "correcto"
+  },
+  {
+   "bloque": "K",
+   "control": "OA-05: la base del estudiante trae el contrato y responde PENDIENTE",
+   "resultado": "correcto"
+  },
+  {
+   "bloque": "K",
+   "control": "Cada operación auxiliar tiene su prueba (PA-01 a PA-05) en prueba_contratos.php",
+   "resultado": "correcto"
+  },
+  {
+   "bloque": "K",
+   "control": "Las operaciones auxiliares no se atribuyen a contratos existentes: códigos OA propios y PT-08",
+   "resultado": "correcto"
+  },
+  {
+   "bloque": "K",
+   "control": "Las pruebas previstas del lote 2 que se ejecutan en la unidad están en prueba_contratos.php",
+   "resultado": "correcto"
+  },
+  {
+   "bloque": "R",
+   "control": "Ninguna operación usa ME-12 (src/reglas.php, referencia y base)",
+   "resultado": "correcto"
+  },
+  {
+   "bloque": "R",
+   "control": "OP-01: primera comprobación sin_permiso con los roles de su contrato (bibliotecaria)",
+   "resultado": "correcto"
+  },
+  {
+   "bloque": "R",
+   "control": "OP-02: primera comprobación sin_permiso con los roles de su contrato (bibliotecaria)",
+   "resultado": "correcto"
+  },
+  {
+   "bloque": "R",
+   "control": "OP-03 es pública: no comprueba rol ni devuelve ME-13",
+   "resultado": "correcto"
+  },
+  {
+   "bloque": "R",
+   "control": "OP-04: primera comprobación sin_permiso con los roles de su contrato (bibliotecaria)",
+   "resultado": "correcto"
+  },
+  {
+   "bloque": "R",
+   "control": "OP-05: primera comprobación sin_permiso con los roles de su contrato (bibliotecaria, direccion)",
+   "resultado": "correcto"
+  },
+  {
+   "bloque": "R",
+   "control": "OP-06: primera comprobación sin_permiso con los roles de su contrato (bibliotecaria)",
+   "resultado": "correcto"
+  },
+  {
+   "bloque": "R",
+   "control": "OA-01: primera comprobación sin_permiso con los roles de su contrato (bibliotecaria)",
+   "resultado": "correcto"
+  },
+  {
+   "bloque": "R",
+   "control": "OA-02: primera comprobación sin_permiso con los roles de su contrato (bibliotecaria)",
+   "resultado": "correcto"
+  },
+  {
+   "bloque": "R",
+   "control": "OA-03: primera comprobación sin_permiso con los roles de su contrato (bibliotecaria)",
+   "resultado": "correcto"
+  },
+  {
+   "bloque": "R",
+   "control": "OA-04: primera comprobación sin_permiso con los roles de su contrato (bibliotecaria)",
+   "resultado": "correcto"
+  },
+  {
+   "bloque": "R",
+   "control": "OA-05: primera comprobación sin_permiso con los roles de su contrato (bibliotecaria)",
+   "resultado": "correcto"
+  },
+  {
+   "bloque": "R",
+   "control": "PT-01 (index.php) es pública: no exige zona",
+   "resultado": "correcto"
+  },
+  {
+   "bloque": "R",
+   "control": "PT-03 (login.php) es pública: no exige zona",
+   "resultado": "correcto"
+  },
+  {
+   "bloque": "R",
+   "control": "PT-04 (inicio.php) exige la zona «Bibliotecaria»",
+   "resultado": "correcto"
+  },
+  {
+   "bloque": "R",
+   "control": "PT-05 (prestamo.php) exige la zona «Bibliotecaria»",
+   "resultado": "correcto"
+  },
+  {
+   "bloque": "R",
+   "control": "PT-06 (devolucion.php) exige la zona «Bibliotecaria»",
+   "resultado": "correcto"
+  },
+  {
+   "bloque": "R",
+   "control": "PT-07 (activos.php) exige la zona «Bibliotecaria»",
+   "resultado": "correcto"
+  },
+  {
+   "bloque": "R",
+   "control": "PT-08 (lectores.php) exige la zona «Bibliotecaria»",
+   "resultado": "correcto"
+  },
+  {
+   "bloque": "R",
+   "control": "PT-09 (informe.php) exige la zona «Bibliotecaria o dirección»",
+   "resultado": "correcto"
+  },
+  {
+   "bloque": "R",
+   "control": "ROLES_ZONA del código coincide con el diseño v1.1 (PT-09 para bibliotecaria y dirección)",
+   "resultado": "correcto"
+  },
+  {
+   "bloque": "R",
+   "control": "ME-12 solo en el ingreso (auth.php: ingresar) y ME-13 en exigir_zona",
+   "resultado": "correcto"
+  },
+  {
+   "bloque": "R",
+   "control": "Ningún texto asocia ME-12 con falta de permiso (salvo el error frecuente que lo corrige)",
+   "resultado": "correcto"
+  },
+  {
+   "bloque": "R",
+   "control": "Libro: Tabla 11.3 con ME-13 para cada operación protegida y permitida para OP-03",
+   "resultado": "correcto"
+  },
+  {
+   "bloque": "S",
+   "control": "RI-01, primera barrera: comprobación y registro entre BEGIN IMMEDIATE y COMMIT",
+   "resultado": "correcto"
+  },
+  {
+   "bloque": "S",
+   "control": "RI-01, segunda barrera: índice único parcial sobre los préstamos sin devolución",
+   "resultado": "correcto"
+  },
+  {
+   "bloque": "S",
+   "control": "Si actúa la segunda barrera, la operación deshace y responde ME-03",
+   "resultado": "correcto"
+  },
+  {
+   "bloque": "S",
+   "control": "El libro explica las dos barreras (Códigos 12.1 y 12.2) y P-07",
+   "resultado": "correcto"
+  },
+  {
+   "bloque": "S",
+   "control": "Ninguna operación borra datos (sin DELETE en src/reglas.php)",
+   "resultado": "correcto"
+  },
+  {
+   "bloque": "S",
+   "control": "La base protege el historial: préstamos sin borrado, datos fijos, devolución única y códigos con historial",
+   "resultado": "correcto"
+  },
+  {
+   "bloque": "S",
+   "control": "Devolución única: una sola sentencia sobre el préstamo activo y ME-06 si no cambió ninguna fila",
+   "resultado": "correcto"
+  },
+  {
+   "bloque": "S",
+   "control": "Instalar sobre una base existente no la toca (sale con error y el archivo queda igual)",
+   "resultado": "correcto"
+  },
+  {
+   "bloque": "S",
+   "control": "Reiniciar sin escribir REINICIAR no cambia nada",
+   "resultado": "correcto"
+  },
+  {
+   "bloque": "S",
+   "control": "Restaurar un archivo que no es un respaldo válido se rechaza sin tocar la base",
+   "resultado": "correcto"
+  },
+  {
+   "bloque": "S",
+   "control": "Restaurar la base sobre sí misma se rechaza",
+   "resultado": "correcto"
+  },
+  {
+   "bloque": "S",
+   "control": "Sin contraseñas en los materiales: la clave de demostración se genera al instalar y la de prueba no aparece",
+   "resultado": "correcto"
+  },
+  {
+   "bloque": "T",
+   "control": "Código 10.1: leído tal cual de referencia_docente/public/lectores.php (6 líneas), ninguna de más de 96 caracteres",
+   "resultado": "correcto"
+  },
+  {
+   "bloque": "T",
+   "control": "Código 10.1: con su ficha (archivo, propósito, requisito o contrato, entradas, resultado y prueba) en el libro",
+   "resultado": "correcto"
+  },
+  {
+   "bloque": "T",
+   "control": "Código 10.2: leído tal cual de base_estudiante/public/lectores.php (8 líneas), ninguna de más de 96 caracteres",
+   "resultado": "correcto"
+  },
+  {
+   "bloque": "T",
+   "control": "Código 10.2: con su ficha (archivo, propósito, requisito o contrato, entradas, resultado y prueba) en el libro",
+   "resultado": "correcto"
+  },
+  {
+   "bloque": "T",
+   "control": "Código 10.3: leído tal cual de referencia_docente/src/reglas.php (13 líneas), ninguna de más de 96 caracteres",
+   "resultado": "correcto"
+  },
+  {
+   "bloque": "T",
+   "control": "Código 10.3: con su ficha (archivo, propósito, requisito o contrato, entradas, resultado y prueba) en el libro",
+   "resultado": "correcto"
+  },
+  {
+   "bloque": "T",
+   "control": "Código 10.4: leído tal cual de referencia_docente/src/reglas.php (14 líneas), ninguna de más de 96 caracteres",
+   "resultado": "correcto"
+  },
+  {
+   "bloque": "T",
+   "control": "Código 10.4: con su ficha (archivo, propósito, requisito o contrato, entradas, resultado y prueba) en el libro",
+   "resultado": "correcto"
+  },
+  {
+   "bloque": "T",
+   "control": "Código 10.5: leído tal cual de referencia_docente/pruebas/prueba_contratos.php (7 líneas), ninguna de más de 96 caracteres",
+   "resultado": "correcto"
+  },
+  {
+   "bloque": "T",
+   "control": "Código 10.5: con su ficha (archivo, propósito, requisito o contrato, entradas, resultado y prueba) en el libro",
+   "resultado": "correcto"
+  },
+  {
+   "bloque": "T",
+   "control": "Código 11.1: leído tal cual de referencia_docente/src/auth.php (14 líneas), ninguna de más de 96 caracteres",
+   "resultado": "correcto"
+  },
+  {
+   "bloque": "T",
+   "control": "Código 11.1: con su ficha (archivo, propósito, requisito o contrato, entradas, resultado y prueba) en el libro",
+   "resultado": "correcto"
+  },
+  {
+   "bloque": "T",
+   "control": "Código 11.2: leído tal cual de referencia_docente/src/reglas.php (4 líneas), ninguna de más de 96 caracteres",
+   "resultado": "correcto"
+  },
+  {
+   "bloque": "T",
+   "control": "Código 11.2: con su ficha (archivo, propósito, requisito o contrato, entradas, resultado y prueba) en el libro",
+   "resultado": "correcto"
+  },
+  {
+   "bloque": "T",
+   "control": "Código 11.3: leído tal cual de referencia_docente/src/reglas.php (4 líneas), ninguna de más de 96 caracteres",
+   "resultado": "correcto"
+  },
+  {
+   "bloque": "T",
+   "control": "Código 11.3: con su ficha (archivo, propósito, requisito o contrato, entradas, resultado y prueba) en el libro",
+   "resultado": "correcto"
+  },
+  {
+   "bloque": "T",
+   "control": "Código 11.4: leído tal cual de referencia_docente/src/esquema.sql (5 líneas), ninguna de más de 96 caracteres",
+   "resultado": "correcto"
+  },
+  {
+   "bloque": "T",
+   "control": "Código 11.4: con su ficha (archivo, propósito, requisito o contrato, entradas, resultado y prueba) en el libro",
+   "resultado": "correcto"
+  },
+  {
+   "bloque": "T",
+   "control": "Código 12.1: leído tal cual de referencia_docente/src/reglas.php (19 líneas), ninguna de más de 96 caracteres",
+   "resultado": "correcto"
+  },
+  {
+   "bloque": "T",
+   "control": "Código 12.1: con su ficha (archivo, propósito, requisito o contrato, entradas, resultado y prueba) en el libro",
+   "resultado": "correcto"
+  },
+  {
+   "bloque": "T",
+   "control": "Código 12.4: leído tal cual de referencia_docente/src/reglas.php (13 líneas), ninguna de más de 96 caracteres",
+   "resultado": "correcto"
+  },
+  {
+   "bloque": "T",
+   "control": "Código 12.4: con su ficha (archivo, propósito, requisito o contrato, entradas, resultado y prueba) en el libro",
+   "resultado": "correcto"
+  },
+  {
+   "bloque": "T",
+   "control": "Código 12.2: leído tal cual de referencia_docente/src/esquema.sql (4 líneas), ninguna de más de 96 caracteres",
+   "resultado": "correcto"
+  },
+  {
+   "bloque": "T",
+   "control": "Código 12.2: con su ficha (archivo, propósito, requisito o contrato, entradas, resultado y prueba) en el libro",
+   "resultado": "correcto"
+  },
+  {
+   "bloque": "T",
+   "control": "Código 12.3: leído tal cual de referencia_docente/src/reglas.php (4 líneas), ninguna de más de 96 caracteres",
+   "resultado": "correcto"
+  },
+  {
+   "bloque": "T",
+   "control": "Código 12.3: con su ficha (archivo, propósito, requisito o contrato, entradas, resultado y prueba) en el libro",
+   "resultado": "correcto"
+  },
+  {
+   "bloque": "T",
+   "control": "Código 13.1: leído tal cual de referencia_docente/src/reglas.php (11 líneas), ninguna de más de 96 caracteres",
+   "resultado": "correcto"
+  },
+  {
+   "bloque": "T",
+   "control": "Código 13.1: con su ficha (archivo, propósito, requisito o contrato, entradas, resultado y prueba) en el libro",
+   "resultado": "correcto"
+  },
+  {
+   "bloque": "T",
+   "control": "Código 13.2: leído tal cual de referencia_docente/src/reglas.php (9 líneas), ninguna de más de 96 caracteres",
+   "resultado": "correcto"
+  },
+  {
+   "bloque": "T",
+   "control": "Código 13.2: con su ficha (archivo, propósito, requisito o contrato, entradas, resultado y prueba) en el libro",
+   "resultado": "correcto"
+  },
+  {
+   "bloque": "T",
+   "control": "Referencia R-1: leído tal cual de referencia_docente/src/reglas.php (20 líneas), ninguna de más de 96 caracteres",
+   "resultado": "correcto"
+  },
+  {
+   "bloque": "T",
+   "control": "Referencia R-1: con su ficha (archivo, propósito, requisito o contrato, entradas, resultado y prueba) en la guía",
+   "resultado": "correcto"
+  },
+  {
+   "bloque": "T",
+   "control": "Referencia R-2: leído tal cual de referencia_docente/src/reglas.php (36 líneas), ninguna de más de 96 caracteres",
+   "resultado": "correcto"
+  },
+  {
+   "bloque": "T",
+   "control": "Referencia R-2: con su ficha (archivo, propósito, requisito o contrato, entradas, resultado y prueba) en la guía",
+   "resultado": "correcto"
+  },
+  {
+   "bloque": "T",
+   "control": "Referencia R-3: leído tal cual de referencia_docente/src/reglas.php (13 líneas), ninguna de más de 96 caracteres",
+   "resultado": "correcto"
+  },
+  {
+   "bloque": "T",
+   "control": "Referencia R-3: con su ficha (archivo, propósito, requisito o contrato, entradas, resultado y prueba) en la guía",
+   "resultado": "correcto"
+  },
+  {
+   "bloque": "T",
+   "control": "Referencia R-1 no se publica en el libro ni en el cuaderno (es actividad de los equipos)",
+   "resultado": "correcto"
+  },
+  {
+   "bloque": "T",
+   "control": "Referencia R-2 no se publica en el libro ni en el cuaderno (es actividad de los equipos)",
+   "resultado": "correcto"
+  },
+  {
+   "bloque": "T",
+   "control": "Referencia R-3 no se publica en el libro ni en el cuaderno (es actividad de los equipos)",
+   "resultado": "correcto"
+  },
+  {
+   "bloque": "T",
+   "control": "Cada fragmento del libro se cita en el texto y tiene explicación",
+   "resultado": "correcto"
+  },
+  {
+   "bloque": "T",
+   "control": "Códigos numerados por capítulo, correlativos y en orden de aparición (15)",
+   "resultado": "correcto"
+  },
+  {
+   "bloque": "T",
+   "control": "Fragmentos breves: ninguno de más de 20 líneas en el libro y menos de 200 líneas en total",
+   "resultado": "correcto"
+  },
+  {
+   "bloque": "T",
+   "control": "El libro no publica resueltas comprobar_prestamo (salvo la llamada), validar_lector ni la consulta del informe",
+   "resultado": "correcto"
+  },
+  {
+   "bloque": "U",
+   "control": "Archivos comunes idénticos en las dos distribuciones salvo reglas, inicio, índice y PT-08 (27 comunes)",
+   "resultado": "correcto"
+  },
+  {
+   "bloque": "U",
+   "control": "Las páginas de las operaciones del curso no están en la base (pruebas/_trabajador.php, pruebas/prueba_carrera.php, pruebas/prueba_contratos.php, pruebas/prueba_http.sh, public/activos.php, public/devolucion.php, public/informe.php, public/prestamo.php)",
+   "resultado": "correcto"
+  },
+  {
+   "bloque": "U",
+   "control": "La base del estudiante no trae ninguna operación resuelta",
+   "resultado": "correcto"
+  },
+  {
+   "bloque": "U",
+   "control": "Base del estudiante: 384 líneas de código PHP de arranque, por debajo de 400 (519 con comentarios y vacías)",
+   "resultado": "correcto"
+  },
+  {
+   "bloque": "U",
+   "control": "La guía informa el tamaño y justifica el exceso de las herramientas de seguridad y respaldo (580 líneas)",
+   "resultado": "correcto"
+  },
+  {
+   "bloque": "V",
+   "control": "Última ejecución de build/reproducir.py sin fallos y con el entorno registrado",
+   "resultado": "correcto"
+  },
+  {
+   "bloque": "V",
+   "control": "Cada resultado de prueba guardado tiene su línea de entorno",
+   "resultado": "correcto"
+  },
+  {
+   "bloque": "V",
+   "control": "Base del estudiante: las operaciones pendientes no cuentan como falla; E-6b separada de E-6a",
+   "resultado": "correcto"
+  },
+  {
+   "bloque": "V",
+   "control": "Ficha de entorno: E-6 separada en E-6a (docente completo) y E-6b (base, sin exigir operaciones)",
+   "resultado": "correcto"
+  },
+  {
+   "bloque": "V",
+   "control": "Cada capítulo advierte que el entorno no se probó en la institución",
+   "resultado": "correcto"
+  },
+  {
+   "bloque": "V",
+   "control": "Tabla 12.2: la prueba de carrera con el entorno donde corrió y Windows pendiente",
+   "resultado": "correcto"
+  },
+  {
+   "bloque": "V",
+   "control": "Concurrencia en Windows: procesos independientes, no el servidor incorporado; pendientes sin declararlos aprobados",
+   "resultado": "correcto"
+  },
+  {
+   "bloque": "V",
+   "control": "Ningún entorno se declara validado ni probado en colegios",
+   "resultado": "correcto"
+  },
+  {
+   "bloque": "V",
+   "control": "Guía: evidencias equivalentes para otro entorno y sin una segunda colección",
+   "resultado": "correcto"
+  },
+  {
+   "bloque": "V",
+   "control": "Guía: resultados de las pruebas por distribución, con el entorno",
+   "resultado": "correcto"
+  },
+  {
+   "bloque": "E",
+   "control": "Sin unidad de sintaxis PHP ni manual de SQL (ningún título lo es)",
+   "resultado": "correcto"
+  },
+  {
+   "bloque": "E",
+   "control": "Sin Access ni tablas «Socios» (la guía solo los nombra para decir que no se usan)",
+   "resultado": "correcto"
+  },
+  {
+   "bloque": "E",
+   "control": "Sin personas, títulos ni archivos del caso de Algorítmica 3.º",
+   "resultado": "correcto"
+  },
+  {
+   "bloque": "E",
+   "control": "Guía: coordinación con Laboratorio antes del Encuentro 19 (Work §3)",
+   "resultado": "correcto"
+  },
+  {
+   "bloque": "F",
+   "control": "libro: sin formas de tuteo frecuentes",
+   "resultado": "correcto"
+  },
+  {
+   "bloque": "F",
+   "control": "libro: sin identificadores de modelos de IA",
+   "resultado": "correcto"
+  },
+  {
+   "bloque": "F",
+   "control": "libro: sin símbolos ✓ ✗",
+   "resultado": "correcto"
+  },
+  {
+   "bloque": "F",
+   "control": "libro: sin marcadores sin reemplazar",
+   "resultado": "correcto"
+  },
+  {
+   "bloque": "F",
+   "control": "libro: no se declara apto ni aprobado para la venta",
+   "resultado": "correcto"
+  },
+  {
+   "bloque": "F",
+   "control": "guía: sin formas de tuteo frecuentes",
+   "resultado": "correcto"
+  },
+  {
+   "bloque": "F",
+   "control": "guía: sin identificadores de modelos de IA",
+   "resultado": "correcto"
+  },
+  {
+   "bloque": "F",
+   "control": "guía: sin símbolos ✓ ✗",
+   "resultado": "correcto"
+  },
+  {
+   "bloque": "F",
+   "control": "guía: sin marcadores sin reemplazar",
+   "resultado": "correcto"
+  },
+  {
+   "bloque": "F",
+   "control": "guía: no se declara apto ni aprobado para la venta",
+   "resultado": "correcto"
+  },
+  {
+   "bloque": "F",
+   "control": "cuaderno: sin formas de tuteo frecuentes",
+   "resultado": "correcto"
+  },
+  {
+   "bloque": "F",
+   "control": "cuaderno: sin identificadores de modelos de IA",
+   "resultado": "correcto"
+  },
+  {
+   "bloque": "F",
+   "control": "cuaderno: sin símbolos ✓ ✗",
+   "resultado": "correcto"
+  },
+  {
+   "bloque": "F",
+   "control": "cuaderno: sin marcadores sin reemplazar",
+   "resultado": "correcto"
+  },
+  {
+   "bloque": "F",
+   "control": "cuaderno: no se declara apto ni aprobado para la venta",
+   "resultado": "correcto"
+  },
+  {
+   "bloque": "G",
+   "control": "libro: oficio 21,59 × 33,02 cm, márgenes O3 y espejados",
+   "resultado": "correcto"
+  },
+  {
+   "bloque": "G",
+   "control": "libro: 501 filas de tabla, todas «no dividir»",
+   "resultado": "correcto"
+  },
+  {
+   "bloque": "G",
+   "control": "libro: 62 tablas de varias columnas y bloques de código al ancho útil",
+   "resultado": "correcto"
+  },
+  {
+   "bloque": "G",
+   "control": "guía: oficio 21,59 × 33,02 cm, márgenes O3 y espejados",
+   "resultado": "correcto"
+  },
+  {
+   "bloque": "G",
+   "control": "guía: 392 filas de tabla, todas «no dividir»",
+   "resultado": "correcto"
+  },
+  {
+   "bloque": "G",
+   "control": "guía: 61 tablas de varias columnas y bloques de código al ancho útil",
+   "resultado": "correcto"
+  },
+  {
+   "bloque": "G",
+   "control": "cuaderno: oficio 21,59 × 33,02 cm, márgenes O3 y espejados",
+   "resultado": "correcto"
+  },
+  {
+   "bloque": "G",
+   "control": "cuaderno: 50 filas de tabla, todas «no dividir»",
+   "resultado": "correcto"
+  },
+  {
+   "bloque": "G",
+   "control": "cuaderno: 9 tablas de varias columnas y bloques de código al ancho útil",
+   "resultado": "correcto"
+  },
+  {
+   "bloque": "G",
+   "control": "Libro: 15 bloques de código, uno por fragmento, en letra monoespaciada de 7,5 pt",
+   "resultado": "correcto"
+  },
+  {
+   "bloque": "G",
+   "control": "Se usan la maqueta del lote 1 y el perfil O3 del lote 2 (sin copias)",
+   "resultado": "correcto"
+  },
+  {
+   "bloque": "H",
+   "control": "libro: ninguna página en blanco",
+   "resultado": "correcto"
+  },
+  {
+   "bloque": "H",
+   "control": "libro: ninguna página empieza con renglones de respuesta sueltos",
+   "resultado": "correcto"
+  },
+  {
+   "bloque": "H",
+   "control": "guía: ninguna página en blanco",
+   "resultado": "correcto"
+  },
+  {
+   "bloque": "H",
+   "control": "guía: ninguna página empieza con renglones de respuesta sueltos",
+   "resultado": "correcto"
+  },
+  {
+   "bloque": "H",
+   "control": "cuaderno: ninguna página en blanco",
+   "resultado": "correcto"
+  },
+  {
+   "bloque": "H",
+   "control": "cuaderno: ninguna página empieza con renglones de respuesta sueltos",
+   "resultado": "correcto"
+  },
+  {
+   "bloque": "H",
+   "control": "Evaluación del Capítulo 10: en página propia y entera en esa página (pág. [14])",
+   "resultado": "correcto"
+  },
+  {
+   "bloque": "H",
+   "control": "Práctica 10: empieza en página nueva",
+   "resultado": "correcto"
+  },
+  {
+   "bloque": "H",
+   "control": "Cuaderno: Práctica 10 empieza en página nueva",
+   "resultado": "correcto"
+  },
+  {
+   "bloque": "H",
+   "control": "Evaluación del Capítulo 11: en página propia y entera en esa página (pág. [24])",
+   "resultado": "correcto"
+  },
+  {
+   "bloque": "H",
+   "control": "Práctica 11: empieza en página nueva",
+   "resultado": "correcto"
+  },
+  {
+   "bloque": "H",
+   "control": "Cuaderno: Práctica 11 empieza en página nueva",
+   "resultado": "correcto"
+  },
+  {
+   "bloque": "H",
+   "control": "Evaluación del Capítulo 12: en página propia y entera en esa página (pág. [34])",
+   "resultado": "correcto"
+  },
+  {
+   "bloque": "H",
+   "control": "Práctica 12: empieza en página nueva",
+   "resultado": "correcto"
+  },
+  {
+   "bloque": "H",
+   "control": "Cuaderno: Práctica 12 empieza en página nueva",
+   "resultado": "correcto"
+  },
+  {
+   "bloque": "H",
+   "control": "Evaluación del Capítulo 13: en página propia y entera en esa página (pág. [44])",
+   "resultado": "correcto"
+  },
+  {
+   "bloque": "H",
+   "control": "Práctica 13: empieza en página nueva",
+   "resultado": "correcto"
+  },
+  {
+   "bloque": "H",
+   "control": "Cuaderno: Práctica 13 empieza en página nueva",
+   "resultado": "correcto"
+  },
+  {
+   "bloque": "H",
+   "control": "El Encuentro 26 (H4) empieza en página nueva (pág. [41])",
+   "resultado": "correcto"
+  },
+  {
+   "bloque": "H",
+   "control": "El índice ocupa una sola página y la siguiente es la apertura de la Unidad IV",
+   "resultado": "correcto"
+  },
+  {
+   "bloque": "H",
+   "control": "Índice estable: las 38 entradas apuntan a la página donde está su título",
+   "resultado": "correcto"
+  },
+  {
+   "bloque": "H",
+   "control": "Extensión del libro: 44 págs. (plan: 40 a 50)",
+   "resultado": "correcto"
+  },
+  {
+   "bloque": "H",
+   "control": "Extensión de la guía: 23 págs. (plan: 18 a 24)",
+   "resultado": "correcto"
+  },
+  {
+   "bloque": "H",
+   "control": "Extensión del cuaderno: 9 págs. (plan: 8 a 12)",
+   "resultado": "correcto"
+  },
+  {
+   "bloque": "H",
+   "control": "Cada línea de código del libro está impresa entera en el PDF, sin cortes ni caracteres perdidos",
+   "resultado": "correcto"
+  },
+  {
+   "bloque": "I",
+   "control": "Evaluación del Capítulo 10: 9 ítems con clave; opción múltiple con claves cadd",
+   "resultado": "correcto"
+  },
+  {
+   "bloque": "I",
+   "control": "Evaluación del Capítulo 10: suma 15 puntos, como dice su remisión",
+   "resultado": "correcto"
+  },
+  {
+   "bloque": "I",
+   "control": "Evaluación del Capítulo 10: la guía trae su clave y los criterios de los ítems abiertos",
+   "resultado": "correcto"
+  },
+  {
+   "bloque": "I",
+   "control": "Capítulo 10: práctica en tres niveles con el caso Mbokaja",
+   "resultado": "correcto"
+  },
+  {
+   "bloque": "I",
+   "control": "Evaluación del Capítulo 11: 9 ítems con clave; opción múltiple con claves dabb",
+   "resultado": "correcto"
+  },
+  {
+   "bloque": "I",
+   "control": "Evaluación del Capítulo 11: suma 15 puntos, como dice su remisión",
+   "resultado": "correcto"
+  },
+  {
+   "bloque": "I",
+   "control": "Evaluación del Capítulo 11: la guía trae su clave y los criterios de los ítems abiertos",
+   "resultado": "correcto"
+  },
+  {
+   "bloque": "I",
+   "control": "Capítulo 11: práctica en tres niveles con el caso Mbokaja",
+   "resultado": "correcto"
+  },
+  {
+   "bloque": "I",
+   "control": "Evaluación del Capítulo 12: 9 ítems con clave; opción múltiple con claves bacd",
+   "resultado": "correcto"
+  },
+  {
+   "bloque": "I",
+   "control": "Evaluación del Capítulo 12: suma 15 puntos, como dice su remisión",
+   "resultado": "correcto"
+  },
+  {
+   "bloque": "I",
+   "control": "Evaluación del Capítulo 12: la guía trae su clave y los criterios de los ítems abiertos",
+   "resultado": "correcto"
+  },
+  {
+   "bloque": "I",
+   "control": "Capítulo 12: práctica en tres niveles con el caso Mbokaja",
+   "resultado": "correcto"
+  },
+  {
+   "bloque": "I",
+   "control": "Evaluación del Capítulo 13: 9 ítems con clave; opción múltiple con claves cacd",
+   "resultado": "correcto"
+  },
+  {
+   "bloque": "I",
+   "control": "Evaluación del Capítulo 13: suma 15 puntos, como dice su remisión",
+   "resultado": "correcto"
+  },
+  {
+   "bloque": "I",
+   "control": "Evaluación del Capítulo 13: la guía trae su clave y los criterios de los ítems abiertos",
+   "resultado": "correcto"
+  },
+  {
+   "bloque": "I",
+   "control": "Capítulo 13: práctica en tres niveles con el caso Mbokaja",
+   "resultado": "correcto"
+  },
+  {
+   "bloque": "I",
+   "control": "Semillas de evaluación distintas entre sí y de las de los lotes 1 a 3 (ADS3-L4-C10, ADS3-L4-C11, ADS3-L4-C12, ADS3-L4-C13-f)",
+   "resultado": "correcto"
+  },
+  {
+   "bloque": "I",
+   "control": "Los datos nuevos de las prácticas (M-F10, M-F11, MD, ML, MS-6, MI) no aparecen en los ejemplos resueltos ni en las secciones",
+   "resultado": "correcto"
+  },
+  {
+   "bloque": "I",
+   "control": "Práctica 13: usa datos nuevos (MI-01 a MI-07) y exige comprobar una integración o una incidencia",
+   "resultado": "correcto"
+  },
+  {
+   "bloque": "I",
+   "control": "Encuentro 26: las 2 HC de evaluación se conservan (P2 V1 E2) y la Práctica 13 queda fuera de ellas",
+   "resultado": "correcto"
+  },
+  {
+   "bloque": "I",
+   "control": "Rúbrica del H4: seis criterios que cubren C7, C8 y C9, cuatro niveles, evidencia del equipo e individual",
+   "resultado": "correcto"
+  },
+  {
+   "bloque": "I",
+   "control": "H4: 60/40 como propuesta editorial, ausencia de evidencia aparte y pendientes del entorno separados de las fallas",
+   "resultado": "correcto"
+  },
+  {
+   "bloque": "I",
+   "control": "H4: condiciones mínimas de Work §4.3 que corresponden a la unidad",
+   "resultado": "correcto"
+  },
+  {
+   "bloque": "I",
+   "control": "Banco del H4: cinco variantes que no están en el dossier, el buzón, el banco del H3 ni las prácticas",
+   "resultado": "correcto"
+  },
+  {
+   "bloque": "I",
+   "control": "Guía: planilla de registro del H4 con columna AE",
+   "resultado": "correcto"
+  },
+  {
+   "bloque": "I",
+   "control": "Guía: secuencia en HC de los Encuentros 19 a 26 con las categorías de la v2.1 (19 P3 G2; 20 a 25 D1 P3 V1; 26 P2 V1 E2)",
+   "resultado": "correcto"
+  },
+  {
+   "bloque": "I",
+   "control": "Guía: claves de todas las actividades de los Encuentros 19 a 26",
+   "resultado": "correcto"
+  },
+  {
+   "bloque": "I",
+   "control": "Guía: claves por nivel y lista de cotejo de las cuatro prácticas",
+   "resultado": "correcto"
+  },
+  {
+   "bloque": "I",
+   "control": "Calendario de 28 encuentros: recuadro en cada capítulo y tabla en la guía (15 = 19+20, 16 = 21+22, 17, 18, 19 = 25+26)",
+   "resultado": "correcto"
+  },
+  {
+   "bloque": "I",
+   "control": "Cuaderno: las cuatro prácticas con el mismo texto que el libro y sin evaluaciones",
+   "resultado": "correcto"
+  },
+  {
+   "bloque": "J",
+   "control": "Capítulo 10: tabla 10.1 a 10.6 correlativas, en orden de aparición",
+   "resultado": "correcto"
+  },
+  {
+   "bloque": "J",
+   "control": "Capítulo 10: figura 10.1 a 10.2 correlativas, en orden de aparición",
+   "resultado": "correcto"
+  },
+  {
+   "bloque": "J",
+   "control": "Capítulo 10: ejemplo resuelto 10.1 a 10.4 correlativas, en orden de aparición",
+   "resultado": "correcto"
+  },
+  {
+   "bloque": "J",
+   "control": "Capítulo 10: toda tabla mencionada existe",
+   "resultado": "correcto"
+  },
+  {
+   "bloque": "J",
+   "control": "Capítulo 10: toda figura mencionada existe",
+   "resultado": "correcto"
+  },
+  {
+   "bloque": "J",
+   "control": "Capítulo 10: toda ejemplo resuelto mencionada existe",
+   "resultado": "correcto"
+  },
+  {
+   "bloque": "J",
+   "control": "Capítulo 10: toda código mencionada existe",
+   "resultado": "correcto"
+  },
+  {
+   "bloque": "J",
+   "control": "Capítulo 11: tabla 11.1 a 11.4 correlativas, en orden de aparición",
+   "resultado": "correcto"
+  },
+  {
+   "bloque": "J",
+   "control": "Capítulo 11: figura 11.1 a 11.0 correlativas, en orden de aparición",
+   "resultado": "correcto"
+  },
+  {
+   "bloque": "J",
+   "control": "Capítulo 11: ejemplo resuelto 11.1 a 11.4 correlativas, en orden de aparición",
+   "resultado": "correcto"
+  },
+  {
+   "bloque": "J",
+   "control": "Capítulo 11: toda tabla mencionada existe",
+   "resultado": "correcto"
+  },
+  {
+   "bloque": "J",
+   "control": "Capítulo 11: toda figura mencionada existe",
+   "resultado": "correcto"
+  },
+  {
+   "bloque": "J",
+   "control": "Capítulo 11: toda ejemplo resuelto mencionada existe",
+   "resultado": "correcto"
+  },
+  {
+   "bloque": "J",
+   "control": "Capítulo 11: toda código mencionada existe",
+   "resultado": "correcto"
+  },
+  {
+   "bloque": "J",
+   "control": "Capítulo 12: tabla 12.1 a 12.3 correlativas, en orden de aparición",
+   "resultado": "correcto"
+  },
+  {
+   "bloque": "J",
+   "control": "Capítulo 12: figura 12.1 a 12.1 correlativas, en orden de aparición",
+   "resultado": "correcto"
+  },
+  {
+   "bloque": "J",
+   "control": "Capítulo 12: ejemplo resuelto 12.1 a 12.4 correlativas, en orden de aparición",
+   "resultado": "correcto"
+  },
+  {
+   "bloque": "J",
+   "control": "Capítulo 12: toda tabla mencionada existe",
+   "resultado": "correcto"
+  },
+  {
+   "bloque": "J",
+   "control": "Capítulo 12: toda figura mencionada existe",
+   "resultado": "correcto"
+  },
+  {
+   "bloque": "J",
+   "control": "Capítulo 12: toda ejemplo resuelto mencionada existe",
+   "resultado": "correcto"
+  },
+  {
+   "bloque": "J",
+   "control": "Capítulo 12: toda código mencionada existe",
+   "resultado": "correcto"
+  },
+  {
+   "bloque": "J",
+   "control": "Capítulo 13: tabla 13.1 a 13.3 correlativas, en orden de aparición",
+   "resultado": "correcto"
+  },
+  {
+   "bloque": "J",
+   "control": "Capítulo 13: figura 13.1 a 13.1 correlativas, en orden de aparición",
+   "resultado": "correcto"
+  },
+  {
+   "bloque": "J",
+   "control": "Capítulo 13: ejemplo resuelto 13.1 a 13.3 correlativas, en orden de aparición",
+   "resultado": "correcto"
+  },
+  {
+   "bloque": "J",
+   "control": "Capítulo 13: toda tabla mencionada existe",
+   "resultado": "correcto"
+  },
+  {
+   "bloque": "J",
+   "control": "Capítulo 13: toda figura mencionada existe",
+   "resultado": "correcto"
+  },
+  {
+   "bloque": "J",
+   "control": "Capítulo 13: toda ejemplo resuelto mencionada existe",
+   "resultado": "correcto"
+  },
+  {
+   "bloque": "J",
+   "control": "Capítulo 13: toda código mencionada existe",
+   "resultado": "correcto"
+  },
+  {
+   "bloque": "J",
+   "control": "Las tablas y figuras de los lotes 1 a 3 que se citan existen allí (Figura 8.1, Figura 9.1, Tabla 6.3, Tabla 7.3, Tabla 7.5, Tabla 7.8, Tabla 8.6, Tabla 9.1, Tabla 9.2, Tabla 9.4, Tabla 9.5)",
+   "resultado": "correcto"
+  },
+  {
+   "bloque": "L",
+   "control": "Figura 10.2 usa solo la notación de capas de la Tabla 9.1 (capa_banda, capa_operacion)",
+   "resultado": "correcto"
+  },
+  {
+   "bloque": "L",
+   "control": "fig_10_1 (esquema didáctico) no usa símbolos de ninguna notación",
+   "resultado": "correcto"
+  },
+  {
+   "bloque": "L",
+   "control": "fig_12_1 (esquema didáctico) no usa símbolos de ninguna notación",
+   "resultado": "correcto"
+  },
+  {
+   "bloque": "L",
+   "control": "fig_13_1 (esquema didáctico) no usa símbolos de ninguna notación",
+   "resultado": "correcto"
+  },
+  {
+   "bloque": "L",
+   "control": "Guía: leyenda de la notación de capas con los símbolos que usa la Figura 10.2",
+   "resultado": "correcto"
+  },
+  {
+   "bloque": "Q",
+   "control": "git: ningún archivo de los lotes 1, 2 y 3 cambió ni se agregó",
+   "resultado": "correcto"
+  },
+  {
+   "bloque": "Q",
+   "control": "Lote 3 v1.1: sus seis DOCX y PDF coinciden con su manifiesto SHA-256",
+   "resultado": "correcto"
+  }
+ ]
+}

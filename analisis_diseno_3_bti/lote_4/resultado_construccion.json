@@ -1,0 +1,313 @@
+{
+ "perfil": {
+  "nombre": "O3",
+  "papel": [
+   21.59,
+   33.02
+  ],
+  "interior": 2.5,
+  "exterior": 1.8,
+  "superior": 1.5,
+  "inferior": 1.5,
+  "espejo": true
+ },
+ "ancho_util": 17.29,
+ "tablas_en_hoja_nueva": [],
+ "columnas_ensanchadas": [],
+ "paginas_libro": {
+  "Unidad IV — Construir el prototipo por incrementos": 3,
+  "Capítulo 10 — Del diseño a la primera operación funcional": 4,
+  "Encuentro 19 — Entorno, estructura, versiones y datos": 5,
+  "10.1 Preparación del entorno y estructura del proyecto": 5,
+  "10.2 Versiones, bitácora y conjunto inicial de datos ficticios": 6,
+  "Encuentro 20 — Una operación de punta a punta": 7,
+  "10.3 Una operación completa: formulario, procesamiento y almacenamiento": 7,
+  "10.4 Validación, consulta parametrizada y evidencia de persistencia": 9,
+  "Práctica 10 — Demostrar una operación en la computadora de Mbokaja": 12,
+  "Evaluación del Capítulo 10": 14,
+  "Capítulo 11 — Catálogo, ejemplares y lectores": 15,
+  "Encuentro 21 — Catálogo: obras, ediciones y ejemplares": 15,
+  "11.1 Implementación de tareas priorizadas a partir de los bocetos": 15,
+  "11.2 Datos obligatorios, códigos, duplicados y mensajes útiles": 16,
+  "Encuentro 22 — Lectores, permisos y baja lógica": 18,
+  "11.3 Permisos mínimos y comprobaciones del servidor": 18,
+  "11.4 Edición y baja lógica sin pérdida de historial": 19,
+  "Práctica 11 — Un lote de libros donados y lectores con datos incompletos": 22,
+  "Evaluación del Capítulo 11": 24,
+  "Capítulo 12 — Préstamos y devoluciones consistentes": 25,
+  "Encuentro 23 — El préstamo y sus protecciones": 25,
+  "12.1 Precondiciones y reglas de la operación de préstamo": 25,
+  "12.2 Doble envío, disponibilidad y operaciones atómicas": 26,
+  "Encuentro 24 — Devolución, historial y fallos previsibles": 28,
+  "12.3 Devolución, estado del ejemplar y conservación de historial": 28,
+  "12.4 Fallos previsibles y comprobación de resultados": 29,
+  "Práctica 12 — Dos voluntarios, el mismo libro y un libro dañado": 32,
+  "Evaluación del Capítulo 12": 34,
+  "Capítulo 13 — Información útil e integración": 35,
+  "Encuentro 25 — Consultas, vencimientos e informe": 35,
+  "13.1 Búsqueda de ejemplares disponibles y préstamos activos": 35,
+  "13.2 Vencimientos y fecha de referencia": 37,
+  "Práctica 13 — Una semana en Mbokaja: integración e incidencias (complemento editorial)": 39,
+  "Encuentro 26 — Integración, demostración y revisión de la Unidad IV": 41,
+  "13.3 Integración de módulos y revisión del alcance mínimo": 41,
+  "13.4 Demostración del incremento y registro de pendientes": 41,
+  "Revisión de la Unidad IV — Hito H4: circuito funcional completo y lista de incidencias": 42,
+  "Evaluación del Capítulo 13": 44
+ },
+ "paginas": {
+  "libro": 44,
+  "guia": 23,
+  "cuaderno": 9
+ },
+ "claves": [
+  [
+   "ADS3-L4-C10",
+   1,
+   "c",
+   "En las reglas de negocio, en el servidor."
+  ],
+  [
+   "ADS3-L4-C10",
+   2,
+   "a",
+   "Que el dato sigue al abrir la base con otra conexión."
+  ],
+  [
+   "ADS3-L4-C10",
+   3,
+   "d",
+   "Reiniciar con el instalador, que pide confirmación y guarda antes un respaldo verificado."
+  ],
+  [
+   "ADS3-L4-C10",
+   4,
+   "d",
+   "que lo que escribe la persona no pueda cambiar la sentencia."
+  ],
+  [
+   "ADS3-L4-C10",
+   5,
+   "V",
+   "Verdadero. Un resultado que no se obtuvo no se inventa."
+  ],
+  [
+   "ADS3-L4-C10",
+   6,
+   "F",
+   "Falso. Trae la conexión, el ingreso y los permisos; las operaciones las construye el equipo."
+  ],
+  [
+   "ADS3-L4-C10",
+   7,
+   "V",
+   "Verdadero. El permiso se comprueba primero, en el servidor (EF-3)."
+  ],
+  [
+   "ADS3-L4-C10",
+   8,
+   "abierta",
+   "Entradas: etiqueta, tipo de material, cuenta. Precondición: la cuenta es del encargado (EF-3). Resultado: material nuevo, activo. Errores: falta un dato, etiqueta con otro formato (EF-2), etiqueta repetida, sin permiso. Un punto por entradas, uno por la precondición, uno por el resultado y uno por los errores con su fuente."
+  ],
+  [
+   "ADS3-L4-C10",
+   9,
+   "abierta",
+   "Alta de un material con datos ficticios; rechazo de una etiqueta repetida o mal escrita; cerrar el sistema y volver a abrirlo (o abrir otra conexión) y encontrar el material; bitácora con versión, prueba, resultado obtenido y entorno. Un punto por cada parte."
+  ],
+  [
+   "ADS3-L4-C11",
+   1,
+   "d",
+   "Un error de permiso, sin cambiar datos."
+  ],
+  [
+   "ADS3-L4-C11",
+   2,
+   "a",
+   "Se marca inactivo y se conserva su historial."
+  ],
+  [
+   "ADS3-L4-C11",
+   3,
+   "b",
+   "En la operación, con un mensaje, y en la base, con una restricción de unicidad."
+  ],
+  [
+   "ADS3-L4-C11",
+   4,
+   "b",
+   "«El código PRY-7 no tiene el formato esperado (PRY- y dos cifras). Revisá la etiqueta.»"
+  ],
+  [
+   "ADS3-L4-C11",
+   5,
+   "F",
+   "Falso. Cualquiera puede enviar el pedido; la operación comprueba el rol en el servidor."
+  ],
+  [
+   "ADS3-L4-C11",
+   6,
+   "V",
+   "Verdadero. Corregir no cambia el historial."
+  ],
+  [
+   "ADS3-L4-C11",
+   7,
+   "F",
+   "Falso. El historial nombra ese código: no se reutiliza."
+  ],
+  [
+   "ADS3-L4-C11",
+   8,
+   "abierta",
+   "Por ejemplo: formato PRY- y dos cifras (AV-1): mensaje de formato y CHECK; código único: mensaje de código usado y UNIQUE; equipo inactivo no se presta (AV-3): rechazo en el préstamo y estado en la base. Un punto por cada regla completa y uno por citar las fuentes."
+  ],
+  [
+   "ADS3-L4-C11",
+   9,
+   "abierta",
+   "Cuenta de docente con sesión; pedido de baja enviado aunque no haya botón; error de permiso; el equipo sigue activo y su historial no cambió. Un punto por cada parte."
+  ],
+  [
+   "ADS3-L4-C12",
+   1,
+   "b",
+   "Comprobar y registrar en una operación atómica, y una restricción única en la base."
+  ],
+  [
+   "ADS3-L4-C12",
+   2,
+   "a",
+   "Permiso, estudiante, máximo y calculadora."
+  ],
+  [
+   "ADS3-L4-C12",
+   3,
+   "c",
+   "No se cambia nada y se informa que no había un préstamo activo."
+  ],
+  [
+   "ADS3-L4-C12",
+   4,
+   "d",
+   "Con una consulta que busca calculadoras con más de un préstamo activo."
+  ],
+  [
+   "ADS3-L4-C12",
+   5,
+   "F",
+   "Falso. Evita el doble clic en una pantalla, no dos mesas a la vez (CA-3)."
+  ],
+  [
+   "ADS3-L4-C12",
+   6,
+   "V",
+   "Verdadero (CA-4)."
+  ],
+  [
+   "ADS3-L4-C12",
+   7,
+   "F",
+   "Falso. Vale para el entorno en que corrió; en la del colegio queda pendiente hasta probarla."
+  ],
+  [
+   "ADS3-L4-C12",
+   8,
+   "abierta",
+   "Permiso de quien registra; estudiante existe y no tiene ya una calculadora (CA-2); calculadora existe; calculadora sin préstamo activo (CA-1); registrar. Un punto por el orden, uno por las fuentes, uno por los mensajes y uno por el registro final."
+  ],
+  [
+   "ADS3-L4-C12",
+   9,
+   "abierta",
+   "Operación atómica: el segundo pedido comprueba después de que el primero registró. Restricción única en la base: cubre un error de la operación o un dato escrito sin pasar por ella. Dos puntos por cada protección bien explicada."
+  ],
+  [
+   "ADS3-L4-C13-f",
+   1,
+   "c",
+   "El título del mapa y cuántos hay disponibles."
+  ],
+  [
+   "ADS3-L4-C13-f",
+   2,
+   "a",
+   "Vencido, porque vencía el jueves 5."
+  ],
+  [
+   "ADS3-L4-C13-f",
+   3,
+   "c",
+   "Para comprobar que la suma de los grupos coincide."
+  ],
+  [
+   "ADS3-L4-C13-f",
+   4,
+   "d",
+   "Como pendiente, con motivo y responsable."
+  ],
+  [
+   "ADS3-L4-C13-f",
+   5,
+   "F",
+   "Falso. Es un dato derivado: se cuenta en el momento, así no deja de coincidir."
+  ],
+  [
+   "ADS3-L4-C13-f",
+   6,
+   "V",
+   "Verdadero. Lo que no se admite es ocultarla o inventar un resultado."
+  ],
+  [
+   "ADS3-L4-C13-f",
+   7,
+   "F",
+   "Falso. Se agrupan por el curso que tenía al prestar."
+  ],
+  [
+   "ADS3-L4-C13-f",
+   8,
+   "abierta",
+   "Entradas: fecha de referencia y cuenta. Precondición: rol de coordinadora (MP-3). Resultado: préstamos activos con la marca de vencido si el vencimiento es anterior a la fecha de referencia (MP-2, MP-3). Errores: fecha inválida, sin préstamos activos, sin permiso. Un punto por cada parte."
+  ],
+  [
+   "ADS3-L4-C13-f",
+   9,
+   "abierta",
+   "Cada incidencia con dónde, qué pasa, gravedad, estado y destino (1 punto cada una) y su prueba reproducible (1 punto cada una)."
+  ]
+ ],
+ "simbolos": {
+  "fig_10_2": {
+   "notacion": "capas",
+   "simbolos": {
+    "capa_banda": 3,
+    "capa_operacion": 2
+   }
+  },
+  "fig_10_1": {
+   "notacion": "esquema",
+   "simbolos": {}
+  },
+  "fig_12_1": {
+   "notacion": "esquema",
+   "simbolos": {}
+  },
+  "fig_13_1": {
+   "notacion": "esquema",
+   "simbolos": {}
+  },
+  "leyenda:capa_banda": {
+   "notacion": "capas",
+   "simbolos": {
+    "capa_banda": 1
+   }
+  },
+  "leyenda:capa_operacion": {
+   "notacion": "capas",
+   "simbolos": {
+    "capa_operacion": 1
+   }
+  }
+ }
+}

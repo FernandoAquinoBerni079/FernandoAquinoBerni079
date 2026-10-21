@@ -1,6 +1,6 @@
 {
  "entorno": {
-  "fecha": "2026-10-21 04:13",
+  "fecha": "2026-10-21 04:47",
   "sistema": "Linux 6.18.44-fc-v140 (x86_64)",
   "php": "8.3.6",
   "sqlite": "3.45.1",
@@ -11,12 +11,12 @@
  "referencia_docente": {
   "prueba_contratos.php": {
    "codigo_salida": 0,
-   "resultado": "Resultado: 85 de 85 correctas",
+   "resultado": "Resultado: 90 de 90 correctas",
    "pendientes": 0
   },
   "prueba_mis_operaciones.php": {
    "codigo_salida": 0,
-   "resultado": "Resultado: 16 de 16 correctas",
+   "resultado": "Resultado: 17 de 17 correctas",
    "pendientes": 0
   },
   "prueba_carrera.php": {
@@ -79,7 +79,7 @@
   "prueba_mis_operaciones.php": {
    "codigo_salida": 0,
    "resultado": "Resultado: 1 de 1 correctas",
-   "pendientes": 15
+   "pendientes": 16
   }
  },
  "reproduccion_ejemplo_capitulo_10": {
@@ -94,6 +94,6 @@
   ],
   "ok": true
  },
- "base_estudiante_operaciones_pendientes": 15,
+ "base_estudiante_operaciones_pendientes": 16,
  "fallos": 0
 }

@@ -177,6 +177,14 @@ comprobar('PA-04: corregir el nombre de LE-0123 → MA-07', $codigo(editar_lecto
 rechaza('PA-04: corregir dejando sin curso a un estudiante', function () use ($pdo, $bib) { return editar_lector($pdo, $bib, 'LE-0123', 'Estudiante A', ''); }, 'MV-03');
 rechaza('PA-04: lector inexistente', function () use ($pdo, $bib) { return editar_lector($pdo, $bib, 'LE-9999', 'X', '1.º'); }, 'MV-07');
 
+echo "-- OA-05 corregir una obra (Capítulo 11)\n";
+$ed_antes = contar($pdo, "SELECT COUNT(*) FROM ediciones d JOIN obras o ON o.id = d.obra_id WHERE o.codigo = 'OB-0031'");
+comprobar('PA-05: corregir el título de OB-0031 → MA-09', $codigo(editar_obra($pdo, $bib, 'OB-0031', 'Cuentos del arroyo Arapoty (corregido)', 'Autora del caso (ficticia)')) === 'MA-09');
+comprobar('PA-05: el título cambió y sus ediciones siguen', contar($pdo, "SELECT COUNT(*) FROM obras WHERE codigo = 'OB-0031' AND titulo LIKE '%(corregido)'") === 1 && contar($pdo, "SELECT COUNT(*) FROM ediciones d JOIN obras o ON o.id = d.obra_id WHERE o.codigo = 'OB-0031'") === $ed_antes);
+rechaza('PA-05: título vacío', function () use ($pdo, $bib) { return editar_obra($pdo, $bib, 'OB-0031', '', 'X'); }, 'MV-01');
+rechaza('PA-05: obra inexistente', function () use ($pdo, $bib) { return editar_obra($pdo, $bib, 'OB-9999', 'X', 'Y'); }, 'MV-07');
+rechaza('PA-05: con la cuenta de dirección', function () use ($pdo, $dir_) { return editar_obra($pdo, $dir_, 'OB-0031', 'X', 'Y'); }, 'ME-13');
+
 echo "-- Otros\n";
 comprobar('Zona horaria de Paraguay', date_default_timezone_get() === 'America/Asuncion');
 comprobar('Versión del esquema registrada (3)', contar($pdo, 'PRAGMA user_version') === 3);

@@ -1,0 +1,86 @@
+[
+ {
+  "fuente": "Carlito",
+  "documento": "ADS_3BTI_LOTE4_ESTUDIANTE_OFICIO_O3",
+  "paginas": 44,
+  "vacias": [],
+  "renglones_sueltos": [],
+  "fuente_aplicada": true,
+  "evaluaciones_en_pagina_propia": true,
+  "resultado": "correcto"
+ },
+ {
+  "fuente": "Carlito",
+  "documento": "ADS_3BTI_LOTE4_GUIA_DOCENTE_OFICIO_O3",
+  "paginas": 23,
+  "vacias": [],
+  "renglones_sueltos": [],
+  "fuente_aplicada": true,
+  "resultado": "correcto"
+ },
+ {
+  "fuente": "Carlito",
+  "documento": "ADS_3BTI_LOTE4_CUADERNO_PRACTICAS_OFICIO_O3",
+  "paginas": 9,
+  "vacias": [],
+  "renglones_sueltos": [],
+  "fuente_aplicada": true,
+  "resultado": "correcto"
+ },
+ {
+  "fuente": "Liberation Sans",
+  "documento": "ADS_3BTI_LOTE4_ESTUDIANTE_OFICIO_O3",
+  "paginas": 44,
+  "vacias": [],
+  "renglones_sueltos": [],
+  "fuente_aplicada": true,
+  "evaluaciones_en_pagina_propia": true,
+  "resultado": "correcto"
+ },
+ {
+  "fuente": "Liberation Sans",
+  "documento": "ADS_3BTI_LOTE4_GUIA_DOCENTE_OFICIO_O3",
+  "paginas": 23,
+  "vacias": [],
+  "renglones_sueltos": [],
+  "fuente_aplicada": true,
+  "resultado": "correcto"
+ },
+ {
+  "fuente": "Liberation Sans",
+  "documento": "ADS_3BTI_LOTE4_CUADERNO_PRACTICAS_OFICIO_O3",
+  "paginas": 9,
+  "vacias": [],
+  "renglones_sueltos": [],
+  "fuente_aplicada": true,
+  "resultado": "correcto"
+ },
+ {
+  "fuente": "DejaVu Sans",
+  "documento": "ADS_3BTI_LOTE4_ESTUDIANTE_OFICIO_O3",
+  "paginas": 49,
+  "vacias": [],
+  "renglones_sueltos": [],
+  "fuente_aplicada": true,
+  "evaluaciones_en_pagina_propia": true,
+  "resultado": "correcto"
+ },
+ {
+  "fuente": "DejaVu Sans",
+  "documento": "ADS_3BTI_LOTE4_GUIA_DOCENTE_OFICIO_O3",
+  "paginas": 25,
+  "vacias": [],
+  "renglones_sueltos": [],
+  "fuente_aplicada": true,
+  "resultado": "correcto"
+ },
+ {
+  "fuente": "DejaVu Sans",
+  "documento": "ADS_3BTI_LOTE4_CUADERNO_PRACTICAS_OFICIO_O3",
+  "paginas": 9,
+  "vacias": [],
+  "renglones_sueltos": [],
+  "fuente_aplicada": true,
+  "resultado": "correcto"
+ }
+]

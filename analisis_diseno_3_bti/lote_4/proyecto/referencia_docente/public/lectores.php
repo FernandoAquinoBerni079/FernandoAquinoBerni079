@@ -1,7 +1,7 @@
 <?php
 // PT-08: lectores y ejemplares. Zona Bibliotecaria.
 // Alta de ejemplar (OA-01, Capítulo 10); obra y edición (OA-02), alta y corrección de lectores (OA-03, OA-04)
-// e inactivación (OP-06), Capítulo 11.
+// corrección de una obra (OA-05) e inactivación (OP-06), Capítulo 11.
 require __DIR__ . '/../src/db.php';
 require __DIR__ . '/../src/mensajes.php';
 require __DIR__ . '/../src/auth.php';
@@ -21,6 +21,8 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
         $r = alta_ejemplar($pdo, $cuenta, $v('codigo'), $v('edicion'));
     } elseif ($accion === 'alta_obra') {
         $r = alta_obra_edicion($pdo, $cuenta, $v('obra'), $v('titulo'), $v('autor'), $v('edicion'), $v('editorial'));
+    } elseif ($accion === 'editar_obra') {
+        $r = editar_obra($pdo, $cuenta, $v('obra'), $v('titulo'), $v('autor'));
     } elseif ($accion === 'alta_lector') {
         $r = alta_lector($pdo, $cuenta, $v('codigo'), $v('nombre'), $v('tipo'), $v('curso'));
     } elseif ($accion === 'editar_lector') {
@@ -50,6 +52,14 @@ aviso(tomar_aviso());
 <label>Código de la edición <input name="edicion" placeholder="ED-0000"></label>
 <label>Editorial y año <input name="editorial"></label>
 <button>Registrar la edición</button>
+</form>
+
+<h2>Corregir el título o el autor de una obra</h2>
+<?php formulario_inicio('editar_obra'); ?>
+<label>Código de la obra <input name="obra" placeholder="OB-0000"></label>
+<label>Título <input name="titulo"></label>
+<label>Autor <input name="autor"></label>
+<button>Guardar los cambios</button>
 </form>
 
 <h2>Alta de un lector</h2>

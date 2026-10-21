@@ -48,7 +48,7 @@ USO_MENSAJE = {
     'MA-01': 'OA-01: alta de ejemplar registrada', 'MA-02': 'OA-01: código de ejemplar repetido',
     'MA-03': 'OA-01: la edición no existe', 'MA-04': 'OA-02: obra y edición registradas',
     'MA-05': 'OA-02 y OA-03: código ya usado', 'MA-06': 'OA-03: lector registrado',
-    'MA-07': 'OA-04: lector corregido', 'MA-08': 'OP-06: lector o ejemplar inactivado',
+    'MA-07': 'OA-04: lector corregido', 'MA-08': 'OP-06: lector o ejemplar inactivado', 'MA-09': 'OA-05: obra corregida',
     'MV-01': 'Falta un dato obligatorio', 'MV-02': 'Código con otro formato', 'MV-03': 'Estudiante sin curso (RI-06)',
     'MV-04': 'Docente con curso (RI-06)', 'MV-05': 'OP-01: el lector no existe', 'MV-06': 'OP-01: ejemplar dado de baja (RI-03)',
     'MV-07': 'OA-04 y OP-06: no existe o ya estaba inactivo', 'MV-08': 'Fecha imposible', 'MV-09': 'La base está ocupada',
@@ -70,6 +70,9 @@ AUXILIARES = [
     ('OA-04', 'corregir un lector', 'PT-08', 'Código, nombre y curso nuevos, cuenta.',
      'Rol de bibliotecaria.', 'Nombre y curso corregidos; el código, el tipo y el historial no cambian (RI-08). MA-07.',
      ['MV-01', 'MV-03', 'MV-04', 'MV-07', 'ME-13'], ['RF-11', 'RNF-02'], 'PA-04', 11),
+    ('OA-05', 'corregir una obra', 'PT-08', 'Código de la obra, título y autor corregidos, cuenta.',
+     'Rol de bibliotecaria.', 'Título y autor corregidos; el código, las ediciones, los ejemplares y el historial no cambian. MA-09.',
+     ['MV-07', 'MV-01', 'ME-13'], ['RF-07', 'RNF-02'], 'PA-05', 11),
 ]
 AUX = {a[0]: a for a in AUXILIARES}
 PRUEBAS_AUX = [
@@ -77,6 +80,7 @@ PRUEBAS_AUX = [
     ('PA-02', 'OA-02', 'Registrar una obra nueva con su edición y una edición nueva de una obra existente; rechazar un código de edición repetido.'),
     ('PA-03', 'OA-03', 'Registrar un estudiante con curso y un docente sin curso; rechazar al estudiante sin curso y al docente con curso.'),
     ('PA-04', 'OA-04', 'Corregir el nombre y el curso de un estudiante y comprobar que sus préstamos anteriores conservan el curso que tenían.'),
+    ('PA-05', 'OA-05', 'Corregir el título de una obra y comprobar que sus ediciones siguen; rechazar el título vacío, una obra inexistente y la cuenta de dirección.'),
 ]
 
 # ------------------------------------------------------------------ incrementos y tareas (Capítulo 6, Tabla 6.3)
@@ -84,10 +88,11 @@ PRUEBAS_AUX = [
 TAREAS = [
     (19, 'Preparar el entorno, instalar la base y registrar la versión 0.1', '—', '—', ['RS-01', 'RS-02'], ['E-1 a E-12']),
     (20, 'Alta de un ejemplar de punta a punta', 'OA-01', 'PT-08', ['RF-07', 'RF-10'], ['PA-01']),
-    (21, 'Obras, ediciones y ejemplares', 'OA-02, OA-01', 'PT-08', ['RF-07'], ['PA-02']),
-    (21, 'Inactivar un ejemplar sin perder su historial', 'OP-06', 'PT-08', ['RF-10'], ['P-10']),
+    (21, 'Obras y ediciones: alta', 'OA-02', 'PT-08', ['RF-07'], ['PA-02']),
+    (21, 'Corrección del título o el autor de una obra', 'OA-05', 'PT-08', ['RF-07'], ['PA-05']),
     (22, 'Lectores: alta y corrección', 'OA-03, OA-04', 'PT-08', ['RF-11', 'RF-06'], ['PA-03', 'PA-04']),
     (22, 'Permisos por zona en cada pantalla y operación', 'todas', 'PT-03 a PT-09', ['RNF-02'], ['P-11']),
+    (22, 'Baja lógica de lectores y ejemplares sin perder el historial', 'OP-06', 'PT-08', ['RF-10'], ['P-10']),
     (23, 'Préstamo con todas sus reglas', 'OP-01', 'PT-05', ['RF-01', 'RF-02', 'RF-04', 'RF-05', 'RF-06', 'RF-11'], ['P-01', 'P-02', 'P-05', 'P-06a', 'P-06b', 'P-07']),
     (24, 'Devolución única con historial', 'OP-02', 'PT-06', ['RF-03'], ['P-03']),
     (25, 'Consulta pública y préstamos activos', 'OP-03, OP-04', 'PT-01, PT-02, PT-07', ['RF-07', 'RF-08', 'RNF-03'], ['P-08', 'P-12', 'P-04']),
@@ -118,7 +123,7 @@ FICHA_LIBRO = ['E-1', 'E-2', 'E-5', 'E-6b', 'E-7', 'E-10', 'E-11', 'E-12']   # l
 # (función, resultado verificable (Work), cómo lo cumple el prototipo, operación, prueba)
 ALCANCE = [
     ('Catálogo y ejemplares', 'Distingue la descripción bibliográfica del ejemplar físico y muestra su disponibilidad.',
-     'Obra, edición y ejemplar separados; disponibles contados, no guardados', 'OA-01, OA-02, OP-03', 'PA-01, PA-02, P-08'),
+     'Obra, edición y ejemplar separados; disponibles contados, no guardados', 'OA-01, OA-02, OA-05, OP-03', 'PA-01, PA-02, PA-05, P-08'),
     ('Lectores', 'Registra lectores ficticios mediante código interno, con los datos mínimos del caso.',
      'Código LE- y cuatro cifras; tipo y curso según RI-06; sin cédula', 'OA-03, OA-04', 'PA-03, PA-04'),
     ('Préstamo', 'Registra un ejemplar para un lector habilitado, con fecha de vencimiento y validación del servidor.',
@@ -185,3 +190,62 @@ def resultados_pruebas():
 def existe(cod):
     return (X.existe(cod) or cod in AUX or cod in dict((p[0], p) for p in PRUEBAS_AUX) or cod in MENSAJES_PHP
             or cod in dict((f[0], f) for f in FICHA_ENTORNO) or cod in dict((v[0], v) for v in BANCO_H4))
+
+
+# ------------------------------------------------------------------ aviso de entorno (decisión 1 de Fernando)
+AVISO_ENTORNO = ('Estado del entorno: no probado en la institución', [
+    'HTML y CSS, PHP y SQLite son la referencia editorial provisional de esta unidad. No son obligatorios: la '
+    'institución puede usar el entorno que ya domine en Laboratorio, si produce evidencias equivalentes.',
+    'Las pruebas de la base de proyecto corrieron solo en el entorno de construcción de este material (Linux, PHP 8.3.6 '
+    'y SQLite 3.45.1). Todavía no se probaron en computadoras escolares ni en Windows.',
+    'Antes de usar la base en un laboratorio escolar como solución comprobada, hay que hacer la prueba de campo de la '
+    'ficha de entorno: versión de Windows, cuenta sin permisos de administrador, sin internet, instalación, '
+    'persistencia, respaldo y restauración. Lo que no se probó se anota como pendiente.',
+])
+
+
+# ------------------------------------------------------------------ datos ficticios iniciales (leídos del proyecto)
+def leer_datos_iniciales():
+    s = open(os.path.join(REF, 'src', 'datos_ejemplo.php'), encoding='utf8').read()
+    bloque = lambda k: s.split("'%s' => array(" % k, 1)[1].split('\n    ),', 1)[0]
+    fila_re = r"array\(((?:'[^']*'|null|\d+)(?:, (?:'[^']*'|null|\d+))*)\)"
+    filas = lambda k: [re.findall(r"'([^']*)'|\b(null|\d+)\b", f) for f in re.findall(fila_re, bloque(k))]
+    limpia = lambda f: [a or b for a, b in f]
+    return {k: [limpia(f) for f in filas(k)] for k in ('obras', 'ediciones', 'ejemplares', 'lectores')}
+
+
+DATOS_INICIALES = leer_datos_iniciales()
+
+
+# ------------------------------------------------------------------ tamaño de la base (decisión 2 de Fernando)
+ARRANQUE = ['src/db.php', 'src/auth.php', 'src/reglas.php', 'public/_plantilla.php', 'public/index.php',
+            'public/login.php', 'public/inicio.php', 'public/lectores.php', 'public/salir.php', 'instalar.php']
+HERRAMIENTAS = ['src/mantenimiento.php', 'src/respaldo.php', 'respaldar.php', 'restaurar.php', 'retirar_marca.php',
+                'verificar_entorno.php']
+FUERA_DE_LA_CUENTA = ['src/mensajes.php (textos de mensajes)', 'src/datos_ejemplo.php (datos)', 'src/esquema.sql (esquema)',
+                      'pruebas/ (pruebas)']
+
+
+def conteo_lineas(distribucion='base_estudiante'):
+    """Líneas físicas y líneas de código (sin vacías ni comentarios) de cada archivo PHP propio."""
+    raiz = os.path.join(PROY, distribucion)
+
+    def contar(rel):
+        ls = open(os.path.join(raiz, rel), encoding='utf8').read().split('\n')
+        if ls and ls[-1] == '':
+            ls = ls[:-1]
+        codigo = [l for l in ls if l.strip() and not l.strip().startswith(('//', '#', '/*', '*', '<?php'))]
+        return len(ls), len(codigo)
+    return {'arranque': [(f,) + contar(f) for f in ARRANQUE], 'herramientas': [(f,) + contar(f) for f in HERRAMIENTAS]}
+
+
+def tabla_pa01():
+    """PA-01 tal como corrió en la reproducción del ejemplo del Capítulo 10 (build/reproducir.py), con su entorno."""
+    r = resultados_pruebas()
+    e = r['entorno']
+    entorno = 'PHP %s, SQLite %s, %s' % (e['php'], e['sqlite'], e['sistema'].split(' (')[0])
+    filas = []
+    for l in r['reproduccion_ejemplo_capitulo_10']['pa01']:
+        estado, resto = l.split(' ', 1)
+        filas.append([resto.split(':', 1)[0], resto.split(':', 1)[1].strip(), estado.capitalize(), entorno])
+    return (['Prueba', 'Caso y resultado esperado', 'Resultado', 'Entorno'], filas)

@@ -164,7 +164,7 @@ HC por categoría (distribución v2.1): A análisis · D diseño · P programaci
 - **Capacidades del capítulo:** C6, C7, C8, C9 (propuestas).
 - **Secciones (Work §6):** 10.1. Preparación del entorno y estructura del proyecto. 10.2. Versiones, bitácora y conjunto inicial de datos ficticios. 10.3. Una operación completa: formulario, procesamiento y almacenamiento. 10.4. Validación, consulta parametrizada y evidencia de persistencia.
 - **Cierre:** Práctica: demostrar una operación y vincularla con su requisito y prueba.
-- **Indicadores:** Pendiente: se fijan en la ficha del capítulo (referencia: indicadores de Work §4.2 de C6, C7, C8, C9).
+- **Indicadores:** Completa la ficha de entorno de su equipo con lo que se comprobó y lo que queda pendiente, sin dar por probado lo que no se probó. | Ubica cada archivo de la base en su capa y explica qué trae la base y qué construye el equipo. | Registra la primera versión del prototipo en la bitácora, con los datos ficticios con que se instaló. | Construye el alta de un ejemplar desde el formulario hasta la base, con validación en el servidor y consultas parametrizadas. | Demuestra que el dato sigue después de cerrar y volver a abrir la base, y vincula la operación con su requisito, su contrato y su prueba. _(de lote_4/build/cap10.py)_
 - **Antecedentes MEC con los que se articula** (páginas según Work §3; asignación al capítulo propuesta por esta estructura): Laboratorio 2.º, pp. 47-49 (variables, funciones, GET/POST); Algorítmica 2.º, pp. 74-76 (modularización, validación).
 
 | Encuentro | Foco (Work §5.2) | Capacidades | Evidencia o evaluación (Work §5.2) | A | D | P | V | Doc | G | E |
@@ -177,7 +177,7 @@ HC por categoría (distribución v2.1): A análisis · D diseño · P programaci
 - **Capacidades del capítulo:** C5, C6, C8 (propuestas).
 - **Secciones (Work §6):** 11.1. Implementación de tareas priorizadas a partir de los bocetos. 11.2. Datos obligatorios, códigos, duplicados y mensajes útiles. 11.3. Permisos mínimos y comprobaciones del servidor. 11.4. Edición y baja lógica sin pérdida de historial.
 - **Cierre:** Práctica: registrar un lote distinto del ejemplo y resolver entradas inválidas.
-- **Indicadores:** Pendiente: se fijan en la ficha del capítulo (referencia: indicadores de Work §4.2 de C5, C6, C8).
+- **Indicadores:** Ordena las tareas del incremento a partir de los bocetos de PT-08 y de sus dependencias. | Lleva cada regla del diccionario a una validación del servidor y a una restricción de la base, con su mensaje. | Construye el alta y la corrección de obras, ediciones y lectores, y rechaza los códigos repetidos sin cambiar datos. | Comprueba en el servidor el permiso de cada pantalla y operación, y demuestra el rechazo de un acceso indebido. | Corrige datos y da de baja lectores y ejemplares sin borrar nada ni alterar el historial. _(de lote_4/build/cap11.py)_
 - **Antecedentes MEC con los que se articula** (páginas según Work §3; asignación al capítulo propuesta por esta estructura): Laboratorio 3.º, pp. 54-55 (CRUD, SQL, restricciones; concurrente).
 
 | Encuentro | Foco (Work §5.2) | Capacidades | Evidencia o evaluación (Work §5.2) | A | D | P | V | Doc | G | E |
@@ -190,7 +190,7 @@ HC por categoría (distribución v2.1): A análisis · D diseño · P programaci
 - **Capacidades del capítulo:** C5, C8, C9 (propuestas).
 - **Secciones (Work §6):** 12.1. Precondiciones y reglas de la operación de préstamo. 12.2. Doble envío, disponibilidad y operaciones atómicas. 12.3. Devolución, estado del ejemplar y conservación de historial. 12.4. Fallos previsibles y comprobación de resultados.
 - **Cierre:** Práctica: resolver dos solicitudes incompatibles y explicar la protección elegida.
-- **Indicadores:** Pendiente: se fijan en la ficha del capítulo (referencia: indicadores de Work §4.2 de C5, C8, C9).
+- **Indicadores:** Construye el préstamo comprobando, en el orden del contrato, el permiso, el lector, el máximo de su tipo y el ejemplar. | Explica las dos protecciones de RI-01 y por qué hacen falta las dos. | Evita el doble envío del formulario y prueba la simultaneidad con procesos independientes, registrando el entorno. | Construye la devolución única, que cierra el préstamo correcto y conserva el historial. | Comprueba con una consulta que, después de cada prueba, no quedó ningún dato a medias ni dos préstamos activos de un ejemplar. _(de lote_4/build/cap12.py)_
 - **Antecedentes MEC con los que se articula** (páginas según Work §3; asignación al capítulo propuesta por esta estructura): Laboratorio 3.º, pp. 54-55 (conexión a BD y consistencia; concurrente).
 
 | Encuentro | Foco (Work §5.2) | Capacidades | Evidencia o evaluación (Work §5.2) | A | D | P | V | Doc | G | E |
@@ -203,7 +203,7 @@ HC por categoría (distribución v2.1): A análisis · D diseño · P programaci
 - **Capacidades del capítulo:** C3, C7, C8, C9 (propuestas).
 - **Secciones (Work §6):** 13.1. Búsqueda de ejemplares disponibles y préstamos activos. 13.2. Vencimientos y fecha de referencia. 13.3. Integración de módulos y revisión del alcance mínimo. 13.4. Demostración del incremento y registro de pendientes.
 - **Cierre:** Revisión de unidad IV: circuito funcional completo; H4.
-- **Indicadores:** Pendiente: se fijan en la ficha del capítulo (referencia: indicadores de Work §4.2 de C3, C7, C8, C9).
+- **Indicadores:** Construye la consulta pública de disponibilidad sin datos de lectores y la lista de préstamos activos para la bibliotecaria. | Calcula los vencidos respecto de una fecha de referencia escrita, para que el resultado se pueda comprobar. | Construye el informe mensual por curso al prestar y comprueba que la suma de los grupos coincide con el total. | Integra los módulos y revisa el prototipo contra el alcance mínimo, con la prueba de cada función. | Demuestra el circuito completo, registra las incidencias con su gravedad y destino, y resuelve individualmente una variante. _(de lote_4/build/cap13.py)_
 - **Antecedentes MEC con los que se articula** (páginas según Work §3; asignación al capítulo propuesta por esta estructura): Laboratorio 3.º, pp. 54-55; Algorítmica 2.º, pp. 74-76 (filtros y consultas).
 
 | Encuentro | Foco (Work §5.2) | Capacidades | Evidencia o evaluación (Work §5.2) | A | D | P | V | Doc | G | E |
@@ -291,7 +291,7 @@ HC por categoría (distribución v2.1): A análisis · D diseño · P programaci
 
 ## 7. Lo que falta para el plan anual definitivo
 
-- Indicadores de los Capítulos 10 a 18: se fijan en la ficha de cada capítulo al construirlo (unicidad y verificabilidad).
+- Indicadores de los Capítulos 14 a 18: se fijan en la ficha de cada capítulo al construirlo (unicidad y verificabilidad).
 - Procedimientos e instrumentos por encuentro, con unicidad dentro del año (como en el formato canónico de la colección).
 - Calendario por etapas del año escolar y adaptación de 28 encuentros (distribución v2.1, `distribucion_28.csv`).
 - Maquetación en oficio con el formato canónico de la colección, y cotejo con las fichas del libro aprobado.

@@ -43,6 +43,13 @@ function alta_obra_edicion(PDO $pdo, $cuenta, $codigo_obra, $titulo, $autor, $co
     return pendiente('OA-02 registrar una obra y su edición', 11);
 }
 
+// OA-05 corregir el título o el autor de una obra; el código y el historial no cambian.
+// Errores: MV-01, MV-07, ME-13. Prueba: PA-05.
+function editar_obra(PDO $pdo, $cuenta, $codigo, $titulo, $autor)
+{
+    return pendiente('OA-05 corregir una obra', 11);
+}
+
 // OA-03 registrar un lector (RF-11, RI-06). Errores: MV-01 a MV-04, MA-05, ME-13. Prueba: PA-03.
 function alta_lector(PDO $pdo, $cuenta, $codigo, $nombre, $tipo, $curso)
 {

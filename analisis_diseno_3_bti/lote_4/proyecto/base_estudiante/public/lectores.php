@@ -10,7 +10,8 @@ require __DIR__ . '/_plantilla.php';
 $cuenta = exigir_zona('Bibliotecaria');
 if ($_SERVER['REQUEST_METHOD'] === 'POST') {
     $r = csrf_valida()
-        ? alta_ejemplar(conectar(), $cuenta, (string) ($_POST['codigo'] ?? ''), (string) ($_POST['edicion'] ?? ''))
+        ? alta_ejemplar(conectar(), $cuenta, (string) ($_POST['codigo'] ?? ''),
+            (string) ($_POST['edicion'] ?? ''))
         : resultado(false, 'MV-12');
     guardar_aviso($r, 'lectores.php');
 }

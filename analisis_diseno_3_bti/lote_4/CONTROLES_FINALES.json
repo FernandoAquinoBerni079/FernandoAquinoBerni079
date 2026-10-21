@@ -1,0 +1,1527 @@
+{
+ "fallos": [],
+ "controles": {
+  "1. Filas de tablas": [
+   {
+    "resultado": "correcto",
+    "detalle": "libro: 47 tablas de 2 o más columnas, todas con todas sus filas impresas (271 filas)"
+   },
+   {
+    "resultado": "correcto",
+    "detalle": "guia: 58 tablas de 2 o más columnas, todas con todas sus filas impresas (381 filas)"
+   },
+   {
+    "resultado": "correcto",
+    "detalle": "cuaderno: 9 tablas de 2 o más columnas, todas con todas sus filas impresas (42 filas)"
+   }
+  ],
+  "1. Tablas repartidas entre páginas": [
+   {
+    "resultado": "correcto",
+    "detalle": "libro: «Tabla 10.2 — Qué trae la base y qué construye tu equipo», págs. [5, 6]: 8 de 8 filas, encabezado repetido 1 vez/veces"
+   },
+   {
+    "resultado": "correcto",
+    "detalle": "libro: «Tabla 11.3 — Qué responde cada operación según la cuenta (P-11)», págs. [18, 19]: 12 de 12 filas, encabezado repetido 1 vez/veces"
+   },
+   {
+    "resultado": "correcto",
+    "detalle": "guia: «Ficha de entorno completa (E-1 a E-12, con E-6a y E-6b)», págs. [2, 3]: 14 de 14 filas, encabezado repetido 1 vez/veces"
+   },
+   {
+    "resultado": "correcto",
+    "detalle": "guia: «Archivos del proyecto y su estado en la base del estudiante», págs. [4, 5]: 37 de 37 filas, encabezado repetido 1 vez/veces"
+   },
+   {
+    "resultado": "correcto",
+    "detalle": "guia: «Tamaño de la base del estudiante (PHP propio)», págs. [5, 6]: 19 de 19 filas, encabezado repetido 1 vez/veces"
+   },
+   {
+    "resultado": "correcto",
+    "detalle": "guia: «Clave de la evaluación del capítulo 12», págs. [15, 16]: 10 de 10 filas, encabezado repetido 1 vez/veces"
+   },
+   {
+    "resultado": "correcto",
+    "detalle": "guia: «Errores frecuentes del Capítulo 13», págs. [17, 18]: 7 de 7 filas, encabezado repetido 1 vez/veces"
+   }
+  ],
+  "2. Párrafos impresos": [
+   {
+    "resultado": "correcto",
+    "detalle": "libro: ningún párrafo del DOCX falta en el PDF"
+   },
+   {
+    "resultado": "correcto",
+    "detalle": "guia: ningún párrafo del DOCX falta en el PDF"
+   },
+   {
+    "resultado": "correcto",
+    "detalle": "cuaderno: ningún párrafo del DOCX falta en el PDF"
+   }
+  ],
+  "2. Palabras enteras": [
+   {
+    "resultado": "correcto",
+    "detalle": "libro: ninguna palabra de celda partida en el PDF"
+   },
+   {
+    "resultado": "correcto",
+    "detalle": "guia: ninguna palabra de celda partida en el PDF"
+   },
+   {
+    "resultado": "correcto",
+    "detalle": "cuaderno: ninguna palabra de celda partida en el PDF"
+   }
+  ],
+  "6. Cortes de tabla": [
+   {
+    "resultado": "correcto",
+    "detalle": "libro: 2 tablas repartidas, ninguna deja menos de dos filas de datos en una página"
+   },
+   {
+    "resultado": "correcto",
+    "detalle": "guia: 5 tablas repartidas, ninguna deja menos de dos filas de datos en una página"
+   },
+   {
+    "resultado": "correcto",
+    "detalle": "cuaderno: 0 tablas repartidas, ninguna deja menos de dos filas de datos en una página"
+   }
+  ],
+  "3. Figuras": [
+   {
+    "resultado": "correcto",
+    "detalle": "las 4 figuras impresas, cada una con su imagen encima de su epígrafe, en la misma página: Figura 10.1 pág. 5, Figura 10.2 pág. 8, Figura 12.1 pág. 27, Figura 13.1 pág. 37"
+   },
+   {
+    "resultado": "correcto",
+    "detalle": "imágenes dibujadas en el libro: 4 (las 4 figuras; la leyenda de capas está en la guía)"
+   }
+  ],
+  "7. Bloques de código": [
+   {
+    "resultado": "correcto",
+    "detalle": "135 líneas de código de 15 fragmentos, todas impresas enteras y sin caracteres perdidos"
+   },
+   {
+    "resultado": "correcto",
+    "detalle": "135 tramos en letra monoespaciada, todos dentro de los márgenes"
+   },
+   {
+    "resultado": "correcto",
+    "detalle": "cada bloque de código entero en la página de su rótulo y su ficha"
+   }
+  ],
+  "4. Índice": [
+   {
+    "resultado": "correcto",
+    "detalle": "38 entradas; cada una en la página que indica"
+   }
+  ],
+  "5. Márgenes espejados": [
+   {
+    "resultado": "correcto",
+    "detalle": "impares con el interior (2,5 cm) a la izquierda y pares a la derecha: [(4, 1.8, 2.41), (5, 2.5, 1.71), (6, 1.8, 2.41), (7, 2.5, 1.71), (8, 1.8, 2.41), (9, 2.5, 1.71), (10, 1.8, 2.41), (11, 2.5, 1.71)]"
+   }
+  ],
+  "laminas": {
+   "indice": "01_indice_y_apertura.png",
+   "entorno_y_estructura": "02_entorno_estructura_y_datos.png",
+   "primera_operacion": "03_primera_operacion_y_codigo.png",
+   "catalogo_y_permisos": "04_catalogo_permisos_y_baja_logica.png",
+   "prestamo_ri01": "05_prestamo_y_dos_protecciones_RI01.png",
+   "devolucion_fallos": "06_devolucion_y_fallos_previsibles.png",
+   "consultas": "07_consultas_y_fecha_de_referencia.png",
+   "practicas": "08_practicas.png",
+   "evaluaciones": "09_evaluaciones.png",
+   "h4": "10_integracion_y_H4.png",
+   "rubrica_guia": "11_guia_rubrica_H4_y_banco.png",
+   "ficha_entorno_guia": "12_guia_ficha_de_entorno_y_base.png",
+   "margenes": "13_margenes_espejados_pags_6_7.png",
+   "tablas_repartidas": "14_tablas_repartidas.png",
+   "cuaderno": "15_cuaderno_de_practicas.png"
+  },
+  "tablas": {
+   "libro": [
+    {
+     "n": 1,
+     "rotulo": "La Unidad IV en un vistazo",
+     "primera_celda": "Capítulo",
+     "filas_docx": 5,
+     "filas_impresas": 5,
+     "paginas": [
+      3
+     ],
+     "encabezado_repetido": 0,
+     "filas_faltantes": []
+    },
+    {
+     "n": 2,
+     "rotulo": "Unidad IV — Construir el prototipo por incrementos",
+     "primera_celda": "Capacidades propuestas para el programa ",
+     "filas_docx": 4,
+     "filas_impresas": 4,
+     "paginas": [
+      4
+     ],
+     "encabezado_repetido": 0,
+     "filas_faltantes": []
+    },
+    {
+     "n": 3,
+     "rotulo": "Tabla 10.1 — Ficha de entorno del equipo (versión breve; la completa está en la ",
+     "primera_celda": "Código",
+     "filas_docx": 9,
+     "filas_impresas": 9,
+     "paginas": [
+      5
+     ],
+     "encabezado_repetido": 0,
+     "filas_faltantes": []
+    },
+    {
+     "n": 4,
+     "rotulo": "Tabla 10.2 — Qué trae la base y qué construye tu equipo",
+     "primera_celda": "Parte",
+     "filas_docx": 8,
+     "filas_impresas": 8,
+     "paginas": [
+      5,
+      6
+     ],
+     "encabezado_repetido": 1,
+     "filas_faltantes": []
+    },
+    {
+     "n": 5,
+     "rotulo": "Tabla 10.3 — Datos ficticios iniciales de la base (src/datos_ejemplo.php)",
+     "primera_celda": "Ejemplar",
+     "filas_docx": 7,
+     "filas_impresas": 7,
+     "paginas": [
+      6
+     ],
+     "encabezado_repetido": 0,
+     "filas_faltantes": []
+    },
+    {
+     "n": 6,
+     "rotulo": "Tabla 10.4 — Lectores ficticios iniciales",
+     "primera_celda": "Código",
+     "filas_docx": 5,
+     "filas_impresas": 5,
+     "paginas": [
+      6
+     ],
+     "encabezado_repetido": 0,
+     "filas_faltantes": []
+    },
+    {
+     "n": 7,
+     "rotulo": "Tabla 10.5 — Registro de la versión 0.1 en la bitácora (equipo modelo, ficticio)",
+     "primera_celda": "Campo",
+     "filas_docx": 7,
+     "filas_impresas": 7,
+     "paginas": [
+      7
+     ],
+     "encabezado_repetido": 0,
+     "filas_faltantes": []
+    },
+    {
+     "n": 8,
+     "rotulo": "Código 10.1 — Formulario de la pantalla PT-08 para el alta de un ejemplar (prese",
+     "primera_celda": "Archivo",
+     "filas_docx": 5,
+     "filas_impresas": 5,
+     "paginas": [
+      8
+     ],
+     "encabezado_repetido": 0,
+     "filas_faltantes": []
+    },
+    {
+     "n": 9,
+     "rotulo": "Código 10.2 — Procesamiento del pedido en la página: zona, ficha CSRF, operación",
+     "primera_celda": "Archivo",
+     "filas_docx": 5,
+     "filas_impresas": 5,
+     "paginas": [
+      8
+     ],
+     "encabezado_repetido": 0,
+     "filas_faltantes": []
+    },
+    {
+     "n": 10,
+     "rotulo": "Código 10.3 — Primera parte de OA-01: permiso, limpieza de las entradas y valida",
+     "primera_celda": "Archivo",
+     "filas_docx": 5,
+     "filas_impresas": 5,
+     "paginas": [
+      9
+     ],
+     "encabezado_repetido": 0,
+     "filas_faltantes": []
+    },
+    {
+     "n": 11,
+     "rotulo": "Código 10.4 — Segunda parte de OA-01: buscar la edición y guardar el ejemplar co",
+     "primera_celda": "Archivo",
+     "filas_docx": 5,
+     "filas_impresas": 5,
+     "paginas": [
+      9
+     ],
+     "encabezado_repetido": 0,
+     "filas_faltantes": []
+    },
+    {
+     "n": 12,
+     "rotulo": "Código 10.5 — Evidencia de persistencia: el dato sigue al abrir la base con otra",
+     "primera_celda": "Archivo",
+     "filas_docx": 5,
+     "filas_impresas": 5,
+     "paginas": [
+      10
+     ],
+     "encabezado_repetido": 0,
+     "filas_faltantes": []
+    },
+    {
+     "n": 13,
+     "rotulo": "Tabla 10.6 — PA-01: resultado de la prueba en el entorno de construcción",
+     "primera_celda": "Prueba",
+     "filas_docx": 6,
+     "filas_impresas": 6,
+     "paginas": [
+      10
+     ],
+     "encabezado_repetido": 0,
+     "filas_faltantes": []
+    },
+    {
+     "n": 14,
+     "rotulo": "Datos nuevos de Mbokaja (caso de práctica, ficticio)",
+     "primera_celda": "Código",
+     "filas_docx": 3,
+     "filas_impresas": 3,
+     "paginas": [
+      12
+     ],
+     "encabezado_repetido": 0,
+     "filas_faltantes": []
+    },
+    {
+     "n": 15,
+     "rotulo": "Datos de Mbokaja que vas a necesitar (caso de práctica, ficticio)",
+     "primera_celda": "Código",
+     "filas_docx": 6,
+     "filas_impresas": 6,
+     "paginas": [
+      12
+     ],
+     "encabezado_repetido": 0,
+     "filas_faltantes": []
+    },
+    {
+     "n": 16,
+     "rotulo": "Unidad IV — Construir el prototipo por incrementos",
+     "primera_celda": "Capacidades propuestas para el programa ",
+     "filas_docx": 4,
+     "filas_impresas": 4,
+     "paginas": [
+      15
+     ],
+     "encabezado_repetido": 0,
+     "filas_faltantes": []
+    },
+    {
+     "n": 17,
+     "rotulo": "Tabla 11.1 — Tareas de la Unidad IV, con su operación, requisito y prueba",
+     "primera_celda": "Enc.",
+     "filas_docx": 13,
+     "filas_impresas": 13,
+     "paginas": [
+      16
+     ],
+     "encabezado_repetido": 0,
+     "filas_faltantes": []
+    },
+    {
+     "n": 18,
+     "rotulo": "Tabla 11.2 — Del diccionario a la validación y a la restricción de la base",
+     "primera_celda": "Dato (Tabla 7.5)",
+     "filas_docx": 7,
+     "filas_impresas": 7,
+     "paginas": [
+      17
+     ],
+     "encabezado_repetido": 0,
+     "filas_faltantes": []
+    },
+    {
+     "n": 19,
+     "rotulo": "Código 11.1 — Autorización por zona en cada pantalla: si el rol no corresponde, ",
+     "primera_celda": "Archivo",
+     "filas_docx": 5,
+     "filas_impresas": 5,
+     "paginas": [
+      18
+     ],
+     "encabezado_repetido": 0,
+     "filas_faltantes": []
+    },
+    {
+     "n": 20,
+     "rotulo": "Código 11.2 — La misma comprobación dentro de cada operación: ocultar un botón n",
+     "primera_celda": "Archivo",
+     "filas_docx": 5,
+     "filas_impresas": 5,
+     "paginas": [
+      18
+     ],
+     "encabezado_repetido": 0,
+     "filas_faltantes": []
+    },
+    {
+     "n": 21,
+     "rotulo": "Tabla 11.3 — Qué responde cada operación según la cuenta (P-11)",
+     "primera_celda": "Operación",
+     "filas_docx": 12,
+     "filas_impresas": 12,
+     "paginas": [
+      18,
+      19
+     ],
+     "encabezado_repetido": 1,
+     "filas_faltantes": []
+    },
+    {
+     "n": 22,
+     "rotulo": "Código 11.3 — Baja lógica: el lector o el ejemplar se marca inactivo; nada se bo",
+     "primera_celda": "Archivo",
+     "filas_docx": 5,
+     "filas_impresas": 5,
+     "paginas": [
+      19
+     ],
+     "encabezado_repetido": 0,
+     "filas_faltantes": []
+    },
+    {
+     "n": 23,
+     "rotulo": "Código 11.4 — Protección en la base: el código de un ejemplar con historial no s",
+     "primera_celda": "Archivo",
+     "filas_docx": 5,
+     "filas_impresas": 5,
+     "paginas": [
+      20
+     ],
+     "encabezado_repetido": 0,
+     "filas_faltantes": []
+    },
+    {
+     "n": 24,
+     "rotulo": "Tabla 11.4 — Qué se puede corregir y qué no",
+     "primera_celda": "Dato",
+     "filas_docx": 7,
+     "filas_impresas": 7,
+     "paginas": [
+      20
+     ],
+     "encabezado_repetido": 0,
+     "filas_faltantes": []
+    },
+    {
+     "n": 25,
+     "rotulo": "Lote de libros donados que llegó a Mbokaja (caso de práctica, ficticio)",
+     "primera_celda": "Código",
+     "filas_docx": 7,
+     "filas_impresas": 7,
+     "paginas": [
+      22
+     ],
+     "encabezado_repetido": 0,
+     "filas_faltantes": []
+    },
+    {
+     "n": 26,
+     "rotulo": "Lectores nuevos que hay que registrar en Mbokaja (caso de práctica, ficticio)",
+     "primera_celda": "Código",
+     "filas_docx": 4,
+     "filas_impresas": 4,
+     "paginas": [
+      22
+     ],
+     "encabezado_repetido": 0,
+     "filas_faltantes": []
+    },
+    {
+     "n": 27,
+     "rotulo": "Datos de Mbokaja que vas a necesitar (caso de práctica, ficticio)",
+     "primera_celda": "Código",
+     "filas_docx": 4,
+     "filas_impresas": 4,
+     "paginas": [
+      22
+     ],
+     "encabezado_repetido": 0,
+     "filas_faltantes": []
+    },
+    {
+     "n": 28,
+     "rotulo": "Unidad IV — Construir el prototipo por incrementos",
+     "primera_celda": "Capacidades propuestas para el programa ",
+     "filas_docx": 4,
+     "filas_impresas": 4,
+     "paginas": [
+      25
+     ],
+     "encabezado_repetido": 0,
+     "filas_faltantes": []
+    },
+    {
+     "n": 29,
+     "rotulo": "Tabla 12.1 — Comprobaciones de OP-01, en orden",
+     "primera_celda": "Paso",
+     "filas_docx": 10,
+     "filas_impresas": 10,
+     "paginas": [
+      26
+     ],
+     "encabezado_repetido": 0,
+     "filas_faltantes": []
+    },
+    {
+     "n": 30,
+     "rotulo": "Código 12.1 — Primera barrera de RI-01: comprobar y registrar en una sola operac",
+     "primera_celda": "Archivo",
+     "filas_docx": 5,
+     "filas_impresas": 5,
+     "paginas": [
+      27
+     ],
+     "encabezado_repetido": 0,
+     "filas_faltantes": []
+    },
+    {
+     "n": 31,
+     "rotulo": "Código 12.2 — Segunda barrera de RI-01: la base no admite dos préstamos activos ",
+     "primera_celda": "Archivo",
+     "filas_docx": 5,
+     "filas_impresas": 5,
+     "paginas": [
+      27
+     ],
+     "encabezado_repetido": 0,
+     "filas_faltantes": []
+    },
+    {
+     "n": 32,
+     "rotulo": "Tabla 12.2 — Prueba de pedidos simultáneos: resultado y entorno",
+     "primera_celda": "Caso",
+     "filas_docx": 6,
+     "filas_impresas": 6,
+     "paginas": [
+      28
+     ],
+     "encabezado_repetido": 0,
+     "filas_faltantes": []
+    },
+    {
+     "n": 33,
+     "rotulo": "Código 12.3 — Devolución única: una sola sentencia cierra el préstamo activo del",
+     "primera_celda": "Archivo",
+     "filas_docx": 5,
+     "filas_impresas": 5,
+     "paginas": [
+      29
+     ],
+     "encabezado_repetido": 0,
+     "filas_faltantes": []
+    },
+    {
+     "n": 34,
+     "rotulo": "Código 12.4 — Si algo falla a mitad de camino: se deshace todo, y la segunda bar",
+     "primera_celda": "Archivo",
+     "filas_docx": 5,
+     "filas_impresas": 5,
+     "paginas": [
+      30
+     ],
+     "encabezado_repetido": 0,
+     "filas_faltantes": []
+    },
+    {
+     "n": 35,
+     "rotulo": "Tabla 12.3 — Fallos previsibles del préstamo y la devolución",
+     "primera_celda": "Fallo",
+     "filas_docx": 8,
+     "filas_impresas": 8,
+     "paginas": [
+      30
+     ],
+     "encabezado_repetido": 0,
+     "filas_faltantes": []
+    },
+    {
+     "n": 36,
+     "rotulo": "Situación nueva (caso de práctica, ficticio)",
+     "primera_celda": "Código",
+     "filas_docx": 2,
+     "filas_impresas": 2,
+     "paginas": [
+      32
+     ],
+     "encabezado_repetido": 0,
+     "filas_faltantes": []
+    },
+    {
+     "n": 37,
+     "rotulo": "Datos de Mbokaja que vas a necesitar (caso de práctica, ficticio)",
+     "primera_celda": "Código",
+     "filas_docx": 5,
+     "filas_impresas": 5,
+     "paginas": [
+      32
+     ],
+     "encabezado_repetido": 0,
+     "filas_faltantes": []
+    },
+    {
+     "n": 38,
+     "rotulo": "Unidad IV — Construir el prototipo por incrementos",
+     "primera_celda": "Capacidades propuestas para el programa ",
+     "filas_docx": 4,
+     "filas_impresas": 4,
+     "paginas": [
+      35
+     ],
+     "encabezado_repetido": 0,
+     "filas_faltantes": []
+    },
+    {
+     "n": 39,
+     "rotulo": "Código 13.1 — Consulta pública: disponibles contados en el momento, sin datos de",
+     "primera_celda": "Archivo",
+     "filas_docx": 5,
+     "filas_impresas": 5,
+     "paginas": [
+      36
+     ],
+     "encabezado_repetido": 0,
+     "filas_faltantes": []
+    },
+    {
+     "n": 40,
+     "rotulo": "Código 13.2 — Préstamos activos, con vencidos calculados respecto de una fecha d",
+     "primera_celda": "Archivo",
+     "filas_docx": 5,
+     "filas_impresas": 5,
+     "paginas": [
+      37
+     ],
+     "encabezado_repetido": 0,
+     "filas_faltantes": []
+    },
+    {
+     "n": 41,
+     "rotulo": "Tabla 13.1 — Préstamos activos al 15/03 (los de la Figura 13.1)",
+     "primera_celda": "Ejemplar",
+     "filas_docx": 4,
+     "filas_impresas": 4,
+     "paginas": [
+      37
+     ],
+     "encabezado_repetido": 0,
+     "filas_faltantes": []
+    },
+    {
+     "n": 42,
+     "rotulo": "Registro de la semana del 6 al 10 de abril en Mbokaja (caso de práctica, fictici",
+     "primera_celda": "Código",
+     "filas_docx": 8,
+     "filas_impresas": 8,
+     "paginas": [
+      39
+     ],
+     "encabezado_repetido": 0,
+     "filas_faltantes": []
+    },
+    {
+     "n": 43,
+     "rotulo": "Datos de Mbokaja que vas a necesitar (caso de práctica, ficticio)",
+     "primera_celda": "Código",
+     "filas_docx": 3,
+     "filas_impresas": 3,
+     "paginas": [
+      39
+     ],
+     "encabezado_repetido": 0,
+     "filas_faltantes": []
+    },
+    {
+     "n": 44,
+     "rotulo": "Tabla 13.2 — Revisión contra el alcance mínimo de producto (Work §7.2)",
+     "primera_celda": "Función",
+     "filas_docx": 8,
+     "filas_impresas": 8,
+     "paginas": [
+      41
+     ],
+     "encabezado_repetido": 0,
+     "filas_faltantes": []
+    },
+    {
+     "n": 45,
+     "rotulo": "Tabla 13.3 — Lista de incidencias del equipo modelo (formato; ejemplos ficticios",
+     "primera_celda": "Código",
+     "filas_docx": 4,
+     "filas_impresas": 4,
+     "paginas": [
+      42
+     ],
+     "encabezado_repetido": 0,
+     "filas_faltantes": []
+    },
+    {
+     "n": 46,
+     "rotulo": "Criterios del H4 (la rúbrica completa está en la guía docente)",
+     "primera_celda": "Criterio del H4",
+     "filas_docx": 7,
+     "filas_impresas": 7,
+     "paginas": [
+      42
+     ],
+     "encabezado_repetido": 0,
+     "filas_faltantes": []
+    },
+    {
+     "n": 47,
+     "rotulo": "Niveles de desempeño (propuesta editorial)",
+     "primera_celda": "Nivel de desempeño",
+     "filas_docx": 5,
+     "filas_impresas": 5,
+     "paginas": [
+      43
+     ],
+     "encabezado_repetido": 0,
+     "filas_faltantes": []
+    }
+   ],
+   "guia": [
+    {
+     "n": 1,
+     "rotulo": "Ficha de entorno completa (E-1 a E-12, con E-6a y E-6b)",
+     "primera_celda": "Código",
+     "filas_docx": 14,
+     "filas_impresas": 14,
+     "paginas": [
+      2,
+      3
+     ],
+     "encabezado_repetido": 1,
+     "filas_faltantes": []
+    },
+    {
+     "n": 2,
+     "rotulo": "Diferencias ya conocidas en Windows (protocolo de campo del Piloto B)",
+     "primera_celda": "Diferencia conocida",
+     "filas_docx": 6,
+     "filas_impresas": 6,
+     "paginas": [
+      3
+     ],
+     "encabezado_repetido": 0,
+     "filas_faltantes": []
+    },
+    {
+     "n": 3,
+     "rotulo": "Evidencias equivalentes (Work §7.5)",
+     "primera_celda": "Evidencia",
+     "filas_docx": 10,
+     "filas_impresas": 10,
+     "paginas": [
+      3
+     ],
+     "encabezado_repetido": 0,
+     "filas_faltantes": []
+    },
+    {
+     "n": 4,
+     "rotulo": "Registro de la prueba de concurrencia (una hoja por computadora)",
+     "primera_celda": "Dato",
+     "filas_docx": 8,
+     "filas_impresas": 8,
+     "paginas": [
+      4
+     ],
+     "encabezado_repetido": 0,
+     "filas_faltantes": []
+    },
+    {
+     "n": 5,
+     "rotulo": "Archivos del proyecto y su estado en la base del estudiante",
+     "primera_celda": "Archivo",
+     "filas_docx": 37,
+     "filas_impresas": 37,
+     "paginas": [
+      4,
+      5
+     ],
+     "encabezado_repetido": 1,
+     "filas_faltantes": []
+    },
+    {
+     "n": 6,
+     "rotulo": "Tamaño de la base del estudiante (PHP propio)",
+     "primera_celda": "Archivo PHP propio",
+     "filas_docx": 19,
+     "filas_impresas": 19,
+     "paginas": [
+      5,
+      6
+     ],
+     "encabezado_repetido": 1,
+     "filas_faltantes": []
+    },
+    {
+     "n": 7,
+     "rotulo": "1. Capítulo 10 — Del diseño a la primera operación funcional",
+     "primera_celda": "Capacidades propuestas para el programa ",
+     "filas_docx": 4,
+     "filas_impresas": 4,
+     "paginas": [
+      7
+     ],
+     "encabezado_repetido": 0,
+     "filas_faltantes": []
+    },
+    {
+     "n": 8,
+     "rotulo": "Encuentro 19 — Entorno, estructura, versiones y datos (5 HC: 3 de práctica y 2 d",
+     "primera_celda": "Momento",
+     "filas_docx": 3,
+     "filas_impresas": 3,
+     "paginas": [
+      7
+     ],
+     "encabezado_repetido": 0,
+     "filas_faltantes": []
+    },
+    {
+     "n": 9,
+     "rotulo": "Encuentro 20 — Una operación de punta a punta (5 HC: 1 de diseño, 3 de práctica ",
+     "primera_celda": "Momento",
+     "filas_docx": 4,
+     "filas_impresas": 4,
+     "paginas": [
+      7
+     ],
+     "encabezado_repetido": 0,
+     "filas_faltantes": []
+    },
+    {
+     "n": 10,
+     "rotulo": "Leyenda: esquema de capas (Figura 10.2, la misma notación de la Tabla 9.1)",
+     "primera_celda": "Símbolo",
+     "filas_docx": 3,
+     "filas_impresas": 3,
+     "paginas": [
+      7
+     ],
+     "encabezado_repetido": 0,
+     "filas_faltantes": []
+    },
+    {
+     "n": 11,
+     "rotulo": "Errores frecuentes del Capítulo 10",
+     "primera_celda": "Error frecuente",
+     "filas_docx": 7,
+     "filas_impresas": 7,
+     "paginas": [
+      8
+     ],
+     "encabezado_repetido": 0,
+     "filas_faltantes": []
+    },
+    {
+     "n": 12,
+     "rotulo": "Claves de las actividades del Encuentro 19",
+     "primera_celda": "Act.",
+     "filas_docx": 5,
+     "filas_impresas": 5,
+     "paginas": [
+      8
+     ],
+     "encabezado_repetido": 0,
+     "filas_faltantes": []
+    },
+    {
+     "n": 13,
+     "rotulo": "Claves de las actividades del Encuentro 20",
+     "primera_celda": "Act.",
+     "filas_docx": 6,
+     "filas_impresas": 6,
+     "paginas": [
+      8
+     ],
+     "encabezado_repetido": 0,
+     "filas_faltantes": []
+    },
+    {
+     "n": 14,
+     "rotulo": "Práctica 10: claves por nivel",
+     "primera_celda": "Nivel",
+     "filas_docx": 4,
+     "filas_impresas": 4,
+     "paginas": [
+      9
+     ],
+     "encabezado_repetido": 0,
+     "filas_faltantes": []
+    },
+    {
+     "n": 15,
+     "rotulo": "Lista de cotejo de la Práctica 10",
+     "primera_celda": "Criterio",
+     "filas_docx": 5,
+     "filas_impresas": 5,
+     "paginas": [
+      9
+     ],
+     "encabezado_repetido": 0,
+     "filas_faltantes": []
+    },
+    {
+     "n": 16,
+     "rotulo": "Clave de la evaluación del capítulo 10",
+     "primera_celda": "Ítem",
+     "filas_docx": 10,
+     "filas_impresas": 10,
+     "paginas": [
+      9
+     ],
+     "encabezado_repetido": 0,
+     "filas_faltantes": []
+    },
+    {
+     "n": 17,
+     "rotulo": "Criterios de corrección de los ítems abiertos",
+     "primera_celda": "Ítem",
+     "filas_docx": 3,
+     "filas_impresas": 3,
+     "paginas": [
+      9
+     ],
+     "encabezado_repetido": 0,
+     "filas_faltantes": []
+    },
+    {
+     "n": 18,
+     "rotulo": "2. Capítulo 11 — Catálogo, ejemplares y lectores",
+     "primera_celda": "Capacidades propuestas para el programa ",
+     "filas_docx": 4,
+     "filas_impresas": 4,
+     "paginas": [
+      10
+     ],
+     "encabezado_repetido": 0,
+     "filas_faltantes": []
+    },
+    {
+     "n": 19,
+     "rotulo": "Encuentro 21 — Catálogo: obras, ediciones y ejemplares (5 HC: 1 de diseño, 3 de ",
+     "primera_celda": "Momento",
+     "filas_docx": 4,
+     "filas_impresas": 4,
+     "paginas": [
+      10
+     ],
+     "encabezado_repetido": 0,
+     "filas_faltantes": []
+    },
+    {
+     "n": 20,
+     "rotulo": "Encuentro 22 — Lectores, permisos y baja lógica (5 HC: 1 de diseño, 3 de práctic",
+     "primera_celda": "Momento",
+     "filas_docx": 4,
+     "filas_impresas": 4,
+     "paginas": [
+      10
+     ],
+     "encabezado_repetido": 0,
+     "filas_faltantes": []
+    },
+    {
+     "n": 21,
+     "rotulo": "Errores frecuentes del Capítulo 11",
+     "primera_celda": "Error frecuente",
+     "filas_docx": 7,
+     "filas_impresas": 7,
+     "paginas": [
+      10
+     ],
+     "encabezado_repetido": 0,
+     "filas_faltantes": []
+    },
+    {
+     "n": 22,
+     "rotulo": "Referencia R-1 — Validaciones del lector en el servidor, con un mensaje para cad",
+     "primera_celda": "Archivo",
+     "filas_docx": 5,
+     "filas_impresas": 5,
+     "paginas": [
+      11
+     ],
+     "encabezado_repetido": 0,
+     "filas_faltantes": []
+    },
+    {
+     "n": 23,
+     "rotulo": "Claves de las actividades del Encuentro 21",
+     "primera_celda": "Act.",
+     "filas_docx": 5,
+     "filas_impresas": 5,
+     "paginas": [
+      11
+     ],
+     "encabezado_repetido": 0,
+     "filas_faltantes": []
+    },
+    {
+     "n": 24,
+     "rotulo": "Claves de las actividades del Encuentro 22",
+     "primera_celda": "Act.",
+     "filas_docx": 6,
+     "filas_impresas": 6,
+     "paginas": [
+      11
+     ],
+     "encabezado_repetido": 0,
+     "filas_faltantes": []
+    },
+    {
+     "n": 25,
+     "rotulo": "Práctica 11: claves por nivel",
+     "primera_celda": "Nivel",
+     "filas_docx": 4,
+     "filas_impresas": 4,
+     "paginas": [
+      12
+     ],
+     "encabezado_repetido": 0,
+     "filas_faltantes": []
+    },
+    {
+     "n": 26,
+     "rotulo": "Lista de cotejo de la Práctica 11",
+     "primera_celda": "Criterio",
+     "filas_docx": 5,
+     "filas_impresas": 5,
+     "paginas": [
+      12
+     ],
+     "encabezado_repetido": 0,
+     "filas_faltantes": []
+    },
+    {
+     "n": 27,
+     "rotulo": "Clave de la evaluación del capítulo 11",
+     "primera_celda": "Ítem",
+     "filas_docx": 10,
+     "filas_impresas": 10,
+     "paginas": [
+      12
+     ],
+     "encabezado_repetido": 0,
+     "filas_faltantes": []
+    },
+    {
+     "n": 28,
+     "rotulo": "Criterios de corrección de los ítems abiertos",
+     "primera_celda": "Ítem",
+     "filas_docx": 3,
+     "filas_impresas": 3,
+     "paginas": [
+      12
+     ],
+     "encabezado_repetido": 0,
+     "filas_faltantes": []
+    },
+    {
+     "n": 29,
+     "rotulo": "3. Capítulo 12 — Préstamos y devoluciones consistentes",
+     "primera_celda": "Capacidades propuestas para el programa ",
+     "filas_docx": 4,
+     "filas_impresas": 4,
+     "paginas": [
+      13
+     ],
+     "encabezado_repetido": 0,
+     "filas_faltantes": []
+    },
+    {
+     "n": 30,
+     "rotulo": "Encuentro 23 — El préstamo y sus protecciones (5 HC: 1 de diseño, 3 de práctica ",
+     "primera_celda": "Momento",
+     "filas_docx": 4,
+     "filas_impresas": 4,
+     "paginas": [
+      13
+     ],
+     "encabezado_repetido": 0,
+     "filas_faltantes": []
+    },
+    {
+     "n": 31,
+     "rotulo": "Encuentro 24 — Devolución, historial y fallos previsibles (5 HC: 1 de diseño, 3 ",
+     "primera_celda": "Momento",
+     "filas_docx": 4,
+     "filas_impresas": 4,
+     "paginas": [
+      13
+     ],
+     "encabezado_repetido": 0,
+     "filas_faltantes": []
+    },
+    {
+     "n": 32,
+     "rotulo": "Errores frecuentes del Capítulo 12",
+     "primera_celda": "Error frecuente",
+     "filas_docx": 7,
+     "filas_impresas": 7,
+     "paginas": [
+      13
+     ],
+     "encabezado_repetido": 0,
+     "filas_faltantes": []
+    },
+    {
+     "n": 33,
+     "rotulo": "Referencia R-2 — Comprobaciones de OP-01 en el orden de CU-01: lector (4a, 4b) y",
+     "primera_celda": "Archivo",
+     "filas_docx": 5,
+     "filas_impresas": 5,
+     "paginas": [
+      14
+     ],
+     "encabezado_repetido": 0,
+     "filas_faltantes": []
+    },
+    {
+     "n": 34,
+     "rotulo": "Claves de las actividades del Encuentro 23",
+     "primera_celda": "Act.",
+     "filas_docx": 5,
+     "filas_impresas": 5,
+     "paginas": [
+      14
+     ],
+     "encabezado_repetido": 0,
+     "filas_faltantes": []
+    },
+    {
+     "n": 35,
+     "rotulo": "Claves de las actividades del Encuentro 24",
+     "primera_celda": "Act.",
+     "filas_docx": 6,
+     "filas_impresas": 6,
+     "paginas": [
+      15
+     ],
+     "encabezado_repetido": 0,
+     "filas_faltantes": []
+    },
+    {
+     "n": 36,
+     "rotulo": "Práctica 12: claves por nivel",
+     "primera_celda": "Nivel",
+     "filas_docx": 4,
+     "filas_impresas": 4,
+     "paginas": [
+      15
+     ],
+     "encabezado_repetido": 0,
+     "filas_faltantes": []
+    },
+    {
+     "n": 37,
+     "rotulo": "Lista de cotejo de la Práctica 12",
+     "primera_celda": "Criterio",
+     "filas_docx": 5,
+     "filas_impresas": 5,
+     "paginas": [
+      15
+     ],
+     "encabezado_repetido": 0,
+     "filas_faltantes": []
+    },
+    {
+     "n": 38,
+     "rotulo": "Clave de la evaluación del capítulo 12",
+     "primera_celda": "Ítem",
+     "filas_docx": 10,
+     "filas_impresas": 10,
+     "paginas": [
+      15,
+      16
+     ],
+     "encabezado_repetido": 1,
+     "filas_faltantes": []
+    },
+    {
+     "n": 39,
+     "rotulo": "Criterios de corrección de los ítems abiertos",
+     "primera_celda": "Ítem",
+     "filas_docx": 3,
+     "filas_impresas": 3,
+     "paginas": [
+      16
+     ],
+     "encabezado_repetido": 0,
+     "filas_faltantes": []
+    },
+    {
+     "n": 40,
+     "rotulo": "4. Capítulo 13 — Información útil e integración",
+     "primera_celda": "Capacidades propuestas para el programa ",
+     "filas_docx": 4,
+     "filas_impresas": 4,
+     "paginas": [
+      17
+     ],
+     "encabezado_repetido": 0,
+     "filas_faltantes": []
+    },
+    {
+     "n": 41,
+     "rotulo": "Encuentro 25 — Consultas, vencimientos e informe (5 HC: 1 de diseño, 3 de prácti",
+     "primera_celda": "Momento",
+     "filas_docx": 5,
+     "filas_impresas": 5,
+     "paginas": [
+      17
+     ],
+     "encabezado_repetido": 0,
+     "filas_faltantes": []
+    },
+    {
+     "n": 42,
+     "rotulo": "Encuentro 26 — Integración, demostración y revisión de la Unidad IV, H4 (5 HC: 2",
+     "primera_celda": "Momento",
+     "filas_docx": 4,
+     "filas_impresas": 4,
+     "paginas": [
+      17
+     ],
+     "encabezado_repetido": 0,
+     "filas_faltantes": []
+    },
+    {
+     "n": 43,
+     "rotulo": "Errores frecuentes del Capítulo 13",
+     "primera_celda": "Error frecuente",
+     "filas_docx": 7,
+     "filas_impresas": 7,
+     "paginas": [
+      17,
+      18
+     ],
+     "encabezado_repetido": 1,
+     "filas_faltantes": []
+    },
+    {
+     "n": 44,
+     "rotulo": "Referencia R-3 — Informe mensual por curso al prestar, con la fila «Docentes» y ",
+     "primera_celda": "Archivo",
+     "filas_docx": 5,
+     "filas_impresas": 5,
+     "paginas": [
+      18
+     ],
+     "encabezado_repetido": 0,
+     "filas_faltantes": []
+    },
+    {
+     "n": 45,
+     "rotulo": "Claves de las actividades del Encuentro 25",
+     "primera_celda": "Act.",
+     "filas_docx": 5,
+     "filas_impresas": 5,
+     "paginas": [
+      18
+     ],
+     "encabezado_repetido": 0,
+     "filas_faltantes": []
+    },
+    {
+     "n": 46,
+     "rotulo": "Claves de las actividades del Encuentro 26",
+     "primera_celda": "Act.",
+     "filas_docx": 4,
+     "filas_impresas": 4,
+     "paginas": [
+      18
+     ],
+     "encabezado_repetido": 0,
+     "filas_faltantes": []
+    },
+    {
+     "n": 47,
+     "rotulo": "Práctica 13: claves por nivel",
+     "primera_celda": "Nivel",
+     "filas_docx": 4,
+     "filas_impresas": 4,
+     "paginas": [
+      19
+     ],
+     "encabezado_repetido": 0,
+     "filas_faltantes": []
+    },
+    {
+     "n": 48,
+     "rotulo": "Lista de cotejo de la Práctica 13",
+     "primera_celda": "Criterio",
+     "filas_docx": 5,
+     "filas_impresas": 5,
+     "paginas": [
+      19
+     ],
+     "encabezado_repetido": 0,
+     "filas_faltantes": []
+    },
+    {
+     "n": 49,
+     "rotulo": "Clave de la evaluación del capítulo 13",
+     "primera_celda": "Ítem",
+     "filas_docx": 10,
+     "filas_impresas": 10,
+     "paginas": [
+      19
+     ],
+     "encabezado_repetido": 0,
+     "filas_faltantes": []
+    },
+    {
+     "n": 50,
+     "rotulo": "Criterios de corrección de los ítems abiertos",
+     "primera_celda": "Ítem",
+     "filas_docx": 3,
+     "filas_impresas": 3,
+     "paginas": [
+      19
+     ],
+     "encabezado_repetido": 0,
+     "filas_faltantes": []
+    },
+    {
+     "n": 51,
+     "rotulo": "Rúbrica del H4: descriptores por nivel",
+     "primera_celda": "Criterio",
+     "filas_docx": 7,
+     "filas_impresas": 7,
+     "paginas": [
+      20
+     ],
+     "encabezado_repetido": 0,
+     "filas_faltantes": []
+    },
+    {
+     "n": 52,
+     "rotulo": "Evidencias de cada criterio del H4",
+     "primera_celda": "Criterio",
+     "filas_docx": 7,
+     "filas_impresas": 7,
+     "paginas": [
+      21
+     ],
+     "encabezado_repetido": 0,
+     "filas_faltantes": []
+    },
+    {
+     "n": 53,
+     "rotulo": "Niveles de desempeño (propuesta editorial)",
+     "primera_celda": "Nivel de desempeño",
+     "filas_docx": 5,
+     "filas_impresas": 5,
+     "paginas": [
+      21
+     ],
+     "encabezado_repetido": 0,
+     "filas_faltantes": []
+    },
+    {
+     "n": 54,
+     "rotulo": "Planilla de registro del H4 (una por estudiante)",
+     "primera_celda": "Estudiante (código)",
+     "filas_docx": 7,
+     "filas_impresas": 7,
+     "paginas": [
+      21
+     ],
+     "encabezado_repetido": 0,
+     "filas_faltantes": []
+    },
+    {
+     "n": 55,
+     "rotulo": "Banco de variantes para la evidencia individual del H4",
+     "primera_celda": "Código",
+     "filas_docx": 6,
+     "filas_impresas": 6,
+     "paginas": [
+      21
+     ],
+     "encabezado_repetido": 0,
+     "filas_faltantes": []
+    },
+    {
+     "n": 56,
+     "rotulo": "Unidad IV en 36 y en 28 encuentros",
+     "primera_celda": "Encuentro (36)",
+     "filas_docx": 6,
+     "filas_impresas": 6,
+     "paginas": [
+      22
+     ],
+     "encabezado_repetido": 0,
+     "filas_faltantes": []
+    },
+    {
+     "n": 57,
+     "rotulo": "Resultados de las pruebas (build/reproducir.py)",
+     "primera_celda": "Distribución",
+     "filas_docx": 16,
+     "filas_impresas": 16,
+     "paginas": [
+      22
+     ],
+     "encabezado_repetido": 0,
+     "filas_faltantes": []
+    },
+    {
+     "n": 58,
+     "rotulo": "Inventario de recursos del lote",
+     "primera_celda": "Recurso",
+     "filas_docx": 9,
+     "filas_impresas": 9,
+     "paginas": [
+      23
+     ],
+     "encabezado_repetido": 0,
+     "filas_faltantes": []
+    }
+   ],
+   "cuaderno": [
+    {
+     "n": 1,
+     "rotulo": "Datos nuevos de Mbokaja (caso de práctica, ficticio)",
+     "primera_celda": "Código",
+     "filas_docx": 3,
+     "filas_impresas": 3,
+     "paginas": [
+      2
+     ],
+     "encabezado_repetido": 0,
+     "filas_faltantes": []
+    },
+    {
+     "n": 2,
+     "rotulo": "Datos de Mbokaja que vas a necesitar (caso de práctica, ficticio)",
+     "primera_celda": "Código",
+     "filas_docx": 6,
+     "filas_impresas": 6,
+     "paginas": [
+      2
+     ],
+     "encabezado_repetido": 0,
+     "filas_faltantes": []
+    },
+    {
+     "n": 3,
+     "rotulo": "Lote de libros donados que llegó a Mbokaja (caso de práctica, ficticio)",
+     "primera_celda": "Código",
+     "filas_docx": 7,
+     "filas_impresas": 7,
+     "paginas": [
+      4
+     ],
+     "encabezado_repetido": 0,
+     "filas_faltantes": []
+    },
+    {
+     "n": 4,
+     "rotulo": "Lectores nuevos que hay que registrar en Mbokaja (caso de práctica, ficticio)",
+     "primera_celda": "Código",
+     "filas_docx": 4,
+     "filas_impresas": 4,
+     "paginas": [
+      4
+     ],
+     "encabezado_repetido": 0,
+     "filas_faltantes": []
+    },
+    {
+     "n": 5,
+     "rotulo": "Datos de Mbokaja que vas a necesitar (caso de práctica, ficticio)",
+     "primera_celda": "Código",
+     "filas_docx": 4,
+     "filas_impresas": 4,
+     "paginas": [
+      4
+     ],
+     "encabezado_repetido": 0,
+     "filas_faltantes": []
+    },
+    {
+     "n": 6,
+     "rotulo": "Situación nueva (caso de práctica, ficticio)",
+     "primera_celda": "Código",
+     "filas_docx": 2,
+     "filas_impresas": 2,
+     "paginas": [
+      6
+     ],
+     "encabezado_repetido": 0,
+     "filas_faltantes": []
+    },
+    {
+     "n": 7,
+     "rotulo": "Datos de Mbokaja que vas a necesitar (caso de práctica, ficticio)",
+     "primera_celda": "Código",
+     "filas_docx": 5,
+     "filas_impresas": 5,
+     "paginas": [
+      6
+     ],
+     "encabezado_repetido": 0,
+     "filas_faltantes": []
+    },
+    {
+     "n": 8,
+     "rotulo": "Registro de la semana del 6 al 10 de abril en Mbokaja (caso de práctica, fictici",
+     "primera_celda": "Código",
+     "filas_docx": 8,
+     "filas_impresas": 8,
+     "paginas": [
+      8
+     ],
+     "encabezado_repetido": 0,
+     "filas_faltantes": []
+    },
+    {
+     "n": 9,
+     "rotulo": "Datos de Mbokaja que vas a necesitar (caso de práctica, ficticio)",
+     "primera_celda": "Código",
+     "filas_docx": 3,
+     "filas_impresas": 3,
+     "paginas": [
+      8
+     ],
+     "encabezado_repetido": 0,
+     "filas_faltantes": []
+    }
+   ]
+  }
+ }
+}

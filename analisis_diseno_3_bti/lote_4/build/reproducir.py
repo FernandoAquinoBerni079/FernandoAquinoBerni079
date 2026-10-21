@@ -76,7 +76,9 @@ if __name__ == '__main__':
             print('%-20s %-28s %s%s' % (nombre, pr, fin, ('  (%d pendientes)' % pend) if pend else ''))
     ej, salida = reproducir_ejemplo()
     res['reproduccion_ejemplo_capitulo_10'] = ej
-    open(os.path.join(OUT, 'reproduccion_ejemplo_capitulo_10.txt'), 'w', encoding='utf8').write(salida)
+    e = res['entorno']
+    open(os.path.join(OUT, 'reproduccion_ejemplo_capitulo_10.txt'), 'w', encoding='utf8').write(
+        'Entorno: %s, PHP %s, SQLite %s\n\n' % (e['sistema'], e['php'], e['sqlite']) + salida)
     fallos += not ej['ok']
     print('Reproducción del ejemplo del Capítulo 10 (OA-01 completada en una copia de la base):', 'correcta' if ej['ok'] else 'FALLA', ej['pa01'])
     pend_base = res['base_estudiante']['prueba_mis_operaciones.php']['pendientes']

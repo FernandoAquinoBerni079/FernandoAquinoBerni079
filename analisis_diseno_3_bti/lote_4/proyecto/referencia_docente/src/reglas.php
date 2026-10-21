@@ -175,6 +175,27 @@ function editar_lector(PDO $pdo, $cuenta, $codigo, $nombre, $curso)
     return resultado(true, 'MA-07', $codigo);
 }
 
+// OA-05 corregir el título o el autor de una obra. El código, las ediciones, los ejemplares y el
+// historial no cambian. Errores: MV-01, MV-07, ME-13. Prueba: PA-05.
+function editar_obra(PDO $pdo, $cuenta, $codigo, $titulo, $autor)
+{
+    if ($r = sin_permiso($cuenta, array('bibliotecaria'))) {
+        return $r;
+    }
+    $codigo = strtoupper(trim((string) $codigo));
+    $titulo = trim((string) $titulo);
+    $autor = trim((string) $autor);
+    if (!fila($pdo, 'SELECT id FROM obras WHERE codigo = ?', array($codigo))) {
+        return resultado(false, 'MV-07', 'una obra', $codigo);
+    }
+    if ($titulo === '' || $autor === '') {
+        return resultado(false, 'MV-01', $titulo === '' ? 'el título' : 'el autor');
+    }
+    $st = $pdo->prepare('UPDATE obras SET titulo = ?, autor = ? WHERE codigo = ?');
+    $st->execute(array($titulo, $autor, $codigo));
+    return resultado(true, 'MA-09', $codigo);
+}
+
 // OP-06 inactivar lector o ejemplar (Tabla 9.3). Precondición: rol de bibliotecaria.
 //   Resultado: queda inactivo; su historial no cambia (RI-05). MA-08.
 //   Errores: ME-13; validación MV-07. Pruebas: P-10 y P-11.

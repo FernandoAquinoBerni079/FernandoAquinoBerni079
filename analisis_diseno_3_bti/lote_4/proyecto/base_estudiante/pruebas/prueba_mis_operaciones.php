@@ -41,6 +41,7 @@ caso('PA-01', 'el mismo código otra vez', function () use ($pdo, $bib) { return
 caso('PA-01', 'formato inválido', function () use ($pdo, $bib) { return alta_ejemplar($pdo, $bib, 'EJ-80', 'ED-0060'); }, 'MV-02');
 caso('PA-01', 'edición inexistente', function () use ($pdo, $bib) { return alta_ejemplar($pdo, $bib, 'EJ-0801', 'ED-9999'); }, 'MA-03');
 caso('PA-01', 'con la cuenta de dirección', function () use ($pdo, $dir_) { return alta_ejemplar($pdo, $dir_, 'EJ-0801', 'ED-0060'); }, 'ME-13');
+caso('PA-05', 'corregir el título de OB-0032 sin autor', function () use ($pdo, $bib) { return editar_obra($pdo, $bib, 'OB-0032', 'El arroyo y la escuela', ''); }, 'MV-01');
 caso('PA-03', 'estudiante sin curso (RI-06)', function () use ($pdo, $bib) { return alta_lector($pdo, $bib, 'LE-0300', 'Estudiante E', 'estudiante', ''); }, 'MV-03');
 caso('P-10', 'inactivar el ejemplar EJ-0701', function () use ($pdo, $bib) { return inactivar($pdo, $bib, 'ejemplar', 'EJ-0701'); }, 'MA-08');
 caso('P-01', 'préstamo válido de EJ-0457 a LE-0123', function () use ($pdo, $bib) { return registrar_prestamo($pdo, $bib, 'LE-0123', 'EJ-0457', '2026-03-05'); }, 'ME-04');
