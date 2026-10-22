@@ -1,0 +1,106 @@
+[
+ {
+  "id": "M-01",
+  "requisito": "RF-08",
+  "clase": "",
+  "descripcion": "EJ-0301 aparece vencido el 16/07, aunque el 15 fue feriado: la regla M-F12 no está en el sistema",
+  "operacion": "OP-04",
+  "cuenta": "bibliotecaria",
+  "entradas": [
+   "2026-07-16"
+  ],
+  "esperado_codigo": null,
+  "control": {
+   "filas": [
+    [
+     {
+      "ejemplar": "EJ-0301"
+     },
+     {
+      "vencido": 1
+     }
+    ]
+   ]
+  },
+  "esperado": "EJ-0301 aparece vencido el 16/07, aunque el 15 fue feriado: la regla M-F12 no está en el sistema"
+ },
+ {
+  "id": "M-02",
+  "requisito": "RF-05",
+  "clase": "",
+  "descripcion": "Segundo préstamo de LE-0322: se registra",
+  "operacion": "OP-01",
+  "cuenta": "bibliotecaria",
+  "entradas": [
+   "LE-0322",
+   "EJ-0303",
+   "2026-07-16"
+  ],
+  "esperado_codigo": "ME-04",
+  "control": null,
+  "esperado": "Segundo préstamo de LE-0322: se registra"
+ },
+ {
+  "id": "M-03",
+  "requisito": "RF-05",
+  "clase": "",
+  "descripcion": "Tercer préstamo: máximo de estudiantes",
+  "operacion": "OP-01",
+  "cuenta": "bibliotecaria",
+  "entradas": [
+   "LE-0322",
+   "EJ-0304",
+   "2026-07-16"
+  ],
+  "esperado_codigo": "ME-02",
+  "control": null,
+  "esperado": "Tercer préstamo: máximo de estudiantes"
+ },
+ {
+  "id": "M-04",
+  "requisito": "RF-10",
+  "clase": "",
+  "descripcion": "Ejemplar dado de baja",
+  "operacion": "OP-01",
+  "cuenta": "bibliotecaria",
+  "entradas": [
+   "LE-0323",
+   "EJ-0305",
+   "2026-07-16"
+  ],
+  "esperado_codigo": "MV-06",
+  "control": null,
+  "esperado": "Ejemplar dado de baja"
+ },
+ {
+  "id": "M-05",
+  "requisito": "RF-04",
+  "clase": "",
+  "descripcion": "Ejemplar ya prestado",
+  "operacion": "OP-01",
+  "cuenta": "bibliotecaria",
+  "entradas": [
+   "LE-0323",
+   "EJ-0301",
+   "2026-07-16"
+  ],
+  "esperado_codigo": "ME-03",
+  "control": null,
+  "esperado": "Ejemplar ya prestado"
+ },
+ {
+  "id": "M-06",
+  "requisito": "RF-07",
+  "clase": "",
+  "descripcion": "Etiqueta con dos cifras (MS-8)",
+  "operacion": "OA-01",
+  "cuenta": "bibliotecaria",
+  "entradas": [
+   "MB-30",
+   "ED-0340"
+  ],
+  "esperado_codigo": "MV-02",
+  "control": null,
+  "esperado": "Etiqueta con dos cifras (MS-8)"
+ }
+]

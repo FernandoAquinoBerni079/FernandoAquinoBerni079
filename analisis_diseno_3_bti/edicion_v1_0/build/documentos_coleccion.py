@@ -43,12 +43,14 @@ def dato(clave, producto=None):
 PRIMERO = {
     'libro': 'Edición comercial v1.0 de la colección anual: 18 capítulos en seis unidades, 36 encuentros de 5 horas cátedra '
              '(180 HC), 16 prácticas en tres niveles y seis hitos integradores, con un proyecto que va del problema al '
-             'prototipo web.',
+             'prototipo web.'
+             ' Cuando el texto dice «Work», se refiere al informe de diagnóstico y propuesta curricular de la colección (v0.1, 14 de octubre de 2026).',
     'guia': 'Edición comercial v1.0: guía del docente con la secuencia de los 36 encuentros (180 HC), las claves de todas las '
             'actividades, prácticas y evaluaciones, las rúbricas de los seis hitos y los instrumentos del año. En esta guía, '
             '«Work» designa el informe de diagnóstico y propuesta curricular de la colección (v0.1, 14 de octubre de 2026).',
     'cuaderno': 'Edición comercial v1.0: las 16 prácticas del libro del estudiante, en tres niveles, con renglones para '
-                'responder a mano. Se usa junto con el libro, que tiene la teoría, los ejemplos y las evaluaciones.',
+                'responder a mano. Se usa junto con el libro, que tiene la teoría, los ejemplos y las evaluaciones.'
+                ' Cuando el texto dice «Work», se refiere al informe de diagnóstico y propuesta curricular de la colección (v0.1, 14 de octubre de 2026).',
 }
 SEGUNDO = ('Propuesta editorial para el programa institucional del Plan Optativo, que cada institución puede elaborar según el '
            'Diseño Curricular del MEC (mayo de 2026, p. 29). No es un programa oficial ni está aprobado por el MEC: las '
@@ -73,7 +75,7 @@ def pagina_1(d, clave):
     assert celdas[0].paragraphs[0].text == 'Estado de este documento'
     poner_texto(celdas[0].paragraphs[0], 'Sobre esta edición')
     poner_texto(celdas[0].paragraphs[1], PRIMERO[clave])
-    for c in celdas[1:-2]:   # el estudiante no conoce el informe «Work»: en la página 1 no se lo nombra
+    for c in celdas[1:-2]:   # la página 1 ya explica «Work»: la tabla de estado no lo repite
         for q in c.paragraphs:
             if 'al índice de Work' in q.text:
                 poner_texto(q, q.text.replace('complementos editoriales al índice de Work', 'complementos editoriales'))

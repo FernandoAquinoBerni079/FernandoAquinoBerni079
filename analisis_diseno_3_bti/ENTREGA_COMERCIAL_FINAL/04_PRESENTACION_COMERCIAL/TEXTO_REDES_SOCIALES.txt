@@ -1,0 +1,11 @@
+Análisis y Diseño de Sistemas para 3.º BTI: una colección anual completa para el Plan Optativo.
+
+El curso parte de un problema real —la biblioteca de un colegio— y llega a un prototipo web probado, documentado y defendido por cada estudiante. Cinco productos coherentes entre sí: libro del estudiante, cuaderno de prácticas, guía docente con solucionario, plan anual y 36 planes de clase editables.
+
+• Aprendizaje basado en proyectos, de punta a punta
+• Evaluación por evidencias, con rúbricas y seis hitos integradores
+• Formato oficio, listo para imprimir a doble faz
+
+Propuesta para el programa institucional del Plan Optativo; no es un programa oficial del MEC.
+Más información: [completar contacto del titular]
+#BTI #Informática #Paraguay #PlanOptativo #AnálisisYDiseño

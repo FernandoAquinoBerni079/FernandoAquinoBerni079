@@ -1,0 +1,142 @@
+{
+ "conjunto": "Mbokaja, Práctica 14 (caso de práctica, ficticio)",
+ "parametros": [
+  [
+   "plazo_dias",
+   7
+  ],
+  [
+   "maximo_estudiante",
+   2
+  ],
+  [
+   "maximo_docente",
+   5
+  ]
+ ],
+ "obras": [
+  [
+   "OB-0340",
+   "Leyendas del monte",
+   "Autora del caso (ficticia)"
+  ],
+  [
+   "OB-0350",
+   "Matemática en la cocina",
+   "Autor del caso (ficticio)"
+  ]
+ ],
+ "ediciones": [
+  [
+   "ED-0340",
+   "OB-0340",
+   "Donación Mbokaja"
+  ],
+  [
+   "ED-0350",
+   "OB-0350",
+   "Donación Mbokaja"
+  ]
+ ],
+ "ejemplares": [
+  [
+   "EJ-0301",
+   "ED-0340",
+   1
+  ],
+  [
+   "EJ-0302",
+   "ED-0340",
+   1
+  ],
+  [
+   "EJ-0303",
+   "ED-0340",
+   1
+  ],
+  [
+   "EJ-0304",
+   "ED-0350",
+   1
+  ],
+  [
+   "EJ-0305",
+   "ED-0350",
+   0
+  ]
+ ],
+ "lectores": [
+  [
+   "LE-0321",
+   "Lector Mbokaja 21 (ficticio)",
+   "estudiante",
+   "5.º grado",
+   1
+  ],
+  [
+   "LE-0322",
+   "Lector Mbokaja 22 (ficticio)",
+   "estudiante",
+   "6.º grado",
+   1
+  ],
+  [
+   "LE-0323",
+   "Lector Mbokaja 23 (ficticio)",
+   "docente",
+   null,
+   1
+  ]
+ ],
+ "prestamos": [
+  [
+   "EJ-0301",
+   "LE-0321",
+   "5.º grado",
+   "2026-07-08",
+   "2026-07-15",
+   null
+  ],
+  [
+   "EJ-0302",
+   "LE-0322",
+   "6.º grado",
+   "2026-07-09",
+   "2026-07-16",
+   null
+  ],
+  [
+   "EJ-0305",
+   "LE-0322",
+   "6.º grado",
+   "2026-06-01",
+   "2026-06-08",
+   "2026-06-05"
+  ]
+ ],
+ "fecha_referencia": "2026-07-16",
+ "manual": [],
+ "esperado": {
+  "obras": 2,
+  "ediciones": 2,
+  "ejemplares": 5,
+  "lectores": 3,
+  "prestamos": 3,
+  "prestamos_activos": 2,
+  "activos_por_lector": {
+   "LE-0321": 1,
+   "LE-0322": 1,
+   "LE-0323": 0
+  },
+  "ejemplares_y_disponibles_por_obra": {
+   "OB-0340": [
+    3,
+    1
+   ],
+   "OB-0350": [
+    1,
+    1
+   ]
+  }
+ }
+}

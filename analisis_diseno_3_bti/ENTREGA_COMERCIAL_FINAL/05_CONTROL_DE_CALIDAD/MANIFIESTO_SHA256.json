@@ -1,0 +1,2411 @@
+{
+ "edicion": "Análisis y Diseño de Sistemas · 3.º BTI · edición comercial v1.0",
+ "fecha": "22 de octubre de 2026",
+ "nota": "SHA-256 de cada archivo de ENTREGA_COMERCIAL_FINAL/ (el manifiesto no se incluye a sí mismo).",
+ "archivos": {
+  "LEEME.md": {
+   "bytes": 1684,
+   "sha256": "36fc97e6d739c58985fdecfaed5e85287c1247a9adb1dfb1f62dd7da3115f053"
+  },
+  "01_ESTUDIANTE/ADS_3BTI_CUADERNO_DE_PRACTICAS_v1_0_DIGITAL.pdf": {
+   "bytes": 1027756,
+   "sha256": "4284dcb66e7cd56fb84b7f920c984c0f70244020cda7ade96ea04e80449a28d7"
+  },
+  "01_ESTUDIANTE/ADS_3BTI_LIBRO_DEL_ESTUDIANTE_v1_0_DIGITAL.pdf": {
+   "bytes": 3961072,
+   "sha256": "83e4d7fc4dc520b5df9bc95fd4df921603c53071f224c5cd31ea5fd673530e0a"
+  },
+  "01_ESTUDIANTE/INSTRUCCIONES_ESTUDIANTE.pdf": {
+   "bytes": 30106,
+   "sha256": "ef65993629cb8841532c8c044fc8ace6c2b54c7c30e1c1e4b88939ac38ad2b76"
+  },
+  "02_DOCENTE/ADS_3BTI_GUIA_DOCENTE_SOLUCIONARIO_v1_0_DIGITAL.pdf": {
+   "bytes": 1469668,
+   "sha256": "35b32b731264763ba36cb36912912cb23997903273f909bcb85b4de5045dfa2b"
+  },
+  "02_DOCENTE/ADS_3BTI_GUIA_DOCENTE_SOLUCIONARIO_v1_0_EDITABLE.docx": {
+   "bytes": 249944,
+   "sha256": "1dacb258c6901db8287ac5429773e5b23e5db25e6dfb11a4fdcfd0a02c237256"
+  },
+  "02_DOCENTE/ADS_3BTI_PLANES_DE_CLASE_v1_0_DIGITAL.pdf": {
+   "bytes": 1275158,
+   "sha256": "b44a367d639333daf084577e820665b7ff1ef21a42c96efd0b3eed2b2bb6b5c5"
+  },
+  "02_DOCENTE/ADS_3BTI_PLANES_DE_CLASE_v1_0_EDITABLE.docx": {
+   "bytes": 116465,
+   "sha256": "bae462eb3a74e844f20832a3c51d62b6221e0f1bf48de02131d4d7219bf58667"
+  },
+  "02_DOCENTE/ADS_3BTI_PLAN_ANUAL_v1_0_DIGITAL.pdf": {
+   "bytes": 1058135,
+   "sha256": "a68cd9b6ec167385f479741203763f775d990c592118d281adfe804053e27d6e"
+  },
+  "02_DOCENTE/ADS_3BTI_PLAN_ANUAL_v1_0_EDITABLE.docx": {
+   "bytes": 73980,
+   "sha256": "853008f4d3413fc321c881fafd1e106f9b4769e97fd7f0ef21c133b8cac60b47"
+  },
+  "02_DOCENTE/INSTRUCCIONES_DOCENTE.pdf": {
+   "bytes": 43921,
+   "sha256": "63f4ae8db767b8feedf28aeb6f35c7526c2f2c277b3a13e0aaed8c7520a75782"
+  },
+  "02_DOCENTE/RECURSOS_DIGITALES/LEEME_RECURSOS.md": {
+   "bytes": 1622,
+   "sha256": "8a1825d0790876f7a1ff8d3763b6821346d1c6b6c903daae2108bcd75e6dc383"
+  },
+  "02_DOCENTE/RECURSOS_DIGITALES/lote_4/proyecto/base_estudiante/LEEME.txt": {
+   "bytes": 1824,
+   "sha256": "7b28cd96163b359a42eca5af97a28b55018d287893a362102fd356a097bd7dd4"
+  },
+  "02_DOCENTE/RECURSOS_DIGITALES/lote_4/proyecto/base_estudiante/instalar.php": {
+   "bytes": 3153,
+   "sha256": "744147731ee3131974da1800ab9533315fe816867f7c2a12321eaeb377c58f42"
+  },
+  "02_DOCENTE/RECURSOS_DIGITALES/lote_4/proyecto/base_estudiante/respaldar.php": {
+   "bytes": 757,
+   "sha256": "af1dd2d4cf79220a14d7ed7d6b597db2bb49aed6f1456e67b481e05b6ca4a5a8"
+  },
+  "02_DOCENTE/RECURSOS_DIGITALES/lote_4/proyecto/base_estudiante/restaurar.php": {
+   "bytes": 5406,
+   "sha256": "a905d4c02e2409ead16328f8393c14d3d76979364075f17a772384bc7bd3ec10"
+  },
+  "02_DOCENTE/RECURSOS_DIGITALES/lote_4/proyecto/base_estudiante/retirar_marca.php": {
+   "bytes": 10964,
+   "sha256": "dc3b8ff0af6eb36fb681f63bcb212e9ffffc1f29cece7088613a7da856ddbbb2"
+  },
+  "02_DOCENTE/RECURSOS_DIGITALES/lote_4/proyecto/base_estudiante/verificar_entorno.php": {
+   "bytes": 1472,
+   "sha256": "43d1f98a0d924bf71aa798dc93c5c297d259bb913b73c25fab4099b3b82b3893"
+  },
+  "02_DOCENTE/RECURSOS_DIGITALES/lote_4/proyecto/base_estudiante/datos/.gitkeep": {
+   "bytes": 0,
+   "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+  },
+  "02_DOCENTE/RECURSOS_DIGITALES/lote_4/proyecto/base_estudiante/datos/respaldos/.gitkeep": {
+   "bytes": 0,
+   "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+  },
+  "02_DOCENTE/RECURSOS_DIGITALES/lote_4/proyecto/base_estudiante/pruebas/_comun.php": {
+   "bytes": 1665,
+   "sha256": "a2db934fa5b653b1d76416b3db44e0937f5f747a4cb584d740d1ad51a9b7793d"
+  },
+  "02_DOCENTE/RECURSOS_DIGITALES/lote_4/proyecto/base_estudiante/pruebas/_corte.php": {
+   "bytes": 1958,
+   "sha256": "828c62119c8b53839a28e7d0c41cb8b69e01eb5cc419ec0ffd2b9f1fb60ba16c"
+  },
+  "02_DOCENTE/RECURSOS_DIGITALES/lote_4/proyecto/base_estudiante/pruebas/prueba_base.sh": {
+   "bytes": 5548,
+   "sha256": "d492d7ae4635d949938219df142580491fb1d7be1ba5b65bb9318e8cd4fbc0b5"
+  },
+  "02_DOCENTE/RECURSOS_DIGITALES/lote_4/proyecto/base_estudiante/pruebas/prueba_garantias.php": {
+   "bytes": 4978,
+   "sha256": "9524a39426b2c49fdcde28bc62c33a9471da80e2b1b19e99c74cd205ce43bd3a"
+  },
+  "02_DOCENTE/RECURSOS_DIGITALES/lote_4/proyecto/base_estudiante/pruebas/prueba_mantenimiento.php": {
+   "bytes": 10070,
+   "sha256": "9e9e968c0a352d8e0bbb9ea4fb0b904408c2f5558765bb5ea23e0363067c16b8"
+  },
+  "02_DOCENTE/RECURSOS_DIGITALES/lote_4/proyecto/base_estudiante/pruebas/prueba_marca_huerfana.php": {
+   "bytes": 7955,
+   "sha256": "8df650632c393237b21aee29a6f07bb3fc86bf15376ca36ff92e43b1badbd600"
+  },
+  "02_DOCENTE/RECURSOS_DIGITALES/lote_4/proyecto/base_estudiante/pruebas/prueba_mis_operaciones.php": {
+   "bytes": 4238,
+   "sha256": "d66af50a97b7948aec1f03b2b3df538eff5f877ea69bf5dabefa69423ce4df68"
+  },
+  "02_DOCENTE/RECURSOS_DIGITALES/lote_4/proyecto/base_estudiante/pruebas/prueba_respaldo.php": {
+   "bytes": 7155,
+   "sha256": "7cac362220aa090b42157e6258bb3a00432f327c375991c2e338f4d3548fbd5b"
+  },
+  "02_DOCENTE/RECURSOS_DIGITALES/lote_4/proyecto/base_estudiante/public/_plantilla.php": {
+   "bytes": 2737,
+   "sha256": "f2b00385d83cf56f2c954852e7b9c2e55c915cd42d74042c34c0614eeb50dfcc"
+  },
+  "02_DOCENTE/RECURSOS_DIGITALES/lote_4/proyecto/base_estudiante/public/index.php": {
+   "bytes": 624,
+   "sha256": "21e23cb009ab858427204fdc26a0b05f41e78c180b0a3101f2035bc005ac951a"
+  },
+  "02_DOCENTE/RECURSOS_DIGITALES/lote_4/proyecto/base_estudiante/public/inicio.php": {
+   "bytes": 645,
+   "sha256": "ba7a77cf917c8ced9edb380fc0446054fcd4e2fca35381d9dbe34b745cf84a67"
+  },
+  "02_DOCENTE/RECURSOS_DIGITALES/lote_4/proyecto/base_estudiante/public/lectores.php": {
+   "bytes": 1148,
+   "sha256": "8bdf40981c47c629501009d64b903a9ce67e59dfa433eaad4273b43120039bdd"
+  },
+  "02_DOCENTE/RECURSOS_DIGITALES/lote_4/proyecto/base_estudiante/public/login.php": {
+   "bytes": 1040,
+   "sha256": "47e567344a143c8dfc862775ec01681351768874851f4264fad81c67f0f438ef"
+  },
+  "02_DOCENTE/RECURSOS_DIGITALES/lote_4/proyecto/base_estudiante/public/salir.php": {
+   "bytes": 144,
+   "sha256": "39227aa104b768fce0c22c11c58a76dfedc8c038aaf6e230cc774d002c3272d7"
+  },
+  "02_DOCENTE/RECURSOS_DIGITALES/lote_4/proyecto/base_estudiante/src/auth.php": {
+   "bytes": 2645,
+   "sha256": "1561723b1db484e6a8f1d39b6b8f1de3b98b07e5d495e901758ed9ec3db58281"
+  },
+  "02_DOCENTE/RECURSOS_DIGITALES/lote_4/proyecto/base_estudiante/src/datos_ejemplo.php": {
+   "bytes": 3514,
+   "sha256": "347c733a46a57a058f732e88b5c38879d45ca2dddf5f3a08cc9e64bf5330ef87"
+  },
+  "02_DOCENTE/RECURSOS_DIGITALES/lote_4/proyecto/base_estudiante/src/db.php": {
+   "bytes": 3611,
+   "sha256": "986f40b6392f43b0e3872f5ece23e45f5f26e4ec949cab04e1ef4e04a56008d7"
+  },
+  "02_DOCENTE/RECURSOS_DIGITALES/lote_4/proyecto/base_estudiante/src/esquema.sql": {
+   "bytes": 4858,
+   "sha256": "218378b880f3e2285e3f9563d4c069c699f6bb3baa445799588daf780a8868f8"
+  },
+  "02_DOCENTE/RECURSOS_DIGITALES/lote_4/proyecto/base_estudiante/src/mantenimiento.php": {
+   "bytes": 6483,
+   "sha256": "b2e82db5216021d8a272c727a4f25fe52698ca600678d2938666acf3ff7c9f77"
+  },
+  "02_DOCENTE/RECURSOS_DIGITALES/lote_4/proyecto/base_estudiante/src/mensajes.php": {
+   "bytes": 4095,
+   "sha256": "0560004bfe5e36e9ca8379c2e66424e5b8695f5ef678853afc23d5592aa882bc"
+  },
+  "02_DOCENTE/RECURSOS_DIGITALES/lote_4/proyecto/base_estudiante/src/reglas.php": {
+   "bytes": 4657,
+   "sha256": "6a041f57046745f1ccd0aff298753344b1b5b6e6bed6d24fb552a8b85d06d77d"
+  },
+  "02_DOCENTE/RECURSOS_DIGITALES/lote_4/proyecto/base_estudiante/src/respaldo.php": {
+   "bytes": 2429,
+   "sha256": "5c3be72ff1279b60707884b1d61d754d6a7a1667b3df3cb99cf37b1d0ae0387c"
+  },
+  "02_DOCENTE/RECURSOS_DIGITALES/lote_4/proyecto/referencia_docente/LEEME.txt": {
+   "bytes": 3462,
+   "sha256": "a02a33a5762f9d72815876a995bd7d5ea2a39ec0ffe6e2aa0ce06c7e8d0a204e"
+  },
+  "02_DOCENTE/RECURSOS_DIGITALES/lote_4/proyecto/referencia_docente/instalar.php": {
+   "bytes": 3153,
+   "sha256": "744147731ee3131974da1800ab9533315fe816867f7c2a12321eaeb377c58f42"
+  },
+  "02_DOCENTE/RECURSOS_DIGITALES/lote_4/proyecto/referencia_docente/respaldar.php": {
+   "bytes": 757,
+   "sha256": "af1dd2d4cf79220a14d7ed7d6b597db2bb49aed6f1456e67b481e05b6ca4a5a8"
+  },
+  "02_DOCENTE/RECURSOS_DIGITALES/lote_4/proyecto/referencia_docente/restaurar.php": {
+   "bytes": 5406,
+   "sha256": "a905d4c02e2409ead16328f8393c14d3d76979364075f17a772384bc7bd3ec10"
+  },
+  "02_DOCENTE/RECURSOS_DIGITALES/lote_4/proyecto/referencia_docente/retirar_marca.php": {
+   "bytes": 10964,
+   "sha256": "dc3b8ff0af6eb36fb681f63bcb212e9ffffc1f29cece7088613a7da856ddbbb2"
+  },
+  "02_DOCENTE/RECURSOS_DIGITALES/lote_4/proyecto/referencia_docente/verificar_entorno.php": {
+   "bytes": 1472,
+   "sha256": "43d1f98a0d924bf71aa798dc93c5c297d259bb913b73c25fab4099b3b82b3893"
+  },
+  "02_DOCENTE/RECURSOS_DIGITALES/lote_4/proyecto/referencia_docente/datos/.gitkeep": {
+   "bytes": 0,
+   "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+  },
+  "02_DOCENTE/RECURSOS_DIGITALES/lote_4/proyecto/referencia_docente/datos/respaldos/.gitkeep": {
+   "bytes": 0,
+   "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+  },
+  "02_DOCENTE/RECURSOS_DIGITALES/lote_4/proyecto/referencia_docente/pruebas/_comun.php": {
+   "bytes": 1665,
+   "sha256": "a2db934fa5b653b1d76416b3db44e0937f5f747a4cb584d740d1ad51a9b7793d"
+  },
+  "02_DOCENTE/RECURSOS_DIGITALES/lote_4/proyecto/referencia_docente/pruebas/_corte.php": {
+   "bytes": 1958,
+   "sha256": "828c62119c8b53839a28e7d0c41cb8b69e01eb5cc419ec0ffd2b9f1fb60ba16c"
+  },
+  "02_DOCENTE/RECURSOS_DIGITALES/lote_4/proyecto/referencia_docente/pruebas/_trabajador.php": {
+   "bytes": 675,
+   "sha256": "2bf93bf2d9259f06d7c8a1dd5f75fd5182445494af7cfe36ceca769ddd71273f"
+  },
+  "02_DOCENTE/RECURSOS_DIGITALES/lote_4/proyecto/referencia_docente/pruebas/prueba_carrera.php": {
+   "bytes": 4520,
+   "sha256": "42fa9071e001f1bab9dad93afa467130c87c650f617b5ca5ca5218727fef5a74"
+  },
+  "02_DOCENTE/RECURSOS_DIGITALES/lote_4/proyecto/referencia_docente/pruebas/prueba_contratos.php": {
+   "bytes": 18532,
+   "sha256": "1e6a7dee0a5895850cdf4334721c3a2f032374220438bcdb9dfcd2c3d00f6fca"
+  },
+  "02_DOCENTE/RECURSOS_DIGITALES/lote_4/proyecto/referencia_docente/pruebas/prueba_garantias.php": {
+   "bytes": 4978,
+   "sha256": "9524a39426b2c49fdcde28bc62c33a9471da80e2b1b19e99c74cd205ce43bd3a"
+  },
+  "02_DOCENTE/RECURSOS_DIGITALES/lote_4/proyecto/referencia_docente/pruebas/prueba_http.sh": {
+   "bytes": 9975,
+   "sha256": "1366c769b706d0377af7880cdea114e656dadc33d193e2992c36d8f07c0e826f"
+  },
+  "02_DOCENTE/RECURSOS_DIGITALES/lote_4/proyecto/referencia_docente/pruebas/prueba_mantenimiento.php": {
+   "bytes": 10070,
+   "sha256": "9e9e968c0a352d8e0bbb9ea4fb0b904408c2f5558765bb5ea23e0363067c16b8"
+  },
+  "02_DOCENTE/RECURSOS_DIGITALES/lote_4/proyecto/referencia_docente/pruebas/prueba_marca_huerfana.php": {
+   "bytes": 7955,
+   "sha256": "8df650632c393237b21aee29a6f07bb3fc86bf15376ca36ff92e43b1badbd600"
+  },
+  "02_DOCENTE/RECURSOS_DIGITALES/lote_4/proyecto/referencia_docente/pruebas/prueba_mis_operaciones.php": {
+   "bytes": 4238,
+   "sha256": "d66af50a97b7948aec1f03b2b3df538eff5f877ea69bf5dabefa69423ce4df68"
+  },
+  "02_DOCENTE/RECURSOS_DIGITALES/lote_4/proyecto/referencia_docente/pruebas/prueba_respaldo.php": {
+   "bytes": 7155,
+   "sha256": "7cac362220aa090b42157e6258bb3a00432f327c375991c2e338f4d3548fbd5b"
+  },
+  "02_DOCENTE/RECURSOS_DIGITALES/lote_4/proyecto/referencia_docente/public/_plantilla.php": {
+   "bytes": 2737,
+   "sha256": "f2b00385d83cf56f2c954852e7b9c2e55c915cd42d74042c34c0614eeb50dfcc"
+  },
+  "02_DOCENTE/RECURSOS_DIGITALES/lote_4/proyecto/referencia_docente/public/activos.php": {
+   "bytes": 1249,
+   "sha256": "a7b6457182b1e4ea80c9f5236c4f3b5c15259597dd2118f4b4375b6fdf4a9322"
+  },
+  "02_DOCENTE/RECURSOS_DIGITALES/lote_4/proyecto/referencia_docente/public/devolucion.php": {
+   "bytes": 829,
+   "sha256": "1c0d510d650a7e82448ff3a7219fb7862a1d62832622ce90daa100709e3b183b"
+  },
+  "02_DOCENTE/RECURSOS_DIGITALES/lote_4/proyecto/referencia_docente/public/index.php": {
+   "bytes": 1042,
+   "sha256": "b7c10425fc395e0abce8b9a747cdc9d53dbec63de09bf98685f4add06935f427"
+  },
+  "02_DOCENTE/RECURSOS_DIGITALES/lote_4/proyecto/referencia_docente/public/informe.php": {
+   "bytes": 1010,
+   "sha256": "d7e974c00e381c1828e0ce3d03a82649e4ec6b9ff8d9f29339a7a509424d4c93"
+  },
+  "02_DOCENTE/RECURSOS_DIGITALES/lote_4/proyecto/referencia_docente/public/inicio.php": {
+   "bytes": 568,
+   "sha256": "785fe7da423d4490782bcf06abe492504812e7d6d3c74033ec4468b0862d2a38"
+  },
+  "02_DOCENTE/RECURSOS_DIGITALES/lote_4/proyecto/referencia_docente/public/lectores.php": {
+   "bytes": 3843,
+   "sha256": "5a21d49690c1f84470dc26dbcd86ed4b0f1311acd892686d8c33459445c0265f"
+  },
+  "02_DOCENTE/RECURSOS_DIGITALES/lote_4/proyecto/referencia_docente/public/login.php": {
+   "bytes": 1040,
+   "sha256": "47e567344a143c8dfc862775ec01681351768874851f4264fad81c67f0f438ef"
+  },
+  "02_DOCENTE/RECURSOS_DIGITALES/lote_4/proyecto/referencia_docente/public/prestamo.php": {
+   "bytes": 897,
+   "sha256": "efd384df3dc6d4a7889f77967f8d97a9498710878b2e8966f97aad9b4624a177"
+  },
+  "02_DOCENTE/RECURSOS_DIGITALES/lote_4/proyecto/referencia_docente/public/salir.php": {
+   "bytes": 144,
+   "sha256": "39227aa104b768fce0c22c11c58a76dfedc8c038aaf6e230cc774d002c3272d7"
+  },
+  "02_DOCENTE/RECURSOS_DIGITALES/lote_4/proyecto/referencia_docente/src/auth.php": {
+   "bytes": 2645,
+   "sha256": "1561723b1db484e6a8f1d39b6b8f1de3b98b07e5d495e901758ed9ec3db58281"
+  },
+  "02_DOCENTE/RECURSOS_DIGITALES/lote_4/proyecto/referencia_docente/src/datos_ejemplo.php": {
+   "bytes": 3514,
+   "sha256": "347c733a46a57a058f732e88b5c38879d45ca2dddf5f3a08cc9e64bf5330ef87"
+  },
+  "02_DOCENTE/RECURSOS_DIGITALES/lote_4/proyecto/referencia_docente/src/db.php": {
+   "bytes": 3611,
+   "sha256": "986f40b6392f43b0e3872f5ece23e45f5f26e4ec949cab04e1ef4e04a56008d7"
+  },
+  "02_DOCENTE/RECURSOS_DIGITALES/lote_4/proyecto/referencia_docente/src/esquema.sql": {
+   "bytes": 4858,
+   "sha256": "218378b880f3e2285e3f9563d4c069c699f6bb3baa445799588daf780a8868f8"
+  },
+  "02_DOCENTE/RECURSOS_DIGITALES/lote_4/proyecto/referencia_docente/src/mantenimiento.php": {
+   "bytes": 6483,
+   "sha256": "b2e82db5216021d8a272c727a4f25fe52698ca600678d2938666acf3ff7c9f77"
+  },
+  "02_DOCENTE/RECURSOS_DIGITALES/lote_4/proyecto/referencia_docente/src/mensajes.php": {
+   "bytes": 4095,
+   "sha256": "0560004bfe5e36e9ca8379c2e66424e5b8695f5ef678853afc23d5592aa882bc"
+  },
+  "02_DOCENTE/RECURSOS_DIGITALES/lote_4/proyecto/referencia_docente/src/reglas.php": {
+   "bytes": 20727,
+   "sha256": "8ee8174ec42b8e3eb74ab7ffceac2faed0359a16ffdd65470e5bf5396317dccb"
+  },
+  "02_DOCENTE/RECURSOS_DIGITALES/lote_4/proyecto/referencia_docente/src/respaldo.php": {
+   "bytes": 2429,
+   "sha256": "5c3be72ff1279b60707884b1d61d754d6a7a1667b3df3cb99cf37b1d0ae0387c"
+  },
+  "02_DOCENTE/RECURSOS_DIGITALES/lote_5/caso/datos_prueba_u5.py": {
+   "bytes": 5362,
+   "sha256": "3ae8c21d1cd5fa9d08ac1a1dd0682c525c5ea7fd53527a70cbc6dd2f8f1c7784"
+  },
+  "02_DOCENTE/RECURSOS_DIGITALES/lote_5/caso/dr_plantilla.py": {
+   "bytes": 8178,
+   "sha256": "b295158a700310af82068c999e9b4acf3a84c8a6a8ae2644f19b408c001d13b6"
+  },
+  "02_DOCENTE/RECURSOS_DIGITALES/lote_5/caso/mbokaja_u5.py": {
+   "bytes": 5432,
+   "sha256": "b26c79030ef61ed1b48cc71db041c58cd91f75de84ae20eeb3b3322871a5736e"
+  },
+  "02_DOCENTE/RECURSOS_DIGITALES/lote_5/caso/verificacion.py": {
+   "bytes": 21120,
+   "sha256": "c194e38555ae7025a3f9f521c7ad8fce67b0e8bae75d45fa6ac16a73aa8eca56"
+  },
+  "02_DOCENTE/RECURSOS_DIGITALES/lote_5/proyecto/DIFERENCIAS_v2.md": {
+   "bytes": 11574,
+   "sha256": "b09399594b848198b1f1be6e08dfbe119520d56f7ff2b8002dd5e575d619ab0e"
+  },
+  "02_DOCENTE/RECURSOS_DIGITALES/lote_5/proyecto/LEEME.md": {
+   "bytes": 1556,
+   "sha256": "dff28f50dc1740dbf3a54bf8ee404571a343805bbad5ca10796a339f072a8e47"
+  },
+  "02_DOCENTE/RECURSOS_DIGITALES/lote_5/proyecto/cargador_dp/LEEME.md": {
+   "bytes": 822,
+   "sha256": "3b295e89a6a61f1d73d0a90449809c76140ae88ab23dfe4b2136dc145dc0eb8b"
+  },
+  "02_DOCENTE/RECURSOS_DIGITALES/lote_5/proyecto/cargador_dp/cargar_dp.php": {
+   "bytes": 7348,
+   "sha256": "6eec975fca1f8ba1c0d29e377d1fc0edeb05412794ddb820063eacdb80ecaacc"
+  },
+  "02_DOCENTE/RECURSOS_DIGITALES/lote_5/proyecto/cargador_dp/dp.json": {
+   "bytes": 3707,
+   "sha256": "7c366058fefbfdc458f006a55b1870899a7cb0e8a0b7adbdabf2e4cb306c95d9"
+  },
+  "02_DOCENTE/RECURSOS_DIGITALES/lote_5/proyecto/cargador_dp/mbokaja_p14.json": {
+   "bytes": 1732,
+   "sha256": "1b441f09f1dcf951e5aebe3a864ea0c1050a42b612a1b92373774b1f8a3e7de6"
+  },
+  "02_DOCENTE/RECURSOS_DIGITALES/lote_5/proyecto/matriz/casos.json": {
+   "bytes": 8580,
+   "sha256": "e21c2aa86dd930e5045a9db3c57f46650fe0e892e8a0a0d7f667b225c5e37e59"
+  },
+  "02_DOCENTE/RECURSOS_DIGITALES/lote_5/proyecto/matriz/casos_p14.json": {
+   "bytes": 2160,
+   "sha256": "a4e916240c6bea06df03f3f9ba40d0807ab5fe000e21d7da865734cbb6982db0"
+  },
+  "02_DOCENTE/RECURSOS_DIGITALES/lote_5/proyecto/matriz/ejecutar_matriz.php": {
+   "bytes": 4600,
+   "sha256": "fbbf59c9813b03e6b2ca227a4d2234122dcfd669b3d923cb40263c7916e86905"
+  },
+  "02_DOCENTE/RECURSOS_DIGITALES/lote_5/proyecto/matriz/esperados_sc02.json": {
+   "bytes": 20,
+   "sha256": "ee19d93730d757ab9bf7dbe386b715db02eba4bbbc866f07e1eca21772ab6b57"
+  },
+  "02_DOCENTE/RECURSOS_DIGITALES/lote_5/proyecto/matriz/integracion.php": {
+   "bytes": 4906,
+   "sha256": "afd24354aa293b57269da41e096beca438fd7ab1b052aa2a80f1ece195867121"
+  },
+  "02_DOCENTE/RECURSOS_DIGITALES/lote_5/proyecto/referencia_docente_v2/LEEME.txt": {
+   "bytes": 3693,
+   "sha256": "0e0cc7d43629a6ca05107bb9a5009f1733817fd7bee3a6312a1e1b0cf0cf3e28"
+  },
+  "02_DOCENTE/RECURSOS_DIGITALES/lote_5/proyecto/referencia_docente_v2/instalar.php": {
+   "bytes": 3153,
+   "sha256": "744147731ee3131974da1800ab9533315fe816867f7c2a12321eaeb377c58f42"
+  },
+  "02_DOCENTE/RECURSOS_DIGITALES/lote_5/proyecto/referencia_docente_v2/respaldar.php": {
+   "bytes": 757,
+   "sha256": "af1dd2d4cf79220a14d7ed7d6b597db2bb49aed6f1456e67b481e05b6ca4a5a8"
+  },
+  "02_DOCENTE/RECURSOS_DIGITALES/lote_5/proyecto/referencia_docente_v2/restaurar.php": {
+   "bytes": 5406,
+   "sha256": "a905d4c02e2409ead16328f8393c14d3d76979364075f17a772384bc7bd3ec10"
+  },
+  "02_DOCENTE/RECURSOS_DIGITALES/lote_5/proyecto/referencia_docente_v2/retirar_marca.php": {
+   "bytes": 10964,
+   "sha256": "dc3b8ff0af6eb36fb681f63bcb212e9ffffc1f29cece7088613a7da856ddbbb2"
+  },
+  "02_DOCENTE/RECURSOS_DIGITALES/lote_5/proyecto/referencia_docente_v2/verificar_entorno.php": {
+   "bytes": 1472,
+   "sha256": "43d1f98a0d924bf71aa798dc93c5c297d259bb913b73c25fab4099b3b82b3893"
+  },
+  "02_DOCENTE/RECURSOS_DIGITALES/lote_5/proyecto/referencia_docente_v2/datos/.gitkeep": {
+   "bytes": 0,
+   "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+  },
+  "02_DOCENTE/RECURSOS_DIGITALES/lote_5/proyecto/referencia_docente_v2/datos/respaldos/.gitkeep": {
+   "bytes": 0,
+   "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+  },
+  "02_DOCENTE/RECURSOS_DIGITALES/lote_5/proyecto/referencia_docente_v2/pruebas/_comun.php": {
+   "bytes": 1665,
+   "sha256": "a2db934fa5b653b1d76416b3db44e0937f5f747a4cb584d740d1ad51a9b7793d"
+  },
+  "02_DOCENTE/RECURSOS_DIGITALES/lote_5/proyecto/referencia_docente_v2/pruebas/_corte.php": {
+   "bytes": 1958,
+   "sha256": "828c62119c8b53839a28e7d0c41cb8b69e01eb5cc419ec0ffd2b9f1fb60ba16c"
+  },
+  "02_DOCENTE/RECURSOS_DIGITALES/lote_5/proyecto/referencia_docente_v2/pruebas/_trabajador.php": {
+   "bytes": 675,
+   "sha256": "2bf93bf2d9259f06d7c8a1dd5f75fd5182445494af7cfe36ceca769ddd71273f"
+  },
+  "02_DOCENTE/RECURSOS_DIGITALES/lote_5/proyecto/referencia_docente_v2/pruebas/prueba_carrera.php": {
+   "bytes": 4520,
+   "sha256": "42fa9071e001f1bab9dad93afa467130c87c650f617b5ca5ca5218727fef5a74"
+  },
+  "02_DOCENTE/RECURSOS_DIGITALES/lote_5/proyecto/referencia_docente_v2/pruebas/prueba_contratos.php": {
+   "bytes": 18532,
+   "sha256": "1e6a7dee0a5895850cdf4334721c3a2f032374220438bcdb9dfcd2c3d00f6fca"
+  },
+  "02_DOCENTE/RECURSOS_DIGITALES/lote_5/proyecto/referencia_docente_v2/pruebas/prueba_garantias.php": {
+   "bytes": 4978,
+   "sha256": "9524a39426b2c49fdcde28bc62c33a9471da80e2b1b19e99c74cd205ce43bd3a"
+  },
+  "02_DOCENTE/RECURSOS_DIGITALES/lote_5/proyecto/referencia_docente_v2/pruebas/prueba_http.sh": {
+   "bytes": 9975,
+   "sha256": "1366c769b706d0377af7880cdea114e656dadc33d193e2992c36d8f07c0e826f"
+  },
+  "02_DOCENTE/RECURSOS_DIGITALES/lote_5/proyecto/referencia_docente_v2/pruebas/prueba_in02.sh": {
+   "bytes": 3393,
+   "sha256": "c9254ad2e305e69ce1cb083435ade17d1e727b6fbe0ea6e2bccaaf6b82a4c9aa"
+  },
+  "02_DOCENTE/RECURSOS_DIGITALES/lote_5/proyecto/referencia_docente_v2/pruebas/prueba_mantenimiento.php": {
+   "bytes": 10070,
+   "sha256": "9e9e968c0a352d8e0bbb9ea4fb0b904408c2f5558765bb5ea23e0363067c16b8"
+  },
+  "02_DOCENTE/RECURSOS_DIGITALES/lote_5/proyecto/referencia_docente_v2/pruebas/prueba_marca_huerfana.php": {
+   "bytes": 7955,
+   "sha256": "8df650632c393237b21aee29a6f07bb3fc86bf15376ca36ff92e43b1badbd600"
+  },
+  "02_DOCENTE/RECURSOS_DIGITALES/lote_5/proyecto/referencia_docente_v2/pruebas/prueba_mis_operaciones.php": {
+   "bytes": 4238,
+   "sha256": "d66af50a97b7948aec1f03b2b3df538eff5f877ea69bf5dabefa69423ce4df68"
+  },
+  "02_DOCENTE/RECURSOS_DIGITALES/lote_5/proyecto/referencia_docente_v2/pruebas/prueba_respaldo.php": {
+   "bytes": 7155,
+   "sha256": "7cac362220aa090b42157e6258bb3a00432f327c375991c2e338f4d3548fbd5b"
+  },
+  "02_DOCENTE/RECURSOS_DIGITALES/lote_5/proyecto/referencia_docente_v2/public/_plantilla.php": {
+   "bytes": 3717,
+   "sha256": "3f0732fa6ea58bffbbcd1ccb5299a99f73e82573e87874337774d69b9257dbeb"
+  },
+  "02_DOCENTE/RECURSOS_DIGITALES/lote_5/proyecto/referencia_docente_v2/public/activos.php": {
+   "bytes": 1249,
+   "sha256": "a7b6457182b1e4ea80c9f5236c4f3b5c15259597dd2118f4b4375b6fdf4a9322"
+  },
+  "02_DOCENTE/RECURSOS_DIGITALES/lote_5/proyecto/referencia_docente_v2/public/devolucion.php": {
+   "bytes": 829,
+   "sha256": "1c0d510d650a7e82448ff3a7219fb7862a1d62832622ce90daa100709e3b183b"
+  },
+  "02_DOCENTE/RECURSOS_DIGITALES/lote_5/proyecto/referencia_docente_v2/public/index.php": {
+   "bytes": 1042,
+   "sha256": "b7c10425fc395e0abce8b9a747cdc9d53dbec63de09bf98685f4add06935f427"
+  },
+  "02_DOCENTE/RECURSOS_DIGITALES/lote_5/proyecto/referencia_docente_v2/public/informe.php": {
+   "bytes": 1010,
+   "sha256": "d7e974c00e381c1828e0ce3d03a82649e4ec6b9ff8d9f29339a7a509424d4c93"
+  },
+  "02_DOCENTE/RECURSOS_DIGITALES/lote_5/proyecto/referencia_docente_v2/public/inicio.php": {
+   "bytes": 568,
+   "sha256": "785fe7da423d4490782bcf06abe492504812e7d6d3c74033ec4468b0862d2a38"
+  },
+  "02_DOCENTE/RECURSOS_DIGITALES/lote_5/proyecto/referencia_docente_v2/public/lectores.php": {
+   "bytes": 4121,
+   "sha256": "ab9e309815d21616a45a26a8ba8ab93eb3f24938276e53bfb781f80f7b1f2bc7"
+  },
+  "02_DOCENTE/RECURSOS_DIGITALES/lote_5/proyecto/referencia_docente_v2/public/login.php": {
+   "bytes": 1040,
+   "sha256": "47e567344a143c8dfc862775ec01681351768874851f4264fad81c67f0f438ef"
+  },
+  "02_DOCENTE/RECURSOS_DIGITALES/lote_5/proyecto/referencia_docente_v2/public/prestamo.php": {
+   "bytes": 897,
+   "sha256": "efd384df3dc6d4a7889f77967f8d97a9498710878b2e8966f97aad9b4624a177"
+  },
+  "02_DOCENTE/RECURSOS_DIGITALES/lote_5/proyecto/referencia_docente_v2/public/salir.php": {
+   "bytes": 144,
+   "sha256": "39227aa104b768fce0c22c11c58a76dfedc8c038aaf6e230cc774d002c3272d7"
+  },
+  "02_DOCENTE/RECURSOS_DIGITALES/lote_5/proyecto/referencia_docente_v2/src/auth.php": {
+   "bytes": 2645,
+   "sha256": "1561723b1db484e6a8f1d39b6b8f1de3b98b07e5d495e901758ed9ec3db58281"
+  },
+  "02_DOCENTE/RECURSOS_DIGITALES/lote_5/proyecto/referencia_docente_v2/src/datos_ejemplo.php": {
+   "bytes": 3514,
+   "sha256": "347c733a46a57a058f732e88b5c38879d45ca2dddf5f3a08cc9e64bf5330ef87"
+  },
+  "02_DOCENTE/RECURSOS_DIGITALES/lote_5/proyecto/referencia_docente_v2/src/db.php": {
+   "bytes": 3611,
+   "sha256": "986f40b6392f43b0e3872f5ece23e45f5f26e4ec949cab04e1ef4e04a56008d7"
+  },
+  "02_DOCENTE/RECURSOS_DIGITALES/lote_5/proyecto/referencia_docente_v2/src/esquema.sql": {
+   "bytes": 4858,
+   "sha256": "218378b880f3e2285e3f9563d4c069c699f6bb3baa445799588daf780a8868f8"
+  },
+  "02_DOCENTE/RECURSOS_DIGITALES/lote_5/proyecto/referencia_docente_v2/src/mantenimiento.php": {
+   "bytes": 6483,
+   "sha256": "b2e82db5216021d8a272c727a4f25fe52698ca600678d2938666acf3ff7c9f77"
+  },
+  "02_DOCENTE/RECURSOS_DIGITALES/lote_5/proyecto/referencia_docente_v2/src/mensajes.php": {
+   "bytes": 4095,
+   "sha256": "0560004bfe5e36e9ca8379c2e66424e5b8695f5ef678853afc23d5592aa882bc"
+  },
+  "02_DOCENTE/RECURSOS_DIGITALES/lote_5/proyecto/referencia_docente_v2/src/reglas.php": {
+   "bytes": 20727,
+   "sha256": "8ee8174ec42b8e3eb74ab7ffceac2faed0359a16ffdd65470e5bf5396317dccb"
+  },
+  "02_DOCENTE/RECURSOS_DIGITALES/lote_5/proyecto/referencia_docente_v2/src/respaldo.php": {
+   "bytes": 2429,
+   "sha256": "5c3be72ff1279b60707884b1d61d754d6a7a1667b3df3cb99cf37b1d0ae0387c"
+  },
+  "02_DOCENTE/RECURSOS_DIGITALES/lote_5/proyecto/referencia_docente_v2_sc02/LEEME.txt": {
+   "bytes": 3692,
+   "sha256": "15880dc2319caf86466a7127f75a15b9973a3136f268d7589729f25a5696bfeb"
+  },
+  "02_DOCENTE/RECURSOS_DIGITALES/lote_5/proyecto/referencia_docente_v2_sc02/instalar.php": {
+   "bytes": 3153,
+   "sha256": "744147731ee3131974da1800ab9533315fe816867f7c2a12321eaeb377c58f42"
+  },
+  "02_DOCENTE/RECURSOS_DIGITALES/lote_5/proyecto/referencia_docente_v2_sc02/respaldar.php": {
+   "bytes": 757,
+   "sha256": "af1dd2d4cf79220a14d7ed7d6b597db2bb49aed6f1456e67b481e05b6ca4a5a8"
+  },
+  "02_DOCENTE/RECURSOS_DIGITALES/lote_5/proyecto/referencia_docente_v2_sc02/restaurar.php": {
+   "bytes": 5406,
+   "sha256": "a905d4c02e2409ead16328f8393c14d3d76979364075f17a772384bc7bd3ec10"
+  },
+  "02_DOCENTE/RECURSOS_DIGITALES/lote_5/proyecto/referencia_docente_v2_sc02/retirar_marca.php": {
+   "bytes": 10964,
+   "sha256": "dc3b8ff0af6eb36fb681f63bcb212e9ffffc1f29cece7088613a7da856ddbbb2"
+  },
+  "02_DOCENTE/RECURSOS_DIGITALES/lote_5/proyecto/referencia_docente_v2_sc02/verificar_entorno.php": {
+   "bytes": 1472,
+   "sha256": "43d1f98a0d924bf71aa798dc93c5c297d259bb913b73c25fab4099b3b82b3893"
+  },
+  "02_DOCENTE/RECURSOS_DIGITALES/lote_5/proyecto/referencia_docente_v2_sc02/datos/.gitkeep": {
+   "bytes": 0,
+   "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+  },
+  "02_DOCENTE/RECURSOS_DIGITALES/lote_5/proyecto/referencia_docente_v2_sc02/datos/respaldos/.gitkeep": {
+   "bytes": 0,
+   "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+  },
+  "02_DOCENTE/RECURSOS_DIGITALES/lote_5/proyecto/referencia_docente_v2_sc02/pruebas/_comun.php": {
+   "bytes": 1665,
+   "sha256": "a2db934fa5b653b1d76416b3db44e0937f5f747a4cb584d740d1ad51a9b7793d"
+  },
+  "02_DOCENTE/RECURSOS_DIGITALES/lote_5/proyecto/referencia_docente_v2_sc02/pruebas/_corte.php": {
+   "bytes": 1958,
+   "sha256": "828c62119c8b53839a28e7d0c41cb8b69e01eb5cc419ec0ffd2b9f1fb60ba16c"
+  },
+  "02_DOCENTE/RECURSOS_DIGITALES/lote_5/proyecto/referencia_docente_v2_sc02/pruebas/_trabajador.php": {
+   "bytes": 675,
+   "sha256": "2bf93bf2d9259f06d7c8a1dd5f75fd5182445494af7cfe36ceca769ddd71273f"
+  },
+  "02_DOCENTE/RECURSOS_DIGITALES/lote_5/proyecto/referencia_docente_v2_sc02/pruebas/prueba_carrera.php": {
+   "bytes": 4520,
+   "sha256": "42fa9071e001f1bab9dad93afa467130c87c650f617b5ca5ca5218727fef5a74"
+  },
+  "02_DOCENTE/RECURSOS_DIGITALES/lote_5/proyecto/referencia_docente_v2_sc02/pruebas/prueba_contratos.php": {
+   "bytes": 19040,
+   "sha256": "c203b3bc11fd0c5851896aba1a94337357f7522f709e3e968eeb21cc7126cda2"
+  },
+  "02_DOCENTE/RECURSOS_DIGITALES/lote_5/proyecto/referencia_docente_v2_sc02/pruebas/prueba_garantias.php": {
+   "bytes": 4978,
+   "sha256": "9524a39426b2c49fdcde28bc62c33a9471da80e2b1b19e99c74cd205ce43bd3a"
+  },
+  "02_DOCENTE/RECURSOS_DIGITALES/lote_5/proyecto/referencia_docente_v2_sc02/pruebas/prueba_http.sh": {
+   "bytes": 9975,
+   "sha256": "1366c769b706d0377af7880cdea114e656dadc33d193e2992c36d8f07c0e826f"
+  },
+  "02_DOCENTE/RECURSOS_DIGITALES/lote_5/proyecto/referencia_docente_v2_sc02/pruebas/prueba_in02.sh": {
+   "bytes": 3393,
+   "sha256": "c9254ad2e305e69ce1cb083435ade17d1e727b6fbe0ea6e2bccaaf6b82a4c9aa"
+  },
+  "02_DOCENTE/RECURSOS_DIGITALES/lote_5/proyecto/referencia_docente_v2_sc02/pruebas/prueba_mantenimiento.php": {
+   "bytes": 10070,
+   "sha256": "9e9e968c0a352d8e0bbb9ea4fb0b904408c2f5558765bb5ea23e0363067c16b8"
+  },
+  "02_DOCENTE/RECURSOS_DIGITALES/lote_5/proyecto/referencia_docente_v2_sc02/pruebas/prueba_marca_huerfana.php": {
+   "bytes": 7955,
+   "sha256": "8df650632c393237b21aee29a6f07bb3fc86bf15376ca36ff92e43b1badbd600"
+  },
+  "02_DOCENTE/RECURSOS_DIGITALES/lote_5/proyecto/referencia_docente_v2_sc02/pruebas/prueba_mis_operaciones.php": {
+   "bytes": 4238,
+   "sha256": "d66af50a97b7948aec1f03b2b3df538eff5f877ea69bf5dabefa69423ce4df68"
+  },
+  "02_DOCENTE/RECURSOS_DIGITALES/lote_5/proyecto/referencia_docente_v2_sc02/pruebas/prueba_respaldo.php": {
+   "bytes": 7155,
+   "sha256": "7cac362220aa090b42157e6258bb3a00432f327c375991c2e338f4d3548fbd5b"
+  },
+  "02_DOCENTE/RECURSOS_DIGITALES/lote_5/proyecto/referencia_docente_v2_sc02/public/_plantilla.php": {
+   "bytes": 3717,
+   "sha256": "3f0732fa6ea58bffbbcd1ccb5299a99f73e82573e87874337774d69b9257dbeb"
+  },
+  "02_DOCENTE/RECURSOS_DIGITALES/lote_5/proyecto/referencia_docente_v2_sc02/public/activos.php": {
+   "bytes": 1249,
+   "sha256": "a7b6457182b1e4ea80c9f5236c4f3b5c15259597dd2118f4b4375b6fdf4a9322"
+  },
+  "02_DOCENTE/RECURSOS_DIGITALES/lote_5/proyecto/referencia_docente_v2_sc02/public/devolucion.php": {
+   "bytes": 829,
+   "sha256": "1c0d510d650a7e82448ff3a7219fb7862a1d62832622ce90daa100709e3b183b"
+  },
+  "02_DOCENTE/RECURSOS_DIGITALES/lote_5/proyecto/referencia_docente_v2_sc02/public/index.php": {
+   "bytes": 1042,
+   "sha256": "b7c10425fc395e0abce8b9a747cdc9d53dbec63de09bf98685f4add06935f427"
+  },
+  "02_DOCENTE/RECURSOS_DIGITALES/lote_5/proyecto/referencia_docente_v2_sc02/public/informe.php": {
+   "bytes": 1074,
+   "sha256": "4f41c9e07798b8a7cb3e58188981f1dc3f5541949fb6ed7e490ec78691ff8dcd"
+  },
+  "02_DOCENTE/RECURSOS_DIGITALES/lote_5/proyecto/referencia_docente_v2_sc02/public/inicio.php": {
+   "bytes": 568,
+   "sha256": "785fe7da423d4490782bcf06abe492504812e7d6d3c74033ec4468b0862d2a38"
+  },
+  "02_DOCENTE/RECURSOS_DIGITALES/lote_5/proyecto/referencia_docente_v2_sc02/public/lectores.php": {
+   "bytes": 4121,
+   "sha256": "ab9e309815d21616a45a26a8ba8ab93eb3f24938276e53bfb781f80f7b1f2bc7"
+  },
+  "02_DOCENTE/RECURSOS_DIGITALES/lote_5/proyecto/referencia_docente_v2_sc02/public/login.php": {
+   "bytes": 1040,
+   "sha256": "47e567344a143c8dfc862775ec01681351768874851f4264fad81c67f0f438ef"
+  },
+  "02_DOCENTE/RECURSOS_DIGITALES/lote_5/proyecto/referencia_docente_v2_sc02/public/prestamo.php": {
+   "bytes": 897,
+   "sha256": "efd384df3dc6d4a7889f77967f8d97a9498710878b2e8966f97aad9b4624a177"
+  },
+  "02_DOCENTE/RECURSOS_DIGITALES/lote_5/proyecto/referencia_docente_v2_sc02/public/salir.php": {
+   "bytes": 144,
+   "sha256": "39227aa104b768fce0c22c11c58a76dfedc8c038aaf6e230cc774d002c3272d7"
+  },
+  "02_DOCENTE/RECURSOS_DIGITALES/lote_5/proyecto/referencia_docente_v2_sc02/src/auth.php": {
+   "bytes": 2645,
+   "sha256": "1561723b1db484e6a8f1d39b6b8f1de3b98b07e5d495e901758ed9ec3db58281"
+  },
+  "02_DOCENTE/RECURSOS_DIGITALES/lote_5/proyecto/referencia_docente_v2_sc02/src/datos_ejemplo.php": {
+   "bytes": 3514,
+   "sha256": "347c733a46a57a058f732e88b5c38879d45ca2dddf5f3a08cc9e64bf5330ef87"
+  },
+  "02_DOCENTE/RECURSOS_DIGITALES/lote_5/proyecto/referencia_docente_v2_sc02/src/db.php": {
+   "bytes": 3611,
+   "sha256": "986f40b6392f43b0e3872f5ece23e45f5f26e4ec949cab04e1ef4e04a56008d7"
+  },
+  "02_DOCENTE/RECURSOS_DIGITALES/lote_5/proyecto/referencia_docente_v2_sc02/src/esquema.sql": {
+   "bytes": 4858,
+   "sha256": "218378b880f3e2285e3f9563d4c069c699f6bb3baa445799588daf780a8868f8"
+  },
+  "02_DOCENTE/RECURSOS_DIGITALES/lote_5/proyecto/referencia_docente_v2_sc02/src/mantenimiento.php": {
+   "bytes": 6483,
+   "sha256": "b2e82db5216021d8a272c727a4f25fe52698ca600678d2938666acf3ff7c9f77"
+  },
+  "02_DOCENTE/RECURSOS_DIGITALES/lote_5/proyecto/referencia_docente_v2_sc02/src/mensajes.php": {
+   "bytes": 4270,
+   "sha256": "be806f8ae59a516375de08af58d484765fe9f4bd760a7d4da708ed4c0e37765f"
+  },
+  "02_DOCENTE/RECURSOS_DIGITALES/lote_5/proyecto/referencia_docente_v2_sc02/src/reglas.php": {
+   "bytes": 21021,
+   "sha256": "fb1820007f3df0dd0123dace143bcc28513596d564095b9a9bd57dc79d175d21"
+  },
+  "02_DOCENTE/RECURSOS_DIGITALES/lote_5/proyecto/referencia_docente_v2_sc02/src/respaldo.php": {
+   "bytes": 2429,
+   "sha256": "5c3be72ff1279b60707884b1d61d754d6a7a1667b3df3cb99cf37b1d0ae0387c"
+  },
+  "02_DOCENTE/RECURSOS_DIGITALES/lote_6/caso/entrega_u6.py": {
+   "bytes": 18257,
+   "sha256": "419fd2a31cbe340108ea0e114e86b69e15feb7669bff871d3e5d1d2cebfe7d59"
+  },
+  "02_DOCENTE/RECURSOS_DIGITALES/lote_6/caso/instrumentos_u6.py": {
+   "bytes": 17517,
+   "sha256": "7a0c35471e0cf2131b2783830ce5113e67cdd4351a1955cfe13246a448073f77"
+  },
+  "02_DOCENTE/RECURSOS_DIGITALES/lote_6/caso/mbokaja_u6.py": {
+   "bytes": 5139,
+   "sha256": "8972c7ba156e85c669c93e27ab88333ba2fbdbe462d67177c1ecc2284ebaacf3"
+  },
+  "02_DOCENTE/RECURSOS_DIGITALES/lote_6/caso/v6_plantilla.py": {
+   "bytes": 7012,
+   "sha256": "7deaf9a94c3fd034a0661d73a0b64e874bf11a15f928f40d1b355fad67fb0854"
+  },
+  "02_DOCENTE/RECURSOS_DIGITALES/lote_6/instrumentos/planilla_tiempos_encuentro_35.xlsx": {
+   "bytes": 6863,
+   "sha256": "78dfab5b29fe9894a0f627441fea110644b4af0e095360a7e7acf37479b948fa"
+  },
+  "02_DOCENTE/RECURSOS_DIGITALES/lote_6/proyecto/herramientas/LEEME.md": {
+   "bytes": 3050,
+   "sha256": "b545b2142d6d36b8bab28fdb8bc53415a6fe1172b3997043f3c59ea5a443769e"
+  },
+  "02_DOCENTE/RECURSOS_DIGITALES/lote_6/proyecto/herramientas/inspeccionar_entrega.php": {
+   "bytes": 6010,
+   "sha256": "e1de67cccae743b6ed7689749d2c0571ce6d93f36efaa04e31b178c38ca88642"
+  },
+  "02_DOCENTE/RECURSOS_DIGITALES/lote_6/proyecto/herramientas/probar_en_aislamiento.php": {
+   "bytes": 4907,
+   "sha256": "697f408fb1efa4a6eac729643aee3ed241b363c79eb384e4d187c18876843284"
+  },
+  "02_DOCENTE/RECURSOS_DIGITALES/lote_6/proyecto/paquete_entrega_modelo/LEEME.txt": {
+   "bytes": 557,
+   "sha256": "04364ef562aa47a2f97162a63d5fd2709011f372baf258c3b28a84e64319c450"
+  },
+  "02_DOCENTE/RECURSOS_DIGITALES/lote_6/proyecto/paquete_entrega_modelo/instalar.php": {
+   "bytes": 3153,
+   "sha256": "744147731ee3131974da1800ab9533315fe816867f7c2a12321eaeb377c58f42"
+  },
+  "02_DOCENTE/RECURSOS_DIGITALES/lote_6/proyecto/paquete_entrega_modelo/respaldar.php": {
+   "bytes": 757,
+   "sha256": "af1dd2d4cf79220a14d7ed7d6b597db2bb49aed6f1456e67b481e05b6ca4a5a8"
+  },
+  "02_DOCENTE/RECURSOS_DIGITALES/lote_6/proyecto/paquete_entrega_modelo/restaurar.php": {
+   "bytes": 5406,
+   "sha256": "a905d4c02e2409ead16328f8393c14d3d76979364075f17a772384bc7bd3ec10"
+  },
+  "02_DOCENTE/RECURSOS_DIGITALES/lote_6/proyecto/paquete_entrega_modelo/retirar_marca.php": {
+   "bytes": 10964,
+   "sha256": "dc3b8ff0af6eb36fb681f63bcb212e9ffffc1f29cece7088613a7da856ddbbb2"
+  },
+  "02_DOCENTE/RECURSOS_DIGITALES/lote_6/proyecto/paquete_entrega_modelo/verificar_entorno.php": {
+   "bytes": 1472,
+   "sha256": "43d1f98a0d924bf71aa798dc93c5c297d259bb913b73c25fab4099b3b82b3893"
+  },
+  "02_DOCENTE/RECURSOS_DIGITALES/lote_6/proyecto/paquete_entrega_modelo/ENTREGA/ACTA_ENTREGA.md": {
+   "bytes": 924,
+   "sha256": "f6ac553dbbc3f9991979ab9b26e3cc4eeaf2e72ffeddc038836757bf44c7dd97"
+  },
+  "02_DOCENTE/RECURSOS_DIGITALES/lote_6/proyecto/paquete_entrega_modelo/ENTREGA/INSTALAR.md": {
+   "bytes": 2454,
+   "sha256": "abe8123ba1a1f9d8620cab4c70a1f6b22eeeb3dda03f91ed39915fc32f1d7ff3"
+  },
+  "02_DOCENTE/RECURSOS_DIGITALES/lote_6/proyecto/paquete_entrega_modelo/ENTREGA/LICENCIA_BORRADOR.md": {
+   "bytes": 1088,
+   "sha256": "65b93f1d3fcea29769bbf9f46e88da335030fd0e155d10cf0eb83e0c92e604ac"
+  },
+  "02_DOCENTE/RECURSOS_DIGITALES/lote_6/proyecto/paquete_entrega_modelo/ENTREGA/LIMITES.md": {
+   "bytes": 1274,
+   "sha256": "8bb1376ebedbf41f029dc8c00c874728b6c489acec20e493292fd60dfa3fa857"
+  },
+  "02_DOCENTE/RECURSOS_DIGITALES/lote_6/proyecto/paquete_entrega_modelo/ENTREGA/LISTA_ENTREGA.md": {
+   "bytes": 1212,
+   "sha256": "845a14bed7c03a128b077af8538438d8588fd9d146497db41e55878ab081230c"
+  },
+  "02_DOCENTE/RECURSOS_DIGITALES/lote_6/proyecto/paquete_entrega_modelo/ENTREGA/MANUAL.md": {
+   "bytes": 2691,
+   "sha256": "9aa9964d4072e3912c62da11e8f7f02a5b79c7bfd86bf5e7925a88dab14d1d09"
+  },
+  "02_DOCENTE/RECURSOS_DIGITALES/lote_6/proyecto/paquete_entrega_modelo/ENTREGA/PROCEDENCIA.md": {
+   "bytes": 2505,
+   "sha256": "ccf86c994c09d26bd23af7106a05ae47b6ad31ad7f38256ac9e7ba1a2dc1960b"
+  },
+  "02_DOCENTE/RECURSOS_DIGITALES/lote_6/proyecto/paquete_entrega_modelo/datos/.gitkeep": {
+   "bytes": 0,
+   "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+  },
+  "02_DOCENTE/RECURSOS_DIGITALES/lote_6/proyecto/paquete_entrega_modelo/datos/respaldos/.gitkeep": {
+   "bytes": 0,
+   "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+  },
+  "02_DOCENTE/RECURSOS_DIGITALES/lote_6/proyecto/paquete_entrega_modelo/pruebas/_comun.php": {
+   "bytes": 1665,
+   "sha256": "a2db934fa5b653b1d76416b3db44e0937f5f747a4cb584d740d1ad51a9b7793d"
+  },
+  "02_DOCENTE/RECURSOS_DIGITALES/lote_6/proyecto/paquete_entrega_modelo/pruebas/_corte.php": {
+   "bytes": 1958,
+   "sha256": "828c62119c8b53839a28e7d0c41cb8b69e01eb5cc419ec0ffd2b9f1fb60ba16c"
+  },
+  "02_DOCENTE/RECURSOS_DIGITALES/lote_6/proyecto/paquete_entrega_modelo/pruebas/_trabajador.php": {
+   "bytes": 675,
+   "sha256": "2bf93bf2d9259f06d7c8a1dd5f75fd5182445494af7cfe36ceca769ddd71273f"
+  },
+  "02_DOCENTE/RECURSOS_DIGITALES/lote_6/proyecto/paquete_entrega_modelo/pruebas/prueba_carrera.php": {
+   "bytes": 4520,
+   "sha256": "42fa9071e001f1bab9dad93afa467130c87c650f617b5ca5ca5218727fef5a74"
+  },
+  "02_DOCENTE/RECURSOS_DIGITALES/lote_6/proyecto/paquete_entrega_modelo/pruebas/prueba_contratos.php": {
+   "bytes": 19040,
+   "sha256": "c203b3bc11fd0c5851896aba1a94337357f7522f709e3e968eeb21cc7126cda2"
+  },
+  "02_DOCENTE/RECURSOS_DIGITALES/lote_6/proyecto/paquete_entrega_modelo/pruebas/prueba_garantias.php": {
+   "bytes": 4978,
+   "sha256": "9524a39426b2c49fdcde28bc62c33a9471da80e2b1b19e99c74cd205ce43bd3a"
+  },
+  "02_DOCENTE/RECURSOS_DIGITALES/lote_6/proyecto/paquete_entrega_modelo/pruebas/prueba_http.sh": {
+   "bytes": 9975,
+   "sha256": "1366c769b706d0377af7880cdea114e656dadc33d193e2992c36d8f07c0e826f"
+  },
+  "02_DOCENTE/RECURSOS_DIGITALES/lote_6/proyecto/paquete_entrega_modelo/pruebas/prueba_in02.sh": {
+   "bytes": 3393,
+   "sha256": "c9254ad2e305e69ce1cb083435ade17d1e727b6fbe0ea6e2bccaaf6b82a4c9aa"
+  },
+  "02_DOCENTE/RECURSOS_DIGITALES/lote_6/proyecto/paquete_entrega_modelo/pruebas/prueba_mantenimiento.php": {
+   "bytes": 10070,
+   "sha256": "9e9e968c0a352d8e0bbb9ea4fb0b904408c2f5558765bb5ea23e0363067c16b8"
+  },
+  "02_DOCENTE/RECURSOS_DIGITALES/lote_6/proyecto/paquete_entrega_modelo/pruebas/prueba_marca_huerfana.php": {
+   "bytes": 7955,
+   "sha256": "8df650632c393237b21aee29a6f07bb3fc86bf15376ca36ff92e43b1badbd600"
+  },
+  "02_DOCENTE/RECURSOS_DIGITALES/lote_6/proyecto/paquete_entrega_modelo/pruebas/prueba_mis_operaciones.php": {
+   "bytes": 4238,
+   "sha256": "d66af50a97b7948aec1f03b2b3df538eff5f877ea69bf5dabefa69423ce4df68"
+  },
+  "02_DOCENTE/RECURSOS_DIGITALES/lote_6/proyecto/paquete_entrega_modelo/pruebas/prueba_respaldo.php": {
+   "bytes": 7155,
+   "sha256": "7cac362220aa090b42157e6258bb3a00432f327c375991c2e338f4d3548fbd5b"
+  },
+  "02_DOCENTE/RECURSOS_DIGITALES/lote_6/proyecto/paquete_entrega_modelo/public/_plantilla.php": {
+   "bytes": 3717,
+   "sha256": "3f0732fa6ea58bffbbcd1ccb5299a99f73e82573e87874337774d69b9257dbeb"
+  },
+  "02_DOCENTE/RECURSOS_DIGITALES/lote_6/proyecto/paquete_entrega_modelo/public/activos.php": {
+   "bytes": 1249,
+   "sha256": "a7b6457182b1e4ea80c9f5236c4f3b5c15259597dd2118f4b4375b6fdf4a9322"
+  },
+  "02_DOCENTE/RECURSOS_DIGITALES/lote_6/proyecto/paquete_entrega_modelo/public/devolucion.php": {
+   "bytes": 829,
+   "sha256": "1c0d510d650a7e82448ff3a7219fb7862a1d62832622ce90daa100709e3b183b"
+  },
+  "02_DOCENTE/RECURSOS_DIGITALES/lote_6/proyecto/paquete_entrega_modelo/public/index.php": {
+   "bytes": 1042,
+   "sha256": "b7c10425fc395e0abce8b9a747cdc9d53dbec63de09bf98685f4add06935f427"
+  },
+  "02_DOCENTE/RECURSOS_DIGITALES/lote_6/proyecto/paquete_entrega_modelo/public/informe.php": {
+   "bytes": 1074,
+   "sha256": "4f41c9e07798b8a7cb3e58188981f1dc3f5541949fb6ed7e490ec78691ff8dcd"
+  },
+  "02_DOCENTE/RECURSOS_DIGITALES/lote_6/proyecto/paquete_entrega_modelo/public/inicio.php": {
+   "bytes": 568,
+   "sha256": "785fe7da423d4490782bcf06abe492504812e7d6d3c74033ec4468b0862d2a38"
+  },
+  "02_DOCENTE/RECURSOS_DIGITALES/lote_6/proyecto/paquete_entrega_modelo/public/lectores.php": {
+   "bytes": 4121,
+   "sha256": "ab9e309815d21616a45a26a8ba8ab93eb3f24938276e53bfb781f80f7b1f2bc7"
+  },
+  "02_DOCENTE/RECURSOS_DIGITALES/lote_6/proyecto/paquete_entrega_modelo/public/login.php": {
+   "bytes": 1040,
+   "sha256": "47e567344a143c8dfc862775ec01681351768874851f4264fad81c67f0f438ef"
+  },
+  "02_DOCENTE/RECURSOS_DIGITALES/lote_6/proyecto/paquete_entrega_modelo/public/prestamo.php": {
+   "bytes": 897,
+   "sha256": "efd384df3dc6d4a7889f77967f8d97a9498710878b2e8966f97aad9b4624a177"
+  },
+  "02_DOCENTE/RECURSOS_DIGITALES/lote_6/proyecto/paquete_entrega_modelo/public/salir.php": {
+   "bytes": 144,
+   "sha256": "39227aa104b768fce0c22c11c58a76dfedc8c038aaf6e230cc774d002c3272d7"
+  },
+  "02_DOCENTE/RECURSOS_DIGITALES/lote_6/proyecto/paquete_entrega_modelo/src/auth.php": {
+   "bytes": 2645,
+   "sha256": "1561723b1db484e6a8f1d39b6b8f1de3b98b07e5d495e901758ed9ec3db58281"
+  },
+  "02_DOCENTE/RECURSOS_DIGITALES/lote_6/proyecto/paquete_entrega_modelo/src/datos_ejemplo.php": {
+   "bytes": 3514,
+   "sha256": "347c733a46a57a058f732e88b5c38879d45ca2dddf5f3a08cc9e64bf5330ef87"
+  },
+  "02_DOCENTE/RECURSOS_DIGITALES/lote_6/proyecto/paquete_entrega_modelo/src/db.php": {
+   "bytes": 3611,
+   "sha256": "986f40b6392f43b0e3872f5ece23e45f5f26e4ec949cab04e1ef4e04a56008d7"
+  },
+  "02_DOCENTE/RECURSOS_DIGITALES/lote_6/proyecto/paquete_entrega_modelo/src/esquema.sql": {
+   "bytes": 4858,
+   "sha256": "218378b880f3e2285e3f9563d4c069c699f6bb3baa445799588daf780a8868f8"
+  },
+  "02_DOCENTE/RECURSOS_DIGITALES/lote_6/proyecto/paquete_entrega_modelo/src/mantenimiento.php": {
+   "bytes": 6483,
+   "sha256": "b2e82db5216021d8a272c727a4f25fe52698ca600678d2938666acf3ff7c9f77"
+  },
+  "02_DOCENTE/RECURSOS_DIGITALES/lote_6/proyecto/paquete_entrega_modelo/src/mensajes.php": {
+   "bytes": 4270,
+   "sha256": "be806f8ae59a516375de08af58d484765fe9f4bd760a7d4da708ed4c0e37765f"
+  },
+  "02_DOCENTE/RECURSOS_DIGITALES/lote_6/proyecto/paquete_entrega_modelo/src/reglas.php": {
+   "bytes": 21021,
+   "sha256": "fb1820007f3df0dd0123dace143bcc28513596d564095b9a9bd57dc79d175d21"
+  },
+  "02_DOCENTE/RECURSOS_DIGITALES/lote_6/proyecto/paquete_entrega_modelo/src/respaldo.php": {
+   "bytes": 2429,
+   "sha256": "5c3be72ff1279b60707884b1d61d754d6a7a1667b3df3cb99cf37b1d0ae0387c"
+  },
+  "02_DOCENTE/RECURSOS_DIGITALES/lote_6/proyecto/paquete_mbokaja/LEEME.txt": {
+   "bytes": 571,
+   "sha256": "093863eb358ec5f6c949286199448ec89e743f03e8ce15cd0c358b5541bcf43e"
+  },
+  "02_DOCENTE/RECURSOS_DIGITALES/lote_6/proyecto/paquete_mbokaja/instalar.php": {
+   "bytes": 3153,
+   "sha256": "744147731ee3131974da1800ab9533315fe816867f7c2a12321eaeb377c58f42"
+  },
+  "02_DOCENTE/RECURSOS_DIGITALES/lote_6/proyecto/paquete_mbokaja/respaldar.php": {
+   "bytes": 757,
+   "sha256": "af1dd2d4cf79220a14d7ed7d6b597db2bb49aed6f1456e67b481e05b6ca4a5a8"
+  },
+  "02_DOCENTE/RECURSOS_DIGITALES/lote_6/proyecto/paquete_mbokaja/restaurar.php": {
+   "bytes": 5406,
+   "sha256": "a905d4c02e2409ead16328f8393c14d3d76979364075f17a772384bc7bd3ec10"
+  },
+  "02_DOCENTE/RECURSOS_DIGITALES/lote_6/proyecto/paquete_mbokaja/retirar_marca.php": {
+   "bytes": 10964,
+   "sha256": "dc3b8ff0af6eb36fb681f63bcb212e9ffffc1f29cece7088613a7da856ddbbb2"
+  },
+  "02_DOCENTE/RECURSOS_DIGITALES/lote_6/proyecto/paquete_mbokaja/verificar_entorno.php": {
+   "bytes": 1472,
+   "sha256": "43d1f98a0d924bf71aa798dc93c5c297d259bb913b73c25fab4099b3b82b3893"
+  },
+  "02_DOCENTE/RECURSOS_DIGITALES/lote_6/proyecto/paquete_mbokaja/ENTREGA/ACTA_ENTREGA.md": {
+   "bytes": 904,
+   "sha256": "78c47a4f978741a3739f7e0fac03be4bcaca22d0e2e13310dfc233572d298abd"
+  },
+  "02_DOCENTE/RECURSOS_DIGITALES/lote_6/proyecto/paquete_mbokaja/ENTREGA/INSTALAR.md": {
+   "bytes": 2439,
+   "sha256": "393a6b07175d53c45c601035282c98672fa8d0dd3fe14edd70bd9e309277009b"
+  },
+  "02_DOCENTE/RECURSOS_DIGITALES/lote_6/proyecto/paquete_mbokaja/ENTREGA/LICENCIA_BORRADOR.md": {
+   "bytes": 1088,
+   "sha256": "65b93f1d3fcea29769bbf9f46e88da335030fd0e155d10cf0eb83e0c92e604ac"
+  },
+  "02_DOCENTE/RECURSOS_DIGITALES/lote_6/proyecto/paquete_mbokaja/ENTREGA/LIMITES.md": {
+   "bytes": 1254,
+   "sha256": "476d5301488914b6f2bbb51bd8752a253aa5aa26c10536117af15396476cd6f3"
+  },
+  "02_DOCENTE/RECURSOS_DIGITALES/lote_6/proyecto/paquete_mbokaja/ENTREGA/LISTA_ENTREGA.md": {
+   "bytes": 1262,
+   "sha256": "53f1a619cb416faf6a356c94dd3fbee167d6d49c05b0b17ae620cd4318b4aa7e"
+  },
+  "02_DOCENTE/RECURSOS_DIGITALES/lote_6/proyecto/paquete_mbokaja/ENTREGA/MANUAL.md": {
+   "bytes": 2888,
+   "sha256": "ef35cafa4543253104c5c21101c86eed5cff0d0235beab93f53b6d6f28bb8c96"
+  },
+  "02_DOCENTE/RECURSOS_DIGITALES/lote_6/proyecto/paquete_mbokaja/ENTREGA/PROCEDENCIA.md": {
+   "bytes": 2505,
+   "sha256": "ccf86c994c09d26bd23af7106a05ae47b6ad31ad7f38256ac9e7ba1a2dc1960b"
+  },
+  "02_DOCENTE/RECURSOS_DIGITALES/lote_6/proyecto/paquete_mbokaja/datos/.gitkeep": {
+   "bytes": 0,
+   "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+  },
+  "02_DOCENTE/RECURSOS_DIGITALES/lote_6/proyecto/paquete_mbokaja/datos/respaldos/.gitkeep": {
+   "bytes": 0,
+   "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+  },
+  "02_DOCENTE/RECURSOS_DIGITALES/lote_6/proyecto/paquete_mbokaja/pruebas/_comun.php": {
+   "bytes": 1665,
+   "sha256": "a2db934fa5b653b1d76416b3db44e0937f5f747a4cb584d740d1ad51a9b7793d"
+  },
+  "02_DOCENTE/RECURSOS_DIGITALES/lote_6/proyecto/paquete_mbokaja/pruebas/_corte.php": {
+   "bytes": 1958,
+   "sha256": "828c62119c8b53839a28e7d0c41cb8b69e01eb5cc419ec0ffd2b9f1fb60ba16c"
+  },
+  "02_DOCENTE/RECURSOS_DIGITALES/lote_6/proyecto/paquete_mbokaja/pruebas/_trabajador.php": {
+   "bytes": 675,
+   "sha256": "2bf93bf2d9259f06d7c8a1dd5f75fd5182445494af7cfe36ceca769ddd71273f"
+  },
+  "02_DOCENTE/RECURSOS_DIGITALES/lote_6/proyecto/paquete_mbokaja/pruebas/prueba_carrera.php": {
+   "bytes": 4520,
+   "sha256": "42fa9071e001f1bab9dad93afa467130c87c650f617b5ca5ca5218727fef5a74"
+  },
+  "02_DOCENTE/RECURSOS_DIGITALES/lote_6/proyecto/paquete_mbokaja/pruebas/prueba_contratos.php": {
+   "bytes": 19050,
+   "sha256": "ac6e06160078762f4d0fa1574f49ae6ce772924397dc6019663d0bdf87c7a5cb"
+  },
+  "02_DOCENTE/RECURSOS_DIGITALES/lote_6/proyecto/paquete_mbokaja/pruebas/prueba_garantias.php": {
+   "bytes": 4978,
+   "sha256": "9524a39426b2c49fdcde28bc62c33a9471da80e2b1b19e99c74cd205ce43bd3a"
+  },
+  "02_DOCENTE/RECURSOS_DIGITALES/lote_6/proyecto/paquete_mbokaja/pruebas/prueba_http.sh": {
+   "bytes": 9975,
+   "sha256": "1366c769b706d0377af7880cdea114e656dadc33d193e2992c36d8f07c0e826f"
+  },
+  "02_DOCENTE/RECURSOS_DIGITALES/lote_6/proyecto/paquete_mbokaja/pruebas/prueba_in02.sh": {
+   "bytes": 3393,
+   "sha256": "c9254ad2e305e69ce1cb083435ade17d1e727b6fbe0ea6e2bccaaf6b82a4c9aa"
+  },
+  "02_DOCENTE/RECURSOS_DIGITALES/lote_6/proyecto/paquete_mbokaja/pruebas/prueba_mantenimiento.php": {
+   "bytes": 10070,
+   "sha256": "9e9e968c0a352d8e0bbb9ea4fb0b904408c2f5558765bb5ea23e0363067c16b8"
+  },
+  "02_DOCENTE/RECURSOS_DIGITALES/lote_6/proyecto/paquete_mbokaja/pruebas/prueba_marca_huerfana.php": {
+   "bytes": 7955,
+   "sha256": "8df650632c393237b21aee29a6f07bb3fc86bf15376ca36ff92e43b1badbd600"
+  },
+  "02_DOCENTE/RECURSOS_DIGITALES/lote_6/proyecto/paquete_mbokaja/pruebas/prueba_mis_operaciones.php": {
+   "bytes": 4238,
+   "sha256": "d66af50a97b7948aec1f03b2b3df538eff5f877ea69bf5dabefa69423ce4df68"
+  },
+  "02_DOCENTE/RECURSOS_DIGITALES/lote_6/proyecto/paquete_mbokaja/pruebas/prueba_respaldo.php": {
+   "bytes": 7155,
+   "sha256": "7cac362220aa090b42157e6258bb3a00432f327c375991c2e338f4d3548fbd5b"
+  },
+  "02_DOCENTE/RECURSOS_DIGITALES/lote_6/proyecto/paquete_mbokaja/public/_plantilla.php": {
+   "bytes": 3717,
+   "sha256": "3f0732fa6ea58bffbbcd1ccb5299a99f73e82573e87874337774d69b9257dbeb"
+  },
+  "02_DOCENTE/RECURSOS_DIGITALES/lote_6/proyecto/paquete_mbokaja/public/activos.php": {
+   "bytes": 1249,
+   "sha256": "a7b6457182b1e4ea80c9f5236c4f3b5c15259597dd2118f4b4375b6fdf4a9322"
+  },
+  "02_DOCENTE/RECURSOS_DIGITALES/lote_6/proyecto/paquete_mbokaja/public/devolucion.php": {
+   "bytes": 829,
+   "sha256": "1c0d510d650a7e82448ff3a7219fb7862a1d62832622ce90daa100709e3b183b"
+  },
+  "02_DOCENTE/RECURSOS_DIGITALES/lote_6/proyecto/paquete_mbokaja/public/index.php": {
+   "bytes": 1042,
+   "sha256": "b7c10425fc395e0abce8b9a747cdc9d53dbec63de09bf98685f4add06935f427"
+  },
+  "02_DOCENTE/RECURSOS_DIGITALES/lote_6/proyecto/paquete_mbokaja/public/informe.php": {
+   "bytes": 1074,
+   "sha256": "4f41c9e07798b8a7cb3e58188981f1dc3f5541949fb6ed7e490ec78691ff8dcd"
+  },
+  "02_DOCENTE/RECURSOS_DIGITALES/lote_6/proyecto/paquete_mbokaja/public/inicio.php": {
+   "bytes": 568,
+   "sha256": "785fe7da423d4490782bcf06abe492504812e7d6d3c74033ec4468b0862d2a38"
+  },
+  "02_DOCENTE/RECURSOS_DIGITALES/lote_6/proyecto/paquete_mbokaja/public/lectores.php": {
+   "bytes": 4121,
+   "sha256": "ab9e309815d21616a45a26a8ba8ab93eb3f24938276e53bfb781f80f7b1f2bc7"
+  },
+  "02_DOCENTE/RECURSOS_DIGITALES/lote_6/proyecto/paquete_mbokaja/public/login.php": {
+   "bytes": 1040,
+   "sha256": "47e567344a143c8dfc862775ec01681351768874851f4264fad81c67f0f438ef"
+  },
+  "02_DOCENTE/RECURSOS_DIGITALES/lote_6/proyecto/paquete_mbokaja/public/logo_mbokaja.png": {
+   "bytes": 481,
+   "sha256": "181e28929ef99cf823aa6cfeac24950259bda75e87e983ee7fb62b0c04382e4f"
+  },
+  "02_DOCENTE/RECURSOS_DIGITALES/lote_6/proyecto/paquete_mbokaja/public/prestamo.php": {
+   "bytes": 897,
+   "sha256": "efd384df3dc6d4a7889f77967f8d97a9498710878b2e8966f97aad9b4624a177"
+  },
+  "02_DOCENTE/RECURSOS_DIGITALES/lote_6/proyecto/paquete_mbokaja/public/salir.php": {
+   "bytes": 144,
+   "sha256": "39227aa104b768fce0c22c11c58a76dfedc8c038aaf6e230cc774d002c3272d7"
+  },
+  "02_DOCENTE/RECURSOS_DIGITALES/lote_6/proyecto/paquete_mbokaja/src/auth.php": {
+   "bytes": 2645,
+   "sha256": "1561723b1db484e6a8f1d39b6b8f1de3b98b07e5d495e901758ed9ec3db58281"
+  },
+  "02_DOCENTE/RECURSOS_DIGITALES/lote_6/proyecto/paquete_mbokaja/src/datos_ejemplo.php": {
+   "bytes": 3514,
+   "sha256": "347c733a46a57a058f732e88b5c38879d45ca2dddf5f3a08cc9e64bf5330ef87"
+  },
+  "02_DOCENTE/RECURSOS_DIGITALES/lote_6/proyecto/paquete_mbokaja/src/db.php": {
+   "bytes": 3611,
+   "sha256": "986f40b6392f43b0e3872f5ece23e45f5f26e4ec949cab04e1ef4e04a56008d7"
+  },
+  "02_DOCENTE/RECURSOS_DIGITALES/lote_6/proyecto/paquete_mbokaja/src/esquema.sql": {
+   "bytes": 4858,
+   "sha256": "218378b880f3e2285e3f9563d4c069c699f6bb3baa445799588daf780a8868f8"
+  },
+  "02_DOCENTE/RECURSOS_DIGITALES/lote_6/proyecto/paquete_mbokaja/src/mantenimiento.php": {
+   "bytes": 6483,
+   "sha256": "b2e82db5216021d8a272c727a4f25fe52698ca600678d2938666acf3ff7c9f77"
+  },
+  "02_DOCENTE/RECURSOS_DIGITALES/lote_6/proyecto/paquete_mbokaja/src/mensajes.php": {
+   "bytes": 4270,
+   "sha256": "be806f8ae59a516375de08af58d484765fe9f4bd760a7d4da708ed4c0e37765f"
+  },
+  "02_DOCENTE/RECURSOS_DIGITALES/lote_6/proyecto/paquete_mbokaja/src/reglas.php": {
+   "bytes": 21021,
+   "sha256": "fb1820007f3df0dd0123dace143bcc28513596d564095b9a9bd57dc79d175d21"
+  },
+  "02_DOCENTE/RECURSOS_DIGITALES/lote_6/proyecto/paquete_mbokaja/src/respaldo.php": {
+   "bytes": 2429,
+   "sha256": "5c3be72ff1279b60707884b1d61d754d6a7a1667b3df3cb99cf37b1d0ae0387c"
+  },
+  "03_COLECCION_COMPLETA/INDICE_GENERAL_DE_ARCHIVOS.md": {
+   "bytes": 7625,
+   "sha256": "c80a13d7670afc89090945df84b57517a5190dbe49981321d8eebc892875325b"
+  },
+  "03_COLECCION_COMPLETA/INSTRUCCIONES_DOCENTE.pdf": {
+   "bytes": 43921,
+   "sha256": "63f4ae8db767b8feedf28aeb6f35c7526c2f2c277b3a13e0aaed8c7520a75782"
+  },
+  "03_COLECCION_COMPLETA/INSTRUCCIONES_ESTUDIANTE.pdf": {
+   "bytes": 30106,
+   "sha256": "ef65993629cb8841532c8c044fc8ace6c2b54c7c30e1c1e4b88939ac38ad2b76"
+  },
+  "03_COLECCION_COMPLETA/01_LIBRO_DEL_ESTUDIANTE/ADS_3BTI_LIBRO_DEL_ESTUDIANTE_v1_0_CUBIERTA_IMPRESION.pdf": {
+   "bytes": 904065,
+   "sha256": "d4a8db1b4c2a1475edc4765a100bdb32c4e6c3cf497d27da2e4e492e223f4527"
+  },
+  "03_COLECCION_COMPLETA/01_LIBRO_DEL_ESTUDIANTE/ADS_3BTI_LIBRO_DEL_ESTUDIANTE_v1_0_DIGITAL.pdf": {
+   "bytes": 3961072,
+   "sha256": "83e4d7fc4dc520b5df9bc95fd4df921603c53071f224c5cd31ea5fd673530e0a"
+  },
+  "03_COLECCION_COMPLETA/01_LIBRO_DEL_ESTUDIANTE/ADS_3BTI_LIBRO_DEL_ESTUDIANTE_v1_0_EDITABLE.docx": {
+   "bytes": 2749039,
+   "sha256": "e4321243c5895615010f180f5c0afe838ac19a767ee15011c02a99ce2da11363"
+  },
+  "03_COLECCION_COMPLETA/01_LIBRO_DEL_ESTUDIANTE/ADS_3BTI_LIBRO_DEL_ESTUDIANTE_v1_0_INTERIOR_IMPRESION.pdf": {
+   "bytes": 6211897,
+   "sha256": "32964985e85dbf93a74624c52657712a95465026ec1efa109b93d0f3357a70bb"
+  },
+  "03_COLECCION_COMPLETA/02_CUADERNO_DE_PRACTICAS/ADS_3BTI_CUADERNO_DE_PRACTICAS_v1_0_CUBIERTA_IMPRESION.pdf": {
+   "bytes": 903053,
+   "sha256": "a875dc22c4f20774f91c5e3302011f297063ce41223bfe71ee71675e5e39bf6c"
+  },
+  "03_COLECCION_COMPLETA/02_CUADERNO_DE_PRACTICAS/ADS_3BTI_CUADERNO_DE_PRACTICAS_v1_0_DIGITAL.pdf": {
+   "bytes": 1027756,
+   "sha256": "4284dcb66e7cd56fb84b7f920c984c0f70244020cda7ade96ea04e80449a28d7"
+  },
+  "03_COLECCION_COMPLETA/02_CUADERNO_DE_PRACTICAS/ADS_3BTI_CUADERNO_DE_PRACTICAS_v1_0_EDITABLE.docx": {
+   "bytes": 66202,
+   "sha256": "333a89fe432ca3f6f99d19ff4b1e1fd88a07b1d111cc0d0732193a656b2486b9"
+  },
+  "03_COLECCION_COMPLETA/02_CUADERNO_DE_PRACTICAS/ADS_3BTI_CUADERNO_DE_PRACTICAS_v1_0_INTERIOR_IMPRESION.pdf": {
+   "bytes": 502875,
+   "sha256": "6211a7e24d544ce4eeb3227dab91ded6780d665e400869c80def34e0820d5d42"
+  },
+  "03_COLECCION_COMPLETA/03_GUIA_DOCENTE_CON_SOLUCIONARIO/ADS_3BTI_GUIA_DOCENTE_SOLUCIONARIO_v1_0_CUBIERTA_IMPRESION.pdf": {
+   "bytes": 903636,
+   "sha256": "bf3a80a6399c0ef6b78b9023cfcc572c33ea553603b4c0d121979d7f16e7bac8"
+  },
+  "03_COLECCION_COMPLETA/03_GUIA_DOCENTE_CON_SOLUCIONARIO/ADS_3BTI_GUIA_DOCENTE_SOLUCIONARIO_v1_0_DIGITAL.pdf": {
+   "bytes": 1469668,
+   "sha256": "35b32b731264763ba36cb36912912cb23997903273f909bcb85b4de5045dfa2b"
+  },
+  "03_COLECCION_COMPLETA/03_GUIA_DOCENTE_CON_SOLUCIONARIO/ADS_3BTI_GUIA_DOCENTE_SOLUCIONARIO_v1_0_EDITABLE.docx": {
+   "bytes": 249944,
+   "sha256": "1dacb258c6901db8287ac5429773e5b23e5db25e6dfb11a4fdcfd0a02c237256"
+  },
+  "03_COLECCION_COMPLETA/03_GUIA_DOCENTE_CON_SOLUCIONARIO/ADS_3BTI_GUIA_DOCENTE_SOLUCIONARIO_v1_0_INTERIOR_IMPRESION.pdf": {
+   "bytes": 2848694,
+   "sha256": "8f9d051e660000a666563d0e49107f396bf9bfd8766e7bff8dc2a690678037ce"
+  },
+  "03_COLECCION_COMPLETA/04_PLAN_ANUAL/ADS_3BTI_PLAN_ANUAL_v1_0_CUBIERTA_IMPRESION.pdf": {
+   "bytes": 903400,
+   "sha256": "516d265422164ebca67b3db0fa636e50a266d6b0f36cb3aafa7acf1d9036b876"
+  },
+  "03_COLECCION_COMPLETA/04_PLAN_ANUAL/ADS_3BTI_PLAN_ANUAL_v1_0_DIGITAL.pdf": {
+   "bytes": 1058135,
+   "sha256": "a68cd9b6ec167385f479741203763f775d990c592118d281adfe804053e27d6e"
+  },
+  "03_COLECCION_COMPLETA/04_PLAN_ANUAL/ADS_3BTI_PLAN_ANUAL_v1_0_EDITABLE.docx": {
+   "bytes": 73980,
+   "sha256": "853008f4d3413fc321c881fafd1e106f9b4769e97fd7f0ef21c133b8cac60b47"
+  },
+  "03_COLECCION_COMPLETA/04_PLAN_ANUAL/ADS_3BTI_PLAN_ANUAL_v1_0_INTERIOR_IMPRESION.pdf": {
+   "bytes": 959075,
+   "sha256": "fc9ecfebcdcfea6348420b8a734b6f23c290be897fdf2903c5cba9b1a6268455"
+  },
+  "03_COLECCION_COMPLETA/05_PLANES_DE_CLASE/ADS_3BTI_PLANES_DE_CLASE_v1_0_CUBIERTA_IMPRESION.pdf": {
+   "bytes": 903393,
+   "sha256": "883402d65203799267fb27d7bf2b32f74049220153b37366c95e466faf2926a5"
+  },
+  "03_COLECCION_COMPLETA/05_PLANES_DE_CLASE/ADS_3BTI_PLANES_DE_CLASE_v1_0_DIGITAL.pdf": {
+   "bytes": 1275158,
+   "sha256": "b44a367d639333daf084577e820665b7ff1ef21a42c96efd0b3eed2b2bb6b5c5"
+  },
+  "03_COLECCION_COMPLETA/05_PLANES_DE_CLASE/ADS_3BTI_PLANES_DE_CLASE_v1_0_EDITABLE.docx": {
+   "bytes": 116465,
+   "sha256": "bae462eb3a74e844f20832a3c51d62b6221e0f1bf48de02131d4d7219bf58667"
+  },
+  "03_COLECCION_COMPLETA/05_PLANES_DE_CLASE/ADS_3BTI_PLANES_DE_CLASE_v1_0_INTERIOR_IMPRESION.pdf": {
+   "bytes": 1469380,
+   "sha256": "fb7cc7857f7cff233777a9538660e8c624b76dad941bb1082f93c4d611f384c2"
+  },
+  "03_COLECCION_COMPLETA/06_RECURSOS_DIGITALES/LEEME_RECURSOS.md": {
+   "bytes": 1622,
+   "sha256": "8a1825d0790876f7a1ff8d3763b6821346d1c6b6c903daae2108bcd75e6dc383"
+  },
+  "03_COLECCION_COMPLETA/06_RECURSOS_DIGITALES/lote_4/proyecto/base_estudiante/LEEME.txt": {
+   "bytes": 1824,
+   "sha256": "7b28cd96163b359a42eca5af97a28b55018d287893a362102fd356a097bd7dd4"
+  },
+  "03_COLECCION_COMPLETA/06_RECURSOS_DIGITALES/lote_4/proyecto/base_estudiante/instalar.php": {
+   "bytes": 3153,
+   "sha256": "744147731ee3131974da1800ab9533315fe816867f7c2a12321eaeb377c58f42"
+  },
+  "03_COLECCION_COMPLETA/06_RECURSOS_DIGITALES/lote_4/proyecto/base_estudiante/respaldar.php": {
+   "bytes": 757,
+   "sha256": "af1dd2d4cf79220a14d7ed7d6b597db2bb49aed6f1456e67b481e05b6ca4a5a8"
+  },
+  "03_COLECCION_COMPLETA/06_RECURSOS_DIGITALES/lote_4/proyecto/base_estudiante/restaurar.php": {
+   "bytes": 5406,
+   "sha256": "a905d4c02e2409ead16328f8393c14d3d76979364075f17a772384bc7bd3ec10"
+  },
+  "03_COLECCION_COMPLETA/06_RECURSOS_DIGITALES/lote_4/proyecto/base_estudiante/retirar_marca.php": {
+   "bytes": 10964,
+   "sha256": "dc3b8ff0af6eb36fb681f63bcb212e9ffffc1f29cece7088613a7da856ddbbb2"
+  },
+  "03_COLECCION_COMPLETA/06_RECURSOS_DIGITALES/lote_4/proyecto/base_estudiante/verificar_entorno.php": {
+   "bytes": 1472,
+   "sha256": "43d1f98a0d924bf71aa798dc93c5c297d259bb913b73c25fab4099b3b82b3893"
+  },
+  "03_COLECCION_COMPLETA/06_RECURSOS_DIGITALES/lote_4/proyecto/base_estudiante/datos/.gitkeep": {
+   "bytes": 0,
+   "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+  },
+  "03_COLECCION_COMPLETA/06_RECURSOS_DIGITALES/lote_4/proyecto/base_estudiante/datos/respaldos/.gitkeep": {
+   "bytes": 0,
+   "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+  },
+  "03_COLECCION_COMPLETA/06_RECURSOS_DIGITALES/lote_4/proyecto/base_estudiante/pruebas/_comun.php": {
+   "bytes": 1665,
+   "sha256": "a2db934fa5b653b1d76416b3db44e0937f5f747a4cb584d740d1ad51a9b7793d"
+  },
+  "03_COLECCION_COMPLETA/06_RECURSOS_DIGITALES/lote_4/proyecto/base_estudiante/pruebas/_corte.php": {
+   "bytes": 1958,
+   "sha256": "828c62119c8b53839a28e7d0c41cb8b69e01eb5cc419ec0ffd2b9f1fb60ba16c"
+  },
+  "03_COLECCION_COMPLETA/06_RECURSOS_DIGITALES/lote_4/proyecto/base_estudiante/pruebas/prueba_base.sh": {
+   "bytes": 5548,
+   "sha256": "d492d7ae4635d949938219df142580491fb1d7be1ba5b65bb9318e8cd4fbc0b5"
+  },
+  "03_COLECCION_COMPLETA/06_RECURSOS_DIGITALES/lote_4/proyecto/base_estudiante/pruebas/prueba_garantias.php": {
+   "bytes": 4978,
+   "sha256": "9524a39426b2c49fdcde28bc62c33a9471da80e2b1b19e99c74cd205ce43bd3a"
+  },
+  "03_COLECCION_COMPLETA/06_RECURSOS_DIGITALES/lote_4/proyecto/base_estudiante/pruebas/prueba_mantenimiento.php": {
+   "bytes": 10070,
+   "sha256": "9e9e968c0a352d8e0bbb9ea4fb0b904408c2f5558765bb5ea23e0363067c16b8"
+  },
+  "03_COLECCION_COMPLETA/06_RECURSOS_DIGITALES/lote_4/proyecto/base_estudiante/pruebas/prueba_marca_huerfana.php": {
+   "bytes": 7955,
+   "sha256": "8df650632c393237b21aee29a6f07bb3fc86bf15376ca36ff92e43b1badbd600"
+  },
+  "03_COLECCION_COMPLETA/06_RECURSOS_DIGITALES/lote_4/proyecto/base_estudiante/pruebas/prueba_mis_operaciones.php": {
+   "bytes": 4238,
+   "sha256": "d66af50a97b7948aec1f03b2b3df538eff5f877ea69bf5dabefa69423ce4df68"
+  },
+  "03_COLECCION_COMPLETA/06_RECURSOS_DIGITALES/lote_4/proyecto/base_estudiante/pruebas/prueba_respaldo.php": {
+   "bytes": 7155,
+   "sha256": "7cac362220aa090b42157e6258bb3a00432f327c375991c2e338f4d3548fbd5b"
+  },
+  "03_COLECCION_COMPLETA/06_RECURSOS_DIGITALES/lote_4/proyecto/base_estudiante/public/_plantilla.php": {
+   "bytes": 2737,
+   "sha256": "f2b00385d83cf56f2c954852e7b9c2e55c915cd42d74042c34c0614eeb50dfcc"
+  },
+  "03_COLECCION_COMPLETA/06_RECURSOS_DIGITALES/lote_4/proyecto/base_estudiante/public/index.php": {
+   "bytes": 624,
+   "sha256": "21e23cb009ab858427204fdc26a0b05f41e78c180b0a3101f2035bc005ac951a"
+  },
+  "03_COLECCION_COMPLETA/06_RECURSOS_DIGITALES/lote_4/proyecto/base_estudiante/public/inicio.php": {
+   "bytes": 645,
+   "sha256": "ba7a77cf917c8ced9edb380fc0446054fcd4e2fca35381d9dbe34b745cf84a67"
+  },
+  "03_COLECCION_COMPLETA/06_RECURSOS_DIGITALES/lote_4/proyecto/base_estudiante/public/lectores.php": {
+   "bytes": 1148,
+   "sha256": "8bdf40981c47c629501009d64b903a9ce67e59dfa433eaad4273b43120039bdd"
+  },
+  "03_COLECCION_COMPLETA/06_RECURSOS_DIGITALES/lote_4/proyecto/base_estudiante/public/login.php": {
+   "bytes": 1040,
+   "sha256": "47e567344a143c8dfc862775ec01681351768874851f4264fad81c67f0f438ef"
+  },
+  "03_COLECCION_COMPLETA/06_RECURSOS_DIGITALES/lote_4/proyecto/base_estudiante/public/salir.php": {
+   "bytes": 144,
+   "sha256": "39227aa104b768fce0c22c11c58a76dfedc8c038aaf6e230cc774d002c3272d7"
+  },
+  "03_COLECCION_COMPLETA/06_RECURSOS_DIGITALES/lote_4/proyecto/base_estudiante/src/auth.php": {
+   "bytes": 2645,
+   "sha256": "1561723b1db484e6a8f1d39b6b8f1de3b98b07e5d495e901758ed9ec3db58281"
+  },
+  "03_COLECCION_COMPLETA/06_RECURSOS_DIGITALES/lote_4/proyecto/base_estudiante/src/datos_ejemplo.php": {
+   "bytes": 3514,
+   "sha256": "347c733a46a57a058f732e88b5c38879d45ca2dddf5f3a08cc9e64bf5330ef87"
+  },
+  "03_COLECCION_COMPLETA/06_RECURSOS_DIGITALES/lote_4/proyecto/base_estudiante/src/db.php": {
+   "bytes": 3611,
+   "sha256": "986f40b6392f43b0e3872f5ece23e45f5f26e4ec949cab04e1ef4e04a56008d7"
+  },
+  "03_COLECCION_COMPLETA/06_RECURSOS_DIGITALES/lote_4/proyecto/base_estudiante/src/esquema.sql": {
+   "bytes": 4858,
+   "sha256": "218378b880f3e2285e3f9563d4c069c699f6bb3baa445799588daf780a8868f8"
+  },
+  "03_COLECCION_COMPLETA/06_RECURSOS_DIGITALES/lote_4/proyecto/base_estudiante/src/mantenimiento.php": {
+   "bytes": 6483,
+   "sha256": "b2e82db5216021d8a272c727a4f25fe52698ca600678d2938666acf3ff7c9f77"
+  },
+  "03_COLECCION_COMPLETA/06_RECURSOS_DIGITALES/lote_4/proyecto/base_estudiante/src/mensajes.php": {
+   "bytes": 4095,
+   "sha256": "0560004bfe5e36e9ca8379c2e66424e5b8695f5ef678853afc23d5592aa882bc"
+  },
+  "03_COLECCION_COMPLETA/06_RECURSOS_DIGITALES/lote_4/proyecto/base_estudiante/src/reglas.php": {
+   "bytes": 4657,
+   "sha256": "6a041f57046745f1ccd0aff298753344b1b5b6e6bed6d24fb552a8b85d06d77d"
+  },
+  "03_COLECCION_COMPLETA/06_RECURSOS_DIGITALES/lote_4/proyecto/base_estudiante/src/respaldo.php": {
+   "bytes": 2429,
+   "sha256": "5c3be72ff1279b60707884b1d61d754d6a7a1667b3df3cb99cf37b1d0ae0387c"
+  },
+  "03_COLECCION_COMPLETA/06_RECURSOS_DIGITALES/lote_4/proyecto/referencia_docente/LEEME.txt": {
+   "bytes": 3462,
+   "sha256": "a02a33a5762f9d72815876a995bd7d5ea2a39ec0ffe6e2aa0ce06c7e8d0a204e"
+  },
+  "03_COLECCION_COMPLETA/06_RECURSOS_DIGITALES/lote_4/proyecto/referencia_docente/instalar.php": {
+   "bytes": 3153,
+   "sha256": "744147731ee3131974da1800ab9533315fe816867f7c2a12321eaeb377c58f42"
+  },
+  "03_COLECCION_COMPLETA/06_RECURSOS_DIGITALES/lote_4/proyecto/referencia_docente/respaldar.php": {
+   "bytes": 757,
+   "sha256": "af1dd2d4cf79220a14d7ed7d6b597db2bb49aed6f1456e67b481e05b6ca4a5a8"
+  },
+  "03_COLECCION_COMPLETA/06_RECURSOS_DIGITALES/lote_4/proyecto/referencia_docente/restaurar.php": {
+   "bytes": 5406,
+   "sha256": "a905d4c02e2409ead16328f8393c14d3d76979364075f17a772384bc7bd3ec10"
+  },
+  "03_COLECCION_COMPLETA/06_RECURSOS_DIGITALES/lote_4/proyecto/referencia_docente/retirar_marca.php": {
+   "bytes": 10964,
+   "sha256": "dc3b8ff0af6eb36fb681f63bcb212e9ffffc1f29cece7088613a7da856ddbbb2"
+  },
+  "03_COLECCION_COMPLETA/06_RECURSOS_DIGITALES/lote_4/proyecto/referencia_docente/verificar_entorno.php": {
+   "bytes": 1472,
+   "sha256": "43d1f98a0d924bf71aa798dc93c5c297d259bb913b73c25fab4099b3b82b3893"
+  },
+  "03_COLECCION_COMPLETA/06_RECURSOS_DIGITALES/lote_4/proyecto/referencia_docente/datos/.gitkeep": {
+   "bytes": 0,
+   "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+  },
+  "03_COLECCION_COMPLETA/06_RECURSOS_DIGITALES/lote_4/proyecto/referencia_docente/datos/respaldos/.gitkeep": {
+   "bytes": 0,
+   "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+  },
+  "03_COLECCION_COMPLETA/06_RECURSOS_DIGITALES/lote_4/proyecto/referencia_docente/pruebas/_comun.php": {
+   "bytes": 1665,
+   "sha256": "a2db934fa5b653b1d76416b3db44e0937f5f747a4cb584d740d1ad51a9b7793d"
+  },
+  "03_COLECCION_COMPLETA/06_RECURSOS_DIGITALES/lote_4/proyecto/referencia_docente/pruebas/_corte.php": {
+   "bytes": 1958,
+   "sha256": "828c62119c8b53839a28e7d0c41cb8b69e01eb5cc419ec0ffd2b9f1fb60ba16c"
+  },
+  "03_COLECCION_COMPLETA/06_RECURSOS_DIGITALES/lote_4/proyecto/referencia_docente/pruebas/_trabajador.php": {
+   "bytes": 675,
+   "sha256": "2bf93bf2d9259f06d7c8a1dd5f75fd5182445494af7cfe36ceca769ddd71273f"
+  },
+  "03_COLECCION_COMPLETA/06_RECURSOS_DIGITALES/lote_4/proyecto/referencia_docente/pruebas/prueba_carrera.php": {
+   "bytes": 4520,
+   "sha256": "42fa9071e001f1bab9dad93afa467130c87c650f617b5ca5ca5218727fef5a74"
+  },
+  "03_COLECCION_COMPLETA/06_RECURSOS_DIGITALES/lote_4/proyecto/referencia_docente/pruebas/prueba_contratos.php": {
+   "bytes": 18532,
+   "sha256": "1e6a7dee0a5895850cdf4334721c3a2f032374220438bcdb9dfcd2c3d00f6fca"
+  },
+  "03_COLECCION_COMPLETA/06_RECURSOS_DIGITALES/lote_4/proyecto/referencia_docente/pruebas/prueba_garantias.php": {
+   "bytes": 4978,
+   "sha256": "9524a39426b2c49fdcde28bc62c33a9471da80e2b1b19e99c74cd205ce43bd3a"
+  },
+  "03_COLECCION_COMPLETA/06_RECURSOS_DIGITALES/lote_4/proyecto/referencia_docente/pruebas/prueba_http.sh": {
+   "bytes": 9975,
+   "sha256": "1366c769b706d0377af7880cdea114e656dadc33d193e2992c36d8f07c0e826f"
+  },
+  "03_COLECCION_COMPLETA/06_RECURSOS_DIGITALES/lote_4/proyecto/referencia_docente/pruebas/prueba_mantenimiento.php": {
+   "bytes": 10070,
+   "sha256": "9e9e968c0a352d8e0bbb9ea4fb0b904408c2f5558765bb5ea23e0363067c16b8"
+  },
+  "03_COLECCION_COMPLETA/06_RECURSOS_DIGITALES/lote_4/proyecto/referencia_docente/pruebas/prueba_marca_huerfana.php": {
+   "bytes": 7955,
+   "sha256": "8df650632c393237b21aee29a6f07bb3fc86bf15376ca36ff92e43b1badbd600"
+  },
+  "03_COLECCION_COMPLETA/06_RECURSOS_DIGITALES/lote_4/proyecto/referencia_docente/pruebas/prueba_mis_operaciones.php": {
+   "bytes": 4238,
+   "sha256": "d66af50a97b7948aec1f03b2b3df538eff5f877ea69bf5dabefa69423ce4df68"
+  },
+  "03_COLECCION_COMPLETA/06_RECURSOS_DIGITALES/lote_4/proyecto/referencia_docente/pruebas/prueba_respaldo.php": {
+   "bytes": 7155,
+   "sha256": "7cac362220aa090b42157e6258bb3a00432f327c375991c2e338f4d3548fbd5b"
+  },
+  "03_COLECCION_COMPLETA/06_RECURSOS_DIGITALES/lote_4/proyecto/referencia_docente/public/_plantilla.php": {
+   "bytes": 2737,
+   "sha256": "f2b00385d83cf56f2c954852e7b9c2e55c915cd42d74042c34c0614eeb50dfcc"
+  },
+  "03_COLECCION_COMPLETA/06_RECURSOS_DIGITALES/lote_4/proyecto/referencia_docente/public/activos.php": {
+   "bytes": 1249,
+   "sha256": "a7b6457182b1e4ea80c9f5236c4f3b5c15259597dd2118f4b4375b6fdf4a9322"
+  },
+  "03_COLECCION_COMPLETA/06_RECURSOS_DIGITALES/lote_4/proyecto/referencia_docente/public/devolucion.php": {
+   "bytes": 829,
+   "sha256": "1c0d510d650a7e82448ff3a7219fb7862a1d62832622ce90daa100709e3b183b"
+  },
+  "03_COLECCION_COMPLETA/06_RECURSOS_DIGITALES/lote_4/proyecto/referencia_docente/public/index.php": {
+   "bytes": 1042,
+   "sha256": "b7c10425fc395e0abce8b9a747cdc9d53dbec63de09bf98685f4add06935f427"
+  },
+  "03_COLECCION_COMPLETA/06_RECURSOS_DIGITALES/lote_4/proyecto/referencia_docente/public/informe.php": {
+   "bytes": 1010,
+   "sha256": "d7e974c00e381c1828e0ce3d03a82649e4ec6b9ff8d9f29339a7a509424d4c93"
+  },
+  "03_COLECCION_COMPLETA/06_RECURSOS_DIGITALES/lote_4/proyecto/referencia_docente/public/inicio.php": {
+   "bytes": 568,
+   "sha256": "785fe7da423d4490782bcf06abe492504812e7d6d3c74033ec4468b0862d2a38"
+  },
+  "03_COLECCION_COMPLETA/06_RECURSOS_DIGITALES/lote_4/proyecto/referencia_docente/public/lectores.php": {
+   "bytes": 3843,
+   "sha256": "5a21d49690c1f84470dc26dbcd86ed4b0f1311acd892686d8c33459445c0265f"
+  },
+  "03_COLECCION_COMPLETA/06_RECURSOS_DIGITALES/lote_4/proyecto/referencia_docente/public/login.php": {
+   "bytes": 1040,
+   "sha256": "47e567344a143c8dfc862775ec01681351768874851f4264fad81c67f0f438ef"
+  },
+  "03_COLECCION_COMPLETA/06_RECURSOS_DIGITALES/lote_4/proyecto/referencia_docente/public/prestamo.php": {
+   "bytes": 897,
+   "sha256": "efd384df3dc6d4a7889f77967f8d97a9498710878b2e8966f97aad9b4624a177"
+  },
+  "03_COLECCION_COMPLETA/06_RECURSOS_DIGITALES/lote_4/proyecto/referencia_docente/public/salir.php": {
+   "bytes": 144,
+   "sha256": "39227aa104b768fce0c22c11c58a76dfedc8c038aaf6e230cc774d002c3272d7"
+  },
+  "03_COLECCION_COMPLETA/06_RECURSOS_DIGITALES/lote_4/proyecto/referencia_docente/src/auth.php": {
+   "bytes": 2645,
+   "sha256": "1561723b1db484e6a8f1d39b6b8f1de3b98b07e5d495e901758ed9ec3db58281"
+  },
+  "03_COLECCION_COMPLETA/06_RECURSOS_DIGITALES/lote_4/proyecto/referencia_docente/src/datos_ejemplo.php": {
+   "bytes": 3514,
+   "sha256": "347c733a46a57a058f732e88b5c38879d45ca2dddf5f3a08cc9e64bf5330ef87"
+  },
+  "03_COLECCION_COMPLETA/06_RECURSOS_DIGITALES/lote_4/proyecto/referencia_docente/src/db.php": {
+   "bytes": 3611,
+   "sha256": "986f40b6392f43b0e3872f5ece23e45f5f26e4ec949cab04e1ef4e04a56008d7"
+  },
+  "03_COLECCION_COMPLETA/06_RECURSOS_DIGITALES/lote_4/proyecto/referencia_docente/src/esquema.sql": {
+   "bytes": 4858,
+   "sha256": "218378b880f3e2285e3f9563d4c069c699f6bb3baa445799588daf780a8868f8"
+  },
+  "03_COLECCION_COMPLETA/06_RECURSOS_DIGITALES/lote_4/proyecto/referencia_docente/src/mantenimiento.php": {
+   "bytes": 6483,
+   "sha256": "b2e82db5216021d8a272c727a4f25fe52698ca600678d2938666acf3ff7c9f77"
+  },
+  "03_COLECCION_COMPLETA/06_RECURSOS_DIGITALES/lote_4/proyecto/referencia_docente/src/mensajes.php": {
+   "bytes": 4095,
+   "sha256": "0560004bfe5e36e9ca8379c2e66424e5b8695f5ef678853afc23d5592aa882bc"
+  },
+  "03_COLECCION_COMPLETA/06_RECURSOS_DIGITALES/lote_4/proyecto/referencia_docente/src/reglas.php": {
+   "bytes": 20727,
+   "sha256": "8ee8174ec42b8e3eb74ab7ffceac2faed0359a16ffdd65470e5bf5396317dccb"
+  },
+  "03_COLECCION_COMPLETA/06_RECURSOS_DIGITALES/lote_4/proyecto/referencia_docente/src/respaldo.php": {
+   "bytes": 2429,
+   "sha256": "5c3be72ff1279b60707884b1d61d754d6a7a1667b3df3cb99cf37b1d0ae0387c"
+  },
+  "03_COLECCION_COMPLETA/06_RECURSOS_DIGITALES/lote_5/caso/datos_prueba_u5.py": {
+   "bytes": 5362,
+   "sha256": "3ae8c21d1cd5fa9d08ac1a1dd0682c525c5ea7fd53527a70cbc6dd2f8f1c7784"
+  },
+  "03_COLECCION_COMPLETA/06_RECURSOS_DIGITALES/lote_5/caso/dr_plantilla.py": {
+   "bytes": 8178,
+   "sha256": "b295158a700310af82068c999e9b4acf3a84c8a6a8ae2644f19b408c001d13b6"
+  },
+  "03_COLECCION_COMPLETA/06_RECURSOS_DIGITALES/lote_5/caso/mbokaja_u5.py": {
+   "bytes": 5432,
+   "sha256": "b26c79030ef61ed1b48cc71db041c58cd91f75de84ae20eeb3b3322871a5736e"
+  },
+  "03_COLECCION_COMPLETA/06_RECURSOS_DIGITALES/lote_5/caso/verificacion.py": {
+   "bytes": 21120,
+   "sha256": "c194e38555ae7025a3f9f521c7ad8fce67b0e8bae75d45fa6ac16a73aa8eca56"
+  },
+  "03_COLECCION_COMPLETA/06_RECURSOS_DIGITALES/lote_5/proyecto/DIFERENCIAS_v2.md": {
+   "bytes": 11574,
+   "sha256": "b09399594b848198b1f1be6e08dfbe119520d56f7ff2b8002dd5e575d619ab0e"
+  },
+  "03_COLECCION_COMPLETA/06_RECURSOS_DIGITALES/lote_5/proyecto/LEEME.md": {
+   "bytes": 1556,
+   "sha256": "dff28f50dc1740dbf3a54bf8ee404571a343805bbad5ca10796a339f072a8e47"
+  },
+  "03_COLECCION_COMPLETA/06_RECURSOS_DIGITALES/lote_5/proyecto/cargador_dp/LEEME.md": {
+   "bytes": 822,
+   "sha256": "3b295e89a6a61f1d73d0a90449809c76140ae88ab23dfe4b2136dc145dc0eb8b"
+  },
+  "03_COLECCION_COMPLETA/06_RECURSOS_DIGITALES/lote_5/proyecto/cargador_dp/cargar_dp.php": {
+   "bytes": 7348,
+   "sha256": "6eec975fca1f8ba1c0d29e377d1fc0edeb05412794ddb820063eacdb80ecaacc"
+  },
+  "03_COLECCION_COMPLETA/06_RECURSOS_DIGITALES/lote_5/proyecto/cargador_dp/dp.json": {
+   "bytes": 3707,
+   "sha256": "7c366058fefbfdc458f006a55b1870899a7cb0e8a0b7adbdabf2e4cb306c95d9"
+  },
+  "03_COLECCION_COMPLETA/06_RECURSOS_DIGITALES/lote_5/proyecto/cargador_dp/mbokaja_p14.json": {
+   "bytes": 1732,
+   "sha256": "1b441f09f1dcf951e5aebe3a864ea0c1050a42b612a1b92373774b1f8a3e7de6"
+  },
+  "03_COLECCION_COMPLETA/06_RECURSOS_DIGITALES/lote_5/proyecto/matriz/casos.json": {
+   "bytes": 8580,
+   "sha256": "e21c2aa86dd930e5045a9db3c57f46650fe0e892e8a0a0d7f667b225c5e37e59"
+  },
+  "03_COLECCION_COMPLETA/06_RECURSOS_DIGITALES/lote_5/proyecto/matriz/casos_p14.json": {
+   "bytes": 2160,
+   "sha256": "a4e916240c6bea06df03f3f9ba40d0807ab5fe000e21d7da865734cbb6982db0"
+  },
+  "03_COLECCION_COMPLETA/06_RECURSOS_DIGITALES/lote_5/proyecto/matriz/ejecutar_matriz.php": {
+   "bytes": 4600,
+   "sha256": "fbbf59c9813b03e6b2ca227a4d2234122dcfd669b3d923cb40263c7916e86905"
+  },
+  "03_COLECCION_COMPLETA/06_RECURSOS_DIGITALES/lote_5/proyecto/matriz/esperados_sc02.json": {
+   "bytes": 20,
+   "sha256": "ee19d93730d757ab9bf7dbe386b715db02eba4bbbc866f07e1eca21772ab6b57"
+  },
+  "03_COLECCION_COMPLETA/06_RECURSOS_DIGITALES/lote_5/proyecto/matriz/integracion.php": {
+   "bytes": 4906,
+   "sha256": "afd24354aa293b57269da41e096beca438fd7ab1b052aa2a80f1ece195867121"
+  },
+  "03_COLECCION_COMPLETA/06_RECURSOS_DIGITALES/lote_5/proyecto/referencia_docente_v2/LEEME.txt": {
+   "bytes": 3693,
+   "sha256": "0e0cc7d43629a6ca05107bb9a5009f1733817fd7bee3a6312a1e1b0cf0cf3e28"
+  },
+  "03_COLECCION_COMPLETA/06_RECURSOS_DIGITALES/lote_5/proyecto/referencia_docente_v2/instalar.php": {
+   "bytes": 3153,
+   "sha256": "744147731ee3131974da1800ab9533315fe816867f7c2a12321eaeb377c58f42"
+  },
+  "03_COLECCION_COMPLETA/06_RECURSOS_DIGITALES/lote_5/proyecto/referencia_docente_v2/respaldar.php": {
+   "bytes": 757,
+   "sha256": "af1dd2d4cf79220a14d7ed7d6b597db2bb49aed6f1456e67b481e05b6ca4a5a8"
+  },
+  "03_COLECCION_COMPLETA/06_RECURSOS_DIGITALES/lote_5/proyecto/referencia_docente_v2/restaurar.php": {
+   "bytes": 5406,
+   "sha256": "a905d4c02e2409ead16328f8393c14d3d76979364075f17a772384bc7bd3ec10"
+  },
+  "03_COLECCION_COMPLETA/06_RECURSOS_DIGITALES/lote_5/proyecto/referencia_docente_v2/retirar_marca.php": {
+   "bytes": 10964,
+   "sha256": "dc3b8ff0af6eb36fb681f63bcb212e9ffffc1f29cece7088613a7da856ddbbb2"
+  },
+  "03_COLECCION_COMPLETA/06_RECURSOS_DIGITALES/lote_5/proyecto/referencia_docente_v2/verificar_entorno.php": {
+   "bytes": 1472,
+   "sha256": "43d1f98a0d924bf71aa798dc93c5c297d259bb913b73c25fab4099b3b82b3893"
+  },
+  "03_COLECCION_COMPLETA/06_RECURSOS_DIGITALES/lote_5/proyecto/referencia_docente_v2/datos/.gitkeep": {
+   "bytes": 0,
+   "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+  },
+  "03_COLECCION_COMPLETA/06_RECURSOS_DIGITALES/lote_5/proyecto/referencia_docente_v2/datos/respaldos/.gitkeep": {
+   "bytes": 0,
+   "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+  },
+  "03_COLECCION_COMPLETA/06_RECURSOS_DIGITALES/lote_5/proyecto/referencia_docente_v2/pruebas/_comun.php": {
+   "bytes": 1665,
+   "sha256": "a2db934fa5b653b1d76416b3db44e0937f5f747a4cb584d740d1ad51a9b7793d"
+  },
+  "03_COLECCION_COMPLETA/06_RECURSOS_DIGITALES/lote_5/proyecto/referencia_docente_v2/pruebas/_corte.php": {
+   "bytes": 1958,
+   "sha256": "828c62119c8b53839a28e7d0c41cb8b69e01eb5cc419ec0ffd2b9f1fb60ba16c"
+  },
+  "03_COLECCION_COMPLETA/06_RECURSOS_DIGITALES/lote_5/proyecto/referencia_docente_v2/pruebas/_trabajador.php": {
+   "bytes": 675,
+   "sha256": "2bf93bf2d9259f06d7c8a1dd5f75fd5182445494af7cfe36ceca769ddd71273f"
+  },
+  "03_COLECCION_COMPLETA/06_RECURSOS_DIGITALES/lote_5/proyecto/referencia_docente_v2/pruebas/prueba_carrera.php": {
+   "bytes": 4520,
+   "sha256": "42fa9071e001f1bab9dad93afa467130c87c650f617b5ca5ca5218727fef5a74"
+  },
+  "03_COLECCION_COMPLETA/06_RECURSOS_DIGITALES/lote_5/proyecto/referencia_docente_v2/pruebas/prueba_contratos.php": {
+   "bytes": 18532,
+   "sha256": "1e6a7dee0a5895850cdf4334721c3a2f032374220438bcdb9dfcd2c3d00f6fca"
+  },
+  "03_COLECCION_COMPLETA/06_RECURSOS_DIGITALES/lote_5/proyecto/referencia_docente_v2/pruebas/prueba_garantias.php": {
+   "bytes": 4978,
+   "sha256": "9524a39426b2c49fdcde28bc62c33a9471da80e2b1b19e99c74cd205ce43bd3a"
+  },
+  "03_COLECCION_COMPLETA/06_RECURSOS_DIGITALES/lote_5/proyecto/referencia_docente_v2/pruebas/prueba_http.sh": {
+   "bytes": 9975,
+   "sha256": "1366c769b706d0377af7880cdea114e656dadc33d193e2992c36d8f07c0e826f"
+  },
+  "03_COLECCION_COMPLETA/06_RECURSOS_DIGITALES/lote_5/proyecto/referencia_docente_v2/pruebas/prueba_in02.sh": {
+   "bytes": 3393,
+   "sha256": "c9254ad2e305e69ce1cb083435ade17d1e727b6fbe0ea6e2bccaaf6b82a4c9aa"
+  },
+  "03_COLECCION_COMPLETA/06_RECURSOS_DIGITALES/lote_5/proyecto/referencia_docente_v2/pruebas/prueba_mantenimiento.php": {
+   "bytes": 10070,
+   "sha256": "9e9e968c0a352d8e0bbb9ea4fb0b904408c2f5558765bb5ea23e0363067c16b8"
+  },
+  "03_COLECCION_COMPLETA/06_RECURSOS_DIGITALES/lote_5/proyecto/referencia_docente_v2/pruebas/prueba_marca_huerfana.php": {
+   "bytes": 7955,
+   "sha256": "8df650632c393237b21aee29a6f07bb3fc86bf15376ca36ff92e43b1badbd600"
+  },
+  "03_COLECCION_COMPLETA/06_RECURSOS_DIGITALES/lote_5/proyecto/referencia_docente_v2/pruebas/prueba_mis_operaciones.php": {
+   "bytes": 4238,
+   "sha256": "d66af50a97b7948aec1f03b2b3df538eff5f877ea69bf5dabefa69423ce4df68"
+  },
+  "03_COLECCION_COMPLETA/06_RECURSOS_DIGITALES/lote_5/proyecto/referencia_docente_v2/pruebas/prueba_respaldo.php": {
+   "bytes": 7155,
+   "sha256": "7cac362220aa090b42157e6258bb3a00432f327c375991c2e338f4d3548fbd5b"
+  },
+  "03_COLECCION_COMPLETA/06_RECURSOS_DIGITALES/lote_5/proyecto/referencia_docente_v2/public/_plantilla.php": {
+   "bytes": 3717,
+   "sha256": "3f0732fa6ea58bffbbcd1ccb5299a99f73e82573e87874337774d69b9257dbeb"
+  },
+  "03_COLECCION_COMPLETA/06_RECURSOS_DIGITALES/lote_5/proyecto/referencia_docente_v2/public/activos.php": {
+   "bytes": 1249,
+   "sha256": "a7b6457182b1e4ea80c9f5236c4f3b5c15259597dd2118f4b4375b6fdf4a9322"
+  },
+  "03_COLECCION_COMPLETA/06_RECURSOS_DIGITALES/lote_5/proyecto/referencia_docente_v2/public/devolucion.php": {
+   "bytes": 829,
+   "sha256": "1c0d510d650a7e82448ff3a7219fb7862a1d62832622ce90daa100709e3b183b"
+  },
+  "03_COLECCION_COMPLETA/06_RECURSOS_DIGITALES/lote_5/proyecto/referencia_docente_v2/public/index.php": {
+   "bytes": 1042,
+   "sha256": "b7c10425fc395e0abce8b9a747cdc9d53dbec63de09bf98685f4add06935f427"
+  },
+  "03_COLECCION_COMPLETA/06_RECURSOS_DIGITALES/lote_5/proyecto/referencia_docente_v2/public/informe.php": {
+   "bytes": 1010,
+   "sha256": "d7e974c00e381c1828e0ce3d03a82649e4ec6b9ff8d9f29339a7a509424d4c93"
+  },
+  "03_COLECCION_COMPLETA/06_RECURSOS_DIGITALES/lote_5/proyecto/referencia_docente_v2/public/inicio.php": {
+   "bytes": 568,
+   "sha256": "785fe7da423d4490782bcf06abe492504812e7d6d3c74033ec4468b0862d2a38"
+  },
+  "03_COLECCION_COMPLETA/06_RECURSOS_DIGITALES/lote_5/proyecto/referencia_docente_v2/public/lectores.php": {
+   "bytes": 4121,
+   "sha256": "ab9e309815d21616a45a26a8ba8ab93eb3f24938276e53bfb781f80f7b1f2bc7"
+  },
+  "03_COLECCION_COMPLETA/06_RECURSOS_DIGITALES/lote_5/proyecto/referencia_docente_v2/public/login.php": {
+   "bytes": 1040,
+   "sha256": "47e567344a143c8dfc862775ec01681351768874851f4264fad81c67f0f438ef"
+  },
+  "03_COLECCION_COMPLETA/06_RECURSOS_DIGITALES/lote_5/proyecto/referencia_docente_v2/public/prestamo.php": {
+   "bytes": 897,
+   "sha256": "efd384df3dc6d4a7889f77967f8d97a9498710878b2e8966f97aad9b4624a177"
+  },
+  "03_COLECCION_COMPLETA/06_RECURSOS_DIGITALES/lote_5/proyecto/referencia_docente_v2/public/salir.php": {
+   "bytes": 144,
+   "sha256": "39227aa104b768fce0c22c11c58a76dfedc8c038aaf6e230cc774d002c3272d7"
+  },
+  "03_COLECCION_COMPLETA/06_RECURSOS_DIGITALES/lote_5/proyecto/referencia_docente_v2/src/auth.php": {
+   "bytes": 2645,
+   "sha256": "1561723b1db484e6a8f1d39b6b8f1de3b98b07e5d495e901758ed9ec3db58281"
+  },
+  "03_COLECCION_COMPLETA/06_RECURSOS_DIGITALES/lote_5/proyecto/referencia_docente_v2/src/datos_ejemplo.php": {
+   "bytes": 3514,
+   "sha256": "347c733a46a57a058f732e88b5c38879d45ca2dddf5f3a08cc9e64bf5330ef87"
+  },
+  "03_COLECCION_COMPLETA/06_RECURSOS_DIGITALES/lote_5/proyecto/referencia_docente_v2/src/db.php": {
+   "bytes": 3611,
+   "sha256": "986f40b6392f43b0e3872f5ece23e45f5f26e4ec949cab04e1ef4e04a56008d7"
+  },
+  "03_COLECCION_COMPLETA/06_RECURSOS_DIGITALES/lote_5/proyecto/referencia_docente_v2/src/esquema.sql": {
+   "bytes": 4858,
+   "sha256": "218378b880f3e2285e3f9563d4c069c699f6bb3baa445799588daf780a8868f8"
+  },
+  "03_COLECCION_COMPLETA/06_RECURSOS_DIGITALES/lote_5/proyecto/referencia_docente_v2/src/mantenimiento.php": {
+   "bytes": 6483,
+   "sha256": "b2e82db5216021d8a272c727a4f25fe52698ca600678d2938666acf3ff7c9f77"
+  },
+  "03_COLECCION_COMPLETA/06_RECURSOS_DIGITALES/lote_5/proyecto/referencia_docente_v2/src/mensajes.php": {
+   "bytes": 4095,
+   "sha256": "0560004bfe5e36e9ca8379c2e66424e5b8695f5ef678853afc23d5592aa882bc"
+  },
+  "03_COLECCION_COMPLETA/06_RECURSOS_DIGITALES/lote_5/proyecto/referencia_docente_v2/src/reglas.php": {
+   "bytes": 20727,
+   "sha256": "8ee8174ec42b8e3eb74ab7ffceac2faed0359a16ffdd65470e5bf5396317dccb"
+  },
+  "03_COLECCION_COMPLETA/06_RECURSOS_DIGITALES/lote_5/proyecto/referencia_docente_v2/src/respaldo.php": {
+   "bytes": 2429,
+   "sha256": "5c3be72ff1279b60707884b1d61d754d6a7a1667b3df3cb99cf37b1d0ae0387c"
+  },
+  "03_COLECCION_COMPLETA/06_RECURSOS_DIGITALES/lote_5/proyecto/referencia_docente_v2_sc02/LEEME.txt": {
+   "bytes": 3692,
+   "sha256": "15880dc2319caf86466a7127f75a15b9973a3136f268d7589729f25a5696bfeb"
+  },
+  "03_COLECCION_COMPLETA/06_RECURSOS_DIGITALES/lote_5/proyecto/referencia_docente_v2_sc02/instalar.php": {
+   "bytes": 3153,
+   "sha256": "744147731ee3131974da1800ab9533315fe816867f7c2a12321eaeb377c58f42"
+  },
+  "03_COLECCION_COMPLETA/06_RECURSOS_DIGITALES/lote_5/proyecto/referencia_docente_v2_sc02/respaldar.php": {
+   "bytes": 757,
+   "sha256": "af1dd2d4cf79220a14d7ed7d6b597db2bb49aed6f1456e67b481e05b6ca4a5a8"
+  },
+  "03_COLECCION_COMPLETA/06_RECURSOS_DIGITALES/lote_5/proyecto/referencia_docente_v2_sc02/restaurar.php": {
+   "bytes": 5406,
+   "sha256": "a905d4c02e2409ead16328f8393c14d3d76979364075f17a772384bc7bd3ec10"
+  },
+  "03_COLECCION_COMPLETA/06_RECURSOS_DIGITALES/lote_5/proyecto/referencia_docente_v2_sc02/retirar_marca.php": {
+   "bytes": 10964,
+   "sha256": "dc3b8ff0af6eb36fb681f63bcb212e9ffffc1f29cece7088613a7da856ddbbb2"
+  },
+  "03_COLECCION_COMPLETA/06_RECURSOS_DIGITALES/lote_5/proyecto/referencia_docente_v2_sc02/verificar_entorno.php": {
+   "bytes": 1472,
+   "sha256": "43d1f98a0d924bf71aa798dc93c5c297d259bb913b73c25fab4099b3b82b3893"
+  },
+  "03_COLECCION_COMPLETA/06_RECURSOS_DIGITALES/lote_5/proyecto/referencia_docente_v2_sc02/datos/.gitkeep": {
+   "bytes": 0,
+   "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+  },
+  "03_COLECCION_COMPLETA/06_RECURSOS_DIGITALES/lote_5/proyecto/referencia_docente_v2_sc02/datos/respaldos/.gitkeep": {
+   "bytes": 0,
+   "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+  },
+  "03_COLECCION_COMPLETA/06_RECURSOS_DIGITALES/lote_5/proyecto/referencia_docente_v2_sc02/pruebas/_comun.php": {
+   "bytes": 1665,
+   "sha256": "a2db934fa5b653b1d76416b3db44e0937f5f747a4cb584d740d1ad51a9b7793d"
+  },
+  "03_COLECCION_COMPLETA/06_RECURSOS_DIGITALES/lote_5/proyecto/referencia_docente_v2_sc02/pruebas/_corte.php": {
+   "bytes": 1958,
+   "sha256": "828c62119c8b53839a28e7d0c41cb8b69e01eb5cc419ec0ffd2b9f1fb60ba16c"
+  },
+  "03_COLECCION_COMPLETA/06_RECURSOS_DIGITALES/lote_5/proyecto/referencia_docente_v2_sc02/pruebas/_trabajador.php": {
+   "bytes": 675,
+   "sha256": "2bf93bf2d9259f06d7c8a1dd5f75fd5182445494af7cfe36ceca769ddd71273f"
+  },
+  "03_COLECCION_COMPLETA/06_RECURSOS_DIGITALES/lote_5/proyecto/referencia_docente_v2_sc02/pruebas/prueba_carrera.php": {
+   "bytes": 4520,
+   "sha256": "42fa9071e001f1bab9dad93afa467130c87c650f617b5ca5ca5218727fef5a74"
+  },
+  "03_COLECCION_COMPLETA/06_RECURSOS_DIGITALES/lote_5/proyecto/referencia_docente_v2_sc02/pruebas/prueba_contratos.php": {
+   "bytes": 19040,
+   "sha256": "c203b3bc11fd0c5851896aba1a94337357f7522f709e3e968eeb21cc7126cda2"
+  },
+  "03_COLECCION_COMPLETA/06_RECURSOS_DIGITALES/lote_5/proyecto/referencia_docente_v2_sc02/pruebas/prueba_garantias.php": {
+   "bytes": 4978,
+   "sha256": "9524a39426b2c49fdcde28bc62c33a9471da80e2b1b19e99c74cd205ce43bd3a"
+  },
+  "03_COLECCION_COMPLETA/06_RECURSOS_DIGITALES/lote_5/proyecto/referencia_docente_v2_sc02/pruebas/prueba_http.sh": {
+   "bytes": 9975,
+   "sha256": "1366c769b706d0377af7880cdea114e656dadc33d193e2992c36d8f07c0e826f"
+  },
+  "03_COLECCION_COMPLETA/06_RECURSOS_DIGITALES/lote_5/proyecto/referencia_docente_v2_sc02/pruebas/prueba_in02.sh": {
+   "bytes": 3393,
+   "sha256": "c9254ad2e305e69ce1cb083435ade17d1e727b6fbe0ea6e2bccaaf6b82a4c9aa"
+  },
+  "03_COLECCION_COMPLETA/06_RECURSOS_DIGITALES/lote_5/proyecto/referencia_docente_v2_sc02/pruebas/prueba_mantenimiento.php": {
+   "bytes": 10070,
+   "sha256": "9e9e968c0a352d8e0bbb9ea4fb0b904408c2f5558765bb5ea23e0363067c16b8"
+  },
+  "03_COLECCION_COMPLETA/06_RECURSOS_DIGITALES/lote_5/proyecto/referencia_docente_v2_sc02/pruebas/prueba_marca_huerfana.php": {
+   "bytes": 7955,
+   "sha256": "8df650632c393237b21aee29a6f07bb3fc86bf15376ca36ff92e43b1badbd600"
+  },
+  "03_COLECCION_COMPLETA/06_RECURSOS_DIGITALES/lote_5/proyecto/referencia_docente_v2_sc02/pruebas/prueba_mis_operaciones.php": {
+   "bytes": 4238,
+   "sha256": "d66af50a97b7948aec1f03b2b3df538eff5f877ea69bf5dabefa69423ce4df68"
+  },
+  "03_COLECCION_COMPLETA/06_RECURSOS_DIGITALES/lote_5/proyecto/referencia_docente_v2_sc02/pruebas/prueba_respaldo.php": {
+   "bytes": 7155,
+   "sha256": "7cac362220aa090b42157e6258bb3a00432f327c375991c2e338f4d3548fbd5b"
+  },
+  "03_COLECCION_COMPLETA/06_RECURSOS_DIGITALES/lote_5/proyecto/referencia_docente_v2_sc02/public/_plantilla.php": {
+   "bytes": 3717,
+   "sha256": "3f0732fa6ea58bffbbcd1ccb5299a99f73e82573e87874337774d69b9257dbeb"
+  },
+  "03_COLECCION_COMPLETA/06_RECURSOS_DIGITALES/lote_5/proyecto/referencia_docente_v2_sc02/public/activos.php": {
+   "bytes": 1249,
+   "sha256": "a7b6457182b1e4ea80c9f5236c4f3b5c15259597dd2118f4b4375b6fdf4a9322"
+  },
+  "03_COLECCION_COMPLETA/06_RECURSOS_DIGITALES/lote_5/proyecto/referencia_docente_v2_sc02/public/devolucion.php": {
+   "bytes": 829,
+   "sha256": "1c0d510d650a7e82448ff3a7219fb7862a1d62832622ce90daa100709e3b183b"
+  },
+  "03_COLECCION_COMPLETA/06_RECURSOS_DIGITALES/lote_5/proyecto/referencia_docente_v2_sc02/public/index.php": {
+   "bytes": 1042,
+   "sha256": "b7c10425fc395e0abce8b9a747cdc9d53dbec63de09bf98685f4add06935f427"
+  },
+  "03_COLECCION_COMPLETA/06_RECURSOS_DIGITALES/lote_5/proyecto/referencia_docente_v2_sc02/public/informe.php": {
+   "bytes": 1074,
+   "sha256": "4f41c9e07798b8a7cb3e58188981f1dc3f5541949fb6ed7e490ec78691ff8dcd"
+  },
+  "03_COLECCION_COMPLETA/06_RECURSOS_DIGITALES/lote_5/proyecto/referencia_docente_v2_sc02/public/inicio.php": {
+   "bytes": 568,
+   "sha256": "785fe7da423d4490782bcf06abe492504812e7d6d3c74033ec4468b0862d2a38"
+  },
+  "03_COLECCION_COMPLETA/06_RECURSOS_DIGITALES/lote_5/proyecto/referencia_docente_v2_sc02/public/lectores.php": {
+   "bytes": 4121,
+   "sha256": "ab9e309815d21616a45a26a8ba8ab93eb3f24938276e53bfb781f80f7b1f2bc7"
+  },
+  "03_COLECCION_COMPLETA/06_RECURSOS_DIGITALES/lote_5/proyecto/referencia_docente_v2_sc02/public/login.php": {
+   "bytes": 1040,
+   "sha256": "47e567344a143c8dfc862775ec01681351768874851f4264fad81c67f0f438ef"
+  },
+  "03_COLECCION_COMPLETA/06_RECURSOS_DIGITALES/lote_5/proyecto/referencia_docente_v2_sc02/public/prestamo.php": {
+   "bytes": 897,
+   "sha256": "efd384df3dc6d4a7889f77967f8d97a9498710878b2e8966f97aad9b4624a177"
+  },
+  "03_COLECCION_COMPLETA/06_RECURSOS_DIGITALES/lote_5/proyecto/referencia_docente_v2_sc02/public/salir.php": {
+   "bytes": 144,
+   "sha256": "39227aa104b768fce0c22c11c58a76dfedc8c038aaf6e230cc774d002c3272d7"
+  },
+  "03_COLECCION_COMPLETA/06_RECURSOS_DIGITALES/lote_5/proyecto/referencia_docente_v2_sc02/src/auth.php": {
+   "bytes": 2645,
+   "sha256": "1561723b1db484e6a8f1d39b6b8f1de3b98b07e5d495e901758ed9ec3db58281"
+  },
+  "03_COLECCION_COMPLETA/06_RECURSOS_DIGITALES/lote_5/proyecto/referencia_docente_v2_sc02/src/datos_ejemplo.php": {
+   "bytes": 3514,
+   "sha256": "347c733a46a57a058f732e88b5c38879d45ca2dddf5f3a08cc9e64bf5330ef87"
+  },
+  "03_COLECCION_COMPLETA/06_RECURSOS_DIGITALES/lote_5/proyecto/referencia_docente_v2_sc02/src/db.php": {
+   "bytes": 3611,
+   "sha256": "986f40b6392f43b0e3872f5ece23e45f5f26e4ec949cab04e1ef4e04a56008d7"
+  },
+  "03_COLECCION_COMPLETA/06_RECURSOS_DIGITALES/lote_5/proyecto/referencia_docente_v2_sc02/src/esquema.sql": {
+   "bytes": 4858,
+   "sha256": "218378b880f3e2285e3f9563d4c069c699f6bb3baa445799588daf780a8868f8"
+  },
+  "03_COLECCION_COMPLETA/06_RECURSOS_DIGITALES/lote_5/proyecto/referencia_docente_v2_sc02/src/mantenimiento.php": {
+   "bytes": 6483,
+   "sha256": "b2e82db5216021d8a272c727a4f25fe52698ca600678d2938666acf3ff7c9f77"
+  },
+  "03_COLECCION_COMPLETA/06_RECURSOS_DIGITALES/lote_5/proyecto/referencia_docente_v2_sc02/src/mensajes.php": {
+   "bytes": 4270,
+   "sha256": "be806f8ae59a516375de08af58d484765fe9f4bd760a7d4da708ed4c0e37765f"
+  },
+  "03_COLECCION_COMPLETA/06_RECURSOS_DIGITALES/lote_5/proyecto/referencia_docente_v2_sc02/src/reglas.php": {
+   "bytes": 21021,
+   "sha256": "fb1820007f3df0dd0123dace143bcc28513596d564095b9a9bd57dc79d175d21"
+  },
+  "03_COLECCION_COMPLETA/06_RECURSOS_DIGITALES/lote_5/proyecto/referencia_docente_v2_sc02/src/respaldo.php": {
+   "bytes": 2429,
+   "sha256": "5c3be72ff1279b60707884b1d61d754d6a7a1667b3df3cb99cf37b1d0ae0387c"
+  },
+  "03_COLECCION_COMPLETA/06_RECURSOS_DIGITALES/lote_6/caso/entrega_u6.py": {
+   "bytes": 18257,
+   "sha256": "419fd2a31cbe340108ea0e114e86b69e15feb7669bff871d3e5d1d2cebfe7d59"
+  },
+  "03_COLECCION_COMPLETA/06_RECURSOS_DIGITALES/lote_6/caso/instrumentos_u6.py": {
+   "bytes": 17517,
+   "sha256": "7a0c35471e0cf2131b2783830ce5113e67cdd4351a1955cfe13246a448073f77"
+  },
+  "03_COLECCION_COMPLETA/06_RECURSOS_DIGITALES/lote_6/caso/mbokaja_u6.py": {
+   "bytes": 5139,
+   "sha256": "8972c7ba156e85c669c93e27ab88333ba2fbdbe462d67177c1ecc2284ebaacf3"
+  },
+  "03_COLECCION_COMPLETA/06_RECURSOS_DIGITALES/lote_6/caso/v6_plantilla.py": {
+   "bytes": 7012,
+   "sha256": "7deaf9a94c3fd034a0661d73a0b64e874bf11a15f928f40d1b355fad67fb0854"
+  },
+  "03_COLECCION_COMPLETA/06_RECURSOS_DIGITALES/lote_6/instrumentos/planilla_tiempos_encuentro_35.xlsx": {
+   "bytes": 6863,
+   "sha256": "78dfab5b29fe9894a0f627441fea110644b4af0e095360a7e7acf37479b948fa"
+  },
+  "03_COLECCION_COMPLETA/06_RECURSOS_DIGITALES/lote_6/proyecto/herramientas/LEEME.md": {
+   "bytes": 3050,
+   "sha256": "b545b2142d6d36b8bab28fdb8bc53415a6fe1172b3997043f3c59ea5a443769e"
+  },
+  "03_COLECCION_COMPLETA/06_RECURSOS_DIGITALES/lote_6/proyecto/herramientas/inspeccionar_entrega.php": {
+   "bytes": 6010,
+   "sha256": "e1de67cccae743b6ed7689749d2c0571ce6d93f36efaa04e31b178c38ca88642"
+  },
+  "03_COLECCION_COMPLETA/06_RECURSOS_DIGITALES/lote_6/proyecto/herramientas/probar_en_aislamiento.php": {
+   "bytes": 4907,
+   "sha256": "697f408fb1efa4a6eac729643aee3ed241b363c79eb384e4d187c18876843284"
+  },
+  "03_COLECCION_COMPLETA/06_RECURSOS_DIGITALES/lote_6/proyecto/paquete_entrega_modelo/LEEME.txt": {
+   "bytes": 557,
+   "sha256": "04364ef562aa47a2f97162a63d5fd2709011f372baf258c3b28a84e64319c450"
+  },
+  "03_COLECCION_COMPLETA/06_RECURSOS_DIGITALES/lote_6/proyecto/paquete_entrega_modelo/instalar.php": {
+   "bytes": 3153,
+   "sha256": "744147731ee3131974da1800ab9533315fe816867f7c2a12321eaeb377c58f42"
+  },
+  "03_COLECCION_COMPLETA/06_RECURSOS_DIGITALES/lote_6/proyecto/paquete_entrega_modelo/respaldar.php": {
+   "bytes": 757,
+   "sha256": "af1dd2d4cf79220a14d7ed7d6b597db2bb49aed6f1456e67b481e05b6ca4a5a8"
+  },
+  "03_COLECCION_COMPLETA/06_RECURSOS_DIGITALES/lote_6/proyecto/paquete_entrega_modelo/restaurar.php": {
+   "bytes": 5406,
+   "sha256": "a905d4c02e2409ead16328f8393c14d3d76979364075f17a772384bc7bd3ec10"
+  },
+  "03_COLECCION_COMPLETA/06_RECURSOS_DIGITALES/lote_6/proyecto/paquete_entrega_modelo/retirar_marca.php": {
+   "bytes": 10964,
+   "sha256": "dc3b8ff0af6eb36fb681f63bcb212e9ffffc1f29cece7088613a7da856ddbbb2"
+  },
+  "03_COLECCION_COMPLETA/06_RECURSOS_DIGITALES/lote_6/proyecto/paquete_entrega_modelo/verificar_entorno.php": {
+   "bytes": 1472,
+   "sha256": "43d1f98a0d924bf71aa798dc93c5c297d259bb913b73c25fab4099b3b82b3893"
+  },
+  "03_COLECCION_COMPLETA/06_RECURSOS_DIGITALES/lote_6/proyecto/paquete_entrega_modelo/ENTREGA/ACTA_ENTREGA.md": {
+   "bytes": 924,
+   "sha256": "f6ac553dbbc3f9991979ab9b26e3cc4eeaf2e72ffeddc038836757bf44c7dd97"
+  },
+  "03_COLECCION_COMPLETA/06_RECURSOS_DIGITALES/lote_6/proyecto/paquete_entrega_modelo/ENTREGA/INSTALAR.md": {
+   "bytes": 2454,
+   "sha256": "abe8123ba1a1f9d8620cab4c70a1f6b22eeeb3dda03f91ed39915fc32f1d7ff3"
+  },
+  "03_COLECCION_COMPLETA/06_RECURSOS_DIGITALES/lote_6/proyecto/paquete_entrega_modelo/ENTREGA/LICENCIA_BORRADOR.md": {
+   "bytes": 1088,
+   "sha256": "65b93f1d3fcea29769bbf9f46e88da335030fd0e155d10cf0eb83e0c92e604ac"
+  },
+  "03_COLECCION_COMPLETA/06_RECURSOS_DIGITALES/lote_6/proyecto/paquete_entrega_modelo/ENTREGA/LIMITES.md": {
+   "bytes": 1274,
+   "sha256": "8bb1376ebedbf41f029dc8c00c874728b6c489acec20e493292fd60dfa3fa857"
+  },
+  "03_COLECCION_COMPLETA/06_RECURSOS_DIGITALES/lote_6/proyecto/paquete_entrega_modelo/ENTREGA/LISTA_ENTREGA.md": {
+   "bytes": 1212,
+   "sha256": "845a14bed7c03a128b077af8538438d8588fd9d146497db41e55878ab081230c"
+  },
+  "03_COLECCION_COMPLETA/06_RECURSOS_DIGITALES/lote_6/proyecto/paquete_entrega_modelo/ENTREGA/MANUAL.md": {
+   "bytes": 2691,
+   "sha256": "9aa9964d4072e3912c62da11e8f7f02a5b79c7bfd86bf5e7925a88dab14d1d09"
+  },
+  "03_COLECCION_COMPLETA/06_RECURSOS_DIGITALES/lote_6/proyecto/paquete_entrega_modelo/ENTREGA/PROCEDENCIA.md": {
+   "bytes": 2505,
+   "sha256": "ccf86c994c09d26bd23af7106a05ae47b6ad31ad7f38256ac9e7ba1a2dc1960b"
+  },
+  "03_COLECCION_COMPLETA/06_RECURSOS_DIGITALES/lote_6/proyecto/paquete_entrega_modelo/datos/.gitkeep": {
+   "bytes": 0,
+   "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+  },
+  "03_COLECCION_COMPLETA/06_RECURSOS_DIGITALES/lote_6/proyecto/paquete_entrega_modelo/datos/respaldos/.gitkeep": {
+   "bytes": 0,
+   "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+  },
+  "03_COLECCION_COMPLETA/06_RECURSOS_DIGITALES/lote_6/proyecto/paquete_entrega_modelo/pruebas/_comun.php": {
+   "bytes": 1665,
+   "sha256": "a2db934fa5b653b1d76416b3db44e0937f5f747a4cb584d740d1ad51a9b7793d"
+  },
+  "03_COLECCION_COMPLETA/06_RECURSOS_DIGITALES/lote_6/proyecto/paquete_entrega_modelo/pruebas/_corte.php": {
+   "bytes": 1958,
+   "sha256": "828c62119c8b53839a28e7d0c41cb8b69e01eb5cc419ec0ffd2b9f1fb60ba16c"
+  },
+  "03_COLECCION_COMPLETA/06_RECURSOS_DIGITALES/lote_6/proyecto/paquete_entrega_modelo/pruebas/_trabajador.php": {
+   "bytes": 675,
+   "sha256": "2bf93bf2d9259f06d7c8a1dd5f75fd5182445494af7cfe36ceca769ddd71273f"
+  },
+  "03_COLECCION_COMPLETA/06_RECURSOS_DIGITALES/lote_6/proyecto/paquete_entrega_modelo/pruebas/prueba_carrera.php": {
+   "bytes": 4520,
+   "sha256": "42fa9071e001f1bab9dad93afa467130c87c650f617b5ca5ca5218727fef5a74"
+  },
+  "03_COLECCION_COMPLETA/06_RECURSOS_DIGITALES/lote_6/proyecto/paquete_entrega_modelo/pruebas/prueba_contratos.php": {
+   "bytes": 19040,
+   "sha256": "c203b3bc11fd0c5851896aba1a94337357f7522f709e3e968eeb21cc7126cda2"
+  },
+  "03_COLECCION_COMPLETA/06_RECURSOS_DIGITALES/lote_6/proyecto/paquete_entrega_modelo/pruebas/prueba_garantias.php": {
+   "bytes": 4978,
+   "sha256": "9524a39426b2c49fdcde28bc62c33a9471da80e2b1b19e99c74cd205ce43bd3a"
+  },
+  "03_COLECCION_COMPLETA/06_RECURSOS_DIGITALES/lote_6/proyecto/paquete_entrega_modelo/pruebas/prueba_http.sh": {
+   "bytes": 9975,
+   "sha256": "1366c769b706d0377af7880cdea114e656dadc33d193e2992c36d8f07c0e826f"
+  },
+  "03_COLECCION_COMPLETA/06_RECURSOS_DIGITALES/lote_6/proyecto/paquete_entrega_modelo/pruebas/prueba_in02.sh": {
+   "bytes": 3393,
+   "sha256": "c9254ad2e305e69ce1cb083435ade17d1e727b6fbe0ea6e2bccaaf6b82a4c9aa"
+  },
+  "03_COLECCION_COMPLETA/06_RECURSOS_DIGITALES/lote_6/proyecto/paquete_entrega_modelo/pruebas/prueba_mantenimiento.php": {
+   "bytes": 10070,
+   "sha256": "9e9e968c0a352d8e0bbb9ea4fb0b904408c2f5558765bb5ea23e0363067c16b8"
+  },
+  "03_COLECCION_COMPLETA/06_RECURSOS_DIGITALES/lote_6/proyecto/paquete_entrega_modelo/pruebas/prueba_marca_huerfana.php": {
+   "bytes": 7955,
+   "sha256": "8df650632c393237b21aee29a6f07bb3fc86bf15376ca36ff92e43b1badbd600"
+  },
+  "03_COLECCION_COMPLETA/06_RECURSOS_DIGITALES/lote_6/proyecto/paquete_entrega_modelo/pruebas/prueba_mis_operaciones.php": {
+   "bytes": 4238,
+   "sha256": "d66af50a97b7948aec1f03b2b3df538eff5f877ea69bf5dabefa69423ce4df68"
+  },
+  "03_COLECCION_COMPLETA/06_RECURSOS_DIGITALES/lote_6/proyecto/paquete_entrega_modelo/pruebas/prueba_respaldo.php": {
+   "bytes": 7155,
+   "sha256": "7cac362220aa090b42157e6258bb3a00432f327c375991c2e338f4d3548fbd5b"
+  },
+  "03_COLECCION_COMPLETA/06_RECURSOS_DIGITALES/lote_6/proyecto/paquete_entrega_modelo/public/_plantilla.php": {
+   "bytes": 3717,
+   "sha256": "3f0732fa6ea58bffbbcd1ccb5299a99f73e82573e87874337774d69b9257dbeb"
+  },
+  "03_COLECCION_COMPLETA/06_RECURSOS_DIGITALES/lote_6/proyecto/paquete_entrega_modelo/public/activos.php": {
+   "bytes": 1249,
+   "sha256": "a7b6457182b1e4ea80c9f5236c4f3b5c15259597dd2118f4b4375b6fdf4a9322"
+  },
+  "03_COLECCION_COMPLETA/06_RECURSOS_DIGITALES/lote_6/proyecto/paquete_entrega_modelo/public/devolucion.php": {
+   "bytes": 829,
+   "sha256": "1c0d510d650a7e82448ff3a7219fb7862a1d62832622ce90daa100709e3b183b"
+  },
+  "03_COLECCION_COMPLETA/06_RECURSOS_DIGITALES/lote_6/proyecto/paquete_entrega_modelo/public/index.php": {
+   "bytes": 1042,
+   "sha256": "b7c10425fc395e0abce8b9a747cdc9d53dbec63de09bf98685f4add06935f427"
+  },
+  "03_COLECCION_COMPLETA/06_RECURSOS_DIGITALES/lote_6/proyecto/paquete_entrega_modelo/public/informe.php": {
+   "bytes": 1074,
+   "sha256": "4f41c9e07798b8a7cb3e58188981f1dc3f5541949fb6ed7e490ec78691ff8dcd"
+  },
+  "03_COLECCION_COMPLETA/06_RECURSOS_DIGITALES/lote_6/proyecto/paquete_entrega_modelo/public/inicio.php": {
+   "bytes": 568,
+   "sha256": "785fe7da423d4490782bcf06abe492504812e7d6d3c74033ec4468b0862d2a38"
+  },
+  "03_COLECCION_COMPLETA/06_RECURSOS_DIGITALES/lote_6/proyecto/paquete_entrega_modelo/public/lectores.php": {
+   "bytes": 4121,
+   "sha256": "ab9e309815d21616a45a26a8ba8ab93eb3f24938276e53bfb781f80f7b1f2bc7"
+  },
+  "03_COLECCION_COMPLETA/06_RECURSOS_DIGITALES/lote_6/proyecto/paquete_entrega_modelo/public/login.php": {
+   "bytes": 1040,
+   "sha256": "47e567344a143c8dfc862775ec01681351768874851f4264fad81c67f0f438ef"
+  },
+  "03_COLECCION_COMPLETA/06_RECURSOS_DIGITALES/lote_6/proyecto/paquete_entrega_modelo/public/prestamo.php": {
+   "bytes": 897,
+   "sha256": "efd384df3dc6d4a7889f77967f8d97a9498710878b2e8966f97aad9b4624a177"
+  },
+  "03_COLECCION_COMPLETA/06_RECURSOS_DIGITALES/lote_6/proyecto/paquete_entrega_modelo/public/salir.php": {
+   "bytes": 144,
+   "sha256": "39227aa104b768fce0c22c11c58a76dfedc8c038aaf6e230cc774d002c3272d7"
+  },
+  "03_COLECCION_COMPLETA/06_RECURSOS_DIGITALES/lote_6/proyecto/paquete_entrega_modelo/src/auth.php": {
+   "bytes": 2645,
+   "sha256": "1561723b1db484e6a8f1d39b6b8f1de3b98b07e5d495e901758ed9ec3db58281"
+  },
+  "03_COLECCION_COMPLETA/06_RECURSOS_DIGITALES/lote_6/proyecto/paquete_entrega_modelo/src/datos_ejemplo.php": {
+   "bytes": 3514,
+   "sha256": "347c733a46a57a058f732e88b5c38879d45ca2dddf5f3a08cc9e64bf5330ef87"
+  },
+  "03_COLECCION_COMPLETA/06_RECURSOS_DIGITALES/lote_6/proyecto/paquete_entrega_modelo/src/db.php": {
+   "bytes": 3611,
+   "sha256": "986f40b6392f43b0e3872f5ece23e45f5f26e4ec949cab04e1ef4e04a56008d7"
+  },
+  "03_COLECCION_COMPLETA/06_RECURSOS_DIGITALES/lote_6/proyecto/paquete_entrega_modelo/src/esquema.sql": {
+   "bytes": 4858,
+   "sha256": "218378b880f3e2285e3f9563d4c069c699f6bb3baa445799588daf780a8868f8"
+  },
+  "03_COLECCION_COMPLETA/06_RECURSOS_DIGITALES/lote_6/proyecto/paquete_entrega_modelo/src/mantenimiento.php": {
+   "bytes": 6483,
+   "sha256": "b2e82db5216021d8a272c727a4f25fe52698ca600678d2938666acf3ff7c9f77"
+  },
+  "03_COLECCION_COMPLETA/06_RECURSOS_DIGITALES/lote_6/proyecto/paquete_entrega_modelo/src/mensajes.php": {
+   "bytes": 4270,
+   "sha256": "be806f8ae59a516375de08af58d484765fe9f4bd760a7d4da708ed4c0e37765f"
+  },
+  "03_COLECCION_COMPLETA/06_RECURSOS_DIGITALES/lote_6/proyecto/paquete_entrega_modelo/src/reglas.php": {
+   "bytes": 21021,
+   "sha256": "fb1820007f3df0dd0123dace143bcc28513596d564095b9a9bd57dc79d175d21"
+  },
+  "03_COLECCION_COMPLETA/06_RECURSOS_DIGITALES/lote_6/proyecto/paquete_entrega_modelo/src/respaldo.php": {
+   "bytes": 2429,
+   "sha256": "5c3be72ff1279b60707884b1d61d754d6a7a1667b3df3cb99cf37b1d0ae0387c"
+  },
+  "03_COLECCION_COMPLETA/06_RECURSOS_DIGITALES/lote_6/proyecto/paquete_mbokaja/LEEME.txt": {
+   "bytes": 571,
+   "sha256": "093863eb358ec5f6c949286199448ec89e743f03e8ce15cd0c358b5541bcf43e"
+  },
+  "03_COLECCION_COMPLETA/06_RECURSOS_DIGITALES/lote_6/proyecto/paquete_mbokaja/instalar.php": {
+   "bytes": 3153,
+   "sha256": "744147731ee3131974da1800ab9533315fe816867f7c2a12321eaeb377c58f42"
+  },
+  "03_COLECCION_COMPLETA/06_RECURSOS_DIGITALES/lote_6/proyecto/paquete_mbokaja/respaldar.php": {
+   "bytes": 757,
+   "sha256": "af1dd2d4cf79220a14d7ed7d6b597db2bb49aed6f1456e67b481e05b6ca4a5a8"
+  },
+  "03_COLECCION_COMPLETA/06_RECURSOS_DIGITALES/lote_6/proyecto/paquete_mbokaja/restaurar.php": {
+   "bytes": 5406,
+   "sha256": "a905d4c02e2409ead16328f8393c14d3d76979364075f17a772384bc7bd3ec10"
+  },
+  "03_COLECCION_COMPLETA/06_RECURSOS_DIGITALES/lote_6/proyecto/paquete_mbokaja/retirar_marca.php": {
+   "bytes": 10964,
+   "sha256": "dc3b8ff0af6eb36fb681f63bcb212e9ffffc1f29cece7088613a7da856ddbbb2"
+  },
+  "03_COLECCION_COMPLETA/06_RECURSOS_DIGITALES/lote_6/proyecto/paquete_mbokaja/verificar_entorno.php": {
+   "bytes": 1472,
+   "sha256": "43d1f98a0d924bf71aa798dc93c5c297d259bb913b73c25fab4099b3b82b3893"
+  },
+  "03_COLECCION_COMPLETA/06_RECURSOS_DIGITALES/lote_6/proyecto/paquete_mbokaja/ENTREGA/ACTA_ENTREGA.md": {
+   "bytes": 904,
+   "sha256": "78c47a4f978741a3739f7e0fac03be4bcaca22d0e2e13310dfc233572d298abd"
+  },
+  "03_COLECCION_COMPLETA/06_RECURSOS_DIGITALES/lote_6/proyecto/paquete_mbokaja/ENTREGA/INSTALAR.md": {
+   "bytes": 2439,
+   "sha256": "393a6b07175d53c45c601035282c98672fa8d0dd3fe14edd70bd9e309277009b"
+  },
+  "03_COLECCION_COMPLETA/06_RECURSOS_DIGITALES/lote_6/proyecto/paquete_mbokaja/ENTREGA/LICENCIA_BORRADOR.md": {
+   "bytes": 1088,
+   "sha256": "65b93f1d3fcea29769bbf9f46e88da335030fd0e155d10cf0eb83e0c92e604ac"
+  },
+  "03_COLECCION_COMPLETA/06_RECURSOS_DIGITALES/lote_6/proyecto/paquete_mbokaja/ENTREGA/LIMITES.md": {
+   "bytes": 1254,
+   "sha256": "476d5301488914b6f2bbb51bd8752a253aa5aa26c10536117af15396476cd6f3"
+  },
+  "03_COLECCION_COMPLETA/06_RECURSOS_DIGITALES/lote_6/proyecto/paquete_mbokaja/ENTREGA/LISTA_ENTREGA.md": {
+   "bytes": 1262,
+   "sha256": "53f1a619cb416faf6a356c94dd3fbee167d6d49c05b0b17ae620cd4318b4aa7e"
+  },
+  "03_COLECCION_COMPLETA/06_RECURSOS_DIGITALES/lote_6/proyecto/paquete_mbokaja/ENTREGA/MANUAL.md": {
+   "bytes": 2888,
+   "sha256": "ef35cafa4543253104c5c21101c86eed5cff0d0235beab93f53b6d6f28bb8c96"
+  },
+  "03_COLECCION_COMPLETA/06_RECURSOS_DIGITALES/lote_6/proyecto/paquete_mbokaja/ENTREGA/PROCEDENCIA.md": {
+   "bytes": 2505,
+   "sha256": "ccf86c994c09d26bd23af7106a05ae47b6ad31ad7f38256ac9e7ba1a2dc1960b"
+  },
+  "03_COLECCION_COMPLETA/06_RECURSOS_DIGITALES/lote_6/proyecto/paquete_mbokaja/datos/.gitkeep": {
+   "bytes": 0,
+   "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+  },
+  "03_COLECCION_COMPLETA/06_RECURSOS_DIGITALES/lote_6/proyecto/paquete_mbokaja/datos/respaldos/.gitkeep": {
+   "bytes": 0,
+   "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+  },
+  "03_COLECCION_COMPLETA/06_RECURSOS_DIGITALES/lote_6/proyecto/paquete_mbokaja/pruebas/_comun.php": {
+   "bytes": 1665,
+   "sha256": "a2db934fa5b653b1d76416b3db44e0937f5f747a4cb584d740d1ad51a9b7793d"
+  },
+  "03_COLECCION_COMPLETA/06_RECURSOS_DIGITALES/lote_6/proyecto/paquete_mbokaja/pruebas/_corte.php": {
+   "bytes": 1958,
+   "sha256": "828c62119c8b53839a28e7d0c41cb8b69e01eb5cc419ec0ffd2b9f1fb60ba16c"
+  },
+  "03_COLECCION_COMPLETA/06_RECURSOS_DIGITALES/lote_6/proyecto/paquete_mbokaja/pruebas/_trabajador.php": {
+   "bytes": 675,
+   "sha256": "2bf93bf2d9259f06d7c8a1dd5f75fd5182445494af7cfe36ceca769ddd71273f"
+  },
+  "03_COLECCION_COMPLETA/06_RECURSOS_DIGITALES/lote_6/proyecto/paquete_mbokaja/pruebas/prueba_carrera.php": {
+   "bytes": 4520,
+   "sha256": "42fa9071e001f1bab9dad93afa467130c87c650f617b5ca5ca5218727fef5a74"
+  },
+  "03_COLECCION_COMPLETA/06_RECURSOS_DIGITALES/lote_6/proyecto/paquete_mbokaja/pruebas/prueba_contratos.php": {
+   "bytes": 19050,
+   "sha256": "ac6e06160078762f4d0fa1574f49ae6ce772924397dc6019663d0bdf87c7a5cb"
+  },
+  "03_COLECCION_COMPLETA/06_RECURSOS_DIGITALES/lote_6/proyecto/paquete_mbokaja/pruebas/prueba_garantias.php": {
+   "bytes": 4978,
+   "sha256": "9524a39426b2c49fdcde28bc62c33a9471da80e2b1b19e99c74cd205ce43bd3a"
+  },
+  "03_COLECCION_COMPLETA/06_RECURSOS_DIGITALES/lote_6/proyecto/paquete_mbokaja/pruebas/prueba_http.sh": {
+   "bytes": 9975,
+   "sha256": "1366c769b706d0377af7880cdea114e656dadc33d193e2992c36d8f07c0e826f"
+  },
+  "03_COLECCION_COMPLETA/06_RECURSOS_DIGITALES/lote_6/proyecto/paquete_mbokaja/pruebas/prueba_in02.sh": {
+   "bytes": 3393,
+   "sha256": "c9254ad2e305e69ce1cb083435ade17d1e727b6fbe0ea6e2bccaaf6b82a4c9aa"
+  },
+  "03_COLECCION_COMPLETA/06_RECURSOS_DIGITALES/lote_6/proyecto/paquete_mbokaja/pruebas/prueba_mantenimiento.php": {
+   "bytes": 10070,
+   "sha256": "9e9e968c0a352d8e0bbb9ea4fb0b904408c2f5558765bb5ea23e0363067c16b8"
+  },
+  "03_COLECCION_COMPLETA/06_RECURSOS_DIGITALES/lote_6/proyecto/paquete_mbokaja/pruebas/prueba_marca_huerfana.php": {
+   "bytes": 7955,
+   "sha256": "8df650632c393237b21aee29a6f07bb3fc86bf15376ca36ff92e43b1badbd600"
+  },
+  "03_COLECCION_COMPLETA/06_RECURSOS_DIGITALES/lote_6/proyecto/paquete_mbokaja/pruebas/prueba_mis_operaciones.php": {
+   "bytes": 4238,
+   "sha256": "d66af50a97b7948aec1f03b2b3df538eff5f877ea69bf5dabefa69423ce4df68"
+  },
+  "03_COLECCION_COMPLETA/06_RECURSOS_DIGITALES/lote_6/proyecto/paquete_mbokaja/pruebas/prueba_respaldo.php": {
+   "bytes": 7155,
+   "sha256": "7cac362220aa090b42157e6258bb3a00432f327c375991c2e338f4d3548fbd5b"
+  },
+  "03_COLECCION_COMPLETA/06_RECURSOS_DIGITALES/lote_6/proyecto/paquete_mbokaja/public/_plantilla.php": {
+   "bytes": 3717,
+   "sha256": "3f0732fa6ea58bffbbcd1ccb5299a99f73e82573e87874337774d69b9257dbeb"
+  },
+  "03_COLECCION_COMPLETA/06_RECURSOS_DIGITALES/lote_6/proyecto/paquete_mbokaja/public/activos.php": {
+   "bytes": 1249,
+   "sha256": "a7b6457182b1e4ea80c9f5236c4f3b5c15259597dd2118f4b4375b6fdf4a9322"
+  },
+  "03_COLECCION_COMPLETA/06_RECURSOS_DIGITALES/lote_6/proyecto/paquete_mbokaja/public/devolucion.php": {
+   "bytes": 829,
+   "sha256": "1c0d510d650a7e82448ff3a7219fb7862a1d62832622ce90daa100709e3b183b"
+  },
+  "03_COLECCION_COMPLETA/06_RECURSOS_DIGITALES/lote_6/proyecto/paquete_mbokaja/public/index.php": {
+   "bytes": 1042,
+   "sha256": "b7c10425fc395e0abce8b9a747cdc9d53dbec63de09bf98685f4add06935f427"
+  },
+  "03_COLECCION_COMPLETA/06_RECURSOS_DIGITALES/lote_6/proyecto/paquete_mbokaja/public/informe.php": {
+   "bytes": 1074,
+   "sha256": "4f41c9e07798b8a7cb3e58188981f1dc3f5541949fb6ed7e490ec78691ff8dcd"
+  },
+  "03_COLECCION_COMPLETA/06_RECURSOS_DIGITALES/lote_6/proyecto/paquete_mbokaja/public/inicio.php": {
+   "bytes": 568,
+   "sha256": "785fe7da423d4490782bcf06abe492504812e7d6d3c74033ec4468b0862d2a38"
+  },
+  "03_COLECCION_COMPLETA/06_RECURSOS_DIGITALES/lote_6/proyecto/paquete_mbokaja/public/lectores.php": {
+   "bytes": 4121,
+   "sha256": "ab9e309815d21616a45a26a8ba8ab93eb3f24938276e53bfb781f80f7b1f2bc7"
+  },
+  "03_COLECCION_COMPLETA/06_RECURSOS_DIGITALES/lote_6/proyecto/paquete_mbokaja/public/login.php": {
+   "bytes": 1040,
+   "sha256": "47e567344a143c8dfc862775ec01681351768874851f4264fad81c67f0f438ef"
+  },
+  "03_COLECCION_COMPLETA/06_RECURSOS_DIGITALES/lote_6/proyecto/paquete_mbokaja/public/logo_mbokaja.png": {
+   "bytes": 481,
+   "sha256": "181e28929ef99cf823aa6cfeac24950259bda75e87e983ee7fb62b0c04382e4f"
+  },
+  "03_COLECCION_COMPLETA/06_RECURSOS_DIGITALES/lote_6/proyecto/paquete_mbokaja/public/prestamo.php": {
+   "bytes": 897,
+   "sha256": "efd384df3dc6d4a7889f77967f8d97a9498710878b2e8966f97aad9b4624a177"
+  },
+  "03_COLECCION_COMPLETA/06_RECURSOS_DIGITALES/lote_6/proyecto/paquete_mbokaja/public/salir.php": {
+   "bytes": 144,
+   "sha256": "39227aa104b768fce0c22c11c58a76dfedc8c038aaf6e230cc774d002c3272d7"
+  },
+  "03_COLECCION_COMPLETA/06_RECURSOS_DIGITALES/lote_6/proyecto/paquete_mbokaja/src/auth.php": {
+   "bytes": 2645,
+   "sha256": "1561723b1db484e6a8f1d39b6b8f1de3b98b07e5d495e901758ed9ec3db58281"
+  },
+  "03_COLECCION_COMPLETA/06_RECURSOS_DIGITALES/lote_6/proyecto/paquete_mbokaja/src/datos_ejemplo.php": {
+   "bytes": 3514,
+   "sha256": "347c733a46a57a058f732e88b5c38879d45ca2dddf5f3a08cc9e64bf5330ef87"
+  },
+  "03_COLECCION_COMPLETA/06_RECURSOS_DIGITALES/lote_6/proyecto/paquete_mbokaja/src/db.php": {
+   "bytes": 3611,
+   "sha256": "986f40b6392f43b0e3872f5ece23e45f5f26e4ec949cab04e1ef4e04a56008d7"
+  },
+  "03_COLECCION_COMPLETA/06_RECURSOS_DIGITALES/lote_6/proyecto/paquete_mbokaja/src/esquema.sql": {
+   "bytes": 4858,
+   "sha256": "218378b880f3e2285e3f9563d4c069c699f6bb3baa445799588daf780a8868f8"
+  },
+  "03_COLECCION_COMPLETA/06_RECURSOS_DIGITALES/lote_6/proyecto/paquete_mbokaja/src/mantenimiento.php": {
+   "bytes": 6483,
+   "sha256": "b2e82db5216021d8a272c727a4f25fe52698ca600678d2938666acf3ff7c9f77"
+  },
+  "03_COLECCION_COMPLETA/06_RECURSOS_DIGITALES/lote_6/proyecto/paquete_mbokaja/src/mensajes.php": {
+   "bytes": 4270,
+   "sha256": "be806f8ae59a516375de08af58d484765fe9f4bd760a7d4da708ed4c0e37765f"
+  },
+  "03_COLECCION_COMPLETA/06_RECURSOS_DIGITALES/lote_6/proyecto/paquete_mbokaja/src/reglas.php": {
+   "bytes": 21021,
+   "sha256": "fb1820007f3df0dd0123dace143bcc28513596d564095b9a9bd57dc79d175d21"
+  },
+  "03_COLECCION_COMPLETA/06_RECURSOS_DIGITALES/lote_6/proyecto/paquete_mbokaja/src/respaldo.php": {
+   "bytes": 2429,
+   "sha256": "5c3be72ff1279b60707884b1d61d754d6a7a1667b3df3cb99cf37b1d0ae0387c"
+  },
+  "04_PRESENTACION_COMERCIAL/CONDICIONES_DE_ENTREGA_Y_USO.pdf": {
+   "bytes": 31275,
+   "sha256": "28ac2936b96d6b7e062f75bb4795751d046f0a5e2c4ec6a8db7a261355e7422d"
+  },
+  "04_PRESENTACION_COMERCIAL/DERECHOS_Y_REQUISITOS_LEGALES.pdf": {
+   "bytes": 57325,
+   "sha256": "aaf578e51017b050aa3ea8baaaa41f7de01a5691468c712cfa99773dcfa52fb7"
+  },
+  "04_PRESENTACION_COMERCIAL/DESCRIPCION_COMERCIAL_Y_FICHAS_TECNICAS.pdf": {
+   "bytes": 87259,
+   "sha256": "dd56f550293de6f4862a7a10af1a2a68d6ae33a7590de4daae2aaca1799d0c64"
+  },
+  "04_PRESENTACION_COMERCIAL/LICENCIAS_Y_ATRIBUCIONES.pdf": {
+   "bytes": 47411,
+   "sha256": "d53f68e166ddacfc312928040ae88f0c1c381c7ee6bb173ee8f854b54ccf2c1d"
+  },
+  "04_PRESENTACION_COMERCIAL/PROPUESTA_DE_COMERCIALIZACION.pdf": {
+   "bytes": 33847,
+   "sha256": "b6154e0a91352c7d6c0d20a96eb8857a25a93b3609981fc5e070e00e3ba4efd5"
+  },
+  "04_PRESENTACION_COMERCIAL/TEXTO_REDES_SOCIALES.txt": {
+   "bytes": 799,
+   "sha256": "584bd5da17fc4fa9fef7ba8be2fa78a4a4678fe15bb1f57558ed49ca57296776"
+  },
+  "04_PRESENTACION_COMERCIAL/TEXTO_WHATSAPP.txt": {
+   "bytes": 656,
+   "sha256": "f64941ce71f66509becfe3925b04d6b2b82696a626ba5b1bf8b11e4c11cb7c59"
+  },
+  "04_PRESENTACION_COMERCIAL/PORTADAS_Y_CONTRAPORTADAS/ADS_3BTI_CUADERNO_DE_PRACTICAS_v1_0_CONTRATAPA.pdf": {
+   "bytes": 889655,
+   "sha256": "87921363074d0712f6d2802639718da69377854b70b3cb9d257db7f27a91232f"
+  },
+  "04_PRESENTACION_COMERCIAL/PORTADAS_Y_CONTRAPORTADAS/ADS_3BTI_CUADERNO_DE_PRACTICAS_v1_0_CONTRATAPA.png": {
+   "bytes": 122322,
+   "sha256": "f8c1bbf1ca843c5547c2e9eafc00ae684781f6b537b04928f7e3d877f61b2c74"
+  },
+  "04_PRESENTACION_COMERCIAL/PORTADAS_Y_CONTRAPORTADAS/ADS_3BTI_CUADERNO_DE_PRACTICAS_v1_0_TAPA.pdf": {
+   "bytes": 892990,
+   "sha256": "b0d852317b3a6757c434ad0a98fdded4b2d2e08ba7dda9c67a1d511431fe04fc"
+  },
+  "04_PRESENTACION_COMERCIAL/PORTADAS_Y_CONTRAPORTADAS/ADS_3BTI_CUADERNO_DE_PRACTICAS_v1_0_TAPA.png": {
+   "bytes": 99330,
+   "sha256": "c6b4e281f12980c8c6bbe814614612e22046b334ecf2490d5eb89a0e5cfd8c1d"
+  },
+  "04_PRESENTACION_COMERCIAL/PORTADAS_Y_CONTRAPORTADAS/ADS_3BTI_GUIA_DOCENTE_SOLUCIONARIO_v1_0_CONTRATAPA.pdf": {
+   "bytes": 890183,
+   "sha256": "28ce8dd0f8497c3ee3501298e4e6f60846cef5a77c5bce3fcc85106500c2514c"
+  },
+  "04_PRESENTACION_COMERCIAL/PORTADAS_Y_CONTRAPORTADAS/ADS_3BTI_GUIA_DOCENTE_SOLUCIONARIO_v1_0_CONTRATAPA.png": {
+   "bytes": 136115,
+   "sha256": "e1011304728707a942051c1efe84fc66c97a623bd87f49323195b95728d6cdd5"
+  },
+  "04_PRESENTACION_COMERCIAL/PORTADAS_Y_CONTRAPORTADAS/ADS_3BTI_GUIA_DOCENTE_SOLUCIONARIO_v1_0_TAPA.pdf": {
+   "bytes": 893038,
+   "sha256": "88ca01e71c77bbdbc7b5d3a600dbcd6b458078b8321b097a5e69098a24b5cada"
+  },
+  "04_PRESENTACION_COMERCIAL/PORTADAS_Y_CONTRAPORTADAS/ADS_3BTI_GUIA_DOCENTE_SOLUCIONARIO_v1_0_TAPA.png": {
+   "bytes": 102778,
+   "sha256": "32159718376d3eadee1632055db2c7b8966f612948b4a2dc6146447dda25c6ac"
+  },
+  "04_PRESENTACION_COMERCIAL/PORTADAS_Y_CONTRAPORTADAS/ADS_3BTI_LIBRO_DEL_ESTUDIANTE_v1_0_CONTRATAPA.pdf": {
+   "bytes": 890339,
+   "sha256": "fd38d6d895046eccd15699a612523dc4d664b31e0f30e086c7c0db16a1b23584"
+  },
+  "04_PRESENTACION_COMERCIAL/PORTADAS_Y_CONTRAPORTADAS/ADS_3BTI_LIBRO_DEL_ESTUDIANTE_v1_0_CONTRATAPA.png": {
+   "bytes": 140603,
+   "sha256": "b1d549c41085f3ca6c639d8f4bf571e79e2a224beb666b0ba34133bf4f98d86e"
+  },
+  "04_PRESENTACION_COMERCIAL/PORTADAS_Y_CONTRAPORTADAS/ADS_3BTI_LIBRO_DEL_ESTUDIANTE_v1_0_TAPA.pdf": {
+   "bytes": 893017,
+   "sha256": "7e011c6c94b28f9d930c6ee54a42c268491327d1d148afd887297b89b16d41db"
+  },
+  "04_PRESENTACION_COMERCIAL/PORTADAS_Y_CONTRAPORTADAS/ADS_3BTI_LIBRO_DEL_ESTUDIANTE_v1_0_TAPA.png": {
+   "bytes": 99978,
+   "sha256": "b4f0721f539e6c9a7a65995b8c82583ec35935a2769acb1c05b91da4f9fcd292"
+  },
+  "04_PRESENTACION_COMERCIAL/PORTADAS_Y_CONTRAPORTADAS/ADS_3BTI_PLANES_DE_CLASE_v1_0_CONTRATAPA.pdf": {
+   "bytes": 889986,
+   "sha256": "fdc6abced5469b32768ce7186147a72b772d6971ef919d420135eb03848e6a52"
+  },
+  "04_PRESENTACION_COMERCIAL/PORTADAS_Y_CONTRAPORTADAS/ADS_3BTI_PLANES_DE_CLASE_v1_0_CONTRATAPA.png": {
+   "bytes": 121774,
+   "sha256": "cb9cddb2e26d992a64882868c18ead90ff2519b07487139b8d0735947a2e9eec"
+  },
+  "04_PRESENTACION_COMERCIAL/PORTADAS_Y_CONTRAPORTADAS/ADS_3BTI_PLANES_DE_CLASE_v1_0_TAPA.pdf": {
+   "bytes": 892951,
+   "sha256": "c86149c51a3aea828f1222c2e519675a9ba1d49b98cb51bf3e3120b33f192a31"
+  },
+  "04_PRESENTACION_COMERCIAL/PORTADAS_Y_CONTRAPORTADAS/ADS_3BTI_PLANES_DE_CLASE_v1_0_TAPA.png": {
+   "bytes": 97877,
+   "sha256": "bdbc6fb899050e6d666d29106b91a6ce404ae00ed107d9fd2bcea1d589c6b344"
+  },
+  "04_PRESENTACION_COMERCIAL/PORTADAS_Y_CONTRAPORTADAS/ADS_3BTI_PLAN_ANUAL_v1_0_CONTRATAPA.pdf": {
+   "bytes": 890028,
+   "sha256": "0ed3ce2948713b263956946f9b997083284464ec2e76e5686688758a315ddde9"
+  },
+  "04_PRESENTACION_COMERCIAL/PORTADAS_Y_CONTRAPORTADAS/ADS_3BTI_PLAN_ANUAL_v1_0_CONTRATAPA.png": {
+   "bytes": 124690,
+   "sha256": "513c59a122de126bc9e2c6aaf412e180a157fa4cc359012b2c08dbc5e087ed93"
+  },
+  "04_PRESENTACION_COMERCIAL/PORTADAS_Y_CONTRAPORTADAS/ADS_3BTI_PLAN_ANUAL_v1_0_TAPA.pdf": {
+   "bytes": 892929,
+   "sha256": "9be3ba348a6e5b439c669561078feee88ccad69830d00aa89853b1529cad2615"
+  },
+  "04_PRESENTACION_COMERCIAL/PORTADAS_Y_CONTRAPORTADAS/ADS_3BTI_PLAN_ANUAL_v1_0_TAPA.png": {
+   "bytes": 97480,
+   "sha256": "3a0560b4fb14dd47c71250c0ce0180a6db4d3abf64f2156509eac22e2901b1ac"
+  },
+  "05_CONTROL_DE_CALIDAD/DERECHOS_Y_REQUISITOS_LEGALES.pdf": {
+   "bytes": 57325,
+   "sha256": "aaf578e51017b050aa3ea8baaaa41f7de01a5691468c712cfa99773dcfa52fb7"
+  },
+  "05_CONTROL_DE_CALIDAD/INFORME_FINAL_DE_AUDITORIA.md": {
+   "bytes": 4604,
+   "sha256": "c2ce9109768053de7e0553f431be59eab2e0fa7d8327c8f13ec3efc06a10b129"
+  },
+  "05_CONTROL_DE_CALIDAD/INFORME_FINAL_DE_AUDITORIA.pdf": {
+   "bytes": 65867,
+   "sha256": "de3a7263e5aef0daf4e98466e121cc5fb9eca8f9edddf3d57d7be9100362ad78"
+  },
+  "05_CONTROL_DE_CALIDAD/INSTRUCCIONES_DE_IMPRESION.pdf": {
+   "bytes": 42390,
+   "sha256": "eb531b61901e8a2cad391843e883ca23895a1607587ce587930a9f0e4570bc96"
+  },
+  "05_CONTROL_DE_CALIDAD/ORTOGRAFIA_FORMAS_NO_RECONOCIDAS.txt": {
+   "bytes": 7236,
+   "sha256": "a38e038dcfd7362a425f05a9e9b03fa0ff0d865a967f86c565df04a6aba64834"
+  },
+  "05_CONTROL_DE_CALIDAD/PRUEBA_DE_FUENTES.json": {
+   "bytes": 1094,
+   "sha256": "72008d0e8503c9fdebb06b58b4ffcb8a48635f403332aeaabe7e41181d186e34"
+  },
+  "05_CONTROL_DE_CALIDAD/REGISTRO_DE_LICENCIAS_Y_PROCEDENCIA.md": {
+   "bytes": 10363,
+   "sha256": "92e5deb33268891b3ea9064069417bd8608c5a3bcaaf3ce4b4d385fc4825369c"
+  },
+  "05_CONTROL_DE_CALIDAD/RESOLUCION_DE_DISCREPANCIAS.pdf": {
+   "bytes": 36365,
+   "sha256": "1472f5b0635d898632b9e40deed77eb85fb91612c50b4a2a0e49525701132b8a"
+  },
+  "05_CONTROL_DE_CALIDAD/RESULTADOS_DE_CONTROLES.json": {
+   "bytes": 23292,
+   "sha256": "bf248ad4aa45aaebbf484d904e12b0c170221e559c1e247c52fac3e75e90e6fe"
+  },
+  "05_CONTROL_DE_CALIDAD/VALIDACIONES_REALIZADAS.md": {
+   "bytes": 2483,
+   "sha256": "0ff82998499c90cdc8bdb954fd1a23b4b9af1e370812eb9a3cebd3476fc6faac"
+  },
+  "05_CONTROL_DE_CALIDAD/revision_visual/cuaderno_01-12.png": {
+   "bytes": 482859,
+   "sha256": "94016b813834481435a9be13468aac53bdd15728c6daf15e978de8dc1ab0c47e"
+  },
+  "05_CONTROL_DE_CALIDAD/revision_visual/cuaderno_13-24.png": {
+   "bytes": 426108,
+   "sha256": "5a5a71920cd02d3d3a26ab5829bf812e2ccf3d97f8097b46b51cd4fe300ed551"
+  },
+  "05_CONTROL_DE_CALIDAD/revision_visual/cuaderno_25-36.png": {
+   "bytes": 369742,
+   "sha256": "33bc9aa9a2db8b6d00819423bf1487f8b01bc223ad39e47ef041103a6964bdf9"
+  },
+  "05_CONTROL_DE_CALIDAD/revision_visual/cubiertas.png": {
+   "bytes": 300746,
+   "sha256": "e6f80153e6d9ed65d4c395b11f9d668aa8145039d44e9f3ff2d5c62a3f333391"
+  },
+  "05_CONTROL_DE_CALIDAD/revision_visual/paginas_1.png": {
+   "bytes": 386447,
+   "sha256": "f557cf32504f7f3cab65c28f3805f8b59c947cb0456de1745232ced1925acff2"
+  },
+  "05_CONTROL_DE_CALIDAD/revision_visual/plan_anual_01-12.png": {
+   "bytes": 802025,
+   "sha256": "6cd8ce63fdde3d05d9ced0305ff117d77498782e86597ed909ec5dc6a74baf1e"
+  },
+  "05_CONTROL_DE_CALIDAD/revision_visual/plan_anual_13-23.png": {
+   "bytes": 614181,
+   "sha256": "0af3091e78b24a1a4893f841f786e39922d4b21c1a1ba4fb316ea9112a8c5bb3"
+  },
+  "05_CONTROL_DE_CALIDAD/revision_visual/planes_01-12.png": {
+   "bytes": 671957,
+   "sha256": "1ee84b4cea75963bb76bd72578a9f171a79c6739f002a28969203b15150ea118"
+  },
+  "05_CONTROL_DE_CALIDAD/revision_visual/planes_13-24.png": {
+   "bytes": 604622,
+   "sha256": "548aee03a18e6c3b41967ef72abaeadd82620c27947f8755dd3c638a2e4eddc5"
+  },
+  "05_CONTROL_DE_CALIDAD/revision_visual/planes_25-36.png": {
+   "bytes": 637522,
+   "sha256": "2e5bd959c0277756faac683e578d42bbe4f07db4d4f4592bdb48cfb542146612"
+  },
+  "05_CONTROL_DE_CALIDAD/revision_visual/planes_37-48.png": {
+   "bytes": 612930,
+   "sha256": "949b0466efa6e38df828ef92607becdfc07dd8feed6e30a644b110bae7628de4"
+  },
+  "05_CONTROL_DE_CALIDAD/revision_visual/planes_49-60.png": {
+   "bytes": 638739,
+   "sha256": "1639021672dceea1e890afa8cb7e2adfec386242aef23a1b007d0b7ec0769446"
+  },
+  "05_CONTROL_DE_CALIDAD/revision_visual/planes_61-72.png": {
+   "bytes": 680918,
+   "sha256": "74bce63bf7c9ac908408f58ac6226f679fdd39ebde356186abe9916132e461ec"
+  },
+  "05_CONTROL_DE_CALIDAD/revision_visual/planes_73-73.png": {
+   "bytes": 38286,
+   "sha256": "3c00407198a4463e3e2ff78da2acbb18526c4c2232c39d84d6e46c2295cb4a20"
+  }
+ }
+}

@@ -1,0 +1,65 @@
+[
+ {
+  "documento": "libro",
+  "fuente": "Carlito",
+  "paginas": 211,
+  "en_blanco": [],
+  "renglones_sueltos": []
+ },
+ {
+  "documento": "libro",
+  "fuente": "Liberation Sans",
+  "paginas": 213,
+  "en_blanco": [],
+  "renglones_sueltos": []
+ },
+ {
+  "documento": "libro",
+  "fuente": "DejaVu Sans",
+  "paginas": 236,
+  "en_blanco": [],
+  "renglones_sueltos": []
+ },
+ {
+  "documento": "guia",
+  "fuente": "Carlito",
+  "paginas": 109,
+  "en_blanco": [],
+  "renglones_sueltos": []
+ },
+ {
+  "documento": "guia",
+  "fuente": "Liberation Sans",
+  "paginas": 111,
+  "en_blanco": [],
+  "renglones_sueltos": []
+ },
+ {
+  "documento": "guia",
+  "fuente": "DejaVu Sans",
+  "paginas": 122,
+  "en_blanco": [],
+  "renglones_sueltos": []
+ },
+ {
+  "documento": "cuaderno",
+  "fuente": "Carlito",
+  "paginas": 36,
+  "en_blanco": [],
+  "renglones_sueltos": []
+ },
+ {
+  "documento": "cuaderno",
+  "fuente": "Liberation Sans",
+  "paginas": 36,
+  "en_blanco": [],
+  "renglones_sueltos": []
+ },
+ {
+  "documento": "cuaderno",
+  "fuente": "DejaVu Sans",
+  "paginas": 38,
+  "en_blanco": [],
+  "renglones_sueltos": []
+ }
+]

@@ -1,0 +1,160 @@
+{
+ "anio": 2026,
+ "titular": null,
+ "isbn": {
+  "libro": null,
+  "guia": null,
+  "cuaderno": null,
+  "plan_anual": null,
+  "planes": null
+ },
+ "paginas": {
+  "libro": 211,
+  "cuaderno": 36,
+  "guia": 109,
+  "plan_anual": 23,
+  "planes": 73
+ },
+ "hojas": {
+  "libro": 106,
+  "cuaderno": 18,
+  "guia": 55,
+  "plan_anual": 12,
+  "planes": 37
+ },
+ "lomo": {
+  "libro": 10.6,
+  "cuaderno": 1.8,
+  "guia": 5.5,
+  "plan_anual": 1.2,
+  "planes": 3.7
+ },
+ "ref": {
+  "acuerdo_algoritmica": 40,
+  "laboratorio_iv": 55,
+  "ficha_entorno": 55,
+  "otro_entorno": 56,
+  "concurrencia": 57,
+  "distribuciones": 57,
+  "nota_e30": 78,
+  "copias": 78,
+  "dr": 78,
+  "laboratorio_v": 79,
+  "codigo_recibido": 96,
+  "paquete_modelo": 96,
+  "licencias": 97,
+  "instalacion_otro": 97,
+  "mbokaja_p17": 97,
+  "variantes": 97,
+  "tiempos_e35": 98,
+  "alternativas_e35": 99,
+  "mapa_apoyos": 7,
+  "coordinacion_i": 7
+ },
+ "productos": {
+  "libro": {
+   "nombre": "Libro del estudiante",
+   "archivo": "ADS_3BTI_LIBRO_DEL_ESTUDIANTE_v1_0",
+   "acento": "2E7D32",
+   "cifras": "18 capítulos · 6 unidades · 36 encuentros · 16 prácticas · 6 hitos",
+   "descripcion": "Un año completo para aprender a analizar y diseñar sistemas de información trabajando en un proyecto real: el sistema de préstamos de la biblioteca de un colegio. El curso pasa del problema y los requisitos a los modelos, el prototipo web, las pruebas y la entrega documentada.",
+   "incluye": [
+    "Teoría breve y clara, con tablas, figuras y ejemplos resueltos paso a paso.",
+    "Actividades en cuatro bloques: Ejercitá, Resolvé, Pensá y decidí, y Desafío.",
+    "16 prácticas en tres niveles, con datos distintos de los ejemplos.",
+    "Revisiones de unidad con seis hitos integradores y evaluaciones de capítulo.",
+    "Recuadros «Para repasar» y «Si el calendario se acorta» en cada capítulo."
+   ],
+   "beneficios": [
+    "Aprendizaje basado en proyectos, de punta a punta.",
+    "Requisitos verificables, modelos coherentes y decisiones justificadas.",
+    "Evidencia individual en cada hito: cada estudiante muestra lo que sabe hacer."
+   ],
+   "destinatario": "Estudiante",
+   "formatos": "PDF de impresión (interior y cubierta), PDF digital"
+  },
+  "cuaderno": {
+   "nombre": "Cuaderno de prácticas",
+   "archivo": "ADS_3BTI_CUADERNO_DE_PRACTICAS_v1_0",
+   "acento": "F9A825",
+   "cifras": "16 prácticas · 3 niveles · renglones de 8 mm",
+   "descripcion": "Las 16 prácticas del libro del estudiante, listas para resolver a mano. Cada práctica usa un caso propio, la biblioteca de Mbokaja, para que el estudiante aplique lo aprendido sin copiar los ejemplos.",
+   "incluye": [
+    "Las consignas completas de los tres niveles de cada práctica.",
+    "Renglones de respuesta de 8 mm, tres por consigna.",
+    "Punto de control al final de cada práctica.",
+    "Índice por unidad para ubicar cada práctica."
+   ],
+   "beneficios": [
+    "Se usa junto con el libro: allí están la teoría y los ejemplos.",
+    "Nivel 1 como piso común, Nivel 2 esperado y Nivel 3 de ampliación.",
+    "Facilita la corrección con las listas de cotejo de la guía docente."
+   ],
+   "destinatario": "Estudiante",
+   "formatos": "PDF de impresión (interior y cubierta), PDF digital"
+  },
+  "guia": {
+   "nombre": "Guía docente con solucionario",
+   "archivo": "ADS_3BTI_GUIA_DOCENTE_SOLUCIONARIO_v1_0",
+   "acento": "00695C",
+   "cifras": "36 encuentros · claves de actividades, prácticas y evaluaciones · rúbricas H1 a H6",
+   "descripcion": "La guía del docente para conducir el año sin improvisar: la secuencia de cada encuentro en horas cátedra, las respuestas esperadas y los errores frecuentes de todas las actividades, las claves de las prácticas y de las evaluaciones, y los instrumentos de los seis hitos.",
+   "incluye": [
+    "Secuencia de los 36 encuentros, tramo por tramo, en HC.",
+    "Claves y errores frecuentes de cada actividad, práctica y evaluación.",
+    "Rúbricas, planillas y evidencias 60/40 de los hitos H1 a H6.",
+    "Preparación del entorno técnico, prueba de campo y alternativas.",
+    "Calendario alternativo de 28 encuentros y procedencia de los recursos."
+   ],
+   "beneficios": [
+    "Ahorra horas de preparación y corrección.",
+    "Evaluación por evidencias, con criterios explícitos y comparables.",
+    "Coordinación prevista con Algorítmica y Laboratorio de 3.º."
+   ],
+   "destinatario": "Docente e institución",
+   "formatos": "PDF de impresión (interior y cubierta), PDF digital y DOCX editable"
+  },
+  "plan_anual": {
+   "nombre": "Plan anual",
+   "archivo": "ADS_3BTI_PLAN_ANUAL_v1_0",
+   "acento": "37474F",
+   "cifras": "5 HC semanales · 36 encuentros · 180 HC · editable",
+   "descripcion": "Planificación anual completa para el Plan Optativo, alineada con el libro, la guía docente y el cuaderno, con el encuadre del Diseño Curricular del MEC y la matriz de correspondencia de todo el año.",
+   "incluye": [
+    "Encuadre curricular: disposiciones del MEC citadas con su página.",
+    "Competencia, capacidades C1 a C10, contenidos e indicadores.",
+    "Desarrollo por unidad, capítulo y encuentro, con instrumentos.",
+    "Distribución de las 180 HC y matriz de correspondencia.",
+    "Campos editables para la institución."
+   ],
+   "beneficios": [
+    "Listo para adoptar en el PCI de la institución.",
+    "Distingue lo oficial del MEC de la propuesta institucional.",
+    "DOCX editable y PDF."
+   ],
+   "destinatario": "Docente e institución",
+   "formatos": "PDF de impresión (interior y cubierta), PDF digital y DOCX editable"
+  },
+  "planes": {
+   "nombre": "Planes de clase",
+   "archivo": "ADS_3BTI_PLANES_DE_CLASE_v1_0",
+   "acento": "546E7A",
+   "cifras": "36 planes · 5 HC por encuentro · editables",
+   "descripcion": "Los 36 planes de clase del año, uno por encuentro, con inicio, desarrollo y cierre, explicaciones clave, actividades, recursos, alternativas sin computadoras y evaluación con sus instrumentos.",
+   "incluye": [
+    "Capacidades e indicadores tomados de la ficha de cada capítulo.",
+    "Distribución de las 5 HC según la secuencia de la guía.",
+    "Páginas del libro, del cuaderno y de la guía en cada plan.",
+    "Errores frecuentes, preparación previa y alternativas.",
+    "Campos editables: institución, docente, sección y fecha."
+   ],
+   "beneficios": [
+    "El docente adapta cada plan sin rehacerlo.",
+    "Coherencia total con el libro y la guía.",
+    "DOCX editable y PDF."
+   ],
+   "destinatario": "Docente e institución",
+   "formatos": "PDF de impresión (interior y cubierta), PDF digital y DOCX editable"
+  }
+ }
+}

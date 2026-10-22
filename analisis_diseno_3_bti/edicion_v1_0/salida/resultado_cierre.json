@@ -1,0 +1,116 @@
+{
+ "zips": [
+  {
+   "nombre": "ADS_3BTI_v1_0_01_ESTUDIANTE.zip",
+   "archivos": 4,
+   "bytes": 4511827,
+   "sha256": "ad4abffae00b5f9733bfebe4db304c17ff8cd3c41b0140ceb682b6e9d55de367"
+  },
+  {
+   "nombre": "ADS_3BTI_v1_0_02_DOCENTE.zip",
+   "archivos": 266,
+   "bytes": 4587514,
+   "sha256": "2c331f1e933079c62f13dc14996b5dc5754bfa7c0d4cd74464010ec998fd9740"
+  },
+  {
+   "nombre": "ADS_3BTI_v1_0_03_COLECCION_COMPLETA.zip",
+   "archivos": 282,
+   "bytes": 20757204,
+   "sha256": "01aacc004f278557dcd8fceb5f962f6819817540e8f20c44193f723a61cd9df0"
+  },
+  {
+   "nombre": "ADS_3BTI_v1_0_04_PRESENTACION_COMERCIAL.zip",
+   "archivos": 28,
+   "bytes": 9926325,
+   "sha256": "baa2a06ac1b1c84fd60f523d413979698e26cefd143e4fc208feae2db1fdc86b"
+  },
+  {
+   "nombre": "ADS_3BTI_v1_0_05_CONTROL_DE_CALIDAD.zip",
+   "archivos": 26,
+   "bytes": 6968787,
+   "sha256": "9ad8f3d408cf68f68b67115bf41cb37bd7d87bef647fad6d45a98c51102e9162"
+  }
+ ],
+ "controles": [
+  {
+   "detalle": "ADS_3BTI_v1_0_01_ESTUDIANTE.zip: íntegro (testzip) y con los 3 archivos de la carpeta, byte a byte",
+   "resultado": "ok"
+  },
+  {
+   "detalle": "ADS_3BTI_v1_0_01_ESTUDIANTE.zip: sin archivos reservados, temporales ni bases de datos",
+   "resultado": "ok"
+  },
+  {
+   "detalle": "ADS_3BTI_v1_0_01_ESTUDIANTE.zip: ninguno de los 34 textos o códigos DR/V6 en su contenido",
+   "resultado": "ok"
+  },
+  {
+   "detalle": "ADS_3BTI_v1_0_01_ESTUDIANTE.zip: menos de 95 MB (límite de GitHub: 100 MB por archivo)",
+   "resultado": "ok"
+  },
+  {
+   "detalle": "ADS_3BTI_v1_0_02_DOCENTE.zip: íntegro (testzip) y con los 265 archivos de la carpeta, byte a byte",
+   "resultado": "ok"
+  },
+  {
+   "detalle": "ADS_3BTI_v1_0_02_DOCENTE.zip: sin archivos reservados, temporales ni bases de datos",
+   "resultado": "ok"
+  },
+  {
+   "detalle": "ADS_3BTI_v1_0_02_DOCENTE.zip: ninguno de los 34 textos o códigos DR/V6 en su contenido",
+   "resultado": "ok"
+  },
+  {
+   "detalle": "ADS_3BTI_v1_0_02_DOCENTE.zip: menos de 95 MB (límite de GitHub: 100 MB por archivo)",
+   "resultado": "ok"
+  },
+  {
+   "detalle": "ADS_3BTI_v1_0_03_COLECCION_COMPLETA.zip: íntegro (testzip) y con los 281 archivos de la carpeta, byte a byte",
+   "resultado": "ok"
+  },
+  {
+   "detalle": "ADS_3BTI_v1_0_03_COLECCION_COMPLETA.zip: sin archivos reservados, temporales ni bases de datos",
+   "resultado": "ok"
+  },
+  {
+   "detalle": "ADS_3BTI_v1_0_03_COLECCION_COMPLETA.zip: ninguno de los 34 textos o códigos DR/V6 en su contenido",
+   "resultado": "ok"
+  },
+  {
+   "detalle": "ADS_3BTI_v1_0_03_COLECCION_COMPLETA.zip: menos de 95 MB (límite de GitHub: 100 MB por archivo)",
+   "resultado": "ok"
+  },
+  {
+   "detalle": "ADS_3BTI_v1_0_04_PRESENTACION_COMERCIAL.zip: íntegro (testzip) y con los 27 archivos de la carpeta, byte a byte",
+   "resultado": "ok"
+  },
+  {
+   "detalle": "ADS_3BTI_v1_0_04_PRESENTACION_COMERCIAL.zip: sin archivos reservados, temporales ni bases de datos",
+   "resultado": "ok"
+  },
+  {
+   "detalle": "ADS_3BTI_v1_0_04_PRESENTACION_COMERCIAL.zip: ninguno de los 34 textos o códigos DR/V6 en su contenido",
+   "resultado": "ok"
+  },
+  {
+   "detalle": "ADS_3BTI_v1_0_04_PRESENTACION_COMERCIAL.zip: menos de 95 MB (límite de GitHub: 100 MB por archivo)",
+   "resultado": "ok"
+  },
+  {
+   "detalle": "ADS_3BTI_v1_0_05_CONTROL_DE_CALIDAD.zip: íntegro (testzip) y con los 25 archivos de la carpeta, byte a byte",
+   "resultado": "ok"
+  },
+  {
+   "detalle": "ADS_3BTI_v1_0_05_CONTROL_DE_CALIDAD.zip: sin archivos reservados, temporales ni bases de datos",
+   "resultado": "ok"
+  },
+  {
+   "detalle": "ADS_3BTI_v1_0_05_CONTROL_DE_CALIDAD.zip: ninguno de los 34 textos o códigos DR/V6 en su contenido",
+   "resultado": "ok"
+  },
+  {
+   "detalle": "ADS_3BTI_v1_0_05_CONTROL_DE_CALIDAD.zip: menos de 95 MB (límite de GitHub: 100 MB por archivo)",
+   "resultado": "ok"
+  }
+ ]
+}

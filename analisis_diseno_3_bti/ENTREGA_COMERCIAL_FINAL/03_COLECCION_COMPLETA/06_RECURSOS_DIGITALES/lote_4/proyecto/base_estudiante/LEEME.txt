@@ -1,0 +1,30 @@
+Sistema de préstamos de la biblioteca escolar — BASE DEL ESTUDIANTE (lote 4, Unidad IV)
+Caso Arapoty, datos ficticios.
+
+La base trae preparado lo que no es parte de tus actividades:
+ - la estructura de carpetas: public/ (presentación), src/reglas.php (reglas de negocio), src/db.php y
+   src/esquema.sql (persistencia);
+ - la conexión, el esquema con sus restricciones (Capítulo 7) y los datos ficticios iniciales;
+ - el ingreso del personal (ME-12) y la comprobación de permisos por zona (ME-13);
+ - los mensajes de la Tabla 8.6 (src/mensajes.php);
+ - la instalación, el respaldo y la restauración.
+Las operaciones las construís vos, en el capítulo que indica cada contrato de src/reglas.php. Hasta entonces
+responden «PENDIENTE» y no cambian ningún dato.
+
+ESTADO DEL ENTORNO: HTML/CSS + PHP + SQLite es una referencia provisional. No se probó en las computadoras de tu
+colegio: tu docente completa antes la ficha de entorno.
+
+1. Comprobá el entorno:         php verificar_entorno.php
+2. Creá la base de ejemplo:     php instalar.php
+   (anotá las claves de las cuentas de demostración bibliotecaria1 y direccion1: se muestran una sola vez)
+3. Iniciá el servidor local:    php -S localhost:8000 -t public
+4. Abrí el navegador en:        http://localhost:8000
+5. Respaldo:                    php respaldar.php
+6. Restaurar:                   detené el servidor y ejecutá php restaurar.php datos/respaldos/<archivo>.sqlite
+
+El instalador no borra una base existente; la restauración pide confirmación y guarda antes una copia.
+No copies ni borres a mano el archivo datos/biblioteca.sqlite.
+
+Comprobaciones:
+   bash pruebas/prueba_base.sh              lo que trae la base (E-6b): no exige tus operaciones
+   php pruebas/prueba_mis_operaciones.php   tus operaciones: PENDIENTE hasta que las construyas

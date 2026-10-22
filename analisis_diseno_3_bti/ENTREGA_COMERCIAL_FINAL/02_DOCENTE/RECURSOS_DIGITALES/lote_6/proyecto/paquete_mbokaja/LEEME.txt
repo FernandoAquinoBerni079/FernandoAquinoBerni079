@@ -1,0 +1,12 @@
+Sistema de préstamos — PAQUETE PARA LA BIBLIOTECA DE MBOKAJA (preparado por un voluntario, ficticio)
+Versión: Entrega 0.9 (preparada por el voluntario para Mbokaja)
+Datos ficticios. Prototipo educativo.
+
+Por dónde empezar:
+  1. ENTREGA/INSTALAR.md   (instalación, paso a paso)
+  2. ENTREGA/MANUAL.md     (cómo se usa, por tareas)
+  3. ENTREGA/LIMITES.md    (lo que no hace o no se probó)
+
+Revisión del paquete: la hace el docente con sus herramientas, fuera del paquete.
+
+Procedencia y licencia: ENTREGA/PROCEDENCIA.md y ENTREGA/LICENCIA_BORRADOR.md (borrador).

@@ -1,0 +1,62 @@
+[
+ {
+  "fuente": "Carlito",
+  "documento": "ADS_3BTI_PLAN_ANUAL_v1_0",
+  "paginas": 23,
+  "vacias": [],
+  "fuente_aplicada": true,
+  "resultado": "correcto"
+ },
+ {
+  "fuente": "Carlito",
+  "documento": "ADS_3BTI_PLANES_DE_CLASE_v1_0",
+  "paginas": 73,
+  "vacias": [],
+  "fuente_aplicada": true,
+  "planes": 36,
+  "plan_en_pagina_propia": true,
+  "firmas_en_cada_plan": true,
+  "max_paginas_por_plan": 2,
+  "resultado": "correcto"
+ },
+ {
+  "fuente": "Liberation Sans",
+  "documento": "ADS_3BTI_PLAN_ANUAL_v1_0",
+  "paginas": 24,
+  "vacias": [],
+  "fuente_aplicada": true,
+  "resultado": "correcto"
+ },
+ {
+  "fuente": "Liberation Sans",
+  "documento": "ADS_3BTI_PLANES_DE_CLASE_v1_0",
+  "paginas": 74,
+  "vacias": [],
+  "fuente_aplicada": true,
+  "planes": 36,
+  "plan_en_pagina_propia": true,
+  "firmas_en_cada_plan": true,
+  "max_paginas_por_plan": 2,
+  "resultado": "correcto"
+ },
+ {
+  "fuente": "DejaVu Sans",
+  "documento": "ADS_3BTI_PLAN_ANUAL_v1_0",
+  "paginas": 26,
+  "vacias": [],
+  "fuente_aplicada": true,
+  "resultado": "correcto"
+ },
+ {
+  "fuente": "DejaVu Sans",
+  "documento": "ADS_3BTI_PLANES_DE_CLASE_v1_0",
+  "paginas": 74,
+  "vacias": [],
+  "fuente_aplicada": true,
+  "planes": 36,
+  "plan_en_pagina_propia": true,
+  "firmas_en_cada_plan": true,
+  "max_paginas_por_plan": 2,
+  "resultado": "correcto"
+ }
+]

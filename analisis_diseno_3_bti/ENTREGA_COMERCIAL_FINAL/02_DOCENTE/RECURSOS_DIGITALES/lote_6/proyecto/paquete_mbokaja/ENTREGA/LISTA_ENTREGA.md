@@ -1,0 +1,30 @@
+# Lista de entrega
+
+Versión: Entrega 0.9 (preparada por el voluntario para Mbokaja)
+
+## Archivos
+
+- archivo: `LEEME.txt` — Qué es el paquete y por dónde empezar
+- archivo: `ENTREGA/INSTALAR.md` — Guía de instalación, configuración y ejecución
+- archivo: `ENTREGA/MANUAL.md` — Manual breve por tareas
+- archivo: `ENTREGA/LIMITES.md` — Límites conocidos y pendientes
+- archivo: `ENTREGA/PROCEDENCIA.md` — Ficha de procedencia y licencias
+- archivo: `ENTREGA/LICENCIA_BORRADOR.md` — Licencia (borrador)
+- archivo: `ENTREGA/ACTA_ENTREGA.md` — Acta de entrega para completar
+- archivo: `src/datos_ejemplo.php` — Datos ficticios
+- archivo: `src/esquema.sql` — Esquema de la base
+- archivo: `instalar.php` — Instalación
+- archivo: `respaldar.php` — Respaldo
+- archivo: `restaurar.php` — Restauración
+- archivo: `datos/mbokaja_prueba.json` — Datos de prueba de Mbokaja
+
+## Pruebas que acompañan la entrega (solo las ejecuta la herramienta del docente, en aislamiento)
+
+- prueba: `php pruebas/prueba_contratos.php`
+- prueba: `php pruebas/prueba_garantias.php`
+- prueba: `php pruebas/prueba_respaldo.php`
+
+## Pruebas opcionales
+
+- bash pruebas/prueba_http.sh (requiere bash y curl)
+- bash pruebas/prueba_in02.sh (requiere bash y curl)

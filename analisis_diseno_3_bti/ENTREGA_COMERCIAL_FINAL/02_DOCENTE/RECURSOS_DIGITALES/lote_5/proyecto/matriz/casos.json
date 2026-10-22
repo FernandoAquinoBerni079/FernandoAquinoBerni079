@@ -1,0 +1,400 @@
+[
+ {
+  "id": "C-01",
+  "requisito": "RF-01",
+  "prueba": "P-01",
+  "clase": "Normal",
+  "descripcion": "Préstamo válido de un estudiante con un préstamo activo",
+  "operacion": "OP-01",
+  "cuenta": "bibliotecaria",
+  "entradas": [
+   "LE-1001",
+   "EJ-1004",
+   "2026-05-12"
+  ],
+  "esperado_codigo": "ME-04",
+  "control": {
+   "sql": "SELECT COUNT(*) FROM prestamos p JOIN lectores l ON l.id = p.lector_id WHERE l.codigo = 'LE-1001' AND p.fecha_devolucion IS NULL",
+   "valor": 2
+  },
+  "esperado": "ME-04; LE-1001 queda con 2 activos"
+ },
+ {
+  "id": "C-02",
+  "requisito": "RF-02",
+  "prueba": "P-02",
+  "clase": "Normal",
+  "descripcion": "El vencimiento se calcula con el plazo de 7 días y se guarda",
+  "operacion": "OP-01",
+  "cuenta": "bibliotecaria",
+  "entradas": [
+   "LE-1005",
+   "EJ-1005",
+   "2026-05-12"
+  ],
+  "esperado_codigo": "ME-04",
+  "control": {
+   "texto": "19/05"
+  },
+  "esperado": "ME-04 con «Vence el 19/05»"
+ },
+ {
+  "id": "C-03",
+  "requisito": "RF-05",
+  "prueba": "P-06a",
+  "clase": "Límite",
+  "descripcion": "Estudiante en su máximo (2) pide un tercero",
+  "operacion": "OP-01",
+  "cuenta": "bibliotecaria",
+  "entradas": [
+   "LE-1001",
+   "EJ-1008",
+   "2026-05-12"
+  ],
+  "esperado_codigo": "ME-02",
+  "control": {
+   "texto": "el máximo para estudiantes"
+  },
+  "esperado": "ME-02 con el máximo de estudiantes; sin préstamo nuevo"
+ },
+ {
+  "id": "C-04",
+  "requisito": "RF-05",
+  "prueba": "P-06b",
+  "clase": "Límite",
+  "descripcion": "Docente con 4 activos pide el quinto (máximo 5)",
+  "operacion": "OP-01",
+  "cuenta": "bibliotecaria",
+  "entradas": [
+   "LE-1003",
+   "EJ-1007",
+   "2026-05-12"
+  ],
+  "esperado_codigo": "ME-04",
+  "control": null,
+  "esperado": "ME-04: se registra"
+ },
+ {
+  "id": "C-05",
+  "requisito": "RF-05",
+  "prueba": "P-06b",
+  "clase": "Límite",
+  "descripcion": "Docente en su máximo (5) pide el sexto",
+  "operacion": "OP-01",
+  "cuenta": "bibliotecaria",
+  "entradas": [
+   "LE-1003",
+   "EJ-1008",
+   "2026-05-12"
+  ],
+  "esperado_codigo": "ME-02",
+  "control": {
+   "texto": "el máximo para docentes"
+  },
+  "esperado": "ME-02 con el máximo de docentes; sin préstamo nuevo"
+ },
+ {
+  "id": "C-06",
+  "requisito": "RF-04",
+  "prueba": "P-07",
+  "clase": "Rechazo",
+  "descripcion": "Segunda solicitud sobre un ejemplar ya prestado",
+  "operacion": "OP-01",
+  "cuenta": "bibliotecaria",
+  "entradas": [
+   "LE-1005",
+   "EJ-1001",
+   "2026-05-12"
+  ],
+  "esperado_codigo": "ME-03",
+  "control": {
+   "sql": "SELECT COUNT(*) FROM prestamos p JOIN ejemplares e ON e.id = p.ejemplar_id WHERE e.codigo = 'EJ-1001' AND p.fecha_devolucion IS NULL",
+   "valor": 1
+  },
+  "esperado": "ME-03; EJ-1001 sigue con un solo préstamo activo"
+ },
+ {
+  "id": "C-07",
+  "requisito": "RF-06",
+  "prueba": "P-05",
+  "clase": "Rechazo",
+  "descripcion": "Préstamo a un lector inactivo",
+  "operacion": "OP-01",
+  "cuenta": "bibliotecaria",
+  "entradas": [
+   "LE-1004",
+   "EJ-1008",
+   "2026-05-12"
+  ],
+  "esperado_codigo": "ME-01",
+  "control": null,
+  "esperado": "ME-01; sin préstamo nuevo"
+ },
+ {
+  "id": "C-08",
+  "requisito": "RF-10",
+  "prueba": "P-10",
+  "clase": "Rechazo",
+  "descripcion": "Préstamo de un ejemplar dado de baja, que tiene historial",
+  "operacion": "OP-01",
+  "cuenta": "bibliotecaria",
+  "entradas": [
+   "LE-1005",
+   "EJ-1006",
+   "2026-05-12"
+  ],
+  "esperado_codigo": "MV-06",
+  "control": {
+   "sql": "SELECT COUNT(*) FROM prestamos p JOIN ejemplares e ON e.id = p.ejemplar_id WHERE e.codigo = 'EJ-1006'",
+   "valor": 1
+  },
+  "esperado": "MV-06; el historial de EJ-1006 sigue con su préstamo"
+ },
+ {
+  "id": "C-09",
+  "requisito": "RF-03",
+  "prueba": "P-03",
+  "clase": "Normal",
+  "descripcion": "Devolución de un ejemplar prestado",
+  "operacion": "OP-02",
+  "cuenta": "bibliotecaria",
+  "entradas": [
+   "EJ-1004",
+   "2026-05-14"
+  ],
+  "esperado_codigo": "ME-07",
+  "control": null,
+  "esperado": "ME-07; el préstamo queda en el historial"
+ },
+ {
+  "id": "C-10",
+  "requisito": "RF-03",
+  "prueba": "P-03",
+  "clase": "Rechazo",
+  "descripcion": "Segunda devolución del mismo ejemplar",
+  "operacion": "OP-02",
+  "cuenta": "bibliotecaria",
+  "entradas": [
+   "EJ-1004",
+   "2026-05-15"
+  ],
+  "esperado_codigo": "ME-06",
+  "control": null,
+  "esperado": "ME-06; no se cierra ningún préstamo"
+ },
+ {
+  "id": "C-11",
+  "requisito": "RF-03",
+  "prueba": "P-03",
+  "clase": "Excepción",
+  "descripcion": "Devolución con fecha anterior a la salida",
+  "operacion": "OP-02",
+  "cuenta": "bibliotecaria",
+  "entradas": [
+   "EJ-1002",
+   "2026-05-01"
+  ],
+  "esperado_codigo": "MV-10",
+  "control": null,
+  "esperado": "MV-10; el préstamo sigue activo"
+ },
+ {
+  "id": "C-12",
+  "requisito": "RF-08",
+  "prueba": "P-04",
+  "clase": "Límite",
+  "descripcion": "Vencidos con fecha de referencia 12/05: uno vencido y uno que vence ese día",
+  "operacion": "OP-04",
+  "cuenta": "bibliotecaria",
+  "entradas": [
+   "2026-05-12"
+  ],
+  "esperado_codigo": null,
+  "control": {
+   "filas": [
+    [
+     {
+      "ejemplar": "EJ-1001"
+     },
+     {
+      "vencido": 1
+     }
+    ],
+    [
+     {
+      "ejemplar": "EJ-1002"
+     },
+     {
+      "vencido": 0
+     }
+    ]
+   ]
+  },
+  "esperado": "EJ-1001 vencido; EJ-1002 en plazo (vence ese mismo día)"
+ },
+ {
+  "id": "C-13",
+  "requisito": "RF-07",
+  "prueba": "P-08",
+  "clase": "Límite",
+  "descripcion": "Búsqueda con el signo «%» en el texto",
+  "operacion": "OP-03",
+  "cuenta": null,
+  "entradas": [
+   "100%"
+  ],
+  "esperado_codigo": null,
+  "control": {
+   "filas_cuenta": 1,
+   "filas": [
+    [
+     {
+      "codigo": "OB-1003"
+     },
+     {
+      "disponibles": 0
+     }
+    ]
+   ]
+  },
+  "esperado": "Solo «Diccionario 100% escolar», con 0 disponibles (su ejemplar se prestó en C-04)"
+ },
+ {
+  "id": "C-14",
+  "requisito": "RF-07",
+  "prueba": "P-08",
+  "clase": "Límite",
+  "descripcion": "Búsqueda con el signo «_» en el texto",
+  "operacion": "OP-03",
+  "cuenta": null,
+  "entradas": [
+   "_"
+  ],
+  "esperado_codigo": null,
+  "control": {
+   "filas_cuenta": 1,
+   "filas": [
+    [
+     {
+      "codigo": "OB-1004"
+     },
+     {}
+    ]
+   ]
+  },
+  "esperado": "Solo «Juegos_de_patio»"
+ },
+ {
+  "id": "C-15",
+  "requisito": "RNF-03",
+  "prueba": "P-12",
+  "clase": "Normal",
+  "descripcion": "La consulta pública no devuelve datos de lectores",
+  "operacion": "OP-03",
+  "cuenta": null,
+  "entradas": [
+   "río"
+  ],
+  "esperado_codigo": null,
+  "control": {
+   "sin_campos": [
+    "lector",
+    "nombre",
+    "curso"
+   ]
+  },
+  "esperado": "Obras y disponibles, sin datos de lectores"
+ },
+ {
+  "id": "C-16",
+  "requisito": "RF-09",
+  "prueba": "P-09",
+  "clase": "Normal",
+  "descripcion": "Informe de abril: el préstamo cuenta en el curso que tenía al prestar",
+  "operacion": "OP-05",
+  "cuenta": "direccion",
+  "entradas": [
+   "2026-04"
+  ],
+  "esperado_codigo": null,
+  "control": {
+   "filas": [
+    [
+     {
+      "grupo": "1.º BTI"
+     },
+     {
+      "prestamos": 1
+     }
+    ]
+   ],
+   "total": 1
+  },
+  "esperado": "1.º BTI: 1 (aunque LE-1005 hoy está en 2.º BTI); total 1"
+ },
+ {
+  "id": "C-17",
+  "requisito": "RNF-02",
+  "prueba": "P-11",
+  "clase": "Rechazo",
+  "descripcion": "Préstamo pedido con la cuenta de dirección",
+  "operacion": "OP-01",
+  "cuenta": "direccion",
+  "entradas": [
+   "LE-1005",
+   "EJ-1008",
+   "2026-05-12"
+  ],
+  "esperado_codigo": "ME-13",
+  "control": null,
+  "esperado": "ME-13; sin préstamo nuevo"
+ },
+ {
+  "id": "C-18",
+  "requisito": "RNF-02",
+  "prueba": "P-11",
+  "clase": "Rechazo",
+  "descripcion": "Préstamos activos pedidos sin sesión",
+  "operacion": "OP-04",
+  "cuenta": null,
+  "entradas": [
+   "2026-05-12"
+  ],
+  "esperado_codigo": "ME-13",
+  "control": null,
+  "esperado": "ME-13"
+ },
+ {
+  "id": "C-19",
+  "requisito": "RF-09",
+  "prueba": "P-09",
+  "clase": "Límite",
+  "descripcion": "Informe de un mes sin préstamos",
+  "operacion": "OP-05",
+  "cuenta": "bibliotecaria",
+  "entradas": [
+   "2026-01"
+  ],
+  "esperado_codigo": null,
+  "control": {
+   "total": 0,
+   "filas_cuenta": 0
+  },
+  "esperado": "Correcto, sin filas y total 0 (el contrato v1.1 no pide un mensaje: ver SC-02)"
+ },
+ {
+  "id": "C-20",
+  "requisito": "RNF-01",
+  "prueba": "P-14",
+  "clase": "Excepción",
+  "descripcion": "PT-08: después de un error al dar de alta un lector, se conserva lo escrito y el tipo",
+  "operacion": "HTTP",
+  "cuenta": "bibliotecaria",
+  "entradas": [
+   "pruebas/prueba_in02.sh"
+  ],
+  "esperado_codigo": null,
+  "control": null,
+  "esperado": "Vuelven el código, el nombre y el tipo elegido (Docente)"
+ }
+]

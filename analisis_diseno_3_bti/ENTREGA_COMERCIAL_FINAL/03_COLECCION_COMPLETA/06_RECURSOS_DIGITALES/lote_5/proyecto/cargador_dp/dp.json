@@ -1,0 +1,312 @@
+{
+ "conjunto": "DP (datos de prueba independientes, Unidad V)",
+ "parametros": [
+  [
+   "plazo_dias",
+   7
+  ],
+  [
+   "maximo_estudiante",
+   2
+  ],
+  [
+   "maximo_docente",
+   5
+  ]
+ ],
+ "obras": [
+  [
+   "OB-1001",
+   "El río de los pájaros",
+   "Autora de prueba (ficticia)"
+  ],
+  [
+   "OB-1002",
+   "Huerta escolar paso a paso",
+   "Autor de prueba (ficticio)"
+  ],
+  [
+   "OB-1003",
+   "Diccionario 100% escolar",
+   "Equipo de prueba (ficticio)"
+  ],
+  [
+   "OB-1004",
+   "Juegos_de_patio",
+   "Autora de prueba (ficticia)"
+  ]
+ ],
+ "ediciones": [
+  [
+   "ED-1001",
+   "OB-1001",
+   "Editorial de prueba, 2020"
+  ],
+  [
+   "ED-1002",
+   "OB-1001",
+   "Editorial de prueba, 2024"
+  ],
+  [
+   "ED-1003",
+   "OB-1002",
+   "Editorial de prueba, 2022"
+  ],
+  [
+   "ED-1004",
+   "OB-1003",
+   "Editorial de prueba, 2019"
+  ],
+  [
+   "ED-1005",
+   "OB-1004",
+   "Editorial de prueba, 2021"
+  ]
+ ],
+ "ejemplares": [
+  [
+   "EJ-1001",
+   "ED-1001",
+   1
+  ],
+  [
+   "EJ-1002",
+   "ED-1001",
+   1
+  ],
+  [
+   "EJ-1003",
+   "ED-1001",
+   1
+  ],
+  [
+   "EJ-1004",
+   "ED-1001",
+   1
+  ],
+  [
+   "EJ-1005",
+   "ED-1002",
+   1
+  ],
+  [
+   "EJ-1006",
+   "ED-1003",
+   0
+  ],
+  [
+   "EJ-1007",
+   "ED-1004",
+   1
+  ],
+  [
+   "EJ-1008",
+   "ED-1005",
+   1
+  ],
+  [
+   "EJ-1009",
+   "ED-1003",
+   1
+  ],
+  [
+   "EJ-1010",
+   "ED-1003",
+   1
+  ],
+  [
+   "EJ-1011",
+   "ED-1003",
+   1
+  ],
+  [
+   "EJ-1012",
+   "ED-1003",
+   1
+  ]
+ ],
+ "lectores": [
+  [
+   "LE-1001",
+   "Lector de prueba 1 (ficticio)",
+   "estudiante",
+   "1.º BTI",
+   1
+  ],
+  [
+   "LE-1002",
+   "Lector de prueba 2 (ficticio)",
+   "estudiante",
+   "9.º grado",
+   1
+  ],
+  [
+   "LE-1003",
+   "Lector de prueba 3 (ficticio)",
+   "docente",
+   null,
+   1
+  ],
+  [
+   "LE-1004",
+   "Lector de prueba 4 (ficticio, egresado)",
+   "estudiante",
+   "3.º BTI",
+   0
+  ],
+  [
+   "LE-1005",
+   "Lector de prueba 5 (ficticio)",
+   "estudiante",
+   "2.º BTI",
+   1
+  ]
+ ],
+ "prestamos": [
+  [
+   "EJ-1001",
+   "LE-1001",
+   "1.º BTI",
+   "2026-05-04",
+   "2026-05-11",
+   null
+  ],
+  [
+   "EJ-1002",
+   "LE-1002",
+   "9.º grado",
+   "2026-05-05",
+   "2026-05-12",
+   null
+  ],
+  [
+   "EJ-1003",
+   "LE-1002",
+   "9.º grado",
+   "2026-05-06",
+   "2026-05-13",
+   null
+  ],
+  [
+   "EJ-1009",
+   "LE-1003",
+   null,
+   "2026-05-04",
+   "2026-05-11",
+   null
+  ],
+  [
+   "EJ-1010",
+   "LE-1003",
+   null,
+   "2026-05-04",
+   "2026-05-11",
+   null
+  ],
+  [
+   "EJ-1011",
+   "LE-1003",
+   null,
+   "2026-05-05",
+   "2026-05-12",
+   null
+  ],
+  [
+   "EJ-1012",
+   "LE-1003",
+   null,
+   "2026-05-05",
+   "2026-05-12",
+   null
+  ],
+  [
+   "EJ-1006",
+   "LE-1004",
+   "3.º BTI",
+   "2026-03-02",
+   "2026-03-09",
+   "2026-03-06"
+  ],
+  [
+   "EJ-1005",
+   "LE-1005",
+   "1.º BTI",
+   "2026-04-06",
+   "2026-04-13",
+   "2026-04-10"
+  ]
+ ],
+ "fecha_referencia": "2026-05-12",
+ "manual": [
+  [
+   "OA-02",
+   [
+    "OB-1005",
+    "Mapas del barrio",
+    "Autora de prueba (ficticia)",
+    "ED-1006",
+    "Editorial de prueba, 2023"
+   ],
+   "MA-04"
+  ],
+  [
+   "OA-01",
+   [
+    "EJ-1013",
+    "ED-1006"
+   ],
+   "MA-01"
+  ],
+  [
+   "OA-01",
+   [
+    "EJ-1014",
+    "ED-1006"
+   ],
+   "MA-01"
+  ],
+  [
+   "OA-03",
+   [
+    "LE-1006",
+    "Lector de prueba 6 (ficticio)",
+    "estudiante",
+    "8.º grado"
+   ],
+   "MA-06"
+  ]
+ ],
+ "esperado": {
+  "obras": 4,
+  "ediciones": 5,
+  "ejemplares": 12,
+  "lectores": 5,
+  "prestamos": 9,
+  "prestamos_activos": 7,
+  "activos_por_lector": {
+   "LE-1001": 1,
+   "LE-1002": 2,
+   "LE-1003": 4,
+   "LE-1004": 0,
+   "LE-1005": 0
+  },
+  "ejemplares_y_disponibles_por_obra": {
+   "OB-1001": [
+    5,
+    2
+   ],
+   "OB-1002": [
+    4,
+    0
+   ],
+   "OB-1003": [
+    1,
+    1
+   ],
+   "OB-1004": [
+    1,
+    1
+   ]
+  }
+ }
+}
