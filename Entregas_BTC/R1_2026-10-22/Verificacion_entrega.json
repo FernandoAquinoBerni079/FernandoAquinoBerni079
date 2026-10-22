@@ -1,0 +1,32 @@
+[
+  {
+    "archivo": "Informatica_2_BTC_Correcciones_R1.zip",
+    "bytes": 1948406,
+    "sha256": "ebbb4e6afb5025ea5cc2437b2dc569ffc41ffe371d694a1f3f6b69597e23e464"
+  },
+  {
+    "archivo": "Informatica_3_BTC_Correcciones_R1.zip",
+    "bytes": 3063803,
+    "sha256": "a3cd813133f2dc1c08be0e22e5520b5b1653d13ea507b5558cd2a2b75d18b84c"
+  },
+  {
+    "archivo": "Imagenes_2_BTC_13_Figuras.zip",
+    "bytes": 16767018,
+    "sha256": "5ca923bcb3f2d6dd5281deba467e0d03e993fd724375c80ae2d86994ea493ef5"
+  },
+  {
+    "archivo": "Imagenes_3_BTC_20_Figuras.zip",
+    "bytes": 26679800,
+    "sha256": "4c17f214cb5c35ef979026c052b7cc5af2a71822383c7458cd0001087247ca59"
+  },
+  {
+    "archivo": "Bitacora_correcciones_BTC_R1.md",
+    "bytes": 11070,
+    "sha256": "931ba535900cc5c9a46294bef697470238d221b9bbcd80e45c4a7d22d21db8b3"
+  },
+  {
+    "archivo": "Control_de_archivos_R1.csv",
+    "bytes": 1211,
+    "sha256": "3fe95e956501ef378a55c9e2993ba8cfec44ce9c1dedcaa10728f7d55fe24a68"
+  }
+]
