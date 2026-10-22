@@ -1,0 +1,700 @@
+{
+ "cambios": [
+  {
+   "documento": "Tomo",
+   "antes": "Revisión R2, 22 de octubre de 2026.",
+   "despues": "Revisión R3, 22 de octubre de 2026.",
+   "apariciones": 1,
+   "motivo": "Identificación de la versión"
+  },
+  {
+   "documento": "Tomo",
+   "antes": "4.2 Proponé un nombre correcto para el libro de sueldos del estudio de este año y justificalo.",
+   "despues": "4.2 Si el estudio quisiera llevar los sueldos de 2027 en un libro aparte, ¿qué nombre le pondrías? Justificalo.",
+   "apariciones": 1,
+   "motivo": "R3-2-03 (O-2-01): en el caso, Sueldos es una hoja del libro Honorarios_Arandu_2026, no un libro propio"
+  },
+  {
+   "documento": "Tomo",
+   "antes": "Es la puerta de entrada a las planillas que deciden.",
+   "despues": "Es la puerta de entrada a las planillas que deciden. Con solo dos resultados posibles, este primer ejemplo también rotularía como SIMPLE a los clientes GENERAL; para tres categorías hace falta el SI anidado del párrafo siguiente.",
+   "apariciones": 1,
+   "motivo": "R3-2-06 (O-2-04): el ejemplo de dos salidas no alcanza para tres categorías y conviene decirlo"
+  },
+  {
+   "documento": "Tomo",
+   "antes": "Figuras 1 y 2 R2",
+   "despues": "Figuras 1 y 2 R3",
+   "apariciones": 2,
+   "motivo": "R3-2-02 (O-2-05): ícono neutro en la Figura 1 · R3-2-04: la celda B3 de la Figura 2 muestra un régimen, no un importe"
+  },
+  {
+   "documento": "Laboratorio",
+   "antes": "Revisión R2, 22 de octubre de 2026.",
+   "despues": "Revisión R3, 22 de octubre de 2026.",
+   "apariciones": 1,
+   "motivo": "Identificación de la versión"
+  },
+  {
+   "documento": "Laboratorio",
+   "antes": "7. Escribí un párrafo breve, como si fuera la respuesta del estudio a un cliente, explicando desde cuándo debe emitir electrónicamente y cómo lo verifica.",
+   "despues": "7. Escribí un párrafo breve, como si fuera la respuesta del estudio a un cliente, explicando desde cuándo debe emitir electrónicamente y cómo lo verifica: en el cronograma vigente del portal y en su buzón tributario Marandu.",
+   "apariciones": 1,
+   "motivo": "R3-2-07: el punto de control exige mencionar el buzón tributario, pero ningún paso lo pedía"
+  },
+  {
+   "documento": "Laboratorio",
+   "antes": "Figuras a 12 cm (Práctica 10: 8 cm; Práctica 14: 9,5 cm): textos de 4,5 a 6,6 pt",
+   "despues": "Figuras entre 15.5 y 15,5 cm; ningún texto de figura por debajo de 7 pt (detalle por figura en LEGIBILIDAD_R3_2BTC.md)",
+   "apariciones": 13,
+   "motivo": "R3-2-01: legibilidad; una práctica puede ocupar dos páginas antes que achicar la figura por debajo de 7 pt"
+  },
+  {
+   "documento": "Laboratorio",
+   "antes": "Prácticas 10 y 14 con un solo renglón de anotaciones",
+   "despues": "Tres renglones, como en las demás prácticas",
+   "apariciones": 4,
+   "motivo": "R3-2-01: no se recorta espacio de trabajo para que la práctica entre en una página"
+  },
+  {
+   "documento": "Plan_anual",
+   "antes": "Revisión R2, 22 de octubre de 2026.",
+   "despues": "Revisión R3, 22 de octubre de 2026.",
+   "apariciones": 1,
+   "motivo": "Identificación de la versión"
+  },
+  {
+   "documento": "Solucionario",
+   "antes": "Revisión R2, 22 de octubre de 2026.",
+   "despues": "Revisión R3, 22 de octubre de 2026.",
+   "apariciones": 1,
+   "motivo": "Identificación de la versión"
+  },
+  {
+   "documento": "Solucionario",
+   "antes": "4.2 Debe decir contenido y período, p. ej. Sueldos_Arandu_2026;",
+   "despues": "4.2 Debe decir contenido y período, p. ej. Sueldos_Arandu_2027;",
+   "apariciones": 1,
+   "motivo": "R3-2-03: clave sincronizada con la nueva consigna"
+  },
+  {
+   "documento": "Solucionario",
+   "antes": "Dos bloques de orientaciones de desafíos que se repetían (P4 — P5 — P9 — P10  P14  P16  P17  P18 )",
+   "despues": "Un solo bloque «Orientaciones sobre los desafíos» con las veinte prácticas",
+   "apariciones": 9,
+   "motivo": "R3-2-05 (O-2-02): toda orientación eliminada figura con igual o mayor detalle en el bloque que queda"
+  },
+  {
+   "documento": "Planes_de_clase",
+   "antes": "Revisión R2, 22 de octubre de 2026.",
+   "despues": "Revisión R3, 22 de octubre de 2026.",
+   "apariciones": 1,
+   "motivo": "Identificación de la versión"
+  },
+  {
+   "documento": "Planes_de_clase",
+   "antes": "Plan 16: instrumento «Evaluación de la Unidad 3», que se aplica en el Plan 17",
+   "despues": "Plan 16: lista de cotejo de la hoja Resultado",
+   "apariciones": 1,
+   "motivo": "R3-2-08 (O-2-03): el instrumento corresponde a lo que se hace en ese encuentro"
+  },
+  {
+   "documento": "Laboratorio",
+   "antes": "Revisión R2, 22 de octubre de 2026.",
+   "despues": "Revisión R3, 22 de octubre de 2026.",
+   "apariciones": 1,
+   "motivo": "Identificación de la versión"
+  },
+  {
+   "documento": "Laboratorio",
+   "antes": "7. Escribí un párrafo breve, como si fuera la respuesta del estudio a un cliente, explicando desde cuándo debe emitir electrónicamente y cómo lo verifica.",
+   "despues": "7. Escribí un párrafo breve, como si fuera la respuesta del estudio a un cliente, explicando desde cuándo debe emitir electrónicamente y cómo lo verifica: en el cronograma vigente del portal y en su buzón tributario Marandu.",
+   "apariciones": 1,
+   "motivo": "R3-2-07: el punto de control exige mencionar el buzón tributario, pero ningún paso lo pedía"
+  },
+  {
+   "documento": "Laboratorio",
+   "antes": "Figuras a 12 cm (Práctica 10: 8 cm; Práctica 14: 9,5 cm): textos de 4,5 a 6,6 pt",
+   "despues": "Figuras entre 12.0 y 15,5 cm; ningún texto de figura por debajo de 7 pt (detalle por figura en LEGIBILIDAD_R3_2BTC.md)",
+   "apariciones": 13,
+   "motivo": "R3-2-01: legibilidad; una práctica puede ocupar dos páginas antes que achicar la figura por debajo de 7 pt"
+  },
+  {
+   "documento": "Laboratorio",
+   "antes": "Prácticas 10 y 14 con un solo renglón de anotaciones",
+   "despues": "Tres renglones, como en las demás prácticas",
+   "apariciones": 4,
+   "motivo": "R3-2-01: no se recorta espacio de trabajo para que la práctica entre en una página"
+  }
+ ],
+ "indices": {
+  "Tomo": [
+   [
+    "Clase 1 · La planilla electrónica y su entorno",
+    5,
+    5
+   ],
+   [
+    "Clase 2 · Crear, guardar y abrir planillas; tipos de datos",
+    8,
+    8
+   ],
+   [
+    "Clase 3 · Formato de celdas, filas y columnas",
+    11,
+    11
+   ],
+   [
+    "Evaluación de la Unidad 1 · La planilla electrónica del estudio",
+    13,
+    13
+   ],
+   [
+    "Clase 4 · Fórmulas: la planilla calcula por vos",
+    15,
+    15
+   ],
+   [
+    "Clase 5 · Referencias relativas y absolutas; fecha y hora",
+    18,
+    18
+   ],
+   [
+    "Clase 6 · Hojas configuradas: visualización, encabezado y pie",
+    21,
+    21
+   ],
+   [
+    "Evaluación de la Unidad 2 · Fórmulas, referencias y configuración de hojas",
+    23,
+    23
+   ],
+   [
+    "Clase 7 · Funciones matemáticas y estadísticas",
+    25,
+    25
+   ],
+   [
+    "Clase 8 · Gráficos: crear, editar y elegir el tipo",
+    28,
+    28
+   ],
+   [
+    "Clase 9 · Objetos, filtros y orden: la planilla que responde",
+    31,
+    31
+   ],
+   [
+    "Clase 10 · Imprimir e informar: del dato al informe financiero",
+    33,
+    33
+   ],
+   [
+    "Evaluación de la Unidad 3 · Informes financieros con datos estadísticos y gráficos",
+    36,
+    36
+   ],
+   [
+    "Evaluación de la Etapa 1 · Unidades 1 a 3 · Planilla electrónica e informes financieros",
+    38,
+    38
+   ],
+   [
+    "Clase 11 · El editor de imágenes vectoriales y su entorno",
+    40,
+    40
+   ],
+   [
+    "Clase 12 · Objetos: relleno, bordes y texto",
+    43,
+    43
+   ],
+   [
+    "Clase 13 · Importar y editar imágenes; nodos y trazados",
+    45,
+    45
+   ],
+   [
+    "Clase 14 · Agrupar, soldar, alinear y exportar el pack promocional",
+    48,
+    48
+   ],
+   [
+    "Evaluación de la Unidad 4 · Editor de imágenes vectoriales y plan promocional",
+    51,
+    51
+   ],
+   [
+    "Clase 15 · Formato condicional: la planilla que avisa",
+    53,
+    53
+   ],
+   [
+    "Clase 16 · Funciones lógicas y de texto",
+    55,
+    55
+   ],
+   [
+    "Clase 17 · Tablas dinámicas y gráficos dinámicos",
+    58,
+    58
+   ],
+   [
+    "Clase 18 · Proteger, vincular y gestionar la base de datos",
+    61,
+    61
+   ],
+   [
+    "Evaluación de la Unidad 5 · Planilla avanzada administrativo-contable",
+    64,
+    64
+   ],
+   [
+    "Clase 19 · El portal de la DNIT: servicios al contribuyente",
+    66,
+    66
+   ],
+   [
+    "Clase 20 · Facturación electrónica y normativa vigente",
+    69,
+    69
+   ],
+   [
+    "Evaluación de la Unidad 6 · El portal tributario de la DNIT",
+    72,
+    72
+   ],
+   [
+    "Evaluación de la Etapa 2 · Unidades 4 a 6 · Diseño vectorial, planilla avanzada y por…",
+    74,
+    74
+   ]
+  ],
+  "Laboratorio": [
+   [
+    "Práctica 1 · Reconocer el entorno y crear el libro del estudio",
+    4,
+    4
+   ],
+   [
+    "Práctica 2 · Cargar la cartera de 16 clientes",
+    6,
+    6
+   ],
+   [
+    "Práctica 3 · Dar formato profesional a la hoja Honorarios",
+    7,
+    7
+   ],
+   [
+    "Práctica 4 · Primera fórmula: el total mensual y el anual",
+    8,
+    8
+   ],
+   [
+    "Práctica 5 · La planilla de sueldos con referencia absoluta",
+    9,
+    9
+   ],
+   [
+    "Práctica 6 · Configurar las hojas para imprimir",
+    10,
+    10
+   ],
+   [
+    "Práctica 7 · Las cinco funciones sobre la cartera",
+    11,
+    11
+   ],
+   [
+    "Práctica 8 · Gráficos de la cartera por régimen",
+    12,
+    12
+   ],
+   [
+    "Práctica 9 · Ordenar y filtrar la cartera",
+    13,
+    13
+   ],
+   [
+    "Práctica 10 · Armar e imprimir el informe financiero anual",
+    14,
+    14
+   ],
+   [
+    "Práctica 11 · Explorar el editor vectorial y configurar la página",
+    16,
+    16
+   ],
+   [
+    "Práctica 12 · La tarjeta personal del estudio",
+    17,
+    17
+   ],
+   [
+    "Práctica 13 · El logo: nodos, curvas y transformaciones",
+    18,
+    18
+   ],
+   [
+    "Práctica 14 · Agrupar, soldar, alinear y exportar el pack",
+    19,
+    19
+   ],
+   [
+    "Práctica 15 · El semáforo de cobranzas",
+    21,
+    21
+   ],
+   [
+    "Práctica 16 · Reproducir las categorías del caso con SI anidado",
+    22,
+    22
+   ],
+   [
+    "Práctica 17 · Tabla dinámica y gráfico dinámico de la cartera",
+    23,
+    23
+   ],
+   [
+    "Práctica 18 · Proteger, nombrar rangos y vincular hojas",
+    24,
+    24
+   ],
+   [
+    "Práctica 19 · Navegación guiada por el portal de la DNIT",
+    25,
+    25
+   ],
+   [
+    "Práctica 20 · El circuito de la factura electrónica",
+    26,
+    26
+   ]
+  ],
+  "Solucionario": [
+   [
+    "Clase 1 · La planilla electrónica y su entorno",
+    5,
+    5
+   ],
+   [
+    "Clase 2 · Crear, guardar y abrir planillas; tipos de datos",
+    5,
+    5
+   ],
+   [
+    "Clase 3 · Formato de celdas, filas y columnas",
+    6,
+    6
+   ],
+   [
+    "Clase 4 · Fórmulas: la planilla calcula por vos",
+    6,
+    6
+   ],
+   [
+    "Clase 5 · Referencias relativas y absolutas; fecha y hora",
+    7,
+    7
+   ],
+   [
+    "Clase 6 · Hojas configuradas: visualización, encabezado y pie",
+    7,
+    7
+   ],
+   [
+    "Clase 7 · Funciones matemáticas y estadísticas",
+    7,
+    7
+   ],
+   [
+    "Clase 8 · Gráficos: crear, editar y elegir el tipo",
+    8,
+    8
+   ],
+   [
+    "Clase 9 · Objetos, filtros y orden: la planilla que responde",
+    9,
+    9
+   ],
+   [
+    "Clase 10 · Imprimir e informar: del dato al informe financiero",
+    9,
+    9
+   ],
+   [
+    "Clase 11 · El editor de imágenes vectoriales y su entorno",
+    9,
+    9
+   ],
+   [
+    "Clase 12 · Objetos: relleno, bordes y texto",
+    10,
+    10
+   ],
+   [
+    "Clase 13 · Importar y editar imágenes; nodos y trazados",
+    10,
+    10
+   ],
+   [
+    "Clase 14 · Agrupar, soldar, alinear y exportar el pack promocional",
+    11,
+    11
+   ],
+   [
+    "Clase 15 · Formato condicional: la planilla que avisa",
+    11,
+    11
+   ],
+   [
+    "Clase 16 · Funciones lógicas y de texto",
+    12,
+    12
+   ],
+   [
+    "Clase 17 · Tablas dinámicas y gráficos dinámicos",
+    12,
+    12
+   ],
+   [
+    "Clase 18 · Proteger, vincular y gestionar la base de datos",
+    13,
+    13
+   ],
+   [
+    "Clase 19 · El portal de la DNIT: servicios al contribuyente",
+    13,
+    13
+   ],
+   [
+    "Clase 20 · Facturación electrónica y normativa vigente",
+    13,
+    13
+   ],
+   [
+    "Evaluación de la Unidad 1 · La planilla electrónica del estudio",
+    15,
+    15
+   ],
+   [
+    "Evaluación de la Unidad 2 · Fórmulas, referencias y configuración de hojas",
+    15,
+    15
+   ],
+   [
+    "Evaluación de la Unidad 3 · Informes financieros con datos estadísticos y gráficos",
+    16,
+    16
+   ],
+   [
+    "Evaluación de la Unidad 4 · Editor de imágenes vectoriales y plan promocional",
+    16,
+    16
+   ],
+   [
+    "Evaluación de la Unidad 5 · Planilla avanzada administrativo-contable",
+    17,
+    17
+   ],
+   [
+    "Evaluación de la Unidad 6 · El portal tributario de la DNIT",
+    17,
+    17
+   ],
+   [
+    "Evaluación de la Etapa 1",
+    19,
+    19
+   ],
+   [
+    "Evaluación de la Etapa 2",
+    19,
+    19
+   ]
+  ],
+  "Planes_de_clase": [
+   [
+    "Plan de Clase N.º 1 — Entorno del programa y elementos de la hoja de cálculo",
+    2,
+    2
+   ],
+   [
+    "Plan de Clase N.º 2 — Creación y guardado de planillas; introducción y tipos de datos",
+    3,
+    3
+   ],
+   [
+    "Plan de Clase N.º 3 — Continuación práctica de la Clase 2: Cargar la cartera de 16 cl…",
+    4,
+    4
+   ],
+   [
+    "Plan de Clase N.º 4 — Formato de celdas, filas y columnas",
+    5,
+    5
+   ],
+   [
+    "Plan de Clase N.º 5 — Continuación práctica de la Clase 3: Dar formato profesional a…",
+    6,
+    6
+   ],
+   [
+    "Plan de Clase N.º 6 — Aplicación de fórmulas y operadores aritméticos",
+    7,
+    7
+   ],
+   [
+    "Plan de Clase N.º 7 — Celdas absolutas y relativas; funciones de fecha y hora",
+    8,
+    8
+   ],
+   [
+    "Plan de Clase N.º 8 — Continuación práctica de la Clase 5: La planilla de sueldos con…",
+    9,
+    9
+   ],
+   [
+    "Plan de Clase N.º 9 — Configuración y edición de las hojas; opciones de visualización…",
+    10,
+    10
+   ],
+   [
+    "Plan de Clase N.º 10 — Continuación práctica de la Clase 6: Configurar las hojas para…",
+    11,
+    11
+   ],
+   [
+    "Plan de Clase N.º 11 — Fórmulas matemáticas y estadísticas",
+    12,
+    12
+   ],
+   [
+    "Plan de Clase N.º 12 — Continuación práctica de la Clase 7: Las cinco funciones sobre…",
+    13,
+    13
+   ],
+   [
+    "Plan de Clase N.º 13 — Creación y edición de gráficos; tipos de gráficos",
+    14,
+    14
+   ],
+   [
+    "Plan de Clase N.º 14 — Continuación práctica de la Clase 8: Gráficos de la cartera po…",
+    15,
+    15
+   ],
+   [
+    "Plan de Clase N.º 15 — Inserción de objetos; filtrar y ordenar datos",
+    16,
+    16
+   ],
+   [
+    "Plan de Clase N.º 16 — Impresión de planillas y gráficos; informes financieros, balan…",
+    17,
+    17
+   ],
+   [
+    "Plan de Clase N.º 17 — Continuación práctica de la Clase 10: Armar e imprimir el info…",
+    18,
+    18
+   ],
+   [
+    "Plan de Clase N.º 18 — Evaluación de la Etapa 1",
+    19,
+    19
+   ],
+   [
+    "Plan de Clase N.º 19 — Entorno del programa y configuración de página",
+    20,
+    20
+   ],
+   [
+    "Plan de Clase N.º 20 — Insertar objeto, relleno y bordes, formato y tipos de texto",
+    21,
+    21
+   ],
+   [
+    "Plan de Clase N.º 21 — Continuación práctica de la Clase 12: La tarjeta personal del…",
+    22,
+    22
+   ],
+   [
+    "Plan de Clase N.º 22 — Importar y editar imágenes; edición de nodos",
+    23,
+    23
+   ],
+   [
+    "Plan de Clase N.º 23 — Continuación práctica de la Clase 13: El logo: nodos, curvas y…",
+    24,
+    24
+   ],
+   [
+    "Plan de Clase N.º 24 — Agrupar, soldar y alinear objetos; luces y sombras; exportació…",
+    25,
+    25
+   ],
+   [
+    "Plan de Clase N.º 25 — Continuación práctica de la Clase 14: Agrupar, soldar, alinear…",
+    26,
+    26
+   ],
+   [
+    "Plan de Clase N.º 26 — Formato condicional",
+    27,
+    27
+   ],
+   [
+    "Plan de Clase N.º 27 — Fórmulas avanzadas, lógicas y de texto",
+    28,
+    28
+   ],
+   [
+    "Plan de Clase N.º 28 — Continuación práctica de la Clase 16: Reproducir las categoría…",
+    29,
+    29
+   ],
+   [
+    "Plan de Clase N.º 29 — Tabla dinámica y gráficos dinámicos",
+    30,
+    30
+   ],
+   [
+    "Plan de Clase N.º 30 — Continuación práctica de la Clase 17: Tabla dinámica y gráfico…",
+    31,
+    31
+   ],
+   [
+    "Plan de Clase N.º 31 — Protección de planillas, hojas y celdas; hipervínculos, nombre…",
+    32,
+    32
+   ],
+   [
+    "Plan de Clase N.º 32 — Continuación práctica de la Clase 18: Proteger, nombrar rangos…",
+    33,
+    33
+   ],
+   [
+    "Plan de Clase N.º 33 — Portal de la DNIT: servicios al contribuyente y sistema Marangatú",
+    34,
+    34
+   ],
+   [
+    "Plan de Clase N.º 34 — Factura electrónica (e-Kuatia / e-Kuatia’i) y normativas legal…",
+    35,
+    35
+   ],
+   [
+    "Plan de Clase N.º 35 — Continuación práctica de la Clase 20: El circuito de la factura…",
+    36,
+    36
+   ],
+   [
+    "Plan de Clase N.º 36 — Evaluación de la Etapa 2",
+    37,
+    37
+   ]
+  ]
+ }
+}
