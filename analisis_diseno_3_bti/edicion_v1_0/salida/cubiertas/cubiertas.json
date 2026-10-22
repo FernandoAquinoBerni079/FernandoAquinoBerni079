@@ -1,0 +1,27 @@
+{
+ "libro": {
+  "paginas_interior": 211,
+  "hojas": 106,
+  "lomo_mm": 10.6
+ },
+ "cuaderno": {
+  "paginas_interior": 36,
+  "hojas": 18,
+  "lomo_mm": 1.8
+ },
+ "guia": {
+  "paginas_interior": 109,
+  "hojas": 55,
+  "lomo_mm": 5.5
+ },
+ "plan_anual": {
+  "paginas_interior": 23,
+  "hojas": 12,
+  "lomo_mm": 1.2
+ },
+ "planes": {
+  "paginas_interior": 73,
+  "hojas": 37,
+  "lomo_mm": 3.7
+ }
+}

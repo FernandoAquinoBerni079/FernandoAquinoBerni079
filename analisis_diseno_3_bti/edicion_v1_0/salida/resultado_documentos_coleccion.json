@@ -1,0 +1,71 @@
+{
+ "documentos": {
+  "libro": {
+   "paginas": 211,
+   "renglones_agregados": null
+  },
+  "guia": {
+   "paginas": 109,
+   "renglones_agregados": null
+  },
+  "cuaderno": {
+   "paginas": 36,
+   "renglones_agregados": [
+    108,
+    216
+   ]
+  }
+ },
+ "controles": [
+  {
+   "documento": "libro",
+   "detalle": "mismas 211 páginas y mismo texto desde la página 2",
+   "resultado": "correcto"
+  },
+  {
+   "documento": "guia",
+   "detalle": "mismas 109 páginas y mismo texto desde la página 2",
+   "resultado": "correcto"
+  },
+  {
+   "documento": "cuaderno",
+   "detalle": "mismo texto de consignas, en el mismo orden (sin renglones ni números de página)",
+   "resultado": "correcto"
+  },
+  {
+   "documento": "cuaderno",
+   "detalle": "ninguna página empieza con un renglón de respuesta separado de su consigna",
+   "resultado": "correcto"
+  },
+  {
+   "documento": "cuaderno",
+   "detalle": "324 renglones en el DOCX y 324 en el PDF (ninguno perdido)",
+   "resultado": "correcto"
+  },
+  {
+   "documento": "cuaderno",
+   "detalle": "distancia entre renglones medida en el PDF: 8.0 mm (mediana)",
+   "resultado": "correcto"
+  },
+  {
+   "documento": "cuaderno",
+   "detalle": "índice: las 22 entradas (16 prácticas y 6 unidades) en la página que indican",
+   "resultado": "correcto"
+  },
+  {
+   "documento": "libro",
+   "detalle": "página 1 sin textos de la versión de auditoría y con el aviso de propuesta institucional",
+   "resultado": "correcto"
+  },
+  {
+   "documento": "guia",
+   "detalle": "página 1 sin textos de la versión de auditoría y con el aviso de propuesta institucional",
+   "resultado": "correcto"
+  },
+  {
+   "documento": "cuaderno",
+   "detalle": "página 1 sin textos de la versión de auditoría y con el aviso de propuesta institucional",
+   "resultado": "correcto"
+  }
+ ]
+}

@@ -1,0 +1,367 @@
+{
+ "controles": {
+  "A": [
+   {
+    "resultado": "correcto",
+    "detalle": "coleccion/ y las carpetas de los seis lotes, sin cambios respecto del commit 88c5cb5 (git diff)"
+   },
+   {
+    "resultado": "correcto",
+    "detalle": "git status: los únicos archivos nuevos o cambiados están en edicion_v1_0/ y ENTREGA_COMERCIAL_FINAL/"
+   },
+   {
+    "resultado": "correcto",
+    "detalle": "La planificación v0.1, la colección v0.2, los lotes y las otras asignaturas no cambiaron desde 0b9aed3"
+   },
+   {
+    "resultado": "correcto",
+    "detalle": "Los seis documentos leídos (libro, guía y cuaderno, DOCX y PDF) tienen el SHA-256 del manifiesto de la v0.2"
+   },
+   {
+    "resultado": "correcto",
+    "detalle": "Informe de Work v0.1: SHA-256 3d4f5ab9…065069a"
+   },
+   {
+    "resultado": "correcto",
+    "detalle": "Diseño Curricular del MEC: 111 páginas y SHA-256 a0052cc50782…"
+   },
+   {
+    "resultado": "correcto",
+    "detalle": "Las 11 citas del MEC son textuales y están en la página indicada"
+   },
+   {
+    "resultado": "correcto",
+    "detalle": "El Diseño Curricular no nombra la asignatura «Análisis y Diseño de Sistemas» ni fija la duración de la hora cátedra (se citan como no establecidas)"
+   }
+  ],
+  "B": [
+   {
+    "resultado": "correcto",
+    "detalle": "Las 18 fichas leídas del libro aprobado coinciden con las fuentes de los lotes (título, encuentros, capacidad e indicadores)"
+   },
+   {
+    "resultado": "correcto",
+    "detalle": "Los 90 indicadores de las 18 fichas se evidencian en al menos un encuentro de su capítulo"
+   },
+   {
+    "resultado": "correcto",
+    "detalle": "Cada encuentro evidencia de 2 a 4 indicadores de la ficha de su capítulo"
+   },
+   {
+    "resultado": "correcto",
+    "detalle": "Los indicadores de cada plan son textuales de la ficha (98 citas)"
+   },
+   {
+    "resultado": "correcto",
+    "detalle": "El plan anual incluye textuales los 90 indicadores de las fichas"
+   },
+   {
+    "resultado": "correcto",
+    "detalle": "Cada plan cita la capacidad de su ficha, textual y con su rótulo de propuesta institucional"
+   },
+   {
+    "resultado": "correcto",
+    "detalle": "Todos los rótulos de capacidad dicen que no son capacidades oficiales del MEC"
+   },
+   {
+    "resultado": "correcto",
+    "detalle": "Ningún texto presenta capacidades, competencias o programa como oficiales del MEC"
+   },
+   {
+    "resultado": "correcto",
+    "detalle": "Los 108 tramos de las 36 secuencias de la guía están textuales en los planes"
+   },
+   {
+    "resultado": "correcto",
+    "detalle": "Foco y evidencia de cada encuentro iguales a Work §5.2, en los planes"
+   },
+   {
+    "resultado": "correcto",
+    "detalle": "Evidencias del CSV del plan preliminar iguales a la transcripción de Work §5.2"
+   },
+   {
+    "resultado": "correcto",
+    "detalle": "Foco y evidencia de los 36 encuentros están textuales en el PDF del informe de Work"
+   },
+   {
+    "resultado": "correcto",
+    "detalle": "Competencia y capacidades C1 a C10 textuales del informe de Work"
+   },
+   {
+    "resultado": "correcto",
+    "detalle": "El plan anual presenta la competencia y las diez capacidades propuestas"
+   },
+   {
+    "resultado": "correcto",
+    "detalle": "Las consignas de las actividades citadas son las del libro (primera oración, textual)"
+   },
+   {
+    "resultado": "correcto",
+    "detalle": "Cada consigna citada está en el libro aprobado"
+   },
+   {
+    "resultado": "correcto",
+    "detalle": "Las ideas clave son los recuadros «Concepto clave» del libro, textuales (21)"
+   },
+   {
+    "resultado": "correcto",
+    "detalle": "Sin unidades, capítulos, encuentros ni prácticas que no estén en la colección"
+   }
+  ],
+  "C": [
+   {
+    "resultado": "correcto",
+    "detalle": "Inicio + desarrollo + cierre = 5 HC y suma de los tramos de la guía = 5 HC en 35 planes"
+   },
+   {
+    "resultado": "correcto",
+    "detalle": "El Encuentro 35 reparte sus 5 HC con la planilla de tiempos de la guía (dos tramos «según la planilla»)"
+   },
+   {
+    "resultado": "correcto",
+    "detalle": "Apertura de 0,5 HC solo en los 7 encuentros declarados (18, 19, 26, 30, 32, 34 y 36), cuyo primer tramo supera 1,5 HC"
+   },
+   {
+    "resultado": "correcto",
+    "detalle": "Ningún inicio dura más de 1,5 HC"
+   },
+   {
+    "resultado": "correcto",
+    "detalle": "Los complementos (Prácticas 9 y 13) quedan fuera de las 5 HC"
+   },
+   {
+    "resultado": "correcto",
+    "detalle": "Distribución v2.1: 5 HC por encuentro y 180 HC en el año"
+   },
+   {
+    "resultado": "correcto",
+    "detalle": "HC por unidad: I 30, II 30, III 30, IV 40, V 30, VI 20"
+   },
+   {
+    "resultado": "correcto",
+    "detalle": "Cada plan muestra la distribución por categoría de su encuentro, como la guía"
+   },
+   {
+    "resultado": "correcto",
+    "detalle": "Ningún plan convierte HC a minutos ni fija fechas (fuera de los textos de la guía, que estiman «unos 10 minutos» por presentación)"
+   }
+  ],
+  "D": [
+   {
+    "resultado": "correcto",
+    "detalle": "36 planes, numerados del 1 al 36 sin saltos y en orden de página"
+   },
+   {
+    "resultado": "correcto",
+    "detalle": "Cada plan empieza en página nueva, con su título arriba"
+   },
+   {
+    "resultado": "correcto",
+    "detalle": "Cada plan dice «Plan de Clase N.º n de 36» y «Encuentro n de 36»"
+   },
+   {
+    "resultado": "correcto",
+    "detalle": "Los 36 planes tienen sus 12 bloques (identificación, capacidades, indicadores, momentos, orientaciones, recursos, alternativa sin computadoras, evaluación, vinculación, observaciones) en sus propias páginas"
+   },
+   {
+    "resultado": "correcto",
+    "detalle": "Campos editables (controles de contenido): institución, año, docente, sección y fecha en cada plan (184)"
+   },
+   {
+    "resultado": "correcto",
+    "detalle": "La matriz de correspondencia del plan anual tiene los 36 encuentros con el número y la página de su plan"
+   },
+   {
+    "resultado": "correcto",
+    "detalle": "Las páginas de los planes citadas en el plan anual coinciden con el PDF de los planes"
+   }
+  ],
+  "E": [
+   {
+    "resultado": "correcto",
+    "detalle": "Cada plan tiene al menos un procedimiento y un instrumento con su página de la guía"
+   },
+   {
+    "resultado": "correcto",
+    "detalle": "Hitos H1 a H6 en los Encuentros 6, 12, 18, 26, 32 y 34, cada uno con rúbrica, planilla y evidencias 60/40"
+   },
+   {
+    "resultado": "correcto",
+    "detalle": "Cada práctica en clase tiene su lista de cotejo (16 encuentros con práctica)"
+   },
+   {
+    "resultado": "correcto",
+    "detalle": "Las 16 prácticas del libro (1 a 15 y 17) están en algún plan; los Capítulos 16 y 18 no tienen práctica"
+   },
+   {
+    "resultado": "correcto",
+    "detalle": "Las 17 evaluaciones escritas de capítulo figuran como opcionales, sin tiempo asignado (el Capítulo 18 no tiene)"
+   },
+   {
+    "resultado": "correcto",
+    "detalle": "Encuentro 1: diagnóstico de entrada sin nota; 35: defensa con rúbrica de producto y planilla de defensa; 36: fichas y registro de recuperación"
+   }
+  ],
+  "F": [
+   {
+    "resultado": "correcto",
+    "detalle": "Libro: las 331 referencias de los planes (secciones, tablas, figuras, códigos, ejemplos, conceptos) están en la página que indican"
+   },
+   {
+    "resultado": "correcto",
+    "detalle": "Libro: la primera página citada de cada encuentro es la de su título"
+   },
+   {
+    "resultado": "correcto",
+    "detalle": "Libro: la página de las actividades de cada encuentro"
+   },
+   {
+    "resultado": "correcto",
+    "detalle": "Guía: la secuencia y las claves de los 36 encuentros, en la página citada"
+   },
+   {
+    "resultado": "correcto",
+    "detalle": "Guía: los 79 instrumentos citados, en la página que indican"
+   },
+   {
+    "resultado": "correcto",
+    "detalle": "Guía: las 20 secciones previas citadas (preparación, entorno, reservados, tiempos), en su página"
+   },
+   {
+    "resultado": "correcto",
+    "detalle": "Cuaderno y libro: cada práctica citada, en su página"
+   },
+   {
+    "resultado": "correcto",
+    "detalle": "Libro: las seis revisiones de hito, en su página"
+   },
+   {
+    "resultado": "correcto",
+    "detalle": "Libro: los 18 recuadros «Para repasar» y «Si el calendario se acorta», en su página"
+   },
+   {
+    "resultado": "correcto",
+    "detalle": "Toda mención a un encuentro remite a los Encuentros 1 a 36"
+   }
+  ],
+  "G": [
+   {
+    "resultado": "correcto",
+    "detalle": "plan_anual: 23 páginas, todas en oficio 21,59 × 33,02 cm (vertical, o horizontal en los anexos)"
+   },
+   {
+    "resultado": "correcto",
+    "detalle": "plan_anual: ninguna página en blanco"
+   },
+   {
+    "resultado": "correcto",
+    "detalle": "plan_anual: letra de 8.0 pt como mínimo (no menos de 8 pt)"
+   },
+   {
+    "resultado": "correcto",
+    "detalle": "plan_anual: ningún texto a menos de 5 mm del borde del papel"
+   },
+   {
+    "resultado": "correcto",
+    "detalle": "plan_anual: fuentes incrustadas (Carlito-Bold, Carlito-Italic, Carlito-Regular)"
+   },
+   {
+    "resultado": "correcto",
+    "detalle": "plan_anual: ningún título queda solo al pie de una página"
+   },
+   {
+    "resultado": "correcto",
+    "detalle": "planes: 73 páginas, todas en oficio 21,59 × 33,02 cm (vertical, o horizontal en los anexos)"
+   },
+   {
+    "resultado": "correcto",
+    "detalle": "planes: ninguna página en blanco"
+   },
+   {
+    "resultado": "correcto",
+    "detalle": "planes: letra de 8.0 pt como mínimo (no menos de 8 pt)"
+   },
+   {
+    "resultado": "correcto",
+    "detalle": "planes: ningún texto a menos de 5 mm del borde del papel"
+   },
+   {
+    "resultado": "correcto",
+    "detalle": "planes: fuentes incrustadas (Carlito-Bold, Carlito-Italic, Carlito-Regular)"
+   },
+   {
+    "resultado": "correcto",
+    "detalle": "planes: ningún título queda solo al pie de una página"
+   },
+   {
+    "resultado": "correcto",
+    "detalle": "plan_anual: márgenes espejados declarados; interior 2,5 cm, exterior 1,8 cm, superior e inferior 1,5 cm"
+   },
+   {
+    "resultado": "correcto",
+    "detalle": "plan_anual: ningún tamaño de letra declarado menor de 8 pt en el DOCX"
+   },
+   {
+    "resultado": "correcto",
+    "detalle": "planes: márgenes espejados declarados; interior 2,5 cm, exterior 1,8 cm, superior e inferior 1,5 cm"
+   },
+   {
+    "resultado": "correcto",
+    "detalle": "planes: ningún tamaño de letra declarado menor de 8 pt en el DOCX"
+   },
+   {
+    "resultado": "correcto",
+    "detalle": "Planes de clase: de 1 a 3 páginas por plan (máximo 2)"
+   },
+   {
+    "resultado": "correcto",
+    "detalle": "Cada plan termina con sus firmas antes del plan siguiente"
+   }
+  ],
+  "H": [
+   {
+    "resultado": "correcto",
+    "detalle": "conjunto DR: ninguno de los 22 textos o códigos reservados está en la planificación"
+   },
+   {
+    "resultado": "correcto",
+    "detalle": "conjunto DR: la carpeta privada está fuera del repositorio"
+   },
+   {
+    "resultado": "correcto",
+    "detalle": "variantes V6: ninguno de los 12 textos o códigos reservados está en la planificación"
+   },
+   {
+    "resultado": "correcto",
+    "detalle": "variantes V6: la carpeta privada está fuera del repositorio"
+   },
+   {
+    "resultado": "correcto",
+    "detalle": "planificacion/ no tiene archivos reservados ni copias del PDF del MEC o del informe de Work"
+   },
+   {
+    "resultado": "correcto",
+    "detalle": "Los planes recuerdan que un paquete recibido es código desconocido (Encuentro 34) y que el DR no se entrega (Encuentro 30)"
+   },
+   {
+    "resultado": "correcto",
+    "detalle": "Ningún nombre de modelo de IA en la planificación"
+   }
+  ]
+ },
+ "fallos": [],
+ "total": 83,
+ "no_ejecutados": 0,
+ "documentos": {
+  "plan_anual": {
+   "paginas": 23,
+   "sha256_docx": "cbd0d0427ae8ab2666ca8cf7315bfc9fbbb6abdeb0665a49463bfca47315b3cb",
+   "sha256_pdf": "108ac95814bdf0de2edfd094e1b9eec3ab0a5bb474eba978116a8b82917a1cbf"
+  },
+  "planes": {
+   "paginas": 73,
+   "sha256_docx": "62d0647082af5f3c8e37d32bc4806ed1aec83e5d82eda53411e9591f61b66811",
+   "sha256_pdf": "1fc15304ae08d8d734d7ecfad0fc997f9360aef03483eca0828fd201f39149e0"
+  }
+ }
+}

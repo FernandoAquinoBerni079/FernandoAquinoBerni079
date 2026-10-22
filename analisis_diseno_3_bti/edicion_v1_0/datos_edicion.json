@@ -1,0 +1,11 @@
+{
+ "_instrucciones": "Datos de edición que solo puede aportar el titular. Mientras un campo esté en null, los documentos muestran el texto de 'texto_si_falta'. Completarlos y ejecutar edicion_v1_0/build/construir_v1_0.py regenera las páginas legales, las cubiertas y los paquetes.",
+ "titular": null,
+ "editor": null,
+ "domicilio_editor": null,
+ "isbn": {"libro": null, "guia": null, "cuaderno": null, "plan_anual": null, "planes": null},
+ "edicion": "primera edición (v1.0)",
+ "tiraje": null,
+ "anio": 2026,
+ "texto_si_falta": "[a completar por el titular]"
+}
