@@ -203,3 +203,17 @@ def escalar_letra(doc, mapa):
         except AttributeError:
             pass
     return n
+
+
+def renglon_escritura(p_el, mm=8.0):
+    """Da a un párrafo de renglón un interlineado exacto de `mm` milímetros, sin espacio antes ni después,
+    para que sirva de renglón de escritura a mano (el cuaderno comercial usa 8 mm)."""
+    from docx.oxml import OxmlElement
+    pPr = p_el.get_or_add_pPr()
+    for viejo in pPr.findall(qn('w:spacing')):
+        pPr.remove(viejo)
+    sp = OxmlElement('w:spacing')
+    sp.set(qn('w:before'), '0'); sp.set(qn('w:after'), '0')
+    sp.set(qn('w:line'), str(round(mm / 25.4 * 1440))); sp.set(qn('w:lineRule'), 'exact')
+    pPr.append(sp)
+    return p_el

@@ -15,7 +15,7 @@ L = ['# ' + sys.argv[3], '',
 for i, c in enumerate(reg['cambios'], 1):
     L.append('| %d | %s | %s | %s | %s | %s |' % (i, c['documento'], corto(c['antes']), corto(c['despues']), c['apariciones'], corto(c['motivo'], 200)))
 L += ['', '## Índices estáticos recalculados', '',
-      'Números de página buscados en el PDF renderizado de R2 (segunda pasada; la primera ya había corregido los desplazamientos).', '']
+      'Números de página buscados en el PDF renderizado de %s (segunda pasada; la primera ya había corregido los desplazamientos).' % V1, '']
 for k, v in reg['indices'].items():
     L.append('- **%s**: %d entradas verificadas contra el render.' % (k, len(v)))
 open(sys.argv[2], 'w', encoding='utf8').write('\n'.join(L) + '\n')

@@ -37,3 +37,16 @@
 2. Validar con un grupo real los encuentros de cierre: teoría, práctica integrada y evaluación en 120 min (O-3-01).
 3. Confirmar la hora cátedra de 40 min y el programa vigente.
 4. Elegir el sistema contable y el editor de imágenes del laboratorio, y probar con ellos la importación de los CSV.
+
+## Actualización R3 (22 de octubre de 2026)
+
+R3 aplica los ajustes de cierre detallados en `CIERRE_R3_3BTC.md` y `LEGIBILIDAD_R3_3BTC.md`.
+**El veredicto no cambia: APTO CON OBSERVACIONES, solo para la revisión editorial.** La colección no está declarada
+apta para la venta.
+
+Siguen pendientes:
+- la verificación legal sobre el texto oficial (`VERIFICACION_LEGAL_PENDIENTE_3BTC.md`);
+- las pruebas en software y de impresión (`PRUEBAS_PRACTICAS_3BTC.md`);
+- las decisiones de Fernando sobre figuras y paginación (`COMPARACION_PARA_APROBACION_3BTC.pdf`);
+- la validación institucional;
+- la aprobación final.

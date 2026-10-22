@@ -1,0 +1,421 @@
+{
+ "cambios": [
+  {
+   "documento": "Tomo",
+   "antes": "Revisión R2, 22 de octubre de 2026.",
+   "despues": "Revisión R3, 22 de octubre de 2026.",
+   "apariciones": 1,
+   "motivo": "Identificación de la versión"
+  },
+  {
+   "documento": "Tomo",
+   "antes": "Pantalla de alta de la empresa con los datos de Despensa San Blas.",
+   "despues": "Pantalla de alta de la empresa con los datos de Despensa San Blas. Esquema de laboratorio: no corresponde a un registro tributario real.",
+   "apariciones": 1,
+   "motivo": "R3-3-02: la nota de la Figura 2 medía 6 pt; sale de la imagen y pasa al pie"
+  },
+  {
+   "documento": "Tomo",
+   "antes": "Con esa configuración el sistema sabe qué reportes de IVA debe preparar cada mes.",
+   "despues": "Con esa configuración el sistema sabe qué reportes de IVA debe preparar cada mes. Los registros que exige la ley dependen del régimen de cada contribuyente; en este curso San Blas lleva contabilidad completa en el sistema para practicar todos los libros y estados, y el profesional verifica en cada caso real qué registros corresponden.",
+   "apariciones": 1,
+   "motivo": "R3-3-04 (O-3-06): nota de alcance sobre la contabilidad completa de un contribuyente en IRE SIMPLE"
+  },
+  {
+   "documento": "Tomo",
+   "antes": "Un estudio contable que expone datos de terceros por descuido compromete su responsabilidad profesional.",
+   "despues": "Un estudio contable que expone datos de terceros por descuido compromete su responsabilidad profesional. La Ley 7593/2025 de protección de datos personales ya fue publicada y amplía ese marco cuando entre en vigor (ver Clase 20).",
+   "apariciones": 1,
+   "motivo": "R3-3-05 (O-3-07): la Clase 3 citaba solo la ley de datos crediticios"
+  },
+  {
+   "documento": "Tomo",
+   "antes": "20 figuras a 14,2 cm (texto más chico 6,0-6,7 pt en las figuras 1, 2, 12, 18 y 19)",
+   "despues": "20 figuras R3 a 15,5 cm: ningún texto por debajo de 7 pt",
+   "apariciones": 20,
+   "motivo": "R3-3-01: legibilidad"
+  },
+  {
+   "documento": "Plan_anual",
+   "antes": "Revisión R2, 22 de octubre de 2026.",
+   "despues": "Revisión R3, 22 de octubre de 2026.",
+   "apariciones": 1,
+   "motivo": "Identificación de la versión"
+  },
+  {
+   "documento": "Solucionario",
+   "antes": "Revisión R2, 22 de octubre de 2026.",
+   "despues": "Revisión R3, 22 de octubre de 2026.",
+   "apariciones": 1,
+   "motivo": "Identificación de la versión"
+  },
+  {
+   "documento": "Solucionario",
+   "antes": "consultable en bacn.gov.py/leyes-paraguayas/2538/del-;",
+   "despues": "consultable en la ficha de la Ley 4924/2013 de la Biblioteca y Archivo Central del Congreso (bacn.gov.py);",
+   "apariciones": 1,
+   "motivo": "R3-3-06: el enlace venía truncado desde R1 y no llevaba a ninguna ficha"
+  },
+  {
+   "documento": "Planes_de_clase",
+   "antes": "Revisión R2, 22 de octubre de 2026.",
+   "despues": "Revisión R3, 22 de octubre de 2026.",
+   "apariciones": 1,
+   "motivo": "Identificación de la versión"
+  },
+  {
+   "documento": "Laboratorio",
+   "antes": "Revisión R2, 22 de octubre de 2026.",
+   "despues": "Revisión R3, 22 de octubre de 2026.",
+   "apariciones": 1,
+   "motivo": "Identificación de la versión"
+  },
+  {
+   "documento": "Laboratorio",
+   "antes": "Referencia gráfica de la práctica 2.",
+   "despues": "Referencia gráfica de la práctica 2. Esquema de laboratorio: no corresponde a un registro tributario real.",
+   "apariciones": 1,
+   "motivo": "R3-3-02"
+  },
+  {
+   "documento": "Laboratorio",
+   "antes": "Figuras a 9,6 cm (7,2 cm en la Práctica 2): textos de 4 a 6,6 pt",
+   "despues": "Figuras entre 11,5 y 15,5 cm; ningún texto de figura por debajo de 7 pt",
+   "apariciones": 18,
+   "motivo": "R3-3-01: una práctica puede ocupar dos páginas antes que bajar la figura de 7 pt"
+  },
+  {
+   "documento": "Laboratorio",
+   "antes": "Prácticas 1, 2, 3, 6, 7, 9, 10, 17, 18, 19, 20: segunda página con solo el registro del estudiante",
+   "despues": "Renglones adicionales del registro, de 8 mm, hasta el pie de esa página",
+   "apariciones": 347,
+   "motivo": "R3-3-01: la segunda página se usa como espacio de trabajo"
+  }
+ ],
+ "indices": {
+  "Tomo": [
+   [
+    "Clase 1 · El sistema administrativo contable: qué es, para qué sirve y cómo está orga…",
+    5,
+    5
+   ],
+   [
+    "Clase 2 · Ingreso de los datos de la empresa y configuración del ejercicio fiscal",
+    8,
+    8
+   ],
+   [
+    "Clase 3 · Configuración de niveles de seguridad: usuarios, perfiles y permisos",
+    11,
+    11
+   ],
+   [
+    "EVALUACIÓN DE LA UNIDAD 1 · El sistema administrativo contable y su configuración",
+    14,
+    14
+   ],
+   [
+    "Clase 4 · Procesamiento de datos del plan de cuentas: códigos, niveles e imputabilidad",
+    16,
+    16
+   ],
+   [
+    "Clase 5 · Del comprobante al asiento: comprobantes electrónicos como fuente del registro",
+    19,
+    19
+   ],
+   [
+    "Clase 6 · Procesamiento de asientos contables: saldos iniciales y operaciones del mes",
+    22,
+    22
+   ],
+   [
+    "Clase 7 · Libro Inventario y Libro Diario emitidos por el sistema",
+    25,
+    25
+   ],
+   [
+    "EVALUACIÓN DE LA UNIDAD 2 · Archivos maestros y registración en el sistema",
+    28,
+    28
+   ],
+   [
+    "Clase 8 · Libro Mayor: mayorización automática y análisis de saldos",
+    30,
+    30
+   ],
+   [
+    "Clase 9 · Balance de comprobación de sumas y saldos · reportes por pantalla e impresora",
+    33,
+    33
+   ],
+   [
+    "Clase 10 · Estado de Resultados, Balance General y simulación del cierre anual",
+    36,
+    36
+   ],
+   [
+    "EVALUACIÓN DE LA UNIDAD 3 · Mayor, balances y estados financieros",
+    39,
+    39
+   ],
+   [
+    "EVALUACIÓN DE LA ETAPA 1 · Del alta de la empresa a los estados financieros",
+    40,
+    40
+   ],
+   [
+    "Clase 11 · La imagen rasterizada: píxeles, resolución, color y formatos",
+    42,
+    42
+   ],
+   [
+    "Clase 12 · Entorno del programa y hoja de diseño: tamaño, fondo, abrir y guardar",
+    45,
+    45
+   ],
+   [
+    "Clase 13 · Trabajar con capas e importar imágenes",
+    48,
+    48
+   ],
+   [
+    "Clase 14 · Ajustar, recortar y trucar imágenes",
+    51,
+    51
+   ],
+   [
+    "EVALUACIÓN DE LA UNIDAD 4 · Editor de imágenes rasterizadas: entorno, capas y edición",
+    54,
+    54
+   ],
+   [
+    "Clase 15 · Aplicación de efectos especiales y filtros en imágenes",
+    56,
+    56
+   ],
+   [
+    "Clase 16 · Clonación, combinación de imágenes y creación de imágenes en serie",
+    59,
+    59
+   ],
+   [
+    "Clase 17 · Temporización de transiciones y exportación del diseño a otros formatos",
+    61,
+    61
+   ],
+   [
+    "EVALUACIÓN DE LA UNIDAD 5 · Efectos, series y exportación del pack publicitario",
+    64,
+    64
+   ],
+   [
+    "Clase 18 · Identificación de sitios web: tipos, dirección y anatomía de una página",
+    65,
+    65
+   ],
+   [
+    "Clase 19 · Publicaciones en una web: contenidos, estructura y publicación del sitio",
+    68,
+    68
+   ],
+   [
+    "Clase 20 · Promociones en la web y presencia digital del comercio",
+    71,
+    71
+   ],
+   [
+    "EVALUACIÓN DE LA UNIDAD 6 · Sitios web: identificación, publicación y promoción",
+    74,
+    74
+   ],
+   [
+    "EVALUACIÓN DE LA ETAPA 2 · Del pack publicitario al sitio web de San Blas",
+    75,
+    75
+   ]
+  ],
+  "Planes_de_clase": [
+   [
+    "Plan de Clase N.º 1 — El sistema administrativo contable: qué es, para qué sirve y có…",
+    2,
+    2
+   ],
+   [
+    "Plan de Clase N.º 2 — Continuación práctica de la Clase 1: Reconocer el sistema y arm…",
+    3,
+    3
+   ],
+   [
+    "Plan de Clase N.º 3 — Ingreso de los datos de la empresa y configuración del ejercici…",
+    4,
+    4
+   ],
+   [
+    "Plan de Clase N.º 4 — Continuación práctica de la Clase 2: Dar de alta a Despensa San…",
+    5,
+    5
+   ],
+   [
+    "Plan de Clase N.º 5 — Configuración de niveles de seguridad: usuarios, perfiles y per…",
+    6,
+    6
+   ],
+   [
+    "Plan de Clase N.º 6 — Procesamiento de datos del plan de cuentas: códigos, niveles e…",
+    7,
+    7
+   ],
+   [
+    "Plan de Clase N.º 7 — Continuación práctica de la Clase 4: Cargar el plan de cuentas…",
+    8,
+    8
+   ],
+   [
+    "Plan de Clase N.º 8 — Del comprobante al asiento: comprobantes electrónicos como fuen…",
+    9,
+    9
+   ],
+   [
+    "Plan de Clase N.º 9 — Continuación práctica de la Clase 5: Del comprobante al asiento…",
+    10,
+    10
+   ],
+   [
+    "Plan de Clase N.º 10 — Procesamiento de asientos contables: saldos iniciales y operac…",
+    11,
+    11
+   ],
+   [
+    "Plan de Clase N.º 11 — Continuación práctica de la Clase 6: Cargar los diez asientos…",
+    12,
+    12
+   ],
+   [
+    "Plan de Clase N.º 12 — Libro Inventario y Libro Diario emitidos por el sistema",
+    13,
+    13
+   ],
+   [
+    "Plan de Clase N.º 13 — Libro Mayor: mayorización automática y análisis de saldos",
+    14,
+    14
+   ],
+   [
+    "Plan de Clase N.º 14 — Continuación práctica de la Clase 8: Consultar mayores y deter…",
+    15,
+    15
+   ],
+   [
+    "Plan de Clase N.º 15 — Balance de comprobación de sumas y saldos · reportes por panta…",
+    16,
+    16
+   ],
+   [
+    "Plan de Clase N.º 16 — Continuación práctica de la Clase 9: Emitir el balance de comp…",
+    17,
+    17
+   ],
+   [
+    "Plan de Clase N.º 17 — Estado de Resultados, Balance General y simulación del cierre…",
+    18,
+    18
+   ],
+   [
+    "Plan de Clase N.º 18 — EVALUACIÓN DE LA ETAPA 1 — Del alta de la empresa a los estado…",
+    19,
+    19
+   ],
+   [
+    "Plan de Clase N.º 19 — La imagen rasterizada: píxeles, resolución, color y formatos",
+    20,
+    20
+   ],
+   [
+    "Plan de Clase N.º 20 — Continuación práctica de la Clase 11: Medir píxeles, resolució…",
+    21,
+    21
+   ],
+   [
+    "Plan de Clase N.º 21 — Entorno del programa y hoja de diseño: tamaño, fondo, abrir y…",
+    22,
+    22
+   ],
+   [
+    "Plan de Clase N.º 22 — Continuación práctica de la Clase 12: Configurar las hojas de…",
+    23,
+    23
+   ],
+   [
+    "Plan de Clase N.º 23 — Trabajar con capas e importar imágenes",
+    24,
+    24
+   ],
+   [
+    "Plan de Clase N.º 24 — Continuación práctica de la Clase 13: Componer la pieza en capas",
+    25,
+    25
+   ],
+   [
+    "Plan de Clase N.º 25 — Ajustar, recortar y trucar imágenes",
+    26,
+    26
+   ],
+   [
+    "Plan de Clase N.º 26 — Aplicación de efectos especiales y filtros en imágenes",
+    27,
+    27
+   ],
+   [
+    "Plan de Clase N.º 27 — Continuación práctica de la Clase 15: Probar filtros y efectos…",
+    28,
+    28
+   ],
+   [
+    "Plan de Clase N.º 28 — Clonación, combinación de imágenes y creación de imágenes en s…",
+    29,
+    29
+   ],
+   [
+    "Plan de Clase N.º 29 — Continuación práctica de la Clase 16: Construir el archivo mae…",
+    30,
+    30
+   ],
+   [
+    "Plan de Clase N.º 30 — Temporización de transiciones y exportación del diseño a otros…",
+    31,
+    31
+   ],
+   [
+    "Plan de Clase N.º 31 — Identificación de sitios web: tipos, dirección y anatomía de u…",
+    32,
+    32
+   ],
+   [
+    "Plan de Clase N.º 32 — Continuación práctica de la Clase 18: Analizar sitios web y de…",
+    33,
+    33
+   ],
+   [
+    "Plan de Clase N.º 33 — Publicaciones en una web: contenidos, estructura y publicación…",
+    34,
+    34
+   ],
+   [
+    "Plan de Clase N.º 34 — Continuación práctica de la Clase 19: Proyectar el sitio de De…",
+    35,
+    35
+   ],
+   [
+    "Plan de Clase N.º 35 — Promociones en la web y presencia digital del comercio",
+    36,
+    36
+   ],
+   [
+    "Plan de Clase N.º 36 — EVALUACIÓN DE LA ETAPA 2 — Del pack publicitario al sitio web…",
+    37,
+    37
+   ]
+  ]
+ }
+}

@@ -70,7 +70,7 @@ def lab(anchos=None, extra=None):
     for n in range(1, 14):
         U.reemplazar_imagen(d, n, os.path.join(FIG, 'R3_Figura_%02d.png' % n), anchos[n])
     reg(k, 'Figuras a 12 cm (Práctica 10: 8 cm; Práctica 14: 9,5 cm): textos de 4,5 a 6,6 pt',
-        'Figuras entre %.1f y 15,5 cm; ningún texto de figura por debajo de 7 pt (detalle por figura en LEGIBILIDAD_R3_2BTC.md)' % min(anchos.values()), 13,
+        'Figuras entre %s y 15,5 cm; ningún texto de figura por debajo de 7 pt (detalle por figura en LEGIBILIDAD_R3_2BTC.md)' % ('%.1f' % min(anchos.values())).replace('.', ','), 13,
         'R3-2-01: legibilidad; una práctica puede ocupar dos páginas antes que achicar la figura por debajo de 7 pt')
     restaurados = 0
     for prac in ('Práctica 10 ·', 'Práctica 14 ·'):
@@ -89,10 +89,10 @@ def lab(anchos=None, extra=None):
         j = next(j for j in range(i, len(ps)) if ps[j].text == 'Anotaciones')
         renglon = ps[j + 1]._p
         for _ in range(cant):
-            renglon.addnext(copy.deepcopy(renglon)); n_extra += 1
+            renglon.addnext(U.renglon_escritura(copy.deepcopy(renglon))); n_extra += 1
     if extra:
         reg(k, 'Prácticas %s: segunda página con solo el desafío y tres renglones' % ', '.join(map(str, sorted(extra))),
-            'Renglones de anotaciones hasta el pie de esa página', n_extra,
+            'Renglones de anotaciones de 8 mm hasta el pie de esa página', n_extra,
             'R3-2-01: esas prácticas ocupan dos páginas para no bajar la figura de 7 pt; la segunda se usa como espacio de trabajo')
     return d
 
@@ -205,7 +205,7 @@ def ajustar_laboratorio():
     # prácticas en dos páginas: se agregan renglones de anotaciones mientras no se cree una tercera página
     dobles = [p for p, pg in paginas.items() if len(pg) > 1]
     extra = {p: 0 for p in dobles}
-    for paso in (16, 8, 4, 2, 1):
+    for paso in (32, 16, 8, 4, 2, 1):
         for p in dobles:
             prueba = dict(extra); prueba[p] += paso
             n0 = len(U.REGISTRO); lab(anchos, prueba).save(ruta('Laboratorio')); del U.REGISTRO[n0:]
@@ -216,7 +216,7 @@ def ajustar_laboratorio():
     paginas = practicas_por_pagina(U.a_pdf(ruta('Laboratorio'), PDF))
     globals()['EXTRA_LAB'] = extra
     json.dump({'anchos_cm': anchos, 'ancho_minimo_cm': ANCHO_MIN, 'paginas_por_practica': paginas,
-               'figura_de_practica': figura_de},
+               'figura_de_practica': figura_de, 'renglones_extra': extra},
               open(os.path.join(AQUI, 'ajuste_laboratorio_r3_2btc.json'), 'w', encoding='utf8'), ensure_ascii=False, indent=1)
     return anchos
 

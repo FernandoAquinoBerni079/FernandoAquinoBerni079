@@ -33,3 +33,16 @@
 2. Aprobar la redistribución de los encuentros 33-35, que no cambia el total de 36 ni las 72 HC.
 3. Confirmar la hora cátedra de 40 min y el programa vigente.
 4. Decidir si el ícono de la figura 1 se reemplaza (O-2-05).
+
+## Actualización R3 (22 de octubre de 2026)
+
+R3 aplica los ajustes de cierre detallados en `CIERRE_R3_2BTC.md` y `LEGIBILIDAD_R3_2BTC.md`.
+**El veredicto no cambia: APTO CON OBSERVACIONES, solo para la revisión editorial.** La colección no está declarada
+apta para la venta.
+
+Siguen pendientes:
+- la verificación legal sobre el texto oficial (`VERIFICACION_LEGAL_PENDIENTE_2BTC.md`);
+- las pruebas en software y de impresión (`PRUEBAS_PRACTICAS_2BTC.md`);
+- las decisiones de Fernando sobre figuras y paginación (`COMPARACION_PARA_APROBACION_2BTC.pdf`);
+- la validación institucional;
+- la aprobación final.

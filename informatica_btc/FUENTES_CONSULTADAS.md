@@ -1,4 +1,4 @@
-# Fuentes consultadas · Informática 2.º y 3.º BTC (R2)
+# Fuentes consultadas · Informática 2.º y 3.º BTC (R2 y R3)
 
 Todas las consultas son del 22 de octubre de 2026.
 
@@ -36,3 +36,18 @@ No usé ningún documento BTI. No encontré un programa BTC de Informática más
 | Ley 7593/2025 (protección de datos personales) | Publicada el 27/11/2025; según su art. 57 entra en vigor 24 meses después. Ficha BACN: `https://www.bacn.gov.py/leyes-paraguayas/12924/ley-n-75932025--de-proteccin-de-datos-personales-en-la-repblica-del-paraguay` | Fuentes secundarias coincidentes; texto oficial pendiente |
 | Ley 6534/2020 | Datos personales crediticios | Búsqueda |
 | Ley 1334/98 | Defensa del consumidor: la oferta obliga y se prohíbe la publicidad engañosa | Doctrina |
+
+## Revisión R3: nuevo intento de acceso (22 de octubre de 2026)
+
+Volví a intentar leer los textos oficiales de las normas modificadas o citadas. No respondió ningún dominio, ni oficial
+ni de reproducción:
+- `www.bacn.gov.py`, `www.dnit.gov.py`, `silpy.congreso.gov.py`, `www.gacetaoficial.gov.py` y `www.mtess.gov.py`;
+- `baselegal.com.py` y `www.leyes.com.py`.
+
+Los errores fueron de DNS o de túnel rechazado por el proxy del entorno.
+
+No agregué ninguna fuente nueva. Las listas exactas para verificar desde otro entorno están en:
+- `2_BTC/VERIFICACION_LEGAL_PENDIENTE_2BTC.md` (L2-01 a L2-19);
+- `3_BTC/VERIFICACION_LEGAL_PENDIENTE_3BTC.md` (L3-01 a L3-19).
+
+Cada fila trae la norma, el artículo, la afirmación del libro y las páginas R3. Ninguna está marcada como verificada.

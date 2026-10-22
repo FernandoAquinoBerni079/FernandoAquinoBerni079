@@ -48,7 +48,7 @@ pie de página.
 | L2-16 | SIFEN: DE → DTE al aprobarse; entrega del XML al receptor electrónico y del KuDE (papel o digital) al no electrónico o consumidor final; CDC y QR en el KuDE | Manual técnico SIFEN; dnit.gov.py | Ver el texto de la Clase 20 y la Figura 13 | Tomo p. 69-70; Laboratorio p. 26 (Práctica 20); Solucionario p. 14, 18 y 23 | |
 | L2-17 | Marandu como buzón tributario de notificaciones y vía para conocer la fecha de obligatoriedad | dnit.gov.py | «cada contribuyente conoce su fecha de obligatoriedad por el buzón tributario Marandu» | Tomo p. 54 (Clase 15), p. 70, 71 y 72; Laboratorio p. 26 (paso 7, agregado en R3) | |
 | L2-18 | Hechauka (distractor de opción múltiple) | dnit.gov.py | Se usa como opción incorrecta en «El buzón tributario… se llama…». Verificar que no sea, en rigor, un buzón | Tomo p. 71 y 72 | |
-| L2-19 | Secciones del portal dnit.gov.py | dnit.gov.py | Consultas sin clave, Marangatú, facturación electrónica, normativa, vencimientos y cotizaciones (Figura 12 y Práctica 19) | Tomo p. 66-67 (Figura 12); Laboratorio p. 25 | |
+| L2-19 | Secciones del portal dnit.gov.py | dnit.gov.py | Consultas sin clave, Marangatú, facturación electrónica, normativa, vencimientos y cotizaciones (Figura 12 y Práctica 19) | Tomo p. 66 (Figura 12); Laboratorio p. 25 | |
 
 ## Lo que la búsqueda web ya permitió revisar (sin texto oficial)
 

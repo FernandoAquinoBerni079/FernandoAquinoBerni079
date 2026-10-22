@@ -87,7 +87,7 @@
   {
    "documento": "Laboratorio",
    "antes": "Figuras a 12 cm (Práctica 10: 8 cm; Práctica 14: 9,5 cm): textos de 4,5 a 6,6 pt",
-   "despues": "Figuras entre 12.0 y 15,5 cm; ningún texto de figura por debajo de 7 pt (detalle por figura en LEGIBILIDAD_R3_2BTC.md)",
+   "despues": "Figuras entre 12,0 y 15,5 cm; ningún texto de figura por debajo de 7 pt (detalle por figura en LEGIBILIDAD_R3_2BTC.md)",
    "apariciones": 13,
    "motivo": "R3-2-01: legibilidad; una práctica puede ocupar dos páginas antes que achicar la figura por debajo de 7 pt"
   },
@@ -101,8 +101,8 @@
   {
    "documento": "Laboratorio",
    "antes": "Prácticas 1, 10, 14: segunda página con solo el desafío y tres renglones",
-   "despues": "Renglones de anotaciones hasta el pie de esa página",
-   "apariciones": 93,
+   "despues": "Renglones de anotaciones de 8 mm hasta el pie de esa página",
+   "apariciones": 94,
    "motivo": "R3-2-01: esas prácticas ocupan dos páginas para no bajar la figura de 7 pt; la segunda se usa como espacio de trabajo"
   }
  ],

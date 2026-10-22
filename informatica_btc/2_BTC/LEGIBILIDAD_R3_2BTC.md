@@ -27,13 +27,13 @@ Resultado:
 - No recorté contenido. Las Prácticas 10 y 14 recuperaron los tres renglones de anotaciones que les había quitado
   en R2.
 - Prácticas en dos páginas: 1, 10 y 14. En la segunda página quedan el desafío y las anotaciones; completé los
-  renglones de anotaciones hasta el pie para que esa página sirva de espacio de trabajo.
+  renglones de anotaciones hasta el pie, con 8 mm de paso, para que esa página sirva de espacio de trabajo.
 - El laboratorio pasa de 23 a 26 páginas. El ajuste lo hace `build/r3_2btc.py` y el resultado queda en
   `build/ajuste_laboratorio_r3_2btc.json`.
 
 ## Medición por figura (texto más chico de cada una)
 
-| Fig, | Práctica | Texto más chico | Tomo 15,5 cm | Lab R2: ancho → cuerpo | Lab R3: ancho → cuerpo | Ancho mínimo para 7 pt |
+| Fig. | Práctica | Texto más chico | Tomo 15,5 cm | Lab R2: ancho → cuerpo | Lab R3: ancho → cuerpo | Ancho mínimo para 7 pt |
 |---|---|---|---|---|---|---|
 | 1 | 1 | nota «Vista abreviada…» y pestañas | 8,2 pt | 12,0 cm → 6,3 pt | 15,5 cm → 8,2 pt | 13,3 cm |
 | 2 | 2 | «Columna B + fila 3» / celda | 9,8 pt | 12,0 cm → 7,6 pt | 12,5 cm → 7,9 pt | 11,1 cm |
