@@ -1,0 +1,12 @@
+﻿Asiento;Concepto;Debe_igual_Haber
+1;Saldos iniciales;64000000
+2;Compra contado 10 %;9900000
+3;Compra crédito 5 %;7350000
+4;Venta contado 10 %;19800000
+5;Venta contado 5 %;12862500
+6;Depósito;20000000
+7;Alquiler;3300000
+8;Servicios;959200
+9;Sueldos e IPS;3728000
+10;Retiro de propietaria;2000000
+TOTAL;Antes de ajustes;143899700

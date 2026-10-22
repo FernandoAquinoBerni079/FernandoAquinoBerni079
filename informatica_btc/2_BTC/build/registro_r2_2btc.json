@@ -1,0 +1,1008 @@
+{
+ "cambios": [
+  {
+   "documento": "Tomo",
+   "antes": "Revisión de contenido octubre de 2026.",
+   "despues": "Revisión R2, 22 de octubre de 2026.",
+   "apariciones": 1,
+   "motivo": "Identificación de la versión"
+  },
+  {
+   "documento": "Tomo",
+   "antes": "Si escribís B4*12 la planilla lo toma como texto; si escribís =B4*12 lo calcula.",
+   "despues": "Si escribís C2*12 la planilla lo toma como texto; si escribís =C2*12 lo calcula.",
+   "apariciones": 1,
+   "motivo": "H-2-01: la columna C guarda el honorario (A=Cliente, B=Régimen); B4 contenía una etiqueta de régimen"
+  },
+  {
+   "documento": "Tomo",
+   "antes": "=B4*12",
+   "despues": "=C2*12",
+   "apariciones": 2,
+   "motivo": "H-2-01: la columna C guarda el honorario (A=Cliente, B=Régimen); B4 contenía una etiqueta de régimen"
+  },
+  {
+   "documento": "Tomo",
+   "antes": "=B4/2",
+   "despues": "=C2/2",
+   "apariciones": 1,
+   "motivo": "H-2-01: la columna C guarda el honorario (A=Cliente, B=Régimen); B4 contenía una etiqueta de régimen"
+  },
+  {
+   "documento": "Tomo",
+   "antes": "honorario anual",
+   "despues": "honorario anual del cliente de la fila 2",
+   "apariciones": 1,
+   "motivo": "H-2-01: la columna C guarda el honorario (A=Cliente, B=Régimen); B4 contenía una etiqueta de régimen"
+  },
+  {
+   "documento": "Tomo",
+   "antes": "honorario quincenal",
+   "despues": "mitad del honorario mensual",
+   "apariciones": 1,
+   "motivo": "H-2-01: la columna C guarda el honorario (A=Cliente, B=Régimen); B4 contenía una etiqueta de régimen"
+  },
+  {
+   "documento": "Tomo",
+   "antes": "a) B4*12",
+   "despues": "a) C2*12",
+   "apariciones": 1,
+   "motivo": "H-2-01: la columna C guarda el honorario (A=Cliente, B=Régimen); B4 contenía una etiqueta de régimen"
+  },
+  {
+   "documento": "Tomo",
+   "antes": "b) fórmula B4*12",
+   "despues": "b) fórmula C2*12",
+   "apariciones": 1,
+   "motivo": "H-2-01: la columna C guarda el honorario (A=Cliente, B=Régimen); B4 contenía una etiqueta de régimen"
+  },
+  {
+   "documento": "Tomo",
+   "antes": "c) 12*B4=",
+   "despues": "c) 12*C2=",
+   "apariciones": 1,
+   "motivo": "H-2-01: la columna C guarda el honorario (A=Cliente, B=Régimen); B4 contenía una etiqueta de régimen"
+  },
+  {
+   "documento": "Tomo",
+   "antes": "b) B2-B17",
+   "despues": "b) C2-C17",
+   "apariciones": 1,
+   "motivo": "H-2-19: los distractores usaban la columna B; ahora solo cambia el separador, que es lo que se evalúa"
+  },
+  {
+   "documento": "Tomo",
+   "antes": "c) B2..B17",
+   "despues": "c) C2..C17",
+   "apariciones": 1,
+   "motivo": "H-2-19: los distractores usaban la columna B; ahora solo cambia el separador, que es lo que se evalúa"
+  },
+  {
+   "documento": "Tomo",
+   "antes": "d) B2;B17",
+   "despues": "d) C2;C17",
+   "apariciones": 1,
+   "motivo": "H-2-19: los distractores usaban la columna B; ahora solo cambia el separador, que es lo que se evalúa"
+  },
+  {
+   "documento": "Tomo",
+   "antes": "=C2+C3+…+B17",
+   "despues": "=C2+C3+…+C17",
+   "apariciones": 2,
+   "motivo": "H-2-02: el rango de honorarios termina en C17"
+  },
+  {
+   "documento": "Tomo",
+   "antes": "G. 3.044.000 es el salario mínimo vigente.",
+   "despues": "G. 3.044.000 es el salario mínimo mensual vigente desde el 1 de julio de 2026 (Decreto 6225/2026).",
+   "apariciones": 1,
+   "motivo": "H-2-12: fecha y norma del dato que más rápido cambia"
+  },
+  {
+   "documento": "Tomo",
+   "antes": "Usa HOY() y cálculos entre fechas en documentos del estudio.",
+   "despues": "Usa HOY(), AHORA() y cálculos entre fechas y horas en documentos del estudio.",
+   "apariciones": 1,
+   "motivo": "H-2-13: indicador sincronizado con plan anual y planes de clase"
+  },
+  {
+   "documento": "Tomo",
+   "antes": "Párrafo «Descomponer un trazado…» con estilo Título 3, antes del texto",
+   "despues": "Párrafo normal con entrada en negrita, después de «Un rectángulo convertido a curvas…»",
+   "apariciones": 1,
+   "motivo": "H-2-14: un párrafo largo aparecía como título en la navegación"
+  },
+  {
+   "documento": "Tomo",
+   "antes": "PDF para imprenta para la imprenta",
+   "despues": "PDF preparado para la imprenta",
+   "apariciones": 1,
+   "motivo": "H-2-15: redundancia y consigna demasiado absoluta (la conversión a curvas depende de la imprenta)"
+  },
+  {
+   "documento": "Tomo",
+   "antes": "PDF para imprenta (imprenta)",
+   "despues": "PDF para imprenta",
+   "apariciones": 2,
+   "motivo": "H-2-15: redundancia y consigna demasiado absoluta (la conversión a curvas depende de la imprenta)"
+  },
+  {
+   "documento": "Tomo",
+   "antes": "2.2 Para la imprenta se exporta en PDF con las tipografías convertidas a __________.",
+   "despues": "2.2 Si la imprenta lo solicita, las tipografías del PDF se convierten a __________.",
+   "apariciones": 1,
+   "motivo": "H-2-15: redundancia y consigna demasiado absoluta (la conversión a curvas depende de la imprenta)"
+  },
+  {
+   "documento": "Tomo",
+   "antes": "2.1 Para la imprenta se exporta un PDF con las tipografías convertidas a __________.",
+   "despues": "2.1 Si la imprenta lo solicita, las tipografías del PDF se convierten a __________.",
+   "apariciones": 1,
+   "motivo": "H-2-15: redundancia y consigna demasiado absoluta (la conversión a curvas depende de la imprenta)"
+  },
+  {
+   "documento": "Tomo",
+   "antes": "que unificó tributos internos y aduanas; el Ministerio de Hacienda pasó a llamarse Ministerio de Economía y Finanzas (MEF).",
+   "despues": "que unificó tributos internos y aduanas. Por su parte, la Ley 7158/2023 creó el Ministerio de Economía y Finanzas (MEF), que absorbió al Ministerio de Hacienda.",
+   "apariciones": 1,
+   "motivo": "H-2-08: el MEF fue creado por la Ley 7158/2023, no por la ley de la DNIT"
+  },
+  {
+   "documento": "Tomo",
+   "antes": "2.3 El ex Ministerio de Hacienda hoy se llama __________.",
+   "despues": "2.3 Las funciones del ex Ministerio de Hacienda las ejerce hoy el __________.",
+   "apariciones": 1,
+   "motivo": "H-2-08: el MEF fue creado por la Ley 7158/2023, no por la ley de la DNIT"
+  },
+  {
+   "documento": "Tomo",
+   "antes": "recién ahí tiene efecto fiscal. El receptor recibe el KuDE, la representación gráfica con código QR que permite verificar el documento en el portal. El KuDE no es la factura: es su imagen verificable.",
+   "despues": "recién ahí tiene efecto fiscal. En e-Kuatia el envío es diferido: el emisor firma el DE y debe transmitirlo al SIFEN dentro del plazo que fija la normativa técnica (hasta 72 horas desde la firma, según la DNIT). La entrega depende del receptor: si también es facturador electrónico, recibe el archivo electrónico (XML); si no lo es, o si es consumidor final, recibe el KuDE en papel o en formato digital. El KuDE es la representación gráfica del documento, con su código de control (CDC) y un código QR para verificarlo en el portal; no reemplaza al documento electrónico.",
+   "apariciones": 1,
+   "motivo": "H-2-04: la entrega depende del receptor (XML al electrónico; KuDE al no electrónico o consumidor final); envío diferido"
+  },
+  {
+   "documento": "Tomo",
+   "antes": "útil para entregar y verificar, pero no reemplaza al documento electrónico.",
+   "despues": "que se entrega al receptor no electrónico o al consumidor final y sirve para verificar, pero no reemplaza al documento electrónico.",
+   "apariciones": 1,
+   "motivo": "H-2-04: la entrega depende del receptor (XML al electrónico; KuDE al no electrónico o consumidor final); envío diferido"
+  },
+  {
+   "documento": "Tomo",
+   "antes": "Figura 13. El recorrido de una factura electrónica: de DE a DTE y KuDE.",
+   "despues": "Figura 13. Recorrido simplificado de una factura electrónica: del DE al DTE y su entrega según el receptor.",
+   "apariciones": 1,
+   "motivo": "H-2-04: la entrega depende del receptor (XML al electrónico; KuDE al no electrónico o consumidor final); envío diferido"
+  },
+  {
+   "documento": "Tomo",
+   "antes": "Figura 5. Cuatro tipos de gráfico, cuatro historias con los mismos datos del estudio.",
+   "despues": "Figura 5. Cuatro tipos de gráfico, cada uno para una pregunta distinta, con datos del estudio (millones de guaraníes).",
+   "apariciones": 1,
+   "motivo": "H-2-06: figura reconstruida con los datos reales del caso"
+  },
+  {
+   "documento": "Tomo",
+   "antes": "Salto de página manual en párrafo propio antes de cada evaluación",
+   "despues": "Salto de página anterior en ese párrafo",
+   "apariciones": 9,
+   "motivo": "H-2-21: evita páginas en blanco cuando la clase termina justo al pie"
+  },
+  {
+   "documento": "Tomo",
+   "antes": "Preguntas abiertas sin espacio para responder",
+   "despues": "180 renglones (3 por pregunta en clases y evaluaciones de unidad, 4 en las de etapa)",
+   "apariciones": 180,
+   "motivo": "H-2-20: el estudiante trabaja sobre el tomo; las abiertas llevan renglones"
+  },
+  {
+   "documento": "Laboratorio",
+   "antes": "Revisión de contenido octubre de 2026.",
+   "despues": "Revisión R2, 22 de octubre de 2026.",
+   "apariciones": 1,
+   "motivo": "Identificación de la versión"
+  },
+  {
+   "documento": "Laboratorio",
+   "antes": "las Prácticas 1, 4, 9, 11, 15 y 20 se integran",
+   "despues": "las Prácticas 1, 4, 9, 11, 15 y 19 se integran",
+   "apariciones": 1,
+   "motivo": "H-2-05: la Práctica 20 pasa a encuentro propio y la 19 se integra a su clase"
+  },
+  {
+   "documento": "Laboratorio",
+   "antes": "5. Activá el filtro automático sobre la fila 1.",
+   "despues": "5. Seleccioná A1:C17, sin la fila 18 del total, y activá el filtro automático: así la fila del total no queda dentro del filtro.",
+   "apariciones": 1,
+   "motivo": "H-2-09: con la fila 18 contigua, el autofiltro la incluye y la oculta al filtrar"
+  },
+  {
+   "documento": "Laboratorio",
+   "antes": "▸ Exportación: PDF para imprenta para imprenta · PNG para redes",
+   "despues": "▸ Exportación: PDF para imprenta · PNG para redes",
+   "apariciones": 1,
+   "motivo": "H-2-15"
+  },
+  {
+   "documento": "Laboratorio",
+   "antes": "▸ DE → validación del SIFEN → DTE → KuDE con QR",
+   "despues": "▸ DE → validación del SIFEN → DTE → entrega: XML al receptor electrónico o KuDE con QR al no electrónico",
+   "apariciones": 1,
+   "motivo": "H-2-04: entrega según el receptor"
+  },
+  {
+   "documento": "Laboratorio",
+   "antes": "5. Rotulá cada caja con su nombre técnico: DE, validación SIFEN, DTE y KuDE.",
+   "despues": "5. Rotulá cada caja con su nombre técnico: DE, validación SIFEN, DTE y entrega (XML o KuDE, según el receptor).",
+   "apariciones": 1,
+   "motivo": "H-2-04: entrega según el receptor"
+  },
+  {
+   "documento": "Laboratorio",
+   "antes": "Figuras a 12 cm y tres renglones de anotaciones en todas las prácticas",
+   "despues": "Práctica 10: figura a 8 cm; Práctica 14: 9,5 cm; un renglón de anotaciones en ambas",
+   "apariciones": 2,
+   "motivo": "Las figuras R2 (3:2) son más altas: se conserva una práctica por página"
+  },
+  {
+   "documento": "Laboratorio",
+   "antes": "Imágenes 9 y 10 de una versión anterior (la 10 con =SI(B2>=…))",
+   "despues": "Figuras R2 9 y 10, iguales a las del tomo",
+   "apariciones": 2,
+   "motivo": "H-2-03: la figura de la Práctica 16 contradecía la estructura (C = honorario)"
+  },
+  {
+   "documento": "Plan_anual",
+   "antes": "Revisión de contenido octubre de 2026.",
+   "despues": "Revisión R2, 22 de octubre de 2026.",
+   "apariciones": 1,
+   "motivo": "Identificación de la versión"
+  },
+  {
+   "documento": "Plan_anual",
+   "antes": "(Prácticas 1, 4, 9, 11, 15 y 20)",
+   "despues": "(Prácticas 1, 4, 9, 11, 15 y 19)",
+   "apariciones": 1,
+   "motivo": "H-2-05"
+  },
+  {
+   "documento": "Plan_anual",
+   "antes": "Las tasas de Sueldos se guardan en G1 y G2.",
+   "despues": "Las tasas de Sueldos se guardan en G1 y G2. El programa de referencia nombra la página web de la SET; desde 2024 esas funciones corresponden a la DNIT (Ley 7143/2023).",
+   "apariciones": 1,
+   "motivo": "H-2-16: aclarar la actualización institucional sin atribuirla al MEC"
+  },
+  {
+   "documento": "Plan_anual",
+   "antes": "UNIDAD 1 · La planilla electrónica del estudio",
+   "despues": "Banda de unidad con la capacidad del programa",
+   "apariciones": 1,
+   "motivo": "H-2-07: el plan anual no mostraba las capacidades"
+  },
+  {
+   "documento": "Plan_anual",
+   "antes": "UNIDAD 2 · Fórmulas, referencias y configuración de hojas",
+   "despues": "Banda de unidad con la capacidad del programa",
+   "apariciones": 1,
+   "motivo": "H-2-07: el plan anual no mostraba las capacidades"
+  },
+  {
+   "documento": "Plan_anual",
+   "antes": "UNIDAD 3 · Informes financieros con datos estadísticos y gráficos",
+   "despues": "Banda de unidad con la capacidad del programa",
+   "apariciones": 1,
+   "motivo": "H-2-07: el plan anual no mostraba las capacidades"
+  },
+  {
+   "documento": "Plan_anual",
+   "antes": "UNIDAD 4 · Editor de imágenes vectoriales y plan promocional",
+   "despues": "Banda de unidad con la capacidad del programa",
+   "apariciones": 1,
+   "motivo": "H-2-07: el plan anual no mostraba las capacidades"
+  },
+  {
+   "documento": "Plan_anual",
+   "antes": "UNIDAD 5 · Planilla avanzada administrativo-contable",
+   "despues": "Banda de unidad con la capacidad del programa",
+   "apariciones": 1,
+   "motivo": "H-2-07: el plan anual no mostraba las capacidades"
+  },
+  {
+   "documento": "Plan_anual",
+   "antes": "UNIDAD 6 · El portal tributario de la DNIT",
+   "despues": "Banda de unidad con la capacidad del programa",
+   "apariciones": 1,
+   "motivo": "H-2-07: el plan anual no mostraba las capacidades"
+  },
+  {
+   "documento": "Plan_anual",
+   "antes": "Fila 19",
+   "despues": "Tiempo y procedimiento redistribuidos",
+   "apariciones": 1,
+   "motivo": "H-2-05: la Clase 20, la Práctica 20 y la evaluación de la Unidad 6 no caben en 80 min"
+  },
+  {
+   "documento": "Plan_anual",
+   "antes": "Fila 20",
+   "despues": "Tiempo y procedimiento redistribuidos",
+   "apariciones": 1,
+   "motivo": "H-2-05: la Clase 20, la Práctica 20 y la evaluación de la Unidad 6 no caben en 80 min"
+  },
+  {
+   "documento": "Solucionario",
+   "antes": "Revisión de contenido octubre de 2026.",
+   "despues": "Revisión R2, 22 de octubre de 2026.",
+   "apariciones": 1,
+   "motivo": "Identificación de la versión"
+  },
+  {
+   "documento": "Solucionario",
+   "antes": "1.1 d) =B4*12",
+   "despues": "1.1 d) =C2*12",
+   "apariciones": 1,
+   "motivo": "H-2-01"
+  },
+  {
+   "documento": "Solucionario",
+   "antes": "1.1 b) una esquina con la proporción bloqueada",
+   "despues": "1.1 b) una esquina",
+   "apariciones": 1,
+   "motivo": "Clave igual al texto de la opción impresa"
+  },
+  {
+   "documento": "Solucionario",
+   "antes": "4) el receptor recibe el KuDE con QR para verificarlo.",
+   "despues": "4) se entrega al receptor: el XML si es facturador electrónico, o el KuDE con QR si no lo es o si es consumidor final.",
+   "apariciones": 1,
+   "motivo": "H-2-04"
+  },
+  {
+   "documento": "Solucionario",
+   "antes": "→ entrega del KuDE con QR al receptor.",
+   "despues": "→ entrega al receptor (XML al receptor electrónico; KuDE con QR al no electrónico o al consumidor final).",
+   "apariciones": 1,
+   "motivo": "H-2-04"
+  },
+  {
+   "documento": "Solucionario",
+   "antes": "El volante exportado en PDF conserva su apariencia y el PNG del logo tiene fondo transparente. Los círculos soldados forman una sola figura; los agrupados siguen siendo dos.",
+   "despues": "Hay tres PDF (volante A4, tarjeta 90 × 50 mm y banner 2000 × 800 mm), un PNG transparente y sus originales editables. La unión es una geometría y el grupo conserva dos objetos.",
+   "apariciones": 1,
+   "motivo": "H-2-10: punto de control igual al del laboratorio"
+  },
+  {
+   "documento": "Solucionario",
+   "antes": "3.1 V — Y por lo tanto no entra en las sumas.",
+   "despues": "3.1 V — Suele indicarlo con la alineación predeterminada; se confirma con ESNUMERO y, si es texto, no entra en las sumas.",
+   "apariciones": 1,
+   "motivo": "H-2-17: coherencia con la Clase 2 (la alineación no prueba el tipo de dato)"
+  },
+  {
+   "documento": "Solucionario",
+   "antes": "Doctrina legal aplicada (verificada en agosto de 2026)",
+   "despues": "Doctrina legal aplicada (verificada en agosto de 2026; revisada el 22 de octubre de 2026)",
+   "apariciones": 1,
+   "motivo": "H-2-11"
+  },
+  {
+   "documento": "Solucionario",
+   "antes": "RG 41/2025 para contratos estatales desde 2/1/2026 y cronograma progresivo, ampliado por RG 52/2026.",
+   "despues": "RG 41/2025 para contratos estatales desde 2/1/2026 y cronograma progresivo, ampliado por RG 52/2026. Entrega: XML al receptor electrónico; KuDE al no electrónico o al consumidor final. Pendiente: confirmar si la RG 54/2026 modifica la RG 41/2025.",
+   "apariciones": 1,
+   "motivo": "H-2-11"
+  },
+  {
+   "documento": "Solucionario",
+   "antes": "Salario mínimo vigente por Decreto 6225/2026;",
+   "despues": "Salario mínimo mensual G. 3.044.000 desde el 1/7/2026 (Decreto 6225/2026);",
+   "apariciones": 1,
+   "motivo": "H-2-12"
+  },
+  {
+   "documento": "Planes_de_clase",
+   "antes": "Revisión de contenido octubre de 2026.",
+   "despues": "Revisión R2, 22 de octubre de 2026.",
+   "apariciones": 1,
+   "motivo": "Identificación de la versión"
+  },
+  {
+   "documento": "Planes_de_clase",
+   "antes": "Plan 33 Clase 19 · Plan 34 Práctica 19 · Plan 35 Clase 20 + Práctica 20 + evaluación U6 en 80 min",
+   "despues": "Plan 33 Clase 19 + Práctica 19 · Plan 34 Clase 20 · Plan 35 Práctica 20 + evaluación U6",
+   "apariciones": 3,
+   "motivo": "H-2-05: redistribución sin cambiar los 36 encuentros ni las 72 HC"
+  },
+  {
+   "documento": "Planes_de_clase",
+   "antes": "Cuerpo de 7,5 pt en las tablas de los planes",
+   "despues": "Cuerpo de 9,5 pt; cada plan sigue en su página",
+   "apariciones": 1731,
+   "motivo": "H-2-22: legibilidad; cada plan ocupaba un tercio de la página de oficio"
+  },
+  {
+   "documento": "Planes_de_clase",
+   "antes": "Renglón de 30 guiones en la celda Docente",
+   "despues": "22 guiones",
+   "apariciones": 36,
+   "motivo": "H-2-22: evitar que el renglón se parta en dos líneas"
+  },
+  {
+   "documento": "Planes_de_clase",
+   "antes": "Viñetas pegadas («…contenido• Desarrollo…») y salto final",
+   "despues": "Una viñeta por párrafo",
+   "apariciones": 3,
+   "motivo": "H-2-18: maquetación de la celda Desarrollo"
+  }
+ ],
+ "indices": {
+  "tomo": [
+   [
+    "Clase 1 · La planilla electrónica y su entorno",
+    5,
+    5
+   ],
+   [
+    "Clase 2 · Crear, guardar y abrir planillas; tipos de datos",
+    8,
+    8
+   ],
+   [
+    "Clase 3 · Formato de celdas, filas y columnas",
+    11,
+    11
+   ],
+   [
+    "Evaluación de la Unidad 1 · La planilla electrónica del estudio",
+    13,
+    13
+   ],
+   [
+    "Clase 4 · Fórmulas: la planilla calcula por vos",
+    15,
+    15
+   ],
+   [
+    "Clase 5 · Referencias relativas y absolutas; fecha y hora",
+    18,
+    18
+   ],
+   [
+    "Clase 6 · Hojas configuradas: visualización, encabezado y pie",
+    21,
+    21
+   ],
+   [
+    "Evaluación de la Unidad 2 · Fórmulas, referencias y configuración de hojas",
+    23,
+    23
+   ],
+   [
+    "Clase 7 · Funciones matemáticas y estadísticas",
+    25,
+    25
+   ],
+   [
+    "Clase 8 · Gráficos: crear, editar y elegir el tipo",
+    28,
+    28
+   ],
+   [
+    "Clase 9 · Objetos, filtros y orden: la planilla que responde",
+    31,
+    31
+   ],
+   [
+    "Clase 10 · Imprimir e informar: del dato al informe financiero",
+    33,
+    33
+   ],
+   [
+    "Evaluación de la Unidad 3 · Informes financieros con datos estadísticos y gráficos",
+    36,
+    36
+   ],
+   [
+    "Evaluación de la Etapa 1 · Unidades 1 a 3 · Planilla electrónica e informes financieros",
+    38,
+    38
+   ],
+   [
+    "Clase 11 · El editor de imágenes vectoriales y su entorno",
+    40,
+    40
+   ],
+   [
+    "Clase 12 · Objetos: relleno, bordes y texto",
+    43,
+    43
+   ],
+   [
+    "Clase 13 · Importar y editar imágenes; nodos y trazados",
+    45,
+    45
+   ],
+   [
+    "Clase 14 · Agrupar, soldar, alinear y exportar el pack promocional",
+    48,
+    48
+   ],
+   [
+    "Evaluación de la Unidad 4 · Editor de imágenes vectoriales y plan promocional",
+    51,
+    51
+   ],
+   [
+    "Clase 15 · Formato condicional: la planilla que avisa",
+    53,
+    53
+   ],
+   [
+    "Clase 16 · Funciones lógicas y de texto",
+    55,
+    55
+   ],
+   [
+    "Clase 17 · Tablas dinámicas y gráficos dinámicos",
+    58,
+    58
+   ],
+   [
+    "Clase 18 · Proteger, vincular y gestionar la base de datos",
+    61,
+    61
+   ],
+   [
+    "Evaluación de la Unidad 5 · Planilla avanzada administrativo-contable",
+    64,
+    64
+   ],
+   [
+    "Clase 19 · El portal de la DNIT: servicios al contribuyente",
+    66,
+    66
+   ],
+   [
+    "Clase 20 · Facturación electrónica y normativa vigente",
+    69,
+    69
+   ],
+   [
+    "Evaluación de la Unidad 6 · El portal tributario de la DNIT",
+    72,
+    72
+   ],
+   [
+    "Evaluación de la Etapa 2 · Unidades 4 a 6 · Diseño vectorial, planilla avanzada y por…",
+    74,
+    74
+   ]
+  ],
+  "lab": [
+   [
+    "Práctica 1 · Reconocer el entorno y crear el libro del estudio",
+    4,
+    4
+   ],
+   [
+    "Práctica 2 · Cargar la cartera de 16 clientes",
+    5,
+    5
+   ],
+   [
+    "Práctica 3 · Dar formato profesional a la hoja Honorarios",
+    6,
+    6
+   ],
+   [
+    "Práctica 4 · Primera fórmula: el total mensual y el anual",
+    7,
+    7
+   ],
+   [
+    "Práctica 5 · La planilla de sueldos con referencia absoluta",
+    8,
+    8
+   ],
+   [
+    "Práctica 6 · Configurar las hojas para imprimir",
+    9,
+    9
+   ],
+   [
+    "Práctica 7 · Las cinco funciones sobre la cartera",
+    10,
+    10
+   ],
+   [
+    "Práctica 8 · Gráficos de la cartera por régimen",
+    11,
+    11
+   ],
+   [
+    "Práctica 9 · Ordenar y filtrar la cartera",
+    12,
+    12
+   ],
+   [
+    "Práctica 10 · Armar e imprimir el informe financiero anual",
+    13,
+    13
+   ],
+   [
+    "Práctica 11 · Explorar el editor vectorial y configurar la página",
+    14,
+    14
+   ],
+   [
+    "Práctica 12 · La tarjeta personal del estudio",
+    15,
+    15
+   ],
+   [
+    "Práctica 13 · El logo: nodos, curvas y transformaciones",
+    16,
+    16
+   ],
+   [
+    "Práctica 14 · Agrupar, soldar, alinear y exportar el pack",
+    17,
+    17
+   ],
+   [
+    "Práctica 15 · El semáforo de cobranzas",
+    18,
+    18
+   ],
+   [
+    "Práctica 16 · Reproducir las categorías del caso con SI anidado",
+    19,
+    19
+   ],
+   [
+    "Práctica 17 · Tabla dinámica y gráfico dinámico de la cartera",
+    20,
+    20
+   ],
+   [
+    "Práctica 18 · Proteger, nombrar rangos y vincular hojas",
+    21,
+    21
+   ],
+   [
+    "Práctica 19 · Navegación guiada por el portal de la DNIT",
+    22,
+    22
+   ],
+   [
+    "Práctica 20 · El circuito de la factura electrónica",
+    23,
+    23
+   ]
+  ],
+  "sol": [
+   [
+    "Clase 1 · La planilla electrónica y su entorno",
+    5,
+    5
+   ],
+   [
+    "Clase 2 · Crear, guardar y abrir planillas; tipos de datos",
+    5,
+    5
+   ],
+   [
+    "Clase 3 · Formato de celdas, filas y columnas",
+    6,
+    6
+   ],
+   [
+    "Clase 4 · Fórmulas: la planilla calcula por vos",
+    6,
+    6
+   ],
+   [
+    "Clase 5 · Referencias relativas y absolutas; fecha y hora",
+    7,
+    7
+   ],
+   [
+    "Clase 6 · Hojas configuradas: visualización, encabezado y pie",
+    7,
+    7
+   ],
+   [
+    "Clase 7 · Funciones matemáticas y estadísticas",
+    7,
+    7
+   ],
+   [
+    "Clase 8 · Gráficos: crear, editar y elegir el tipo",
+    8,
+    8
+   ],
+   [
+    "Clase 9 · Objetos, filtros y orden: la planilla que responde",
+    9,
+    9
+   ],
+   [
+    "Clase 10 · Imprimir e informar: del dato al informe financiero",
+    9,
+    9
+   ],
+   [
+    "Clase 11 · El editor de imágenes vectoriales y su entorno",
+    9,
+    9
+   ],
+   [
+    "Clase 12 · Objetos: relleno, bordes y texto",
+    10,
+    10
+   ],
+   [
+    "Clase 13 · Importar y editar imágenes; nodos y trazados",
+    10,
+    10
+   ],
+   [
+    "Clase 14 · Agrupar, soldar, alinear y exportar el pack promocional",
+    11,
+    11
+   ],
+   [
+    "Clase 15 · Formato condicional: la planilla que avisa",
+    11,
+    11
+   ],
+   [
+    "Clase 16 · Funciones lógicas y de texto",
+    12,
+    12
+   ],
+   [
+    "Clase 17 · Tablas dinámicas y gráficos dinámicos",
+    12,
+    12
+   ],
+   [
+    "Clase 18 · Proteger, vincular y gestionar la base de datos",
+    13,
+    13
+   ],
+   [
+    "Clase 19 · El portal de la DNIT: servicios al contribuyente",
+    13,
+    13
+   ],
+   [
+    "Clase 20 · Facturación electrónica y normativa vigente",
+    13,
+    13
+   ],
+   [
+    "Evaluación de la Unidad 1 · La planilla electrónica del estudio",
+    15,
+    15
+   ],
+   [
+    "Evaluación de la Unidad 2 · Fórmulas, referencias y configuración de hojas",
+    15,
+    15
+   ],
+   [
+    "Evaluación de la Unidad 3 · Informes financieros con datos estadísticos y gráficos",
+    16,
+    16
+   ],
+   [
+    "Evaluación de la Unidad 4 · Editor de imágenes vectoriales y plan promocional",
+    16,
+    16
+   ],
+   [
+    "Evaluación de la Unidad 5 · Planilla avanzada administrativo-contable",
+    17,
+    17
+   ],
+   [
+    "Evaluación de la Unidad 6 · El portal tributario de la DNIT",
+    17,
+    17
+   ],
+   [
+    "Evaluación de la Etapa 1",
+    19,
+    19
+   ],
+   [
+    "Evaluación de la Etapa 2",
+    19,
+    19
+   ]
+  ],
+  "planes": [
+   [
+    "Plan de Clase N.º 1 — Entorno del programa y elementos de la hoja de cálculo",
+    2,
+    2
+   ],
+   [
+    "Plan de Clase N.º 2 — Creación y guardado de planillas; introducción y tipos de datos",
+    3,
+    3
+   ],
+   [
+    "Plan de Clase N.º 3 — Continuación práctica de la Clase 2: Cargar la cartera de 16 cl…",
+    4,
+    4
+   ],
+   [
+    "Plan de Clase N.º 4 — Formato de celdas, filas y columnas",
+    5,
+    5
+   ],
+   [
+    "Plan de Clase N.º 5 — Continuación práctica de la Clase 3: Dar formato profesional a…",
+    6,
+    6
+   ],
+   [
+    "Plan de Clase N.º 6 — Aplicación de fórmulas y operadores aritméticos",
+    7,
+    7
+   ],
+   [
+    "Plan de Clase N.º 7 — Celdas absolutas y relativas; funciones de fecha y hora",
+    8,
+    8
+   ],
+   [
+    "Plan de Clase N.º 8 — Continuación práctica de la Clase 5: La planilla de sueldos con…",
+    9,
+    9
+   ],
+   [
+    "Plan de Clase N.º 9 — Configuración y edición de las hojas; opciones de visualización…",
+    10,
+    10
+   ],
+   [
+    "Plan de Clase N.º 10 — Continuación práctica de la Clase 6: Configurar las hojas para…",
+    11,
+    11
+   ],
+   [
+    "Plan de Clase N.º 11 — Fórmulas matemáticas y estadísticas",
+    12,
+    12
+   ],
+   [
+    "Plan de Clase N.º 12 — Continuación práctica de la Clase 7: Las cinco funciones sobre…",
+    13,
+    13
+   ],
+   [
+    "Plan de Clase N.º 13 — Creación y edición de gráficos; tipos de gráficos",
+    14,
+    14
+   ],
+   [
+    "Plan de Clase N.º 14 — Continuación práctica de la Clase 8: Gráficos de la cartera po…",
+    15,
+    15
+   ],
+   [
+    "Plan de Clase N.º 15 — Inserción de objetos; filtrar y ordenar datos",
+    16,
+    16
+   ],
+   [
+    "Plan de Clase N.º 16 — Impresión de planillas y gráficos; informes financieros, balan…",
+    17,
+    17
+   ],
+   [
+    "Plan de Clase N.º 17 — Continuación práctica de la Clase 10: Armar e imprimir el info…",
+    18,
+    18
+   ],
+   [
+    "Plan de Clase N.º 18 — Evaluación de la Etapa 1",
+    19,
+    19
+   ],
+   [
+    "Plan de Clase N.º 19 — Entorno del programa y configuración de página",
+    20,
+    20
+   ],
+   [
+    "Plan de Clase N.º 20 — Insertar objeto, relleno y bordes, formato y tipos de texto",
+    21,
+    21
+   ],
+   [
+    "Plan de Clase N.º 21 — Continuación práctica de la Clase 12: La tarjeta personal del…",
+    22,
+    22
+   ],
+   [
+    "Plan de Clase N.º 22 — Importar y editar imágenes; edición de nodos",
+    23,
+    23
+   ],
+   [
+    "Plan de Clase N.º 23 — Continuación práctica de la Clase 13: El logo: nodos, curvas y…",
+    24,
+    24
+   ],
+   [
+    "Plan de Clase N.º 24 — Agrupar, soldar y alinear objetos; luces y sombras; exportació…",
+    25,
+    25
+   ],
+   [
+    "Plan de Clase N.º 25 — Continuación práctica de la Clase 14: Agrupar, soldar, alinear…",
+    26,
+    26
+   ],
+   [
+    "Plan de Clase N.º 26 — Formato condicional",
+    27,
+    27
+   ],
+   [
+    "Plan de Clase N.º 27 — Fórmulas avanzadas, lógicas y de texto",
+    28,
+    28
+   ],
+   [
+    "Plan de Clase N.º 28 — Continuación práctica de la Clase 16: Reproducir las categoría…",
+    29,
+    29
+   ],
+   [
+    "Plan de Clase N.º 29 — Tabla dinámica y gráficos dinámicos",
+    30,
+    30
+   ],
+   [
+    "Plan de Clase N.º 30 — Continuación práctica de la Clase 17: Tabla dinámica y gráfico…",
+    31,
+    31
+   ],
+   [
+    "Plan de Clase N.º 31 — Protección de planillas, hojas y celdas; hipervínculos, nombre…",
+    32,
+    32
+   ],
+   [
+    "Plan de Clase N.º 32 — Continuación práctica de la Clase 18: Proteger, nombrar rangos…",
+    33,
+    33
+   ],
+   [
+    "Plan de Clase N.º 33 — Portal de la DNIT: servicios al contribuyente y sistema Marangatú",
+    34,
+    34
+   ],
+   [
+    "Plan de Clase N.º 34 — Factura electrónica (e-Kuatia / e-Kuatia’i) y normativas legal…",
+    35,
+    35
+   ],
+   [
+    "Plan de Clase N.º 35 — Continuación práctica de la Clase 20: El circuito de la factura…",
+    36,
+    36
+   ],
+   [
+    "Plan de Clase N.º 36 — Evaluación de la Etapa 2",
+    37,
+    37
+   ]
+  ]
+ }
+}

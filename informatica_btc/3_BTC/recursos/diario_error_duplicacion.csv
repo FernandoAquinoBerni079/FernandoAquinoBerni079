@@ -1,0 +1,35 @@
+﻿Asiento;Fecha;Cuenta;Nombre_cuenta;Debe;Haber;Concepto
+1;01/09/2026;1.1.01;Caja;8000000;0;Saldos iniciales
+1;01/09/2026;1.1.02;Banco Ysyry cta. cte.;22000000;0;Saldos iniciales
+1;01/09/2026;1.1.03;Mercaderías;25000000;0;Saldos iniciales
+1;01/09/2026;1.2.01;Muebles y útiles;9000000;0;Saldos iniciales
+1;01/09/2026;3.1.01;Capital;0;64000000;Saldos iniciales
+2;03/09/2026;1.1.03;Mercaderías;9000000;0;Compra contado 10 %
+2;03/09/2026;1.1.04;IVA Crédito Fiscal;900000;0;Compra contado 10 %
+2;03/09/2026;1.1.02;Banco Ysyry cta. cte.;0;9900000;Compra contado 10 %
+3;05/09/2026;1.1.03;Mercaderías;7000000;0;Compra crédito 5 %
+3;05/09/2026;1.1.04;IVA Crédito Fiscal;350000;0;Compra crédito 5 %
+3;05/09/2026;2.1.01;Proveedores;0;7350000;Compra crédito 5 %
+4;05/09/2026;1.1.03;Mercaderías;7000000;0;Compra crédito 5 %
+4;05/09/2026;1.1.04;IVA Crédito Fiscal;350000;0;Compra crédito 5 %
+4;05/09/2026;2.1.01;Proveedores;0;7350000;Compra crédito 5 %
+5;09/09/2026;1.1.01;Caja;19800000;0;Venta contado 10 %
+5;09/09/2026;4.1.01;Ventas;0;18000000;Venta contado 10 %
+5;09/09/2026;2.1.03;IVA Débito Fiscal;0;1800000;Venta contado 10 %
+6;09/09/2026;1.1.01;Caja;12862500;0;Venta contado 5 %
+6;09/09/2026;4.1.01;Ventas;0;12250000;Venta contado 5 %
+6;09/09/2026;2.1.03;IVA Débito Fiscal;0;612500;Venta contado 5 %
+7;15/09/2026;1.1.02;Banco Ysyry cta. cte.;20000000;0;Depósito
+7;15/09/2026;1.1.01;Caja;0;20000000;Depósito
+8;20/09/2026;5.2.01;Alquileres;3000000;0;Alquiler
+8;20/09/2026;1.1.04;IVA Crédito Fiscal;300000;0;Alquiler
+8;20/09/2026;1.1.02;Banco Ysyry cta. cte.;0;3300000;Alquiler
+9;25/09/2026;5.2.02;Servicios básicos;872000;0;Servicios
+9;25/09/2026;1.1.04;IVA Crédito Fiscal;87200;0;Servicios
+9;25/09/2026;1.1.01;Caja;0;959200;Servicios
+10;30/09/2026;5.2.03;Sueldos y jornales;3200000;0;Sueldos e IPS
+10;30/09/2026;5.2.04;Aporte patronal IPS;528000;0;Sueldos e IPS
+10;30/09/2026;1.1.01;Caja;0;2912000;Sueldos e IPS
+10;30/09/2026;2.1.02;IPS a pagar;0;816000;Sueldos e IPS
+11;30/09/2026;3.1.02;Retiros de la propietaria;2000000;0;Retiro de propietaria
+11;30/09/2026;1.1.01;Caja;0;2000000;Retiro de propietaria

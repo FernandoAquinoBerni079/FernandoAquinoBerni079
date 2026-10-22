@@ -1,0 +1,52 @@
+# Bitácora R1 → R2 · Informática 3.º BTC
+
+Generada automáticamente desde `registro_r2_3btc.json`. Cada fila es un cambio aplicado por el constructor sobre la copia R1 (solo lectura); «Apariciones» es la cantidad verificada: si el texto de origen no aparecía exactamente esas veces, la construcción se detenía.
+
+| N.º | Documento | Antes (R1) | Después (R2) | Apariciones | Motivo / hallazgo |
+|---|---|---|---|---|---|
+| 1 | Tomo | Revisión de contenido octubre de 2026. | Revisión R2, 22 de octubre de 2026. | 1 | Identificación de la versión |
+| 2 | Tomo | Lo que se imprime o se envía por celular es el KuDE, la representación gráfica del DTE, con un código QR que permite verificar su validez en el portal de la DNIT. | La entrega depende del receptor: si también es facturador electrónico, recibe el archivo electrónico (XML); si no lo es, o si es consumidor final, recibe el KuDE en papel o en formato digital. El KuDE es la representación gráfica del DTE, con su código de con… | 1 | H-3-02: la entrega depende del receptor (XML al electrónico; KuDE al no electrónico o consumidor final) |
+| 3 | Tomo | KuDE: representación gráfica del DTE, con código QR para su verificación. | KuDE: representación gráfica del DTE, con CDC y código QR para su verificación; se entrega al receptor no electrónico o al consumidor final. | 1 | H-3-02: la entrega depende del receptor (XML al electrónico; KuDE al no electrónico o consumidor final) |
+| 4 | Tomo | Recorrido de un comprobante en el SIFEN: de DE a DTE y KuDE. | Recorrido simplificado de un comprobante en el SIFEN: del DE al DTE y su entrega según el receptor. | 1 | H-3-02: la entrega depende del receptor (XML al electrónico; KuDE al no electrónico o consumidor final) |
+| 5 | Tomo | el artículo 76 exige autorización judicial para medios mecánicos u otros sistemas modernos, salvo disposición contraria de leyes especiales. | el artículo 76, en el texto dado por la Ley 4924/2013, admite llevarlos por medios mecánicos u otros sistemas modernos mediante una comunicación del sistema, con firma certificada por escribano, ante la Dirección de Registro Público de Comercio, sin necesidad… | 1 | H-3-01: el art. 76 fue modificado por la Ley 4924/2013; la autorización judicial ya no rige |
+| 6 | Tomo | Casi siempre se elige rango de fechas, nivel de detalle y si se incluyen cuentas sin movimiento. | Casi siempre se elige rango de fechas, nivel de detalle y si se incluyen cuentas sin movimiento. Además de libros y balances, el módulo emite otros registros: el registro de compras y de ventas que respalda la liquidación del IVA, los listados de comprobantes… | 1 | H-3-08: el programa incluye «otros registros» y el tomo no los nombraba |
+| 7 | Tomo | en cuanto a las notas sobre utilidades, reservas y resultados distribuibles. | en cuanto a las notas sobre utilidades, reservas y resultados distribuibles. En el caso didáctico San Blas liquida IRE SIMPLE: el profesional verifica si esa obligación le alcanza antes de preparar una presentación. | 1 | H-3-07: la obligación 948 no se presenta como aplicable automáticamente a una unipersonal en SIMPLE |
+| 8 | Tomo | hoja de 1080 × 1080 px, modo RGB y fondo transparente; | hoja de 1080 × 1080 px, modo RGB y fondo de color; | 1 | H-3-03: sincronizado con la tabla de la clase 12 y con la Práctica 12 (fondo de color) |
+| 9 | Tomo | Un filtro recalcula todos los píxeles: original, desenfoque, contraste e inversión. | Cuatro filtros como operaciones sobre los valores de la imagen: desenfoque, contraste, escala de grises e inversión. | 1 | H-3-04: el pie no coincidía con los cuatro paneles de la figura 16 |
+| 10 | Tomo | El estudio propone para la despensa el dominio sanblas.com.py y | El estudio propone para la despensa el dominio sanblas.com.py (nombre de ejemplo: no se verificó su disponibilidad y no corresponde a un sitio publicado) y | 1 | H-3-06: el esquema web no se presenta como sitio publicado |
+| 11 | Tomo | Salto de página manual en párrafo propio | Salto de página anterior en ese párrafo | 0 | H-3-12: evita páginas en blanco cuando la clase termina justo al pie |
+| 12 | Tomo | Preguntas abiertas sin espacio para responder | 174 renglones (2 en la diagnóstica y en las evaluaciones de unidad, 3 en clases, 4 en etapas) | 174 | H-3-09: el estudiante trabaja sobre el tomo; las abiertas llevan renglones |
+| 13 | Tomo | 20 figuras R1 | 20 figuras R2 (17 propuestas, 2 corregidas, 1 vectorial) | 20 | Decisiones de figuras; ancho de 14,2 cm conservado |
+| 14 | Laboratorio | Revisión de contenido octubre de 2026. | Revisión R2, 22 de octubre de 2026. | 1 | Identificación de la versión |
+| 15 | Laboratorio | Emitir cualquier reporte vacío y verificar que el encabezado | Emití cualquier reporte vacío y verificá que el encabezado | 1 | H-3-13: consigna en infinitivo; el resto del cuaderno usa voseo imperativo |
+| 16 | Laboratorio | redactá una conciliación bancaria suponiendo que el extracto muestra un cheque de ₲ 1.500.000 aún no cobrado. | redactá una conciliación bancaria suponiendo que San Blas emitió y registró un cheque de ₲ 1.500.000 que el banco todavía no debitó, por lo que no figura en el extracto. | 1 | H-3-10: un cheque no cobrado no aparece en el extracto; se alinea con la orientación del solucionario |
+| 17 | Laboratorio | Armá la presentación final del proyecto integrador: contabilidad, pack gráfico y sitio en tres minutos. | Prepará el guion de la presentación final del proyecto integrador (contabilidad, pack gráfico y sitio) para exponerlo en tres minutos; el docente organiza las exposiciones por grupos o por muestreo. | 1 | H-3-11: una exposición individual de tres minutos por estudiante no entra en el encuentro de cierre |
+| 18 | Laboratorio | 18 imágenes R1 | 18 figuras R2 según el cotejo por contenido | 18 | Imagen n.º i del cuaderno = figura [1, 2, 3, 4, 5, 7, 8, 9, 10, 12, 13, 14, 15, 16, 17, 18, 19, 20] del tomo; alto R1 conservado (ancho × 0,895) |
+| 19 | Plan_anual | Revisión de contenido octubre de 2026. | Revisión R2, 22 de octubre de 2026. | 1 | Identificación de la versión |
+| 20 | Plan_anual | cierre con la presentación del proyecto integrador del año | preparación del guion del proyecto integrador del año (exposición de tres minutos por grupos o por muestreo) | 1 | H-3-11 |
+| 21 | Plan_anual | Las capacidades subrayadas del programa oficial constituyen la base de la promoción en la disciplina. | Las capacidades subrayadas del programa oficial constituyen la base de la promoción en la disciplina. Según el PDF consultado, son las capacidades «Aplica…», «Diseña…» y «Edita…»; la institución confirma esta lectura. | 1 | H-3-05: identificar las capacidades subrayadas sin atribuir al MEC una decisión editorial |
+| 22 | Plan_anual | UNIDAD 1 — El sistema administrativo contable y su configuración | Banda de unidad con la capacidad del programa | 1 | H-3-05: el plan anual no mostraba las capacidades |
+| 23 | Plan_anual | UNIDAD 2 — Archivos maestros y registración en el sistema | Banda de unidad con la capacidad del programa | 1 | H-3-05: el plan anual no mostraba las capacidades |
+| 24 | Plan_anual | UNIDAD 3 — Mayor, balances y estados financieros desde el sistema | Banda de unidad con la capacidad del programa | 1 | H-3-05: el plan anual no mostraba las capacidades |
+| 25 | Plan_anual | UNIDAD 4 — Editor de imágenes rasterizadas: entorno, capas y edición básica | Banda de unidad con la capacidad del programa | 1 | H-3-05: el plan anual no mostraba las capacidades |
+| 26 | Plan_anual | UNIDAD 5 — Efectos, series y exportación: el pack publicitario de San Blas | Banda de unidad con la capacidad del programa | 1 | H-3-05: el plan anual no mostraba las capacidades |
+| 27 | Plan_anual | UNIDAD 6 — Sitios web: identificación, publicación y promoción | Banda de unidad con la capacidad del programa | 1 | H-3-05: el plan anual no mostraba las capacidades |
+| 28 | Plan_anual | Tres párrafos vacíos antes de la firma | Uno | 2 | H-3-05: la firma no queda sola en una página |
+| 29 | Solucionario | Revisión de contenido octubre de 2026. | Revisión R2, 22 de octubre de 2026. | 1 | Identificación de la versión |
+| 30 | Solucionario | El caso asume IRE SIMPLE y la proyección verifica que no supera ₲ 2.000.000.000; el monto por sí solo no determina el régimen | El caso asume IRE SIMPLE y la proyección solo verifica que no supera su tope; el monto por sí solo no determina el régimen | 1 | H-3-14: texto de la clave idéntico a la opción d) del tomo |
+| 31 | Solucionario | conversión en DTE, entrega del KuDE al cliente e imputación | conversión en DTE, entrega al receptor (XML si es facturador electrónico; KuDE si no lo es o si es consumidor final) e imputación | 1 | H-3-02 |
+| 32 | Solucionario | 7. declarada | 7. cerrada (se aceptan «utilizada» o «declarada» con justificación coherente) | 1 | H-3-15: la clave usaba un término que el tomo no enseña |
+| 33 | Solucionario | Ley 1034/83, artículos 74–76, | Ley 1034/83, artículos 74–76, con el art. 76 en el texto de la Ley 4924/2013 (comunicación al Registro Público de Comercio, sin orden judicial), | 1 | H-3-01 |
+| 34 | Solucionario | P20: cinco pasos con responsables e indicadores medibles. | P20: cinco pasos con responsables e indicadores medibles. La exposición de tres minutos se organiza por grupos o por muestreo. | 1 | H-3-11 |
+| 35 | Planes_de_clase | Revisión de contenido octubre de 2026. | Revisión R2, 22 de octubre de 2026. | 1 | Identificación de la versión |
+| 36 | Planes_de_clase | cierre con la presentación del proyecto integrador del año | preparación del guion del proyecto integrador del año (exposición de tres minutos por grupos o por muestreo) | 2 | H-3-11: sincronizado con el plan anual y la Práctica 20 |
+| 37 | Planes_de_clase | Cuerpo de 7,5 pt en las tablas de los planes | Cuerpo de 9,5 pt (igual que 2.º); cada plan sigue en su página | 1728 | H-3-16: legibilidad |
+| 38 | Planes_de_clase | Renglón de 30 guiones en la celda Docente | 22 guiones | 36 | H-3-16: evitar que el renglón se parta en dos líneas |
+| 39 | Tomo | Rótulo de actividades al pie de página, separado de sus consignas | Salto de página anterior en el rótulo | 4 | H-3-12: Actividades de la clase 1; Actividades de la clase 10; Actividades de la clase 11; Actividades de la clase 18 |
+
+## Índices estáticos recalculados
+
+Números de página buscados en el PDF renderizado de R2 (segunda pasada; la primera ya había corregido los desplazamientos).
+
+- **tomo**: 28 entradas verificadas contra el render.
+- **planes**: 36 entradas verificadas contra el render.

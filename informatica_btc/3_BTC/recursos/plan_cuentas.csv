@@ -1,0 +1,18 @@
+﻿Codigo;Cuenta;Tipo
+1.1.01;Caja;Imputable
+1.1.02;Banco Ysyry cta. cte.;Imputable
+1.1.03;Mercaderías;Imputable
+1.1.04;IVA Crédito Fiscal;Imputable
+1.2.01;Muebles y útiles;Imputable
+2.1.01;Proveedores;Imputable
+2.1.02;IPS a pagar;Imputable
+2.1.03;IVA Débito Fiscal;Imputable
+2.1.04;IVA a pagar;Imputable
+3.1.01;Capital;Imputable
+3.1.02;Retiros de la propietaria;Imputable
+4.1.01;Ventas;Imputable
+5.1.01;Costo de mercaderías vendidas;Imputable
+5.2.01;Alquileres;Imputable
+5.2.02;Servicios básicos;Imputable
+5.2.03;Sueldos y jornales;Imputable
+5.2.04;Aporte patronal IPS;Imputable

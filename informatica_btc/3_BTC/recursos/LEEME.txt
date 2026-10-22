@@ -1,0 +1,8 @@
+Recursos auxiliares de la edición corregida de Informática 3.º BTC.
+Datos ficticios derivados del caso existente San Blas. No son comprobantes fiscales.
+CSV UTF-8 con BOM, separador punto y coma, importes enteros. Abrir los códigos de cuenta como TEXTO.
+La importación depende del sistema: mapear campos primero en una empresa ficticia; nunca asumir un formato universal.
+La base tiene 10 asientos antes de ajustes. Las copias de errores mantienen partida doble y se usan por separado.
+Imputación: compra 03/09 lleva 9.000.000 a Muebles en vez de Mercaderías.
+Duplicación: repite compra 05/09; 11 asientos y total 151.249.700.
+Estos auxiliares completan consignas existentes y no reemplazan una prueba operativa en el programa del laboratorio.
