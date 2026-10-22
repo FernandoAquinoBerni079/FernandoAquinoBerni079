@@ -59,8 +59,9 @@ def tomo():
 
 
 # ================================================================== LABORATORIO
-def lab(anchos=None):
+def lab(anchos=None, extra=None):
     anchos = anchos or {n: ANCHO for n in range(1, 14)}
+    extra = extra or {}                 # {n.º de práctica: renglones de anotaciones adicionales}
     d = abrir('Laboratorio'); k = 'Laboratorio'
     R(d, k, *VERSION, 1, 'Identificación de la versión')
     R(d, k, '7. Escribí un párrafo breve, como si fuera la respuesta del estudio a un cliente, explicando desde cuándo debe emitir electrónicamente y cómo lo verifica.',
@@ -81,6 +82,18 @@ def lab(anchos=None):
             renglon.addnext(copy.deepcopy(renglon)); restaurados += 1
     reg(k, 'Prácticas 10 y 14 con un solo renglón de anotaciones', 'Tres renglones, como en las demás prácticas', restaurados,
         'R3-2-01: no se recorta espacio de trabajo para que la práctica entre en una página')
+    n_extra = 0
+    for p, cant in extra.items():
+        ps = d.paragraphs
+        i = next(j for j, q in enumerate(ps) if q.text.startswith('Práctica %d ·' % p) and q.style.name.startswith('Heading'))
+        j = next(j for j in range(i, len(ps)) if ps[j].text == 'Anotaciones')
+        renglon = ps[j + 1]._p
+        for _ in range(cant):
+            renglon.addnext(copy.deepcopy(renglon)); n_extra += 1
+    if extra:
+        reg(k, 'Prácticas %s: segunda página con solo el desafío y tres renglones' % ', '.join(map(str, sorted(extra))),
+            'Renglones de anotaciones hasta el pie de esa página', n_extra,
+            'R3-2-01: esas prácticas ocupan dos páginas para no bajar la figura de 7 pt; la segunda se usa como espacio de trabajo')
     return d
 
 
@@ -187,8 +200,21 @@ def ajustar_laboratorio():
                     cambio = True
         if not cambio:
             break
-    lab(anchos).save(ruta('Laboratorio'))
+    n0 = len(U.REGISTRO); lab(anchos).save(ruta('Laboratorio')); del U.REGISTRO[n0:]
     paginas = practicas_por_pagina(U.a_pdf(ruta('Laboratorio'), PDF))
+    # prácticas en dos páginas: se agregan renglones de anotaciones mientras no se cree una tercera página
+    dobles = [p for p, pg in paginas.items() if len(pg) > 1]
+    extra = {p: 0 for p in dobles}
+    for paso in (16, 8, 4, 2, 1):
+        for p in dobles:
+            prueba = dict(extra); prueba[p] += paso
+            n0 = len(U.REGISTRO); lab(anchos, prueba).save(ruta('Laboratorio')); del U.REGISTRO[n0:]
+            pg = practicas_por_pagina(U.a_pdf(ruta('Laboratorio'), PDF))
+            if len(pg[p]) == len(paginas[p]) and sum(map(len, pg.values())) == sum(map(len, paginas.values())):
+                extra = prueba
+    n0 = len(U.REGISTRO); lab(anchos, extra).save(ruta('Laboratorio')); del U.REGISTRO[n0:]
+    paginas = practicas_por_pagina(U.a_pdf(ruta('Laboratorio'), PDF))
+    globals()['EXTRA_LAB'] = extra
     json.dump({'anchos_cm': anchos, 'ancho_minimo_cm': ANCHO_MIN, 'paginas_por_practica': paginas,
                'figura_de_practica': figura_de},
               open(os.path.join(AQUI, 'ajuste_laboratorio_r3_2btc.json'), 'w', encoding='utf8'), ensure_ascii=False, indent=1)
@@ -200,10 +226,12 @@ CLAVE = lambda t: t.rstrip('…').strip()
 
 if __name__ == '__main__':
     os.makedirs(R3, exist_ok=True); os.makedirs(PDF, exist_ok=True)
-    docs = {'Tomo': tomo(), 'Laboratorio': lab(), 'Plan_anual': plan(), 'Solucionario': sol(), 'Planes_de_clase': planes()}
+    docs = {'Tomo': tomo(), 'Plan_anual': plan(), 'Solucionario': sol(), 'Planes_de_clase': planes()}
     for k, d in docs.items():
         d.save(ruta(k))
+    n0 = len(U.REGISTRO); lab().save(ruta('Laboratorio')); del U.REGISTRO[n0:]   # base para el ajuste
     anchos = ajustar_laboratorio()
+    lab(anchos, EXTRA_LAB).save(ruta('Laboratorio'))           # versión final, la única registrada en la bitácora
     indices = {}
     for pasada in (1, 2):
         for k in ('Tomo', 'Laboratorio', 'Solucionario', 'Planes_de_clase'):

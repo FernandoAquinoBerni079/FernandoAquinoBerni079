@@ -29,34 +29,6 @@
    "motivo": "R3-2-02 (O-2-05): ícono neutro en la Figura 1 · R3-2-04: la celda B3 de la Figura 2 muestra un régimen, no un importe"
   },
   {
-   "documento": "Laboratorio",
-   "antes": "Revisión R2, 22 de octubre de 2026.",
-   "despues": "Revisión R3, 22 de octubre de 2026.",
-   "apariciones": 1,
-   "motivo": "Identificación de la versión"
-  },
-  {
-   "documento": "Laboratorio",
-   "antes": "7. Escribí un párrafo breve, como si fuera la respuesta del estudio a un cliente, explicando desde cuándo debe emitir electrónicamente y cómo lo verifica.",
-   "despues": "7. Escribí un párrafo breve, como si fuera la respuesta del estudio a un cliente, explicando desde cuándo debe emitir electrónicamente y cómo lo verifica: en el cronograma vigente del portal y en su buzón tributario Marandu.",
-   "apariciones": 1,
-   "motivo": "R3-2-07: el punto de control exige mencionar el buzón tributario, pero ningún paso lo pedía"
-  },
-  {
-   "documento": "Laboratorio",
-   "antes": "Figuras a 12 cm (Práctica 10: 8 cm; Práctica 14: 9,5 cm): textos de 4,5 a 6,6 pt",
-   "despues": "Figuras entre 15.5 y 15,5 cm; ningún texto de figura por debajo de 7 pt (detalle por figura en LEGIBILIDAD_R3_2BTC.md)",
-   "apariciones": 13,
-   "motivo": "R3-2-01: legibilidad; una práctica puede ocupar dos páginas antes que achicar la figura por debajo de 7 pt"
-  },
-  {
-   "documento": "Laboratorio",
-   "antes": "Prácticas 10 y 14 con un solo renglón de anotaciones",
-   "despues": "Tres renglones, como en las demás prácticas",
-   "apariciones": 4,
-   "motivo": "R3-2-01: no se recorta espacio de trabajo para que la práctica entre en una página"
-  },
-  {
    "documento": "Plan_anual",
    "antes": "Revisión R2, 22 de octubre de 2026.",
    "despues": "Revisión R3, 22 de octubre de 2026.",
@@ -125,6 +97,13 @@
    "despues": "Tres renglones, como en las demás prácticas",
    "apariciones": 4,
    "motivo": "R3-2-01: no se recorta espacio de trabajo para que la práctica entre en una página"
+  },
+  {
+   "documento": "Laboratorio",
+   "antes": "Prácticas 1, 10, 14: segunda página con solo el desafío y tres renglones",
+   "despues": "Renglones de anotaciones hasta el pie de esa página",
+   "apariciones": 93,
+   "motivo": "R3-2-01: esas prácticas ocupan dos páginas para no bajar la figura de 7 pt; la segunda se usa como espacio de trabajo"
   }
  ],
  "indices": {
